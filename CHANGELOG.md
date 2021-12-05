@@ -6,6 +6,7 @@
 **Fixes**
 - Fixed any entites being slower than usual.
 - Fixed incorrect default options/keybinds (tab etc will now work on servers).
+- Fixed waterlogged trapdoors crashing your game.
 
 **Added**
 - Default Options: defaultoptions-fabric-1.18-14.0.0.jar  
