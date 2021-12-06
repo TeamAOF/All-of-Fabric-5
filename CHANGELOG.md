@@ -1,3 +1,31 @@
+<h1>0.1.4</h1>
+
+<h2>Be sure to always backup your world(s) before updating!</h2>
+
+**Changes**
+- WTHIT now hides when advancement popup happens.
+- Lowered spawnrates of all mythic mounts.
+- Added NA South default server.
+
+**Fixes**
+- Fixed rubber trees not generating.
+
+**Added**
+- Botania: Botania-1.18-424-FABRIC.jar  
+- Horse Info: hwyla-addon-horseinfo-0.4.0-1.18.jar  
+- KleeSlabs: kleeslabs-fabric-1.18-11.0.0.jar  
+  
+**Updated**  
+- Expanded Storage: expandedstorage-7.3.2+1.18.jar  
+- Light Overlay: light-overlay-6.0.4.jar  
+- Reborn Core: RebornCore-5.1.0-beta.3.jar  
+- Roughly Enough Items: RoughlyEnoughItems-7.0.346.jar  
+- Tech Reborn: TechReborn-5.1.0-beta.3.jar  
+- Waystones: wraith-waystones-2.3.2.jar  
+- Xaero's Minimap: Xaeros_Minimap_21.22.3.1_Fabric_1.18.jar  
+- Xaero's World Map: XaerosWorldMap_1.18.6.1_Fabric_1.18.jar  
+---------------------------------------------------------------------------------------------
+
 <h1>0.1.3</h1>
 
 <h2>Be sure to always backup your world(s) before updating!</h2>
