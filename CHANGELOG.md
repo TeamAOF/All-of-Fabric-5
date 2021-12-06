@@ -1,3 +1,17 @@
+<h1>0.1.3</h1>
+
+<h2>Be sure to always backup your world(s) before updating!</h2>
+
+**Fixes**
+- Fixed AE2 Meteors not spawning.
+
+**Removed**  
+- Paxi: Paxi-Fabric-1.17-1.2.2.jar  
+- YUNG's API: YungsApi-1.17-Fabric-19.jar  
+  
+**Updated**  
+- Modern Industrialization: Modern-Industrialization-1.0.0-alpha.04.jar  
+---------------------------------------------------------------------------------------------
 
 <h1>0.1.2</h1>
 
