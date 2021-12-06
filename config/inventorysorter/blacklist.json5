@@ -1,0 +1,6 @@
+{
+	// Inventories that should not be sorted
+	"doNotSortList": [],
+	// Inventories that should not display any sort buttons
+	"hideSortBtnsList": []
+}

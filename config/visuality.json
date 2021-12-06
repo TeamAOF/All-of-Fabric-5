@@ -1,0 +1,20 @@
+{
+  "version": 2,
+  "particles": {
+    "slime": true,
+    "charge": true,
+    "sparkle": true,
+    "water_circle": true
+  },
+  "hit_particles": {
+    "enabled": true,
+    "entries": [
+      "minecraft:skeleton|visuality:bone",
+      "minecraft:skeleton_horse|visuality:bone",
+      "minecraft:stray|visuality:bone",
+      "minecraft:wither_skeleton|visuality:wither_bone",
+      "minecraft:chicken|visuality:feather",
+      "minecraft:villager|visuality:emerald"
+    ]
+  }
+}

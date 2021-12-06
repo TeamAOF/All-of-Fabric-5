@@ -1,0 +1,3 @@
+key_key.craftingtweaks.refill_last:key.keyboard.unknown:NONE
+key_key.craftingtweaks.refill_last_stack:key.keyboard.unknown:NONE
+key_key.okzoomer.zoom:key.keyboard.c:NONE

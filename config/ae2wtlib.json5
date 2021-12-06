@@ -1,0 +1,7 @@
+{
+	"wutChargeRateMultiplier": 30.0,
+	"wutBatterySizeMultiplier": 3.0,
+	"outOfRangePowerMultiplier": 2.0,
+	"magnetCardRange": 16.0,
+	"enableTrinket": true
+}

@@ -1,0 +1,1412 @@
+{
+	"RSAllowDisallowConfig": {
+		/* 
+		   
+		   
+		   Adds modded loot from vanilla structure's loot tables and injects them into Repurposed Structure's loot tables.
+		   Example: Snowy Pyramid gets all modded items that vanilla Desert Temple can have
+		*/
+		"importModdedItems": true,
+		/* 
+		   
+		   
+		   Add the identifiers for Repurposed Structures's loottable you want to
+		    turn off the automatic modded item importing code for. 
+		    Separate multiple entries with a comma.
+		   Example: "repurposed_structures:chests/mansions/birch, repurposed_structures:chests/mineshafts/jungle"
+		*/
+		"blacklistedRSLoottablesFromImportingModdedItems": "",
+		/* 
+		   
+		   
+		   If you are in the config GUI in-game and are looking for the configs to
+		   allow or disallow Repurposed Structure's structures from dimensions or biomes,
+		   please take a look at the biome_dimension_allow_disallow_configs.json5 file in the config folder.
+		   Cloth Config API cannot show maps so you will need to edit the file itself.
+		*/
+		"seeConfigFileForBiomeAndDimensionAllowDisallow": "Read comment above"
+	},
+	"RSNaturalMobSpawningConfig": {
+		/* 
+		   
+		   
+		   If you are in the config GUI in-game and are looking for the configs to
+		   control what mobs spawn over time in Repurposed Structure's structures,
+		   please take a look at the natural_mob_spawning_configs.json5 file in the config folder.
+		   Cloth Config API cannot show maps so you will need to edit the file itself.
+		*/
+		"seeConfigFileForStructureNaturalMobSpawning": "Read comment above"
+	},
+	"RSBastionsConfig": {
+		/* 
+		   
+		   
+		   How rare are Underground Bastions in non-ocean and non-beach Overworld biomes.
+		   1 for spawning in most chunks and 10001 for none.
+		*/
+		"bastionUndergroundAverageChunkDistance": 500
+	},
+	"RSCitiesConfig": {
+		/* 
+		   
+		   
+		   How rare are Nether Cities in Nether biomes.
+		   1 for spawning in most chunks and 1001 for none.
+		*/
+		"cityNetherAverageChunkDistance": 110
+	},
+	"RSDungeonsConfig": {
+		"attemptsPerChunk": {
+			/* 
+			   
+			   
+			   Replaces vanilla dungeon in Badlands biomes.
+			   Spawn attempts per chunk.
+			   0 for no Dungeons at all and 1000 for max spawnrate.
+			   Note: When set to 0, Vanilla Dungeons spawns again.
+			*/
+			"badlandsDungeonAttemptsPerChunk": 8,
+			/* 
+			   
+			   
+			   Replaces vanilla dungeon in Dark Forest biomes.
+			   Spawn attempts per chunk.
+			   0 for no Dungeons at all and 1000 for max spawnrate.
+			   Note: When set to 0, Vanilla Dungeons spawns again.
+			*/
+			"darkForestDungeonAttemptsPerChunk": 8,
+			/* 
+			   
+			   
+			   Replaces vanilla dungeon in Desert biomes.
+			   Spawn attempts per chunk.
+			   0 for no Dungeons at all and 1000 for max spawnrate.
+			   Note: When set to 0, Vanilla Dungeons spawns again.
+			*/
+			"desertDungeonAttemptsPerChunk": 8,
+			/* 
+			   
+			   
+			   Replaces vanilla dungeon in Jungle biomes.
+			   Spawn attempts per chunk.
+			   0 for no Dungeons at all and 1000 for max spawnrate.
+			   Note: When set to 0, Vanilla Dungeons spawns again.
+			*/
+			"jungleDungeonAttemptsPerChunk": 8,
+			/* 
+			   
+			   
+			   Replaces vanilla dungeon in Mushroom biomes.
+			   Spawn attempts per chunk.
+			   0 for no Dungeons at all and 1000 for max spawnrate.
+			   Note: When set to 0, Vanilla Dungeons spawns again.
+			*/
+			"mushroomDungeonAttemptsPerChunk": 8,
+			/* 
+			   
+			   
+			   Replaces vanilla dungeon in snowy biomes.
+			   Spawn attempts per chunk.
+			   0 for no Dungeons at all and 1000 for max spawnrate.
+			   Note: When set to 0, Vanilla Dungeons spawns again.
+			*/
+			"snowDungeonAttemptsPerChunk": 8,
+			/* 
+			   
+			   
+			   Replaces vanilla dungeon in icy biomes (non-ocean biomes that are super cold or has frozen/ice/icy in name)
+			   Spawn attempts per chunk.
+			   0 for no Dungeons at all and 1000 for max spawnrate.
+			   Note: When set to 0, Vanilla Dungeons spawns again.
+			*/
+			"icyDungeonAttemptsPerChunk": 8,
+			/* 
+			   
+			   
+			   Replaces vanilla dungeon in Swamp biomes.
+			   Spawn attempts per chunk.
+			   0 for no Dungeons at all and 1000 for max spawnrate.
+			   Note: When set to 0, Vanilla Dungeons spawns again.
+			*/
+			"swampDungeonAttemptsPerChunk": 8,
+			/* 
+			   
+			   
+			   Add End themed dungeon to biomes outside the Enderdragon island.
+			   Spawn attempts per chunk.
+			   0 for no Dungeons at all and 1000 for max spawnrate.
+			*/
+			"endDungeonAttemptsPerChunk": 12,
+			/* 
+			   
+			   
+			   Add Nether themed dungeon to Nether biomes.
+			   Spawn attempts per chunk.
+			   0 for no Dungeons at all and 1000 for max spawnrate.
+			*/
+			"netherDungeonAttemptsPerChunk": 12,
+			/* 
+			   
+			   
+			   Add ocean themed dungeon to ocean biomes. Will spawn on
+			   ocean floor and in water filled caves and ravines.
+			   Spawn attempts per chunk.
+			   0 for no dungeons at all and 1000 for max spawnrate.
+			   Note: Vanilla Dungeons will still generate if this
+			   is on which is unlike the other dungeons from this mod
+			   as those would normally replace the Vanilla Dungeons.
+			*/
+			"oceanDungeonAttemptsPerChunk": 5
+		},
+		"minHeight": {
+			/* 
+			   
+			   
+			   Minimum Y height that this dungeon can spawn at.
+			   Note: The dungeon will spawn between min and max y height set in config.
+			*/
+			"badlandsDungeonMinHeight": 2,
+			/* 
+			   
+			   
+			   Minimum Y height that this dungeon can spawn at.
+			   Note: The dungeon will spawn between min and max y height set in config.
+			*/
+			"darkForestDungeonMinHeight": 2,
+			/* 
+			   
+			   
+			   Minimum Y height that this dungeon can spawn at.
+			   Note: The dungeon will spawn between min and max y height set in config.
+			*/
+			"desertDungeonMinHeight": 2,
+			/* 
+			   
+			   
+			   Minimum Y height that this dungeon can spawn at.
+			   Note: The dungeon will spawn between min and max y height set in config.
+			*/
+			"jungleDungeonMinHeight": 2,
+			/* 
+			   
+			   
+			   Minimum Y height that this dungeon can spawn at.
+			   Note: The dungeon will spawn between min and max y height set in config.
+			*/
+			"mushroomDungeonMinHeight": 2,
+			/* 
+			   
+			   
+			   Minimum Y height that this dungeon can spawn at.
+			   Note: The dungeon will spawn between min and max y height set in config.
+			*/
+			"snowDungeonMinHeight": 2,
+			/* 
+			   
+			   
+			   Minimum Y height that this dungeon can spawn at.
+			   Note: The dungeon will spawn between min and max y height set in config.
+			*/
+			"icyDungeonMinHeight": 2,
+			/* 
+			   
+			   
+			   Minimum Y height that this dungeon can spawn at.
+			   Note: The dungeon will spawn between min and max y height set in config.
+			*/
+			"swampDungeonMinHeight": 2,
+			/* 
+			   
+			   
+			   Minimum Y height that this dungeon can spawn at.
+			   Note: The dungeon will spawn between min and max y height set in config.
+			*/
+			"endDungeonMinHeight": 2,
+			/* 
+			   
+			   
+			   Minimum Y height that this dungeon can spawn at.
+			   Note: The dungeon will spawn between min and max y height set in config.
+			*/
+			"netherDungeonMinHeight": 2,
+			/* 
+			   
+			   
+			   Minimum Y height that this dungeon can spawn at.
+			   Note: The dungeon will spawn between min and max y height set in config.
+			*/
+			"oceanDungeonMinHeight": 3
+		},
+		"maxHeight": {
+			/* 
+			   
+			   
+			   Maximum Y height that this dungeon can spawn at.
+			   Note: The dungeon will spawn between min and max y height set in config.
+			   Setting this to below min height config will make dungeon spawn only at min height.
+			*/
+			"badlandsDungeonMaxHeight": 255,
+			/* 
+			   
+			   
+			   Maximum Y height that this dungeon can spawn at.
+			   Note: The dungeon will spawn between min and max y height set in config.
+			   Setting this to below min height config will make dungeon spawn only at min height.
+			*/
+			"darkForestDungeonMaxHeight": 255,
+			/* 
+			   
+			   
+			   Maximum Y height that this dungeon can spawn at.
+			   Note: The dungeon will spawn between min and max y height set in config.
+			   Setting this to below min height config will make dungeon spawn only at min height.
+			*/
+			"desertDungeonMaxHeight": 255,
+			/* 
+			   
+			   
+			   Maximum Y height that this dungeon can spawn at.
+			   Note: The dungeon will spawn between min and max y height set in config.
+			   Setting this to below min height config will make dungeon spawn only at min height.
+			*/
+			"jungleDungeonMaxHeight": 255,
+			/* 
+			   
+			   
+			   Maximum Y height that this dungeon can spawn at.
+			   Note: The dungeon will spawn between min and max y height set in config.
+			   Setting this to below min height config will make dungeon spawn only at min height.
+			*/
+			"mushroomDungeonMaxHeight": 255,
+			/* 
+			   
+			   
+			   Maximum Y height that this dungeon can spawn at.
+			   Note: The dungeon will spawn between min and max y height set in config.
+			   Setting this to below min height config will make dungeon spawn only at min height.
+			*/
+			"snowDungeonMaxHeight": 255,
+			/* 
+			   
+			   
+			   Maximum Y height that this dungeon can spawn at.
+			   Note: The dungeon will spawn between min and max y height set in config.
+			   Setting this to below min height config will make dungeon spawn only at min height.
+			*/
+			"icyDungeonMaxHeight": 255,
+			/* 
+			   
+			   
+			   Maximum Y height that this dungeon can spawn at.
+			   Note: The dungeon will spawn between min and max y height set in config.
+			   Setting this to below min height config will make dungeon spawn only at min height.
+			*/
+			"swampDungeonMaxHeight": 255,
+			/* 
+			   
+			   
+			   Maximum Y height that this dungeon can spawn at.
+			   Note: The dungeon will spawn between min and max y height set in config.
+			   Setting this to below min height config will make dungeon spawn only at min height.
+			*/
+			"endDungeonMaxHeight": 255,
+			/* 
+			   
+			   
+			   Maximum Y height that this dungeon can spawn at.
+			   Note: The dungeon will spawn between min and max y height set in config.
+			   Setting this to below min height config will make dungeon spawn only at min height.
+			*/
+			"netherDungeonMaxHeight": 255,
+			/* 
+			   
+			   
+			   Maximum Y height that this dungeon can spawn at.
+			   Note: The dungeon will spawn between min and max y height set in config.
+			   Setting this to below min height config will make dungeon spawn only at min height.
+			*/
+			"oceanDungeonMaxHeight": 255
+		}
+	},
+	"RSFortressesConfig": {
+		"jungleFortress": {
+			/* 
+			   
+			   
+			   How rare are Jungle Fortresses.
+			   1 for spawning in most chunks and 1001 for none.
+			*/
+			"jungleFortressAverageChunkDistance": 50,
+			/* 
+			   
+			   
+			   Size of the fortress. This is how many pieces long a branch can be from the start piece.
+			*/
+			"jungleFortressSize": 10,
+			/* 
+			   
+			   
+			   Min Y height that the starting point can spawn at.
+			*/
+			"jungleFortressMinHeight": 56,
+			/* 
+			   
+			   
+			   Max Y height that the starting point can spawn at.
+			   If below min height, this will be read as min.
+			*/
+			"jungleFortressMaxHeight": 63,
+			/* 
+			   
+			   
+			   How far above or below the fortress's pieces can generate away from the center piece.
+			*/
+			"jungleFortressVerticalRange": 33
+		}
+	},
+	"RSIgloosConfig": {
+		/* 
+		   
+		   
+		   How rare are Grassy Igloos in Plains and Forests.
+		   1 for spawning in most chunks and 1001 for none.
+		*/
+		"grassyIglooAverageChunkDistance": 20,
+		/* 
+		   
+		   
+		   How rare are Stone Igloos in Giant Tree Taiga biomes.
+		   1 for spawning in most chunks and 1001 for none.
+		*/
+		"stoneIglooAverageChunkDistance": 20
+	},
+	"RSMansionsConfig": {
+		/* 
+		   
+		   
+		   Only make supports downward if there is land below.
+		   (Helps make structure look better in floating island worlds instead of support going down to void at world bottom)
+		*/
+		"pillarOnlyToLand": true,
+		/* 
+		   
+		   
+		   How rare are Birch Mansions in Birch biomes.
+		   1 for spawning in most chunks and 1001 for none.
+		*/
+		"mansionBirchAverageChunkDistance": 140,
+		/* How rare are Jungle Mansions in Jungle biomes.
+		   1 for spawning in most chunks and 1001 for none.
+		*/
+		"mansionJungleAverageChunkDistance": 175,
+		/* 
+		   
+		   
+		   How rare are Oak Mansions in in forest category
+		   biomes that are not birch or dark forest.
+		   1 for spawning in most chunks and 1001 for none.
+		*/
+		"mansionOakAverageChunkDistance": 140,
+		/* 
+		   
+		   
+		   How rare are Savanna Mansions in Savanna biomes.
+		   1 for spawning in most chunks and 1001 for none.
+		*/
+		"mansionSavannaAverageChunkDistance": 175,
+		/* 
+		   
+		   
+		   How rare are Taiga Mansions in non-snowy Taiga biomes.
+		   1 for spawning in most chunks and 1001 for none.
+		*/
+		"mansionTaigaAverageChunkDistance": 165,
+		/* 
+		   
+		   
+		   How rare are Desert Mansions in Desert biomes.
+		   1 for spawning in most chunks and 1001 for none.
+		*/
+		"mansionDesertAverageChunkDistance": 175,
+		/* 
+		   
+		   
+		   How rare are Snowy Mansions in Snowy biomes.
+		   1 for spawning in most chunks and 1001 for none.
+		*/
+		"mansionSnowyAverageChunkDistance": 175
+	},
+	"RSMineshaftsConfig": {
+		"spawnrate": {
+			/* 
+			   
+			   
+			   Replaces Mineshafts in Birch biomes.
+			   How often Mineshafts will spawn.
+			   0 for no Mineshafts and 1000 for max spawnrate.
+			   Note: Set this to 0 and restart to spawn Vanilla Mineshafts.
+			*/
+			"birchMineshaftSpawnrate": 40,
+			/* 
+			   
+			   
+			   Replaces Mineshafts in Jungle biomes.
+			   How often Mineshafts will spawn.
+			   0 for no Mineshafts and 1000 for max spawnrate.
+			   Note: Set this to 0 and restart to spawn Vanilla Mineshafts.
+			*/
+			"jungleMineshaftSpawnrate": 40,
+			/* 
+			   
+			   
+			   Replaces Mineshafts in Desert biomes.
+			   How often Mineshafts will spawn.
+			   0 for no Mineshafts and 1000 for max spawnrate.
+			   Note: Set this to 0 and restart to spawn Vanilla Mineshafts.
+			*/
+			"desertMineshaftSpawnrate": 40,
+			/* 
+			   
+			   
+			   Replaces Mineshafts in Mountain (Extreme Hills) biomes.
+			   How often Mineshafts will spawn.
+			   0 for no Mineshafts and 1000 for max spawnrate.
+			   Note: Set this to 0 and restart to spawn Vanilla Mineshafts.
+			*/
+			"stoneMineshaftSpawnrate": 40,
+			/* 
+			   
+			   
+			   Replaces Mineshafts in Savanna biomes.
+			   How often Mineshafts will spawn.
+			   0 for no Mineshafts and 1000 for max spawnrate.
+			   Note: Set this to 0 and restart to spawn Vanilla Mineshafts.
+			*/
+			"savannaMineshaftSpawnrate": 40,
+			/* 
+			   
+			   
+			   Replaces Mineshafts in Snowy/Icy biomes.
+			   Note: Snowy Taiga Biomes will get Ice Mineshaft instead of Taiga theme.
+			   How often Mineshafts will spawn.
+			   0 for no Mineshafts and 1000 for max spawnrate.
+			   Note: Set this to 0 and restart to spawn Vanilla Mineshafts.
+			*/
+			"icyMineshaftSpawnrate": 40,
+			/* 
+			   
+			   
+			   Replaces Mineshafts in Ocean biomes.
+			   How often Mineshafts will spawn.
+			   0 for no Mineshafts and 1000 for max spawnrate.
+			   Note: Set this to 0 and restart to spawn Vanilla Mineshafts.
+			*/
+			"oceanMineshaftSpawnrate": 40,
+			/* 
+			   
+			   
+			   Replaces Mineshafts in Taiga biomes.
+			   How often Mineshafts will spawn.
+			   0 for no Mineshafts and 1000 for max spawnrate.
+			   Note: Set this to 0 and restart to spawn Vanilla Mineshafts.
+			*/
+			"taigaMineshaftSpawnrate": 40,
+			/* 
+			   
+			   
+			   Replaces Mineshafts in Swamps.
+			   How often Mineshafts will spawn.
+			   0 for no Mineshafts and 1000 for max spawnrate.
+			   Note: Set this to 0 and restart to spawn Vanilla Mineshafts.
+			*/
+			"swampMineshaftSpawnrate": 40,
+			/* 
+			   
+			   
+			   Replaces Mineshafts in Dark Forests.
+			   How often Mineshafts will spawn.
+			   0 for no Mineshafts and 1000 for max spawnrate.
+			   Note: Set this to 0 and restart to spawn Vanilla Mineshafts.
+			*/
+			"darkForestMineshaftSpawnrate": 40,
+			/* 
+			   
+			   
+			   Add End themed Mineshafts to biomes outside the Enderdragon island.
+			   How often Mineshafts will spawn.
+			   0 for no Mineshafts and 1000 for max spawnrate.
+			*/
+			"endMineshaftSpawnrate": 60,
+			/* 
+			   
+			   
+			   Add Nether themed Mineshafts to non-crimson and non-warped Nether biomes.
+			   How often Mineshafts will spawn.
+			   0 for no Mineshafts and 1000 for max spawnrate.
+			*/
+			"netherMineshaftSpawnrate": 40,
+			/* 
+			   
+			   
+			   Add Crimson themed Mineshafts to Crimson Nether biomes.
+			   How often Mineshafts will spawn.
+			   0 for no Mineshafts and 1000 for max spawnrate.
+			*/
+			"crimsonMineshaftSpawnrate": 40,
+			/* 
+			   
+			   
+			   Add Warped themed Mineshafts to Warped Nether biomes.
+			   How often Mineshafts will spawn.
+			   0 for no Mineshafts and 1000 for max spawnrate.
+			*/
+			"warpedMineshaftSpawnrate": 40
+		},
+		"minHeight": {
+			/* 
+			   
+			   
+			   Min Y height of Mineshaft
+			*/
+			"birchMineshaftMinHeight": 8,
+			/* 
+			   
+			   
+			   Min Y height of Mineshaft
+			*/
+			"jungleMineshaftMinHeight": 8,
+			/* 
+			   
+			   
+			   Min Y height of Mineshaft
+			*/
+			"desertMineshaftMinHeight": 8,
+			/* 
+			   
+			   
+			   Min Y height of Mineshaft
+			*/
+			"stoneMineshaftMinHeight": 8,
+			/* 
+			   
+			   
+			   Min Y height of Mineshaft
+			*/
+			"savannaMineshaftMinHeight": 8,
+			/* 
+			   
+			   
+			   Min Y height of Mineshaft
+			*/
+			"icyMineshaftMinHeight": 8,
+			/* 
+			   
+			   
+			   Min Y height of Mineshaft
+			*/
+			"oceanMineshaftMinHeight": 8,
+			/* 
+			   
+			   
+			   Min Y height of Mineshaft
+			*/
+			"taigaMineshaftMinHeight": 8,
+			/* 
+			   
+			   
+			   Min Y height of Mineshaft
+			*/
+			"swampMineshaftMinHeight": 8,
+			/* 
+			   
+			   
+			   Min Y height of Mineshaft
+			*/
+			"darkForestMineshaftMinHeight": 8,
+			/* 
+			   
+			   
+			   Min Y height of Mineshaft
+			*/
+			"netherMineshaftMinHeight": 6,
+			/* 
+			   
+			   
+			   Min Y height of Mineshaft
+			*/
+			"crimsonMineshaftMinHeight": 6,
+			/* 
+			   
+			   
+			   Min Y height of Mineshaft
+			*/
+			"warpedMineshaftMinHeight": 6
+		},
+		"maxHeight": {
+			/* 
+			   
+			   
+			   Max Y height of Mineshaft
+			   If below min height, this will be read as min.
+			*/
+			"birchMineshaftMaxHeight": 45,
+			/* 
+			   
+			   
+			   Max Y height of Mineshaft
+			   If below min height, this will be read as min.
+			*/
+			"jungleMineshaftMaxHeight": 45,
+			/* 
+			   
+			   
+			   Max Y height of Mineshaft
+			   If below min height, this will be read as min.
+			*/
+			"desertMineshaftMaxHeight": 45,
+			/* 
+			   
+			   
+			   Max Y height of Mineshaft
+			   If below min height, this will be read as min.
+			*/
+			"stoneMineshaftMaxHeight": 45,
+			/* 
+			   
+			   
+			   Max Y height of Mineshaft
+			   If below min height, this will be read as min.
+			*/
+			"savannaMineshaftMaxHeight": 45,
+			/* 
+			   
+			   
+			   Max Y height of Mineshaft
+			   If below min height, this will be read as min.
+			*/
+			"icyMineshaftMaxHeight": 45,
+			/* 
+			   
+			   
+			   Max Y height of Mineshaft
+			   If below min height, this will be read as min.
+			*/
+			"oceanMineshaftMaxHeight": 26,
+			/* 
+			   
+			   
+			   Max Y height of Mineshaft
+			   If below min height, this will be read as min.
+			*/
+			"taigaMineshaftMaxHeight": 45,
+			/* 
+			   
+			   
+			   Max Y height of Mineshaft
+			   If below min height, this will be read as min.
+			*/
+			"swampMineshaftMaxHeight": 45,
+			/* 
+			   
+			   
+			   Max Y height of Mineshaft
+			   If below min height, this will be read as min.
+			*/
+			"darkForestMineshaftMaxHeight": 45,
+			/* 
+			   
+			   
+			   Max Y height of Mineshaft
+			   If below min height, this will be read as min.
+			*/
+			"netherMineshaftMaxHeight": 17,
+			/* 
+			   
+			   
+			   Max Y height of Mineshaft
+			   If below min height, this will be read as min.
+			*/
+			"crimsonMineshaftMaxHeight": 14,
+			/* 
+			   
+			   
+			   Max Y height of Mineshaft
+			   If below min height, this will be read as min.
+			*/
+			"warpedMineshaftMaxHeight": 14
+		},
+		"size": {
+			/* 
+			   
+			   
+			   Size of the mineshaft. This is how many pieces long a branch can be from the start piece.
+			*/
+			"birchMineshaftSize": 10,
+			/* 
+			   
+			   
+			   Size of the mineshaft. This is how many pieces long a branch can be from the start piece.
+			*/
+			"jungleMineshaftSize": 6,
+			/* 
+			   
+			   
+			   Size of the mineshaft. This is how many pieces long a branch can be from the start piece.
+			*/
+			"desertMineshaftSize": 6,
+			/* 
+			   
+			   
+			   Size of the mineshaft. This is how many pieces long a branch can be from the start piece.
+			*/
+			"stoneMineshaftSize": 9,
+			/* 
+			   
+			   
+			   Size of the mineshaft. This is how many pieces long a branch can be from the start piece.
+			*/
+			"savannaMineshaftSize": 9,
+			/* 
+			   
+			   
+			   Size of the mineshaft. This is how many pieces long a branch can be from the start piece.
+			*/
+			"icyMineshaftSize": 9,
+			/* 
+			   
+			   
+			   Size of the mineshaft. This is how many pieces long a branch can be from the start piece.
+			*/
+			"oceanMineshaftSize": 9,
+			/* 
+			   
+			   
+			   Size of the mineshaft. This is how many pieces long a branch can be from the start piece.
+			*/
+			"taigaMineshaftSize": 9,
+			/* 
+			   
+			   
+			   Size of the mineshaft. This is how many pieces long a branch can be from the start piece.
+			*/
+			"swampMineshaftSize": 9,
+			/* 
+			   
+			   
+			   Size of the mineshaft. This is how many pieces long a branch can be from the start piece.
+			*/
+			"darkForestMineshaftSize": 9,
+			/* 
+			   
+			   
+			   Size of the mineshaft. This is how many pieces long a branch can be from the start piece.
+			*/
+			"endMineshaftSize": 11,
+			/* 
+			   
+			   
+			   Size of the mineshaft. This is how many pieces long a branch can be from the start piece.
+			*/
+			"netherMineshaftSize": 10,
+			/* 
+			   
+			   
+			   Size of the mineshaft. This is how many pieces long a branch can be from the start piece.
+			*/
+			"crimsonMineshaftSize": 10,
+			/* 
+			   
+			   
+			   Size of the mineshaft. This is how many pieces long a branch can be from the start piece.
+			*/
+			"warpedMineshaftSize": 10
+		},
+		"misc": {
+			/* 
+			   
+			   
+			   The minimum thickness of End islands that the End Mineshaft can spawn in.
+			   So 30 means the End Mineshaft will spawn in land that is at least 30 blocks vertically in the area.
+			   Do 0 to turn off this check and allow the End Mineshaft to spawn anywhere including floating in midair
+			*/
+			"endMineshaftMinIslandThickness": 30
+		}
+	},
+	"RSOutpostsConfig": {
+		/* 
+		   
+		   
+		   How rare are Nether Brick Outposts in non-warped Nether biomes.
+		   1 for spawning in most chunks and 1001 for none.
+		*/
+		"netherBrickOutpostAverageChunkDistance": 34,
+		/* 
+		   
+		   
+		   How rare are Warped Outposts in Warped Nether biomes.
+		   1 for spawning in most chunks and 1001 for none.
+		*/
+		"warpedOutpostAverageChunkDistance": 34,
+		/* 
+		   
+		   
+		   How rare are Crimson Outposts in Warped Nether biomes.
+		   1 for spawning in most chunks and 1001 for none.
+		*/
+		"crimsonOutpostAverageChunkDistance": 34,
+		/* 
+		   
+		   
+		   How rare are Birch Outposts in Birch Forest biomes.
+		   1 for spawning in most chunks and 1001 for none.
+		*/
+		"outpostBirchAverageChunkDistance": 49,
+		/* 
+		   
+		   
+		   How rare are Jungle Outposts in Jungle biomes.
+		   1 for spawning in most chunks and 1001 for none.
+		*/
+		"outpostJungleAverageChunkDistance": 49,
+		/* 
+		   
+		   
+		   How rare are Giant Tree Taiga Outposts in Giant Tree Taiga biomes.
+		   1 for spawning in most chunks and 1001 for none.
+		*/
+		"outpostGiantTreeTaigaAverageChunkDistance": 49,
+		/* 
+		   
+		   
+		   How rare are Desert Outposts in Desert biomes.
+		   1 for spawning in most chunks and 1001 for none.
+		*/
+		"outpostDesertAverageChunkDistance": 49,
+		/* 
+		   
+		   
+		   How rare are Badlands Outposts in Badlands biomes.
+		   1 for spawning in most chunks and 1001 for none.
+		*/
+		"outpostBadlandsAverageChunkDistance": 49,
+		/* 
+		   
+		   
+		   How rare are Snowy Outposts in snowy biomes.
+		   1 for spawning in most chunks and 1001 for none.
+		*/
+		"outpostSnowyAverageChunkDistance": 49,
+		/* 
+		   
+		   
+		   How rare are Icy Outposts in icy/extremely cold biomes.
+		   1 for spawning in most chunks and 1001 for none.
+		*/
+		"outpostIcyAverageChunkDistance": 41,
+		/* 
+		   
+		   
+		   How rare are Taiga Outposts in non-snowy and non-giant taiga biomes.
+		   1 for spawning in most chunks and 1001 for none.
+		*/
+		"outpostTaigaAverageChunkDistance": 49,
+		/* 
+		   
+		   
+		   How rare are Oak Outposts in forest biomes that are not birch or dark forest.
+		   1 for spawning in most chunks and 1001 for none.
+		*/
+		"outpostOakAverageChunkDistance": 49,
+		/* 
+		   
+		   
+		   How rare are End Outposts in End biomes.
+		   1 for spawning in most chunks and 1001 for none.
+		*/
+		"outpostEndAverageChunkDistance": 61
+	},
+	"RSPyramidsConfig": {
+		/* 
+		   
+		   
+		   How rare are Nether Pyramids in Nether.
+		   1 for spawning in most chunks and 1001 for none.
+		*/
+		"pyramidNetherAverageChunkDistance": 37,
+		/* 
+		   
+		   
+		   How rare are Badlands Pyramid in Badlands biomes.
+		   1 for spawning in most chunks and 1001 for none.
+		*/
+		"pyramidBadlandsAverageChunkDistance": 40,
+		/* 
+		   
+		   
+		   How rare are Snowy Pyramid in snowy biomes.
+		   1 for spawning in most chunks and 1001 for none.
+		*/
+		"pyramidSnowyAverageChunkDistance": 40,
+		/* 
+		   
+		   
+		   How rare are End Pyramid in End biomes.
+		   1 for spawning in most chunks and 1001 for none.
+		*/
+		"pyramidEndAverageChunkDistance": 68,
+		/* 
+		   
+		   
+		   How rare are Icy Pyramid in biomes that are super cold or has icy words in its name.
+		   1 for spawning in most chunks and 1001 for none.
+		*/
+		"pyramidIcyAverageChunkDistance": 34,
+		/* 
+		   
+		   
+		   How rare are Jungle Pyramid in Jungle biomes.
+		   1 for spawning in most chunks and 1001 for none.
+		*/
+		"pyramidJungleAverageChunkDistance": 44,
+		/* 
+		   
+		   
+		   How rare are Mushroom Pyramid in Mushroom biomes.
+		   1 for spawning in most chunks and 1001 for none.
+		*/
+		"pyramidMushroomAverageChunkDistance": 24,
+		/* 
+		   
+		   
+		   How rare are Ocean Pyramid in Ocean biomes.
+		   1 for spawning in most chunks and 1001 for none.
+		*/
+		"pyramidOceanAverageChunkDistance": 40,
+		/* 
+		   
+		   
+		   How rare are Giant Tree Taiga Pyramid in Giant Tree Taiga biomes.
+		   1 for spawning in most chunks and 1001 for none.
+		*/
+		"pyramidGiantTreeTaigaAverageChunkDistance": 40,
+		/* 
+		   
+		   
+		   How rare are Flower Forest Pyramid in Flower Forest biomes.
+		   1 for spawning in most chunks and 1001 for none.
+		*/
+		"pyramidFlowerForestAverageChunkDistance": 34
+	},
+	"RSRuinedPortalsConfig": {
+		/* 
+		   
+		   
+		   How rare are End themed Ruined Portals in
+		   End category biomes. 1 for spawning in most
+		   chunks and 1001 for none.
+		*/
+		"ruinedPortalEndAverageChunkDistance": 57
+	},
+	"RSRuinsConfig": {
+		/* 
+		   
+		   
+		   How rare are Nether Ruins in Nether category biomes.
+		   1 for spawning in most chunks and 1001 for none.
+		*/
+		"ruinsNetherAverageChunkDistance": 35,
+		/* 
+		   
+		   
+		   How rare are Warm Land Ruins in Plains, Forests, Swamps, and non-snowy Taiga biomes.
+		   1 for spawning in most chunks and 1001 for none.
+		*/
+		"ruinsLandWarmAverageChunkDistance": 36,
+		/* 
+		   
+		   
+		   How rare are Hot Land Ruins in Desert biomes.
+		   1 for spawning in most chunks and 1001 for none.
+		*/
+		"ruinsLandHotAverageChunkDistance": 39
+	},
+	"RSShipwrecksConfig": {
+		/* 
+		   
+		   
+		   How rare are End Shipwreck in End Highlands biomes.
+		   1 for spawning in most chunks and 1001 for none.
+		*/
+		"endShipwreckAverageChunkDistance": 24,
+		/* 
+		   
+		   
+		   How rare are Nether Bricks Shipwreck in any non-warped or non-crimson Nether biome.
+		   1 for spawning in most chunks and 1001 for none.
+		*/
+		"netherBricksShipwreckAverageChunkDistance": 51,
+		/* 
+		   
+		   
+		   How rare are Crimson Shipwreck in Crimson Nether biome.
+		   1 for spawning in most chunks and 1001 for none.
+		*/
+		"crimsonShipwreckAverageChunkDistance": 41,
+		/* 
+		   
+		   
+		   How rare are Warped Shipwreck in Warped Nether biome.
+		   1 for spawning in most chunks and 1001 for none.
+		*/
+		"warpedShipwreckAverageChunkDistance": 41
+	},
+	"RSStrongholdsConfig": {
+		"nether": {
+			/* 
+			   
+			   
+			   Size of Nether Stronghold.
+			   This number is how many pieces deep a branch can go from the center piece.
+			   1 for supertiny and 30 for supermassive Strongholds.
+			*/
+			"netherStrongholdSize": 15,
+			/* 
+			   
+			   
+			   How rare are Nether-styled Strongholds in Nether-category biomes.
+			   1 for spawning in most chunks and 10001 for no spawn.
+			   Note: Eyes of Ender will work and show the closest Nether Stronghold too.
+			*/
+			"netherStrongholdAverageChunkDistance": 100,
+			/* 
+			   
+			   
+			   Min Y height that the starting point can spawn at.
+			*/
+			"netherStrongholdMinHeight": 6,
+			/* 
+			   
+			   
+			   Max Y height that the starting point can spawn at.
+			   If below min height, this will be read as min.
+			*/
+			"netherStrongholdMaxHeight": 36
+		},
+		"end": {
+			/* 
+			   
+			   
+			   Size of End Stronghold.
+			   This number is how many pieces deep a branch can go from the center piece.
+			   1 for supertiny and 30 for supermassive Strongholds.
+			*/
+			"endStrongholdSize": 15,
+			/* 
+			   
+			   
+			   How rare are End-styled Strongholds in End-category biome's islands.
+			   1 for spawning in most chunks and 10001 for no spawn.
+			   Note: Eyes of Ender will work and show the closest End Stronghold too.
+			*/
+			"endStrongholdAverageChunkDistance": 130,
+			/* 
+			   
+			   
+			   Min Y height that the starting point can spawn at.
+			*/
+			"endStrongholdMinHeight": 4,
+			/* 
+			   
+			   
+			   Max Y height that the starting point can spawn at.
+			   If below min height, this will be read as min.
+			*/
+			"endStrongholdMaxHeight": 5,
+			/* 
+			   
+			   
+			   How far above or below the End Stronghold's pieces can generate away from the center piece.
+			*/
+			"endStrongholdVerticalRange": 45
+		}
+	},
+	"RSTemplesConfig": {
+		/* 
+		   
+		   
+		   How rare are Nether Temples in Nether Wastelands.
+		   1 for spawning in most chunks and 1001 for none.
+		*/
+		"netherWastelandTempleAverageChunkDistance": 27,
+		/* 
+		   
+		   
+		   How rare are Nether Basalt Temples in Nether Basalt Delta biomes.
+		   1 for spawning in most chunks and 1001 for none.
+		*/
+		"netherBasaltTempleAverageChunkDistance": 27,
+		/* 
+		   
+		   
+		   How rare are Nether Crimson Temples in Nether Crimson Forest.
+		   1 for spawning in most chunks and 1001 for none.
+		*/
+		"netherCrimsonTempleAverageChunkDistance": 27,
+		/* 
+		   
+		   
+		   How rare are Nether Crimson Temples in Nether Warped Forest.
+		   1 for spawning in most chunks and 1001 for none.
+		*/
+		"netherWarpedTempleAverageChunkDistance": 27,
+		/* 
+		   
+		   
+		   How rare are Nether Soul Temples in Nether Soul Sand Valley.
+		   1 for spawning in most chunks and 1001 for none.
+		*/
+		"netherSoulTempleAverageChunkDistance": 27
+	},
+	"RSVillagesConfig": {
+		"spawnrate": {
+			/* 
+			   
+			   
+			   How rare are Badlands Villages in Badland biomes.
+			   1 for spawning in most chunks and 1001 for no spawn.
+			*/
+			"badlandsVillageAverageChunkDistance": 34,
+			/* 
+			   
+			   
+			   How rare are Birch Villages in Birch biomes.
+			   1 for spawning in most chunks and 1001 for no spawn.
+			*/
+			"birchVillageAverageChunkDistance": 47,
+			/* 
+			   
+			   
+			   How rare are Dark Forest Villages in Dark Forest biomes.
+			   1 for spawning in most chunks and 1001 for no spawn.
+			*/
+			"darkForestVillageAverageChunkDistance": 47,
+			/* 
+			   
+			   
+			   How rare are Jungle Villages in Jungle biomes.
+			   1 for spawning in most chunks and 1001 for no spawn.
+			*/
+			"jungleVillageAverageChunkDistance": 47,
+			/* 
+			   
+			   
+			   How rare are Swamp Villages in Swamp biomes.
+			   1 for spawning in most chunks and 1001 for no spawn.
+			*/
+			"swampVillageAverageChunkDistance": 47,
+			/* 
+			   
+			   
+			   How rare are Mountains Villages in Mountains biomes.
+			   1 for spawning in most chunks and 1001 for no spawn.
+			*/
+			"mountainsVillageAverageChunkDistance": 47,
+			/* 
+			   
+			   
+			   How rare are Giant Taiga Villages in Giant Taiga biomes.
+			   1 for spawning in most chunks and 1001 for no spawn.
+			*/
+			"giantTaigaVillageAverageChunkDistance": 47,
+			/* 
+			   
+			   
+			   How rare are Oak Villages in forest category biomes that are not birch or dark forest.
+			   1 for spawning in most chunks and 1001 for none.
+			*/
+			"oakVillageAverageChunkDistance": 47,
+			/* 
+			   
+			   
+			   How rare are Crimson Village in Crimson Forest biomes.
+			   1 for spawning in most chunks and 1001 for none.
+			*/
+			"crimsonVillageAverageChunkDistance": 30,
+			/* 
+			   
+			   
+			   How rare are Warped Village in Warped Forest biomes.
+			   1 for spawning in most chunks and 1001 for none.
+			*/
+			"warpedVillageAverageChunkDistance": 30,
+			/* 
+			   
+			   
+			   How rare are Mushroom Villages.
+			   1 for spawning in most chunks and 1001 for none.
+			*/
+			"villageMushroomAverageChunkDistance": 24
+		},
+		"size": {
+			/* 
+			   
+			   
+			   Size of the village. This is how many pieces long a path can be from the start piece.
+			*/
+			"badlandsVillageSize": 10,
+			/* 
+			   
+			   
+			   Size of the village. This is how many pieces long a path can be from the start piece.
+			*/
+			"birchVillageSize": 6,
+			/* 
+			   
+			   
+			   Size of the village. This is how many pieces long a path can be from the start piece.
+			*/
+			"darkForestVillageSize": 6,
+			/* 
+			   
+			   
+			   Size of the village. This is how many pieces long a path can be from the start piece.
+			*/
+			"jungleVillageSize": 8,
+			/* 
+			   
+			   
+			   Size of the village. This is how many pieces long a path can be from the start piece.
+			*/
+			"swampVillageSize": 6,
+			/* 
+			   
+			   
+			   Size of the village. This is how many pieces long a path can be from the start piece.
+			*/
+			"mountainsVillageSize": 6,
+			/* 
+			   
+			   
+			   Size of the village. This is how many pieces long a path can be from the start piece.
+			*/
+			"mushroomVillageSize": 8,
+			/* 
+			   
+			   
+			   Size of the village. This is how many pieces long a path can be from the start piece.
+			*/
+			"giantTaigaVillageSize": 6,
+			/* 
+			   
+			   
+			   Size of the village. This is how many pieces long a path can be from the start piece.
+			*/
+			"oakVillageSize": 6,
+			/* 
+			   
+			   
+			   Size of the village. This is how many pieces long a path can be from the start piece.
+			*/
+			"crimsonVillageSize": 6,
+			/* 
+			   
+			   
+			   Size of the village. This is how many pieces long a path can be from the start piece.
+			*/
+			"warpedVillageSize": 6
+		}
+	},
+	"RSWellsConfig": {
+		/* 
+		   
+		   
+		   Adds Badlands themed wells to Badlands biomes`.
+		   Changes how often wells attempt to spawn per chunk.
+		   Chance of a well generating in a chunk is 1/rarityPerChunk.
+		   1 for spawning in every chunk and 10000 for no wells.
+		*/
+		"badlandsWellRarityPerChunk": 350,
+		/* 
+		   
+		   
+		   Adds Nether themed wells to Nether biomes.
+		   Changes how often wells attempt to spawn per chunk.
+		   Chance of a well generating in a chunk is 1/rarityPerChunk.
+		   1 for spawning in every chunk and 10000 for no wells.
+		*/
+		"netherWellRarityPerChunk": 250,
+		/* 
+		   
+		   
+		   Adds Snow themed wells to snowy and icy biomes.
+		   Changes how often wells attempt to spawn per chunk.
+		   Chance of a well generating in a chunk is 1/rarityPerChunk.
+		   1 for spawning in every chunk and 10000 for no wells.
+		*/
+		"snowWellRarityPerChunk": 350,
+		/* 
+		   
+		   
+		   Adds mossy stone themed wells to Jungles, Dark Oak, and Swamp biomes.
+		   Changes how often wells attempt to spawn per chunk.
+		   Chance of a well generating in a chunk is 1/rarityPerChunk.
+		   1 for spawning in every chunk and 10000 for no wells.
+		*/
+		"mossyStoneWellRarityPerChunk": 350,
+		/* 
+		   
+		   
+		   Adds a wood themed wells to Forest and Birch Forest biomes.
+		   Changes how often wells attempt to spawn per chunk.
+		   Chance of a well generating in a chunk is 1/rarityPerChunk.
+		   1 for spawning in every chunk and 10000 for no wells.
+		*/
+		"forestWellRarityPerChunk": 350,
+		/* 
+		   
+		   
+		   Adds a mushroom themed wells to Mushroom biomes.
+		   Changes how often wells attempt to spawn per chunk.
+		   Chance of a well generating in a chunk is 1/rarityPerChunk.
+		   1 for spawning in every chunk and 10000 for no wells.
+		*/
+		"mushroomWellRarityPerChunk": 350
+	},
+	"RSWitchHutsConfig": {
+		/* 
+		   
+		   
+		   How rare are Oak Witch Huts in Forest biomes that are not birch or dark oak.
+		   1 for spawning in most chunks and 1001 for none.
+		*/
+		"witchHutsOakAverageChunkDistance": 48,
+		/* 
+		   
+		   
+		   How rare are Taiga Witch Huts in Taiga biomes.
+		   1 for spawning in most chunks and 1001 for none.
+		*/
+		"witchHutsTaigaAverageChunkDistance": 48,
+		/* 
+		   
+		   
+		   How rare are Birch Witch Huts in Birch biomes.
+		   1 for spawning in most chunks and 1001 for none.
+		*/
+		"witchHutsBirchAverageChunkDistance": 48,
+		/* 
+		   
+		   
+		   How rare are Dark Forest Witch Huts in Dark Forest biomes.
+		   1 for spawning in most chunks and 1001 for none.
+		*/
+		"witchHutsDarkForestAverageChunkDistance": 48,
+		/* 
+		   
+		   
+		   How rare are Giant Tree Taiga Witch Huts in Giant Tree Taiga biomes.
+		   1 for spawning in most chunks and 1001 for none.
+		*/
+		"witchHutsGiantTreeTaigaAverageChunkDistance": 48
+	}
+}

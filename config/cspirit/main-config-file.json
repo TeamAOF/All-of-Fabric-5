@@ -1,0 +1,18 @@
+{
+  "worldGen": {
+    //This option allows you to turn off the world freezer, so it does not snow or generate with snow
+    "freezeWorld": false,
+    //this option freezes oceans
+    "freezeOceans": false
+  },
+  "misc": {
+    //1 in x chance when a zombie or skeleton spawns to give them clothing and a present. Range is 0 - 256
+    "mobArmorRarity": 20,
+    //When false, any Naughty Item in a player's inventory will be deleted.
+    "naughtyItems": true,
+    //When false, can't fly.
+    "reindeerFlying": true,
+    //The higher the value is, the more frequent it spawns.
+    "reindeerSpawnWeight": 1
+  }
+}

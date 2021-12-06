@@ -1,0 +1,740 @@
+{
+    "version": 1,
+    "overrides": {
+        "fallflyinglib": {
+            "-depends": {
+                "minecraft": ""
+            }
+        },
+        "couplings": {
+            "-depends": {
+                "minecraft": ""
+            }
+        },
+        "crusade": {
+            "-depends": {
+                "minecraft": ""
+            }
+        },
+        "kubejs": {
+            "-depends": {
+                "minecraft": ""
+            }
+        },
+        "balm-fabric": {
+            "-depends": {
+                "minecraft": ""
+            }
+        },
+        "additionaladditions": {
+            "-depends": {
+                "minecraft": ""
+            }
+        },
+        "incantationem": {
+            "-depends": {
+                "minecraft": ""
+            }
+        },
+        "trinkets": {
+            "-depends": {
+                "minecraft": ""
+            }
+        },
+        "morevillagers-fabric": {
+            "-depends": {
+                "minecraft": ""
+            }
+        },
+        "riverredux": {
+            "-depends": {
+                "minecraft": ""
+            }
+        },
+        "fabric-dimensions-v1": {
+            "-depends": {
+                "minecraft": ""
+            }
+        },
+        "kibe": {
+            "-depends": {
+                "minecraft": ""
+            }
+        },
+        "megane": {
+            "-depends": {
+                "minecraft": ""
+            }
+        },
+        "addendum": {
+            "-depends": {
+                "minecraft": ""
+            }
+        },
+        "ctm": {
+            "-depends": {
+                "minecraft": ""
+            }
+        },
+        "yungsapi": {
+            "-depends": {
+                "minecraft": ""
+            }
+        },
+        "maybe-data": {
+            "-depends": {
+                "minecraft": ""
+            }
+        },
+        "packages": {
+            "-depends": {
+                "minecraft": ""
+            }
+        },
+        "playerabilitylib": {
+            "-depends": {
+                "minecraft": ""
+            }
+        },
+        "totemmod": {
+            "-depends": {
+                "minecraft": ""
+            }
+        },
+        "terrarianslimes": {
+            "-depends": {
+                "minecraft": ""
+            }
+        },
+        "mo_glass": {
+            "-depends": {
+                "minecraft": ""
+            }
+        },
+        "promenade": {
+            "-depends": {
+                "minecraft": ""
+            }
+        },
+        "dawn": {
+            "-depends": {
+                "minecraft": ""
+            }
+        },
+        "flytre_lib": {
+            "-depends": {
+                "minecraft": ""
+            }
+        },
+        "repurposed_structures": {
+            "-depends": {
+                "minecraft": ""
+            }
+        },
+        "bitsandchisels": {
+            "-depends": {
+                "minecraft": ""
+            }
+        },
+        "modmenu": {
+            "-depends": {
+                "minecraft": ""
+            }
+        },
+        "toolstats": {
+            "-depends": {
+                "minecraft": ""
+            }
+        },
+        "shulkerutils": {
+            "-depends": {
+                "minecraft": ""
+            }
+        },
+        "mostructures": {
+            "-depends": {
+                "minecraft": ""
+            }
+        },
+        "charmonium": {
+            "-depends": {
+                "minecraft": ""
+            }
+        },
+        "disable_custom_worlds_advice": {
+            "-depends": {
+                "minecraft": ""
+            }
+        },
+        "mocolors": {
+            "-depends": {
+                "minecraft": ""
+            }
+        },
+        "megane-runtime": {
+            "-depends": {
+                "minecraft": ""
+            }
+        },
+        "libblockattributes_fluids": {
+            "-depends": {
+                "minecraft": ""
+            }
+        },
+        "adorn": {
+            "-depends": {
+                "minecraft": ""
+            }
+        },
+        "blast": {
+            "-depends": {
+                "minecraft": ""
+            }
+        },
+        "golemsgalore": {
+            "-depends": {
+                "minecraft": ""
+            }
+        },
+        "conjuring": {
+            "-depends": {
+                "minecraft": ""
+            }
+        },
+        "charm": {
+            "-depends": {
+                "minecraft": ""
+            }
+        },
+        "someforgepatchesported": {
+            "-depends": {
+                "minecraft": ""
+            }
+        },
+        "aqupdgrizzly": {
+            "-depends": {
+                "minecraft": ""
+            }
+        },
+        "bettermineshafts": {
+            "-depends": {
+                "minecraft": ""
+            }
+        },
+        "geckolib3": {
+            "-depends": {
+                "minecraft": ""
+            }
+        },
+        "darkpaintings": {
+            "-depends": {
+                "minecraft": ""
+            }
+        },
+        "notes": {
+            "-depends": {
+                "minecraft": ""
+            }
+        },
+        "placeholder-api": {
+            "-depends": {
+                "minecraft": ""
+            }
+        },
+        "lithium": {
+            "-depends": {
+                "minecraft": ""
+            }
+        },
+        "attributefix": {
+            "-depends": {
+                "minecraft": ""
+            }
+        },
+        "harvest_scythes": {
+            "-depends": {
+                "minecraft": ""
+            }
+        },
+        "myron": {
+            "-depends": {
+                "minecraft": ""
+            }
+        },
+        "stoneholm": {
+            "-depends": {
+                "minecraft": ""
+            }
+        },
+        "wolveswitharmor": {
+            "-depends": {
+                "minecraft": ""
+            }
+        },
+        "strawdummy": {
+            "-depends": {
+                "minecraft": ""
+            }
+        },
+        "reach-entity-attributes": {
+            "-depends": {
+                "minecraft": ""
+            }
+        },
+        "deathlog": {
+            "-depends": {
+                "minecraft": ""
+            }
+        },
+        "goml": {
+            "-depends": {
+                "minecraft": ""
+            }
+        },
+        "libblockattributes_core": {
+            "-depends": {
+                "minecraft": ""
+            }
+        },
+        "polymer": {
+            "-depends": {
+                "minecraft": ""
+            }
+        },
+        "horsestatsvanilla": {
+            "-depends": {
+                "minecraft": ""
+            }
+        },
+        "ktdatataglib": {
+            "-depends": {
+                "minecraft": ""
+            }
+        },
+        "woods_and_mires": {
+            "-depends": {
+                "minecraft": ""
+            }
+        },
+        "jankson": {
+            "-depends": {
+                "minecraft": ""
+            }
+        },
+        "fabric-renderer-indigo": {
+            "-depends": {
+                "minecraft": ""
+            }
+        },
+        "wirelessnetworks": {
+            "-depends": {
+                "minecraft": ""
+            }
+        },
+        "libgui": {
+            "-depends": {
+                "minecraft": ""
+            }
+        },
+        "xaerominimap": {
+            "-depends": {
+                "minecraft": ""
+            }
+        },
+        "fabric-rendering-v0": {
+            "-depends": {
+                "minecraft": ""
+            }
+        },
+        "croptopia": {
+            "-depends": {
+                "minecraft": ""
+            }
+        },
+        "omega-config": {
+            "-depends": {
+                "minecraft": ""
+            }
+        },
+        "gateofbabylon": {
+            "-depends": {
+                "minecraft": ""
+            }
+        },
+        "winged": {
+            "-depends": {
+                "minecraft": ""
+            }
+        },
+        "ambientenvironment": {
+            "-depends": {
+                "minecraft": ""
+            }
+        },
+        "lifts": {
+            "-depends": {
+                "minecraft": ""
+            }
+        },
+        "extragenerators": {
+            "-depends": {
+                "minecraft": ""
+            }
+        },
+        "horseinfo": {
+            "-depends": {
+                "minecraft": ""
+            }
+        },
+        "universal-graves": {
+            "-depends": {
+                "minecraft": ""
+            }
+        },
+        "survivalisland": {
+            "-depends": {
+                "minecraft": ""
+            }
+        },
+        "artifice": {
+            "-depends": {
+                "minecraft": ""
+            }
+        },
+        "indrev": {
+            "-depends": {
+                "minecraft": ""
+            }
+        },
+        "server_translations_api": {
+            "-depends": {
+                "minecraft": ""
+            }
+        },
+        "diggusmaximus": {
+            "-depends": {
+                "minecraft": ""
+            }
+        },
+        "noanglebrackets": {
+            "-depends": {
+                "minecraft": ""
+            }
+        },
+        "structurized": {
+            "-depends": {
+                "minecraft": ""
+            }
+        },
+        "fabric-blockrenderlayer-v1": {
+            "-depends": {
+                "minecraft": ""
+            }
+        },
+        "libblockattributes_items": {
+            "-depends": {
+                "minecraft": ""
+            }
+        },
+        "respawnablepets": {
+            "-depends": {
+                "minecraft": ""
+            }
+        },
+        "fabric": {
+            "-depends": {
+                "minecraft": ""
+            }
+        },
+        "dml-refabricated": {
+            "-depends": {
+                "minecraft": ""
+            }
+        },
+        "packet_tweaker": {
+            "-depends": {
+                "minecraft": ""
+            }
+        },
+        "eggtab": {
+            "-depends": {
+                "minecraft": ""
+            }
+        },
+        "blockus": {
+            "-depends": {
+                "minecraft": ""
+            }
+        },
+        "fabric-events-interaction-v0": {
+            "-depends": {
+                "minecraft": ""
+            }
+        },
+        "enchantmentdescriptions": {
+            "-depends": {
+                "minecraft": ""
+            }
+        },
+        "patchouli": {
+            "-depends": {
+                "minecraft": ""
+            }
+        },
+        "mousewheelie": {
+            "-depends": {
+                "minecraft": ""
+            }
+        },
+        "betterstrongholds": {
+            "-depends": {
+                "minecraft": ""
+            }
+        },
+        "expandedstorage": {
+            "-depends": {
+                "minecraft": ""
+            }
+        },
+        "runelic": {
+            "-depends": {
+                "minecraft": ""
+            }
+        },
+        "cardinal-components-entity": {
+            "-depends": {
+                "minecraft": ""
+            }
+        },
+        "architectury": {
+            "-depends": {
+                "minecraft": ""
+            }
+        },
+        "cherishedworlds": {
+            "-depends": {
+                "minecraft": ""
+            }
+        },
+        "authme": {
+            "-depends": {
+                "minecraft": ""
+            }
+        },
+        "slotlock": {
+            "-depends": {
+                "minecraft": ""
+            }
+        },
+        "cardinal-components-base": {
+            "-depends": {
+                "minecraft": ""
+            }
+        },
+        "cpas": {
+            "-depends": {
+                "minecraft": ""
+            }
+        },
+        "builtinservers": {
+            "-depends": {
+                "minecraft": ""
+            }
+        },
+        "fabric-item-groups-v0": {
+            "-depends": {
+                "minecraft": ""
+            }
+        },
+        "truerooms": {
+            "-depends": {
+                "minecraft": ""
+            }
+        },
+        "fabric-renderer-api-v1": {
+            "-depends": {
+                "minecraft": ""
+            }
+        },
+        "basicaiots": {
+            "-depends": {
+                "minecraft": ""
+            }
+        },
+        "inventorysorter": {
+            "-depends": {
+                "minecraft": ""
+            }
+        },
+        "owo": {
+            "-depends": {
+                "minecraft": ""
+            }
+        },
+        "redbits": {
+            "-depends": {
+                "minecraft": ""
+            }
+        },
+        "waystones": {
+            "-depends": {
+                "minecraft": ""
+            }
+        },
+        "clumps": {
+            "-depends": {
+                "minecraft": ""
+            }
+        },
+        "dual_riders": {
+            "-depends": {
+                "minecraft": ""
+            }
+        },
+        "defaultsettings": {
+            "-depends": {
+                "minecraft": ""
+            }
+        },
+        "entitybanners": {
+            "-depends": {
+                "minecraft": ""
+            }
+        },
+        "lazydfu": {
+            "-depends": {
+                "minecraft": ""
+            }
+        },
+        "lovely_snails": {
+            "-depends": {
+                "minecraft": ""
+            }
+        },
+        "fabric-renderer-registries-v1": {
+            "-depends": {
+                "minecraft": ""
+            }
+        },
+        "quickshulker": {
+            "-depends": {
+                "minecraft": ""
+            }
+        },
+        "artifality": {
+            "-depends": {
+                "minecraft": ""
+            }
+        },
+        "untitledduckmod": {
+            "-depends": {
+                "minecraft": ""
+            }
+        },
+        "ratsmischief": {
+            "-depends": {
+                "minecraft": ""
+            }
+        },
+        "static-content": {
+            "-depends": {
+                "minecraft": ""
+            }
+        },
+        "simple-rpc": {
+            "-depends": {
+                "minecraft": ""
+            }
+        },
+        "dark-loading-screen": {
+            "-depends": {
+                "minecraft": ""
+            }
+        },
+        "hologram-api": {
+            "-depends": {
+                "minecraft": ""
+            }
+        },
+        "kyrptconfig": {
+            "-depends": {
+                "minecraft": ""
+            }
+        },
+        "biome_locator": {
+            "-depends": {
+                "minecraft": ""
+            }
+        },
+        "sgui": {
+            "-depends": {
+                "minecraft": ""
+            }
+        },
+        "spruceui": {
+            "-depends": {
+                "minecraft": ""
+            }
+        },
+        "cardinal-components-world": {
+            "-depends": {
+                "minecraft": ""
+            }
+        },
+        "fabric-biome-api-v1": {
+            "-depends": {
+                "minecraft": ""
+            }
+        },
+        "advanced_runtime_resource_pack": {
+            "-depends": {
+                "minecraft": ""
+            }
+        },
+        "ferritecore": {
+            "-depends": {
+                "minecraft": ""
+            }
+        },
+        "textile_backup": {
+            "-depends": {
+                "minecraft": ""
+            }
+        },
+        "lakeside": {
+            "-depends": {
+                "minecraft": ""
+            }
+        },
+        "betterf3": {
+            "-depends": {
+                "minecraft": ""
+            }
+        },
+        "carrier": {
+            "-depends": {
+                "minecraft": ""
+            }
+        },
+        "fake-player-api": {
+            "-depends": {
+                "minecraft": ""
+            }
+        },
+        "secretrooms": {
+            "-depends": {
+                "minecraft": ""
+            }
+        },
+		"rhino": {
+            "-depends": {
+                "minecraft": ""
+            }
+        },
+        "ae2wtlib": {
+            "-depends": {
+                "appliedenergistics2": ""
+            }
+        }
+    }
+}

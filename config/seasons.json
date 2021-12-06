@@ -1,0 +1,79 @@
+{
+  "seasonLength": 672000,
+  "seasonLock": {
+    "isSeasonLocked": false,
+    "lockedSeason": "SPRING"
+  },
+  "dimensionWhitelist": [
+    "minecraft:overworld"
+  ],
+  "doTemperatureChanges": true,
+  "isSeasonTiedWithSystemTime": false,
+  "isInNorthHemisphere": true,
+  "minecraftDefaultFoliage": {
+    "springColor": 4764952,
+    "summerColor": 5038091,
+    "fallColor": 14719243,
+    "winterColor": 7689492
+  },
+  "minecraftSpruceFoliage": {
+    "springColor": 6396257,
+    "summerColor": 6396257,
+    "fallColor": 6396257,
+    "winterColor": 6396257
+  },
+  "minecraftBirchFoliage": {
+    "springColor": 8431445,
+    "summerColor": 8501316,
+    "fallColor": 14051328,
+    "winterColor": 6705190
+  },
+  "minecraftSwampGrass1": {
+    "springColor": 5011004,
+    "summerColor": 5011004,
+    "fallColor": 5011004,
+    "winterColor": 5011004
+  },
+  "minecraftSwampGrass2": {
+    "springColor": 6975545,
+    "summerColor": 6975545,
+    "fallColor": 6975545,
+    "winterColor": 6975545
+  },
+  "isDefaultHSBShiftEnabled": true,
+  "defaultHSBShift": {
+    "springHSBShift": {
+      "hue": 0.0,
+      "saturation": 100.0,
+      "brightness": 0.0
+    },
+    "summerHSBShift": {
+      "hue": 0.0,
+      "saturation": 150.0,
+      "brightness": -10.0
+    },
+    "fallHSBShift": {
+      "hue": -65.0,
+      "saturation": 125.0,
+      "brightness": -15.0
+    },
+    "winterHSBShift": {
+      "hue": -65.0,
+      "saturation": 80.0,
+      "brightness": -40.0
+    }
+  },
+  "foliageColorList": [],
+  "grassColorList": [],
+  "isSeasonMessingCrops": true,
+  "isSeasonMessingBonemeal": false,
+  "doCropsGrowsNormallyUnderground": true,
+  "defaultCropConfig": {
+    "springModifier": 1.0,
+    "summerModifier": 0.8,
+    "fallModifier": 0.6,
+    "winterModifier": 0.0
+  },
+  "cropConfigs": [],
+  "doAnimalsBreedInWinter": true
+}

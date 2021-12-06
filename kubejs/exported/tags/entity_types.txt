@@ -1,0 +1,137 @@
+To refresh this file, delete it and run /reload command again! Last updated: Jun 23, 2021, 12:15:57 AM
+
+#minecraft:axolotl_always_hostiles
+- minecraft:drowned
+- minecraft:guardian
+- minecraft:elder_guardian
+
+#minecraft:freeze_immune_entity_types
+- minecraft:stray
+- minecraft:polar_bear
+- minecraft:snow_golem
+- minecraft:wither
+- promenade:duck
+
+#dml-refabricated:end_mobs
+- minecraft:enderman
+- minecraft:shulker
+- minecraft:endermite
+
+#waila:blacklist
+- minecraft:experience_orb
+- minecraft:area_effect_cloud
+
+#minecraft:impact_projectiles
+- #minecraft:arrows
+- minecraft:snowball
+- minecraft:fireball
+- minecraft:small_fireball
+- minecraft:egg
+- minecraft:trident
+- minecraft:dragon_fireball
+- minecraft:wither_skull
+
+#minecraft:beehive_inhabitors
+- minecraft:bee
+
+#minecraft:skeletons
+- minecraft:skeleton
+- minecraft:stray
+- minecraft:wither_skeleton
+
+#dml-refabricated:skeleton_mobs
+- minecraft:skeleton
+- minecraft:wither_skeleton
+- minecraft:stray
+
+#requiem:inventory/item_users
+- ratsmischief:rat
+
+#dml-refabricated:ocean_mobs
+- minecraft:guardian
+- minecraft:drowned
+
+#minecraft:arrows
+- minecraft:arrow
+- minecraft:spectral_arrow
+
+#dml-refabricated:overworld_mobs
+- minecraft:creeper
+- minecraft:enderman
+- minecraft:skeleton
+- minecraft:zombie
+- minecraft:zombie_villager
+- minecraft:witch
+- minecraft:spider
+
+#requiem:inventory/inventory_carriers
+- ratsmischief:rat
+
+#requiem:behavior/regular_eaters
+- ratsmischief:rat
+
+#minecraft:freeze_hurts_extra_types
+- minecraft:strider
+- minecraft:blaze
+- minecraft:magma_cube
+
+#dml-refabricated:zombie_mobs
+- minecraft:zombie
+- minecraft:zombie_villager
+- minecraft:drowned
+- minecraft:husk
+- minecraft:zoglin
+- minecraft:zombified_piglin
+
+#dml-refabricated:illager_mobs
+- minecraft:evoker
+- minecraft:pillager
+- minecraft:ravager
+- minecraft:vindicator
+
+#dml-refabricated:slimy_mobs
+- minecraft:slime
+- minecraft:magma_cube
+
+#dml-refabricated:nether_mobs
+- minecraft:wither_skeleton
+- minecraft:blaze
+- minecraft:ghast
+- minecraft:magma_cube
+- minecraft:hoglin
+- minecraft:zoglin
+- minecraft:piglin
+- minecraft:zombified_piglin
+
+#requiem:inventory/armor_users
+- ratsmischief:rat
+
+#minecraft:raiders
+- minecraft:evoker
+- minecraft:pillager
+- minecraft:ravager
+- minecraft:vindicator
+- minecraft:illusioner
+- minecraft:witch
+
+#eldritch_mobs:eldritch_allowed
+- ratsmischief:rat
+
+#minecraft:powder_snow_walkable_mobs
+- minecraft:rabbit
+- minecraft:endermite
+- minecraft:silverfish
+- minecraft:fox
+
+#dml-refabricated:ghost_mobs
+- minecraft:ghast
+- minecraft:phantom
+- minecraft:vex
+
+#minecraft:axolotl_hunt_targets
+- minecraft:tropical_fish
+- minecraft:pufferfish
+- minecraft:salmon
+- minecraft:cod
+- minecraft:squid
+- minecraft:glow_squid
