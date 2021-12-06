@@ -1,8 +1,8 @@
 {
   "builtinServers": [
     {
-      "name": "Default Server",
-      "address": "127.0.0.1"
+      "name": "NA Server",
+      "address": "dal1.altar.host:25650"
     }
   ]
 }

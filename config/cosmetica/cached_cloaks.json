@@ -565,11 +565,6 @@
     "cloak": "jeb"
   },
   {
-    "name": "JLsuperpro9",
-    "uuid": "34c29ebc-cbb3-4ff3-a547-4f0f9de84ee6",
-    "cloak": "enchanted-jeb"
-  },
-  {
     "name": "DedsecTV",
     "uuid": "3fe9afb9-5ea5-4628-a67f-eb4d7a6e51d2",
     "cloak": "enchanted-jeb"
@@ -633,11 +628,6 @@
     "name": "perforatorr",
     "uuid": "f036bf39-f5b1-4a3a-a9a9-e54cde2fa257",
     "cloak": "cosmic"
-  },
-  {
-    "name": "Haelfury",
-    "uuid": "2fda5af3-05a9-41d4-a934-a842fb71213e",
-    "cloak": "golden"
   },
   {
     "name": "snerps",
@@ -1030,11 +1020,6 @@
     "cloak": "cosmic"
   },
   {
-    "name": "OliviaTheVampire",
-    "uuid": "b344687b-ec74-479a-9540-1aa8ccb13e92",
-    "cloak": "cosmic"
-  },
-  {
     "name": "Howard_99",
     "uuid": "740f769a-837c-461b-9d52-5a92da0c6414",
     "cloak": "golden"
@@ -1043,5 +1028,60 @@
     "name": "Whereismyname",
     "uuid": "2d864a30-9ed2-421f-9efa-5b1e1abf159c",
     "cloak": "mystic"
+  },
+  {
+    "name": "Punkinator7",
+    "uuid": "45102f8e-f47f-4512-be5e-c785d38a3c11",
+    "cloak": "golden"
+  },
+  {
+    "name": "Winter_Cevee",
+    "uuid": "9adbd74a-c125-4f54-92a5-1e4789f74c02",
+    "cloak": "turtle"
+  },
+  {
+    "name": "Rostls",
+    "uuid": "ccbf0e2e-055c-4b2d-bd93-9cb2026035c3",
+    "cloak": "violet"
+  },
+  {
+    "name": "OliviaTheVampire",
+    "uuid": "b344687b-ec74-479a-9540-1aa8ccb13e92",
+    "cloak": "genderfluid"
+  },
+  {
+    "name": "Haelfury",
+    "uuid": "2fda5af3-05a9-41d4-a934-a842fb71213e",
+    "cloak": "violet"
+  },
+  {
+    "name": "JLsuperpro9",
+    "uuid": "34c29ebc-cbb3-4ff3-a547-4f0f9de84ee6",
+    "cloak": "pumpkin"
+  },
+  {
+    "name": "Spazzrocket",
+    "uuid": "860a2ef1-579e-4700-9a05-ffebd4ec9a9a",
+    "cloak": "swirly"
+  },
+  {
+    "name": "Skyda_X5",
+    "uuid": "57c2bbaf-ff16-4527-b34b-7e33f31982af",
+    "cloak": "flamingo"
+  },
+  {
+    "name": "Julizitrone",
+    "uuid": "63f0b03a-ebbf-4f10-b41e-f44d7a782a4c",
+    "cloak": "void"
+  },
+  {
+    "name": "NikoYukio",
+    "uuid": "01419e20-3a7a-4075-aa85-bf3076f1867c",
+    "cloak": "azure"
+  },
+  {
+    "name": "ZaraPan",
+    "uuid": "c1addbf8-5a88-49db-832f-97844a7117d5",
+    "cloak": "trans"
   }
 ]

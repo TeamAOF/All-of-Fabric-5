@@ -195,7 +195,7 @@ Moth SpawnYFloor: -50000
 Moth SpawnBlocks: All
 Moth SeekBlocks: minecraft:torch; minecraft:redstone_torch; minecraft:soul_torch; 
 Moth SpawnWeight: 10
-Moth SpawnRandomChance: 25
+Moth SpawnRandomChance: 10
 Moth SpawnType: overworld
 Moth MinSpawnGroupSize: 1
 Moth MaxSpawnGroupSize: 1
