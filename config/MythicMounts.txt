@@ -62,7 +62,7 @@ CourierBird SpawnYCeiling: 50000
 CourierBird SpawnYFloor: -50000
 CourierBird SpawnBlocks: All
 CourierBird SpawnWeight: 12
-CourierBird SpawnRandomChance: 100
+CourierBird SpawnRandomChance: 50
 CourierBird SpawnType: overworld
 CourierBird MinSpawnGroupSize: 2
 CourierBird MaxSpawnGroupSize: 4
@@ -88,7 +88,7 @@ DireWolf SpawnYCeiling: 50000
 DireWolf SpawnYFloor: -50000
 DireWolf SpawnBlocks: All
 DireWolf SpawnWeight: 10
-DireWolf SpawnRandomChance: 100
+DireWolf SpawnRandomChance: 50
 DireWolf SpawnType: overworld
 DireWolf MinSpawnGroupSize: 1
 DireWolf MaxSpawnGroupSize: 3
@@ -114,7 +114,7 @@ Dragon SpawnYCeiling: 40
 Dragon SpawnYFloor: -50000
 Dragon SpawnBlocks: All
 Dragon SpawnWeight: 100
-Dragon SpawnRandomChance: 10
+Dragon SpawnRandomChance: 5
 Dragon SpawnType: subterranean
 Dragon MinSpawnGroupSize: 1
 Dragon MaxSpawnGroupSize: 1
@@ -141,7 +141,7 @@ Griffon SpawnYCeiling: 50000
 Griffon SpawnYFloor: 100
 Griffon SpawnBlocks: All
 Griffon SpawnWeight: 10
-Griffon SpawnRandomChance: 70
+Griffon SpawnRandomChance: 35
 Griffon SpawnType: overworld
 Griffon MinSpawnGroupSize: 1
 Griffon MaxSpawnGroupSize: 1
@@ -167,7 +167,7 @@ GeckotoaLizard SpawnYCeiling: 5000
 GeckotoaLizard SpawnYFloor: 60
 GeckotoaLizard SpawnBlocks: All
 GeckotoaLizard SpawnWeight: 50
-GeckotoaLizard SpawnRandomChance: 100
+GeckotoaLizard SpawnRandomChance: 50
 GeckotoaLizard SpawnType: subterranean
 GeckotoaLizard MinSpawnGroupSize: 1
 GeckotoaLizard MaxSpawnGroupSize: 1
@@ -195,7 +195,7 @@ Moth SpawnYFloor: -50000
 Moth SpawnBlocks: All
 Moth SeekBlocks: minecraft:torch; minecraft:redstone_torch; minecraft:soul_torch; 
 Moth SpawnWeight: 10
-Moth SpawnRandomChance: 70
+Moth SpawnRandomChance: 25
 Moth SpawnType: overworld
 Moth MinSpawnGroupSize: 1
 Moth MaxSpawnGroupSize: 1
@@ -221,7 +221,7 @@ NetherBat SpawnYCeiling: 50000
 NetherBat SpawnYFloor: -50000
 NetherBat SpawnBlocks: All
 NetherBat SpawnWeight: 50
-NetherBat SpawnRandomChance: 100
+NetherBat SpawnRandomChance: 45
 NetherBat SpawnType: nether
 NetherBat MinSpawnGroupSize: 1
 NetherBat MaxSpawnGroupSize: 1
@@ -248,7 +248,7 @@ Nudibranch SpawnYCeiling: 50000
 Nudibranch SpawnYFloor: -50000
 Nudibranch SpawnBlocks: minecraft:brain_coral_block; minecraft:bubble_coral_block; minecraft:fire_coral_block; minecraft:horn_coral_block; minecraft:tube_coral_block;
 Nudibranch SpawnWeight: 20
-Nudibranch SpawnRandomChance: 100
+Nudibranch SpawnRandomChance: 50
 Nudibranch SpawnType: overworld
 Nudibranch MinSpawnGroupSize: 2
 Nudibranch MaxSpawnGroupSize: 4
@@ -274,7 +274,7 @@ RidingLizard SpawnYCeiling: 50000
 RidingLizard SpawnYFloor: -50000
 RidingLizard SpawnBlocks: All
 RidingLizard SpawnWeight: 1
-RidingLizard SpawnRandomChance: 10
+RidingLizard SpawnRandomChance: 4
 RidingLizard SpawnType: overworld
 RidingLizard MinSpawnGroupSize: 2
 RidingLizard MaxSpawnGroupSize: 3
@@ -300,7 +300,7 @@ Nightmare SpawnYCeiling: 50000
 Nightmare SpawnYFloor: -50000
 Nightmare SpawnBlocks: All
 Nightmare SpawnWeight: 100
-Nightmare SpawnRandomChance: 25
+Nightmare SpawnRandomChance: 12
 Nightmare SpawnType: nether
 Nightmare MinSpawnGroupSize: 1
 Nightmare MaxSpawnGroupSize: 2
