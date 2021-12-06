@@ -1,0 +1,15 @@
+To refresh this file, delete it and run /reload command again! Last updated: Aug 20, 2021, 6:10:05 AM
+
+#lambdafoxes:fox_spawn/fennec
+- ecotones:desert
+- ecotones:desert_hilly
+- ecotones:desert_mountainous
+- ecotones:cool_desert
+- ecotones:cool_desert_hilly
+- ecotones:cool_desert_mountainous
+- ecotones:lush_desert
+- ecotones:lush_desert_hilly
+- ecotones:lush_desert_mountainous
+- ecotones:scrubland
+- ecotones:scrubland_hilly
+- ecotones:scrubland_mountainous

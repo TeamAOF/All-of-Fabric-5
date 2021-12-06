@@ -1,0 +1,26 @@
+{
+  "generation": {
+    "enableRubberTreeGeneration": {
+      "comment": "When enabled rubber trees will generate in the world",
+      "value": true
+    },
+    "enableOreGeneration": {
+      "comment": "When enabled ores will generate in the world",
+      "value": false
+    }
+  },
+  "loot": {
+    "enableOverworldLoot": {
+      "comment": "When true TechReborn will add ingots, machine frames and circuits to OverWorld loot chests.",
+      "value": false
+    },
+    "enableEndLoot": {
+      "comment": "When true TechReborn will add ingots, machine frames and circuits to The End loot chests.",
+      "value": false
+    },
+    "enableNetherLoot": {
+      "comment": "When true TechReborn will add ingots, machine frames and circuits to Nether loot chests.",
+      "value": false
+    }
+  }
+}

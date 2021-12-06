@@ -1,0 +1,106 @@
+{
+  // Welcome to The Graveyard Config!
+ //
+ // Here, you can disable structures to spawn, change their chance of spawning, change their separation and also change their salt.
+ // Additionally, you can turn the graveyard fog particles on and set the chance of spawning them (higher numbers = lower chance of spawning).
+ // Graveyard fog particles spawn in graveyards and add an atmospheric and spooky element while exploring.
+ // You can also disable and/or set the density of the fog in the biomes added by this mod. A lower value means a denser fog.
+ //
+ // To disable a structure to spawn, simply go to the corresponding entry and set `enabled` to false.
+ //
+ // The Graveyard uses the vanilla structure spawning system. That is -
+ // - Separation is the minimum chunks between structures
+ // - Spacing is the average chunks between structures (Spacing value needs to be higher than Separation value!)
+ // - Salt is a special field that gives structures unique spawning positions. (Only change if you know what you are doing!)
+ //
+ // Notice: reducing the generation settings will increase the risk of structures overlapping. Especially jigsaw structures are unpredictable!
+
+  "structureConfigEntries": {
+    "mushroom_grave": {
+      "enabled": true,
+      "separation": 18,
+      "spacing": 24,
+      "salt": 598017285
+    },
+    "small_grave": {
+      "enabled": true,
+      "separation": 8,
+      "spacing": 12,
+      "salt": 240451934
+    },
+    "small_walled_graveyard": {
+      "enabled": true,
+      "separation": 18,
+      "spacing": 20,
+      "salt": 1690192399
+    },
+    "large_birch_tree": {
+      "enabled": true,
+      "separation": 12,
+      "spacing": 14,
+      "salt": 304812394
+    },
+    "large_walled_graveyard": {
+      "enabled": true,
+      "separation": 9,
+      "spacing": 11,
+      "salt": 739017628
+    },
+    "small_walled_graveyard_desert": {
+      "enabled": true,
+      "separation": 28,
+      "spacing": 32,
+      "salt": 661903018
+    },
+    "medium_walled_graveyard": {
+      "enabled": true,
+      "separation": 14,
+      "spacing": 16,
+      "salt": 379123039
+    },
+    "small_walled_graveyard_savanna": {
+      "enabled": true,
+      "separation": 12,
+      "spacing": 14,
+      "salt": 451235912
+    },
+    "haunted_house": {
+      "enabled": true,
+      "separation": 20,
+      "spacing": 25,
+      "salt": 529239621
+    }
+  },
+  "particleConfigEntries": {
+    "graveyard_fog_particle": {
+      "canGenerate": true,
+      "spawnChance": 50
+    }
+  },
+  "biomeConfigEntries": {
+    "eroded_haunted_forest_biome": {
+      "biomeSpawn": true,
+      "biomeFogSpawn": true,
+      "biomeChance": 0.1,
+      "fogDensity": 0.9,
+      "fogMaxY": 256,
+      "fogMinY": 62
+    },
+    "haunted_forest_biome": {
+      "biomeSpawn": true,
+      "biomeFogSpawn": true,
+      "biomeChance": 0.15,
+      "fogDensity": 0.5,
+      "fogMaxY": 256,
+      "fogMinY": 62
+    },
+    "haunted_lakes_biome": {
+      "biomeSpawn": true,
+      "biomeFogSpawn": true,
+      "biomeChance": 0.15,
+      "fogDensity": 0.7,
+      "fogMaxY": 256,
+      "fogMinY": 62
+    }
+  }
+}

@@ -1,0 +1,6 @@
+{
+  "markResourcePackAsForceByDefault": false,
+  "forcePackOffset": false,
+  "enableNetworkSync": true,
+  "enableDevUtils": false
+}

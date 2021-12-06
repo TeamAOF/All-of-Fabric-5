@@ -1,0 +1,129 @@
+{
+	// Whether item names in tooltips should have a line under them separating them from the rest of the tooltip.
+	"nameSeparator": true,
+	// If enabled, tooltip border colors will match item rarity colors (except for custom borders).
+	"bordersMatchRarity": true,
+	// If enabled, tooltips will display a drop shadow.
+	"tooltipShadow": true,
+	// If enabled, items showing a custom border will have a special shine effect when hovered over.
+	"shineEffect": true,
+	/* Custom borders are broken into 16 "levels", with level 0 being intended for the "best" or "rarest" items. Only level 0 has a custom border built-in, but others can be added with resource packs.
+	   The start border color (color at top of tooltip) of each levels' borders. Note that they can be entered as a lowercase hex code in the format "0xaarrggbb" or "0xrrggbb" for convenience.
+	*/
+	"startColors": [
+		4288244002,
+		4288244002,
+		4288244002,
+		4288244002,
+		4288244002,
+		4288244002,
+		4288244002,
+		4288244002,
+		4288244002,
+		4288244002,
+		4288244002,
+		4288244002,
+		4288244002,
+		4288244002,
+		4288244002,
+		4288244002
+	],
+	// The end border color (color at bottom of tooltip) of each levels' borders. Note that they can be entered as a lowercase hex code in the format "0xaarrggbb" or "0xrrggbb" for convenience.
+	"endColors": [
+		4284103197,
+		4284103197,
+		4284103197,
+		4284103197,
+		4284103197,
+		4284103197,
+		4284103197,
+		4284103197,
+		4284103197,
+		4284103197,
+		4284103197,
+		4284103197,
+		4284103197,
+		4284103197,
+		4284103197,
+		4284103197
+	],
+	// Set border priorities here.  This should be a list of numbers that correspond to border levels, with numbers coming first being higher priority.
+	"framePriorities": [
+		0,
+		1,
+		2,
+		3,
+		4,
+		5,
+		6,
+		7,
+		8,
+		9,
+		10,
+		11,
+		12,
+		13,
+		14,
+		15
+	],
+	/* Entry types:
+	     Item name - Use item name for vanilla items or include mod name for modded items.  Examples: "minecraft:stick", "iron_ore"
+	     Tag - $ followed by tag name.  Examples: "$minecraft:stone" or "$planks"
+	     Mod name - @ followed by mod identifier.  Examples: "@spoiledeggs"
+	     Rarity - ! followed by item's rarity.  This is ONLY vanilla rarities.  Examples: "!common", "!uncommon", "!rare", "!epic"
+	     Item name color - # followed by color hex code, the hex code must match exactly.  Examples: "#23F632"
+	     Display name - % followed by any text.  Will match any item with this text in its tooltip display name.  Examples: "%[Uncommon]"
+	     Tooltip text - ^ followed by any text.  Will match any item with this text anywhere in the tooltip text (besides the name).  Examples: "^Legendary"  NBT tag - & followed by tag name and optional comparator (=, >, <, or !=) and value, in the format <tag><comparator><value> or just <tag>. Examples: "&Damage=0", "&Tier>1", "&Broken", "&map!=128"
+	*/
+	"itemSelectors": [
+		[
+			"!rare",
+			"!epic"
+		],
+		[
+			""
+		],
+		[
+			""
+		],
+		[
+			""
+		],
+		[
+			""
+		],
+		[
+			""
+		],
+		[
+			""
+		],
+		[
+			""
+		],
+		[
+			""
+		],
+		[
+			""
+		],
+		[
+			""
+		],
+		[
+			""
+		],
+		[
+			""
+		],
+		[
+			""
+		],
+		[
+			""
+		],
+		[
+			""
+		]
+	]
+}

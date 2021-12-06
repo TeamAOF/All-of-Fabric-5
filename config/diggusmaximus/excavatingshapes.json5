@@ -1,0 +1,12 @@
+{
+	// Should shape excavating be enabled
+	"enableShapes": false,
+	// Should shape excavating include different blocks
+	"includeDifBlocks": false,
+	// Shape activation key
+	"shapeKey": "",
+	// Shape type cycle key, sneak to reverse cycle
+	"cycleKey": "",
+	// Currently selected shape
+	"selectedShape": "LAYER"
+}

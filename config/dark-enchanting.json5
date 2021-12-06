@@ -1,0 +1,24 @@
+{
+  //All enchantments cost this much levels to start.
+  "baseCost": 2.5,
+  //Make enchantments cost more.
+  "costFactor": 1.0,
+  //How much curses should be multiplied by.
+  "curseFactor": 3.0,
+  //How much treasure enchantments should be multiplied by.
+  "treasureFactor": 4.0,
+  //Makes rare enchantments less cheap. Decrease the value increase the cost of Rare & Very Rare enchantments.
+  "weightDivisor": 2.0,
+  //This number gets multiplied by the repair cost. Increase it to make repair cost more.
+  "repairFactor": 1.0,
+  //This number (in percent) will be converted into the cost discount when surrounded by bookshelves. (default: 40 % / 0.4
+  "bookshelvesDiscount": 0.4,
+  //This is where people can write specific enchantment data for this mod. The following is an example entry. This entry represents an entry for sharpness in its default form. The Id of the enchantments, factors to multiply during enchanting (discount is when taking off enchantments, cost is when putting on),  and activated decides whether the enchantment can be used
+  "configEnchantments": [
+    {
+      "enchantmentId": "minecraft:sharpness",
+      "personalFactor": 1.0,
+      "activated": true
+    }
+  ]
+}
