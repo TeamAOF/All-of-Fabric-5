@@ -53,7 +53,7 @@
     "spawnPressesInMeteorites": true,
     "generateQuartzOre": true,
     "quartzOresPerCluster": 7,
-    "quartzOresClusterAmount": 30,
+    "quartzOresClusterAmount": 20,
     "quartzOresBiomeBlacklist": []
   },
   "wireless": {
