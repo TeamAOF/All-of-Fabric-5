@@ -30,23 +30,6 @@ onEvent('recipes', (event) => {
   event.shaped(item.of("blockus:white_oak_small_logs", 3), [
     ["blockus:white_oak_log", "blockus:white_oak_log", "blockus:white_oak_log"],
   ]);
-
-  // Barrels 
-  var blockus_barrels = [
-    "oak",
-    "birch",
-    "jungle",
-    "acacia",
-    "dark_oak",
-    "crimson",
-    "warped",
-  ];
-
-    blockus_barrels.forEach(function (item, index) {
-    event.remove({
-      type: "crafting_shaped",
-      output: "blockus:" + item + "_barrel",
-    });
-  });
+ 
 
 });
