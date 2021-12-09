@@ -47,8 +47,8 @@
   "name": "All-of-Fabric-5",
   "cachedScans": [],
   "isValid": true,
-  "lastPreviousMatchUpdate": "2021-12-06T21:09:23.2799768Z",
-  "lastRefreshAttempt": "2021-12-06T22:16:26.3195329+01:00",
+  "lastPreviousMatchUpdate": "2021-12-09T14:10:51.7341515Z",
+  "lastRefreshAttempt": "2021-12-09T15:10:52.0230589+01:00",
   "isEnabled": true,
   "isPinned": false,
   "gameVersion": "1.18",
@@ -2061,7 +2061,7 @@
       "dateInstalled": "2021-12-05T23:46:43.657776Z",
       "dateUpdated": "2021-12-05T23:46:43.6617759Z",
       "dateLastUpdateAttempted": "2021-12-05T23:46:43.6617759Z",
-      "status": 4,
+      "status": 5,
       "preferenceAutoInstallUpdates": null,
       "preferenceAlternateFile": false,
       "preferenceIsIgnored": false,
@@ -2900,7 +2900,7 @@
       "dateInstalled": "2021-12-06T12:20:38.4844943Z",
       "dateUpdated": "2021-12-06T12:20:38.5234818Z",
       "dateLastUpdateAttempted": "2021-12-06T12:20:38.5234818Z",
-      "status": 4,
+      "status": 5,
       "preferenceAutoInstallUpdates": null,
       "preferenceAlternateFile": false,
       "preferenceIsIgnored": false,
@@ -2909,7 +2909,7 @@
       "isFuzzyMatch": false,
       "preferenceReleaseType": null,
       "manifestName": null,
-      "installedTargets": []
+      "installedTargets": null
     },
     {
       "addonID": 365521,
@@ -3897,7 +3897,7 @@
       "dateInstalled": "2021-12-05T22:25:23.7771911Z",
       "dateUpdated": "2021-12-05T22:25:23.7801912Z",
       "dateLastUpdateAttempted": "2021-12-05T22:25:23.7801912Z",
-      "status": 4,
+      "status": 5,
       "preferenceAutoInstallUpdates": null,
       "preferenceAlternateFile": false,
       "preferenceIsIgnored": false,
@@ -4026,7 +4026,7 @@
       "dateInstalled": "2021-12-06T06:34:04.9245108Z",
       "dateUpdated": "2021-12-06T06:34:04.9335083Z",
       "dateLastUpdateAttempted": "2021-12-06T06:34:04.9335083Z",
-      "status": 4,
+      "status": 5,
       "preferenceAutoInstallUpdates": null,
       "preferenceAlternateFile": false,
       "preferenceIsIgnored": false,
@@ -4515,7 +4515,7 @@
       "isFuzzyMatch": false,
       "preferenceReleaseType": null,
       "manifestName": null,
-      "installedTargets": []
+      "installedTargets": null
     },
     {
       "addonID": 321014,
@@ -5020,7 +5020,7 @@
       "dateInstalled": "2021-12-06T21:09:23.2689798Z",
       "dateUpdated": "2021-12-06T21:09:23.2689798Z",
       "dateLastUpdateAttempted": "0001-01-01T00:00:00",
-      "status": 4,
+      "status": 5,
       "preferenceAutoInstallUpdates": null,
       "preferenceAlternateFile": false,
       "preferenceIsIgnored": false,
@@ -5029,7 +5029,7 @@
       "isFuzzyMatch": false,
       "preferenceReleaseType": null,
       "manifestName": null,
-      "installedTargets": []
+      "installedTargets": null
     },
     {
       "addonID": 308769,
@@ -5590,7 +5590,7 @@
       "dateInstalled": "2021-12-02T22:18:22.7999929Z",
       "dateUpdated": "2021-12-06T20:45:41.7709571Z",
       "dateLastUpdateAttempted": "2021-12-06T20:45:41.7709571Z",
-      "status": 4,
+      "status": 5,
       "preferenceAutoInstallUpdates": null,
       "preferenceAlternateFile": false,
       "preferenceIsIgnored": false,
@@ -8154,7 +8154,7 @@
       "dateInstalled": "2021-12-02T22:18:22.7540048Z",
       "dateUpdated": "2021-12-06T20:45:43.9427645Z",
       "dateLastUpdateAttempted": "2021-12-06T20:45:43.9427645Z",
-      "status": 4,
+      "status": 5,
       "preferenceAutoInstallUpdates": null,
       "preferenceAlternateFile": false,
       "preferenceIsIgnored": false,
@@ -10264,7 +10264,7 @@
       "isFuzzyMatch": false,
       "preferenceReleaseType": null,
       "manifestName": null,
-      "installedTargets": []
+      "installedTargets": null
     },
     {
       "addonID": 334011,
@@ -11838,7 +11838,7 @@
       "isFuzzyMatch": false,
       "preferenceReleaseType": null,
       "manifestName": null,
-      "installedTargets": []
+      "installedTargets": null
     },
     {
       "addonID": 408118,
@@ -12635,7 +12635,7 @@
       "dateInstalled": "2021-12-02T22:18:22.8229832Z",
       "dateUpdated": "2021-12-06T20:45:40.206956Z",
       "dateLastUpdateAttempted": "2021-12-06T20:45:40.206956Z",
-      "status": 4,
+      "status": 5,
       "preferenceAutoInstallUpdates": null,
       "preferenceAlternateFile": false,
       "preferenceIsIgnored": false,
@@ -13515,7 +13515,7 @@
       "dateInstalled": "2021-12-02T22:18:22.7689997Z",
       "dateUpdated": "2021-12-05T23:11:19.1291936Z",
       "dateLastUpdateAttempted": "2021-12-05T23:11:19.1291936Z",
-      "status": 4,
+      "status": 5,
       "preferenceAutoInstallUpdates": null,
       "preferenceAlternateFile": false,
       "preferenceIsIgnored": false,
@@ -13892,7 +13892,7 @@
       "dateInstalled": "2021-12-05T22:22:28.5401009Z",
       "dateUpdated": "2021-12-05T22:22:28.5460984Z",
       "dateLastUpdateAttempted": "2021-12-05T22:22:28.5460984Z",
-      "status": 4,
+      "status": 5,
       "preferenceAutoInstallUpdates": null,
       "preferenceAlternateFile": false,
       "preferenceIsIgnored": false,
@@ -15618,16 +15618,16 @@
         "gameVersionId": 7499,
         "gameId": 432,
         "isServerPack": false,
-        "FileNameOnDisk": "Xaeros_Minimap_21.22.3.1_Fabric_1.18.jar"
+        "FileNameOnDisk": "Xaeros_Minimap_21.22.3.1_Fabric_1.18.jar.disabled"
       },
       "dateInstalled": "2021-12-02T22:18:22.8259819Z",
       "dateUpdated": "2021-12-06T20:45:42.8931017Z",
       "dateLastUpdateAttempted": "2021-12-06T20:45:42.8931017Z",
-      "status": 4,
+      "status": 5,
       "preferenceAutoInstallUpdates": null,
       "preferenceAlternateFile": false,
       "preferenceIsIgnored": false,
-      "isModified": false,
+      "isModified": true,
       "isWorkingCopy": false,
       "isFuzzyMatch": false,
       "preferenceReleaseType": null,

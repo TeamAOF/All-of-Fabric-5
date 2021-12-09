@@ -390,3 +390,7 @@ polymer-resourcepack.zip
 realms_persistence.json
 
 deaths.dat
+
+dashloader-cache/
+
+screenshots/
