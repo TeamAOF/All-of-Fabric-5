@@ -1,3 +1,20 @@
+<h1>0.1.5</h1>
+
+<h2>Be sure to always backup your world(s) before updating!</h2>
+
+**Changes**
+- Overall loading times has been lowered thanks to the addition of Dash Loader (Be sure to report any issues if found with this).
+- This release should HEAVILY increase overall fps & aswell lower stutters. Hours of profiling has led to this moment that I'll never be able to get back. Please help.
+- Certus quartz ore gen from AE2 has been heavily nerfed.
+- Re-enabled trapdoor couplings.
+
+
+**Fixes**
+- Fixed TR generated resources missing, alloys etc will now be craftable.
+- Fixed huge fps drop (100 fps loss on a 4790k/980ti) due to zoom rendering.
+- Fixed lower end PCs running very hot due to server/client syncing being faulty implemented.
+---------------------------------------------------------------------------------------------
+
 <h1>0.1.4</h1>
 
 <h2>Be sure to always backup your world(s) before updating!</h2>
