@@ -11,15 +11,15 @@
     "displayed": true,
     "heightBasedFade": true,
     "renderOrder": 0.0,
-    "heightLimit": 20.0,
     "names": 0.0,
+    "heightLimit": 20.0,
     "color": 13.0,
     "displayNameWhenIconFails": false,
     "entityNumber": 100.0,
     "alwaysDisplayNametags": false,
     "dotSize": 2.0,
     "icons": 2.0,
-    "iconScale": 0.8
+    "iconScale": 0.55
   },
   "subCategories": [
     {
