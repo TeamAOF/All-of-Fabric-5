@@ -6,11 +6,13 @@
 - Overall loading times has been lowered thanks to the addition of Dash Loader (Be sure to report any issues if found with this).
 - This release should HEAVILY increase overall fps & aswell lower stutters. Hours of profiling has led to this moment that I'll never be able to get back. Please help.
 - Certus quartz ore gen from AE2 has been heavily nerfed.
+- Nerfed entity banners (less defence % gained, less attack % gained, now needs 100 kills instead of 50.
 - Re-enabled trapdoor couplings.
 
 
 **Fixes**
 - Fixed TR generated resources missing, alloys etc will now be craftable.
+- Fixed entity banner crashes on lookup due to mythic mounts variants.
 - Fixed huge fps drop (100 fps loss on a 4790k/980ti) due to zoom rendering.
 - Fixed lower end PCs running very hot due to server/client syncing being faulty implemented.
 ---------------------------------------------------------------------------------------------
