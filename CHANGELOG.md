@@ -11,6 +11,7 @@
 
 
 **Fixes**
+- Fixed rei searching in AE interfaces (You couldnt remove text in search field).
 - Fixed TR generated resources missing, alloys etc will now be craftable.
 - Fixed entity banner crashes on lookup due to mythic mounts variants.
 - Fixed huge fps drop (100 fps loss on a 4790k/980ti) due to zoom rendering.
