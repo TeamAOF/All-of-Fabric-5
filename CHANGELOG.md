@@ -1,8 +1,10 @@
-<h1>0.1.5</h1>
+<h1>0.2.0</h1>
 
 <h2>Be sure to always backup your world(s) before updating!</h2>
 
 **Changes**
+- Updated to 1.18.1
+- Updated Fabric Loader to 0.12.11
 - Overall loading times has been lowered thanks to the addition of Dash Loader (Be sure to report any issues if found with this).
 - This release should HEAVILY increase overall fps & aswell lower stutters. Hours of profiling has led to this moment that I'll never be able to get back. Please help.
 - Certus quartz ore gen from AE2 has been heavily nerfed.
@@ -11,7 +13,11 @@
 
 
 **Fixes**
-- Fixed rei searching in AE interfaces (You couldnt remove text in search field).
+- Fixed the Log4J2 vulnerability.
+- Fixed REI searching in AE terminals (You couldnt remove text in search field).
+- Fixed REI covering parts of AE terminals
+- Fixed dedicated server crash when attacking a barrel.
+- Fixed MI pipe-related crashes.
 - Fixed TR generated resources missing, alloys etc will now be craftable.
 - Fixed entity banner crashes on lookup due to mythic mounts variants.
 - Fixed huge fps drop (100 fps loss on a 4790k/980ti) due to zoom rendering.
