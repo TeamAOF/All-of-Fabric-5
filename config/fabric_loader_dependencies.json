@@ -26,6 +26,11 @@
                 "minecraft": ""
             }
         },
+        "go-fish": {
+            "-depends": {
+                "minecraft": ""
+            }
+        },
         "additionaladditions": {
             "-depends": {
                 "minecraft": ""

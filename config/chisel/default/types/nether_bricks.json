@@ -1,0 +1,35 @@
+{
+  "name": "nether_bricks",
+  "settings": {
+    "imitate": "minecraft:nether_bricks"
+  },
+  "items_to_include": [
+    "minecraft:nether_bricks",
+    "minecraft:cracked_nether_bricks",
+    "minecraft:chiseled_nether_bricks"
+  ],
+  "variants": {
+    "new": [
+      {
+        "names": [
+          "brinstar",
+          "classicspatter",
+          "guts",
+          "gutsdark",
+          "gutssmall",
+          "lavabrinstar",
+          "lavabrown",
+          "lavaobsidian",
+          "lavastonedark",
+          "meat",
+          "meatred",
+          "meatredsmall",
+          "meatsmall",
+          "red",
+          "redsmall"
+        ],
+        "transparent": false
+      }
+    ]
+  }
+}

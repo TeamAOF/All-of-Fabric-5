@@ -1,0 +1,20 @@
+{
+  "name": "purple_wool",
+  "settings": {
+    "imitate": "minecraft:purple_wool"
+  },
+  "items_to_include": [
+    "minecraft:purple_wool"
+  ],
+  "variants": {
+    "new": [
+      {
+        "names": [
+          "legacy",
+          "llama"
+        ],
+        "transparent": false
+      }
+    ]
+  }
+}

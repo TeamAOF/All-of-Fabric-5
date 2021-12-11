@@ -28,7 +28,8 @@
       "quarrymod": 7408640,
       "extragenerators": 7408640,
       "appliedenergistics2": 6556063,
-      "modern_industrialization": 11993088
+      "modern_industrialization": 11993088,
+      "ae2": 6556063
     },
     "units": {
       "megane": "E",
@@ -39,7 +40,8 @@
       "quarrymod": "E",
       "extragenerators": "E",
       "appliedenergistics2": "AE",
-      "modern_industrialization": "EU"
+      "modern_industrialization": "EU",
+      "ae2": "AE"
     },
     "blacklist": [
       "appliedenergistics2:energy_acceptor"

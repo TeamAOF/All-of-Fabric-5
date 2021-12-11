@@ -1,0 +1,39 @@
+{
+  "name": "gold_block",
+  "settings": {
+    "imitate": "minecraft:gold_block"
+  },
+  "items_to_include": [
+    "minecraft:gold_block"
+  ],
+  "variants": {
+    "new": [
+      {
+        "names": [
+          "brick-bottom",
+          "brick-side",
+          "brick-top",
+          "coin-bottom",
+          "coin-side",
+          "coin-top",
+          "coin-top2",
+          "indent",
+          "ingot-side",
+          "jellybean",
+          "ornate",
+          "prism",
+          "road",
+          "smooth",
+          "soft",
+          "solid",
+          "solid_bricks",
+          "star",
+          "star1",
+          "star2",
+          "star3"
+        ],
+        "transparent": false
+      }
+    ]
+  }
+}

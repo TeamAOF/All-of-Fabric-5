@@ -1,0 +1,32 @@
+{
+  "name": "netherrack",
+  "settings": {
+    "imitate": "minecraft:netherrack"
+  },
+  "items_to_include": [
+    "minecraft:netherrack"
+  ],
+  "variants": {
+    "new": [
+      {
+        "names": [
+          "brinstar",
+          "brinstarshale",
+          "classic",
+          "classicspatter",
+          "crushed",
+          "cuts",
+          "guts",
+          "gutsdark",
+          "gutssmall",
+          "meat",
+          "meatred",
+          "raw",
+          "red",
+          "solid"
+        ],
+        "transparent": false
+      }
+    ]
+  }
+}

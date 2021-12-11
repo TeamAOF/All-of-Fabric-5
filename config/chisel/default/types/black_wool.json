@@ -1,0 +1,20 @@
+{
+  "name": "black_wool",
+  "settings": {
+    "imitate": "minecraft:black_wool"
+  },
+  "items_to_include": [
+    "minecraft:black_wool"
+  ],
+  "variants": {
+    "new": [
+      {
+        "names": [
+          "legacy",
+          "llama"
+        ],
+        "transparent": false
+      }
+    ]
+  }
+}

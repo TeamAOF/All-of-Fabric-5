@@ -1,0 +1,20 @@
+{
+  "name": "red_wool",
+  "settings": {
+    "imitate": "minecraft:red_wool"
+  },
+  "items_to_include": [
+    "minecraft:red_wool"
+  ],
+  "variants": {
+    "new": [
+      {
+        "names": [
+          "legacy",
+          "llama"
+        ],
+        "transparent": false
+      }
+    ]
+  }
+}

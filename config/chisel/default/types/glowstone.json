@@ -1,0 +1,53 @@
+{
+  "name": "glowstone",
+  "settings": {
+    "imitate": "minecraft:glowstone"
+  },
+  "items_to_include": [
+    "minecraft:glowstone"
+  ],
+  "variants": {
+    "new": [
+      {
+        "names": [
+          "array",
+          "bismuth",
+          "braid",
+          "chaotic_medium",
+          "chaotic_small",
+          "circular",
+          "cracked",
+          "cracked_bricks",
+          "dent",
+          "encased_bricks",
+          "french_1",
+          "french_2",
+          "jellybean",
+          "layers",
+          "mosaic",
+          "neon",
+          "neon_panel",
+          "ornate",
+          "panel",
+          "pillar-side",
+          "pillar-top",
+          "prism",
+          "road",
+          "slanted",
+          "small_bricks",
+          "soft_bricks",
+          "solid_bricks",
+          "tiles_large",
+          "tiles_large_bismuth",
+          "tiles_medium",
+          "tiles_medium_bismuth",
+          "tiles_small",
+          "triple_bricks",
+          "twisted-side",
+          "twisted-top"
+        ],
+        "transparent": false
+      }
+    ]
+  }
+}
