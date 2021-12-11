@@ -15,13 +15,60 @@
 **Fixes**
 - Fixed the Log4J2 vulnerability.
 - Fixed REI searching in AE terminals (You couldnt remove text in search field).
-- Fixed REI covering parts of AE terminals
+- Fixed REI covering parts of AE terminals.
 - Fixed dedicated server crash when attacking a barrel.
 - Fixed MI pipe-related crashes.
+- Fixed multiple incorrect autoremoves in unification (Some duplicates of recipes would still show up in REI between MI and TR).
 - Fixed TR generated resources missing, alloys etc will now be craftable.
 - Fixed entity banner crashes on lookup due to mythic mounts variants.
 - Fixed huge fps drop (100 fps loss on a 4790k/980ti) due to zoom rendering.
 - Fixed lower end PCs running very hot due to server/client syncing being faulty implemented.
+
+**Added**
+- Advancements Enlarger
+- BetterCompatibilityChecker
+- Better Mount HUD
+- Catwalks, Inc.
+- Chisel
+- Client Tweaks
+- Christmas Spirit
+- Dank Storage
+- Dawn API
+- Farming for Blockheads  
+- Gate Of Babylon
+- I Know What I'm Doing
+- NetherPortalFix
+- Promenade
+- Tool Stats
+- Wolves With Armor
+- Xaero's World Map
+- You're in Grave Danger
+  
+**Removed**  
+- Lithium (Will be added back as soon as it's compatible with 1.18.1)
+- Universal Graves
+  
+**Updated**  
+- Additional Additions: AdditionalAdditions-3.0.1.jar  
+- AE2WTLib: AE2WTLib-10.0.0-alpha.5.jar  
+- Applied Energistics 2: appliedenergistics2-10.0.0-alpha.5.jar  
+- Architectury: architectury-3.2.47.jar  
+- Balm: balm-fabric-2.3.0+0.jar  
+- Cammie's Wearable Backpacks: camsbackpacks-2.6.jar  
+- Couplings: Couplings-1.7.1+1.18.jar  
+- Dark Enchanting: dark-enchanting-0.6.1+1.18.jar  
+- Expanded Storage: expandedstorage-7.3.3+1.18.jar  
+- Geckolib: geckolib-fabric-1.18-3.0.23.jar  
+- Inmis: inmis-2.4.0-1.18.jar  
+- Inventory Sorter: InventorySorter-1.8.1-1.18.jar  
+- KubeJS: kubejs-fabric-1800.4.0-build.235.jar  
+- Magitek Mechs: magitekmechs-fabric-MC1.18-1.0.10.jar  
+- megane: megane-6.1.1.jar  
+- Modern Industrialization: Modern-Industrialization-1.0.0-alpha.06.jar  
+- Reborn Core: RebornCore-5.1.0-beta.4.jar  
+- Repurposed Structures: repurposed_structures_fabric-3.1.9+1.18.1.jar  
+- Tech Reborn: TechReborn-5.1.0-beta.4.jar  
+- Waystones: wraith-waystones-2.3.4.jar  
 ---------------------------------------------------------------------------------------------
 
 <h1>0.1.4</h1>
