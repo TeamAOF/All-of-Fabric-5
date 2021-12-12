@@ -11,6 +11,10 @@
 - Fixed parts staying connected to the grid when the cable is dismantled
 - Fixed self-recursive patterns failing the crafting job simulation
 - Fixed crafting card in export bus not working properly
+
+**Added**
+- Indium (Be sure to report ANY issues with this on the tracker)
+- Sodium (Be sure to report ANY issues with this on the tracker)
 ---------------------------------------------------------------------------------------------
 
 <h1>0.2.0</h1>
