@@ -1100,19 +1100,9 @@
     "cloak": "void"
   },
   {
-    "name": "Otterax28",
-    "uuid": "71b4a169-4b5d-44e0-95d0-61f3daa15eb3",
-    "cloak": "void"
-  },
-  {
     "name": "Xyztrons",
     "uuid": "a71ca857-1bf9-4497-a9ee-4a8dbfbc7d0d",
     "cloak": "enchanted-jeb"
-  },
-  {
-    "name": "Z_EK",
-    "uuid": "84cf58ac-118d-4181-a718-7217a279e304",
-    "cloak": "coffee"
   },
   {
     "name": "iam_karan",
@@ -1168,5 +1158,45 @@
     "name": "ilkerbey",
     "uuid": "d24f42d7-e87e-4791-8b14-5158c9d8352c",
     "cloak": "enchanted-jeb"
+  },
+  {
+    "name": "trozo_89",
+    "uuid": "ab8a14a4-63f8-4073-bbb4-b467cfed88f6",
+    "cloak": "pumpkin"
+  },
+  {
+    "name": "Otterax28",
+    "uuid": "71b4a169-4b5d-44e0-95d0-61f3daa15eb3",
+    "cloak": "cosmic"
+  },
+  {
+    "name": "_BlackEntity_",
+    "uuid": "86633fa9-06dc-4de2-86dd-d0a7f3569599",
+    "cloak": "enchanted-jeb"
+  },
+  {
+    "name": "ShoriHiraku",
+    "uuid": "b4bf0ca8-d667-4b04-a0b2-34dce1b22f49",
+    "cloak": "cosmic"
+  },
+  {
+    "name": "x_mpr",
+    "uuid": "fe0fe1c4-0be0-4971-afb7-b468f033d262",
+    "cloak": "void"
+  },
+  {
+    "name": "monman3h",
+    "uuid": "23e8a591-b1b0-4867-b007-e596c5fa23b9",
+    "cloak": "smoky"
+  },
+  {
+    "name": "Z_EK",
+    "uuid": "84cf58ac-118d-4181-a718-7217a279e304",
+    "cloak": "lapis"
+  },
+  {
+    "name": "Lightining_",
+    "uuid": "69ca3efd-f59f-4bca-a874-642991807743",
+    "cloak": "golden"
   }
 ]

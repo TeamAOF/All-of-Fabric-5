@@ -29,8 +29,8 @@
   "isUnlocked": true,
   "javaArgsOverride": null,
   "javaDirOverride": null,
-  "lastPlayed": "2021-12-11T14:11:18.6523866Z",
-  "playedCount": 7,
+  "lastPlayed": "2021-12-12T06:08:26.2939687Z",
+  "playedCount": 10,
   "manifest": null,
   "fileDate": "0001-01-01T00:00:00",
   "installedModpack": null,
@@ -47,8 +47,8 @@
   "name": "All-of-Fabric-5",
   "cachedScans": [],
   "isValid": true,
-  "lastPreviousMatchUpdate": "2021-12-11T08:31:58.2109041Z",
-  "lastRefreshAttempt": "2021-12-11T09:31:58.8137122+01:00",
+  "lastPreviousMatchUpdate": "2021-12-12T06:10:07.0848161Z",
+  "lastRefreshAttempt": "2021-12-12T07:10:07.3777221+01:00",
   "isEnabled": true,
   "isPinned": false,
   "gameVersion": "1.18.1",
@@ -77,14 +77,14 @@
       "addonID": 544197,
       "gameInstanceID": "281136bc-8615-4fa9-bee2-abcc532dd39a",
       "installedFile": {
-        "id": 3541981,
-        "displayName": "v1.1 for 1.18",
-        "fileName": "plushie-mod-1.1-1.18.jar",
-        "fileDate": "2021-11-30T17:39:25.323Z",
-        "fileLength": 107104,
+        "id": 3559945,
+        "displayName": "v1.1 for 1.18.1",
+        "fileName": "plushie-mod-1.1-1.18.1.jar",
+        "fileDate": "2021-12-11T15:00:36.843Z",
+        "fileLength": 107105,
         "releaseType": 1,
         "fileStatus": 4,
-        "downloadUrl": "https://edge.forgecdn.net/files/3541/981/plushie-mod-1.1-1.18.jar",
+        "downloadUrl": "https://edge.forgecdn.net/files/3559/945/plushie-mod-1.1-1.18.1.jar",
         "isAlternate": false,
         "alternateFileId": 0,
         "dependencies": [],
@@ -92,7 +92,7 @@
         "modules": [
           {
             "foldername": "META-INF",
-            "fingerprint": 4151316780,
+            "fingerprint": 1370071983,
             "type": 3,
             "invalidFingerprint": false
           },
@@ -127,25 +127,25 @@
             "invalidFingerprint": false
           }
         ],
-        "packageFingerprint": 3782986218,
+        "packageFingerprint": 672491062,
         "gameVersion": [
-          "Fabric",
-          "1.18"
+          "1.18.1",
+          "Fabric"
         ],
         "sortableGameVersion": [
+          {
+            "gameVersionPadded": "0000000001.0000000018.0000000001",
+            "gameVersion": "1.18.1",
+            "gameVersionReleaseDate": "2021-12-10T10:37:38.06Z",
+            "gameVersionName": "1.18.1",
+            "gameVersionTypeId": 73250
+          },
           {
             "gameVersionPadded": "0",
             "gameVersion": "",
             "gameVersionReleaseDate": "2019-08-01T00:00:00Z",
             "gameVersionName": "Fabric",
             "gameVersionTypeId": 68441
-          },
-          {
-            "gameVersionPadded": "0000000001.0000000018",
-            "gameVersion": "1.18",
-            "gameVersionReleaseDate": "2021-11-30T16:23:01.427Z",
-            "gameVersionName": "1.18",
-            "gameVersionTypeId": 73250
           }
         ],
         "hasInstallScript": false,
@@ -153,19 +153,19 @@
         "categorySectionPackageType": 6,
         "restrictProjectFileAccess": 1,
         "projectStatus": 4,
-        "renderCacheId": 2604594,
+        "renderCacheId": 2625456,
         "projectId": 544197,
-        "packageFingerprintId": 796525606,
+        "packageFingerprintId": 805734589,
         "gameVersionDateReleased": "2019-08-01T00:00:00Z",
-        "gameVersionMappingId": 3508932,
+        "gameVersionMappingId": 3554171,
         "gameVersionId": 7499,
         "gameId": 432,
         "isServerPack": false,
-        "FileNameOnDisk": "plushie-mod-1.1-1.18.jar"
+        "FileNameOnDisk": "plushie-mod-1.1-1.18.1.jar"
       },
-      "dateInstalled": "2021-12-11T05:17:45.4887131Z",
-      "dateUpdated": "2021-12-11T05:17:45.4887131Z",
-      "dateLastUpdateAttempted": "0001-01-01T00:00:00",
+      "dateInstalled": "2021-12-11T15:19:35.7439823Z",
+      "dateUpdated": "2021-12-11T15:19:35.7539796Z",
+      "dateLastUpdateAttempted": "2021-12-11T15:19:35.7539796Z",
       "status": 4,
       "preferenceAutoInstallUpdates": null,
       "preferenceAlternateFile": false,
@@ -301,7 +301,7 @@
       "dateInstalled": "2021-12-11T05:17:45.4577228Z",
       "dateUpdated": "2021-12-11T05:17:45.4577228Z",
       "dateLastUpdateAttempted": "0001-01-01T00:00:00",
-      "status": 4,
+      "status": 5,
       "preferenceAutoInstallUpdates": null,
       "preferenceAlternateFile": false,
       "preferenceIsIgnored": false,
@@ -316,14 +316,14 @@
       "addonID": 431135,
       "gameInstanceID": "281136bc-8615-4fa9-bee2-abcc532dd39a",
       "installedFile": {
-        "id": 3542982,
-        "displayName": "go-fish-1.4.0-1.18.jar",
-        "fileName": "go-fish-1.4.0-1.18.jar",
-        "fileDate": "2021-12-01T00:58:06.94Z",
-        "fileLength": 315808,
+        "id": 3561290,
+        "displayName": "go-fish-1.4.1-1.18.1.jar",
+        "fileName": "go-fish-1.4.1-1.18.1.jar",
+        "fileDate": "2021-12-11T19:26:42.553Z",
+        "fileLength": 315813,
         "releaseType": 1,
         "fileStatus": 4,
-        "downloadUrl": "https://edge.forgecdn.net/files/3542/982/go-fish-1.4.0-1.18.jar",
+        "downloadUrl": "https://edge.forgecdn.net/files/3561/290/go-fish-1.4.1-1.18.1.jar",
         "isAlternate": false,
         "alternateFileId": 0,
         "dependencies": [],
@@ -331,7 +331,7 @@
         "modules": [
           {
             "foldername": "META-INF",
-            "fingerprint": 4151316780,
+            "fingerprint": 3026624944,
             "type": 3,
             "invalidFingerprint": false
           },
@@ -349,7 +349,7 @@
           },
           {
             "foldername": "fabric.mod.json",
-            "fingerprint": 3504022210,
+            "fingerprint": 3133752256,
             "type": 3,
             "invalidFingerprint": false
           },
@@ -378,12 +378,20 @@
             "invalidFingerprint": false
           }
         ],
-        "packageFingerprint": 3726764982,
+        "packageFingerprint": 813421526,
         "gameVersion": [
+          "1.18.1",
           "Fabric",
           "1.18"
         ],
         "sortableGameVersion": [
+          {
+            "gameVersionPadded": "0000000001.0000000018.0000000001",
+            "gameVersion": "1.18.1",
+            "gameVersionReleaseDate": "2021-12-10T10:37:38.06Z",
+            "gameVersionName": "1.18.1",
+            "gameVersionTypeId": 73250
+          },
           {
             "gameVersionPadded": "0",
             "gameVersion": "",
@@ -404,19 +412,19 @@
         "categorySectionPackageType": 6,
         "restrictProjectFileAccess": 1,
         "projectStatus": 4,
-        "renderCacheId": 2605699,
+        "renderCacheId": 2626878,
         "projectId": 431135,
-        "packageFingerprintId": 796959946,
+        "packageFingerprintId": 805982144,
         "gameVersionDateReleased": "2019-08-01T00:00:00Z",
-        "gameVersionMappingId": 3511911,
+        "gameVersionMappingId": 3556120,
         "gameVersionId": 7499,
         "gameId": 432,
         "isServerPack": false,
-        "FileNameOnDisk": "go-fish-1.4.0-1.18.jar"
+        "FileNameOnDisk": "go-fish-1.4.1-1.18.1.jar"
       },
       "dateInstalled": "2021-12-11T05:17:45.4947112Z",
-      "dateUpdated": "2021-12-11T05:17:45.4947112Z",
-      "dateLastUpdateAttempted": "0001-01-01T00:00:00",
+      "dateUpdated": "2021-12-12T05:15:36.4352359Z",
+      "dateLastUpdateAttempted": "2021-12-12T05:15:36.4352359Z",
       "status": 4,
       "preferenceAutoInstallUpdates": null,
       "preferenceAlternateFile": false,
@@ -515,7 +523,7 @@
       "dateInstalled": "2021-12-11T05:17:45.5197027Z",
       "dateUpdated": "2021-12-11T05:17:45.5197027Z",
       "dateLastUpdateAttempted": "0001-01-01T00:00:00",
-      "status": 4,
+      "status": 5,
       "preferenceAutoInstallUpdates": null,
       "preferenceAlternateFile": false,
       "preferenceIsIgnored": false,
@@ -660,7 +668,7 @@
       "dateInstalled": "2021-12-11T05:17:45.4957108Z",
       "dateUpdated": "2021-12-11T05:17:45.4957108Z",
       "dateLastUpdateAttempted": "0001-01-01T00:00:00",
-      "status": 4,
+      "status": 5,
       "preferenceAutoInstallUpdates": null,
       "preferenceAlternateFile": false,
       "preferenceIsIgnored": false,
@@ -797,7 +805,7 @@
       "dateInstalled": "2021-12-11T05:17:45.4717184Z",
       "dateUpdated": "2021-12-11T05:17:45.4717184Z",
       "dateLastUpdateAttempted": "0001-01-01T00:00:00",
-      "status": 4,
+      "status": 5,
       "preferenceAutoInstallUpdates": null,
       "preferenceAlternateFile": false,
       "preferenceIsIgnored": false,
@@ -812,101 +820,101 @@
       "addonID": 412225,
       "gameInstanceID": "281136bc-8615-4fa9-bee2-abcc532dd39a",
       "installedFile": {
-        "id": 3544761,
-        "displayName": "Harvest Scythes 2.3.0",
-        "fileName": "wraith-harvestscythes-2.3.0.jar",
-        "fileDate": "2021-12-02T05:19:47.43Z",
-        "fileLength": 278807,
+        "id": 3561212,
+        "displayName": "Harvest Scythes 2.3.1",
+        "fileName": "wraith-harvestscythes-2.3.1.jar",
+        "fileDate": "2021-12-11T18:39:26Z",
+        "fileLength": 281737,
         "releaseType": 1,
         "fileStatus": 4,
-        "downloadUrl": "https://edge.forgecdn.net/files/3544/761/wraith-harvestscythes-2.3.0.jar",
+        "downloadUrl": "https://edge.forgecdn.net/files/3561/212/wraith-harvestscythes-2.3.1.jar",
         "isAlternate": false,
         "alternateFileId": 0,
         "dependencies": [
           {
-            "id": 79804568,
-            "addonId": 377284,
-            "type": 2,
-            "fileId": 3544761
-          },
-          {
-            "id": 79804562,
-            "addonId": 415159,
-            "type": 2,
-            "fileId": 3544761
-          },
-          {
-            "id": 79804569,
-            "addonId": 410127,
-            "type": 2,
-            "fileId": 3544761
-          },
-          {
-            "id": 79804563,
-            "addonId": 424480,
-            "type": 2,
-            "fileId": 3544761
-          },
-          {
-            "id": 79804571,
-            "addonId": 448941,
-            "type": 2,
-            "fileId": 3544761
-          },
-          {
-            "id": 79804566,
-            "addonId": 410015,
-            "type": 2,
-            "fileId": 3544761
-          },
-          {
-            "id": 79804573,
-            "addonId": 233564,
-            "type": 2,
-            "fileId": 3544761
-          },
-          {
-            "id": 79804570,
+            "id": 80706618,
             "addonId": 418680,
             "type": 2,
-            "fileId": 3544761
+            "fileId": 3561212
           },
           {
-            "id": 79804565,
+            "id": 80706617,
+            "addonId": 410127,
+            "type": 2,
+            "fileId": 3561212
+          },
+          {
+            "id": 80706621,
+            "addonId": 233564,
+            "type": 2,
+            "fileId": 3561212
+          },
+          {
+            "id": 80706613,
             "addonId": 427177,
             "type": 2,
-            "fileId": 3544761
+            "fileId": 3561212
           },
           {
-            "id": 79804564,
-            "addonId": 410298,
+            "id": 80706610,
+            "addonId": 415159,
             "type": 2,
-            "fileId": 3544761
+            "fileId": 3561212
           },
           {
-            "id": 79804572,
-            "addonId": 262530,
-            "type": 2,
-            "fileId": 3544761
-          },
-          {
-            "id": 79804561,
-            "addonId": 361599,
-            "type": 2,
-            "fileId": 3544761
-          },
-          {
-            "id": 79804567,
+            "id": 80706615,
             "addonId": 421775,
             "type": 2,
-            "fileId": 3544761
+            "fileId": 3561212
+          },
+          {
+            "id": 80706612,
+            "addonId": 410298,
+            "type": 2,
+            "fileId": 3561212
+          },
+          {
+            "id": 80706614,
+            "addonId": 410015,
+            "type": 2,
+            "fileId": 3561212
+          },
+          {
+            "id": 80706609,
+            "addonId": 361599,
+            "type": 2,
+            "fileId": 3561212
+          },
+          {
+            "id": 80706619,
+            "addonId": 448941,
+            "type": 2,
+            "fileId": 3561212
+          },
+          {
+            "id": 80706616,
+            "addonId": 377284,
+            "type": 2,
+            "fileId": 3561212
+          },
+          {
+            "id": 80706620,
+            "addonId": 262530,
+            "type": 2,
+            "fileId": 3561212
+          },
+          {
+            "id": 80706611,
+            "addonId": 424480,
+            "type": 2,
+            "fileId": 3561212
           }
         ],
         "isAvailable": true,
         "modules": [
           {
             "foldername": "META-INF",
-            "fingerprint": 3115116350,
+            "fingerprint": 3738880618,
             "type": 3,
             "invalidFingerprint": false
           },
@@ -930,7 +938,7 @@
           },
           {
             "foldername": "fabric.mod.json",
-            "fingerprint": 2931039876,
+            "fingerprint": 499565956,
             "type": 3,
             "invalidFingerprint": false
           },
@@ -954,30 +962,30 @@
           },
           {
             "foldername": "wraith",
-            "fingerprint": 3628986305,
+            "fingerprint": 4231152620,
             "type": 3,
             "invalidFingerprint": false
           }
         ],
-        "packageFingerprint": 1078141308,
+        "packageFingerprint": 2654412736,
         "gameVersion": [
-          "Fabric",
-          "1.18"
+          "1.18.1",
+          "Fabric"
         ],
         "sortableGameVersion": [
+          {
+            "gameVersionPadded": "0000000001.0000000018.0000000001",
+            "gameVersion": "1.18.1",
+            "gameVersionReleaseDate": "2021-12-10T10:37:38.06Z",
+            "gameVersionName": "1.18.1",
+            "gameVersionTypeId": 73250
+          },
           {
             "gameVersionPadded": "0",
             "gameVersion": "",
             "gameVersionReleaseDate": "2019-08-01T00:00:00Z",
             "gameVersionName": "Fabric",
             "gameVersionTypeId": 68441
-          },
-          {
-            "gameVersionPadded": "0000000001.0000000018",
-            "gameVersion": "1.18",
-            "gameVersionReleaseDate": "2021-11-30T16:23:01.427Z",
-            "gameVersionName": "1.18",
-            "gameVersionTypeId": 73250
           }
         ],
         "hasInstallScript": false,
@@ -985,19 +993,19 @@
         "categorySectionPackageType": 6,
         "restrictProjectFileAccess": 1,
         "projectStatus": 4,
-        "renderCacheId": 2607766,
+        "renderCacheId": 2626781,
         "projectId": 412225,
-        "packageFingerprintId": 798135161,
+        "packageFingerprintId": 805942970,
         "gameVersionDateReleased": "2019-08-01T00:00:00Z",
-        "gameVersionMappingId": 3516710,
+        "gameVersionMappingId": 3555931,
         "gameVersionId": 7499,
         "gameId": 432,
         "isServerPack": false,
-        "FileNameOnDisk": "wraith-harvestscythes-2.3.0.jar"
+        "FileNameOnDisk": "wraith-harvestscythes-2.3.1.jar"
       },
       "dateInstalled": "2021-12-11T05:17:45.5167043Z",
-      "dateUpdated": "2021-12-11T05:17:45.5167043Z",
-      "dateLastUpdateAttempted": "0001-01-01T00:00:00",
+      "dateUpdated": "2021-12-12T05:15:38.0802133Z",
+      "dateLastUpdateAttempted": "2021-12-12T05:15:38.0802133Z",
       "status": 4,
       "preferenceAutoInstallUpdates": null,
       "preferenceAlternateFile": false,
@@ -1147,7 +1155,7 @@
       "dateInstalled": "2021-12-11T05:17:45.4837146Z",
       "dateUpdated": "2021-12-11T05:17:45.4837146Z",
       "dateLastUpdateAttempted": "0001-01-01T00:00:00",
-      "status": 4,
+      "status": 5,
       "preferenceAutoInstallUpdates": null,
       "preferenceAlternateFile": false,
       "preferenceIsIgnored": false,
@@ -1270,7 +1278,7 @@
       "dateInstalled": "2021-12-11T05:17:45.5346983Z",
       "dateUpdated": "2021-12-11T05:17:45.5346983Z",
       "dateLastUpdateAttempted": "0001-01-01T00:00:00",
-      "status": 4,
+      "status": 5,
       "preferenceAutoInstallUpdates": null,
       "preferenceAlternateFile": false,
       "preferenceIsIgnored": false,
@@ -1394,140 +1402,11 @@
       "dateInstalled": "2021-12-11T05:17:45.4447273Z",
       "dateUpdated": "2021-12-11T05:17:45.4447273Z",
       "dateLastUpdateAttempted": "0001-01-01T00:00:00",
-      "status": 4,
+      "status": 5,
       "preferenceAutoInstallUpdates": null,
       "preferenceAlternateFile": false,
       "preferenceIsIgnored": false,
       "isModified": false,
-      "isWorkingCopy": false,
-      "isFuzzyMatch": false,
-      "preferenceReleaseType": null,
-      "manifestName": null,
-      "installedTargets": null
-    },
-    {
-      "addonID": 360438,
-      "gameInstanceID": "281136bc-8615-4fa9-bee2-abcc532dd39a",
-      "installedFile": {
-        "id": 3550011,
-        "displayName": " Lithium mc1.18-0.7.6-rc1",
-        "fileName": "lithium-fabric-mc1.18-0.7.6-rc1.jar",
-        "fileDate": "2021-12-05T08:26:28.983Z",
-        "fileLength": 385473,
-        "releaseType": 2,
-        "fileStatus": 4,
-        "downloadUrl": "https://edge.forgecdn.net/files/3550/11/lithium-fabric-mc1.18-0.7.6-rc1.jar",
-        "isAlternate": false,
-        "alternateFileId": 0,
-        "dependencies": [
-          {
-            "id": 80064970,
-            "addonId": 394468,
-            "type": 2,
-            "fileId": 3550011
-          },
-          {
-            "id": 80064969,
-            "addonId": 372124,
-            "type": 2,
-            "fileId": 3550011
-          }
-        ],
-        "isAvailable": true,
-        "modules": [
-          {
-            "foldername": "LICENSE.txt",
-            "fingerprint": 1136524626,
-            "type": 3,
-            "invalidFingerprint": false
-          },
-          {
-            "foldername": "META-INF",
-            "fingerprint": 109259916,
-            "type": 3,
-            "invalidFingerprint": false
-          },
-          {
-            "foldername": "assets",
-            "fingerprint": 1769415467,
-            "type": 3,
-            "invalidFingerprint": false
-          },
-          {
-            "foldername": "fabric.mod.json",
-            "fingerprint": 549116010,
-            "type": 3,
-            "invalidFingerprint": false
-          },
-          {
-            "foldername": "lithium.accesswidener",
-            "fingerprint": 2425681346,
-            "type": 3,
-            "invalidFingerprint": false
-          },
-          {
-            "foldername": "lithium.mixins.json",
-            "fingerprint": 2911806467,
-            "type": 3,
-            "invalidFingerprint": false
-          },
-          {
-            "foldername": "me",
-            "fingerprint": 1236670218,
-            "type": 3,
-            "invalidFingerprint": false
-          },
-          {
-            "foldername": "mixins.lithium.refmap.json",
-            "fingerprint": 3393043836,
-            "type": 3,
-            "invalidFingerprint": false
-          }
-        ],
-        "packageFingerprint": 285215123,
-        "gameVersion": [
-          "Fabric",
-          "1.18"
-        ],
-        "sortableGameVersion": [
-          {
-            "gameVersionPadded": "0",
-            "gameVersion": "",
-            "gameVersionReleaseDate": "2019-08-01T00:00:00Z",
-            "gameVersionName": "Fabric",
-            "gameVersionTypeId": 68441
-          },
-          {
-            "gameVersionPadded": "0000000001.0000000018",
-            "gameVersion": "1.18",
-            "gameVersionReleaseDate": "2021-11-30T16:23:01.427Z",
-            "gameVersionName": "1.18",
-            "gameVersionTypeId": 73250
-          }
-        ],
-        "hasInstallScript": false,
-        "isCompatibleWithClient": false,
-        "categorySectionPackageType": 6,
-        "restrictProjectFileAccess": 1,
-        "projectStatus": 4,
-        "renderCacheId": 2613870,
-        "projectId": 360438,
-        "packageFingerprintId": 800353212,
-        "gameVersionDateReleased": "2019-08-01T00:00:00Z",
-        "gameVersionMappingId": 3529169,
-        "gameVersionId": 7499,
-        "gameId": 432,
-        "isServerPack": false,
-        "FileNameOnDisk": "lithium-fabric-mc1.18-0.7.6-rc1.jar.disabled"
-      },
-      "dateInstalled": "2021-12-11T05:17:45.545695Z",
-      "dateUpdated": "2021-12-11T05:17:45.545695Z",
-      "dateLastUpdateAttempted": "0001-01-01T00:00:00",
-      "status": 4,
-      "preferenceAutoInstallUpdates": null,
-      "preferenceAlternateFile": false,
-      "preferenceIsIgnored": false,
-      "isModified": true,
       "isWorkingCopy": false,
       "isFuzzyMatch": false,
       "preferenceReleaseType": null,
@@ -1647,7 +1526,7 @@
       "dateInstalled": "2021-12-11T05:17:45.5077075Z",
       "dateUpdated": "2021-12-11T05:17:45.5077075Z",
       "dateLastUpdateAttempted": "0001-01-01T00:00:00",
-      "status": 4,
+      "status": 5,
       "preferenceAutoInstallUpdates": null,
       "preferenceAlternateFile": false,
       "preferenceIsIgnored": false,
@@ -1769,7 +1648,7 @@
       "dateInstalled": "2021-12-11T05:17:45.4387291Z",
       "dateUpdated": "2021-12-11T05:17:45.4387291Z",
       "dateLastUpdateAttempted": "0001-01-01T00:00:00",
-      "status": 4,
+      "status": 5,
       "preferenceAutoInstallUpdates": null,
       "preferenceAlternateFile": false,
       "preferenceIsIgnored": false,
@@ -1921,7 +1800,7 @@
       "dateInstalled": "2021-12-11T05:17:45.4867133Z",
       "dateUpdated": "2021-12-11T05:17:45.4867133Z",
       "dateLastUpdateAttempted": "0001-01-01T00:00:00",
-      "status": 4,
+      "status": 5,
       "preferenceAutoInstallUpdates": null,
       "preferenceAlternateFile": false,
       "preferenceIsIgnored": false,
@@ -2052,7 +1931,7 @@
       "dateInstalled": "2021-12-11T05:17:45.5167043Z",
       "dateUpdated": "2021-12-11T05:17:45.5167043Z",
       "dateLastUpdateAttempted": "0001-01-01T00:00:00",
-      "status": 4,
+      "status": 5,
       "preferenceAutoInstallUpdates": null,
       "preferenceAlternateFile": false,
       "preferenceIsIgnored": false,
@@ -2175,7 +2054,7 @@
       "dateInstalled": "2021-12-11T05:17:45.527701Z",
       "dateUpdated": "2021-12-11T05:17:45.527701Z",
       "dateLastUpdateAttempted": "0001-01-01T00:00:00",
-      "status": 4,
+      "status": 5,
       "preferenceAutoInstallUpdates": null,
       "preferenceAlternateFile": false,
       "preferenceIsIgnored": false,
@@ -2294,7 +2173,7 @@
       "dateInstalled": "2021-12-11T05:17:45.5037083Z",
       "dateUpdated": "2021-12-11T05:17:45.5037083Z",
       "dateLastUpdateAttempted": "0001-01-01T00:00:00",
-      "status": 4,
+      "status": 5,
       "preferenceAutoInstallUpdates": null,
       "preferenceAlternateFile": false,
       "preferenceIsIgnored": false,
@@ -2411,7 +2290,7 @@
       "dateInstalled": "2021-12-11T05:17:45.5147048Z",
       "dateUpdated": "2021-12-11T05:17:45.5147048Z",
       "dateLastUpdateAttempted": "0001-01-01T00:00:00",
-      "status": 4,
+      "status": 5,
       "preferenceAutoInstallUpdates": null,
       "preferenceAlternateFile": false,
       "preferenceIsIgnored": false,
@@ -2558,140 +2437,11 @@
       "dateInstalled": "2021-12-11T05:17:45.43973Z",
       "dateUpdated": "2021-12-11T05:17:45.43973Z",
       "dateLastUpdateAttempted": "0001-01-01T00:00:00",
-      "status": 4,
+      "status": 5,
       "preferenceAutoInstallUpdates": null,
       "preferenceAlternateFile": false,
       "preferenceIsIgnored": false,
       "isModified": false,
-      "isWorkingCopy": false,
-      "isFuzzyMatch": false,
-      "preferenceReleaseType": null,
-      "manifestName": null,
-      "installedTargets": null
-    },
-    {
-      "addonID": 394468,
-      "gameInstanceID": "281136bc-8615-4fa9-bee2-abcc532dd39a",
-      "installedFile": {
-        "id": 3542074,
-        "displayName": "Sodium mc1.18-0.4.0-alpha5",
-        "fileName": "sodium-fabric-mc1.18-0.4.0-alpha5+build.9.jar",
-        "fileDate": "2021-11-30T18:20:33.847Z",
-        "fileLength": 1311910,
-        "releaseType": 3,
-        "fileStatus": 4,
-        "downloadUrl": "https://edge.forgecdn.net/files/3542/74/sodium-fabric-mc1.18-0.4.0-alpha5+build.9.jar",
-        "isAlternate": false,
-        "alternateFileId": 0,
-        "dependencies": [
-          {
-            "id": 79665927,
-            "addonId": 372124,
-            "type": 2,
-            "fileId": 3542074
-          },
-          {
-            "id": 79665926,
-            "addonId": 360438,
-            "type": 2,
-            "fileId": 3542074
-          }
-        ],
-        "isAvailable": true,
-        "modules": [
-          {
-            "foldername": "META-INF",
-            "fingerprint": 3579848328,
-            "type": 3,
-            "invalidFingerprint": false
-          },
-          {
-            "foldername": "LICENSE.txt",
-            "fingerprint": 1136524626,
-            "type": 3,
-            "invalidFingerprint": false
-          },
-          {
-            "foldername": "assets",
-            "fingerprint": 1668173820,
-            "type": 3,
-            "invalidFingerprint": false
-          },
-          {
-            "foldername": "sodium.accesswidener",
-            "fingerprint": 283530953,
-            "type": 3,
-            "invalidFingerprint": false
-          },
-          {
-            "foldername": "fabric.mod.json",
-            "fingerprint": 823045815,
-            "type": 3,
-            "invalidFingerprint": false
-          },
-          {
-            "foldername": "sodium.mixins.json",
-            "fingerprint": 718993405,
-            "type": 3,
-            "invalidFingerprint": false
-          },
-          {
-            "foldername": "mixins.sodium.refmap.json",
-            "fingerprint": 3394177799,
-            "type": 3,
-            "invalidFingerprint": false
-          },
-          {
-            "foldername": "me",
-            "fingerprint": 396363098,
-            "type": 3,
-            "invalidFingerprint": false
-          }
-        ],
-        "packageFingerprint": 2315531696,
-        "gameVersion": [
-          "Fabric",
-          "1.18"
-        ],
-        "sortableGameVersion": [
-          {
-            "gameVersionPadded": "0",
-            "gameVersion": "",
-            "gameVersionReleaseDate": "2019-08-01T00:00:00Z",
-            "gameVersionName": "Fabric",
-            "gameVersionTypeId": 68441
-          },
-          {
-            "gameVersionPadded": "0000000001.0000000018",
-            "gameVersion": "1.18",
-            "gameVersionReleaseDate": "2021-11-30T16:23:01.427Z",
-            "gameVersionName": "1.18",
-            "gameVersionTypeId": 73250
-          }
-        ],
-        "hasInstallScript": false,
-        "isCompatibleWithClient": true,
-        "categorySectionPackageType": 6,
-        "restrictProjectFileAccess": 1,
-        "projectStatus": 4,
-        "renderCacheId": 2604695,
-        "projectId": 394468,
-        "packageFingerprintId": 796569008,
-        "gameVersionDateReleased": "2019-08-01T00:00:00Z",
-        "gameVersionMappingId": 3509218,
-        "gameVersionId": 7499,
-        "gameId": 432,
-        "isServerPack": false,
-        "FileNameOnDisk": "sodium-fabric-mc1.18-0.4.0-alpha5+build.9.jar.disabled"
-      },
-      "dateInstalled": "2021-12-11T05:17:45.5446952Z",
-      "dateUpdated": "2021-12-11T05:17:45.5446952Z",
-      "dateLastUpdateAttempted": "0001-01-01T00:00:00",
-      "status": 4,
-      "preferenceAutoInstallUpdates": null,
-      "preferenceAlternateFile": false,
-      "preferenceIsIgnored": false,
-      "isModified": true,
       "isWorkingCopy": false,
       "isFuzzyMatch": false,
       "preferenceReleaseType": null,
@@ -2797,7 +2547,7 @@
       "dateInstalled": "2021-12-11T05:17:45.4667205Z",
       "dateUpdated": "2021-12-11T05:17:45.4667205Z",
       "dateLastUpdateAttempted": "0001-01-01T00:00:00",
-      "status": 4,
+      "status": 5,
       "preferenceAutoInstallUpdates": null,
       "preferenceAlternateFile": false,
       "preferenceIsIgnored": false,
@@ -2922,6 +2672,137 @@
       "dateInstalled": "2021-12-11T05:17:45.535698Z",
       "dateUpdated": "2021-12-11T05:17:45.535698Z",
       "dateLastUpdateAttempted": "0001-01-01T00:00:00",
+      "status": 5,
+      "preferenceAutoInstallUpdates": null,
+      "preferenceAlternateFile": false,
+      "preferenceIsIgnored": false,
+      "isModified": false,
+      "isWorkingCopy": false,
+      "isFuzzyMatch": false,
+      "preferenceReleaseType": null,
+      "manifestName": null,
+      "installedTargets": null
+    },
+    {
+      "addonID": 554340,
+      "gameInstanceID": "281136bc-8615-4fa9-bee2-abcc532dd39a",
+      "installedFile": {
+        "id": 3559635,
+        "displayName": "catwalks-inc-1.0.5.jar",
+        "fileName": "catwalks-inc-1.0.5.jar",
+        "fileDate": "2021-12-11T10:29:44.363Z",
+        "fileLength": 212558,
+        "releaseType": 1,
+        "fileStatus": 4,
+        "downloadUrl": "https://edge.forgecdn.net/files/3559/635/catwalks-inc-1.0.5.jar",
+        "isAlternate": false,
+        "alternateFileId": 0,
+        "dependencies": [
+          {
+            "id": 80663566,
+            "addonId": 306612,
+            "type": 3,
+            "fileId": 3559635
+          }
+        ],
+        "isAvailable": true,
+        "modules": [
+          {
+            "foldername": "META-INF",
+            "fingerprint": 1588658261,
+            "type": 3,
+            "invalidFingerprint": false
+          },
+          {
+            "foldername": "LICENSE_catwalks-inc",
+            "fingerprint": 18375977,
+            "type": 3,
+            "invalidFingerprint": false
+          },
+          {
+            "foldername": "fabric.mod.json",
+            "fingerprint": 3139913711,
+            "type": 3,
+            "invalidFingerprint": false
+          },
+          {
+            "foldername": "data",
+            "fingerprint": 3508893879,
+            "type": 3,
+            "invalidFingerprint": false
+          },
+          {
+            "foldername": "catwalksinc.mixins.json",
+            "fingerprint": 3844191774,
+            "type": 3,
+            "invalidFingerprint": false
+          },
+          {
+            "foldername": "assets",
+            "fingerprint": 1779617326,
+            "type": 3,
+            "invalidFingerprint": false
+          },
+          {
+            "foldername": "catwalks-inc-refmap.json",
+            "fingerprint": 3134796007,
+            "type": 3,
+            "invalidFingerprint": false
+          },
+          {
+            "foldername": "com",
+            "fingerprint": 1415261965,
+            "type": 3,
+            "invalidFingerprint": false
+          }
+        ],
+        "packageFingerprint": 2537266974,
+        "gameVersion": [
+          "1.18.1",
+          "Fabric",
+          "1.18"
+        ],
+        "sortableGameVersion": [
+          {
+            "gameVersionPadded": "0000000001.0000000018.0000000001",
+            "gameVersion": "1.18.1",
+            "gameVersionReleaseDate": "2021-12-10T10:37:38.06Z",
+            "gameVersionName": "1.18.1",
+            "gameVersionTypeId": 73250
+          },
+          {
+            "gameVersionPadded": "0",
+            "gameVersion": "",
+            "gameVersionReleaseDate": "2019-08-01T00:00:00Z",
+            "gameVersionName": "Fabric",
+            "gameVersionTypeId": 68441
+          },
+          {
+            "gameVersionPadded": "0000000001.0000000018",
+            "gameVersion": "1.18",
+            "gameVersionReleaseDate": "2021-11-30T16:23:01.427Z",
+            "gameVersionName": "1.18",
+            "gameVersionTypeId": 73250
+          }
+        ],
+        "hasInstallScript": false,
+        "isCompatibleWithClient": true,
+        "categorySectionPackageType": 6,
+        "restrictProjectFileAccess": 1,
+        "projectStatus": 4,
+        "renderCacheId": 2625087,
+        "projectId": 554340,
+        "packageFingerprintId": 805560911,
+        "gameVersionDateReleased": "2019-08-01T00:00:00Z",
+        "gameVersionMappingId": 3553184,
+        "gameVersionId": 7499,
+        "gameId": 432,
+        "isServerPack": false,
+        "FileNameOnDisk": "catwalks-inc-1.0.5.jar"
+      },
+      "dateInstalled": "2021-12-12T05:16:50.3012986Z",
+      "dateUpdated": "2021-12-12T05:16:50.3072972Z",
+      "dateLastUpdateAttempted": "2021-12-12T05:16:50.3072972Z",
       "status": 4,
       "preferenceAutoInstallUpdates": null,
       "preferenceAlternateFile": false,
@@ -3035,7 +2916,7 @@
       "dateInstalled": "2021-12-11T05:17:45.4747175Z",
       "dateUpdated": "2021-12-11T05:17:45.4747175Z",
       "dateLastUpdateAttempted": "0001-01-01T00:00:00",
-      "status": 4,
+      "status": 5,
       "preferenceAutoInstallUpdates": null,
       "preferenceAlternateFile": false,
       "preferenceIsIgnored": false,
@@ -3161,7 +3042,7 @@
       "dateInstalled": "2021-12-11T05:17:45.4787162Z",
       "dateUpdated": "2021-12-11T05:17:45.4787162Z",
       "dateLastUpdateAttempted": "0001-01-01T00:00:00",
-      "status": 4,
+      "status": 5,
       "preferenceAutoInstallUpdates": null,
       "preferenceAlternateFile": false,
       "preferenceIsIgnored": false,
@@ -3292,7 +3173,7 @@
       "dateInstalled": "2021-12-11T05:17:45.4557234Z",
       "dateUpdated": "2021-12-11T05:17:45.4557234Z",
       "dateLastUpdateAttempted": "0001-01-01T00:00:00",
-      "status": 4,
+      "status": 5,
       "preferenceAutoInstallUpdates": null,
       "preferenceAlternateFile": false,
       "preferenceIsIgnored": false,
@@ -3428,7 +3309,7 @@
       "dateInstalled": "2021-12-11T05:17:45.4757169Z",
       "dateUpdated": "2021-12-11T05:17:45.4757169Z",
       "dateLastUpdateAttempted": "0001-01-01T00:00:00",
-      "status": 4,
+      "status": 5,
       "preferenceAutoInstallUpdates": null,
       "preferenceAlternateFile": false,
       "preferenceIsIgnored": false,
@@ -3533,7 +3414,7 @@
       "dateInstalled": "2021-12-11T05:17:45.4597219Z",
       "dateUpdated": "2021-12-11T05:17:45.4597219Z",
       "dateLastUpdateAttempted": "0001-01-01T00:00:00",
-      "status": 4,
+      "status": 5,
       "preferenceAutoInstallUpdates": null,
       "preferenceAlternateFile": false,
       "preferenceIsIgnored": false,
@@ -3662,7 +3543,7 @@
       "dateInstalled": "2021-12-11T05:17:45.5267008Z",
       "dateUpdated": "2021-12-11T05:17:45.5267008Z",
       "dateLastUpdateAttempted": "0001-01-01T00:00:00",
-      "status": 4,
+      "status": 5,
       "preferenceAutoInstallUpdates": null,
       "preferenceAlternateFile": false,
       "preferenceIsIgnored": false,
@@ -3799,7 +3680,7 @@
       "dateInstalled": "2021-12-11T05:17:45.5396977Z",
       "dateUpdated": "2021-12-11T05:17:45.5396977Z",
       "dateLastUpdateAttempted": "0001-01-01T00:00:00",
-      "status": 4,
+      "status": 5,
       "preferenceAutoInstallUpdates": null,
       "preferenceAlternateFile": false,
       "preferenceIsIgnored": false,
@@ -3924,7 +3805,7 @@
       "dateInstalled": "2021-12-11T05:17:45.5127065Z",
       "dateUpdated": "2021-12-11T05:17:45.5127065Z",
       "dateLastUpdateAttempted": "0001-01-01T00:00:00",
-      "status": 4,
+      "status": 5,
       "preferenceAutoInstallUpdates": null,
       "preferenceAlternateFile": false,
       "preferenceIsIgnored": false,
@@ -4055,7 +3936,7 @@
       "dateInstalled": "2021-12-11T05:17:45.5406969Z",
       "dateUpdated": "2021-12-11T05:17:45.5406969Z",
       "dateLastUpdateAttempted": "0001-01-01T00:00:00",
-      "status": 4,
+      "status": 5,
       "preferenceAutoInstallUpdates": null,
       "preferenceAlternateFile": false,
       "preferenceIsIgnored": false,
@@ -4184,7 +4065,7 @@
       "dateInstalled": "2021-12-11T05:17:45.5187031Z",
       "dateUpdated": "2021-12-11T05:17:45.5187031Z",
       "dateLastUpdateAttempted": "0001-01-01T00:00:00",
-      "status": 4,
+      "status": 5,
       "preferenceAutoInstallUpdates": null,
       "preferenceAlternateFile": false,
       "preferenceIsIgnored": false,
@@ -4315,7 +4196,7 @@
       "dateInstalled": "2021-12-11T05:17:45.5097072Z",
       "dateUpdated": "2021-12-11T05:17:45.5097072Z",
       "dateLastUpdateAttempted": "0001-01-01T00:00:00",
-      "status": 4,
+      "status": 5,
       "preferenceAutoInstallUpdates": null,
       "preferenceAlternateFile": false,
       "preferenceIsIgnored": false,
@@ -4452,7 +4333,7 @@
       "dateInstalled": "2021-12-11T05:17:45.5426956Z",
       "dateUpdated": "2021-12-11T05:17:45.5426956Z",
       "dateLastUpdateAttempted": "0001-01-01T00:00:00",
-      "status": 4,
+      "status": 5,
       "preferenceAutoInstallUpdates": null,
       "preferenceAlternateFile": false,
       "preferenceIsIgnored": false,
@@ -4583,7 +4464,7 @@
       "dateInstalled": "2021-12-11T05:17:45.4877131Z",
       "dateUpdated": "2021-12-11T05:17:45.4877131Z",
       "dateLastUpdateAttempted": "0001-01-01T00:00:00",
-      "status": 4,
+      "status": 5,
       "preferenceAutoInstallUpdates": null,
       "preferenceAlternateFile": false,
       "preferenceIsIgnored": false,
@@ -4712,7 +4593,7 @@
       "dateInstalled": "2021-12-11T05:17:45.4697195Z",
       "dateUpdated": "2021-12-11T05:21:03.9756929Z",
       "dateLastUpdateAttempted": "2021-12-11T05:21:03.9756929Z",
-      "status": 4,
+      "status": 5,
       "preferenceAutoInstallUpdates": null,
       "preferenceAlternateFile": false,
       "preferenceIsIgnored": false,
@@ -4966,7 +4847,7 @@
       "dateInstalled": "2021-12-11T05:17:45.450725Z",
       "dateUpdated": "2021-12-11T05:17:45.450725Z",
       "dateLastUpdateAttempted": "0001-01-01T00:00:00",
-      "status": 4,
+      "status": 5,
       "preferenceAutoInstallUpdates": null,
       "preferenceAlternateFile": false,
       "preferenceIsIgnored": false,
@@ -5089,7 +4970,7 @@
       "dateInstalled": "2021-12-11T05:17:45.4457269Z",
       "dateUpdated": "2021-12-11T05:17:45.4457269Z",
       "dateLastUpdateAttempted": "0001-01-01T00:00:00",
-      "status": 4,
+      "status": 5,
       "preferenceAutoInstallUpdates": null,
       "preferenceAlternateFile": false,
       "preferenceIsIgnored": false,
@@ -5206,7 +5087,7 @@
       "dateInstalled": "2021-12-11T05:17:45.443728Z",
       "dateUpdated": "2021-12-11T05:17:45.443728Z",
       "dateLastUpdateAttempted": "0001-01-01T00:00:00",
-      "status": 4,
+      "status": 5,
       "preferenceAutoInstallUpdates": null,
       "preferenceAlternateFile": false,
       "preferenceIsIgnored": false,
@@ -5337,7 +5218,7 @@
       "dateInstalled": "2021-12-11T05:17:45.5376973Z",
       "dateUpdated": "2021-12-11T05:17:45.5376973Z",
       "dateLastUpdateAttempted": "0001-01-01T00:00:00",
-      "status": 4,
+      "status": 5,
       "preferenceAutoInstallUpdates": null,
       "preferenceAlternateFile": false,
       "preferenceIsIgnored": false,
@@ -5447,7 +5328,7 @@
       "dateInstalled": "2021-12-11T05:17:45.4927123Z",
       "dateUpdated": "2021-12-11T05:17:45.4927123Z",
       "dateLastUpdateAttempted": "0001-01-01T00:00:00",
-      "status": 4,
+      "status": 5,
       "preferenceAutoInstallUpdates": null,
       "preferenceAlternateFile": false,
       "preferenceIsIgnored": false,
@@ -5573,7 +5454,7 @@
       "dateInstalled": "2021-12-11T05:17:45.5187031Z",
       "dateUpdated": "2021-12-11T05:17:45.5187031Z",
       "dateLastUpdateAttempted": "0001-01-01T00:00:00",
-      "status": 4,
+      "status": 5,
       "preferenceAutoInstallUpdates": null,
       "preferenceAlternateFile": false,
       "preferenceIsIgnored": false,
@@ -5588,47 +5469,47 @@
       "addonID": 421839,
       "gameInstanceID": "281136bc-8615-4fa9-bee2-abcc532dd39a",
       "installedFile": {
-        "id": 3551435,
-        "displayName": "Botania-1.18-424-FABRIC.jar",
-        "fileName": "Botania-1.18-424-FABRIC.jar",
-        "fileDate": "2021-12-06T10:58:32.073Z",
-        "fileLength": 15649716,
+        "id": 3560009,
+        "displayName": "Botania-1.18-425-FABRIC.jar",
+        "fileName": "Botania-1.18-425-FABRIC.jar",
+        "fileDate": "2021-12-11T15:52:02.18Z",
+        "fileLength": 15649814,
         "releaseType": 2,
         "fileStatus": 4,
-        "downloadUrl": "https://edge.forgecdn.net/files/3551/435/Botania-1.18-424-FABRIC.jar",
+        "downloadUrl": "https://edge.forgecdn.net/files/3560/9/Botania-1.18-425-FABRIC.jar",
         "isAlternate": false,
         "alternateFileId": 0,
         "dependencies": [
           {
-            "id": 80167501,
-            "addonId": 306612,
-            "type": 3,
-            "fileId": 3551435
-          },
-          {
-            "id": 80167502,
+            "id": 80691169,
             "addonId": 393236,
             "type": 3,
-            "fileId": 3551435
+            "fileId": 3560009
           },
           {
-            "id": 80167503,
+            "id": 80691170,
             "addonId": 341284,
             "type": 3,
-            "fileId": 3551435
+            "fileId": 3560009
+          },
+          {
+            "id": 80691168,
+            "addonId": 306612,
+            "type": 3,
+            "fileId": 3560009
           }
         ],
         "isAvailable": true,
         "modules": [
           {
             "foldername": "META-INF",
-            "fingerprint": 2915655070,
+            "fingerprint": 4218923153,
             "type": 3,
             "invalidFingerprint": false
           },
           {
             "foldername": "fabric.mod.json",
-            "fingerprint": 2780361633,
+            "fingerprint": 3255538249,
             "type": 3,
             "invalidFingerprint": false
           },
@@ -5646,7 +5527,7 @@
           },
           {
             "foldername": "data",
-            "fingerprint": 397386909,
+            "fingerprint": 3896427587,
             "type": 3,
             "invalidFingerprint": false
           },
@@ -5670,23 +5551,31 @@
           },
           {
             "foldername": "Botania-refmap.json",
-            "fingerprint": 2037480124,
+            "fingerprint": 196260082,
             "type": 3,
             "invalidFingerprint": false
           },
           {
             "foldername": "vazkii",
-            "fingerprint": 3722873212,
+            "fingerprint": 616341679,
             "type": 3,
             "invalidFingerprint": false
           }
         ],
-        "packageFingerprint": 1045609270,
+        "packageFingerprint": 1189686325,
         "gameVersion": [
+          "1.18.1",
           "Fabric",
           "1.18"
         ],
         "sortableGameVersion": [
+          {
+            "gameVersionPadded": "0000000001.0000000018.0000000001",
+            "gameVersion": "1.18.1",
+            "gameVersionReleaseDate": "2021-12-10T10:37:38.06Z",
+            "gameVersionName": "1.18.1",
+            "gameVersionTypeId": 73250
+          },
           {
             "gameVersionPadded": "0",
             "gameVersion": "",
@@ -5707,19 +5596,19 @@
         "categorySectionPackageType": 6,
         "restrictProjectFileAccess": 1,
         "projectStatus": 4,
-        "renderCacheId": 2615618,
+        "renderCacheId": 2625532,
         "projectId": 421839,
-        "packageFingerprintId": 801146153,
+        "packageFingerprintId": 805783498,
         "gameVersionDateReleased": "2019-08-01T00:00:00Z",
-        "gameVersionMappingId": 3533465,
+        "gameVersionMappingId": 3554343,
         "gameVersionId": 7499,
         "gameId": 432,
         "isServerPack": false,
-        "FileNameOnDisk": "Botania-1.18-424-FABRIC.jar"
+        "FileNameOnDisk": "Botania-1.18-425-FABRIC.jar"
       },
-      "dateInstalled": "2021-12-11T05:17:45.5107085Z",
-      "dateUpdated": "2021-12-11T05:17:45.5107085Z",
-      "dateLastUpdateAttempted": "0001-01-01T00:00:00",
+      "dateInstalled": "2021-12-11T15:58:48.9404996Z",
+      "dateUpdated": "2021-12-11T15:58:48.9994814Z",
+      "dateLastUpdateAttempted": "2021-12-11T15:58:48.9994814Z",
       "status": 4,
       "preferenceAutoInstallUpdates": null,
       "preferenceAlternateFile": false,
@@ -5940,7 +5829,7 @@
       "dateInstalled": "2021-12-11T05:17:45.527701Z",
       "dateUpdated": "2021-12-11T05:17:45.527701Z",
       "dateLastUpdateAttempted": "0001-01-01T00:00:00",
-      "status": 4,
+      "status": 5,
       "preferenceAutoInstallUpdates": null,
       "preferenceAlternateFile": false,
       "preferenceIsIgnored": false,
@@ -6038,7 +5927,7 @@
       "dateInstalled": "2021-12-11T05:17:45.4587229Z",
       "dateUpdated": "2021-12-11T05:17:45.4587229Z",
       "dateLastUpdateAttempted": "0001-01-01T00:00:00",
-      "status": 4,
+      "status": 5,
       "preferenceAutoInstallUpdates": null,
       "preferenceAlternateFile": false,
       "preferenceIsIgnored": false,
@@ -6149,7 +6038,7 @@
       "dateInstalled": "2021-12-11T05:17:45.441729Z",
       "dateUpdated": "2021-12-11T05:17:45.441729Z",
       "dateLastUpdateAttempted": "0001-01-01T00:00:00",
-      "status": 4,
+      "status": 5,
       "preferenceAutoInstallUpdates": null,
       "preferenceAlternateFile": false,
       "preferenceIsIgnored": false,
@@ -6306,7 +6195,7 @@
       "dateInstalled": "2021-12-11T05:17:45.4747175Z",
       "dateUpdated": "2021-12-11T05:17:45.4747175Z",
       "dateLastUpdateAttempted": "0001-01-01T00:00:00",
-      "status": 4,
+      "status": 5,
       "preferenceAutoInstallUpdates": null,
       "preferenceAlternateFile": false,
       "preferenceIsIgnored": false,
@@ -6422,7 +6311,7 @@
       "dateInstalled": "2021-12-11T05:17:45.4887131Z",
       "dateUpdated": "2021-12-11T05:17:45.4887131Z",
       "dateLastUpdateAttempted": "0001-01-01T00:00:00",
-      "status": 4,
+      "status": 5,
       "preferenceAutoInstallUpdates": null,
       "preferenceAlternateFile": false,
       "preferenceIsIgnored": false,
@@ -6589,7 +6478,7 @@
       "dateInstalled": "2021-12-11T05:17:45.4457269Z",
       "dateUpdated": "2021-12-11T05:17:45.4457269Z",
       "dateLastUpdateAttempted": "0001-01-01T00:00:00",
-      "status": 4,
+      "status": 5,
       "preferenceAutoInstallUpdates": null,
       "preferenceAlternateFile": false,
       "preferenceIsIgnored": false,
@@ -6712,7 +6601,7 @@
       "dateInstalled": "2021-12-11T05:17:45.4757169Z",
       "dateUpdated": "2021-12-11T05:17:45.4757169Z",
       "dateLastUpdateAttempted": "0001-01-01T00:00:00",
-      "status": 4,
+      "status": 5,
       "preferenceAutoInstallUpdates": null,
       "preferenceAlternateFile": false,
       "preferenceIsIgnored": false,
@@ -6829,7 +6718,7 @@
       "dateInstalled": "2021-12-11T05:17:45.5316996Z",
       "dateUpdated": "2021-12-11T05:17:45.5316996Z",
       "dateLastUpdateAttempted": "0001-01-01T00:00:00",
-      "status": 4,
+      "status": 5,
       "preferenceAutoInstallUpdates": null,
       "preferenceAlternateFile": false,
       "preferenceIsIgnored": false,
@@ -6984,7 +6873,7 @@
       "dateInstalled": "2021-12-11T05:17:45.443728Z",
       "dateUpdated": "2021-12-11T05:17:45.443728Z",
       "dateLastUpdateAttempted": "0001-01-01T00:00:00",
-      "status": 4,
+      "status": 5,
       "preferenceAutoInstallUpdates": null,
       "preferenceAlternateFile": false,
       "preferenceIsIgnored": false,
@@ -7115,7 +7004,7 @@
       "dateInstalled": "2021-12-11T05:17:45.482715Z",
       "dateUpdated": "2021-12-11T05:17:45.482715Z",
       "dateLastUpdateAttempted": "0001-01-01T00:00:00",
-      "status": 4,
+      "status": 5,
       "preferenceAutoInstallUpdates": null,
       "preferenceAlternateFile": false,
       "preferenceIsIgnored": false,
@@ -7130,22 +7019,22 @@
       "addonID": 271492,
       "gameInstanceID": "281136bc-8615-4fa9-bee2-abcc532dd39a",
       "installedFile": {
-        "id": 3395670,
-        "displayName": "I Know What I'm Doing 3.1.0 Fabric",
-        "fileName": "IKnowWhatImDoing-3.1.0-fabric.jar",
-        "fileDate": "2021-07-21T03:16:19.703Z",
-        "fileLength": 8862,
+        "id": 3561096,
+        "displayName": "I Know What I'm Doing 4.0.0 Fabric",
+        "fileName": "IKnowWhatImDoing-4.0.0-fabric.jar",
+        "fileDate": "2021-12-11T17:09:46.53Z",
+        "fileLength": 9591,
         "releaseType": 1,
         "fileStatus": 4,
-        "downloadUrl": "https://edge.forgecdn.net/files/3395/670/IKnowWhatImDoing-3.1.0-fabric.jar",
+        "downloadUrl": "https://edge.forgecdn.net/files/3561/96/IKnowWhatImDoing-4.0.0-fabric.jar",
         "isAlternate": false,
-        "alternateFileId": 3395671,
+        "alternateFileId": 3561101,
         "dependencies": [],
         "isAvailable": true,
         "modules": [
           {
             "foldername": "META-INF",
-            "fingerprint": 912986568,
+            "fingerprint": 2814766310,
             "type": 3,
             "invalidFingerprint": false
           },
@@ -7157,24 +7046,26 @@
           },
           {
             "foldername": "fabric.mod.json",
-            "fingerprint": 524462775,
+            "fingerprint": 158726879,
             "type": 3,
             "invalidFingerprint": false
           },
           {
             "foldername": "dev",
-            "fingerprint": 3587411424,
+            "fingerprint": 1656560848,
             "type": 3,
             "invalidFingerprint": false
           }
         ],
-        "packageFingerprint": 3322335787,
+        "packageFingerprint": 83153760,
         "gameVersion": [
           "1.17.1",
+          "1.18.1",
           "1.14.4",
           "Fabric",
           "1.16.5",
           "1.15.2",
+          "1.18",
           "1.13.2"
         ],
         "sortableGameVersion": [
@@ -7184,6 +7075,13 @@
             "gameVersionReleaseDate": "2021-07-06T14:16:03.97Z",
             "gameVersionName": "1.17.1",
             "gameVersionTypeId": 73242
+          },
+          {
+            "gameVersionPadded": "0000000001.0000000018.0000000001",
+            "gameVersion": "1.18.1",
+            "gameVersionReleaseDate": "2021-12-10T10:37:38.06Z",
+            "gameVersionName": "1.18.1",
+            "gameVersionTypeId": 73250
           },
           {
             "gameVersionPadded": "0000000001.0000000014.0000000004",
@@ -7214,6 +7112,13 @@
             "gameVersionTypeId": 68722
           },
           {
+            "gameVersionPadded": "0000000001.0000000018",
+            "gameVersion": "1.18",
+            "gameVersionReleaseDate": "2021-11-30T16:23:01.427Z",
+            "gameVersionName": "1.18",
+            "gameVersionTypeId": 73250
+          },
+          {
             "gameVersionPadded": "0000000001.0000000013.0000000002",
             "gameVersion": "1.13.2",
             "gameVersionReleaseDate": "2018-10-22T00:00:00Z",
@@ -7222,23 +7127,23 @@
           }
         ],
         "hasInstallScript": false,
-        "isCompatibleWithClient": false,
+        "isCompatibleWithClient": true,
         "categorySectionPackageType": 6,
         "restrictProjectFileAccess": 1,
         "projectStatus": 4,
-        "renderCacheId": 2418859,
+        "renderCacheId": 2626644,
         "projectId": 271492,
-        "packageFingerprintId": 709926247,
+        "packageFingerprintId": 805835521,
         "gameVersionDateReleased": "2008-03-01T06:00:00Z",
-        "gameVersionMappingId": 3149431,
+        "gameVersionMappingId": 3555597,
         "gameVersionId": 4458,
         "gameId": 432,
         "isServerPack": false,
-        "FileNameOnDisk": "IKnowWhatImDoing-3.1.0-fabric.jar"
+        "FileNameOnDisk": "IKnowWhatImDoing-4.0.0-fabric.jar"
       },
       "dateInstalled": "2021-12-11T05:17:45.5466945Z",
-      "dateUpdated": "2021-12-11T05:17:45.5466945Z",
-      "dateLastUpdateAttempted": "0001-01-01T00:00:00",
+      "dateUpdated": "2021-12-12T05:15:39.2253527Z",
+      "dateLastUpdateAttempted": "2021-12-12T05:15:39.2253527Z",
       "status": 4,
       "preferenceAutoInstallUpdates": null,
       "preferenceAlternateFile": false,
@@ -7351,7 +7256,7 @@
       "dateInstalled": "2021-12-11T05:17:45.5366979Z",
       "dateUpdated": "2021-12-11T05:17:45.5366979Z",
       "dateLastUpdateAttempted": "0001-01-01T00:00:00",
-      "status": 4,
+      "status": 5,
       "preferenceAutoInstallUpdates": null,
       "preferenceAlternateFile": false,
       "preferenceIsIgnored": false,
@@ -7464,7 +7369,7 @@
       "dateInstalled": "2021-12-11T05:17:45.4967102Z",
       "dateUpdated": "2021-12-11T05:17:45.4967102Z",
       "dateLastUpdateAttempted": "0001-01-01T00:00:00",
-      "status": 4,
+      "status": 5,
       "preferenceAutoInstallUpdates": null,
       "preferenceAlternateFile": false,
       "preferenceIsIgnored": false,
@@ -7601,7 +7506,7 @@
       "dateInstalled": "2021-12-11T05:17:45.4527244Z",
       "dateUpdated": "2021-12-11T05:17:45.4527244Z",
       "dateLastUpdateAttempted": "0001-01-01T00:00:00",
-      "status": 4,
+      "status": 5,
       "preferenceAutoInstallUpdates": null,
       "preferenceAlternateFile": false,
       "preferenceIsIgnored": false,
@@ -7705,7 +7610,7 @@
       "dateInstalled": "2021-12-11T05:17:45.4797155Z",
       "dateUpdated": "2021-12-11T05:17:45.4797155Z",
       "dateLastUpdateAttempted": "0001-01-01T00:00:00",
-      "status": 4,
+      "status": 5,
       "preferenceAutoInstallUpdates": null,
       "preferenceAlternateFile": false,
       "preferenceIsIgnored": false,
@@ -7830,7 +7735,7 @@
       "dateInstalled": "2021-12-11T05:17:45.4987097Z",
       "dateUpdated": "2021-12-11T05:17:45.4987097Z",
       "dateLastUpdateAttempted": "0001-01-01T00:00:00",
-      "status": 4,
+      "status": 5,
       "preferenceAutoInstallUpdates": null,
       "preferenceAlternateFile": false,
       "preferenceIsIgnored": false,
@@ -8052,7 +7957,7 @@
       "dateInstalled": "2021-12-11T05:17:45.5037083Z",
       "dateUpdated": "2021-12-11T05:17:45.5037083Z",
       "dateLastUpdateAttempted": "0001-01-01T00:00:00",
-      "status": 4,
+      "status": 5,
       "preferenceAutoInstallUpdates": null,
       "preferenceAlternateFile": false,
       "preferenceIsIgnored": false,
@@ -8174,7 +8079,7 @@
       "dateInstalled": "2021-12-11T05:17:45.4767178Z",
       "dateUpdated": "2021-12-11T05:17:45.4767178Z",
       "dateLastUpdateAttempted": "0001-01-01T00:00:00",
-      "status": 4,
+      "status": 5,
       "preferenceAutoInstallUpdates": null,
       "preferenceAlternateFile": false,
       "preferenceIsIgnored": false,
@@ -8299,7 +8204,7 @@
       "dateInstalled": "2021-12-11T05:17:45.5177035Z",
       "dateUpdated": "2021-12-11T05:17:45.5177035Z",
       "dateLastUpdateAttempted": "0001-01-01T00:00:00",
-      "status": 4,
+      "status": 5,
       "preferenceAutoInstallUpdates": null,
       "preferenceAlternateFile": false,
       "preferenceIsIgnored": false,
@@ -8438,7 +8343,7 @@
       "dateInstalled": "2021-12-11T05:17:45.4687205Z",
       "dateUpdated": "2021-12-11T05:17:45.4687205Z",
       "dateLastUpdateAttempted": "0001-01-01T00:00:00",
-      "status": 4,
+      "status": 5,
       "preferenceAutoInstallUpdates": null,
       "preferenceAlternateFile": false,
       "preferenceIsIgnored": false,
@@ -8532,6 +8437,124 @@
       "dateInstalled": "2021-12-11T05:16:55.8755841Z",
       "dateUpdated": "2021-12-11T05:16:55.8885795Z",
       "dateLastUpdateAttempted": "2021-12-11T05:16:55.8885795Z",
+      "status": 5,
+      "preferenceAutoInstallUpdates": null,
+      "preferenceAlternateFile": false,
+      "preferenceIsIgnored": false,
+      "isModified": false,
+      "isWorkingCopy": false,
+      "isFuzzyMatch": false,
+      "preferenceReleaseType": null,
+      "manifestName": null,
+      "installedTargets": null
+    },
+    {
+      "addonID": 364540,
+      "gameInstanceID": "281136bc-8615-4fa9-bee2-abcc532dd39a",
+      "installedFile": {
+        "id": 3558448,
+        "displayName": "fastfurnace-1.18-4.jar",
+        "fileName": "fastfurnace-1.18-4.jar",
+        "fileDate": "2021-12-10T18:08:07.297Z",
+        "fileLength": 17766,
+        "releaseType": 1,
+        "fileStatus": 4,
+        "downloadUrl": "https://edge.forgecdn.net/files/3558/448/fastfurnace-1.18-4.jar",
+        "isAlternate": false,
+        "alternateFileId": 0,
+        "dependencies": [],
+        "isAvailable": true,
+        "modules": [
+          {
+            "foldername": "META-INF",
+            "fingerprint": 3106504104,
+            "type": 3,
+            "invalidFingerprint": false
+          },
+          {
+            "foldername": "LICENSE",
+            "fingerprint": 69484887,
+            "type": 3,
+            "invalidFingerprint": false
+          },
+          {
+            "foldername": "fastfurnace.mixins.json",
+            "fingerprint": 3071252016,
+            "type": 3,
+            "invalidFingerprint": false
+          },
+          {
+            "foldername": "fabric.mod.json",
+            "fingerprint": 724998580,
+            "type": 3,
+            "invalidFingerprint": false
+          },
+          {
+            "foldername": "assets",
+            "fingerprint": 2742186492,
+            "type": 3,
+            "invalidFingerprint": false
+          },
+          {
+            "foldername": "fastfurnace-refmap.json",
+            "fingerprint": 4173492326,
+            "type": 3,
+            "invalidFingerprint": false
+          },
+          {
+            "foldername": "tfar",
+            "fingerprint": 4008179594,
+            "type": 3,
+            "invalidFingerprint": false
+          }
+        ],
+        "packageFingerprint": 1789020635,
+        "gameVersion": [
+          "1.18.1",
+          "Fabric",
+          "1.18"
+        ],
+        "sortableGameVersion": [
+          {
+            "gameVersionPadded": "0000000001.0000000018.0000000001",
+            "gameVersion": "1.18.1",
+            "gameVersionReleaseDate": "2021-12-10T10:37:38.06Z",
+            "gameVersionName": "1.18.1",
+            "gameVersionTypeId": 73250
+          },
+          {
+            "gameVersionPadded": "0",
+            "gameVersion": "",
+            "gameVersionReleaseDate": "2019-08-01T00:00:00Z",
+            "gameVersionName": "Fabric",
+            "gameVersionTypeId": 68441
+          },
+          {
+            "gameVersionPadded": "0000000001.0000000018",
+            "gameVersion": "1.18",
+            "gameVersionReleaseDate": "2021-11-30T16:23:01.427Z",
+            "gameVersionName": "1.18",
+            "gameVersionTypeId": 73250
+          }
+        ],
+        "hasInstallScript": false,
+        "isCompatibleWithClient": true,
+        "categorySectionPackageType": 6,
+        "restrictProjectFileAccess": 1,
+        "projectStatus": 4,
+        "renderCacheId": 2623709,
+        "projectId": 364540,
+        "packageFingerprintId": 804770798,
+        "gameVersionDateReleased": "2019-08-01T00:00:00Z",
+        "gameVersionMappingId": 3549342,
+        "gameVersionId": 7499,
+        "gameId": 432,
+        "isServerPack": false,
+        "FileNameOnDisk": "fastfurnace-1.18-4.jar"
+      },
+      "dateInstalled": "2021-12-11T15:23:40.2398123Z",
+      "dateUpdated": "2021-12-11T15:23:40.2748009Z",
+      "dateLastUpdateAttempted": "2021-12-11T15:23:40.2748009Z",
       "status": 4,
       "preferenceAutoInstallUpdates": null,
       "preferenceAlternateFile": false,
@@ -8636,7 +8659,7 @@
       "dateInstalled": "2021-12-11T05:17:45.4717184Z",
       "dateUpdated": "2021-12-11T05:17:45.4717184Z",
       "dateLastUpdateAttempted": "0001-01-01T00:00:00",
-      "status": 4,
+      "status": 5,
       "preferenceAutoInstallUpdates": null,
       "preferenceAlternateFile": false,
       "preferenceIsIgnored": false,
@@ -8781,7 +8804,7 @@
       "dateInstalled": "2021-12-11T05:17:45.4897128Z",
       "dateUpdated": "2021-12-11T05:17:45.4897128Z",
       "dateLastUpdateAttempted": "0001-01-01T00:00:00",
-      "status": 4,
+      "status": 5,
       "preferenceAutoInstallUpdates": null,
       "preferenceAlternateFile": false,
       "preferenceIsIgnored": false,
@@ -8910,7 +8933,7 @@
       "dateInstalled": "2021-12-11T05:17:45.5137056Z",
       "dateUpdated": "2021-12-11T05:17:45.5137056Z",
       "dateLastUpdateAttempted": "0001-01-01T00:00:00",
-      "status": 4,
+      "status": 5,
       "preferenceAutoInstallUpdates": null,
       "preferenceAlternateFile": false,
       "preferenceIsIgnored": false,
@@ -9061,7 +9084,7 @@
       "dateInstalled": "2021-12-11T05:17:45.5027084Z",
       "dateUpdated": "2021-12-11T05:17:45.5027084Z",
       "dateLastUpdateAttempted": "0001-01-01T00:00:00",
-      "status": 4,
+      "status": 5,
       "preferenceAutoInstallUpdates": null,
       "preferenceAlternateFile": false,
       "preferenceIsIgnored": false,
@@ -9202,7 +9225,7 @@
       "dateInstalled": "2021-12-11T05:17:45.4977096Z",
       "dateUpdated": "2021-12-11T05:17:45.4977096Z",
       "dateLastUpdateAttempted": "0001-01-01T00:00:00",
-      "status": 4,
+      "status": 5,
       "preferenceAutoInstallUpdates": null,
       "preferenceAlternateFile": false,
       "preferenceIsIgnored": false,
@@ -9329,7 +9352,7 @@
       "dateInstalled": "2021-12-11T05:17:45.5047079Z",
       "dateUpdated": "2021-12-11T05:17:45.5047079Z",
       "dateLastUpdateAttempted": "0001-01-01T00:00:00",
-      "status": 4,
+      "status": 5,
       "preferenceAutoInstallUpdates": null,
       "preferenceAlternateFile": false,
       "preferenceIsIgnored": false,
@@ -9448,7 +9471,7 @@
       "dateInstalled": "2021-12-11T05:17:45.4807157Z",
       "dateUpdated": "2021-12-11T05:17:45.4807157Z",
       "dateLastUpdateAttempted": "0001-01-01T00:00:00",
-      "status": 4,
+      "status": 5,
       "preferenceAutoInstallUpdates": null,
       "preferenceAlternateFile": false,
       "preferenceIsIgnored": false,
@@ -9558,7 +9581,7 @@
       "dateInstalled": "2021-12-11T05:17:45.4597219Z",
       "dateUpdated": "2021-12-11T05:17:45.4597219Z",
       "dateLastUpdateAttempted": "0001-01-01T00:00:00",
-      "status": 4,
+      "status": 5,
       "preferenceAutoInstallUpdates": null,
       "preferenceAlternateFile": false,
       "preferenceIsIgnored": false,
@@ -9662,7 +9685,7 @@
       "dateInstalled": "2021-12-11T05:17:45.482715Z",
       "dateUpdated": "2021-12-11T05:17:45.482715Z",
       "dateLastUpdateAttempted": "0001-01-01T00:00:00",
-      "status": 4,
+      "status": 5,
       "preferenceAutoInstallUpdates": null,
       "preferenceAlternateFile": false,
       "preferenceIsIgnored": false,
@@ -9813,7 +9836,7 @@
       "dateInstalled": "2021-12-11T05:17:45.4917125Z",
       "dateUpdated": "2021-12-11T05:17:45.4917125Z",
       "dateLastUpdateAttempted": "0001-01-01T00:00:00",
-      "status": 4,
+      "status": 5,
       "preferenceAutoInstallUpdates": null,
       "preferenceAlternateFile": false,
       "preferenceIsIgnored": false,
@@ -9984,7 +10007,7 @@
       "dateInstalled": "2021-12-11T05:17:45.4557234Z",
       "dateUpdated": "2021-12-11T05:17:45.4557234Z",
       "dateLastUpdateAttempted": "0001-01-01T00:00:00",
-      "status": 4,
+      "status": 5,
       "preferenceAutoInstallUpdates": null,
       "preferenceAlternateFile": false,
       "preferenceIsIgnored": false,
@@ -10116,7 +10139,7 @@
       "dateInstalled": "2021-12-11T05:17:45.4647203Z",
       "dateUpdated": "2021-12-11T05:17:45.4647203Z",
       "dateLastUpdateAttempted": "0001-01-01T00:00:00",
-      "status": 4,
+      "status": 5,
       "preferenceAutoInstallUpdates": null,
       "preferenceAlternateFile": false,
       "preferenceIsIgnored": false,
@@ -10233,7 +10256,7 @@
       "dateInstalled": "2021-12-11T05:17:45.4947112Z",
       "dateUpdated": "2021-12-11T05:17:45.4947112Z",
       "dateLastUpdateAttempted": "0001-01-01T00:00:00",
-      "status": 4,
+      "status": 5,
       "preferenceAutoInstallUpdates": null,
       "preferenceAlternateFile": false,
       "preferenceIsIgnored": false,
@@ -10385,7 +10408,7 @@
       "dateInstalled": "2021-12-11T05:17:45.4537244Z",
       "dateUpdated": "2021-12-11T05:17:45.4537244Z",
       "dateLastUpdateAttempted": "0001-01-01T00:00:00",
-      "status": 4,
+      "status": 5,
       "preferenceAutoInstallUpdates": null,
       "preferenceAlternateFile": false,
       "preferenceIsIgnored": false,
@@ -10503,7 +10526,7 @@
       "dateInstalled": "2021-12-11T05:17:45.5237017Z",
       "dateUpdated": "2021-12-11T05:17:45.5237017Z",
       "dateLastUpdateAttempted": "0001-01-01T00:00:00",
-      "status": 4,
+      "status": 5,
       "preferenceAutoInstallUpdates": null,
       "preferenceAlternateFile": false,
       "preferenceIsIgnored": false,
@@ -10619,7 +10642,7 @@
       "dateInstalled": "2021-12-11T05:17:45.5336987Z",
       "dateUpdated": "2021-12-11T05:17:45.5336987Z",
       "dateLastUpdateAttempted": "0001-01-01T00:00:00",
-      "status": 4,
+      "status": 5,
       "preferenceAutoInstallUpdates": null,
       "preferenceAlternateFile": false,
       "preferenceIsIgnored": false,
@@ -10750,7 +10773,7 @@
       "dateInstalled": "2021-12-11T05:17:45.4617214Z",
       "dateUpdated": "2021-12-11T05:21:15.1041329Z",
       "dateLastUpdateAttempted": "2021-12-11T05:21:15.1041329Z",
-      "status": 4,
+      "status": 5,
       "preferenceAutoInstallUpdates": null,
       "preferenceAlternateFile": false,
       "preferenceIsIgnored": false,
@@ -10879,7 +10902,7 @@
       "dateInstalled": "2021-12-11T05:17:45.5147048Z",
       "dateUpdated": "2021-12-11T05:17:45.5147048Z",
       "dateLastUpdateAttempted": "0001-01-01T00:00:00",
-      "status": 4,
+      "status": 5,
       "preferenceAutoInstallUpdates": null,
       "preferenceAlternateFile": false,
       "preferenceIsIgnored": false,
@@ -11020,7 +11043,7 @@
       "dateInstalled": "2021-12-11T05:17:45.5057086Z",
       "dateUpdated": "2021-12-11T05:21:05.8261021Z",
       "dateLastUpdateAttempted": "2021-12-11T05:21:05.8261021Z",
-      "status": 4,
+      "status": 5,
       "preferenceAutoInstallUpdates": null,
       "preferenceAlternateFile": false,
       "preferenceIsIgnored": false,
@@ -11143,7 +11166,7 @@
       "dateInstalled": "2021-12-11T05:17:45.4657204Z",
       "dateUpdated": "2021-12-11T05:17:45.4657204Z",
       "dateLastUpdateAttempted": "0001-01-01T00:00:00",
-      "status": 4,
+      "status": 5,
       "preferenceAutoInstallUpdates": null,
       "preferenceAlternateFile": false,
       "preferenceIsIgnored": false,
@@ -11158,29 +11181,35 @@
       "addonID": 514468,
       "gameInstanceID": "281136bc-8615-4fa9-bee2-abcc532dd39a",
       "installedFile": {
-        "id": 3541959,
-        "displayName": "The Graveyard 1.1 (FABRIC) for 1.18",
-        "fileName": "The_Graveyard_1.1_(FABRIC)_for_1.18.jar",
-        "fileDate": "2021-11-30T17:26:02.793Z",
-        "fileLength": 1142090,
+        "id": 3561672,
+        "displayName": "The Graveyard 1.1 (FABRIC) for 1.18.1",
+        "fileName": "The_Graveyard_1.1_(FABRIC)_for_1.18.1.jar",
+        "fileDate": "2021-12-11T22:56:34.14Z",
+        "fileLength": 1207970,
         "releaseType": 1,
         "fileStatus": 4,
-        "downloadUrl": "https://edge.forgecdn.net/files/3541/959/The_Graveyard_1.1_(FABRIC)_for_1.18.jar",
+        "downloadUrl": "https://edge.forgecdn.net/files/3561/672/The_Graveyard_1.1_(FABRIC)_for_1.18.1.jar",
         "isAlternate": false,
         "alternateFileId": 0,
         "dependencies": [
           {
-            "id": 79661031,
+            "id": 80737203,
+            "addonId": 388172,
+            "type": 1,
+            "fileId": 3561672
+          },
+          {
+            "id": 80737204,
             "addonId": 306612,
             "type": 1,
-            "fileId": 3541959
+            "fileId": 3561672
           }
         ],
         "isAvailable": true,
         "modules": [
           {
             "foldername": "META-INF",
-            "fingerprint": 4151316780,
+            "fingerprint": 1370071983,
             "type": 3,
             "invalidFingerprint": false
           },
@@ -11192,25 +11221,25 @@
           },
           {
             "foldername": "graveyard.mixins.json",
-            "fingerprint": 708725388,
+            "fingerprint": 596051210,
             "type": 3,
             "invalidFingerprint": false
           },
           {
             "foldername": "fabric.mod.json",
-            "fingerprint": 603767820,
+            "fingerprint": 50617602,
             "type": 3,
             "invalidFingerprint": false
           },
           {
             "foldername": "data",
-            "fingerprint": 3809522631,
+            "fingerprint": 568699573,
             "type": 3,
             "invalidFingerprint": false
           },
           {
             "foldername": "assets",
-            "fingerprint": 190010359,
+            "fingerprint": 2324767868,
             "type": 3,
             "invalidFingerprint": false
           },
@@ -11222,17 +11251,130 @@
           },
           {
             "foldername": "com",
-            "fingerprint": 4140439973,
+            "fingerprint": 2955930060,
             "type": 3,
             "invalidFingerprint": false
           }
         ],
-        "packageFingerprint": 2395920349,
+        "packageFingerprint": 2941986757,
         "gameVersion": [
+          "1.18.1",
+          "Fabric"
+        ],
+        "sortableGameVersion": [
+          {
+            "gameVersionPadded": "0000000001.0000000018.0000000001",
+            "gameVersion": "1.18.1",
+            "gameVersionReleaseDate": "2021-12-10T10:37:38.06Z",
+            "gameVersionName": "1.18.1",
+            "gameVersionTypeId": 73250
+          },
+          {
+            "gameVersionPadded": "0",
+            "gameVersion": "",
+            "gameVersionReleaseDate": "2019-08-01T00:00:00Z",
+            "gameVersionName": "Fabric",
+            "gameVersionTypeId": 68441
+          }
+        ],
+        "hasInstallScript": false,
+        "isCompatibleWithClient": true,
+        "categorySectionPackageType": 6,
+        "restrictProjectFileAccess": 1,
+        "projectStatus": 4,
+        "renderCacheId": 2627336,
+        "projectId": 514468,
+        "packageFingerprintId": 806141638,
+        "gameVersionDateReleased": "2019-08-01T00:00:00Z",
+        "gameVersionMappingId": 3557124,
+        "gameVersionId": 7499,
+        "gameId": 432,
+        "isServerPack": false,
+        "FileNameOnDisk": "The_Graveyard_1.1_(FABRIC)_for_1.18.1.jar"
+      },
+      "dateInstalled": "2021-12-11T05:17:45.4607216Z",
+      "dateUpdated": "2021-12-12T05:15:44.5901473Z",
+      "dateLastUpdateAttempted": "2021-12-12T05:15:44.5901473Z",
+      "status": 4,
+      "preferenceAutoInstallUpdates": null,
+      "preferenceAlternateFile": false,
+      "preferenceIsIgnored": false,
+      "isModified": false,
+      "isWorkingCopy": false,
+      "isFuzzyMatch": false,
+      "preferenceReleaseType": null,
+      "manifestName": null,
+      "installedTargets": null
+    },
+    {
+      "addonID": 398614,
+      "gameInstanceID": "281136bc-8615-4fa9-bee2-abcc532dd39a",
+      "installedFile": {
+        "id": 3561305,
+        "displayName": "Deep Mob Learning: Refabricated 1.18+0.5.0-beta2",
+        "fileName": "deepmoblearning-refabricated-0.5.0-beta2.jar",
+        "fileDate": "2021-12-11T19:41:53.9Z",
+        "fileLength": 2050148,
+        "releaseType": 2,
+        "fileStatus": 4,
+        "downloadUrl": "https://edge.forgecdn.net/files/3561/305/deepmoblearning-refabricated-0.5.0-beta2.jar",
+        "isAlternate": false,
+        "alternateFileId": 0,
+        "dependencies": [
+          {
+            "id": 80715369,
+            "addonId": 308769,
+            "type": 3,
+            "fileId": 3561305
+          },
+          {
+            "id": 80715370,
+            "addonId": 310111,
+            "type": 2,
+            "fileId": 3561305
+          },
+          {
+            "id": 80715368,
+            "addonId": 306612,
+            "type": 3,
+            "fileId": 3561305
+          }
+        ],
+        "isAvailable": true,
+        "modules": [
+          {
+            "foldername": "META-INF",
+            "fingerprint": 605952804,
+            "type": 3,
+            "invalidFingerprint": false
+          },
+          {
+            "foldername": "fabric.mod.json",
+            "fingerprint": 2238672772,
+            "type": 3,
+            "invalidFingerprint": false
+          },
+          {
+            "foldername": "assets",
+            "fingerprint": 741315560,
+            "type": 3,
+            "invalidFingerprint": false
+          }
+        ],
+        "packageFingerprint": 1038337603,
+        "gameVersion": [
+          "1.18.1",
           "Fabric",
           "1.18"
         ],
         "sortableGameVersion": [
+          {
+            "gameVersionPadded": "0000000001.0000000018.0000000001",
+            "gameVersion": "1.18.1",
+            "gameVersionReleaseDate": "2021-12-10T10:37:38.06Z",
+            "gameVersionName": "1.18.1",
+            "gameVersionTypeId": 73250
+          },
           {
             "gameVersionPadded": "0",
             "gameVersion": "",
@@ -11253,19 +11395,19 @@
         "categorySectionPackageType": 6,
         "restrictProjectFileAccess": 1,
         "projectStatus": 4,
-        "renderCacheId": 2604569,
-        "projectId": 514468,
-        "packageFingerprintId": 796517513,
+        "renderCacheId": 2626898,
+        "projectId": 398614,
+        "packageFingerprintId": 806001508,
         "gameVersionDateReleased": "2019-08-01T00:00:00Z",
-        "gameVersionMappingId": 3508853,
+        "gameVersionMappingId": 3556168,
         "gameVersionId": 7499,
         "gameId": 432,
         "isServerPack": false,
-        "FileNameOnDisk": "The_Graveyard_1.1_(FABRIC)_for_1.18.jar"
+        "FileNameOnDisk": "deepmoblearning-refabricated-0.5.0-beta2.jar"
       },
-      "dateInstalled": "2021-12-11T05:17:45.4607216Z",
-      "dateUpdated": "2021-12-11T05:17:45.4607216Z",
-      "dateLastUpdateAttempted": "0001-01-01T00:00:00",
+      "dateInstalled": "2021-12-11T15:19:46.4810765Z",
+      "dateUpdated": "2021-12-12T05:15:34.1004816Z",
+      "dateLastUpdateAttempted": "2021-12-12T05:15:34.1004816Z",
       "status": 4,
       "preferenceAutoInstallUpdates": null,
       "preferenceAlternateFile": false,
@@ -11389,7 +11531,7 @@
       "dateInstalled": "2021-12-11T05:17:45.4787162Z",
       "dateUpdated": "2021-12-11T05:17:45.4787162Z",
       "dateLastUpdateAttempted": "0001-01-01T00:00:00",
-      "status": 4,
+      "status": 5,
       "preferenceAutoInstallUpdates": null,
       "preferenceAlternateFile": false,
       "preferenceIsIgnored": false,
@@ -11542,7 +11684,7 @@
       "dateInstalled": "2021-12-11T05:17:45.4997096Z",
       "dateUpdated": "2021-12-11T05:17:45.4997096Z",
       "dateLastUpdateAttempted": "0001-01-01T00:00:00",
-      "status": 4,
+      "status": 5,
       "preferenceAutoInstallUpdates": null,
       "preferenceAlternateFile": false,
       "preferenceIsIgnored": false,
@@ -11655,7 +11797,7 @@
       "dateInstalled": "2021-12-11T05:17:45.5336987Z",
       "dateUpdated": "2021-12-11T05:17:45.5336987Z",
       "dateLastUpdateAttempted": "0001-01-01T00:00:00",
-      "status": 4,
+      "status": 5,
       "preferenceAutoInstallUpdates": null,
       "preferenceAlternateFile": false,
       "preferenceIsIgnored": false,
@@ -11790,7 +11932,7 @@
       "dateInstalled": "2021-12-11T05:17:45.4737185Z",
       "dateUpdated": "2021-12-11T05:17:45.4737185Z",
       "dateLastUpdateAttempted": "0001-01-01T00:00:00",
-      "status": 4,
+      "status": 5,
       "preferenceAutoInstallUpdates": null,
       "preferenceAlternateFile": false,
       "preferenceIsIgnored": false,
@@ -11919,7 +12061,7 @@
       "dateInstalled": "2021-12-11T05:17:45.441729Z",
       "dateUpdated": "2021-12-11T05:21:13.8915208Z",
       "dateLastUpdateAttempted": "2021-12-11T05:21:13.8915208Z",
-      "status": 4,
+      "status": 5,
       "preferenceAutoInstallUpdates": null,
       "preferenceAlternateFile": false,
       "preferenceIsIgnored": false,
@@ -12032,7 +12174,7 @@
       "dateInstalled": "2021-12-11T05:17:45.450725Z",
       "dateUpdated": "2021-12-11T05:17:45.450725Z",
       "dateLastUpdateAttempted": "0001-01-01T00:00:00",
-      "status": 4,
+      "status": 5,
       "preferenceAutoInstallUpdates": null,
       "preferenceAlternateFile": false,
       "preferenceIsIgnored": false,
@@ -12161,7 +12303,7 @@
       "dateInstalled": "2021-12-11T05:17:45.448726Z",
       "dateUpdated": "2021-12-11T05:17:45.448726Z",
       "dateLastUpdateAttempted": "0001-01-01T00:00:00",
-      "status": 4,
+      "status": 5,
       "preferenceAutoInstallUpdates": null,
       "preferenceAlternateFile": false,
       "preferenceIsIgnored": false,
@@ -12296,7 +12438,7 @@
       "dateInstalled": "2021-12-11T05:17:45.5017091Z",
       "dateUpdated": "2021-12-11T05:17:45.5017091Z",
       "dateLastUpdateAttempted": "0001-01-01T00:00:00",
-      "status": 4,
+      "status": 5,
       "preferenceAutoInstallUpdates": null,
       "preferenceAlternateFile": false,
       "preferenceIsIgnored": false,
@@ -12478,7 +12620,7 @@
       "dateInstalled": "2021-12-11T05:17:45.4857139Z",
       "dateUpdated": "2021-12-11T05:17:45.4857139Z",
       "dateLastUpdateAttempted": "0001-01-01T00:00:00",
-      "status": 4,
+      "status": 5,
       "preferenceAutoInstallUpdates": null,
       "preferenceAlternateFile": false,
       "preferenceIsIgnored": false,
@@ -12607,7 +12749,7 @@
       "dateInstalled": "2021-12-11T05:17:45.4847142Z",
       "dateUpdated": "2021-12-11T05:17:45.4847142Z",
       "dateLastUpdateAttempted": "0001-01-01T00:00:00",
-      "status": 4,
+      "status": 5,
       "preferenceAutoInstallUpdates": null,
       "preferenceAlternateFile": false,
       "preferenceIsIgnored": false,
@@ -12730,7 +12872,7 @@
       "dateInstalled": "2021-12-11T05:17:45.5297001Z",
       "dateUpdated": "2021-12-11T05:17:45.5297001Z",
       "dateLastUpdateAttempted": "0001-01-01T00:00:00",
-      "status": 4,
+      "status": 5,
       "preferenceAutoInstallUpdates": null,
       "preferenceAlternateFile": false,
       "preferenceIsIgnored": false,
@@ -12841,7 +12983,7 @@
       "dateInstalled": "2021-12-11T05:17:45.5486938Z",
       "dateUpdated": "2021-12-11T05:17:45.5486938Z",
       "dateLastUpdateAttempted": "0001-01-01T00:00:00",
-      "status": 4,
+      "status": 5,
       "preferenceAutoInstallUpdates": null,
       "preferenceAlternateFile": false,
       "preferenceIsIgnored": false,
@@ -12972,7 +13114,7 @@
       "dateInstalled": "2021-12-11T05:17:45.4807157Z",
       "dateUpdated": "2021-12-11T05:17:45.4807157Z",
       "dateLastUpdateAttempted": "0001-01-01T00:00:00",
-      "status": 4,
+      "status": 5,
       "preferenceAutoInstallUpdates": null,
       "preferenceAlternateFile": false,
       "preferenceIsIgnored": false,
@@ -13094,7 +13236,7 @@
       "dateInstalled": "2021-12-11T05:17:45.4837146Z",
       "dateUpdated": "2021-12-11T05:17:45.4837146Z",
       "dateLastUpdateAttempted": "0001-01-01T00:00:00",
-      "status": 4,
+      "status": 5,
       "preferenceAutoInstallUpdates": null,
       "preferenceAlternateFile": false,
       "preferenceIsIgnored": false,
@@ -13231,7 +13373,7 @@
       "dateInstalled": "2021-12-11T05:17:45.5366979Z",
       "dateUpdated": "2021-12-11T05:17:45.5366979Z",
       "dateLastUpdateAttempted": "0001-01-01T00:00:00",
-      "status": 4,
+      "status": 5,
       "preferenceAutoInstallUpdates": null,
       "preferenceAlternateFile": false,
       "preferenceIsIgnored": false,
@@ -13246,41 +13388,41 @@
       "addonID": 395864,
       "gameInstanceID": "281136bc-8615-4fa9-bee2-abcc532dd39a",
       "installedFile": {
-        "id": 3553837,
-        "displayName": "kubejs-fabric-1800.4.0-build.235.jar",
-        "fileName": "kubejs-fabric-1800.4.0-build.235.jar",
-        "fileDate": "2021-12-07T15:28:56.667Z",
-        "fileLength": 866307,
+        "id": 3562020,
+        "displayName": "kubejs-fabric-1800.4.0-build.238.jar",
+        "fileName": "kubejs-fabric-1800.4.0-build.238.jar",
+        "fileDate": "2021-12-12T05:06:52.413Z",
+        "fileLength": 866817,
         "releaseType": 3,
         "fileStatus": 4,
-        "downloadUrl": "https://edge.forgecdn.net/files/3553/837/kubejs-fabric-1800.4.0-build.235.jar",
+        "downloadUrl": "https://edge.forgecdn.net/files/3562/20/kubejs-fabric-1800.4.0-build.238.jar",
         "isAlternate": false,
         "alternateFileId": 0,
         "dependencies": [
           {
-            "id": 80528961,
+            "id": 80766689,
             "addonId": 416294,
             "type": 3,
-            "fileId": 3553837
+            "fileId": 3562020
           },
           {
-            "id": 80528960,
-            "addonId": 306612,
-            "type": 3,
-            "fileId": 3553837
-          },
-          {
-            "id": 80528959,
+            "id": 80766690,
             "addonId": 419697,
             "type": 3,
-            "fileId": 3553837
+            "fileId": 3562020
+          },
+          {
+            "id": 80766688,
+            "addonId": 306612,
+            "type": 3,
+            "fileId": 3562020
           }
         ],
         "isAvailable": true,
         "modules": [
           {
             "foldername": "META-INF",
-            "fingerprint": 4117583010,
+            "fingerprint": 742954181,
             "type": 3,
             "invalidFingerprint": false
           },
@@ -13310,13 +13452,13 @@
           },
           {
             "foldername": "kubejs-common-refmap.json",
-            "fingerprint": 259723534,
+            "fingerprint": 1855576750,
             "type": 3,
             "invalidFingerprint": false
           },
           {
             "foldername": "fabric.mod.json",
-            "fingerprint": 548881844,
+            "fingerprint": 2301357336,
             "type": 3,
             "invalidFingerprint": false
           },
@@ -13328,7 +13470,7 @@
           },
           {
             "foldername": "kubejs.plugins.txt",
-            "fingerprint": 3988587789,
+            "fingerprint": 1891469756,
             "type": 3,
             "invalidFingerprint": false
           },
@@ -13340,31 +13482,23 @@
           },
           {
             "foldername": "dev",
-            "fingerprint": 2604183966,
+            "fingerprint": 3032867404,
             "type": 3,
             "invalidFingerprint": false
           },
           {
-            "foldername": "architectury_inject_KubeJS118_common_f51212aec22346bebfb2f799abce2e7b_10777a94c2a49167454ab8fd213b9e3c91a498f07f21cc584070ce2a935c8737kubejs180040build235devjar",
-            "fingerprint": 1618272865,
+            "foldername": "architectury_inject_KubeJS118_common_f77040e6eb2b4dcb97e0392dd53ea98f_b16aa6f20f962d67c2f72dcbf45948a1d037807bb5e5ff620b357385569eaed2kubejs180040build238devjar",
+            "fingerprint": 3813410551,
             "type": 3,
             "invalidFingerprint": false
           }
         ],
-        "packageFingerprint": 4264066656,
+        "packageFingerprint": 1111099414,
         "gameVersion": [
-          "1.18.1",
           "Fabric",
           "1.18"
         ],
         "sortableGameVersion": [
-          {
-            "gameVersionPadded": "0000000001.0000000018.0000000001",
-            "gameVersion": "1.18.1",
-            "gameVersionReleaseDate": "2021-12-10T10:37:38.06Z",
-            "gameVersionName": "1.18.1",
-            "gameVersionTypeId": 73250
-          },
           {
             "gameVersionPadded": "0",
             "gameVersion": "",
@@ -13385,20 +13519,20 @@
         "categorySectionPackageType": 6,
         "restrictProjectFileAccess": 1,
         "projectStatus": 4,
-        "renderCacheId": 2618306,
+        "renderCacheId": 2627762,
         "projectId": 395864,
-        "packageFingerprintId": 802027036,
+        "packageFingerprintId": 806377564,
         "gameVersionDateReleased": "2019-08-01T00:00:00Z",
-        "gameVersionMappingId": 3537907,
+        "gameVersionMappingId": 3558053,
         "gameVersionId": 7499,
         "gameId": 432,
         "isServerPack": false,
-        "FileNameOnDisk": "kubejs-fabric-1800.4.0-build.235.jar"
+        "FileNameOnDisk": "kubejs-fabric-1800.4.0-build.238.jar"
       },
-      "dateInstalled": "2021-12-11T05:17:45.522702Z",
-      "dateUpdated": "2021-12-11T08:17:55.5014811Z",
-      "dateLastUpdateAttempted": "2021-12-11T08:17:55.5014811Z",
-      "status": 4,
+      "dateInstalled": "2021-12-12T05:10:55.9855867Z",
+      "dateUpdated": "2021-12-12T05:10:55.9855867Z",
+      "dateLastUpdateAttempted": "0001-01-01T00:00:00",
+      "status": 3,
       "preferenceAutoInstallUpdates": null,
       "preferenceAlternateFile": false,
       "preferenceIsIgnored": false,
@@ -13514,7 +13648,7 @@
       "dateInstalled": "2021-12-11T05:17:45.4497252Z",
       "dateUpdated": "2021-12-11T05:17:45.4497252Z",
       "dateLastUpdateAttempted": "0001-01-01T00:00:00",
-      "status": 4,
+      "status": 5,
       "preferenceAutoInstallUpdates": null,
       "preferenceAlternateFile": false,
       "preferenceIsIgnored": false,
@@ -13645,7 +13779,7 @@
       "dateInstalled": "2021-12-11T05:17:45.5267008Z",
       "dateUpdated": "2021-12-11T05:17:45.5267008Z",
       "dateLastUpdateAttempted": "0001-01-01T00:00:00",
-      "status": 4,
+      "status": 5,
       "preferenceAutoInstallUpdates": null,
       "preferenceAlternateFile": false,
       "preferenceIsIgnored": false,
@@ -13767,7 +13901,7 @@
       "dateInstalled": "2021-12-11T05:17:45.4927123Z",
       "dateUpdated": "2021-12-11T05:17:45.4927123Z",
       "dateLastUpdateAttempted": "0001-01-01T00:00:00",
-      "status": 4,
+      "status": 5,
       "preferenceAutoInstallUpdates": null,
       "preferenceAlternateFile": false,
       "preferenceIsIgnored": false,
@@ -13916,7 +14050,7 @@
       "dateInstalled": "2021-12-11T05:17:45.4367293Z",
       "dateUpdated": "2021-12-11T05:21:16.2747585Z",
       "dateLastUpdateAttempted": "2021-12-11T05:21:16.2747585Z",
-      "status": 4,
+      "status": 5,
       "preferenceAutoInstallUpdates": null,
       "preferenceAlternateFile": false,
       "preferenceIsIgnored": false,
@@ -14091,7 +14225,7 @@
       "dateInstalled": "2021-12-11T05:17:45.5346983Z",
       "dateUpdated": "2021-12-11T05:17:45.5346983Z",
       "dateLastUpdateAttempted": "0001-01-01T00:00:00",
-      "status": 4,
+      "status": 5,
       "preferenceAutoInstallUpdates": null,
       "preferenceAlternateFile": false,
       "preferenceIsIgnored": false,
@@ -14201,7 +14335,7 @@
       "dateInstalled": "2021-12-11T05:17:45.500709Z",
       "dateUpdated": "2021-12-11T05:17:45.500709Z",
       "dateLastUpdateAttempted": "0001-01-01T00:00:00",
-      "status": 4,
+      "status": 5,
       "preferenceAutoInstallUpdates": null,
       "preferenceAlternateFile": false,
       "preferenceIsIgnored": false,
@@ -14338,7 +14472,7 @@
       "dateInstalled": "2021-12-11T05:17:45.5287004Z",
       "dateUpdated": "2021-12-11T05:17:45.5287004Z",
       "dateLastUpdateAttempted": "0001-01-01T00:00:00",
-      "status": 4,
+      "status": 5,
       "preferenceAutoInstallUpdates": null,
       "preferenceAlternateFile": false,
       "preferenceIsIgnored": false,
@@ -14474,7 +14608,7 @@
       "dateInstalled": "2021-12-11T05:17:45.4697195Z",
       "dateUpdated": "2021-12-11T05:17:45.4697195Z",
       "dateLastUpdateAttempted": "0001-01-01T00:00:00",
-      "status": 4,
+      "status": 5,
       "preferenceAutoInstallUpdates": null,
       "preferenceAlternateFile": false,
       "preferenceIsIgnored": false,
@@ -14598,7 +14732,7 @@
       "dateInstalled": "2021-12-11T05:17:45.4997096Z",
       "dateUpdated": "2021-12-11T05:21:17.6803098Z",
       "dateLastUpdateAttempted": "2021-12-11T05:21:17.6803098Z",
-      "status": 4,
+      "status": 5,
       "preferenceAutoInstallUpdates": null,
       "preferenceAlternateFile": false,
       "preferenceIsIgnored": false,
@@ -14748,7 +14882,7 @@
       "dateInstalled": "2021-12-11T05:17:45.4667205Z",
       "dateUpdated": "2021-12-11T05:17:45.4667205Z",
       "dateLastUpdateAttempted": "0001-01-01T00:00:00",
-      "status": 4,
+      "status": 5,
       "preferenceAutoInstallUpdates": null,
       "preferenceAlternateFile": false,
       "preferenceIsIgnored": false,
@@ -14858,7 +14992,7 @@
       "dateInstalled": "2021-12-11T05:17:45.5207024Z",
       "dateUpdated": "2021-12-11T05:17:45.5207024Z",
       "dateLastUpdateAttempted": "0001-01-01T00:00:00",
-      "status": 4,
+      "status": 5,
       "preferenceAutoInstallUpdates": null,
       "preferenceAlternateFile": false,
       "preferenceIsIgnored": false,
@@ -14873,46 +15007,46 @@
       "addonID": 405388,
       "gameInstanceID": "281136bc-8615-4fa9-bee2-abcc532dd39a",
       "installedFile": {
-        "id": 3557431,
-        "displayName": "Modern Industrialization v1.0.0-alpha.06",
-        "fileName": "Modern-Industrialization-1.0.0-alpha.06.jar",
-        "fileDate": "2021-12-10T17:54:06.053Z",
-        "fileLength": 6150966,
-        "releaseType": 3,
+        "id": 3561180,
+        "displayName": "Modern Industrialization v1.0.0",
+        "fileName": "Modern-Industrialization-1.0.0.jar",
+        "fileDate": "2021-12-11T18:17:41.123Z",
+        "fileLength": 6150959,
+        "releaseType": 1,
         "fileStatus": 4,
-        "downloadUrl": "https://edge.forgecdn.net/files/3557/431/Modern-Industrialization-1.0.0-alpha.06.jar",
+        "downloadUrl": "https://edge.forgecdn.net/files/3561/180/Modern-Industrialization-1.0.0.jar",
         "isAlternate": false,
         "alternateFileId": 0,
         "dependencies": [
           {
-            "id": 80548215,
-            "addonId": 393236,
-            "type": 1,
-            "fileId": 3557431
-          },
-          {
-            "id": 80548214,
+            "id": 80701887,
             "addonId": 440979,
             "type": 2,
-            "fileId": 3557431
+            "fileId": 3561180
           },
           {
-            "id": 80548216,
-            "addonId": 373261,
-            "type": 1,
-            "fileId": 3557431
-          },
-          {
-            "id": 80548212,
+            "id": 80701885,
             "addonId": 306612,
             "type": 3,
-            "fileId": 3557431
+            "fileId": 3561180
           },
           {
-            "id": 80548213,
+            "id": 80701888,
+            "addonId": 393236,
+            "type": 1,
+            "fileId": 3561180
+          },
+          {
+            "id": 80701886,
             "addonId": 310111,
             "type": 3,
-            "fileId": 3557431
+            "fileId": 3561180
+          },
+          {
+            "id": 80701889,
+            "addonId": 373261,
+            "type": 1,
+            "fileId": 3561180
           }
         ],
         "isAvailable": true,
@@ -14925,7 +15059,7 @@
           },
           {
             "foldername": "fabric.mod.json",
-            "fingerprint": 3987311590,
+            "fingerprint": 1071844414,
             "type": 3,
             "invalidFingerprint": false
           },
@@ -14955,7 +15089,7 @@
           },
           {
             "foldername": "data",
-            "fingerprint": 650392099,
+            "fingerprint": 2882018478,
             "type": 3,
             "invalidFingerprint": false
           },
@@ -14978,7 +15112,7 @@
             "invalidFingerprint": false
           }
         ],
-        "packageFingerprint": 3074347686,
+        "packageFingerprint": 4233036963,
         "gameVersion": [
           "1.18.1",
           "Fabric",
@@ -15012,19 +15146,19 @@
         "categorySectionPackageType": 6,
         "restrictProjectFileAccess": 1,
         "projectStatus": 4,
-        "renderCacheId": 2622688,
+        "renderCacheId": 2626738,
         "projectId": 405388,
-        "packageFingerprintId": 804723077,
+        "packageFingerprintId": 805916901,
         "gameVersionDateReleased": "2019-08-01T00:00:00Z",
-        "gameVersionMappingId": 3548294,
+        "gameVersionMappingId": 3555831,
         "gameVersionId": 7499,
         "gameId": 432,
         "isServerPack": false,
-        "FileNameOnDisk": "Modern-Industrialization-1.0.0-alpha.06.jar"
+        "FileNameOnDisk": "Modern-Industrialization-1.0.0.jar"
       },
       "dateInstalled": "2021-12-11T05:17:45.5306996Z",
-      "dateUpdated": "2021-12-11T05:21:07.4695754Z",
-      "dateLastUpdateAttempted": "2021-12-11T05:21:07.4695754Z",
+      "dateUpdated": "2021-12-12T05:15:42.7602281Z",
+      "dateLastUpdateAttempted": "2021-12-12T05:15:42.7602281Z",
       "status": 4,
       "preferenceAutoInstallUpdates": null,
       "preferenceAlternateFile": false,
@@ -15040,14 +15174,14 @@
       "addonID": 319057,
       "gameInstanceID": "281136bc-8615-4fa9-bee2-abcc532dd39a",
       "installedFile": {
-        "id": 3546622,
-        "displayName": "[Fabric 1.18.x] v6.0.45",
-        "fileName": "cloth-config-6.0.45-fabric.jar",
-        "fileDate": "2021-12-03T14:14:41.983Z",
-        "fileLength": 1000667,
+        "id": 3559638,
+        "displayName": "[Fabric 1.18.x] v6.1.48",
+        "fileName": "cloth-config-6.1.48-fabric.jar",
+        "fileDate": "2021-12-11T10:30:05.313Z",
+        "fileLength": 1000794,
         "releaseType": 1,
         "fileStatus": 4,
-        "downloadUrl": "https://edge.forgecdn.net/files/3546/622/cloth-config-6.0.45-fabric.jar",
+        "downloadUrl": "https://edge.forgecdn.net/files/3559/638/cloth-config-6.1.48-fabric.jar",
         "isAlternate": false,
         "alternateFileId": 0,
         "dependencies": [],
@@ -15055,7 +15189,7 @@
         "modules": [
           {
             "foldername": "META-INF",
-            "fingerprint": 88783545,
+            "fingerprint": 4170621130,
             "type": 3,
             "invalidFingerprint": false
           },
@@ -15067,7 +15201,7 @@
           },
           {
             "foldername": "fabric.mod.json",
-            "fingerprint": 2335415410,
+            "fingerprint": 3155389209,
             "type": 3,
             "invalidFingerprint": false
           },
@@ -15085,18 +15219,18 @@
           },
           {
             "foldername": "me",
-            "fingerprint": 3461900067,
+            "fingerprint": 4083978401,
             "type": 3,
             "invalidFingerprint": false
           },
           {
-            "foldername": "architectury_inject_clothconfig_common_b4c5a51ed5e54e87b4bb0a31d902b28d_f6bc44ea77fa4bdb24644fe27d98e60667b79405a60bbbcee43b2487644c0962clothconfig6045devjar",
-            "fingerprint": 2010681779,
+            "foldername": "architectury_inject_clothconfig_common_b17a09a67d0444538b2fd6e7eb718fff_538bc55b7680ce3cf12b6b2748d5d7a25d38af7f290d7c7f172a9d1d41651766clothconfig6148devjar",
+            "fingerprint": 3259577349,
             "type": 3,
             "invalidFingerprint": false
           }
         ],
-        "packageFingerprint": 4158055047,
+        "packageFingerprint": 2178376205,
         "gameVersion": [
           "1.18.1",
           "Fabric",
@@ -15138,19 +15272,19 @@
         "categorySectionPackageType": 6,
         "restrictProjectFileAccess": 1,
         "projectStatus": 4,
-        "renderCacheId": 2609939,
+        "renderCacheId": 2625090,
         "projectId": 319057,
-        "packageFingerprintId": 799030555,
+        "packageFingerprintId": 805562237,
         "gameVersionDateReleased": "2019-08-01T00:00:00Z",
-        "gameVersionMappingId": 3521496,
+        "gameVersionMappingId": 3553198,
         "gameVersionId": 7499,
         "gameId": 432,
         "isServerPack": false,
-        "FileNameOnDisk": "cloth-config-6.0.45-fabric.jar"
+        "FileNameOnDisk": "cloth-config-6.1.48-fabric.jar"
       },
       "dateInstalled": "2021-12-11T05:17:45.4817152Z",
-      "dateUpdated": "2021-12-11T05:17:45.4817152Z",
-      "dateLastUpdateAttempted": "0001-01-01T00:00:00",
+      "dateUpdated": "2021-12-12T05:15:32.4605015Z",
+      "dateLastUpdateAttempted": "2021-12-12T05:15:32.4605015Z",
       "status": 4,
       "preferenceAutoInstallUpdates": null,
       "preferenceAlternateFile": false,
@@ -15270,7 +15404,7 @@
       "dateInstalled": "2021-12-11T05:17:45.4777165Z",
       "dateUpdated": "2021-12-11T05:17:45.4777165Z",
       "dateLastUpdateAttempted": "0001-01-01T00:00:00",
-      "status": 4,
+      "status": 5,
       "preferenceAutoInstallUpdates": null,
       "preferenceAlternateFile": false,
       "preferenceIsIgnored": false,
@@ -15394,7 +15528,7 @@
       "dateInstalled": "2021-12-11T05:17:45.5207024Z",
       "dateUpdated": "2021-12-11T05:17:45.5207024Z",
       "dateLastUpdateAttempted": "0001-01-01T00:00:00",
-      "status": 4,
+      "status": 5,
       "preferenceAutoInstallUpdates": null,
       "preferenceAlternateFile": false,
       "preferenceIsIgnored": false,
@@ -15529,7 +15663,7 @@
       "dateInstalled": "2021-12-11T05:17:45.4367293Z",
       "dateUpdated": "2021-12-11T05:17:45.4367293Z",
       "dateLastUpdateAttempted": "0001-01-01T00:00:00",
-      "status": 4,
+      "status": 5,
       "preferenceAutoInstallUpdates": null,
       "preferenceAlternateFile": false,
       "preferenceIsIgnored": false,
@@ -15664,7 +15798,7 @@
       "dateInstalled": "2021-12-11T05:17:45.5237017Z",
       "dateUpdated": "2021-12-11T05:17:45.5237017Z",
       "dateLastUpdateAttempted": "0001-01-01T00:00:00",
-      "status": 4,
+      "status": 5,
       "preferenceAutoInstallUpdates": null,
       "preferenceAlternateFile": false,
       "preferenceIsIgnored": false,
@@ -15780,7 +15914,7 @@
       "dateInstalled": "2021-12-11T05:17:45.532699Z",
       "dateUpdated": "2021-12-11T05:17:45.532699Z",
       "dateLastUpdateAttempted": "0001-01-01T00:00:00",
-      "status": 4,
+      "status": 5,
       "preferenceAutoInstallUpdates": null,
       "preferenceAlternateFile": false,
       "preferenceIsIgnored": false,
@@ -15898,7 +16032,7 @@
       "dateInstalled": "2021-12-11T05:17:45.4707192Z",
       "dateUpdated": "2021-12-11T05:17:45.4707192Z",
       "dateLastUpdateAttempted": "0001-01-01T00:00:00",
-      "status": 4,
+      "status": 5,
       "preferenceAutoInstallUpdates": null,
       "preferenceAlternateFile": false,
       "preferenceIsIgnored": false,
@@ -15913,83 +16047,83 @@
       "addonID": 320215,
       "gameInstanceID": "281136bc-8615-4fa9-bee2-abcc532dd39a",
       "installedFile": {
-        "id": 3538575,
-        "displayName": "Adorn 3.0.0 RC 1 for 1.18",
-        "fileName": "Adorn-3.0.0-rc.1+1.18-rc3-fabric.jar",
-        "fileDate": "2021-11-27T12:46:06.41Z",
-        "fileLength": 4593326,
-        "releaseType": 2,
+        "id": 3559753,
+        "displayName": "Adorn 3.0.0 for 1.18.1",
+        "fileName": "Adorn-3.0.0+1.18.1-fabric.jar",
+        "fileDate": "2021-12-11T12:30:51.507Z",
+        "fileLength": 4593818,
+        "releaseType": 1,
         "fileStatus": 4,
-        "downloadUrl": "https://edge.forgecdn.net/files/3538/575/Adorn-3.0.0-rc.1+1.18-rc3-fabric.jar",
+        "downloadUrl": "https://edge.forgecdn.net/files/3559/753/Adorn-3.0.0+1.18.1-fabric.jar",
         "isAlternate": false,
         "alternateFileId": 0,
         "dependencies": [
           {
-            "id": 79762677,
+            "id": 80671154,
             "addonId": 308777,
             "type": 2,
-            "fileId": 3538575
+            "fileId": 3559753
           },
           {
-            "id": 79762673,
-            "addonId": 383066,
-            "type": 2,
-            "fileId": 3538575
-          },
-          {
-            "id": 79762671,
-            "addonId": 306612,
-            "type": 3,
-            "fileId": 3538575
-          },
-          {
-            "id": 79762676,
-            "addonId": 309338,
-            "type": 2,
-            "fileId": 3538575
-          },
-          {
-            "id": 79762674,
-            "addonId": 391378,
-            "type": 2,
-            "fileId": 3538575
-          },
-          {
-            "id": 79762669,
-            "addonId": 412182,
-            "type": 2,
-            "fileId": 3538575
-          },
-          {
-            "id": 79762672,
-            "addonId": 308769,
-            "type": 3,
-            "fileId": 3538575
-          },
-          {
-            "id": 79762678,
-            "addonId": 391737,
-            "type": 2,
-            "fileId": 3538575
-          },
-          {
-            "id": 79762675,
+            "id": 80671152,
             "addonId": 323974,
             "type": 2,
-            "fileId": 3538575
+            "fileId": 3559753
           },
           {
-            "id": 79762670,
+            "id": 80671150,
+            "addonId": 383066,
+            "type": 2,
+            "fileId": 3559753
+          },
+          {
+            "id": 80671151,
+            "addonId": 391378,
+            "type": 2,
+            "fileId": 3559753
+          },
+          {
+            "id": 80671148,
+            "addonId": 412182,
+            "type": 2,
+            "fileId": 3559753
+          },
+          {
+            "id": 80671155,
+            "addonId": 391737,
+            "type": 2,
+            "fileId": 3559753
+          },
+          {
+            "id": 80671156,
+            "addonId": 306612,
+            "type": 3,
+            "fileId": 3559753
+          },
+          {
+            "id": 80671153,
+            "addonId": 309338,
+            "type": 2,
+            "fileId": 3559753
+          },
+          {
+            "id": 80671157,
+            "addonId": 308769,
+            "type": 3,
+            "fileId": 3559753
+          },
+          {
+            "id": 80671149,
             "addonId": 391429,
             "type": 2,
-            "fileId": 3538575
+            "fileId": 3559753
           }
         ],
         "isAvailable": true,
         "modules": [
           {
             "foldername": "META-INF",
-            "fingerprint": 1851987228,
+            "fingerprint": 624568982,
             "type": 3,
             "invalidFingerprint": false
           },
@@ -16019,7 +16153,7 @@
           },
           {
             "foldername": "fabric.mod.json",
-            "fingerprint": 1990531588,
+            "fingerprint": 522801114,
             "type": 3,
             "invalidFingerprint": false
           },
@@ -16049,44 +16183,36 @@
           },
           {
             "foldername": "juuxel",
-            "fingerprint": 1758679130,
+            "fingerprint": 3316317908,
             "type": 3,
             "invalidFingerprint": false
           },
           {
-            "foldername": "architectury_inject_adorn_common_6b3432b6b3ca4c6886edc09abd97fb4e_7500493d54a2c99ccd2fe37c3236490ce9d763bbf69458e981bb380fc7892988Adorn300rc1118rc3devjar",
-            "fingerprint": 3319935370,
+            "foldername": "architectury_inject_adorn_common_6b3432b6b3ca4c6886edc09abd97fb4e_8eebbe13b2238c454c51c1a32d75063673ecbff923a3804c455d6c228e4edbc7Adorn3001181devjar",
+            "fingerprint": 1330926546,
             "type": 3,
             "invalidFingerprint": false
           }
         ],
-        "packageFingerprint": 3279969877,
+        "packageFingerprint": 271335426,
         "gameVersion": [
-          "Fabric",
-          "1.18",
-          "1.18-Snapshot"
+          "1.18.1",
+          "Fabric"
         ],
         "sortableGameVersion": [
+          {
+            "gameVersionPadded": "0000000001.0000000018.0000000001",
+            "gameVersion": "1.18.1",
+            "gameVersionReleaseDate": "2021-12-10T10:37:38.06Z",
+            "gameVersionName": "1.18.1",
+            "gameVersionTypeId": 73250
+          },
           {
             "gameVersionPadded": "0",
             "gameVersion": "",
             "gameVersionReleaseDate": "2019-08-01T00:00:00Z",
             "gameVersionName": "Fabric",
             "gameVersionTypeId": 68441
-          },
-          {
-            "gameVersionPadded": "0000000001.0000000018",
-            "gameVersion": "1.18",
-            "gameVersionReleaseDate": "2021-11-30T16:23:01.427Z",
-            "gameVersionName": "1.18",
-            "gameVersionTypeId": 73250
-          },
-          {
-            "gameVersionPadded": "0000000001.0000000018",
-            "gameVersion": "1.18",
-            "gameVersionReleaseDate": "2021-08-12T00:00:00Z",
-            "gameVersionName": "1.18-Snapshot",
-            "gameVersionTypeId": 73250
           }
         ],
         "hasInstallScript": false,
@@ -16094,19 +16220,19 @@
         "categorySectionPackageType": 6,
         "restrictProjectFileAccess": 1,
         "projectStatus": 4,
-        "renderCacheId": 2600361,
+        "renderCacheId": 2625232,
         "projectId": 320215,
-        "packageFingerprintId": 793675219,
+        "packageFingerprintId": 805618777,
         "gameVersionDateReleased": "2019-08-01T00:00:00Z",
-        "gameVersionMappingId": 3499407,
+        "gameVersionMappingId": 3553665,
         "gameVersionId": 7499,
         "gameId": 432,
         "isServerPack": false,
-        "FileNameOnDisk": "Adorn-3.0.0-rc.1+1.18-rc3-fabric.jar"
+        "FileNameOnDisk": "Adorn-3.0.0+1.18.1-fabric.jar"
       },
-      "dateInstalled": "2021-12-11T05:17:45.43473Z",
-      "dateUpdated": "2021-12-11T05:17:45.43473Z",
-      "dateLastUpdateAttempted": "0001-01-01T00:00:00",
+      "dateInstalled": "2021-12-11T15:19:09.2818693Z",
+      "dateUpdated": "2021-12-11T15:19:09.3088609Z",
+      "dateLastUpdateAttempted": "2021-12-11T15:19:09.3088609Z",
       "status": 4,
       "preferenceAutoInstallUpdates": null,
       "preferenceAlternateFile": false,
@@ -16242,7 +16368,7 @@
       "dateInstalled": "2021-12-11T05:17:45.5017091Z",
       "dateUpdated": "2021-12-11T05:17:45.5017091Z",
       "dateLastUpdateAttempted": "0001-01-01T00:00:00",
-      "status": 4,
+      "status": 5,
       "preferenceAutoInstallUpdates": null,
       "preferenceAlternateFile": false,
       "preferenceIsIgnored": false,
@@ -16340,7 +16466,7 @@
       "dateInstalled": "2021-12-11T05:17:45.441729Z",
       "dateUpdated": "2021-12-11T05:17:45.441729Z",
       "dateLastUpdateAttempted": "0001-01-01T00:00:00",
-      "status": 4,
+      "status": 5,
       "preferenceAutoInstallUpdates": null,
       "preferenceAlternateFile": false,
       "preferenceIsIgnored": false,
@@ -16475,7 +16601,7 @@
       "dateInstalled": "2021-12-11T05:17:45.4777165Z",
       "dateUpdated": "2021-12-11T05:21:12.7508861Z",
       "dateLastUpdateAttempted": "2021-12-11T05:21:12.7508861Z",
-      "status": 4,
+      "status": 5,
       "preferenceAutoInstallUpdates": null,
       "preferenceAlternateFile": false,
       "preferenceIsIgnored": false,
@@ -16610,7 +16736,7 @@
       "dateInstalled": "2021-12-11T05:17:45.4627211Z",
       "dateUpdated": "2021-12-11T05:17:45.4627211Z",
       "dateLastUpdateAttempted": "0001-01-01T00:00:00",
-      "status": 4,
+      "status": 5,
       "preferenceAutoInstallUpdates": null,
       "preferenceAlternateFile": false,
       "preferenceIsIgnored": false,
@@ -16735,7 +16861,7 @@
       "dateInstalled": "2021-12-11T05:17:45.4567236Z",
       "dateUpdated": "2021-12-11T05:17:45.4567236Z",
       "dateLastUpdateAttempted": "0001-01-01T00:00:00",
-      "status": 4,
+      "status": 5,
       "preferenceAutoInstallUpdates": null,
       "preferenceAlternateFile": false,
       "preferenceIsIgnored": false,
@@ -16934,7 +17060,7 @@
       "dateInstalled": "2021-12-11T05:17:45.4377287Z",
       "dateUpdated": "2021-12-11T05:17:45.4377287Z",
       "dateLastUpdateAttempted": "0001-01-01T00:00:00",
-      "status": 4,
+      "status": 5,
       "preferenceAutoInstallUpdates": null,
       "preferenceAlternateFile": false,
       "preferenceIsIgnored": false,
@@ -17058,7 +17184,7 @@
       "dateInstalled": "2021-12-11T05:17:45.4637209Z",
       "dateUpdated": "2021-12-11T05:17:45.4637209Z",
       "dateLastUpdateAttempted": "0001-01-01T00:00:00",
-      "status": 4,
+      "status": 5,
       "preferenceAutoInstallUpdates": null,
       "preferenceAlternateFile": false,
       "preferenceIsIgnored": false,
@@ -17175,7 +17301,7 @@
       "dateInstalled": "2021-12-11T05:17:45.5197027Z",
       "dateUpdated": "2021-12-11T05:17:45.5197027Z",
       "dateLastUpdateAttempted": "0001-01-01T00:00:00",
-      "status": 4,
+      "status": 5,
       "preferenceAutoInstallUpdates": null,
       "preferenceAlternateFile": false,
       "preferenceIsIgnored": false,
@@ -17308,7 +17434,7 @@
       "dateInstalled": "2021-12-11T05:17:45.4427278Z",
       "dateUpdated": "2021-12-11T05:17:45.4427278Z",
       "dateLastUpdateAttempted": "0001-01-01T00:00:00",
-      "status": 4,
+      "status": 5,
       "preferenceAutoInstallUpdates": null,
       "preferenceAlternateFile": false,
       "preferenceIsIgnored": false,
@@ -17422,16 +17548,16 @@
         "gameVersionId": 7499,
         "gameId": 432,
         "isServerPack": false,
-        "FileNameOnDisk": "Xaeros_Minimap_21.22.3.1_Fabric_1.18.jar.disabled"
+        "FileNameOnDisk": "Xaeros_Minimap_21.22.3.1_Fabric_1.18.jar"
       },
       "dateInstalled": "2021-12-11T05:17:45.5247014Z",
       "dateUpdated": "2021-12-11T05:17:45.5247014Z",
       "dateLastUpdateAttempted": "0001-01-01T00:00:00",
-      "status": 4,
+      "status": 5,
       "preferenceAutoInstallUpdates": null,
       "preferenceAlternateFile": false,
       "preferenceIsIgnored": false,
-      "isModified": true,
+      "isModified": false,
       "isWorkingCopy": false,
       "isFuzzyMatch": false,
       "preferenceReleaseType": null,
@@ -17544,7 +17670,7 @@
       "dateInstalled": "2021-12-11T05:17:45.5257014Z",
       "dateUpdated": "2021-12-11T05:17:45.5257014Z",
       "dateLastUpdateAttempted": "0001-01-01T00:00:00",
-      "status": 4,
+      "status": 5,
       "preferenceAutoInstallUpdates": null,
       "preferenceAlternateFile": false,
       "preferenceIsIgnored": false,
@@ -17661,7 +17787,7 @@
       "dateInstalled": "2021-12-11T05:17:45.5177035Z",
       "dateUpdated": "2021-12-11T05:17:45.5177035Z",
       "dateLastUpdateAttempted": "0001-01-01T00:00:00",
-      "status": 4,
+      "status": 5,
       "preferenceAutoInstallUpdates": null,
       "preferenceAlternateFile": false,
       "preferenceIsIgnored": false,
@@ -17866,7 +17992,7 @@
       "dateInstalled": "2021-12-11T05:17:45.4937114Z",
       "dateUpdated": "2021-12-11T05:17:45.4937114Z",
       "dateLastUpdateAttempted": "0001-01-01T00:00:00",
-      "status": 4,
+      "status": 5,
       "preferenceAutoInstallUpdates": null,
       "preferenceAlternateFile": false,
       "preferenceIsIgnored": false,
@@ -17988,7 +18114,7 @@
       "dateInstalled": "2021-12-11T05:17:45.4727186Z",
       "dateUpdated": "2021-12-11T05:17:45.4727186Z",
       "dateLastUpdateAttempted": "0001-01-01T00:00:00",
-      "status": 4,
+      "status": 5,
       "preferenceAutoInstallUpdates": null,
       "preferenceAlternateFile": false,
       "preferenceIsIgnored": false,
@@ -18092,128 +18218,11 @@
       "dateInstalled": "2021-12-11T05:17:45.5147048Z",
       "dateUpdated": "2021-12-11T05:17:45.5147048Z",
       "dateLastUpdateAttempted": "0001-01-01T00:00:00",
-      "status": 4,
+      "status": 5,
       "preferenceAutoInstallUpdates": null,
       "preferenceAlternateFile": false,
       "preferenceIsIgnored": false,
       "isModified": false,
-      "isWorkingCopy": false,
-      "isFuzzyMatch": false,
-      "preferenceReleaseType": null,
-      "manifestName": null,
-      "installedTargets": null
-    },
-    {
-      "addonID": 459496,
-      "gameInstanceID": "281136bc-8615-4fa9-bee2-abcc532dd39a",
-      "installedFile": {
-        "id": 3542434,
-        "displayName": "Indium 1.0.2 for Minecraft 1.18/Sodium 0.4.0-alpha5",
-        "fileName": "indium-1.0.2-alpha1+mc1.18.jar",
-        "fileDate": "2021-11-30T20:38:10.773Z",
-        "fileLength": 110396,
-        "releaseType": 3,
-        "fileStatus": 4,
-        "downloadUrl": "https://edge.forgecdn.net/files/3542/434/indium-1.0.2-alpha1+mc1.18.jar",
-        "isAlternate": false,
-        "alternateFileId": 0,
-        "dependencies": [
-          {
-            "id": 79675898,
-            "addonId": 394468,
-            "type": 3,
-            "fileId": 3542434
-          }
-        ],
-        "isAvailable": true,
-        "modules": [
-          {
-            "foldername": "META-INF",
-            "fingerprint": 4151316780,
-            "type": 3,
-            "invalidFingerprint": false
-          },
-          {
-            "foldername": "LICENSE",
-            "fingerprint": 1185419476,
-            "type": 3,
-            "invalidFingerprint": false
-          },
-          {
-            "foldername": "assets",
-            "fingerprint": 2257302290,
-            "type": 3,
-            "invalidFingerprint": false
-          },
-          {
-            "foldername": "indium.mixins.json",
-            "fingerprint": 4257216471,
-            "type": 3,
-            "invalidFingerprint": false
-          },
-          {
-            "foldername": "fabric.mod.json",
-            "fingerprint": 4167806651,
-            "type": 3,
-            "invalidFingerprint": false
-          },
-          {
-            "foldername": "indium-refmap.json",
-            "fingerprint": 1337742705,
-            "type": 3,
-            "invalidFingerprint": false
-          },
-          {
-            "foldername": "link",
-            "fingerprint": 2386925375,
-            "type": 3,
-            "invalidFingerprint": false
-          }
-        ],
-        "packageFingerprint": 3058950694,
-        "gameVersion": [
-          "Fabric",
-          "1.18"
-        ],
-        "sortableGameVersion": [
-          {
-            "gameVersionPadded": "0",
-            "gameVersion": "",
-            "gameVersionReleaseDate": "2019-08-01T00:00:00Z",
-            "gameVersionName": "Fabric",
-            "gameVersionTypeId": 68441
-          },
-          {
-            "gameVersionPadded": "0000000001.0000000018",
-            "gameVersion": "1.18",
-            "gameVersionReleaseDate": "2021-11-30T16:23:01.427Z",
-            "gameVersionName": "1.18",
-            "gameVersionTypeId": 73250
-          }
-        ],
-        "hasInstallScript": false,
-        "isCompatibleWithClient": true,
-        "categorySectionPackageType": 6,
-        "restrictProjectFileAccess": 1,
-        "projectStatus": 4,
-        "renderCacheId": 2605085,
-        "projectId": 459496,
-        "packageFingerprintId": 796691785,
-        "gameVersionDateReleased": "2019-08-01T00:00:00Z",
-        "gameVersionMappingId": 3510318,
-        "gameVersionId": 7499,
-        "gameId": 432,
-        "isServerPack": false,
-        "FileNameOnDisk": "indium-1.0.2-alpha1+mc1.18.jar.disabled"
-      },
-      "dateInstalled": "2021-12-11T05:17:45.4957108Z",
-      "dateUpdated": "2021-12-11T05:17:45.4957108Z",
-      "dateLastUpdateAttempted": "0001-01-01T00:00:00",
-      "status": 4,
-      "preferenceAutoInstallUpdates": null,
-      "preferenceAlternateFile": false,
-      "preferenceIsIgnored": false,
-      "isModified": true,
       "isWorkingCopy": false,
       "isFuzzyMatch": false,
       "preferenceReleaseType": null,
@@ -18332,7 +18341,7 @@
       "dateInstalled": "2021-12-11T05:17:45.447726Z",
       "dateUpdated": "2021-12-11T05:17:45.447726Z",
       "dateLastUpdateAttempted": "0001-01-01T00:00:00",
-      "status": 4,
+      "status": 5,
       "preferenceAutoInstallUpdates": null,
       "preferenceAlternateFile": false,
       "preferenceIsIgnored": false,
@@ -18474,7 +18483,7 @@
       "dateInstalled": "2021-12-11T05:17:45.5157038Z",
       "dateUpdated": "2021-12-11T05:17:45.5157038Z",
       "dateLastUpdateAttempted": "0001-01-01T00:00:00",
-      "status": 4,
+      "status": 5,
       "preferenceAutoInstallUpdates": null,
       "preferenceAlternateFile": false,
       "preferenceIsIgnored": false,
@@ -18609,7 +18618,7 @@
       "dateInstalled": "2021-12-11T05:17:45.5416976Z",
       "dateUpdated": "2021-12-11T05:17:45.5416976Z",
       "dateLastUpdateAttempted": "0001-01-01T00:00:00",
-      "status": 4,
+      "status": 5,
       "preferenceAutoInstallUpdates": null,
       "preferenceAlternateFile": false,
       "preferenceIsIgnored": false,
@@ -18731,7 +18740,7 @@
       "dateInstalled": "2021-12-11T05:17:45.5217027Z",
       "dateUpdated": "2021-12-11T05:17:45.5217027Z",
       "dateLastUpdateAttempted": "0001-01-01T00:00:00",
-      "status": 4,
+      "status": 5,
       "preferenceAutoInstallUpdates": null,
       "preferenceAlternateFile": false,
       "preferenceIsIgnored": false,
@@ -18859,7 +18868,7 @@
       "dateInstalled": "2021-12-11T05:17:45.4867133Z",
       "dateUpdated": "2021-12-11T05:17:45.4867133Z",
       "dateLastUpdateAttempted": "0001-01-01T00:00:00",
-      "status": 4,
+      "status": 5,
       "preferenceAutoInstallUpdates": null,
       "preferenceAlternateFile": false,
       "preferenceIsIgnored": false,
