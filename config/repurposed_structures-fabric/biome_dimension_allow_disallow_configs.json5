@@ -136,13 +136,13 @@
     "repurposed_structures:dungeons_badlands": "terralith:savanna_badlands, terralith:red_oasis",
     "repurposed_structures:dungeons_dark_forest": "terralith:mirage_isles",
     "repurposed_structures:dungeons_desert": "terralith:cave/desert_caves",
-    "repurposed_structures:dungeons_snow": "terralith:alpine_grove, terralith:alpine_highlands, terralith:cold_shrubland",
+    "repurposed_structures:dungeons_snow": "terralith:alpine_grove, terralith:cold_shrubland",
     "repurposed_structures:dungeons_icy": "terralith:cave/frostfire_caves, terralith:cave/ice_caves, terralith:cave/fungal_caves",
     "repurposed_structures:igloo_grassy": "terralith:brushland",
     "repurposed_structures:igloo_stone": "terralith:amethyst_canyon, terralith:basalt_cliffs, terralith:emerald_peaks, terralith:granite_cliffs, terralith:haze_mountain, terralith:mountain_steppe, terralith:painted_mountains, terralith:rocky_mountains, terralith:shield_clearing, terralith:steppe, terralith:stony_spires, terralith:valley_clearing",
     "repurposed_structures:mansion_birch": "terralith:temperate_highlands, terralith:white_cliffs",
     "repurposed_structures:mansion_savanna": "terralith:hot_shrubland, terralith:sakura_grove, terralith:sakura_valley",
-    "repurposed_structures:mansion_snowy": "terralith:alpine_grove, terralith:alpine_highlands, terralith:cold_shrubland, terralith:snowy_badlands, terralith:snowy_shield",
+    "repurposed_structures:mansion_snowy": "terralith:alpine_grove, terralith:cold_shrubland, terralith:snowy_badlands, terralith:snowy_shield",
     "repurposed_structures:mansion_taiga": "terralith:forested_highlands, terralith:lavender_forest, terralith:lavender_valley, terralith:moonlight_grove, terralith:moonlight_valley, terralith:rocky_shrubland, terralith:wintry_forest",
     "repurposed_structures:mineshaft_birch": "terralith:wintry_forest, terralith:white_cliffs",
     "repurposed_structures:mineshaft_dark_forest": "terralith:mirage_isles",
@@ -153,11 +153,11 @@
     "repurposed_structures:mineshaft_taiga": "terralith:cloud_forest, terralith:forested_highlands, terralith:lavender_forest, terralith:lavender_valley, terralith:moonlight_grove, terralith:moonlight_valley, terralith:rocky_shrubland, terralith:shrubland",
     "repurposed_structures:outpost_badlands": "terralith:savanna_badlands",
     "repurposed_structures:outpost_birch": "terralith:temperate_highlands, terralith:white_cliffs",
-    "repurposed_structures:outpost_snowy": "terralith:alpine_grove, terralith:alpine_highlands, terralith:cold_shrubland, terralith:snowy_shield",
+    "repurposed_structures:outpost_snowy": "terralith:alpine_grove, terralith:cold_shrubland, terralith:snowy_shield",
     "repurposed_structures:outpost_taiga": "terralith:forested_highlands, terralith:lavender_forest, terralith:lavender_valley, terralith:moonlight_grove, terralith:moonlight_valley, terralith:rocky_shrubland, terralith:wintry_forest",
     "repurposed_structures:pyramid_badlands": "terralith:savanna_badlands",
     "repurposed_structures:pyramid_flower_forest": "terralith:blooming_plateau, terralith:blooming_valley",
-    "repurposed_structures:pyramid_snowy": "terralith:alpine_grove, terralith:alpine_highlands, terralith:cold_shrubland, terralith:snowy_shield",
+    "repurposed_structures:pyramid_snowy": "terralith:alpine_grove, terralith:cold_shrubland, terralith:snowy_shield",
     "repurposed_structures:village_badlands": "terralith:savanna_badlands",
     "repurposed_structures:village_birch": "terralith:temperate_highlands, terralith:white_cliffs",
     "repurposed_structures:village_dark_oak": "terralith:mirage_isles",
@@ -175,5 +175,5 @@
 
 
 // for internal use only. Do not change this.
-  "configVersion": 3
+  "configVersion": 5
 }

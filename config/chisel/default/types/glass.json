@@ -1,0 +1,37 @@
+{
+  "name": "glass",
+  "settings": {
+    "imitate": "minecraft:glass"
+  },
+  "items_to_include": [
+    "minecraft:glass"
+  ],
+  "variants": {
+    "new": [
+      {
+        "names": [
+          "bubble",
+          "chinese",
+          "chinese2",
+          "chrono",
+          "dungeon",
+          "frame",
+          "ironfence",
+          "japanese",
+          "japanese2",
+          "light",
+          "noborder",
+          "ornate",
+          "ornatelayer",
+          "screen",
+          "shale",
+          "stone",
+          "streak",
+          "thick",
+          "thin"
+        ],
+        "transparent": true
+      }
+    ]
+  }
+}

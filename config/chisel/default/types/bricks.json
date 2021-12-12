@@ -1,0 +1,50 @@
+{
+  "name": "bricks",
+  "settings": {
+    "imitate": "minecraft:bricks"
+  },
+  "items_to_include": [
+    "minecraft:bricks"
+  ],
+  "variants": {
+    "new": [
+      {
+        "names": [
+          "array",
+          "braid",
+          "chaotic_bricks",
+          "chaotic_medium",
+          "chaotic_small",
+          "circular",
+          "cracked",
+          "cracked_bricks",
+          "dent",
+          "encased_bricks",
+          "french_1",
+          "french_2",
+          "jellybean",
+          "layers",
+          "mosaic",
+          "ornate",
+          "panel",
+          "prism",
+          "raw",
+          "road",
+          "slanted",
+          "small_bricks",
+          "soft_bricks",
+          "solid_bricks",
+          "tiles_large",
+          "tiles_medium",
+          "tiles_small",
+          "triple_bricks",
+          "twisted-side",
+          "twisted-top",
+          "weaver",
+          "zag"
+        ],
+        "transparent": false
+      }
+    ]
+  }
+}

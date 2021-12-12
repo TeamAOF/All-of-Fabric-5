@@ -1,1 +1,1 @@
-console.info('Loading All Of Fabric 5 v0.1.4')
+console.info('Loading All of Fabric 5 v0.2.0')

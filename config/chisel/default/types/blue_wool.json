@@ -1,0 +1,20 @@
+{
+  "name": "blue_wool",
+  "settings": {
+    "imitate": "minecraft:blue_wool"
+  },
+  "items_to_include": [
+    "minecraft:blue_wool"
+  ],
+  "variants": {
+    "new": [
+      {
+        "names": [
+          "legacy",
+          "llama"
+        ],
+        "transparent": false
+      }
+    ]
+  }
+}

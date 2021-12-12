@@ -1,0 +1,54 @@
+{
+  "name": "sandstone",
+  "settings": {
+    "imitate": "minecraft:sandstone"
+  },
+  "items_to_include": [
+    "minecraft:sandstone",
+    "minecraft:cut_sandstone",
+    "minecraft:smooth_sandstone",
+    "minecraft:chiseled_sandstone"
+  ],
+  "variants": {
+    "new": [
+      {
+        "names": [
+          "array",
+          "braid",
+          "chaotic_bricks",
+          "chaotic_medium",
+          "chaotic_small",
+          "circular",
+          "cracked",
+          "cracked_bricks",
+          "dent",
+          "encased_bricks",
+          "french_1",
+          "french_2",
+          "glyphs",
+          "jellybean",
+          "layers",
+          "mosaic",
+          "ornate",
+          "panel",
+          "prism",
+          "raw",
+          "road",
+          "slanted",
+          "small",
+          "small_bricks",
+          "soft_bricks",
+          "solid_bricks",
+          "tiles_large",
+          "tiles_medium",
+          "tiles_small",
+          "triple_bricks",
+          "weaver",
+          "zag"
+        ],
+        "transparent": false
+      }
+    ]
+  }
+}
+

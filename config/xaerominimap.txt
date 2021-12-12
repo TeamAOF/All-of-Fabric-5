@@ -7,7 +7,7 @@ debugEntityIcons:false
 debugEntityVariantIds:false
 #INGAME SETTINGS (DO NOT EDIT!)
 updateNotification:false
-minimap:true
+minimap:false
 caveMaps:2
 caveZoom:3
 showWaypoints:true
@@ -85,7 +85,7 @@ minimapFrameColor:9
 compassColor:9
 showDimensionName:false
 displayMultipleWaypointInfo:1
-entityRadar:true
+entityRadar:false
 adjustHeightForCarpetLikeBlocks:true
 autoConvertWaypointDistanceToKmThreshold:10000
 waypointDistancePrecision:1

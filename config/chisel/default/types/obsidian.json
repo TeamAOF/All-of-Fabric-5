@@ -1,0 +1,32 @@
+{
+  "name": "obsidian",
+  "settings": {
+    "imitate": "minecraft:obsidian"
+  },
+  "items_to_include": [
+    "minecraft:obsidian"
+  ],
+  "variants": {
+    "new": [
+      {
+        "names": [
+          "blocks",
+          "chiseled-side",
+          "chiseled-top",
+          "chunks",
+          "crystal",
+          "greek-side",
+          "greek-top",
+          "growth",
+          "light",
+          "map_a",
+          "map_b",
+          "panel",
+          "shiny",
+          "tiles_large"
+        ],
+        "transparent": false
+      }
+    ]
+  }
+}

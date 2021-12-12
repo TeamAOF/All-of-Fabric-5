@@ -1,0 +1,33 @@
+{
+  "name": "birch_planks",
+  "settings": {
+    "imitate": "minecraft:birch_planks"
+  },
+  "items_to_include": [
+    "minecraft:birch_planks"
+  ],
+  "variants": {
+    "new": [
+      {
+        "names": [
+          "braced_planks-side",
+          "braid",
+          "crude_horizontal_planks",
+          "crude_paneling",
+          "crude_vertical_planks",
+          "encased_large_planks",
+          "encased_planks",
+          "encased_smooth",
+          "large_planks",
+          "log_bordered",
+          "paneling",
+          "shipping_crate",
+          "smooth",
+          "stacked",
+          "vertical_planks"
+        ],
+        "transparent": false
+      }
+    ]
+  }
+}

@@ -11,7 +11,7 @@
   "terminals": {
     "__comment": "Should tooltips be searched. Performance impact",
     "searchTooltips": "yes",
-    "terminalStyle": "tall",
-    "terminalSearchMode": "autosearch"
+    "terminalStyle": "small",
+    "terminalSearchMode": "manual_search"
   }
 }

@@ -1,4 +1,6 @@
 {
+  //Performance: Turn off extra particles by the Dark Conduits? True means they are on.
+  "hasFancyShrineParticle": true,
   //All enchantments cost this much levels to start.
   "baseCost": 2.5,
   //Make enchantments cost more.

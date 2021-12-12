@@ -29,7 +29,7 @@ mainMenu {
             }
         }
 
-        text = literal("All of Fabric 5 - 0.1.4")
+        text = literal("All of Fabric 5 - 0.2.0")
     }
 
     button {

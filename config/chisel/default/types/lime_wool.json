@@ -1,0 +1,20 @@
+{
+  "name": "lime_wool",
+  "settings": {
+    "imitate": "minecraft:lime_wool"
+  },
+  "items_to_include": [
+    "minecraft:lime_wool"
+  ],
+  "variants": {
+    "new": [
+      {
+        "names": [
+          "legacy",
+          "llama"
+        ],
+        "transparent": false
+      }
+    ]
+  }
+}

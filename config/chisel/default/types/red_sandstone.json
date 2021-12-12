@@ -1,0 +1,54 @@
+{
+  "name": "red_sandstone",
+  "settings": {
+    "imitate": "minecraft:red_sandstone"
+  },
+  "items_to_include": [
+    "minecraft:red_sandstone",
+    "minecraft:cut_red_sandstone",
+    "minecraft:smooth_red_sandstone",
+    "minecraft:chiseled_red_sandstone"
+  ],
+  "variants": {
+    "new": [
+      {
+        "names": [
+          "array",
+          "bevel_skeleton",
+          "braid",
+          "chaotic",
+          "chaotic_medium",
+          "chaotic_small",
+          "circular",
+          "cracked",
+          "dent",
+          "encased_bricks",
+          "french_1",
+          "french_2",
+          "glyphs",
+          "jellybean",
+          "layers",
+          "mosaic",
+          "ornate",
+          "panel",
+          "prism",
+          "raw",
+          "road",
+          "slanted",
+          "small",
+          "small_bricks",
+          "soft",
+          "solid",
+          "tiles_large",
+          "tiles_medium",
+          "tiles_small",
+          "triple_bricks",
+          "weaver",
+          "zag"
+        ],
+        "transparent": false
+      }
+    ]
+  }
+}
+

@@ -1,0 +1,52 @@
+{
+  "name": "stone_bricks",
+  "settings": {
+    "imitate": "minecraft:stone_bricks"
+  },
+  "items_to_include": [
+    "minecraft:stone_bricks",
+    "minecraft:stone",
+    "minecraft:mossy_stone_bricks",
+    "minecraft:chiseled_stone_bricks",
+    "minecraft:cracked_stone_bricks"
+  ],
+  "variants": {
+    "new": [
+      {
+        "names": [
+          "array",
+          "braid",
+          "chaotic",
+          "chaotic_medium",
+          "chaotic_small",
+          "cracked",
+          "dent",
+          "encased",
+          "french_1",
+          "french_2",
+          "jellybean",
+          "largeornate",
+          "layers",
+          "mosaic",
+          "ornate",
+          "panel",
+          "poison",
+          "prism",
+          "road",
+          "slanted",
+          "small_bricks",
+          "soft",
+          "solid",
+          "sunken",
+          "tiles_large",
+          "tiles_medium",
+          "tiles_small",
+          "triple_bricks",
+          "wacky",
+          "zag"
+        ],
+        "transparent": false
+      }
+    ]
+  }
+}
