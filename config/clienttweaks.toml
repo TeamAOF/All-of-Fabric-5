@@ -1,5 +1,5 @@
 [tweaks]
-autoClimbLadder = false
+autoClimbLadder = true
 doNotUseLastTorch = false
 hideOffhandItem = false
 hideOwnParticleEffects = false
