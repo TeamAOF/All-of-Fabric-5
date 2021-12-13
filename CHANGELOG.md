@@ -1,3 +1,22 @@
+<h1>0.2.1</h1>
+
+<h2>Be sure to always backup your world(s) before updating!</h2>
+
+
+**Fixes**
+- Fixed old worlds being incompatible due to dimension fix.
+- Fixed crash involving security terminal during insertion into network storage (i.e. by Annihilation Planes)
+- Fixed Annihilation Plane not returning to accepting items after the network refused them once
+- Fixed pre-formatted cells
+- Fixed parts staying connected to the grid when the cable is dismantled
+- Fixed self-recursive patterns failing the crafting job simulation
+- Fixed crafting card in export bus not working properly
+
+**Added**
+- Indium (Be sure to report ANY issues with this on the tracker)
+- Sodium (Be sure to report ANY issues with this on the tracker)
+---------------------------------------------------------------------------------------------
+
 <h1>0.2.0</h1>
 
 <h2>Be sure to always backup your world(s) before updating!</h2>
@@ -5,7 +24,6 @@
 **Changes**
 - Updated to 1.18.1
 - Updated Fabric Loader to 0.12.11
-- Overall loading times has been lowered thanks to the addition of Dash Loader (Be sure to report any issues if found with this).
 - This release should HEAVILY increase overall fps & aswell lower stutters. Hours of profiling has led to this moment that I'll never be able to get back. Please help.
 - Certus quartz ore gen from AE2 has been heavily nerfed.
 - Nerfed entity banners (less defence % gained, less attack % gained, now needs 100 kills instead of 50.

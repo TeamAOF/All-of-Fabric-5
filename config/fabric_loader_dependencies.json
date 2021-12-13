@@ -738,7 +738,7 @@
         },
         "ae2wtlib": {
             "-depends": {
-                "appliedenergistics2": ""
+                "ae2": ""
             }
         }
     }
