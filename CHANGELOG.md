@@ -24,7 +24,6 @@
 **Changes**
 - Updated to 1.18.1
 - Updated Fabric Loader to 0.12.11
-- Overall loading times has been lowered thanks to the addition of Dash Loader (Be sure to report any issues if found with this).
 - This release should HEAVILY increase overall fps & aswell lower stutters. Hours of profiling has led to this moment that I'll never be able to get back. Please help.
 - Certus quartz ore gen from AE2 has been heavily nerfed.
 - Nerfed entity banners (less defence % gained, less attack % gained, now needs 100 kills instead of 50.
