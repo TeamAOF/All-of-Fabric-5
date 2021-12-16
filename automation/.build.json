@@ -1,0 +1,7 @@
+{
+    "packAuthor": "TeamAOF",
+    "minecraftVersion": "1.18.1",
+    "modLoader": "fabric",
+    "modLoaderVersion": "0.12.12",
+    "includes": ["config", "kubejs"]
+}

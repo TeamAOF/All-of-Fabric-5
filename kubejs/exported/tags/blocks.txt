@@ -1,10 +1,14 @@
-To refresh this file, delete it and run /reload command again! Last updated: Jun 23, 2021, 12:15:57 AM
+To refresh this file, delete it and run /reload command again! Last updated: Dec 13, 2021, 12:15:18 PM
 
 #minecraft:soul_fire_base_blocks
 - minecraft:soul_sand
 - minecraft:soul_soil
 - #blockus:soul_sandstone
 - #blockus:phantom_purpur_blocks
+
+#c:iridium_ores
+- techreborn:iridium_ore
+- techreborn:deepslate_iridium_ore
 
 #adorn:benches
 - adorn:oak_bench
@@ -60,6 +64,9 @@ To refresh this file, delete it and run /reload command again! Last updated: Jun
 - adorn:cinderscapes/scorched_bench?
 - adorn:cinderscapes/umbral_bench?
 
+#c:nickel_blocks
+- techreborn:nickel_storage_block
+
 #promenade:mushrooms
 - promenade:white_mushroom
 - promenade:light_gray_mushroom
@@ -81,8 +88,21 @@ To refresh this file, delete it and run /reload command again! Last updated: Jun
 - blockus:ice_bricks
 - blockus:ice_pillar
 
+#c:tungstensteel_blocks
+- techreborn:tungstensteel_storage_block
+
 #minecraft:occludes_vibration_signals
 - #minecraft:wool
+
+#redstonebits:waxed_copper_buttons
+- redstonebits:waxed_copper_button
+- redstonebits:waxed_exposed_copper_button
+- redstonebits:waxed_weathered_copper_button
+- redstonebits:waxed_oxidized_copper_button
+
+#c:peridot_ores
+- techreborn:peridot_ore
+- techreborn:deepslate_peridot_ore
 
 #promenade:cherry_oak_logs
 - promenade:cherry_oak_log
@@ -107,6 +127,38 @@ To refresh this file, delete it and run /reload command again! Last updated: Jun
 - blockus:green_concrete_bricks
 - blockus:red_concrete_bricks
 - blockus:black_concrete_bricks
+- blockus:white_concrete_brick_stairs
+- blockus:orange_concrete_brick_stairs
+- blockus:magenta_concrete_brick_stairs
+- blockus:light_blue_concrete_brick_stairs
+- blockus:yellow_concrete_brick_stairs
+- blockus:lime_concrete_brick_stairs
+- blockus:pink_concrete_brick_stairs
+- blockus:gray_concrete_brick_stairs
+- blockus:light_gray_concrete_brick_stairs
+- blockus:cyan_concrete_brick_stairs
+- blockus:purple_concrete_brick_stairs
+- blockus:blue_concrete_brick_stairs
+- blockus:brown_concrete_brick_stairs
+- blockus:green_concrete_brick_stairs
+- blockus:red_concrete_brick_stairs
+- blockus:black_concrete_brick_stairs
+- blockus:white_concrete_brick_slab
+- blockus:orange_concrete_brick_slab
+- blockus:magenta_concrete_brick_slab
+- blockus:light_blue_concrete_brick_slab
+- blockus:yellow_concrete_brick_slab
+- blockus:lime_concrete_brick_slab
+- blockus:pink_concrete_brick_slab
+- blockus:gray_concrete_brick_slab
+- blockus:light_gray_concrete_brick_slab
+- blockus:cyan_concrete_brick_slab
+- blockus:purple_concrete_brick_slab
+- blockus:blue_concrete_brick_slab
+- blockus:brown_concrete_brick_slab
+- blockus:green_concrete_brick_slab
+- blockus:red_concrete_brick_slab
+- blockus:black_concrete_brick_slab
 - blockus:chiseled_white_concrete
 - blockus:chiseled_orange_concrete
 - blockus:chiseled_magenta_concrete
@@ -140,6 +192,13 @@ To refresh this file, delete it and run /reload command again! Last updated: Jun
 - blockus:red_concrete_pillar
 - blockus:black_concrete_pillar
 
+#c:sphalerite_ores
+- techreborn:sphalerite_ore
+
+#lovely_snails:snail_spawn_blocks
+- minecraft:grass_block
+- minecraft:mycelium
+
 #minecraft:wool
 - minecraft:white_wool
 - minecraft:orange_wool
@@ -158,6 +217,7 @@ To refresh this file, delete it and run /reload command again! Last updated: Jun
 - minecraft:red_wool
 - minecraft:black_wool
 - #blockus:patterned_wool
+- #lumiwool:wool
 
 #promenade:leaves
 - promenade:autumn_oak_leaves
@@ -166,35 +226,43 @@ To refresh this file, delete it and run /reload command again! Last updated: Jun
 - promenade:white_cherry_oak_leaves
 - promenade:palm_leaves
 
-#charm:provide_enchanting_power
-- minecraft:bookshelf
-- #charm:bookcases
-- #charm:bookshelves
-- #c:bookshelves
+#botania:floating_flowers
+- #botania:mundane_floating_flowers
+- #botania:special_floating_flowers
+
+#botania:elementium_blocks
+- botania:elementium_block
+
+#redstonebits:copper_buttons
+- #redstonebits:unwaxed_copper_buttons
+- #redstonebits:waxed_copper_buttons
+
+#c:storage_blocks
+- #c:certus_quartz_blocks
 
 #minecraft:beehives
 - minecraft:bee_nest
 - minecraft:beehive
 
 #blockus:nether_bricks
-- blockus:smooth_nether_bricks
-- blockus:smooth_red_nether_bricks
+- blockus:polished_nether_bricks
+- blockus:polished_red_nether_bricks
 - blockus:zigzagged_nether_bricks
 - blockus:zigzagged_red_nether_bricks
-- blockus:nether_pillar
-- blockus:red_nether_pillar
+- blockus:nether_brick_pillar
+- blockus:red_nether_brick_pillar
 - blockus:charred_nether_bricks
-- blockus:charred_nether_bricks_stairs
-- blockus:charred_nether_bricks_slab
-- blockus:smooth_charred_nether_bricks
+- blockus:charred_nether_brick_stairs
+- blockus:charred_nether_brick_slab
+- blockus:polished_charred_nether_bricks
 - blockus:zigzagged_charred_nether_bricks
-- blockus:charred_nether_pillar
+- blockus:charred_nether_brick_pillar
 - blockus:teal_nether_bricks
 - blockus:teal_nether_brick_stairs
 - blockus:teal_nether_brick_slab
-- blockus:smooth_teal_nether_bricks
+- blockus:polished_teal_nether_bricks
 - blockus:zigzagged_teal_nether_bricks
-- blockus:teal_nether_pillar
+- blockus:teal_nether_brick_pillar
 
 #minecraft:ice
 - minecraft:ice
@@ -202,11 +270,45 @@ To refresh this file, delete it and run /reload command again! Last updated: Jun
 - minecraft:blue_ice
 - minecraft:frosted_ice
 - #blockus:ice_bricks
-- blockus:ice_bricks_wall
+- blockus:ice_brick_wall
+
+#lumiwool:wool
+- lumiwool:luminous_white_wool
+- lumiwool:luminous_orange_wool
+- lumiwool:luminous_magenta_wool
+- lumiwool:luminous_light_blue_wool
+- lumiwool:luminous_yellow_wool
+- lumiwool:luminous_lime_wool
+- lumiwool:luminous_pink_wool
+- lumiwool:luminous_gray_wool
+- lumiwool:luminous_light_gray_wool
+- lumiwool:luminous_cyan_wool
+- lumiwool:luminous_purple_wool
+- lumiwool:luminous_blue_wool
+- lumiwool:luminous_brown_wool
+- lumiwool:luminous_green_wool
+- lumiwool:luminous_red_wool
+- lumiwool:luminous_black_wool
+- lumiwool:luminous_white_carpet
+- lumiwool:luminous_orange_carpet
+- lumiwool:luminous_magenta_carpet
+- lumiwool:luminous_light_blue_carpet
+- lumiwool:luminous_yellow_carpet
+- lumiwool:luminous_lime_carpet
+- lumiwool:luminous_pink_carpet
+- lumiwool:luminous_gray_carpet
+- lumiwool:luminous_light_gray_carpet
+- lumiwool:luminous_cyan_carpet
+- lumiwool:luminous_purple_carpet
+- lumiwool:luminous_blue_carpet
+- lumiwool:luminous_brown_carpet
+- lumiwool:luminous_green_carpet
+- lumiwool:luminous_red_carpet
+- lumiwool:luminous_black_carpet
 
 #c:tin_ores
-- indrev:tin_ore
-- indrev:deepslate_tin_ore
+- techreborn:tin_ore
+- techreborn:deepslate_tin_ore
 
 #minecraft:dragon_immune
 - minecraft:barrier
@@ -225,15 +327,15 @@ To refresh this file, delete it and run /reload command again! Last updated: Jun
 - minecraft:end_stone
 - minecraft:iron_bars
 - minecraft:respawn_anchor
+- #blockus:obsidian
+- blockus:nether_stars_block
+- botania:infrangible_platform
+- infusion_table:infusion_table
 - kibe:obsidian_sand
 - kibe:wither_proof_block
 - kibe:wither_proof_sand
 - kibe:wither_proof_glass
 - kibe:wither_builder
-- #blockus:end_stone_blocks
-- #blockus:obsidian
-- blockus:obsidian_bricks_wall
-- blockus:nether_stars_block
 
 #minecraft:crops
 - minecraft:beetroots
@@ -322,6 +424,9 @@ To refresh this file, delete it and run /reload command again! Last updated: Jun
 - croptopia:tea_crop
 - croptopia:pepper_crop
 
+#c:brass_blocks
+- techreborn:brass_storage_block
+
 #minecraft:features_cannot_replace
 - minecraft:bedrock
 - minecraft:spawner
@@ -371,11 +476,20 @@ To refresh this file, delete it and run /reload command again! Last updated: Jun
 - blockus:polished_end_stone_slab
 - blockus:cracked_end_stone_bricks
 - blockus:end_stone_pillar
+- blockus:small_end_stone_bricks
+- blockus:small_end_stone_brick_stairs
+- blockus:small_end_stone_brick_slab
 - blockus:purpur_decorated_end_stone
+- blockus:phantom_purpur_decorated_end_stone
+
+#c:lapis_blocks
+- minecraft:lapis_block
 
 #minecraft:crystal_sound_blocks
 - minecraft:amethyst_block
 - minecraft:budding_amethyst
+
+#botania:laputa_immobile
 
 #minecraft:warped_stems
 - minecraft:warped_stem
@@ -384,44 +498,82 @@ To refresh this file, delete it and run /reload command again! Last updated: Jun
 - minecraft:stripped_warped_hyphae
 - blockus:warped_small_stems
 
+#botania:magnet_ring_blacklist
+- botania:mana_pool
+- botania:creative_pool
+- botania:diluted_pool
+- botania:fabulous_pool
+- botania:terra_plate
+- botania:runic_altar
+
 #blockus:red_sandstone
 - blockus:rough_red_sandstone
 - blockus:rough_red_sandstone_slab
 - blockus:rough_red_sandstone_stairs
 - blockus:red_sandstone_bricks
-- blockus:red_sandstone_bricks_slab
-- blockus:red_sandstone_bricks_stairs
+- blockus:red_sandstone_brick_slab
+- blockus:red_sandstone_brick_stairs
 - blockus:small_red_sandstone_bricks
-- blockus:small_red_sandstone_bricks_slab
-- blockus:small_red_sandstone_bricks_stairs
+- blockus:small_red_sandstone_brick_slab
+- blockus:small_red_sandstone_brick_stairs
 - blockus:gold_decorated_red_sandstone
+- blockus:lapis_decorated_red_sandstone
 - blockus:red_sandstone_pillar
+
+#c:steel_blocks
+- techreborn:steel_storage_block
+
+#minecraft:lava_pool_stone_cannot_replace
+- #minecraft:features_cannot_replace
+- #minecraft:leaves
+- #minecraft:logs
 
 #minecraft:inside_step_sound_blocks
 - minecraft:snow
 - minecraft:powder_snow
+
+#c:cinnabar_ores
+- techreborn:cinnabar_ore
 
 #blockus:sandstone
 - blockus:rough_sandstone
 - blockus:rough_sandstone_slab
 - blockus:rough_sandstone_stairs
 - blockus:sandstone_bricks
-- blockus:sandstone_bricks_slab
-- blockus:sandstone_bricks_stairs
+- blockus:sandstone_brick_slab
+- blockus:sandstone_brick_stairs
 - blockus:small_sandstone_bricks
-- blockus:small_sandstone_bricks_slab
-- blockus:small_sandstone_bricks_stairs
+- blockus:small_sandstone_brick_slab
+- blockus:small_sandstone_brick_stairs
 - blockus:gold_decorated_sandstone
 - blockus:lapis_decorated_sandstone
 - blockus:sandstone_pillar
 
 #blockus:basalt_blocks
+- blockus:rough_basalt
+- blockus:rough_basalt_slab
+- blockus:rough_basalt_stairs
 - blockus:polished_basalt_bricks
-- blockus:polished_basalt_bricks_stairs
-- blockus:polished_basalt_bricks_slab
+- blockus:polished_basalt_brick_stairs
+- blockus:polished_basalt_brick_slab
 - blockus:chiseled_polished_basalt
 - blockus:cracked_polished_basalt_bricks
 - blockus:polished_basalt_pillar
+- blockus:zigzagged_polished_basalt
+- blockus:polished_basalt_circle_pavement
+
+#botania:corporea_spark_override
+- botania:corporea_block
+- botania:corporea_brick
+- botania:corporea_brick_slab
+- botania:corporea_brick_stairs
+- botania:corporea_brick_wall
+- botania:corporea_crystal_cube
+- botania:corporea_funnel
+- botania:corporea_index
+- botania:corporea_interceptor
+- botania:corporea_slab
+- botania:corporea_stairs
 
 #adorn:wooden_posts
 - adorn:oak_post
@@ -490,35 +642,23 @@ To refresh this file, delete it and run /reload command again! Last updated: Jun
 - minecraft:twisting_vines_plant
 - minecraft:cave_vines
 - minecraft:cave_vines_plant
-- betternether:eye_vine
-- betternether:black_vine
-- betternether:blooming_vine
-- betternether:golden_vine
-- betternether:stalagnate
-- betternether:reeds_ladder
-- betternether:stalagnate_ladder
-- betternether:willow_ladder
-- betternether:wart_ladder
-- betternether:mushroom_fir_ladder
-- betternether:rubeus_ladder
-- betternether:crimson_ladder
-- betternether:warped_ladder
-- betternether:mushroom_ladder
-- betternether:anchor_tree_vine
-- betternether:anchor_tree_ladder
-- betternether:nether_sakura_ladder
+- additionaladditions:rope?
 - adorn:chain_link_fence
 - adorn:stone_ladder
-- charm:acacia_ladder
-- charm:azalea_ladder
-- charm:birch_ladder
-- charm:crimson_ladder
-- charm:dark_oak_ladder
-- charm:ebony_ladder
-- charm:jungle_ladder
-- charm:oak_ladder
-- charm:spruce_ladder
-- charm:warped_ladder
+- botania:solid_vine
+- catwalksinc:industrial_ladder
+- catwalksinc:caged_ladder
+- catwalksinc:yellow_ladder
+- catwalksinc:yellow_caged_ladder
+- wildworld:sheared_vine
+
+#buildinggadgets:whitelist/generic
+
+#minecraft:parrots_spawnable_on
+- minecraft:grass_block
+- minecraft:air
+- #minecraft:leaves
+- #minecraft:logs
 
 #minecraft:dark_oak_logs
 - minecraft:dark_oak_log
@@ -526,6 +666,9 @@ To refresh this file, delete it and run /reload command again! Last updated: Jun
 - minecraft:stripped_dark_oak_log
 - minecraft:stripped_dark_oak_wood
 - blockus:dark_oak_small_logs
+
+#c:ruby_blocks
+- techreborn:ruby_storage_block
 
 #adorn:platforms
 - #adorn:wooden_platforms
@@ -569,15 +712,22 @@ To refresh this file, delete it and run /reload command again! Last updated: Jun
 - minecraft:warped_sign
 - minecraft:crimson_wall_sign
 - minecraft:warped_wall_sign
-- promenade:dark_amaranth_planks
-- promenade:dark_amaranth_slab
-- promenade:dark_amaranth_pressure_plate
-- promenade:dark_amaranth_fence
-- promenade:dark_amaranth_trapdoor
-- promenade:dark_amaranth_fence_gate
-- promenade:dark_amaranth_stairs
-- promenade:dark_amaranth_button
-- promenade:dark_amaranth_door
+- adorn:crimson_chair
+- adorn:warped_chair
+- adorn:crimson_drawer
+- adorn:warped_drawer
+- adorn:crimson_table
+- adorn:warped_table
+- adorn:crimson_bench
+- adorn:warped_bench
+- adorn:crimson_post
+- adorn:warped_post
+- adorn:crimson_platform
+- adorn:warped_platform
+- adorn:crimson_step
+- adorn:warped_step
+- adorn:crimson_shelf
+- adorn:warped_shelf
 - blockus:charred_planks
 - blockus:charred_slab
 - blockus:charred_pressure_plate
@@ -587,6 +737,29 @@ To refresh this file, delete it and run /reload command again! Last updated: Jun
 - blockus:charred_stairs
 - blockus:charred_button
 - blockus:charred_door
+- blockus:warped_small_stems
+- blockus:crimson_small_stems
+- promenade:dark_amaranth_planks
+- promenade:dark_amaranth_slab
+- promenade:dark_amaranth_pressure_plate
+- promenade:dark_amaranth_fence
+- promenade:dark_amaranth_trapdoor
+- promenade:dark_amaranth_fence_gate
+- promenade:dark_amaranth_stairs
+- promenade:dark_amaranth_button
+- promenade:dark_amaranth_door
+
+#buildinggadgets:blacklist/generic
+- #minecraft:doors
+- #minecraft:beds
+
+#minecraft:goats_spawnable_on
+- minecraft:stone
+- minecraft:snow
+- minecraft:powder_snow
+- minecraft:snow_block
+- minecraft:packed_ice
+- minecraft:gravel
 
 #blockus:food_crates
 - blockus:sweet_berries_crate
@@ -605,8 +778,8 @@ To refresh this file, delete it and run /reload command again! Last updated: Jun
 
 #blockus:andesite_blocks
 - blockus:andesite_bricks
-- blockus:andesite_bricks_stairs
-- blockus:andesite_bricks_slab
+- blockus:andesite_brick_stairs
+- blockus:andesite_brick_slab
 - blockus:zigzagged_andesite
 - blockus:chiseled_andesite_bricks
 - blockus:cracked_andesite_bricks
@@ -617,6 +790,9 @@ To refresh this file, delete it and run /reload command again! Last updated: Jun
 - blockus:polished_netherrack
 - blockus:polished_netherrack_stairs
 - blockus:polished_netherrack_slab
+- blockus:netherrack_bricks
+- blockus:netherrack_brick_stairs
+- blockus:netherrack_brick_slab
 - blockus:netherrack_circle_pavement
 
 #promenade:flower_piles
@@ -649,20 +825,24 @@ To refresh this file, delete it and run /reload command again! Last updated: Jun
 - blockus:smooth_soul_sandstone_slab
 - blockus:smooth_soul_sandstone_stairs
 - blockus:soul_sandstone_bricks
-- blockus:soul_sandstone_bricks_slab
-- blockus:soul_sandstone_bricks_stairs
+- blockus:soul_sandstone_brick_slab
+- blockus:soul_sandstone_brick_stairs
 - blockus:small_soul_sandstone_bricks
-- blockus:small_soul_sandstone_bricks_slab
-- blockus:small_soul_sandstone_bricks_stairs
+- blockus:small_soul_sandstone_brick_slab
+- blockus:small_soul_sandstone_brick_stairs
 - blockus:cut_soul_sandstone
 - blockus:cut_soul_sandstone_slab
 - blockus:chiseled_soul_sandstone
 - blockus:gold_decorated_soul_sandstone
+- blockus:lapis_decorated_soul_sandstone
 - blockus:soul_sandstone_pillar
 
 #minecraft:lapis_ores
 - minecraft:lapis_ore
 - minecraft:deepslate_lapis_ore
+
+#c:pyrite_ores
+- techreborn:pyrite_ore
 
 #blockus:patterned_wool
 - blockus:white_patterned_wool
@@ -694,6 +874,26 @@ To refresh this file, delete it and run /reload command again! Last updated: Jun
 - adorn:red_sandstone_post
 - adorn:nether_brick_post
 - adorn:basalt_post
+- adorn:blackstone_post
+- adorn:red_nether_brick_post
+- adorn:prismarine_post
+- adorn:quartz_post
+- adorn:end_stone_brick_post
+- adorn:purpur_post
+- adorn:polished_blackstone_post
+- adorn:polished_blackstone_brick_post
+- adorn:polished_diorite_post
+- adorn:polished_andesite_post
+- adorn:polished_granite_post
+- adorn:prismarine_brick_post
+- adorn:dark_prismarine_post
+- adorn:cut_sandstone_post
+- adorn:smooth_sandstone_post
+- adorn:cut_red_sandstone_post
+- adorn:smooth_red_sandstone_post
+- adorn:smooth_stone_post
+- adorn:mossy_cobblestone_post
+- adorn:mossy_stone_brick_post
 - adorn:terrestria/basalt_post?
 - adorn:terrestria/basalt_cobblestone_post?
 - adorn:terrestria/smooth_basalt_post?
@@ -718,27 +918,8 @@ To refresh this file, delete it and run /reload command again! Last updated: Jun
 - adorn:byg/cracked_red_rock_brick_post?
 - adorn:byg/chiseled_red_rock_brick_post?
 
-#charm:barrels
-- minecraft:barrel
-- charm:acacia_barrel
-- charm:azalea_barrel
-- charm:birch_barrel
-- charm:crimson_barrel
-- charm:dark_oak_barrel
-- charm:ebony_barrel
-- charm:jungle_barrel
-- charm:oak_barrel
-- charm:spruce_barrel
-- charm:warped_barrel
-
-#woods_and_mires:pine_logs
-- woods_and_mires:pine_log
-- woods_and_mires:pine_wood
-- woods_and_mires:stripped_pine_log
-- woods_and_mires:stripped_pine_wood
-- woods_and_mires:pine_snag_log
-- woods_and_mires:pine_snag_wood
-- woods_and_mires:pine_shrub_log
+#c:sapphire_blocks
+- techreborn:sapphire_storage_block
 
 #minecraft:lush_ground_replaceable
 - #minecraft:moss_replaceable
@@ -752,19 +933,20 @@ To refresh this file, delete it and run /reload command again! Last updated: Jun
 - blockus:bluestone_stairs
 - blockus:bluestone_pillar
 - blockus:bluestone_bricks
-- blockus:bluestone_bricks_stairs
-- blockus:bluestone_bricks_slab
+- blockus:bluestone_brick_stairs
+- blockus:bluestone_brick_slab
 - blockus:bluestone_tiles
-- blockus:bluestone_tiles_stairs
-- blockus:bluestone_tiles_slab
-- blockus:smooth_bluestone
-- blockus:smooth_bluestone_stairs
-- blockus:smooth_bluestone_slab
+- blockus:bluestone_tile_stairs
+- blockus:bluestone_tile_slab
+- blockus:polished_bluestone
+- blockus:polished_bluestone_stairs
+- blockus:polished_bluestone_slab
 - blockus:bluestone_squares
-- blockus:bluestone_little_bricks
-- blockus:bluestone_little_bricks_stairs
-- blockus:bluestone_little_bricks_slab
+- blockus:small_bluestone_bricks
+- blockus:small_bluestone_brick_stairs
+- blockus:small_bluestone_brick_slab
 - blockus:chiseled_bluestone
+- blockus:bluestone_circle_pavement
 - blockus:bluestone_lines
 
 #blockus:small_hedges
@@ -782,21 +964,17 @@ To refresh this file, delete it and run /reload command again! Last updated: Jun
 - blockus:moss_small_hedge
 
 #c:electrum_blocks
-- indrev:electrum_block
+- techreborn:electrum_storage_block
+
+#buildinggadgets:blacklist/destruction
 
 #minecraft:fences
 - #minecraft:wooden_fences
 - minecraft:nether_brick_fence
-- betternether:stalagnate_planks_fence
-- betternether:reeds_fence
-- betternether:willow_fence
-- betternether:wart_fence
-- betternether:mushroom_fence
-- betternether:mushroom_fir_fence
-- betternether:rubeus_fence
-- betternether:anchor_tree_fence
-- betternether:nether_sakura_fence
-- woods_and_mires:pine_fence
+- botania:dreamwood_fence
+- botania:livingwood_fence
+- techreborn:rubber_fence
+- techreborn:refined_iron_fence
 
 #minecraft:saplings
 - minecraft:oak_sapling
@@ -807,13 +985,7 @@ To refresh this file, delete it and run /reload command again! Last updated: Jun
 - minecraft:dark_oak_sapling
 - minecraft:azalea
 - minecraft:flowering_azalea
-- promenade:autumn_oak_sapling
-- promenade:autumn_birch_sapling
-- promenade:pink_cherry_oak_sapling
-- promenade:white_cherry_oak_sapling
-- promenade:palm_sapling
-- charm:ebony_sapling
-- woods_and_mires:pine_sapling
+- blockus:white_oak_sapling
 - croptopia:apple_sapling
 - croptopia:banana_sapling
 - croptopia:orange_sapling
@@ -840,6 +1012,23 @@ To refresh this file, delete it and run /reload command again! Last updated: Jun
 - croptopia:cashew_sapling
 - croptopia:pecan_sapling
 - croptopia:walnut_sapling
+- promenade:autumn_oak_sapling
+- promenade:autumn_birch_sapling
+- promenade:pink_cherry_oak_sapling
+- promenade:white_cherry_oak_sapling
+- promenade:palm_sapling
+- techreborn:rubber_sapling
+
+#blockus:dripstone_blocks
+- blockus:polished_dripstone
+- blockus:polished_dripstone_stairs
+- blockus:polished_dripstone_slab
+- blockus:dripstone_bricks
+- blockus:dripstone_brick_stairs
+- blockus:dripstone_brick_slab
+- blockus:cracked_dripstone_bricks
+- blockus:chiseled_dripstone
+- blockus:dripstone_pillar
 
 #minecraft:mineable/pickaxe
 - minecraft:stone
@@ -1166,101 +1355,96 @@ To refresh this file, delete it and run /reload command again! Last updated: Jun
 - #minecraft:anvil
 - #minecraft:cauldrons
 - #minecraft:rails
-- kibe:fluid_hopper
-- kibe:entangled_tank
-- kibe:entangled_chest
-- kibe:wither_proof_block
-- kibe:wither_proof_glass
-- kibe:wither_builder
-- kibe:placer
-- kibe:breaker
-- kibe:igniter
-- kibe:redstone_timer
-- kibe:trash_can
-- kibe:vacuum_hopper
-- kibe:xp_shower
-- kibe:xp_drain
-- kibe:heater
-- kibe:dehumidifier
-- kibe:chunk_loader
-- kibe:stone_spikes
-- kibe:iron_spikes
-- kibe:gold_spikes
-- kibe:diamond_spikes
-- kibe:cobblestone_generator_mk1
-- kibe:cobblestone_generator_mk2
-- kibe:cobblestone_generator_mk3
-- kibe:cobblestone_generator_mk4
-- kibe:cobblestone_generator_mk5
-- kibe:basalt_generator_mk1
-- kibe:basalt_generator_mk2
-- kibe:basalt_generator_mk3
-- kibe:basalt_generator_mk4
-- kibe:basalt_generator_mk5
-- kibe:regular_conveyor_belt
-- kibe:fast_conveyor_belt
-- kibe:express_conveyor_belt
-- #kibe:elevators
-- promenade:blunite
-- promenade:blunite_stairs
-- promenade:blunite_slab
-- promenade:carbonite
-- promenade:carbonite_stairs
-- promenade:carbonite_slab
-- promenade:polished_blunite
-- promenade:polished_blunite_stairs
-- promenade:polished_blunite_slab
-- promenade:polished_carbonite
-- promenade:polished_carbonite_stairs
-- promenade:polished_carbonite_slab
-- promenade:black_dylium
-- charm:cooking_pot
-- charm:copper_bars
-- charm:copper_chain
-- charm:copper_lantern
-- charm:gold_bars
-- charm:gold_chain
-- charm:gold_lantern
-- charm:netherite_bars
-- charm:netherite_chain
-- charm:netherite_lantern
-- lifts:coal_structure
-- lifts:iron_structure
-- lifts:gold_structure
-- lifts:diamond_structure
-- lifts:emerald_structure
-- lifts:netherite_structure
-- lifts:machine_block
-- lifts:machine_block_slab
-- lifts:stirling_machine_block
-- lifts:stirling_lift
-- lifts:electric_lift_mk1
-- lifts:electric_lift_mk2
-- lifts:electric_lift_mk3
-- lifts:electric_lift_mk4
-- lifts:electric_lift_mk5
-- lifts:lift_detector
-- lifts:lift_button
-- lifts:screen_charger
-- lifts:screen
-- extragenerators:blast_generator
-- extragenerators:brew_generator
-- extragenerators:burnable_generator
-- extragenerators:dragon_generator
-- extragenerators:enchanted_generator
-- extragenerators:gluttony_generator
-- extragenerators:icy_generator
-- extragenerators:scalding_generator
-- extragenerators:demise_generator
-- extragenerators:sludgy_generator
-- extragenerators:teleport_generator
-- extragenerators:withered_generator
-- extragenerators:steam_generator
-- extragenerators:redstone_generator
-- extragenerators:colorful_generator
-- extragenerators:thermoelectric_generator
-- extragenerators:heavenly_generator
-- extragenerators:infernal_generator
+- minecraft:conduit
+- #adorn:chimneys
+- #adorn:stone_platforms
+- #adorn:stone_posts
+- #adorn:stone_steps
+- #adorn:table_lamps
+- adorn:chain_link_fence
+- adorn:iron_shelf
+- adorn:stone_ladder
+- ae2:quartz_ore
+- ae2:deepslate_quartz_ore
+- ae2:matrix_frame
+- ae2:quartz_block
+- ae2:quartz_pillar
+- ae2:chiseled_quartz_block
+- ae2:quartz_glass
+- ae2:quartz_vibrant_glass
+- ae2:quartz_fixture
+- ae2:fluix_block
+- ae2:sky_stone_block
+- ae2:smooth_sky_stone_block
+- ae2:sky_stone_brick
+- ae2:sky_stone_small_brick
+- ae2:sky_stone_chest
+- ae2:smooth_sky_stone_chest
+- ae2:sky_compass
+- ae2:inscriber
+- ae2:wireless_access_point
+- ae2:charger
+- ae2:tiny_tnt
+- ae2:security_station
+- ae2:quantum_ring
+- ae2:quantum_link
+- ae2:spatial_pylon
+- ae2:spatial_io_port
+- ae2:controller
+- ae2:drive
+- ae2:chest
+- ae2:interface
+- ae2:cell_workbench
+- ae2:io_port
+- ae2:condenser
+- ae2:energy_acceptor
+- ae2:vibration_chamber
+- ae2:quartz_growth_accelerator
+- ae2:energy_cell
+- ae2:dense_energy_cell
+- ae2:creative_energy_cell
+- ae2:crafting_unit
+- ae2:crafting_accelerator
+- ae2:1k_crafting_storage
+- ae2:4k_crafting_storage
+- ae2:16k_crafting_storage
+- ae2:64k_crafting_storage
+- ae2:crafting_monitor
+- ae2:pattern_provider
+- ae2:molecular_assembler
+- ae2:light_detector
+- ae2:paint
+- ae2:sky_stone_stairs
+- ae2:smooth_sky_stone_stairs
+- ae2:sky_stone_brick_stairs
+- ae2:sky_stone_small_brick_stairs
+- ae2:fluix_stairs
+- ae2:quartz_stairs
+- ae2:chiseled_quartz_stairs
+- ae2:quartz_pillar_stairs
+- ae2:sky_stone_wall
+- ae2:smooth_sky_stone_wall
+- ae2:sky_stone_brick_wall
+- ae2:sky_stone_small_brick_wall
+- ae2:fluix_wall
+- ae2:quartz_wall
+- ae2:chiseled_quartz_wall
+- ae2:quartz_pillar_wall
+- ae2:cable_bus
+- ae2:sky_stone_slab
+- ae2:smooth_sky_stone_slab
+- ae2:sky_stone_brick_slab
+- ae2:sky_stone_small_brick_slab
+- ae2:fluix_slab
+- ae2:quartz_slab
+- ae2:chiseled_quartz_slab
+- ae2:quartz_pillar_slab
+- ae2:spatial_anchor
+- ae2:debug_item_gen
+- ae2:debug_chunk_loader
+- ae2:debug_phantom_node
+- ae2:debug_cube_gen
+- ae2:debug_energy_gen
 - blockus:netherite_stairs
 - blockus:netherite_slab
 - blockus:charcoal_block
@@ -1321,6 +1505,8 @@ To refresh this file, delete it and run /reload command again! Last updated: Jun
 - #blockus:rainbow_blocks
 - #blockus:concrete_blocks
 - #blockus:deepslate_blocks
+- #blockus:tuff_blocks
+- #blockus:dripstone_blocks
 - #blockus:asphalt
 - #blockus:shingles
 - #blockus:colored_tiles
@@ -1329,6 +1515,254 @@ To refresh this file, delete it and run /reload command again! Last updated: Jun
 - #blockus:large_flower_pots
 - #blockus:stone_buttons
 - #minecraft:stone_pressure_plates
+- botania:alchemy_catalyst
+- botania:apothecary_default
+- botania:apothecary_desert
+- botania:apothecary_forest
+- botania:apothecary_fungal
+- botania:apothecary_mesa
+- botania:apothecary_mossy
+- botania:apothecary_mountain
+- botania:apothecary_plains
+- botania:apothecary_swamp
+- botania:apothecary_taiga
+- botania:azulejo_0
+- botania:azulejo_1
+- botania:azulejo_10
+- botania:azulejo_11
+- botania:azulejo_12
+- botania:azulejo_13
+- botania:azulejo_14
+- botania:azulejo_15
+- botania:azulejo_2
+- botania:azulejo_3
+- botania:azulejo_4
+- botania:azulejo_5
+- botania:azulejo_6
+- botania:azulejo_7
+- botania:azulejo_8
+- botania:azulejo_9
+- botania:bifrost_pane
+- botania:bifrost_perm
+- botania:black_pavement
+- botania:black_pavement_slab
+- botania:black_pavement_stairs
+- botania:blaze_block
+- botania:blaze_quartz
+- botania:blaze_quartz_pillar
+- botania:blaze_quartz_slab
+- botania:blaze_quartz_stairs
+- botania:blue_pavement
+- botania:blue_pavement_slab
+- botania:blue_pavement_stairs
+- botania:brewery
+- botania:chiseled_blaze_quartz
+- botania:chiseled_dark_quartz
+- botania:chiseled_elf_quartz
+- botania:chiseled_lavender_quartz
+- botania:chiseled_livingrock_bricks
+- botania:chiseled_mana_quartz
+- botania:chiseled_metamorphic_desert_bricks
+- botania:chiseled_metamorphic_forest_bricks
+- botania:chiseled_metamorphic_fungal_bricks
+- botania:chiseled_metamorphic_mesa_bricks
+- botania:chiseled_metamorphic_mountain_bricks
+- botania:chiseled_metamorphic_plains_bricks
+- botania:chiseled_metamorphic_swamp_bricks
+- botania:chiseled_metamorphic_taiga_bricks
+- botania:chiseled_red_quartz
+- botania:chiseled_sunny_quartz
+- botania:conjuration_catalyst
+- botania:corporea_block
+- botania:corporea_brick
+- botania:corporea_brick_slab
+- botania:corporea_brick_stairs
+- botania:corporea_brick_wall
+- botania:corporea_crystal_cube
+- botania:corporea_funnel
+- botania:corporea_index
+- botania:corporea_interceptor
+- botania:corporea_retainer
+- botania:corporea_slab
+- botania:corporea_stairs
+- botania:cracked_livingrock_bricks
+- botania:creative_pool
+- botania:dark_quartz
+- botania:dark_quartz_pillar
+- botania:dark_quartz_slab
+- botania:dark_quartz_stairs
+- botania:diluted_pool
+- botania:dragonstone_block
+- botania:elementium_block
+- botania:elf_glass
+- botania:elf_glass_pane
+- botania:elf_quartz
+- botania:elf_quartz_pillar
+- botania:elf_quartz_slab
+- botania:elf_quartz_stairs
+- botania:ender_eye_block
+- botania:fabulous_pool
+- botania:forest_eye
+- botania:gaia_pylon
+- botania:green_pavement
+- botania:green_pavement_slab
+- botania:green_pavement_stairs
+- botania:hourglass
+- botania:lavender_quartz
+- botania:lavender_quartz_pillar
+- botania:lavender_quartz_slab
+- botania:lavender_quartz_stairs
+- botania:livingrock
+- botania:livingrock_bricks
+- botania:livingrock_bricks_slab
+- botania:livingrock_bricks_stairs
+- botania:livingrock_slab
+- botania:livingrock_stairs
+- botania:mana_detector
+- botania:mana_diamond_block
+- botania:mana_distributor
+- botania:mana_fluxfield
+- botania:mana_glass
+- botania:mana_glass_pane
+- botania:mana_pool
+- botania:mana_pylon
+- botania:mana_quartz
+- botania:mana_quartz_pillar
+- botania:mana_quartz_slab
+- botania:mana_quartz_stairs
+- botania:mana_void
+- botania:manasteel_block
+- botania:metamorphic_desert_bricks
+- botania:metamorphic_desert_bricks_slab
+- botania:metamorphic_desert_bricks_stairs
+- botania:metamorphic_desert_cobblestone
+- botania:metamorphic_desert_cobblestone_slab
+- botania:metamorphic_desert_cobblestone_stairs
+- botania:metamorphic_desert_stone
+- botania:metamorphic_desert_stone_slab
+- botania:metamorphic_desert_stone_stairs
+- botania:metamorphic_forest_bricks
+- botania:metamorphic_forest_bricks_slab
+- botania:metamorphic_forest_bricks_stairs
+- botania:metamorphic_forest_cobblestone
+- botania:metamorphic_forest_cobblestone_slab
+- botania:metamorphic_forest_cobblestone_stairs
+- botania:metamorphic_forest_stone
+- botania:metamorphic_forest_stone_slab
+- botania:metamorphic_forest_stone_stairs
+- botania:metamorphic_fungal_bricks
+- botania:metamorphic_fungal_bricks_slab
+- botania:metamorphic_fungal_bricks_stairs
+- botania:metamorphic_fungal_cobblestone
+- botania:metamorphic_fungal_cobblestone_slab
+- botania:metamorphic_fungal_cobblestone_stairs
+- botania:metamorphic_fungal_stone
+- botania:metamorphic_fungal_stone_slab
+- botania:metamorphic_fungal_stone_stairs
+- botania:metamorphic_mesa_bricks
+- botania:metamorphic_mesa_bricks_slab
+- botania:metamorphic_mesa_bricks_stairs
+- botania:metamorphic_mesa_cobblestone
+- botania:metamorphic_mesa_cobblestone_slab
+- botania:metamorphic_mesa_cobblestone_stairs
+- botania:metamorphic_mesa_stone
+- botania:metamorphic_mesa_stone_slab
+- botania:metamorphic_mesa_stone_stairs
+- botania:metamorphic_mountain_bricks
+- botania:metamorphic_mountain_bricks_slab
+- botania:metamorphic_mountain_bricks_stairs
+- botania:metamorphic_mountain_cobblestone
+- botania:metamorphic_mountain_cobblestone_slab
+- botania:metamorphic_mountain_cobblestone_stairs
+- botania:metamorphic_mountain_stone
+- botania:metamorphic_mountain_stone_slab
+- botania:metamorphic_mountain_stone_stairs
+- botania:metamorphic_plains_bricks
+- botania:metamorphic_plains_bricks_slab
+- botania:metamorphic_plains_bricks_stairs
+- botania:metamorphic_plains_cobblestone
+- botania:metamorphic_plains_cobblestone_slab
+- botania:metamorphic_plains_cobblestone_stairs
+- botania:metamorphic_plains_stone
+- botania:metamorphic_plains_stone_slab
+- botania:metamorphic_plains_stone_stairs
+- botania:metamorphic_swamp_bricks
+- botania:metamorphic_swamp_bricks_slab
+- botania:metamorphic_swamp_bricks_stairs
+- botania:metamorphic_swamp_cobblestone
+- botania:metamorphic_swamp_cobblestone_slab
+- botania:metamorphic_swamp_cobblestone_stairs
+- botania:metamorphic_swamp_stone
+- botania:metamorphic_swamp_stone_slab
+- botania:metamorphic_swamp_stone_stairs
+- botania:metamorphic_taiga_bricks
+- botania:metamorphic_taiga_bricks_slab
+- botania:metamorphic_taiga_bricks_stairs
+- botania:metamorphic_taiga_cobblestone
+- botania:metamorphic_taiga_cobblestone_slab
+- botania:metamorphic_taiga_cobblestone_stairs
+- botania:metamorphic_taiga_stone
+- botania:metamorphic_taiga_stone_slab
+- botania:metamorphic_taiga_stone_stairs
+- botania:mossy_livingrock_bricks
+- botania:mossy_livingrock_bricks_slab
+- botania:mossy_livingrock_bricks_stairs
+- botania:natura_pylon
+- botania:piston_relay
+- botania:prism
+- botania:pump
+- botania:red_pavement
+- botania:red_pavement_slab
+- botania:red_pavement_stairs
+- botania:red_quartz
+- botania:red_quartz_pillar
+- botania:red_quartz_slab
+- botania:red_quartz_stairs
+- botania:red_string_comparator
+- botania:red_string_container
+- botania:red_string_dispenser
+- botania:red_string_fertilizer
+- botania:red_string_interceptor
+- botania:red_string_relay
+- botania:runic_altar
+- botania:shimmerrock
+- botania:shimmerrock_slab
+- botania:shimmerrock_stairs
+- botania:spark_changer
+- botania:spawner_claw
+- botania:starfield
+- botania:sunny_quartz
+- botania:sunny_quartz_pillar
+- botania:sunny_quartz_slab
+- botania:sunny_quartz_stairs
+- botania:terra_plate
+- botania:terrasteel_block
+- botania:tiny_planet_block
+- botania:white_pavement
+- botania:white_pavement_slab
+- botania:white_pavement_stairs
+- botania:yellow_pavement
+- botania:yellow_pavement_slab
+- botania:yellow_pavement_stairs
+- catwalksinc:catwalk
+- catwalksinc:catwalk_stairs
+- catwalksinc:industrial_ladder
+- catwalksinc:caged_ladder
+- catwalksinc:cage_lamp
+- catwalksinc:yellow_catwalk
+- catwalksinc:yellow_catwalk_stairs
+- catwalksinc:yellow_ladder
+- catwalksinc:yellow_caged_ladder
+- conjuring:blackstone_pedestal
+- conjuring:soul_weaver
+- conjuring:conjurer
+- conjuring:soulfire_forge
+- conjuring:gem_tinkerer
+- conjuring:soul_funnel
+- dark-enchanting:dark_enchanter
+- deepslatecutting:deepslate_slab?
+- deepslatecutting:deepslate_stairs?
+- deepslatecutting:deepslate_wall?
 - expandedstorage:iron_chest
 - expandedstorage:gold_chest
 - expandedstorage:diamond_chest
@@ -1339,16 +1773,119 @@ To refresh this file, delete it and run /reload command again! Last updated: Jun
 - expandedstorage:old_diamond_chest
 - expandedstorage:old_obsidian_chest
 - expandedstorage:old_netherite_chest
-- artifality:incremental_cluster
-- artifality:incremental_block
-- artifality:lunar_crystal_cluster
-- artifality:lunar_crystal_block
-- artifality:incremental_lens
-- artifality:artifact_upgrader
-- artifality:lunar_crystal_lens
-- artifality:crystal_heart_lens
-- artifality:crystal_heart_cluster
-- artifality:crystal_heart_block
+- extragenerators:blast_generator
+- extragenerators:brew_generator
+- extragenerators:burnable_generator
+- extragenerators:dragon_generator
+- extragenerators:enchanted_generator
+- extragenerators:gluttony_generator
+- extragenerators:icy_generator
+- extragenerators:scalding_generator
+- extragenerators:demise_generator
+- extragenerators:sludgy_generator
+- extragenerators:teleport_generator
+- extragenerators:withered_generator
+- extragenerators:steam_generator
+- extragenerators:redstone_generator
+- extragenerators:colorful_generator
+- extragenerators:thermoelectric_generator
+- extragenerators:heavenly_generator
+- extragenerators:infernal_generator
+- infusion_table:infusion_table
+- kibe:fluid_hopper
+- kibe:entangled_tank
+- kibe:entangled_chest
+- kibe:wither_proof_block
+- kibe:wither_proof_glass
+- kibe:wither_builder
+- kibe:placer
+- kibe:breaker
+- kibe:drawbridge
+- kibe:igniter
+- kibe:redstone_timer
+- kibe:trash_can
+- kibe:vacuum_hopper
+- kibe:xp_shower
+- kibe:xp_drain
+- kibe:heater
+- kibe:dehumidifier
+- kibe:chunk_loader
+- kibe:stone_spikes
+- kibe:iron_spikes
+- kibe:gold_spikes
+- kibe:diamond_spikes
+- kibe:cobblestone_generator_mk1
+- kibe:cobblestone_generator_mk2
+- kibe:cobblestone_generator_mk3
+- kibe:cobblestone_generator_mk4
+- kibe:cobblestone_generator_mk5
+- kibe:basalt_generator_mk1
+- kibe:basalt_generator_mk2
+- kibe:basalt_generator_mk3
+- kibe:basalt_generator_mk4
+- kibe:basalt_generator_mk5
+- kibe:regular_conveyor_belt
+- kibe:fast_conveyor_belt
+- kibe:express_conveyor_belt
+- #kibe:elevators
+- lifts:coal_structure
+- lifts:iron_structure
+- lifts:gold_structure
+- lifts:diamond_structure
+- lifts:emerald_structure
+- lifts:netherite_structure
+- lifts:machine_block
+- lifts:machine_block_slab
+- lifts:stirling_machine_block
+- lifts:stirling_lift
+- lifts:electric_lift_mk1
+- lifts:electric_lift_mk2
+- lifts:electric_lift_mk3
+- lifts:electric_lift_mk4
+- lifts:electric_lift_mk5
+- lifts:lift_detector
+- lifts:lift_button
+- lifts:screen_charger
+- lifts:screen
+- promenade:blunite
+- promenade:blunite_stairs
+- promenade:blunite_slab
+- promenade:carbonite
+- promenade:carbonite_stairs
+- promenade:carbonite_slab
+- promenade:polished_blunite
+- promenade:polished_blunite_stairs
+- promenade:polished_blunite_slab
+- promenade:polished_carbonite
+- promenade:polished_carbonite_stairs
+- promenade:polished_carbonite_slab
+- promenade:black_dylium
+- redstonebits:checker
+- redstonebits:breaker
+- redstonebits:placer
+- #redstonebits:copper_buttons
+- #redstonebits:copper_pressure_plates
+- techreborn:bauxite_ore
+- techreborn:cinnabar_ore
+- techreborn:galena_ore
+- techreborn:iridium_ore
+- techreborn:lead_ore
+- techreborn:peridot_ore
+- techreborn:pyrite_ore
+- techreborn:ruby_ore
+- techreborn:sapphire_ore
+- techreborn:sheldonite_ore
+- techreborn:silver_ore
+- techreborn:sodalite_ore
+- techreborn:sphalerite_ore
+- techreborn:tin_ore
+- techreborn:tungsten_ore
+- trapexpansion:spike_trap
+- trapexpansion:powered_spike_trap
+- trapexpansion:slippery_stone
+- trapexpansion:fan
+- trapexpansion:analog_fan
+- trapexpansion:detector
 
 #minecraft:beds
 - minecraft:red_bed
@@ -1427,17 +1964,6 @@ To refresh this file, delete it and run /reload command again! Last updated: Jun
 #minecraft:doors
 - #minecraft:wooden_doors
 - minecraft:iron_door
-- betternether:stalagnate_planks_door
-- betternether:reeds_door
-- betternether:bone_reed_door
-- betternether:bone_cincinnasite_door
-- betternether:willow_door
-- betternether:wart_door
-- betternether:rubeus_door
-- betternether:mushroom_door
-- betternether:mushroom_fir_door
-- betternether:anchor_tree_door
-- betternether:nether_sakura_door
 - blockus:obsidian_reinforced_door
 - blockus:stone_door
 - blockus:blackstone_door
@@ -1542,9 +2068,8 @@ To refresh this file, delete it and run /reload command again! Last updated: Jun
 - minecraft:potted_warped_roots
 - minecraft:potted_azalea_bush
 - minecraft:potted_flowering_azalea_bush
-- woods_and_mires:potted_pine_sapling
-- woods_and_mires:potted_tansy
 - blockus:potted_white_oak_sapling
+- blockus:potted_rainbow_rose
 
 #minecraft:wooden_fences
 - minecraft:oak_fence
@@ -1555,18 +2080,16 @@ To refresh this file, delete it and run /reload command again! Last updated: Jun
 - minecraft:jungle_fence
 - minecraft:crimson_fence
 - minecraft:warped_fence
-- promenade:cherry_oak_fence
-- promenade:palm_fence
-- promenade:dark_amaranth_fence
-- charm:azalea_fence
-- charm:ebony_fence
-- woods_and_mires:pine_fence
 - blockus:bamboo_fence
 - blockus:charred_fence
 - blockus:white_oak_fence
+- promenade:cherry_oak_fence
+- promenade:palm_fence
+- promenade:dark_amaranth_fence
+- techreborn:rubber_fence
 
 #c:bronze_blocks
-- indrev:bronze_block
+- techreborn:bronze_storage_block
 
 #minecraft:wall_post_override
 - minecraft:torch
@@ -1577,12 +2100,21 @@ To refresh this file, delete it and run /reload command again! Last updated: Jun
 - #minecraft:banners
 - #minecraft:pressure_plates
 
+#yigd:support_replace_whitelist
+- minecraft:air
+- minecraft:water
+- minecraft:lava
+
 #blockus:obsidian
 - blockus:obsidian_bricks
-- blockus:obsidian_bricks_stairs
-- blockus:obsidian_bricks_slab
-- blockus:obsidian_bricks_wall
+- blockus:obsidian_brick_stairs
+- blockus:obsidian_brick_slab
+- blockus:obsidian_brick_wall
 - blockus:cracked_obsidian_bricks
+- blockus:small_obsidian_bricks
+- blockus:small_obsidian_brick_stairs
+- blockus:small_obsidian_brick_slab
+- blockus:small_obsidian_brick_wall
 - blockus:obsidian_pillar
 - blockus:obsidian_circle_pavement
 - blockus:obsidian_reinforced_door
@@ -1594,14 +2126,34 @@ To refresh this file, delete it and run /reload command again! Last updated: Jun
 #blockus:rainbow_blocks
 - blockus:rainbow_block
 - blockus:rainbow_bricks
-- blockus:rainbow_bricks_stairs
-- blockus:rainbow_bricks_slab
+- blockus:rainbow_brick_stairs
+- blockus:rainbow_brick_slab
 
 #minecraft:cauldrons
 - minecraft:cauldron
 - minecraft:water_cauldron
 - minecraft:lava_cauldron
 - minecraft:powder_snow_cauldron
+
+#techreborn:rubber_logs
+- techreborn:rubber_log
+- techreborn:rubber_log_stripped
+- techreborn:rubber_wood
+- techreborn:stripped_rubber_wood
+
+#buildinggadgets:blacklist/building
+- #buildinggadgets:blacklist/generic
+
+#minecraft:big_dripleaf_placeable
+- #minecraft:small_dripleaf_placeable
+- #minecraft:dirt
+- minecraft:farmland
+
+#minecraft:polar_bears_spawnable_on_in_frozen_ocean
+- minecraft:ice
+
+#buildinggadgets:whitelist/building
+- #buildinggadgets:whitelist/generic
 
 #kibe:elevators
 - kibe:white_elevator
@@ -1621,13 +2173,53 @@ To refresh this file, delete it and run /reload command again! Last updated: Jun
 - kibe:red_elevator
 - kibe:black_elevator
 
+#blockus:tuff_blocks
+- blockus:polished_tuff
+- blockus:polished_tuff_stairs
+- blockus:polished_tuff_slab
+- blockus:tuff_bricks
+- blockus:tuff_brick_stairs
+- blockus:tuff_brick_slab
+- blockus:cracked_tuff_bricks
+- blockus:chiseled_tuff
+- blockus:zigzagged_tuff
+- blockus:tuff_pillar
+- blockus:tuff_circle_pavement
+
 #minecraft:signs
 - #minecraft:standing_signs
 - #minecraft:wall_signs
 
+#botania:manasteel_blocks
+- botania:manasteel_block
+
+#c:refined_iron_blocks
+- techreborn:refined_iron_storage_block
+
 #minecraft:wither_summon_base_blocks
 - minecraft:soul_sand
 - minecraft:soul_soil
+
+#c:titanium_blocks
+- techreborn:titanium_storage_block
+
+#botania:mundane_floating_flowers
+- botania:black_floating_flower
+- botania:blue_floating_flower
+- botania:brown_floating_flower
+- botania:cyan_floating_flower
+- botania:gray_floating_flower
+- botania:green_floating_flower
+- botania:light_blue_floating_flower
+- botania:light_gray_floating_flower
+- botania:lime_floating_flower
+- botania:magenta_floating_flower
+- botania:orange_floating_flower
+- botania:pink_floating_flower
+- botania:purple_floating_flower
+- botania:red_floating_flower
+- botania:white_floating_flower
+- botania:yellow_floating_flower
 
 #minecraft:dripstone_replaceable_blocks
 - #minecraft:base_stone_overworld
@@ -1644,7 +2236,7 @@ To refresh this file, delete it and run /reload command again! Last updated: Jun
 - minecraft:soul_fire
 
 #blockus:stone_blocks
-- blockus:stone_bricks_pillar
+- blockus:stone_brick_pillar
 - blockus:zigzagged_stone_bricks
 - blockus:stone_circle_pavement
 - blockus:smooth_stone_stairs
@@ -1656,10 +2248,20 @@ To refresh this file, delete it and run /reload command again! Last updated: Jun
 - blockus:limestone
 - blockus:limestone_stairs
 - blockus:limestone_slab
+- blockus:polished_limestone
+- blockus:polished_limestone_stairs
+- blockus:polished_limestone_slab
 - blockus:limestone_bricks
-- blockus:limestone_bricks_stairs
-- blockus:limestone_bricks_slab
+- blockus:limestone_brick_stairs
+- blockus:limestone_brick_slab
+- blockus:limestone_tiles
+- blockus:limestone_tile_stairs
+- blockus:limestone_tile_slab
 - blockus:limestone_pillar
+- blockus:limestone_squares
+- blockus:small_limestone_bricks
+- blockus:small_limestone_brick_stairs
+- blockus:small_limestone_brick_slab
 - blockus:chiseled_limestone
 - blockus:limestone_circle_pavement
 
@@ -1669,15 +2271,6 @@ To refresh this file, delete it and run /reload command again! Last updated: Jun
 - minecraft:netherite_block
 - minecraft:respawn_anchor
 - minecraft:ancient_debris
-- kibe:cobblestone_generator_mk5
-- kibe:basalt_generator_mk5
-- kibe:obsidian_sand
-- kibe:wither_proof_block
-- kibe:wither_proof_sand
-- kibe:wither_proof_glass
-- kibe:wither_builder
-- lifts:netherite_structure
-- lifts:electric_lift_mk5
 - #blockus:obsidian
 - blockus:netherite_stairs
 - blockus:netherite_slab
@@ -1687,6 +2280,19 @@ To refresh this file, delete it and run /reload command again! Last updated: Jun
 - expandedstorage:netherite_chest
 - expandedstorage:old_obsidian_chest
 - expandedstorage:old_netherite_chest
+- kibe:cobblestone_generator_mk5
+- kibe:basalt_generator_mk5
+- kibe:obsidian_sand
+- kibe:wither_proof_block
+- kibe:wither_proof_sand
+- kibe:wither_proof_glass
+- kibe:wither_builder
+- lifts:netherite_structure
+- lifts:electric_lift_mk5
+- techreborn:iridium_ore
+- techreborn:sheldonite_ore
+- techreborn:sodalite_ore
+- techreborn:tungsten_ore
 
 #minecraft:base_stone_nether
 - minecraft:netherrack
@@ -1702,24 +2308,52 @@ To refresh this file, delete it and run /reload command again! Last updated: Jun
 - minecraft:dark_oak_wall_sign
 - minecraft:crimson_wall_sign
 - minecraft:warped_wall_sign
-- charm:azalea_wall_sign
-- charm:ebony_wall_sign
+- blockus:bamboo_wall_sign
+- blockus:charred_wall_sign
+- blockus:white_oak_wall_sign
 
-#charm:bookcases
-- charm:acacia_bookcase
-- charm:azalea_bookcase
-- charm:birch_bookcase
-- charm:crimson_bookcase
-- charm:dark_oak_bookcase
-- charm:ebony_bookcase
-- charm:jungle_bookcase
-- charm:oak_bookcase
-- charm:spruce_bookcase
-- charm:warped_bookcase
+#c:bauxite_ores
+- techreborn:bauxite_ore
+- techreborn:deepslate_bauxite_ore
+
+#adorn:crates
+- adorn:crate
+- adorn:apple_crate
+- adorn:wheat_crate
+- adorn:carrot_crate
+- adorn:potato_crate
+- adorn:melon_crate
+- adorn:wheat_seed_crate
+- adorn:melon_seed_crate
+- adorn:pumpkin_seed_crate
+- adorn:beetroot_crate
+- adorn:beetroot_seed_crate
+- adorn:sweet_berry_crate
+- adorn:cocoa_bean_crate
+- adorn:nether_wart_crate
+- adorn:sugar_cane_crate
+- adorn:egg_crate
+- adorn:honeycomb_crate
+- adorn:lil_tater_crate
 
 #blockus:warped_nether_grass
 - minecraft:nether_sprouts
 - minecraft:warped_roots
+
+#c:chrome_blocks
+- techreborn:chrome_storage_block
+
+#botania:mini_flowers
+- botania:agricarnation_chibi
+- botania:bellethorn_chibi
+- botania:bubbell_chibi
+- botania:clayconia_chibi
+- botania:hopperhock_chibi
+- botania:jiyuulia_chibi
+- botania:marimorphosis_chibi
+- botania:rannuncarpus_chibi
+- botania:solegnolia_chibi
+- botania:tangleberrie_chibi
 
 #minecraft:mineable/shovel
 - minecraft:clay
@@ -1754,9 +2388,6 @@ To refresh this file, delete it and run /reload command again! Last updated: Jun
 - minecraft:black_concrete_powder
 - minecraft:soul_soil
 - minecraft:rooted_dirt
-- kibe:cursed_dirt
-- kibe:obsidian_sand
-- kibe:wither_proof_sand
 - blockus:path
 - blockus:sugar_block
 - blockus:redstone_sand
@@ -1764,6 +2395,89 @@ To refresh this file, delete it and run /reload command again! Last updated: Jun
 - blockus:legacy_grass_block
 - blockus:legacy_gravel
 - blockus:sugar_block
+- botania:black_floating_flower
+- botania:blue_floating_flower
+- botania:brown_floating_flower
+- botania:cyan_floating_flower
+- botania:dry_grass
+- botania:enchanted_soil
+- botania:floating_agricarnation
+- botania:floating_agricarnation_chibi
+- botania:floating_bellethorn
+- botania:floating_bellethorn_chibi
+- botania:floating_bergamute
+- botania:floating_bubbell
+- botania:floating_bubbell_chibi
+- botania:floating_clayconia
+- botania:floating_clayconia_chibi
+- botania:floating_daffomill
+- botania:floating_dandelifeon
+- botania:floating_dreadthorn
+- botania:floating_endoflame
+- botania:floating_entropinnyum
+- botania:floating_exoflame
+- botania:floating_fallen_kanade
+- botania:floating_gourmaryllis
+- botania:floating_heisei_dream
+- botania:floating_hopperhock
+- botania:floating_hopperhock_chibi
+- botania:floating_hyacidus
+- botania:floating_hydroangeas
+- botania:floating_jaded_amaranthus
+- botania:floating_jiyuulia
+- botania:floating_jiyuulia_chibi
+- botania:floating_kekimurus
+- botania:floating_labellia
+- botania:floating_loonium
+- botania:floating_manastar
+- botania:floating_marimorphosis
+- botania:floating_marimorphosis_chibi
+- botania:floating_medumone
+- botania:floating_munchdew
+- botania:floating_narslimmus
+- botania:floating_orechid
+- botania:floating_orechid_ignem
+- botania:floating_pollidisiac
+- botania:floating_pure_daisy
+- botania:floating_rafflowsia
+- botania:floating_rannuncarpus
+- botania:floating_rannuncarpus_chibi
+- botania:floating_rosa_arcana
+- botania:floating_shulk_me_not
+- botania:floating_solegnolia
+- botania:floating_solegnolia_chibi
+- botania:floating_spectranthemum
+- botania:floating_spectrolus
+- botania:floating_tangleberrie
+- botania:floating_tangleberrie_chibi
+- botania:floating_thermalily
+- botania:floating_tigerseye
+- botania:floating_vinculotus
+- botania:golden_grass
+- botania:gray_floating_flower
+- botania:green_floating_flower
+- botania:infused_grass
+- botania:light_blue_floating_flower
+- botania:light_gray_floating_flower
+- botania:lime_floating_flower
+- botania:magenta_floating_flower
+- botania:mutated_grass
+- botania:orange_floating_flower
+- botania:pink_floating_flower
+- botania:purple_floating_flower
+- botania:red_floating_flower
+- botania:scorched_grass
+- botania:vivid_grass
+- botania:white_floating_flower
+- botania:yellow_floating_flower
+- farmingforblockheads:fertilized_farmland_rich
+- farmingforblockheads:fertilized_farmland_stable
+- farmingforblockheads:fertilized_farmland_healthy
+- farmingforblockheads:fertilized_farmland_healthy_stable
+- farmingforblockheads:fertilized_farmland_rich_stable
+- kibe:cursed_dirt
+- kibe:obsidian_sand
+- kibe:wither_proof_sand
 
 #promenade:dark_amaranth_stems
 - promenade:dark_amaranth_stem
@@ -1877,10 +2591,28 @@ To refresh this file, delete it and run /reload command again! Last updated: Jun
 - promenade:magenta_mushroom_block
 - promenade:pink_mushroom_block
 
+#botania:shiny_flowers
+- botania:black_shiny_flower
+- botania:blue_shiny_flower
+- botania:brown_shiny_flower
+- botania:cyan_shiny_flower
+- botania:gray_shiny_flower
+- botania:green_shiny_flower
+- botania:light_blue_shiny_flower
+- botania:light_gray_shiny_flower
+- botania:lime_shiny_flower
+- botania:magenta_shiny_flower
+- botania:orange_shiny_flower
+- botania:pink_shiny_flower
+- botania:purple_shiny_flower
+- botania:red_shiny_flower
+- botania:white_shiny_flower
+- botania:yellow_shiny_flower
+
 #blockus:deepslate_blocks
 - blockus:mossy_deepslate_bricks
-- blockus:mossy_deepslate_bricks_stairs
-- blockus:mossy_deepslate_bricks_slab
+- blockus:mossy_deepslate_brick_stairs
+- blockus:mossy_deepslate_brick_slab
 - blockus:zigzagged_deepslate
 - blockus:deepslate_pillar
 - blockus:deepslate_circle_pavement
@@ -1898,6 +2630,26 @@ To refresh this file, delete it and run /reload command again! Last updated: Jun
 - adorn:red_sandstone_step
 - adorn:nether_brick_step
 - adorn:basalt_step
+- adorn:blackstone_step
+- adorn:red_nether_brick_step
+- adorn:prismarine_step
+- adorn:quartz_step
+- adorn:end_stone_brick_step
+- adorn:purpur_step
+- adorn:polished_blackstone_step
+- adorn:polished_blackstone_brick_step
+- adorn:polished_diorite_step
+- adorn:polished_andesite_step
+- adorn:polished_granite_step
+- adorn:prismarine_brick_step
+- adorn:dark_prismarine_step
+- adorn:cut_sandstone_step
+- adorn:smooth_sandstone_step
+- adorn:cut_red_sandstone_step
+- adorn:smooth_red_sandstone_step
+- adorn:smooth_stone_step
+- adorn:mossy_cobblestone_step
+- adorn:mossy_stone_brick_step
 - adorn:terrestria/basalt_step?
 - adorn:terrestria/basalt_cobblestone_step?
 - adorn:terrestria/smooth_basalt_step?
@@ -1927,8 +2679,8 @@ To refresh this file, delete it and run /reload command again! Last updated: Jun
 - minecraft:soul_soil
 - #blockus:soul_sandstone
 - blockus:soul_sandstone_wall
-- blockus:soul_sandstone_bricks_wall
-- blockus:small_soul_sandstone_bricks_wall
+- blockus:soul_sandstone_brick_wall
+- blockus:small_soul_sandstone_brick_wall
 
 #columns:columns
 
@@ -1941,8 +2693,8 @@ To refresh this file, delete it and run /reload command again! Last updated: Jun
 - minecraft:blue_ice
 
 #c:lead_ores
-- indrev:lead_ore
-- indrev:deepslate_lead_ore
+- techreborn:lead_ore
+- techreborn:deepslate_lead_ore
 
 #minecraft:leaves
 - minecraft:jungle_leaves
@@ -1953,14 +2705,44 @@ To refresh this file, delete it and run /reload command again! Last updated: Jun
 - minecraft:birch_leaves
 - minecraft:azalea_leaves
 - minecraft:flowering_azalea_leaves
+- blockus:white_oak_leaves
+- croptopia:cinnamon_leaves
+- croptopia:apple_crop
+- croptopia:banana_crop
+- croptopia:orange_crop
+- croptopia:persimmon_crop
+- croptopia:plum_crop
+- croptopia:cherry_crop
+- croptopia:lemon_crop
+- croptopia:grapefruit_crop
+- croptopia:kumquat_crop
+- croptopia:peach_crop
+- croptopia:coconut_crop
+- croptopia:nutmeg_crop
+- croptopia:fig_crop
+- croptopia:nectarine_crop
+- croptopia:mango_crop
+- croptopia:dragonfruit_crop
+- croptopia:starfruit_crop
+- croptopia:avocado_crop
+- croptopia:apricot_crop
+- croptopia:pear_crop
+- croptopia:lime_crop
+- croptopia:date_crop
+- croptopia:almond_crop
+- croptopia:cashew_crop
+- croptopia:pecan_crop
+- croptopia:walnut_crop
 - promenade:autumn_oak_leaves
 - promenade:autumn_birch_leaves
 - promenade:pink_cherry_oak_leaves
 - promenade:white_cherry_oak_leaves
 - promenade:palm_leaves
-- charm:ebony_leaves
-- woods_and_mires:pine_leaves
-- blockus:white_oak_leaves
+- techreborn:rubber_leaves
+
+#buzzier_bees:flower_blacklist
+- #botania:mystical_flowers
+- #botania:special_flowers
 
 #minecraft:walls
 - minecraft:cobblestone_wall
@@ -1984,56 +2766,135 @@ To refresh this file, delete it and run /reload command again! Last updated: Jun
 - minecraft:polished_deepslate_wall
 - minecraft:deepslate_tile_wall
 - minecraft:deepslate_brick_wall
-- betternether:cincinnasite_wall
-- betternether:bone_wall
-- betternether:nether_brick_wall
-- betternether:soul_sandstone_wall
-- betternether:basalt_bricks_wall
-- addendum:end_stone_wall
-- addendum:polished_end_stone_wall
-- addendum:purpur_brick_wall
-- promenade:blunite_wall
-- promenade:carbonite_wall
-- blockus:blaze_bricks_wall
-- blockus:lava_bricks_wall
+- ae2:sky_stone_wall
+- ae2:smooth_sky_stone_wall
+- ae2:sky_stone_brick_wall
+- ae2:sky_stone_small_brick_wall
+- ae2:fluix_wall
+- ae2:quartz_wall
+- ae2:chiseled_quartz_wall
+- ae2:quartz_pillar_wall
+- blockus:blaze_brick_wall
+- blockus:lava_brick_wall
 - blockus:soul_sandstone_wall
-- blockus:charred_nether_bricks_wall
-- blockus:soaked_bricks_wall
-- blockus:magma_bricks_wall
-- blockus:limestone_bricks_wall
-- blockus:obsidian_bricks_wall
-- blockus:rainbow_bricks_wall
-- blockus:water_bricks_wall
-- blockus:marble_bricks_wall
-- blockus:honeycomb_bricks_wall
-- blockus:sandy_bricks_wall
-- blockus:charred_bricks_wall
+- blockus:charred_nether_brick_wall
+- blockus:soaked_brick_wall
+- blockus:magma_brick_wall
+- blockus:netherrack_brick_wall
+- blockus:small_magma_brick_wall
+- blockus:limestone_brick_wall
+- blockus:small_limestone_brick_wall
+- blockus:obsidian_brick_wall
+- blockus:small_obsidian_brick_wall
+- blockus:rainbow_brick_wall
+- blockus:water_brick_wall
+- blockus:marble_brick_wall
+- blockus:small_marble_brick_wall
+- blockus:honeycomb_brick_wall
+- blockus:sandy_brick_wall
+- blockus:charred_brick_wall
 - blockus:teal_nether_brick_wall
 - blockus:lava_polished_blackstone_wall
-- blockus:crimson_warty_blackstone_bricks_wall
-- blockus:warped_warty_blackstone_bricks_wall
-- blockus:snow_bricks_wall
-- blockus:ice_bricks_wall
-- blockus:polished_basalt_bricks_wall
-- blockus:bluestone_bricks_wall
-- blockus:purpur_bricks_wall
-- blockus:andesite_bricks_wall
-- blockus:diorite_bricks_wall
-- blockus:granite_bricks_wall
+- blockus:crimson_warty_blackstone_brick_wall
+- blockus:warped_warty_blackstone_brick_wall
+- blockus:snow_brick_wall
+- blockus:ice_brick_wall
+- blockus:polished_basalt_brick_wall
+- blockus:bluestone_brick_wall
+- blockus:small_bluestone_brick_wall
+- blockus:purpur_brick_wall
+- blockus:small_purpur_brick_wall
+- blockus:andesite_brick_wall
+- blockus:diorite_brick_wall
+- blockus:granite_brick_wall
 - blockus:limestone_wall
+- blockus:limestone_tile_wall
 - blockus:marble_wall
+- blockus:marble_tile_wall
 - blockus:bluestone_wall
-- blockus:sandstone_bricks_wall
-- blockus:small_sandstone_bricks_wall
-- blockus:red_sandstone_bricks_wall
-- blockus:small_red_sandstone_bricks_wall
-- blockus:soul_sandstone_bricks_wall
-- blockus:small_soul_sandstone_bricks_wall
-- blockus:purpur_bricks_wall
-- blockus:phantom_purpur_bricks_wall
-- blockus:large_bricks_wall
-- blockus:mossy_deepslate_bricks_wall
+- blockus:bluestone_tile_wall
+- blockus:sandstone_brick_wall
+- blockus:small_sandstone_brick_wall
+- blockus:red_sandstone_brick_wall
+- blockus:small_red_sandstone_brick_wall
+- blockus:soul_sandstone_brick_wall
+- blockus:small_soul_sandstone_brick_wall
+- blockus:purpur_brick_wall
+- blockus:phantom_purpur_brick_wall
+- blockus:small_phantom_purpur_brick_wall
+- blockus:quartz_tile_wall
+- blockus:large_brick_wall
+- blockus:mossy_deepslate_brick_wall
+- blockus:dripstone_brick_wall
+- blockus:tuff_brick_wall
+- blockus:small_end_stone_brick_wall
+- blockus:white_stone_brick_wall
+- blockus:orange_stone_brick_wall
+- blockus:magenta_stone_brick_wall
+- blockus:light_blue_stone_brick_wall
+- blockus:yellow_stone_brick_wall
+- blockus:lime_stone_brick_wall
+- blockus:pink_stone_brick_wall
+- blockus:gray_stone_brick_wall
+- blockus:cyan_stone_brick_wall
+- blockus:purple_stone_brick_wall
+- blockus:blue_stone_brick_wall
+- blockus:brown_stone_brick_wall
+- blockus:green_stone_brick_wall
+- blockus:red_stone_brick_wall
+- blockus:black_stone_brick_wall
 - #blockus:barriers
+- botania:corporea_brick_wall
+- botania:dreamwood_wall
+- botania:livingrock_bricks_wall
+- botania:livingrock_wall
+- botania:livingwood_wall
+- botania:metamorphic_desert_bricks_wall
+- botania:metamorphic_desert_cobblestone_wall
+- botania:metamorphic_forest_bricks_wall
+- botania:metamorphic_forest_cobblestone_wall
+- botania:metamorphic_fungal_bricks_wall
+- botania:metamorphic_fungal_cobblestone_wall
+- botania:metamorphic_mesa_bricks_wall
+- botania:metamorphic_mesa_cobblestone_wall
+- botania:metamorphic_mountain_bricks_wall
+- botania:metamorphic_mountain_cobblestone_wall
+- botania:metamorphic_plains_bricks_wall
+- botania:metamorphic_plains_cobblestone_wall
+- botania:metamorphic_swamp_bricks_wall
+- botania:metamorphic_swamp_cobblestone_wall
+- botania:metamorphic_taiga_bricks_wall
+- botania:metamorphic_taiga_cobblestone_wall
+- botania:mossy_livingrock_bricks_wall
+- deepslatecutting:deepslate_wall?
+- promenade:blunite_wall
+- promenade:carbonite_wall
+- techreborn:aluminum_storage_block_wall
+- techreborn:brass_storage_block_wall
+- techreborn:bronze_storage_block_wall
+- techreborn:chrome_storage_block_wall
+- techreborn:copper_wall
+- techreborn:electrum_storage_block_wall
+- techreborn:invar_storage_block_wall
+- techreborn:iridium_storage_block_wall
+- techreborn:iridium_reinforced_stone_storage_block_wall
+- techreborn:iridium_reinforced_tungstensteel_storage_block_wall
+- techreborn:lead_storage_block_wall
+- techreborn:nickel_storage_block_wall
+- techreborn:peridot_storage_block_wall
+- techreborn:platinum_storage_block_wall
+- techreborn:red_garnet_storage_block_wall
+- techreborn:refined_iron_storage_block_wall
+- techreborn:ruby_storage_block_wall
+- techreborn:sapphire_storage_block_wall
+- techreborn:silver_storage_block_wall
+- techreborn:steel_storage_block_wall
+- techreborn:tin_storage_block_wall
+- techreborn:titanium_storage_block_wall
+- techreborn:tungsten_storage_block_wall
+- techreborn:tungstensteel_storage_block_wall
+- techreborn:yellow_garnet_storage_block_wall
+- techreborn:zinc_storage_block_wall
 
 #minecraft:coral_blocks
 - minecraft:tube_coral_block
@@ -2077,23 +2938,14 @@ To refresh this file, delete it and run /reload command again! Last updated: Jun
 - minecraft:structure_block
 - minecraft:jigsaw
 - minecraft:moving_piston
+- botania:infrangible_platform
 - kibe:wither_proof_block
 - kibe:wither_proof_sand
 - kibe:wither_proof_glass
 - kibe:wither_builder
-- indrev:wither_proof_obsidian
 
-#charm:storage_crates
-- charm:acacia_storage_crate
-- charm:azalea_storage_crate
-- charm:birch_storage_crate
-- charm:crimson_storage_crate
-- charm:dark_oak_storage_crate
-- charm:ebony_storage_crate
-- charm:jungle_storage_crate
-- charm:oak_storage_crate
-- charm:spruce_storage_crate
-- charm:warped_storage_crate
+#botania:terrasteel_blocks
+- botania:terrasteel_block
 
 #minecraft:acacia_logs
 - minecraft:acacia_log
@@ -2102,31 +2954,31 @@ To refresh this file, delete it and run /reload command again! Last updated: Jun
 - minecraft:stripped_acacia_wood
 - blockus:acacia_small_logs
 
-#charm:azalea_logs
-- charm:azalea_log
-- charm:azalea_wood
-- charm:stripped_azalea_log
-- charm:stripped_azalea_wood
-
 #blockus:bricks_blocks
 - blockus:large_bricks
-- blockus:large_bricks_stairs
-- blockus:large_bricks_slab
+- blockus:large_brick_stairs
+- blockus:large_brick_slab
 - blockus:zigzagged_bricks
 - blockus:soaked_bricks
-- blockus:soaked_bricks_stairs
-- blockus:soaked_bricks_slab
+- blockus:soaked_brick_stairs
+- blockus:soaked_brick_slab
+- blockus:zigzagged_soaked_bricks
 - blockus:sandy_bricks
-- blockus:sandy_bricks_stairs
-- blockus:sandy_bricks_slab
+- blockus:sandy_brick_stairs
+- blockus:sandy_brick_slab
+- blockus:zigzagged_sandy_bricks
 - blockus:charred_bricks
-- blockus:charred_bricks_stairs
-- blockus:charred_bricks_slab
+- blockus:charred_brick_stairs
+- blockus:charred_brick_slab
+- blockus:zigzagged_charred_bricks
 
 #minecraft:underwater_bonemeals
 - minecraft:seagrass
 - #minecraft:corals
 - #minecraft:wall_corals
+
+#ae2:blacklisted/spatial
+- minecraft:bedrock
 
 #minecraft:impermeable
 - minecraft:glass
@@ -2148,10 +3000,18 @@ To refresh this file, delete it and run /reload command again! Last updated: Jun
 - minecraft:black_stained_glass
 - minecraft:tinted_glass
 - #blockus:beveled_glass
+- #blockus:neon
+- botania:elf_glass
+- botania:mana_glass
+- botania:bifrost
+- botania:bifrost_perm
 
 #minecraft:sand
 - minecraft:sand
 - minecraft:red_sand
+
+#c:platinum_blocks
+- techreborn:platinum_storage_block
 
 #minecraft:copper_ores
 - minecraft:copper_ore
@@ -2168,17 +3028,6 @@ To refresh this file, delete it and run /reload command again! Last updated: Jun
 - #minecraft:birch_logs
 - #minecraft:jungle_logs
 - #minecraft:spruce_logs
-- #promenade:cherry_oak_logs
-- #promenade:palm_logs
-- #charm:azalea_logs
-- #charm:ebony_logs
-- woods_and_mires:pine_log
-- woods_and_mires:pine_wood
-- woods_and_mires:stripped_pine_log
-- woods_and_mires:stripped_pine_wood
-- woods_and_mires:pine_snag_log
-- woods_and_mires:pine_snag_wood
-- woods_and_mires:pine_shrub_log
 - #blockus:white_oak_logs
 - blockus:oak_small_logs
 - blockus:spruce_small_logs
@@ -2186,6 +3035,9 @@ To refresh this file, delete it and run /reload command again! Last updated: Jun
 - blockus:jungle_small_logs
 - blockus:acacia_small_logs
 - blockus:dark_oak_small_logs
+- #promenade:cherry_oak_logs
+- #promenade:palm_logs
+- #techreborn:rubber_logs
 
 #blockus:stained_stone_bricks
 - blockus:white_stone_bricks
@@ -2196,7 +3048,6 @@ To refresh this file, delete it and run /reload command again! Last updated: Jun
 - blockus:lime_stone_bricks
 - blockus:pink_stone_bricks
 - blockus:gray_stone_bricks
-- minecraft:stone_bricks
 - blockus:cyan_stone_bricks
 - blockus:purple_stone_bricks
 - blockus:blue_stone_bricks
@@ -2204,6 +3055,36 @@ To refresh this file, delete it and run /reload command again! Last updated: Jun
 - blockus:green_stone_bricks
 - blockus:red_stone_bricks
 - blockus:black_stone_bricks
+- blockus:white_stone_brick_stairs
+- blockus:orange_stone_brick_stairs
+- blockus:magenta_stone_brick_stairs
+- blockus:light_blue_stone_brick_stairs
+- blockus:yellow_stone_brick_stairs
+- blockus:lime_stone_brick_stairs
+- blockus:pink_stone_brick_stairs
+- blockus:gray_stone_brick_stairs
+- blockus:cyan_stone_brick_stairs
+- blockus:purple_stone_brick_stairs
+- blockus:blue_stone_brick_stairs
+- blockus:brown_stone_brick_stairs
+- blockus:green_stone_brick_stairs
+- blockus:red_stone_brick_stairs
+- blockus:black_stone_brick_stairs
+- blockus:white_stone_brick_slab
+- blockus:orange_stone_brick_slab
+- blockus:magenta_stone_brick_slab
+- blockus:light_blue_stone_brick_slab
+- blockus:yellow_stone_brick_slab
+- blockus:lime_stone_brick_slab
+- blockus:pink_stone_brick_slab
+- blockus:gray_stone_brick_slab
+- blockus:cyan_stone_brick_slab
+- blockus:purple_stone_brick_slab
+- blockus:blue_stone_brick_slab
+- blockus:brown_stone_brick_slab
+- blockus:green_stone_brick_slab
+- blockus:red_stone_brick_slab
+- blockus:black_stone_brick_slab
 
 #minecraft:mineable/hoe
 - minecraft:nether_wart_block
@@ -2225,16 +3106,33 @@ To refresh this file, delete it and run /reload command again! Last updated: Jun
 - minecraft:sculk_sensor
 - minecraft:moss_block
 - minecraft:moss_carpet
+- blockus:rotten_flesh_block
+- blockus:chorus_block
+- blockus:legacy_sponge
+- blockus:white_oak_leaves
+- #blockus:thatch
+- #blockus:small_hedges
+- botania:black_petal_block
+- botania:blue_petal_block
+- botania:brown_petal_block
+- botania:cell_block
+- botania:cyan_petal_block
+- botania:gray_petal_block
+- botania:green_petal_block
+- botania:light_blue_petal_block
+- botania:light_gray_petal_block
+- botania:lime_petal_block
+- botania:magenta_petal_block
+- botania:orange_petal_block
+- botania:pink_petal_block
+- botania:purple_petal_block
+- botania:red_petal_block
+- botania:white_petal_block
+- botania:yellow_petal_block
 - #promenade:leaves
 - #promenade:leaf_piles
 - #promenade:flower_piles
 - promenade:dark_amaranth_wart_block
-- charm:ebony_leaves
-- blockus:rotten_flesh_block
-- blockus:chorus_block
-- blockus:legacy_sponge
-- #blockus:thatch
-- #blockus:small_hedges
 
 #minecraft:needs_iron_tool
 - minecraft:diamond_block
@@ -2249,6 +3147,29 @@ To refresh this file, delete it and run /reload command again! Last updated: Jun
 - minecraft:deepslate_gold_ore
 - minecraft:redstone_ore
 - minecraft:deepslate_redstone_ore
+- ae2:sky_stone_block
+- ae2:smooth_sky_stone_block
+- ae2:sky_stone_brick
+- ae2:sky_stone_small_brick
+- ae2:sky_stone_chest
+- ae2:smooth_sky_stone_chest
+- ae2:sky_stone_stairs
+- ae2:smooth_sky_stone_stairs
+- ae2:sky_stone_brick_stairs
+- ae2:sky_stone_small_brick_stairs
+- ae2:sky_stone_wall
+- ae2:smooth_sky_stone_wall
+- ae2:sky_stone_brick_wall
+- ae2:sky_stone_small_brick_wall
+- ae2:sky_stone_slab
+- ae2:smooth_sky_stone_slab
+- ae2:sky_stone_brick_slab
+- ae2:sky_stone_small_brick_slab
+- blockus:nether_stars_block
+- conjuring:conjurer
+- expandedstorage:diamond_barrel
+- expandedstorage:diamond_chest
+- expandedstorage:old_diamond_chest
 - kibe:chunk_loader
 - kibe:entangled_tank
 - kibe:entangled_chest
@@ -2266,10 +3187,17 @@ To refresh this file, delete it and run /reload command again! Last updated: Jun
 - lifts:electric_lift_mk2
 - lifts:electric_lift_mk3
 - lifts:electric_lift_mk4
-- blockus:nether_stars_block
-- expandedstorage:diamond_barrel
-- expandedstorage:diamond_chest
-- expandedstorage:old_diamond_chest
+- techreborn:bauxite_ore
+- techreborn:cinnabar_ore
+- techreborn:galena_ore
+- techreborn:lead_ore
+- techreborn:peridot_ore
+- techreborn:pyrite_ore
+- techreborn:ruby_ore
+- techreborn:sapphire_ore
+- techreborn:silver_ore
+- techreborn:sphalerite_ore
+- techreborn:tin_ore
 
 #c:planks_that_burn
 - minecraft:oak_planks
@@ -2281,12 +3209,20 @@ To refresh this file, delete it and run /reload command again! Last updated: Jun
 - blockus:bamboo_planks
 - blockus:white_oak_planks
 
-#charm:coral_sea_lanterns
-- charm:brain_sea_lantern
-- charm:bubble_sea_lantern
-- charm:fire_sea_lantern
-- charm:horn_sea_lantern
-- charm:tube_sea_lantern
+#c:sheldonite_ores
+- techreborn:sheldonite_ore
+- techreborn:deepslate_sheldonite_ore
+
+#expandedstorage:mini_chest_secret_cycle
+- expandedstorage:vanilla_wood_mini_chest
+- expandedstorage:wood_mini_chest
+- expandedstorage:pumpkin_mini_chest
+- expandedstorage:red_mini_present
+- expandedstorage:white_mini_present
+- expandedstorage:candy_cane_mini_present
+- expandedstorage:green_mini_present
+- expandedstorage:lavender_mini_present
+- expandedstorage:pink_amethyst_mini_present
 
 #minecraft:campfires
 - minecraft:campfire
@@ -2296,33 +3232,29 @@ To refresh this file, delete it and run /reload command again! Last updated: Jun
 - #minecraft:infiniburn_overworld
 
 #c:tin_blocks
-- indrev:tin_block
+- techreborn:tin_storage_block
 
 #blockus:diorite_blocks
 - blockus:diorite_bricks
-- blockus:diorite_bricks_stairs
-- blockus:diorite_bricks_slab
+- blockus:diorite_brick_stairs
+- blockus:diorite_brick_slab
 - blockus:zigzagged_diorite
 - blockus:chiseled_diorite_bricks
 - blockus:cracked_diorite_bricks
 - blockus:polished_diorite_pillar
 - blockus:diorite_circle_pavement
 
-#waila:blacklist
-- minecraft:barrier
-- minecraft:structure_void
-
 #blockus:purpur_blocks
 - blockus:purpur_bricks
-- blockus:purpur_bricks_stairs
-- blockus:purpur_bricks_slab
-- blockus:smooth_purpur
-- blockus:smooth_purpur_stairs
-- blockus:smooth_purpur_slab
+- blockus:purpur_brick_stairs
+- blockus:purpur_brick_slab
+- blockus:polished_purpur
+- blockus:polished_purpur_stairs
+- blockus:polished_purpur_slab
 - blockus:purpur_squares
-- blockus:purpur_little_bricks
-- blockus:purpur_little_bricks_stairs
-- blockus:purpur_little_bricks_slab
+- blockus:small_purpur_bricks
+- blockus:small_purpur_brick_stairs
+- blockus:small_purpur_brick_slab
 - blockus:chiseled_purpur
 - blockus:purpur_lines
 - #blockus:phantom_purpur_blocks
@@ -2336,15 +3268,13 @@ To refresh this file, delete it and run /reload command again! Last updated: Jun
 - minecraft:dark_oak_slab
 - minecraft:crimson_slab
 - minecraft:warped_slab
-- promenade:cherry_oak_slab
-- promenade:palm_slab
-- promenade:dark_amaranth_slab
-- charm:azalea_slab
-- charm:ebony_slab
-- woods_and_mires:pine_slab
 - blockus:bamboo_slab
 - blockus:charred_slab
 - blockus:white_oak_slab
+- promenade:cherry_oak_slab
+- promenade:palm_slab
+- promenade:dark_amaranth_slab
+- techreborn:rubber_plank_slab
 
 #c:wooden_chests
 - minecraft:chest
@@ -2353,8 +3283,12 @@ To refresh this file, delete it and run /reload command again! Last updated: Jun
 
 #blockus:magma_bricks
 - blockus:magma_bricks
-- blockus:magma_bricks_stairs
-- blockus:magma_bricks_slab
+- blockus:magma_brick_stairs
+- blockus:magma_brick_slab
+- blockus:small_magma_bricks
+- blockus:small_magma_brick_stairs
+- blockus:small_magma_brick_slab
+- blockus:chiseled_magma_bricks
 
 #blockus:asphalt
 - blockus:asphalt
@@ -2424,7 +3358,35 @@ To refresh this file, delete it and run /reload command again! Last updated: Jun
 - minecraft:cornflower
 - minecraft:lily_of_the_valley
 - minecraft:wither_rose
-- woods_and_mires:tansy
+- blockus:rainbow_rose
+- #botania:mystical_flowers
+
+#minecraft:replaceable_plants
+- minecraft:grass
+- minecraft:fern
+- minecraft:dead_bush
+- minecraft:vine
+- minecraft:glow_lichen
+- minecraft:sunflower
+- minecraft:lilac
+- minecraft:rose_bush
+- minecraft:peony
+- minecraft:tall_grass
+- minecraft:large_fern
+- minecraft:hanging_roots
+
+#c:yellow_garnet_blocks
+- techreborn:yellow_garnet_storage_block
+
+#botania:enchanter_flowers
+- #botania:mystical_flowers
+- #botania:shiny_flowers
+- #botania:mundane_floating_flowers
+
+#minecraft:azalea_root_replaceable
+- #minecraft:lush_ground_replaceable
+- #minecraft:terracotta
+- minecraft:red_sand
 
 #minecraft:wooden_trapdoors
 - minecraft:acacia_trapdoor
@@ -2435,24 +3397,88 @@ To refresh this file, delete it and run /reload command again! Last updated: Jun
 - minecraft:spruce_trapdoor
 - minecraft:crimson_trapdoor
 - minecraft:warped_trapdoor
-- betternether:stalagnate_planks_trapdoor
-- betternether:reeds_trapdoor
-- betternether:willow_trapdoor
-- betternether:wart_trapdoor
-- betternether:rubeus_trapdoor
-- betternether:mushroom_trapdoor
-- betternether:mushroom_fir_trapdoor
-- betternether:anchor_tree_trapdoor
-- betternether:nether_sakura_trapdoor
-- promenade:cherry_oak_trapdoor
-- promenade:palm_trapdoor
-- promenade:dark_amaranth_trapdoor
-- charm:azalea_trapdoor
-- charm:ebony_trapdoor
 - blockus:bamboo_trapdoor
 - blockus:charred_trapdoor
 - blockus:white_oak_trapdoor
 - blockus:paper_trapdoor
+- promenade:cherry_oak_trapdoor
+- promenade:palm_trapdoor
+- promenade:dark_amaranth_trapdoor
+- techreborn:rubber_trapdoor
+
+#buildinggadgets:blacklist/copy_paste
+
+#redstonebits:unwaxed_copper_pressure_plates
+- redstonebits:medium_weighted_pressure_plate
+- redstonebits:exposed_medium_weighted_pressure_plate
+- redstonebits:weathered_medium_weighted_pressure_plate
+- redstonebits:oxidized_medium_weighted_pressure_plate
+
+#botania:special_floating_flowers
+- botania:floating_agricarnation
+- botania:floating_agricarnation_chibi
+- botania:floating_bellethorn
+- botania:floating_bellethorn_chibi
+- botania:floating_bergamute
+- botania:floating_bubbell
+- botania:floating_bubbell_chibi
+- botania:floating_clayconia
+- botania:floating_clayconia_chibi
+- botania:floating_daffomill
+- botania:floating_dandelifeon
+- botania:floating_dreadthorn
+- botania:floating_endoflame
+- botania:floating_entropinnyum
+- botania:floating_exoflame
+- botania:floating_fallen_kanade
+- botania:floating_gourmaryllis
+- botania:floating_heisei_dream
+- botania:floating_hopperhock
+- botania:floating_hopperhock_chibi
+- botania:floating_hyacidus
+- botania:floating_hydroangeas
+- botania:floating_jaded_amaranthus
+- botania:floating_jiyuulia
+- botania:floating_jiyuulia_chibi
+- botania:floating_kekimurus
+- botania:floating_labellia
+- botania:floating_loonium
+- botania:floating_manastar
+- botania:floating_marimorphosis
+- botania:floating_marimorphosis_chibi
+- botania:floating_medumone
+- botania:floating_munchdew
+- botania:floating_narslimmus
+- botania:floating_orechid
+- botania:floating_orechid_ignem
+- botania:floating_pollidisiac
+- botania:floating_pure_daisy
+- botania:floating_rafflowsia
+- botania:floating_rannuncarpus
+- botania:floating_rannuncarpus_chibi
+- botania:floating_rosa_arcana
+- botania:floating_shulk_me_not
+- botania:floating_solegnolia
+- botania:floating_solegnolia_chibi
+- botania:floating_spectranthemum
+- botania:floating_spectrolus
+- botania:floating_tangleberrie
+- botania:floating_tangleberrie_chibi
+- botania:floating_thermalily
+- botania:floating_tigerseye
+- botania:floating_vinculotus
+
+#minecraft:wolves_spawnable_on
+- minecraft:grass_block
+- minecraft:snow
+- minecraft:snow_block
+
+#minecraft:foxes_spawnable_on
+- minecraft:grass_block
+- minecraft:snow
+- minecraft:snow_block
+- minecraft:podzol
+- minecraft:coarse_dirt
 
 #towelette:displaceable
 - adorn:stone_torch
@@ -2511,18 +3537,17 @@ To refresh this file, delete it and run /reload command again! Last updated: Jun
 - adorn:cinderscapes/scorched_step?
 - adorn:cinderscapes/umbral_step?
 
-#charm:chests/trapped
-- minecraft:trapped_chest
-- charm:acacia_trapped_chest
-- charm:azalea_trapped_chest
-- charm:birch_trapped_chest
-- charm:crimson_trapped_chest
-- charm:dark_oak_trapped_chest
-- charm:ebony_trapped_chest
-- charm:jungle_trapped_chest
-- charm:oak_trapped_chest
-- charm:spruce_trapped_chest
-- charm:warped_trapped_chest
+#c:certus_quartz_blocks
+- ae2:quartz_block
+
+#c:quartz_blocks
+- botania:dark_quartz
+- botania:mana_quartz
+- botania:blaze_quartz
+- botania:lavender_quartz
+- botania:red_quartz
+- botania:elf_quartz
+- botania:sunny_quartz
 
 #minecraft:stairs
 - #minecraft:wooden_stairs
@@ -2566,14 +3591,85 @@ To refresh this file, delete it and run /reload command again! Last updated: Jun
 - minecraft:waxed_exposed_cut_copper_stairs
 - minecraft:waxed_cut_copper_stairs
 - minecraft:waxed_oxidized_cut_copper_stairs
-- addendum:end_stone_stairs
-- addendum:polished_end_stone_stairs
-- addendum:purpur_brick_stairs
+- botania:black_pavement_stairs
+- botania:blaze_quartz_stairs
+- botania:blue_pavement_stairs
+- botania:corporea_brick_stairs
+- botania:corporea_stairs
+- botania:dark_quartz_stairs
+- botania:dreamwood_planks_stairs
+- botania:dreamwood_stairs
+- botania:elf_quartz_stairs
+- botania:green_pavement_stairs
+- botania:lavender_quartz_stairs
+- botania:livingrock_bricks_stairs
+- botania:livingrock_stairs
+- botania:livingwood_planks_stairs
+- botania:livingwood_stairs
+- botania:mana_quartz_stairs
+- botania:metamorphic_desert_bricks_stairs
+- botania:metamorphic_desert_cobblestone_stairs
+- botania:metamorphic_desert_stone_stairs
+- botania:metamorphic_forest_bricks_stairs
+- botania:metamorphic_forest_cobblestone_stairs
+- botania:metamorphic_forest_stone_stairs
+- botania:metamorphic_fungal_bricks_stairs
+- botania:metamorphic_fungal_cobblestone_stairs
+- botania:metamorphic_fungal_stone_stairs
+- botania:metamorphic_mesa_bricks_stairs
+- botania:metamorphic_mesa_cobblestone_stairs
+- botania:metamorphic_mesa_stone_stairs
+- botania:metamorphic_mountain_bricks_stairs
+- botania:metamorphic_mountain_cobblestone_stairs
+- botania:metamorphic_mountain_stone_stairs
+- botania:metamorphic_plains_bricks_stairs
+- botania:metamorphic_plains_cobblestone_stairs
+- botania:metamorphic_plains_stone_stairs
+- botania:metamorphic_swamp_bricks_stairs
+- botania:metamorphic_swamp_cobblestone_stairs
+- botania:metamorphic_swamp_stone_stairs
+- botania:metamorphic_taiga_bricks_stairs
+- botania:metamorphic_taiga_cobblestone_stairs
+- botania:metamorphic_taiga_stone_stairs
+- botania:mossy_livingrock_bricks_stairs
+- botania:red_pavement_stairs
+- botania:red_quartz_stairs
+- botania:shimmerrock_stairs
+- botania:shimmerwood_planks_stairs
+- botania:sunny_quartz_stairs
+- botania:white_pavement_stairs
+- botania:yellow_pavement_stairs
+- deepslatecutting:deepslate_stairs?
 - promenade:blunite_stairs
 - promenade:polished_blunite_stairs
 - promenade:carbonite_stairs
 - promenade:polished_carbonite_stairs
-- woods_and_mires:pine_stairs
+- techreborn:rubber_plank_stair
+- techreborn:aluminum_storage_block_stairs
+- techreborn:brass_storage_block_stairs
+- techreborn:bronze_storage_block_stairs
+- techreborn:chrome_storage_block_stairs
+- techreborn:electrum_storage_block_stairs
+- techreborn:invar_storage_block_stairs
+- techreborn:iridium_storage_block_stairs
+- techreborn:iridium_reinforced_stone_storage_block_stairs
+- techreborn:iridium_reinforced_tungstensteel_storage_block_stairs
+- techreborn:lead_storage_block_stairs
+- techreborn:nickel_storage_block_stairs
+- techreborn:peridot_storage_block_stairs
+- techreborn:platinum_storage_block_stairs
+- techreborn:red_garnet_storage_block_stairs
+- techreborn:refined_iron_storage_block_stairs
+- techreborn:ruby_storage_block_stairs
+- techreborn:sapphire_storage_block_stairs
+- techreborn:silver_storage_block_stairs
+- techreborn:steel_storage_block_stairs
+- techreborn:tin_storage_block_stairs
+- techreborn:titanium_storage_block_stairs
+- techreborn:tungsten_storage_block_stairs
+- techreborn:tungstensteel_storage_block_stairs
+- techreborn:yellow_garnet_storage_block_stairs
+- techreborn:zinc_storage_block_stairs
 
 #promenade:potted_mushrooms
 - promenade:potted_white_mushroom
@@ -2596,16 +3692,6 @@ To refresh this file, delete it and run /reload command again! Last updated: Jun
 - #minecraft:logs_that_burn
 - #minecraft:crimson_stems
 - #minecraft:warped_stems
-- #promenade:dark_amaranth_stems
-- woods_and_mires:pine_log
-- woods_and_mires:pine_wood
-- woods_and_mires:stripped_pine_log
-- woods_and_mires:stripped_pine_wood
-- woods_and_mires:pine_snag_log
-- woods_and_mires:pine_snag_wood
-- woods_and_mires:pine_shrub_log
-- croptopia:cinnamon_log
-- croptopia:cinnamon_wood
 - #blockus:white_oak_logs
 - blockus:oak_small_logs
 - blockus:spruce_small_logs
@@ -2615,16 +3701,36 @@ To refresh this file, delete it and run /reload command again! Last updated: Jun
 - blockus:dark_oak_small_logs
 - blockus:warped_small_stems
 - blockus:crimson_small_stems
-
-#minecraft:lava_pool_stone_replaceables
-- #minecraft:features_cannot_replace
-- #minecraft:leaves
+- croptopia:cinnamon_log
+- croptopia:cinnamon_wood
+- #promenade:dark_amaranth_stems
 
 #blockus:snow_bricks
 - blockus:snow_bricks
-- blockus:snow_bricks_stairs
-- blockus:snow_bricks_slab
+- blockus:snow_brick_stairs
+- blockus:snow_brick_slab
 - blockus:snow_pillar
+
+#minecraft:azalea_grows_on
+- #minecraft:dirt
+- #minecraft:sand
+- #minecraft:terracotta
+- minecraft:snow_block
+- minecraft:powder_snow
+
+#c:aluminum_blocks
+- techreborn:aluminum_storage_block
+
+#buildinggadgets:blacklist/exchanging
+- #buildinggadgets:blacklist/generic
+- minecraft:torch
+- minecraft:wall_torch
+
+#redstonebits:waxed_copper_pressure_plates
+- redstonebits:waxed_medium_weighted_pressure_plate
+- redstonebits:waxed_exposed_medium_weighted_pressure_plate
+- redstonebits:waxed_weathered_medium_weighted_pressure_plate
+- redstonebits:waxed_oxidized_medium_weighted_pressure_plate
 
 #minecraft:valid_spawn
 - minecraft:grass_block
@@ -2645,26 +3751,14 @@ To refresh this file, delete it and run /reload command again! Last updated: Jun
 - minecraft:dark_oak_door
 - minecraft:crimson_door
 - minecraft:warped_door
-- betternether:stalagnate_planks_door
-- betternether:reeds_door
-- betternether:bone_reed_door
-- betternether:bone_cincinnasite_door
-- betternether:willow_door
-- betternether:wart_door
-- betternether:rubeus_door
-- betternether:mushroom_door
-- betternether:mushroom_fir_door
-- betternether:anchor_tree_door
-- betternether:nether_sakura_door
-- promenade:cherry_oak_door
-- promenade:palm_door
-- promenade:dark_amaranth_door
-- charm:azalea_door
-- charm:ebony_door
 - blockus:bamboo_door
 - blockus:charred_door
 - blockus:white_oak_door
 - blockus:paper_door
+- promenade:cherry_oak_door
+- promenade:palm_door
+- promenade:dark_amaranth_door
+- techreborn:rubber_door
 
 #c:wooden_barrels
 - #blockus:barrels
@@ -2679,8 +3773,9 @@ To refresh this file, delete it and run /reload command again! Last updated: Jun
 - minecraft:dark_oak_sign
 - minecraft:crimson_sign
 - minecraft:warped_sign
-- charm:azalea_sign
-- charm:ebony_sign
+- blockus:bamboo_sign
+- blockus:charred_sign
+- blockus:white_oak_sign
 
 #minecraft:infiniburn_end
 - #minecraft:infiniburn_overworld
@@ -2690,6 +3785,8 @@ To refresh this file, delete it and run /reload command again! Last updated: Jun
 - minecraft:emerald_ore
 - minecraft:deepslate_emerald_ore
 
+#buildinggadgets:whitelist/destruction
+
 #blockus:soul_soils
 - minecraft:soul_sand
 - minecraft:soul_soil
@@ -2698,10 +3795,20 @@ To refresh this file, delete it and run /reload command again! Last updated: Jun
 - blockus:marble
 - blockus:marble_stairs
 - blockus:marble_slab
+- blockus:polished_marble
+- blockus:polished_marble_stairs
+- blockus:polished_marble_slab
 - blockus:marble_bricks
-- blockus:marble_bricks_stairs
-- blockus:marble_bricks_slab
+- blockus:marble_brick_stairs
+- blockus:marble_brick_slab
+- blockus:marble_tiles
+- blockus:marble_tile_stairs
+- blockus:marble_tile_slab
 - blockus:marble_pillar
+- blockus:marble_squares
+- blockus:small_marble_bricks
+- blockus:small_marble_brick_stairs
+- blockus:small_marble_brick_slab
 - blockus:chiseled_marble_pillar
 - blockus:chiseled_marble
 - blockus:marble_circle_pavement
@@ -2757,19 +3864,13 @@ To refresh this file, delete it and run /reload command again! Last updated: Jun
 - minecraft:waxed_oxidized_cut_copper_stairs
 - minecraft:waxed_oxidized_cut_copper
 - minecraft:lightning_rod
-- kibe:vacuum_hopper
-- kibe:heater
-- kibe:dehumidifier
-- kibe:iron_spikes
-- kibe:cobblestone_generator_mk1
-- kibe:basalt_generator_mk1
-- lifts:iron_structure
-- lifts:machine_block
-- lifts:machine_block_slab
-- lifts:electric_lift_mk1
-- lifts:lift_detector
-- lifts:screen_charger
-- lifts:screen
+- blockus:ender_block
+- expandedstorage:iron_barrel
+- expandedstorage:gold_barrel
+- expandedstorage:iron_chest
+- expandedstorage:gold_chest
+- expandedstorage:old_iron_chest
+- expandedstorage:old_gold_chest
 - extragenerators:blast_generator
 - extragenerators:brew_generator
 - extragenerators:burnable_generator
@@ -2788,22 +3889,56 @@ To refresh this file, delete it and run /reload command again! Last updated: Jun
 - extragenerators:thermoelectric_generator
 - extragenerators:heavenly_generator
 - extragenerators:infernal_generator
-- blockus:ender_block
-- expandedstorage:iron_barrel
-- expandedstorage:gold_barrel
-- expandedstorage:iron_chest
-- expandedstorage:gold_chest
-- expandedstorage:old_iron_chest
-- expandedstorage:old_gold_chest
+- kibe:vacuum_hopper
+- kibe:heater
+- kibe:dehumidifier
+- kibe:iron_spikes
+- kibe:cobblestone_generator_mk1
+- kibe:basalt_generator_mk1
+- lifts:iron_structure
+- lifts:machine_block
+- lifts:machine_block_slab
+- lifts:electric_lift_mk1
+- lifts:lift_detector
+- lifts:screen_charger
+- lifts:screen
+- #redstonebits:copper_buttons
+- #redstonebits:copper_pressure_plates
+- trapexpansion:spike_trap
+- trapexpansion:powered_spike_trap
+
+#yigd:soft_whitelist
+- minecraft:air
+- minecraft:water
+- minecraft:lava
 
 #c:tungsten_ores
-- indrev:tungsten_ore
-- indrev:deepslate_tungsten_ore
+- techreborn:tungsten_ore
+- techreborn:deepslate_tungsten_ore
 
 #minecraft:wart_blocks
 - minecraft:nether_wart_block
 - minecraft:warped_wart_block
 - promenade:dark_amaranth_wart_block
+
+#minecraft:terracotta
+- minecraft:terracotta
+- minecraft:white_terracotta
+- minecraft:orange_terracotta
+- minecraft:magenta_terracotta
+- minecraft:light_blue_terracotta
+- minecraft:yellow_terracotta
+- minecraft:lime_terracotta
+- minecraft:pink_terracotta
+- minecraft:gray_terracotta
+- minecraft:light_gray_terracotta
+- minecraft:cyan_terracotta
+- minecraft:purple_terracotta
+- minecraft:blue_terracotta
+- minecraft:brown_terracotta
+- minecraft:green_terracotta
+- minecraft:red_terracotta
+- minecraft:black_terracotta
 
 #adorn:wooden_shelves
 - adorn:oak_shelf
@@ -2859,7 +3994,23 @@ To refresh this file, delete it and run /reload command again! Last updated: Jun
 - adorn:cinderscapes/scorched_shelf?
 - adorn:cinderscapes/umbral_shelf?
 
-#charm:immovable_by_pistons
+#botania:generating_special_flowers
+- botania:dandelifeon
+- botania:endoflame
+- botania:entropinnyum
+- botania:gourmaryllis
+- botania:hydroangeas
+- botania:kekimurus
+- botania:munchdew
+- botania:narslimmus
+- botania:rafflowsia
+- botania:rosa_arcana
+- botania:shulk_me_not
+- botania:spectrolus
+- botania:thermalily
+
+#c:iridium_reinforced_stone_blocks
+- techreborn:iridium_reinforced_stone_storage_block
 
 #blockus:white_oak_logs
 - blockus:white_oak_log
@@ -2868,38 +4019,23 @@ To refresh this file, delete it and run /reload command again! Last updated: Jun
 - blockus:stripped_white_oak_wood
 - blockus:white_oak_small_logs
 
-#charm:chests/normal
-- minecraft:chest
-- charm:acacia_chest
-- charm:azalea_chest
-- charm:birch_chest
-- charm:crimson_chest
-- charm:dark_oak_chest
-- charm:ebony_chest
-- charm:jungle_chest
-- charm:oak_chest
-- charm:spruce_chest
-- charm:warped_chest
-
-#c:chests
-- charm:acacia_chest
-- charm:azalea_chest
-- charm:birch_chest
-- charm:crimson_chest
-- charm:dark_oak_chest
-- charm:ebony_chest
-- charm:jungle_chest
-- charm:oak_chest
-- charm:spruce_chest
-- charm:warped_chest
-
-#c:sea_lanterns
-- minecraft:sea_lantern
-- charm:brain_sea_lantern
-- charm:bubble_sea_lantern
-- charm:fire_sea_lantern
-- charm:horn_sea_lantern
-- charm:tube_sea_lantern
+#c:stained_glass
+- minecraft:white_stained_glass
+- minecraft:orange_stained_glass
+- minecraft:magenta_stained_glass
+- minecraft:light_blue_stained_glass
+- minecraft:yellow_stained_glass
+- minecraft:lime_stained_glass
+- minecraft:pink_stained_glass
+- minecraft:gray_stained_glass
+- minecraft:light_gray_stained_glass
+- minecraft:cyan_stained_glass
+- minecraft:purple_stained_glass
+- minecraft:blue_stained_glass
+- minecraft:brown_stained_glass
+- minecraft:green_stained_glass
+- minecraft:red_stained_glass
+- minecraft:black_stained_glass
 
 #minecraft:beacon_base_blocks
 - minecraft:netherite_block
@@ -2914,6 +4050,11 @@ To refresh this file, delete it and run /reload command again! Last updated: Jun
 - blockus:netherite_slab
 - blockus:netherite_stairs
 - blockus:nether_stars_block
+- botania:manasteel_block
+- botania:terrasteel_block
+- botania:elementium_block
+- botania:mana_diamond_block
+- botania:dragonstone_block
 
 #adorn:coffee_tables
 - adorn:oak_coffee_table
@@ -2988,16 +4129,19 @@ To refresh this file, delete it and run /reload command again! Last updated: Jun
 - minecraft:white_shulker_box
 - minecraft:yellow_shulker_box
 
+#c:iridium_blocks
+- techreborn:iridium_storage_block
+
 #blockus:blackstone_blocks
 - blockus:polished_blackstone_pillar
 - blockus:zigzagged_polished_blackstone
 - blockus:polished_blackstone_circle_pavement
 - blockus:crimson_warty_blackstone_bricks
-- blockus:crimson_warty_blackstone_bricks_stairs
-- blockus:crimson_warty_blackstone_bricks_slab
+- blockus:crimson_warty_blackstone_brick_stairs
+- blockus:crimson_warty_blackstone_brick_slab
 - blockus:warped_warty_blackstone_bricks
-- blockus:warped_warty_blackstone_bricks_stairs
-- blockus:warped_warty_blackstone_bricks_slab
+- blockus:warped_warty_blackstone_brick_stairs
+- blockus:warped_warty_blackstone_brick_slab
 - blockus:gold_decorated_polished_blackstone
 - blockus:blackstone_door
 - blockus:blackstone_trapdoor
@@ -3007,7 +4151,6 @@ To refresh this file, delete it and run /reload command again! Last updated: Jun
 - minecraft:anvil
 - minecraft:chipped_anvil
 - minecraft:damaged_anvil
-- betternether:cincinnasite_anvil
 
 #minecraft:birch_logs
 - minecraft:birch_log
@@ -3015,6 +4158,10 @@ To refresh this file, delete it and run /reload command again! Last updated: Jun
 - minecraft:stripped_birch_log
 - minecraft:stripped_birch_wood
 - blockus:birch_small_logs
+
+#c:sodalite_ores
+- techreborn:sodalite_ore
+- techreborn:deepslate_sodalite_ore
 
 #minecraft:moss_replaceable
 - #minecraft:base_stone_overworld
@@ -3034,6 +4181,10 @@ To refresh this file, delete it and run /reload command again! Last updated: Jun
 - minecraft:fire_coral_wall_fan
 - minecraft:horn_coral_wall_fan
 
+#c:certus_quartz_ores
+- ae2:quartz_ore
+- ae2:deepslate_quartz_ore
+
 #blockus:beveled_glass
 - blockus:beveled_glass
 - blockus:white_beveled_glass
@@ -3052,7 +4203,7 @@ To refresh this file, delete it and run /reload command again! Last updated: Jun
 - blockus:green_beveled_glass
 - blockus:red_beveled_glass
 - blockus:black_beveled_glass
-- blockus:tinted_beveled_glass
+- blockus:rainbow_beveled_glass
 
 #adorn:posts
 - #adorn:wooden_posts
@@ -3068,7 +4219,30 @@ To refresh this file, delete it and run /reload command again! Last updated: Jun
 - blockus:polished_netherrack_button
 - blockus:polished_end_stone_button
 - blockus:polished_basalt_button
+- blockus:polished_deepslate_button
+- blockus:polished_tuff_button
 - minecraft:polished_blackstone_button
+
+#c:red_garnet_blocks
+- techreborn:red_garnet_storage_block
+
+#c:mushrooms
+- botania:white_mushroom
+- botania:orange_mushroom
+- botania:magenta_mushroom
+- botania:light_blue_mushroom
+- botania:yellow_mushroom
+- botania:lime_mushroom
+- botania:pink_mushroom
+- botania:gray_mushroom
+- botania:light_gray_mushroom
+- botania:cyan_mushroom
+- botania:purple_mushroom
+- botania:blue_mushroom
+- botania:brown_mushroom
+- botania:green_mushroom
+- botania:red_mushroom
+- botania:black_mushroom
 
 #adorn:chairs
 - adorn:oak_chair
@@ -3124,8 +4298,10 @@ To refresh this file, delete it and run /reload command again! Last updated: Jun
 - adorn:cinderscapes/scorched_chair?
 - adorn:cinderscapes/umbral_chair?
 
+#buildinggadgets:whitelist/copy_paste
+
 #c:tungsten_blocks
-- indrev:tungsten_block
+- techreborn:tungsten_storage_block
 
 #minecraft:iron_ores
 - minecraft:iron_ore
@@ -3138,11 +4314,34 @@ To refresh this file, delete it and run /reload command again! Last updated: Jun
 - minecraft:stripped_oak_wood
 - blockus:oak_small_logs
 
-#charm:ebony_logs
-- charm:ebony_log
-- charm:ebony_wood
-- charm:stripped_ebony_log
-- charm:stripped_ebony_wood
+#c:ruby_ores
+- techreborn:ruby_ore
+- techreborn:deepslate_ruby_ore
+
+#redstonebits:copper_pressure_plates
+- #redstonebits:unwaxed_copper_pressure_plates
+- #redstonebits:waxed_copper_pressure_plates
+
+#botania:mystical_flowers
+- botania:black_mystical_flower
+- botania:blue_mystical_flower
+- botania:brown_mystical_flower
+- botania:cyan_mystical_flower
+- botania:gray_mystical_flower
+- botania:green_mystical_flower
+- botania:light_blue_mystical_flower
+- botania:light_gray_mystical_flower
+- botania:lime_mystical_flower
+- botania:magenta_mystical_flower
+- botania:orange_mystical_flower
+- botania:pink_mystical_flower
+- botania:purple_mystical_flower
+- botania:red_mystical_flower
+- botania:white_mystical_flower
+- botania:yellow_mystical_flower
+
+#c:invar_blocks
+- techreborn:invar_storage_block
 
 #blockus:prismarine_blocks
 - blockus:prismarine_circle_pavement
@@ -3157,57 +4356,15 @@ To refresh this file, delete it and run /reload command again! Last updated: Jun
 - minecraft:soul_lantern
 - minecraft:soul_wall_torch
 - minecraft:soul_campfire
-- charm:gold_soul_lantern
-- charm:copper_soul_lantern
-- charm:netherite_soul_lantern
 - blockus:soul_lantern_block
 - blockus:soul_o_lantern
 
-#charm:chests/wooden
-- minecraft:chest
-- minecraft:trapped_chest
-- charm:acacia_chest
-- charm:acacia_trapped_chest
-- charm:azalea_chest
-- charm:azalea_trapped_chest
-- charm:birch_chest
-- charm:birch_trapped_chest
-- charm:crimson_chest
-- charm:crimson_trapped_chest
-- charm:dark_oak_chest
-- charm:dark_oak_trapped_chest
-- charm:ebony_chest
-- charm:ebony_trapped_chest
-- charm:jungle_chest
-- charm:jungle_trapped_chest
-- charm:oak_chest
-- charm:oak_trapped_chest
-- charm:spruce_chest
-- charm:spruce_trapped_chest
-- charm:warped_chest
-- charm:warped_trapped_chest
+#minecraft:mooshrooms_spawnable_on
+- minecraft:mycelium
 
 #c:bookshelves
-- charm:acacia_bookcase
-- charm:acacia_bookshelf
-- charm:azalea_bookcase
-- charm:azalea_bookshelf
-- charm:birch_bookcase
-- charm:birch_bookshelf
-- charm:crimson_bookcase
-- charm:crimson_bookshelf
-- charm:dark_oak_bookcase
-- charm:dark_oak_bookshelf
-- charm:ebony_bookcase
-- charm:ebony_bookshelf
-- charm:jungle_bookcase
-- charm:jungle_bookshelf
-- charm:oak_bookcase
-- charm:oak_bookshelf
-- charm:spruce_bookcase
-- charm:spruce_bookshelf
-- charm:warped_bookcase
-- charm:warped_bookshelf
+- arcanus:fillable_bookshelf
+- minecraft:bookshelf
 
 #blockus:barrels
 - blockus:oak_barrel
@@ -3233,6 +4390,17 @@ To refresh this file, delete it and run /reload command again! Last updated: Jun
 - minecraft:bamboo
 - minecraft:bamboo_sapling
 - minecraft:gravel
+- #minecraft:sand
+- #minecraft:dirt
+- minecraft:bamboo
+- minecraft:bamboo_sapling
+- minecraft:gravel
+- graveyard:tg_moss_block
+- graveyard:tg_grass_block
+- graveyard:tg_coarse_dirt
+- graveyard:tg_dirt
+- graveyard:tg_rooted_dirt
+- graveyard:tg_podzol
 
 #adorn:sofas
 - adorn:red_sofa
@@ -3258,31 +4426,36 @@ To refresh this file, delete it and run /reload command again! Last updated: Jun
 - blockus:phantom_purpur_stairs
 - blockus:phantom_purpur_pillar
 - blockus:phantom_purpur_bricks
-- blockus:phantom_purpur_bricks_stairs
-- blockus:phantom_purpur_bricks_slab
-- blockus:smooth_phantom_purpur
-- blockus:smooth_phantom_purpur_stairs
-- blockus:smooth_phantom_purpur_slab
+- blockus:phantom_purpur_brick_stairs
+- blockus:phantom_purpur_brick_slab
+- blockus:polished_phantom_purpur
+- blockus:polished_phantom_purpur_stairs
+- blockus:polished_phantom_purpur_slab
 - blockus:phantom_purpur_squares
-- blockus:phantom_purpur_little_bricks
-- blockus:phantom_purpur_little_bricks_stairs
-- blockus:phantom_purpur_little_bricks_slab
+- blockus:small_phantom_purpur_bricks
+- blockus:small_phantom_purpur_brick_stairs
+- blockus:small_phantom_purpur_brick_slab
 - blockus:chiseled_phantom_purpur
 - blockus:phantom_purpur_lines
 
 #c:silver_ores
-- indrev:silver_ore
-- indrev:deepslate_silver_ore
+- techreborn:silver_ore
+- techreborn:deepslate_silver_ore
 
-#c:copper_blocks
-- minecraft:copper_block
+#expandedstorage:chest_cycle
+- expandedstorage:wood_chest
+- expandedstorage:pumpkin_chest
+- expandedstorage:present
 
 #minecraft:pressure_plates
 - minecraft:light_weighted_pressure_plate
 - minecraft:heavy_weighted_pressure_plate
 - #minecraft:wooden_pressure_plates
 - #minecraft:stone_pressure_plates
-- woods_and_mires:pine_pressure_plate
+- #redstonebits:copper_pressure_plates
+
+#c:zinc_blocks
+- techreborn:zinc_storage_block
 
 #minecraft:jungle_logs
 - minecraft:jungle_log
@@ -3296,6 +4469,24 @@ To refresh this file, delete it and run /reload command again! Last updated: Jun
 - #adorn:kitchen_cupboards
 - #adorn:kitchen_sinks
 
+#botania:double_mystical_flowers
+- botania:black_double_flower
+- botania:blue_double_flower
+- botania:brown_double_flower
+- botania:cyan_double_flower
+- botania:gray_double_flower
+- botania:green_double_flower
+- botania:light_blue_double_flower
+- botania:light_gray_double_flower
+- botania:lime_double_flower
+- botania:magenta_double_flower
+- botania:orange_double_flower
+- botania:pink_double_flower
+- botania:purple_double_flower
+- botania:red_double_flower
+- botania:white_double_flower
+- botania:yellow_double_flower
+
 #minecraft:wooden_stairs
 - minecraft:oak_stairs
 - minecraft:spruce_stairs
@@ -3305,15 +4496,13 @@ To refresh this file, delete it and run /reload command again! Last updated: Jun
 - minecraft:dark_oak_stairs
 - minecraft:crimson_stairs
 - minecraft:warped_stairs
-- promenade:cherry_oak_stairs
-- promenade:palm_stairs
-- promenade:dark_amaranth_stairs
-- charm:azalea_stairs
-- charm:ebony_stairs
-- woods_and_mires:pine_stairs
 - blockus:bamboo_stairs
 - blockus:charred_stairs
 - blockus:white_oak_stairs
+- promenade:cherry_oak_stairs
+- promenade:palm_stairs
+- promenade:dark_amaranth_stairs
+- techreborn:rubber_plank_stair
 
 #adorn:wooden_platforms
 - adorn:oak_platform
@@ -3376,6 +4565,26 @@ To refresh this file, delete it and run /reload command again! Last updated: Jun
 - minecraft:stripped_spruce_wood
 - blockus:spruce_small_logs
 
+#expandedstorage:mini_chest_secret_cycle_2
+- expandedstorage:vanilla_wood_mini_chest
+- expandedstorage:wood_mini_chest
+- expandedstorage:pumpkin_mini_chest
+- expandedstorage:red_mini_present
+- expandedstorage:white_mini_present
+- expandedstorage:candy_cane_mini_present
+- expandedstorage:green_mini_present
+- expandedstorage:lavender_mini_present
+- expandedstorage:pink_amethyst_mini_present
+- expandedstorage:vanilla_wood_mini_chest_with_sparrow
+- expandedstorage:wood_mini_chest_with_sparrow
+- expandedstorage:pumpkin_mini_chest_with_sparrow
+- expandedstorage:red_mini_present_with_sparrow
+- expandedstorage:white_mini_present_with_sparrow
+- expandedstorage:candy_cane_mini_present_with_sparrow
+- expandedstorage:green_mini_present_with_sparrow
+- expandedstorage:lavender_mini_present_with_sparrow
+- expandedstorage:pink_amethyst_mini_present_with_sparrow
+
 #minecraft:carpets
 - minecraft:white_carpet
 - minecraft:orange_carpet
@@ -3401,11 +4610,11 @@ To refresh this file, delete it and run /reload command again! Last updated: Jun
 - minecraft:andesite
 - minecraft:tuff
 - minecraft:deepslate
-- promenade:blunite
-- promenade:carbonite
 - blockus:limestone
 - blockus:marble
 - blockus:bluestone
+- promenade:blunite
+- promenade:carbonite
 
 #minecraft:wooden_buttons
 - minecraft:oak_button
@@ -3416,25 +4625,41 @@ To refresh this file, delete it and run /reload command again! Last updated: Jun
 - minecraft:dark_oak_button
 - minecraft:crimson_button
 - minecraft:warped_button
-- promenade:cherry_oak_button
-- promenade:palm_button
-- promenade:dark_amaranth_button
-- charm:azalea_button
-- charm:ebony_button
-- woods_and_mires:pine_button
 - blockus:bamboo_button
 - blockus:charred_button
 - blockus:white_oak_button
+- promenade:cherry_oak_button
+- promenade:palm_button
+- promenade:dark_amaranth_button
+- techreborn:rubber_button
 
 #blockus:water_bricks
 - blockus:water_bricks
-- blockus:water_bricks_stairs
-- blockus:water_bricks_slab
+- blockus:water_brick_stairs
+- blockus:water_brick_slab
 - blockus:chiseled_water_bricks
 
-#charm:nether_portal_frames
-- minecraft:obsidian
-- minecraft:crying_obsidian
+#c:terracotta
+- minecraft:terracotta
+- minecraft:white_terracotta
+- minecraft:orange_terracotta
+- minecraft:magenta_terracotta
+- minecraft:light_blue_terracotta
+- minecraft:yellow_terracotta
+- minecraft:lime_terracotta
+- minecraft:pink_terracotta
+- minecraft:gray_terracotta
+- minecraft:light_gray_terracotta
+- minecraft:cyan_terracotta
+- minecraft:purple_terracotta
+- minecraft:blue_terracotta
+- minecraft:brown_terracotta
+- minecraft:green_terracotta
+- minecraft:red_terracotta
+- minecraft:black_terracotta
+
+#minecraft:axolotls_spawnable_on
+- minecraft:clay
 
 #minecraft:stone_bricks
 - minecraft:stone_bricks
@@ -3511,7 +4736,6 @@ To refresh this file, delete it and run /reload command again! Last updated: Jun
 - minecraft:wheat
 - #minecraft:banners
 - #minecraft:fence_gates
-- #minecraft:flowers
 - #minecraft:logs
 - #minecraft:planks
 - #minecraft:saplings
@@ -3523,71 +4747,20 @@ To refresh this file, delete it and run /reload command again! Last updated: Jun
 - #minecraft:wooden_slabs
 - #minecraft:wooden_stairs
 - #minecraft:wooden_trapdoors
-- kibe:big_torch
-- #promenade:mushroom_blocks
-- #promenade:mushrooms
-- promenade:dark_amaranth_fungus
-- charm:acacia_barrel
-- charm:acacia_bookcase
-- charm:acacia_bookshelf
-- charm:acacia_chest
-- charm:acacia_storage_crate
-- charm:acacia_trapped_chest
-- charm:azalea_barrel
-- charm:azalea_bookcase
-- charm:azalea_bookshelf
-- charm:azalea_chest
-- charm:azalea_storage_crate
-- charm:azalea_trapped_chest
-- charm:birch_barrel
-- charm:birch_bookcase
-- charm:birch_bookshelf
-- charm:birch_chest
-- charm:birch_storage_crate
-- charm:birch_trapped_chest
-- charm:cask
-- charm:crimson_barrel
-- charm:crimson_bookcase
-- charm:crimson_bookshelf
-- charm:crimson_chest
-- charm:crimson_storage_crate
-- charm:crimson_trapped_chest
-- charm:dark_oak_barrel
-- charm:dark_oak_bookcase
-- charm:dark_oak_bookshelf
-- charm:dark_oak_chest
-- charm:dark_oak_storage_crate
-- charm:dark_oak_trapped_chest
-- charm:ebony_barrel
-- charm:ebony_bookcase
-- charm:ebony_bookshelf
-- charm:ebony_chest
-- charm:ebony_storage_crate
-- charm:ebony_trapped_chest
-- charm:jungle_barrel
-- charm:jungle_bookcase
-- charm:jungle_bookshelf
-- charm:jungle_chest
-- charm:jungle_storage_crate
-- charm:jungle_trapped_chest
-- charm:oak_barrel
-- charm:oak_bookcase
-- charm:oak_bookshelf
-- charm:oak_chest
-- charm:oak_storage_crate
-- charm:oak_trapped_chest
-- charm:spruce_barrel
-- charm:spruce_bookcase
-- charm:spruce_bookshelf
-- charm:spruce_chest
-- charm:spruce_storage_crate
-- charm:spruce_trapped_chest
-- charm:warped_barrel
-- charm:warped_bookcase
-- charm:warped_bookshelf
-- charm:warped_chest
-- charm:warped_storage_crate
-- charm:warped_trapped_chest
+- #adorn:chairs
+- #adorn:tables
+- #adorn:kitchen_blocks
+- #adorn:drawers
+- #adorn:wooden_posts
+- #adorn:wooden_platforms
+- #adorn:wooden_steps
+- #adorn:wooden_shelves
+- #adorn:coffee_tables
+- #adorn:benches
+- #adorn:crates
+- #adorn:sofas
+- adorn:picket_fence
+- adorn:trading_station
 - blockus:wooden_frame
 - blockus:paper_wall
 - blockus:legacy_planks
@@ -3595,6 +4768,56 @@ To refresh this file, delete it and run /reload command again! Last updated: Jun
 - #blockus:barrels
 - #blockus:timber_frames
 - #blockus:food_crates
+- botania:abstruse_platform
+- botania:alfheim_portal
+- botania:avatar
+- botania:bellows
+- botania:cacophonium_block
+- botania:crafty_crate
+- botania:dreamwood
+- botania:dreamwood_fence
+- botania:dreamwood_fence_gate
+- botania:dreamwood_planks
+- botania:dreamwood_planks_slab
+- botania:dreamwood_planks_stairs
+- botania:dreamwood_slab
+- botania:dreamwood_stairs
+- botania:dreamwood_wall
+- botania:drum_canopy
+- botania:drum_gathering
+- botania:drum_wild
+- botania:elven_spreader
+- botania:fel_pumpkin
+- botania:framed_dreamwood
+- botania:framed_livingwood
+- botania:gaia_spreader
+- botania:glimmering_dreamwood
+- botania:glimmering_livingwood
+- botania:incense_plate
+- botania:infrangible_platform
+- botania:livingwood
+- botania:livingwood_fence
+- botania:livingwood_fence_gate
+- botania:livingwood_planks
+- botania:livingwood_planks_slab
+- botania:livingwood_planks_stairs
+- botania:livingwood_slab
+- botania:livingwood_stairs
+- botania:livingwood_wall
+- botania:mana_bomb
+- botania:mana_spreader
+- botania:mossy_dreamwood_planks
+- botania:mossy_livingwood_planks
+- botania:open_crate
+- botania:pattern_framed_dreamwood
+- botania:pattern_framed_livingwood
+- botania:redstone_spreader
+- botania:root
+- botania:shimmerwood_planks
+- botania:shimmerwood_planks_slab
+- botania:shimmerwood_planks_stairs
+- botania:spectral_platform
+- botania:turntable
 - expandedstorage:iron_barrel
 - expandedstorage:gold_barrel
 - expandedstorage:diamond_barrel
@@ -3602,13 +4825,37 @@ To refresh this file, delete it and run /reload command again! Last updated: Jun
 - expandedstorage:netherite_barrel
 - expandedstorage:wood_chest
 - expandedstorage:pumpkin_chest
-- expandedstorage:christmas_chest
+- expandedstorage:present
 - expandedstorage:old_wood_chest
+- expandedstorage:vanilla_wood_mini_chest
+- expandedstorage:wood_mini_chest
+- expandedstorage:pumpkin_mini_chest
+- expandedstorage:red_mini_present
+- expandedstorage:white_mini_present
+- expandedstorage:candy_cane_mini_present
+- expandedstorage:green_mini_present
+- expandedstorage:lavender_mini_present
+- expandedstorage:pink_amethyst_mini_present
+- expandedstorage:vanilla_wood_mini_chest_with_sparrow
+- expandedstorage:wood_mini_chest_with_sparrow
+- expandedstorage:pumpkin_mini_chest_with_sparrow
+- expandedstorage:red_mini_present_with_sparrow
+- expandedstorage:white_mini_present_with_sparrow
+- expandedstorage:candy_cane_mini_present_with_sparrow
+- expandedstorage:green_mini_present_with_sparrow
+- expandedstorage:lavender_mini_present_with_sparrow
+- expandedstorage:pink_amethyst_mini_present_with_sparrow
+- kibe:big_torch
+- #promenade:mushroom_blocks
+- #promenade:mushrooms
+- promenade:dark_amaranth_fungus
+
+#ae2:blacklisted/annihilation_plane
 
 #blockus:blaze_bricks
 - blockus:blaze_bricks
-- blockus:blaze_bricks_stairs
-- blockus:blaze_bricks_slab
+- blockus:blaze_brick_stairs
+- blockus:blaze_brick_slab
 - blockus:blaze_pillar
 
 #blockus:large_flower_pots
@@ -3677,21 +4924,95 @@ To refresh this file, delete it and run /reload command again! Last updated: Jun
 - minecraft:exposed_cut_copper_slab
 - minecraft:cut_copper_slab
 - minecraft:waxed_oxidized_cut_copper_slab
-- addendum:end_stone_slab
-- addendum:polished_end_stone_slab
-- addendum:purpur_brick_slab
+- botania:black_pavement_slab
+- botania:blaze_quartz_slab
+- botania:blue_pavement_slab
+- botania:corporea_brick_slab
+- botania:corporea_slab
+- botania:dark_quartz_slab
+- botania:dreamwood_planks_slab
+- botania:dreamwood_slab
+- botania:elf_quartz_slab
+- botania:green_pavement_slab
+- botania:lavender_quartz_slab
+- botania:livingrock_bricks_slab
+- botania:livingrock_slab
+- botania:livingwood_planks_slab
+- botania:livingwood_slab
+- botania:mana_quartz_slab
+- botania:metamorphic_desert_bricks_slab
+- botania:metamorphic_desert_cobblestone_slab
+- botania:metamorphic_desert_stone_slab
+- botania:metamorphic_forest_bricks_slab
+- botania:metamorphic_forest_cobblestone_slab
+- botania:metamorphic_forest_stone_slab
+- botania:metamorphic_fungal_bricks_slab
+- botania:metamorphic_fungal_cobblestone_slab
+- botania:metamorphic_fungal_stone_slab
+- botania:metamorphic_mesa_bricks_slab
+- botania:metamorphic_mesa_cobblestone_slab
+- botania:metamorphic_mesa_stone_slab
+- botania:metamorphic_mountain_bricks_slab
+- botania:metamorphic_mountain_cobblestone_slab
+- botania:metamorphic_mountain_stone_slab
+- botania:metamorphic_plains_bricks_slab
+- botania:metamorphic_plains_cobblestone_slab
+- botania:metamorphic_plains_stone_slab
+- botania:metamorphic_swamp_bricks_slab
+- botania:metamorphic_swamp_cobblestone_slab
+- botania:metamorphic_swamp_stone_slab
+- botania:metamorphic_taiga_bricks_slab
+- botania:metamorphic_taiga_cobblestone_slab
+- botania:metamorphic_taiga_stone_slab
+- botania:mossy_livingrock_bricks_slab
+- botania:red_pavement_slab
+- botania:red_quartz_slab
+- botania:shimmerrock_slab
+- botania:shimmerwood_planks_slab
+- botania:sunny_quartz_slab
+- botania:white_pavement_slab
+- botania:yellow_pavement_slab
+- deepslatecutting:deepslate_slab?
+- lifts:machine_block_slab
 - promenade:blunite_slab
 - promenade:polished_blunite_slab
 - promenade:carbonite_slab
 - promenade:polished_carbonite_slab
-- woods_and_mires:pine_slab
-- lifts:machine_block_slab
+- techreborn:rubber_plank_slab
+- techreborn:aluminum_storage_block_slab
+- techreborn:brass_storage_block_slab
+- techreborn:bronze_storage_block_slab
+- techreborn:chrome_storage_block_slab
+- techreborn:electrum_storage_block_slab
+- techreborn:invar_storage_block_slab
+- techreborn:iridium_storage_block_slab
+- techreborn:iridium_reinforced_stone_storage_block_slab
+- techreborn:iridium_reinforced_tungstensteel_storage_block_slab
+- techreborn:lead_storage_block_slab
+- techreborn:nickel_storage_block_slab
+- techreborn:peridot_storage_block_slab
+- techreborn:platinum_storage_block_slab
+- techreborn:red_garnet_storage_block_slab
+- techreborn:refined_iron_storage_block_slab
+- techreborn:ruby_storage_block_slab
+- techreborn:sapphire_storage_block_slab
+- techreborn:silver_storage_block_slab
+- techreborn:steel_storage_block_slab
+- techreborn:tin_storage_block_slab
+- techreborn:titanium_storage_block_slab
+- techreborn:tungsten_storage_block_slab
+- techreborn:tungstensteel_storage_block_slab
+- techreborn:yellow_garnet_storage_block_slab
+- techreborn:zinc_storage_block_slab
 
 #blockus:lava_bricks
 - blockus:lava_bricks
-- blockus:lava_bricks_stairs
-- blockus:lava_bricks_slab
+- blockus:lava_brick_stairs
+- blockus:lava_brick_slab
 - blockus:chiseled_lava_bricks
+
+#minecraft:animals_spawnable_on
+- minecraft:grass_block
 
 #minecraft:guarded_by_piglins
 - minecraft:gold_block
@@ -3703,10 +5024,6 @@ To refresh this file, delete it and run /reload command again! Last updated: Jun
 - minecraft:raw_gold_block
 - #minecraft:shulker_boxes
 - #minecraft:gold_ores
-- #charm:chests/wooden
-- #charm:barrels
-- lifts:gold_structure
-- lifts:electric_lift_mk2
 - blockus:legacy_gold_block
 - blockus:legacy_explosion_proof_gold_block
 - blockus:golden_chain
@@ -3719,6 +5036,8 @@ To refresh this file, delete it and run /reload command again! Last updated: Jun
 - blockus:gold_plating
 - blockus:gold_plating_stairs
 - blockus:gold_plating_slab
+- blockus:golden_apple_crate
+- blockus:golden_carrot_crate
 - #blockus:barrels
 - expandedstorage:iron_barrel
 - expandedstorage:gold_barrel
@@ -3726,6 +5045,8 @@ To refresh this file, delete it and run /reload command again! Last updated: Jun
 - expandedstorage:obsidian_barrel
 - expandedstorage:netherite_barrel
 - expandedstorage:wood_chest
+- expandedstorage:pumpkin_chest
+- expandedstorage:present
 - expandedstorage:iron_chest
 - expandedstorage:gold_chest
 - expandedstorage:diamond_chest
@@ -3737,20 +5058,61 @@ To refresh this file, delete it and run /reload command again! Last updated: Jun
 - expandedstorage:old_diamond_chest
 - expandedstorage:old_obsidian_chest
 - expandedstorage:old_netherite_chest
+- expandedstorage:vanilla_wood_mini_chest
+- expandedstorage:wood_mini_chest
+- expandedstorage:pumpkin_mini_chest
+- expandedstorage:red_mini_present
+- expandedstorage:white_mini_present
+- expandedstorage:candy_cane_mini_present
+- expandedstorage:green_mini_present
+- expandedstorage:lavender_mini_present
+- expandedstorage:pink_amethyst_mini_present
+- expandedstorage:vanilla_wood_mini_chest_with_sparrow
+- expandedstorage:wood_mini_chest_with_sparrow
+- expandedstorage:pumpkin_mini_chest_with_sparrow
+- expandedstorage:red_mini_present_with_sparrow
+- expandedstorage:white_mini_present_with_sparrow
+- expandedstorage:candy_cane_mini_present_with_sparrow
+- expandedstorage:green_mini_present_with_sparrow
+- expandedstorage:lavender_mini_present_with_sparrow
+- expandedstorage:pink_amethyst_mini_present_with_sparrow
+- lifts:gold_structure
+- lifts:electric_lift_mk2
+
+#expandedstorage:mini_chest_cycle
+- expandedstorage:vanilla_wood_mini_chest
+- expandedstorage:wood_mini_chest
+- expandedstorage:pumpkin_mini_chest
+- expandedstorage:red_mini_present
+- expandedstorage:white_mini_present
+- expandedstorage:candy_cane_mini_present
+- expandedstorage:green_mini_present
 
 #minecraft:stone_ore_replaceables
 - minecraft:stone
 - minecraft:granite
 - minecraft:diorite
 - minecraft:andesite
-- promenade:blunite
-- promenade:carbonite
 - blockus:limestone
 - blockus:marble
+- promenade:blunite
+- promenade:carbonite
+
+#buildinggadgets:whitelist/exchanging
+- #buildinggadgets:whitelist/generic
+
+#botania:terra_plate_base
+- botania:livingrock
+- botania:shimmerrock
 
 #blockus:barriers
 - blockus:caution_barrier
 - blockus:road_barrier
+
+#botania:misc_special_flowers
+- botania:manastar
+- botania:pure_daisy
+- botania:bergamute
 
 #adorn:kitchen_counters
 - adorn:oak_kitchen_counter
@@ -3806,17 +5168,11 @@ To refresh this file, delete it and run /reload command again! Last updated: Jun
 - adorn:cinderscapes/scorched_kitchen_counter?
 - adorn:cinderscapes/umbral_kitchen_counter?
 
-#charm:bookshelves
-- charm:acacia_bookshelf
-- charm:azalea_bookshelf
-- charm:birch_bookshelf
-- charm:crimson_bookshelf
-- charm:dark_oak_bookshelf
-- charm:ebony_bookshelf
-- charm:jungle_bookshelf
-- charm:oak_bookshelf
-- charm:spruce_bookshelf
-- charm:warped_bookshelf
+#ae2:whitelisted/facades
+- minecraft:glass
+- ae2:quartz_glass
+- ae2:quartz_vibrant_glass
+- #c:stained_glass
 
 #adorn:stone_platforms
 - adorn:stone_platform
@@ -3830,6 +5186,26 @@ To refresh this file, delete it and run /reload command again! Last updated: Jun
 - adorn:red_sandstone_platform
 - adorn:nether_brick_platform
 - adorn:basalt_platform
+- adorn:blackstone_platform
+- adorn:red_nether_brick_platform
+- adorn:prismarine_platform
+- adorn:quartz_platform
+- adorn:end_stone_brick_platform
+- adorn:purpur_platform
+- adorn:polished_blackstone_platform
+- adorn:polished_blackstone_brick_platform
+- adorn:polished_diorite_platform
+- adorn:polished_andesite_platform
+- adorn:polished_granite_platform
+- adorn:prismarine_brick_platform
+- adorn:dark_prismarine_platform
+- adorn:cut_sandstone_platform
+- adorn:smooth_sandstone_platform
+- adorn:cut_red_sandstone_platform
+- adorn:smooth_red_sandstone_platform
+- adorn:smooth_stone_platform
+- adorn:mossy_cobblestone_platform
+- adorn:mossy_stone_brick_platform
 - adorn:terrestria/basalt_platform?
 - adorn:terrestria/basalt_cobblestone_platform?
 - adorn:terrestria/smooth_basalt_platform?
@@ -3873,8 +5249,6 @@ To refresh this file, delete it and run /reload command again! Last updated: Jun
 - #minecraft:wooden_buttons
 - minecraft:stone_button
 - minecraft:polished_blackstone_button
-- woods_and_mires:pine_button
-- lifts:lift_button
 - blockus:polished_andesite_button
 - blockus:polished_diorite_button
 - blockus:polished_granite_button
@@ -3884,6 +5258,18 @@ To refresh this file, delete it and run /reload command again! Last updated: Jun
 - blockus:polished_netherrack_button
 - blockus:polished_end_stone_button
 - blockus:polished_basalt_button
+- lifts:lift_button
+- #redstonebits:copper_buttons
+
+#c:galena_ores
+- techreborn:galena_ore
+- techreborn:deepslate_galena_ore
+
+#minecraft:rabbits_spawnable_on
+- minecraft:grass_block
+- minecraft:snow
+- minecraft:snow_block
+- minecraft:sand
 
 #adorn:chimneys
 - adorn:brick_chimney
@@ -3904,20 +5290,23 @@ To refresh this file, delete it and run /reload command again! Last updated: Jun
 - minecraft:dark_oak_planks
 - minecraft:crimson_planks
 - minecraft:warped_planks
-- promenade:cherry_oak_planks
-- promenade:palm_planks
-- promenade:dark_amaranth_planks
-- charm:azalea_planks
-- charm:ebony_planks
-- woods_and_mires:pine_planks
 - blockus:bamboo_planks
 - blockus:charred_planks
 - blockus:white_oak_planks
+- promenade:cherry_oak_planks
+- promenade:palm_planks
+- promenade:dark_amaranth_planks
+- techreborn:rubber_planks
+
+#botania:special_flowers
+- #botania:misc_special_flowers
+- #botania:generating_special_flowers
+- #botania:functional_special_flowers
 
 #blockus:granite_blocks
 - blockus:granite_bricks
-- blockus:granite_bricks_stairs
-- blockus:granite_bricks_slab
+- blockus:granite_brick_stairs
+- blockus:granite_brick_slab
 - blockus:zigzagged_granite
 - blockus:chiseled_granite_bricks
 - blockus:cracked_granite_bricks
@@ -3979,29 +5368,84 @@ To refresh this file, delete it and run /reload command again! Last updated: Jun
 - adorn:cinderscapes/umbral_table?
 
 #c:silver_blocks
-- indrev:silver_block
+- techreborn:silver_storage_block
 
 #minecraft:rails
 - minecraft:rail
 - minecraft:powered_rail
 - minecraft:detector_rail
 - minecraft:activator_rail
-- charm:copper_rail
+- botania:ghost_rail
+
+#botania:functional_special_flowers
+- botania:agricarnation
+- botania:agricarnation_chibi
+- botania:bellethorn
+- botania:bellethorn_chibi
+- botania:bubbell
+- botania:bubbell_chibi
+- botania:clayconia
+- botania:clayconia_chibi
+- botania:daffomill
+- botania:dreadthorn
+- botania:exoflame
+- botania:fallen_kanade
+- botania:heisei_dream
+- botania:hopperhock
+- botania:hopperhock_chibi
+- botania:hyacidus
+- botania:jaded_amaranthus
+- botania:jiyuulia
+- botania:jiyuulia_chibi
+- botania:labellia
+- botania:loonium
+- botania:marimorphosis
+- botania:marimorphosis_chibi
+- botania:medumone
+- botania:orechid
+- botania:orechid_ignem
+- botania:pollidisiac
+- botania:rannuncarpus
+- botania:rannuncarpus_chibi
+- botania:solegnolia
+- botania:solegnolia_chibi
+- botania:spectranthemum
+- botania:tangleberrie
+- botania:tangleberrie_chibi
+- botania:tigerseye
+- botania:vinculotus
 
 #minecraft:diamond_ores
 - minecraft:diamond_ore
 - minecraft:deepslate_diamond_ore
 
+#c:basalt
+- minecraft:basalt
+- minecraft:polished_basalt
+
+#botania:terraformable
+- minecraft:andesite
+- minecraft:diorite
+- minecraft:granite
+- minecraft:infested_stone
+- minecraft:stone
+- minecraft:polished_andesite
+- minecraft:polished_diorite
+- minecraft:polished_granite
+- minecraft:dirt
+- minecraft:grass_block
+- minecraft:coarse_dirt
+- minecraft:podzol
+- minecraft:mycelium
+- minecraft:grass_block
+- minecraft:gravel
+- minecraft:snow
+- #minecraft:sand
+
 #minecraft:deepslate_ore_replaceables
 - minecraft:deepslate
 - minecraft:tuff
 - blockus:bluestone
-
-#c:soul_ground
-- minecraft:soul_sand
-- minecraft:soul_soil
-- betternether:veined_sand
-- betternether:farmland
 
 #blockus:platings
 - blockus:iron_plating
@@ -4011,27 +5455,38 @@ To refresh this file, delete it and run /reload command again! Last updated: Jun
 - blockus:gold_plating_stairs
 - blockus:gold_plating_slab
 
-#c:netherrack
-- minecraft:netherrack
-- minecraft:nether_quartz_ore
-- minecraft:nether_gold_ore
-- minecraft:crimson_nylium
-- minecraft:warped_nylium
-- betternether:cincinnasite_ore
-- betternether:nether_ruby_ore
-- betternether:nether_lapis_ore
-- betternether:netherrack_moss
-- betternether:nether_mycelium
-- betternether:netherrack_moss
-- betternether:jungle_grass
-- betternether:mushroom_grass
-- betternether:sepia_mushroom_grass
-- betternether:farmland
-- betternether:swampland_grass
-- betternether:ceiling_mushrooms
+#botania:gaia_break_blacklist
+- minecraft:beacon
+- botania:mana_pylon
+- botania:natura_pylon
+- botania:gaia_pylon
+
+#redstonebits:unwaxed_copper_buttons
+- redstonebits:copper_button
+- redstonebits:exposed_copper_button
+- redstonebits:weathered_copper_button
+- redstonebits:oxidized_copper_button
 
 #minecraft:strider_warm_blocks
 - minecraft:lava
+
+#blockus:neon
+- blockus:white_neon
+- blockus:orange_neon
+- blockus:magenta_neon
+- blockus:light_blue_neon
+- blockus:yellow_neon
+- blockus:lime_neon
+- blockus:pink_neon
+- blockus:gray_neon
+- blockus:light_gray_neon
+- blockus:cyan_neon
+- blockus:purple_neon
+- blockus:blue_neon
+- blockus:brown_neon
+- blockus:green_neon
+- blockus:red_neon
+- blockus:black_neon
 
 #minecraft:fence_gates
 - minecraft:acacia_fence_gate
@@ -4042,13 +5497,14 @@ To refresh this file, delete it and run /reload command again! Last updated: Jun
 - minecraft:spruce_fence_gate
 - minecraft:crimson_fence_gate
 - minecraft:warped_fence_gate
-- promenade:dark_amaranth_fence_gate
-- promenade:palm_fence_gate
-- promenade:cherry_oak_fence_gate
-- woods_and_mires:pine_fence_gate
 - blockus:bamboo_fence_gate
 - blockus:charred_fence_gate
 - blockus:white_oak_fence_gate
+- botania:dreamwood_fence_gate
+- botania:livingwood_fence_gate
+- promenade:dark_amaranth_fence_gate
+- promenade:palm_fence_gate
+- promenade:cherry_oak_fence_gate
 
 #minecraft:bee_growables
 - #minecraft:crops
@@ -4066,15 +5522,13 @@ To refresh this file, delete it and run /reload command again! Last updated: Jun
 - minecraft:dark_oak_pressure_plate
 - minecraft:crimson_pressure_plate
 - minecraft:warped_pressure_plate
-- promenade:cherry_oak_pressure_plate
-- promenade:palm_pressure_plate
-- promenade:dark_amaranth_pressure_plate
-- charm:azalea_pressure_plate
-- charm:ebony_pressure_plate
-- woods_and_mires:pine_pressure_plate
 - blockus:bamboo_pressure_plate
 - blockus:charred_pressure_plate
 - blockus:white_oak_pressure_plate
+- promenade:cherry_oak_pressure_plate
+- promenade:palm_pressure_plate
+- promenade:dark_amaranth_pressure_plate
+- techreborn:rubber_pressure_plate
 
 #minecraft:candles
 - minecraft:candle
@@ -4100,7 +5554,7 @@ To refresh this file, delete it and run /reload command again! Last updated: Jun
 - minecraft:lilac
 - minecraft:peony
 - minecraft:rose_bush
-- woods_and_mires:fireweed
+- #botania:double_mystical_flowers
 
 #blockus:colored_tiles
 - blockus:white_colored_tiles
@@ -4149,6 +5603,9 @@ To refresh this file, delete it and run /reload command again! Last updated: Jun
 - blockus:blue_cyan_colored_tiles
 - blockus:red_blue_colored_tiles
 - blockus:rainbow_colored_tiles
+
+#yigd:replace_blacklist
+- minecraft:bedrock
 
 #blockus:glazed_terracotta_pillars
 - blockus:white_glazed_terracotta_pillar
@@ -4238,8 +5695,8 @@ To refresh this file, delete it and run /reload command again! Last updated: Jun
 - adorn:cinderscapes/scorched_kitchen_sink?
 - adorn:cinderscapes/umbral_kitchen_sink?
 
-#c:nether_mycelium
-- betternether:nether_mycelium
+#c:iridium_reinforced_tungstensteel_blocks
+- techreborn:iridium_reinforced_tungstensteel_storage_block
 
 #minecraft:stone_pressure_plates
 - minecraft:stone_pressure_plate
@@ -4253,25 +5710,16 @@ To refresh this file, delete it and run /reload command again! Last updated: Jun
 - blockus:polished_netherrack_pressure_plate
 - blockus:polished_end_stone_pressure_plate
 - blockus:polished_basalt_pressure_plate
+- blockus:polished_deepslate_pressure_plate
+- blockus:polished_tuff_pressure_plate
 
 #c:lead_blocks
-- indrev:lead_block
-
-#charm:lanterns
-- minecraft:lantern
-- minecraft:soul_lantern
-- charm:copper_lantern
-- charm:copper_soul_lantern
-- charm:gold_lantern
-- charm:gold_soul_lantern
-- charm:netherite_lantern
-- charm:netherite_soul_lantern
-- charm:redstone_lantern
+- techreborn:lead_storage_block
 
 #blockus:honeycomb_blocks
 - blockus:honeycomb_bricks
-- blockus:honeycomb_bricks_stairs
-- blockus:honeycomb_bricks_slab
+- blockus:honeycomb_brick_stairs
+- blockus:honeycomb_brick_slab
 
 #adorn:table_lamps
 - adorn:red_table_lamp
@@ -4299,11 +5747,6 @@ To refresh this file, delete it and run /reload command again! Last updated: Jun
 #minecraft:nylium
 - minecraft:crimson_nylium
 - minecraft:warped_nylium
-- betternether:nether_mycelium
-- betternether:jungle_grass
-- betternether:mushroom_grass
-- betternether:sepia_mushroom_grass
-- betternether:swampland_grass
 - promenade:black_dylium
 
 #minecraft:gold_ores
@@ -4313,13 +5756,28 @@ To refresh this file, delete it and run /reload command again! Last updated: Jun
 
 #blockus:quartz_blocks
 - blockus:quartz_tiles
-- blockus:quartz_tiles_stairs
-- blockus:quartz_tiles_slab
+- blockus:quartz_tile_stairs
+- blockus:quartz_tile_slab
 - blockus:quartz_circle_pavement
 
 #adorn:steps
 - #adorn:wooden_steps
 - #adorn:stone_steps
+
+#c:sapphire_ores
+- techreborn:sapphire_ore
+- techreborn:deepslate_sapphire_ore
+
+#c:ores
+- #c:certus_quartz_ores
+- #minecraft:coal_ores
+- #minecraft:iron_ores
+- #minecraft:gold_ores
+- #minecraft:lapis_ores
+- #minecraft:redstone_ores
+- #minecraft:diamond_ores
+- #minecraft:copper_ores
+- #minecraft:emerald_ores
 
 #minecraft:dirt
 - minecraft:dirt
@@ -4329,6 +5787,12 @@ To refresh this file, delete it and run /reload command again! Last updated: Jun
 - minecraft:mycelium
 - minecraft:rooted_dirt
 - minecraft:moss_block
+- botania:dry_grass
+- botania:golden_grass
+- botania:infused_grass
+- botania:mutated_grass
+- botania:scorched_grass
+- botania:vivid_grass
 
 #adorn:drawers
 - adorn:oak_drawer
@@ -4407,6 +5871,9 @@ To refresh this file, delete it and run /reload command again! Last updated: Jun
 - blockus:thatch
 - blockus:thatch_stairs
 - blockus:thatch_slab
+
+#c:peridot_blocks
+- techreborn:peridot_storage_block
 
 #adorn:kitchen_cupboards
 - adorn:oak_kitchen_cupboard

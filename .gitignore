@@ -396,3 +396,11 @@ dashloader-cache/
 screenshots/
 
 TrashSlotSaveState.json
+
+automation/secrets.ps1
+
+automation/ModListCreator-1.2.1.jar
+
+*.zip
+
+TwitchExportBuilder.exe

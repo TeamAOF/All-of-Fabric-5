@@ -26,4 +26,5 @@ waypointBackgrounds:true
 detectAmbiguousY:true
 showDisabledWaypoints:false
 closeWaypointsWhenHopping:true
+adjustHeightForCarpetLikeBlocks:true
 globalVersion:1

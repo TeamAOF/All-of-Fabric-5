@@ -23,6 +23,7 @@ onEvent('recipes', (event) => {
     'techreborn:compressor',
     'kibe:angel_ring',
     'kibe:light_ring',
+    'chisel:chisel',
     ];
 
     id.forEach((id) => {
