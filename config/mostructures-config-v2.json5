@@ -1,0 +1,119 @@
+{
+  // Welcome to Mo'Structures Config!
+  //
+  // Here, you can turn off structures, change their chance, and also change their salt.
+  //
+  // To turn off a structure, simply go to the corresponding entry and set `activated` to false.
+  //
+  // Mo' Structures uses the vanilla structure spawning system. That is-
+  // - Seperation is the minimum chunks between structures
+  // - Spacing is the average chunks between structures
+  //
+  // Salt is a special field that gives structures unique spawning positions. DO NOT TOUCH IT, ONLY ADVANCED TROUBLESHOOTING!
+
+
+  "structureConfigEntries": {
+    "villager_tower": {
+      "activated": true,
+      "seperation": 16,
+      "spacing": 34,
+      "salt": 550292492
+    },
+    "lighthouse": {
+      "activated": true,
+      "seperation": 16,
+      "spacing": 32,
+      "salt": 29502322
+    },
+    "air_balloon": {
+      "activated": true,
+      "seperation": 1,
+      "spacing": 6,
+      "salt": 29483148
+    },
+    "killer_bunny_castle": {
+      "activated": true,
+      "seperation": 25,
+      "spacing": 45,
+      "salt": 48123900
+    },
+    "jungle_pyramid": {
+      "activated": true,
+      "seperation": 5,
+      "spacing": 25,
+      "salt": 312178642
+    },
+    "abandoned_church": {
+      "activated": true,
+      "seperation": 14,
+      "spacing": 38,
+      "salt": 66996840
+    },
+    "volcanic_vent": {
+      "activated": true,
+      "seperation": 4,
+      "spacing": 8,
+      "salt": 84981094
+    },
+    "barn_house": {
+      "activated": true,
+      "seperation": 8,
+      "spacing": 38,
+      "salt": 165757306
+    },
+    "pirate_ship": {
+      "activated": true,
+      "seperation": 16,
+      "spacing": 40,
+      "salt": 583957395
+    },
+    "tavern": {
+      "activated": true,
+      "seperation": 12,
+      "spacing": 32,
+      "salt": 19296726
+    },
+    "moai": {
+      "activated": true,
+      "seperation": 2,
+      "spacing": 4,
+      "salt": 12994829
+    },
+    "village_bazaar": {
+      "activated": false,
+      "seperation": 16,
+      "spacing": 32,
+      "salt": 34842291
+    },
+    "the_castle_in_the_sky": {
+      "activated": true,
+      "seperation": 8,
+      "spacing": 30,
+      "salt": 423494938
+    },
+    "ice_tower": {
+      "activated": true,
+      "seperation": 8,
+      "spacing": 28,
+      "salt": 964058305
+    },
+    "villager_market": {
+      "activated": true,
+      "seperation": 16,
+      "spacing": 36,
+      "salt": 784939542
+    },
+    "big_pyramid": {
+      "activated": true,
+      "seperation": 5,
+      "spacing": 25,
+      "salt": 239284294
+    },
+    "pillager_factory": {
+      "activated": true,
+      "seperation": 16,
+      "spacing": 36,
+      "salt": 839204924
+    }
+  }
+}

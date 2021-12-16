@@ -31,5 +31,4 @@ onEvent('recipes', (event) => {
     ["blockus:white_oak_log", "blockus:white_oak_log", "blockus:white_oak_log"],
   ]);
  
-
 });

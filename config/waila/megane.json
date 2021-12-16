@@ -57,7 +57,13 @@
       "indrev:molten_tin_still": 13224393,
       "indrev:sulfuric_acid_still": 15646,
       "indrev:toxic_mud_still": 6044430,
-      "kibe:liquid_xp": 5635925
+      "kibe:liquid_xp": 5635925,
+      "modern_industrialization:creosote": 6512720,
+      "modern_industrialization:steam": 15658734,
+      "modern_industrialization:synthetic_oil": 5000268,
+      "modern_industrialization:crude_oil": 5524299,
+      "modern_industrialization:lubricant": 16761856,
+      "modern_industrialization:synthetic_rubber": 5000268
     },
     "blacklist": []
   },

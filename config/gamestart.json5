@@ -1,0 +1,22 @@
+{
+  //The message to send a player when they first join the server.
+  "firstJoinPersonalMessage": [
+    ""
+  ],
+  //The message to send to all players when a player first joins the server.
+  "firstJoinBroadcastMessage": [
+    "Everyone, welcome {player} to the server!"
+  ],
+  //The message to send a player when they re-join the server (not a new player).
+  "returningJoinPersonalMessage": [
+    ""
+  ],
+  //The message to send to all players when a player re-joins the server (not a new player).
+  "returningJoinBroadcastMessage": [
+    ""
+  ],
+  //Whether the first join broadcast should also be sent to the player who joined.
+  "sendFirstJoinBroadcastToTargetPlayer": false,
+  //Whether the returning join broadcast should also be sent to the player who joined.
+  "sendReturningJoinBroadcastToTargetPlayer": false
+}

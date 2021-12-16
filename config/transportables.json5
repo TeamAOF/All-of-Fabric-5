@@ -1,0 +1,6 @@
+{
+	// Maximum teleport distance for TeleSender rail in blocks. (Integer: 0-2147483648. Default: 30)
+	"TELESENDER_RANGE": 30,
+	// Maximum distance for linking carriages. (Integer: 0-2147483648. Default: 6)
+	"CARRIAGE_LINK_RANGE": 6
+}

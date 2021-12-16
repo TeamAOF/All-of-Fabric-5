@@ -1,4 +1,4 @@
-To refresh this file, delete it and run /reload command again! Last updated: Jun 23, 2021, 12:15:57 AM
+To refresh this file, delete it and run /reload command again! Last updated: Dec 13, 2021, 12:15:18 PM
 
 #minecraft:axolotl_always_hostiles
 - minecraft:drowned
@@ -17,9 +17,13 @@ To refresh this file, delete it and run /reload command again! Last updated: Jun
 - minecraft:shulker
 - minecraft:endermite
 
-#waila:blacklist
-- minecraft:experience_orb
-- minecraft:area_effect_cloud
+#botania:cocoon/common_aquatic
+- minecraft:cod
+- minecraft:salmon
+- minecraft:tropical_fish
+- minecraft:pufferfish
+- minecraft:squid
+- quark:crab?
 
 #minecraft:impact_projectiles
 - #minecraft:arrows
@@ -30,6 +34,13 @@ To refresh this file, delete it and run /reload command again! Last updated: Jun
 - minecraft:trident
 - minecraft:dragon_fireball
 - minecraft:wither_skull
+
+#botania:cocoon/common
+- minecraft:pig
+- minecraft:cow
+- minecraft:chicken
+- minecraft:rabbit
+- minecraft:sheep
 
 #minecraft:beehive_inhabitors
 - minecraft:bee
@@ -44,8 +55,9 @@ To refresh this file, delete it and run /reload command again! Last updated: Jun
 - minecraft:wither_skeleton
 - minecraft:stray
 
-#requiem:inventory/item_users
-- ratsmischief:rat
+#botania:cocoon/rare_aquatic
+- minecraft:dolphin
+- minecraft:glow_squid
 
 #dml-refabricated:ocean_mobs
 - minecraft:guardian
@@ -63,12 +75,6 @@ To refresh this file, delete it and run /reload command again! Last updated: Jun
 - minecraft:zombie_villager
 - minecraft:witch
 - minecraft:spider
-
-#requiem:inventory/inventory_carriers
-- ratsmischief:rat
-
-#requiem:behavior/regular_eaters
-- ratsmischief:rat
 
 #minecraft:freeze_hurts_extra_types
 - minecraft:strider
@@ -93,6 +99,22 @@ To refresh this file, delete it and run /reload command again! Last updated: Jun
 - minecraft:slime
 - minecraft:magma_cube
 
+#botania:cocoon/rare
+- minecraft:horse
+- minecraft:donkey
+- minecraft:wolf
+- minecraft:ocelot
+- minecraft:cat
+- minecraft:parrot
+- minecraft:llama
+- minecraft:fox
+- minecraft:panda
+- minecraft:turtle
+- quark:frog?
+
+#c:bosses
+- botania:doppleganger
+
 #dml-refabricated:nether_mobs
 - minecraft:wither_skeleton
 - minecraft:blaze
@@ -103,8 +125,21 @@ To refresh this file, delete it and run /reload command again! Last updated: Jun
 - minecraft:piglin
 - minecraft:zombified_piglin
 
-#requiem:inventory/armor_users
-- ratsmischief:rat
+#botania:shaded_mesa_blacklist
+- minecraft:ender_dragon
+- minecraft:wither
+- minecraft:item_frame
+- minecraft:end_crystal
+- minecraft:painting
+- botania:corporea_spark
+- botania:doppleganger
+- botania:flame_ring
+- botania:magic_landmine
+- botania:magic_missile
+- botania:mana_burst
+- botania:pink_wither
+- botania:spark
+- botania:player_mover
 
 #minecraft:raiders
 - minecraft:evoker
@@ -113,9 +148,6 @@ To refresh this file, delete it and run /reload command again! Last updated: Jun
 - minecraft:vindicator
 - minecraft:illusioner
 - minecraft:witch
-
-#eldritch_mobs:eldritch_allowed
-- ratsmischief:rat
 
 #minecraft:powder_snow_walkable_mobs
 - minecraft:rabbit

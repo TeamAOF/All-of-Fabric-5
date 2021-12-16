@@ -1,0 +1,6 @@
+{
+	"expirationTicks": 108000,
+	"questGenerationTicks": 3600,
+	"maxQuestsPerGeneration": 10,
+	"displayUnlockedPools": true
+}
