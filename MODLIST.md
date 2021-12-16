@@ -150,7 +150,7 @@
 - [wolves-with-armor-1.7.0-1.18.jar](https://www.curseforge.com/minecraft/mc-mods/wolves-with-armor/files/3554382) (by [Draylar1](https://www.curseforge.com/members/draylar1/projects))
 - [v21.22.5 for Fabric 1.18.x](https://www.curseforge.com/minecraft/mc-mods/xaeros-minimap/files/3562419) (by [xaero96](https://www.curseforge.com/members/xaero96/projects))
 - [v1.18.6.1 for Fabric 1.18.x](https://www.curseforge.com/minecraft/mc-mods/xaeros-world-map/files/3551769) (by [xaero96](https://www.curseforge.com/members/xaero96/projects))
-- [youre-in-grave-danger-1.2.7](https://www.curseforge.com/minecraft/mc-mods/youre-in-grave-danger/files/3558796) (by [b1n_ry](https://www.curseforge.com/members/b1n_ry/projects))
+- [youre-in-grave-danger-1.2.8](https://www.curseforge.com/minecraft/mc-mods/youre-in-grave-danger/files/3568613) (by [b1n_ry](https://www.curseforge.com/members/b1n_ry/projects))
 - [DisableCustomWorldsAdvice-1.4.jar](https://www.curseforge.com/minecraft/mc-mods/fabric-disable-custom-worlds-advice/files/3545078) (by [rdvdev2](https://www.curseforge.com/members/rdvdev2/projects))
 - [chisel-1.2.0-1.18.jar](https://www.curseforge.com/minecraft/mc-mods/fabric-chisel/files/3545804) (by [Slaincow](https://www.curseforge.com/members/slaincow/projects))
 - [[1.18] 7.3.3](https://www.curseforge.com/minecraft/mc-mods/expanded-storage-fabric/files/3555309) (by [NinjaPhenix](https://www.curseforge.com/members/ninjaphenix/projects))
