@@ -1,4 +1,18 @@
 
+### All of Fabric 5 | v0.2.3
+
+_Fabric Loader 0.12.12_ | _[Modlist](https://github.com/TeamAOF/All-of-Fabric-5/blob/dev/changelogs/modlist_0.2.3.md)_
+
+**Fixes**
+
+- Fixed server crash.
+
+**Removed**
+
+- Spectrum
+
+---
+
 ### All of Fabric 5 | v0.2.2
 
 _Fabric Loader 0.12.12_ | _[Modlist](https://github.com/TeamAOF/All-of-Fabric-5/blob/dev/changelogs/modlist_0.2.2.md)_
