@@ -26,7 +26,7 @@
       "salt": 29502322
     },
     "air_balloon": {
-      "activated": true,
+      "activated": false,
       "seperation": 1,
       "spacing": 6,
       "salt": 29483148
@@ -86,7 +86,7 @@
       "salt": 34842291
     },
     "the_castle_in_the_sky": {
-      "activated": true,
+      "activated": false,
       "seperation": 8,
       "spacing": 30,
       "salt": 423494938

@@ -20,6 +20,7 @@ xpDropPercent = 50
 renderGraveSkull = true
 renderGraveOwner = true
 adaptRenderer = false
+glowingGrave = false
 tellDeathPos = true
 
 [graveSettings.graveRobbing]
