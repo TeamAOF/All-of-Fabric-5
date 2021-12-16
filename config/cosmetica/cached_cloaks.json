@@ -445,11 +445,6 @@
     "cloak": "bi"
   },
   {
-    "name": "ZorroHedgehog",
-    "uuid": "c75cb352-1afa-4a91-a969-6ba9befba597",
-    "cloak": "mint"
-  },
-  {
     "name": "Guerrernico",
     "uuid": "c43c3293-f9a8-4cf4-aeee-ac64a9462835",
     "cloak": "mint"
@@ -613,11 +608,6 @@
     "name": "BlusteryCookie",
     "uuid": "4e5fefea-3ae0-4a78-8508-c1543ecbfb67",
     "cloak": "golden"
-  },
-  {
-    "name": "kingpin_avin",
-    "uuid": "c865ab1b-65c6-4a9c-ab26-6cecb5e0c066",
-    "cloak": "cosmic"
   },
   {
     "name": "Nerkin_",
@@ -1220,11 +1210,6 @@
     "cloak": "jeb"
   },
   {
-    "name": "Pameris",
-    "uuid": "12e0c1a2-563f-4f2b-adac-9665a45b9f0d",
-    "cloak": "lesbian"
-  },
-  {
     "name": "TheTr1gonometry",
     "uuid": "39e33dd5-4238-4de3-a7f9-57d29efedd76",
     "cloak": "gay"
@@ -1247,6 +1232,56 @@
   {
     "name": "YourIntrovert",
     "uuid": "34b22e32-c056-4e16-a886-1d7dc1df5de7",
+    "cloak": "uni"
+  },
+  {
+    "name": "DaveFalcon",
+    "uuid": "67e1b903-b556-479a-b75f-f279de75b310",
+    "cloak": "void"
+  },
+  {
+    "name": "Haikis",
+    "uuid": "bf22cca4-60b6-4ab2-8c4d-fb38175d2697",
+    "cloak": "jeb"
+  },
+  {
+    "name": "kipzxz",
+    "uuid": "7cbe4761-0b76-498b-a608-c8eb5a1444eb",
+    "cloak": "trans"
+  },
+  {
+    "name": "Ametvyst",
+    "uuid": "d1c6f1a4-e78b-4e47-9119-8bd9b01865cb",
+    "cloak": "void"
+  },
+  {
+    "name": "ThreeSummer9468",
+    "uuid": "d2451759-1025-44f6-b335-e9d173dac93f",
+    "cloak": "void"
+  },
+  {
+    "name": "Nickotorp",
+    "uuid": "b71aced9-de6b-432b-b8d8-38e27b23d593",
+    "cloak": "azure"
+  },
+  {
+    "name": "Mr_RF_",
+    "uuid": "66dc13c2-f3f9-4d39-93b2-f85a70e3e720",
+    "cloak": "pumpkin"
+  },
+  {
+    "name": "Gunjammed",
+    "uuid": "34a7dce4-f624-45ca-b196-f6e98d3a1907",
+    "cloak": "cosmic"
+  },
+  {
+    "name": "ZorroHedgehog",
+    "uuid": "c75cb352-1afa-4a91-a969-6ba9befba597",
+    "cloak": "swirly"
+  },
+  {
+    "name": "kingpin_avin",
+    "uuid": "c865ab1b-65c6-4a9c-ab26-6cecb5e0c066",
     "cloak": "uni"
   }
 ]
