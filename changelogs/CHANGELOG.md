@@ -34,7 +34,7 @@ _Fabric Loader 0.12.12_ | _[Modlist](https://github.com/TeamAOF/All-of-Fabric-5/
 - Waystones: wraith-waystones-2.3.5.jar  
 - You're in Grave Danger: youre-in-grave-danger-1.2.8B.jar  
 
-### All of Fabric 5 | v0.2.4
+### All of Fabric 5 | v0.2.3
 
 _Fabric Loader 0.12.12_ | _[Modlist](https://github.com/TeamAOF/All-of-Fabric-5/blob/dev/changelogs/modlist_0.2.3.md)_
 

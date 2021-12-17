@@ -29,8 +29,8 @@
   "isUnlocked": true,
   "javaArgsOverride": null,
   "javaDirOverride": null,
-  "lastPlayed": "2021-12-17T18:53:52.3024836Z",
-  "playedCount": 46,
+  "lastPlayed": "2021-12-17T20:48:24.0422381Z",
+  "playedCount": 47,
   "manifest": null,
   "fileDate": "0001-01-01T00:00:00",
   "installedModpack": null,
@@ -17663,6 +17663,149 @@
       "preferenceReleaseType": null,
       "manifestName": null,
       "installedTargets": null
+    },
+    {
+      "addonID": 415438,
+      "gameInstanceID": "87969786-7691-4480-9c60-44919c2a3360",
+      "installedFile": {
+        "id": 3569896,
+        "displayName": "Croptopia-1.18-FABRIC-1.7.4.jar",
+        "fileName": "Croptopia-1.18-FABRIC-1.7.4.jar",
+        "fileDate": "2021-12-17T18:43:05.32Z",
+        "fileLength": 1929179,
+        "releaseType": 1,
+        "fileStatus": 4,
+        "downloadUrl": "https://edge.forgecdn.net/files/3569/896/Croptopia-1.18-FABRIC-1.7.4.jar",
+        "isAlternate": false,
+        "alternateFileId": 0,
+        "dependencies": [
+          {
+            "id": 81334566,
+            "addonId": 306770,
+            "type": 2,
+            "fileId": 3569896
+          }
+        ],
+        "isAvailable": true,
+        "modules": [
+          {
+            "foldername": "META-INF",
+            "fingerprint": 4261194750,
+            "type": 3,
+            "invalidFingerprint": false
+          },
+          {
+            "foldername": "resourcepacks",
+            "fingerprint": 2661160289,
+            "type": 3,
+            "invalidFingerprint": false
+          },
+          {
+            "foldername": "fabric.mod.json",
+            "fingerprint": 4012153077,
+            "type": 3,
+            "invalidFingerprint": false
+          },
+          {
+            "foldername": "data",
+            "fingerprint": 190851688,
+            "type": 3,
+            "invalidFingerprint": false
+          },
+          {
+            "foldername": "Croptopia.mixins.json",
+            "fingerprint": 1369898905,
+            "type": 3,
+            "invalidFingerprint": false
+          },
+          {
+            "foldername": "croptopia.conf",
+            "fingerprint": 658509314,
+            "type": 3,
+            "invalidFingerprint": false
+          },
+          {
+            "foldername": "croptopia.accesswidener",
+            "fingerprint": 1759687501,
+            "type": 3,
+            "invalidFingerprint": false
+          },
+          {
+            "foldername": "assets",
+            "fingerprint": 2754190047,
+            "type": 3,
+            "invalidFingerprint": false
+          },
+          {
+            "foldername": "Croptopia-refmap.json",
+            "fingerprint": 2560493113,
+            "type": 3,
+            "invalidFingerprint": false
+          },
+          {
+            "foldername": "me",
+            "fingerprint": 339616916,
+            "type": 3,
+            "invalidFingerprint": false
+          }
+        ],
+        "packageFingerprint": 2016220614,
+        "gameVersion": [
+          "1.18.1",
+          "Fabric",
+          "1.18"
+        ],
+        "sortableGameVersion": [
+          {
+            "gameVersionPadded": "0000000001.0000000018.0000000001",
+            "gameVersion": "1.18.1",
+            "gameVersionReleaseDate": "2021-12-10T10:37:38.06Z",
+            "gameVersionName": "1.18.1",
+            "gameVersionTypeId": 73250
+          },
+          {
+            "gameVersionPadded": "0",
+            "gameVersion": "",
+            "gameVersionReleaseDate": "2019-08-01T00:00:00Z",
+            "gameVersionName": "Fabric",
+            "gameVersionTypeId": 68441
+          },
+          {
+            "gameVersionPadded": "0000000001.0000000018",
+            "gameVersion": "1.18",
+            "gameVersionReleaseDate": "2021-11-30T16:23:01.427Z",
+            "gameVersionName": "1.18",
+            "gameVersionTypeId": 73250
+          }
+        ],
+        "hasInstallScript": false,
+        "isCompatibleWithClient": true,
+        "categorySectionPackageType": 6,
+        "restrictProjectFileAccess": 1,
+        "projectStatus": 4,
+        "renderCacheId": 2637044,
+        "projectId": 415438,
+        "packageFingerprintId": 811754756,
+        "gameVersionDateReleased": "2019-08-01T00:00:00Z",
+        "gameVersionMappingId": 3578153,
+        "gameVersionId": 7499,
+        "gameId": 432,
+        "isServerPack": false,
+        "FileNameOnDisk": "Croptopia-1.18-FABRIC-1.7.4.jar"
+      },
+      "dateInstalled": "2021-12-17T19:54:35.5806453Z",
+      "dateUpdated": "2021-12-17T19:54:35.5976397Z",
+      "dateLastUpdateAttempted": "2021-12-17T19:54:35.5976397Z",
+      "status": 4,
+      "preferenceAutoInstallUpdates": null,
+      "preferenceAlternateFile": false,
+      "preferenceIsIgnored": false,
+      "isModified": false,
+      "isWorkingCopy": false,
+      "isFuzzyMatch": false,
+      "preferenceReleaseType": null,
+      "manifestName": null,
+      "installedTargets": []
     },
     {
       "addonID": 541329,

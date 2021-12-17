@@ -42,7 +42,7 @@ $CLIENT_CHANGELOG_TYPE = "markdown"
 
 # Changelog
 # Must be a single string.
-$CLIENT_CHANGELOG = "[![](https://i.imgur.com/bfPURVp.jpg)](https://github.com/TeamAOF/All-of-Fabric-5/blob/main/changelogs/CHANGELOG.md)"
+$CLIENT_CHANGELOG = "[![](https://i.imgur.com/o5aNlUD.jpg)](https://github.com/TeamAOF/All-of-Fabric-5/blob/main/changelogs/CHANGELOG.md)"
 
 # =====================================================================//
 #  CURSEFORGE PROJECT SETTINGS
