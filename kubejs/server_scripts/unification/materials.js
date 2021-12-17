@@ -6,7 +6,7 @@
 // AOF Unification Script - MIT licensed. //
 //////////////////////////////////////////////////
 
-const GENERATE_REI_SCRIPT = true;
+const GENERATE_REI_SCRIPT = false;
 // List of part tags to unify.
 const PARTS = [
     "c:{}_blocks",
@@ -233,6 +233,4 @@ events.listen("kjsextras_rei", event => {
     DELETED_ITEMS.forEach(id => event.remove(id));
 });
     `;
-    console.log("Generated REI unification script. Disable by setting GENERATE_REI_SCRIPT to false.");
-    console.log(script);
 }

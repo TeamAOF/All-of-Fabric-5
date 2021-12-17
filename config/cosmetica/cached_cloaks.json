@@ -235,11 +235,6 @@
     "cloak": "azure"
   },
   {
-    "name": "VertUmAel",
-    "uuid": "5491f171-baa3-4e66-81ec-4f7956909c71",
-    "cloak": "void"
-  },
-  {
     "name": "ComradeKyuubi",
     "uuid": "c74184c0-956e-4d0d-8d1e-ed80a7e2b9a4",
     "cloak": "mystic"
@@ -1055,11 +1050,6 @@
     "cloak": "asexual"
   },
   {
-    "name": "alexgark01",
-    "uuid": "e00728f1-2008-472e-95f3-dcdb60926903",
-    "cloak": "coffee"
-  },
-  {
     "name": "ox0badErr0r",
     "uuid": "43742860-fdd9-4796-b85c-7f8e37125540",
     "cloak": "uni"
@@ -1210,11 +1200,6 @@
     "cloak": "jeb"
   },
   {
-    "name": "TheTr1gonometry",
-    "uuid": "39e33dd5-4238-4de3-a7f9-57d29efedd76",
-    "cloak": "gay"
-  },
-  {
     "name": "HeyAmAK9",
     "uuid": "38113444-0bc0-4502-9a4c-17903067907c",
     "cloak": "crimson"
@@ -1283,5 +1268,35 @@
     "name": "kingpin_avin",
     "uuid": "c865ab1b-65c6-4a9c-ab26-6cecb5e0c066",
     "cloak": "uni"
+  },
+  {
+    "name": "VertUmAel",
+    "uuid": "5491f171-baa3-4e66-81ec-4f7956909c71",
+    "cloak": "uni"
+  },
+  {
+    "name": "32B_",
+    "uuid": "cb7fadb2-0e3a-444f-8a25-379761cdcffd",
+    "cloak": "military"
+  },
+  {
+    "name": "alexgark01",
+    "uuid": "e00728f1-2008-472e-95f3-dcdb60926903",
+    "cloak": "mint"
+  },
+  {
+    "name": "HyphOn_495",
+    "uuid": "b7f3f9bb-d41b-43e3-a1ff-d8e2412ddd9e",
+    "cloak": "void"
+  },
+  {
+    "name": "Urmom",
+    "uuid": "6f5b9f89-b095-43b0-9c49-03616768999b",
+    "cloak": "swirly"
+  },
+  {
+    "name": "trozo_89",
+    "uuid": "ab8a14a4-63f8-4073-bbb4-b467cfed88f6",
+    "cloak": "azure"
   }
 ]

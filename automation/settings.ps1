@@ -38,11 +38,11 @@ $LAST_MODPACK_VERSION = "0.2.3"
 
 # Changelog Type
 # Can be "markdown", "text" or "html"
-$CLIENT_CHANGELOG_TYPE = "markdown"
+$CLIENT_CHANGELOG_TYPE = "text"
 
 # Changelog
 # Must be a single string.
-$CLIENT_CHANGELOG = "The Changelog is currently being written, it should be done soon."
+$CLIENT_CHANGELOG = "Changelog is being written as you read this //Your AK9."
 
 # =====================================================================//
 #  CURSEFORGE PROJECT SETTINGS

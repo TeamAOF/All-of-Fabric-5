@@ -1,24 +1,42 @@
 {
+	/* The heights where citrine and topaz geodes will spawn
+	   By default citrine will generate slightly below sea level (y=35-55)
+	   while topaz will generate at the top of mountains (everywhere from y=70+)
+	   if the worldgen has lots of high mountains consider raising the TopazGeodeMinFixedGenerationHeight
+	*/
 	"CitrineGeodeMinAboveBottomGenerationHeight": 35,
 	"CitrineGeodeFixedMaxGenerationHeight": 60,
 	"TopazGeodeMinFixedGenerationHeight": 90,
 	"TopazGeodeMaxBelowTopGenerationHeight": 0,
+	// Every x chunks there is a chance for a geode to generate
 	"TopazGeodeChunkChance": 12,
 	"CitrineGeodeChunkChance": 40,
 	"MoonstoneGeodeChunkChance": 35,
+	// The amount of colored tree patches to generate every X chunks
 	"ColoredTreePatchChanceChunk": 50,
+	/* The chance that an Enderman is holding a special treasure block on spawn
+	   Separate value for Endermen spawning in the end, since there are LOTS of them there
+	   Those blocks do not gate progression, so it is not that drastic not finding any right away.
+	   Better to let players stumble about them organically instead of forcing it.
+	*/
 	"EndermanHoldingEnderTreasureChance": 0.07999999821186066,
 	"EndermanHoldingEnderTreasureInEndChance": 0.004999999888241291,
+	// Worlds where shooting stars spawn for players. Shooting Stars will only spawn for players with sufficient progress in the mod
 	"ShootingStarWorlds": [
 		"minecraft:overworld",
 		"starry_sky:starry_sky"
 	],
+	// Worlds where lightning strikes can spawn lightning stones
 	"LightningStonesWorlds": [
 		"minecraft:overworld",
 		"starry_sky:starry_sky"
 	],
 	"LightningStonesChance": 0.4000000059604645,
+	/* Shooting star spawns are checked every night between time 13000 and 22000, every 100 ticks (so 90 chances per night).
+	   By default, there is a 0.02 ^= 2 % chance at each of those check times. Making it ~3 shooting star spawns per night.
+	*/
 	"ShootingStarChance": 0.019999999552965164,
+	// The biomes where the biome specific plants are growing
 	"MermaidsBrushGenerationBiomes": [
 		"minecraft:ocean",
 		"minecraft:cold_ocean",
@@ -34,9 +52,18 @@
 	"QuitoxicReedsGenerationBiomes": [
 		"minecraft:swamp"
 	],
+	/* How fast decay will be spreading on random tick
+	   can be used to slow down propagation speed of decay in the worlds
+	   decay does use very few resources, but if your fear of someone letting decay
+	   spread free or using high random tick rates you can limit the rate here
+	   1.0: every random tick (default)
+	   0.5: Every second random tick
+	   0.0: never (forbidden; players would be unable to progress)
+	*/
 	"FadingDecayTickRate": 1.0,
 	"FailingDecayTickRate": 1.0,
 	"RuinDecayTickRate": 1.0,
+	// Enable or disable specific enchantments. Disabling the voiding enchantment will also disable the Oblivion Pickaxe
 	"AutoSmeltEnchantmentEnabled": true,
 	"ExuberanceEnchantmentEnabled": true,
 	"InventoryInsertionEnchantmentEnabled": true,
@@ -52,6 +79,7 @@
 	"SniperEnchantmentEnabled": true,
 	"TightGripEnchantmentEnabled": true,
 	"DamageProofEnchantmentEnabled": true,
+	// The max levels for all Enchantments
 	"TreasureHunterMaxLevel": 3,
 	"DisarmingMaxLevel": 2,
 	"FirstStrikeMaxLevel": 2,
@@ -59,9 +87,13 @@
 	"InertiaMaxLevel": 3,
 	"CloversFavorMaxLevel": 3,
 	"TightGripMaxLevel": 2,
+	// Exuberance increases experience gained when killing mobs. With 25% bonus XP and 5 levels this would mean 2,25x XP on max level
 	"ExuberanceMaxLevel": 5,
 	"ExuberanceBonusExperiencePercentPerLevel": 0.20000000298023224,
+	// In vanilla, crits are a flat 50 % damage bonus. Improved Critical increases this damage by additional 50 % per level by default
 	"ImprovedCriticalExtraDamageMultiplierPerLevel": 0.5,
+	// Flat additional damage dealt with each level of the First Strike enchantment
 	"FirstStrikeDamagePerLevel": 3.0,
+	// The duration a glow ink sac gives night vision when wearing a glow vision helmet in seconds
 	"GlowVisionGogglesDuration": 180
 }

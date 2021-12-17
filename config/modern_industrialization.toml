@@ -1,5 +1,5 @@
 generateOres = true
-blacklistedOres = ["salt"]
+blacklistedOres = []
 spawnWithGuideBook = false
 respawnWithGuideBook = false
 disableFuelTooltips = true
