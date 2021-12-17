@@ -1,4 +1,53 @@
 
+### All of Fabric 5 | v0.2.4
+
+_Fabric Loader 0.12.12_ | _[Modlist](https://github.com/TeamAOF/All-of-Fabric-5/blob/dev/changelogs/modlist_0.2.4.md)_
+
+**Changes**
+
+- Croptopia salt ore no longer spawns in rivers.
+- Farming has been unified towards Farmers Delight, this includes (Cabbage, Tomato & Bacon).
+- Croptopia knife has been disabled due to slicing bacon now being done through farmers delight.
+
+**Fixes**
+
+- Fixed an issue where graves were deleted before checking if the player could claim the grave. Graves will now only be removed if the player can claim the grave.
+- Fixed Croptopia seeds only being able to be planted on vanilla farmland.
+- Chiseling blocks should now properly work.
+
+**Added**
+- Bewitchment
+- Farmer's Delight
+- Pehkui
+- Spectrum
+- Croptosis
+- Harvest Scythes
+  
+**Removed**  
+- Wild World
+  
+**Updated**  
+- Auth Me: authme-mc1.18.1-2.2.0.jar  
+- BetterCompatibilityChecker: bcc-fabric-1.0.4.jar  
+- Chisel: chisel-1.3.0-1.18.1.jar  
+- Towers of the Wild: Reworked: towers_of_the_wild_reworked-2.1.0.jar  
+- Waystones: wraith-waystones-2.3.5.jar  
+- You're in Grave Danger: youre-in-grave-danger-1.2.8B.jar  
+
+### All of Fabric 5 | v0.2.4
+
+_Fabric Loader 0.12.12_ | _[Modlist](https://github.com/TeamAOF/All-of-Fabric-5/blob/dev/changelogs/modlist_0.2.3.md)_
+
+**Fixes**
+
+- Server crash.
+
+**Removed**
+
+- Spectrum
+
+---
+
 ### All of Fabric 5 | v0.2.2
 
 _Fabric Loader 0.12.12_ | _[Modlist](https://github.com/TeamAOF/All-of-Fabric-5/blob/dev/changelogs/modlist_0.2.2.md)_

@@ -38,11 +38,11 @@ $LAST_MODPACK_VERSION = "0.2.3"
 
 # Changelog Type
 # Can be "markdown", "text" or "html"
-$CLIENT_CHANGELOG_TYPE = "text"
+$CLIENT_CHANGELOG_TYPE = "markdown"
 
 # Changelog
 # Must be a single string.
-$CLIENT_CHANGELOG = "Changelog is being written as you read this //Your AK9."
+$CLIENT_CHANGELOG = "[![](https://i.imgur.com/bfPURVp.jpg)](https://github.com/TeamAOF/All-of-Fabric-5/blob/main/changelogs/CHANGELOG.md)"
 
 # =====================================================================//
 #  CURSEFORGE PROJECT SETTINGS

@@ -404,3 +404,9 @@ automation/ModListCreator-1.2.1.jar
 *.zip
 
 TwitchExportBuilder.exe
+
+config/cosmetica/cached_cloaks.json
+
+config/fabric/indigo-renderer.properties
+
+config/indium-renderer.properties
