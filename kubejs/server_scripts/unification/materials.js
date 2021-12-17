@@ -188,7 +188,7 @@ onEvent('recipes', event => {
         });
     }
 
-    // TR recipes
+    // Tech Reborn
     autoremove("techreborn:{}_storage_block", "techreborn:crafting_table/storage_block/{}_storage_block");
 
     autoremove("techreborn:{}_block", "techreborn:crafting_table/ingot/{}_ingot_from_block");

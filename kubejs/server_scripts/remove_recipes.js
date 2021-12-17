@@ -29,6 +29,7 @@ onEvent('recipes', (event) => {
     'croptopia:bacon',
     'croptopia:cooked_bacon',
     'croptopia:knife',
+    'bewitchment:raw_silver_block',
     ];
 
     id.forEach((id) => {
