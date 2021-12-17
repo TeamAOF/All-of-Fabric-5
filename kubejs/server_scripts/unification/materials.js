@@ -50,8 +50,8 @@ const MATERIALS = [
 ];
 // Order of mods to unify
 const UNIFICATION_ORDER = [
-    "bewitchment",
     "modern_industrialization",
+    "bewitchment",
     "techreborn",
     "croptopia",
     "ae2"

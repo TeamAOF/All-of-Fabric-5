@@ -8,6 +8,8 @@ onEvent('recipes', (event) => {
     'techreborn:rolling_machine/minecart',
     'vanilla-excavators:obsidian_excavator',
     'vanilla-hammers:obsidian_hammer',
+    'croptopia:tomato_to_tomato_seed_shapeless',
+    'croptopia:cabbage_to_cabbage_seed_shapeless',
 
     ];
 
@@ -24,6 +26,9 @@ onEvent('recipes', (event) => {
     'kibe:angel_ring',
     'kibe:light_ring',
     'chisel:chisel',
+    'croptopia:bacon',
+    'croptopia:cooked_bacon',
+    'croptopia:knife',
     ];
 
     id.forEach((id) => {
