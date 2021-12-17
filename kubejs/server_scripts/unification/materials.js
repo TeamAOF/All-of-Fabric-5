@@ -46,11 +46,14 @@ const MATERIALS = [
     "tin",
     "titanium",
     "tungsten",
+    "salt",
 ];
 // Order of mods to unify
 const UNIFICATION_ORDER = [
+    "bewitchment",
     "modern_industrialization",
     "techreborn",
+    "croptopia",
     "ae2"
 ];
 // List of tags NOT to unify
