@@ -32,6 +32,7 @@ _Fabric Loader 0.12.12_ | _[Mod Updates](https://github.com/TeamAOF/All-of-Fabri
 - Harvest Scythes
 - Nature's Compass
 - Stoneholm
+- Winterly
   
 **Removed**  
 - Compact Status Effects
