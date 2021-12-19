@@ -1,7 +1,7 @@
 
 ### All of Fabric 5 | v0.2.4
 
-_Fabric Loader 0.12.12_ | _[Modlist](https://github.com/TeamAOF/All-of-Fabric-5/blob/dev/changelogs/modlist_0.2.4.md)_
+_Fabric Loader 0.12.12_ | _[Mod Updates](https://github.com/TeamAOF/All-of-Fabric-5/blob/dev/changelogs/changelog_mods_0.2.4.md)_ | _[Modlist](https://github.com/TeamAOF/All-of-Fabric-5/blob/dev/changelogs/modlist_0.2.4.md)_
 
 **Changes**
 
@@ -12,6 +12,8 @@ _Fabric Loader 0.12.12_ | _[Modlist](https://github.com/TeamAOF/All-of-Fabric-5/
 - UU Matter production has been altered (40EU/t > 80EU/t) for a total of 200kEU for 1mb of UU Matter.
 - Farming has been unified towards Farmers Delight, this includes (Cabbage, Tomato & Bacon).
 - Croptopia knife has been disabled due to slicing bacon now being done through farmers delight.
+- WTHIT background is now 100% transparent.
+- Moved Armor HUD to center right.
 
 **Fixes**
 
