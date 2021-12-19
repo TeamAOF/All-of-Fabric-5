@@ -63,7 +63,8 @@
       "modern_industrialization:synthetic_oil": 5000268,
       "modern_industrialization:crude_oil": 5524299,
       "modern_industrialization:lubricant": 16761856,
-      "modern_industrialization:synthetic_rubber": 5000268
+      "modern_industrialization:synthetic_rubber": 5000268,
+      "modern_industrialization:uu_matter": 16711927
     },
     "blacklist": []
   },
