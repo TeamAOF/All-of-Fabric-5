@@ -37,14 +37,6 @@ _Fabric Loader 0.12.12_ | _[Mod Updates](https://github.com/TeamAOF/All-of-Fabri
 **Removed**  
 - Compact Status Effects
 - Wild World
-  
-**Updated**  
-- Auth Me: authme-mc1.18.1-2.2.0.jar  
-- BetterCompatibilityChecker: bcc-fabric-1.0.4.jar  
-- Chisel: chisel-1.3.0-1.18.1.jar  
-- Towers of the Wild: Reworked: towers_of_the_wild_reworked-2.1.0.jar  
-- Waystones: wraith-waystones-2.3.5.jar  
-- You're in Grave Danger: youre-in-grave-danger-1.2.8B.jar  
 
 ---
 
