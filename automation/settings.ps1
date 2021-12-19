@@ -26,11 +26,11 @@ $MODPACK_NAME = "all-of-fabric-5"
 $CLIENT_NAME = "All-of-Fabric-5"
 
 # Version Of The Modpack
-$MODPACK_VERSION = "0.2.3"
+$MODPACK_VERSION = "0.2.4"
 
 # Last Version Of The Modpack
 # Needed For Changelog Parsing
-$LAST_MODPACK_VERSION = "0.2.2"
+$LAST_MODPACK_VERSION = "0.2.3"
 
 # =====================================================================//
 #  CHANGELOG SETTINGS
@@ -42,7 +42,7 @@ $CLIENT_CHANGELOG_TYPE = "markdown"
 
 # Changelog
 # Must be a single string.
-$CLIENT_CHANGELOG = "The Changelog is currently being written, it should be done soon."
+$CLIENT_CHANGELOG = "[![](https://i.imgur.com/o5aNlUD.jpg)](https://github.com/TeamAOF/All-of-Fabric-5/blob/main/changelogs/CHANGELOG.md)"
 
 # =====================================================================//
 #  CURSEFORGE PROJECT SETTINGS

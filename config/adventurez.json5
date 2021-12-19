@@ -36,5 +36,6 @@
 	"allow_all_items_on_holder": false,
 	"warthog_rare_chance": 0.009999999776482582,
 	"stoned_heart_duration": 72000,
-	"stoned_heart_amplifier": 0
+	"stoned_heart_amplifier": 0,
+	"allow_other_dragon_hatching": false
 }

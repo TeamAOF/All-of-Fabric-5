@@ -6,7 +6,7 @@
 // AOF Unification Script - MIT licensed. //
 //////////////////////////////////////////////////
 
-const GENERATE_REI_SCRIPT = true;
+const GENERATE_REI_SCRIPT = false;
 // List of part tags to unify.
 const PARTS = [
     "c:{}_blocks",
@@ -46,11 +46,15 @@ const MATERIALS = [
     "tin",
     "titanium",
     "tungsten",
+    "salt",
+    "carbon",
 ];
 // Order of mods to unify
 const UNIFICATION_ORDER = [
     "modern_industrialization",
+    "bewitchment",
     "techreborn",
+    "croptopia",
     "ae2"
 ];
 // List of tags NOT to unify
@@ -185,7 +189,7 @@ onEvent('recipes', event => {
         });
     }
 
-    // TR recipes
+    // Tech Reborn
     autoremove("techreborn:{}_storage_block", "techreborn:crafting_table/storage_block/{}_storage_block");
 
     autoremove("techreborn:{}_block", "techreborn:crafting_table/ingot/{}_ingot_from_block");
@@ -230,6 +234,4 @@ events.listen("kjsextras_rei", event => {
     DELETED_ITEMS.forEach(id => event.remove(id));
 });
     `;
-    console.log("Generated REI unification script. Disable by setting GENERATE_REI_SCRIPT to false.");
-    console.log(script);
 }

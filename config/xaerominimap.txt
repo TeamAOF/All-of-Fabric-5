@@ -7,7 +7,7 @@ debugEntityIcons:false
 debugEntityVariantIds:false
 #INGAME SETTINGS (DO NOT EDIT!)
 updateNotification:false
-minimap:false
+minimap:true
 caveMaps:2
 caveZoom:3
 showWaypoints:true
@@ -34,7 +34,7 @@ lighting:true
 dotsStyle:0
 dotNameScale:1.0
 compassOverWaypoints:false
-showBiome:true
+showBiome:false
 showFlowers:true
 keepWaypointNames:false
 waypointsDistanceExp:0
@@ -56,7 +56,7 @@ alwaysShowDistance:false
 showLightLevel:0
 renderLayerIndex:1
 crossDimensionalTp:true
-showTime:1
+showTime:0
 biomeColorsVanillaMode:false
 lookingAtAngle:10
 lookingAtAngleVertical:180
@@ -72,7 +72,7 @@ hideWaypointCoordinates:false
 renderAllSets:false
 playerArrowOpacity:100
 waypointsBottom:false
-minimapShape:0
+minimapShape:1
 lightOverlayType:0
 lightOverlayMaxLight:7
 lightOverlayMinLight:0
@@ -81,11 +81,11 @@ uiScale:2
 bossHealthPushBox:1
 potionEffectPushBox:1
 minimapFrame:0
-minimapFrameColor:9
+minimapFrameColor:8
 compassColor:9
 showDimensionName:false
 displayMultipleWaypointInfo:1
-entityRadar:false
+entityRadar:true
 adjustHeightForCarpetLikeBlocks:true
 autoConvertWaypointDistanceToKmThreshold:10000
 waypointDistancePrecision:1

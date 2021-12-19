@@ -1,5 +1,4 @@
 {
-  "configVersion": 1,
   "general": {
     "displayTooltip": true,
     "shiftForDetails": false,
@@ -13,16 +12,20 @@
   },
   "overlay": {
     "position": {
+      "align": {
+        "x": "CENTER",
+        "y": "TOP"
+      },
+      "anchor": {
+        "x": "CENTER",
+        "y": "TOP"
+      },
       "x": 0,
       "y": 2,
-      "alignX": "CENTER",
-      "alignY": "TOP",
-      "anchorX": "CENTER",
-      "anchorY": "TOP"
+      "bossBarsOverlap": false
     },
-    "scale": 1.0,
     "color": {
-      "alpha": 80,
+      "alpha": 0,
       "themes": [
         {
           "id": "waila:dark",
@@ -40,7 +43,8 @@
         }
       ],
       "activeTheme": "waila:dark"
-    }
+    },
+    "scale": 1.0
   },
   "formatting": {
     "modName": "§9§o%s",
@@ -48,5 +52,6 @@
     "fluidName": "§f%s",
     "entityName": "§f%s",
     "registryName": "§8%s"
-  }
+  },
+  "configVersion": 1
 }
