@@ -47,6 +47,7 @@ const MATERIALS = [
     "titanium",
     "tungsten",
     "salt",
+    "carbon",
 ];
 // Order of mods to unify
 const UNIFICATION_ORDER = [
