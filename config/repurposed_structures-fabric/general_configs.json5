@@ -37,6 +37,15 @@
 		*/
 		"seeConfigFileForStructureNaturalMobSpawning": "Read comment above"
 	},
+	"RSMiscConfig": {
+		/* 
+		   
+		   
+		   How long before giving up should locate command, explorer maps, and other locating stuff
+		   do when locating a Repurposed Structures's structure. This is in seconds.
+		*/
+		"locateMaxTime": 30.0
+	},
 	"RSBastionsConfig": {
 		/* 
 		   
@@ -60,73 +69,57 @@
 			/* 
 			   
 			   
-			   Replaces vanilla dungeon in Badlands biomes.
 			   Spawn attempts per chunk.
 			   0 for no Dungeons at all and 1000 for max spawnrate.
-			   Note: When set to 0, Vanilla Dungeons spawns again.
 			*/
 			"badlandsDungeonAttemptsPerChunk": 8,
 			/* 
 			   
 			   
-			   Replaces vanilla dungeon in Dark Forest biomes.
 			   Spawn attempts per chunk.
 			   0 for no Dungeons at all and 1000 for max spawnrate.
-			   Note: When set to 0, Vanilla Dungeons spawns again.
 			*/
 			"darkForestDungeonAttemptsPerChunk": 8,
 			/* 
 			   
 			   
-			   Replaces vanilla dungeon in Desert biomes.
 			   Spawn attempts per chunk.
 			   0 for no Dungeons at all and 1000 for max spawnrate.
-			   Note: When set to 0, Vanilla Dungeons spawns again.
 			*/
 			"desertDungeonAttemptsPerChunk": 8,
 			/* 
 			   
 			   
-			   Replaces vanilla dungeon in Jungle biomes.
 			   Spawn attempts per chunk.
 			   0 for no Dungeons at all and 1000 for max spawnrate.
-			   Note: When set to 0, Vanilla Dungeons spawns again.
 			*/
 			"jungleDungeonAttemptsPerChunk": 8,
 			/* 
 			   
 			   
-			   Replaces vanilla dungeon in Mushroom biomes.
 			   Spawn attempts per chunk.
 			   0 for no Dungeons at all and 1000 for max spawnrate.
-			   Note: When set to 0, Vanilla Dungeons spawns again.
 			*/
 			"mushroomDungeonAttemptsPerChunk": 8,
 			/* 
 			   
 			   
-			   Replaces vanilla dungeon in snowy biomes.
 			   Spawn attempts per chunk.
 			   0 for no Dungeons at all and 1000 for max spawnrate.
-			   Note: When set to 0, Vanilla Dungeons spawns again.
 			*/
 			"snowDungeonAttemptsPerChunk": 8,
 			/* 
 			   
 			   
-			   Replaces vanilla dungeon in icy biomes (non-ocean biomes that are super cold or has frozen/ice/icy in name)
 			   Spawn attempts per chunk.
 			   0 for no Dungeons at all and 1000 for max spawnrate.
-			   Note: When set to 0, Vanilla Dungeons spawns again.
 			*/
 			"icyDungeonAttemptsPerChunk": 8,
 			/* 
 			   
 			   
-			   Replaces vanilla dungeon in Swamp biomes.
 			   Spawn attempts per chunk.
 			   0 for no Dungeons at all and 1000 for max spawnrate.
-			   Note: When set to 0, Vanilla Dungeons spawns again.
 			*/
 			"swampDungeonAttemptsPerChunk": 8,
 			/* 
@@ -152,9 +145,6 @@
 			   ocean floor and in water filled caves and ravines.
 			   Spawn attempts per chunk.
 			   0 for no dungeons at all and 1000 for max spawnrate.
-			   Note: Vanilla Dungeons will still generate if this
-			   is on which is unlike the other dungeons from this mod
-			   as those would normally replace the Vanilla Dungeons.
 			*/
 			"oceanDungeonAttemptsPerChunk": 5
 		},
@@ -441,92 +431,72 @@
 			/* 
 			   
 			   
-			   Replaces Mineshafts in Birch biomes.
 			   How often Mineshafts will spawn.
 			   0 for no Mineshafts and 1000 for max spawnrate.
-			   Note: Set this to 0 and restart to spawn Vanilla Mineshafts.
 			*/
 			"birchMineshaftSpawnrate": 40,
 			/* 
 			   
 			   
-			   Replaces Mineshafts in Jungle biomes.
 			   How often Mineshafts will spawn.
 			   0 for no Mineshafts and 1000 for max spawnrate.
-			   Note: Set this to 0 and restart to spawn Vanilla Mineshafts.
 			*/
 			"jungleMineshaftSpawnrate": 40,
 			/* 
 			   
 			   
-			   Replaces Mineshafts in Desert biomes.
 			   How often Mineshafts will spawn.
 			   0 for no Mineshafts and 1000 for max spawnrate.
-			   Note: Set this to 0 and restart to spawn Vanilla Mineshafts.
 			*/
 			"desertMineshaftSpawnrate": 40,
 			/* 
 			   
 			   
-			   Replaces Mineshafts in Mountain (Extreme Hills) biomes.
 			   How often Mineshafts will spawn.
 			   0 for no Mineshafts and 1000 for max spawnrate.
-			   Note: Set this to 0 and restart to spawn Vanilla Mineshafts.
 			*/
 			"stoneMineshaftSpawnrate": 40,
 			/* 
 			   
 			   
-			   Replaces Mineshafts in Savanna biomes.
 			   How often Mineshafts will spawn.
 			   0 for no Mineshafts and 1000 for max spawnrate.
-			   Note: Set this to 0 and restart to spawn Vanilla Mineshafts.
 			*/
 			"savannaMineshaftSpawnrate": 40,
 			/* 
 			   
 			   
-			   Replaces Mineshafts in Snowy/Icy biomes.
 			   Note: Snowy Taiga Biomes will get Ice Mineshaft instead of Taiga theme.
 			   How often Mineshafts will spawn.
 			   0 for no Mineshafts and 1000 for max spawnrate.
-			   Note: Set this to 0 and restart to spawn Vanilla Mineshafts.
 			*/
 			"icyMineshaftSpawnrate": 40,
 			/* 
 			   
 			   
-			   Replaces Mineshafts in Ocean biomes.
 			   How often Mineshafts will spawn.
 			   0 for no Mineshafts and 1000 for max spawnrate.
-			   Note: Set this to 0 and restart to spawn Vanilla Mineshafts.
 			*/
 			"oceanMineshaftSpawnrate": 40,
 			/* 
 			   
 			   
-			   Replaces Mineshafts in Taiga biomes.
 			   How often Mineshafts will spawn.
 			   0 for no Mineshafts and 1000 for max spawnrate.
-			   Note: Set this to 0 and restart to spawn Vanilla Mineshafts.
 			*/
 			"taigaMineshaftSpawnrate": 40,
 			/* 
 			   
 			   
-			   Replaces Mineshafts in Swamps.
 			   How often Mineshafts will spawn.
 			   0 for no Mineshafts and 1000 for max spawnrate.
-			   Note: Set this to 0 and restart to spawn Vanilla Mineshafts.
 			*/
 			"swampMineshaftSpawnrate": 40,
 			/* 
 			   
 			   
-			   Replaces Mineshafts in Dark Forests.
 			   How often Mineshafts will spawn.
 			   0 for no Mineshafts and 1000 for max spawnrate.
-			   Note: Set this to 0 and restart to spawn Vanilla Mineshafts.
 			*/
 			"darkForestMineshaftSpawnrate": 40,
 			/* 
