@@ -37,6 +37,15 @@
 		*/
 		"seeConfigFileForStructureNaturalMobSpawning": "Read comment above"
 	},
+	"RSMiscConfig": {
+		/* 
+		   
+		   
+		   How long before giving up should locate command, explorer maps, and other locating stuff
+		   do when locating a Repurposed Structures's structure. This is in seconds.
+		*/
+		"locateMaxTime": 30.0
+	},
 	"RSBastionsConfig": {
 		/* 
 		   

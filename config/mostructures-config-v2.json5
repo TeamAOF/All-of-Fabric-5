@@ -50,7 +50,7 @@
       "salt": 66996840
     },
     "volcanic_vent": {
-      "activated": true,
+      "activated": false,
       "seperation": 4,
       "spacing": 8,
       "salt": 84981094

@@ -1,3 +1,24 @@
+### All of Fabric 5 | v0.2.5
+
+_Fabric Loader 0.12.12_ | _[Mod Updates](https://github.com/TeamAOF/All-of-Fabric-5/blob/dev/changelogs/changelog_mods_0.2.5.md)_ | _[Modlist](https://github.com/TeamAOF/All-of-Fabric-5/blob/dev/changelogs/modlist_0.2.5.md)_
+
+**Changes**
+
+- Disabled Volcanic Vent structures from spawning.
+
+**Fixes**
+
+- Fixed an issue where chiseled blocks would disappear from the world when updating.
+- Fixed incorrect compatibility version check when joining servers.
+- Fixed crash when inserting fluids into an ME chest using pipes
+- Fixed an issue where you wouldnt be able to curse yourself (turn into a werewolf/vampire).
+- Fixed exploit where you would be able to peek hidden Spectrum content using WTHIT.
+
+**Added**
+
+- [Phosphor (Fabric)](https://www.curseforge.com/minecraft/mc-mods/phosphor)
+
+---
 
 ### All of Fabric 5 | v0.2.4
 
@@ -32,18 +53,11 @@ _Fabric Loader 0.12.12_ | _[Mod Updates](https://github.com/TeamAOF/All-of-Fabri
 - Harvest Scythes
 - Nature's Compass
 - Stoneholm
+- Winterly
   
 **Removed**  
 - Compact Status Effects
 - Wild World
-  
-**Updated**  
-- Auth Me: authme-mc1.18.1-2.2.0.jar  
-- BetterCompatibilityChecker: bcc-fabric-1.0.4.jar  
-- Chisel: chisel-1.3.0-1.18.1.jar  
-- Towers of the Wild: Reworked: towers_of_the_wild_reworked-2.1.0.jar  
-- Waystones: wraith-waystones-2.3.5.jar  
-- You're in Grave Danger: youre-in-grave-danger-1.2.8B.jar  
 
 ---
 
