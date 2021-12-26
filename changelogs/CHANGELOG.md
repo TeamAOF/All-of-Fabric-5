@@ -44,6 +44,7 @@ _Fabric Loader 0.12.12_ | _[Mod Updates](https://github.com/TeamAOF/All-of-Fabri
 - Chiseling blocks should now properly work.
 
 **Added**
+
 - Attribute Fix
 - Bewitchment
 - Farmer's Delight
@@ -56,6 +57,7 @@ _Fabric Loader 0.12.12_ | _[Mod Updates](https://github.com/TeamAOF/All-of-Fabri
 - Winterly
   
 **Removed**  
+
 - Compact Status Effects
 - Wild World
 
@@ -67,7 +69,7 @@ _Fabric Loader 0.12.12_ | _[Modlist](https://github.com/TeamAOF/All-of-Fabric-5/
 
 **Fixes**
 
-- Server crash.
+- Fixed server crash.
 
 **Removed**
 
