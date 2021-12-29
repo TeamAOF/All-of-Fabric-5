@@ -19,10 +19,10 @@
     "processTime": 200
   },
   "dataModel": {
-    "basicDataRequired": 8,
-    "advancedDataRequired": 16,
-    "superiorDataRequired": 32,
-    "selfAwareDataRequired": 64
+    "basicDataRequired": 16,
+    "advancedDataRequired": 64,
+    "superiorDataRequired": 192,
+    "selfAwareDataRequired": 384
   },
   "systemGlitch": {
     "teleportChance": 0.05,

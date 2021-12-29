@@ -4,6 +4,6 @@
     "damageMultiplier": 0.5,
     "defenseMultiplier": 0.25,
     "shouldBroadcastWhenGivenBanner": true,
-    "shouldBroadcastToEveryone": true,
+    "shouldBroadcastToEveryone": false,
     "blacklistedEntities": []
 }

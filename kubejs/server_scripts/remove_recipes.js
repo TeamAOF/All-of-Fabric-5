@@ -1,6 +1,7 @@
 onEvent('recipes', (event) => {
 
     const id = [
+    'indrev:shapeless/steel_dust',
     'techreborn:crafting_table/solar_panel/ultimate_solar_panel_alt',
     'techreborn:crafting_table/solar_panel/industrial_solar_panel_alt',
     'techreborn:crafting_table/solar_panel/advanced_solar_panel_alt',
