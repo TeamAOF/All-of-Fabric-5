@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "CC",
+    "CC"
+  ],
+  "key": {
+    "C": {
+      "item": "blockus:paper_block"
+    }
+  },
+  "result": {
+    "item": "winterly:paper_block",
+    "count": 4
+  }
+}
