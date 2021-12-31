@@ -11,7 +11,7 @@
     //When false, any Naughty Item in a player's inventory will be deleted.
     "naughtyItems": true,
     //When false, can't fly.
-    "reindeerFlying": true,
+    "reindeerFlying": false,
     //The higher the value is, the more frequent it spawns.
     "reindeerSpawnWeight": 1
   }
