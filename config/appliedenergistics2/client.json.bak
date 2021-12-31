@@ -4,15 +4,14 @@
     "enableEffects": true,
     "useTerminalUseLargeFont": false,
     "useColoredCraftingStatus": true,
-    "__comment": "Show a preview of part and facade placement",
+    "__comment": "Show debugging GUI overlays",
     "PowerUnit": "ae",
-    "showDebugGuiOverlays": false,
-    "showPlacementPreview": true
+    "showDebugGuiOverlays": false
   },
   "terminals": {
     "__comment": "Should tooltips be searched. Performance impact",
     "searchTooltips": "yes",
     "terminalStyle": "small",
-    "terminalSearchMode": "default"
+    "terminalSearchMode": "manual_search"
   }
 }

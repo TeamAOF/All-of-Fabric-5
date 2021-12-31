@@ -1,0 +1,35 @@
+{
+  "worldGen": {
+    //This option allows you to turn off the world freezer, so it does not snow or generate with snow
+    //DEFAULT: TRUE
+    "freezeWorld": true,
+    //This option allows you to freeze oceans.
+    //This is generally kept off because it might be more visually appealing.
+    //
+    //DEFAULT: FALSE
+    "freezeOceans": false,
+    //ONLY FOR SPECIFIC SCENARIO!
+    //When you turn off freezeWorld after generating/letting it snow in your world, OR you are removing the mod:
+    //You probably want to remove the snow and ice that's in your world, huh?
+    //SNOW/ICE WILL NOT MELT IN VANILLA. This is because snow only melts with light emitted from blocks.
+    //
+    //This option allows for snow to melt with daylight snow.
+    //HOWEVER, THIS CAN BE LAGGY! That is why this feature is not always on.
+    //It may also not be visually appealing.
+    //
+    //THUS, This is a temporary tool to help transition worlds back into non-Christmas worlds. DO NOT ALWAYS USE!
+    //
+    //DEFAULT: FALSE
+    "meltSnowAndIceWithDaylight": false
+  },
+  "misc": {
+    //1 in x chance when a zombie or skeleton spawns to give them clothing and a present. Range is 0 - 256
+    "mobArmorRarity": 20,
+    //When false, any Naughty Item in a player's inventory will be deleted.
+    "naughtyItems": true,
+    //When false, can't fly.
+    "reindeerFlying": true,
+    //The higher the value is, the more frequent it spawns.
+    "reindeerSpawnWeight": 1
+  }
+}

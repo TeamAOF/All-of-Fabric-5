@@ -5,5 +5,6 @@ respawnWithGuideBook = false
 disableFuelTooltips = true
 disableItemTagTooltips = true
 newVersionMessage = false
+enableHatchPlacementOverlay = true
 colorWaterLava = true
 enableDebugCommands = false

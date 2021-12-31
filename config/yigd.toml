@@ -5,6 +5,7 @@ dropType = "IN_INVENTORY"
 dropPlayerHead = false
 dropGraveBlock = false
 requireGraveItem = false
+generateEmptyGraves = false
 priority = "GRAVE"
 deleteEnchantments = ["minecraft:vanishing_curse"]
 soulboundEnchantments = ["yigd:soulbound"]
@@ -17,10 +18,6 @@ graveSpawnHeight = 2
 lastResort = "DROP_ITEMS"
 defaultXpDrop = false
 xpDropPercent = 50
-renderGraveSkull = true
-renderGraveOwner = true
-adaptRenderer = false
-glowingGrave = false
 tellDeathPos = true
 
 [graveSettings.graveRobbing]
@@ -42,6 +39,14 @@ inOverWorld = "minecraft:cobblestone"
 inNether = "minecraft:soul_soil"
 inTheEnd = "minecraft:end_stone"
 inCustom = "minecraft:dirt"
+
+[graveSettings.graveRenderSettings]
+useRenderFeatures = true
+renderGraveSkull = true
+renderGraveOwner = true
+textShadow = true
+adaptRenderer = false
+glowingGrave = false
 [utilitySettings]
 soulboundEnchant = true
 [commandToggles]
