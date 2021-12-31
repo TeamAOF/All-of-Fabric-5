@@ -6,7 +6,7 @@
 // AOF Unification Script - MIT licensed. //
 //////////////////////////////////////////////////
 
-const GENERATE_REI_SCRIPT = false;
+const GENERATE_REI_SCRIPT = true;
 // List of part tags to unify.
 const PARTS = [
     "c:{}_blocks",
