@@ -8,7 +8,7 @@ noOffhandTorchAtAll = false
 noOffhandTorchWithBlock = true
 noOffhandTorchWithEmptyHand = false
 offhandTorchWithToolOnly = false
-disableStepAssist = false
+disableStepAssist = true
 masterVolumeSlider = true
 musicVolumeSlider = true
 [customization]
