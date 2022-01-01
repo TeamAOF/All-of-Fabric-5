@@ -11,6 +11,8 @@ onEvent('recipes', (event) => {
     'vanilla-hammers:obsidian_hammer',
     'croptopia:tomato_to_tomato_seed_shapeless',
     'croptopia:cabbage_to_cabbage_seed_shapeless',
+    'techreborn:compressor/iridium_plate',
+    'techreborn:compressor/iridium_plate_from_block',
 
     ];
 
