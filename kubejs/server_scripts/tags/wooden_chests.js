@@ -5,9 +5,9 @@
 
 onEvent('tags.items', event => {
 
-event.remove('c:iron_ingots', 'betterend:thallasium_ingot')
+  event.removeAllTagsFrom('betterend:thallasium_ingot')
 
-});
+})
 
 onEvent('recipes', event => {
 

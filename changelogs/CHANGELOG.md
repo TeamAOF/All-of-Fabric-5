@@ -1,3 +1,27 @@
+### All of Fabric 5 | v0.2.6
+
+_Fabric Loader 0.12.12_ | _[Mod Updates](https://github.com/TeamAOF/All-of-Fabric-5/blob/dev/changelogs/changelog_mods_0.2.6.md)_ | _[Modlist](https://github.com/TeamAOF/All-of-Fabric-5/blob/dev/changelogs/modlist_0.2.6.md)_
+
+**Changes**
+
+- Added automation of Blockus and Promenade stone types via the MI Mixer.
+- Enabled silver ore in the world.
+
+**Fixes**
+
+- Fixed recipe conflict with Winterly Paper Block.
+- Fixed registry error preventing server joining with redstone bits.
+- Fixed sign crashes with Wilder World.
+- Fixed rituals using salt as inputs (added salt conversion between MI & BW).
+- Fixed chisel UI not working unless rejoining.
+- Fixed dupe exploit with building staffs.
+
+**Added**
+
+- [Phosphor (Fabric)](https://www.curseforge.com/minecraft/mc-mods/phosphor)
+
+---
+
 ### All of Fabric 5 | v0.2.5
 
 _Fabric Loader 0.12.12_ | _[Mod Updates](https://github.com/TeamAOF/All-of-Fabric-5/blob/dev/changelogs/changelog_mods_0.2.5.md)_ | _[Modlist](https://github.com/TeamAOF/All-of-Fabric-5/blob/dev/changelogs/modlist_0.2.5.md)_

@@ -6,7 +6,7 @@
 // AOF Unification Script - MIT licensed. //
 //////////////////////////////////////////////////
 
-const GENERATE_REI_SCRIPT = true;
+const GENERATE_REI_SCRIPT = false;
 // List of part tags to unify.
 const PARTS = [
     "c:{}_blocks",
@@ -253,7 +253,9 @@ events.listen("kjsextras_rei", event => {
     DELETED_ITEMS.forEach(id => event.remove(id));
 });
     `;
-}
+    console.log("Generated REI unification script.");
+    console.log(script);
+};
 
 onEvent("recipes.serializer.special.flag", event => {
     // Fix indrev recipe types

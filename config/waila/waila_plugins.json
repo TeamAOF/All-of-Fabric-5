@@ -1,4 +1,8 @@
 {
+  "horseinfo": {
+    "enabled": true,
+    "ignore_mount": false
+  },
   "waila": {
     "show_blocks": true,
     "show_fluids": false,
@@ -31,9 +35,5 @@
     "note_block.note": "SHARP",
     "note_block.int_value": false,
     "pet.hide_unknown_owner": false
-  },
-  "horseinfo": {
-    "enabled": true,
-    "ignore_mount": false
   }
 }
