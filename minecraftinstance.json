@@ -41,14 +41,14 @@
   "isMemoryOverride": false,
   "allocatedMemory": 8192,
   "profileImagePath": null,
-  "guid": "efa4dcb4-8262-45c4-b00b-c3ebc20ea8d8",
+  "guid": "98d41034-3cd1-4127-b206-d28ebac68816",
   "gameTypeID": 432,
   "installPath": "C:\\Users\\beatr\\Documents\\Anthon\\CurseForge\\Instances\\All-of-Fabric-5\\",
   "name": "All-of-Fabric-5",
   "cachedScans": [],
   "isValid": true,
-  "lastPreviousMatchUpdate": "2022-01-03T01:26:57.463496Z",
-  "lastRefreshAttempt": "2022-01-03T02:26:57.9934134+01:00",
+  "lastPreviousMatchUpdate": "2022-01-03T08:35:36.825854Z",
+  "lastRefreshAttempt": "2022-01-03T09:35:37.2736564+01:00",
   "isEnabled": true,
   "isPinned": false,
   "gameVersion": "1.18.1",
@@ -71,11 +71,11 @@
     "LastSyncDate": "0001-01-01T00:00:00"
   },
   "preferenceShowAddOnInfo": true,
-  "installDate": "2021-12-30T23:25:14.9656851Z",
+  "installDate": "2022-01-03T08:35:32.7287323Z",
   "installedAddons": [
     {
       "addonID": 394915,
-      "gameInstanceID": "efa4dcb4-8262-45c4-b00b-c3ebc20ea8d8",
+      "gameInstanceID": "98d41034-3cd1-4127-b206-d28ebac68816",
       "installedFile": {
         "id": 3574267,
         "displayName": "bewitchment-1.18-4.jar",
@@ -254,6 +254,7 @@
       "dateUpdated": "2021-12-30T23:28:15.2578938Z",
       "dateLastUpdateAttempted": "0001-01-01T00:00:00",
       "status": 5,
+      "installSource": 0,
       "preferenceAutoInstallUpdates": null,
       "preferenceAlternateFile": false,
       "preferenceIsIgnored": false,
@@ -266,7 +267,7 @@
     },
     {
       "addonID": 544197,
-      "gameInstanceID": "efa4dcb4-8262-45c4-b00b-c3ebc20ea8d8",
+      "gameInstanceID": "98d41034-3cd1-4127-b206-d28ebac68816",
       "installedFile": {
         "id": 3559945,
         "displayName": "v1.1 for 1.18.1",
@@ -358,6 +359,7 @@
       "dateUpdated": "2021-12-30T23:28:15.2070297Z",
       "dateLastUpdateAttempted": "0001-01-01T00:00:00",
       "status": 5,
+      "installSource": 0,
       "preferenceAutoInstallUpdates": null,
       "preferenceAlternateFile": false,
       "preferenceIsIgnored": false,
@@ -370,7 +372,7 @@
     },
     {
       "addonID": 508556,
-      "gameInstanceID": "efa4dcb4-8262-45c4-b00b-c3ebc20ea8d8",
+      "gameInstanceID": "98d41034-3cd1-4127-b206-d28ebac68816",
       "installedFile": {
         "id": 3555370,
         "displayName": "3.0.1",
@@ -501,6 +503,7 @@
       "dateUpdated": "2021-12-30T23:28:15.1521765Z",
       "dateLastUpdateAttempted": "0001-01-01T00:00:00",
       "status": 5,
+      "installSource": 0,
       "preferenceAutoInstallUpdates": null,
       "preferenceAlternateFile": false,
       "preferenceIsIgnored": false,
@@ -513,7 +516,7 @@
     },
     {
       "addonID": 431135,
-      "gameInstanceID": "efa4dcb4-8262-45c4-b00b-c3ebc20ea8d8",
+      "gameInstanceID": "98d41034-3cd1-4127-b206-d28ebac68816",
       "installedFile": {
         "id": 3561290,
         "displayName": "go-fish-1.4.1-1.18.1.jar",
@@ -625,6 +628,7 @@
       "dateUpdated": "2021-12-30T23:28:15.2479227Z",
       "dateLastUpdateAttempted": "0001-01-01T00:00:00",
       "status": 5,
+      "installSource": 0,
       "preferenceAutoInstallUpdates": null,
       "preferenceAlternateFile": false,
       "preferenceIsIgnored": false,
@@ -637,7 +641,7 @@
     },
     {
       "addonID": 495191,
-      "gameInstanceID": "efa4dcb4-8262-45c4-b00b-c3ebc20ea8d8",
+      "gameInstanceID": "98d41034-3cd1-4127-b206-d28ebac68816",
       "installedFile": {
         "id": 3585514,
         "displayName": "bclib-1.2.1-1.18/1.18.1",
@@ -768,6 +772,7 @@
       "dateUpdated": "2021-12-30T23:39:19.3871394Z",
       "dateLastUpdateAttempted": "2021-12-30T23:39:19.3871394Z",
       "status": 5,
+      "installSource": 0,
       "preferenceAutoInstallUpdates": null,
       "preferenceAlternateFile": false,
       "preferenceIsIgnored": false,
@@ -780,7 +785,7 @@
     },
     {
       "addonID": 377109,
-      "gameInstanceID": "efa4dcb4-8262-45c4-b00b-c3ebc20ea8d8",
+      "gameInstanceID": "98d41034-3cd1-4127-b206-d28ebac68816",
       "installedFile": {
         "id": 3586533,
         "displayName": "ToolStats-Fabric-1.18.1-8.0.1.jar",
@@ -866,6 +871,7 @@
       "dateUpdated": "2022-01-01T19:24:14.0753872Z",
       "dateLastUpdateAttempted": "2022-01-01T19:24:14.0753872Z",
       "status": 5,
+      "installSource": 0,
       "preferenceAutoInstallUpdates": null,
       "preferenceAlternateFile": false,
       "preferenceIsIgnored": false,
@@ -878,7 +884,7 @@
     },
     {
       "addonID": 382694,
-      "gameInstanceID": "efa4dcb4-8262-45c4-b00b-c3ebc20ea8d8",
+      "gameInstanceID": "98d41034-3cd1-4127-b206-d28ebac68816",
       "installedFile": {
         "id": 3577332,
         "displayName": "staffofbuilding-1.4.1-1.18.1.jar",
@@ -982,6 +988,7 @@
       "dateUpdated": "2021-12-30T23:30:32.187282Z",
       "dateLastUpdateAttempted": "2021-12-30T23:30:32.187282Z",
       "status": 5,
+      "installSource": 0,
       "preferenceAutoInstallUpdates": null,
       "preferenceAlternateFile": false,
       "preferenceIsIgnored": false,
@@ -994,37 +1001,37 @@
     },
     {
       "addonID": 536984,
-      "gameInstanceID": "efa4dcb4-8262-45c4-b00b-c3ebc20ea8d8",
+      "gameInstanceID": "98d41034-3cd1-4127-b206-d28ebac68816",
       "installedFile": {
-        "id": 3581286,
-        "displayName": "structure-tools-1.0.7.jar",
-        "fileName": "structure-tools-1.0.7.jar",
-        "fileDate": "2021-12-27T01:25:23.93Z",
-        "fileLength": 763254,
+        "id": 3592076,
+        "displayName": "structure-tools-1.0.8.jar",
+        "fileName": "structure-tools-1.0.8.jar",
+        "fileDate": "2022-01-03T06:18:22.573Z",
+        "fileLength": 765140,
         "releaseType": 1,
         "fileStatus": 4,
-        "downloadUrl": "https://edge.forgecdn.net/files/3581/286/structure-tools-1.0.7.jar",
+        "downloadUrl": "https://edge.forgecdn.net/files/3592/76/structure-tools-1.0.8.jar",
         "isAlternate": false,
         "alternateFileId": 0,
         "dependencies": [
           {
-            "id": 82192308,
-            "addonId": 319057,
-            "type": 3,
-            "fileId": 3581286
-          },
-          {
-            "id": 82192309,
+            "id": 82908431,
             "addonId": 306612,
             "type": 3,
-            "fileId": 3581286
+            "fileId": 3592076
+          },
+          {
+            "id": 82908430,
+            "addonId": 319057,
+            "type": 3,
+            "fileId": 3592076
           }
         ],
         "isAvailable": true,
         "modules": [
           {
             "foldername": "META-INF",
-            "fingerprint": 4134400456,
+            "fingerprint": 1690488420,
             "type": 3,
             "invalidFingerprint": false
           },
@@ -1048,7 +1055,7 @@
           },
           {
             "foldername": "fabric.mod.json",
-            "fingerprint": 2852204671,
+            "fingerprint": 2340991850,
             "type": 3,
             "invalidFingerprint": false
           },
@@ -1066,12 +1073,12 @@
           },
           {
             "foldername": "com",
-            "fingerprint": 1757974046,
+            "fingerprint": 2547613490,
             "type": 3,
             "invalidFingerprint": false
           }
         ],
-        "packageFingerprint": 646052586,
+        "packageFingerprint": 2412583923,
         "gameVersion": [
           "1.18.1",
           "Fabric",
@@ -1105,20 +1112,21 @@
         "categorySectionPackageType": 6,
         "restrictProjectFileAccess": 1,
         "projectStatus": 4,
-        "renderCacheId": 2651090,
+        "renderCacheId": 2664122,
         "projectId": 536984,
-        "packageFingerprintId": 819334326,
+        "packageFingerprintId": 825459694,
         "gameVersionDateReleased": "2019-08-01T00:00:00Z",
-        "gameVersionMappingId": 3608491,
+        "gameVersionMappingId": 3634879,
         "gameVersionId": 7499,
         "gameId": 432,
         "isServerPack": false,
-        "FileNameOnDisk": "structure-tools-1.0.7.jar"
+        "FileNameOnDisk": "structure-tools-1.0.8.jar"
       },
-      "dateInstalled": "2021-12-30T23:28:15.2160055Z",
-      "dateUpdated": "2021-12-30T23:30:31.1974117Z",
-      "dateLastUpdateAttempted": "2021-12-30T23:30:31.1974117Z",
-      "status": 5,
+      "dateInstalled": "2022-01-03T08:39:22.1912234Z",
+      "dateUpdated": "2022-01-03T08:39:22.1932184Z",
+      "dateLastUpdateAttempted": "2022-01-03T08:39:22.1932184Z",
+      "status": 4,
+      "installSource": 0,
       "preferenceAutoInstallUpdates": null,
       "preferenceAlternateFile": false,
       "preferenceIsIgnored": false,
@@ -1127,11 +1135,11 @@
       "isFuzzyMatch": false,
       "preferenceReleaseType": null,
       "manifestName": null,
-      "installedTargets": null
+      "installedTargets": []
     },
     {
       "addonID": 470149,
-      "gameInstanceID": "efa4dcb4-8262-45c4-b00b-c3ebc20ea8d8",
+      "gameInstanceID": "98d41034-3cd1-4127-b206-d28ebac68816",
       "installedFile": {
         "id": 3541351,
         "displayName": "Entity Banners 1.0.2-BETA",
@@ -1256,6 +1264,7 @@
       "dateUpdated": "2021-12-30T23:28:15.1771094Z",
       "dateLastUpdateAttempted": "0001-01-01T00:00:00",
       "status": 5,
+      "installSource": 0,
       "preferenceAutoInstallUpdates": null,
       "preferenceAlternateFile": false,
       "preferenceIsIgnored": false,
@@ -1268,7 +1277,7 @@
     },
     {
       "addonID": 412225,
-      "gameInstanceID": "efa4dcb4-8262-45c4-b00b-c3ebc20ea8d8",
+      "gameInstanceID": "98d41034-3cd1-4127-b206-d28ebac68816",
       "installedFile": {
         "id": 3580929,
         "displayName": "Harvest Scythes 2.4.0",
@@ -1457,6 +1466,7 @@
       "dateUpdated": "2021-12-30T23:29:55.5167974Z",
       "dateLastUpdateAttempted": "2021-12-30T23:29:55.5167974Z",
       "status": 5,
+      "installSource": 0,
       "preferenceAutoInstallUpdates": null,
       "preferenceAlternateFile": false,
       "preferenceIsIgnored": false,
@@ -1469,7 +1479,7 @@
     },
     {
       "addonID": 388832,
-      "gameInstanceID": "efa4dcb4-8262-45c4-b00b-c3ebc20ea8d8",
+      "gameInstanceID": "98d41034-3cd1-4127-b206-d28ebac68816",
       "installedFile": {
         "id": 3524209,
         "displayName": "Kibe 1.9.4-BETA",
@@ -1606,6 +1616,7 @@
       "dateUpdated": "2021-12-30T23:28:15.1960591Z",
       "dateLastUpdateAttempted": "0001-01-01T00:00:00",
       "status": 5,
+      "installSource": 0,
       "preferenceAutoInstallUpdates": null,
       "preferenceAlternateFile": false,
       "preferenceIsIgnored": false,
@@ -1618,7 +1629,7 @@
     },
     {
       "addonID": 372124,
-      "gameInstanceID": "efa4dcb4-8262-45c4-b00b-c3ebc20ea8d8",
+      "gameInstanceID": "98d41034-3cd1-4127-b206-d28ebac68816",
       "installedFile": {
         "id": 3573395,
         "displayName": "Phosphor 0.8.1 for Minecraft 1.18.x",
@@ -1737,6 +1748,7 @@
       "dateUpdated": "2021-12-30T23:28:15.1252487Z",
       "dateLastUpdateAttempted": "0001-01-01T00:00:00",
       "status": 5,
+      "installSource": 0,
       "preferenceAutoInstallUpdates": null,
       "preferenceAlternateFile": false,
       "preferenceIsIgnored": false,
@@ -1749,7 +1761,7 @@
     },
     {
       "addonID": 446767,
-      "gameInstanceID": "efa4dcb4-8262-45c4-b00b-c3ebc20ea8d8",
+      "gameInstanceID": "98d41034-3cd1-4127-b206-d28ebac68816",
       "installedFile": {
         "id": 3545623,
         "displayName": "Mo' Colors 1.3.0",
@@ -1860,6 +1872,7 @@
       "dateUpdated": "2021-12-30T23:28:15.2698611Z",
       "dateLastUpdateAttempted": "0001-01-01T00:00:00",
       "status": 5,
+      "installSource": 0,
       "preferenceAutoInstallUpdates": null,
       "preferenceAlternateFile": false,
       "preferenceIsIgnored": false,
@@ -1872,7 +1885,7 @@
     },
     {
       "addonID": 349850,
-      "gameInstanceID": "efa4dcb4-8262-45c4-b00b-c3ebc20ea8d8",
+      "gameInstanceID": "98d41034-3cd1-4127-b206-d28ebac68816",
       "installedFile": {
         "id": 3537842,
         "displayName": "Wither-Totems-Mod-0.3.4-1.18-rc2.jar",
@@ -1992,6 +2005,7 @@
       "dateUpdated": "2021-12-30T23:28:15.1342241Z",
       "dateLastUpdateAttempted": "0001-01-01T00:00:00",
       "status": 5,
+      "installSource": 0,
       "preferenceAutoInstallUpdates": null,
       "preferenceAlternateFile": false,
       "preferenceIsIgnored": false,
@@ -2004,7 +2018,7 @@
     },
     {
       "addonID": 473508,
-      "gameInstanceID": "efa4dcb4-8262-45c4-b00b-c3ebc20ea8d8",
+      "gameInstanceID": "98d41034-3cd1-4127-b206-d28ebac68816",
       "installedFile": {
         "id": 3565219,
         "displayName": "1.1",
@@ -2129,6 +2143,7 @@
       "dateUpdated": "2021-12-30T23:28:15.1591574Z",
       "dateLastUpdateAttempted": "0001-01-01T00:00:00",
       "status": 5,
+      "installSource": 0,
       "preferenceAutoInstallUpdates": null,
       "preferenceAlternateFile": false,
       "preferenceIsIgnored": false,
@@ -2141,7 +2156,7 @@
     },
     {
       "addonID": 360438,
-      "gameInstanceID": "efa4dcb4-8262-45c4-b00b-c3ebc20ea8d8",
+      "gameInstanceID": "98d41034-3cd1-4127-b206-d28ebac68816",
       "installedFile": {
         "id": 3590908,
         "displayName": "Lithium mc1.18.1-0.7.7",
@@ -2258,6 +2273,7 @@
       "dateUpdated": "2022-01-02T23:07:49.811779Z",
       "dateLastUpdateAttempted": "2022-01-02T23:07:49.811779Z",
       "status": 4,
+      "installSource": 0,
       "preferenceAutoInstallUpdates": null,
       "preferenceAlternateFile": false,
       "preferenceIsIgnored": false,
@@ -2270,7 +2286,7 @@
     },
     {
       "addonID": 362669,
-      "gameInstanceID": "efa4dcb4-8262-45c4-b00b-c3ebc20ea8d8",
+      "gameInstanceID": "98d41034-3cd1-4127-b206-d28ebac68816",
       "installedFile": {
         "id": 3591885,
         "displayName": "quickshulker-1.3.3-1.18.jar",
@@ -2381,7 +2397,8 @@
       "dateInstalled": "2022-01-03T01:26:36.9084115Z",
       "dateUpdated": "2022-01-03T01:26:36.9104066Z",
       "dateLastUpdateAttempted": "2022-01-03T01:26:36.9104066Z",
-      "status": 5,
+      "status": 4,
+      "installSource": 0,
       "preferenceAutoInstallUpdates": null,
       "preferenceAlternateFile": false,
       "preferenceIsIgnored": false,
@@ -2394,7 +2411,7 @@
     },
     {
       "addonID": 378266,
-      "gameInstanceID": "efa4dcb4-8262-45c4-b00b-c3ebc20ea8d8",
+      "gameInstanceID": "98d41034-3cd1-4127-b206-d28ebac68816",
       "installedFile": {
         "id": 3567077,
         "displayName": "mostructures-1.3.0-pre1-1.18.jar",
@@ -2513,6 +2530,7 @@
       "dateUpdated": "2021-12-30T23:28:15.1372161Z",
       "dateLastUpdateAttempted": "0001-01-01T00:00:00",
       "status": 5,
+      "installSource": 0,
       "preferenceAutoInstallUpdates": null,
       "preferenceAlternateFile": false,
       "preferenceIsIgnored": false,
@@ -2525,7 +2543,7 @@
     },
     {
       "addonID": 237903,
-      "gameInstanceID": "efa4dcb4-8262-45c4-b00b-c3ebc20ea8d8",
+      "gameInstanceID": "98d41034-3cd1-4127-b206-d28ebac68816",
       "installedFile": {
         "id": 3553654,
         "displayName": "RebornCore-5.1.0-beta.4.jar",
@@ -2643,6 +2661,7 @@
       "dateUpdated": "2021-12-30T23:28:15.127243Z",
       "dateLastUpdateAttempted": "0001-01-01T00:00:00",
       "status": 5,
+      "installSource": 0,
       "preferenceAutoInstallUpdates": null,
       "preferenceAlternateFile": false,
       "preferenceIsIgnored": false,
@@ -2655,7 +2674,7 @@
     },
     {
       "addonID": 403889,
-      "gameInstanceID": "efa4dcb4-8262-45c4-b00b-c3ebc20ea8d8",
+      "gameInstanceID": "98d41034-3cd1-4127-b206-d28ebac68816",
       "installedFile": {
         "id": 3541955,
         "displayName": "1.0.3",
@@ -2803,6 +2822,7 @@
       "dateUpdated": "2021-12-30T23:28:15.1980533Z",
       "dateLastUpdateAttempted": "0001-01-01T00:00:00",
       "status": 5,
+      "installSource": 0,
       "preferenceAutoInstallUpdates": null,
       "preferenceAlternateFile": false,
       "preferenceIsIgnored": false,
@@ -2815,7 +2835,7 @@
     },
     {
       "addonID": 373261,
-      "gameInstanceID": "efa4dcb4-8262-45c4-b00b-c3ebc20ea8d8",
+      "gameInstanceID": "98d41034-3cd1-4127-b206-d28ebac68816",
       "installedFile": {
         "id": 3095961,
         "displayName": "[Fabric 1.16.x/1.17.x] v3.3.1",
@@ -2990,6 +3010,7 @@
       "dateUpdated": "2021-12-30T23:54:04.5396499Z",
       "dateLastUpdateAttempted": "2021-12-30T23:54:04.5396499Z",
       "status": 5,
+      "installSource": 0,
       "preferenceAutoInstallUpdates": null,
       "preferenceAlternateFile": false,
       "preferenceIsIgnored": false,
@@ -3002,7 +3023,7 @@
     },
     {
       "addonID": 491911,
-      "gameInstanceID": "efa4dcb4-8262-45c4-b00b-c3ebc20ea8d8",
+      "gameInstanceID": "98d41034-3cd1-4127-b206-d28ebac68816",
       "installedFile": {
         "id": 3562558,
         "displayName": "urns-v1.0.1-mc1.18.1.jar",
@@ -3094,6 +3115,7 @@
       "dateUpdated": "2021-12-30T23:28:15.2658721Z",
       "dateLastUpdateAttempted": "0001-01-01T00:00:00",
       "status": 5,
+      "installSource": 0,
       "preferenceAutoInstallUpdates": null,
       "preferenceAlternateFile": false,
       "preferenceIsIgnored": false,
@@ -3106,7 +3128,7 @@
     },
     {
       "addonID": 552628,
-      "gameInstanceID": "efa4dcb4-8262-45c4-b00b-c3ebc20ea8d8",
+      "gameInstanceID": "98d41034-3cd1-4127-b206-d28ebac68816",
       "installedFile": {
         "id": 3579785,
         "displayName": "[1.18.1] Winterly 0.3.1",
@@ -3231,6 +3253,7 @@
       "dateUpdated": "2021-12-30T23:30:40.9481803Z",
       "dateLastUpdateAttempted": "2021-12-30T23:30:40.9481803Z",
       "status": 5,
+      "installSource": 0,
       "preferenceAutoInstallUpdates": null,
       "preferenceAlternateFile": false,
       "preferenceIsIgnored": false,
@@ -3243,7 +3266,7 @@
     },
     {
       "addonID": 408366,
-      "gameInstanceID": "efa4dcb4-8262-45c4-b00b-c3ebc20ea8d8",
+      "gameInstanceID": "98d41034-3cd1-4127-b206-d28ebac68816",
       "installedFile": {
         "id": 3541401,
         "displayName": "Slotlock 1.0.4-BETA",
@@ -3362,6 +3385,7 @@
       "dateUpdated": "2021-12-30T23:28:15.2389438Z",
       "dateLastUpdateAttempted": "0001-01-01T00:00:00",
       "status": 5,
+      "installSource": 0,
       "preferenceAutoInstallUpdates": null,
       "preferenceAlternateFile": false,
       "preferenceIsIgnored": false,
@@ -3374,7 +3398,7 @@
     },
     {
       "addonID": 502516,
-      "gameInstanceID": "efa4dcb4-8262-45c4-b00b-c3ebc20ea8d8",
+      "gameInstanceID": "98d41034-3cd1-4127-b206-d28ebac68816",
       "installedFile": {
         "id": 3545612,
         "displayName": "craftingtweaks-fabric-1.18-13.0.0.jar",
@@ -3481,6 +3505,7 @@
       "dateUpdated": "2021-12-30T23:28:15.2269762Z",
       "dateLastUpdateAttempted": "0001-01-01T00:00:00",
       "status": 5,
+      "installSource": 0,
       "preferenceAutoInstallUpdates": null,
       "preferenceAlternateFile": false,
       "preferenceIsIgnored": false,
@@ -3493,7 +3518,7 @@
     },
     {
       "addonID": 473553,
-      "gameInstanceID": "efa4dcb4-8262-45c4-b00b-c3ebc20ea8d8",
+      "gameInstanceID": "98d41034-3cd1-4127-b206-d28ebac68816",
       "installedFile": {
         "id": 3580315,
         "displayName": "dark-enchanting-0.6.3+1.18.jar",
@@ -3604,6 +3629,7 @@
       "dateUpdated": "2021-12-30T23:29:44.4851836Z",
       "dateLastUpdateAttempted": "2021-12-30T23:29:44.4851836Z",
       "status": 5,
+      "installSource": 0,
       "preferenceAutoInstallUpdates": null,
       "preferenceAlternateFile": false,
       "preferenceIsIgnored": false,
@@ -3616,7 +3642,7 @@
     },
     {
       "addonID": 422310,
-      "gameInstanceID": "efa4dcb4-8262-45c4-b00b-c3ebc20ea8d8",
+      "gameInstanceID": "98d41034-3cd1-4127-b206-d28ebac68816",
       "installedFile": {
         "id": 3584343,
         "displayName": "[1.18+] Conjuring 2 - 1.0.18",
@@ -3759,6 +3785,7 @@
       "dateUpdated": "2021-12-30T23:29:41.2692951Z",
       "dateLastUpdateAttempted": "2021-12-30T23:29:41.2692951Z",
       "status": 5,
+      "installSource": 0,
       "preferenceAutoInstallUpdates": null,
       "preferenceAlternateFile": false,
       "preferenceIsIgnored": false,
@@ -3771,7 +3798,7 @@
     },
     {
       "addonID": 552655,
-      "gameInstanceID": "efa4dcb4-8262-45c4-b00b-c3ebc20ea8d8",
+      "gameInstanceID": "98d41034-3cd1-4127-b206-d28ebac68816",
       "installedFile": {
         "id": 3569598,
         "displayName": "1.18.1 [v2.1.0]",
@@ -3888,6 +3915,7 @@
       "dateUpdated": "2021-12-30T23:28:15.1741176Z",
       "dateLastUpdateAttempted": "0001-01-01T00:00:00",
       "status": 5,
+      "installSource": 0,
       "preferenceAutoInstallUpdates": null,
       "preferenceAlternateFile": false,
       "preferenceIsIgnored": false,
@@ -3900,7 +3928,7 @@
     },
     {
       "addonID": 394468,
-      "gameInstanceID": "efa4dcb4-8262-45c4-b00b-c3ebc20ea8d8",
+      "gameInstanceID": "98d41034-3cd1-4127-b206-d28ebac68816",
       "installedFile": {
         "id": 3542074,
         "displayName": "Sodium mc1.18-0.4.0-alpha5",
@@ -4017,124 +4045,7 @@
       "dateUpdated": "2021-12-30T23:28:15.2748478Z",
       "dateLastUpdateAttempted": "0001-01-01T00:00:00",
       "status": 5,
-      "preferenceAutoInstallUpdates": null,
-      "preferenceAlternateFile": false,
-      "preferenceIsIgnored": false,
-      "isModified": false,
-      "isWorkingCopy": false,
-      "isFuzzyMatch": false,
-      "preferenceReleaseType": null,
-      "manifestName": null,
-      "installedTargets": null
-    },
-    {
-      "addonID": 532610,
-      "gameInstanceID": "efa4dcb4-8262-45c4-b00b-c3ebc20ea8d8",
-      "installedFile": {
-        "id": 3587789,
-        "displayName": "[1.18+] oωo - 0.3.13",
-        "fileName": "owo-lib-0.3.13+1.18.jar",
-        "fileDate": "2022-01-01T12:18:29.553Z",
-        "fileLength": 126051,
-        "releaseType": 1,
-        "fileStatus": 4,
-        "downloadUrl": "https://edge.forgecdn.net/files/3587/789/owo-lib-0.3.13+1.18.jar",
-        "isAlternate": false,
-        "alternateFileId": 0,
-        "dependencies": [],
-        "isAvailable": true,
-        "modules": [
-          {
-            "foldername": "META-INF",
-            "fingerprint": 2596587954,
-            "type": 3,
-            "invalidFingerprint": false
-          },
-          {
-            "foldername": "LICENSE_owo-lib",
-            "fingerprint": 516078654,
-            "type": 3,
-            "invalidFingerprint": false
-          },
-          {
-            "foldername": "owo.mixins.json",
-            "fingerprint": 2220493024,
-            "type": 3,
-            "invalidFingerprint": false
-          },
-          {
-            "foldername": "assets",
-            "fingerprint": 1440854540,
-            "type": 3,
-            "invalidFingerprint": false
-          },
-          {
-            "foldername": "fabric.mod.json",
-            "fingerprint": 2231662698,
-            "type": 3,
-            "invalidFingerprint": false
-          },
-          {
-            "foldername": "owo-lib-refmap.json",
-            "fingerprint": 2408164410,
-            "type": 3,
-            "invalidFingerprint": false
-          },
-          {
-            "foldername": "io",
-            "fingerprint": 232930439,
-            "type": 3,
-            "invalidFingerprint": false
-          }
-        ],
-        "packageFingerprint": 1540959977,
-        "gameVersion": [
-          "1.18.1",
-          "Fabric",
-          "1.18"
-        ],
-        "sortableGameVersion": [
-          {
-            "gameVersionPadded": "0000000001.0000000018.0000000001",
-            "gameVersion": "1.18.1",
-            "gameVersionReleaseDate": "2021-12-10T10:37:38.06Z",
-            "gameVersionName": "1.18.1",
-            "gameVersionTypeId": 73250
-          },
-          {
-            "gameVersionPadded": "0",
-            "gameVersion": "",
-            "gameVersionReleaseDate": "2019-08-01T00:00:00Z",
-            "gameVersionName": "Fabric",
-            "gameVersionTypeId": 68441
-          },
-          {
-            "gameVersionPadded": "0000000001.0000000018",
-            "gameVersion": "1.18",
-            "gameVersionReleaseDate": "2021-11-30T16:23:01.427Z",
-            "gameVersionName": "1.18",
-            "gameVersionTypeId": 73250
-          }
-        ],
-        "hasInstallScript": false,
-        "isCompatibleWithClient": true,
-        "categorySectionPackageType": 6,
-        "restrictProjectFileAccess": 1,
-        "projectStatus": 4,
-        "renderCacheId": 2659209,
-        "projectId": 532610,
-        "packageFingerprintId": 823939260,
-        "gameVersionDateReleased": "2019-08-01T00:00:00Z",
-        "gameVersionMappingId": 3626393,
-        "gameVersionId": 7499,
-        "gameId": 432,
-        "isServerPack": false,
-        "FileNameOnDisk": "owo-lib-0.3.13+1.18.jar"
-      },
-      "dateInstalled": "2021-12-30T23:28:15.1631472Z",
-      "dateUpdated": "2022-01-01T19:24:16.2625713Z",
-      "dateLastUpdateAttempted": "2022-01-01T19:24:16.2625713Z",
-      "status": 5,
+      "installSource": 0,
       "preferenceAutoInstallUpdates": null,
       "preferenceAlternateFile": false,
       "preferenceIsIgnored": false,
@@ -4147,7 +4058,7 @@
     },
     {
       "addonID": 461316,
-      "gameInstanceID": "efa4dcb4-8262-45c4-b00b-c3ebc20ea8d8",
+      "gameInstanceID": "98d41034-3cd1-4127-b206-d28ebac68816",
       "installedFile": {
         "id": 3581836,
         "displayName": "Wireless Networks 1.4.1",
@@ -4266,6 +4177,7 @@
       "dateUpdated": "2021-12-30T23:48:02.0289621Z",
       "dateLastUpdateAttempted": "2021-12-30T23:48:02.0289621Z",
       "status": 5,
+      "installSource": 0,
       "preferenceAutoInstallUpdates": null,
       "preferenceAlternateFile": false,
       "preferenceIsIgnored": false,
@@ -4278,7 +4190,7 @@
     },
     {
       "addonID": 280294,
-      "gameInstanceID": "efa4dcb4-8262-45c4-b00b-c3ebc20ea8d8",
+      "gameInstanceID": "98d41034-3cd1-4127-b206-d28ebac68816",
       "installedFile": {
         "id": 3548893,
         "displayName": "FpsReducer-fabric-1.25-mc1.18.jar",
@@ -4391,6 +4303,7 @@
       "dateUpdated": "2021-12-30T23:28:15.2708594Z",
       "dateLastUpdateAttempted": "0001-01-01T00:00:00",
       "status": 5,
+      "installSource": 0,
       "preferenceAutoInstallUpdates": null,
       "preferenceAlternateFile": false,
       "preferenceIsIgnored": false,
@@ -4403,7 +4316,7 @@
     },
     {
       "addonID": 435141,
-      "gameInstanceID": "efa4dcb4-8262-45c4-b00b-c3ebc20ea8d8",
+      "gameInstanceID": "98d41034-3cd1-4127-b206-d28ebac68816",
       "installedFile": {
         "id": 3578747,
         "displayName": "no_angled_brackets-universal-1.1.0.jar",
@@ -4541,6 +4454,7 @@
       "dateUpdated": "2021-12-30T23:56:26.1431706Z",
       "dateLastUpdateAttempted": "2021-12-30T23:56:26.1431706Z",
       "status": 5,
+      "installSource": 0,
       "preferenceAutoInstallUpdates": null,
       "preferenceAlternateFile": false,
       "preferenceIsIgnored": false,
@@ -4553,7 +4467,7 @@
     },
     {
       "addonID": 308702,
-      "gameInstanceID": "efa4dcb4-8262-45c4-b00b-c3ebc20ea8d8",
+      "gameInstanceID": "98d41034-3cd1-4127-b206-d28ebac68816",
       "installedFile": {
         "id": 3570652,
         "displayName": "Mod Menu v3.0.1 for 1.18 and 1.18.1",
@@ -4665,6 +4579,7 @@
       "dateUpdated": "2021-12-30T23:28:15.1731198Z",
       "dateLastUpdateAttempted": "0001-01-01T00:00:00",
       "status": 5,
+      "installSource": 0,
       "preferenceAutoInstallUpdates": null,
       "preferenceAlternateFile": false,
       "preferenceIsIgnored": false,
@@ -4677,7 +4592,7 @@
     },
     {
       "addonID": 554340,
-      "gameInstanceID": "efa4dcb4-8262-45c4-b00b-c3ebc20ea8d8",
+      "gameInstanceID": "98d41034-3cd1-4127-b206-d28ebac68816",
       "installedFile": {
         "id": 3574745,
         "displayName": "catwalks-inc-1.1.0.jar",
@@ -4802,6 +4717,7 @@
       "dateUpdated": "2021-12-30T23:29:20.0791573Z",
       "dateLastUpdateAttempted": "2021-12-30T23:29:20.0791573Z",
       "status": 5,
+      "installSource": 0,
       "preferenceAutoInstallUpdates": null,
       "preferenceAlternateFile": false,
       "preferenceIsIgnored": false,
@@ -4814,7 +4730,7 @@
     },
     {
       "addonID": 390027,
-      "gameInstanceID": "efa4dcb4-8262-45c4-b00b-c3ebc20ea8d8",
+      "gameInstanceID": "98d41034-3cd1-4127-b206-d28ebac68816",
       "installedFile": {
         "id": 3568159,
         "displayName": "hwyla-addon-horseinfo-0.4.1-1.18.jar",
@@ -4923,6 +4839,7 @@
       "dateUpdated": "2021-12-30T23:28:15.2638771Z",
       "dateLastUpdateAttempted": "0001-01-01T00:00:00",
       "status": 5,
+      "installSource": 0,
       "preferenceAutoInstallUpdates": null,
       "preferenceAlternateFile": false,
       "preferenceIsIgnored": false,
@@ -4935,7 +4852,7 @@
     },
     {
       "addonID": 365521,
-      "gameInstanceID": "efa4dcb4-8262-45c4-b00b-c3ebc20ea8d8",
+      "gameInstanceID": "98d41034-3cd1-4127-b206-d28ebac68816",
       "installedFile": {
         "id": 3550632,
         "displayName": "1.5.0",
@@ -5057,6 +4974,7 @@
       "dateUpdated": "2021-12-30T23:28:15.1860857Z",
       "dateLastUpdateAttempted": "0001-01-01T00:00:00",
       "status": 5,
+      "installSource": 0,
       "preferenceAutoInstallUpdates": null,
       "preferenceAlternateFile": false,
       "preferenceIsIgnored": false,
@@ -5069,7 +4987,7 @@
     },
     {
       "addonID": 400619,
-      "gameInstanceID": "efa4dcb4-8262-45c4-b00b-c3ebc20ea8d8",
+      "gameInstanceID": "98d41034-3cd1-4127-b206-d28ebac68816",
       "installedFile": {
         "id": 3580905,
         "displayName": "dankstorage-1.18.1-3.3.jar",
@@ -5185,6 +5103,7 @@
       "dateUpdated": "2021-12-30T23:29:43.3750089Z",
       "dateLastUpdateAttempted": "2021-12-30T23:29:43.3750089Z",
       "status": 5,
+      "installSource": 0,
       "preferenceAutoInstallUpdates": null,
       "preferenceAlternateFile": false,
       "preferenceIsIgnored": false,
@@ -5197,7 +5116,7 @@
     },
     {
       "addonID": 391708,
-      "gameInstanceID": "efa4dcb4-8262-45c4-b00b-c3ebc20ea8d8",
+      "gameInstanceID": "98d41034-3cd1-4127-b206-d28ebac68816",
       "installedFile": {
         "id": 3579919,
         "displayName": "Industrial Revolution 1.13.2-BETA",
@@ -5322,6 +5241,7 @@
       "dateUpdated": "2021-12-30T23:49:33.5326738Z",
       "dateLastUpdateAttempted": "2021-12-30T23:49:33.5326738Z",
       "status": 5,
+      "installSource": 0,
       "preferenceAutoInstallUpdates": null,
       "preferenceAlternateFile": false,
       "preferenceIsIgnored": false,
@@ -5334,7 +5254,7 @@
     },
     {
       "addonID": 349938,
-      "gameInstanceID": "efa4dcb4-8262-45c4-b00b-c3ebc20ea8d8",
+      "gameInstanceID": "98d41034-3cd1-4127-b206-d28ebac68816",
       "installedFile": {
         "id": 3543409,
         "displayName": "BLAST-1.8.2.jar",
@@ -5427,6 +5347,7 @@
       "dateUpdated": "2021-12-30T23:28:15.1551686Z",
       "dateLastUpdateAttempted": "0001-01-01T00:00:00",
       "status": 5,
+      "installSource": 0,
       "preferenceAutoInstallUpdates": null,
       "preferenceAlternateFile": false,
       "preferenceIsIgnored": false,
@@ -5438,90 +5359,85 @@
       "installedTargets": null
     },
     {
-      "addonID": 393392,
-      "gameInstanceID": "efa4dcb4-8262-45c4-b00b-c3ebc20ea8d8",
+      "addonID": 225738,
+      "gameInstanceID": "98d41034-3cd1-4127-b206-d28ebac68816",
       "installedFile": {
-        "id": 3545764,
-        "displayName": "Straw Dummy 1.6.0",
-        "fileName": "strawdummy-1.6.0.jar",
-        "fileDate": "2021-12-02T21:27:20.387Z",
-        "fileLength": 110662,
+        "id": 3545921,
+        "displayName": "MmmMmmMmmMmm-1.18-1.5.0-FABRIC.jar",
+        "fileName": "MmmMmmMmmMmm-1.18-1.5.0-FABRIC.jar",
+        "fileDate": "2021-12-02T23:42:19.057Z",
+        "fileLength": 98302,
         "releaseType": 1,
         "fileStatus": 4,
-        "downloadUrl": "https://edge.forgecdn.net/files/3545/764/strawdummy-1.6.0.jar",
+        "downloadUrl": "https://edge.forgecdn.net/files/3545/921/MmmMmmMmmMmm-1.18-1.5.0-FABRIC.jar",
         "isAlternate": false,
         "alternateFileId": 0,
-        "dependencies": [
-          {
-            "id": 79853316,
-            "addonId": 308769,
-            "type": 3,
-            "fileId": 3545764
-          },
-          {
-            "id": 79853315,
-            "addonId": 306612,
-            "type": 3,
-            "fileId": 3545764
-          }
-        ],
+        "dependencies": [],
         "isAvailable": true,
         "modules": [
           {
             "foldername": "META-INF",
-            "fingerprint": 1182478576,
+            "fingerprint": 109259916,
             "type": 3,
             "invalidFingerprint": false
           },
           {
-            "foldername": "LICENSE",
-            "fingerprint": 1185419476,
-            "type": 3,
-            "invalidFingerprint": false
-          },
-          {
-            "foldername": "strawdummy.mixins.json",
-            "fingerprint": 1690526355,
+            "foldername": "LICENSE_dummmmmmy",
+            "fingerprint": 18375977,
             "type": 3,
             "invalidFingerprint": false
           },
           {
             "foldername": "fabric.mod.json",
-            "fingerprint": 142818558,
+            "fingerprint": 4051597815,
+            "type": 3,
+            "invalidFingerprint": false
+          },
+          {
+            "foldername": "dummmmmmy.mixins.json",
+            "fingerprint": 939531585,
             "type": 3,
             "invalidFingerprint": false
           },
           {
             "foldername": "data",
-            "fingerprint": 2577943024,
+            "fingerprint": 1128644385,
             "type": 3,
             "invalidFingerprint": false
           },
           {
             "foldername": "assets",
-            "fingerprint": 3235715327,
+            "fingerprint": 123080888,
             "type": 3,
             "invalidFingerprint": false
           },
           {
-            "foldername": "strawdummy-refmap.json",
-            "fingerprint": 1170262616,
+            "foldername": "dummmmmmy-refmap.json",
+            "fingerprint": 2345059856,
             "type": 3,
             "invalidFingerprint": false
           },
           {
-            "foldername": "me",
-            "fingerprint": 2933902410,
+            "foldername": "net",
+            "fingerprint": 357625987,
             "type": 3,
             "invalidFingerprint": false
           }
         ],
-        "packageFingerprint": 549682920,
+        "packageFingerprint": 2443664334,
         "gameVersion": [
+          "1.18.1",
           "Fabric",
           "1.18"
         ],
         "sortableGameVersion": [
+          {
+            "gameVersionPadded": "0000000001.0000000018.0000000001",
+            "gameVersion": "1.18.1",
+            "gameVersionReleaseDate": "2021-12-10T10:37:38.06Z",
+            "gameVersionName": "1.18.1",
+            "gameVersionTypeId": 73250
+          },
           {
             "gameVersionPadded": "0",
             "gameVersion": "",
@@ -5542,20 +5458,21 @@
         "categorySectionPackageType": 6,
         "restrictProjectFileAccess": 1,
         "projectStatus": 4,
-        "renderCacheId": 2608932,
-        "projectId": 393392,
-        "packageFingerprintId": 798651138,
+        "renderCacheId": 2609109,
+        "projectId": 225738,
+        "packageFingerprintId": 798710848,
         "gameVersionDateReleased": "2019-08-01T00:00:00Z",
-        "gameVersionMappingId": 3519371,
+        "gameVersionMappingId": 3519815,
         "gameVersionId": 7499,
         "gameId": 432,
         "isServerPack": false,
-        "FileNameOnDisk": "strawdummy-1.6.0.jar"
+        "FileNameOnDisk": "MmmMmmMmmMmm-1.18-1.5.0-FABRIC.jar"
       },
-      "dateInstalled": "2021-12-30T23:28:15.260885Z",
-      "dateUpdated": "2021-12-30T23:28:15.260885Z",
-      "dateLastUpdateAttempted": "0001-01-01T00:00:00",
-      "status": 5,
+      "dateInstalled": "2022-01-03T08:37:34.2954586Z",
+      "dateUpdated": "2022-01-03T08:37:34.3024403Z",
+      "dateLastUpdateAttempted": "2022-01-03T08:37:34.3024403Z",
+      "status": 4,
+      "installSource": 0,
       "preferenceAutoInstallUpdates": null,
       "preferenceAlternateFile": false,
       "preferenceIsIgnored": false,
@@ -5564,11 +5481,11 @@
       "isFuzzyMatch": false,
       "preferenceReleaseType": null,
       "manifestName": null,
-      "installedTargets": null
+      "installedTargets": []
     },
     {
       "addonID": 501456,
-      "gameInstanceID": "efa4dcb4-8262-45c4-b00b-c3ebc20ea8d8",
+      "gameInstanceID": "98d41034-3cd1-4127-b206-d28ebac68816",
       "installedFile": {
         "id": 3477938,
         "displayName": "Villager Hats 1.2.1",
@@ -5709,6 +5626,7 @@
       "dateUpdated": "2021-12-30T23:28:15.2778401Z",
       "dateLastUpdateAttempted": "0001-01-01T00:00:00",
       "status": 5,
+      "installSource": 0,
       "preferenceAutoInstallUpdates": null,
       "preferenceAlternateFile": false,
       "preferenceIsIgnored": false,
@@ -5721,7 +5639,7 @@
     },
     {
       "addonID": 547689,
-      "gameInstanceID": "efa4dcb4-8262-45c4-b00b-c3ebc20ea8d8",
+      "gameInstanceID": "98d41034-3cd1-4127-b206-d28ebac68816",
       "installedFile": {
         "id": 3549376,
         "displayName": "trashslot-fabric-1.18-11.0.0.jar",
@@ -5834,6 +5752,7 @@
       "dateUpdated": "2021-12-30T23:28:15.2339573Z",
       "dateLastUpdateAttempted": "0001-01-01T00:00:00",
       "status": 5,
+      "installSource": 0,
       "preferenceAutoInstallUpdates": null,
       "preferenceAlternateFile": false,
       "preferenceIsIgnored": false,
@@ -5846,7 +5765,7 @@
     },
     {
       "addonID": 549363,
-      "gameInstanceID": "efa4dcb4-8262-45c4-b00b-c3ebc20ea8d8",
+      "gameInstanceID": "98d41034-3cd1-4127-b206-d28ebac68816",
       "installedFile": {
         "id": 3583931,
         "displayName": "Floral Flair 1.1.0 1.18.1",
@@ -5944,6 +5863,7 @@
       "dateUpdated": "2021-12-30T23:46:55.6396133Z",
       "dateLastUpdateAttempted": "2021-12-30T23:46:55.6396133Z",
       "status": 5,
+      "installSource": 0,
       "preferenceAutoInstallUpdates": null,
       "preferenceAlternateFile": false,
       "preferenceIsIgnored": false,
@@ -5956,7 +5876,7 @@
     },
     {
       "addonID": 547692,
-      "gameInstanceID": "efa4dcb4-8262-45c4-b00b-c3ebc20ea8d8",
+      "gameInstanceID": "98d41034-3cd1-4127-b206-d28ebac68816",
       "installedFile": {
         "id": 3549496,
         "displayName": "clienttweaks-fabric-1.18-7.0.0.jar",
@@ -6075,6 +5995,7 @@
       "dateUpdated": "2021-12-30T23:28:15.2798348Z",
       "dateLastUpdateAttempted": "0001-01-01T00:00:00",
       "status": 5,
+      "installSource": 0,
       "preferenceAutoInstallUpdates": null,
       "preferenceAlternateFile": false,
       "preferenceIsIgnored": false,
@@ -6087,7 +6008,7 @@
     },
     {
       "addonID": 356643,
-      "gameInstanceID": "efa4dcb4-8262-45c4-b00b-c3ebc20ea8d8",
+      "gameInstanceID": "98d41034-3cd1-4127-b206-d28ebac68816",
       "installedFile": {
         "id": 3569439,
         "displayName": "Auth Me v2.2.0 for Minecraft 1.18.1",
@@ -6204,6 +6125,7 @@
       "dateUpdated": "2021-12-30T23:28:15.1641446Z",
       "dateLastUpdateAttempted": "0001-01-01T00:00:00",
       "status": 5,
+      "installSource": 0,
       "preferenceAutoInstallUpdates": null,
       "preferenceAlternateFile": false,
       "preferenceIsIgnored": false,
@@ -6216,7 +6138,7 @@
     },
     {
       "addonID": 547694,
-      "gameInstanceID": "efa4dcb4-8262-45c4-b00b-c3ebc20ea8d8",
+      "gameInstanceID": "98d41034-3cd1-4127-b206-d28ebac68816",
       "installedFile": {
         "id": 3549418,
         "displayName": "defaultoptions-fabric-1.18-14.0.0.jar",
@@ -6335,6 +6257,145 @@
       "dateUpdated": "2021-12-30T23:28:15.2319626Z",
       "dateLastUpdateAttempted": "0001-01-01T00:00:00",
       "status": 5,
+      "installSource": 0,
+      "preferenceAutoInstallUpdates": null,
+      "preferenceAlternateFile": false,
+      "preferenceIsIgnored": false,
+      "isModified": false,
+      "isWorkingCopy": false,
+      "isFuzzyMatch": false,
+      "preferenceReleaseType": null,
+      "manifestName": null,
+      "installedTargets": null
+    },
+    {
+      "addonID": 547695,
+      "gameInstanceID": "98d41034-3cd1-4127-b206-d28ebac68816",
+      "installedFile": {
+        "id": 3549467,
+        "displayName": "kleeslabs-fabric-1.18-11.0.0.jar",
+        "fileName": "kleeslabs-fabric-1.18-11.0.0.jar",
+        "fileDate": "2021-12-04T21:40:03.13Z",
+        "fileLength": 283864,
+        "releaseType": 1,
+        "fileStatus": 4,
+        "downloadUrl": "https://edge.forgecdn.net/files/3549/467/kleeslabs-fabric-1.18-11.0.0.jar",
+        "isAlternate": false,
+        "alternateFileId": 0,
+        "dependencies": [
+          {
+            "id": 80593190,
+            "addonId": 500525,
+            "type": 3,
+            "fileId": 3549467
+          }
+        ],
+        "isAvailable": true,
+        "modules": [
+          {
+            "foldername": "META-INF",
+            "fingerprint": 2242172037,
+            "type": 3,
+            "invalidFingerprint": false
+          },
+          {
+            "foldername": "pack.mcmeta",
+            "fingerprint": 2385089543,
+            "type": 3,
+            "invalidFingerprint": false
+          },
+          {
+            "foldername": "kleeslabs.mixins.json",
+            "fingerprint": 3467624140,
+            "type": 3,
+            "invalidFingerprint": false
+          },
+          {
+            "foldername": "kleeslabs-icon.png",
+            "fingerprint": 2347385771,
+            "type": 3,
+            "invalidFingerprint": false
+          },
+          {
+            "foldername": "fabric.mod.json",
+            "fingerprint": 1844061648,
+            "type": 3,
+            "invalidFingerprint": false
+          },
+          {
+            "foldername": "data",
+            "fingerprint": 2057665571,
+            "type": 3,
+            "invalidFingerprint": false
+          },
+          {
+            "foldername": "assets",
+            "fingerprint": 1160343902,
+            "type": 3,
+            "invalidFingerprint": false
+          },
+          {
+            "foldername": "kleeslabs-fabric-1.18-refmap.json",
+            "fingerprint": 1515355482,
+            "type": 3,
+            "invalidFingerprint": false
+          },
+          {
+            "foldername": "net",
+            "fingerprint": 843068057,
+            "type": 3,
+            "invalidFingerprint": false
+          }
+        ],
+        "packageFingerprint": 2898946726,
+        "gameVersion": [
+          "1.18.1",
+          "Fabric",
+          "1.18"
+        ],
+        "sortableGameVersion": [
+          {
+            "gameVersionPadded": "0000000001.0000000018.0000000001",
+            "gameVersion": "1.18.1",
+            "gameVersionReleaseDate": "2021-12-10T10:37:38.06Z",
+            "gameVersionName": "1.18.1",
+            "gameVersionTypeId": 73250
+          },
+          {
+            "gameVersionPadded": "0",
+            "gameVersion": "",
+            "gameVersionReleaseDate": "2019-08-01T00:00:00Z",
+            "gameVersionName": "Fabric",
+            "gameVersionTypeId": 68441
+          },
+          {
+            "gameVersionPadded": "0000000001.0000000018",
+            "gameVersion": "1.18",
+            "gameVersionReleaseDate": "2021-11-30T16:23:01.427Z",
+            "gameVersionName": "1.18",
+            "gameVersionTypeId": 73250
+          }
+        ],
+        "hasInstallScript": false,
+        "isCompatibleWithClient": true,
+        "categorySectionPackageType": 6,
+        "restrictProjectFileAccess": 1,
+        "projectStatus": 4,
+        "renderCacheId": 2613157,
+        "projectId": 547695,
+        "packageFingerprintId": 800047918,
+        "gameVersionDateReleased": "2019-08-01T00:00:00Z",
+        "gameVersionMappingId": 3527605,
+        "gameVersionId": 7499,
+        "gameId": 432,
+        "isServerPack": false,
+        "FileNameOnDisk": "kleeslabs-fabric-1.18-11.0.0.jar"
+      },
+      "dateInstalled": "2022-01-03T08:36:35.5438653Z",
+      "dateUpdated": "2022-01-03T08:36:35.5458607Z",
+      "dateLastUpdateAttempted": "2022-01-03T08:36:35.5458607Z",
+      "status": 4,
+      "installSource": 0,
       "preferenceAutoInstallUpdates": null,
       "preferenceAlternateFile": false,
       "preferenceIsIgnored": false,
@@ -6347,7 +6408,7 @@
     },
     {
       "addonID": 547696,
-      "gameInstanceID": "efa4dcb4-8262-45c4-b00b-c3ebc20ea8d8",
+      "gameInstanceID": "98d41034-3cd1-4127-b206-d28ebac68816",
       "installedFile": {
         "id": 3549514,
         "displayName": "netherportalfix-fabric-1.18-9.0.0.jar",
@@ -6466,6 +6527,7 @@
       "dateUpdated": "2021-12-30T23:28:15.199051Z",
       "dateLastUpdateAttempted": "0001-01-01T00:00:00",
       "status": 5,
+      "installSource": 0,
       "preferenceAutoInstallUpdates": null,
       "preferenceAlternateFile": false,
       "preferenceIsIgnored": false,
@@ -6478,7 +6540,7 @@
     },
     {
       "addonID": 544912,
-      "gameInstanceID": "efa4dcb4-8262-45c4-b00b-c3ebc20ea8d8",
+      "gameInstanceID": "98d41034-3cd1-4127-b206-d28ebac68816",
       "installedFile": {
         "id": 3585674,
         "displayName": "youre-in-grave-danger-1.2.10",
@@ -6595,6 +6657,7 @@
       "dateUpdated": "2021-12-30T23:30:44.5933398Z",
       "dateLastUpdateAttempted": "2021-12-30T23:30:44.5933398Z",
       "status": 5,
+      "installSource": 0,
       "preferenceAutoInstallUpdates": null,
       "preferenceAlternateFile": false,
       "preferenceIsIgnored": false,
@@ -6607,7 +6670,7 @@
     },
     {
       "addonID": 433518,
-      "gameInstanceID": "efa4dcb4-8262-45c4-b00b-c3ebc20ea8d8",
+      "gameInstanceID": "98d41034-3cd1-4127-b206-d28ebac68816",
       "installedFile": {
         "id": 3209972,
         "displayName": "LazyDFU 0.1.2",
@@ -6849,6 +6912,7 @@
       "dateUpdated": "2021-12-30T23:28:15.1432001Z",
       "dateLastUpdateAttempted": "0001-01-01T00:00:00",
       "status": 5,
+      "installSource": 0,
       "preferenceAutoInstallUpdates": null,
       "preferenceAlternateFile": false,
       "preferenceIsIgnored": false,
@@ -6861,30 +6925,30 @@
     },
     {
       "addonID": 420709,
-      "gameInstanceID": "efa4dcb4-8262-45c4-b00b-c3ebc20ea8d8",
+      "gameInstanceID": "98d41034-3cd1-4127-b206-d28ebac68816",
       "installedFile": {
-        "id": 3584046,
-        "displayName": "bitsandchisels-2.6.3.jar",
-        "fileName": "bitsandchisels-2.6.3.jar",
-        "fileDate": "2021-12-29T04:27:27.033Z",
-        "fileLength": 885522,
+        "id": 3592089,
+        "displayName": "bitsandchisels-2.6.4.jar",
+        "fileName": "bitsandchisels-2.6.4.jar",
+        "fileDate": "2022-01-03T06:35:13.007Z",
+        "fileLength": 885745,
         "releaseType": 1,
         "fileStatus": 4,
-        "downloadUrl": "https://edge.forgecdn.net/files/3584/46/bitsandchisels-2.6.3.jar",
+        "downloadUrl": "https://edge.forgecdn.net/files/3592/89/bitsandchisels-2.6.4.jar",
         "isAlternate": false,
         "alternateFileId": 0,
         "dependencies": [
           {
-            "id": 82416602,
-            "addonId": 389194,
-            "type": 1,
-            "fileId": 3584046
-          },
-          {
-            "id": 82416603,
+            "id": 82908821,
             "addonId": 318440,
             "type": 2,
-            "fileId": 3584046
+            "fileId": 3592089
+          },
+          {
+            "id": 82908820,
+            "addonId": 389194,
+            "type": 1,
+            "fileId": 3592089
           }
         ],
         "isAvailable": true,
@@ -6915,24 +6979,24 @@
           },
           {
             "foldername": "fabric.mod.json",
-            "fingerprint": 2406257519,
+            "fingerprint": 3684525819,
             "type": 3,
             "invalidFingerprint": false
           },
           {
             "foldername": "io",
-            "fingerprint": 510878200,
+            "fingerprint": 533436741,
             "type": 3,
             "invalidFingerprint": false
           },
           {
             "foldername": "bitsandchisels-refmap.json",
-            "fingerprint": 1604260090,
+            "fingerprint": 2796109561,
             "type": 3,
             "invalidFingerprint": false
           }
         ],
-        "packageFingerprint": 3135152383,
+        "packageFingerprint": 1967347643,
         "gameVersion": [
           "1.18.1",
           "Fabric",
@@ -6966,20 +7030,21 @@
         "categorySectionPackageType": 6,
         "restrictProjectFileAccess": 1,
         "projectStatus": 4,
-        "renderCacheId": 2654528,
+        "renderCacheId": 2664137,
         "projectId": 420709,
-        "packageFingerprintId": 821218970,
+        "packageFingerprintId": 825463824,
         "gameVersionDateReleased": "2019-08-01T00:00:00Z",
-        "gameVersionMappingId": 3615864,
+        "gameVersionMappingId": 3634902,
         "gameVersionId": 7499,
         "gameId": 432,
         "isServerPack": false,
-        "FileNameOnDisk": "bitsandchisels-2.6.3.jar"
+        "FileNameOnDisk": "bitsandchisels-2.6.4.jar"
       },
-      "dateInstalled": "2022-01-02T23:55:19.5272974Z",
-      "dateUpdated": "2022-01-02T23:55:19.53029Z",
-      "dateLastUpdateAttempted": "2022-01-02T23:55:19.53029Z",
+      "dateInstalled": "2022-01-03T08:39:16.7426862Z",
+      "dateUpdated": "2022-01-03T08:39:16.7466757Z",
+      "dateLastUpdateAttempted": "2022-01-03T08:39:16.7466757Z",
       "status": 4,
+      "installSource": 0,
       "preferenceAutoInstallUpdates": null,
       "preferenceAlternateFile": false,
       "preferenceIsIgnored": false,
@@ -6988,11 +7053,11 @@
       "isFuzzyMatch": false,
       "preferenceReleaseType": null,
       "manifestName": null,
-      "installedTargets": null
+      "installedTargets": []
     },
     {
       "addonID": 233564,
-      "gameInstanceID": "efa4dcb4-8262-45c4-b00b-c3ebc20ea8d8",
+      "gameInstanceID": "98d41034-3cd1-4127-b206-d28ebac68816",
       "installedFile": {
         "id": 3553653,
         "displayName": "TechReborn-5.1.0-beta.4.jar",
@@ -7105,6 +7170,7 @@
       "dateUpdated": "2021-12-30T23:28:15.1312318Z",
       "dateLastUpdateAttempted": "0001-01-01T00:00:00",
       "status": 5,
+      "installSource": 0,
       "preferenceAutoInstallUpdates": null,
       "preferenceAlternateFile": false,
       "preferenceIsIgnored": false,
@@ -7117,7 +7183,7 @@
     },
     {
       "addonID": 321014,
-      "gameInstanceID": "efa4dcb4-8262-45c4-b00b-c3ebc20ea8d8",
+      "gameInstanceID": "98d41034-3cd1-4127-b206-d28ebac68816",
       "installedFile": {
         "id": 3582861,
         "displayName": "redstone-bits-1.6.2+fabric-mc1.18.jar",
@@ -7228,6 +7294,7 @@
       "dateUpdated": "2021-12-30T23:30:25.2064622Z",
       "dateLastUpdateAttempted": "2021-12-30T23:30:25.2064622Z",
       "status": 5,
+      "installSource": 0,
       "preferenceAutoInstallUpdates": null,
       "preferenceAlternateFile": false,
       "preferenceIsIgnored": false,
@@ -7240,7 +7307,7 @@
     },
     {
       "addonID": 325471,
-      "gameInstanceID": "efa4dcb4-8262-45c4-b00b-c3ebc20ea8d8",
+      "gameInstanceID": "98d41034-3cd1-4127-b206-d28ebac68816",
       "installedFile": {
         "id": 3591467,
         "displayName": "InventorySorter-1.8.3-1.18.jar",
@@ -7346,6 +7413,7 @@
       "dateUpdated": "2022-01-02T23:05:40.1273177Z",
       "dateLastUpdateAttempted": "2022-01-02T23:05:40.1273177Z",
       "status": 4,
+      "installSource": 0,
       "preferenceAutoInstallUpdates": null,
       "preferenceAlternateFile": false,
       "preferenceIsIgnored": false,
@@ -7358,7 +7426,7 @@
     },
     {
       "addonID": 313219,
-      "gameInstanceID": "efa4dcb4-8262-45c4-b00b-c3ebc20ea8d8",
+      "gameInstanceID": "98d41034-3cd1-4127-b206-d28ebac68816",
       "installedFile": {
         "id": 3563686,
         "displayName": "HealthOverlay-1.18.1-6.0.1.jar",
@@ -7489,6 +7557,7 @@
       "dateUpdated": "2021-12-30T23:28:15.2150076Z",
       "dateLastUpdateAttempted": "0001-01-01T00:00:00",
       "status": 5,
+      "installSource": 0,
       "preferenceAutoInstallUpdates": null,
       "preferenceAlternateFile": false,
       "preferenceIsIgnored": false,
@@ -7501,7 +7570,7 @@
     },
     {
       "addonID": 317121,
-      "gameInstanceID": "efa4dcb4-8262-45c4-b00b-c3ebc20ea8d8",
+      "gameInstanceID": "98d41034-3cd1-4127-b206-d28ebac68816",
       "installedFile": {
         "id": 3336395,
         "displayName": "[Fabric 1.17/1.17.1] v2.0.54",
@@ -7615,6 +7684,7 @@
       "dateUpdated": "2021-12-30T23:28:15.2419371Z",
       "dateLastUpdateAttempted": "0001-01-01T00:00:00",
       "status": 5,
+      "installSource": 0,
       "preferenceAutoInstallUpdates": null,
       "preferenceAlternateFile": false,
       "preferenceIsIgnored": false,
@@ -7627,7 +7697,7 @@
     },
     {
       "addonID": 421839,
-      "gameInstanceID": "efa4dcb4-8262-45c4-b00b-c3ebc20ea8d8",
+      "gameInstanceID": "98d41034-3cd1-4127-b206-d28ebac68816",
       "installedFile": {
         "id": 3578081,
         "displayName": "Botania-1.18.1-427-FABRIC.jar",
@@ -7762,6 +7832,7 @@
       "dateUpdated": "2021-12-30T23:29:17.6180884Z",
       "dateLastUpdateAttempted": "2021-12-30T23:29:17.6180884Z",
       "status": 5,
+      "installSource": 0,
       "preferenceAutoInstallUpdates": null,
       "preferenceAlternateFile": false,
       "preferenceIsIgnored": false,
@@ -7774,7 +7845,7 @@
     },
     {
       "addonID": 308769,
-      "gameInstanceID": "efa4dcb4-8262-45c4-b00b-c3ebc20ea8d8",
+      "gameInstanceID": "98d41034-3cd1-4127-b206-d28ebac68816",
       "installedFile": {
         "id": 3573712,
         "displayName": "Fabric Language Kotlin 1.7.1+kotlin.1.6.10",
@@ -7966,6 +8037,7 @@
       "dateUpdated": "2021-12-30T23:28:15.180101Z",
       "dateLastUpdateAttempted": "0001-01-01T00:00:00",
       "status": 5,
+      "installSource": 0,
       "preferenceAutoInstallUpdates": null,
       "preferenceAlternateFile": false,
       "preferenceIsIgnored": false,
@@ -7978,7 +8050,7 @@
     },
     {
       "addonID": 377281,
-      "gameInstanceID": "efa4dcb4-8262-45c4-b00b-c3ebc20ea8d8",
+      "gameInstanceID": "98d41034-3cd1-4127-b206-d28ebac68816",
       "installedFile": {
         "id": 3582609,
         "displayName": "DarkPaintings-Fabric-1.18.1-9.0.2.jar",
@@ -8064,6 +8136,7 @@
       "dateUpdated": "2021-12-30T23:29:45.5933026Z",
       "dateLastUpdateAttempted": "2021-12-30T23:29:45.5933026Z",
       "status": 5,
+      "installSource": 0,
       "preferenceAutoInstallUpdates": null,
       "preferenceAlternateFile": false,
       "preferenceIsIgnored": false,
@@ -8076,7 +8149,7 @@
     },
     {
       "addonID": 517650,
-      "gameInstanceID": "efa4dcb4-8262-45c4-b00b-c3ebc20ea8d8",
+      "gameInstanceID": "98d41034-3cd1-4127-b206-d28ebac68816",
       "installedFile": {
         "id": 3570219,
         "displayName": "mythic-mounts-1.18-4.0.jar",
@@ -8181,6 +8254,7 @@
       "dateUpdated": "2021-12-30T23:28:15.2369499Z",
       "dateLastUpdateAttempted": "0001-01-01T00:00:00",
       "status": 5,
+      "installSource": 0,
       "preferenceAutoInstallUpdates": null,
       "preferenceAlternateFile": false,
       "preferenceIsIgnored": false,
@@ -8193,7 +8267,7 @@
     },
     {
       "addonID": 526011,
-      "gameInstanceID": "efa4dcb4-8262-45c4-b00b-c3ebc20ea8d8",
+      "gameInstanceID": "98d41034-3cd1-4127-b206-d28ebac68816",
       "installedFile": {
         "id": 3562405,
         "displayName": "[Fabric 1.18.1] The Guild 0.3.6",
@@ -8322,6 +8396,7 @@
       "dateUpdated": "2021-12-30T23:28:15.1322297Z",
       "dateLastUpdateAttempted": "0001-01-01T00:00:00",
       "status": 5,
+      "installSource": 0,
       "preferenceAutoInstallUpdates": null,
       "preferenceAlternateFile": false,
       "preferenceIsIgnored": false,
@@ -8334,7 +8409,7 @@
     },
     {
       "addonID": 325492,
-      "gameInstanceID": "efa4dcb4-8262-45c4-b00b-c3ebc20ea8d8",
+      "gameInstanceID": "98d41034-3cd1-4127-b206-d28ebac68816",
       "installedFile": {
         "id": 3552777,
         "displayName": "[Fabric 1.18.x] v6.0.4",
@@ -8479,6 +8554,7 @@
       "dateUpdated": "2021-12-30T23:28:15.1791041Z",
       "dateLastUpdateAttempted": "0001-01-01T00:00:00",
       "status": 5,
+      "installSource": 0,
       "preferenceAutoInstallUpdates": null,
       "preferenceAlternateFile": false,
       "preferenceIsIgnored": false,
@@ -8491,7 +8567,7 @@
     },
     {
       "addonID": 397903,
-      "gameInstanceID": "efa4dcb4-8262-45c4-b00b-c3ebc20ea8d8",
+      "gameInstanceID": "98d41034-3cd1-4127-b206-d28ebac68816",
       "installedFile": {
         "id": 3567467,
         "displayName": "elytratrinket-fabric-3.0.0-1.18.1.jar",
@@ -8602,6 +8678,7 @@
       "dateUpdated": "2021-12-31T01:32:00.3953765Z",
       "dateLastUpdateAttempted": "2021-12-31T01:32:00.3953765Z",
       "status": 5,
+      "installSource": 0,
       "preferenceAutoInstallUpdates": null,
       "preferenceAlternateFile": false,
       "preferenceIsIgnored": false,
@@ -8614,7 +8691,7 @@
     },
     {
       "addonID": 539382,
-      "gameInstanceID": "efa4dcb4-8262-45c4-b00b-c3ebc20ea8d8",
+      "gameInstanceID": "98d41034-3cd1-4127-b206-d28ebac68816",
       "installedFile": {
         "id": 3546762,
         "displayName": "Iceberg-1.18-fabric-1.0.27.jar",
@@ -8726,6 +8803,7 @@
       "dateUpdated": "2021-12-30T23:28:15.200048Z",
       "dateLastUpdateAttempted": "0001-01-01T00:00:00",
       "status": 5,
+      "installSource": 0,
       "preferenceAutoInstallUpdates": null,
       "preferenceAlternateFile": false,
       "preferenceIsIgnored": false,
@@ -8738,7 +8816,7 @@
     },
     {
       "addonID": 534373,
-      "gameInstanceID": "efa4dcb4-8262-45c4-b00b-c3ebc20ea8d8",
+      "gameInstanceID": "98d41034-3cd1-4127-b206-d28ebac68816",
       "installedFile": {
         "id": 3543200,
         "displayName": "1.4.1",
@@ -8901,6 +8979,7 @@
       "dateUpdated": "2021-12-30T23:28:15.1382139Z",
       "dateLastUpdateAttempted": "0001-01-01T00:00:00",
       "status": 5,
+      "installSource": 0,
       "preferenceAutoInstallUpdates": null,
       "preferenceAlternateFile": false,
       "preferenceIsIgnored": false,
@@ -8913,7 +8992,7 @@
     },
     {
       "addonID": 514882,
-      "gameInstanceID": "efa4dcb4-8262-45c4-b00b-c3ebc20ea8d8",
+      "gameInstanceID": "98d41034-3cd1-4127-b206-d28ebac68816",
       "installedFile": {
         "id": 3547914,
         "displayName": "AdvancementPlaques-1.18-fabric-1.4.3.jar",
@@ -9032,6 +9111,7 @@
       "dateUpdated": "2021-12-30T23:28:15.1820961Z",
       "dateLastUpdateAttempted": "0001-01-01T00:00:00",
       "status": 5,
+      "installSource": 0,
       "preferenceAutoInstallUpdates": null,
       "preferenceAlternateFile": false,
       "preferenceIsIgnored": false,
@@ -9044,7 +9124,7 @@
     },
     {
       "addonID": 416294,
-      "gameInstanceID": "efa4dcb4-8262-45c4-b00b-c3ebc20ea8d8",
+      "gameInstanceID": "98d41034-3cd1-4127-b206-d28ebac68816",
       "installedFile": {
         "id": 3584287,
         "displayName": "rhino-fabric-1800.1.7-build.92.jar",
@@ -9157,6 +9237,7 @@
       "dateUpdated": "2021-12-30T23:30:26.3571802Z",
       "dateLastUpdateAttempted": "2021-12-30T23:30:26.3571802Z",
       "status": 5,
+      "installSource": 0,
       "preferenceAutoInstallUpdates": null,
       "preferenceAlternateFile": false,
       "preferenceIsIgnored": false,
@@ -9169,7 +9250,7 @@
     },
     {
       "addonID": 355583,
-      "gameInstanceID": "efa4dcb4-8262-45c4-b00b-c3ebc20ea8d8",
+      "gameInstanceID": "98d41034-3cd1-4127-b206-d28ebac68816",
       "installedFile": {
         "id": 3329360,
         "displayName": "[Fabric 1.17/1.18] v0.2.4",
@@ -9312,6 +9393,7 @@
       "dateUpdated": "2021-12-30T23:28:15.1332264Z",
       "dateLastUpdateAttempted": "0001-01-01T00:00:00",
       "status": 5,
+      "installSource": 0,
       "preferenceAutoInstallUpdates": null,
       "preferenceAlternateFile": false,
       "preferenceIsIgnored": false,
@@ -9324,7 +9406,7 @@
     },
     {
       "addonID": 517119,
-      "gameInstanceID": "efa4dcb4-8262-45c4-b00b-c3ebc20ea8d8",
+      "gameInstanceID": "98d41034-3cd1-4127-b206-d28ebac68816",
       "installedFile": {
         "id": 3575314,
         "displayName": "drinkbeer-v3.0.2 for 1.18.1.jar",
@@ -9416,6 +9498,7 @@
       "dateUpdated": "2021-12-30T23:29:48.0407278Z",
       "dateLastUpdateAttempted": "2021-12-30T23:29:48.0407278Z",
       "status": 5,
+      "installSource": 0,
       "preferenceAutoInstallUpdates": null,
       "preferenceAlternateFile": false,
       "preferenceIsIgnored": false,
@@ -9428,7 +9511,7 @@
     },
     {
       "addonID": 550544,
-      "gameInstanceID": "efa4dcb4-8262-45c4-b00b-c3ebc20ea8d8",
+      "gameInstanceID": "98d41034-3cd1-4127-b206-d28ebac68816",
       "installedFile": {
         "id": 3590716,
         "displayName": "[Fabric 1.18.x] v2.0.0",
@@ -9547,6 +9630,7 @@
       "dateUpdated": "2022-01-02T23:10:31.5370372Z",
       "dateLastUpdateAttempted": "2022-01-02T23:10:31.5370372Z",
       "status": 4,
+      "installSource": 0,
       "preferenceAutoInstallUpdates": null,
       "preferenceAlternateFile": false,
       "preferenceIsIgnored": false,
@@ -9559,7 +9643,7 @@
     },
     {
       "addonID": 502646,
-      "gameInstanceID": "efa4dcb4-8262-45c4-b00b-c3ebc20ea8d8",
+      "gameInstanceID": "98d41034-3cd1-4127-b206-d28ebac68816",
       "installedFile": {
         "id": 3550147,
         "displayName": "craftingcraft-fabric-1.18-11.0.0.jar",
@@ -9678,6 +9762,7 @@
       "dateUpdated": "2021-12-30T23:28:15.1910721Z",
       "dateLastUpdateAttempted": "0001-01-01T00:00:00",
       "status": 5,
+      "installSource": 0,
       "preferenceAutoInstallUpdates": null,
       "preferenceAlternateFile": false,
       "preferenceIsIgnored": false,
@@ -9690,7 +9775,7 @@
     },
     {
       "addonID": 271492,
-      "gameInstanceID": "efa4dcb4-8262-45c4-b00b-c3ebc20ea8d8",
+      "gameInstanceID": "98d41034-3cd1-4127-b206-d28ebac68816",
       "installedFile": {
         "id": 3561096,
         "displayName": "I Know What I'm Doing 4.0.0 Fabric",
@@ -9818,6 +9903,7 @@
       "dateUpdated": "2021-12-30T23:28:15.2728538Z",
       "dateLastUpdateAttempted": "0001-01-01T00:00:00",
       "status": 5,
+      "installSource": 0,
       "preferenceAutoInstallUpdates": null,
       "preferenceAlternateFile": false,
       "preferenceIsIgnored": false,
@@ -9830,7 +9916,7 @@
     },
     {
       "addonID": 475358,
-      "gameInstanceID": "efa4dcb4-8262-45c4-b00b-c3ebc20ea8d8",
+      "gameInstanceID": "98d41034-3cd1-4127-b206-d28ebac68816",
       "installedFile": {
         "id": 3556489,
         "displayName": "bettermounthud-1.1.3.jar",
@@ -9930,6 +10016,7 @@
       "dateUpdated": "2021-12-30T23:28:15.2758459Z",
       "dateLastUpdateAttempted": "0001-01-01T00:00:00",
       "status": 5,
+      "installSource": 0,
       "preferenceAutoInstallUpdates": null,
       "preferenceAlternateFile": false,
       "preferenceIsIgnored": false,
@@ -9942,7 +10029,7 @@
     },
     {
       "addonID": 473131,
-      "gameInstanceID": "efa4dcb4-8262-45c4-b00b-c3ebc20ea8d8",
+      "gameInstanceID": "98d41034-3cd1-4127-b206-d28ebac68816",
       "installedFile": {
         "id": 3541403,
         "displayName": "Builtin Servers 1.0.1-BETA",
@@ -10043,6 +10130,7 @@
       "dateUpdated": "2021-12-30T23:28:15.2170029Z",
       "dateLastUpdateAttempted": "0001-01-01T00:00:00",
       "status": 5,
+      "installSource": 0,
       "preferenceAutoInstallUpdates": null,
       "preferenceAlternateFile": false,
       "preferenceIsIgnored": false,
@@ -10055,7 +10143,7 @@
     },
     {
       "addonID": 465336,
-      "gameInstanceID": "efa4dcb4-8262-45c4-b00b-c3ebc20ea8d8",
+      "gameInstanceID": "98d41034-3cd1-4127-b206-d28ebac68816",
       "installedFile": {
         "id": 3540934,
         "displayName": "Terrarian Slimes 1.1-BETA",
@@ -10180,6 +10268,7 @@
       "dateUpdated": "2021-12-30T23:28:15.1441981Z",
       "dateLastUpdateAttempted": "0001-01-01T00:00:00",
       "status": 5,
+      "installSource": 0,
       "preferenceAutoInstallUpdates": null,
       "preferenceAlternateFile": false,
       "preferenceIsIgnored": false,
@@ -10192,7 +10281,7 @@
     },
     {
       "addonID": 224713,
-      "gameInstanceID": "efa4dcb4-8262-45c4-b00b-c3ebc20ea8d8",
+      "gameInstanceID": "98d41034-3cd1-4127-b206-d28ebac68816",
       "installedFile": {
         "id": 3546225,
         "displayName": "Bow Infinity Fix rv11 for Fabric",
@@ -10292,6 +10381,7 @@
       "dateUpdated": "2021-12-30T23:28:15.18808Z",
       "dateLastUpdateAttempted": "0001-01-01T00:00:00",
       "status": 5,
+      "installSource": 0,
       "preferenceAutoInstallUpdates": null,
       "preferenceAlternateFile": false,
       "preferenceIsIgnored": false,
@@ -10304,7 +10394,7 @@
     },
     {
       "addonID": 463113,
-      "gameInstanceID": "efa4dcb4-8262-45c4-b00b-c3ebc20ea8d8",
+      "gameInstanceID": "98d41034-3cd1-4127-b206-d28ebac68816",
       "installedFile": {
         "id": 3529149,
         "displayName": "arrp-0.5.4.jar",
@@ -10530,6 +10620,7 @@
       "dateUpdated": "2021-12-30T23:28:15.2279737Z",
       "dateLastUpdateAttempted": "0001-01-01T00:00:00",
       "status": 5,
+      "installSource": 0,
       "preferenceAutoInstallUpdates": null,
       "preferenceAlternateFile": false,
       "preferenceIsIgnored": false,
@@ -10542,7 +10633,7 @@
     },
     {
       "addonID": 398502,
-      "gameInstanceID": "efa4dcb4-8262-45c4-b00b-c3ebc20ea8d8",
+      "gameInstanceID": "98d41034-3cd1-4127-b206-d28ebac68816",
       "installedFile": {
         "id": 3544922,
         "displayName": "cherishedworlds-fabric-2.0.1-1.18.jar",
@@ -10660,6 +10751,7 @@
       "dateUpdated": "2021-12-30T23:28:15.1830933Z",
       "dateLastUpdateAttempted": "0001-01-01T00:00:00",
       "status": 5,
+      "installSource": 0,
       "preferenceAutoInstallUpdates": null,
       "preferenceAlternateFile": false,
       "preferenceIsIgnored": false,
@@ -10672,7 +10764,7 @@
     },
     {
       "addonID": 483166,
-      "gameInstanceID": "efa4dcb4-8262-45c4-b00b-c3ebc20ea8d8",
+      "gameInstanceID": "98d41034-3cd1-4127-b206-d28ebac68816",
       "installedFile": {
         "id": 3571914,
         "displayName": "Incantationem 1.1.3+1.18.1",
@@ -10793,6 +10885,7 @@
       "dateUpdated": "2021-12-30T23:28:15.280832Z",
       "dateLastUpdateAttempted": "0001-01-01T00:00:00",
       "status": 5,
+      "installSource": 0,
       "preferenceAutoInstallUpdates": null,
       "preferenceAlternateFile": false,
       "preferenceIsIgnored": false,
@@ -10805,7 +10898,7 @@
     },
     {
       "addonID": 364531,
-      "gameInstanceID": "efa4dcb4-8262-45c4-b00b-c3ebc20ea8d8",
+      "gameInstanceID": "98d41034-3cd1-4127-b206-d28ebac68816",
       "installedFile": {
         "id": 3579621,
         "displayName": "fastbench-1.18.1-3.jar",
@@ -10897,6 +10990,7 @@
       "dateUpdated": "2021-12-30T23:51:04.392375Z",
       "dateLastUpdateAttempted": "2021-12-30T23:51:04.392375Z",
       "status": 5,
+      "installSource": 0,
       "preferenceAutoInstallUpdates": null,
       "preferenceAlternateFile": false,
       "preferenceIsIgnored": false,
@@ -10909,7 +11003,7 @@
     },
     {
       "addonID": 460336,
-      "gameInstanceID": "efa4dcb4-8262-45c4-b00b-c3ebc20ea8d8",
+      "gameInstanceID": "98d41034-3cd1-4127-b206-d28ebac68816",
       "installedFile": {
         "id": 3561773,
         "displayName": "1.4.1",
@@ -11034,6 +11128,7 @@
       "dateUpdated": "2021-12-30T23:28:15.136219Z",
       "dateLastUpdateAttempted": "0001-01-01T00:00:00",
       "status": 5,
+      "installSource": 0,
       "preferenceAutoInstallUpdates": null,
       "preferenceAlternateFile": false,
       "preferenceIsIgnored": false,
@@ -11046,7 +11141,7 @@
     },
     {
       "addonID": 504899,
-      "gameInstanceID": "efa4dcb4-8262-45c4-b00b-c3ebc20ea8d8",
+      "gameInstanceID": "98d41034-3cd1-4127-b206-d28ebac68816",
       "installedFile": {
         "id": 3546240,
         "displayName": "[1.18] v1.3.0",
@@ -11173,6 +11268,7 @@
       "dateUpdated": "2021-12-30T23:28:15.1671369Z",
       "dateLastUpdateAttempted": "0001-01-01T00:00:00",
       "status": 5,
+      "installSource": 0,
       "preferenceAutoInstallUpdates": null,
       "preferenceAlternateFile": false,
       "preferenceIsIgnored": false,
@@ -11185,7 +11281,7 @@
     },
     {
       "addonID": 482621,
-      "gameInstanceID": "efa4dcb4-8262-45c4-b00b-c3ebc20ea8d8",
+      "gameInstanceID": "98d41034-3cd1-4127-b206-d28ebac68816",
       "installedFile": {
         "id": 3578842,
         "displayName": "1.18 Release 1",
@@ -11291,6 +11387,7 @@
       "dateUpdated": "2021-12-30T23:53:32.8712045Z",
       "dateLastUpdateAttempted": "2021-12-30T23:53:32.8712045Z",
       "status": 5,
+      "installSource": 0,
       "preferenceAutoInstallUpdates": null,
       "preferenceAlternateFile": false,
       "preferenceIsIgnored": false,
@@ -11303,7 +11400,7 @@
     },
     {
       "addonID": 306612,
-      "gameInstanceID": "efa4dcb4-8262-45c4-b00b-c3ebc20ea8d8",
+      "gameInstanceID": "98d41034-3cd1-4127-b206-d28ebac68816",
       "installedFile": {
         "id": 3591502,
         "displayName": "[1.18.1] Fabric API 0.45.1+1.18",
@@ -11377,6 +11474,7 @@
       "dateUpdated": "2022-01-02T23:33:18.1287631Z",
       "dateLastUpdateAttempted": "2022-01-02T23:33:18.1287631Z",
       "status": 4,
+      "installSource": 0,
       "preferenceAutoInstallUpdates": null,
       "preferenceAlternateFile": false,
       "preferenceIsIgnored": false,
@@ -11389,7 +11487,7 @@
     },
     {
       "addonID": 364540,
-      "gameInstanceID": "efa4dcb4-8262-45c4-b00b-c3ebc20ea8d8",
+      "gameInstanceID": "98d41034-3cd1-4127-b206-d28ebac68816",
       "installedFile": {
         "id": 3558448,
         "displayName": "fastfurnace-1.18-4.jar",
@@ -11495,6 +11593,7 @@
       "dateUpdated": "2021-12-30T23:28:15.2189973Z",
       "dateLastUpdateAttempted": "0001-01-01T00:00:00",
       "status": 5,
+      "installSource": 0,
       "preferenceAutoInstallUpdates": null,
       "preferenceAlternateFile": false,
       "preferenceIsIgnored": false,
@@ -11507,7 +11606,7 @@
     },
     {
       "addonID": 535541,
-      "gameInstanceID": "efa4dcb4-8262-45c4-b00b-c3ebc20ea8d8",
+      "gameInstanceID": "98d41034-3cd1-4127-b206-d28ebac68816",
       "installedFile": {
         "id": 3574647,
         "displayName": "1.2.1",
@@ -11607,6 +11706,7 @@
       "dateUpdated": "2021-12-30T23:29:21.4329156Z",
       "dateLastUpdateAttempted": "2021-12-30T23:29:21.4329156Z",
       "status": 5,
+      "installSource": 0,
       "preferenceAutoInstallUpdates": null,
       "preferenceAlternateFile": false,
       "preferenceIsIgnored": false,
@@ -11619,7 +11719,7 @@
     },
     {
       "addonID": 317756,
-      "gameInstanceID": "efa4dcb4-8262-45c4-b00b-c3ebc20ea8d8",
+      "gameInstanceID": "98d41034-3cd1-4127-b206-d28ebac68816",
       "installedFile": {
         "id": 3575049,
         "displayName": "vanilla-hammers-3.2.0-1.18.1.jar",
@@ -11736,6 +11836,7 @@
       "dateUpdated": "2021-12-30T23:30:33.3761342Z",
       "dateLastUpdateAttempted": "2021-12-30T23:30:33.3761342Z",
       "status": 5,
+      "installSource": 0,
       "preferenceAutoInstallUpdates": null,
       "preferenceAlternateFile": false,
       "preferenceIsIgnored": false,
@@ -11748,7 +11849,7 @@
     },
     {
       "addonID": 443091,
-      "gameInstanceID": "efa4dcb4-8262-45c4-b00b-c3ebc20ea8d8",
+      "gameInstanceID": "98d41034-3cd1-4127-b206-d28ebac68816",
       "installedFile": {
         "id": 3586315,
         "displayName": "camsbackpacks-2.7.jar",
@@ -11873,6 +11974,7 @@
       "dateUpdated": "2022-01-01T19:24:02.8996135Z",
       "dateLastUpdateAttempted": "2022-01-01T19:24:02.8996135Z",
       "status": 5,
+      "installSource": 0,
       "preferenceAutoInstallUpdates": null,
       "preferenceAlternateFile": false,
       "preferenceIsIgnored": false,
@@ -11885,7 +11987,7 @@
     },
     {
       "addonID": 419697,
-      "gameInstanceID": "efa4dcb4-8262-45c4-b00b-c3ebc20ea8d8",
+      "gameInstanceID": "98d41034-3cd1-4127-b206-d28ebac68816",
       "installedFile": {
         "id": 3587337,
         "displayName": "[Fabric 1.18(.1)] v3.4.9",
@@ -12024,6 +12126,7 @@
       "dateUpdated": "2022-01-01T19:23:56.0877408Z",
       "dateLastUpdateAttempted": "2022-01-01T19:23:56.0877408Z",
       "status": 5,
+      "installSource": 0,
       "preferenceAutoInstallUpdates": null,
       "preferenceAlternateFile": false,
       "preferenceIsIgnored": false,
@@ -12036,7 +12139,7 @@
     },
     {
       "addonID": 399648,
-      "gameInstanceID": "efa4dcb4-8262-45c4-b00b-c3ebc20ea8d8",
+      "gameInstanceID": "98d41034-3cd1-4127-b206-d28ebac68816",
       "installedFile": {
         "id": 3591102,
         "displayName": "Promenade v2.4.0",
@@ -12179,6 +12282,7 @@
       "dateUpdated": "2022-01-02T23:07:11.9829503Z",
       "dateLastUpdateAttempted": "2022-01-02T23:07:11.9829503Z",
       "status": 4,
+      "installSource": 0,
       "preferenceAutoInstallUpdates": null,
       "preferenceAlternateFile": false,
       "preferenceIsIgnored": false,
@@ -12191,7 +12295,7 @@
     },
     {
       "addonID": 495453,
-      "gameInstanceID": "efa4dcb4-8262-45c4-b00b-c3ebc20ea8d8",
+      "gameInstanceID": "98d41034-3cd1-4127-b206-d28ebac68816",
       "installedFile": {
         "id": 3515755,
         "displayName": "axolotl-item-fix-1.1.3.jar",
@@ -12322,6 +12426,7 @@
       "dateUpdated": "2021-12-30T23:28:15.2299683Z",
       "dateLastUpdateAttempted": "0001-01-01T00:00:00",
       "status": 5,
+      "installSource": 0,
       "preferenceAutoInstallUpdates": null,
       "preferenceAlternateFile": false,
       "preferenceIsIgnored": false,
@@ -12334,7 +12439,7 @@
     },
     {
       "addonID": 317780,
-      "gameInstanceID": "efa4dcb4-8262-45c4-b00b-c3ebc20ea8d8",
+      "gameInstanceID": "98d41034-3cd1-4127-b206-d28ebac68816",
       "installedFile": {
         "id": 3582991,
         "displayName": "v1.19.0 for Fabric 1.18.x",
@@ -12441,6 +12546,7 @@
       "dateUpdated": "2021-12-30T23:30:43.1486827Z",
       "dateLastUpdateAttempted": "2021-12-30T23:30:43.1486827Z",
       "status": 5,
+      "installSource": 0,
       "preferenceAutoInstallUpdates": null,
       "preferenceAlternateFile": false,
       "preferenceIsIgnored": false,
@@ -12453,7 +12559,7 @@
     },
     {
       "addonID": 413596,
-      "gameInstanceID": "efa4dcb4-8262-45c4-b00b-c3ebc20ea8d8",
+      "gameInstanceID": "98d41034-3cd1-4127-b206-d28ebac68816",
       "installedFile": {
         "id": 3585311,
         "displayName": "better-end-1.0.0-alpha-1.18/1.18.1",
@@ -12602,6 +12708,7 @@
       "dateUpdated": "2021-12-30T23:39:23.603574Z",
       "dateLastUpdateAttempted": "2021-12-30T23:39:23.603574Z",
       "status": 5,
+      "installSource": 0,
       "preferenceAutoInstallUpdates": null,
       "preferenceAlternateFile": false,
       "preferenceIsIgnored": false,
@@ -12614,7 +12721,7 @@
     },
     {
       "addonID": 250398,
-      "gameInstanceID": "efa4dcb4-8262-45c4-b00b-c3ebc20ea8d8",
+      "gameInstanceID": "98d41034-3cd1-4127-b206-d28ebac68816",
       "installedFile": {
         "id": 3590778,
         "displayName": "Controlling-fabric-1.18.1-9.0.8.jar",
@@ -12718,6 +12825,7 @@
       "dateUpdated": "2022-01-02T23:33:18.3102779Z",
       "dateLastUpdateAttempted": "2022-01-02T23:33:18.3102779Z",
       "status": 4,
+      "installSource": 0,
       "preferenceAutoInstallUpdates": null,
       "preferenceAlternateFile": false,
       "preferenceIsIgnored": false,
@@ -12730,7 +12838,7 @@
     },
     {
       "addonID": 437552,
-      "gameInstanceID": "efa4dcb4-8262-45c4-b00b-c3ebc20ea8d8",
+      "gameInstanceID": "98d41034-3cd1-4127-b206-d28ebac68816",
       "installedFile": {
         "id": 3570324,
         "displayName": "Croptosis 1.4.2",
@@ -12834,6 +12942,7 @@
       "dateUpdated": "2021-12-30T23:28:15.2259794Z",
       "dateLastUpdateAttempted": "0001-01-01T00:00:00",
       "status": 5,
+      "installSource": 0,
       "preferenceAutoInstallUpdates": null,
       "preferenceAlternateFile": false,
       "preferenceIsIgnored": false,
@@ -12846,7 +12955,7 @@
     },
     {
       "addonID": 311120,
-      "gameInstanceID": "efa4dcb4-8262-45c4-b00b-c3ebc20ea8d8",
+      "gameInstanceID": "98d41034-3cd1-4127-b206-d28ebac68816",
       "installedFile": {
         "id": 3554499,
         "displayName": "Couplings 1.7.1+1.18",
@@ -12938,6 +13047,7 @@
       "dateUpdated": "2021-12-30T23:28:15.193067Z",
       "dateLastUpdateAttempted": "0001-01-01T00:00:00",
       "status": 5,
+      "installSource": 0,
       "preferenceAutoInstallUpdates": null,
       "preferenceAlternateFile": false,
       "preferenceIsIgnored": false,
@@ -12950,7 +13060,7 @@
     },
     {
       "addonID": 521673,
-      "gameInstanceID": "efa4dcb4-8262-45c4-b00b-c3ebc20ea8d8",
+      "gameInstanceID": "98d41034-3cd1-4127-b206-d28ebac68816",
       "installedFile": {
         "id": 3532889,
         "displayName": "Bountiful-2.0.1-1.18",
@@ -13089,6 +13199,7 @@
       "dateUpdated": "2021-12-30T23:28:15.2020424Z",
       "dateLastUpdateAttempted": "0001-01-01T00:00:00",
       "status": 5,
+      "installSource": 0,
       "preferenceAutoInstallUpdates": null,
       "preferenceAlternateFile": false,
       "preferenceIsIgnored": false,
@@ -13101,7 +13212,7 @@
     },
     {
       "addonID": 250419,
-      "gameInstanceID": "efa4dcb4-8262-45c4-b00b-c3ebc20ea8d8",
+      "gameInstanceID": "98d41034-3cd1-4127-b206-d28ebac68816",
       "installedFile": {
         "id": 3586039,
         "displayName": "EnchantmentDescriptions-Fabric-1.18.1-9.0.7.jar",
@@ -13187,6 +13298,7 @@
       "dateUpdated": "2021-12-30T23:29:50.5437994Z",
       "dateLastUpdateAttempted": "2021-12-30T23:29:50.5437994Z",
       "status": 5,
+      "installSource": 0,
       "preferenceAutoInstallUpdates": null,
       "preferenceAlternateFile": false,
       "preferenceIsIgnored": false,
@@ -13199,7 +13311,7 @@
     },
     {
       "addonID": 416406,
-      "gameInstanceID": "efa4dcb4-8262-45c4-b00b-c3ebc20ea8d8",
+      "gameInstanceID": "98d41034-3cd1-4127-b206-d28ebac68816",
       "installedFile": {
         "id": 3133167,
         "displayName": "1.0.1",
@@ -13358,6 +13470,7 @@
       "dateUpdated": "2021-12-30T23:28:15.148187Z",
       "dateLastUpdateAttempted": "0001-01-01T00:00:00",
       "status": 5,
+      "installSource": 0,
       "preferenceAutoInstallUpdates": null,
       "preferenceAlternateFile": false,
       "preferenceIsIgnored": false,
@@ -13370,7 +13483,7 @@
     },
     {
       "addonID": 341772,
-      "gameInstanceID": "efa4dcb4-8262-45c4-b00b-c3ebc20ea8d8",
+      "gameInstanceID": "98d41034-3cd1-4127-b206-d28ebac68816",
       "installedFile": {
         "id": 3368397,
         "displayName": "vanillaexcavators-2.2.0-1.17.jar",
@@ -13490,6 +13603,7 @@
       "dateUpdated": "2021-12-30T23:28:15.1601548Z",
       "dateLastUpdateAttempted": "0001-01-01T00:00:00",
       "status": 5,
+      "installSource": 0,
       "preferenceAutoInstallUpdates": null,
       "preferenceAlternateFile": false,
       "preferenceIsIgnored": false,
@@ -13502,7 +13616,7 @@
     },
     {
       "addonID": 521126,
-      "gameInstanceID": "efa4dcb4-8262-45c4-b00b-c3ebc20ea8d8",
+      "gameInstanceID": "98d41034-3cd1-4127-b206-d28ebac68816",
       "installedFile": {
         "id": 3585609,
         "displayName": "[1.18.1] Visuality 0.4.0",
@@ -13615,6 +13729,7 @@
       "dateUpdated": "2021-12-30T23:30:37.3315284Z",
       "dateLastUpdateAttempted": "2021-12-30T23:30:37.3315284Z",
       "status": 5,
+      "installSource": 0,
       "preferenceAutoInstallUpdates": null,
       "preferenceAlternateFile": false,
       "preferenceIsIgnored": false,
@@ -13627,7 +13742,7 @@
     },
     {
       "addonID": 459857,
-      "gameInstanceID": "efa4dcb4-8262-45c4-b00b-c3ebc20ea8d8",
+      "gameInstanceID": "98d41034-3cd1-4127-b206-d28ebac68816",
       "installedFile": {
         "id": 3550048,
         "displayName": "ferritecore-4.0.0-fabric.jar",
@@ -13775,6 +13890,7 @@
       "dateUpdated": "2021-12-30T23:28:15.1461922Z",
       "dateLastUpdateAttempted": "0001-01-01T00:00:00",
       "status": 5,
+      "installSource": 0,
       "preferenceAutoInstallUpdates": null,
       "preferenceAlternateFile": false,
       "preferenceIsIgnored": false,
@@ -13787,7 +13903,7 @@
     },
     {
       "addonID": 551763,
-      "gameInstanceID": "efa4dcb4-8262-45c4-b00b-c3ebc20ea8d8",
+      "gameInstanceID": "98d41034-3cd1-4127-b206-d28ebac68816",
       "installedFile": {
         "id": 3578088,
         "displayName": "[1.18.x] 1.4.4",
@@ -13949,6 +14065,7 @@
       "dateUpdated": "2021-12-30T23:29:22.6390857Z",
       "dateLastUpdateAttempted": "2021-12-30T23:29:22.6390857Z",
       "status": 5,
+      "installSource": 0,
       "preferenceAutoInstallUpdates": null,
       "preferenceAlternateFile": false,
       "preferenceIsIgnored": false,
@@ -13961,7 +14078,7 @@
     },
     {
       "addonID": 407500,
-      "gameInstanceID": "efa4dcb4-8262-45c4-b00b-c3ebc20ea8d8",
+      "gameInstanceID": "98d41034-3cd1-4127-b206-d28ebac68816",
       "installedFile": {
         "id": 3452626,
         "displayName": "gate-of-babylon-1.5.1-1.17.1.jar",
@@ -14065,6 +14182,7 @@
       "dateUpdated": "2021-12-30T23:28:15.2678665Z",
       "dateLastUpdateAttempted": "0001-01-01T00:00:00",
       "status": 5,
+      "installSource": 0,
       "preferenceAutoInstallUpdates": null,
       "preferenceAlternateFile": false,
       "preferenceIsIgnored": false,
@@ -14077,7 +14195,7 @@
     },
     {
       "addonID": 386892,
-      "gameInstanceID": "efa4dcb4-8262-45c4-b00b-c3ebc20ea8d8",
+      "gameInstanceID": "98d41034-3cd1-4127-b206-d28ebac68816",
       "installedFile": {
         "id": 3578788,
         "displayName": "[Fabric 1.18.x] v0.4.3",
@@ -14216,6 +14334,7 @@
       "dateUpdated": "2021-12-30T23:54:04.6849066Z",
       "dateLastUpdateAttempted": "2021-12-30T23:54:04.6849066Z",
       "status": 5,
+      "installSource": 0,
       "preferenceAutoInstallUpdates": null,
       "preferenceAlternateFile": false,
       "preferenceIsIgnored": false,
@@ -14228,7 +14347,7 @@
     },
     {
       "addonID": 551211,
-      "gameInstanceID": "efa4dcb4-8262-45c4-b00b-c3ebc20ea8d8",
+      "gameInstanceID": "98d41034-3cd1-4127-b206-d28ebac68816",
       "installedFile": {
         "id": 3578660,
         "displayName": "Release 1.1.0",
@@ -14340,6 +14459,7 @@
       "dateUpdated": "2021-12-30T23:30:39.4955397Z",
       "dateLastUpdateAttempted": "2021-12-30T23:30:39.4955397Z",
       "status": 5,
+      "installSource": 0,
       "preferenceAutoInstallUpdates": null,
       "preferenceAlternateFile": false,
       "preferenceIsIgnored": false,
@@ -14352,7 +14472,7 @@
     },
     {
       "addonID": 500525,
-      "gameInstanceID": "efa4dcb4-8262-45c4-b00b-c3ebc20ea8d8",
+      "gameInstanceID": "98d41034-3cd1-4127-b206-d28ebac68816",
       "installedFile": {
         "id": 3584834,
         "displayName": "balm-fabric-2.4.0+0.jar",
@@ -14463,6 +14583,7 @@
       "dateUpdated": "2021-12-30T23:29:12.6033314Z",
       "dateLastUpdateAttempted": "2021-12-30T23:29:12.6033314Z",
       "status": 5,
+      "installSource": 0,
       "preferenceAutoInstallUpdates": null,
       "preferenceAlternateFile": false,
       "preferenceIsIgnored": false,
@@ -14475,7 +14596,7 @@
     },
     {
       "addonID": 280510,
-      "gameInstanceID": "efa4dcb4-8262-45c4-b00b-c3ebc20ea8d8",
+      "gameInstanceID": "98d41034-3cd1-4127-b206-d28ebac68816",
       "installedFile": {
         "id": 3573453,
         "displayName": "AttributeFix-Fabric-1.18.1-13.0.3.jar",
@@ -14573,6 +14694,7 @@
       "dateUpdated": "2021-12-30T23:28:15.1531738Z",
       "dateLastUpdateAttempted": "0001-01-01T00:00:00",
       "status": 5,
+      "installSource": 0,
       "preferenceAutoInstallUpdates": null,
       "preferenceAlternateFile": false,
       "preferenceIsIgnored": false,
@@ -14585,7 +14707,7 @@
     },
     {
       "addonID": 409184,
-      "gameInstanceID": "efa4dcb4-8262-45c4-b00b-c3ebc20ea8d8",
+      "gameInstanceID": "98d41034-3cd1-4127-b206-d28ebac68816",
       "installedFile": {
         "id": 3545495,
         "displayName": "Carrier 1.9.0",
@@ -14702,6 +14824,7 @@
       "dateUpdated": "2021-12-30T23:28:15.2379467Z",
       "dateLastUpdateAttempted": "0001-01-01T00:00:00",
       "status": 5,
+      "installSource": 0,
       "preferenceAutoInstallUpdates": null,
       "preferenceAlternateFile": false,
       "preferenceIsIgnored": false,
@@ -14714,7 +14837,7 @@
     },
     {
       "addonID": 391366,
-      "gameInstanceID": "efa4dcb4-8262-45c4-b00b-c3ebc20ea8d8",
+      "gameInstanceID": "98d41034-3cd1-4127-b206-d28ebac68816",
       "installedFile": {
         "id": 3591436,
         "displayName": "Repurposed Structures v3.2.0 (1.18.1 MC)",
@@ -14843,6 +14966,7 @@
       "dateUpdated": "2022-01-02T23:06:33.6783944Z",
       "dateLastUpdateAttempted": "2022-01-02T23:06:33.6783944Z",
       "status": 4,
+      "installSource": 0,
       "preferenceAutoInstallUpdates": null,
       "preferenceAlternateFile": false,
       "preferenceIsIgnored": false,
@@ -14855,7 +14979,7 @@
     },
     {
       "addonID": 499425,
-      "gameInstanceID": "efa4dcb4-8262-45c4-b00b-c3ebc20ea8d8",
+      "gameInstanceID": "98d41034-3cd1-4127-b206-d28ebac68816",
       "installedFile": {
         "id": 3546566,
         "displayName": "Lovely Snails 1.0.3 (1.18)",
@@ -14974,6 +15098,7 @@
       "dateUpdated": "2021-12-30T23:28:15.1621493Z",
       "dateLastUpdateAttempted": "0001-01-01T00:00:00",
       "status": 5,
+      "installSource": 0,
       "preferenceAutoInstallUpdates": null,
       "preferenceAlternateFile": false,
       "preferenceIsIgnored": false,
@@ -14986,7 +15111,7 @@
     },
     {
       "addonID": 514468,
-      "gameInstanceID": "efa4dcb4-8262-45c4-b00b-c3ebc20ea8d8",
+      "gameInstanceID": "98d41034-3cd1-4127-b206-d28ebac68816",
       "installedFile": {
         "id": 3561672,
         "displayName": "The Graveyard 1.1 (FABRIC) for 1.18.1",
@@ -15103,6 +15228,7 @@
       "dateUpdated": "2021-12-30T23:28:15.244928Z",
       "dateLastUpdateAttempted": "0001-01-01T00:00:00",
       "status": 5,
+      "installSource": 0,
       "preferenceAutoInstallUpdates": null,
       "preferenceAlternateFile": false,
       "preferenceIsIgnored": false,
@@ -15115,7 +15241,7 @@
     },
     {
       "addonID": 398614,
-      "gameInstanceID": "efa4dcb4-8262-45c4-b00b-c3ebc20ea8d8",
+      "gameInstanceID": "98d41034-3cd1-4127-b206-d28ebac68816",
       "installedFile": {
         "id": 3561305,
         "displayName": "Deep Mob Learning: Refabricated 1.18+0.5.0-beta2",
@@ -15216,6 +15342,7 @@
       "dateUpdated": "2021-12-30T23:28:15.2050348Z",
       "dateLastUpdateAttempted": "0001-01-01T00:00:00",
       "status": 5,
+      "installSource": 0,
       "preferenceAutoInstallUpdates": null,
       "preferenceAlternateFile": false,
       "preferenceIsIgnored": false,
@@ -15228,7 +15355,7 @@
     },
     {
       "addonID": 248787,
-      "gameInstanceID": "efa4dcb4-8262-45c4-b00b-c3ebc20ea8d8",
+      "gameInstanceID": "98d41034-3cd1-4127-b206-d28ebac68816",
       "installedFile": {
         "id": 3544502,
         "displayName": "appleskin-fabric-mc1.18-2.2.0.jar",
@@ -15347,6 +15474,7 @@
       "dateUpdated": "2021-12-30T23:28:15.1850884Z",
       "dateLastUpdateAttempted": "0001-01-01T00:00:00",
       "status": 5,
+      "installSource": 0,
       "preferenceAutoInstallUpdates": null,
       "preferenceAlternateFile": false,
       "preferenceIsIgnored": false,
@@ -15359,7 +15487,7 @@
     },
     {
       "addonID": 317856,
-      "gameInstanceID": "efa4dcb4-8262-45c4-b00b-c3ebc20ea8d8",
+      "gameInstanceID": "98d41034-3cd1-4127-b206-d28ebac68816",
       "installedFile": {
         "id": 3586771,
         "displayName": "[1.18] 7.3.6",
@@ -15508,6 +15636,7 @@
       "dateUpdated": "2022-01-01T19:21:02.4512132Z",
       "dateLastUpdateAttempted": "2022-01-01T19:21:02.4512132Z",
       "status": 5,
+      "installSource": 0,
       "preferenceAutoInstallUpdates": null,
       "preferenceAlternateFile": false,
       "preferenceIsIgnored": false,
@@ -15520,7 +15649,7 @@
     },
     {
       "addonID": 334011,
-      "gameInstanceID": "efa4dcb4-8262-45c4-b00b-c3ebc20ea8d8",
+      "gameInstanceID": "98d41034-3cd1-4127-b206-d28ebac68816",
       "installedFile": {
         "id": 3540346,
         "displayName": "simpleteleporters-2.3.0+fabric-mc1.18.jar",
@@ -15621,6 +15750,7 @@
       "dateUpdated": "2021-12-30T23:28:15.2678665Z",
       "dateLastUpdateAttempted": "0001-01-01T00:00:00",
       "status": 5,
+      "installSource": 0,
       "preferenceAutoInstallUpdates": null,
       "preferenceAlternateFile": false,
       "preferenceIsIgnored": false,
@@ -15633,7 +15763,7 @@
     },
     {
       "addonID": 312289,
-      "gameInstanceID": "efa4dcb4-8262-45c4-b00b-c3ebc20ea8d8",
+      "gameInstanceID": "98d41034-3cd1-4127-b206-d28ebac68816",
       "installedFile": {
         "id": 3579286,
         "displayName": "(1.18.1) blockus-2.3.4+1.18.1",
@@ -15768,6 +15898,7 @@
       "dateUpdated": "2021-12-30T23:29:15.9177866Z",
       "dateLastUpdateAttempted": "2021-12-30T23:29:15.9177866Z",
       "status": 5,
+      "installSource": 0,
       "preferenceAutoInstallUpdates": null,
       "preferenceAlternateFile": false,
       "preferenceIsIgnored": false,
@@ -15780,7 +15911,7 @@
     },
     {
       "addonID": 554586,
-      "gameInstanceID": "efa4dcb4-8262-45c4-b00b-c3ebc20ea8d8",
+      "gameInstanceID": "98d41034-3cd1-4127-b206-d28ebac68816",
       "installedFile": {
         "id": 3584857,
         "displayName": "farmingforblockheads-fabric-1.18.1-9.0.2.jar",
@@ -15897,6 +16028,7 @@
       "dateUpdated": "2021-12-30T23:29:54.3243431Z",
       "dateLastUpdateAttempted": "2021-12-30T23:29:54.3243431Z",
       "status": 5,
+      "installSource": 0,
       "preferenceAutoInstallUpdates": null,
       "preferenceAlternateFile": false,
       "preferenceIsIgnored": false,
@@ -15909,7 +16041,7 @@
     },
     {
       "addonID": 334018,
-      "gameInstanceID": "efa4dcb4-8262-45c4-b00b-c3ebc20ea8d8",
+      "gameInstanceID": "98d41034-3cd1-4127-b206-d28ebac68816",
       "installedFile": {
         "id": 3540177,
         "displayName": "trapexpansion-1.3.3+fabric-mc1.18.jar",
@@ -16010,6 +16142,137 @@
       "dateUpdated": "2021-12-30T23:28:15.1422029Z",
       "dateLastUpdateAttempted": "0001-01-01T00:00:00",
       "status": 5,
+      "installSource": 0,
+      "preferenceAutoInstallUpdates": null,
+      "preferenceAlternateFile": false,
+      "preferenceIsIgnored": false,
+      "isModified": false,
+      "isWorkingCopy": false,
+      "isFuzzyMatch": false,
+      "preferenceReleaseType": null,
+      "manifestName": null,
+      "installedTargets": null
+    },
+    {
+      "addonID": 478843,
+      "gameInstanceID": "98d41034-3cd1-4127-b206-d28ebac68816",
+      "installedFile": {
+        "id": 3543408,
+        "displayName": "Impaled-1.0.2.jar",
+        "fileName": "impaled-1.0.2.jar",
+        "fileDate": "2021-12-01T10:15:13.69Z",
+        "fileLength": 257355,
+        "releaseType": 1,
+        "fileStatus": 4,
+        "downloadUrl": "https://edge.forgecdn.net/files/3543/408/impaled-1.0.2.jar",
+        "isAlternate": false,
+        "alternateFileId": 0,
+        "dependencies": [
+          {
+            "id": 79723078,
+            "addonId": 306612,
+            "type": 3,
+            "fileId": 3543408
+          }
+        ],
+        "isAvailable": true,
+        "modules": [
+          {
+            "foldername": "META-INF",
+            "fingerprint": 3664503359,
+            "type": 3,
+            "invalidFingerprint": false
+          },
+          {
+            "foldername": "sincereloyalty.mixins.json",
+            "fingerprint": 3966487599,
+            "type": 3,
+            "invalidFingerprint": false
+          },
+          {
+            "foldername": "pack.mcmeta",
+            "fingerprint": 327417970,
+            "type": 3,
+            "invalidFingerprint": false
+          },
+          {
+            "foldername": "impaled.mixins.json",
+            "fingerprint": 2118960417,
+            "type": 3,
+            "invalidFingerprint": false
+          },
+          {
+            "foldername": "fabric.mod.json",
+            "fingerprint": 1137691149,
+            "type": 3,
+            "invalidFingerprint": false
+          },
+          {
+            "foldername": "data",
+            "fingerprint": 1759654379,
+            "type": 3,
+            "invalidFingerprint": false
+          },
+          {
+            "foldername": "assets",
+            "fingerprint": 210282327,
+            "type": 3,
+            "invalidFingerprint": false
+          },
+          {
+            "foldername": "impaled-refmap.json",
+            "fingerprint": 146108866,
+            "type": 3,
+            "invalidFingerprint": false
+          },
+          {
+            "foldername": "ladysnake",
+            "fingerprint": 677373624,
+            "type": 3,
+            "invalidFingerprint": false
+          }
+        ],
+        "packageFingerprint": 3518966267,
+        "gameVersion": [
+          "Fabric",
+          "1.18"
+        ],
+        "sortableGameVersion": [
+          {
+            "gameVersionPadded": "0",
+            "gameVersion": "",
+            "gameVersionReleaseDate": "2019-08-01T00:00:00Z",
+            "gameVersionName": "Fabric",
+            "gameVersionTypeId": 68441
+          },
+          {
+            "gameVersionPadded": "0000000001.0000000018",
+            "gameVersion": "1.18",
+            "gameVersionReleaseDate": "2021-11-30T16:23:01.427Z",
+            "gameVersionName": "1.18",
+            "gameVersionTypeId": 73250
+          }
+        ],
+        "hasInstallScript": false,
+        "isCompatibleWithClient": true,
+        "categorySectionPackageType": 6,
+        "restrictProjectFileAccess": 1,
+        "projectStatus": 4,
+        "renderCacheId": 2606183,
+        "projectId": 478843,
+        "packageFingerprintId": 797200250,
+        "gameVersionDateReleased": "2019-08-01T00:00:00Z",
+        "gameVersionMappingId": 3513071,
+        "gameVersionId": 7499,
+        "gameId": 432,
+        "isServerPack": false,
+        "FileNameOnDisk": "impaled-1.0.2.jar"
+      },
+      "dateInstalled": "2021-12-30T23:28:15.1412055Z",
+      "dateUpdated": "2021-12-30T23:28:15.1412055Z",
+      "dateLastUpdateAttempted": "0001-01-01T00:00:00",
+      "status": 5,
+      "installSource": 0,
       "preferenceAutoInstallUpdates": null,
       "preferenceAlternateFile": false,
       "preferenceIsIgnored": false,
@@ -16022,7 +16285,7 @@
     },
     {
       "addonID": 517833,
-      "gameInstanceID": "efa4dcb4-8262-45c4-b00b-c3ebc20ea8d8",
+      "gameInstanceID": "98d41034-3cd1-4127-b206-d28ebac68816",
       "installedFile": {
         "id": 3591193,
         "displayName": "arcanus-1.25.jar",
@@ -16153,135 +16416,7 @@
       "dateUpdated": "2022-01-02T23:06:46.9489026Z",
       "dateLastUpdateAttempted": "2022-01-02T23:06:46.9489026Z",
       "status": 4,
-      "preferenceAutoInstallUpdates": null,
-      "preferenceAlternateFile": false,
-      "preferenceIsIgnored": false,
-      "isModified": false,
-      "isWorkingCopy": false,
-      "isFuzzyMatch": false,
-      "preferenceReleaseType": null,
-      "manifestName": null,
-      "installedTargets": null
-    },
-    {
-      "addonID": 478843,
-      "gameInstanceID": "efa4dcb4-8262-45c4-b00b-c3ebc20ea8d8",
-      "installedFile": {
-        "id": 3543408,
-        "displayName": "Impaled-1.0.2.jar",
-        "fileName": "impaled-1.0.2.jar",
-        "fileDate": "2021-12-01T10:15:13.69Z",
-        "fileLength": 257355,
-        "releaseType": 1,
-        "fileStatus": 4,
-        "downloadUrl": "https://edge.forgecdn.net/files/3543/408/impaled-1.0.2.jar",
-        "isAlternate": false,
-        "alternateFileId": 0,
-        "dependencies": [
-          {
-            "id": 79723078,
-            "addonId": 306612,
-            "type": 3,
-            "fileId": 3543408
-          }
-        ],
-        "isAvailable": true,
-        "modules": [
-          {
-            "foldername": "META-INF",
-            "fingerprint": 3664503359,
-            "type": 3,
-            "invalidFingerprint": false
-          },
-          {
-            "foldername": "sincereloyalty.mixins.json",
-            "fingerprint": 3966487599,
-            "type": 3,
-            "invalidFingerprint": false
-          },
-          {
-            "foldername": "pack.mcmeta",
-            "fingerprint": 327417970,
-            "type": 3,
-            "invalidFingerprint": false
-          },
-          {
-            "foldername": "impaled.mixins.json",
-            "fingerprint": 2118960417,
-            "type": 3,
-            "invalidFingerprint": false
-          },
-          {
-            "foldername": "fabric.mod.json",
-            "fingerprint": 1137691149,
-            "type": 3,
-            "invalidFingerprint": false
-          },
-          {
-            "foldername": "data",
-            "fingerprint": 1759654379,
-            "type": 3,
-            "invalidFingerprint": false
-          },
-          {
-            "foldername": "assets",
-            "fingerprint": 210282327,
-            "type": 3,
-            "invalidFingerprint": false
-          },
-          {
-            "foldername": "impaled-refmap.json",
-            "fingerprint": 146108866,
-            "type": 3,
-            "invalidFingerprint": false
-          },
-          {
-            "foldername": "ladysnake",
-            "fingerprint": 677373624,
-            "type": 3,
-            "invalidFingerprint": false
-          }
-        ],
-        "packageFingerprint": 3518966267,
-        "gameVersion": [
-          "Fabric",
-          "1.18"
-        ],
-        "sortableGameVersion": [
-          {
-            "gameVersionPadded": "0",
-            "gameVersion": "",
-            "gameVersionReleaseDate": "2019-08-01T00:00:00Z",
-            "gameVersionName": "Fabric",
-            "gameVersionTypeId": 68441
-          },
-          {
-            "gameVersionPadded": "0000000001.0000000018",
-            "gameVersion": "1.18",
-            "gameVersionReleaseDate": "2021-11-30T16:23:01.427Z",
-            "gameVersionName": "1.18",
-            "gameVersionTypeId": 73250
-          }
-        ],
-        "hasInstallScript": false,
-        "isCompatibleWithClient": true,
-        "categorySectionPackageType": 6,
-        "restrictProjectFileAccess": 1,
-        "projectStatus": 4,
-        "renderCacheId": 2606183,
-        "projectId": 478843,
-        "packageFingerprintId": 797200250,
-        "gameVersionDateReleased": "2019-08-01T00:00:00Z",
-        "gameVersionMappingId": 3513071,
-        "gameVersionId": 7499,
-        "gameId": 432,
-        "isServerPack": false,
-        "FileNameOnDisk": "impaled-1.0.2.jar"
-      },
-      "dateInstalled": "2021-12-30T23:28:15.1412055Z",
-      "dateUpdated": "2021-12-30T23:28:15.1412055Z",
-      "dateLastUpdateAttempted": "0001-01-01T00:00:00",
-      "status": 5,
+      "installSource": 0,
       "preferenceAutoInstallUpdates": null,
       "preferenceAlternateFile": false,
       "preferenceIsIgnored": false,
@@ -16294,7 +16429,7 @@
     },
     {
       "addonID": 401978,
-      "gameInstanceID": "efa4dcb4-8262-45c4-b00b-c3ebc20ea8d8",
+      "gameInstanceID": "98d41034-3cd1-4127-b206-d28ebac68816",
       "installedFile": {
         "id": 3545078,
         "displayName": "DisableCustomWorldsAdvice-1.4.jar",
@@ -16472,6 +16607,7 @@
       "dateUpdated": "2021-12-30T23:28:15.1970558Z",
       "dateLastUpdateAttempted": "0001-01-01T00:00:00",
       "status": 5,
+      "installSource": 0,
       "preferenceAutoInstallUpdates": null,
       "preferenceAlternateFile": false,
       "preferenceIsIgnored": false,
@@ -16484,7 +16620,7 @@
     },
     {
       "addonID": 451554,
-      "gameInstanceID": "efa4dcb4-8262-45c4-b00b-c3ebc20ea8d8",
+      "gameInstanceID": "98d41034-3cd1-4127-b206-d28ebac68816",
       "installedFile": {
         "id": 3545028,
         "displayName": "Lifts 1.4-BETA",
@@ -16601,6 +16737,7 @@
       "dateUpdated": "2021-12-30T23:28:15.1960591Z",
       "dateLastUpdateAttempted": "0001-01-01T00:00:00",
       "status": 5,
+      "installSource": 0,
       "preferenceAutoInstallUpdates": null,
       "preferenceAlternateFile": false,
       "preferenceIsIgnored": false,
@@ -16613,7 +16750,7 @@
     },
     {
       "addonID": 547358,
-      "gameInstanceID": "efa4dcb4-8262-45c4-b00b-c3ebc20ea8d8",
+      "gameInstanceID": "98d41034-3cd1-4127-b206-d28ebac68816",
       "installedFile": {
         "id": 3566721,
         "displayName": "WMITAF 2.2.0 for Minecraft 1.18.x",
@@ -16732,6 +16869,7 @@
       "dateUpdated": "2021-12-30T23:28:15.2140107Z",
       "dateLastUpdateAttempted": "0001-01-01T00:00:00",
       "status": 5,
+      "installSource": 0,
       "preferenceAutoInstallUpdates": null,
       "preferenceAlternateFile": false,
       "preferenceIsIgnored": false,
@@ -16744,7 +16882,7 @@
     },
     {
       "addonID": 549031,
-      "gameInstanceID": "efa4dcb4-8262-45c4-b00b-c3ebc20ea8d8",
+      "gameInstanceID": "98d41034-3cd1-4127-b206-d28ebac68816",
       "installedFile": {
         "id": 3591830,
         "displayName": "capybara-1.18-1.0.1.jar",
@@ -16858,7 +16996,8 @@
       "dateInstalled": "2022-01-03T00:29:54.5165449Z",
       "dateUpdated": "2022-01-03T00:29:54.5429848Z",
       "dateLastUpdateAttempted": "2022-01-03T00:29:54.5429848Z",
-      "status": 5,
+      "status": 4,
+      "installSource": 0,
       "preferenceAutoInstallUpdates": null,
       "preferenceAlternateFile": false,
       "preferenceIsIgnored": false,
@@ -16871,7 +17010,7 @@
     },
     {
       "addonID": 508931,
-      "gameInstanceID": "efa4dcb4-8262-45c4-b00b-c3ebc20ea8d8",
+      "gameInstanceID": "98d41034-3cd1-4127-b206-d28ebac68816",
       "installedFile": {
         "id": 3567282,
         "displayName": "simulacrum-0.5.0-beta2.jar",
@@ -16990,6 +17129,7 @@
       "dateUpdated": "2021-12-30T23:28:15.1292377Z",
       "dateLastUpdateAttempted": "0001-01-01T00:00:00",
       "status": 5,
+      "installSource": 0,
       "preferenceAutoInstallUpdates": null,
       "preferenceAlternateFile": false,
       "preferenceIsIgnored": false,
@@ -17002,7 +17142,7 @@
     },
     {
       "addonID": 440979,
-      "gameInstanceID": "efa4dcb4-8262-45c4-b00b-c3ebc20ea8d8",
+      "gameInstanceID": "98d41034-3cd1-4127-b206-d28ebac68816",
       "installedFile": {
         "id": 3569820,
         "displayName": "[1.18.1] 4.4.0",
@@ -17121,6 +17261,7 @@
       "dateUpdated": "2021-12-30T23:28:15.1920695Z",
       "dateLastUpdateAttempted": "0001-01-01T00:00:00",
       "status": 5,
+      "installSource": 0,
       "preferenceAutoInstallUpdates": null,
       "preferenceAlternateFile": false,
       "preferenceIsIgnored": false,
@@ -17133,7 +17274,7 @@
     },
     {
       "addonID": 410902,
-      "gameInstanceID": "efa4dcb4-8262-45c4-b00b-c3ebc20ea8d8",
+      "gameInstanceID": "98d41034-3cd1-4127-b206-d28ebac68816",
       "installedFile": {
         "id": 3575744,
         "displayName": "Fabric Waystones 2.4.1",
@@ -17243,6 +17384,7 @@
       "dateUpdated": "2021-12-30T23:29:53.2376747Z",
       "dateLastUpdateAttempted": "2021-12-30T23:29:53.2376747Z",
       "status": 5,
+      "installSource": 0,
       "preferenceAutoInstallUpdates": null,
       "preferenceAlternateFile": false,
       "preferenceIsIgnored": false,
@@ -17255,7 +17397,7 @@
     },
     {
       "addonID": 408118,
-      "gameInstanceID": "efa4dcb4-8262-45c4-b00b-c3ebc20ea8d8",
+      "gameInstanceID": "98d41034-3cd1-4127-b206-d28ebac68816",
       "installedFile": {
         "id": 3578180,
         "displayName": "[1.18.1] v6.2.0",
@@ -17396,6 +17538,7 @@
       "dateUpdated": "2021-12-30T23:29:59.2160569Z",
       "dateLastUpdateAttempted": "2021-12-30T23:29:59.2160569Z",
       "status": 5,
+      "installSource": 0,
       "preferenceAutoInstallUpdates": null,
       "preferenceAlternateFile": false,
       "preferenceIsIgnored": false,
@@ -17408,7 +17551,7 @@
     },
     {
       "addonID": 395864,
-      "gameInstanceID": "efa4dcb4-8262-45c4-b00b-c3ebc20ea8d8",
+      "gameInstanceID": "98d41034-3cd1-4127-b206-d28ebac68816",
       "installedFile": {
         "id": 3584908,
         "displayName": "kubejs-fabric-1801.4.0-build.263.jar",
@@ -17563,6 +17706,7 @@
       "dateUpdated": "2021-12-30T23:29:57.8022262Z",
       "dateLastUpdateAttempted": "2021-12-30T23:29:57.8022262Z",
       "status": 5,
+      "installSource": 0,
       "preferenceAutoInstallUpdates": null,
       "preferenceAlternateFile": false,
       "preferenceIsIgnored": false,
@@ -17575,7 +17719,7 @@
     },
     {
       "addonID": 341284,
-      "gameInstanceID": "efa4dcb4-8262-45c4-b00b-c3ebc20ea8d8",
+      "gameInstanceID": "98d41034-3cd1-4127-b206-d28ebac68816",
       "installedFile": {
         "id": 3542826,
         "displayName": "trinkets-3.1.0.jar",
@@ -17687,6 +17831,7 @@
       "dateUpdated": "2021-12-30T23:28:15.1412055Z",
       "dateLastUpdateAttempted": "0001-01-01T00:00:00",
       "status": 5,
+      "installSource": 0,
       "preferenceAutoInstallUpdates": null,
       "preferenceAlternateFile": false,
       "preferenceIsIgnored": false,
@@ -17699,7 +17844,7 @@
     },
     {
       "addonID": 476080,
-      "gameInstanceID": "efa4dcb4-8262-45c4-b00b-c3ebc20ea8d8",
+      "gameInstanceID": "98d41034-3cd1-4127-b206-d28ebac68816",
       "installedFile": {
         "id": 3575523,
         "displayName": "Basic AIOTs 1.3.3+1.18.1",
@@ -17826,6 +17971,7 @@
       "dateUpdated": "2021-12-30T23:29:13.6913774Z",
       "dateLastUpdateAttempted": "2021-12-30T23:29:13.6913774Z",
       "status": 5,
+      "installSource": 0,
       "preferenceAutoInstallUpdates": null,
       "preferenceAlternateFile": false,
       "preferenceIsIgnored": false,
@@ -17838,7 +17984,7 @@
     },
     {
       "addonID": 459929,
-      "gameInstanceID": "efa4dcb4-8262-45c4-b00b-c3ebc20ea8d8",
+      "gameInstanceID": "98d41034-3cd1-4127-b206-d28ebac68816",
       "installedFile": {
         "id": 3591507,
         "displayName": "10.0.0-beta.3",
@@ -17975,6 +18121,7 @@
       "dateUpdated": "2022-01-02T23:07:20.7614732Z",
       "dateLastUpdateAttempted": "2022-01-02T23:07:20.7614732Z",
       "status": 4,
+      "installSource": 0,
       "preferenceAutoInstallUpdates": null,
       "preferenceAlternateFile": false,
       "preferenceIsIgnored": false,
@@ -17987,7 +18134,7 @@
     },
     {
       "addonID": 530668,
-      "gameInstanceID": "efa4dcb4-8262-45c4-b00b-c3ebc20ea8d8",
+      "gameInstanceID": "98d41034-3cd1-4127-b206-d28ebac68816",
       "installedFile": {
         "id": 3591317,
         "displayName": "[Fabric - 1.18] 1.2.10",
@@ -18105,6 +18252,7 @@
       "dateUpdated": "2022-01-02T23:33:12.9674831Z",
       "dateLastUpdateAttempted": "2022-01-02T23:33:12.9674831Z",
       "status": 4,
+      "installSource": 0,
       "preferenceAutoInstallUpdates": null,
       "preferenceAlternateFile": false,
       "preferenceIsIgnored": false,
@@ -18117,7 +18265,7 @@
     },
     {
       "addonID": 531783,
-      "gameInstanceID": "efa4dcb4-8262-45c4-b00b-c3ebc20ea8d8",
+      "gameInstanceID": "98d41034-3cd1-4127-b206-d28ebac68816",
       "installedFile": {
         "id": 3566189,
         "displayName": "Infusion Table 1.0.5-1.18.1",
@@ -18217,6 +18365,7 @@
       "dateUpdated": "2021-12-30T23:28:15.2718562Z",
       "dateLastUpdateAttempted": "0001-01-01T00:00:00",
       "status": 5,
+      "installSource": 0,
       "preferenceAutoInstallUpdates": null,
       "preferenceAlternateFile": false,
       "preferenceIsIgnored": false,
@@ -18229,7 +18378,7 @@
     },
     {
       "addonID": 310111,
-      "gameInstanceID": "efa4dcb4-8262-45c4-b00b-c3ebc20ea8d8",
+      "gameInstanceID": "98d41034-3cd1-4127-b206-d28ebac68816",
       "installedFile": {
         "id": 3580798,
         "displayName": "[Fabric 1.18.x] v7.1.357",
@@ -18392,6 +18541,7 @@
       "dateUpdated": "2021-12-30T23:30:27.6577141Z",
       "dateLastUpdateAttempted": "2021-12-30T23:30:27.6577141Z",
       "status": 5,
+      "installSource": 0,
       "preferenceAutoInstallUpdates": null,
       "preferenceAlternateFile": false,
       "preferenceIsIgnored": false,
@@ -18404,7 +18554,7 @@
     },
     {
       "addonID": 496150,
-      "gameInstanceID": "efa4dcb4-8262-45c4-b00b-c3ebc20ea8d8",
+      "gameInstanceID": "98d41034-3cd1-4127-b206-d28ebac68816",
       "installedFile": {
         "id": 3545546,
         "displayName": "[1.18] DeathLog - 0.2.4",
@@ -18510,6 +18660,7 @@
       "dateUpdated": "2021-12-30T23:28:15.2229866Z",
       "dateLastUpdateAttempted": "0001-01-01T00:00:00",
       "status": 5,
+      "installSource": 0,
       "preferenceAutoInstallUpdates": null,
       "preferenceAlternateFile": false,
       "preferenceIsIgnored": false,
@@ -18522,7 +18673,7 @@
     },
     {
       "addonID": 319582,
-      "gameInstanceID": "efa4dcb4-8262-45c4-b00b-c3ebc20ea8d8",
+      "gameInstanceID": "98d41034-3cd1-4127-b206-d28ebac68816",
       "installedFile": {
         "id": 3541956,
         "displayName": "respawnablepets-1.18-1.jar",
@@ -18647,6 +18798,7 @@
       "dateUpdated": "2021-12-30T23:28:15.2638771Z",
       "dateLastUpdateAttempted": "0001-01-01T00:00:00",
       "status": 5,
+      "installSource": 0,
       "preferenceAutoInstallUpdates": null,
       "preferenceAlternateFile": false,
       "preferenceIsIgnored": false,
@@ -18659,7 +18811,7 @@
     },
     {
       "addonID": 534029,
-      "gameInstanceID": "efa4dcb4-8262-45c4-b00b-c3ebc20ea8d8",
+      "gameInstanceID": "98d41034-3cd1-4127-b206-d28ebac68816",
       "installedFile": {
         "id": 3554554,
         "displayName": "magitekmechs-fabric-MC1.18-1.0.10.jar",
@@ -18783,6 +18935,7 @@
       "dateUpdated": "2021-12-30T23:28:15.1701283Z",
       "dateLastUpdateAttempted": "0001-01-01T00:00:00",
       "status": 5,
+      "installSource": 0,
       "preferenceAutoInstallUpdates": null,
       "preferenceAlternateFile": false,
       "preferenceIsIgnored": false,
@@ -18795,7 +18948,7 @@
     },
     {
       "addonID": 546841,
-      "gameInstanceID": "efa4dcb4-8262-45c4-b00b-c3ebc20ea8d8",
+      "gameInstanceID": "98d41034-3cd1-4127-b206-d28ebac68816",
       "installedFile": {
         "id": 3549371,
         "displayName": "No Null Processors Fabric v2.0.0 (1.18 MC)",
@@ -18907,6 +19060,7 @@
       "dateUpdated": "2022-01-01T19:20:36.1440082Z",
       "dateLastUpdateAttempted": "0001-01-01T00:00:00",
       "status": 5,
+      "installSource": 0,
       "preferenceAutoInstallUpdates": null,
       "preferenceAlternateFile": false,
       "preferenceIsIgnored": false,
@@ -18919,7 +19073,7 @@
     },
     {
       "addonID": 319596,
-      "gameInstanceID": "efa4dcb4-8262-45c4-b00b-c3ebc20ea8d8",
+      "gameInstanceID": "98d41034-3cd1-4127-b206-d28ebac68816",
       "installedFile": {
         "id": 3577068,
         "displayName": "[1.14.4 - 1.18.1] Pehkui 3.1.0",
@@ -19056,6 +19210,7 @@
       "dateUpdated": "2021-12-30T23:30:12.0731104Z",
       "dateLastUpdateAttempted": "2021-12-30T23:30:12.0731104Z",
       "status": 5,
+      "installSource": 0,
       "preferenceAutoInstallUpdates": null,
       "preferenceAlternateFile": false,
       "preferenceIsIgnored": false,
@@ -19068,7 +19223,7 @@
     },
     {
       "addonID": 223794,
-      "gameInstanceID": "efa4dcb4-8262-45c4-b00b-c3ebc20ea8d8",
+      "gameInstanceID": "98d41034-3cd1-4127-b206-d28ebac68816",
       "installedFile": {
         "id": 3590131,
         "displayName": "10.0.0-beta.3 [FABRIC]",
@@ -19172,6 +19327,7 @@
       "dateUpdated": "2022-01-01T19:21:16.1825484Z",
       "dateLastUpdateAttempted": "2022-01-01T19:21:16.1825484Z",
       "status": 5,
+      "installSource": 0,
       "preferenceAutoInstallUpdates": null,
       "preferenceAlternateFile": false,
       "preferenceIsIgnored": false,
@@ -19184,7 +19340,7 @@
     },
     {
       "addonID": 400929,
-      "gameInstanceID": "efa4dcb4-8262-45c4-b00b-c3ebc20ea8d8",
+      "gameInstanceID": "98d41034-3cd1-4127-b206-d28ebac68816",
       "installedFile": {
         "id": 3367227,
         "displayName": "can-i-mine-this-block-1.1.0.jar",
@@ -19322,6 +19478,7 @@
       "dateUpdated": "2021-12-30T23:28:15.1651433Z",
       "dateLastUpdateAttempted": "0001-01-01T00:00:00",
       "status": 5,
+      "installSource": 0,
       "preferenceAutoInstallUpdates": null,
       "preferenceAlternateFile": false,
       "preferenceIsIgnored": false,
@@ -19334,7 +19491,7 @@
     },
     {
       "addonID": 341888,
-      "gameInstanceID": "efa4dcb4-8262-45c4-b00b-c3ebc20ea8d8",
+      "gameInstanceID": "98d41034-3cd1-4127-b206-d28ebac68816",
       "installedFile": {
         "id": 3548503,
         "displayName": "diggusmaximus-1.5.2-1.18.jar",
@@ -19440,6 +19597,7 @@
       "dateUpdated": "2021-12-30T23:28:15.2509122Z",
       "dateLastUpdateAttempted": "0001-01-01T00:00:00",
       "status": 5,
+      "installSource": 0,
       "preferenceAutoInstallUpdates": null,
       "preferenceAlternateFile": false,
       "preferenceIsIgnored": false,
@@ -19452,7 +19610,7 @@
     },
     {
       "addonID": 405388,
-      "gameInstanceID": "efa4dcb4-8262-45c4-b00b-c3ebc20ea8d8",
+      "gameInstanceID": "98d41034-3cd1-4127-b206-d28ebac68816",
       "installedFile": {
         "id": 3586764,
         "displayName": "Modern Industrialization v1.0.3",
@@ -19607,6 +19765,7 @@
       "dateUpdated": "2022-01-01T18:03:21.9440615Z",
       "dateLastUpdateAttempted": "2022-01-01T18:03:21.9440615Z",
       "status": 5,
+      "installSource": 0,
       "preferenceAutoInstallUpdates": null,
       "preferenceAlternateFile": false,
       "preferenceIsIgnored": false,
@@ -19619,7 +19778,7 @@
     },
     {
       "addonID": 319057,
-      "gameInstanceID": "efa4dcb4-8262-45c4-b00b-c3ebc20ea8d8",
+      "gameInstanceID": "98d41034-3cd1-4127-b206-d28ebac68816",
       "installedFile": {
         "id": 3559638,
         "displayName": "[Fabric 1.18.x] v6.1.48",
@@ -19733,6 +19892,7 @@
       "dateUpdated": "2021-12-30T23:28:15.1501816Z",
       "dateLastUpdateAttempted": "0001-01-01T00:00:00",
       "status": 5,
+      "installSource": 0,
       "preferenceAutoInstallUpdates": null,
       "preferenceAlternateFile": false,
       "preferenceIsIgnored": false,
@@ -19745,7 +19905,7 @@
     },
     {
       "addonID": 551894,
-      "gameInstanceID": "efa4dcb4-8262-45c4-b00b-c3ebc20ea8d8",
+      "gameInstanceID": "98d41034-3cd1-4127-b206-d28ebac68816",
       "installedFile": {
         "id": 3569379,
         "displayName": "bcc-fabric-1.0.4.jar",
@@ -19845,6 +20005,7 @@
       "dateUpdated": "2021-12-30T23:28:15.1451952Z",
       "dateLastUpdateAttempted": "0001-01-01T00:00:00",
       "status": 5,
+      "installSource": 0,
       "preferenceAutoInstallUpdates": null,
       "preferenceAlternateFile": false,
       "preferenceIsIgnored": false,
@@ -19857,7 +20018,7 @@
     },
     {
       "addonID": 526274,
-      "gameInstanceID": "efa4dcb4-8262-45c4-b00b-c3ebc20ea8d8",
+      "gameInstanceID": "98d41034-3cd1-4127-b206-d28ebac68816",
       "installedFile": {
         "id": 3545010,
         "displayName": "1.0.4 for 1.18",
@@ -19977,6 +20138,7 @@
       "dateUpdated": "2021-12-30T23:28:15.2519096Z",
       "dateLastUpdateAttempted": "0001-01-01T00:00:00",
       "status": 5,
+      "installSource": 0,
       "preferenceAutoInstallUpdates": null,
       "preferenceAlternateFile": false,
       "preferenceIsIgnored": false,
@@ -19989,7 +20151,7 @@
     },
     {
       "addonID": 482834,
-      "gameInstanceID": "efa4dcb4-8262-45c4-b00b-c3ebc20ea8d8",
+      "gameInstanceID": "98d41034-3cd1-4127-b206-d28ebac68816",
       "installedFile": {
         "id": 3559302,
         "displayName": "0.2.0 - 1.18.1",
@@ -20100,6 +20262,7 @@
       "dateUpdated": "2021-12-30T23:28:15.2848213Z",
       "dateLastUpdateAttempted": "0001-01-01T00:00:00",
       "status": 5,
+      "installSource": 0,
       "preferenceAutoInstallUpdates": null,
       "preferenceAlternateFile": false,
       "preferenceIsIgnored": false,
@@ -20112,7 +20275,7 @@
     },
     {
       "addonID": 415438,
-      "gameInstanceID": "efa4dcb4-8262-45c4-b00b-c3ebc20ea8d8",
+      "gameInstanceID": "98d41034-3cd1-4127-b206-d28ebac68816",
       "installedFile": {
         "id": 3590391,
         "displayName": "Croptopia-1.18-FABRIC-1.8.0.jar",
@@ -20243,6 +20406,7 @@
       "dateUpdated": "2022-01-02T23:11:06.9766782Z",
       "dateLastUpdateAttempted": "2022-01-02T23:11:06.9766782Z",
       "status": 4,
+      "installSource": 0,
       "preferenceAutoInstallUpdates": null,
       "preferenceAlternateFile": false,
       "preferenceIsIgnored": false,
@@ -20255,7 +20419,7 @@
     },
     {
       "addonID": 560262,
-      "gameInstanceID": "efa4dcb4-8262-45c4-b00b-c3ebc20ea8d8",
+      "gameInstanceID": "98d41034-3cd1-4127-b206-d28ebac68816",
       "installedFile": {
         "id": 3579956,
         "displayName": "croptopia-chocolaterie-1.18.1-0.5.jar",
@@ -20366,6 +20530,7 @@
       "dateUpdated": "2021-12-30T23:49:29.5057404Z",
       "dateLastUpdateAttempted": "2021-12-30T23:49:29.5057404Z",
       "status": 5,
+      "installSource": 0,
       "preferenceAutoInstallUpdates": null,
       "preferenceAlternateFile": false,
       "preferenceIsIgnored": false,
@@ -20378,7 +20543,7 @@
     },
     {
       "addonID": 541329,
-      "gameInstanceID": "efa4dcb4-8262-45c4-b00b-c3ebc20ea8d8",
+      "gameInstanceID": "98d41034-3cd1-4127-b206-d28ebac68816",
       "installedFile": {
         "id": 3548173,
         "displayName": "EquipmentCompare-1.18-fabric-1.2.9.jar",
@@ -20509,143 +20674,7 @@
       "dateUpdated": "2021-12-30T23:28:15.2549017Z",
       "dateLastUpdateAttempted": "0001-01-01T00:00:00",
       "status": 5,
-      "preferenceAutoInstallUpdates": null,
-      "preferenceAlternateFile": false,
-      "preferenceIsIgnored": false,
-      "isModified": false,
-      "isWorkingCopy": false,
-      "isFuzzyMatch": false,
-      "preferenceReleaseType": null,
-      "manifestName": null,
-      "installedTargets": null
-    },
-    {
-      "addonID": 449430,
-      "gameInstanceID": "efa4dcb4-8262-45c4-b00b-c3ebc20ea8d8",
-      "installedFile": {
-        "id": 3587554,
-        "displayName": "Full Slabs 3.3.2",
-        "fileName": "full-slabs-3.3.2.jar",
-        "fileDate": "2022-01-01T02:56:10.86Z",
-        "fileLength": 347965,
-        "releaseType": 1,
-        "fileStatus": 4,
-        "downloadUrl": "https://edge.forgecdn.net/files/3587/554/full-slabs-3.3.2.jar",
-        "isAlternate": false,
-        "alternateFileId": 0,
-        "dependencies": [
-          {
-            "id": 82692788,
-            "addonId": 319057,
-            "type": 3,
-            "fileId": 3587554
-          },
-          {
-            "id": 82692786,
-            "addonId": 340604,
-            "type": 1,
-            "fileId": 3587554
-          },
-          {
-            "id": 82692787,
-            "addonId": 303119,
-            "type": 2,
-            "fileId": 3587554
-          }
-        ],
-        "isAvailable": true,
-        "modules": [
-          {
-            "foldername": "META-INF",
-            "fingerprint": 4196152114,
-            "type": 3,
-            "invalidFingerprint": false
-          },
-          {
-            "foldername": "LICENSE_full-slabs",
-            "fingerprint": 1712224173,
-            "type": 3,
-            "invalidFingerprint": false
-          },
-          {
-            "foldername": "full_slabs.mixins.json",
-            "fingerprint": 3818107723,
-            "type": 3,
-            "invalidFingerprint": false
-          },
-          {
-            "foldername": "fabric.mod.json",
-            "fingerprint": 3889873142,
-            "type": 3,
-            "invalidFingerprint": false
-          },
-          {
-            "foldername": "assets",
-            "fingerprint": 219764486,
-            "type": 3,
-            "invalidFingerprint": false
-          },
-          {
-            "foldername": "full-slabs-refmap.json",
-            "fingerprint": 317777041,
-            "type": 3,
-            "invalidFingerprint": false
-          },
-          {
-            "foldername": "dev",
-            "fingerprint": 3907599925,
-            "type": 3,
-            "invalidFingerprint": false
-          }
-        ],
-        "packageFingerprint": 3634855727,
-        "gameVersion": [
-          "1.18.1",
-          "Fabric",
-          "1.18"
-        ],
-        "sortableGameVersion": [
-          {
-            "gameVersionPadded": "0000000001.0000000018.0000000001",
-            "gameVersion": "1.18.1",
-            "gameVersionReleaseDate": "2021-12-10T10:37:38.06Z",
-            "gameVersionName": "1.18.1",
-            "gameVersionTypeId": 73250
-          },
-          {
-            "gameVersionPadded": "0",
-            "gameVersion": "",
-            "gameVersionReleaseDate": "2019-08-01T00:00:00Z",
-            "gameVersionName": "Fabric",
-            "gameVersionTypeId": 68441
-          },
-          {
-            "gameVersionPadded": "0000000001.0000000018",
-            "gameVersion": "1.18",
-            "gameVersionReleaseDate": "2021-11-30T16:23:01.427Z",
-            "gameVersionName": "1.18",
-            "gameVersionTypeId": 73250
-          }
-        ],
-        "hasInstallScript": false,
-        "isCompatibleWithClient": true,
-        "categorySectionPackageType": 6,
-        "restrictProjectFileAccess": 1,
-        "projectStatus": 4,
-        "renderCacheId": 2658919,
-        "projectId": 449430,
-        "packageFingerprintId": 823763205,
-        "gameVersionDateReleased": "2019-08-01T00:00:00Z",
-        "gameVersionMappingId": 3625651,
-        "gameVersionId": 7499,
-        "gameId": 432,
-        "isServerPack": false,
-        "FileNameOnDisk": "full-slabs-3.3.2.jar"
-      },
-      "dateInstalled": "2022-01-03T00:10:02.0610117Z",
-      "dateUpdated": "2022-01-03T00:10:02.0640033Z",
-      "dateLastUpdateAttempted": "2022-01-03T00:10:02.0640033Z",
-      "status": 4,
+      "installSource": 0,
       "preferenceAutoInstallUpdates": null,
       "preferenceAlternateFile": false,
       "preferenceIsIgnored": false,
@@ -20658,7 +20687,7 @@
     },
     {
       "addonID": 60089,
-      "gameInstanceID": "efa4dcb4-8262-45c4-b00b-c3ebc20ea8d8",
+      "gameInstanceID": "98d41034-3cd1-4127-b206-d28ebac68816",
       "installedFile": {
         "id": 3577798,
         "displayName": "[1.18+] Mouse Tweaks 2.20 Fabric",
@@ -20770,6 +20799,7 @@
       "dateUpdated": "2021-12-30T23:30:03.2713855Z",
       "dateLastUpdateAttempted": "2021-12-30T23:30:03.2713855Z",
       "status": 5,
+      "installSource": 0,
       "preferenceAutoInstallUpdates": null,
       "preferenceAlternateFile": false,
       "preferenceIsIgnored": false,
@@ -20782,7 +20812,7 @@
     },
     {
       "addonID": 411557,
-      "gameInstanceID": "efa4dcb4-8262-45c4-b00b-c3ebc20ea8d8",
+      "gameInstanceID": "98d41034-3cd1-4127-b206-d28ebac68816",
       "installedFile": {
         "id": 3543273,
         "displayName": "tooltipfix-1.0.4-1.18.jar",
@@ -20888,6 +20918,7 @@
       "dateUpdated": "2021-12-30T23:28:15.1741176Z",
       "dateLastUpdateAttempted": "0001-01-01T00:00:00",
       "status": 5,
+      "installSource": 0,
       "preferenceAutoInstallUpdates": null,
       "preferenceAlternateFile": false,
       "preferenceIsIgnored": false,
@@ -20900,7 +20931,7 @@
     },
     {
       "addonID": 399309,
-      "gameInstanceID": "efa4dcb4-8262-45c4-b00b-c3ebc20ea8d8",
+      "gameInstanceID": "98d41034-3cd1-4127-b206-d28ebac68816",
       "installedFile": {
         "id": 3575028,
         "displayName": "Dawn API v3.2.0",
@@ -21031,6 +21062,7 @@
       "dateUpdated": "2021-12-30T23:29:46.8524024Z",
       "dateLastUpdateAttempted": "2021-12-30T23:29:46.8524024Z",
       "status": 5,
+      "installSource": 0,
       "preferenceAutoInstallUpdates": null,
       "preferenceAlternateFile": false,
       "preferenceIsIgnored": false,
@@ -21043,7 +21075,7 @@
     },
     {
       "addonID": 256717,
-      "gameInstanceID": "efa4dcb4-8262-45c4-b00b-c3ebc20ea8d8",
+      "gameInstanceID": "98d41034-3cd1-4127-b206-d28ebac68816",
       "installedFile": {
         "id": 3575673,
         "displayName": "Clumps-fabric-1.18.1-8.0.4.jar",
@@ -21129,6 +21161,7 @@
       "dateUpdated": "2021-12-30T23:29:39.7672995Z",
       "dateLastUpdateAttempted": "2021-12-30T23:29:39.7672995Z",
       "status": 5,
+      "installSource": 0,
       "preferenceAutoInstallUpdates": null,
       "preferenceAlternateFile": false,
       "preferenceIsIgnored": false,
@@ -21141,7 +21174,7 @@
     },
     {
       "addonID": 320215,
-      "gameInstanceID": "efa4dcb4-8262-45c4-b00b-c3ebc20ea8d8",
+      "gameInstanceID": "98d41034-3cd1-4127-b206-d28ebac68816",
       "installedFile": {
         "id": 3584469,
         "displayName": "Adorn 3.1.0 for 1.18.1",
@@ -21330,6 +21363,7 @@
       "dateUpdated": "2021-12-30T23:29:08.3951883Z",
       "dateLastUpdateAttempted": "2021-12-30T23:29:08.3951883Z",
       "status": 5,
+      "installSource": 0,
       "preferenceAutoInstallUpdates": null,
       "preferenceAlternateFile": false,
       "preferenceIsIgnored": false,
@@ -21342,7 +21376,7 @@
     },
     {
       "addonID": 388172,
-      "gameInstanceID": "efa4dcb4-8262-45c4-b00b-c3ebc20ea8d8",
+      "gameInstanceID": "98d41034-3cd1-4127-b206-d28ebac68816",
       "installedFile": {
         "id": 3557186,
         "displayName": "geckolib-fabric-1.18-3.0.23.jar",
@@ -21465,6 +21499,7 @@
       "dateUpdated": "2021-12-30T23:28:15.1292377Z",
       "dateLastUpdateAttempted": "0001-01-01T00:00:00",
       "status": 5,
+      "installSource": 0,
       "preferenceAutoInstallUpdates": null,
       "preferenceAlternateFile": false,
       "preferenceIsIgnored": false,
@@ -21477,7 +21512,7 @@
     },
     {
       "addonID": 475623,
-      "gameInstanceID": "efa4dcb4-8262-45c4-b00b-c3ebc20ea8d8",
+      "gameInstanceID": "98d41034-3cd1-4127-b206-d28ebac68816",
       "installedFile": {
         "id": 3544998,
         "displayName": "Extra Generators 1.1.1-BETA",
@@ -21600,6 +21635,7 @@
       "dateUpdated": "2021-12-30T23:28:15.157163Z",
       "dateLastUpdateAttempted": "0001-01-01T00:00:00",
       "status": 5,
+      "installSource": 0,
       "preferenceAutoInstallUpdates": null,
       "preferenceAlternateFile": false,
       "preferenceIsIgnored": false,
@@ -21612,7 +21648,7 @@
     },
     {
       "addonID": 357540,
-      "gameInstanceID": "efa4dcb4-8262-45c4-b00b-c3ebc20ea8d8",
+      "gameInstanceID": "98d41034-3cd1-4127-b206-d28ebac68816",
       "installedFile": {
         "id": 3545928,
         "displayName": "[Fabric.1.18.x] InventoryHUD+ (v3.4.2)",
@@ -21724,6 +21760,7 @@
       "dateUpdated": "2021-12-30T23:28:15.1581596Z",
       "dateLastUpdateAttempted": "0001-01-01T00:00:00",
       "status": 5,
+      "installSource": 0,
       "preferenceAutoInstallUpdates": null,
       "preferenceAlternateFile": false,
       "preferenceIsIgnored": false,
@@ -21736,7 +21773,7 @@
     },
     {
       "addonID": 353641,
-      "gameInstanceID": "efa4dcb4-8262-45c4-b00b-c3ebc20ea8d8",
+      "gameInstanceID": "98d41034-3cd1-4127-b206-d28ebac68816",
       "installedFile": {
         "id": 2992917,
         "displayName": "jumpoverfences-1.16-1.17-1.18-0.0.3.jar",
@@ -21923,6 +21960,7 @@
       "dateUpdated": "2021-12-30T23:28:15.1262463Z",
       "dateLastUpdateAttempted": "0001-01-01T00:00:00",
       "status": 5,
+      "installSource": 0,
       "preferenceAutoInstallUpdates": null,
       "preferenceAlternateFile": false,
       "preferenceIsIgnored": false,
@@ -21935,7 +21973,7 @@
     },
     {
       "addonID": 320778,
-      "gameInstanceID": "efa4dcb4-8262-45c4-b00b-c3ebc20ea8d8",
+      "gameInstanceID": "98d41034-3cd1-4127-b206-d28ebac68816",
       "installedFile": {
         "id": 3532014,
         "displayName": "Glassential Fabric 1.3.0",
@@ -22048,6 +22086,7 @@
       "dateUpdated": "2021-12-30T23:28:15.1521765Z",
       "dateLastUpdateAttempted": "0001-01-01T00:00:00",
       "status": 5,
+      "installSource": 0,
       "preferenceAutoInstallUpdates": null,
       "preferenceAlternateFile": false,
       "preferenceIsIgnored": false,
@@ -22060,7 +22099,7 @@
     },
     {
       "addonID": 494014,
-      "gameInstanceID": "efa4dcb4-8262-45c4-b00b-c3ebc20ea8d8",
+      "gameInstanceID": "98d41034-3cd1-4127-b206-d28ebac68816",
       "installedFile": {
         "id": 3542944,
         "displayName": "Luminous Wool Fabric 1.18 v1.2.2",
@@ -22173,6 +22212,7 @@
       "dateUpdated": "2021-12-30T23:28:15.2419371Z",
       "dateLastUpdateAttempted": "0001-01-01T00:00:00",
       "status": 5,
+      "installSource": 0,
       "preferenceAutoInstallUpdates": null,
       "preferenceAlternateFile": false,
       "preferenceIsIgnored": false,
@@ -22185,7 +22225,7 @@
     },
     {
       "addonID": 263420,
-      "gameInstanceID": "efa4dcb4-8262-45c4-b00b-c3ebc20ea8d8",
+      "gameInstanceID": "98d41034-3cd1-4127-b206-d28ebac68816",
       "installedFile": {
         "id": 3582979,
         "displayName": "v21.23.0 for Fabric 1.18.x",
@@ -22292,6 +22332,7 @@
       "dateUpdated": "2021-12-30T23:30:42.02696Z",
       "dateLastUpdateAttempted": "2021-12-30T23:30:42.02696Z",
       "status": 5,
+      "installSource": 0,
       "preferenceAutoInstallUpdates": null,
       "preferenceAlternateFile": false,
       "preferenceIsIgnored": false,
@@ -22304,7 +22345,7 @@
     },
     {
       "addonID": 455585,
-      "gameInstanceID": "efa4dcb4-8262-45c4-b00b-c3ebc20ea8d8",
+      "gameInstanceID": "98d41034-3cd1-4127-b206-d28ebac68816",
       "installedFile": {
         "id": 3532109,
         "displayName": "Kambrik-3.0.0-1.18",
@@ -22425,6 +22466,7 @@
       "dateUpdated": "2021-12-30T23:28:15.1302348Z",
       "dateLastUpdateAttempted": "0001-01-01T00:00:00",
       "status": 5,
+      "installSource": 0,
       "preferenceAutoInstallUpdates": null,
       "preferenceAlternateFile": false,
       "preferenceIsIgnored": false,
@@ -22437,7 +22479,7 @@
     },
     {
       "addonID": 486778,
-      "gameInstanceID": "efa4dcb4-8262-45c4-b00b-c3ebc20ea8d8",
+      "gameInstanceID": "98d41034-3cd1-4127-b206-d28ebac68816",
       "installedFile": {
         "id": 3555653,
         "displayName": "fabric-experiencebugfix-1.18-18.jar",
@@ -22537,6 +22579,7 @@
       "dateUpdated": "2022-01-01T19:20:36.1460027Z",
       "dateLastUpdateAttempted": "0001-01-01T00:00:00",
       "status": 5,
+      "installSource": 0,
       "preferenceAutoInstallUpdates": null,
       "preferenceAlternateFile": false,
       "preferenceIsIgnored": false,
@@ -22549,7 +22592,7 @@
     },
     {
       "addonID": 542478,
-      "gameInstanceID": "efa4dcb4-8262-45c4-b00b-c3ebc20ea8d8",
+      "gameInstanceID": "98d41034-3cd1-4127-b206-d28ebac68816",
       "installedFile": {
         "id": 3548145,
         "displayName": "LegendaryTooltips-1.18-fabric-1.1.5.jar",
@@ -22662,6 +22705,7 @@
       "dateUpdated": "2021-12-30T23:28:15.2598879Z",
       "dateLastUpdateAttempted": "0001-01-01T00:00:00",
       "status": 5,
+      "installSource": 0,
       "preferenceAutoInstallUpdates": null,
       "preferenceAlternateFile": false,
       "preferenceIsIgnored": false,
@@ -22674,7 +22718,7 @@
     },
     {
       "addonID": 504045,
-      "gameInstanceID": "efa4dcb4-8262-45c4-b00b-c3ebc20ea8d8",
+      "gameInstanceID": "98d41034-3cd1-4127-b206-d28ebac68816",
       "installedFile": {
         "id": 3545041,
         "displayName": "kjsextras-1.5.0.jar",
@@ -22779,6 +22823,7 @@
       "dateUpdated": "2021-12-30T23:28:15.2399411Z",
       "dateLastUpdateAttempted": "0001-01-01T00:00:00",
       "status": 5,
+      "installSource": 0,
       "preferenceAutoInstallUpdates": null,
       "preferenceAlternateFile": false,
       "preferenceIsIgnored": false,
@@ -22791,7 +22836,7 @@
     },
     {
       "addonID": 380393,
-      "gameInstanceID": "efa4dcb4-8262-45c4-b00b-c3ebc20ea8d8",
+      "gameInstanceID": "98d41034-3cd1-4127-b206-d28ebac68816",
       "installedFile": {
         "id": 3512331,
         "displayName": "[Fabric 1.17.1/1.18] v2.0.2",
@@ -22984,6 +23029,7 @@
       "dateUpdated": "2021-12-30T23:28:15.2100212Z",
       "dateLastUpdateAttempted": "0001-01-01T00:00:00",
       "status": 5,
+      "installSource": 0,
       "preferenceAutoInstallUpdates": null,
       "preferenceAlternateFile": false,
       "preferenceIsIgnored": false,
@@ -22996,7 +23042,7 @@
     },
     {
       "addonID": 369254,
-      "gameInstanceID": "efa4dcb4-8262-45c4-b00b-c3ebc20ea8d8",
+      "gameInstanceID": "98d41034-3cd1-4127-b206-d28ebac68816",
       "installedFile": {
         "id": 3557005,
         "displayName": "inmis-2.4.0-1.18.jar",
@@ -23106,6 +23152,7 @@
       "dateUpdated": "2021-12-30T23:28:15.1781069Z",
       "dateLastUpdateAttempted": "0001-01-01T00:00:00",
       "status": 5,
+      "installSource": 0,
       "preferenceAutoInstallUpdates": null,
       "preferenceAlternateFile": false,
       "preferenceIsIgnored": false,
@@ -23118,7 +23165,7 @@
     },
     {
       "addonID": 480657,
-      "gameInstanceID": "efa4dcb4-8262-45c4-b00b-c3ebc20ea8d8",
+      "gameInstanceID": "98d41034-3cd1-4127-b206-d28ebac68816",
       "installedFile": {
         "id": 3543829,
         "displayName": "replanter-fabric-1.18-1.3.jar",
@@ -23218,6 +23265,7 @@
       "dateUpdated": "2021-12-30T23:28:15.2369499Z",
       "dateLastUpdateAttempted": "0001-01-01T00:00:00",
       "status": 5,
+      "installSource": 0,
       "preferenceAutoInstallUpdates": null,
       "preferenceAlternateFile": false,
       "preferenceIsIgnored": false,
@@ -23230,7 +23278,7 @@
     },
     {
       "addonID": 556967,
-      "gameInstanceID": "efa4dcb4-8262-45c4-b00b-c3ebc20ea8d8",
+      "gameInstanceID": "98d41034-3cd1-4127-b206-d28ebac68816",
       "installedFile": {
         "id": 3590631,
         "displayName": "1.2.1-midgame2",
@@ -23365,6 +23413,7 @@
       "dateUpdated": "2022-01-02T23:10:44.7756307Z",
       "dateLastUpdateAttempted": "2022-01-02T23:10:44.7756307Z",
       "status": 4,
+      "installSource": 0,
       "preferenceAutoInstallUpdates": null,
       "preferenceAlternateFile": false,
       "preferenceIsIgnored": false,
@@ -23377,7 +23426,7 @@
     },
     {
       "addonID": 252848,
-      "gameInstanceID": "efa4dcb4-8262-45c4-b00b-c3ebc20ea8d8",
+      "gameInstanceID": "98d41034-3cd1-4127-b206-d28ebac68816",
       "installedFile": {
         "id": 3569968,
         "displayName": "NaturesCompass-1.18.1-2.0.2-fabric.jar",
@@ -23475,6 +23524,7 @@
       "dateUpdated": "2021-12-30T23:28:15.1840906Z",
       "dateLastUpdateAttempted": "0001-01-01T00:00:00",
       "status": 5,
+      "installSource": 0,
       "preferenceAutoInstallUpdates": null,
       "preferenceAlternateFile": false,
       "preferenceIsIgnored": false,
@@ -23487,7 +23537,7 @@
     },
     {
       "addonID": 459496,
-      "gameInstanceID": "efa4dcb4-8262-45c4-b00b-c3ebc20ea8d8",
+      "gameInstanceID": "98d41034-3cd1-4127-b206-d28ebac68816",
       "installedFile": {
         "id": 3542434,
         "displayName": "Indium 1.0.2 for Minecraft 1.18.x/Sodium 0.4.0-alpha5",
@@ -23600,6 +23650,7 @@
       "dateUpdated": "2021-12-30T23:28:15.2868162Z",
       "dateLastUpdateAttempted": "0001-01-01T00:00:00",
       "status": 5,
+      "installSource": 0,
       "preferenceAutoInstallUpdates": null,
       "preferenceAlternateFile": false,
       "preferenceIsIgnored": false,
@@ -23612,7 +23663,7 @@
     },
     {
       "addonID": 437779,
-      "gameInstanceID": "efa4dcb4-8262-45c4-b00b-c3ebc20ea8d8",
+      "gameInstanceID": "98d41034-3cd1-4127-b206-d28ebac68816",
       "installedFile": {
         "id": 3578820,
         "displayName": "can you not remove my dimensions v1.0.2",
@@ -23726,6 +23777,7 @@
       "dateUpdated": "2021-12-30T23:53:40.701888Z",
       "dateLastUpdateAttempted": "2021-12-30T23:53:40.701888Z",
       "status": 5,
+      "installSource": 0,
       "preferenceAutoInstallUpdates": null,
       "preferenceAlternateFile": false,
       "preferenceIsIgnored": false,
@@ -23738,7 +23790,7 @@
     },
     {
       "addonID": 390991,
-      "gameInstanceID": "efa4dcb4-8262-45c4-b00b-c3ebc20ea8d8",
+      "gameInstanceID": "98d41034-3cd1-4127-b206-d28ebac68816",
       "installedFile": {
         "id": 3571849,
         "displayName": "adventurez-1.4.6.jar",
@@ -23867,6 +23919,7 @@
       "dateUpdated": "2021-12-30T23:28:15.2329599Z",
       "dateLastUpdateAttempted": "0001-01-01T00:00:00",
       "status": 5,
+      "installSource": 0,
       "preferenceAutoInstallUpdates": null,
       "preferenceAlternateFile": false,
       "preferenceIsIgnored": false,
@@ -23879,7 +23932,7 @@
     },
     {
       "addonID": 560323,
-      "gameInstanceID": "efa4dcb4-8262-45c4-b00b-c3ebc20ea8d8",
+      "gameInstanceID": "98d41034-3cd1-4127-b206-d28ebac68816",
       "installedFile": {
         "id": 3580120,
         "displayName": "Feature NBT Deadlock Be Gone v1.0.0 (1.18.1 MC Fabric)",
@@ -23977,6 +24030,7 @@
       "dateUpdated": "2022-01-02T23:32:21.5439642Z",
       "dateLastUpdateAttempted": "0001-01-01T00:00:00",
       "status": 4,
+      "installSource": 0,
       "preferenceAutoInstallUpdates": null,
       "preferenceAlternateFile": false,
       "preferenceIsIgnored": false,
@@ -23989,7 +24043,7 @@
     },
     {
       "addonID": 355914,
-      "gameInstanceID": "efa4dcb4-8262-45c4-b00b-c3ebc20ea8d8",
+      "gameInstanceID": "98d41034-3cd1-4127-b206-d28ebac68816",
       "installedFile": {
         "id": 3578809,
         "displayName": "[Fabric 1.18.x] v2.0.8",
@@ -24122,6 +24176,7 @@
       "dateUpdated": "2021-12-30T23:53:45.9570715Z",
       "dateLastUpdateAttempted": "2021-12-30T23:53:45.9570715Z",
       "status": 5,
+      "installSource": 0,
       "preferenceAutoInstallUpdates": null,
       "preferenceAlternateFile": false,
       "preferenceIsIgnored": false,
@@ -24134,7 +24189,7 @@
     },
     {
       "addonID": 303557,
-      "gameInstanceID": "efa4dcb4-8262-45c4-b00b-c3ebc20ea8d8",
+      "gameInstanceID": "98d41034-3cd1-4127-b206-d28ebac68816",
       "installedFile": {
         "id": 3586857,
         "displayName": "Better Animals Plus 1.18.1-11.0.2 [Fabric]",
@@ -24377,6 +24432,7 @@
       "dateUpdated": "2022-01-01T19:24:00.6725342Z",
       "dateLastUpdateAttempted": "2022-01-01T19:24:00.6725342Z",
       "status": 5,
+      "installSource": 0,
       "preferenceAutoInstallUpdates": null,
       "preferenceAlternateFile": false,
       "preferenceIsIgnored": false,
@@ -24389,7 +24445,7 @@
     },
     {
       "addonID": 315811,
-      "gameInstanceID": "efa4dcb4-8262-45c4-b00b-c3ebc20ea8d8",
+      "gameInstanceID": "98d41034-3cd1-4127-b206-d28ebac68816",
       "installedFile": {
         "id": 3549367,
         "displayName": "[1.18] ShulkerBoxTooltip-3.0.5+1.18",
@@ -24512,6 +24568,7 @@
       "dateUpdated": "2021-12-30T23:28:15.2798348Z",
       "dateLastUpdateAttempted": "0001-01-01T00:00:00",
       "status": 5,
+      "installSource": 0,
       "preferenceAutoInstallUpdates": null,
       "preferenceAlternateFile": false,
       "preferenceIsIgnored": false,
@@ -24524,7 +24581,7 @@
     },
     {
       "addonID": 375969,
-      "gameInstanceID": "efa4dcb4-8262-45c4-b00b-c3ebc20ea8d8",
+      "gameInstanceID": "98d41034-3cd1-4127-b206-d28ebac68816",
       "installedFile": {
         "id": 3554382,
         "displayName": "wolves-with-armor-1.7.0-1.18.jar",
@@ -24634,6 +24691,7 @@
       "dateUpdated": "2021-12-30T23:28:15.2539037Z",
       "dateLastUpdateAttempted": "0001-01-01T00:00:00",
       "status": 5,
+      "installSource": 0,
       "preferenceAutoInstallUpdates": null,
       "preferenceAlternateFile": false,
       "preferenceIsIgnored": false,
@@ -24646,7 +24704,7 @@
     },
     {
       "addonID": 393236,
-      "gameInstanceID": "efa4dcb4-8262-45c4-b00b-c3ebc20ea8d8",
+      "gameInstanceID": "98d41034-3cd1-4127-b206-d28ebac68816",
       "installedFile": {
         "id": 3582351,
         "displayName": "Patchouli-1.18.1-63-FABRIC.jar",
@@ -24762,6 +24820,7 @@
       "dateUpdated": "2021-12-30T23:30:09.3602257Z",
       "dateLastUpdateAttempted": "2021-12-30T23:30:09.3602257Z",
       "status": 5,
+      "installSource": 0,
       "preferenceAutoInstallUpdates": null,
       "preferenceAlternateFile": false,
       "preferenceIsIgnored": false,

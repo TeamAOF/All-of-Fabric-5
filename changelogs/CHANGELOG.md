@@ -1,3 +1,20 @@
+### All of Fabric 5 | v0.2.7
+
+_Fabric Loader 0.12.12_ | _[Mod Updates](https://github.com/TeamAOF/All-of-Fabric-5/blob/dev/changelogs/changelog_mods_0.2.7.md)_ | _[Modlist](https://github.com/TeamAOF/All-of-Fabric-5/blob/dev/changelogs/modlist_0.2.7.md)_
+
+## Added
+
+* [Golden Hoppers](https://www.curseforge.com/minecraft/mc-mods/golden-hoppers)
+* [KleeSlabs (Fabric Edition)](https://www.curseforge.com/minecraft/mc-mods/kleeslabs-fabric)
+* [MmmMmmMmmMmm (Target Dummy)](https://www.curseforge.com/minecraft/mc-mods/mmmmmmmmmmmm)
+
+## Removed
+
+* [Full Slabs](https://www.curseforge.com/minecraft/mc-mods/full-slabs)
+* [Straw Dummy](https://www.curseforge.com/minecraft/mc-mods/straw-dummy)
+
+---
+
 ### All of Fabric 5 | v0.2.6
 
 _Fabric Loader 0.12.12_ | _[Mod Updates](https://github.com/TeamAOF/All-of-Fabric-5/blob/dev/changelogs/changelog_mods_0.2.6.md)_ | _[Modlist](https://github.com/TeamAOF/All-of-Fabric-5/blob/dev/changelogs/modlist_0.2.6.md)_
