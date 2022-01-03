@@ -1,8 +1,25 @@
+### All of Fabric 5 | v0.2.7
+
+_Fabric Loader 0.12.12_ | _[Mod Updates](https://github.com/TeamAOF/All-of-Fabric-5/blob/dev/changelogs/changelog_mods_0.2.7.md)_ | _[Modlist](https://github.com/TeamAOF/All-of-Fabric-5/blob/dev/changelogs/modlist_0.2.7.md)_
+
+## Added
+
+* [Golden Hoppers](https://www.curseforge.com/minecraft/mc-mods/golden-hoppers)
+* [KleeSlabs (Fabric Edition)](https://www.curseforge.com/minecraft/mc-mods/kleeslabs-fabric)
+* [MmmMmmMmmMmm (Target Dummy)](https://www.curseforge.com/minecraft/mc-mods/mmmmmmmmmmmm)
+
+## Removed
+
+* [Full Slabs](https://www.curseforge.com/minecraft/mc-mods/full-slabs)
+* [Straw Dummy](https://www.curseforge.com/minecraft/mc-mods/straw-dummy)
+
+---
+
 ### All of Fabric 5 | v0.2.6
 
 _Fabric Loader 0.12.12_ | _[Mod Updates](https://github.com/TeamAOF/All-of-Fabric-5/blob/dev/changelogs/changelog_mods_0.2.6.md)_ | _[Modlist](https://github.com/TeamAOF/All-of-Fabric-5/blob/dev/changelogs/modlist_0.2.6.md)_
 
-**Changes**
+## Changes
 
 * Added recipes for Blockus and Promenade stone types via the MI Mixer.
 * Enabled silver ore in the world.
@@ -10,7 +27,7 @@ _Fabric Loader 0.12.12_ | _[Mod Updates](https://github.com/TeamAOF/All-of-Fabri
 * Gated Iridium plates behind MI compression (You were able to do it through TR prior to this).
 * Disabled Pocket Crafting and Portable Crafting recipes as Crafting Table On A Stick now exists.
 
-**Fixes**
+## Fixes
 
 * Fixed recipe conflict with Winterly Paper Block.
 * Fixed registry error preventing server joining with redstone bits.
@@ -19,7 +36,7 @@ _Fabric Loader 0.12.12_ | _[Mod Updates](https://github.com/TeamAOF/All-of-Fabri
 * Fixed chisel UI not working unless rejoining.
 * Fixed dupe exploit with building staffs.
 
-**Added**
+## Added
 
 * [Auto Config Updated API](https://www.curseforge.com/minecraft/mc-mods/auto-config-updated-api)
 * [BCLib](https://www.curseforge.com/minecraft/mc-mods/bclib)
