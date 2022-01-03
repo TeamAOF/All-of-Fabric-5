@@ -1,0 +1,17 @@
+{
+  "client": {
+    "disableColoredCableRecipesInJEI": true,
+    "enableEffects": true,
+    "useTerminalUseLargeFont": false,
+    "useColoredCraftingStatus": true,
+    "__comment": "Show debugging GUI overlays",
+    "PowerUnit": "ae",
+    "showDebugGuiOverlays": false
+  },
+  "terminals": {
+    "__comment": "Should tooltips be searched. Performance impact",
+    "searchTooltips": "yes",
+    "terminalStyle": "small",
+    "terminalSearchMode": "manual_search"
+  }
+}

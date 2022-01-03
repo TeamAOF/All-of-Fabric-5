@@ -1,26 +1,25 @@
 {
   //
-
-
-
-
-// In the key part, specify the name of the structures from Repurposed Structures that
-// you want to affect. Then in the value part, add entries for all the mobs you would like
-// to spawn over time in the structure's bounds. This entry will ignore biome's mob spawns
-// entirely when spawning a mob in the structure's boundary after worldgen is done.
-// This means you will not see the biome's mobs in the structure.
-
-// The change only applies to SpawnGroups of the mobs you add to this config.
-// Example: adding Wither Skeletons here to Birch Villages will make all Monster
-// SpawnGroup spawns be Wither Skeletons in the village but Creature and other
-// SpawnGroups will spawn just fine over time in the village such as sheep or cow.
-
-// Use "all" as the key to affect all of RS's structures.
-// You can find entity's identifiers by doing "/effect @e[type=" command in game.
-// All of RS's structure identifiers can be found by doing "/locate" command in game.
-
-// NOTE: replaceMobSpawns will always override appendMobSpawns for the same structure and mob's SpawnGroups.
-
+  //
+  //
+  //
+  //
+  //// In the key part, specify the name of the structures from Repurposed Structures that
+  //// you want to affect. Then in the value part, add entries for all the mobs you would like
+  //// to spawn over time in the structure's bounds. This entry will ignore biome's mob spawns
+  //// entirely when spawning a mob in the structure's boundary after worldgen is done.
+  //// This means you will not see the biome's mobs in the structure.
+  //
+  //// The change only applies to SpawnGroups of the mobs you add to this config.
+  //// Example: adding Wither Skeletons here to Birch Villages will make all Monster
+  //// SpawnGroup spawns be Wither Skeletons in the village but Creature and other
+  //// SpawnGroups will spawn just fine over time in the village such as sheep or cow.
+  //
+  //// Use "all" as the key to affect all of RS's structures.
+  //// You can find entity's identifiers by doing "/effect @e[type=" command in game.
+  //// All of RS's structure identifiers can be found by doing "/locate" command in game.
+  //
+  //// NOTE: replaceMobSpawns will always override appendMobSpawns for the same structure and mob's SpawnGroups.
   "replaceMobSpawns": {
     "repurposed_structures:witch_hut_giant_tree_taiga": [
       {
@@ -283,20 +282,19 @@
     ]
   },
   //
-
-
-
-
-// In the key part, specify the name of the structures from Repurposed Structures that
-// you want to affect. Then in the value part, add entries for all the mobs you would like
-// to spawn over time in the structure's bounds. This entry will combine with the biome's
-// mob spawns when spawning a mob in the structure's boundary after worldgen is done.
-// This means you will see both biome's and structure's mobs in the structure.
-
-// Use "all" as the key to affect all of RS's structures.
-// You can find entity's identifiers by doing "/effect @e[type=" command in game.
-// All of RS's structure identifiers can be found by doing "/locate" command in game.
-
+  //
+  //
+  //
+  //
+  //// In the key part, specify the name of the structures from Repurposed Structures that
+  //// you want to affect. Then in the value part, add entries for all the mobs you would like
+  //// to spawn over time in the structure's bounds. This entry will combine with the biome's
+  //// mob spawns when spawning a mob in the structure's boundary after worldgen is done.
+  //// This means you will see both biome's and structure's mobs in the structure.
+  //
+  //// Use "all" as the key to affect all of RS's structures.
+  //// You can find entity's identifiers by doing "/effect @e[type=" command in game.
+  //// All of RS's structure identifiers can be found by doing "/locate" command in game.
   "appendMobSpawns": {
     "repurposed_structures:shipwreck_crimson": [
       {
@@ -361,11 +359,10 @@
     ]
   },
   //
-
-
-
-
-// for internal use only. Do not change this.
-
+  //
+  //
+  //
+  //
+  //// for internal use only. Do not change this.
   "configVersion": 3
 }

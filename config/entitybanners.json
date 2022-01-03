@@ -1,9 +1,9 @@
 {
-  "bannerRadius": 48,
-  "necessaryKills": 100,
-  "damageMultiplier": 0.5,
-  "defenseMultiplier": 0.25,
-  "shouldBroadcastWhenGivenBanner": true,
-  "shouldBroadcastToEveryone": true,
-  "blacklistedEntities": ["mythicmounts:acencia", "mythicmounts:archelon", "mythicmounts:courierbird", "mythicmounts:direwolf", "mythicmounts:dragon", "mythicmounts:geckotoalizard", "mythicmounts:griffon", "mythicmounts:moth", "mythicmounts:netherbat", "mythicmounts:nightmare", "mythicmounts:nudibranch", "mythicmounts:ridinglizard"]
+    "bannerRadius": 48,
+    "necessaryKills": 100,
+    "damageMultiplier": 0.5,
+    "defenseMultiplier": 0.25,
+    "shouldBroadcastWhenGivenBanner": true,
+    "shouldBroadcastToEveryone": false,
+    "blacklistedEntities": []
 }

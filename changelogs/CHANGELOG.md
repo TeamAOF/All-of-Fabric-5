@@ -1,3 +1,56 @@
+### All of Fabric 5 | v0.2.6
+
+_Fabric Loader 0.12.12_ | _[Mod Updates](https://github.com/TeamAOF/All-of-Fabric-5/blob/dev/changelogs/changelog_mods_0.2.6.md)_ | _[Modlist](https://github.com/TeamAOF/All-of-Fabric-5/blob/dev/changelogs/modlist_0.2.6.md)_
+
+**Changes**
+
+* Added recipes for Blockus and Promenade stone types via the MI Mixer.
+* Enabled silver ore in the world.
+* Disabled auto jump by default.
+* Gated Iridium plates behind MI compression (You were able to do it through TR prior to this).
+* Disabled Pocket Crafting and Portable Crafting recipes as Crafting Table On A Stick now exists.
+
+**Fixes**
+
+* Fixed recipe conflict with Winterly Paper Block.
+* Fixed registry error preventing server joining with redstone bits.
+* Fixed sign crashes with Wilder World.
+* Fixed rituals using salt as inputs (added salt conversion between MI & BW).
+* Fixed chisel UI not working unless rejoining.
+* Fixed dupe exploit with building staffs.
+
+**Added**
+
+* [Auto Config Updated API](https://www.curseforge.com/minecraft/mc-mods/auto-config-updated-api)
+* [BCLib](https://www.curseforge.com/minecraft/mc-mods/bclib)
+* [Better Animals Plus](https://www.curseforge.com/minecraft/mc-mods/betteranimalsplus)
+* [BetterEnd](https://www.curseforge.com/minecraft/mc-mods/betterend)
+* [Croptopia's Chocolaterie](https://www.curseforge.com/minecraft/mc-mods/croptopias-chocolaterie)
+* [Dimension Fix (Some Forge Patches Ported)](https://www.curseforge.com/minecraft/mc-mods/dimension-fix-some-forge-patches-ported)
+* [Elytra Trinket (Fabric)](https://www.curseforge.com/minecraft/mc-mods/elytra-trinket-fabric)
+* [FastBench for Fabric](https://www.curseforge.com/minecraft/mc-mods/fastbench-for-fabric)
+* [Feature NBT Deadlock Be Gone](https://www.curseforge.com/minecraft/mc-mods/feature-nbt-deadlock-be-gone)
+* [Fix Experience Bug (now with FABRIC and FORGE versions)](https://www.curseforge.com/minecraft/mc-mods/fix-experience-bug)
+* [Floral Flair [Fabric]](https://www.curseforge.com/minecraft/mc-mods/floral-flair-fabric)
+* [Full Slabs](https://www.curseforge.com/minecraft/mc-mods/full-slabs)
+* [Improved Stations (Fabric)](https://www.curseforge.com/minecraft/mc-mods/improved-stations)
+* [Industrial Revolution](https://www.curseforge.com/minecraft/mc-mods/industrial-revolution)
+* [Iron Jetpacks Fabric](https://www.curseforge.com/minecraft/mc-mods/iron-jetpacks-fabric)
+* [Nears [Fabric]](https://www.curseforge.com/minecraft/mc-mods/nears)
+* [No Angled Brackets](https://www.curseforge.com/minecraft/mc-mods/no-angled-brackets)
+* [No Null Processors](https://www.curseforge.com/minecraft/mc-mods/no-null-processors)
+* [Wireless Networks](https://www.curseforge.com/minecraft/mc-mods/wireless-networks)
+* [⚒️ On A Stick [FABRIC]](https://www.curseforge.com/minecraft/mc-mods/onastick)
+
+## Removed
+
+* [Caracal Mod](https://www.curseforge.com/minecraft/mc-mods/caracal-mod)
+* [Christmas Spirit: Rewoven](https://www.curseforge.com/minecraft/mc-mods/christmas-spirit-rewoven)
+* [Grizzly bear Mod](https://www.curseforge.com/minecraft/mc-mods/grizzly-bear)
+* [KleeSlabs (Fabric Edition)](https://www.curseforge.com/minecraft/mc-mods/kleeslabs-fabric)
+
+---
+
 ### All of Fabric 5 | v0.2.5
 
 _Fabric Loader 0.12.12_ | _[Mod Updates](https://github.com/TeamAOF/All-of-Fabric-5/blob/dev/changelogs/changelog_mods_0.2.5.md)_ | _[Modlist](https://github.com/TeamAOF/All-of-Fabric-5/blob/dev/changelogs/modlist_0.2.5.md)_

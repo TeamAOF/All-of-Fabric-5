@@ -1,0 +1,20 @@
+{
+	// The density of Pulse Petal flowers generating in forests [default = 6]
+	"pulsePetalDensity": 6,
+	// The density of Foxnip flowers generating in taigas [default = 4]
+	"foxnipDensity": 4,
+	// Frosted Foxnip flower spawning density in game [default = 4]
+	"frostedFoxnipDensity": 4,
+	// The density of Fairy Blossom flowers generating in flower forests [default = 8]
+	"fairyBlossomDensity": 8,
+	// The density of Gem of the Jungle flowers in jungles [default = 5]
+	"jungleGemDensity": 5,
+	// The density of Rose flowers in forests and plains [default = 6]
+	"roseDensity": 6,
+	// The density of Muscari flowers in snowy places [default = 8]
+	"muscariDensity": 8,
+	// The density of Sunset Poppy flowers in savannas [default = 6]
+	"sunsetPoppyDensity": 6,
+	// The density of Purpureum flowers in swamps [default = 7]
+	"purpureumDensity": 7
+}

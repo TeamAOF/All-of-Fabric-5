@@ -1,1 +1,0 @@
-console.info('Loading All of Fabric 5 v0.2.5')

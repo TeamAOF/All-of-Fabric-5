@@ -412,3 +412,5 @@ config/fabric/indigo-renderer.properties
 config/indium-renderer.properties
 
 patched_shaders/
+
+*.tmp1

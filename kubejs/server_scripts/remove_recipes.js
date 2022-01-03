@@ -1,6 +1,7 @@
 onEvent('recipes', (event) => {
 
     const id = [
+    'indrev:shapeless/steel_dust',
     'techreborn:crafting_table/solar_panel/ultimate_solar_panel_alt',
     'techreborn:crafting_table/solar_panel/industrial_solar_panel_alt',
     'techreborn:crafting_table/solar_panel/advanced_solar_panel_alt',
@@ -10,6 +11,8 @@ onEvent('recipes', (event) => {
     'vanilla-hammers:obsidian_hammer',
     'croptopia:tomato_to_tomato_seed_shapeless',
     'croptopia:cabbage_to_cabbage_seed_shapeless',
+    'techreborn:compressor/iridium_plate',
+    'techreborn:compressor/iridium_plate_from_block',
 
     ];
 
@@ -37,6 +40,8 @@ onEvent('recipes', (event) => {
     'basicaiots:silver_aiot',
     'basicaiots:steel_aiot',
     'basicaiots:lead_aiot',
+    'craftingcraft:portable_crafting',
+    'kibe:pocket_crafting_table',
     ];
 
     id.forEach((id) => {

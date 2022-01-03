@@ -14,5 +14,5 @@
   //Whether each block in an extended hitbox should show its outline separately.
   "individualBlockOutlines": false,
   //If true, dropped items are automatically inserted into the inventory.
-  "autoPickup": false
+  "autoPickup": true
 }

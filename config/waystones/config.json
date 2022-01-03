@@ -1,12 +1,22 @@
 {
   "generate_in_villages": true,
   "consume_infinite_knowledge_scroll_on_use": false,
+  "consume_local_void_on_use": true,
+  "free_local_void_teleport": true,
   "store_waystone_data_on_sneak_break": true,
   "can_owners_redeem_payments": false,
   "cost_amount": 1,
   "cost_type": "level",
   "cost_item": "minecraft:ender_pearl",
-  "waystone_block_hardness": 4,
-  "waystone_block_required_mining_level": 1.0,
-  "prevent_non_owners_from_breaking_waystone": false
+  "waystone_block_hardness": 4.0,
+  "waystone_block_required_mining_level": 1,
+  "prevent_non_owners_from_breaking_waystone": false,
+  "can_players_toggle_global_mode": true,
+  "teleportation_cooldown": {
+    "cooldown_ticks_when_hurt": 0,
+    "cooldown_ticks_from_abyss_watcher": 0,
+    "cooldown_ticks_from_pocket_wormhole": 0,
+    "cooldown_ticks_from_local_void": 0,
+    "cooldown_ticks_from_waystone": 0
+  }
 }

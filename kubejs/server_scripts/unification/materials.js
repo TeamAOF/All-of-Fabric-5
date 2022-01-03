@@ -52,6 +52,7 @@ const MATERIALS = [
 // Order of mods to unify
 const UNIFICATION_ORDER = [
     "modern_industrialization",
+    "indrev",
     "bewitchment",
     "techreborn",
     "croptopia",
@@ -219,6 +220,24 @@ onEvent('recipes', event => {
     autoremove("modern_industrialization:generated/materials/{}/smelting/ore_deepslate_to_ingot_smelting");
     autoremove("modern_industrialization:generated/materials/{}/smelting/ore_deepslate_to_ingot_blasting");
 
+    // Indrev recipes
+    autoremove("indrev:{}_block", "indrev:shaped/{}_block");
+    autoremove("indrev:{}_block", "indrev:shapeless/{}_ingot_from_block");
+    autoremove("indrev:{}_block", "indrev:shaped/{}_ingot_from_nugget");
+    autoremove("indrev:{}_block", "indrev:shapeless/{}_nugget");
+    autoremove("indrev:{}_block", "indrev:shaped/raw_{}_block");
+    autoremove("indrev:{}_block", "indrev:shapeless/raw_{}");
+    autoremove("indrev:{}_ingot", "indrev:smelting/{}_ingot");
+    autoremove("indrev:{}_ingot", "indrev:blasting/{}_ingot_from_ore");
+    autoremove("indrev:{}_ingot", "indrev:shapeless/{}_ingot_from_block");
+    autoremove("indrev:{}_ingot", "indrev:shapeless/{}_ingot_from_nugget");
+    autoremove("indrev:raw_{}", "indrev:smelting/{}_ingot_from_raw_ores");
+    autoremove("indrev:{}_ore", "indrev:smelting/{}_ingot_from_ore");
+    autoremove("indrev:{}_dust", "indrev:smelting/{}_ingot_from_smelting");
+    autoremove("indrev:raw_{}", "indrev:blasting/{}_ingot_from_raw_ores");
+    autoremove("indrev:{}_ore", "indrev:blasting/{}_ingot_from_ore");
+    autoremove("indrev:{}_dust", "indrev:blasting/{}_ingot_from_smelting");
+
     if (GENERATE_REI_SCRIPT) {
         generateReiScript(itemIdToUnified);
     }
@@ -234,4 +253,11 @@ events.listen("kjsextras_rei", event => {
     DELETED_ITEMS.forEach(id => event.remove(id));
 });
     `;
-}
+    console.log("Generated REI unification script.");
+    console.log(script);
+};
+
+onEvent("recipes.serializer.special.flag", event => {
+    // Fix indrev recipe types
+    ["compress", "pulverize", "infuse"].forEach(id => event.ignoreSpecialFlag("indrev:" + id));
+});

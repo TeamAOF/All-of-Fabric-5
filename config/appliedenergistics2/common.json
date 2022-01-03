@@ -67,6 +67,10 @@
     "wirelessHighWirelessCount": 64.0,
     "wirelessTerminalDrainMultiplier": 1.0
   },
+  "PortableCells": {
+    "__comment": "Allow disassembly of portable cells into the recipe ingredients using shift+right-click",
+    "allowDisassembly": true
+  },
   "PowerRatios": {
     "TechReborn": 2.0,
     "UsageMultiplier": 1.0

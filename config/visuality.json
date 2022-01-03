@@ -1,10 +1,13 @@
 {
-  "version": 2,
   "particles": {
     "slime": true,
     "charge": true,
-    "sparkle": true,
-    "water_circle": true
+    "crystal_sparkle": true,
+    "soul": true
+  },
+  "water_circles": {
+    "enabled": true,
+    "colored": true
   },
   "hit_particles": {
     "enabled": true,
@@ -15,6 +18,31 @@
       "minecraft:wither_skeleton|visuality:wither_bone",
       "minecraft:chicken|visuality:feather",
       "minecraft:villager|visuality:emerald"
+    ]
+  },
+  "shiny_armor": {
+    "enabled": true,
+    "entries": [
+      "minecraft:golden_helmet",
+      "minecraft:golden_chestplate",
+      "minecraft:golden_leggings",
+      "minecraft:golden_boots",
+      "minecraft:diamond_helmet",
+      "minecraft:diamond_chestplate",
+      "minecraft:diamond_leggings",
+      "minecraft:diamond_boots"
+    ]
+  },
+  "shiny_blocks": {
+    "enabled": true,
+    "entries": [
+      "minecraft:gold_ore",
+      "minecraft:deepslate_gold_ore",
+      "minecraft:nether_gold_ore",
+      "minecraft:diamond_ore",
+      "minecraft:deepslate_diamond_ore",
+      "minecraft:emerald_ore",
+      "minecraft:deepslate_emerald_ore"
     ]
   }
 }
