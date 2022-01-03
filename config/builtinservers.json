@@ -1,6 +1,10 @@
 {
   "builtinServers": [
     {
+      "name": "EU Server",
+      "address": "eu.alloffabric.com"
+    },
+    {
       "name": "NA Server",
       "address": "dal1.altar.host:25650"
     }
