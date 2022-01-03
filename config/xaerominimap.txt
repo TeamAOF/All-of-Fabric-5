@@ -16,7 +16,7 @@ displayRedstone:true
 deathpoints:true
 oldDeathpoints:true
 distance:1
-showCoords:true
+showCoords:false
 lockNorth:false
 zoom:0
 minimapSize:125
@@ -34,7 +34,7 @@ lighting:true
 dotsStyle:0
 dotNameScale:1.0
 compassOverWaypoints:false
-showBiome:false
+showBiome:true
 showFlowers:true
 keepWaypointNames:false
 waypointsDistanceExp:0
@@ -57,7 +57,7 @@ alwaysShowDistance:false
 showLightLevel:0
 renderLayerIndex:1
 crossDimensionalTp:true
-showTime:0
+showTime:1
 biomeColorsVanillaMode:false
 lookingAtAngle:10
 lookingAtAngleVertical:180

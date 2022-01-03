@@ -90,6 +90,13 @@
 			/* 
 			   
 			   
+			   Spawn attempts per chunk. Replaces Vanilla Dungeons below y = 0
+			   0 for no Dungeons at all and 1000 for max spawnrate.
+			*/
+			"deepDungeonAttemptsPerChunk": 4,
+			/* 
+			   
+			   
 			   Spawn attempts per chunk.
 			   0 for no Dungeons at all and 1000 for max spawnrate.
 			*/
@@ -176,6 +183,13 @@
 			   Minimum Y height that this dungeon can spawn at.
 			   Note: The dungeon will spawn between min and max y height set in config.
 			*/
+			"deepDungeonMinHeight": -60,
+			/* 
+			   
+			   
+			   Minimum Y height that this dungeon can spawn at.
+			   Note: The dungeon will spawn between min and max y height set in config.
+			*/
 			"jungleDungeonMinHeight": 2,
 			/* 
 			   
@@ -252,6 +266,14 @@
 			   Setting this to below min height config will make dungeon spawn only at min height.
 			*/
 			"desertDungeonMaxHeight": 255,
+			/* 
+			   
+			   
+			   Maximum Y height that this dungeon can spawn at.
+			   Note: The dungeon will spawn between min and max y height set in config.
+			   Setting this to below min height config will make dungeon spawn only at min height.
+			*/
+			"deepDungeonMaxHeight": -10,
 			/* 
 			   
 			   

@@ -40,6 +40,8 @@ onEvent('recipes', (event) => {
     'basicaiots:silver_aiot',
     'basicaiots:steel_aiot',
     'basicaiots:lead_aiot',
+    'craftingcraft:portable_crafting',
+    'kibe:pocket_crafting_table',
     ];
 
     id.forEach((id) => {

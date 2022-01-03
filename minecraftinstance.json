@@ -29,8 +29,8 @@
   "isUnlocked": true,
   "javaArgsOverride": null,
   "javaDirOverride": null,
-  "lastPlayed": "2022-01-01T22:14:12.2248465Z",
-  "playedCount": 10,
+  "lastPlayed": "2022-01-03T01:26:48.9104209Z",
+  "playedCount": 13,
   "manifest": null,
   "fileDate": "0001-01-01T00:00:00",
   "installedModpack": null,
@@ -47,8 +47,8 @@
   "name": "All-of-Fabric-5",
   "cachedScans": [],
   "isValid": true,
-  "lastPreviousMatchUpdate": "2022-01-01T19:20:36.1479976Z",
-  "lastRefreshAttempt": "2022-01-01T20:20:36.9588291+01:00",
+  "lastPreviousMatchUpdate": "2022-01-03T01:26:57.463496Z",
+  "lastRefreshAttempt": "2022-01-03T02:26:57.9934134+01:00",
   "isEnabled": true,
   "isPinned": false,
   "gameVersion": "1.18.1",
@@ -865,7 +865,7 @@
       "dateInstalled": "2021-12-30T23:28:15.2499151Z",
       "dateUpdated": "2022-01-01T19:24:14.0753872Z",
       "dateLastUpdateAttempted": "2022-01-01T19:24:14.0753872Z",
-      "status": 4,
+      "status": 5,
       "preferenceAutoInstallUpdates": null,
       "preferenceAlternateFile": false,
       "preferenceIsIgnored": false,
@@ -2143,28 +2143,28 @@
       "addonID": 360438,
       "gameInstanceID": "efa4dcb4-8262-45c4-b00b-c3ebc20ea8d8",
       "installedFile": {
-        "id": 3565566,
-        "displayName": "Lithium mc1.18.1-0.7.6",
-        "fileName": "lithium-fabric-mc1.18.1-0.7.6.jar",
-        "fileDate": "2021-12-13T21:08:56.177Z",
-        "fileLength": 387086,
+        "id": 3590908,
+        "displayName": "Lithium mc1.18.1-0.7.7",
+        "fileName": "lithium-fabric-mc1.18.1-0.7.7.jar",
+        "fileDate": "2022-01-02T12:00:52.513Z",
+        "fileLength": 391313,
         "releaseType": 1,
         "fileStatus": 4,
-        "downloadUrl": "https://edge.forgecdn.net/files/3565/566/lithium-fabric-mc1.18.1-0.7.6.jar",
+        "downloadUrl": "https://edge.forgecdn.net/files/3590/908/lithium-fabric-mc1.18.1-0.7.7.jar",
         "isAlternate": false,
         "alternateFileId": 0,
         "dependencies": [
           {
-            "id": 80940745,
-            "addonId": 372124,
-            "type": 2,
-            "fileId": 3565566
-          },
-          {
-            "id": 80940746,
+            "id": 82826110,
             "addonId": 394468,
             "type": 2,
-            "fileId": 3565566
+            "fileId": 3590908
+          },
+          {
+            "id": 82826109,
+            "addonId": 372124,
+            "type": 2,
+            "fileId": 3590908
           }
         ],
         "isAvailable": true,
@@ -2177,7 +2177,7 @@
           },
           {
             "foldername": "META-INF",
-            "fingerprint": 1370071983,
+            "fingerprint": 2449021010,
             "type": 3,
             "invalidFingerprint": false
           },
@@ -2189,7 +2189,7 @@
           },
           {
             "foldername": "fabric.mod.json",
-            "fingerprint": 3495423605,
+            "fingerprint": 3665522355,
             "type": 3,
             "invalidFingerprint": false
           },
@@ -2201,24 +2201,24 @@
           },
           {
             "foldername": "lithium.mixins.json",
-            "fingerprint": 4218900534,
+            "fingerprint": 2381150449,
             "type": 3,
             "invalidFingerprint": false
           },
           {
             "foldername": "me",
-            "fingerprint": 2982383833,
+            "fingerprint": 2393442542,
             "type": 3,
             "invalidFingerprint": false
           },
           {
             "foldername": "mixins.lithium.refmap.json",
-            "fingerprint": 163759894,
+            "fingerprint": 3955330380,
             "type": 3,
             "invalidFingerprint": false
           }
         ],
-        "packageFingerprint": 3985106497,
+        "packageFingerprint": 2688647578,
         "gameVersion": [
           "1.18.1",
           "Fabric"
@@ -2244,20 +2244,20 @@
         "categorySectionPackageType": 6,
         "restrictProjectFileAccess": 1,
         "projectStatus": 4,
-        "renderCacheId": 2631778,
+        "renderCacheId": 2662654,
         "projectId": 360438,
-        "packageFingerprintId": 808371757,
+        "packageFingerprintId": 824777743,
         "gameVersionDateReleased": "2019-08-01T00:00:00Z",
-        "gameVersionMappingId": 3565993,
+        "gameVersionMappingId": 3631612,
         "gameVersionId": 7499,
         "gameId": 432,
         "isServerPack": false,
-        "FileNameOnDisk": "lithium-fabric-mc1.18.1-0.7.6.jar"
+        "FileNameOnDisk": "lithium-fabric-mc1.18.1-0.7.7.jar"
       },
-      "dateInstalled": "2021-12-30T23:28:15.1471893Z",
-      "dateUpdated": "2021-12-30T23:28:15.1471893Z",
-      "dateLastUpdateAttempted": "0001-01-01T00:00:00",
-      "status": 5,
+      "dateInstalled": "2022-01-02T23:07:49.8087871Z",
+      "dateUpdated": "2022-01-02T23:07:49.811779Z",
+      "dateLastUpdateAttempted": "2022-01-02T23:07:49.811779Z",
+      "status": 4,
       "preferenceAutoInstallUpdates": null,
       "preferenceAlternateFile": false,
       "preferenceIsIgnored": false,
@@ -2272,14 +2272,14 @@
       "addonID": 362669,
       "gameInstanceID": "efa4dcb4-8262-45c4-b00b-c3ebc20ea8d8",
       "installedFile": {
-        "id": 3543268,
-        "displayName": "quickshulker-1.3.1-1.18.jar",
-        "fileName": "quickshulker-1.3.1-1.18.jar",
-        "fileDate": "2021-12-01T05:49:20.237Z",
-        "fileLength": 230298,
+        "id": 3591885,
+        "displayName": "quickshulker-1.3.3-1.18.jar",
+        "fileName": "quickshulker-1.3.3-1.18.jar",
+        "fileDate": "2022-01-03T01:23:08.83Z",
+        "fileLength": 231680,
         "releaseType": 1,
         "fileStatus": 4,
-        "downloadUrl": "https://edge.forgecdn.net/files/3543/268/quickshulker-1.3.1-1.18.jar",
+        "downloadUrl": "https://edge.forgecdn.net/files/3591/885/quickshulker-1.3.3-1.18.jar",
         "isAlternate": false,
         "alternateFileId": 0,
         "dependencies": [],
@@ -2287,7 +2287,7 @@
         "modules": [
           {
             "foldername": "META-INF",
-            "fingerprint": 3438970666,
+            "fingerprint": 1432359008,
             "type": 3,
             "invalidFingerprint": false
           },
@@ -2311,7 +2311,7 @@
           },
           {
             "foldername": "fabric.mod.json",
-            "fingerprint": 3787060072,
+            "fingerprint": 670915432,
             "type": 3,
             "invalidFingerprint": false
           },
@@ -2329,18 +2329,25 @@
           },
           {
             "foldername": "net",
-            "fingerprint": 4054086306,
+            "fingerprint": 3444683051,
             "type": 3,
             "invalidFingerprint": false
           }
         ],
-        "packageFingerprint": 2901753045,
+        "packageFingerprint": 3961822390,
         "gameVersion": [
+          "1.18.1",
           "Fabric",
-          "1.18",
-          "1.18-Snapshot"
+          "1.18"
         ],
         "sortableGameVersion": [
+          {
+            "gameVersionPadded": "0000000001.0000000018.0000000001",
+            "gameVersion": "1.18.1",
+            "gameVersionReleaseDate": "2021-12-10T10:37:38.06Z",
+            "gameVersionName": "1.18.1",
+            "gameVersionTypeId": 73250
+          },
           {
             "gameVersionPadded": "0",
             "gameVersion": "",
@@ -2354,13 +2361,6 @@
             "gameVersionReleaseDate": "2021-11-30T16:23:01.427Z",
             "gameVersionName": "1.18",
             "gameVersionTypeId": 73250
-          },
-          {
-            "gameVersionPadded": "0000000001.0000000018",
-            "gameVersion": "1.18",
-            "gameVersionReleaseDate": "2021-08-12T00:00:00Z",
-            "gameVersionName": "1.18-Snapshot",
-            "gameVersionTypeId": 73250
           }
         ],
         "hasInstallScript": false,
@@ -2368,19 +2368,19 @@
         "categorySectionPackageType": 6,
         "restrictProjectFileAccess": 1,
         "projectStatus": 4,
-        "renderCacheId": 2606023,
+        "renderCacheId": 2663879,
         "projectId": 362669,
-        "packageFingerprintId": 797139545,
+        "packageFingerprintId": 825351166,
         "gameVersionDateReleased": "2019-08-01T00:00:00Z",
-        "gameVersionMappingId": 3512728,
+        "gameVersionMappingId": 3634460,
         "gameVersionId": 7499,
         "gameId": 432,
         "isServerPack": false,
-        "FileNameOnDisk": "quickshulker-1.3.1-1.18.jar"
+        "FileNameOnDisk": "quickshulker-1.3.3-1.18.jar"
       },
-      "dateInstalled": "2021-12-30T23:28:15.2309652Z",
-      "dateUpdated": "2021-12-30T23:28:15.2309652Z",
-      "dateLastUpdateAttempted": "0001-01-01T00:00:00",
+      "dateInstalled": "2022-01-03T01:26:36.9084115Z",
+      "dateUpdated": "2022-01-03T01:26:36.9104066Z",
+      "dateLastUpdateAttempted": "2022-01-03T01:26:36.9104066Z",
       "status": 5,
       "preferenceAutoInstallUpdates": null,
       "preferenceAlternateFile": false,
@@ -4134,7 +4134,7 @@
       "dateInstalled": "2021-12-30T23:28:15.1631472Z",
       "dateUpdated": "2022-01-01T19:24:16.2625713Z",
       "dateLastUpdateAttempted": "2022-01-01T19:24:16.2625713Z",
-      "status": 4,
+      "status": 5,
       "preferenceAutoInstallUpdates": null,
       "preferenceAlternateFile": false,
       "preferenceIsIgnored": false,
@@ -5068,145 +5068,6 @@
       "installedTargets": null
     },
     {
-      "addonID": 494751,
-      "gameInstanceID": "efa4dcb4-8262-45c4-b00b-c3ebc20ea8d8",
-      "installedFile": {
-        "id": 3549055,
-        "displayName": "[1.18] Grizzlybear 1.2.1",
-        "fileName": "grizzlybear-1.18-1.2.1.jar",
-        "fileDate": "2021-12-04T16:10:56.18Z",
-        "fileLength": 466730,
-        "releaseType": 1,
-        "fileStatus": 4,
-        "downloadUrl": "https://edge.forgecdn.net/files/3549/55/grizzlybear-1.18-1.2.1.jar",
-        "isAlternate": false,
-        "alternateFileId": 0,
-        "dependencies": [
-          {
-            "id": 80872128,
-            "addonId": 493905,
-            "type": 1,
-            "fileId": 3549055
-          },
-          {
-            "id": 80872127,
-            "addonId": 306612,
-            "type": 3,
-            "fileId": 3549055
-          }
-        ],
-        "isAvailable": true,
-        "modules": [
-          {
-            "foldername": "META-INF",
-            "fingerprint": 1455844047,
-            "type": 3,
-            "invalidFingerprint": false
-          },
-          {
-            "foldername": "icon.png",
-            "fingerprint": 2918695851,
-            "type": 3,
-            "invalidFingerprint": false
-          },
-          {
-            "foldername": "grizzlybear.mixins.json",
-            "fingerprint": 3459748374,
-            "type": 3,
-            "invalidFingerprint": false
-          },
-          {
-            "foldername": "fabric.mod.json",
-            "fingerprint": 1679128281,
-            "type": 3,
-            "invalidFingerprint": false
-          },
-          {
-            "foldername": "data",
-            "fingerprint": 2243230890,
-            "type": 3,
-            "invalidFingerprint": false
-          },
-          {
-            "foldername": "assets",
-            "fingerprint": 2169152129,
-            "type": 3,
-            "invalidFingerprint": false
-          },
-          {
-            "foldername": "com",
-            "fingerprint": 2971525226,
-            "type": 3,
-            "invalidFingerprint": false
-          }
-        ],
-        "packageFingerprint": 578971366,
-        "gameVersion": [
-          "1.18.1",
-          "Fabric",
-          "1.18",
-          "1.18-Snapshot"
-        ],
-        "sortableGameVersion": [
-          {
-            "gameVersionPadded": "0000000001.0000000018.0000000001",
-            "gameVersion": "1.18.1",
-            "gameVersionReleaseDate": "2021-12-10T10:37:38.06Z",
-            "gameVersionName": "1.18.1",
-            "gameVersionTypeId": 73250
-          },
-          {
-            "gameVersionPadded": "0",
-            "gameVersion": "",
-            "gameVersionReleaseDate": "2019-08-01T00:00:00Z",
-            "gameVersionName": "Fabric",
-            "gameVersionTypeId": 68441
-          },
-          {
-            "gameVersionPadded": "0000000001.0000000018",
-            "gameVersion": "1.18",
-            "gameVersionReleaseDate": "2021-11-30T16:23:01.427Z",
-            "gameVersionName": "1.18",
-            "gameVersionTypeId": 73250
-          },
-          {
-            "gameVersionPadded": "0000000001.0000000018",
-            "gameVersion": "1.18",
-            "gameVersionReleaseDate": "2021-08-12T00:00:00Z",
-            "gameVersionName": "1.18-Snapshot",
-            "gameVersionTypeId": 73250
-          }
-        ],
-        "hasInstallScript": false,
-        "isCompatibleWithClient": true,
-        "categorySectionPackageType": 6,
-        "restrictProjectFileAccess": 1,
-        "projectStatus": 4,
-        "renderCacheId": 2612661,
-        "projectId": 494751,
-        "packageFingerprintId": 799843212,
-        "gameVersionDateReleased": "2019-08-01T00:00:00Z",
-        "gameVersionMappingId": 3526479,
-        "gameVersionId": 7499,
-        "gameId": 432,
-        "isServerPack": false,
-        "FileNameOnDisk": "grizzlybear-1.18-1.2.1.jar"
-      },
-      "dateInstalled": "2021-12-30T23:28:15.1491847Z",
-      "dateUpdated": "2021-12-30T23:28:15.1491847Z",
-      "dateLastUpdateAttempted": "0001-01-01T00:00:00",
-      "status": 5,
-      "preferenceAutoInstallUpdates": null,
-      "preferenceAlternateFile": false,
-      "preferenceIsIgnored": false,
-      "isModified": false,
-      "isWorkingCopy": false,
-      "isFuzzyMatch": false,
-      "preferenceReleaseType": null,
-      "manifestName": null,
-      "installedTargets": null
-    },
-    {
       "addonID": 400619,
       "gameInstanceID": "efa4dcb4-8262-45c4-b00b-c3ebc20ea8d8",
       "installedFile": {
@@ -5984,152 +5845,6 @@
       "installedTargets": null
     },
     {
-      "addonID": 561059,
-      "gameInstanceID": "efa4dcb4-8262-45c4-b00b-c3ebc20ea8d8",
-      "installedFile": {
-        "id": 3588966,
-        "displayName": "ChiselsBits-fabric-1.18.1-1.2.61.jar",
-        "fileName": "ChiselsBits-fabric-1.18.1-1.2.61.jar",
-        "fileDate": "2022-01-01T16:20:11.567Z",
-        "fileLength": 1633284,
-        "releaseType": 1,
-        "fileStatus": 4,
-        "downloadUrl": "https://edge.forgecdn.net/files/3588/966/ChiselsBits-fabric-1.18.1-1.2.61.jar",
-        "isAlternate": false,
-        "alternateFileId": 0,
-        "dependencies": [],
-        "isAvailable": true,
-        "modules": [
-          {
-            "foldername": "META-INF",
-            "fingerprint": 1051044032,
-            "type": 3,
-            "invalidFingerprint": false
-          },
-          {
-            "foldername": "pack.png",
-            "fingerprint": 1443290104,
-            "type": 3,
-            "invalidFingerprint": false
-          },
-          {
-            "foldername": "chiselsandbits.accesswidener",
-            "fingerprint": 358559614,
-            "type": 3,
-            "invalidFingerprint": false
-          },
-          {
-            "foldername": "pack.mcmeta",
-            "fingerprint": 1566522139,
-            "type": 3,
-            "invalidFingerprint": false
-          },
-          {
-            "foldername": "logo-fabric.png",
-            "fingerprint": 911136848,
-            "type": 3,
-            "invalidFingerprint": false
-          },
-          {
-            "foldername": "chiselsandbits.mixins.json",
-            "fingerprint": 4010836155,
-            "type": 3,
-            "invalidFingerprint": false
-          },
-          {
-            "foldername": "fabric.mod.json",
-            "fingerprint": 3187888481,
-            "type": 3,
-            "invalidFingerprint": false
-          },
-          {
-            "foldername": "data",
-            "fingerprint": 2102148499,
-            "type": 3,
-            "invalidFingerprint": false
-          },
-          {
-            "foldername": "logo-forge.png",
-            "fingerprint": 905635307,
-            "type": 3,
-            "invalidFingerprint": false
-          },
-          {
-            "foldername": "assets",
-            "fingerprint": 4227684517,
-            "type": 3,
-            "invalidFingerprint": false
-          },
-          {
-            "foldername": "logo.png",
-            "fingerprint": 4109936939,
-            "type": 3,
-            "invalidFingerprint": false
-          },
-          {
-            "foldername": "Chisels&Bits-fabric-1.18.1-refmap.json",
-            "fingerprint": 1358522588,
-            "type": 3,
-            "invalidFingerprint": false
-          },
-          {
-            "foldername": "mod",
-            "fingerprint": 472668585,
-            "type": 3,
-            "invalidFingerprint": false
-          }
-        ],
-        "packageFingerprint": 1675898323,
-        "gameVersion": [
-          "1.18.1",
-          "Fabric"
-        ],
-        "sortableGameVersion": [
-          {
-            "gameVersionPadded": "0000000001.0000000018.0000000001",
-            "gameVersion": "1.18.1",
-            "gameVersionReleaseDate": "2021-12-10T10:37:38.06Z",
-            "gameVersionName": "1.18.1",
-            "gameVersionTypeId": 73250
-          },
-          {
-            "gameVersionPadded": "0",
-            "gameVersion": "",
-            "gameVersionReleaseDate": "2019-08-01T00:00:00Z",
-            "gameVersionName": "Fabric",
-            "gameVersionTypeId": 68441
-          }
-        ],
-        "hasInstallScript": false,
-        "isCompatibleWithClient": true,
-        "categorySectionPackageType": 6,
-        "restrictProjectFileAccess": 1,
-        "projectStatus": 4,
-        "renderCacheId": 2660438,
-        "projectId": 561059,
-        "packageFingerprintId": 824050782,
-        "gameVersionDateReleased": "2019-08-01T00:00:00Z",
-        "gameVersionMappingId": 3627939,
-        "gameVersionId": 7499,
-        "gameId": 432,
-        "isServerPack": false,
-        "FileNameOnDisk": "ChiselsBits-fabric-1.18.1-1.2.61.jar"
-      },
-      "dateInstalled": "2022-01-01T17:19:41.7486791Z",
-      "dateUpdated": "2022-01-01T19:25:10.0197896Z",
-      "dateLastUpdateAttempted": "2022-01-01T19:25:10.0197896Z",
-      "status": 4,
-      "preferenceAutoInstallUpdates": null,
-      "preferenceAlternateFile": false,
-      "preferenceIsIgnored": false,
-      "isModified": false,
-      "isWorkingCopy": false,
-      "isFuzzyMatch": false,
-      "preferenceReleaseType": null,
-      "manifestName": null,
-      "installedTargets": null
-    },
-    {
       "addonID": 549363,
       "gameInstanceID": "efa4dcb4-8262-45c4-b00b-c3ebc20ea8d8",
       "installedFile": {
@@ -6620,143 +6335,6 @@
       "dateUpdated": "2021-12-30T23:28:15.2319626Z",
       "dateLastUpdateAttempted": "0001-01-01T00:00:00",
       "status": 5,
-      "preferenceAutoInstallUpdates": null,
-      "preferenceAlternateFile": false,
-      "preferenceIsIgnored": false,
-      "isModified": false,
-      "isWorkingCopy": false,
-      "isFuzzyMatch": false,
-      "preferenceReleaseType": null,
-      "manifestName": null,
-      "installedTargets": null
-    },
-    {
-      "addonID": 547695,
-      "gameInstanceID": "efa4dcb4-8262-45c4-b00b-c3ebc20ea8d8",
-      "installedFile": {
-        "id": 3549467,
-        "displayName": "kleeslabs-fabric-1.18-11.0.0.jar",
-        "fileName": "kleeslabs-fabric-1.18-11.0.0.jar",
-        "fileDate": "2021-12-04T21:40:03.13Z",
-        "fileLength": 283864,
-        "releaseType": 1,
-        "fileStatus": 4,
-        "downloadUrl": "https://edge.forgecdn.net/files/3549/467/kleeslabs-fabric-1.18-11.0.0.jar",
-        "isAlternate": false,
-        "alternateFileId": 0,
-        "dependencies": [
-          {
-            "id": 80593190,
-            "addonId": 500525,
-            "type": 3,
-            "fileId": 3549467
-          }
-        ],
-        "isAvailable": true,
-        "modules": [
-          {
-            "foldername": "META-INF",
-            "fingerprint": 2242172037,
-            "type": 3,
-            "invalidFingerprint": false
-          },
-          {
-            "foldername": "pack.mcmeta",
-            "fingerprint": 2385089543,
-            "type": 3,
-            "invalidFingerprint": false
-          },
-          {
-            "foldername": "kleeslabs.mixins.json",
-            "fingerprint": 3467624140,
-            "type": 3,
-            "invalidFingerprint": false
-          },
-          {
-            "foldername": "kleeslabs-icon.png",
-            "fingerprint": 2347385771,
-            "type": 3,
-            "invalidFingerprint": false
-          },
-          {
-            "foldername": "fabric.mod.json",
-            "fingerprint": 1844061648,
-            "type": 3,
-            "invalidFingerprint": false
-          },
-          {
-            "foldername": "data",
-            "fingerprint": 2057665571,
-            "type": 3,
-            "invalidFingerprint": false
-          },
-          {
-            "foldername": "assets",
-            "fingerprint": 1160343902,
-            "type": 3,
-            "invalidFingerprint": false
-          },
-          {
-            "foldername": "kleeslabs-fabric-1.18-refmap.json",
-            "fingerprint": 1515355482,
-            "type": 3,
-            "invalidFingerprint": false
-          },
-          {
-            "foldername": "net",
-            "fingerprint": 843068057,
-            "type": 3,
-            "invalidFingerprint": false
-          }
-        ],
-        "packageFingerprint": 2898946726,
-        "gameVersion": [
-          "1.18.1",
-          "Fabric",
-          "1.18"
-        ],
-        "sortableGameVersion": [
-          {
-            "gameVersionPadded": "0000000001.0000000018.0000000001",
-            "gameVersion": "1.18.1",
-            "gameVersionReleaseDate": "2021-12-10T10:37:38.06Z",
-            "gameVersionName": "1.18.1",
-            "gameVersionTypeId": 73250
-          },
-          {
-            "gameVersionPadded": "0",
-            "gameVersion": "",
-            "gameVersionReleaseDate": "2019-08-01T00:00:00Z",
-            "gameVersionName": "Fabric",
-            "gameVersionTypeId": 68441
-          },
-          {
-            "gameVersionPadded": "0000000001.0000000018",
-            "gameVersion": "1.18",
-            "gameVersionReleaseDate": "2021-11-30T16:23:01.427Z",
-            "gameVersionName": "1.18",
-            "gameVersionTypeId": 73250
-          }
-        ],
-        "hasInstallScript": false,
-        "isCompatibleWithClient": true,
-        "categorySectionPackageType": 6,
-        "restrictProjectFileAccess": 1,
-        "projectStatus": 4,
-        "renderCacheId": 2613157,
-        "projectId": 547695,
-        "packageFingerprintId": 800047918,
-        "gameVersionDateReleased": "2019-08-01T00:00:00Z",
-        "gameVersionMappingId": 3527605,
-        "gameVersionId": 7499,
-        "gameId": 432,
-        "isServerPack": false,
-        "FileNameOnDisk": "kleeslabs-fabric-1.18-11.0.0.jar"
-      },
-      "dateInstalled": "2022-01-01T19:20:36.1470003Z",
-      "dateUpdated": "2022-01-01T19:20:36.1470003Z",
-      "dateLastUpdateAttempted": "0001-01-01T00:00:00",
-      "status": 4,
       "preferenceAutoInstallUpdates": null,
       "preferenceAlternateFile": false,
       "preferenceIsIgnored": false,
@@ -7282,6 +6860,137 @@
       "installedTargets": null
     },
     {
+      "addonID": 420709,
+      "gameInstanceID": "efa4dcb4-8262-45c4-b00b-c3ebc20ea8d8",
+      "installedFile": {
+        "id": 3584046,
+        "displayName": "bitsandchisels-2.6.3.jar",
+        "fileName": "bitsandchisels-2.6.3.jar",
+        "fileDate": "2021-12-29T04:27:27.033Z",
+        "fileLength": 885522,
+        "releaseType": 1,
+        "fileStatus": 4,
+        "downloadUrl": "https://edge.forgecdn.net/files/3584/46/bitsandchisels-2.6.3.jar",
+        "isAlternate": false,
+        "alternateFileId": 0,
+        "dependencies": [
+          {
+            "id": 82416602,
+            "addonId": 389194,
+            "type": 1,
+            "fileId": 3584046
+          },
+          {
+            "id": 82416603,
+            "addonId": 318440,
+            "type": 2,
+            "fileId": 3584046
+          }
+        ],
+        "isAvailable": true,
+        "modules": [
+          {
+            "foldername": "bitsandchisels.mixins.json",
+            "fingerprint": 1078990656,
+            "type": 3,
+            "invalidFingerprint": false
+          },
+          {
+            "foldername": "assets",
+            "fingerprint": 4165212916,
+            "type": 3,
+            "invalidFingerprint": false
+          },
+          {
+            "foldername": "data",
+            "fingerprint": 2873595775,
+            "type": 3,
+            "invalidFingerprint": false
+          },
+          {
+            "foldername": "META-INF",
+            "fingerprint": 2944650797,
+            "type": 3,
+            "invalidFingerprint": false
+          },
+          {
+            "foldername": "fabric.mod.json",
+            "fingerprint": 2406257519,
+            "type": 3,
+            "invalidFingerprint": false
+          },
+          {
+            "foldername": "io",
+            "fingerprint": 510878200,
+            "type": 3,
+            "invalidFingerprint": false
+          },
+          {
+            "foldername": "bitsandchisels-refmap.json",
+            "fingerprint": 1604260090,
+            "type": 3,
+            "invalidFingerprint": false
+          }
+        ],
+        "packageFingerprint": 3135152383,
+        "gameVersion": [
+          "1.18.1",
+          "Fabric",
+          "1.18"
+        ],
+        "sortableGameVersion": [
+          {
+            "gameVersionPadded": "0000000001.0000000018.0000000001",
+            "gameVersion": "1.18.1",
+            "gameVersionReleaseDate": "2021-12-10T10:37:38.06Z",
+            "gameVersionName": "1.18.1",
+            "gameVersionTypeId": 73250
+          },
+          {
+            "gameVersionPadded": "0",
+            "gameVersion": "",
+            "gameVersionReleaseDate": "2019-08-01T00:00:00Z",
+            "gameVersionName": "Fabric",
+            "gameVersionTypeId": 68441
+          },
+          {
+            "gameVersionPadded": "0000000001.0000000018",
+            "gameVersion": "1.18",
+            "gameVersionReleaseDate": "2021-11-30T16:23:01.427Z",
+            "gameVersionName": "1.18",
+            "gameVersionTypeId": 73250
+          }
+        ],
+        "hasInstallScript": false,
+        "isCompatibleWithClient": true,
+        "categorySectionPackageType": 6,
+        "restrictProjectFileAccess": 1,
+        "projectStatus": 4,
+        "renderCacheId": 2654528,
+        "projectId": 420709,
+        "packageFingerprintId": 821218970,
+        "gameVersionDateReleased": "2019-08-01T00:00:00Z",
+        "gameVersionMappingId": 3615864,
+        "gameVersionId": 7499,
+        "gameId": 432,
+        "isServerPack": false,
+        "FileNameOnDisk": "bitsandchisels-2.6.3.jar"
+      },
+      "dateInstalled": "2022-01-02T23:55:19.5272974Z",
+      "dateUpdated": "2022-01-02T23:55:19.53029Z",
+      "dateLastUpdateAttempted": "2022-01-02T23:55:19.53029Z",
+      "status": 4,
+      "preferenceAutoInstallUpdates": null,
+      "preferenceAlternateFile": false,
+      "preferenceIsIgnored": false,
+      "isModified": false,
+      "isWorkingCopy": false,
+      "isFuzzyMatch": false,
+      "preferenceReleaseType": null,
+      "manifestName": null,
+      "installedTargets": null
+    },
+    {
       "addonID": 233564,
       "gameInstanceID": "efa4dcb4-8262-45c4-b00b-c3ebc20ea8d8",
       "installedFile": {
@@ -7533,14 +7242,14 @@
       "addonID": 325471,
       "gameInstanceID": "efa4dcb4-8262-45c4-b00b-c3ebc20ea8d8",
       "installedFile": {
-        "id": 3553026,
-        "displayName": "InventorySorter-1.8.1-1.18.jar",
-        "fileName": "InventorySorter-1.8.1-1.18.jar",
-        "fileDate": "2021-12-06T21:55:28.87Z",
-        "fileLength": 195494,
+        "id": 3591467,
+        "displayName": "InventorySorter-1.8.3-1.18.jar",
+        "fileName": "InventorySorter-1.8.3-1.18.jar",
+        "fileDate": "2022-01-02T19:58:48.983Z",
+        "fileLength": 199454,
         "releaseType": 1,
         "fileStatus": 4,
-        "downloadUrl": "https://edge.forgecdn.net/files/3553/26/InventorySorter-1.8.1-1.18.jar",
+        "downloadUrl": "https://edge.forgecdn.net/files/3591/467/InventorySorter-1.8.3-1.18.jar",
         "isAlternate": false,
         "alternateFileId": 0,
         "dependencies": [],
@@ -7548,7 +7257,7 @@
         "modules": [
           {
             "foldername": "META-INF",
-            "fingerprint": 1949962316,
+            "fingerprint": 4137666177,
             "type": 3,
             "invalidFingerprint": false
           },
@@ -7566,7 +7275,7 @@
           },
           {
             "foldername": "fabric.mod.json",
-            "fingerprint": 10905313,
+            "fingerprint": 116624415,
             "type": 3,
             "invalidFingerprint": false
           },
@@ -7584,12 +7293,12 @@
           },
           {
             "foldername": "net",
-            "fingerprint": 413390150,
+            "fingerprint": 521893228,
             "type": 3,
             "invalidFingerprint": false
           }
         ],
-        "packageFingerprint": 927227177,
+        "packageFingerprint": 164538685,
         "gameVersion": [
           "1.18.1",
           "Fabric",
@@ -7623,20 +7332,20 @@
         "categorySectionPackageType": 6,
         "restrictProjectFileAccess": 1,
         "projectStatus": 4,
-        "renderCacheId": 2617324,
+        "renderCacheId": 2663358,
         "projectId": 325471,
-        "packageFingerprintId": 801544888,
+        "packageFingerprintId": 825133069,
         "gameVersionDateReleased": "2019-08-01T00:00:00Z",
-        "gameVersionMappingId": 3535930,
+        "gameVersionMappingId": 3633452,
         "gameVersionId": 7499,
         "gameId": 432,
         "isServerPack": false,
-        "FileNameOnDisk": "InventorySorter-1.8.1-1.18.jar"
+        "FileNameOnDisk": "InventorySorter-1.8.3-1.18.jar"
       },
-      "dateInstalled": "2021-12-30T23:28:15.2050348Z",
-      "dateUpdated": "2021-12-30T23:28:15.2050348Z",
-      "dateLastUpdateAttempted": "0001-01-01T00:00:00",
-      "status": 5,
+      "dateInstalled": "2022-01-02T23:05:40.1253224Z",
+      "dateUpdated": "2022-01-02T23:05:40.1273177Z",
+      "dateLastUpdateAttempted": "2022-01-02T23:05:40.1273177Z",
+      "status": 4,
       "preferenceAutoInstallUpdates": null,
       "preferenceAlternateFile": false,
       "preferenceIsIgnored": false,
@@ -9718,6 +9427,137 @@
       "installedTargets": null
     },
     {
+      "addonID": 550544,
+      "gameInstanceID": "efa4dcb4-8262-45c4-b00b-c3ebc20ea8d8",
+      "installedFile": {
+        "id": 3590716,
+        "displayName": "[Fabric 1.18.x] v2.0.0",
+        "fileName": "onastick-fabric-2.0.0.jar",
+        "fileDate": "2022-01-02T06:06:48.983Z",
+        "fileLength": 43054,
+        "releaseType": 1,
+        "fileStatus": 4,
+        "downloadUrl": "https://edge.forgecdn.net/files/3590/716/onastick-fabric-2.0.0.jar",
+        "isAlternate": false,
+        "alternateFileId": 0,
+        "dependencies": [
+          {
+            "id": 82784951,
+            "addonId": 306612,
+            "type": 3,
+            "fileId": 3590716
+          }
+        ],
+        "isAvailable": true,
+        "modules": [
+          {
+            "foldername": "META-INF",
+            "fingerprint": 2596587954,
+            "type": 3,
+            "invalidFingerprint": false
+          },
+          {
+            "foldername": "LICENSE_onastick-fabric",
+            "fingerprint": 3825109730,
+            "type": 3,
+            "invalidFingerprint": false
+          },
+          {
+            "foldername": "onastick.mixins.json",
+            "fingerprint": 2798129975,
+            "type": 3,
+            "invalidFingerprint": false
+          },
+          {
+            "foldername": "fabric.mod.json",
+            "fingerprint": 3166236412,
+            "type": 3,
+            "invalidFingerprint": false
+          },
+          {
+            "foldername": "data",
+            "fingerprint": 1169994805,
+            "type": 3,
+            "invalidFingerprint": false
+          },
+          {
+            "foldername": "assets",
+            "fingerprint": 1405958024,
+            "type": 3,
+            "invalidFingerprint": false
+          },
+          {
+            "foldername": "onastick-fabric-refmap.json",
+            "fingerprint": 1492708649,
+            "type": 3,
+            "invalidFingerprint": false
+          },
+          {
+            "foldername": "me",
+            "fingerprint": 3459995888,
+            "type": 3,
+            "invalidFingerprint": false
+          }
+        ],
+        "packageFingerprint": 3265376575,
+        "gameVersion": [
+          "1.18.1",
+          "Fabric",
+          "1.18"
+        ],
+        "sortableGameVersion": [
+          {
+            "gameVersionPadded": "0000000001.0000000018.0000000001",
+            "gameVersion": "1.18.1",
+            "gameVersionReleaseDate": "2021-12-10T10:37:38.06Z",
+            "gameVersionName": "1.18.1",
+            "gameVersionTypeId": 73250
+          },
+          {
+            "gameVersionPadded": "0",
+            "gameVersion": "",
+            "gameVersionReleaseDate": "2019-08-01T00:00:00Z",
+            "gameVersionName": "Fabric",
+            "gameVersionTypeId": 68441
+          },
+          {
+            "gameVersionPadded": "0000000001.0000000018",
+            "gameVersion": "1.18",
+            "gameVersionReleaseDate": "2021-11-30T16:23:01.427Z",
+            "gameVersionName": "1.18",
+            "gameVersionTypeId": 73250
+          }
+        ],
+        "hasInstallScript": false,
+        "isCompatibleWithClient": true,
+        "categorySectionPackageType": 6,
+        "restrictProjectFileAccess": 1,
+        "projectStatus": 4,
+        "renderCacheId": 2662401,
+        "projectId": 550544,
+        "packageFingerprintId": 824669354,
+        "gameVersionDateReleased": "2019-08-01T00:00:00Z",
+        "gameVersionMappingId": 3630990,
+        "gameVersionId": 7499,
+        "gameId": 432,
+        "isServerPack": false,
+        "FileNameOnDisk": "onastick-fabric-2.0.0.jar"
+      },
+      "dateInstalled": "2022-01-02T23:10:31.5350421Z",
+      "dateUpdated": "2022-01-02T23:10:31.5370372Z",
+      "dateLastUpdateAttempted": "2022-01-02T23:10:31.5370372Z",
+      "status": 4,
+      "preferenceAutoInstallUpdates": null,
+      "preferenceAlternateFile": false,
+      "preferenceIsIgnored": false,
+      "isModified": false,
+      "isWorkingCopy": false,
+      "isFuzzyMatch": false,
+      "preferenceReleaseType": null,
+      "manifestName": null,
+      "installedTargets": null
+    },
+    {
       "addonID": 502646,
       "gameInstanceID": "efa4dcb4-8262-45c4-b00b-c3ebc20ea8d8",
       "installedFile": {
@@ -11465,14 +11305,14 @@
       "addonID": 306612,
       "gameInstanceID": "efa4dcb4-8262-45c4-b00b-c3ebc20ea8d8",
       "installedFile": {
-        "id": 3577046,
-        "displayName": "[1.18.1] Fabric API 0.45.0+1.18",
-        "fileName": "fabric-api-0.45.0+1.18.jar",
-        "fileDate": "2021-12-22T20:08:24.447Z",
-        "fileLength": 1144830,
-        "releaseType": 1,
+        "id": 3591502,
+        "displayName": "[1.18.1] Fabric API 0.45.1+1.18",
+        "fileName": "fabric-api-0.45.1+1.18.jar",
+        "fileDate": "2022-01-02T20:24:45.69Z",
+        "fileLength": 1155950,
+        "releaseType": 2,
         "fileStatus": 4,
-        "downloadUrl": "https://edge.forgecdn.net/files/3577/46/fabric-api-0.45.0+1.18.jar",
+        "downloadUrl": "https://edge.forgecdn.net/files/3591/502/fabric-api-0.45.1+1.18.jar",
         "isAlternate": false,
         "alternateFileId": 0,
         "dependencies": [],
@@ -11480,7 +11320,7 @@
         "modules": [
           {
             "foldername": "META-INF",
-            "fingerprint": 2531378028,
+            "fingerprint": 1345309497,
             "type": 3,
             "invalidFingerprint": false
           },
@@ -11492,12 +11332,12 @@
           },
           {
             "foldername": "fabric.mod.json",
-            "fingerprint": 1488105292,
+            "fingerprint": 3564001739,
             "type": 3,
             "invalidFingerprint": false
           }
         ],
-        "packageFingerprint": 3382045089,
+        "packageFingerprint": 1772098389,
         "gameVersion": [
           "1.18.1",
           "Fabric"
@@ -11523,20 +11363,20 @@
         "categorySectionPackageType": 6,
         "restrictProjectFileAccess": 1,
         "projectStatus": 4,
-        "renderCacheId": 2645670,
+        "renderCacheId": 2663399,
         "projectId": 306612,
-        "packageFingerprintId": 816375368,
+        "packageFingerprintId": 825152953,
         "gameVersionDateReleased": "2019-08-01T00:00:00Z",
-        "gameVersionMappingId": 3596002,
+        "gameVersionMappingId": 3633555,
         "gameVersionId": 7499,
         "gameId": 432,
         "isServerPack": false,
-        "FileNameOnDisk": "fabric-api-0.45.0+1.18.jar"
+        "FileNameOnDisk": "fabric-api-0.45.1+1.18.jar"
       },
       "dateInstalled": "2021-12-30T23:28:15.2818298Z",
-      "dateUpdated": "2021-12-30T23:29:51.986514Z",
-      "dateLastUpdateAttempted": "2021-12-30T23:29:51.986514Z",
-      "status": 5,
+      "dateUpdated": "2022-01-02T23:33:18.1287631Z",
+      "dateLastUpdateAttempted": "2022-01-02T23:33:18.1287631Z",
+      "status": 4,
       "preferenceAutoInstallUpdates": null,
       "preferenceAlternateFile": false,
       "preferenceIsIgnored": false,
@@ -12032,7 +11872,7 @@
       "dateInstalled": "2021-12-30T23:28:15.2339573Z",
       "dateUpdated": "2022-01-01T19:24:02.8996135Z",
       "dateLastUpdateAttempted": "2022-01-01T19:24:02.8996135Z",
-      "status": 4,
+      "status": 5,
       "preferenceAutoInstallUpdates": null,
       "preferenceAlternateFile": false,
       "preferenceIsIgnored": false,
@@ -12183,7 +12023,7 @@
       "dateInstalled": "2021-12-31T00:22:15.0607758Z",
       "dateUpdated": "2022-01-01T19:23:56.0877408Z",
       "dateLastUpdateAttempted": "2022-01-01T19:23:56.0877408Z",
-      "status": 4,
+      "status": 5,
       "preferenceAutoInstallUpdates": null,
       "preferenceAlternateFile": false,
       "preferenceIsIgnored": false,
@@ -12198,40 +12038,40 @@
       "addonID": 399648,
       "gameInstanceID": "efa4dcb4-8262-45c4-b00b-c3ebc20ea8d8",
       "installedFile": {
-        "id": 3578011,
-        "displayName": "Promenade v2.3.0",
-        "fileName": "promenade-2.3.0.jar",
-        "fileDate": "2021-12-23T15:06:56.467Z",
-        "fileLength": 899143,
+        "id": 3591102,
+        "displayName": "Promenade v2.4.0",
+        "fileName": "promenade-2.4.0.jar",
+        "fileDate": "2022-01-02T15:30:20.66Z",
+        "fileLength": 911834,
         "releaseType": 1,
         "fileStatus": 4,
-        "downloadUrl": "https://edge.forgecdn.net/files/3578/11/promenade-2.3.0.jar",
+        "downloadUrl": "https://edge.forgecdn.net/files/3591/102/promenade-2.4.0.jar",
         "isAlternate": false,
         "alternateFileId": 0,
         "dependencies": [
           {
-            "id": 81903781,
-            "addonId": 554586,
-            "type": 2,
-            "fileId": 3578011
-          },
-          {
-            "id": 81903783,
-            "addonId": 399309,
-            "type": 3,
-            "fileId": 3578011
-          },
-          {
-            "id": 81903782,
+            "id": 82815400,
             "addonId": 385230,
             "type": 2,
-            "fileId": 3578011
+            "fileId": 3591102
           },
           {
-            "id": 81903780,
+            "id": 82815401,
+            "addonId": 399309,
+            "type": 3,
+            "fileId": 3591102
+          },
+          {
+            "id": 82815399,
+            "addonId": 554586,
+            "type": 2,
+            "fileId": 3591102
+          },
+          {
+            "id": 82815398,
             "addonId": 306612,
             "type": 3,
-            "fileId": 3578011
+            "fileId": 3591102
           }
         ],
         "isAvailable": true,
@@ -12250,42 +12090,48 @@
           },
           {
             "foldername": "promenade.mixins.json",
-            "fingerprint": 8843246,
+            "fingerprint": 1542497236,
             "type": 3,
             "invalidFingerprint": false
           },
           {
             "foldername": "assets",
-            "fingerprint": 2119139334,
+            "fingerprint": 316507844,
             "type": 3,
             "invalidFingerprint": false
           },
           {
             "foldername": "fabric.mod.json",
-            "fingerprint": 3098978243,
+            "fingerprint": 1922046495,
             "type": 3,
             "invalidFingerprint": false
           },
           {
             "foldername": "promenade.accesswidener",
-            "fingerprint": 1646804588,
+            "fingerprint": 376364239,
             "type": 3,
             "invalidFingerprint": false
           },
           {
             "foldername": "data",
-            "fingerprint": 4063471716,
+            "fingerprint": 1201213300,
+            "type": 3,
+            "invalidFingerprint": false
+          },
+          {
+            "foldername": "promenade-refmap.json",
+            "fingerprint": 1941657528,
             "type": 3,
             "invalidFingerprint": false
           },
           {
             "foldername": "com",
-            "fingerprint": 2853233457,
+            "fingerprint": 66082475,
             "type": 3,
             "invalidFingerprint": false
           }
         ],
-        "packageFingerprint": 3585564150,
+        "packageFingerprint": 1109522529,
         "gameVersion": [
           "1.18.1",
           "Fabric",
@@ -12319,20 +12165,20 @@
         "categorySectionPackageType": 6,
         "restrictProjectFileAccess": 1,
         "projectStatus": 4,
-        "renderCacheId": 2646913,
+        "renderCacheId": 2662904,
         "projectId": 399648,
-        "packageFingerprintId": 817015439,
+        "packageFingerprintId": 824898157,
         "gameVersionDateReleased": "2019-08-01T00:00:00Z",
-        "gameVersionMappingId": 3598969,
+        "gameVersionMappingId": 3632103,
         "gameVersionId": 7499,
         "gameId": 432,
         "isServerPack": false,
-        "FileNameOnDisk": "promenade-2.3.0.jar"
+        "FileNameOnDisk": "promenade-2.4.0.jar"
       },
-      "dateInstalled": "2021-12-30T23:28:15.218Z",
-      "dateUpdated": "2021-12-30T23:30:22.7614728Z",
-      "dateLastUpdateAttempted": "2021-12-30T23:30:22.7614728Z",
-      "status": 5,
+      "dateInstalled": "2022-01-02T23:07:11.9789613Z",
+      "dateUpdated": "2022-01-02T23:07:11.9829503Z",
+      "dateLastUpdateAttempted": "2022-01-02T23:07:11.9829503Z",
+      "status": 4,
       "preferenceAutoInstallUpdates": null,
       "preferenceAlternateFile": false,
       "preferenceIsIgnored": false,
@@ -12770,14 +12616,14 @@
       "addonID": 250398,
       "gameInstanceID": "efa4dcb4-8262-45c4-b00b-c3ebc20ea8d8",
       "installedFile": {
-        "id": 3581420,
-        "displayName": "Controlling-fabric-1.18.1-9.0.7.jar",
-        "fileName": "Controlling-fabric-1.18.1-9.0.7.jar",
-        "fileDate": "2021-12-27T04:24:33.743Z",
-        "fileLength": 117215,
+        "id": 3590778,
+        "displayName": "Controlling-fabric-1.18.1-9.0.8.jar",
+        "fileName": "Controlling-fabric-1.18.1-9.0.8.jar",
+        "fileDate": "2022-01-02T08:24:54.723Z",
+        "fileLength": 117676,
         "releaseType": 1,
         "fileStatus": 4,
-        "downloadUrl": "https://edge.forgecdn.net/files/3581/420/Controlling-fabric-1.18.1-9.0.7.jar",
+        "downloadUrl": "https://edge.forgecdn.net/files/3590/778/Controlling-fabric-1.18.1-9.0.8.jar",
         "isAlternate": false,
         "alternateFileId": 0,
         "dependencies": [],
@@ -12785,7 +12631,7 @@
         "modules": [
           {
             "foldername": "META-INF",
-            "fingerprint": 4040985722,
+            "fingerprint": 1276016857,
             "type": 3,
             "invalidFingerprint": false
           },
@@ -12797,7 +12643,7 @@
           },
           {
             "foldername": "fabric.mod.json",
-            "fingerprint": 463288563,
+            "fingerprint": 1461041956,
             "type": 3,
             "invalidFingerprint": false
           },
@@ -12809,7 +12655,7 @@
           },
           {
             "foldername": "assets",
-            "fingerprint": 3946934064,
+            "fingerprint": 2624433960,
             "type": 3,
             "invalidFingerprint": false
           },
@@ -12832,7 +12678,7 @@
             "invalidFingerprint": false
           }
         ],
-        "packageFingerprint": 3231766852,
+        "packageFingerprint": 3391011925,
         "gameVersion": [
           "1.18.1",
           "Fabric"
@@ -12858,20 +12704,20 @@
         "categorySectionPackageType": 6,
         "restrictProjectFileAccess": 1,
         "projectStatus": 4,
-        "renderCacheId": 2651253,
+        "renderCacheId": 2662486,
         "projectId": 250398,
-        "packageFingerprintId": 819441595,
+        "packageFingerprintId": 824729667,
         "gameVersionDateReleased": "2019-08-01T00:00:00Z",
-        "gameVersionMappingId": 3608794,
+        "gameVersionMappingId": 3631210,
         "gameVersionId": 7499,
         "gameId": 432,
         "isServerPack": false,
-        "FileNameOnDisk": "Controlling-fabric-1.18.1-9.0.7.jar"
+        "FileNameOnDisk": "Controlling-fabric-1.18.1-9.0.8.jar"
       },
       "dateInstalled": "2021-12-30T23:28:15.1561652Z",
-      "dateUpdated": "2021-12-30T23:29:42.3295806Z",
-      "dateLastUpdateAttempted": "2021-12-30T23:29:42.3295806Z",
-      "status": 5,
+      "dateUpdated": "2022-01-02T23:33:18.3102779Z",
+      "dateLastUpdateAttempted": "2022-01-02T23:33:18.3102779Z",
+      "status": 4,
       "preferenceAutoInstallUpdates": null,
       "preferenceAlternateFile": false,
       "preferenceIsIgnored": false,
@@ -14870,40 +14716,34 @@
       "addonID": 391366,
       "gameInstanceID": "efa4dcb4-8262-45c4-b00b-c3ebc20ea8d8",
       "installedFile": {
-        "id": 3586311,
-        "displayName": "Repurposed Structures v3.1.13 (1.18.1 MC)",
-        "fileName": "repurposed_structures_fabric-3.1.13+1.18.1.jar",
-        "fileDate": "2021-12-31T00:11:35.787Z",
-        "fileLength": 5876009,
+        "id": 3591436,
+        "displayName": "Repurposed Structures v3.2.0 (1.18.1 MC)",
+        "fileName": "repurposed_structures_fabric-3.2.0+1.18.1.jar",
+        "fileDate": "2022-01-02T19:42:09.173Z",
+        "fileLength": 5865480,
         "releaseType": 1,
         "fileStatus": 4,
-        "downloadUrl": "https://edge.forgecdn.net/files/3586/311/repurposed_structures_fabric-3.1.13+1.18.1.jar",
+        "downloadUrl": "https://edge.forgecdn.net/files/3591/436/repurposed_structures_fabric-3.2.0+1.18.1.jar",
         "isAlternate": false,
         "alternateFileId": 0,
         "dependencies": [
           {
-            "id": 82606432,
-            "addonId": 306612,
-            "type": 3,
-            "fileId": 3586311
-          },
-          {
-            "id": 82606431,
+            "id": 82843369,
             "addonId": 319057,
             "type": 3,
-            "fileId": 3586311
+            "fileId": 3591436
           },
           {
-            "id": 82606433,
+            "id": 82843368,
             "addonId": 546841,
             "type": 2,
-            "fileId": 3586311
+            "fileId": 3591436
           },
           {
-            "id": 82606430,
-            "addonId": 560323,
-            "type": 2,
-            "fileId": 3586311
+            "id": 82843367,
+            "addonId": 306612,
+            "type": 3,
+            "fileId": 3591436
           }
         ],
         "isAvailable": true,
@@ -14934,19 +14774,19 @@
           },
           {
             "foldername": "fabric.mod.json",
-            "fingerprint": 1555128488,
+            "fingerprint": 2645293269,
             "type": 3,
             "invalidFingerprint": false
           },
           {
             "foldername": "data",
-            "fingerprint": 1014166232,
+            "fingerprint": 1363083863,
             "type": 3,
             "invalidFingerprint": false
           },
           {
             "foldername": "assets",
-            "fingerprint": 4106346090,
+            "fingerprint": 310210360,
             "type": 3,
             "invalidFingerprint": false
           },
@@ -14958,12 +14798,12 @@
           },
           {
             "foldername": "com",
-            "fingerprint": 519085057,
+            "fingerprint": 620522164,
             "type": 3,
             "invalidFingerprint": false
           }
         ],
-        "packageFingerprint": 2434078890,
+        "packageFingerprint": 1832993728,
         "gameVersion": [
           "1.18.1",
           "Fabric"
@@ -14989,20 +14829,20 @@
         "categorySectionPackageType": 6,
         "restrictProjectFileAccess": 1,
         "projectStatus": 4,
-        "renderCacheId": 2657327,
+        "renderCacheId": 2663325,
         "projectId": 391366,
-        "packageFingerprintId": 822842196,
+        "packageFingerprintId": 825094878,
         "gameVersionDateReleased": "2019-08-01T00:00:00Z",
-        "gameVersionMappingId": 3622246,
+        "gameVersionMappingId": 3633351,
         "gameVersionId": 7499,
         "gameId": 432,
         "isServerPack": false,
-        "FileNameOnDisk": "repurposed_structures_fabric-3.1.13+1.18.1.jar"
+        "FileNameOnDisk": "repurposed_structures_fabric-3.2.0+1.18.1.jar"
       },
-      "dateInstalled": "2021-12-30T23:28:15.2349545Z",
-      "dateUpdated": "2021-12-31T00:19:03.7291566Z",
-      "dateLastUpdateAttempted": "2021-12-31T00:19:03.7291566Z",
-      "status": 5,
+      "dateInstalled": "2022-01-02T23:06:33.6704156Z",
+      "dateUpdated": "2022-01-02T23:06:33.6783944Z",
+      "dateLastUpdateAttempted": "2022-01-02T23:06:33.6783944Z",
+      "status": 4,
       "preferenceAutoInstallUpdates": null,
       "preferenceAlternateFile": false,
       "preferenceIsIgnored": false,
@@ -15667,7 +15507,7 @@
       "dateInstalled": "2021-12-30T23:28:15.2219893Z",
       "dateUpdated": "2022-01-01T19:21:02.4512132Z",
       "dateLastUpdateAttempted": "2022-01-01T19:21:02.4512132Z",
-      "status": 4,
+      "status": 5,
       "preferenceAutoInstallUpdates": null,
       "preferenceAlternateFile": false,
       "preferenceIsIgnored": false,
@@ -16181,6 +16021,149 @@
       "installedTargets": null
     },
     {
+      "addonID": 517833,
+      "gameInstanceID": "efa4dcb4-8262-45c4-b00b-c3ebc20ea8d8",
+      "installedFile": {
+        "id": 3591193,
+        "displayName": "arcanus-1.25.jar",
+        "fileName": "arcanus-1.25.jar",
+        "fileDate": "2022-01-02T16:47:10.943Z",
+        "fileLength": 528416,
+        "releaseType": 1,
+        "fileStatus": 4,
+        "downloadUrl": "https://edge.forgecdn.net/files/3591/193/arcanus-1.25.jar",
+        "isAlternate": false,
+        "alternateFileId": 0,
+        "dependencies": [
+          {
+            "id": 82824657,
+            "addonId": 319057,
+            "type": 3,
+            "fileId": 3591193
+          },
+          {
+            "id": 82824658,
+            "addonId": 306612,
+            "type": 3,
+            "fileId": 3591193
+          },
+          {
+            "id": 82824656,
+            "addonId": 320211,
+            "type": 2,
+            "fileId": 3591193
+          }
+        ],
+        "isAvailable": true,
+        "modules": [
+          {
+            "foldername": "META-INF",
+            "fingerprint": 1164045509,
+            "type": 3,
+            "invalidFingerprint": false
+          },
+          {
+            "foldername": "LICENSE",
+            "fingerprint": 2912266703,
+            "type": 3,
+            "invalidFingerprint": false
+          },
+          {
+            "foldername": "assets",
+            "fingerprint": 1410353610,
+            "type": 3,
+            "invalidFingerprint": false
+          },
+          {
+            "foldername": "fabric.mod.json",
+            "fingerprint": 4088918601,
+            "type": 3,
+            "invalidFingerprint": false
+          },
+          {
+            "foldername": "data",
+            "fingerprint": 224865622,
+            "type": 3,
+            "invalidFingerprint": false
+          },
+          {
+            "foldername": "arcanus.mixins.json",
+            "fingerprint": 4280738319,
+            "type": 3,
+            "invalidFingerprint": false
+          },
+          {
+            "foldername": "arcanus-refmap.json",
+            "fingerprint": 2377557790,
+            "type": 3,
+            "invalidFingerprint": false
+          },
+          {
+            "foldername": "dev",
+            "fingerprint": 1148142160,
+            "type": 3,
+            "invalidFingerprint": false
+          }
+        ],
+        "packageFingerprint": 413683293,
+        "gameVersion": [
+          "1.18.1",
+          "Fabric",
+          "1.18"
+        ],
+        "sortableGameVersion": [
+          {
+            "gameVersionPadded": "0000000001.0000000018.0000000001",
+            "gameVersion": "1.18.1",
+            "gameVersionReleaseDate": "2021-12-10T10:37:38.06Z",
+            "gameVersionName": "1.18.1",
+            "gameVersionTypeId": 73250
+          },
+          {
+            "gameVersionPadded": "0",
+            "gameVersion": "",
+            "gameVersionReleaseDate": "2019-08-01T00:00:00Z",
+            "gameVersionName": "Fabric",
+            "gameVersionTypeId": 68441
+          },
+          {
+            "gameVersionPadded": "0000000001.0000000018",
+            "gameVersion": "1.18",
+            "gameVersionReleaseDate": "2021-11-30T16:23:01.427Z",
+            "gameVersionName": "1.18",
+            "gameVersionTypeId": 73250
+          }
+        ],
+        "hasInstallScript": false,
+        "isCompatibleWithClient": true,
+        "categorySectionPackageType": 6,
+        "restrictProjectFileAccess": 1,
+        "projectStatus": 4,
+        "renderCacheId": 2663019,
+        "projectId": 517833,
+        "packageFingerprintId": 824973061,
+        "gameVersionDateReleased": "2019-08-01T00:00:00Z",
+        "gameVersionMappingId": 3632343,
+        "gameVersionId": 7499,
+        "gameId": 432,
+        "isServerPack": false,
+        "FileNameOnDisk": "arcanus-1.25.jar"
+      },
+      "dateInstalled": "2022-01-02T23:06:46.9459113Z",
+      "dateUpdated": "2022-01-02T23:06:46.9489026Z",
+      "dateLastUpdateAttempted": "2022-01-02T23:06:46.9489026Z",
+      "status": 4,
+      "preferenceAutoInstallUpdates": null,
+      "preferenceAlternateFile": false,
+      "preferenceIsIgnored": false,
+      "isModified": false,
+      "isWorkingCopy": false,
+      "isFuzzyMatch": false,
+      "preferenceReleaseType": null,
+      "manifestName": null,
+      "installedTargets": null
+    },
+    {
       "addonID": 478843,
       "gameInstanceID": "efa4dcb4-8262-45c4-b00b-c3ebc20ea8d8",
       "installedFile": {
@@ -16297,149 +16280,6 @@
       },
       "dateInstalled": "2021-12-30T23:28:15.1412055Z",
       "dateUpdated": "2021-12-30T23:28:15.1412055Z",
-      "dateLastUpdateAttempted": "0001-01-01T00:00:00",
-      "status": 5,
-      "preferenceAutoInstallUpdates": null,
-      "preferenceAlternateFile": false,
-      "preferenceIsIgnored": false,
-      "isModified": false,
-      "isWorkingCopy": false,
-      "isFuzzyMatch": false,
-      "preferenceReleaseType": null,
-      "manifestName": null,
-      "installedTargets": null
-    },
-    {
-      "addonID": 517833,
-      "gameInstanceID": "efa4dcb4-8262-45c4-b00b-c3ebc20ea8d8",
-      "installedFile": {
-        "id": 3531929,
-        "displayName": "arcanus-1.24.jar",
-        "fileName": "arcanus-1.24.jar",
-        "fileDate": "2021-11-20T21:31:59.497Z",
-        "fileLength": 528203,
-        "releaseType": 1,
-        "fileStatus": 4,
-        "downloadUrl": "https://edge.forgecdn.net/files/3531/929/arcanus-1.24.jar",
-        "isAlternate": false,
-        "alternateFileId": 0,
-        "dependencies": [
-          {
-            "id": 81151162,
-            "addonId": 306612,
-            "type": 3,
-            "fileId": 3531929
-          },
-          {
-            "id": 81151161,
-            "addonId": 319057,
-            "type": 3,
-            "fileId": 3531929
-          },
-          {
-            "id": 81151163,
-            "addonId": 320211,
-            "type": 2,
-            "fileId": 3531929
-          }
-        ],
-        "isAvailable": true,
-        "modules": [
-          {
-            "foldername": "META-INF",
-            "fingerprint": 2500748327,
-            "type": 3,
-            "invalidFingerprint": false
-          },
-          {
-            "foldername": "LICENSE",
-            "fingerprint": 2720790159,
-            "type": 3,
-            "invalidFingerprint": false
-          },
-          {
-            "foldername": "assets",
-            "fingerprint": 1410353610,
-            "type": 3,
-            "invalidFingerprint": false
-          },
-          {
-            "foldername": "fabric.mod.json",
-            "fingerprint": 3936026866,
-            "type": 3,
-            "invalidFingerprint": false
-          },
-          {
-            "foldername": "data",
-            "fingerprint": 224865622,
-            "type": 3,
-            "invalidFingerprint": false
-          },
-          {
-            "foldername": "arcanus.mixins.json",
-            "fingerprint": 4280738319,
-            "type": 3,
-            "invalidFingerprint": false
-          },
-          {
-            "foldername": "arcanus-refmap.json",
-            "fingerprint": 2377557790,
-            "type": 3,
-            "invalidFingerprint": false
-          },
-          {
-            "foldername": "dev",
-            "fingerprint": 4272551321,
-            "type": 3,
-            "invalidFingerprint": false
-          }
-        ],
-        "packageFingerprint": 1767607690,
-        "gameVersion": [
-          "1.18.1",
-          "Fabric",
-          "1.18"
-        ],
-        "sortableGameVersion": [
-          {
-            "gameVersionPadded": "0000000001.0000000018.0000000001",
-            "gameVersion": "1.18.1",
-            "gameVersionReleaseDate": "2021-12-10T10:37:38.06Z",
-            "gameVersionName": "1.18.1",
-            "gameVersionTypeId": 73250
-          },
-          {
-            "gameVersionPadded": "0",
-            "gameVersion": "",
-            "gameVersionReleaseDate": "2019-08-01T00:00:00Z",
-            "gameVersionName": "Fabric",
-            "gameVersionTypeId": 68441
-          },
-          {
-            "gameVersionPadded": "0000000001.0000000018",
-            "gameVersion": "1.18",
-            "gameVersionReleaseDate": "2021-11-30T16:23:01.427Z",
-            "gameVersionName": "1.18",
-            "gameVersionTypeId": 73250
-          }
-        ],
-        "hasInstallScript": false,
-        "isCompatibleWithClient": true,
-        "categorySectionPackageType": 6,
-        "restrictProjectFileAccess": 1,
-        "projectStatus": 4,
-        "renderCacheId": 2591902,
-        "projectId": 517833,
-        "packageFingerprintId": 789097196,
-        "gameVersionDateReleased": "2019-08-01T00:00:00Z",
-        "gameVersionMappingId": 3482502,
-        "gameVersionId": 7499,
-        "gameId": 432,
-        "isServerPack": false,
-        "FileNameOnDisk": "arcanus-1.24.jar"
-      },
-      "dateInstalled": "2021-12-30T23:28:15.2249814Z",
-      "dateUpdated": "2021-12-30T23:28:15.2249814Z",
       "dateLastUpdateAttempted": "0001-01-01T00:00:00",
       "status": 5,
       "preferenceAutoInstallUpdates": null,
@@ -16906,35 +16746,35 @@
       "addonID": 549031,
       "gameInstanceID": "efa4dcb4-8262-45c4-b00b-c3ebc20ea8d8",
       "installedFile": {
-        "id": 3546574,
-        "displayName": "capybara-1.18-1.0.0.jar",
-        "fileName": "capybara-1.18-1.0.0.jar",
-        "fileDate": "2021-12-03T13:19:14.6Z",
-        "fileLength": 289129,
+        "id": 3591830,
+        "displayName": "capybara-1.18-1.0.1.jar",
+        "fileName": "capybara-1.18-1.0.1.jar",
+        "fileDate": "2022-01-03T00:24:50.19Z",
+        "fileLength": 288994,
         "releaseType": 1,
         "fileStatus": 4,
-        "downloadUrl": "https://edge.forgecdn.net/files/3546/574/capybara-1.18-1.0.0.jar",
+        "downloadUrl": "https://edge.forgecdn.net/files/3591/830/capybara-1.18-1.0.1.jar",
         "isAlternate": false,
         "alternateFileId": 0,
         "dependencies": [
           {
-            "id": 81808494,
-            "addonId": 319057,
-            "type": 3,
-            "fileId": 3546574
-          },
-          {
-            "id": 81808495,
+            "id": 82876462,
             "addonId": 306612,
             "type": 3,
-            "fileId": 3546574
+            "fileId": 3591830
+          },
+          {
+            "id": 82876461,
+            "addonId": 319057,
+            "type": 3,
+            "fileId": 3591830
           }
         ],
         "isAvailable": true,
         "modules": [
           {
             "foldername": "META-INF",
-            "fingerprint": 3439408863,
+            "fingerprint": 36971555,
             "type": 3,
             "invalidFingerprint": false
           },
@@ -16946,24 +16786,24 @@
           },
           {
             "foldername": "fabric.mod.json",
-            "fingerprint": 897147617,
+            "fingerprint": 2073030292,
             "type": 3,
             "invalidFingerprint": false
           },
           {
             "foldername": "assets",
-            "fingerprint": 586616797,
+            "fingerprint": 1814473093,
             "type": 3,
             "invalidFingerprint": false
           },
           {
             "foldername": "net",
-            "fingerprint": 2997035700,
+            "fingerprint": 2814145375,
             "type": 3,
             "invalidFingerprint": false
           }
         ],
-        "packageFingerprint": 1549039325,
+        "packageFingerprint": 1747825166,
         "gameVersion": [
           "1.18.1",
           "Fabric",
@@ -17005,19 +16845,19 @@
         "categorySectionPackageType": 6,
         "restrictProjectFileAccess": 1,
         "projectStatus": 4,
-        "renderCacheId": 2609879,
+        "renderCacheId": 2663811,
         "projectId": 549031,
-        "packageFingerprintId": 799021500,
+        "packageFingerprintId": 825330317,
         "gameVersionDateReleased": "2019-08-01T00:00:00Z",
-        "gameVersionMappingId": 3521385,
+        "gameVersionMappingId": 3634325,
         "gameVersionId": 7499,
         "gameId": 432,
         "isServerPack": false,
-        "FileNameOnDisk": "capybara-1.18-1.0.0.jar"
+        "FileNameOnDisk": "capybara-1.18-1.0.1.jar"
       },
-      "dateInstalled": "2021-12-30T23:28:15.2937974Z",
-      "dateUpdated": "2021-12-30T23:28:15.2937974Z",
-      "dateLastUpdateAttempted": "0001-01-01T00:00:00",
+      "dateInstalled": "2022-01-03T00:29:54.5165449Z",
+      "dateUpdated": "2022-01-03T00:29:54.5429848Z",
+      "dateLastUpdateAttempted": "2022-01-03T00:29:54.5429848Z",
       "status": 5,
       "preferenceAutoInstallUpdates": null,
       "preferenceAlternateFile": false,
@@ -17997,173 +17837,43 @@
       "installedTargets": null
     },
     {
-      "addonID": 530668,
-      "gameInstanceID": "efa4dcb4-8262-45c4-b00b-c3ebc20ea8d8",
-      "installedFile": {
-        "id": 3579082,
-        "displayName": "[Fabric - 1.18] 1.2.8",
-        "fileName": "ninjaphenix-container-library-1.2.8+1.18.jar",
-        "fileDate": "2021-12-24T13:36:25.24Z",
-        "fileLength": 99192,
-        "releaseType": 1,
-        "fileStatus": 4,
-        "downloadUrl": "https://edge.forgecdn.net/files/3579/82/ninjaphenix-container-library-1.2.8+1.18.jar",
-        "isAlternate": false,
-        "alternateFileId": 0,
-        "dependencies": [],
-        "isAvailable": true,
-        "modules": [
-          {
-            "foldername": "META-INF",
-            "fingerprint": 2464251221,
-            "type": 3,
-            "invalidFingerprint": false
-          },
-          {
-            "foldername": "LICENSE",
-            "fingerprint": 1549972300,
-            "type": 3,
-            "invalidFingerprint": false
-          },
-          {
-            "foldername": "assets",
-            "fingerprint": 1508972030,
-            "type": 3,
-            "invalidFingerprint": false
-          },
-          {
-            "foldername": "fabric.mod.json",
-            "fingerprint": 806179715,
-            "type": 3,
-            "invalidFingerprint": false
-          },
-          {
-            "foldername": "icon.png",
-            "fingerprint": 1656582001,
-            "type": 3,
-            "invalidFingerprint": false
-          },
-          {
-            "foldername": "ninjaphenix-container-library-refmap.json",
-            "fingerprint": 197325340,
-            "type": 3,
-            "invalidFingerprint": false
-          },
-          {
-            "foldername": "ninjaphenix",
-            "fingerprint": 2924995980,
-            "type": 3,
-            "invalidFingerprint": false
-          },
-          {
-            "foldername": "ninjaphenix_container_lib.accessWidener",
-            "fingerprint": 1930372888,
-            "type": 3,
-            "invalidFingerprint": false
-          },
-          {
-            "foldername": "ninjaphenix_container_lib.mixins.json",
-            "fingerprint": 2515424439,
-            "type": 3,
-            "invalidFingerprint": false
-          }
-        ],
-        "packageFingerprint": 4274106156,
-        "gameVersion": [
-          "1.18.1",
-          "Fabric",
-          "1.18"
-        ],
-        "sortableGameVersion": [
-          {
-            "gameVersionPadded": "0000000001.0000000018.0000000001",
-            "gameVersion": "1.18.1",
-            "gameVersionReleaseDate": "2021-12-10T10:37:38.06Z",
-            "gameVersionName": "1.18.1",
-            "gameVersionTypeId": 73250
-          },
-          {
-            "gameVersionPadded": "0",
-            "gameVersion": "",
-            "gameVersionReleaseDate": "2019-08-01T00:00:00Z",
-            "gameVersionName": "Fabric",
-            "gameVersionTypeId": 68441
-          },
-          {
-            "gameVersionPadded": "0000000001.0000000018",
-            "gameVersion": "1.18",
-            "gameVersionReleaseDate": "2021-11-30T16:23:01.427Z",
-            "gameVersionName": "1.18",
-            "gameVersionTypeId": 73250
-          }
-        ],
-        "hasInstallScript": false,
-        "isCompatibleWithClient": true,
-        "categorySectionPackageType": 6,
-        "restrictProjectFileAccess": 1,
-        "projectStatus": 4,
-        "renderCacheId": 2648275,
-        "projectId": 530668,
-        "packageFingerprintId": 817766448,
-        "gameVersionDateReleased": "2019-08-01T00:00:00Z",
-        "gameVersionMappingId": 3602203,
-        "gameVersionId": 7499,
-        "gameId": 432,
-        "isServerPack": false,
-        "FileNameOnDisk": "ninjaphenix-container-library-1.2.8+1.18.jar"
-      },
-      "dateInstalled": "2021-12-30T23:28:15.2040374Z",
-      "dateUpdated": "2021-12-30T23:30:04.6432559Z",
-      "dateLastUpdateAttempted": "2021-12-30T23:30:04.6432559Z",
-      "status": 5,
-      "preferenceAutoInstallUpdates": null,
-      "preferenceAlternateFile": false,
-      "preferenceIsIgnored": false,
-      "isModified": false,
-      "isWorkingCopy": false,
-      "isFuzzyMatch": false,
-      "preferenceReleaseType": null,
-      "manifestName": null,
-      "installedTargets": null
-    },
-    {
       "addonID": 459929,
       "gameInstanceID": "efa4dcb4-8262-45c4-b00b-c3ebc20ea8d8",
       "installedFile": {
-        "id": 3583332,
-        "displayName": "10.0.0-alpha.10",
-        "fileName": "AE2WTLib-10.0.0-alpha.10.jar",
-        "fileDate": "2021-12-28T17:52:16.243Z",
-        "fileLength": 171790,
-        "releaseType": 3,
+        "id": 3591507,
+        "displayName": "10.0.0-beta.3",
+        "fileName": "AE2WTLib-10.0.0-beta.3.jar",
+        "fileDate": "2022-01-02T20:29:12.457Z",
+        "fileLength": 174405,
+        "releaseType": 2,
         "fileStatus": 4,
-        "downloadUrl": "https://edge.forgecdn.net/files/3583/332/AE2WTLib-10.0.0-alpha.10.jar",
+        "downloadUrl": "https://edge.forgecdn.net/files/3591/507/AE2WTLib-10.0.0-beta.3.jar",
         "isAlternate": false,
         "alternateFileId": 0,
         "dependencies": [
           {
-            "id": 82359886,
-            "addonId": 223794,
-            "type": 3,
-            "fileId": 3583332
-          },
-          {
-            "id": 82359887,
-            "addonId": 341284,
-            "type": 2,
-            "fileId": 3583332
-          },
-          {
-            "id": 82359885,
-            "addonId": 310111,
-            "type": 2,
-            "fileId": 3583332
-          },
-          {
-            "id": 82359884,
+            "id": 82849909,
             "addonId": 306612,
             "type": 3,
-            "fileId": 3583332
+            "fileId": 3591507
+          },
+          {
+            "id": 82849910,
+            "addonId": 310111,
+            "type": 2,
+            "fileId": 3591507
+          },
+          {
+            "id": 82849911,
+            "addonId": 223794,
+            "type": 3,
+            "fileId": 3591507
+          },
+          {
+            "id": 82849912,
+            "addonId": 341284,
+            "type": 2,
+            "fileId": 3591507
           }
         ],
         "isAvailable": true,
@@ -18194,7 +17904,7 @@
           },
           {
             "foldername": "fabric.mod.json",
-            "fingerprint": 592474689,
+            "fingerprint": 4140282582,
             "type": 3,
             "invalidFingerprint": false
           },
@@ -18212,12 +17922,12 @@
           },
           {
             "foldername": "de",
-            "fingerprint": 534285256,
+            "fingerprint": 1376038300,
             "type": 3,
             "invalidFingerprint": false
           }
         ],
-        "packageFingerprint": 3027522110,
+        "packageFingerprint": 379340289,
         "gameVersion": [
           "1.18.1",
           "Fabric",
@@ -18251,20 +17961,150 @@
         "categorySectionPackageType": 6,
         "restrictProjectFileAccess": 1,
         "projectStatus": 4,
-        "renderCacheId": 2653656,
+        "renderCacheId": 2663406,
         "projectId": 459929,
-        "packageFingerprintId": 820747504,
+        "packageFingerprintId": 825159139,
         "gameVersionDateReleased": "2019-08-01T00:00:00Z",
-        "gameVersionMappingId": 3614127,
+        "gameVersionMappingId": 3633568,
         "gameVersionId": 7499,
         "gameId": 432,
         "isServerPack": false,
-        "FileNameOnDisk": "AE2WTLib-10.0.0-alpha.10.jar"
+        "FileNameOnDisk": "AE2WTLib-10.0.0-beta.3.jar"
       },
-      "dateInstalled": "2021-12-30T23:28:15.1511789Z",
-      "dateUpdated": "2021-12-30T23:29:10.5626836Z",
-      "dateLastUpdateAttempted": "2021-12-30T23:29:10.5626836Z",
-      "status": 5,
+      "dateInstalled": "2022-01-02T23:07:20.7584808Z",
+      "dateUpdated": "2022-01-02T23:07:20.7614732Z",
+      "dateLastUpdateAttempted": "2022-01-02T23:07:20.7614732Z",
+      "status": 4,
+      "preferenceAutoInstallUpdates": null,
+      "preferenceAlternateFile": false,
+      "preferenceIsIgnored": false,
+      "isModified": false,
+      "isWorkingCopy": false,
+      "isFuzzyMatch": false,
+      "preferenceReleaseType": null,
+      "manifestName": null,
+      "installedTargets": null
+    },
+    {
+      "addonID": 530668,
+      "gameInstanceID": "efa4dcb4-8262-45c4-b00b-c3ebc20ea8d8",
+      "installedFile": {
+        "id": 3591317,
+        "displayName": "[Fabric - 1.18] 1.2.10",
+        "fileName": "ninjaphenix-container-library-1.2.10+1.18.jar",
+        "fileDate": "2022-01-02T18:28:25.27Z",
+        "fileLength": 99199,
+        "releaseType": 1,
+        "fileStatus": 4,
+        "downloadUrl": "https://edge.forgecdn.net/files/3591/317/ninjaphenix-container-library-1.2.10+1.18.jar",
+        "isAlternate": false,
+        "alternateFileId": 0,
+        "dependencies": [],
+        "isAvailable": true,
+        "modules": [
+          {
+            "foldername": "META-INF",
+            "fingerprint": 2464251221,
+            "type": 3,
+            "invalidFingerprint": false
+          },
+          {
+            "foldername": "LICENSE",
+            "fingerprint": 1549972300,
+            "type": 3,
+            "invalidFingerprint": false
+          },
+          {
+            "foldername": "assets",
+            "fingerprint": 1508972030,
+            "type": 3,
+            "invalidFingerprint": false
+          },
+          {
+            "foldername": "fabric.mod.json",
+            "fingerprint": 2024455752,
+            "type": 3,
+            "invalidFingerprint": false
+          },
+          {
+            "foldername": "icon.png",
+            "fingerprint": 1656582001,
+            "type": 3,
+            "invalidFingerprint": false
+          },
+          {
+            "foldername": "ninjaphenix-container-library-refmap.json",
+            "fingerprint": 3455566217,
+            "type": 3,
+            "invalidFingerprint": false
+          },
+          {
+            "foldername": "ninjaphenix",
+            "fingerprint": 2619772304,
+            "type": 3,
+            "invalidFingerprint": false
+          },
+          {
+            "foldername": "ninjaphenix_container_lib.accessWidener",
+            "fingerprint": 1930372888,
+            "type": 3,
+            "invalidFingerprint": false
+          },
+          {
+            "foldername": "ninjaphenix_container_lib.mixins.json",
+            "fingerprint": 2515424439,
+            "type": 3,
+            "invalidFingerprint": false
+          }
+        ],
+        "packageFingerprint": 2014269087,
+        "gameVersion": [
+          "1.18.1",
+          "Fabric",
+          "1.18"
+        ],
+        "sortableGameVersion": [
+          {
+            "gameVersionPadded": "0000000001.0000000018.0000000001",
+            "gameVersion": "1.18.1",
+            "gameVersionReleaseDate": "2021-12-10T10:37:38.06Z",
+            "gameVersionName": "1.18.1",
+            "gameVersionTypeId": 73250
+          },
+          {
+            "gameVersionPadded": "0",
+            "gameVersion": "",
+            "gameVersionReleaseDate": "2019-08-01T00:00:00Z",
+            "gameVersionName": "Fabric",
+            "gameVersionTypeId": 68441
+          },
+          {
+            "gameVersionPadded": "0000000001.0000000018",
+            "gameVersion": "1.18",
+            "gameVersionReleaseDate": "2021-11-30T16:23:01.427Z",
+            "gameVersionName": "1.18",
+            "gameVersionTypeId": 73250
+          }
+        ],
+        "hasInstallScript": false,
+        "isCompatibleWithClient": true,
+        "categorySectionPackageType": 6,
+        "restrictProjectFileAccess": 1,
+        "projectStatus": 4,
+        "renderCacheId": 2663174,
+        "projectId": 530668,
+        "packageFingerprintId": 825019370,
+        "gameVersionDateReleased": "2019-08-01T00:00:00Z",
+        "gameVersionMappingId": 3632690,
+        "gameVersionId": 7499,
+        "gameId": 432,
+        "isServerPack": false,
+        "FileNameOnDisk": "ninjaphenix-container-library-1.2.10+1.18.jar"
+      },
+      "dateInstalled": "2021-12-30T23:28:15.2040374Z",
+      "dateUpdated": "2022-01-02T23:33:12.9674831Z",
+      "dateLastUpdateAttempted": "2022-01-02T23:33:12.9674831Z",
+      "status": 4,
       "preferenceAutoInstallUpdates": null,
       "preferenceAlternateFile": false,
       "preferenceIsIgnored": false,
@@ -19066,7 +18906,7 @@
       "dateInstalled": "2022-01-01T19:20:36.1440082Z",
       "dateUpdated": "2022-01-01T19:20:36.1440082Z",
       "dateLastUpdateAttempted": "0001-01-01T00:00:00",
-      "status": 4,
+      "status": 5,
       "preferenceAutoInstallUpdates": null,
       "preferenceAlternateFile": false,
       "preferenceIsIgnored": false,
@@ -19331,7 +19171,7 @@
       "dateInstalled": "2021-12-30T23:28:15.1810987Z",
       "dateUpdated": "2022-01-01T19:21:16.1825484Z",
       "dateLastUpdateAttempted": "2022-01-01T19:21:16.1825484Z",
-      "status": 4,
+      "status": 5,
       "preferenceAutoInstallUpdates": null,
       "preferenceAlternateFile": false,
       "preferenceIsIgnored": false,
@@ -19766,7 +19606,7 @@
       "dateInstalled": "2022-01-01T18:03:21.9360834Z",
       "dateUpdated": "2022-01-01T18:03:21.9440615Z",
       "dateLastUpdateAttempted": "2022-01-01T18:03:21.9440615Z",
-      "status": 4,
+      "status": 5,
       "preferenceAutoInstallUpdates": null,
       "preferenceAlternateFile": false,
       "preferenceIsIgnored": false,
@@ -20274,29 +20114,29 @@
       "addonID": 415438,
       "gameInstanceID": "efa4dcb4-8262-45c4-b00b-c3ebc20ea8d8",
       "installedFile": {
-        "id": 3569896,
-        "displayName": "Croptopia-1.18-FABRIC-1.7.4.jar",
-        "fileName": "Croptopia-1.18-FABRIC-1.7.4.jar",
-        "fileDate": "2021-12-17T18:43:05.32Z",
-        "fileLength": 1929179,
+        "id": 3590391,
+        "displayName": "Croptopia-1.18-FABRIC-1.8.0.jar",
+        "fileName": "Croptopia-1.18-FABRIC-1.8.0.jar",
+        "fileDate": "2022-01-01T22:54:43.907Z",
+        "fileLength": 2077505,
         "releaseType": 1,
         "fileStatus": 4,
-        "downloadUrl": "https://edge.forgecdn.net/files/3569/896/Croptopia-1.18-FABRIC-1.7.4.jar",
+        "downloadUrl": "https://edge.forgecdn.net/files/3590/391/Croptopia-1.18-FABRIC-1.8.0.jar",
         "isAlternate": false,
         "alternateFileId": 0,
         "dependencies": [
           {
-            "id": 81334566,
+            "id": 82753296,
             "addonId": 306770,
             "type": 2,
-            "fileId": 3569896
+            "fileId": 3590391
           }
         ],
         "isAvailable": true,
         "modules": [
           {
             "foldername": "META-INF",
-            "fingerprint": 4261194750,
+            "fingerprint": 124150452,
             "type": 3,
             "invalidFingerprint": false
           },
@@ -20308,13 +20148,13 @@
           },
           {
             "foldername": "fabric.mod.json",
-            "fingerprint": 4012153077,
+            "fingerprint": 3060198714,
             "type": 3,
             "invalidFingerprint": false
           },
           {
             "foldername": "data",
-            "fingerprint": 190851688,
+            "fingerprint": 207259742,
             "type": 3,
             "invalidFingerprint": false
           },
@@ -20338,7 +20178,7 @@
           },
           {
             "foldername": "assets",
-            "fingerprint": 2754190047,
+            "fingerprint": 1207096674,
             "type": 3,
             "invalidFingerprint": false
           },
@@ -20355,7 +20195,7 @@
             "invalidFingerprint": false
           }
         ],
-        "packageFingerprint": 2016220614,
+        "packageFingerprint": 1696913573,
         "gameVersion": [
           "1.18.1",
           "Fabric",
@@ -20389,20 +20229,20 @@
         "categorySectionPackageType": 6,
         "restrictProjectFileAccess": 1,
         "projectStatus": 4,
-        "renderCacheId": 2637044,
+        "renderCacheId": 2661971,
         "projectId": 415438,
-        "packageFingerprintId": 811754756,
+        "packageFingerprintId": 824386219,
         "gameVersionDateReleased": "2019-08-01T00:00:00Z",
-        "gameVersionMappingId": 3578153,
+        "gameVersionMappingId": 3630159,
         "gameVersionId": 7499,
         "gameId": 432,
         "isServerPack": false,
-        "FileNameOnDisk": "Croptopia-1.18-FABRIC-1.7.4.jar"
+        "FileNameOnDisk": "Croptopia-1.18-FABRIC-1.8.0.jar"
       },
-      "dateInstalled": "2021-12-30T23:28:15.193067Z",
-      "dateUpdated": "2021-12-30T23:28:15.193067Z",
-      "dateLastUpdateAttempted": "0001-01-01T00:00:00",
-      "status": 5,
+      "dateInstalled": "2022-01-02T23:11:06.9706946Z",
+      "dateUpdated": "2022-01-02T23:11:06.9766782Z",
+      "dateLastUpdateAttempted": "2022-01-02T23:11:06.9766782Z",
+      "status": 4,
       "preferenceAutoInstallUpdates": null,
       "preferenceAlternateFile": false,
       "preferenceIsIgnored": false,
@@ -20680,6 +20520,143 @@
       "installedTargets": null
     },
     {
+      "addonID": 449430,
+      "gameInstanceID": "efa4dcb4-8262-45c4-b00b-c3ebc20ea8d8",
+      "installedFile": {
+        "id": 3587554,
+        "displayName": "Full Slabs 3.3.2",
+        "fileName": "full-slabs-3.3.2.jar",
+        "fileDate": "2022-01-01T02:56:10.86Z",
+        "fileLength": 347965,
+        "releaseType": 1,
+        "fileStatus": 4,
+        "downloadUrl": "https://edge.forgecdn.net/files/3587/554/full-slabs-3.3.2.jar",
+        "isAlternate": false,
+        "alternateFileId": 0,
+        "dependencies": [
+          {
+            "id": 82692788,
+            "addonId": 319057,
+            "type": 3,
+            "fileId": 3587554
+          },
+          {
+            "id": 82692786,
+            "addonId": 340604,
+            "type": 1,
+            "fileId": 3587554
+          },
+          {
+            "id": 82692787,
+            "addonId": 303119,
+            "type": 2,
+            "fileId": 3587554
+          }
+        ],
+        "isAvailable": true,
+        "modules": [
+          {
+            "foldername": "META-INF",
+            "fingerprint": 4196152114,
+            "type": 3,
+            "invalidFingerprint": false
+          },
+          {
+            "foldername": "LICENSE_full-slabs",
+            "fingerprint": 1712224173,
+            "type": 3,
+            "invalidFingerprint": false
+          },
+          {
+            "foldername": "full_slabs.mixins.json",
+            "fingerprint": 3818107723,
+            "type": 3,
+            "invalidFingerprint": false
+          },
+          {
+            "foldername": "fabric.mod.json",
+            "fingerprint": 3889873142,
+            "type": 3,
+            "invalidFingerprint": false
+          },
+          {
+            "foldername": "assets",
+            "fingerprint": 219764486,
+            "type": 3,
+            "invalidFingerprint": false
+          },
+          {
+            "foldername": "full-slabs-refmap.json",
+            "fingerprint": 317777041,
+            "type": 3,
+            "invalidFingerprint": false
+          },
+          {
+            "foldername": "dev",
+            "fingerprint": 3907599925,
+            "type": 3,
+            "invalidFingerprint": false
+          }
+        ],
+        "packageFingerprint": 3634855727,
+        "gameVersion": [
+          "1.18.1",
+          "Fabric",
+          "1.18"
+        ],
+        "sortableGameVersion": [
+          {
+            "gameVersionPadded": "0000000001.0000000018.0000000001",
+            "gameVersion": "1.18.1",
+            "gameVersionReleaseDate": "2021-12-10T10:37:38.06Z",
+            "gameVersionName": "1.18.1",
+            "gameVersionTypeId": 73250
+          },
+          {
+            "gameVersionPadded": "0",
+            "gameVersion": "",
+            "gameVersionReleaseDate": "2019-08-01T00:00:00Z",
+            "gameVersionName": "Fabric",
+            "gameVersionTypeId": 68441
+          },
+          {
+            "gameVersionPadded": "0000000001.0000000018",
+            "gameVersion": "1.18",
+            "gameVersionReleaseDate": "2021-11-30T16:23:01.427Z",
+            "gameVersionName": "1.18",
+            "gameVersionTypeId": 73250
+          }
+        ],
+        "hasInstallScript": false,
+        "isCompatibleWithClient": true,
+        "categorySectionPackageType": 6,
+        "restrictProjectFileAccess": 1,
+        "projectStatus": 4,
+        "renderCacheId": 2658919,
+        "projectId": 449430,
+        "packageFingerprintId": 823763205,
+        "gameVersionDateReleased": "2019-08-01T00:00:00Z",
+        "gameVersionMappingId": 3625651,
+        "gameVersionId": 7499,
+        "gameId": 432,
+        "isServerPack": false,
+        "FileNameOnDisk": "full-slabs-3.3.2.jar"
+      },
+      "dateInstalled": "2022-01-03T00:10:02.0610117Z",
+      "dateUpdated": "2022-01-03T00:10:02.0640033Z",
+      "dateLastUpdateAttempted": "2022-01-03T00:10:02.0640033Z",
+      "status": 4,
+      "preferenceAutoInstallUpdates": null,
+      "preferenceAlternateFile": false,
+      "preferenceIsIgnored": false,
+      "isModified": false,
+      "isWorkingCopy": false,
+      "isFuzzyMatch": false,
+      "preferenceReleaseType": null,
+      "manifestName": null,
+      "installedTargets": null
+    },
+    {
       "addonID": 60089,
       "gameInstanceID": "efa4dcb4-8262-45c4-b00b-c3ebc20ea8d8",
       "installedFile": {
@@ -20922,6 +20899,247 @@
       "installedTargets": null
     },
     {
+      "addonID": 399309,
+      "gameInstanceID": "efa4dcb4-8262-45c4-b00b-c3ebc20ea8d8",
+      "installedFile": {
+        "id": 3575028,
+        "displayName": "Dawn API v3.2.0",
+        "fileName": "dawn-3.2.0.jar",
+        "fileDate": "2021-12-21T01:33:19.347Z",
+        "fileLength": 1111021,
+        "releaseType": 1,
+        "fileStatus": 4,
+        "downloadUrl": "https://edge.forgecdn.net/files/3575/28/dawn-3.2.0.jar",
+        "isAlternate": false,
+        "alternateFileId": 0,
+        "dependencies": [
+          {
+            "id": 81667992,
+            "addonId": 319057,
+            "type": 1,
+            "fileId": 3575028
+          },
+          {
+            "id": 81667991,
+            "addonId": 323710,
+            "type": 1,
+            "fileId": 3575028
+          },
+          {
+            "id": 81667990,
+            "addonId": 306612,
+            "type": 3,
+            "fileId": 3575028
+          }
+        ],
+        "isAvailable": true,
+        "modules": [
+          {
+            "foldername": "META-INF",
+            "fingerprint": 2690774823,
+            "type": 3,
+            "invalidFingerprint": false
+          },
+          {
+            "foldername": "LICENSE_dawn",
+            "fingerprint": 1856953806,
+            "type": 3,
+            "invalidFingerprint": false
+          },
+          {
+            "foldername": "dawn_api.mixins.json",
+            "fingerprint": 2180238056,
+            "type": 3,
+            "invalidFingerprint": false
+          },
+          {
+            "foldername": "assets",
+            "fingerprint": 1971834700,
+            "type": 3,
+            "invalidFingerprint": false
+          },
+          {
+            "foldername": "fabric.mod.json",
+            "fingerprint": 2522352169,
+            "type": 3,
+            "invalidFingerprint": false
+          },
+          {
+            "foldername": "dawn_mod.mixins.json",
+            "fingerprint": 734309530,
+            "type": 3,
+            "invalidFingerprint": false
+          },
+          {
+            "foldername": "dawn-refmap.json",
+            "fingerprint": 1064199641,
+            "type": 3,
+            "invalidFingerprint": false
+          },
+          {
+            "foldername": "com",
+            "fingerprint": 1645137301,
+            "type": 3,
+            "invalidFingerprint": false
+          }
+        ],
+        "packageFingerprint": 1261846344,
+        "gameVersion": [
+          "1.18.1",
+          "Fabric",
+          "1.18"
+        ],
+        "sortableGameVersion": [
+          {
+            "gameVersionPadded": "0000000001.0000000018.0000000001",
+            "gameVersion": "1.18.1",
+            "gameVersionReleaseDate": "2021-12-10T10:37:38.06Z",
+            "gameVersionName": "1.18.1",
+            "gameVersionTypeId": 73250
+          },
+          {
+            "gameVersionPadded": "0",
+            "gameVersion": "",
+            "gameVersionReleaseDate": "2019-08-01T00:00:00Z",
+            "gameVersionName": "Fabric",
+            "gameVersionTypeId": 68441
+          },
+          {
+            "gameVersionPadded": "0000000001.0000000018",
+            "gameVersion": "1.18",
+            "gameVersionReleaseDate": "2021-11-30T16:23:01.427Z",
+            "gameVersionName": "1.18",
+            "gameVersionTypeId": 73250
+          }
+        ],
+        "hasInstallScript": false,
+        "isCompatibleWithClient": true,
+        "categorySectionPackageType": 6,
+        "restrictProjectFileAccess": 1,
+        "projectStatus": 4,
+        "renderCacheId": 2643113,
+        "projectId": 399309,
+        "packageFingerprintId": 814865647,
+        "gameVersionDateReleased": "2019-08-01T00:00:00Z",
+        "gameVersionMappingId": 3590685,
+        "gameVersionId": 7499,
+        "gameId": 432,
+        "isServerPack": false,
+        "FileNameOnDisk": "dawn-3.2.0.jar"
+      },
+      "dateInstalled": "2021-12-30T23:28:15.2239839Z",
+      "dateUpdated": "2021-12-30T23:29:46.8524024Z",
+      "dateLastUpdateAttempted": "2021-12-30T23:29:46.8524024Z",
+      "status": 5,
+      "preferenceAutoInstallUpdates": null,
+      "preferenceAlternateFile": false,
+      "preferenceIsIgnored": false,
+      "isModified": false,
+      "isWorkingCopy": false,
+      "isFuzzyMatch": false,
+      "preferenceReleaseType": null,
+      "manifestName": null,
+      "installedTargets": null
+    },
+    {
+      "addonID": 256717,
+      "gameInstanceID": "efa4dcb4-8262-45c4-b00b-c3ebc20ea8d8",
+      "installedFile": {
+        "id": 3575673,
+        "displayName": "Clumps-fabric-1.18.1-8.0.4.jar",
+        "fileName": "Clumps-fabric-1.18.1-8.0.4.jar",
+        "fileDate": "2021-12-21T17:17:17.763Z",
+        "fileLength": 9945,
+        "releaseType": 1,
+        "fileStatus": 4,
+        "downloadUrl": "https://edge.forgecdn.net/files/3575/673/Clumps-fabric-1.18.1-8.0.4.jar",
+        "isAlternate": false,
+        "alternateFileId": 0,
+        "dependencies": [],
+        "isAvailable": true,
+        "modules": [
+          {
+            "foldername": "META-INF",
+            "fingerprint": 2711301183,
+            "type": 3,
+            "invalidFingerprint": false
+          },
+          {
+            "foldername": "fabric.mod.json",
+            "fingerprint": 2825561881,
+            "type": 3,
+            "invalidFingerprint": false
+          },
+          {
+            "foldername": "clumps.mixins.json",
+            "fingerprint": 1371819600,
+            "type": 3,
+            "invalidFingerprint": false
+          },
+          {
+            "foldername": "Clumps-fabric-1.18.1-refmap.json",
+            "fingerprint": 1124143192,
+            "type": 3,
+            "invalidFingerprint": false
+          },
+          {
+            "foldername": "com",
+            "fingerprint": 2837569168,
+            "type": 3,
+            "invalidFingerprint": false
+          }
+        ],
+        "packageFingerprint": 543987379,
+        "gameVersion": [
+          "1.18.1",
+          "Fabric"
+        ],
+        "sortableGameVersion": [
+          {
+            "gameVersionPadded": "0000000001.0000000018.0000000001",
+            "gameVersion": "1.18.1",
+            "gameVersionReleaseDate": "2021-12-10T10:37:38.06Z",
+            "gameVersionName": "1.18.1",
+            "gameVersionTypeId": 73250
+          },
+          {
+            "gameVersionPadded": "0",
+            "gameVersion": "",
+            "gameVersionReleaseDate": "2019-08-01T00:00:00Z",
+            "gameVersionName": "Fabric",
+            "gameVersionTypeId": 68441
+          }
+        ],
+        "hasInstallScript": false,
+        "isCompatibleWithClient": true,
+        "categorySectionPackageType": 6,
+        "restrictProjectFileAccess": 1,
+        "projectStatus": 4,
+        "renderCacheId": 2643922,
+        "projectId": 256717,
+        "packageFingerprintId": 815287934,
+        "gameVersionDateReleased": "2019-08-01T00:00:00Z",
+        "gameVersionMappingId": 3592393,
+        "gameVersionId": 7499,
+        "gameId": 432,
+        "isServerPack": false,
+        "FileNameOnDisk": "Clumps-fabric-1.18.1-8.0.4.jar"
+      },
+      "dateInstalled": "2021-12-30T23:28:15.176112Z",
+      "dateUpdated": "2021-12-30T23:29:39.7672995Z",
+      "dateLastUpdateAttempted": "2021-12-30T23:29:39.7672995Z",
+      "status": 5,
+      "preferenceAutoInstallUpdates": null,
+      "preferenceAlternateFile": false,
+      "preferenceIsIgnored": false,
+      "isModified": false,
+      "isWorkingCopy": false,
+      "isFuzzyMatch": false,
+      "preferenceReleaseType": null,
+      "manifestName": null,
+      "installedTargets": null
+    },
+    {
       "addonID": 320215,
       "gameInstanceID": "efa4dcb4-8262-45c4-b00b-c3ebc20ea8d8",
       "installedFile": {
@@ -21111,247 +21329,6 @@
       "dateInstalled": "2021-12-30T23:28:15.2110191Z",
       "dateUpdated": "2021-12-30T23:29:08.3951883Z",
       "dateLastUpdateAttempted": "2021-12-30T23:29:08.3951883Z",
-      "status": 5,
-      "preferenceAutoInstallUpdates": null,
-      "preferenceAlternateFile": false,
-      "preferenceIsIgnored": false,
-      "isModified": false,
-      "isWorkingCopy": false,
-      "isFuzzyMatch": false,
-      "preferenceReleaseType": null,
-      "manifestName": null,
-      "installedTargets": null
-    },
-    {
-      "addonID": 256717,
-      "gameInstanceID": "efa4dcb4-8262-45c4-b00b-c3ebc20ea8d8",
-      "installedFile": {
-        "id": 3575673,
-        "displayName": "Clumps-fabric-1.18.1-8.0.4.jar",
-        "fileName": "Clumps-fabric-1.18.1-8.0.4.jar",
-        "fileDate": "2021-12-21T17:17:17.763Z",
-        "fileLength": 9945,
-        "releaseType": 1,
-        "fileStatus": 4,
-        "downloadUrl": "https://edge.forgecdn.net/files/3575/673/Clumps-fabric-1.18.1-8.0.4.jar",
-        "isAlternate": false,
-        "alternateFileId": 0,
-        "dependencies": [],
-        "isAvailable": true,
-        "modules": [
-          {
-            "foldername": "META-INF",
-            "fingerprint": 2711301183,
-            "type": 3,
-            "invalidFingerprint": false
-          },
-          {
-            "foldername": "fabric.mod.json",
-            "fingerprint": 2825561881,
-            "type": 3,
-            "invalidFingerprint": false
-          },
-          {
-            "foldername": "clumps.mixins.json",
-            "fingerprint": 1371819600,
-            "type": 3,
-            "invalidFingerprint": false
-          },
-          {
-            "foldername": "Clumps-fabric-1.18.1-refmap.json",
-            "fingerprint": 1124143192,
-            "type": 3,
-            "invalidFingerprint": false
-          },
-          {
-            "foldername": "com",
-            "fingerprint": 2837569168,
-            "type": 3,
-            "invalidFingerprint": false
-          }
-        ],
-        "packageFingerprint": 543987379,
-        "gameVersion": [
-          "1.18.1",
-          "Fabric"
-        ],
-        "sortableGameVersion": [
-          {
-            "gameVersionPadded": "0000000001.0000000018.0000000001",
-            "gameVersion": "1.18.1",
-            "gameVersionReleaseDate": "2021-12-10T10:37:38.06Z",
-            "gameVersionName": "1.18.1",
-            "gameVersionTypeId": 73250
-          },
-          {
-            "gameVersionPadded": "0",
-            "gameVersion": "",
-            "gameVersionReleaseDate": "2019-08-01T00:00:00Z",
-            "gameVersionName": "Fabric",
-            "gameVersionTypeId": 68441
-          }
-        ],
-        "hasInstallScript": false,
-        "isCompatibleWithClient": true,
-        "categorySectionPackageType": 6,
-        "restrictProjectFileAccess": 1,
-        "projectStatus": 4,
-        "renderCacheId": 2643922,
-        "projectId": 256717,
-        "packageFingerprintId": 815287934,
-        "gameVersionDateReleased": "2019-08-01T00:00:00Z",
-        "gameVersionMappingId": 3592393,
-        "gameVersionId": 7499,
-        "gameId": 432,
-        "isServerPack": false,
-        "FileNameOnDisk": "Clumps-fabric-1.18.1-8.0.4.jar"
-      },
-      "dateInstalled": "2021-12-30T23:28:15.176112Z",
-      "dateUpdated": "2021-12-30T23:29:39.7672995Z",
-      "dateLastUpdateAttempted": "2021-12-30T23:29:39.7672995Z",
-      "status": 5,
-      "preferenceAutoInstallUpdates": null,
-      "preferenceAlternateFile": false,
-      "preferenceIsIgnored": false,
-      "isModified": false,
-      "isWorkingCopy": false,
-      "isFuzzyMatch": false,
-      "preferenceReleaseType": null,
-      "manifestName": null,
-      "installedTargets": null
-    },
-    {
-      "addonID": 399309,
-      "gameInstanceID": "efa4dcb4-8262-45c4-b00b-c3ebc20ea8d8",
-      "installedFile": {
-        "id": 3575028,
-        "displayName": "Dawn API v3.2.0",
-        "fileName": "dawn-3.2.0.jar",
-        "fileDate": "2021-12-21T01:33:19.347Z",
-        "fileLength": 1111021,
-        "releaseType": 1,
-        "fileStatus": 4,
-        "downloadUrl": "https://edge.forgecdn.net/files/3575/28/dawn-3.2.0.jar",
-        "isAlternate": false,
-        "alternateFileId": 0,
-        "dependencies": [
-          {
-            "id": 81667992,
-            "addonId": 319057,
-            "type": 1,
-            "fileId": 3575028
-          },
-          {
-            "id": 81667991,
-            "addonId": 323710,
-            "type": 1,
-            "fileId": 3575028
-          },
-          {
-            "id": 81667990,
-            "addonId": 306612,
-            "type": 3,
-            "fileId": 3575028
-          }
-        ],
-        "isAvailable": true,
-        "modules": [
-          {
-            "foldername": "META-INF",
-            "fingerprint": 2690774823,
-            "type": 3,
-            "invalidFingerprint": false
-          },
-          {
-            "foldername": "LICENSE_dawn",
-            "fingerprint": 1856953806,
-            "type": 3,
-            "invalidFingerprint": false
-          },
-          {
-            "foldername": "dawn_api.mixins.json",
-            "fingerprint": 2180238056,
-            "type": 3,
-            "invalidFingerprint": false
-          },
-          {
-            "foldername": "assets",
-            "fingerprint": 1971834700,
-            "type": 3,
-            "invalidFingerprint": false
-          },
-          {
-            "foldername": "fabric.mod.json",
-            "fingerprint": 2522352169,
-            "type": 3,
-            "invalidFingerprint": false
-          },
-          {
-            "foldername": "dawn_mod.mixins.json",
-            "fingerprint": 734309530,
-            "type": 3,
-            "invalidFingerprint": false
-          },
-          {
-            "foldername": "dawn-refmap.json",
-            "fingerprint": 1064199641,
-            "type": 3,
-            "invalidFingerprint": false
-          },
-          {
-            "foldername": "com",
-            "fingerprint": 1645137301,
-            "type": 3,
-            "invalidFingerprint": false
-          }
-        ],
-        "packageFingerprint": 1261846344,
-        "gameVersion": [
-          "1.18.1",
-          "Fabric",
-          "1.18"
-        ],
-        "sortableGameVersion": [
-          {
-            "gameVersionPadded": "0000000001.0000000018.0000000001",
-            "gameVersion": "1.18.1",
-            "gameVersionReleaseDate": "2021-12-10T10:37:38.06Z",
-            "gameVersionName": "1.18.1",
-            "gameVersionTypeId": 73250
-          },
-          {
-            "gameVersionPadded": "0",
-            "gameVersion": "",
-            "gameVersionReleaseDate": "2019-08-01T00:00:00Z",
-            "gameVersionName": "Fabric",
-            "gameVersionTypeId": 68441
-          },
-          {
-            "gameVersionPadded": "0000000001.0000000018",
-            "gameVersion": "1.18",
-            "gameVersionReleaseDate": "2021-11-30T16:23:01.427Z",
-            "gameVersionName": "1.18",
-            "gameVersionTypeId": 73250
-          }
-        ],
-        "hasInstallScript": false,
-        "isCompatibleWithClient": true,
-        "categorySectionPackageType": 6,
-        "restrictProjectFileAccess": 1,
-        "projectStatus": 4,
-        "renderCacheId": 2643113,
-        "projectId": 399309,
-        "packageFingerprintId": 814865647,
-        "gameVersionDateReleased": "2019-08-01T00:00:00Z",
-        "gameVersionMappingId": 3590685,
-        "gameVersionId": 7499,
-        "gameId": 432,
-        "isServerPack": false,
-        "FileNameOnDisk": "dawn-3.2.0.jar"
-      },
-      "dateInstalled": "2021-12-30T23:28:15.2239839Z",
-      "dateUpdated": "2021-12-30T23:29:46.8524024Z",
-      "dateLastUpdateAttempted": "2021-12-30T23:29:46.8524024Z",
       "status": 5,
       "preferenceAutoInstallUpdates": null,
       "preferenceAlternateFile": false,
@@ -21634,79 +21611,85 @@
       "installedTargets": null
     },
     {
-      "addonID": 320778,
+      "addonID": 357540,
       "gameInstanceID": "efa4dcb4-8262-45c4-b00b-c3ebc20ea8d8",
       "installedFile": {
-        "id": 3532014,
-        "displayName": "Glassential Fabric 1.3.0",
-        "fileName": "glassential-fabric-1.3.0.jar",
-        "fileDate": "2021-11-20T23:16:07.877Z",
-        "fileLength": 36215,
-        "releaseType": 1,
+        "id": 3545928,
+        "displayName": "[Fabric.1.18.x] InventoryHUD+ (v3.4.2)",
+        "fileName": "InventoryHUD-fabric-[1.18] -3.4.2.jar",
+        "fileDate": "2021-12-02T23:50:07.64Z",
+        "fileLength": 223282,
+        "releaseType": 2,
         "fileStatus": 4,
-        "downloadUrl": "https://edge.forgecdn.net/files/3532/14/glassential-fabric-1.3.0.jar",
+        "downloadUrl": "https://edge.forgecdn.net/files/3545/928/InventoryHUD-fabric-[1.18] -3.4.2.jar",
         "isAlternate": false,
         "alternateFileId": 0,
-        "dependencies": [
-          {
-            "id": 79666249,
-            "addonId": 306612,
-            "type": 3,
-            "fileId": 3532014
-          },
-          {
-            "id": 79666250,
-            "addonId": 320211,
-            "type": 2,
-            "fileId": 3532014
-          }
-        ],
+        "dependencies": [],
         "isAvailable": true,
         "modules": [
           {
             "foldername": "META-INF",
-            "fingerprint": 2568853005,
+            "fingerprint": 109259916,
             "type": 3,
             "invalidFingerprint": false
           },
           {
-            "foldername": "LICENSE_glassential-fabric",
-            "fingerprint": 3160819906,
+            "foldername": "LICENSE_InventoryHUD-fabric-[1.18] ",
+            "fingerprint": 18375977,
             "type": 3,
             "invalidFingerprint": false
           },
           {
-            "foldername": "assets",
-            "fingerprint": 3613834795,
+            "foldername": "logo.png",
+            "fingerprint": 2496424231,
+            "type": 3,
+            "invalidFingerprint": false
+          },
+          {
+            "foldername": "inventoryhud.mixins.json",
+            "fingerprint": 155550627,
             "type": 3,
             "invalidFingerprint": false
           },
           {
             "foldername": "fabric.mod.json",
-            "fingerprint": 2896755593,
+            "fingerprint": 2540614773,
             "type": 3,
             "invalidFingerprint": false
           },
           {
-            "foldername": "data",
-            "fingerprint": 247709123,
+            "foldername": "assets",
+            "fingerprint": 2143669773,
             "type": 3,
             "invalidFingerprint": false
           },
           {
-            "foldername": "dev",
-            "fingerprint": 290617888,
+            "foldername": "InventoryHUD-fabric-[1.18] -refmap.json",
+            "fingerprint": 2593356509,
+            "type": 3,
+            "invalidFingerprint": false
+          },
+          {
+            "foldername": "dlovin",
+            "fingerprint": 2011274039,
             "type": 3,
             "invalidFingerprint": false
           }
         ],
-        "packageFingerprint": 3442479726,
+        "packageFingerprint": 4262676809,
         "gameVersion": [
+          "1.18.1",
           "Fabric",
-          "1.18",
-          "1.18-Snapshot"
+          "1.18"
         ],
         "sortableGameVersion": [
+          {
+            "gameVersionPadded": "0000000001.0000000018.0000000001",
+            "gameVersion": "1.18.1",
+            "gameVersionReleaseDate": "2021-12-10T10:37:38.06Z",
+            "gameVersionName": "1.18.1",
+            "gameVersionTypeId": 73250
+          },
           {
             "gameVersionPadded": "0",
             "gameVersion": "",
@@ -21720,13 +21703,6 @@
             "gameVersionReleaseDate": "2021-11-30T16:23:01.427Z",
             "gameVersionName": "1.18",
             "gameVersionTypeId": 73250
-          },
-          {
-            "gameVersionPadded": "0000000001.0000000018",
-            "gameVersion": "1.18",
-            "gameVersionReleaseDate": "2021-08-12T00:00:00Z",
-            "gameVersionName": "1.18-Snapshot",
-            "gameVersionTypeId": 73250
           }
         ],
         "hasInstallScript": false,
@@ -21734,18 +21710,18 @@
         "categorySectionPackageType": 6,
         "restrictProjectFileAccess": 1,
         "projectStatus": 4,
-        "renderCacheId": 2592012,
-        "projectId": 320778,
-        "packageFingerprintId": 789158345,
+        "renderCacheId": 2609119,
+        "projectId": 357540,
+        "packageFingerprintId": 798713752,
         "gameVersionDateReleased": "2019-08-01T00:00:00Z",
-        "gameVersionMappingId": 3482714,
+        "gameVersionMappingId": 3519830,
         "gameVersionId": 7499,
         "gameId": 432,
         "isServerPack": false,
-        "FileNameOnDisk": "glassential-fabric-1.3.0.jar"
+        "FileNameOnDisk": "InventoryHUD-fabric-[1.18] -3.4.2.jar"
       },
-      "dateInstalled": "2021-12-30T23:28:15.1521765Z",
-      "dateUpdated": "2021-12-30T23:28:15.1521765Z",
+      "dateInstalled": "2021-12-30T23:28:15.1581596Z",
+      "dateUpdated": "2021-12-30T23:28:15.1581596Z",
       "dateLastUpdateAttempted": "0001-01-01T00:00:00",
       "status": 5,
       "preferenceAutoInstallUpdates": null,
@@ -21958,85 +21934,79 @@
       "installedTargets": null
     },
     {
-      "addonID": 357540,
+      "addonID": 320778,
       "gameInstanceID": "efa4dcb4-8262-45c4-b00b-c3ebc20ea8d8",
       "installedFile": {
-        "id": 3545928,
-        "displayName": "[Fabric.1.18.x] InventoryHUD+ (v3.4.2)",
-        "fileName": "InventoryHUD-fabric-[1.18] -3.4.2.jar",
-        "fileDate": "2021-12-02T23:50:07.64Z",
-        "fileLength": 223282,
-        "releaseType": 2,
+        "id": 3532014,
+        "displayName": "Glassential Fabric 1.3.0",
+        "fileName": "glassential-fabric-1.3.0.jar",
+        "fileDate": "2021-11-20T23:16:07.877Z",
+        "fileLength": 36215,
+        "releaseType": 1,
         "fileStatus": 4,
-        "downloadUrl": "https://edge.forgecdn.net/files/3545/928/InventoryHUD-fabric-[1.18] -3.4.2.jar",
+        "downloadUrl": "https://edge.forgecdn.net/files/3532/14/glassential-fabric-1.3.0.jar",
         "isAlternate": false,
         "alternateFileId": 0,
-        "dependencies": [],
+        "dependencies": [
+          {
+            "id": 79666249,
+            "addonId": 306612,
+            "type": 3,
+            "fileId": 3532014
+          },
+          {
+            "id": 79666250,
+            "addonId": 320211,
+            "type": 2,
+            "fileId": 3532014
+          }
+        ],
         "isAvailable": true,
         "modules": [
           {
             "foldername": "META-INF",
-            "fingerprint": 109259916,
+            "fingerprint": 2568853005,
             "type": 3,
             "invalidFingerprint": false
           },
           {
-            "foldername": "LICENSE_InventoryHUD-fabric-[1.18] ",
-            "fingerprint": 18375977,
-            "type": 3,
-            "invalidFingerprint": false
-          },
-          {
-            "foldername": "logo.png",
-            "fingerprint": 2496424231,
-            "type": 3,
-            "invalidFingerprint": false
-          },
-          {
-            "foldername": "inventoryhud.mixins.json",
-            "fingerprint": 155550627,
-            "type": 3,
-            "invalidFingerprint": false
-          },
-          {
-            "foldername": "fabric.mod.json",
-            "fingerprint": 2540614773,
+            "foldername": "LICENSE_glassential-fabric",
+            "fingerprint": 3160819906,
             "type": 3,
             "invalidFingerprint": false
           },
           {
             "foldername": "assets",
-            "fingerprint": 2143669773,
+            "fingerprint": 3613834795,
             "type": 3,
             "invalidFingerprint": false
           },
           {
-            "foldername": "InventoryHUD-fabric-[1.18] -refmap.json",
-            "fingerprint": 2593356509,
+            "foldername": "fabric.mod.json",
+            "fingerprint": 2896755593,
             "type": 3,
             "invalidFingerprint": false
           },
           {
-            "foldername": "dlovin",
-            "fingerprint": 2011274039,
+            "foldername": "data",
+            "fingerprint": 247709123,
+            "type": 3,
+            "invalidFingerprint": false
+          },
+          {
+            "foldername": "dev",
+            "fingerprint": 290617888,
             "type": 3,
             "invalidFingerprint": false
           }
         ],
-        "packageFingerprint": 4262676809,
+        "packageFingerprint": 3442479726,
         "gameVersion": [
-          "1.18.1",
           "Fabric",
-          "1.18"
+          "1.18",
+          "1.18-Snapshot"
         ],
         "sortableGameVersion": [
-          {
-            "gameVersionPadded": "0000000001.0000000018.0000000001",
-            "gameVersion": "1.18.1",
-            "gameVersionReleaseDate": "2021-12-10T10:37:38.06Z",
-            "gameVersionName": "1.18.1",
-            "gameVersionTypeId": 73250
-          },
           {
             "gameVersionPadded": "0",
             "gameVersion": "",
@@ -22050,6 +22020,13 @@
             "gameVersionReleaseDate": "2021-11-30T16:23:01.427Z",
             "gameVersionName": "1.18",
             "gameVersionTypeId": 73250
+          },
+          {
+            "gameVersionPadded": "0000000001.0000000018",
+            "gameVersion": "1.18",
+            "gameVersionReleaseDate": "2021-08-12T00:00:00Z",
+            "gameVersionName": "1.18-Snapshot",
+            "gameVersionTypeId": 73250
           }
         ],
         "hasInstallScript": false,
@@ -22057,18 +22034,18 @@
         "categorySectionPackageType": 6,
         "restrictProjectFileAccess": 1,
         "projectStatus": 4,
-        "renderCacheId": 2609119,
-        "projectId": 357540,
-        "packageFingerprintId": 798713752,
+        "renderCacheId": 2592012,
+        "projectId": 320778,
+        "packageFingerprintId": 789158345,
         "gameVersionDateReleased": "2019-08-01T00:00:00Z",
-        "gameVersionMappingId": 3519830,
+        "gameVersionMappingId": 3482714,
         "gameVersionId": 7499,
         "gameId": 432,
         "isServerPack": false,
-        "FileNameOnDisk": "InventoryHUD-fabric-[1.18] -3.4.2.jar"
+        "FileNameOnDisk": "glassential-fabric-1.3.0.jar"
       },
-      "dateInstalled": "2021-12-30T23:28:15.1581596Z",
-      "dateUpdated": "2021-12-30T23:28:15.1581596Z",
+      "dateInstalled": "2021-12-30T23:28:15.1521765Z",
+      "dateUpdated": "2021-12-30T23:28:15.1521765Z",
       "dateLastUpdateAttempted": "0001-01-01T00:00:00",
       "status": 5,
       "preferenceAutoInstallUpdates": null,
@@ -22195,6 +22172,125 @@
       "dateInstalled": "2021-12-30T23:28:15.2419371Z",
       "dateUpdated": "2021-12-30T23:28:15.2419371Z",
       "dateLastUpdateAttempted": "0001-01-01T00:00:00",
+      "status": 5,
+      "preferenceAutoInstallUpdates": null,
+      "preferenceAlternateFile": false,
+      "preferenceIsIgnored": false,
+      "isModified": false,
+      "isWorkingCopy": false,
+      "isFuzzyMatch": false,
+      "preferenceReleaseType": null,
+      "manifestName": null,
+      "installedTargets": null
+    },
+    {
+      "addonID": 263420,
+      "gameInstanceID": "efa4dcb4-8262-45c4-b00b-c3ebc20ea8d8",
+      "installedFile": {
+        "id": 3582979,
+        "displayName": "v21.23.0 for Fabric 1.18.x",
+        "fileName": "Xaeros_Minimap_21.23.0_Fabric_1.18.jar",
+        "fileDate": "2021-12-28T12:18:50.563Z",
+        "fileLength": 1165886,
+        "releaseType": 3,
+        "fileStatus": 4,
+        "downloadUrl": "https://edge.forgecdn.net/files/3582/979/Xaeros_Minimap_21.23.0_Fabric_1.18.jar",
+        "isAlternate": false,
+        "alternateFileId": 0,
+        "dependencies": [
+          {
+            "id": 82331800,
+            "addonId": 306612,
+            "type": 3,
+            "fileId": 3582979
+          }
+        ],
+        "isAvailable": true,
+        "modules": [
+          {
+            "foldername": "META-INF",
+            "fingerprint": 4279151506,
+            "type": 3,
+            "invalidFingerprint": false
+          },
+          {
+            "foldername": "assets",
+            "fingerprint": 1718767851,
+            "type": 3,
+            "invalidFingerprint": false
+          },
+          {
+            "foldername": "fabric.mod.json",
+            "fingerprint": 1430682400,
+            "type": 3,
+            "invalidFingerprint": false
+          },
+          {
+            "foldername": "xaero",
+            "fingerprint": 2942890547,
+            "type": 3,
+            "invalidFingerprint": false
+          },
+          {
+            "foldername": "xaerominimap.mixins.json",
+            "fingerprint": 344923782,
+            "type": 3,
+            "invalidFingerprint": false
+          },
+          {
+            "foldername": "xaero_mod1.18-ref7-refmap.json",
+            "fingerprint": 3586209155,
+            "type": 3,
+            "invalidFingerprint": false
+          }
+        ],
+        "packageFingerprint": 3855945334,
+        "gameVersion": [
+          "1.18.1",
+          "Fabric",
+          "1.18"
+        ],
+        "sortableGameVersion": [
+          {
+            "gameVersionPadded": "0000000001.0000000018.0000000001",
+            "gameVersion": "1.18.1",
+            "gameVersionReleaseDate": "2021-12-10T10:37:38.06Z",
+            "gameVersionName": "1.18.1",
+            "gameVersionTypeId": 73250
+          },
+          {
+            "gameVersionPadded": "0",
+            "gameVersion": "",
+            "gameVersionReleaseDate": "2019-08-01T00:00:00Z",
+            "gameVersionName": "Fabric",
+            "gameVersionTypeId": 68441
+          },
+          {
+            "gameVersionPadded": "0000000001.0000000018",
+            "gameVersion": "1.18",
+            "gameVersionReleaseDate": "2021-11-30T16:23:01.427Z",
+            "gameVersionName": "1.18",
+            "gameVersionTypeId": 73250
+          }
+        ],
+        "hasInstallScript": false,
+        "isCompatibleWithClient": true,
+        "categorySectionPackageType": 6,
+        "restrictProjectFileAccess": 1,
+        "projectStatus": 4,
+        "renderCacheId": 2653226,
+        "projectId": 263420,
+        "packageFingerprintId": 820543979,
+        "gameVersionDateReleased": "2019-08-01T00:00:00Z",
+        "gameVersionMappingId": 3613015,
+        "gameVersionId": 7499,
+        "gameId": 432,
+        "isServerPack": false,
+        "FileNameOnDisk": "Xaeros_Minimap_21.23.0_Fabric_1.18.jar"
+      },
+      "dateInstalled": "2021-12-30T23:28:15.2688638Z",
+      "dateUpdated": "2021-12-30T23:30:42.02696Z",
+      "dateLastUpdateAttempted": "2021-12-30T23:30:42.02696Z",
       "status": 5,
       "preferenceAutoInstallUpdates": null,
       "preferenceAlternateFile": false,
@@ -22340,67 +22436,60 @@
       "installedTargets": null
     },
     {
-      "addonID": 263420,
+      "addonID": 486778,
       "gameInstanceID": "efa4dcb4-8262-45c4-b00b-c3ebc20ea8d8",
       "installedFile": {
-        "id": 3582979,
-        "displayName": "v21.23.0 for Fabric 1.18.x",
-        "fileName": "Xaeros_Minimap_21.23.0_Fabric_1.18.jar",
-        "fileDate": "2021-12-28T12:18:50.563Z",
-        "fileLength": 1165886,
-        "releaseType": 3,
+        "id": 3555653,
+        "displayName": "fabric-experiencebugfix-1.18-18.jar",
+        "fileName": "fabric-experiencebugfix-1.18-18.jar",
+        "fileDate": "2021-12-09T03:00:49.31Z",
+        "fileLength": 80000,
+        "releaseType": 1,
         "fileStatus": 4,
-        "downloadUrl": "https://edge.forgecdn.net/files/3582/979/Xaeros_Minimap_21.23.0_Fabric_1.18.jar",
+        "downloadUrl": "https://edge.forgecdn.net/files/3555/653/fabric-experiencebugfix-1.18-18.jar",
         "isAlternate": false,
         "alternateFileId": 0,
-        "dependencies": [
-          {
-            "id": 82331800,
-            "addonId": 306612,
-            "type": 3,
-            "fileId": 3582979
-          }
-        ],
+        "dependencies": [],
         "isAvailable": true,
         "modules": [
           {
             "foldername": "META-INF",
-            "fingerprint": 4279151506,
+            "fingerprint": 2843050633,
             "type": 3,
             "invalidFingerprint": false
           },
           {
-            "foldername": "assets",
-            "fingerprint": 1718767851,
+            "foldername": "LICENSE_fabric-experiencebugfix-1.18",
+            "fingerprint": 1749952539,
             "type": 3,
             "invalidFingerprint": false
           },
           {
             "foldername": "fabric.mod.json",
-            "fingerprint": 1430682400,
+            "fingerprint": 2283675776,
             "type": 3,
             "invalidFingerprint": false
           },
           {
-            "foldername": "xaero",
-            "fingerprint": 2942890547,
+            "foldername": "experiencebugfix.mixins.json",
+            "fingerprint": 3936817570,
             "type": 3,
             "invalidFingerprint": false
           },
           {
-            "foldername": "xaerominimap.mixins.json",
-            "fingerprint": 344923782,
+            "foldername": "assets",
+            "fingerprint": 296524569,
             "type": 3,
             "invalidFingerprint": false
           },
           {
-            "foldername": "xaero_mod1.18-ref7-refmap.json",
-            "fingerprint": 3586209155,
+            "foldername": "com",
+            "fingerprint": 1076594643,
             "type": 3,
             "invalidFingerprint": false
           }
         ],
-        "packageFingerprint": 3855945334,
+        "packageFingerprint": 3366668149,
         "gameVersion": [
           "1.18.1",
           "Fabric",
@@ -22434,135 +22523,18 @@
         "categorySectionPackageType": 6,
         "restrictProjectFileAccess": 1,
         "projectStatus": 4,
-        "renderCacheId": 2653226,
-        "projectId": 263420,
-        "packageFingerprintId": 820543979,
+        "renderCacheId": 2620540,
+        "projectId": 486778,
+        "packageFingerprintId": 803534419,
         "gameVersionDateReleased": "2019-08-01T00:00:00Z",
-        "gameVersionMappingId": 3613015,
+        "gameVersionMappingId": 3542797,
         "gameVersionId": 7499,
         "gameId": 432,
         "isServerPack": false,
-        "FileNameOnDisk": "Xaeros_Minimap_21.23.0_Fabric_1.18.jar"
+        "FileNameOnDisk": "fabric-experiencebugfix-1.18-18.jar"
       },
-      "dateInstalled": "2021-12-30T23:28:15.2688638Z",
-      "dateUpdated": "2021-12-30T23:30:42.02696Z",
-      "dateLastUpdateAttempted": "2021-12-30T23:30:42.02696Z",
-      "status": 5,
-      "preferenceAutoInstallUpdates": null,
-      "preferenceAlternateFile": false,
-      "preferenceIsIgnored": false,
-      "isModified": false,
-      "isWorkingCopy": false,
-      "isFuzzyMatch": false,
-      "preferenceReleaseType": null,
-      "manifestName": null,
-      "installedTargets": null
-    },
-    {
-      "addonID": 504045,
-      "gameInstanceID": "efa4dcb4-8262-45c4-b00b-c3ebc20ea8d8",
-      "installedFile": {
-        "id": 3545041,
-        "displayName": "kjsextras-1.5.0.jar",
-        "fileName": "kjsextras-1.5.0.jar",
-        "fileDate": "2021-12-02T11:43:23.64Z",
-        "fileLength": 112928,
-        "releaseType": 1,
-        "fileStatus": 4,
-        "downloadUrl": "https://edge.forgecdn.net/files/3545/41/kjsextras-1.5.0.jar",
-        "isAlternate": false,
-        "alternateFileId": 0,
-        "dependencies": [
-          {
-            "id": 79814032,
-            "addonId": 310111,
-            "type": 3,
-            "fileId": 3545041
-          },
-          {
-            "id": 79814033,
-            "addonId": 395864,
-            "type": 3,
-            "fileId": 3545041
-          }
-        ],
-        "isAvailable": true,
-        "modules": [
-          {
-            "foldername": "META-INF",
-            "fingerprint": 4151316780,
-            "type": 3,
-            "invalidFingerprint": false
-          },
-          {
-            "foldername": "kjsextras.mixins.json",
-            "fingerprint": 3000814920,
-            "type": 3,
-            "invalidFingerprint": false
-          },
-          {
-            "foldername": "fabric.mod.json",
-            "fingerprint": 1109779249,
-            "type": 3,
-            "invalidFingerprint": false
-          },
-          {
-            "foldername": "assets",
-            "fingerprint": 4214319807,
-            "type": 3,
-            "invalidFingerprint": false
-          },
-          {
-            "foldername": "kjsextras-refmap.json",
-            "fingerprint": 1078796784,
-            "type": 3,
-            "invalidFingerprint": false
-          },
-          {
-            "foldername": "dev",
-            "fingerprint": 4120329283,
-            "type": 3,
-            "invalidFingerprint": false
-          }
-        ],
-        "packageFingerprint": 623860583,
-        "gameVersion": [
-          "Fabric",
-          "1.18"
-        ],
-        "sortableGameVersion": [
-          {
-            "gameVersionPadded": "0",
-            "gameVersion": "",
-            "gameVersionReleaseDate": "2019-08-01T00:00:00Z",
-            "gameVersionName": "Fabric",
-            "gameVersionTypeId": 68441
-          },
-          {
-            "gameVersionPadded": "0000000001.0000000018",
-            "gameVersion": "1.18",
-            "gameVersionReleaseDate": "2021-11-30T16:23:01.427Z",
-            "gameVersionName": "1.18",
-            "gameVersionTypeId": 73250
-          }
-        ],
-        "hasInstallScript": false,
-        "isCompatibleWithClient": true,
-        "categorySectionPackageType": 6,
-        "restrictProjectFileAccess": 1,
-        "projectStatus": 4,
-        "renderCacheId": 2608092,
-        "projectId": 504045,
-        "packageFingerprintId": 798243765,
-        "gameVersionDateReleased": "2019-08-01T00:00:00Z",
-        "gameVersionMappingId": 3517506,
-        "gameVersionId": 7499,
-        "gameId": 432,
-        "isServerPack": false,
-        "FileNameOnDisk": "kjsextras-1.5.0.jar"
-      },
-      "dateInstalled": "2021-12-30T23:28:15.2399411Z",
-      "dateUpdated": "2021-12-30T23:28:15.2399411Z",
+      "dateInstalled": "2022-01-01T19:20:36.1460027Z",
+      "dateUpdated": "2022-01-01T19:20:36.1460027Z",
       "dateLastUpdateAttempted": "0001-01-01T00:00:00",
       "status": 5,
       "preferenceAutoInstallUpdates": null,
@@ -22701,73 +22673,78 @@
       "installedTargets": null
     },
     {
-      "addonID": 486778,
+      "addonID": 504045,
       "gameInstanceID": "efa4dcb4-8262-45c4-b00b-c3ebc20ea8d8",
       "installedFile": {
-        "id": 3555653,
-        "displayName": "fabric-experiencebugfix-1.18-18.jar",
-        "fileName": "fabric-experiencebugfix-1.18-18.jar",
-        "fileDate": "2021-12-09T03:00:49.31Z",
-        "fileLength": 80000,
+        "id": 3545041,
+        "displayName": "kjsextras-1.5.0.jar",
+        "fileName": "kjsextras-1.5.0.jar",
+        "fileDate": "2021-12-02T11:43:23.64Z",
+        "fileLength": 112928,
         "releaseType": 1,
         "fileStatus": 4,
-        "downloadUrl": "https://edge.forgecdn.net/files/3555/653/fabric-experiencebugfix-1.18-18.jar",
+        "downloadUrl": "https://edge.forgecdn.net/files/3545/41/kjsextras-1.5.0.jar",
         "isAlternate": false,
         "alternateFileId": 0,
-        "dependencies": [],
+        "dependencies": [
+          {
+            "id": 79814032,
+            "addonId": 310111,
+            "type": 3,
+            "fileId": 3545041
+          },
+          {
+            "id": 79814033,
+            "addonId": 395864,
+            "type": 3,
+            "fileId": 3545041
+          }
+        ],
         "isAvailable": true,
         "modules": [
           {
             "foldername": "META-INF",
-            "fingerprint": 2843050633,
+            "fingerprint": 4151316780,
             "type": 3,
             "invalidFingerprint": false
           },
           {
-            "foldername": "LICENSE_fabric-experiencebugfix-1.18",
-            "fingerprint": 1749952539,
+            "foldername": "kjsextras.mixins.json",
+            "fingerprint": 3000814920,
             "type": 3,
             "invalidFingerprint": false
           },
           {
             "foldername": "fabric.mod.json",
-            "fingerprint": 2283675776,
-            "type": 3,
-            "invalidFingerprint": false
-          },
-          {
-            "foldername": "experiencebugfix.mixins.json",
-            "fingerprint": 3936817570,
+            "fingerprint": 1109779249,
             "type": 3,
             "invalidFingerprint": false
           },
           {
             "foldername": "assets",
-            "fingerprint": 296524569,
+            "fingerprint": 4214319807,
             "type": 3,
             "invalidFingerprint": false
           },
           {
-            "foldername": "com",
-            "fingerprint": 1076594643,
+            "foldername": "kjsextras-refmap.json",
+            "fingerprint": 1078796784,
+            "type": 3,
+            "invalidFingerprint": false
+          },
+          {
+            "foldername": "dev",
+            "fingerprint": 4120329283,
             "type": 3,
             "invalidFingerprint": false
           }
         ],
-        "packageFingerprint": 3366668149,
+        "packageFingerprint": 623860583,
         "gameVersion": [
-          "1.18.1",
           "Fabric",
           "1.18"
         ],
         "sortableGameVersion": [
-          {
-            "gameVersionPadded": "0000000001.0000000018.0000000001",
-            "gameVersion": "1.18.1",
-            "gameVersionReleaseDate": "2021-12-10T10:37:38.06Z",
-            "gameVersionName": "1.18.1",
-            "gameVersionTypeId": 73250
-          },
           {
             "gameVersionPadded": "0",
             "gameVersion": "",
@@ -22788,20 +22765,20 @@
         "categorySectionPackageType": 6,
         "restrictProjectFileAccess": 1,
         "projectStatus": 4,
-        "renderCacheId": 2620540,
-        "projectId": 486778,
-        "packageFingerprintId": 803534419,
+        "renderCacheId": 2608092,
+        "projectId": 504045,
+        "packageFingerprintId": 798243765,
         "gameVersionDateReleased": "2019-08-01T00:00:00Z",
-        "gameVersionMappingId": 3542797,
+        "gameVersionMappingId": 3517506,
         "gameVersionId": 7499,
         "gameId": 432,
         "isServerPack": false,
-        "FileNameOnDisk": "fabric-experiencebugfix-1.18-18.jar"
+        "FileNameOnDisk": "kjsextras-1.5.0.jar"
       },
-      "dateInstalled": "2022-01-01T19:20:36.1460027Z",
-      "dateUpdated": "2022-01-01T19:20:36.1460027Z",
+      "dateInstalled": "2021-12-30T23:28:15.2399411Z",
+      "dateUpdated": "2021-12-30T23:28:15.2399411Z",
       "dateLastUpdateAttempted": "0001-01-01T00:00:00",
-      "status": 4,
+      "status": 5,
       "preferenceAutoInstallUpdates": null,
       "preferenceAlternateFile": false,
       "preferenceIsIgnored": false,
@@ -23255,46 +23232,46 @@
       "addonID": 556967,
       "gameInstanceID": "efa4dcb4-8262-45c4-b00b-c3ebc20ea8d8",
       "installedFile": {
-        "id": 3587799,
+        "id": 3590631,
         "displayName": "1.2.1-midgame2",
         "fileName": "spectrum-1.2.1-1.18.1-midgame2.jar",
-        "fileDate": "2022-01-01T12:39:09.81Z",
-        "fileLength": 20157075,
+        "fileDate": "2022-01-02T04:02:58.973Z",
+        "fileLength": 20157376,
         "releaseType": 1,
         "fileStatus": 4,
-        "downloadUrl": "https://edge.forgecdn.net/files/3587/799/spectrum-1.2.1-1.18.1-midgame2.jar",
+        "downloadUrl": "https://edge.forgecdn.net/files/3590/631/spectrum-1.2.1-1.18.1-midgame2.jar",
         "isAlternate": false,
         "alternateFileId": 0,
         "dependencies": [
           {
-            "id": 82709963,
+            "id": 82779674,
             "addonId": 532610,
             "type": 3,
-            "fileId": 3587799
+            "fileId": 3590631
           },
           {
-            "id": 82709960,
-            "addonId": 319057,
-            "type": 3,
-            "fileId": 3587799
-          },
-          {
-            "id": 82709961,
-            "addonId": 492111,
-            "type": 2,
-            "fileId": 3587799
-          },
-          {
-            "id": 82709964,
-            "addonId": 393236,
-            "type": 3,
-            "fileId": 3587799
-          },
-          {
-            "id": 82709962,
+            "id": 82779673,
             "addonId": 306612,
             "type": 3,
-            "fileId": 3587799
+            "fileId": 3590631
+          },
+          {
+            "id": 82779675,
+            "addonId": 393236,
+            "type": 3,
+            "fileId": 3590631
+          },
+          {
+            "id": 82779672,
+            "addonId": 319057,
+            "type": 3,
+            "fileId": 3590631
+          },
+          {
+            "id": 82779671,
+            "addonId": 492111,
+            "type": 2,
+            "fileId": 3590631
           }
         ],
         "isAvailable": true,
@@ -23319,19 +23296,19 @@
           },
           {
             "foldername": "fabric.mod.json",
-            "fingerprint": 4196039872,
+            "fingerprint": 1488526871,
             "type": 3,
             "invalidFingerprint": false
           },
           {
             "foldername": "data",
-            "fingerprint": 863453298,
+            "fingerprint": 1765890619,
             "type": 3,
             "invalidFingerprint": false
           },
           {
             "foldername": "assets",
-            "fingerprint": 4239056249,
+            "fingerprint": 3066204286,
             "type": 3,
             "invalidFingerprint": false
           },
@@ -23343,12 +23320,12 @@
           },
           {
             "foldername": "de",
-            "fingerprint": 1474374784,
+            "fingerprint": 2280130780,
             "type": 3,
             "invalidFingerprint": false
           }
         ],
-        "packageFingerprint": 2035068364,
+        "packageFingerprint": 232565359,
         "gameVersion": [
           "1.18.1",
           "Fabric"
@@ -23374,19 +23351,19 @@
         "categorySectionPackageType": 6,
         "restrictProjectFileAccess": 1,
         "projectStatus": 4,
-        "renderCacheId": 2659222,
+        "renderCacheId": 2662282,
         "projectId": 556967,
-        "packageFingerprintId": 823947114,
+        "packageFingerprintId": 824607029,
         "gameVersionDateReleased": "2019-08-01T00:00:00Z",
-        "gameVersionMappingId": 3626413,
+        "gameVersionMappingId": 3630780,
         "gameVersionId": 7499,
         "gameId": 432,
         "isServerPack": false,
         "FileNameOnDisk": "spectrum-1.2.1-1.18.1-midgame2.jar"
       },
-      "dateInstalled": "2021-12-30T23:28:15.2828268Z",
-      "dateUpdated": "2022-01-01T19:24:09.7509007Z",
-      "dateLastUpdateAttempted": "2022-01-01T19:24:09.7509007Z",
+      "dateInstalled": "2022-01-02T23:10:44.7497Z",
+      "dateUpdated": "2022-01-02T23:10:44.7756307Z",
+      "dateLastUpdateAttempted": "2022-01-02T23:10:44.7756307Z",
       "status": 4,
       "preferenceAutoInstallUpdates": null,
       "preferenceAlternateFile": false,
@@ -23634,6 +23611,132 @@
       "installedTargets": null
     },
     {
+      "addonID": 437779,
+      "gameInstanceID": "efa4dcb4-8262-45c4-b00b-c3ebc20ea8d8",
+      "installedFile": {
+        "id": 3578820,
+        "displayName": "can you not remove my dimensions v1.0.2",
+        "fileName": "someforgepatchesported-1.0.2.jar",
+        "fileDate": "2021-12-24T05:59:37.057Z",
+        "fileLength": 24080,
+        "releaseType": 1,
+        "fileStatus": 4,
+        "downloadUrl": "https://edge.forgecdn.net/files/3578/820/someforgepatchesported-1.0.2.jar",
+        "isAlternate": false,
+        "alternateFileId": 0,
+        "dependencies": [],
+        "isAvailable": true,
+        "modules": [
+          {
+            "foldername": "META-INF",
+            "fingerprint": 2721201648,
+            "type": 3,
+            "invalidFingerprint": false
+          },
+          {
+            "foldername": "LICENSE",
+            "fingerprint": 393640553,
+            "type": 3,
+            "invalidFingerprint": false
+          },
+          {
+            "foldername": "someforgepatchesported.mixins.json",
+            "fingerprint": 1794179722,
+            "type": 3,
+            "invalidFingerprint": false
+          },
+          {
+            "foldername": "fabric.mod.json",
+            "fingerprint": 1263103840,
+            "type": 3,
+            "invalidFingerprint": false
+          },
+          {
+            "foldername": "someforgepatchesported.accesswidener",
+            "fingerprint": 3650559507,
+            "type": 3,
+            "invalidFingerprint": false
+          },
+          {
+            "foldername": "someforgepatchesported-refmap.json",
+            "fingerprint": 891322180,
+            "type": 3,
+            "invalidFingerprint": false
+          },
+          {
+            "foldername": "me",
+            "fingerprint": 3169591803,
+            "type": 3,
+            "invalidFingerprint": false
+          }
+        ],
+        "packageFingerprint": 916526892,
+        "gameVersion": [
+          "1.18.1",
+          "Fabric",
+          "1.18",
+          "1.18-Snapshot"
+        ],
+        "sortableGameVersion": [
+          {
+            "gameVersionPadded": "0000000001.0000000018.0000000001",
+            "gameVersion": "1.18.1",
+            "gameVersionReleaseDate": "2021-12-10T10:37:38.06Z",
+            "gameVersionName": "1.18.1",
+            "gameVersionTypeId": 73250
+          },
+          {
+            "gameVersionPadded": "0",
+            "gameVersion": "",
+            "gameVersionReleaseDate": "2019-08-01T00:00:00Z",
+            "gameVersionName": "Fabric",
+            "gameVersionTypeId": 68441
+          },
+          {
+            "gameVersionPadded": "0000000001.0000000018",
+            "gameVersion": "1.18",
+            "gameVersionReleaseDate": "2021-11-30T16:23:01.427Z",
+            "gameVersionName": "1.18",
+            "gameVersionTypeId": 73250
+          },
+          {
+            "gameVersionPadded": "0000000001.0000000018",
+            "gameVersion": "1.18",
+            "gameVersionReleaseDate": "2021-08-12T00:00:00Z",
+            "gameVersionName": "1.18-Snapshot",
+            "gameVersionTypeId": 73250
+          }
+        ],
+        "hasInstallScript": false,
+        "isCompatibleWithClient": true,
+        "categorySectionPackageType": 6,
+        "restrictProjectFileAccess": 1,
+        "projectStatus": 4,
+        "renderCacheId": 2647943,
+        "projectId": 437779,
+        "packageFingerprintId": 817520219,
+        "gameVersionDateReleased": "2019-08-01T00:00:00Z",
+        "gameVersionMappingId": 3601504,
+        "gameVersionId": 7499,
+        "gameId": 432,
+        "isServerPack": false,
+        "FileNameOnDisk": "someforgepatchesported-1.0.2.jar"
+      },
+      "dateInstalled": "2021-12-30T23:53:40.6998933Z",
+      "dateUpdated": "2021-12-30T23:53:40.701888Z",
+      "dateLastUpdateAttempted": "2021-12-30T23:53:40.701888Z",
+      "status": 5,
+      "preferenceAutoInstallUpdates": null,
+      "preferenceAlternateFile": false,
+      "preferenceIsIgnored": false,
+      "isModified": false,
+      "isWorkingCopy": false,
+      "isFuzzyMatch": false,
+      "preferenceReleaseType": null,
+      "manifestName": null,
+      "installedTargets": null
+    },
+    {
       "addonID": 390991,
       "gameInstanceID": "efa4dcb4-8262-45c4-b00b-c3ebc20ea8d8",
       "installedFile": {
@@ -23775,17 +23878,17 @@
       "installedTargets": null
     },
     {
-      "addonID": 437779,
+      "addonID": 560323,
       "gameInstanceID": "efa4dcb4-8262-45c4-b00b-c3ebc20ea8d8",
       "installedFile": {
-        "id": 3578820,
-        "displayName": "can you not remove my dimensions v1.0.2",
-        "fileName": "someforgepatchesported-1.0.2.jar",
-        "fileDate": "2021-12-24T05:59:37.057Z",
-        "fileLength": 24080,
+        "id": 3580120,
+        "displayName": "Feature NBT Deadlock Be Gone v1.0.0 (1.18.1 MC Fabric)",
+        "fileName": "feature_nbt_deadlock_be_gone_fabric-1.0.0+1.18.1.jar",
+        "fileDate": "2021-12-25T21:32:25.773Z",
+        "fileLength": 16073,
         "releaseType": 1,
         "fileStatus": 4,
-        "downloadUrl": "https://edge.forgecdn.net/files/3578/820/someforgepatchesported-1.0.2.jar",
+        "downloadUrl": "https://edge.forgecdn.net/files/3580/120/feature_nbt_deadlock_be_gone_fabric-1.0.0+1.18.1.jar",
         "isAlternate": false,
         "alternateFileId": 0,
         "dependencies": [],
@@ -23793,53 +23896,51 @@
         "modules": [
           {
             "foldername": "META-INF",
-            "fingerprint": 2721201648,
+            "fingerprint": 2850487622,
             "type": 3,
             "invalidFingerprint": false
           },
           {
-            "foldername": "LICENSE",
-            "fingerprint": 393640553,
+            "foldername": "pack.mcmeta",
+            "fingerprint": 3646490071,
             "type": 3,
             "invalidFingerprint": false
           },
           {
-            "foldername": "someforgepatchesported.mixins.json",
-            "fingerprint": 1794179722,
+            "foldername": "feature_nbt_deadlock_be_gone.mixins.json",
+            "fingerprint": 245108006,
             "type": 3,
             "invalidFingerprint": false
           },
           {
             "foldername": "fabric.mod.json",
-            "fingerprint": 1263103840,
+            "fingerprint": 2081841071,
             "type": 3,
             "invalidFingerprint": false
           },
           {
-            "foldername": "someforgepatchesported.accesswidener",
-            "fingerprint": 3650559507,
+            "foldername": "assets",
+            "fingerprint": 1916493446,
             "type": 3,
             "invalidFingerprint": false
           },
           {
-            "foldername": "someforgepatchesported-refmap.json",
-            "fingerprint": 891322180,
+            "foldername": "feature_nbt_deadlock_be_gone_fabric-refmap.json",
+            "fingerprint": 1002741272,
             "type": 3,
             "invalidFingerprint": false
           },
           {
-            "foldername": "me",
-            "fingerprint": 3169591803,
+            "foldername": "com",
+            "fingerprint": 1870762419,
             "type": 3,
             "invalidFingerprint": false
           }
         ],
-        "packageFingerprint": 916526892,
+        "packageFingerprint": 1202905920,
         "gameVersion": [
           "1.18.1",
-          "Fabric",
-          "1.18",
-          "1.18-Snapshot"
+          "Fabric"
         ],
         "sortableGameVersion": [
           {
@@ -23855,20 +23956,6 @@
             "gameVersionReleaseDate": "2019-08-01T00:00:00Z",
             "gameVersionName": "Fabric",
             "gameVersionTypeId": 68441
-          },
-          {
-            "gameVersionPadded": "0000000001.0000000018",
-            "gameVersion": "1.18",
-            "gameVersionReleaseDate": "2021-11-30T16:23:01.427Z",
-            "gameVersionName": "1.18",
-            "gameVersionTypeId": 73250
-          },
-          {
-            "gameVersionPadded": "0000000001.0000000018",
-            "gameVersion": "1.18",
-            "gameVersionReleaseDate": "2021-08-12T00:00:00Z",
-            "gameVersionName": "1.18-Snapshot",
-            "gameVersionTypeId": 73250
           }
         ],
         "hasInstallScript": false,
@@ -23876,20 +23963,20 @@
         "categorySectionPackageType": 6,
         "restrictProjectFileAccess": 1,
         "projectStatus": 4,
-        "renderCacheId": 2647943,
-        "projectId": 437779,
-        "packageFingerprintId": 817520219,
+        "renderCacheId": 2649612,
+        "projectId": 560323,
+        "packageFingerprintId": 818654114,
         "gameVersionDateReleased": "2019-08-01T00:00:00Z",
-        "gameVersionMappingId": 3601504,
+        "gameVersionMappingId": 3605284,
         "gameVersionId": 7499,
         "gameId": 432,
         "isServerPack": false,
-        "FileNameOnDisk": "someforgepatchesported-1.0.2.jar"
+        "FileNameOnDisk": "feature_nbt_deadlock_be_gone_fabric-1.0.0+1.18.1.jar"
       },
-      "dateInstalled": "2021-12-30T23:53:40.6998933Z",
-      "dateUpdated": "2021-12-30T23:53:40.701888Z",
-      "dateLastUpdateAttempted": "2021-12-30T23:53:40.701888Z",
-      "status": 5,
+      "dateInstalled": "2022-01-02T23:32:21.5439642Z",
+      "dateUpdated": "2022-01-02T23:32:21.5439642Z",
+      "dateLastUpdateAttempted": "0001-01-01T00:00:00",
+      "status": 4,
       "preferenceAutoInstallUpdates": null,
       "preferenceAlternateFile": false,
       "preferenceIsIgnored": false,
@@ -24034,141 +24121,6 @@
       "dateInstalled": "2021-12-30T23:53:45.9540797Z",
       "dateUpdated": "2021-12-30T23:53:45.9570715Z",
       "dateLastUpdateAttempted": "2021-12-30T23:53:45.9570715Z",
-      "status": 5,
-      "preferenceAutoInstallUpdates": null,
-      "preferenceAlternateFile": false,
-      "preferenceIsIgnored": false,
-      "isModified": false,
-      "isWorkingCopy": false,
-      "isFuzzyMatch": false,
-      "preferenceReleaseType": null,
-      "manifestName": null,
-      "installedTargets": null
-    },
-    {
-      "addonID": 315811,
-      "gameInstanceID": "efa4dcb4-8262-45c4-b00b-c3ebc20ea8d8",
-      "installedFile": {
-        "id": 3549367,
-        "displayName": "[1.18] ShulkerBoxTooltip-3.0.5+1.18",
-        "fileName": "shulkerboxtooltip-3.0.5+1.18.jar",
-        "fileDate": "2021-12-04T20:08:53.973Z",
-        "fileLength": 1075780,
-        "releaseType": 1,
-        "fileStatus": 4,
-        "downloadUrl": "https://edge.forgecdn.net/files/3549/367/shulkerboxtooltip-3.0.5+1.18.jar",
-        "isAlternate": false,
-        "alternateFileId": 0,
-        "dependencies": [
-          {
-            "id": 80017273,
-            "addonId": 319057,
-            "type": 1,
-            "fileId": 3549367
-          },
-          {
-            "id": 80017272,
-            "addonId": 308702,
-            "type": 2,
-            "fileId": 3549367
-          },
-          {
-            "id": 80017271,
-            "addonId": 306612,
-            "type": 3,
-            "fileId": 3549367
-          }
-        ],
-        "isAvailable": true,
-        "modules": [
-          {
-            "foldername": "META-INF",
-            "fingerprint": 2333311397,
-            "type": 3,
-            "invalidFingerprint": false
-          },
-          {
-            "foldername": "fabric.mod.json",
-            "fingerprint": 3009266626,
-            "type": 3,
-            "invalidFingerprint": false
-          },
-          {
-            "foldername": "assets",
-            "fingerprint": 3684070627,
-            "type": 3,
-            "invalidFingerprint": false
-          },
-          {
-            "foldername": "shulkerboxtooltip.common.json",
-            "fingerprint": 356736541,
-            "type": 3,
-            "invalidFingerprint": false
-          },
-          {
-            "foldername": "shulkerboxtooltip.accesswidener",
-            "fingerprint": 688283907,
-            "type": 3,
-            "invalidFingerprint": false
-          },
-          {
-            "foldername": "shulkerboxtooltip.client.json",
-            "fingerprint": 2266597778,
-            "type": 3,
-            "invalidFingerprint": false
-          },
-          {
-            "foldername": "shulkerboxtooltip-refmap.json",
-            "fingerprint": 3281649790,
-            "type": 3,
-            "invalidFingerprint": false
-          },
-          {
-            "foldername": "com",
-            "fingerprint": 1145031503,
-            "type": 3,
-            "invalidFingerprint": false
-          }
-        ],
-        "packageFingerprint": 1623454479,
-        "gameVersion": [
-          "Fabric",
-          "1.18"
-        ],
-        "sortableGameVersion": [
-          {
-            "gameVersionPadded": "0",
-            "gameVersion": "",
-            "gameVersionReleaseDate": "2019-08-01T00:00:00Z",
-            "gameVersionName": "Fabric",
-            "gameVersionTypeId": 68441
-          },
-          {
-            "gameVersionPadded": "0000000001.0000000018",
-            "gameVersion": "1.18",
-            "gameVersionReleaseDate": "2021-11-30T16:23:01.427Z",
-            "gameVersionName": "1.18",
-            "gameVersionTypeId": 73250
-          }
-        ],
-        "hasInstallScript": false,
-        "isCompatibleWithClient": true,
-        "categorySectionPackageType": 6,
-        "restrictProjectFileAccess": 1,
-        "projectStatus": 4,
-        "renderCacheId": 2613031,
-        "projectId": 315811,
-        "packageFingerprintId": 800013949,
-        "gameVersionDateReleased": "2019-08-01T00:00:00Z",
-        "gameVersionMappingId": 3527355,
-        "gameVersionId": 7499,
-        "gameId": 432,
-        "isServerPack": false,
-        "FileNameOnDisk": "shulkerboxtooltip-3.0.5+1.18.jar"
-      },
-      "dateInstalled": "2021-12-30T23:28:15.2798348Z",
-      "dateUpdated": "2021-12-30T23:28:15.2798348Z",
-      "dateLastUpdateAttempted": "0001-01-01T00:00:00",
       "status": 5,
       "preferenceAutoInstallUpdates": null,
       "preferenceAlternateFile": false,
@@ -24424,7 +24376,264 @@
       "dateInstalled": "2021-12-30T23:37:28.8469516Z",
       "dateUpdated": "2022-01-01T19:24:00.6725342Z",
       "dateLastUpdateAttempted": "2022-01-01T19:24:00.6725342Z",
-      "status": 4,
+      "status": 5,
+      "preferenceAutoInstallUpdates": null,
+      "preferenceAlternateFile": false,
+      "preferenceIsIgnored": false,
+      "isModified": false,
+      "isWorkingCopy": false,
+      "isFuzzyMatch": false,
+      "preferenceReleaseType": null,
+      "manifestName": null,
+      "installedTargets": null
+    },
+    {
+      "addonID": 315811,
+      "gameInstanceID": "efa4dcb4-8262-45c4-b00b-c3ebc20ea8d8",
+      "installedFile": {
+        "id": 3549367,
+        "displayName": "[1.18] ShulkerBoxTooltip-3.0.5+1.18",
+        "fileName": "shulkerboxtooltip-3.0.5+1.18.jar",
+        "fileDate": "2021-12-04T20:08:53.973Z",
+        "fileLength": 1075780,
+        "releaseType": 1,
+        "fileStatus": 4,
+        "downloadUrl": "https://edge.forgecdn.net/files/3549/367/shulkerboxtooltip-3.0.5+1.18.jar",
+        "isAlternate": false,
+        "alternateFileId": 0,
+        "dependencies": [
+          {
+            "id": 80017273,
+            "addonId": 319057,
+            "type": 1,
+            "fileId": 3549367
+          },
+          {
+            "id": 80017272,
+            "addonId": 308702,
+            "type": 2,
+            "fileId": 3549367
+          },
+          {
+            "id": 80017271,
+            "addonId": 306612,
+            "type": 3,
+            "fileId": 3549367
+          }
+        ],
+        "isAvailable": true,
+        "modules": [
+          {
+            "foldername": "META-INF",
+            "fingerprint": 2333311397,
+            "type": 3,
+            "invalidFingerprint": false
+          },
+          {
+            "foldername": "fabric.mod.json",
+            "fingerprint": 3009266626,
+            "type": 3,
+            "invalidFingerprint": false
+          },
+          {
+            "foldername": "assets",
+            "fingerprint": 3684070627,
+            "type": 3,
+            "invalidFingerprint": false
+          },
+          {
+            "foldername": "shulkerboxtooltip.common.json",
+            "fingerprint": 356736541,
+            "type": 3,
+            "invalidFingerprint": false
+          },
+          {
+            "foldername": "shulkerboxtooltip.accesswidener",
+            "fingerprint": 688283907,
+            "type": 3,
+            "invalidFingerprint": false
+          },
+          {
+            "foldername": "shulkerboxtooltip.client.json",
+            "fingerprint": 2266597778,
+            "type": 3,
+            "invalidFingerprint": false
+          },
+          {
+            "foldername": "shulkerboxtooltip-refmap.json",
+            "fingerprint": 3281649790,
+            "type": 3,
+            "invalidFingerprint": false
+          },
+          {
+            "foldername": "com",
+            "fingerprint": 1145031503,
+            "type": 3,
+            "invalidFingerprint": false
+          }
+        ],
+        "packageFingerprint": 1623454479,
+        "gameVersion": [
+          "Fabric",
+          "1.18"
+        ],
+        "sortableGameVersion": [
+          {
+            "gameVersionPadded": "0",
+            "gameVersion": "",
+            "gameVersionReleaseDate": "2019-08-01T00:00:00Z",
+            "gameVersionName": "Fabric",
+            "gameVersionTypeId": 68441
+          },
+          {
+            "gameVersionPadded": "0000000001.0000000018",
+            "gameVersion": "1.18",
+            "gameVersionReleaseDate": "2021-11-30T16:23:01.427Z",
+            "gameVersionName": "1.18",
+            "gameVersionTypeId": 73250
+          }
+        ],
+        "hasInstallScript": false,
+        "isCompatibleWithClient": true,
+        "categorySectionPackageType": 6,
+        "restrictProjectFileAccess": 1,
+        "projectStatus": 4,
+        "renderCacheId": 2613031,
+        "projectId": 315811,
+        "packageFingerprintId": 800013949,
+        "gameVersionDateReleased": "2019-08-01T00:00:00Z",
+        "gameVersionMappingId": 3527355,
+        "gameVersionId": 7499,
+        "gameId": 432,
+        "isServerPack": false,
+        "FileNameOnDisk": "shulkerboxtooltip-3.0.5+1.18.jar"
+      },
+      "dateInstalled": "2021-12-30T23:28:15.2798348Z",
+      "dateUpdated": "2021-12-30T23:28:15.2798348Z",
+      "dateLastUpdateAttempted": "0001-01-01T00:00:00",
+      "status": 5,
+      "preferenceAutoInstallUpdates": null,
+      "preferenceAlternateFile": false,
+      "preferenceIsIgnored": false,
+      "isModified": false,
+      "isWorkingCopy": false,
+      "isFuzzyMatch": false,
+      "preferenceReleaseType": null,
+      "manifestName": null,
+      "installedTargets": null
+    },
+    {
+      "addonID": 375969,
+      "gameInstanceID": "efa4dcb4-8262-45c4-b00b-c3ebc20ea8d8",
+      "installedFile": {
+        "id": 3554382,
+        "displayName": "wolves-with-armor-1.7.0-1.18.jar",
+        "fileName": "wolves-with-armor-1.7.0-1.18.jar",
+        "fileDate": "2021-12-07T23:55:12.563Z",
+        "fileLength": 160013,
+        "releaseType": 1,
+        "fileStatus": 4,
+        "downloadUrl": "https://edge.forgecdn.net/files/3554/382/wolves-with-armor-1.7.0-1.18.jar",
+        "isAlternate": false,
+        "alternateFileId": 0,
+        "dependencies": [],
+        "isAvailable": true,
+        "modules": [
+          {
+            "foldername": "META-INF",
+            "fingerprint": 405881974,
+            "type": 3,
+            "invalidFingerprint": false
+          },
+          {
+            "foldername": "LICENSE_wolves-with-armor",
+            "fingerprint": 3937315343,
+            "type": 3,
+            "invalidFingerprint": false
+          },
+          {
+            "foldername": "wolves-with-armor.mixins.json",
+            "fingerprint": 1107627702,
+            "type": 3,
+            "invalidFingerprint": false
+          },
+          {
+            "foldername": "static_data",
+            "fingerprint": 2861504832,
+            "type": 3,
+            "invalidFingerprint": false
+          },
+          {
+            "foldername": "fabric.mod.json",
+            "fingerprint": 3237227232,
+            "type": 3,
+            "invalidFingerprint": false
+          },
+          {
+            "foldername": "data",
+            "fingerprint": 3732085221,
+            "type": 3,
+            "invalidFingerprint": false
+          },
+          {
+            "foldername": "assets",
+            "fingerprint": 2220918449,
+            "type": 3,
+            "invalidFingerprint": false
+          },
+          {
+            "foldername": "wolves-with-armor-refmap.json",
+            "fingerprint": 2796977476,
+            "type": 3,
+            "invalidFingerprint": false
+          },
+          {
+            "foldername": "draylar",
+            "fingerprint": 183542816,
+            "type": 3,
+            "invalidFingerprint": false
+          }
+        ],
+        "packageFingerprint": 3707243307,
+        "gameVersion": [
+          "Fabric",
+          "1.18"
+        ],
+        "sortableGameVersion": [
+          {
+            "gameVersionPadded": "0",
+            "gameVersion": "",
+            "gameVersionReleaseDate": "2019-08-01T00:00:00Z",
+            "gameVersionName": "Fabric",
+            "gameVersionTypeId": 68441
+          },
+          {
+            "gameVersionPadded": "0000000001.0000000018",
+            "gameVersion": "1.18",
+            "gameVersionReleaseDate": "2021-11-30T16:23:01.427Z",
+            "gameVersionName": "1.18",
+            "gameVersionTypeId": 73250
+          }
+        ],
+        "hasInstallScript": false,
+        "isCompatibleWithClient": true,
+        "categorySectionPackageType": 6,
+        "restrictProjectFileAccess": 1,
+        "projectStatus": 4,
+        "renderCacheId": 2618971,
+        "projectId": 375969,
+        "packageFingerprintId": 802613515,
+        "gameVersionDateReleased": "2019-08-01T00:00:00Z",
+        "gameVersionMappingId": 3539461,
+        "gameVersionId": 7499,
+        "gameId": 432,
+        "isServerPack": false,
+        "FileNameOnDisk": "wolves-with-armor-1.7.0-1.18.jar"
+      },
+      "dateInstalled": "2021-12-30T23:28:15.2539037Z",
+      "dateUpdated": "2021-12-30T23:28:15.2539037Z",
+      "dateLastUpdateAttempted": "0001-01-01T00:00:00",
+      "status": 5,
       "preferenceAutoInstallUpdates": null,
       "preferenceAlternateFile": false,
       "preferenceIsIgnored": false,
@@ -24552,128 +24761,6 @@
       "dateInstalled": "2021-12-30T23:28:15.1900746Z",
       "dateUpdated": "2021-12-30T23:30:09.3602257Z",
       "dateLastUpdateAttempted": "2021-12-30T23:30:09.3602257Z",
-      "status": 5,
-      "preferenceAutoInstallUpdates": null,
-      "preferenceAlternateFile": false,
-      "preferenceIsIgnored": false,
-      "isModified": false,
-      "isWorkingCopy": false,
-      "isFuzzyMatch": false,
-      "preferenceReleaseType": null,
-      "manifestName": null,
-      "installedTargets": null
-    },
-    {
-      "addonID": 375969,
-      "gameInstanceID": "efa4dcb4-8262-45c4-b00b-c3ebc20ea8d8",
-      "installedFile": {
-        "id": 3554382,
-        "displayName": "wolves-with-armor-1.7.0-1.18.jar",
-        "fileName": "wolves-with-armor-1.7.0-1.18.jar",
-        "fileDate": "2021-12-07T23:55:12.563Z",
-        "fileLength": 160013,
-        "releaseType": 1,
-        "fileStatus": 4,
-        "downloadUrl": "https://edge.forgecdn.net/files/3554/382/wolves-with-armor-1.7.0-1.18.jar",
-        "isAlternate": false,
-        "alternateFileId": 0,
-        "dependencies": [],
-        "isAvailable": true,
-        "modules": [
-          {
-            "foldername": "META-INF",
-            "fingerprint": 405881974,
-            "type": 3,
-            "invalidFingerprint": false
-          },
-          {
-            "foldername": "LICENSE_wolves-with-armor",
-            "fingerprint": 3937315343,
-            "type": 3,
-            "invalidFingerprint": false
-          },
-          {
-            "foldername": "wolves-with-armor.mixins.json",
-            "fingerprint": 1107627702,
-            "type": 3,
-            "invalidFingerprint": false
-          },
-          {
-            "foldername": "static_data",
-            "fingerprint": 2861504832,
-            "type": 3,
-            "invalidFingerprint": false
-          },
-          {
-            "foldername": "fabric.mod.json",
-            "fingerprint": 3237227232,
-            "type": 3,
-            "invalidFingerprint": false
-          },
-          {
-            "foldername": "data",
-            "fingerprint": 3732085221,
-            "type": 3,
-            "invalidFingerprint": false
-          },
-          {
-            "foldername": "assets",
-            "fingerprint": 2220918449,
-            "type": 3,
-            "invalidFingerprint": false
-          },
-          {
-            "foldername": "wolves-with-armor-refmap.json",
-            "fingerprint": 2796977476,
-            "type": 3,
-            "invalidFingerprint": false
-          },
-          {
-            "foldername": "draylar",
-            "fingerprint": 183542816,
-            "type": 3,
-            "invalidFingerprint": false
-          }
-        ],
-        "packageFingerprint": 3707243307,
-        "gameVersion": [
-          "Fabric",
-          "1.18"
-        ],
-        "sortableGameVersion": [
-          {
-            "gameVersionPadded": "0",
-            "gameVersion": "",
-            "gameVersionReleaseDate": "2019-08-01T00:00:00Z",
-            "gameVersionName": "Fabric",
-            "gameVersionTypeId": 68441
-          },
-          {
-            "gameVersionPadded": "0000000001.0000000018",
-            "gameVersion": "1.18",
-            "gameVersionReleaseDate": "2021-11-30T16:23:01.427Z",
-            "gameVersionName": "1.18",
-            "gameVersionTypeId": 73250
-          }
-        ],
-        "hasInstallScript": false,
-        "isCompatibleWithClient": true,
-        "categorySectionPackageType": 6,
-        "restrictProjectFileAccess": 1,
-        "projectStatus": 4,
-        "renderCacheId": 2618971,
-        "projectId": 375969,
-        "packageFingerprintId": 802613515,
-        "gameVersionDateReleased": "2019-08-01T00:00:00Z",
-        "gameVersionMappingId": 3539461,
-        "gameVersionId": 7499,
-        "gameId": 432,
-        "isServerPack": false,
-        "FileNameOnDisk": "wolves-with-armor-1.7.0-1.18.jar"
-      },
-      "dateInstalled": "2021-12-30T23:28:15.2539037Z",
-      "dateUpdated": "2021-12-30T23:28:15.2539037Z",
-      "dateLastUpdateAttempted": "0001-01-01T00:00:00",
       "status": 5,
       "preferenceAutoInstallUpdates": null,
       "preferenceAlternateFile": false,

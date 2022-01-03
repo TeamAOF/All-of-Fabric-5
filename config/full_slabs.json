@@ -1,0 +1,87 @@
+{
+  "tiltableSlabs": [
+    "minecraft:smooth_stone_slab"
+  ],
+  "slabExtras": {
+    "minecraft:wall_torch": {
+      "north": "facing=south",
+      "south": "facing=north",
+      "east": "facing=west",
+      "west": "facing=east"
+    },
+    "minecraft:torch": {
+      "bottom": ""
+    },
+    "minecraft:soul_wall_torch": {
+      "north": "facing=south",
+      "south": "facing=north",
+      "east": "facing=west",
+      "west": "facing=east"
+    },
+    "minecraft:soul_torch": {
+      "bottom": ""
+    },
+    "minecraft:lantern": {
+      "bottom": "hanging=false",
+      "top": "hanging=true"
+    },
+    "minecraft:soul_lantern": {
+      "bottom": "hanging=false",
+      "top": "hanging=true"
+    },
+    "minecraft:snow": {
+      "bottom": "layers=1"
+    },
+    "minecraft:white_carpet": {
+      "bottom": ""
+    },
+    "minecraft:orange_carpet": {
+      "bottom": ""
+    },
+    "minecraft:magenta_carpet": {
+      "bottom": ""
+    },
+    "minecraft:light_blue_carpet": {
+      "bottom": ""
+    },
+    "minecraft:yellow_carpet": {
+      "bottom": ""
+    },
+    "minecraft:lime_carpet": {
+      "bottom": ""
+    },
+    "minecraft:pink_carpet": {
+      "bottom": ""
+    },
+    "minecraft:gray_carpet": {
+      "bottom": ""
+    },
+    "minecraft:light_gray_carpet": {
+      "bottom": ""
+    },
+    "minecraft:cyan_carpet": {
+      "bottom": ""
+    },
+    "minecraft:purple_carpet": {
+      "bottom": ""
+    },
+    "minecraft:blue_carpet": {
+      "bottom": ""
+    },
+    "minecraft:brown_carpet": {
+      "bottom": ""
+    },
+    "minecraft:green_carpet": {
+      "bottom": ""
+    },
+    "minecraft:red_carpet": {
+      "bottom": ""
+    },
+    "minecraft:black_carpet": {
+      "bottom": ""
+    },
+    "minecraft:moss_carpet": {
+      "bottom": ""
+    }
+  }
+}
