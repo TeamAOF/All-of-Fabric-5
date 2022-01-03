@@ -1,9 +1,6 @@
 {
-  "disabledPoppets": [
-    "bewitchment:voodoo_poppet",
-    "bewitchment:vampiric_poppet"
-  ],
-  "enableCurses": false,
+  "disabledPoppets": [],
+  "enableCurses": true,
   "altarDistributionRadius": 24,
   "generateSilver": false,
   "generateSalt": false,
