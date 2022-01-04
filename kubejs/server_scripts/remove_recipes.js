@@ -42,6 +42,11 @@ onEvent('recipes', (event) => {
     'basicaiots:lead_aiot',
     'craftingcraft:portable_crafting',
     'kibe:pocket_crafting_table',
+    'indrev:bronze_sword',
+    'indrev:bronze_pickaxe',
+    'indrev:bronze_axe',
+    'indrev:bronze_shovel',
+    'indrev:bronze_hoe',
     ];
 
     id.forEach((id) => {
