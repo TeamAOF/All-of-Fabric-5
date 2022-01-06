@@ -9,6 +9,8 @@ onEvent('recipes', (event) => {
   const FOOD = [
     "tomato",
     "cabbage",
+    "rice",
+    "onion",
     "bacon",
     "cooked_bacon",
 ];
