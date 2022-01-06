@@ -56,7 +56,8 @@ const UNIFICATION_ORDER = [
     "bewitchment",
     "techreborn",
     "croptopia",
-    "ae2"
+    "ae2",
+    "dwarfcoal"
 ];
 // List of tags NOT to unify
 const UNIFICATION_BLACKLIST = [
@@ -205,11 +206,11 @@ onEvent('recipes', event => {
     autoremove("techreborn:{}_ore", "techreborn:smelting/{}_ingot_from_c_{}_ores");
     autoremove("techreborn:{}_ingot", "techreborn:smelting/{}_ingot_from_c_raw_{}_ores");
     autoremove("techreborn:{}_ingot", "techreborn:smelting/{}_ingot_from_raw_exported_mi_furnace");
-    autoremove("techreborn:{}_ingot", "techreborn:smelting/{}_ingot_from_c_{}_dust");
+    autoremove("techreborn:{}_ingot", "techreborn:smelting/{}_ingot_from_c_{}_dusts");
     autoremove("techreborn:{}_ingot", "techreborn:smelting/{}_block_from_raw");
 
     autoremove("techreborn:{}_ore", "techreborn:blasting/{}_ingot_from_c_{}_ores");
-    autoremove("techreborn:{}_ingot", "techreborn:blasting/{}_ingot_from_c_{}_dust");
+    autoremove("techreborn:{}_ingot", "techreborn:blasting/{}_ingot_from_c_{}_dusts");
     autoremove("techreborn:{}_ingot", "techreborn:blasting/{}_ingot_from_c_raw_{}_ores");
     autoremove("techreborn:{}_raw", "techreborn:blasting/{}_ingot_from_c_raw_{}_ores");
 
@@ -228,6 +229,7 @@ onEvent('recipes', event => {
     autoremove("indrev:{}_block", "indrev:shaped/raw_{}_block");
     autoremove("indrev:{}_block", "indrev:shapeless/raw_{}");
     autoremove("indrev:{}_ingot", "indrev:smelting/{}_ingot");
+    autoremove("indrev:{}_ingot", "indrev:blasting/{}_ingot");
     autoremove("indrev:{}_ingot", "indrev:blasting/{}_ingot_from_ore");
     autoremove("indrev:{}_ingot", "indrev:shapeless/{}_ingot_from_block");
     autoremove("indrev:{}_ingot", "indrev:shapeless/{}_ingot_from_nugget");
