@@ -56,6 +56,7 @@ _Fabric Loader 0.12.12_ | _[Mod Updates](https://github.com/TeamAOF/All-of-Fabri
 ## Removed
 
 * [FastBench for Fabric](https://www.curseforge.com/minecraft/mc-mods/fastbench-for-fabric)
+* [Wilder World](https://www.curseforge.com/minecraft/mc-mods/wilder-world)
 * [Xaero's Minimap](https://www.curseforge.com/minecraft/mc-mods/xaeros-minimap)
 * [Xaero's World Map](https://www.curseforge.com/minecraft/mc-mods/xaeros-world-map)
 
