@@ -3,11 +3,11 @@
 		// Whether Fortune should affect the amount of Conjuration Essence you can get when breaking a spawner
 		"fortuneEnabled": false,
 		// How many extra mobs to spawn per abundance charm
-		"abundance_multiplier": 2,
+		"abundance_multiplier": 1,
 		// How many ticks of waiting to remove per haste charm
-		"haste_multiplier": 93.75,
+		"haste_multiplier": 43.75,
 		// How many blocks of range to add per scope charm
-		"scope_multiplier": 6,
+		"scope_multiplier": 3,
 		// How many extra mobs are allowed close to the conjurer per ignorance charm
 		"ignorance_multiplier": 2,
 		// Which mob types you shouldn't be able to create a conjuring focus for
