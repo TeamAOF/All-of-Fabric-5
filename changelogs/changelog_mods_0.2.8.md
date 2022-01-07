@@ -275,6 +275,7 @@ Fix crash caused by an action registered via the RegistryHelper registering a ne
 ## Removed
 
 * [FastBench for Fabric](https://www.curseforge.com/minecraft/mc-mods/fastbench-for-fabric)
+* [Wilder World](https://www.curseforge.com/minecraft/mc-mods/wilder-world)
 * [Xaero's Minimap](https://www.curseforge.com/minecraft/mc-mods/xaeros-minimap)
 * [Xaero's World Map](https://www.curseforge.com/minecraft/mc-mods/xaeros-world-map)
 

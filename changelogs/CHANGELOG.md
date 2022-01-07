@@ -1,3 +1,20 @@
+### All of Fabric 5 | v0.2.9
+
+_Fabric Loader 0.12.12_ | _[Mod Updates](https://github.com/TeamAOF/All-of-Fabric-5/blob/main/changelogs/changelog_mods_0.2.9.md)_ | _[Modlist](https://github.com/TeamAOF/All-of-Fabric-5/blob/main/changelogs/modlist_0.2.9.md)_
+
+## Changes
+
+* Nerfed Conjuring values by 100%
+* Nerfed Mythic Mount spawn chances.
+* Disabled mounted Flight
+
+## Fixes
+
+* Fixed TooltipComponent crash when hovering over certain items.
+* Fixed crash when dragging items.
+
+---
+
 ### All of Fabric 5 | v0.2.8
 
 _Fabric Loader 0.12.12_ | _[Mod Updates](https://github.com/TeamAOF/All-of-Fabric-5/blob/dev/changelogs/changelog_mods_0.2.8.md)_ | _[Modlist](https://github.com/TeamAOF/All-of-Fabric-5/blob/dev/changelogs/modlist_0.2.8.md)_
@@ -42,12 +59,15 @@ _Fabric Loader 0.12.12_ | _[Mod Updates](https://github.com/TeamAOF/All-of-Fabri
 ## Removed
 
 * [FastBench for Fabric](https://www.curseforge.com/minecraft/mc-mods/fastbench-for-fabric)
+* [Wilder World](https://www.curseforge.com/minecraft/mc-mods/wilder-world)
 * [Xaero's Minimap](https://www.curseforge.com/minecraft/mc-mods/xaeros-minimap)
 * [Xaero's World Map](https://www.curseforge.com/minecraft/mc-mods/xaeros-world-map)
 
 ---
 
 ### All of Fabric 5 | v0.2.7
+
+## A world reset is HIGHLY recommended with this update!
 
 _Fabric Loader 0.12.12_ | _[Mod Updates](https://github.com/TeamAOF/All-of-Fabric-5/blob/dev/changelogs/changelog_mods_0.2.7.md)_ | _[Modlist](https://github.com/TeamAOF/All-of-Fabric-5/blob/dev/changelogs/modlist_0.2.7.md)_
 
@@ -65,6 +85,8 @@ _Fabric Loader 0.12.12_ | _[Mod Updates](https://github.com/TeamAOF/All-of-Fabri
 ---
 
 ### All of Fabric 5 | v0.2.6
+
+## A world reset is HIGHLY recommended with this update!
 
 _Fabric Loader 0.12.12_ | _[Mod Updates](https://github.com/TeamAOF/All-of-Fabric-5/blob/dev/changelogs/changelog_mods_0.2.6.md)_ | _[Modlist](https://github.com/TeamAOF/All-of-Fabric-5/blob/dev/changelogs/modlist_0.2.6.md)_
 
