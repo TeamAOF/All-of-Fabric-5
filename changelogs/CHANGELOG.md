@@ -1,3 +1,52 @@
+### All of Fabric 5 | v0.2.8
+
+_Fabric Loader 0.12.12_ | _[Mod Updates](https://github.com/TeamAOF/All-of-Fabric-5/blob/dev/changelogs/changelog_mods_0.2.8.md)_ | _[Modlist](https://github.com/TeamAOF/All-of-Fabric-5/blob/dev/changelogs/modlist_0.2.8.md)_
+
+## Changes
+
+* Allow curved plates to be made in the indrev compressor.
+* You no longer freeze to death in cold biomes.
+* Hide Indrev bronze gear/tools.
+* Added EU server to server list.
+* New custom advancement plaque textures by Anam.
+* Croptopia Onion & Rice as input now uses the Farmer's Delight equivalent.
+* Removed Steel & Electrum dust recipes from the Infuser.
+* Disabled wheel tweak as it broke MI set slot capacity in machines.
+* Disabled indrev bronze tools as they're replaced by tech reborn.
+* Added recipes for certus quartz in the indrev pulverizer.
+* Altered recipes for indrev item & fluid pipes to be made towards mid game.
+
+## Fixes
+
+* Fixed outputs sometimes showing as invisible.
+* Fixed an issue where /reload wouldnt work.
+* Fixed heat generator not consuming input.
+* Fixed broken nether/end errors, it'll now apply patches to fix these issues on load.
+* Fixed blasting unification.
+* Fixed empty upgrades from indrev not being craftable.
+
+## Added
+
+* [AE2 Things](https://www.curseforge.com/minecraft/mc-mods/ae2things)
+* [Artifality](https://www.curseforge.com/minecraft/mc-mods/artifality)
+* [Basic Shields [Fabric]](https://www.curseforge.com/minecraft/mc-mods/basic-shields-fabric)
+* [Can You Trash It?](https://www.curseforge.com/minecraft/mc-mods/can-you-trash-it)
+* [Decorative Blocks](https://www.curseforge.com/minecraft/mc-mods/decorative-blocks)
+* [Dwarf Coal (Fabric)](https://www.curseforge.com/minecraft/mc-mods/dwarf-coal-fabric)
+* [FTB Chunks (Fabric)](https://www.curseforge.com/minecraft/mc-mods/ftb-chunks-fabric)
+* [FTB Library (Fabric)](https://www.curseforge.com/minecraft/mc-mods/ftb-library-fabric)
+* [FTB Ranks (Fabric)](https://www.curseforge.com/minecraft/mc-mods/ftb-ranks-fabric)
+* [FTB Teams (Fabric)](https://www.curseforge.com/minecraft/mc-mods/ftb-teams-fabric)
+* [Fabric Shield Lib](https://www.curseforge.com/minecraft/mc-mods/fabric-shield-lib)
+
+## Removed
+
+* [FastBench for Fabric](https://www.curseforge.com/minecraft/mc-mods/fastbench-for-fabric)
+* [Xaero's Minimap](https://www.curseforge.com/minecraft/mc-mods/xaeros-minimap)
+* [Xaero's World Map](https://www.curseforge.com/minecraft/mc-mods/xaeros-world-map)
+
+---
+
 ### All of Fabric 5 | v0.2.7
 
 _Fabric Loader 0.12.12_ | _[Mod Updates](https://github.com/TeamAOF/All-of-Fabric-5/blob/dev/changelogs/changelog_mods_0.2.7.md)_ | _[Modlist](https://github.com/TeamAOF/All-of-Fabric-5/blob/dev/changelogs/modlist_0.2.7.md)_

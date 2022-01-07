@@ -47,6 +47,7 @@ renderGraveOwner = true
 textShadow = true
 adaptRenderer = false
 glowingGrave = false
+glowMinDistance = 10
 [utilitySettings]
 soulboundEnchant = true
 [commandToggles]

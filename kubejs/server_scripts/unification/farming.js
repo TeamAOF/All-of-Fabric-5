@@ -9,13 +9,15 @@ onEvent('recipes', (event) => {
   const FOOD = [
     "tomato",
     "cabbage",
+    "rice",
+    "onion",
     "bacon",
     "cooked_bacon",
 ];
 
 // Crops & Food
 FOOD.forEach(function (item, index) {
-  event.replaceInput( 'croptopia:' + item, 'farmersdelight:' + item)
+  event.replaceInput('croptopia:' + item, 'farmersdelight:' + item)
 });
 
 // Garlic

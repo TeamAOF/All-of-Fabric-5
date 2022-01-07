@@ -414,3 +414,5 @@ config/indium-renderer.properties
 patched_shaders/
 
 *.tmp1
+
+local/
