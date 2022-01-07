@@ -17,7 +17,7 @@ onEvent('recipes', (event) => {
 
 // Crops & Food
 FOOD.forEach(function (item, index) {
-  event.replaceInput( 'croptopia:' + item, 'farmersdelight:' + item)
+  event.replaceInput('croptopia:' + item, 'farmersdelight:' + item)
 });
 
 // Garlic

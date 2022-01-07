@@ -17,6 +17,7 @@ onEvent('recipes', (event) => {
     'techreborn:compressor/iridium_plate_from_block',
     'indrev:infusing/steel_dust',
     'indrev:infusing/electrum_dust',
+    'indrev:compressing/empty_upgrade',
 
     ];
 
@@ -51,6 +52,8 @@ onEvent('recipes', (event) => {
     'indrev:bronze_axe',
     'indrev:bronze_shovel',
     'indrev:bronze_hoe',
+    'indrev:item_pipe_mk1',
+    'indrev:fluid_pipe_mk1',
     ];
 
     id.forEach((id) => {
@@ -60,4 +63,16 @@ onEvent('recipes', (event) => {
     output.forEach((output) => {
         event.remove({ output: output });
     });
+
+    const plates = [
+        'tin',
+        'gold',
+        'iron',
+        'copper',
+      
+        ];
+      
+          plates.forEach((plates) => {
+              event.remove({ id: 'indrev:shapeless/' + plates + '_plate_from_hammer' });
+          });
 });

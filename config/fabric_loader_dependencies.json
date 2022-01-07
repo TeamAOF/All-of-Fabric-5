@@ -16,6 +16,11 @@
                 "minecraft": ""
             }
         },
+        "ftbchunks": {
+            "-depends": {
+                "minecraft": ""
+            }
+        },
         "kubejs": {
             "-depends": {
                 "minecraft": ""

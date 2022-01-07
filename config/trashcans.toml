@@ -1,0 +1,5 @@
+[trashSettings]
+directBucketClearing = true
+shiftClearingBucket = true
+oneTickItemEnergyDepletion = false
+energyTrashcanInput = 1024

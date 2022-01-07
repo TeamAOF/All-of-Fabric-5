@@ -1,6 +1,9 @@
 {
 	"expirationTicks": 108000,
 	"questGenerationTicks": 3600,
+	"maxProfessions": 7,
+	"maxAcceptedQuests": 7,
+	"maxQuestsPerProfession": 7,
 	"maxQuestsPerGeneration": 10,
 	"displayUnlockedPools": true
 }
