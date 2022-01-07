@@ -5,10 +5,13 @@ _Fabric Loader 0.12.12_ | _[Mod Updates](https://github.com/TeamAOF/All-of-Fabri
 ## Changes
 
 * Nerfed Conjuring values by 100%
+* Nerfed Mythic Mount spawn chances.
+* Disabled mounted Flight
 
 ## Fixes
 
 * Fixed TooltipComponent crash when hovering over certain items.
+* Fixed crash when dragging items.
 
 ---
 

@@ -1,5 +1,19 @@
 # All-of-Fabric-5 0.2.8⟶All-of-Fabric-5 0.2.9
 
+## Updated
+
+### [AE2 Things](https://www.curseforge.com/minecraft/mc-mods/ae2things) ([AE2Things-1.0.0-beta.2.jar](https://www.curseforge.com/minecraft/mc-mods/ae2things/files/3594520)⟶[AE2Things-1.0.0-beta.3.jar](https://www.curseforge.com/minecraft/mc-mods/ae2things/files/3596790))
+
+#### [AE2Things-1.0.0-beta.3.jar](https://www.curseforge.com/minecraft/mc-mods/ae2things/files/3596790)
+
+HOTFIX: Baptise Cursed internal slot mixin
+
+### [FTB Chunks (Fabric)](https://www.curseforge.com/minecraft/mc-mods/ftb-chunks-fabric) ([ftb-chunks-fabric-1801.3.3-build.102.jar](https://www.curseforge.com/minecraft/mc-mods/ftb-chunks-fabric/files/3596555)⟶[ftb-chunks-fabric-1801.3.3-build.104.jar](https://www.curseforge.com/minecraft/mc-mods/ftb-chunks-fabric/files/3596684))
+
+#### [ftb-chunks-fabric-1801.3.3-build.104.jar](https://www.curseforge.com/minecraft/mc-mods/ftb-chunks-fabric/files/3596684)
+
+* Fixed GL lines not drawing - LatvianModder
+
 ## Downgraded
 
 ### [Equipment Compare [Fabric]](https://www.curseforge.com/minecraft/mc-mods/equipment-compare-fabric) ([EquipmentCompare-1.18.1-fabric-1.2.11.jar](https://www.curseforge.com/minecraft/mc-mods/equipment-compare-fabric/files/3595493)⟶[EquipmentCompare-1.18-fabric-1.2.9.jar](https://www.curseforge.com/minecraft/mc-mods/equipment-compare-fabric/files/3548173))

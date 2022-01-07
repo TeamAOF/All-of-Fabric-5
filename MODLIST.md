@@ -1,5 +1,6 @@
 ## All-of-Fabric-5 - 0.2.9
 - [[Fabric 1.17.1/1.18] v2.0.2](https://www.curseforge.com/minecraft/mc-mods/slight-gui-modifications/files/3512331) (by [shedaniel](https://www.curseforge.com/members/shedaniel/projects))
+- [AE2Things-1.0.0-beta.3.jar](https://www.curseforge.com/minecraft/mc-mods/ae2things/files/3596790) (by [ProjectET](https://www.curseforge.com/members/projectet/projects))
 - [AE2Things-1.0.0-beta.2.jar](https://www.curseforge.com/minecraft/mc-mods/ae2things/files/3594520) (by [ProjectET](https://www.curseforge.com/members/projectet/projects))
 - [arrp-0.5.4.jar](https://www.curseforge.com/minecraft/mc-mods/arrp/files/3529149) (by [one_point_o](https://www.curseforge.com/members/one_point_o/projects))
 - [3.0.1](https://www.curseforge.com/minecraft/mc-mods/additional-additions/files/3555370) (by [dqu1jjj](https://www.curseforge.com/members/dqu1jjj/projects))
@@ -75,7 +76,7 @@
 - [EquipmentCompare-1.18-fabric-1.2.9.jar](https://www.curseforge.com/minecraft/mc-mods/equipment-compare-fabric/files/3548173) (by [Grend_G](https://www.curseforge.com/members/grend_g/projects))
 - [Extra Generators 1.1.1-BETA](https://www.curseforge.com/minecraft/mc-mods/extra-generators/files/3544998) (by [D4rkness_King](https://www.curseforge.com/members/d4rkness_king/projects))
 - [FpsReducer-fabric-1.25-mc1.18.jar](https://www.curseforge.com/minecraft/mc-mods/fps-reducer/files/3548893) (by [bre2el](https://www.curseforge.com/members/bre2el/projects))
-- [ftb-chunks-fabric-1801.3.3-build.102.jar](https://www.curseforge.com/minecraft/mc-mods/ftb-chunks-fabric/files/3596555) (by [FTB](https://www.curseforge.com/members/ftb/projects))
+- [ftb-chunks-fabric-1801.3.3-build.104.jar](https://www.curseforge.com/minecraft/mc-mods/ftb-chunks-fabric/files/3596684) (by [FTB](https://www.curseforge.com/members/ftb/projects))
 - [ftb-library-fabric-1801.3.5-build.106.jar](https://www.curseforge.com/minecraft/mc-mods/ftb-library-fabric/files/3596357) (by [FTB](https://www.curseforge.com/members/ftb/projects))
 - [ftb-ranks-fabric-1801.1.6-build.20.jar](https://www.curseforge.com/minecraft/mc-mods/ftb-ranks-fabric/files/3596322) (by [FTB](https://www.curseforge.com/members/ftb/projects))
 - [ftb-teams-fabric-1801.2.4-build.46.jar](https://www.curseforge.com/minecraft/mc-mods/ftb-teams-fabric/files/3596306) (by [FTB](https://www.curseforge.com/members/ftb/projects))
