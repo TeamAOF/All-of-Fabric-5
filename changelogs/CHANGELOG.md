@@ -10,7 +10,7 @@ _Fabric Loader 0.12.12_ | _[Mod Updates](https://github.com/TeamAOF/All-of-Fabri
 * Mounted flight is back! Ya'll like your dragons too much...
 * Added shaped flint recipe from 3 gravel.
 * Added lignite coal to coals tag, this will allow for mainly lignite in bewitchment recipes but also a couple others.
-* Compatibility check for version will no longer modpack name, less clutter.
+* Compatibility check for version will no longer show modpack name, less clutter.
 
 ## Fixes
 
