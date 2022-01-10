@@ -52,7 +52,7 @@ Loudness:
 
 [Global] Print Biomes: false;
 [Global] Command Item: stick;
-[Global] Mounted Flight Enabled: false;
+[Global] Mounted Flight Enabled: true;
 [Global] Creative Flight: false;
 
 CourierBird ShouldSpawn: true
