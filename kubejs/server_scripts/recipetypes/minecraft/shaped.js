@@ -27,6 +27,13 @@ onEvent('recipes', (event) => {
     ["#minecraft:logs"],
   ]);
 
+    // Flint
+    event.shaped("minecraft:flint", [
+      ["minecraft:gravel", "minecraft:gravel", null],
+      ["minecraft:gravel", null, null],
+      [null, null, null],
+    ]);
+
 
   // Hopper
   event.remove({ id: "charm:variant_chests/hopper" });
