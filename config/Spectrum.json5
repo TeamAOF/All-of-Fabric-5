@@ -26,12 +26,12 @@
 		"minecraft:overworld",
 		"starry_sky:starry_sky"
 	],
-	// Worlds where lightning strikes can spawn Lightning Stones
+	// Worlds where lightning strikes can spawn Storm Stones
 	"LightningStonesWorlds": [
 		"minecraft:overworld",
 		"starry_sky:starry_sky"
 	],
-	// chance for a lightning strike to spawn a Lightning Stone
+	// chance for a lightning strike to spawn a Storm Stone
 	"LightningStonesChance": 0.4000000059604645,
 	/* Shooting star spawns are checked every night between time 13000 and 22000, every 100 ticks (so 90 chances per night).
 	   By default, there is a 0.02 ^= 2 % chance at each of those check times. Making it ~3 shooting star spawns

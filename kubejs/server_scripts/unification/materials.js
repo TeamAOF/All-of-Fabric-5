@@ -56,8 +56,8 @@ const UNIFICATION_ORDER = [
     "bewitchment",
     "techreborn",
     "croptopia",
-    "ae2",
-    "dwarfcoal"
+    "dwarfcoal",
+    "ae2"
 ];
 // List of tags NOT to unify
 const UNIFICATION_BLACKLIST = [
@@ -193,6 +193,7 @@ onEvent('recipes', event => {
 
     // Tech Reborn
     autoremove("techreborn:{}_storage_block", "techreborn:crafting_table/storage_block/{}_storage_block");
+    autoremove("techreborn:{}_storage_block", "techreborn:crafting_table/storage_block/raw_{}_storage_block");
 
     autoremove("techreborn:{}_block", "techreborn:crafting_table/ingot/{}_ingot_from_block");
     autoremove("techreborn:{}_block", "techreborn:crafting_table/ingot/{}_ingot_from_storage_block");
@@ -207,10 +208,12 @@ onEvent('recipes', event => {
     autoremove("techreborn:{}_ingot", "techreborn:smelting/{}_ingot_from_c_raw_{}_ores");
     autoremove("techreborn:{}_ingot", "techreborn:smelting/{}_ingot_from_raw_exported_mi_furnace");
     autoremove("techreborn:{}_ingot", "techreborn:smelting/{}_ingot_from_c_{}_dusts");
+    autoremove("techreborn:{}_ingot", "techreborn:smelting/{}_ingot_from_{}_dust");
     autoremove("techreborn:{}_ingot", "techreborn:smelting/{}_block_from_raw");
 
     autoremove("techreborn:{}_ore", "techreborn:blasting/{}_ingot_from_c_{}_ores");
     autoremove("techreborn:{}_ingot", "techreborn:blasting/{}_ingot_from_c_{}_dusts");
+    autoremove("techreborn:{}_ingot", "techreborn:blasting/{}_ingot_from_{}_dust");
     autoremove("techreborn:{}_ingot", "techreborn:blasting/{}_ingot_from_c_raw_{}_ores");
     autoremove("techreborn:{}_raw", "techreborn:blasting/{}_ingot_from_c_raw_{}_ores");
 
@@ -220,25 +223,38 @@ onEvent('recipes', event => {
     // Some duplicate MI recipes (normally untagged).
     autoremove("modern_industrialization:generated/materials/{}/smelting/ore_deepslate_to_ingot_smelting");
     autoremove("modern_industrialization:generated/materials/{}/smelting/ore_deepslate_to_ingot_blasting");
+    autoremove("modern_industrialization:compat/techreborn/macerator/_c_silver_ores_to_techreborn_raw_silver");
 
-    // Indrev recipes
+    // Industrial Revolution
     autoremove("indrev:{}_block", "indrev:shaped/{}_block");
     autoremove("indrev:{}_block", "indrev:shapeless/{}_ingot_from_block");
     autoremove("indrev:{}_block", "indrev:shaped/{}_ingot_from_nugget");
     autoremove("indrev:{}_block", "indrev:shapeless/{}_nugget");
     autoremove("indrev:{}_block", "indrev:shaped/raw_{}_block");
     autoremove("indrev:{}_block", "indrev:shapeless/raw_{}");
-    autoremove("indrev:{}_ingot", "indrev:smelting/{}_ingot");
-    autoremove("indrev:{}_ingot", "indrev:blasting/{}_ingot");
-    autoremove("indrev:{}_ingot", "indrev:blasting/{}_ingot_from_ore");
     autoremove("indrev:{}_ingot", "indrev:shapeless/{}_ingot_from_block");
     autoremove("indrev:{}_ingot", "indrev:shapeless/{}_ingot_from_nugget");
-    autoremove("indrev:raw_{}", "indrev:smelting/{}_ingot_from_raw_ores");
-    autoremove("indrev:{}_ore", "indrev:smelting/{}_ingot_from_ore");
-    autoremove("indrev:{}_dust", "indrev:smelting/{}_ingot_from_smelting");
-    autoremove("indrev:raw_{}", "indrev:blasting/{}_ingot_from_raw_ores");
-    autoremove("indrev:{}_ore", "indrev:blasting/{}_ingot_from_ore");
-    autoremove("indrev:{}_dust", "indrev:blasting/{}_ingot_from_smelting");
+
+    autoremove("indrev:{}_ingot", "indrev:smelting/{}_ingot");
+    autoremove("indrev:{}_ingot", "indrev:smelting/{}_ingot_from_raw_ores");
+    autoremove("indrev:{}_ingot", "indrev:smelting/{}_ingot_from_ores");
+    autoremove("indrev:{}_ingot", "indrev:smelting/{}_ingot_from_ore");
+    autoremove("indrev:{}_ingot", "indrev:smelting/{}_ingot_from_smelting");
+
+    autoremove("indrev:{}_ingot", "indrev:blasting/{}_ingot_from_raw_ores");
+    autoremove("indrev:{}_ingot", "indrev:blasting/{}_ingot");
+    autoremove("indrev:{}_ingot", "indrev:blasting/{}_ingot_from_ores");
+    autoremove("indrev:{}_ingot", "indrev:blasting/{}_ingot_from_ore");
+    autoremove("indrev:{}_ingot", "indrev:blasting/{}_ingot_from_smelting");
+
+    // Bewitchment
+    autoremove("bewitchment:{}_ingot", "bewitchment:{}_ingot_from_smelting_{}_ore");
+    autoremove("bewitchment:{}_ingot", "bewitchment:{}_ingot_from_smelting_deepslate_{}_ore");
+    autoremove("bewitchment:{}_ingot", "bewitchment:{}_ingot_from_smelting_raw_{}");
+
+    autoremove("bewitchment:{}_ingot", "bewitchment:{}_ingot_from_blasting_{}_ore");
+    autoremove("bewitchment:{}_ingot", "bewitchment:{}_ingot_from_blasting_deepslate_{}_ore");
+    autoremove("bewitchment:{}_ingot", "bewitchment:{}_ingot_from_blasting_raw_{}");
 
     if (GENERATE_REI_SCRIPT) {
         generateReiScript(itemIdToUnified);

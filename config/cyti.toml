@@ -1,0 +1,5 @@
+[trashSettings]
+directBucketClearing = true
+shiftClearingBucket = true
+energyTrashcanInput = 1024
+fluidTrashcanInput = 1024

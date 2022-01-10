@@ -35,4 +35,45 @@ onEvent('recipes', (event) => {
   processTime: 300
 
  });
+
+ event.recipes.indrev.pulverize({
+        
+    type: "indrev:pulverize",
+    ingredients: {
+        
+        item: 'modern_industrialization:coke',
+        count: 1
+    },
+    output: {
+        item: 'modern_industrialization:coke_dust',
+        count: 1
+    },
+    processTime: 300
+
+     });
+
+const mi_raw = [
+    "tungsten",
+    "antimony",
+    "nickel",
+    "iridium"
+];
+
+mi_raw.forEach((item) => { 
+event.recipes.indrev.pulverize({
+        
+    type: "indrev:pulverize",
+    ingredients: {
+        
+        item: 'modern_industrialization:raw_' + item,
+        count: 2
+    },
+    output: {
+        item: 'modern_industrialization:' + item + '_dust',
+        count: 3
+    },
+    processTime: 300
+
+     });
+   });
 });

@@ -1,3 +1,37 @@
+### All of Fabric 5 | v0.2.10
+
+_Fabric Loader 0.12.12_ | _[Mod Updates](https://github.com/TeamAOF/All-of-Fabric-5/blob/main/changelogs/changelog_mods_0.2.10.md)_ | _[Modlist](https://github.com/TeamAOF/All-of-Fabric-5/blob/main/changelogs/modlist_0.2.10.md)_
+
+## Changes
+
+* Added Indrev pulverizer recipes for MI tungsten, antimony, nickel, iridium & coke dusts.
+* Nerfed certus quartz ore per cluster.
+* Heavily altered the Big Torch recipe, moved it into mid game.
+* Mounted flight is back! Ya'll like your dragons too much...
+* Added shaped flint recipe from 3 gravel.
+* Added lignite coal to coals tag, this will allow for mainly lignite in bewitchment recipes but also a couple others.
+* Compatibility check for version will no longer modpack name, less clutter.
+
+## Fixes
+
+* Fixed missing recipes for the Can I Trash It trashcans.
+* Fixed a crash with the Indrev Rancher.
+* Fixed crash issues with Indrev GUIs.
+* Fixed bewitchment autoremove script for silver materials.
+* Fixed charging (some) items beyond their max power.
+* Fixed chalk & dwarf coal always showing up in REI.
+* Fixed multiple missing unification inputs for tech reborn raw ore & dusts.
+* Fixed missing autoremoves for outputs of indrev ingots.
+* Fixed potential issue with manifest shipping two files of AE2 Things causing certain crashes (Could just see this happening with GDLauncher).
+* Fixed dwarf charcoal using incorrect tag as shapeless input. 
+
+## Added
+
+* [Caracal Mod](https://www.curseforge.com/minecraft/mc-mods/caracal-mod)
+* [Crooked Crooks](https://www.curseforge.com/minecraft/mc-mods/crooked-crooks)
+
+---
+
 ### All of Fabric 5 | v0.2.9
 
 _Fabric Loader 0.12.12_ | _[Mod Updates](https://github.com/TeamAOF/All-of-Fabric-5/blob/main/changelogs/changelog_mods_0.2.9.md)_ | _[Modlist](https://github.com/TeamAOF/All-of-Fabric-5/blob/main/changelogs/modlist_0.2.9.md)_

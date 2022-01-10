@@ -54,6 +54,8 @@ onEvent('recipes', (event) => {
     'indrev:bronze_hoe',
     'indrev:item_pipe_mk1',
     'indrev:fluid_pipe_mk1',
+    'kibe:big_torch',
+    'dwarfcoal:dwarf_charcoal',
     ];
 
     id.forEach((id) => {
