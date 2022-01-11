@@ -2,6 +2,10 @@
 
 _Fabric Loader 0.12.12_ | _[Mod Updates](https://github.com/TeamAOF/All-of-Fabric-5/blob/main/changelogs/changelog_mods_0.2.11.md)_ | _[Modlist](https://github.com/TeamAOF/All-of-Fabric-5/blob/main/changelogs/modlist_0.2.11.md)_
 
+## Added
+
+* [XP Obelisk](https://www.curseforge.com/minecraft/mc-mods/xp-obelisk)
+
 ## Changes
 
 * Hide Indrev steel & silver armor from REI.
@@ -14,6 +18,7 @@ _Fabric Loader 0.12.12_ | _[Mod Updates](https://github.com/TeamAOF/All-of-Fabri
 
 * Fixed FakePlayer server crash with Kibe spikes.
 * Fixed keybind conflicts with T key in inventory.
+* Fixed Wheel Tweak blocking the open container's wheel handling.
 * Fixed chalk and dwarf coal always showing up in REI, I promise I did it this time.
 * Fixed incorrect output of bronze crook.
 * Fixed tin curved plate not being allowed in indrev compressor.
