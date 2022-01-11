@@ -1,3 +1,30 @@
+### All of Fabric 5 | v0.2.11
+
+_Fabric Loader 0.12.12_ | _[Mod Updates](https://github.com/TeamAOF/All-of-Fabric-5/blob/main/changelogs/changelog_mods_0.2.11.md)_ | _[Modlist](https://github.com/TeamAOF/All-of-Fabric-5/blob/main/changelogs/modlist_0.2.11.md)_
+
+## Changes
+
+* Hide Indrev steel & silver armor from REI.
+* Replace inputs of magitek mechs iron gear with MI equivalent.
+* New recipe for Basic Machine Frame (https://i.imgur.com/psubDWt.png).
+* New recipe for Grinder (https://i.imgur.com/8pdGxfN.png)
+
+
+## Fixes
+
+* Fixed FakePlayer server crash with Kibe spikes.
+* Fixed keybind conflicts with T key in inventory.
+* Fixed Wheel Tweak blocking the open container's wheel handling.
+* Fixed chalk and dwarf coal always showing up in REI, I promise I did it this time.
+* Fixed incorrect output of bronze crook.
+* Fixed tin curved plate not being allowed in indrev compressor.
+
+## Added
+
+* [XP Obelisk](https://www.curseforge.com/minecraft/mc-mods/xp-obelisk)
+
+---
+
 ### All of Fabric 5 | v0.2.10
 
 _Fabric Loader 0.12.12_ | _[Mod Updates](https://github.com/TeamAOF/All-of-Fabric-5/blob/main/changelogs/changelog_mods_0.2.10.md)_ | _[Modlist](https://github.com/TeamAOF/All-of-Fabric-5/blob/main/changelogs/modlist_0.2.10.md)_
@@ -10,7 +37,7 @@ _Fabric Loader 0.12.12_ | _[Mod Updates](https://github.com/TeamAOF/All-of-Fabri
 * Mounted flight is back! Ya'll like your dragons too much...
 * Added shaped flint recipe from 3 gravel.
 * Added lignite coal to coals tag, this will allow for mainly lignite in bewitchment recipes but also a couple others.
-* Compatibility check for version will no longer modpack name, less clutter.
+* Compatibility check for version will no longer show modpack name, less clutter.
 
 ## Fixes
 

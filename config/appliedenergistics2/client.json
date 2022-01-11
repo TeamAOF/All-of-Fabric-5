@@ -13,6 +13,6 @@
     "__comment": "Should tooltips be searched. Performance impact",
     "searchTooltips": "yes",
     "terminalStyle": "small",
-    "terminalSearchMode": "default"
+    "terminalSearchMode": "rei"
   }
 }
