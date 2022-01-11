@@ -112,7 +112,7 @@
 		}
 		{
 			x: -6.0d
-			y: -1.0d
+			y: -0.5d
 			subtitle: "Lets you make plates and rings in a good ratio"
 			dependencies: ["4661838E492BDE53"]
 			id: "7F96B49412F52611"
@@ -129,7 +129,7 @@
 		}
 		{
 			x: -6.0d
-			y: 0.5d
+			y: 1.0d
 			subtitle: "They just boil water, needs time to heat up"
 			description: [
 				"Its the first tier steam source, later you can use steel boiler, advanced steam boiler etc"
@@ -205,7 +205,7 @@
 		}
 		{
 			x: -6.0d
-			y: 2.0d
+			y: 2.5d
 			subtitle: "They just grind stuff"
 			description: [
 				"now that we have macerator, ore multiplying.... something"
@@ -457,7 +457,7 @@
 		}
 		{
 			x: -4.0d
-			y: -1.0d
+			y: -0.5d
 			subtitle: "Double ingot in machines has same processing time as single, but gets you 2x output for the same time and energy"
 			description: ["Cheap plates and rods"]
 			dependencies: ["7F96B49412F52611"]
@@ -482,7 +482,7 @@
 		}
 		{
 			x: -4.0d
-			y: 0.5d
+			y: 1.0d
 			subtitle: "Auto bucketer"
 			description: ["it pumps water when you give steam, have to be near atleast a water source, if it has water in all 4 sides, it pumps more water per operation"]
 			dependencies: ["0BAB52BE15CE157F"]
@@ -499,8 +499,8 @@
 			}]
 		}
 		{
-			x: -6.0d
-			y: 4.0d
+			x: -4.0d
+			y: 2.5d
 			subtitle: "Want to scale up your cola factory? This is the way"
 			description: ["With macerator you can grind terracotta for brick dust"]
 			dependencies: ["5A27B361EF71A4DF"]
@@ -912,6 +912,29 @@
 						}
 					}
 				}
+			}]
+		}
+		{
+			title: "Item transportation"
+			x: 6.0d
+			y: 0.0d
+			subtitle: "With steel, you can now make Item pipes"
+			description: [
+				"By default they are in whitelist mode, you have to change it to blacklist or filter items in the pipe GUI"
+				"They can be speed up by using motors"
+			]
+			dependencies: ["7C5C1CA5A7954896"]
+			id: "38F9192F665742BA"
+			tasks: [{
+				id: "52537690D3281DBF"
+				type: "item"
+				item: "modern_industrialization:item_pipe"
+				count: 16L
+			}]
+			rewards: [{
+				id: "2D1385BDDA39BA9B"
+				type: "item"
+				item: "modern_industrialization:motor"
 			}]
 		}
 	]
