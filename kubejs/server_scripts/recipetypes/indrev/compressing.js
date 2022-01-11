@@ -18,4 +18,19 @@ onEvent('recipes', (event) => {
   processTime: 300
 
  });
+
+ event.recipes.indrev.compress({
+ 
+    type: "indrev:compress",
+    ingredients: {
+        tag: "c:tin_plates",
+        count: 1
+    },
+    output: {
+        item: "modern_industrialization:tin_curved_plate",
+        count: 1
+    },
+    processTime: 300
+  
+   });
 });
