@@ -1,0 +1,19 @@
+{
+	id: "55534E1BE135C3C1"
+	group: ""
+	order_index: 2
+	filename: "infinity"
+	title: "Challenges"
+	icon: "croptopia:starfruit"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [{
+		x: 0.0d
+		y: -1.0d
+		id: "523E1412FAFB4688"
+		tasks: [{
+			id: "7BBEA349BF104F39"
+			type: "item"
+		}]
+	}]
+}

@@ -1,0 +1,19 @@
+{
+	id: "36C36FC0225A052C"
+	group: "607036E1A9E1A42E"
+	order_index: 0
+	filename: "deep_mob_learning"
+	title: "Deep Mob Learning"
+	icon: "dml-refabricated:deep_learner"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [{
+		x: 1.5d
+		y: 0.0d
+		id: "0F1226D3C3137FC0"
+		tasks: [{
+			id: "079E76178C60C1FB"
+			type: "item"
+		}]
+	}]
+}

@@ -1,0 +1,23 @@
+{
+	id: "6486CFAD73CBEFBA"
+	group: "1039AC171AB01709"
+	order_index: 3
+	filename: "conjuring"
+	title: "Conjuring"
+	icon: {
+		id: "conjuring:enchiridion"
+		Count: 1b
+		tag: { }
+	}
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [{
+		x: 0.0d
+		y: 1.0d
+		id: "608BC482A9E9F661"
+		tasks: [{
+			id: "455B25D4BE998F36"
+			type: "item"
+		}]
+	}]
+}

@@ -1,0 +1,19 @@
+{
+	id: "1327E51AE0952762"
+	group: "358D197F76770491"
+	order_index: 2
+	filename: "go_fish"
+	title: "Go Fish"
+	icon: "gofish:spikerfish"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [{
+		x: 0.5d
+		y: 1.0d
+		id: "3E8E5322EEF64402"
+		tasks: [{
+			id: "380451A62EAE58A4"
+			type: "item"
+		}]
+	}]
+}

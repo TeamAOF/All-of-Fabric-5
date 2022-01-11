@@ -1,0 +1,19 @@
+{
+	id: "431D410163BEFCA5"
+	group: "358D197F76770491"
+	order_index: 1
+	filename: "farmers_delight"
+	title: "Farmer's Delight"
+	icon: "farmersdelight:roast_chicken_block"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [{
+		x: 0.0d
+		y: 0.5d
+		id: "13494235239D73AF"
+		tasks: [{
+			id: "250C6176A9F7DF62"
+			type: "item"
+		}]
+	}]
+}

@@ -1,0 +1,25 @@
+{
+	id: "33C9E52EF9326063"
+	group: "1039AC171AB01709"
+	order_index: 2
+	filename: "botania"
+	title: "Botania"
+	icon: {
+		id: "botania:lexicon"
+		Count: 1b
+		tag: {
+			"botania:elven_unlock": 1b
+		}
+	}
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [{
+		x: -0.5d
+		y: 1.0d
+		id: "27880F3177969B93"
+		tasks: [{
+			id: "4375992B2BA18EAA"
+			type: "item"
+		}]
+	}]
+}

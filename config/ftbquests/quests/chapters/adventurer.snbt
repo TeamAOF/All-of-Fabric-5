@@ -1,0 +1,19 @@
+{
+	id: "0859CFB3AB3324C9"
+	group: ""
+	order_index: 1
+	filename: "adventurer"
+	title: "Adventurer"
+	icon: "betterend:enchanted_petal"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [{
+		x: -1.5d
+		y: -0.5d
+		id: "1637B63A591FB7FA"
+		tasks: [{
+			id: "5E25EBBD2969B3A4"
+			type: "item"
+		}]
+	}]
+}

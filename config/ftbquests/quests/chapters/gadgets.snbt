@@ -1,0 +1,32 @@
+{
+	id: "19424F3F4D7521A2"
+	group: "607036E1A9E1A42E"
+	order_index: 1
+	filename: "gadgets"
+	title: "Gadgets"
+	icon: {
+		id: "buildinggadgets:template"
+		Count: 1b
+		tag: {
+			"buildinggadgets:template_key": {
+				template_id: [I;
+					-927514175
+					-105624663
+					-1781008156
+					-1639149800
+				]
+			}
+		}
+	}
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [{
+		x: -0.5d
+		y: 1.5d
+		id: "3528A179146E9F1B"
+		tasks: [{
+			id: "45D0E3199FF8BEE4"
+			type: "item"
+		}]
+	}]
+}

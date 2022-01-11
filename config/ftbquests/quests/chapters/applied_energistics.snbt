@@ -1,0 +1,19 @@
+{
+	id: "1C4A7D73409E23C9"
+	group: "0815C5D80307ECDF"
+	order_index: 0
+	filename: "applied_energistics"
+	title: "Applied Energistics 2"
+	icon: "ae2:singularity"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [{
+		x: -1.5d
+		y: -1.5d
+		id: "29B01189D3BD5C20"
+		tasks: [{
+			id: "7730531E47E27059"
+			type: "item"
+		}]
+	}]
+}

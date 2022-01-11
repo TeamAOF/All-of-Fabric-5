@@ -1,0 +1,19 @@
+{
+	id: "72B7D7CF2F338EAC"
+	group: "0815C5D80307ECDF"
+	order_index: 3
+	filename: "tech_reborn"
+	title: "Tech Reborn"
+	icon: "techreborn:matter_fabricator"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [{
+		x: 0.0d
+		y: 0.0d
+		id: "498A6EDDDC920B66"
+		tasks: [{
+			id: "0112B72899D42C27"
+			type: "item"
+		}]
+	}]
+}

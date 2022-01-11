@@ -1,0 +1,19 @@
+{
+	id: "1C3DE1230BF0A0D5"
+	group: "358D197F76770491"
+	order_index: 0
+	filename: "croptopia"
+	title: "Croptopia"
+	icon: "croptopia:raspberry"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [{
+		x: 0.0d
+		y: 1.0d
+		id: "59C6F4157CB13B70"
+		tasks: [{
+			id: "02B0C92993C2B6EE"
+			type: "item"
+		}]
+	}]
+}

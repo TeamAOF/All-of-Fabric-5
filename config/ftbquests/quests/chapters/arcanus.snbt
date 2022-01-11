@@ -1,0 +1,25 @@
+{
+	id: "292065E5EB368449"
+	group: "1039AC171AB01709"
+	order_index: 0
+	filename: "arcanus"
+	title: "Arcanus"
+	icon: {
+		id: "arcanus:master_wand"
+		Count: 1b
+		tag: {
+			arcanus: { }
+		}
+	}
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [{
+		x: -1.5d
+		y: -0.5d
+		id: "0CEEE91794F3EC57"
+		tasks: [{
+			id: "6CD45AD475F23F34"
+			type: "item"
+		}]
+	}]
+}

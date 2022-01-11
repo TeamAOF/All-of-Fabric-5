@@ -1,0 +1,8 @@
+{
+	chapter_groups: [
+		{ id: "0815C5D80307ECDF", title: "Tech" }
+		{ id: "1039AC171AB01709", title: "Magic" }
+		{ id: "607036E1A9E1A42E", title: "Utilities" }
+		{ id: "358D197F76770491", title: "Agriculture" }
+	]
+}

@@ -1,0 +1,23 @@
+{
+	id: "3B75DF2FD2A978FF"
+	group: "607036E1A9E1A42E"
+	order_index: 2
+	filename: "kibe"
+	title: "Kibe"
+	icon: {
+		id: "kibe:angel_ring"
+		Count: 1b
+		tag: { }
+	}
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [{
+		x: -0.5d
+		y: 1.0d
+		id: "1EFC38B92E71700C"
+		tasks: [{
+			id: "29299B59F40379EA"
+			type: "item"
+		}]
+	}]
+}

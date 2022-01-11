@@ -1,0 +1,19 @@
+{
+	id: "06E76B49ED832B81"
+	group: "1039AC171AB01709"
+	order_index: 4
+	filename: "spectrum"
+	title: "Spectrum"
+	icon: "spectrum:end_portal_cracker"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [{
+		x: -0.5d
+		y: 0.5d
+		id: "3BA4C1388275EB56"
+		tasks: [{
+			id: "62D65688F94E3AC7"
+			type: "item"
+		}]
+	}]
+}

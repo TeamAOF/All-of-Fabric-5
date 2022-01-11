@@ -1,0 +1,19 @@
+{
+	id: "5BB4D2FC1908D3D1"
+	group: "0815C5D80307ECDF"
+	order_index: 1
+	filename: "modern_industrialization"
+	title: "Modern Industrialization"
+	icon: "modern_industrialization:singularity"
+	default_quest_shape: "circle"
+	default_hide_dependency_lines: false
+	quests: [{
+		x: -1.0d
+		y: -1.0d
+		id: "6F6196A606D3A8EF"
+		tasks: [{
+			id: "6088092E482C6581"
+			type: "item"
+		}]
+	}]
+}
