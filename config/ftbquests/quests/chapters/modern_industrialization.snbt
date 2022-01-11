@@ -75,14 +75,22 @@
 			x: -9.5d
 			y: -1.5d
 			subtitle: "You need a lot of it, but not a good idea to craft now, maybe you can use mixer?"
+			description: ["Note that rightclicking Steam machines with Gunpowder speeds up the process for limited time"]
 			dependencies: ["385079198388468C"]
 			id: "4661838E492BDE53"
-			tasks: [{
-				id: "70E71E2E482D5EAC"
-				type: "item"
-				item: "modern_industrialization:bronze_dust"
-				count: 64L
-			}]
+			tasks: [
+				{
+					id: "70E71E2E482D5EAC"
+					type: "item"
+					item: "modern_industrialization:bronze_dust"
+					count: 64L
+				}
+				{
+					id: "43C425E6990963E5"
+					type: "item"
+					item: "modern_industrialization:wrench"
+				}
+			]
 			rewards: [
 				{
 					id: "3E441C535BFEFCAD"
@@ -618,6 +626,292 @@
 				type: "item"
 				item: "modern_industrialization:sulfur_dust"
 				count: 16
+			}]
+		}
+		{
+			title: "Faster machines?"
+			x: 3.5d
+			y: -4.5d
+			subtitle: "Now that you have steel, we can upgrade the machines, note that its done in smithing table"
+			dependencies: ["7C5C1CA5A7954896"]
+			id: "6F4AE13DA520109C"
+			tasks: [{
+				id: "763B45889C554D7E"
+				type: "item"
+				item: "modern_industrialization:steel_upgrade"
+				count: 2L
+			}]
+			rewards: [{
+				id: "029241287979A24B"
+				type: "item"
+				item: "minecraft:gunpowder"
+				count: 64
+			}]
+		}
+		{
+			title: "More speed? cant make soldering alloy?"
+			x: 3.5d
+			y: 0.5d
+			subtitle: "Steam multiblocks which is using Bronze hatches/buses only can do recipies upto 2EU/t, but if you replace it with a steel hatch/bus, it can overclock upto 4EU/t"
+			dependencies: ["7C5C1CA5A7954896"]
+			id: "0C14E13796818F4B"
+			tasks: [{
+				id: "6B04F3DECEDE90B4"
+				type: "item"
+				item: "modern_industrialization:steel_machine_casing"
+			}]
+			rewards: [{
+				id: "75BC28038B5318CA"
+				type: "item"
+				item: "minecraft:gunpowder"
+				count: 64
+			}]
+		}
+		{
+			title: "Infinite resources? this early in the pack?"
+			icon: "modern_industrialization:steam_quarry"
+			x: 7.5d
+			y: -5.0d
+			subtitle: "So what does it do?"
+			description: [
+				""
+				"It uses the drill to drill under the bedrock for ores and blocks. For now you can only use Bronze and Copper drills. Note that they have a chance to break, just like the chance to get output"
+				""
+				"So then is it worth the effort?"
+				"    Yes it is, its only 1% chance to break"
+			]
+			dependencies: ["7C5C1CA5A7954896"]
+			id: "26E587E34810A8FE"
+			tasks: [
+				{
+					id: "0B829B6C4987D67B"
+					type: "item"
+					item: "modern_industrialization:steam_quarry"
+				}
+				{
+					id: "3FA8E3781E4BF9AE"
+					type: "item"
+					item: "modern_industrialization:steel_machine_casing"
+					count: 13L
+				}
+				{
+					id: "4AEC4A5817CF1493"
+					type: "item"
+					item: "modern_industrialization:steel_machine_casing_pipe"
+					count: 6L
+				}
+				{
+					id: "05F5685C54F12B88"
+					type: "item"
+					item: "minecraft:chain"
+					count: 4L
+				}
+			]
+			rewards: [{
+				id: "302AEA45DA84BE60"
+				type: "item"
+				item: "modern_industrialization:copper_drill"
+			}]
+		}
+		{
+			title: "Bronze drill"
+			x: 7.5d
+			y: -7.0d
+			subtitle: "For now make 4 drills, later you can make gears easily with assembler"
+			description: ["Bronze drill gives basic resources like iron,gold,tin etc. Check REI for more info"]
+			dependencies: ["26E587E34810A8FE"]
+			id: "74A278B57EF76B3B"
+			tasks: [{
+				id: "624F6E6D7A45923D"
+				type: "item"
+				item: "modern_industrialization:bronze_drill"
+				count: 4L
+			}]
+			rewards: [{
+				id: "333F6E9CD02C5A02"
+				type: "item"
+				item: "minecraft:gunpowder"
+				count: 64
+			}]
+		}
+		{
+			title: "Automatic Ore Processing"
+			x: 5.5d
+			y: -6.5d
+			subtitle: "It would be a good idea to make  a proper ore processing setup for your steam quarry "
+			dependencies: ["26E587E34810A8FE"]
+			id: "22EB0A76A95822A5"
+			tasks: [{
+				id: "399CF7A0D338B99B"
+				type: "item"
+				item: "modern_industrialization:steel_macerator"
+				count: 2L
+			}]
+			rewards: [{
+				id: "3D1ED0EB61695797"
+				type: "item"
+				item: "minecraft:iron_ore"
+				count: 16
+			}]
+		}
+		{
+			x: 7.5d
+			y: -2.0d
+			subtitle: "Wiremill lets you make wires "
+			dependencies: ["7C5C1CA5A7954896"]
+			id: "43F43FB0B9ED0818"
+			tasks: [{
+				id: "32FF28A50A8B3DD5"
+				type: "item"
+				item: "modern_industrialization:steel_wiremill"
+			}]
+			rewards: [{
+				id: "1679CA679854D2E7"
+				type: "item"
+				item: "modern_industrialization:tin_plate"
+				count: 16
+			}]
+		}
+		{
+			x: 9.5d
+			y: -6.5d
+			subtitle: "To those who dont like to MINE in Minecraft"
+			dependencies: ["26E587E34810A8FE"]
+			id: "2F5A88568154E986"
+			tasks: [{
+				id: "4CB128CC2F0687DD"
+				type: "item"
+				item: "modern_industrialization:copper_drill"
+			}]
+		}
+		{
+			title: "Rubber"
+			x: 7.5d
+			y: 0.5d
+			subtitle: "For circuit, rubber is required"
+			description: ["You can easily automate it with Wood, for that you need 3 mixer's, 1 Blast furnace and a macerator"]
+			dependencies: ["43F43FB0B9ED0818"]
+			dependency_requirement: "one_started"
+			optional: true
+			id: "7E5C67AC837B610C"
+			tasks: [
+				{
+					id: "02A613D2C1D5DD10"
+					type: "item"
+					item: "modern_industrialization:steam_blast_furnace"
+				}
+				{
+					id: "2DC12FD1A9941A21"
+					type: "item"
+					item: "modern_industrialization:steel_machine_casing"
+				}
+				{
+					id: "3F959BAA71D31EF9"
+					type: "item"
+					item: "modern_industrialization:bronze_mixer"
+					count: 3L
+				}
+				{
+					id: "239B1777FB813621"
+					type: "item"
+					item: "modern_industrialization:bronze_macerator"
+				}
+			]
+			rewards: [{
+				id: "0692C5F69F45C25A"
+				type: "item"
+				item: "modern_industrialization:steel_barrel"
+			}]
+		}
+		{
+			icon: "modern_industrialization:resistor"
+			x: 11.5d
+			y: -4.5d
+			subtitle: "Each circuits need 2 resistor"
+			dependencies: ["43F43FB0B9ED0818"]
+			id: "07F957350FCC1D98"
+			tasks: [{
+				id: "1E7D0F5F994C9BF6"
+				type: "item"
+				item: "modern_industrialization:resistor"
+				count: 18L
+			}]
+			rewards: [{
+				id: "342ED5DADDAC9A89"
+				type: "item"
+				item: "minecraft:copper_ingot"
+				count: 8
+			}]
+		}
+		{
+			x: 11.5d
+			y: -3.0d
+			subtitle: "Each circuit needs 1 "
+			dependencies: ["43F43FB0B9ED0818"]
+			id: "5AB4B2B1A416632E"
+			tasks: [{
+				id: "59D1204F72EA32CE"
+				type: "item"
+				item: "modern_industrialization:inductor"
+				count: 9L
+			}]
+		}
+		{
+			x: 11.5d
+			y: -1.5d
+			subtitle: "Each circuit needs 2"
+			dependencies: ["43F43FB0B9ED0818"]
+			id: "590185615CE89F08"
+			tasks: [{
+				id: "1CDEA2F2B59417F9"
+				type: "item"
+				item: "modern_industrialization:capacitor"
+				count: 18L
+			}]
+		}
+		{
+			x: 11.5d
+			y: 0.0d
+			subtitle: "You need one each"
+			dependencies: ["43F43FB0B9ED0818"]
+			id: "755B82B6F2B9C099"
+			tasks: [{
+				id: "1F06453DCE423AFA"
+				type: "item"
+				item: "modern_industrialization:analog_circuit_board"
+				count: 9L
+			}]
+		}
+		{
+			title: "Your first circuits"
+			x: 15.5d
+			y: -2.0d
+			subtitle: "By completing the previous quests, you now have enough items to craft 9 circuits, which is needed for an assembler and a steam turbine"
+			dependencies: [
+				"07F957350FCC1D98"
+				"5AB4B2B1A416632E"
+				"590185615CE89F08"
+				"755B82B6F2B9C099"
+			]
+			id: "19E5E31614FE485E"
+			tasks: [{
+				id: "33A196551A047E54"
+				type: "item"
+				item: "modern_industrialization:analog_circuit"
+				count: 9L
+			}]
+			rewards: [{
+				id: "0C7F9145B4CC4C35"
+				type: "item"
+				item: {
+					id: "cacao:cookie_cream_white_chocolate"
+					Count: 1b
+					tag: {
+						display: {
+							Name: "{\"text\":\"Here, this cookie is for you\"}"
+						}
+					}
+				}
 			}]
 		}
 	]
