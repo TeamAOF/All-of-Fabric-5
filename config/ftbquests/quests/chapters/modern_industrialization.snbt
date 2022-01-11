@@ -7,13 +7,445 @@
 	icon: "modern_industrialization:singularity"
 	default_quest_shape: "circle"
 	default_hide_dependency_lines: false
-	quests: [{
-		x: -1.0d
-		y: -1.0d
-		id: "6F6196A606D3A8EF"
-		tasks: [{
-			id: "6088092E482C6581"
-			type: "item"
-		}]
-	}]
+	quests: [
+		{
+			icon: "modern_industrialization:guidebook"
+			x: -15.0d
+			y: -1.5d
+			id: "6F6196A606D3A8EF"
+			tasks: [{
+				id: "3E45F701C61708E1"
+				type: "checkmark"
+			}]
+			rewards: [{
+				id: "3CC4D443B33915F5"
+				type: "item"
+				item: "modern_industrialization:guidebook"
+			}]
+		}
+		{
+			x: -13.0d
+			y: -1.5d
+			dependencies: ["6F6196A606D3A8EF"]
+			id: "175EB708C76C73FF"
+			tasks: [{
+				id: "4B278FF0D1B56D8A"
+				type: "item"
+				icon: "minecraft:iron_ingot"
+				item: "minecraft:iron_ingot"
+				count: 64L
+			}]
+			rewards: [{
+				id: "72C0A0294F6320ED"
+				type: "item"
+				item: "minecraft:iron_ingot"
+				count: 16
+			}]
+		}
+		{
+			x: -11.0d
+			y: -1.5d
+			subtitle: "for this you need 49 iron to be specific ..."
+			dependencies: ["175EB708C76C73FF"]
+			id: "385079198388468C"
+			tasks: [{
+				id: "1B769C345EAF942C"
+				type: "item"
+				item: "modern_industrialization:forge_hammer"
+			}]
+		}
+		{
+			title: "make 64 bronze"
+			icon: "modern_industrialization:bronze_ingot"
+			x: -9.5d
+			y: -1.5d
+			subtitle: "make it choice reward?"
+			dependencies: ["385079198388468C"]
+			id: "4661838E492BDE53"
+			tasks: [{
+				id: "70E71E2E482D5EAC"
+				type: "item"
+				item: "modern_industrialization:bronze_ingot"
+				count: 64L
+			}]
+			rewards: [
+				{
+					id: "3E441C535BFEFCAD"
+					type: "item"
+					item: "modern_industrialization:bucket_steam"
+				}
+				{
+					id: "0F3A0CFB0F279107"
+					type: "item"
+					item: {
+						id: "modern_industrialization:iron_hammer"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+			]
+		}
+		{
+			x: -6.0d
+			y: -1.0d
+			dependencies: ["4661838E492BDE53"]
+			id: "7F96B49412F52611"
+			tasks: [{
+				id: "3F8C83D99FC1C002"
+				type: "item"
+				item: "modern_industrialization:bronze_compressor"
+			}]
+		}
+		{
+			x: -6.0d
+			y: 0.5d
+			description: ["Its the first tier steam source, later you can use steel boiler, advanced steam boiler etc"]
+			dependencies: ["4661838E492BDE53"]
+			id: "0BAB52BE15CE157F"
+			tasks: [{
+				id: "047BE723A63F9E5F"
+				type: "item"
+				item: "modern_industrialization:bronze_boiler"
+			}]
+		}
+		{
+			title: "Steam blast furnace"
+			icon: "modern_industrialization:steam_blast_furnace"
+			x: 1.0d
+			y: -2.0d
+			description: [
+				"now you have everything to make steel....."
+				"Hold wrench to show the multiblock hologram"
+				"you can overclock with replacing one bronze hatch with steel"
+			]
+			dependencies: [
+				"46516764261A77DA"
+				"3E1CB2EB0464CFA2"
+				"748D2241F66FF644"
+				"4FF7802D7FA86DF5"
+				"0DD703B94D202B68"
+			]
+			id: "586CB8FEAA0A50C6"
+			tasks: [
+				{
+					id: "34C10A32EE244F3F"
+					type: "item"
+					item: "modern_industrialization:fire_clay_bricks"
+					count: 27L
+				}
+				{
+					id: "49215E965FF25243"
+					type: "item"
+					item: "modern_industrialization:steam_blast_furnace"
+				}
+				{
+					id: "343625490325E9E0"
+					type: "item"
+					item: "modern_industrialization:bronze_fluid_input_hatch"
+				}
+				{
+					id: "1F0ABBBFABD188C2"
+					type: "item"
+					item: "modern_industrialization:bronze_item_input_hatch"
+				}
+				{
+					id: "6056045338C6DD46"
+					type: "item"
+					item: "modern_industrialization:bronze_item_output_hatch"
+				}
+			]
+			rewards: [{
+				id: "45148B85F7AD9D1B"
+				type: "item"
+				item: "modern_industrialization:uncooked_steel_dust"
+				count: 16
+			}]
+		}
+		{
+			x: -6.0d
+			y: 2.0d
+			description: [
+				"now that we have macerator, ore multiplying.... something"
+				"make sure to not grind your precious diamond ore"
+			]
+			dependencies: ["4661838E492BDE53"]
+			id: "5A27B361EF71A4DF"
+			tasks: [{
+				id: "7799145BACA36D6A"
+				type: "item"
+				item: "modern_industrialization:bronze_macerator"
+			}]
+			rewards: [{
+				id: "41DCB66407D181FB"
+				type: "item"
+				item: "minecraft:diamond"
+			}]
+		}
+		{
+			x: -11.0d
+			y: -4.0d
+			description: [
+				"has 3x3 silktouch"
+				"right click burnable fuel while in inventory"
+				"rightclick water /flowing water, wont consume"
+			]
+			dependencies: ["385079198388468C"]
+			id: "70CD9F0D26A75E13"
+			tasks: [{
+				id: "4BCB31C3818DC3D7"
+				type: "item"
+				item: "modern_industrialization:steam_mining_drill"
+			}]
+		}
+		{
+			x: -6.0d
+			y: -5.0d
+			dependencies: ["4661838E492BDE53"]
+			dependency_requirement: "one_started"
+			id: "4575644C7E5F2DEE"
+			tasks: [{
+				id: "1CCFC1ADFBB4F858"
+				type: "item"
+				item: "modern_industrialization:bronze_mixer"
+			}]
+		}
+		{
+			x: -6.0d
+			y: -8.5d
+			subtitle: "need lubricant to work"
+			description: ["make lubricant by combining redstone and creosote on mixer"]
+			dependencies: [
+				"4661838E492BDE53"
+				"424247795860B191"
+			]
+			id: "68E8311AC3140A56"
+			tasks: [{
+				id: "05C1EB3A2AEB99EF"
+				type: "item"
+				item: "modern_industrialization:bronze_cutting_machine"
+			}]
+		}
+		{
+			x: -6.0d
+			y: -3.5d
+			dependencies: ["4661838E492BDE53"]
+			id: "39FADF9C0442304F"
+			tasks: [{
+				id: "5FB4F9E06ED83BA2"
+				type: "item"
+				item: "modern_industrialization:fire_clay_brick"
+			}]
+		}
+		{
+			x: -4.0d
+			y: -3.5d
+			description: ["Not fast, but fuel efficient, can auto output unlike vanilla furnace"]
+			dependencies: ["39FADF9C0442304F"]
+			id: "4AD93229344EA0BE"
+			tasks: [{
+				id: "747A0D40FA945748"
+				type: "item"
+				item: "modern_industrialization:bronze_furnace"
+			}]
+		}
+		{
+			x: -4.0d
+			y: -8.5d
+			description: ["rods are cheaper"]
+			dependencies: ["68E8311AC3140A56"]
+			id: "46516764261A77DA"
+			tasks: [{
+				id: "7F13A23BAF0B3AFB"
+				type: "item"
+				item: "modern_industrialization:bronze_rod"
+			}]
+		}
+		{
+			icon: "modern_industrialization:coke_oven"
+			x: -6.0d
+			y: -2.0d
+			description: [
+				"lets you make coal coke and coke dust"
+				"it voids the creosote if it doent has fluid output"
+				"you need creosote to turn into lubricant for cutting machine later, for that you need additional fluid output hatch"
+			]
+			dependencies: ["4661838E492BDE53"]
+			id: "36ECD7C06649DE78"
+			tasks: [
+				{
+					id: "217D2448551C324A"
+					type: "item"
+					item: "modern_industrialization:coke_oven"
+				}
+				{
+					id: "2418D8560CE16E75"
+					type: "item"
+					item: "minecraft:bricks"
+					count: 21L
+				}
+				{
+					id: "1EC4B2642DBB8127"
+					type: "item"
+					item: "modern_industrialization:bronze_item_input_hatch"
+				}
+				{
+					id: "510058C68DBCD031"
+					type: "item"
+					item: "modern_industrialization:bronze_item_output_hatch"
+				}
+				{
+					id: "267A96FED5F44276"
+					type: "item"
+					item: "modern_industrialization:bronze_fluid_input_hatch"
+				}
+			]
+			rewards: [{
+				id: "292BB527106994BA"
+				type: "item"
+				item: "modern_industrialization:coal_dust"
+				count: 64
+			}]
+		}
+		{
+			x: -4.0d
+			y: -5.0d
+			description: ["Dusts are now cheaper"]
+			dependencies: ["4575644C7E5F2DEE"]
+			id: "3E1CB2EB0464CFA2"
+			tasks: [{
+				id: "5E085207F0196364"
+				type: "item"
+				item: "modern_industrialization:bronze_dust"
+			}]
+		}
+		{
+			x: -4.0d
+			y: -2.0d
+			description: ["note that block of coal coke has less burn time compared to 9 coal coke, because minecraft"]
+			dependencies: ["36ECD7C06649DE78"]
+			id: "748D2241F66FF644"
+			tasks: [
+				{
+					id: "4F5F070D435F875B"
+					type: "item"
+					item: "modern_industrialization:coke"
+				}
+				{
+					id: "6C1E991F4D0A3148"
+					type: "item"
+					item: "modern_industrialization:coke_dust"
+				}
+			]
+		}
+		{
+			x: -4.0d
+			y: -1.0d
+			description: ["cheaper plate and rings"]
+			dependencies: ["7F96B49412F52611"]
+			id: "4FF7802D7FA86DF5"
+			tasks: [
+				{
+					id: "4F8D5180922038B8"
+					type: "item"
+					item: "modern_industrialization:bronze_plate"
+				}
+				{
+					id: "20FFD22A767C2D74"
+					type: "item"
+					item: "modern_industrialization:bronze_ring"
+				}
+			]
+		}
+		{
+			x: -4.0d
+			y: 0.5d
+			description: ["it pumps water when you give steam, have to be near atleast a water source, if it has water in all 4 sides, it pumps more water per operation"]
+			dependencies: ["0BAB52BE15CE157F"]
+			id: "0DD703B94D202B68"
+			tasks: [{
+				id: "510DB26BFE950469"
+				type: "item"
+				item: "modern_industrialization:bronze_water_pump"
+			}]
+			rewards: [{
+				id: "4A99781E414DF981"
+				type: "item"
+				item: "minecraft:water_bucket"
+			}]
+		}
+		{
+			x: -6.0d
+			y: 4.0d
+			description: ["with macerator you can grind terracotta for brick dust"]
+			dependencies: ["5A27B361EF71A4DF"]
+			id: "09B01837C769C6E1"
+			tasks: [{
+				id: "299FB72281BDFE79"
+				type: "item"
+				item: "minecraft:terracotta"
+			}]
+		}
+		{
+			x: -4.5d
+			y: -7.0d
+			dependencies: ["4575644C7E5F2DEE"]
+			id: "424247795860B191"
+			tasks: [{
+				id: "58534455387472E9"
+				type: "item"
+				item: "modern_industrialization:bucket_lubricant"
+			}]
+		}
+		{
+			x: -9.5d
+			y: 0.5d
+			description: [
+				"you can make fluid pipes now,item pipes are unlcoked when you get steel"
+				"three pipes/cables  can share a single block space"
+			]
+			dependencies: ["4661838E492BDE53"]
+			id: "75608EDF99965533"
+			tasks: [{
+				id: "2E9298C2FC478FF5"
+				type: "item"
+				item: "modern_industrialization:fluid_pipe"
+			}]
+		}
+		{
+			title: "Your first steel"
+			x: 3.5d
+			y: -2.0d
+			description: ["You are gonna need a lot later for quarry, item pipes barrel etc"]
+			dependencies: ["586CB8FEAA0A50C6"]
+			id: "7C5C1CA5A7954896"
+			tasks: [{
+				id: "3612549FFBF5E73C"
+				type: "item"
+				item: "modern_industrialization:steel_ingot"
+			}]
+			rewards: [{
+				id: "54EC2EA3BC88AADE"
+				type: "item"
+				item: "modern_industrialization:uncooked_steel_dust"
+				count: 16
+			}]
+		}
+		{
+			x: -9.5d
+			y: -4.0d
+			description: [
+				"It stores 32 stack of single item, keeps its content while breaking "
+				"Sneak right click with Wrench to break"
+			]
+			dependencies: ["4661838E492BDE53"]
+			id: "0E42ED6ABB9B2AD7"
+			tasks: [{
+				id: "30BD5E1C29B11221"
+				type: "item"
+				item: "modern_industrialization:bronze_barrel"
+			}]
+		}
+	]
 }
