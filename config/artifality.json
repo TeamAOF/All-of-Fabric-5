@@ -1,0 +1,23 @@
+{
+  "invisibility_cape": {
+    "chance": 4
+  },
+  "ukulele": {
+    "chance": 3
+  },
+  "zeus_staff": {
+    "chance": 2
+  },
+  "forest_staff": {
+    "chance": 3
+  },
+  "harvest_staff": {
+    "chance": 3
+  },
+  "floral_staff": {
+    "chance": 3
+  },
+  "balloon": {
+    "chance": 4
+  }
+}

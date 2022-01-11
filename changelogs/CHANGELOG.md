@@ -1,3 +1,25 @@
+### All of Fabric 5 | v0.2.11
+
+_Fabric Loader 0.12.12_ | _[Mod Updates](https://github.com/TeamAOF/All-of-Fabric-5/blob/main/changelogs/changelog_mods_0.2.11.md)_ | _[Modlist](https://github.com/TeamAOF/All-of-Fabric-5/blob/main/changelogs/modlist_0.2.11.md)_
+
+## Changes
+
+* Hide Indrev steel & silver armor from REI.
+* Replace inputs of magitek mechs iron gear with MI equivalent.
+* New recipe for Basic Machine Frame (https://i.imgur.com/psubDWt.png).
+* New recipe for Grinder (https://i.imgur.com/8pdGxfN.png)
+
+
+## Fixes
+
+* Fixed FakePlayer server crash with Kibe spikes.
+* Fixed keybind conflicts with T key in inventory.
+* Fixed chalk and dwarf coal always showing up in REI, I promise I did it this time.
+* Fixed incorrect output of bronze crook.
+* Fixed tin curved plate not being allowed in indrev compressor.
+
+---
+
 ### All of Fabric 5 | v0.2.10
 
 _Fabric Loader 0.12.12_ | _[Mod Updates](https://github.com/TeamAOF/All-of-Fabric-5/blob/main/changelogs/changelog_mods_0.2.10.md)_ | _[Modlist](https://github.com/TeamAOF/All-of-Fabric-5/blob/main/changelogs/modlist_0.2.10.md)_

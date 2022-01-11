@@ -7,3 +7,4 @@ key_mod.chiselsandbits.keys.key.modded-tool.cycle.right:key.keyboard.unknown:NON
 key_mod.chiselsandbits.keys.key.measuring-tape.reset:key.keyboard.unknown:NONE
 key_mod.chiselsandbits.keys.key.undo:key.keyboard.unknown:NONE
 key_mod.chiselsandbits.keys.key.redo:key.keyboard.unknown:NONE
+key_key.trashslot.toggle:key.keyboard.z:NONE

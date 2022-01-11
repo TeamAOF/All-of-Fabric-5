@@ -18,6 +18,7 @@ onEvent('recipes', (event) => {
     'indrev:infusing/steel_dust',
     'indrev:infusing/electrum_dust',
     'indrev:compressing/empty_upgrade',
+    'techreborn:crafting_table/machine_block/basic_machine_frame_alt',
 
     ];
 
@@ -30,7 +31,6 @@ onEvent('recipes', (event) => {
     'blockus:spruce_small_logs',
     'blockus:oak_small_logs',
     'blockus:golden_bars',
-    'techreborn:compressor',
     'kibe:angel_ring',
     'kibe:light_ring',
     'chisel:chisel',
@@ -56,6 +56,7 @@ onEvent('recipes', (event) => {
     'indrev:fluid_pipe_mk1',
     'kibe:big_torch',
     'dwarfcoal:dwarf_charcoal',
+    'mtmechs:iron_gear_item',
     ];
 
     id.forEach((id) => {
