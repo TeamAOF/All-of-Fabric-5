@@ -1,19 +1,2470 @@
 {
 	id: "5BB4D2FC1908D3D1"
 	group: "0815C5D80307ECDF"
-	order_index: 1
+	order_index: 0
 	filename: "modern_industrialization"
 	title: "Modern Industrialization"
-	icon: "modern_industrialization:singularity"
-	default_quest_shape: "circle"
+	icon: {
+		gprops: { }
+		id: "modern_industrialization:singularity"
+		Count: 1b
+	}
+	default_quest_shape: "rsquare"
 	default_hide_dependency_lines: false
-	quests: [{
-		x: -1.0d
-		y: -1.0d
-		id: "6F6196A606D3A8EF"
-		tasks: [{
-			id: "6088092E482C6581"
-			type: "item"
-		}]
+	images: [{
+		x: -14.5d
+		y: 1.0d
+		width: 3.0d
+		height: 3.0d
+		rotation: 10.0d
+		image: "modern_industrialization:textures/blocks/machines/nuclear_reactor/overlay_front.png"
+		hover: [ ]
+		click: ""
+		dev: false
+		corner: false
 	}]
+	quests: [
+		{
+			title: "Modern Industrialization"
+			icon: {
+				gprops: { }
+				id: "modern_industrialization:guidebook"
+				Count: 1b
+			}
+			x: -15.0d
+			y: -1.5d
+			subtitle: "Technology for Newbies!"
+			description: [
+				"Modern Industrialization offers:"
+				""
+				"- Powerful Logistics Tools"
+				"Such as multipart items (Item, fluid and energy cables in the same block)."
+				""
+				"- Resource Generation"
+				"Setup multiblock quarries for continuous resource generation."
+				""
+				"- Energy Production and Distribution"
+				""
+				"> Use Steam and Oil processed into Diesel through Distillation, Nuclear Fission and eventually for the most persevering, Fusion to power your factory."
+				"> Boost your energy transfer rates using higher voltages with layers of transformers."
+				""
+				"- Total Automation"
+				"Have machines generate and process all your resources will you're flying around the world with your Gravichest."
+				"It's a long way there, can you do it?"
+				""
+				"TIP: Hold the book in your main hand while hovering over a machine/multiblock for more info."
+			]
+			id: "6F6196A606D3A8EF"
+			tasks: [{
+				id: "3E45F701C61708E1"
+				type: "checkmark"
+			}]
+			rewards: [{
+				id: "3CC4D443B33915F5"
+				type: "item"
+				item: {
+					gprops: { }
+					id: "modern_industrialization:guidebook"
+					Count: 1b
+				}
+			}]
+		}
+		{
+			title: "Poor Man's Compressor"
+			x: -13.5d
+			y: -1.5d
+			dependencies: ["6F6196A606D3A8EF"]
+			id: "385079198388468C"
+			tasks: [{
+				id: "1B769C345EAF942C"
+				type: "item"
+				item: {
+					gprops: { }
+					id: "modern_industrialization:forge_hammer"
+					Count: 1b
+				}
+			}]
+			rewards: [{
+				id: "32DCAC1EC2A27C87"
+				type: "item"
+				item: {
+					gprops: { }
+					id: "modern_industrialization:iron_hammer"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			title: "The Steam Age"
+			icon: {
+				gprops: { }
+				id: "modern_industrialization:bronze_ingot"
+				Count: 1b
+			}
+			x: -12.0d
+			y: -1.5d
+			subtitle: "You need a lot of it, but not a good idea to craft now, maybe you can use mixer?"
+			description: ["Note that rightclicking Steam machines with Gunpowder speeds up the process for limited time"]
+			dependencies: ["385079198388468C"]
+			id: "4661838E492BDE53"
+			tasks: [
+				{
+					id: "70E71E2E482D5EAC"
+					type: "item"
+					item: {
+						gprops: { }
+						id: "modern_industrialization:bronze_dust"
+						Count: 1b
+					}
+					count: 64L
+				}
+				{
+					id: "43C425E6990963E5"
+					type: "item"
+					item: {
+						gprops: { }
+						id: "modern_industrialization:wrench"
+						Count: 1b
+					}
+				}
+			]
+			rewards: [
+				{
+					id: "3E441C535BFEFCAD"
+					type: "item"
+					item: {
+						gprops: { }
+						id: "modern_industrialization:bucket_steam"
+						Count: 1b
+					}
+				}
+				{
+					id: "0F3A0CFB0F279107"
+					type: "item"
+					item: {
+						gprops: { }
+						id: "modern_industrialization:iron_hammer"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+			]
+		}
+		{
+			x: -9.5d
+			y: -0.5d
+			subtitle: "Lets you make plates and rings in a good ratio"
+			dependencies: ["4661838E492BDE53"]
+			id: "7F96B49412F52611"
+			tasks: [{
+				id: "3F8C83D99FC1C002"
+				type: "item"
+				item: {
+					gprops: { }
+					id: "modern_industrialization:bronze_compressor"
+					Count: 1b
+				}
+			}]
+			rewards: [{
+				id: "13C4F9B3ACAAFC12"
+				type: "item"
+				item: {
+					gprops: { }
+					id: "minecraft:piston"
+					Count: 1b
+				}
+			}]
+		}
+		{
+			x: -9.5d
+			y: 0.5d
+			subtitle: "They just boil water, needs time to heat up"
+			description: [
+				"Its the first tier steam source, later you can use steel boiler, advanced steam boiler etc"
+				"They auto output to all sides, so maybe placing on top of a bronze pump saves you a piece of pipe?"
+			]
+			dependencies: ["4661838E492BDE53"]
+			id: "0BAB52BE15CE157F"
+			tasks: [{
+				id: "047BE723A63F9E5F"
+				type: "item"
+				item: {
+					gprops: { }
+					id: "modern_industrialization:bronze_boiler"
+					Count: 1b
+				}
+			}]
+			rewards: [{
+				id: "1E6977DD25B71629"
+				type: "item"
+				item: {
+					gprops: { }
+					id: "minecraft:water_bucket"
+					Count: 1b
+				}
+			}]
+		}
+		{
+			title: "Steam blast furnace"
+			icon: {
+				gprops: { }
+				id: "modern_industrialization:steam_blast_furnace"
+				Count: 1b
+			}
+			x: -5.5d
+			y: -1.5d
+			subtitle: "One doesnt seems enough"
+			description: [
+				"now you have everything to make steel....."
+				"Hold wrench to show the multiblock hologram"
+				"you can overclock with replacing one bronze hatch with steel"
+			]
+			dependencies: [
+				"46516764261A77DA"
+				"3E1CB2EB0464CFA2"
+				"748D2241F66FF644"
+				"4FF7802D7FA86DF5"
+				"0DD703B94D202B68"
+			]
+			id: "586CB8FEAA0A50C6"
+			tasks: [
+				{
+					id: "34C10A32EE244F3F"
+					type: "item"
+					item: {
+						gprops: { }
+						id: "modern_industrialization:fire_clay_bricks"
+						Count: 1b
+					}
+					count: 27L
+				}
+				{
+					id: "49215E965FF25243"
+					type: "item"
+					item: {
+						gprops: { }
+						id: "modern_industrialization:steam_blast_furnace"
+						Count: 1b
+					}
+				}
+				{
+					id: "343625490325E9E0"
+					type: "item"
+					item: {
+						gprops: { }
+						id: "modern_industrialization:bronze_fluid_input_hatch"
+						Count: 1b
+					}
+				}
+				{
+					id: "1F0ABBBFABD188C2"
+					type: "item"
+					item: {
+						gprops: { }
+						id: "modern_industrialization:bronze_item_input_hatch"
+						Count: 1b
+					}
+				}
+				{
+					id: "6056045338C6DD46"
+					type: "item"
+					item: {
+						gprops: { }
+						id: "modern_industrialization:bronze_item_output_hatch"
+						Count: 1b
+					}
+				}
+			]
+			rewards: [{
+				id: "28A655E29C3A3009"
+				type: "item"
+				item: {
+					gprops: { }
+					id: "modern_industrialization:fire_clay_bricks"
+					Count: 1b
+				}
+				count: 8
+			}]
+		}
+		{
+			x: -9.5d
+			y: 1.5d
+			subtitle: "They just grind stuff"
+			description: [
+				"now that we have macerator, ore multiplying.... something"
+				"Make sure to not grind your precious gem ores"
+			]
+			dependencies: ["4661838E492BDE53"]
+			id: "5A27B361EF71A4DF"
+			tasks: [{
+				id: "7799145BACA36D6A"
+				type: "item"
+				item: {
+					gprops: { }
+					id: "modern_industrialization:bronze_macerator"
+					Count: 1b
+				}
+			}]
+			rewards: [{
+				id: "35AAA475B2E24F38"
+				type: "item"
+				item: {
+					gprops: { }
+					id: "minecraft:diamond"
+					Count: 1b
+				}
+			}]
+		}
+		{
+			x: -13.5d
+			y: -3.0d
+			subtitle: "Life gets easier from now on"
+			description: [
+				"has 3x3 silktouch"
+				"right click burnable fuel while in inventory"
+				"rightclick water /flowing water, wont consume"
+			]
+			dependencies: ["385079198388468C"]
+			id: "70CD9F0D26A75E13"
+			tasks: [{
+				id: "4BCB31C3818DC3D7"
+				type: "item"
+				item: {
+					gprops: { }
+					id: "modern_industrialization:steam_mining_drill"
+					Count: 1b
+				}
+			}]
+			rewards: [
+				{
+					id: "77CB2BB7884957A3"
+					type: "item"
+					item: {
+						gprops: { }
+						id: "minecraft:water_bucket"
+						Count: 1b
+					}
+				}
+				{
+					id: "1D21EBE1D2B67222"
+					type: "item"
+					item: {
+						gprops: { }
+						id: "modern_industrialization:coke"
+						Count: 1b
+					}
+					count: 16
+				}
+			]
+		}
+		{
+			x: -9.5d
+			y: -2.5d
+			subtitle: "Mixer let you mix alloy dust recipies cheaper"
+			dependencies: ["4661838E492BDE53"]
+			dependency_requirement: "one_started"
+			id: "4575644C7E5F2DEE"
+			tasks: [{
+				id: "1CCFC1ADFBB4F858"
+				type: "item"
+				item: {
+					gprops: { }
+					id: "modern_industrialization:bronze_mixer"
+					Count: 1b
+				}
+			}]
+			rewards: [{
+				id: "3BF5F814E7572F46"
+				type: "item"
+				item: {
+					gprops: { }
+					id: "farmersdelight:mixed_salad"
+					Count: 1b
+				}
+			}]
+		}
+		{
+			icon: {
+				gprops: { }
+				id: "modern_industrialization:bronze_cutting_machine"
+				Count: 1b
+			}
+			x: -9.5d
+			y: -3.5d
+			subtitle: "Cutting Machine lets you make cheap rods and bolts"
+			description: ["You can make lubricant by combining redstone and creosote on mixer"]
+			dependencies: ["4661838E492BDE53"]
+			id: "68E8311AC3140A56"
+			tasks: [
+				{
+					id: "05C1EB3A2AEB99EF"
+					type: "item"
+					icon: {
+						gprops: { }
+						id: "modern_industrialization:bronze_cutting_machine"
+						Count: 1b
+					}
+					item: {
+						gprops: { }
+						id: "modern_industrialization:bronze_cutting_machine"
+						Count: 1b
+					}
+				}
+				{
+					id: "5DD8FC73E8DA55A5"
+					type: "item"
+					item: {
+						gprops: { }
+						id: "modern_industrialization:bucket_lubricant"
+						Count: 1b
+					}
+				}
+			]
+			rewards: [{
+				id: "5F81597D83BEA432"
+				type: "item"
+				item: {
+					gprops: { }
+					id: "modern_industrialization:bucket_lubricant"
+					Count: 1b
+				}
+			}]
+		}
+		{
+			title: "Fire Clay"
+			x: -9.5d
+			y: -4.5d
+			subtitle: "They are made by combining brick dust and clay"
+			description: ["TIP: Macerating terracota is a good way of getting brick dust, so maybe find a badlands? or steal from villages"]
+			dependencies: ["4661838E492BDE53"]
+			id: "39FADF9C0442304F"
+			tasks: [{
+				id: "5FB4F9E06ED83BA2"
+				type: "item"
+				item: {
+					gprops: { }
+					id: "modern_industrialization:fire_clay_brick"
+					Count: 1b
+				}
+				count: 12L
+			}]
+			rewards: [{
+				id: "12FF8CCB7F2657F8"
+				type: "item"
+				item: {
+					gprops: { }
+					id: "minecraft:clay_ball"
+					Count: 1b
+				}
+				count: 16
+			}]
+		}
+		{
+			x: -8.0d
+			y: -4.5d
+			subtitle: "Why? because its steam machine"
+			description: ["Not fast, but fuel efficient, can auto output unlike vanilla furnace"]
+			dependencies: ["39FADF9C0442304F"]
+			id: "4AD93229344EA0BE"
+			tasks: [{
+				id: "747A0D40FA945748"
+				type: "item"
+				item: {
+					gprops: { }
+					id: "modern_industrialization:bronze_furnace"
+					Count: 1b
+				}
+			}]
+			rewards: [{
+				id: "7C3609C57C8DABEF"
+				type: "item"
+				item: {
+					gprops: { }
+					id: "minecraft:blast_furnace"
+					Count: 1b
+				}
+			}]
+		}
+		{
+			x: -8.0d
+			y: -3.5d
+			subtitle: "Now you can make rods without losing half of them on forge hammer"
+			dependencies: ["68E8311AC3140A56"]
+			id: "46516764261A77DA"
+			tasks: [{
+				id: "7F13A23BAF0B3AFB"
+				type: "item"
+				item: {
+					gprops: { }
+					id: "modern_industrialization:bronze_rod"
+					Count: 1b
+				}
+				count: 2L
+			}]
+			rewards: [{
+				id: "61327A66F1F637E8"
+				type: "item"
+				item: {
+					gprops: { }
+					id: "modern_industrialization:bronze_ingot"
+					Count: 1b
+				}
+				count: 4
+			}]
+		}
+		{
+			icon: {
+				gprops: { }
+				id: "modern_industrialization:coke_oven"
+				Count: 1b
+			}
+			x: -9.5d
+			y: -1.5d
+			subtitle: "Coke-A Cola -Technici4n"
+			description: [
+				"> Lets you make coal coke and coke dust"
+				"> It voids the creosote if it dont has fluid output"
+				"> You need creosote to turn into lubricant for cutting machine later, for that you need additional fluid output hatch"
+				""
+			]
+			dependencies: ["4661838E492BDE53"]
+			id: "36ECD7C06649DE78"
+			tasks: [
+				{
+					id: "217D2448551C324A"
+					type: "item"
+					item: {
+						gprops: { }
+						id: "modern_industrialization:coke_oven"
+						Count: 1b
+					}
+				}
+				{
+					id: "2418D8560CE16E75"
+					type: "item"
+					item: {
+						gprops: { }
+						id: "minecraft:bricks"
+						Count: 1b
+					}
+					count: 21L
+				}
+				{
+					id: "1EC4B2642DBB8127"
+					type: "item"
+					item: {
+						gprops: { }
+						id: "modern_industrialization:bronze_item_input_hatch"
+						Count: 1b
+					}
+				}
+				{
+					id: "510058C68DBCD031"
+					type: "item"
+					item: {
+						gprops: { }
+						id: "modern_industrialization:bronze_item_output_hatch"
+						Count: 1b
+					}
+				}
+				{
+					id: "267A96FED5F44276"
+					type: "item"
+					item: {
+						gprops: { }
+						id: "modern_industrialization:bronze_fluid_input_hatch"
+						Count: 1b
+					}
+				}
+			]
+			rewards: [{
+				id: "7B545F9C9DFD9A38"
+				type: "item"
+				item: {
+					gprops: { }
+					id: "minecraft:coal"
+					Count: 1b
+				}
+				count: 32
+			}]
+		}
+		{
+			x: -8.0d
+			y: -2.5d
+			subtitle: "With mixer, you can now mix dusts without them sticking on your hands"
+			description: ["Dusts are now cheaper"]
+			dependencies: ["4575644C7E5F2DEE"]
+			id: "3E1CB2EB0464CFA2"
+			tasks: [{
+				id: "5E085207F0196364"
+				type: "item"
+				item: {
+					gprops: { }
+					id: "modern_industrialization:bronze_dust"
+					Count: 1b
+				}
+				count: 4L
+			}]
+			rewards: [
+				{
+					id: "34A3B76208E5BBF8"
+					type: "item"
+					item: {
+						gprops: { }
+						id: "modern_industrialization:tin_dust"
+						Count: 1b
+					}
+				}
+				{
+					id: "3433175A3A643172"
+					type: "item"
+					item: {
+						gprops: { }
+						id: "modern_industrialization:copper_dust"
+						Count: 1b
+					}
+					count: 3
+				}
+			]
+		}
+		{
+			x: -8.0d
+			y: -1.5d
+			subtitle: "Coal coke looks nice, but you need the dust for steel"
+			description: ["note that block of coal coke has less burn time compared to 9 coal coke."]
+			dependencies: ["36ECD7C06649DE78"]
+			id: "748D2241F66FF644"
+			tasks: [
+				{
+					id: "4F5F070D435F875B"
+					type: "item"
+					item: {
+						gprops: { }
+						id: "modern_industrialization:coke"
+						Count: 1b
+					}
+				}
+				{
+					id: "6C1E991F4D0A3148"
+					type: "item"
+					item: {
+						gprops: { }
+						id: "modern_industrialization:coke_dust"
+						Count: 1b
+					}
+				}
+			]
+			rewards: [{
+				id: "5D4B74FC7E1B82E1"
+				type: "item"
+				item: {
+					gprops: { }
+					id: "modern_industrialization:coke_block"
+					Count: 1b
+				}
+			}]
+		}
+		{
+			x: -8.0d
+			y: -0.5d
+			subtitle: "Placing double ingot's in machines have the same processing time as a single ingot. Except you get double the output out of the same amount of energy."
+			description: ["Cheap plates and rods"]
+			dependencies: ["7F96B49412F52611"]
+			id: "4FF7802D7FA86DF5"
+			tasks: [
+				{
+					id: "4F8D5180922038B8"
+					type: "item"
+					item: {
+						gprops: { }
+						id: "modern_industrialization:bronze_plate"
+						Count: 1b
+					}
+				}
+				{
+					id: "20FFD22A767C2D74"
+					type: "item"
+					item: {
+						gprops: { }
+						id: "modern_industrialization:bronze_ring"
+						Count: 1b
+					}
+				}
+			]
+			rewards: [{
+				id: "5463049206DEE122"
+				type: "item"
+				item: {
+					gprops: { }
+					id: "modern_industrialization:bronze_double_ingot"
+					Count: 1b
+				}
+			}]
+		}
+		{
+			x: -8.0d
+			y: 0.5d
+			subtitle: "Auto bucketer"
+			description: ["it pumps water when you give steam, have to be near atleast a water source, if it has water in all 4 sides, it pumps more water per operation"]
+			dependencies: ["0BAB52BE15CE157F"]
+			id: "0DD703B94D202B68"
+			tasks: [{
+				id: "510DB26BFE950469"
+				type: "item"
+				item: {
+					gprops: { }
+					id: "modern_industrialization:bronze_water_pump"
+					Count: 1b
+				}
+			}]
+			rewards: [{
+				id: "3747D7374E02AF96"
+				type: "item"
+				item: {
+					gprops: { }
+					id: "minecraft:water_bucket"
+					Count: 1b
+				}
+			}]
+		}
+		{
+			x: -8.0d
+			y: 1.5d
+			subtitle: "Want to scale up your cola factory? This is the way"
+			description: ["With macerator you can grind terracotta for brick dust"]
+			dependencies: ["5A27B361EF71A4DF"]
+			id: "09B01837C769C6E1"
+			tasks: [{
+				id: "299FB72281BDFE79"
+				type: "item"
+				item: {
+					gprops: { }
+					id: "minecraft:terracotta"
+					Count: 1b
+				}
+			}]
+			rewards: [{
+				id: "141BA52353FBD1B1"
+				type: "item"
+				item: {
+					gprops: { }
+					id: "modern_industrialization:brick_dust"
+					Count: 1b
+				}
+				count: 8
+			}]
+		}
+		{
+			title: "Fluid Transportation"
+			x: -12.0d
+			y: 0.0d
+			subtitle: "The spice must flow"
+			description: [
+				"- You can make fluid pipes now, item pipes are unlocked when you get steel."
+				"three pipes/cables  can share a single block space"
+				""
+				"- You can Manipulate Pipes using the wrench but as well as placing them while holding down shift a 2nd time to have it attach to another block without having to switch to your wrench."
+				""
+				"- Transfer limit of the pipe depends upon how much pipe you have in a network, for more info read guide book"
+			]
+			dependencies: ["4661838E492BDE53"]
+			id: "75608EDF99965533"
+			tasks: [{
+				id: "2E9298C2FC478FF5"
+				type: "item"
+				item: {
+					gprops: { }
+					id: "modern_industrialization:fluid_pipe"
+					Count: 1b
+				}
+				count: 16L
+			}]
+			rewards: [{
+				id: "1E311CE091051941"
+				type: "item"
+				item: {
+					gprops: { }
+					id: "minecraft:red_dye"
+					Count: 1b
+				}
+				count: 8
+			}]
+		}
+		{
+			title: "Your first steel"
+			x: -4.0d
+			y: -1.5d
+			subtitle: "All this for steel?"
+			description: ["Yes, you are gonna need a lot later for a quarry. Also to use for item pipes, barrel, etc."]
+			dependencies: ["586CB8FEAA0A50C6"]
+			id: "7C5C1CA5A7954896"
+			tasks: [{
+				id: "3612549FFBF5E73C"
+				type: "item"
+				item: {
+					gprops: { }
+					id: "modern_industrialization:steel_ingot"
+					Count: 1b
+				}
+			}]
+			rewards: [{
+				id: "1296E42E454B5492"
+				type: "item"
+				item: {
+					gprops: { }
+					id: "modern_industrialization:steel_ingot"
+					Count: 1b
+				}
+				count: 4
+			}]
+		}
+		{
+			title: "Lignite coal"
+			x: -13.5d
+			y: -4.5d
+			subtitle: "At first it seems useless. However it can be used as a fuel or for sulfur extraction later."
+			dependencies: ["70CD9F0D26A75E13"]
+			id: "0D10B5E838DF9196"
+			tasks: [{
+				id: "5B8A314E5014ADA6"
+				type: "item"
+				item: {
+					gprops: { }
+					id: "modern_industrialization:lignite_coal"
+					Count: 1b
+				}
+				count: 64L
+			}]
+			rewards: [{
+				id: "468AFB6AC11BDA99"
+				type: "item"
+				item: {
+					gprops: { }
+					id: "modern_industrialization:lignite_coal_block"
+					Count: 1b
+				}
+				count: 8
+			}]
+		}
+		{
+			title: "Faster machines?"
+			x: -4.0d
+			y: -3.0d
+			subtitle: "Now that you have steel, we can upgrade the machines, note that its done in smithing table"
+			dependencies: ["7C5C1CA5A7954896"]
+			id: "6F4AE13DA520109C"
+			tasks: [{
+				id: "763B45889C554D7E"
+				type: "item"
+				item: {
+					gprops: { }
+					id: "modern_industrialization:steel_upgrade"
+					Count: 1b
+				}
+				count: 2L
+			}]
+		}
+		{
+			title: "Infinite resources? This early in the pack?"
+			icon: {
+				gprops: { }
+				id: "modern_industrialization:steam_quarry"
+				Count: 1b
+			}
+			x: -3.0d
+			y: -3.0d
+			subtitle: "So what does it do?"
+			description: [
+				""
+				"It uses the drill to drill under the bedrock for ores and blocks. For now you can only use Bronze and Copper drills. Note that they have a chance to break, just like the chance to get output"
+				""
+				"So then is it worth the effort?"
+				"    Yes it is, its only 1% chance to break"
+			]
+			dependencies: ["7C5C1CA5A7954896"]
+			id: "26E587E34810A8FE"
+			tasks: [
+				{
+					id: "0B829B6C4987D67B"
+					type: "item"
+					item: {
+						gprops: { }
+						id: "modern_industrialization:steam_quarry"
+						Count: 1b
+					}
+				}
+				{
+					id: "3FA8E3781E4BF9AE"
+					type: "item"
+					item: {
+						gprops: { }
+						id: "modern_industrialization:steel_machine_casing"
+						Count: 1b
+					}
+					count: 13L
+				}
+				{
+					id: "4AEC4A5817CF1493"
+					type: "item"
+					item: {
+						gprops: { }
+						id: "modern_industrialization:steel_machine_casing_pipe"
+						Count: 1b
+					}
+					count: 6L
+				}
+				{
+					id: "05F5685C54F12B88"
+					type: "item"
+					item: {
+						gprops: { }
+						id: "minecraft:chain"
+						Count: 1b
+					}
+					count: 4L
+				}
+			]
+		}
+		{
+			title: "Bronze drill"
+			x: -2.5d
+			y: -6.0d
+			subtitle: "For now make 4 drills, later you can make gears easily with assembler"
+			description: [
+				"Bronze drill gives basic resources like iron,gold,tin etc. Check REI for more info"
+				""
+				"If you want to have a real challenge, craft a stack of Drills ahead of time so you don't have to worry about RNG Failing you."
+			]
+			dependencies: ["2050D2FF42E29F6D"]
+			id: "74A278B57EF76B3B"
+			tasks: [{
+				id: "624F6E6D7A45923D"
+				type: "item"
+				item: {
+					gprops: { }
+					id: "modern_industrialization:bronze_drill"
+					Count: 1b
+				}
+				count: 4L
+			}]
+		}
+		{
+			x: -2.5d
+			y: -1.5d
+			subtitle: "Wiremill lets you make wires "
+			dependencies: ["7C5C1CA5A7954896"]
+			id: "43F43FB0B9ED0818"
+			tasks: [{
+				id: "32FF28A50A8B3DD5"
+				type: "item"
+				item: {
+					gprops: { }
+					id: "modern_industrialization:steel_wiremill"
+					Count: 1b
+				}
+			}]
+			rewards: [{
+				id: "1E9D18D104CA30EC"
+				type: "item"
+				item: {
+					gprops: { }
+					id: "modern_industrialization:steel_plate"
+					Count: 1b
+				}
+				count: 4
+			}]
+		}
+		{
+			x: -3.5d
+			y: -6.0d
+			subtitle: "To those who dont like to MINE in Minecraft"
+			dependencies: ["2050D2FF42E29F6D"]
+			id: "2F5A88568154E986"
+			tasks: [{
+				id: "4CB128CC2F0687DD"
+				type: "item"
+				item: {
+					gprops: { }
+					id: "modern_industrialization:copper_drill"
+					Count: 1b
+				}
+			}]
+		}
+		{
+			title: "Basics of Electricity   "
+			x: -1.0d
+			y: -1.5d
+			subtitle: "Try crafting 9 instead of 2, trust me its worth it"
+			description: [
+				""
+				"When handcrafting it's very important you craft extras. So try crafting at least a Stack for your first time!"
+				""
+				"\"&oAE2 is great for inventory management, but I wouldn't use it for autocrafting with MI. Since the machines take a while to \"ramp up\", it will just take forever&r\"  -Technici4n"
+			]
+			dependencies: ["43F43FB0B9ED0818"]
+			id: "19E5E31614FE485E"
+			tasks: [{
+				id: "33A196551A047E54"
+				type: "item"
+				item: {
+					gprops: { }
+					id: "modern_industrialization:analog_circuit"
+					Count: 1b
+				}
+				count: 2L
+			}]
+			rewards: [{
+				id: "0C7F9145B4CC4C35"
+				type: "item"
+				item: {
+					gprops: { }
+					id: "cacao:cookie_cream_white_chocolate"
+					Count: 1b
+					tag: {
+						display: {
+							Name: "{\"text\":\"Here, this cookie is for you\"}"
+						}
+					}
+				}
+			}]
+		}
+		{
+			title: "Item Transportation"
+			x: -4.0d
+			y: 0.0d
+			subtitle: "With steel, you can now make Item pipes"
+			description: [
+				"- By default they are in whitelist mode, you have to change it to blacklist or filter items in the pipe GUI."
+				""
+				"- You can Drag items from REI to the Filters without even having the item in your inventory."
+				""
+				"- They can be speed up by using motors"
+			]
+			dependencies: ["7C5C1CA5A7954896"]
+			id: "38F9192F665742BA"
+			tasks: [{
+				id: "52537690D3281DBF"
+				type: "item"
+				item: {
+					gprops: { }
+					id: "modern_industrialization:item_pipe"
+					Count: 1b
+				}
+				count: 16L
+			}]
+			rewards: [{
+				id: "0B0E01C14DDDB67F"
+				type: "item"
+				item: {
+					gprops: { }
+					id: "minecraft:blue_dye"
+					Count: 1b
+				}
+				count: 8
+			}]
+		}
+		{
+			x: 0.5d
+			y: -0.5d
+			subtitle: "This is where you might want to consider Automation!"
+			description: [
+				"- Now that you have an assembler you should highly consider starting to automate your MI Setup with MI if you have not started that yet."
+				""
+				"- When Automating it's best you use filters. Filter slots you're not using, you can drag and drop items from REI into the slots and even Shift Click Recipes on the Plus symbol to auto fill in recipes!"
+			]
+			dependencies: ["19E5E31614FE485E"]
+			id: "79F4B68189C05A25"
+			tasks: [{
+				id: "651D4E443F87E715"
+				type: "item"
+				item: {
+					gprops: { }
+					id: "modern_industrialization:assembler"
+					Count: 1b
+				}
+			}]
+			rewards: [{
+				id: "2E44F161981497D4"
+				type: "item"
+				item: {
+					gprops: { }
+					id: "modern_industrialization:robot_arm"
+					Count: 1b
+				}
+				count: 2
+			}]
+		}
+		{
+			icon: {
+				gprops: { }
+				id: "modern_industrialization:large_steam_boiler"
+				Count: 1b
+			}
+			x: 0.5d
+			y: -2.5d
+			description: [
+				"Don't forget your Hatches! You will need Item, Fluid Input and Fluid Output."
+				""
+				"Consider Organizing your fluid pipes. For example Steam with White Fluid Pipes!"
+			]
+			dependencies: ["19E5E31614FE485E"]
+			id: "2F6ED192CC3A9AF4"
+			tasks: [
+				{
+					id: "7D1063975B5EA66E"
+					type: "item"
+					item: {
+						gprops: { }
+						id: "modern_industrialization:large_steam_boiler"
+						Count: 1b
+					}
+				}
+				{
+					id: "13C71839379B60DA"
+					type: "item"
+					item: {
+						gprops: { }
+						id: "modern_industrialization:bronze_machine_casing_pipe"
+						Count: 1b
+					}
+					count: 2L
+				}
+				{
+					id: "32E98789AE243D6A"
+					type: "item"
+					item: {
+						gprops: { }
+						id: "modern_industrialization:bronze_machine_casing_pipe"
+						Count: 1b
+					}
+					count: 24L
+				}
+				{
+					id: "27E2509D1BD44B95"
+					type: "item"
+					item: {
+						gprops: { }
+						id: "modern_industrialization:heatproof_machine_casing"
+						Count: 1b
+					}
+					count: 9L
+				}
+			]
+			rewards: [{
+				id: "66C0E34F6FD976C3"
+				type: "item"
+				item: {
+					gprops: { }
+					id: "modern_industrialization:white_fluid_pipe"
+					Count: 1b
+				}
+				count: 16
+			}]
+		}
+		{
+			x: 0.5d
+			y: -1.5d
+			subtitle: "Electrifying"
+			description: ["You can pipe steam into any side. That being said electracy will only come out of the Output Slot. Shift Right Click with a Wrench to change its side."]
+			dependencies: ["19E5E31614FE485E"]
+			id: "55ED05A197F8D24A"
+			tasks: [{
+				id: "0497A2F2D5A65B0C"
+				type: "item"
+				item: {
+					gprops: { }
+					id: "modern_industrialization:lv_steam_turbine"
+					Count: 1b
+				}
+			}]
+			rewards: [{
+				id: "56B68944B996BFFC"
+				type: "item"
+				item: {
+					gprops: { }
+					id: "modern_industrialization:bucket_steam"
+					Count: 1b
+				}
+			}]
+		}
+		{
+			x: 0.5d
+			y: -3.5d
+			subtitle: "Useful or Useless?"
+			description: ["Did you know you can take each Tiers Machine Casing and right click any Machine to upgrade it's power Level and skip the need to use transformers! "]
+			dependencies: ["19E5E31614FE485E"]
+			id: "0D59218C3A0C1C56"
+			tasks: [{
+				id: "58703115CDA7A876"
+				type: "item"
+				item: {
+					gprops: { }
+					id: "modern_industrialization:mv_lv_transformer"
+					Count: 1b
+				}
+			}]
+			rewards: [{
+				id: "186C8D21D12540FD"
+				type: "item"
+				item: {
+					gprops: { }
+					id: "modern_industrialization:tin_cable"
+					Count: 1b
+				}
+				count: 8
+			}]
+		}
+		{
+			x: 0.5d
+			y: 0.5d
+			subtitle: "You are not Prepared!"
+			description: ["You might think you can make this, but you can't. Most of the Machines are Locked in the MV Tier and so it's best to come back to this once you have built your chemical reactor and got into oil processing. "]
+			dependencies: ["19E5E31614FE485E"]
+			id: "08E753C31062E50C"
+			tasks: [{
+				id: "156A99D31C35EF0F"
+				type: "item"
+				item: {
+					gprops: { }
+					id: "modern_industrialization:basic_upgrade"
+					Count: 1b
+				}
+			}]
+		}
+		{
+			x: 2.0d
+			y: -1.5d
+			subtitle: "Wait till you get to Magnetic Stainless Steel Rods..."
+			description: [
+				""
+				"&o\"See.. its slow, but it gets faster, Maybe not a good idea to automate with AE2. Its your call, dont complain about it&r"
+			]
+			dependencies: ["55ED05A197F8D24A"]
+			id: "5F52B24FFE2DDD86"
+			tasks: [{
+				id: "796F845AA4E8F271"
+				type: "item"
+				item: {
+					gprops: { }
+					id: "modern_industrialization:polarizer"
+					Count: 1b
+				}
+			}]
+			rewards: [{
+				id: "36D19E83ED7A2C1B"
+				type: "item"
+				item: {
+					gprops: { }
+					id: "modern_industrialization:steel_rod_magnetic"
+					Count: 1b
+				}
+				count: 4
+			}]
+		}
+		{
+			icon: {
+				gprops: { }
+				id: "modern_industrialization:electric_blast_furnace"
+				Count: 1b
+			}
+			x: 3.5d
+			y: -1.5d
+			subtitle: "Mob Spawner!?!"
+			description: [
+				"Don't forget to use the Wrench to see the Layout of the Multiblock. You will need a Item Input and Output Hatch as well as LV Energy Input Hatch."
+				""
+				"These tend to spawn mobs in the center of it so feel free to replace the center with blocks like dirt!"
+			]
+			dependencies: ["5F52B24FFE2DDD86"]
+			id: "796F33AE4A9CF30C"
+			tasks: [
+				{
+					id: "39EB9EA6FC93093F"
+					type: "item"
+					item: {
+						gprops: { }
+						id: "modern_industrialization:electric_blast_furnace"
+						Count: 1b
+					}
+				}
+				{
+					id: "3AD3F002BEB84710"
+					type: "item"
+					item: {
+						gprops: { }
+						id: "modern_industrialization:heatproof_machine_casing"
+						Count: 1b
+					}
+					count: 17L
+				}
+				{
+					id: "431CC13936EFB564"
+					type: "item"
+					item: {
+						gprops: { }
+						id: "modern_industrialization:cupronickel_coil"
+						Count: 1b
+					}
+					count: 16L
+				}
+			]
+			rewards: [
+				{
+					id: "242165A5743BEA2A"
+					type: "item"
+					item: {
+						gprops: { }
+						id: "modern_industrialization:steel_item_input_hatch"
+						Count: 1b
+					}
+				}
+				{
+					id: "5969D12E96E787AE"
+					type: "item"
+					item: {
+						gprops: { }
+						id: "modern_industrialization:steel_item_output_hatch"
+						Count: 1b
+					}
+				}
+			]
+		}
+		{
+			x: 5.0d
+			y: -1.5d
+			subtitle: "Hope you're Autocrafting!"
+			description: ["Wait till the next tier... 16 Analog, 4 Digital.. Automation is the Key."]
+			dependencies: ["796F33AE4A9CF30C"]
+			id: "6BEB4461CA08633F"
+			tasks: [{
+				id: "36962E06671E364F"
+				type: "item"
+				item: {
+					gprops: { }
+					id: "modern_industrialization:electronic_circuit"
+					Count: 1b
+				}
+			}]
+			rewards: [{
+				id: "3B9ED5E4CBECDD82"
+				type: "item"
+				item: {
+					gprops: { }
+					id: "croptopia:fruit_cake"
+					Count: 1b
+				}
+			}]
+		}
+		{
+			x: 8.0d
+			y: -1.5d
+			dependencies: ["6BEB4461CA08633F"]
+			id: "036292964BDE4944"
+			tasks: [{
+				id: "25449DE629548BDF"
+				type: "item"
+				item: {
+					gprops: { }
+					id: "modern_industrialization:distillery"
+					Count: 1b
+				}
+			}]
+		}
+		{
+			x: 9.5d
+			y: -0.5d
+			subtitle: "Different Fuels Do Effect These!"
+			description: ["Did you know the Jetpack is not only more fuel efficient with better fuel's but also fly's faster! Trying getting Boosted Diesel for the True Superman Experience. "]
+			dependencies: ["036292964BDE4944"]
+			id: "6D0310EF6A259AC8"
+			tasks: [
+				{
+					id: "67C570594E13FA80"
+					type: "item"
+					item: {
+						gprops: { }
+						id: "modern_industrialization:diesel_mining_drill"
+						Count: 1b
+					}
+				}
+				{
+					id: "7E63F544E1AF7DC1"
+					type: "item"
+					item: {
+						gprops: { }
+						id: "modern_industrialization:diesel_chainsaw"
+						Count: 1b
+					}
+				}
+				{
+					id: "13107B90179730F8"
+					type: "item"
+					item: {
+						gprops: { }
+						id: "modern_industrialization:diesel_jetpack"
+						Count: 1b
+					}
+				}
+			]
+			rewards: [{
+				id: "4CF843A1EEFA60E8"
+				type: "item"
+				item: {
+					gprops: { }
+					id: "modern_industrialization:bucket_light_fuel"
+					Count: 1b
+				}
+			}]
+		}
+		{
+			x: 9.5d
+			y: -1.5d
+			dependencies: ["036292964BDE4944"]
+			id: "7CE18D246F01445D"
+			tasks: [{
+				id: "096259C009D8AFC1"
+				type: "item"
+				item: {
+					gprops: { }
+					id: "modern_industrialization:digital_circuit"
+					Count: 1b
+				}
+			}]
+		}
+		{
+			icon: {
+				gprops: { }
+				id: "modern_industrialization:oil_drilling_rig"
+				Count: 1b
+			}
+			x: 8.0d
+			y: -4.5d
+			subtitle: "REI is your friend!"
+			description: ["Fluids look overwhelming but their not. Start from the beginning and make one machine for each step and you will get there. You can use Large Tanks to buffer or store unused fluids or even void them in an Automatic Trash Can!"]
+			dependencies: ["6BEB4461CA08633F"]
+			id: "33BF21CF8232FD35"
+			tasks: [
+				{
+					id: "26F6DB1C04F1CF93"
+					type: "item"
+					item: {
+						gprops: { }
+						id: "modern_industrialization:oil_drilling_rig"
+						Count: 1b
+					}
+				}
+				{
+					id: "0BC5972EF14E4DA5"
+					type: "item"
+					item: {
+						gprops: { }
+						id: "modern_industrialization:steel_machine_casing"
+						Count: 1b
+					}
+					count: 38L
+				}
+				{
+					id: "0FF841D00CE1829C"
+					type: "item"
+					item: {
+						gprops: { }
+						id: "modern_industrialization:steel_machine_casing_pipe"
+						Count: 1b
+					}
+					count: 6L
+				}
+				{
+					id: "0806B1D850EDDACE"
+					type: "item"
+					item: {
+						gprops: { }
+						id: "minecraft:chain"
+						Count: 1b
+					}
+					count: 18L
+				}
+			]
+		}
+		{
+			x: 8.0d
+			y: -2.5d
+			dependencies: ["6BEB4461CA08633F"]
+			id: "6B11B8A209763B36"
+			tasks: [{
+				id: "4405859846ECFE0E"
+				type: "item"
+				item: {
+					gprops: { }
+					id: "modern_industrialization:chemical_reactor"
+					Count: 1b
+				}
+			}]
+		}
+		{
+			x: 9.5d
+			y: -2.5d
+			dependencies: ["036292964BDE4944"]
+			id: "6C8E36B461895C72"
+			tasks: [{
+				id: "69A5D1E45B60D2DA"
+				type: "item"
+				item: {
+					gprops: { }
+					id: "modern_industrialization:diesel_generator"
+					Count: 1b
+				}
+			}]
+		}
+		{
+			x: 15.0d
+			y: -2.5d
+			subtitle: "Best Worst Thing!"
+			description: [
+				"Good News! You get to process your oils more efficiently! The Bad News! Good Luck Redoing your entire system!"
+				""
+				"Use a Screwdriver to increase the Height of the Multiblock Structure. So you will want to right click it 8 times to process Crude Oil into 8 Products. "
+			]
+			dependencies: ["64BACF5B60AD2406"]
+			id: "2AE689F6495C83A6"
+			tasks: [{
+				id: "54C9073262B25D06"
+				type: "item"
+				item: {
+					gprops: { }
+					id: "modern_industrialization:distillation_tower"
+					Count: 1b
+				}
+			}]
+		}
+		{
+			x: 15.0d
+			y: -0.5d
+			dependencies: ["64BACF5B60AD2406"]
+			id: "7F41EEF87B3A8B84"
+			tasks: [{
+				id: "4223D53BFBB35DEF"
+				type: "item"
+				item: {
+					gprops: { }
+					id: "modern_industrialization:heat_exchanger"
+					Count: 1b
+				}
+			}]
+		}
+		{
+			x: 15.0d
+			y: 1.5d
+			dependencies: ["64BACF5B60AD2406"]
+			id: "65CB5CA13FBD010E"
+			tasks: [{
+				id: "5625CE2C5AF1194F"
+				type: "item"
+				item: {
+					gprops: { }
+					id: "modern_industrialization:turbo_upgrade"
+					Count: 1b
+				}
+			}]
+		}
+		{
+			x: 8.0d
+			y: -0.5d
+			dependencies: ["6BEB4461CA08633F"]
+			id: "693E05A909195578"
+			tasks: [{
+				id: "68D837AA6DE85D6F"
+				type: "item"
+				item: {
+					gprops: { }
+					id: "modern_industrialization:centrifuge"
+					Count: 1b
+				}
+			}]
+		}
+		{
+			icon: {
+				gprops: { }
+				id: "modern_industrialization:electric_quarry"
+				Count: 1b
+			}
+			x: 5.0d
+			y: -3.0d
+			description: ["With the Electric Quarry you will start to overclock like other Electric Machines. Because of this your output might not keep up. Consider setting up dedicated Hatches, say 2 ores per hatch for output so you keep up with the ores."]
+			dependencies: ["6BEB4461CA08633F"]
+			id: "3DC21B6F47A253E4"
+			tasks: [
+				{
+					id: "1004292AA09E90E0"
+					type: "item"
+					item: {
+						gprops: { }
+						id: "modern_industrialization:electric_quarry"
+						Count: 1b
+					}
+				}
+				{
+					id: "530C5BAAAE5874C2"
+					type: "item"
+					item: {
+						gprops: { }
+						id: "modern_industrialization:steel_machine_casing"
+						Count: 1b
+					}
+					count: 16L
+				}
+				{
+					id: "2CAD989D39D01AD6"
+					type: "item"
+					item: {
+						gprops: { }
+						id: "modern_industrialization:steel_machine_casing_pipe"
+						Count: 1b
+					}
+					count: 6L
+				}
+				{
+					id: "773643F90F9A7B82"
+					type: "item"
+					item: {
+						gprops: { }
+						id: "minecraft:chain"
+						Count: 1b
+					}
+					count: 4L
+				}
+			]
+			rewards: [{
+				id: "6614FF43507F884A"
+				type: "item"
+				item: {
+					gprops: { }
+					id: "modern_industrialization:steel_item_output_hatch"
+					Count: 1b
+				}
+				count: 2
+			}]
+		}
+		{
+			x: 5.0d
+			y: -4.5d
+			dependencies: ["3DC21B6F47A253E4"]
+			id: "381693770EF21108"
+			tasks: [{
+				id: "7B1FED6BDC3FB1FA"
+				type: "item"
+				item: {
+					gprops: { }
+					id: "modern_industrialization:gold_drill"
+					Count: 1b
+				}
+			}]
+		}
+		{
+			x: 4.0d
+			y: -4.5d
+			dependencies: ["3DC21B6F47A253E4"]
+			id: "01BBE636EBB71416"
+			tasks: [{
+				id: "6A35321C6F3D7D64"
+				type: "item"
+				item: {
+					gprops: { }
+					id: "modern_industrialization:stainless_steel_drill"
+					Count: 1b
+				}
+			}]
+		}
+		{
+			x: 6.0d
+			y: -4.5d
+			dependencies: ["3DC21B6F47A253E4"]
+			id: "04B4FB69D88D1C76"
+			tasks: [{
+				id: "758EB0D2CB85F803"
+				type: "item"
+				item: {
+					gprops: { }
+					id: "modern_industrialization:steel_drill"
+					Count: 1b
+				}
+			}]
+		}
+		{
+			x: 8.0d
+			y: 1.5d
+			subtitle: "You are almost Prepared!"
+			description: [
+				""
+				"Now that your Into the Start of MV, you can start working on your oil processing and start working on Basic Upgrades that you can easily then turn into Advanced Upgrades!"
+			]
+			dependencies: ["6BEB4461CA08633F"]
+			id: "6B522DC6845DB558"
+			tasks: [{
+				id: "71B5428A94930A18"
+				type: "item"
+				item: {
+					gprops: { }
+					id: "modern_industrialization:advanced_upgrade"
+					Count: 1b
+				}
+			}]
+		}
+		{
+			x: 8.0d
+			y: -3.5d
+			dependencies: ["6BEB4461CA08633F"]
+			id: "7D4B8F84394B1B35"
+			tasks: [{
+				id: "16E814CBBEE5F8AB"
+				type: "item"
+				item: {
+					gprops: { }
+					id: "modern_industrialization:mv_steam_turbine"
+					Count: 1b
+				}
+			}]
+		}
+		{
+			x: 15.0d
+			y: -4.5d
+			dependencies: ["64BACF5B60AD2406"]
+			id: "2B0219B675E3820F"
+			tasks: [{
+				id: "54B31CE72767D4C6"
+				type: "item"
+				item: {
+					gprops: { }
+					id: "modern_industrialization:hv_steam_turbine"
+					Count: 1b
+				}
+			}]
+		}
+		{
+			x: 15.0d
+			y: -3.5d
+			dependencies: ["64BACF5B60AD2406"]
+			id: "715CEF4FB78310FF"
+			tasks: [{
+				id: "438923113D0A1141"
+				type: "item"
+				item: {
+					gprops: { }
+					id: "modern_industrialization:turbo_diesel_generator"
+					Count: 1b
+				}
+			}]
+		}
+		{
+			x: -5.0d
+			y: -3.0d
+			subtitle: "How do I remove that upgrade?"
+			description: ["You might Forget about this Crowbar till later on when you right click your first Machine with a Stack of Upgrades and start to panic. All you have to do is right click that machine with this Crowbar and you will be happy to get them back!"]
+			dependencies: ["7C5C1CA5A7954896"]
+			id: "06D6E25CF47381D6"
+			tasks: [{
+				id: "762014440AD34383"
+				type: "item"
+				item: {
+					gprops: { }
+					id: "modern_industrialization:crowbar"
+					Count: 1b
+				}
+			}]
+		}
+		{
+			icon: {
+				gprops: { }
+				id: "modern_industrialization:vacuum_freezer"
+				Count: 1b
+			}
+			x: 11.0d
+			y: -1.5d
+			dependencies: ["7CE18D246F01445D"]
+			id: "0A0931D04AE50D4B"
+			tasks: [
+				{
+					id: "2D292B2E8511A84D"
+					type: "item"
+					item: {
+						gprops: { }
+						id: "modern_industrialization:vacuum_freezer"
+						Count: 1b
+					}
+				}
+				{
+					id: "43D4C2C2AB9CAA35"
+					type: "item"
+					item: {
+						gprops: { }
+						id: "modern_industrialization:frostproof_machine_casing"
+						Count: 1b
+					}
+					count: 33L
+				}
+			]
+		}
+		{
+			x: 8.0d
+			y: 0.5d
+			dependencies: ["6BEB4461CA08633F"]
+			id: "68BD457258EC8CBF"
+			tasks: [{
+				id: "4ECD4D66C0DAB6AC"
+				type: "item"
+				item: {
+					gprops: { }
+					id: "modern_industrialization:electrolyzer"
+					Count: 1b
+				}
+			}]
+		}
+		{
+			x: 12.5d
+			y: -1.5d
+			dependencies: ["0A0931D04AE50D4B"]
+			id: "64BACF5B60AD2406"
+			tasks: [{
+				id: "323EFEE7EBA4E2AE"
+				type: "item"
+				item: {
+					gprops: { }
+					id: "modern_industrialization:stainless_steel_ingot"
+					Count: 1b
+				}
+			}]
+		}
+		{
+			x: 15.0d
+			y: 0.5d
+			subtitle: "Don't Screw Yourself!"
+			description: ["The Screwdriver is very Important to increase certain muiltiblock structures. Just Right Click the Main Machine Block and it will increase its size. "]
+			dependencies: ["64BACF5B60AD2406"]
+			id: "49350931282F3BF5"
+			tasks: [{
+				id: "12CA87F780A34D37"
+				type: "item"
+				item: {
+					gprops: { }
+					id: "modern_industrialization:screwdriver"
+					Count: 1b
+				}
+			}]
+		}
+		{
+			x: 15.0d
+			y: -1.5d
+			dependencies: ["64BACF5B60AD2406"]
+			id: "6B15091EC1B119B0"
+			tasks: [{
+				id: "2BD708AAF08C5905"
+				type: "item"
+				item: {
+					gprops: { }
+					id: "modern_industrialization:kanthal_coil"
+					Count: 1b
+				}
+				count: 16L
+			}]
+		}
+		{
+			x: 16.5d
+			y: -1.5d
+			dependencies: ["6B15091EC1B119B0"]
+			id: "7D3D156BE9C9E150"
+			tasks: [{
+				id: "040031047A05E0AE"
+				type: "item"
+				item: {
+					gprops: { }
+					id: "modern_industrialization:titanium_ingot"
+					Count: 1b
+				}
+			}]
+		}
+		{
+			x: 18.0d
+			y: 0.5d
+			dependencies: ["6B15091EC1B119B0"]
+			id: "5310B93F2821826A"
+			tasks: [{
+				id: "5D18FA4D68318732"
+				type: "item"
+				item: {
+					gprops: { }
+					id: "modern_industrialization:processing_unit"
+					Count: 1b
+				}
+			}]
+		}
+		{
+			x: 18.0d
+			y: -2.5d
+			dependencies: ["7D3D156BE9C9E150"]
+			id: "6B05C72FF31E104D"
+			tasks: [{
+				id: "7103DFB1F1EF3828"
+				type: "item"
+				item: {
+					gprops: { }
+					id: "modern_industrialization:raw_iridium"
+					Count: 1b
+				}
+			}]
+		}
+		{
+			x: 18.0d
+			y: -1.5d
+			dependencies: ["7D3D156BE9C9E150"]
+			id: "1EACE9E49BA4B753"
+			tasks: [{
+				id: "072C3C5C4355E8DF"
+				type: "item"
+				item: {
+					gprops: { }
+					id: "modern_industrialization:blastproof_alloy_plate"
+					Count: 1b
+				}
+			}]
+		}
+		{
+			icon: {
+				gprops: { }
+				id: "modern_industrialization:pressurizer"
+				Count: 1b
+			}
+			x: 18.0d
+			y: -3.5d
+			dependencies: ["7D3D156BE9C9E150"]
+			id: "46319F2AE2F90532"
+			tasks: [
+				{
+					id: "34D13E49CD76D0E5"
+					type: "item"
+					item: {
+						gprops: { }
+						id: "modern_industrialization:pressurizer"
+						Count: 1b
+					}
+				}
+				{
+					id: "406C11A88083444C"
+					type: "item"
+					item: {
+						gprops: { }
+						id: "modern_industrialization:solid_titanium_machine_casing"
+						Count: 1b
+					}
+					count: 10L
+				}
+				{
+					id: "44B6C74129ADE260"
+					type: "item"
+					item: {
+						gprops: { }
+						id: "modern_industrialization:titanium_machine_casing_pipe"
+						Count: 1b
+					}
+					count: 9L
+				}
+			]
+		}
+		{
+			x: 19.5d
+			y: -2.5d
+			dependencies: ["6B05C72FF31E104D"]
+			id: "18949581A0F3E28B"
+			tasks: [{
+				id: "119D5B764A8F7E09"
+				type: "item"
+				item: {
+					gprops: { }
+					id: "modern_industrialization:superconductor_cable"
+					Count: 1b
+				}
+			}]
+		}
+		{
+			x: 19.5d
+			y: -4.0d
+			dependencies: ["18949581A0F3E28B"]
+			id: "6C1822FED0613FAF"
+			tasks: [{
+				id: "4AEAA8FA55EA9B82"
+				type: "item"
+				item: {
+					gprops: { }
+					id: "modern_industrialization:gravichestplate"
+					Count: 1b
+				}
+			}]
+		}
+		{
+			icon: {
+				gprops: { }
+				id: "modern_industrialization:implosion_compressor"
+				Count: 1b
+			}
+			x: 19.5d
+			y: -1.5d
+			dependencies: ["1EACE9E49BA4B753"]
+			id: "0F7CE2BA2A295A4D"
+			tasks: [
+				{
+					id: "459C20F94BC31393"
+					type: "item"
+					item: {
+						gprops: { }
+						id: "modern_industrialization:implosion_compressor"
+						Count: 1b
+					}
+				}
+				{
+					id: "36704F63596BB959"
+					type: "item"
+					item: {
+						gprops: { }
+						id: "modern_industrialization:blastproof_casing"
+						Count: 1b
+					}
+					count: 16L
+				}
+				{
+					id: "1D26B3532226028F"
+					type: "item"
+					item: {
+						gprops: { }
+						id: "modern_industrialization:solid_titanium_machine_casing"
+						Count: 1b
+					}
+					count: 17L
+				}
+			]
+		}
+		{
+			x: 21.0d
+			y: -2.0d
+			dependencies: ["0F7CE2BA2A295A4D"]
+			id: "46D1B0C583A57B12"
+			tasks: [{
+				id: "5E67F55373049C23"
+				type: "item"
+				item: {
+					gprops: { }
+					id: "modern_industrialization:mixed_ingot_iridium"
+					Count: 1b
+				}
+			}]
+		}
+		{
+			x: 22.5d
+			y: -2.0d
+			dependencies: ["46D1B0C583A57B12"]
+			id: "363455215C23E84E"
+			tasks: [{
+				id: "7E4D849D6F611B94"
+				type: "item"
+				item: {
+					gprops: { }
+					id: "modern_industrialization:quantum_circuit"
+					Count: 1b
+				}
+			}]
+		}
+		{
+			x: 22.5d
+			y: -3.5d
+			dependencies: ["363455215C23E84E"]
+			id: "4847BA675A04852F"
+			tasks: [{
+				id: "4CD547671372F659"
+				type: "item"
+				item: {
+					gprops: { }
+					id: "modern_industrialization:quantum_upgrade"
+					Count: 1b
+				}
+			}]
+		}
+		{
+			icon: {
+				gprops: { }
+				id: "modern_industrialization:fusion_reactor"
+				Count: 1b
+			}
+			x: 24.0d
+			y: -2.0d
+			dependencies: ["363455215C23E84E"]
+			id: "208DE0E29C636F41"
+			tasks: [
+				{
+					id: "3F8F140654BCBDCA"
+					type: "item"
+					item: {
+						gprops: { }
+						id: "modern_industrialization:fusion_reactor"
+						Count: 1b
+					}
+				}
+				{
+					id: "0ED2032159A96066"
+					type: "item"
+					item: {
+						gprops: { }
+						id: "modern_industrialization:fusion_chamber"
+						Count: 1b
+					}
+					count: 40L
+				}
+				{
+					id: "64AE82C5CFDBF6D2"
+					type: "item"
+					item: {
+						gprops: { }
+						id: "modern_industrialization:highly_advanced_machine_hull"
+						Count: 1b
+					}
+					count: 203L
+				}
+			]
+		}
+		{
+			x: 25.5d
+			y: -2.0d
+			dependencies: ["208DE0E29C636F41"]
+			id: "370EE225E8140570"
+			tasks: [
+				{
+					id: "414FC59A3998C675"
+					type: "item"
+					item: {
+						gprops: { }
+						id: "modern_industrialization:plasma_turbine"
+						Count: 1b
+					}
+				}
+				{
+					id: "2B841E64FB2F9D5D"
+					type: "item"
+					item: {
+						gprops: { }
+						id: "modern_industrialization:iridium_machine_casing_pipe"
+						Count: 1b
+					}
+					count: 18L
+				}
+				{
+					id: "553244F087ECF3CA"
+					type: "item"
+					item: {
+						gprops: { }
+						id: "modern_industrialization:plasma_handling_iridium_machine_casing"
+						Count: 1b
+					}
+					count: 17L
+				}
+			]
+		}
+		{
+			x: 22.0d
+			y: -5.0d
+			dependencies: ["4847BA675A04852F"]
+			id: "2DD7A176E38F67AD"
+			tasks: [{
+				id: "65573E368D0A8C59"
+				type: "item"
+				item: {
+					gprops: { }
+					id: "modern_industrialization:replicator"
+					Count: 1b
+				}
+			}]
+		}
+		{
+			x: 23.0d
+			y: -5.0d
+			dependencies: ["4847BA675A04852F"]
+			id: "6C6FFF91F7E49E1D"
+			tasks: [
+				{
+					id: "0684EF2F47C7A5DF"
+					type: "item"
+					item: {
+						gprops: { }
+						id: "modern_industrialization:quantum_helmet"
+						Count: 1b
+					}
+				}
+				{
+					id: "27517665764C7AA0"
+					type: "item"
+					item: {
+						gprops: { }
+						id: "modern_industrialization:quantum_chestplate"
+						Count: 1b
+					}
+				}
+				{
+					id: "79941F20E6B0249D"
+					type: "item"
+					item: {
+						gprops: { }
+						id: "modern_industrialization:quantum_leggings"
+						Count: 1b
+					}
+				}
+				{
+					id: "4499514AF8A6B84B"
+					type: "item"
+					item: {
+						gprops: { }
+						id: "modern_industrialization:quantum_boots"
+						Count: 1b
+					}
+				}
+				{
+					id: "0CDD142D3CF0E152"
+					type: "item"
+					item: {
+						gprops: { }
+						id: "modern_industrialization:quantum_sword"
+						Count: 1b
+					}
+				}
+			]
+		}
+		{
+			x: 21.0d
+			y: -1.0d
+			dependencies: ["0F7CE2BA2A295A4D"]
+			id: "03896D148D7B4E3B"
+			tasks: [
+				{
+					id: "6539BC5A7D008ABE"
+					type: "item"
+					item: {
+						gprops: { }
+						id: "modern_industrialization:nuclear_reactor"
+						Count: 1b
+					}
+				}
+				{
+					id: "453E60CB97E09F53"
+					type: "item"
+					item: {
+						gprops: { }
+						id: "modern_industrialization:nuclear_alloy_machine_casing_pipe"
+						Count: 1b
+					}
+					count: 27L
+				}
+				{
+					id: "6A65032810E039AA"
+					type: "item"
+					item: {
+						gprops: { }
+						id: "modern_industrialization:nuclear_casing"
+						Count: 1b
+					}
+					count: 77L
+				}
+			]
+		}
+		{
+			x: 22.5d
+			y: -1.0d
+			dependencies: ["03896D148D7B4E3B"]
+			id: "04FAF93691F0BD9C"
+			tasks: [{
+				id: "562F6128B9E139A8"
+				type: "item"
+				item: {
+					gprops: { }
+					id: "modern_industrialization:nuke"
+					Count: 1b
+				}
+			}]
+		}
+		{
+			x: 24.0d
+			y: -1.0d
+			dependencies: ["04FAF93691F0BD9C"]
+			id: "6314525E36DEA54B"
+			tasks: [{
+				id: "1A5C0F0D73190307"
+				type: "item"
+				item: {
+					gprops: { }
+					id: "modern_industrialization:singularity"
+					Count: 1b
+				}
+			}]
+		}
+		{
+			x: 25.5d
+			y: -1.0d
+			dependencies: ["6314525E36DEA54B"]
+			id: "79802A9D4A83E757"
+			tasks: [{
+				id: "15325EFF41DA3891"
+				type: "item"
+				item: {
+					gprops: { }
+					id: "modern_industrialization:bucket_uu_matter"
+					Count: 1b
+				}
+			}]
+			rewards: [{
+				id: "5B72A41410DB60FF"
+				type: "item"
+				item: {
+					gprops: { }
+					id: "minecraft:flint"
+					Count: 1b
+				}
+			}]
+		}
+		{
+			x: 19.5d
+			y: 0.5d
+			dependencies: ["5310B93F2821826A"]
+			id: "60A05C52ACCBE35D"
+			tasks: [{
+				id: "537CE70D027A8B77"
+				type: "item"
+				item: {
+					gprops: { }
+					id: "modern_industrialization:highly_advanced_upgrade"
+					Count: 1b
+				}
+			}]
+		}
+		{
+			x: 9.5d
+			y: -4.5d
+			dependencies: ["33BF21CF8232FD35"]
+			id: "419F7B74E30C2AF4"
+			tasks: [{
+				id: "5F35CE6C3C6BAEF9"
+				type: "item"
+				item: {
+					gprops: { }
+					id: "modern_industrialization:aluminum_drill"
+					Count: 1b
+				}
+			}]
+		}
+		{
+			x: 18.0d
+			y: -0.5d
+			dependencies: ["7D3D156BE9C9E150"]
+			id: "24535DA01189CC75"
+			tasks: [{
+				id: "6448D47D73DD3726"
+				type: "item"
+				item: {
+					gprops: { }
+					id: "modern_industrialization:titanium_drill"
+					Count: 1b
+				}
+			}]
+		}
+		{
+			x: -12.0d
+			y: -3.0d
+			subtitle: "Is it a Monkey or a Wrench?"
+			description: [
+				"- The Wrench can be used to remove Pipes with Shift right Click. You can Manipulate pipes with just right click."
+				""
+				"- Machines Facings can be moved with a simple right click where shift right click will move it's output or input slot. Fun Fact you can have an output slot and the facing on the same side how crazy is that?"
+			]
+			dependencies: ["4661838E492BDE53"]
+			id: "2DB9C3C383C91BC0"
+			tasks: [{
+				id: "68063DD59C50E1A7"
+				type: "item"
+				item: {
+					gprops: { }
+					id: "modern_industrialization:wrench"
+					Count: 1b
+				}
+			}]
+		}
+		{
+			x: 3.5d
+			y: 0.0d
+			subtitle: "So is this just a Giant Inlet? "
+			description: ["Now that were getting into Electric Muiltiblock Structures you will start using Energy Hatches. You can upgrades the Hatches to other tiers as you wish. Unlike GregTech it does not increase the speed of the machines at all that is the job of the Overclockers."]
+			dependencies: ["796F33AE4A9CF30C"]
+			id: "1B0A4271FCBD581F"
+			tasks: [{
+				id: "13C4EB4423DBF2B5"
+				type: "item"
+				item: {
+					gprops: { }
+					id: "modern_industrialization:lv_energy_input_hatch"
+					Count: 1b
+				}
+			}]
+			rewards: [{
+				id: "0CFB0E3E504A70F7"
+				type: "item"
+				item: {
+					gprops: { }
+					id: "modern_industrialization:basic_machine_hull"
+					Count: 1b
+				}
+			}]
+		}
+		{
+			x: -3.0d
+			y: -4.5d
+			subtitle: "Hatchback"
+			description: ["Now that you worked hard to make your Steam Quarry we're going to let you in on a little secret! You Made 3 too many Steel Casings! That is fine you will for sure use them later on. So you need to replace 3 of the Casings with these Hatches to provide it with Steam, Items (drills) and an output for your ores."]
+			dependencies: ["26E587E34810A8FE"]
+			id: "2050D2FF42E29F6D"
+			tasks: [
+				{
+					id: "7A4F57CDD12A6800"
+					type: "item"
+					item: {
+						gprops: { }
+						id: "modern_industrialization:steel_fluid_input_hatch"
+						Count: 1b
+					}
+				}
+				{
+					id: "5D7622FC67473FA0"
+					type: "item"
+					item: {
+						gprops: { }
+						id: "modern_industrialization:steel_item_input_hatch"
+						Count: 1b
+					}
+				}
+				{
+					id: "4A27BBE015E4B476"
+					type: "item"
+					item: {
+						gprops: { }
+						id: "modern_industrialization:steel_item_output_hatch"
+						Count: 1b
+					}
+				}
+			]
+			rewards: [{
+				id: "54AF33022467EEBE"
+				type: "item"
+				item: {
+					gprops: { }
+					id: "modern_industrialization:steel_item_output_hatch"
+					Count: 1b
+				}
+			}]
+		}
+	]
 }
