@@ -1,0 +1,1420 @@
+{
+	id: "2D905E8603BFEC34"
+	group: "33A417364C0A17FE"
+	order_index: 0
+	filename: "storage"
+	title: "Storage"
+	icon: {
+		gprops: { }
+		id: "expandedstorage:wood_chest"
+		Count: 1b
+	}
+	default_quest_shape: "square"
+	default_hide_dependency_lines: false
+	images: [{
+		x: -4.0d
+		y: -6.0d
+		width: 2.0d
+		height: 2.0d
+		rotation: 0.0d
+		image: "betteranimalsplus:textures/items/head_bear_kermode.png"
+		hover: ["From items, fluids or on the go. We have all the storage options you need."]
+		click: ""
+		dev: false
+		corner: false
+	}]
+	quests: [
+		{
+			title: "Storage on the go"
+			x: -2.0d
+			y: -3.5d
+			subtitle: "Craft your first backpack."
+			dependencies: ["6F2E92752228528C"]
+			id: "15E104B33E6D3388"
+			tasks: [{
+				id: "53EFF04F0D471D35"
+				type: "item"
+				item: {
+					gprops: { }
+					id: "inmis:frayed_backpack"
+					Count: 1b
+					tag: { }
+				}
+			}]
+			rewards: [{
+				id: "05E2CF56C1EBAC2C"
+				type: "random"
+				table_id: 1327074635400886561L
+			}]
+		}
+		{
+			title: "More storage on the go"
+			x: -2.0d
+			y: -2.5d
+			subtitle: "Same backpack, more storage."
+			dependencies: ["15E104B33E6D3388"]
+			id: "54DB5154498B9336"
+			tasks: [{
+				id: "0389793A9B8ED02D"
+				type: "item"
+				item: {
+					gprops: { }
+					id: "inmis:plated_backpack"
+					Count: 1b
+					tag: { }
+				}
+			}]
+			rewards: [{
+				id: "0BCB16D94F33DADC"
+				type: "random"
+				table_id: 2482271367426889676L
+			}]
+		}
+		{
+			title: "Backpack in gold?"
+			x: -2.0d
+			y: -1.5d
+			subtitle: "This one must be a heavy one."
+			dependencies: ["54DB5154498B9336"]
+			id: "1569F3E295EA86B5"
+			tasks: [{
+				id: "7698650D341A24A6"
+				type: "item"
+				item: {
+					gprops: { }
+					id: "inmis:gilded_backpack"
+					Count: 1b
+					tag: { }
+				}
+			}]
+			rewards: [{
+				id: "7B0447187E86681C"
+				type: "random"
+				table_id: 5326367464111173975L
+			}]
+		}
+		{
+			title: "All the storage you need!"
+			x: -2.0d
+			y: -0.5d
+			subtitle: "Gucci bag? Almost."
+			dependencies: ["1569F3E295EA86B5"]
+			id: "5DF23C8638C479E3"
+			tasks: [{
+				id: "11B5FCEFA2E08385"
+				type: "item"
+				item: {
+					gprops: { }
+					id: "inmis:bejeweled_backpack"
+					Count: 1b
+					tag: { }
+				}
+			}]
+			rewards: [{
+				id: "5FA59FBCF88EF795"
+				type: "random"
+				table_id: 5023855478423149265L
+			}]
+		}
+		{
+			title: "Bag of the withered"
+			x: -2.0d
+			y: 0.5d
+			subtitle: "Made from the depths of the nether!"
+			dependencies: ["5DF23C8638C479E3"]
+			id: "516BB48E835F9956"
+			tasks: [{
+				id: "27200ED2DA9EDDEE"
+				type: "item"
+				item: {
+					gprops: { }
+					id: "inmis:withered_backpack"
+					Count: 1b
+					tag: { }
+				}
+			}]
+			rewards: [{
+				id: "0F7536213C27FED5"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+		}
+		{
+			title: "Ultimate Backpack!"
+			x: -2.0d
+			y: 1.5d
+			subtitle: "It dosent get any bigger than this."
+			dependencies: ["516BB48E835F9956"]
+			id: "7EAF41F12D2F3612"
+			tasks: [{
+				id: "1725505C8D72840E"
+				type: "item"
+				item: {
+					gprops: { }
+					id: "inmis:endless_backpack"
+					Count: 1b
+					tag: { }
+				}
+			}]
+			rewards: [{
+				id: "3916F95FD13FB99A"
+				type: "random"
+				table_id: 3031070796978981367L
+			}]
+		}
+		{
+			title: "Bigger Chests"
+			x: -1.0d
+			y: -3.5d
+			subtitle: "Can be placed both horizontally and vertically."
+			dependencies: ["6F2E92752228528C"]
+			id: "775BEA78AEB9EE77"
+			tasks: [{
+				id: "4E720A38A6D9CFE6"
+				type: "item"
+				item: {
+					gprops: { }
+					id: "expandedstorage:iron_chest"
+					Count: 1b
+				}
+			}]
+			rewards: [{
+				id: "148CB381FEEB0016"
+				type: "random"
+				table_id: 1327074635400886561L
+			}]
+		}
+		{
+			title: "Even bigger chests"
+			x: -1.0d
+			y: -2.5d
+			subtitle: "May the chests be shining."
+			dependencies: ["775BEA78AEB9EE77"]
+			id: "04E1293B787FF906"
+			tasks: [{
+				id: "3D1ED067C24B1134"
+				type: "item"
+				item: {
+					gprops: { }
+					id: "expandedstorage:gold_chest"
+					Count: 1b
+				}
+			}]
+			rewards: [{
+				id: "74FBC2EF950CB86A"
+				type: "random"
+				table_id: 2482271367426889676L
+			}]
+		}
+		{
+			x: -1.0d
+			y: -1.5d
+			dependencies: ["04E1293B787FF906"]
+			id: "7F69917A95491A52"
+			tasks: [{
+				id: "1ED0C18AAD522A97"
+				type: "item"
+				item: {
+					gprops: { }
+					id: "expandedstorage:diamond_chest"
+					Count: 1b
+				}
+			}]
+			rewards: [{
+				id: "751E9CC1607B84E1"
+				type: "random"
+				table_id: 5326367464111173975L
+			}]
+		}
+		{
+			x: -1.0d
+			y: -0.5d
+			dependencies: ["7F69917A95491A52"]
+			id: "723E09B161CC9E33"
+			tasks: [{
+				id: "6C3A22620D3799C5"
+				type: "item"
+				item: {
+					gprops: { }
+					id: "expandedstorage:obsidian_chest"
+					Count: 1b
+				}
+			}]
+			rewards: [{
+				id: "290246B41CC9E263"
+				type: "random"
+				table_id: 5023855478423149265L
+			}]
+		}
+		{
+			x: -1.0d
+			y: 0.5d
+			dependencies: ["723E09B161CC9E33"]
+			id: "072E1CD9A57ABD85"
+			tasks: [{
+				id: "29DEDBBF10195987"
+				type: "item"
+				item: {
+					gprops: { }
+					id: "expandedstorage:netherite_chest"
+					Count: 1b
+				}
+			}]
+			rewards: [{
+				id: "23FE030B3AD90796"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+		}
+		{
+			x: 11.5d
+			y: -3.5d
+			dependencies: ["523A049CF07AD75B"]
+			id: "701620712CC907D7"
+			tasks: [{
+				id: "00779B056A43DEEA"
+				type: "item"
+				item: {
+					gprops: { }
+					id: "modern_industrialization:bronze_barrel"
+					Count: 1b
+				}
+			}]
+			rewards: [{
+				id: "4D9C5E224846D4D5"
+				type: "random"
+				table_id: 1327074635400886561L
+			}]
+		}
+		{
+			x: 11.5d
+			y: -2.5d
+			dependencies: ["701620712CC907D7"]
+			id: "3E9D89B146C5CD1A"
+			tasks: [{
+				id: "31025F43DEF2146E"
+				type: "item"
+				item: {
+					gprops: { }
+					id: "modern_industrialization:steel_barrel"
+					Count: 1b
+				}
+			}]
+			rewards: [{
+				id: "3BA2C5034E752280"
+				type: "random"
+				table_id: 2482271367426889676L
+			}]
+		}
+		{
+			x: 11.5d
+			y: -1.5d
+			dependencies: ["3E9D89B146C5CD1A"]
+			id: "4D0BDC938DA76D16"
+			tasks: [{
+				id: "6A117D9E6E6C396A"
+				type: "item"
+				item: {
+					gprops: { }
+					id: "modern_industrialization:aluminum_barrel"
+					Count: 1b
+				}
+			}]
+			rewards: [{
+				id: "5D9FF665C6BD00BC"
+				type: "random"
+				table_id: 5326367464111173975L
+			}]
+		}
+		{
+			x: 11.5d
+			y: -0.5d
+			dependencies: ["4D0BDC938DA76D16"]
+			id: "11A648D56AFA31D1"
+			tasks: [{
+				id: "1D224B514E4D27BB"
+				type: "item"
+				item: {
+					gprops: { }
+					id: "modern_industrialization:stainless_steel_barrel"
+					Count: 1b
+				}
+			}]
+			rewards: [{
+				id: "4B2CD5E36BCDE398"
+				type: "random"
+				table_id: 5023855478423149265L
+			}]
+		}
+		{
+			x: 11.5d
+			y: 0.5d
+			dependencies: ["11A648D56AFA31D1"]
+			id: "4D59362F0B630ACA"
+			tasks: [{
+				id: "477D2F4E7B22493B"
+				type: "item"
+				item: {
+					gprops: { }
+					id: "modern_industrialization:titanium_barrel"
+					Count: 1b
+				}
+			}]
+			rewards: [{
+				id: "5A7AFF7B329E1C50"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+		}
+		{
+			x: 11.5d
+			y: 1.5d
+			dependencies: ["4D59362F0B630ACA"]
+			id: "21BD1BBF2F0833A9"
+			tasks: [{
+				id: "01BCEFA7EAD4F9DB"
+				type: "item"
+				item: {
+					gprops: { }
+					id: "modern_industrialization:quantum_barrel"
+					Count: 1b
+				}
+			}]
+			rewards: [{
+				id: "024EE241D090B6C9"
+				type: "random"
+				table_id: 3031070796978981367L
+			}]
+		}
+		{
+			x: 12.5d
+			y: -3.5d
+			dependencies: ["523A049CF07AD75B"]
+			id: "3C5A8EA9636BF12F"
+			tasks: [{
+				id: "0E647B945E58B453"
+				type: "item"
+				item: {
+					gprops: { }
+					id: "modern_industrialization:bronze_tank"
+					Count: 1b
+				}
+			}]
+			rewards: [{
+				id: "5FEA5183F56DCCCD"
+				type: "random"
+				table_id: 1327074635400886561L
+			}]
+		}
+		{
+			x: 12.5d
+			y: -2.5d
+			dependencies: ["3C5A8EA9636BF12F"]
+			id: "57370D36B9C896E2"
+			tasks: [{
+				id: "0AA5B170D809E302"
+				type: "item"
+				item: {
+					gprops: { }
+					id: "modern_industrialization:steel_tank"
+					Count: 1b
+				}
+			}]
+			rewards: [{
+				id: "536D33EA28EE6545"
+				type: "random"
+				table_id: 2482271367426889676L
+			}]
+		}
+		{
+			x: 12.5d
+			y: -1.5d
+			dependencies: ["57370D36B9C896E2"]
+			id: "4DC3D05A8F8BBF75"
+			tasks: [{
+				id: "0D0319BE9A5E8567"
+				type: "item"
+				item: {
+					gprops: { }
+					id: "modern_industrialization:aluminum_tank"
+					Count: 1b
+				}
+			}]
+			rewards: [{
+				id: "1B2711E8B4C681E2"
+				type: "random"
+				table_id: 5326367464111173975L
+			}]
+		}
+		{
+			x: 12.5d
+			y: -0.5d
+			dependencies: ["4DC3D05A8F8BBF75"]
+			id: "7493E18AF65B41DE"
+			tasks: [{
+				id: "6436BE309468817B"
+				type: "item"
+				item: {
+					gprops: { }
+					id: "modern_industrialization:stainless_steel_tank"
+					Count: 1b
+				}
+			}]
+			rewards: [{
+				id: "155FE5BC6B841ED8"
+				type: "random"
+				table_id: 5023855478423149265L
+			}]
+		}
+		{
+			x: 12.5d
+			y: 0.5d
+			dependencies: ["7493E18AF65B41DE"]
+			id: "73629FD7B57CD7AB"
+			tasks: [{
+				id: "535970933372DF89"
+				type: "item"
+				item: {
+					gprops: { }
+					id: "modern_industrialization:titanium_tank"
+					Count: 1b
+				}
+			}]
+			rewards: [{
+				id: "7FF5690F4676B40B"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+		}
+		{
+			x: 12.5d
+			y: 1.5d
+			dependencies: ["73629FD7B57CD7AB"]
+			id: "49DE26F91AA4CE1A"
+			tasks: [{
+				id: "0F1698CB2970E678"
+				type: "item"
+				item: {
+					gprops: { }
+					id: "modern_industrialization:quantum_tank"
+					Count: 1b
+				}
+			}]
+			rewards: [{
+				id: "6F4EF3EC08FAF2BA"
+				type: "random"
+				table_id: 3031070796978981367L
+			}]
+		}
+		{
+			title: "Dank MK1"
+			x: 1.0d
+			y: -3.5d
+			subtitle: "Miner's pickup tool of choice."
+			dependencies: ["6F2E92752228528C"]
+			id: "08812AFA81E0361B"
+			tasks: [{
+				id: "5AC950AE1240C497"
+				type: "item"
+				item: {
+					gprops: { }
+					id: "dankstorage:dank_1"
+					Count: 1b
+				}
+			}]
+			rewards: [{
+				id: "5AFD72C0D53622E6"
+				type: "random"
+				table_id: 1327074635400886561L
+			}]
+		}
+		{
+			title: "Dank MK2"
+			x: 1.0d
+			y: -2.5d
+			dependencies: ["08812AFA81E0361B"]
+			id: "237A9481E48FF78E"
+			tasks: [{
+				id: "7458103DE8D41CFD"
+				type: "item"
+				item: {
+					gprops: { }
+					id: "dankstorage:dank_2"
+					Count: 1b
+				}
+			}]
+			rewards: [{
+				id: "7B6AB3A246498191"
+				type: "random"
+				table_id: 2482271367426889676L
+			}]
+		}
+		{
+			title: "Dank MK3"
+			x: 1.0d
+			y: -1.5d
+			dependencies: ["237A9481E48FF78E"]
+			id: "1ACB51C22A6CD24E"
+			tasks: [{
+				id: "6B69BD987268BFE9"
+				type: "item"
+				item: {
+					gprops: { }
+					id: "dankstorage:dank_3"
+					Count: 1b
+				}
+			}]
+			rewards: [{
+				id: "18999D80A9896C13"
+				type: "random"
+				table_id: 5326367464111173975L
+			}]
+		}
+		{
+			title: "Dank MK4"
+			x: 1.0d
+			y: -0.5d
+			dependencies: ["1ACB51C22A6CD24E"]
+			id: "3F2424B1D10C7EE9"
+			tasks: [{
+				id: "1C9D9C9CDC0730F0"
+				type: "item"
+				item: {
+					gprops: { }
+					id: "dankstorage:dank_4"
+					Count: 1b
+				}
+			}]
+			rewards: [{
+				id: "043745F85850D356"
+				type: "random"
+				table_id: 5023855478423149265L
+			}]
+		}
+		{
+			title: "Dank MK5"
+			x: 1.0d
+			y: 0.5d
+			dependencies: ["3F2424B1D10C7EE9"]
+			id: "08B93BF6A7AE7007"
+			tasks: [{
+				id: "78E8E5FE38C585C4"
+				type: "item"
+				item: {
+					gprops: { }
+					id: "dankstorage:dank_5"
+					Count: 1b
+				}
+			}]
+			rewards: [{
+				id: "176B2F6BFA0786E6"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+		}
+		{
+			title: "Dank MK6"
+			x: 1.0d
+			y: 1.5d
+			dependencies: ["08B93BF6A7AE7007"]
+			id: "39AD0699B2DBAE16"
+			tasks: [{
+				id: "6F2EBCEF613C0B9B"
+				type: "item"
+				item: {
+					gprops: { }
+					id: "dankstorage:dank_6"
+					Count: 1b
+				}
+			}]
+			rewards: [{
+				id: "18B276161883BD19"
+				type: "random"
+				table_id: 3031070796978981367L
+			}]
+		}
+		{
+			title: "Dank MK7"
+			x: 1.0d
+			y: 2.5d
+			dependencies: ["39AD0699B2DBAE16"]
+			id: "2557F1066749B6D7"
+			tasks: [{
+				id: "015B208F0D6BEDCF"
+				type: "item"
+				item: {
+					gprops: { }
+					id: "dankstorage:dank_7"
+					Count: 1b
+				}
+			}]
+			rewards: [
+				{
+					id: "50AB54A59C477F4E"
+					type: "random"
+					table_id: 1327074635400886561L
+				}
+				{
+					id: "6AF833B8DF289DCE"
+					type: "random"
+					table_id: 5326367464111173975L
+				}
+				{
+					id: "1945E08C0D1B65F0"
+					type: "random"
+					table_id: 2482271367426889676L
+				}
+				{
+					id: "2366786BEB23D2B4"
+					type: "random"
+					table_id: 5023855478423149265L
+				}
+			]
+		}
+		{
+			x: 9.0d
+			y: -3.5d
+			dependencies: ["64082742D6539923"]
+			id: "691F1102DCB3851D"
+			tasks: [{
+				id: "2D8DB2A4B2A7CCBE"
+				type: "item"
+				item: {
+					gprops: { }
+					id: "techreborn:basic_tank_unit"
+					Count: 1b
+				}
+			}]
+			rewards: [{
+				id: "326DAA2A2963C140"
+				type: "random"
+				table_id: 1327074635400886561L
+			}]
+		}
+		{
+			x: 8.0d
+			y: -3.5d
+			dependencies: ["64082742D6539923"]
+			id: "16D84060C075DC03"
+			tasks: [{
+				id: "14EAC75C541EAC9F"
+				type: "item"
+				item: {
+					gprops: { }
+					id: "techreborn:crude_storage_unit"
+					Count: 1b
+				}
+			}]
+			rewards: [{
+				id: "05BF62A39718CA1B"
+				type: "random"
+				table_id: 1327074635400886561L
+			}]
+		}
+		{
+			x: 2.5d
+			y: -3.5d
+			dependencies: ["589C0E6DD1C6AAD3"]
+			id: "79F20CB0295BFBAF"
+			tasks: [{
+				id: "4047E84A003607DF"
+				type: "item"
+				item: {
+					gprops: { }
+					id: "ae2:portable_item_cell_1k"
+					Count: 1b
+					tag: { }
+				}
+			}]
+			rewards: [{
+				id: "60AEACC49DD39F3C"
+				type: "random"
+				table_id: 1327074635400886561L
+			}]
+		}
+		{
+			x: 3.0d
+			y: -2.5d
+			dependencies: ["589C0E6DD1C6AAD3"]
+			id: "2BBD3A888A2F0482"
+			tasks: [{
+				id: "2923476FBF22179D"
+				type: "item"
+				item: {
+					gprops: { }
+					id: "ae2:portable_item_cell_4k"
+					Count: 1b
+					tag: { }
+				}
+			}]
+			rewards: [{
+				id: "6E5A92D1963B17C4"
+				type: "random"
+				table_id: 2482271367426889676L
+			}]
+		}
+		{
+			x: 3.5d
+			y: -1.5d
+			dependencies: ["589C0E6DD1C6AAD3"]
+			id: "15D6496849DE38CE"
+			tasks: [{
+				id: "71BE3BA4905757B3"
+				type: "item"
+				item: {
+					gprops: { }
+					id: "ae2:portable_item_cell_16k"
+					Count: 1b
+					tag: { }
+				}
+			}]
+			rewards: [{
+				id: "744F0D1361180872"
+				type: "random"
+				table_id: 5326367464111173975L
+			}]
+		}
+		{
+			x: 4.0d
+			y: -0.5d
+			dependencies: ["589C0E6DD1C6AAD3"]
+			id: "62A581403BE4D7DF"
+			tasks: [{
+				id: "35C282C1B8D33B87"
+				type: "item"
+				item: {
+					gprops: { }
+					id: "ae2:portable_item_cell_64k"
+					Count: 1b
+					tag: { }
+				}
+			}]
+			rewards: [{
+				id: "360CCEAE73CE7C4E"
+				type: "random"
+				table_id: 5023855478423149265L
+			}]
+		}
+		{
+			x: 6.5d
+			y: -3.5d
+			dependencies: ["589C0E6DD1C6AAD3"]
+			id: "2C9C080685498630"
+			tasks: [{
+				id: "2279583F8E5EEB36"
+				type: "item"
+				item: {
+					gprops: { }
+					id: "ae2:portable_fluid_cell_1k"
+					Count: 1b
+					tag: { }
+				}
+			}]
+			rewards: [{
+				id: "21605DB2F8CD183E"
+				type: "random"
+				table_id: 1327074635400886561L
+			}]
+		}
+		{
+			x: 6.0d
+			y: -2.5d
+			dependencies: ["589C0E6DD1C6AAD3"]
+			id: "29C5155600C904E6"
+			tasks: [{
+				id: "43C781916B5E5A65"
+				type: "item"
+				item: {
+					gprops: { }
+					id: "ae2:portable_fluid_cell_4k"
+					Count: 1b
+					tag: { }
+				}
+			}]
+			rewards: [{
+				id: "6313710367D8A6D7"
+				type: "random"
+				table_id: 2482271367426889676L
+			}]
+		}
+		{
+			x: 5.5d
+			y: -1.5d
+			dependencies: ["589C0E6DD1C6AAD3"]
+			id: "3EA1CBF951AF1474"
+			tasks: [{
+				id: "0692A8C08A35DCC3"
+				type: "item"
+				item: {
+					gprops: { }
+					id: "ae2:portable_fluid_cell_16k"
+					Count: 1b
+					tag: { }
+				}
+			}]
+			rewards: [{
+				id: "1BAFA69EC29D2E10"
+				type: "random"
+				table_id: 5326367464111173975L
+			}]
+		}
+		{
+			x: 5.0d
+			y: -0.5d
+			dependencies: ["589C0E6DD1C6AAD3"]
+			id: "5F40EB98055B2BA6"
+			tasks: [{
+				id: "440B9C7ACD790014"
+				type: "item"
+				item: {
+					gprops: { }
+					id: "ae2:portable_fluid_cell_64k"
+					Count: 1b
+					tag: { }
+				}
+			}]
+			rewards: [{
+				id: "6A76387195A20C40"
+				type: "random"
+				table_id: 5023855478423149265L
+			}]
+		}
+		{
+			title: "Bigger Barrels"
+			x: 0.0d
+			y: -3.5d
+			subtitle: "Goes well as buffers in automation setups."
+			dependencies: ["6F2E92752228528C"]
+			id: "3341ED2C0B9631BE"
+			tasks: [{
+				id: "2B4C0EB03500550D"
+				type: "item"
+				item: {
+					gprops: { }
+					id: "expandedstorage:iron_barrel"
+					Count: 1b
+				}
+			}]
+			rewards: [{
+				id: "426794D6E6D3387D"
+				type: "random"
+				table_id: 1327074635400886561L
+			}]
+		}
+		{
+			title: "Even bigger barrels"
+			x: 0.0d
+			y: -2.5d
+			subtitle: "May the barrels be shining."
+			dependencies: ["3341ED2C0B9631BE"]
+			id: "213D8E0BB7F2E924"
+			tasks: [{
+				id: "68460F5575BF476F"
+				type: "item"
+				item: {
+					gprops: { }
+					id: "expandedstorage:gold_barrel"
+					Count: 1b
+				}
+			}]
+			rewards: [{
+				id: "4FD4E0B728D174BF"
+				type: "random"
+				table_id: 2482271367426889676L
+			}]
+		}
+		{
+			x: 0.0d
+			y: -1.5d
+			dependencies: ["213D8E0BB7F2E924"]
+			id: "0E970E8E69BA207A"
+			tasks: [{
+				id: "4740CF82772243A9"
+				type: "item"
+				item: {
+					gprops: { }
+					id: "expandedstorage:diamond_barrel"
+					Count: 1b
+				}
+			}]
+			rewards: [{
+				id: "75066B6620294BDC"
+				type: "random"
+				table_id: 5326367464111173975L
+			}]
+		}
+		{
+			x: 0.0d
+			y: -0.5d
+			dependencies: ["0E970E8E69BA207A"]
+			id: "19D64FC4F94A9B6A"
+			tasks: [{
+				id: "02CBDF3A4275A06B"
+				type: "item"
+				item: {
+					gprops: { }
+					id: "expandedstorage:obsidian_barrel"
+					Count: 1b
+				}
+			}]
+			rewards: [{
+				id: "790A9065CCDCE548"
+				type: "random"
+				table_id: 5023855478423149265L
+			}]
+		}
+		{
+			x: 0.0d
+			y: 0.5d
+			dependencies: ["19D64FC4F94A9B6A"]
+			id: "3593C7DBFDF77FE9"
+			tasks: [{
+				id: "6CBB00C8CB2DE300"
+				type: "item"
+				item: {
+					gprops: { }
+					id: "expandedstorage:netherite_barrel"
+					Count: 1b
+				}
+			}]
+			rewards: [{
+				id: "32235D92E5C5062C"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+		}
+		{
+			x: 8.0d
+			y: -2.5d
+			dependencies: ["16D84060C075DC03"]
+			id: "3E37A08E65F102D8"
+			tasks: [{
+				id: "332A6C8DE153FB8A"
+				type: "item"
+				item: {
+					gprops: { }
+					id: "techreborn:basic_storage_unit"
+					Count: 1b
+				}
+			}]
+			rewards: [{
+				id: "11FD5E5321538612"
+				type: "random"
+				table_id: 2482271367426889676L
+			}]
+		}
+		{
+			x: 9.0d
+			y: -2.5d
+			dependencies: ["691F1102DCB3851D"]
+			id: "2AEBEE27B2451EEA"
+			tasks: [{
+				id: "34281E506046CD51"
+				type: "item"
+				item: {
+					gprops: { }
+					id: "techreborn:advanced_tank_unit"
+					Count: 1b
+				}
+			}]
+			rewards: [{
+				id: "193FFBF21261E8DE"
+				type: "random"
+				table_id: 2482271367426889676L
+			}]
+		}
+		{
+			x: 8.0d
+			y: -1.5d
+			dependencies: ["3E37A08E65F102D8"]
+			id: "3BBD2850B68661AB"
+			tasks: [{
+				id: "22CE468B3AC15142"
+				type: "item"
+				item: {
+					gprops: { }
+					id: "techreborn:advanced_storage_unit"
+					Count: 1b
+				}
+			}]
+			rewards: [{
+				id: "4A1060107E124285"
+				type: "random"
+				table_id: 5326367464111173975L
+			}]
+		}
+		{
+			x: 8.0d
+			y: -0.5d
+			dependencies: ["3BBD2850B68661AB"]
+			id: "6A0AF132BE5A8AAE"
+			tasks: [{
+				id: "012C6C1DF6C46F0F"
+				type: "item"
+				item: {
+					gprops: { }
+					id: "techreborn:industrial_storage_unit"
+					Count: 1b
+				}
+			}]
+			rewards: [{
+				id: "4AEF1830216EC884"
+				type: "random"
+				table_id: 5023855478423149265L
+			}]
+		}
+		{
+			x: 8.0d
+			y: 0.5d
+			dependencies: ["6A0AF132BE5A8AAE"]
+			id: "3A44CCFDB872EA17"
+			tasks: [{
+				id: "272347DF31B60E19"
+				type: "item"
+				item: {
+					gprops: { }
+					id: "techreborn:quantum_storage_unit"
+					Count: 1b
+				}
+			}]
+			rewards: [{
+				id: "073249D1E25B5800"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+		}
+		{
+			x: 9.0d
+			y: -1.5d
+			dependencies: ["2AEBEE27B2451EEA"]
+			id: "1A19CF23FD98EC6B"
+			tasks: [{
+				id: "41F08E4226C2B034"
+				type: "item"
+				item: {
+					gprops: { }
+					id: "techreborn:industrial_tank_unit"
+					Count: 1b
+				}
+			}]
+			rewards: [{
+				id: "31E9FA3A17FF4089"
+				type: "random"
+				table_id: 5326367464111173975L
+			}]
+		}
+		{
+			x: 9.0d
+			y: -0.5d
+			dependencies: ["1A19CF23FD98EC6B"]
+			id: "7F5430EAC0D58A99"
+			tasks: [{
+				id: "1B1315F65EE4559C"
+				type: "item"
+				item: {
+					gprops: { }
+					id: "techreborn:quantum_tank_unit"
+					Count: 1b
+				}
+			}]
+			rewards: [{
+				id: "129D531B1183328B"
+				type: "random"
+				table_id: 5023855478423149265L
+			}]
+		}
+		{
+			x: 12.0d
+			y: -5.0d
+			subtitle: "Barrels and tanks of different sizes. You know what they are.. They have no disguises."
+			id: "523A049CF07AD75B"
+			tasks: [{
+				id: "7279364B4E1843D4"
+				type: "checkmark"
+				title: "Modern Industrialization"
+			}]
+		}
+		{
+			x: 9.0d
+			y: -5.0d
+			description: [
+				"Storage units are single item, mass storage devices with an inventory count on the face."
+				""
+				"Tank units store liquids.. that's about it."
+				""
+				"Battery box, mfe, mfsu and Interdimensional Su are energy storage devices. you can view their inventory and use the slot they have to charge devices."
+			]
+			id: "64082742D6539923"
+			tasks: [{
+				id: "77F4F6BBF4F8AF10"
+				type: "checkmark"
+				title: "Tech Reborn"
+			}]
+		}
+		{
+			x: -0.5d
+			y: -5.0d
+			subtitle: "Learn about the basics of storage."
+			description: [
+				"Backpacks for increased inventory"
+				""
+				"Chests for mass storage"
+				""
+				"Barrels for buffers in automation or so you can access it's inventory in tight spots."
+				""
+				"Danks for automatic portable storage and dynamic inventory block placement."
+			]
+			id: "6F2E92752228528C"
+			tasks: [{
+				id: "4A26CDEE07DCD4B8"
+				type: "checkmark"
+				title: "Basic Storage"
+			}]
+		}
+		{
+			x: 4.5d
+			y: -5.0d
+			subtitle: "For when you need to digitize that portable storage"
+			id: "589C0E6DD1C6AAD3"
+			tasks: [{
+				id: "6605C80DB89DDE01"
+				type: "checkmark"
+				title: "Applied Energistics 2"
+			}]
+		}
+		{
+			x: 10.0d
+			y: -3.5d
+			dependencies: ["64082742D6539923"]
+			id: "02C255C9CAC286C8"
+			tasks: [{
+				id: "2901054D6A1E5169"
+				type: "item"
+				item: {
+					gprops: { }
+					id: "techreborn:low_voltage_su"
+					Count: 1b
+				}
+			}]
+			rewards: [{
+				id: "674E0D34A579213A"
+				type: "random"
+				table_id: 1327074635400886561L
+			}]
+		}
+		{
+			x: 10.0d
+			y: -2.5d
+			dependencies: ["02C255C9CAC286C8"]
+			id: "363CEF71CB948F73"
+			tasks: [{
+				id: "3E91DD78CB3B5A29"
+				type: "item"
+				item: {
+					gprops: { }
+					id: "techreborn:medium_voltage_su"
+					Count: 1b
+				}
+			}]
+			rewards: [{
+				id: "615614CA8AAB107C"
+				type: "random"
+				table_id: 2482271367426889676L
+			}]
+		}
+		{
+			x: 10.0d
+			y: -1.5d
+			dependencies: ["363CEF71CB948F73"]
+			id: "1DA0468352954BA9"
+			tasks: [{
+				id: "729C6F46550B4901"
+				type: "item"
+				item: {
+					gprops: { }
+					id: "techreborn:high_voltage_su"
+					Count: 1b
+				}
+			}]
+			rewards: [{
+				id: "1D5A6892D23AC30F"
+				type: "random"
+				table_id: 5326367464111173975L
+			}]
+		}
+		{
+			x: 10.0d
+			y: -0.5d
+			dependencies: ["1DA0468352954BA9"]
+			id: "247204A995A00576"
+			tasks: [{
+				id: "619C6FB574819C0A"
+				type: "item"
+				item: {
+					gprops: { }
+					id: "techreborn:interdimensional_su"
+					Count: 1b
+				}
+			}]
+			rewards: [{
+				id: "6ACFF23D28855783"
+				type: "random"
+				table_id: 5023855478423149265L
+			}]
+		}
+		{
+			x: 14.0d
+			y: -5.0d
+			subtitle: "Let the energy revolutionize!"
+			description: ["An Indrevian version of an energy storage device."]
+			id: "679464B1F04B106E"
+			tasks: [{
+				id: "0FB2E00F0013C475"
+				type: "checkmark"
+				title: "Industrial Revolution"
+			}]
+		}
+		{
+			x: 14.0d
+			y: -3.5d
+			dependencies: ["679464B1F04B106E"]
+			id: "17F540DAE69F9836"
+			tasks: [{
+				id: "7659005A22D97F38"
+				type: "item"
+				item: {
+					gprops: { }
+					id: "indrev:lazuli_flux_container_mk1"
+					Count: 1b
+				}
+			}]
+			rewards: [{
+				id: "5394456298247B14"
+				type: "random"
+				table_id: 1327074635400886561L
+			}]
+		}
+		{
+			x: 14.0d
+			y: -2.5d
+			dependencies: ["17F540DAE69F9836"]
+			id: "4D4D4AB0102E6B6E"
+			tasks: [{
+				id: "6C0809992B96502B"
+				type: "item"
+				item: {
+					gprops: { }
+					id: "indrev:lazuli_flux_container_mk2"
+					Count: 1b
+				}
+			}]
+			rewards: [{
+				id: "7E7358C587607459"
+				type: "random"
+				table_id: 2482271367426889676L
+			}]
+		}
+		{
+			x: 14.0d
+			y: -1.5d
+			dependencies: ["4D4D4AB0102E6B6E"]
+			id: "02B1E8CECB57D77C"
+			tasks: [{
+				id: "20203EEE0087B7A5"
+				type: "item"
+				item: {
+					gprops: { }
+					id: "indrev:lazuli_flux_container_mk3"
+					Count: 1b
+				}
+			}]
+			rewards: [{
+				id: "60B23A692872D6F8"
+				type: "random"
+				table_id: 5326367464111173975L
+			}]
+		}
+		{
+			x: 14.0d
+			y: -0.5d
+			dependencies: ["02B1E8CECB57D77C"]
+			id: "4A9EAB93BC030448"
+			tasks: [{
+				id: "46EBA4968DDC5066"
+				type: "item"
+				item: {
+					gprops: { }
+					id: "indrev:lazuli_flux_container_mk4"
+					Count: 1b
+				}
+			}]
+			rewards: [{
+				id: "27E20A9B069DA06B"
+				type: "random"
+				table_id: 5023855478423149265L
+			}]
+		}
+		{
+			x: 16.5d
+			y: -3.5d
+			subtitle: "Deletes items so be careful what you put into it."
+			dependencies: ["362FABC06878807C"]
+			id: "798C017E412FA4FE"
+			tasks: [{
+				id: "05925CAF51CE0B12"
+				type: "item"
+				item: {
+					gprops: { }
+					id: "cyti:trashcan_item"
+					Count: 1b
+				}
+			}]
+		}
+		{
+			x: 15.5d
+			y: -3.5d
+			subtitle: "Fluids be gone!"
+			description: ["Removes fluids from buckets and other fluid containers and can also remove fluids pumped into it by pipes or such."]
+			dependencies: ["362FABC06878807C"]
+			id: "56418D285D250B18"
+			tasks: [{
+				id: "6EB150C656F759E2"
+				type: "item"
+				item: {
+					gprops: { }
+					id: "cyti:trashcan_fluid"
+					Count: 1b
+				}
+			}]
+		}
+		{
+			title: "Trashcans"
+			x: 16.5d
+			y: -5.0d
+			subtitle: "Throw away the resources you don't want"
+			id: "362FABC06878807C"
+			tasks: [{
+				id: "529C11C5A9056EB1"
+				type: "checkmark"
+				title: "Various trash cans."
+			}]
+		}
+		{
+			x: 17.5d
+			y: -3.5d
+			subtitle: "Energy flows through my... trashcan?"
+			description: ["The energy trashcan can remove energy from chargeable items and also takes care of the energy you no longer want via cables and things like that."]
+			dependencies: ["362FABC06878807C"]
+			id: "6309FAA2E30D6D7E"
+			tasks: [{
+				id: "33E2E81D15BBA2DD"
+				type: "item"
+				item: {
+					gprops: { }
+					id: "cyti:trashcan_energy"
+					Count: 1b
+				}
+			}]
+		}
+	]
+}
