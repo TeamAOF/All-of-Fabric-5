@@ -1,19 +1,2033 @@
 {
 	id: "47B446DF2ABE5972"
 	group: "0815C5D80307ECDF"
-	order_index: 2
+	order_index: 1
 	filename: "industrial_revolution"
 	title: "Industrial Revolution"
-	icon: "indrev:modular_core"
-	default_quest_shape: ""
+	icon: {
+		gprops: { }
+		id: "indrev:modular_core"
+		Count: 1b
+	}
+	default_quest_shape: "rsquare"
 	default_hide_dependency_lines: false
-	quests: [{
-		x: -0.5d
-		y: 0.0d
-		id: "1A8E2164C80FA8CB"
-		tasks: [{
-			id: "0417B3551856C77C"
-			type: "item"
-		}]
+	images: [{
+		x: -12.0d
+		y: -8.5d
+		width: 3.0d
+		height: 3.0d
+		rotation: 0.0d
+		image: "indrev:textures/gui/energy_icon.png"
+		hover: [ ]
+		click: ""
+		dev: false
+		corner: false
 	}]
+	quests: [
+		{
+			title: "Configurability"
+			x: -9.5d
+			y: -7.5d
+			subtitle: "Quit screwing around and wrench it off"
+			dependencies: ["1CE1C8FC892A6F84"]
+			id: "47BB7143EA6AF423"
+			tasks: [
+				{
+					id: "120ED12697D4981E"
+					type: "item"
+					item: {
+						gprops: { }
+						id: "indrev:wrench"
+						Count: 1b
+					}
+				}
+				{
+					id: "6476760A6188EB18"
+					type: "item"
+					item: {
+						gprops: { }
+						id: "indrev:screwdriver"
+						Count: 1b
+					}
+				}
+			]
+		}
+		{
+			x: -5.0d
+			y: -4.5d
+			subtitle: "first near quantum level computer circuits"
+			dependencies: ["72FAE2CEB348AF96"]
+			id: "60E79DB91F2919BD"
+			tasks: [{
+				id: "7D53A62DB0D746E1"
+				type: "item"
+				item: {
+					gprops: { }
+					id: "indrev:circuit_mk1"
+					Count: 1b
+				}
+			}]
+			rewards: [{
+				id: "5F2EFE144BB098DC"
+				type: "item"
+				item: {
+					gprops: { }
+					id: "indrev:circuit_mk1"
+					Count: 1b
+				}
+			}]
+		}
+		{
+			x: -3.0d
+			y: -4.5d
+			subtitle: "this helped indrev start their campaign for revolution."
+			dependencies: [
+				"587B0ABFDC5F2428"
+				"60E79DB91F2919BD"
+			]
+			id: "5126D10B28A64460"
+			tasks: [{
+				id: "55EB225CEDCC8BB0"
+				type: "item"
+				item: {
+					gprops: { }
+					id: "indrev:circuit_mk2"
+					Count: 1b
+				}
+			}]
+			rewards: [{
+				id: "30F94EDD142AD0A5"
+				type: "item"
+				item: {
+					gprops: { }
+					id: "indrev:circuit_mk2"
+					Count: 1b
+				}
+			}]
+		}
+		{
+			x: -1.0d
+			y: -4.5d
+			subtitle: "just when you thought it couldn't get better."
+			dependencies: [
+				"3BD2945543D442EB"
+				"5126D10B28A64460"
+			]
+			id: "7A318DEE361289B5"
+			tasks: [{
+				id: "153F8D1FE2667FE0"
+				type: "item"
+				item: {
+					gprops: { }
+					id: "indrev:circuit_mk3"
+					Count: 1b
+				}
+			}]
+			rewards: [{
+				id: "60848CAD2C7A4625"
+				type: "item"
+				item: {
+					gprops: { }
+					id: "indrev:circuit_mk3"
+					Count: 1b
+				}
+			}]
+		}
+		{
+			x: 1.0d
+			y: -4.5d
+			subtitle: "circuit go brrrrrr"
+			dependencies: [
+				"2C8663C76CFE101D"
+				"7A318DEE361289B5"
+			]
+			id: "65E60EDD6DE18DC2"
+			tasks: [{
+				id: "6C45B817876223D3"
+				type: "item"
+				item: {
+					gprops: { }
+					id: "indrev:circuit_mk4"
+					Count: 1b
+				}
+			}]
+			rewards: [{
+				id: "1A39118E2DE8AB1E"
+				type: "item"
+				item: {
+					gprops: { }
+					id: "indrev:circuit_mk4"
+					Count: 1b
+				}
+			}]
+		}
+		{
+			x: -8.0d
+			y: 0.0d
+			dependencies: ["13BA3A6E648DF2E4"]
+			dependency_requirement: "one_completed"
+			id: "68DB32F00BACEEFD"
+			tasks: [{
+				id: "796D98D70BE353A9"
+				type: "item"
+				item: {
+					gprops: { }
+					id: "indrev:machine_block"
+					Count: 1b
+				}
+			}]
+			rewards: [{
+				id: "34040D4E9EF57B7F"
+				type: "item"
+				item: {
+					gprops: { }
+					id: "minecraft:iron_block"
+					Count: 1b
+				}
+			}]
+		}
+		{
+			x: -8.0d
+			y: -1.5d
+			dependencies: ["279C25C775C22B7E"]
+			id: "13BA3A6E648DF2E4"
+			tasks: [{
+				id: "0FFED7DEC1728D8A"
+				type: "item"
+				item: {
+					gprops: { }
+					id: "indrev:battery"
+					Count: 1b
+				}
+			}]
+			rewards: [{
+				id: "07D53991E89D98DC"
+				type: "item"
+				item: {
+					gprops: { }
+					id: "indrev:battery"
+					Count: 1b
+				}
+			}]
+		}
+		{
+			x: -9.5d
+			y: -1.5d
+			dependencies: ["13BA3A6E648DF2E4"]
+			id: "6F42118FDF2C343D"
+			tasks: [{
+				id: "7C0D0B3221DF3798"
+				type: "item"
+				item: {
+					gprops: { }
+					id: "indrev:coal_generator_mk1"
+					Count: 1b
+				}
+			}]
+		}
+		{
+			x: -9.5d
+			y: 0.0d
+			dependencies: ["68DB32F00BACEEFD"]
+			id: "735E0A553EDF0FBB"
+			tasks: [{
+				id: "2CA2353FB904C629"
+				type: "item"
+				item: {
+					gprops: { }
+					id: "indrev:solar_generator_mk1"
+					Count: 1b
+				}
+			}]
+			rewards: [{
+				id: "658AA537C6E1FD90"
+				type: "random"
+				table_id: 2482271367426889676L
+			}]
+		}
+		{
+			x: -3.0d
+			y: 1.0d
+			dependencies: ["21DB7EDD5C496202"]
+			id: "587B0ABFDC5F2428"
+			tasks: [{
+				id: "7A11B4D7826DE872"
+				type: "item"
+				item: {
+					gprops: { }
+					id: "indrev:nikolite_ingot"
+					Count: 1b
+				}
+			}]
+			rewards: [{
+				id: "16B33460B706E717"
+				type: "item"
+				item: {
+					gprops: { }
+					id: "indrev:nikolite_ingot"
+					Count: 1b
+				}
+			}]
+		}
+		{
+			title: "Vanilla Upgrades"
+			x: -8.5d
+			y: 3.0d
+			dependencies: ["68DB32F00BACEEFD"]
+			id: "7A607496DD461235"
+			tasks: [
+				{
+					id: "2F8A9A1509DDD699"
+					type: "item"
+					item: {
+						gprops: { }
+						id: "indrev:electric_furnace_mk1"
+						Count: 1b
+					}
+				}
+				{
+					id: "43B579461130A023"
+					type: "item"
+					item: {
+						gprops: { }
+						id: "indrev:sawmill_mk1"
+						Count: 1b
+					}
+				}
+			]
+		}
+		{
+			x: -6.5d
+			y: 2.0d
+			subtitle: "Used to double ore and in the process of tripling and quadrupling."
+			description: ["Make sure to check the Revolutionary Guide for more info on ore tripling and quadrupling."]
+			dependencies: ["68DB32F00BACEEFD"]
+			id: "0C00CEF0D380206E"
+			tasks: [{
+				id: "7BFD5C78BE44AE81"
+				type: "item"
+				item: {
+					gprops: { }
+					id: "indrev:pulverizer_mk1"
+					Count: 1b
+				}
+			}]
+		}
+		{
+			x: -6.5d
+			y: 1.0d
+			dependencies: ["68DB32F00BACEEFD"]
+			id: "21DB7EDD5C496202"
+			tasks: [{
+				id: "149E01643E01157E"
+				type: "item"
+				item: {
+					gprops: { }
+					id: "indrev:solid_infuser_mk1"
+					Count: 1b
+				}
+			}]
+		}
+		{
+			x: -8.0d
+			y: -4.5d
+			subtitle: "This material helped spark a myriad of devices. Forever changing the universe."
+			description: [""]
+			dependencies: ["1CE1C8FC892A6F84"]
+			id: "72FAE2CEB348AF96"
+			tasks: [{
+				id: "096656EAD28C0878"
+				type: "item"
+				item: {
+					gprops: { }
+					id: "indrev:nikolite_dust"
+					Count: 1b
+				}
+			}]
+			rewards: [{
+				id: "361AEFAEDC96E694"
+				type: "item"
+				item: {
+					gprops: { }
+					id: "indrev:nikolite_dust"
+					Count: 1b
+				}
+				count: 4
+			}]
+		}
+		{
+			x: -5.0d
+			y: -7.5d
+			dependencies: ["60E79DB91F2919BD"]
+			id: "3D20FC4E939D2D69"
+			tasks: [{
+				id: "2FF7126AFE0D915D"
+				type: "item"
+				item: {
+					gprops: { }
+					id: "indrev:lazuli_flux_container_mk1"
+					Count: 1b
+				}
+			}]
+		}
+		{
+			title: "Farming"
+			x: -9.5d
+			y: 2.0d
+			dependencies: ["68DB32F00BACEEFD"]
+			id: "66D17897621E815B"
+			tasks: [
+				{
+					id: "786D0D6A0CA678EB"
+					type: "item"
+					item: {
+						gprops: { }
+						id: "indrev:chopper_mk1"
+						Count: 1b
+					}
+				}
+				{
+					id: "7FB3E7F7BD760904"
+					type: "item"
+					item: {
+						gprops: { }
+						id: "indrev:farmer_mk1"
+						Count: 1b
+					}
+				}
+				{
+					id: "69782A1D5B774112"
+					type: "item"
+					item: {
+						gprops: { }
+						id: "indrev:slaughter_mk1"
+						Count: 1b
+					}
+				}
+				{
+					id: "26E28715D93D8084"
+					type: "item"
+					item: {
+						gprops: { }
+						id: "indrev:rancher_mk1"
+						Count: 1b
+					}
+				}
+			]
+		}
+		{
+			x: -9.5d
+			y: 1.0d
+			dependencies: ["68DB32F00BACEEFD"]
+			id: "47E0E13C53777452"
+			tasks: [{
+				id: "1A45BB2D75F41120"
+				type: "item"
+				item: {
+					gprops: { }
+					id: "indrev:compressor_mk1"
+					Count: 1b
+				}
+			}]
+		}
+		{
+			x: -7.5d
+			y: 3.0d
+			subtitle: "Used to make Wither-Proof Obsidian, Coolant and in the process of ore quadrupling."
+			description: ["Can also be used to turn Sand into Clay and Concrete Powder into Concrete."]
+			dependencies: ["68DB32F00BACEEFD"]
+			id: "3984A36C1D03501E"
+			tasks: [{
+				id: "297F433AB752D7CF"
+				type: "item"
+				item: {
+					gprops: { }
+					id: "indrev:fluid_infuser_mk1"
+					Count: 1b
+				}
+			}]
+		}
+		{
+			x: -3.0d
+			y: 2.0d
+			subtitle: "With a desire for the finest. Indrev tech needs only the best diamonds."
+			dependencies: ["0C00CEF0D380206E"]
+			id: "53B5B78EB44C710B"
+			tasks: [{
+				id: "2A7E8398F675F060"
+				type: "item"
+				item: {
+					gprops: { }
+					id: "modern_industrialization:diamond_dust"
+					Count: 1b
+				}
+			}]
+			rewards: [{
+				id: "301C463543A75132"
+				type: "item"
+				item: {
+					gprops: { }
+					id: "modern_industrialization:diamond_dust"
+					Count: 1b
+				}
+			}]
+		}
+		{
+			x: -1.0d
+			y: 1.5d
+			dependencies: [
+				"53B5B78EB44C710B"
+				"587B0ABFDC5F2428"
+			]
+			id: "3BD2945543D442EB"
+			tasks: [{
+				id: "0C2E5913E46CCEE9"
+				type: "item"
+				item: {
+					gprops: { }
+					id: "indrev:enriched_nikolite_dust"
+					Count: 1b
+				}
+			}]
+			rewards: [{
+				id: "243C78C00D94A4B6"
+				type: "item"
+				item: {
+					gprops: { }
+					id: "indrev:enriched_nikolite_dust"
+					Count: 1b
+				}
+			}]
+		}
+		{
+			x: 1.0d
+			y: 1.5d
+			dependencies: ["3BD2945543D442EB"]
+			id: "2C8663C76CFE101D"
+			tasks: [{
+				id: "300DF9751F4E8837"
+				type: "item"
+				item: {
+					gprops: { }
+					id: "indrev:enriched_nikolite_ingot"
+					Count: 1b
+				}
+			}]
+			rewards: [{
+				id: "38549865E8684F77"
+				type: "item"
+				item: {
+					gprops: { }
+					id: "indrev:enriched_nikolite_ingot"
+					Count: 1b
+				}
+			}]
+		}
+		{
+			x: -4.0d
+			y: -3.0d
+			subtitle: "Indrevian tech at it's finest. Drill harder and faster. Impress your friends."
+			dependencies: ["60E79DB91F2919BD"]
+			id: "0282A36B7F6A332E"
+			tasks: [{
+				id: "565B90FE274B2C5D"
+				type: "item"
+				item: {
+					gprops: { }
+					id: "indrev:mining_drill_mk1"
+					Count: 1b
+				}
+			}]
+			rewards: [{
+				id: "457D3DC1C9BE4470"
+				type: "item"
+				item: {
+					gprops: { }
+					id: "indrev:nikolite_dust"
+					Count: 1b
+				}
+				count: 32
+			}]
+		}
+		{
+			x: -6.0d
+			y: -3.0d
+			dependencies: ["60E79DB91F2919BD"]
+			id: "397827B0621A2FB8"
+			tasks: [{
+				id: "32475889E503F43A"
+				type: "item"
+				item: {
+					gprops: { }
+					id: "indrev:energy_reader"
+					Count: 1b
+				}
+			}]
+		}
+		{
+			x: -2.0d
+			y: -3.0d
+			subtitle: "Be the talk of town, with this badboy."
+			dependencies: ["5126D10B28A64460"]
+			id: "215DBF0AE070D7A7"
+			tasks: [{
+				id: "1420C61D8BC1EEB5"
+				type: "item"
+				item: {
+					gprops: { }
+					id: "indrev:mining_drill_mk2"
+					Count: 1b
+				}
+			}]
+		}
+		{
+			x: 0.0d
+			y: -3.0d
+			subtitle: "Now in blueberry flavor!"
+			dependencies: ["7A318DEE361289B5"]
+			id: "5BC38A7636835353"
+			tasks: [{
+				id: "22202F4E896CF2D9"
+				type: "item"
+				item: {
+					gprops: { }
+					id: "indrev:mining_drill_mk3"
+					Count: 1b
+				}
+			}]
+		}
+		{
+			x: 2.0d
+			y: -3.0d
+			subtitle: "Harder and faster than ever before. Drill to the other side of the planet."
+			description: ["Indrev is not responsible for death's caused by attempting to drill to the other side of the planet."]
+			dependencies: ["65E60EDD6DE18DC2"]
+			id: "506362EC509AA1A8"
+			tasks: [{
+				id: "53580499F202653B"
+				type: "item"
+				item: {
+					gprops: { }
+					id: "indrev:mining_drill_mk4"
+					Count: 1b
+				}
+			}]
+		}
+		{
+			x: -3.0d
+			y: -7.5d
+			dependencies: [
+				"3D20FC4E939D2D69"
+				"5126D10B28A64460"
+			]
+			id: "41594D7E8549D5DE"
+			tasks: [{
+				id: "29AEAE219B45C7F1"
+				type: "item"
+				item: {
+					gprops: { }
+					id: "indrev:lazuli_flux_container_mk2"
+					Count: 1b
+				}
+			}]
+		}
+		{
+			x: -1.0d
+			y: -7.5d
+			dependencies: [
+				"41594D7E8549D5DE"
+				"7A318DEE361289B5"
+			]
+			id: "215EB2F203A92D38"
+			tasks: [{
+				id: "2041703820C07DDA"
+				type: "item"
+				item: {
+					gprops: { }
+					id: "indrev:lazuli_flux_container_mk3"
+					Count: 1b
+				}
+			}]
+		}
+		{
+			x: 1.0d
+			y: -7.5d
+			dependencies: [
+				"215EB2F203A92D38"
+				"65E60EDD6DE18DC2"
+			]
+			id: "37A1603DE0B604FD"
+			tasks: [{
+				id: "2323D65D8E26CF7D"
+				type: "item"
+				item: {
+					gprops: { }
+					id: "indrev:lazuli_flux_container_mk4"
+					Count: 1b
+				}
+			}]
+		}
+		{
+			x: -11.0d
+			y: 2.0d
+			dependencies: ["47E0E13C53777452"]
+			id: "130566BD27135220"
+			tasks: [{
+				id: "2160975BE87B0F26"
+				type: "item"
+				item: {
+					gprops: { }
+					id: "indrev:fisher_mk2"
+					Count: 1b
+				}
+			}]
+		}
+		{
+			title: "Solar Generator MK3"
+			x: -11.0d
+			y: 0.0d
+			dependencies: ["735E0A553EDF0FBB"]
+			id: "5AE46F6F569483BF"
+			tasks: [{
+				id: "69D934CCE991022B"
+				type: "item"
+				item: {
+					gprops: { }
+					id: "indrev:solar_generator_mk3"
+					Count: 1b
+				}
+			}]
+		}
+		{
+			x: -12.5d
+			y: 2.0d
+			dependencies: ["130566BD27135220"]
+			id: "01EB2FB2EEEB8A04"
+			tasks: [{
+				id: "56CD51887FCE1BC2"
+				type: "item"
+				item: {
+					gprops: { }
+					id: "indrev:fisher_mk3"
+					Count: 1b
+				}
+			}]
+		}
+		{
+			x: -14.0d
+			y: 2.0d
+			dependencies: ["01EB2FB2EEEB8A04"]
+			id: "2C4C0E81D2335043"
+			tasks: [{
+				id: "365BDA0295FF4F41"
+				type: "item"
+				item: {
+					gprops: { }
+					id: "indrev:fisher_mk4"
+					Count: 1b
+				}
+			}]
+		}
+		{
+			x: -11.0d
+			y: 1.0d
+			dependencies: ["47E0E13C53777452"]
+			id: "76C21BAB566F66A9"
+			tasks: [{
+				id: "52DD22CF4838D5B7"
+				type: "item"
+				item: {
+					gprops: { }
+					id: "indrev:empty_enhancer"
+					Count: 1b
+				}
+			}]
+		}
+		{
+			title: "Enhancers"
+			x: -12.5d
+			y: 1.0d
+			dependencies: ["76C21BAB566F66A9"]
+			id: "707124C02270FC3E"
+			tasks: [
+				{
+					id: "056A302B4A42091A"
+					type: "item"
+					item: {
+						gprops: { }
+						id: "indrev:buffer_enhancer"
+						Count: 1b
+					}
+				}
+				{
+					id: "6AA190C4346A526C"
+					type: "item"
+					item: {
+						gprops: { }
+						id: "indrev:speed_enhancer"
+						Count: 1b
+					}
+				}
+				{
+					id: "0D800109FAF6E8CD"
+					type: "item"
+					item: {
+						gprops: { }
+						id: "indrev:blast_furnace_enhancer"
+						Count: 1b
+					}
+				}
+				{
+					id: "7D6E4AA15A9FC4D7"
+					type: "item"
+					item: {
+						gprops: { }
+						id: "indrev:smoker_enhancer"
+						Count: 1b
+					}
+				}
+				{
+					id: "2CC2B59693FA6602"
+					type: "item"
+					item: {
+						gprops: { }
+						id: "indrev:damage_enhancer"
+						Count: 1b
+					}
+				}
+			]
+		}
+		{
+			title: "Poor Man's Compressor"
+			x: -8.0d
+			y: -3.0d
+			subtitle: "Craft a Forge Hammer from MI and make your first plates."
+			description: [
+				"TIP: Use hammers while crafting in the Forge Hammer."
+				""
+				"These hammers will save you lots of resources."
+				""
+				"NOTE: Indrev Hammer is disabled."
+			]
+			dependencies: ["72FAE2CEB348AF96"]
+			dependency_requirement: "all_started"
+			id: "279C25C775C22B7E"
+			tasks: [
+				{
+					id: "38FF00648317CA47"
+					type: "item"
+					item: {
+						gprops: { }
+						id: "modern_industrialization:tin_plate"
+						Count: 1b
+					}
+				}
+				{
+					id: "3F644DD10ADA8B85"
+					type: "item"
+					item: {
+						gprops: { }
+						id: "modern_industrialization:copper_plate"
+						Count: 1b
+					}
+				}
+				{
+					id: "550F31D9A31FE1AC"
+					type: "item"
+					item: {
+						gprops: { }
+						id: "modern_industrialization:iron_plate"
+						Count: 1b
+					}
+				}
+			]
+			rewards: [
+				{
+					id: "4B2F93B8040FA9FC"
+					type: "item"
+					item: {
+						gprops: { }
+						id: "modern_industrialization:tin_plate"
+						Count: 1b
+					}
+				}
+				{
+					id: "27A1E183BDBB7212"
+					type: "item"
+					item: {
+						gprops: { }
+						id: "modern_industrialization:copper_plate"
+						Count: 1b
+					}
+				}
+				{
+					id: "2051A913B0C807A8"
+					type: "item"
+					item: {
+						gprops: { }
+						id: "modern_industrialization:iron_plate"
+						Count: 1b
+					}
+				}
+			]
+		}
+		{
+			title: "Factory Components"
+			x: 7.5d
+			y: -5.0d
+			dependencies: ["2094448C58554B0B"]
+			id: "60A8108BE12AFB39"
+			tasks: [
+				{
+					id: "38ED6ABEB7DBD348"
+					type: "item"
+					item: {
+						gprops: { }
+						id: "indrev:frame"
+						Count: 1b
+					}
+					count: 9L
+				}
+				{
+					id: "60ACF87793F77948"
+					type: "item"
+					item: {
+						gprops: { }
+						id: "indrev:intake"
+						Count: 1b
+					}
+					count: 6L
+				}
+				{
+					id: "1C5256772EF58948"
+					type: "item"
+					item: {
+						gprops: { }
+						id: "indrev:intake"
+						Count: 1b
+					}
+					count: 3L
+				}
+				{
+					id: "73B89854D6DA6CE5"
+					type: "item"
+					item: {
+						gprops: { }
+						id: "indrev:duct"
+						Count: 1b
+					}
+					count: 3L
+				}
+				{
+					id: "01915D287A13387C"
+					type: "item"
+					item: {
+						gprops: { }
+						id: "indrev:cabinet"
+						Count: 1b
+					}
+					count: 2L
+				}
+				{
+					id: "4484E6789FF66185"
+					type: "item"
+					item: {
+						gprops: { }
+						id: "indrev:warning_strobe"
+						Count: 1b
+					}
+				}
+				{
+					id: "6D730271D98B0803"
+					type: "item"
+					item: {
+						gprops: { }
+						id: "indrev:controller"
+						Count: 1b
+					}
+				}
+			]
+			rewards: [
+				{
+					id: "5185DE4238D4AB56"
+					type: "item"
+					item: {
+						gprops: { }
+						id: "modern_industrialization:steel_plate"
+						Count: 1b
+					}
+					count: 12
+				}
+				{
+					id: "773CE85966D33F77"
+					type: "item"
+					item: {
+						gprops: { }
+						id: "modern_industrialization:silver_plate"
+						Count: 1b
+					}
+					count: 12
+				}
+				{
+					id: "5696355503C2B666"
+					type: "item"
+					item: {
+						gprops: { }
+						id: "minecraft:redstone_block"
+						Count: 1b
+					}
+				}
+			]
+		}
+		{
+			x: -12.5d
+			y: -3.5d
+			subtitle: "Don't forget your servos"
+			dependencies: ["6F89CD6C818B0B90"]
+			id: "2199A3717A0431FB"
+			tasks: [{
+				id: "31A68C5E6F3BE266"
+				type: "item"
+				item: {
+					gprops: { }
+					id: "indrev:fluid_pipe_mk2"
+					Count: 1b
+				}
+			}]
+		}
+		{
+			x: -12.5d
+			y: -5.5d
+			subtitle: "Don't forget your servos"
+			dependencies: ["298C314EC06AD61E"]
+			id: "3ECA6414D58449DD"
+			tasks: [{
+				id: "74534788035362A2"
+				type: "item"
+				item: {
+					gprops: { }
+					id: "indrev:item_pipe_mk2"
+					Count: 1b
+				}
+			}]
+		}
+		{
+			x: -12.5d
+			y: -4.5d
+			dependencies: ["22B972FA05163190"]
+			id: "49B55A5E5510AA48"
+			tasks: [{
+				id: "57EABDF07EE79675"
+				type: "item"
+				item: {
+					gprops: { }
+					id: "indrev:cable_mk2"
+					Count: 1b
+				}
+			}]
+		}
+		{
+			x: -11.0d
+			y: -3.5d
+			subtitle: "Transport liquids with ease."
+			dependencies: ["2366955CB2AB1234"]
+			id: "6F89CD6C818B0B90"
+			tasks: [{
+				id: "3D0B6ABE07C06658"
+				type: "item"
+				item: {
+					gprops: { }
+					id: "indrev:fluid_pipe_mk1"
+					Count: 1b
+				}
+			}]
+		}
+		{
+			x: -11.0d
+			y: -5.5d
+			subtitle: "Transport items with ease."
+			description: [
+				"Don't forget to set the input/output of a machine."
+				""
+				"Don't forget the servos. To optimize on performance, try to use the least amount of piping and servos you can if you decide to do a large operation."
+			]
+			dependencies: ["2366955CB2AB1234"]
+			id: "298C314EC06AD61E"
+			tasks: [{
+				id: "5A97C9ECE9C54E89"
+				type: "item"
+				item: {
+					gprops: { }
+					id: "indrev:item_pipe_mk1"
+					Count: 1b
+				}
+			}]
+		}
+		{
+			x: -11.0d
+			y: -4.5d
+			subtitle: "Requires Nikolite dust quest to unlock."
+			description: [
+				""
+				"Used to distribute power. Does not require servos."
+			]
+			dependencies: [
+				"096656EAD28C0878"
+				"2366955CB2AB1234"
+			]
+			id: "22B972FA05163190"
+			tasks: [{
+				id: "258B02AFA8680893"
+				type: "item"
+				item: {
+					gprops: { }
+					id: "indrev:cable_mk1"
+					Count: 1b
+				}
+			}]
+		}
+		{
+			title: "Servos"
+			x: -9.5d
+			y: -4.5d
+			subtitle: "Servos are needed to use item and fluid pipes. Requires Nikolite dust quest to unlock."
+			dependencies: [
+				"096656EAD28C0878"
+				"72FAE2CEB348AF96"
+			]
+			id: "2366955CB2AB1234"
+			tasks: [
+				{
+					id: "642EC72609F0F51D"
+					type: "item"
+					item: {
+						gprops: { }
+						id: "indrev:servo_retriever"
+						Count: 1b
+						tag: { }
+					}
+				}
+				{
+					id: "680A01AC3697C85A"
+					type: "item"
+					item: {
+						gprops: { }
+						id: "indrev:servo_output"
+						Count: 1b
+						tag: { }
+					}
+				}
+			]
+		}
+		{
+			x: -14.0d
+			y: -4.5d
+			dependencies: ["49B55A5E5510AA48"]
+			id: "03F6EF819F101266"
+			tasks: [{
+				id: "5D2B52C752888C2A"
+				type: "item"
+				item: {
+					gprops: { }
+					id: "indrev:cable_mk3"
+					Count: 1b
+				}
+			}]
+		}
+		{
+			x: -15.5d
+			y: -4.5d
+			dependencies: ["03F6EF819F101266"]
+			id: "5A98B8264695375C"
+			tasks: [{
+				id: "5D405BBC010DDBD7"
+				type: "item"
+				item: {
+					gprops: { }
+					id: "indrev:cable_mk4"
+					Count: 1b
+				}
+			}]
+		}
+		{
+			x: -14.0d
+			y: -3.5d
+			dependencies: ["2199A3717A0431FB"]
+			id: "24E0748FC28B20F8"
+			tasks: [{
+				id: "338A6D704171F6EC"
+				type: "item"
+				item: {
+					gprops: { }
+					id: "indrev:fluid_pipe_mk3"
+					Count: 1b
+				}
+			}]
+		}
+		{
+			x: -15.5d
+			y: -3.5d
+			dependencies: [
+				"24E0748FC28B20F8"
+				"300DF9751F4E8837"
+			]
+			id: "28BC178B714DD47F"
+			tasks: [{
+				id: "39B41CC0BF425639"
+				type: "item"
+				item: {
+					gprops: { }
+					id: "indrev:fluid_pipe_mk4"
+					Count: 1b
+				}
+			}]
+		}
+		{
+			x: -14.0d
+			y: -5.5d
+			dependencies: ["3ECA6414D58449DD"]
+			id: "1C3E816F7AC2A24E"
+			tasks: [{
+				id: "57122F006261DFFC"
+				type: "item"
+				item: {
+					gprops: { }
+					id: "indrev:item_pipe_mk3"
+					Count: 1b
+				}
+			}]
+		}
+		{
+			x: -15.5d
+			y: -5.5d
+			dependencies: ["1C3E816F7AC2A24E"]
+			id: "501F6918D0413C46"
+			tasks: [{
+				id: "211F0434522552E5"
+				type: "item"
+				item: {
+					gprops: { }
+					id: "indrev:item_pipe_mk4"
+					Count: 1b
+				}
+			}]
+		}
+		{
+			title: "Welcome to the Revolution!"
+			x: -8.0d
+			y: -7.5d
+			subtitle: "Choose the best. Choose INDREV!"
+			id: "1CE1C8FC892A6F84"
+			tasks: [{
+				id: "5AA23A717BC9D641"
+				type: "checkmark"
+				icon: {
+					gprops: { }
+					id: "indrev:guide_book"
+					Count: 1b
+				}
+			}]
+			rewards: [{
+				id: "419AC8433FA360AA"
+				type: "item"
+				item: {
+					gprops: { }
+					id: "indrev:guide_book"
+					Count: 1b
+				}
+			}]
+		}
+		{
+			x: 7.0d
+			y: -6.5d
+			dependencies: ["60A8108BE12AFB39"]
+			id: "4C0B1B9315FEB7D6"
+			tasks: [{
+				id: "62747E8844756A8E"
+				type: "item"
+				item: {
+					gprops: { }
+					id: "indrev:electric_furnace_factory_mk4"
+					Count: 1b
+				}
+			}]
+		}
+		{
+			x: 8.0d
+			y: -6.5d
+			dependencies: ["60A8108BE12AFB39"]
+			id: "6CC13ADEE091FAA7"
+			tasks: [{
+				id: "1790DABC3E5BFAEC"
+				type: "item"
+				item: {
+					gprops: { }
+					id: "indrev:pulverizer_factory_mk4"
+					Count: 1b
+				}
+			}]
+		}
+		{
+			x: 6.0d
+			y: -6.5d
+			dependencies: ["60A8108BE12AFB39"]
+			id: "6AC26B6C1525155B"
+			tasks: [{
+				id: "66777FB617B6DED4"
+				type: "item"
+				item: {
+					gprops: { }
+					id: "indrev:compressor_factory_mk4"
+					Count: 1b
+				}
+			}]
+		}
+		{
+			x: 9.0d
+			y: -6.5d
+			dependencies: ["60A8108BE12AFB39"]
+			id: "0DFA948FD9DD8943"
+			tasks: [{
+				id: "37B41479BCC582F1"
+				type: "item"
+				item: {
+					gprops: { }
+					id: "indrev:solid_infuser_factory_mk4"
+					Count: 1b
+				}
+			}]
+		}
+		{
+			icon: {
+				gprops: { }
+				id: "indrev:pump_mk1"
+				Count: 1b
+			}
+			x: -5.0d
+			y: -3.0d
+			dependencies: ["60E79DB91F2919BD"]
+			id: "3747C4CCD1F8DBB7"
+			tasks: [
+				{
+					id: "6DA81FA2745A4BFE"
+					type: "item"
+					item: {
+						gprops: { }
+						id: "indrev:pump_mk1"
+						Count: 1b
+					}
+				}
+				{
+					id: "425233ED2C940E6D"
+					type: "item"
+					item: {
+						gprops: { }
+						id: "indrev:drain_mk1"
+						Count: 1b
+					}
+				}
+			]
+		}
+		{
+			title: "Charging the Core of Modularity"
+			x: 7.5d
+			y: -2.5d
+			description: [""]
+			dependencies: ["61096F382C04254A"]
+			id: "3BCE5F8D19C6D53F"
+			tasks: [
+				{
+					id: "14DD0067D573465C"
+					type: "item"
+					item: {
+						gprops: { }
+						id: "indrev:laser_emitter_mk4"
+						Count: 1b
+					}
+				}
+				{
+					id: "4496671EA77E9495"
+					type: "item"
+					item: {
+						gprops: { }
+						id: "indrev:capsule"
+						Count: 1b
+					}
+				}
+				{
+					id: "70BE041B9B65C2DF"
+					type: "item"
+					item: {
+						gprops: { }
+						id: "indrev:modular_core"
+						Count: 1b
+					}
+				}
+			]
+		}
+		{
+			x: 7.5d
+			y: -1.0d
+			dependencies: [
+				"3BCE5F8D19C6D53F"
+				"61096F382C04254A"
+			]
+			id: "6873CA3A8CD43343"
+			tasks: [{
+				id: "35D41B3A51A85FF6"
+				type: "item"
+				item: {
+					gprops: { }
+					id: "indrev:modular_core_activated"
+					Count: 1b
+				}
+			}]
+		}
+		{
+			x: 9.5d
+			y: 0.5d
+			subtitle: "Originally invented so it's creator didn't have to feed themselves."
+			dependencies: ["6873CA3A8CD43343"]
+			id: "70B21600BA90277E"
+			tasks: [{
+				id: "232CC4433FA2A5D5"
+				type: "item"
+				item: {
+					gprops: { }
+					id: "indrev:modular_armor_helmet"
+					Count: 1b
+				}
+			}]
+		}
+		{
+			x: 7.5d
+			y: -4.0d
+			dependencies: ["2094448C58554B0B"]
+			id: "61096F382C04254A"
+			tasks: [{
+				id: "140BC8875C9E1DB1"
+				type: "item"
+				item: {
+					gprops: { }
+					id: "indrev:modular_workbench_mk4"
+					Count: 1b
+				}
+			}]
+		}
+		{
+			x: 8.5d
+			y: 0.5d
+			dependencies: ["6873CA3A8CD43343"]
+			id: "7E6C7DDA7CE568A6"
+			tasks: [{
+				id: "7D6B902175ED0E63"
+				type: "item"
+				item: {
+					gprops: { }
+					id: "indrev:modular_armor_chest"
+					Count: 1b
+				}
+			}]
+		}
+		{
+			x: 5.5d
+			y: 0.5d
+			dependencies: ["6873CA3A8CD43343"]
+			id: "50E5828991143975"
+			tasks: [{
+				id: "095E640FDD0C01E3"
+				type: "item"
+				item: {
+					gprops: { }
+					id: "indrev:modular_armor_boots"
+					Count: 1b
+				}
+			}]
+		}
+		{
+			x: 6.5d
+			y: 0.5d
+			dependencies: ["6873CA3A8CD43343"]
+			id: "43CCF76CCC9BA3F1"
+			tasks: [{
+				id: "2AA53184FE9796DC"
+				type: "item"
+				item: {
+					gprops: { }
+					id: "indrev:modular_armor_legs"
+					Count: 1b
+				}
+			}]
+		}
+		{
+			title: "Helmet Modules"
+			x: 9.5d
+			y: 2.0d
+			dependencies: ["70B21600BA90277E"]
+			id: "3C6DBBDE8DE77D0E"
+			tasks: [
+				{
+					id: "019BF656C7259832"
+					type: "item"
+					item: {
+						gprops: { }
+						id: "indrev:module_night_vision"
+						Count: 1b
+					}
+				}
+				{
+					id: "41419147396C1DC1"
+					type: "item"
+					item: {
+						gprops: { }
+						id: "indrev:module_breathing"
+						Count: 1b
+					}
+				}
+				{
+					id: "3C2ABBA7276DA446"
+					type: "item"
+					item: {
+						gprops: { }
+						id: "indrev:module_auto_feeder"
+						Count: 1b
+					}
+				}
+				{
+					id: "6DFB29605367B77A"
+					type: "item"
+					item: {
+						gprops: { }
+						id: "indrev:module_solar_panel"
+						Count: 1b
+					}
+				}
+			]
+		}
+		{
+			title: "Chestplate Modules"
+			x: 8.5d
+			y: 2.0d
+			dependencies: ["7E6C7DDA7CE568A6"]
+			id: "6F654A8FACF40A6C"
+			tasks: [
+				{
+					id: "69F19C9D5C0ADF9A"
+					type: "item"
+					item: {
+						gprops: { }
+						id: "indrev:module_charger"
+						Count: 1b
+					}
+				}
+				{
+					id: "63011A3C085A7F24"
+					type: "item"
+					item: {
+						gprops: { }
+						id: "indrev:module_elytra"
+						Count: 1b
+					}
+				}
+				{
+					id: "2C45E4BC48EBE43C"
+					type: "item"
+					item: {
+						gprops: { }
+						id: "indrev:module_fire_resistance"
+						Count: 1b
+					}
+				}
+			]
+		}
+		{
+			title: "Leggins Modules"
+			x: 6.5d
+			y: 2.0d
+			dependencies: ["43CCF76CCC9BA3F1"]
+			id: "4A33B0D837A1A47E"
+			tasks: [{
+				id: "347D1C0466989A82"
+				type: "item"
+				item: {
+					gprops: { }
+					id: "indrev:module_speed"
+					Count: 1b
+				}
+			}]
+		}
+		{
+			title: "Boots Modules"
+			x: 5.5d
+			y: 2.0d
+			dependencies: ["50E5828991143975"]
+			id: "323E2DB782ACA2A3"
+			tasks: [
+				{
+					id: "2C3E1D5D29A13D2B"
+					type: "item"
+					item: {
+						gprops: { }
+						id: "indrev:module_jump_boost"
+						Count: 1b
+					}
+				}
+				{
+					id: "4C97242936FBB889"
+					type: "item"
+					item: {
+						gprops: { }
+						id: "indrev:module_feather_falling"
+						Count: 1b
+					}
+				}
+			]
+		}
+		{
+			title: "Armor Modules"
+			x: 7.5d
+			y: 2.0d
+			hide_dependency_lines: true
+			dependencies: [
+				"50E5828991143975"
+				"7E6C7DDA7CE568A6"
+				"70B21600BA90277E"
+				"43CCF76CCC9BA3F1"
+				"6873CA3A8CD43343"
+			]
+			dependency_requirement: "one_completed"
+			id: "0FA5856144B8B4CE"
+			tasks: [
+				{
+					id: "74F34637FBDDD122"
+					type: "item"
+					item: {
+						gprops: { }
+						id: "indrev:module_protection"
+						Count: 1b
+					}
+				}
+				{
+					id: "1034E07AEA0A7B35"
+					type: "item"
+					item: {
+						gprops: { }
+						id: "indrev:module_piglin_tricker"
+						Count: 1b
+					}
+				}
+			]
+		}
+		{
+			title: "Color Modules"
+			x: 7.5d
+			y: 0.5d
+			description: ["Can you find them all?"]
+			hide_dependency_lines: true
+			dependencies: [
+				"50E5828991143975"
+				"7E6C7DDA7CE568A6"
+				"70B21600BA90277E"
+				"43CCF76CCC9BA3F1"
+			]
+			dependency_requirement: "one_completed"
+			id: "7DD0B28B994964AE"
+			tasks: [
+				{
+					id: "1013B559A738E92F"
+					type: "item"
+					item: {
+						gprops: { }
+						id: "indrev:module_color_pink"
+						Count: 1b
+					}
+				}
+				{
+					id: "2F2624E943122767"
+					type: "item"
+					item: {
+						gprops: { }
+						id: "indrev:module_color_red"
+						Count: 1b
+					}
+				}
+				{
+					id: "7EDE2B8620CC70AB"
+					type: "item"
+					item: {
+						gprops: { }
+						id: "indrev:module_color_purple"
+						Count: 1b
+					}
+				}
+				{
+					id: "1B6ED0ACDFBCF08B"
+					type: "item"
+					item: {
+						gprops: { }
+						id: "indrev:module_color_blue"
+						Count: 1b
+					}
+				}
+				{
+					id: "4EBF8BB1C828B43F"
+					type: "item"
+					item: {
+						gprops: { }
+						id: "indrev:module_color_cyan"
+						Count: 1b
+					}
+				}
+				{
+					id: "162B95D272482A99"
+					type: "item"
+					item: {
+						gprops: { }
+						id: "indrev:module_color_green"
+						Count: 1b
+					}
+				}
+				{
+					id: "7C47252C49DE6668"
+					type: "item"
+					item: {
+						gprops: { }
+						id: "indrev:module_color_yellow"
+						Count: 1b
+					}
+				}
+				{
+					id: "22E5EFD470FABB87"
+					type: "item"
+					item: {
+						gprops: { }
+						id: "indrev:module_color_orange"
+						Count: 1b
+					}
+				}
+				{
+					id: "2B1B89A357CA1D52"
+					type: "item"
+					item: {
+						gprops: { }
+						id: "indrev:module_color_black"
+						Count: 1b
+					}
+				}
+				{
+					id: "1559BAAB88282020"
+					type: "item"
+					item: {
+						gprops: { }
+						id: "indrev:module_color_brown"
+						Count: 1b
+					}
+				}
+			]
+		}
+		{
+			title: "Drill Modules"
+			x: 2.0d
+			y: -1.5d
+			dependencies: ["506362EC509AA1A8"]
+			id: "50BC772C414A1EAD"
+			tasks: [
+				{
+					id: "1033152CA5E70A76"
+					type: "item"
+					item: {
+						gprops: { }
+						id: "indrev:module_range"
+						Count: 1b
+					}
+				}
+				{
+					id: "40E31840F48D2DE4"
+					type: "item"
+					item: {
+						gprops: { }
+						id: "indrev:module_fortune"
+						Count: 1b
+					}
+				}
+				{
+					id: "4A9EDCC8E7294DDD"
+					type: "item"
+					item: {
+						gprops: { }
+						id: "indrev:module_silk_touch"
+						Count: 1b
+					}
+				}
+				{
+					id: "0F4A085127A0EB70"
+					type: "item"
+					item: {
+						gprops: { }
+						id: "indrev:module_efficiency"
+						Count: 1b
+					}
+				}
+			]
+		}
+		{
+			title: "Axe Modules"
+			x: 4.5d
+			y: 2.0d
+			dependencies: ["7055A363F8DDC7FF"]
+			id: "7425F4E8BCF6F0D1"
+			tasks: [
+				{
+					id: "68EF5DA4B93ACDA6"
+					type: "item"
+					item: {
+						gprops: { }
+						id: "indrev:module_looting"
+						Count: 1b
+					}
+				}
+				{
+					id: "6CA2787E39B5978D"
+					type: "item"
+					item: {
+						gprops: { }
+						id: "indrev:module_fire_aspect"
+						Count: 1b
+					}
+				}
+				{
+					id: "63343A1B6AEA6468"
+					type: "item"
+					item: {
+						gprops: { }
+						id: "indrev:module_sharpness"
+						Count: 1b
+					}
+				}
+				{
+					id: "67506E6AFB81E8E4"
+					type: "item"
+					item: {
+						gprops: { }
+						id: "indrev:module_efficiency"
+						Count: 1b
+					}
+				}
+			]
+		}
+		{
+			x: 4.5d
+			y: 0.5d
+			subtitle: "First invention by Noven the third. Helped them slay a bunch of noobs."
+			dependencies: ["2094448C58554B0B"]
+			id: "7055A363F8DDC7FF"
+			tasks: [{
+				id: "7DCAB581CB456599"
+				type: "item"
+				item: {
+					gprops: { }
+					id: "indrev:gamer_axe"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: 4.5d
+			y: -4.5d
+			dependencies: ["65E60EDD6DE18DC2"]
+			id: "2094448C58554B0B"
+			tasks: [{
+				id: "76A9AC313BDD324B"
+				type: "item"
+				item: {
+					gprops: { }
+					id: "modern_industrialization:steel_plate"
+					Count: 1b
+				}
+			}]
+		}
+		{
+			x: -4.0d
+			y: -6.0d
+			dependencies: ["5126D10B28A64460"]
+			id: "38A91661EED44D9D"
+			tasks: [{
+				id: "4F4D8685014D737B"
+				type: "item"
+				item: {
+					gprops: { }
+					id: "indrev:tier_upgrade_mk2"
+					Count: 1b
+				}
+			}]
+		}
+		{
+			x: -2.0d
+			y: -6.0d
+			dependencies: ["7A318DEE361289B5"]
+			id: "34998627D22F1DBE"
+			tasks: [{
+				id: "67E4C8E1A578868E"
+				type: "item"
+				item: {
+					gprops: { }
+					id: "indrev:tier_upgrade_mk3"
+					Count: 1b
+				}
+			}]
+		}
+		{
+			x: 0.0d
+			y: -6.0d
+			dependencies: ["65E60EDD6DE18DC2"]
+			id: "3DF54B764A56AF28"
+			tasks: [{
+				id: "0D4A3AF2AE73BE76"
+				type: "item"
+				item: {
+					gprops: { }
+					id: "indrev:tier_upgrade_mk4"
+					Count: 1b
+				}
+			}]
+		}
+		{
+			title: "Mining Rig"
+			x: 4.5d
+			y: -7.5d
+			description: [
+				"To use the Chunk Scanner, hold right click in a chunk then put the Resource Report into the Mining Rig Computer."
+				""
+				"You will need a steady supply of drill heads to keep mining."
+				"Can hold up to 8 mining rig drills, make sure each one has a drill head."
+				""
+			]
+			dependencies: [
+				"65E60EDD6DE18DC2"
+				"2094448C58554B0B"
+			]
+			id: "01F3CA98E98590FD"
+			tasks: [
+				{
+					id: "3A3A6FA7D635E56C"
+					type: "item"
+					item: {
+						gprops: { }
+						id: "indrev:mining_rig_mk4"
+						Count: 1b
+					}
+				}
+				{
+					id: "44DA8D0214330F39"
+					type: "item"
+					item: {
+						gprops: { }
+						id: "indrev:drill_bottom"
+						Count: 1b
+					}
+				}
+				{
+					id: "70A0FF01A2AD0E9F"
+					type: "item"
+					item: {
+						gprops: { }
+						id: "indrev:chunk_scanner"
+						Count: 1b
+					}
+				}
+			]
+		}
+		{
+			x: 1.0d
+			y: -9.5d
+			dependencies: ["37A1603DE0B604FD"]
+			id: "7F905EDB05E4BE17"
+			tasks: [{
+				id: "47F075B67F7DD537"
+				type: "item"
+				item: {
+					gprops: { }
+					id: "indrev:charge_pad_mk4"
+					Count: 1b
+				}
+			}]
+		}
+		{
+			title: "Ore Multiplication"
+			x: 2.0d
+			y: -7.5d
+			subtitle: "Used in the process of tripling and quadrupling ore."
+			dependencies: ["65E60EDD6DE18DC2"]
+			id: "0BED18C671FC94A5"
+			tasks: [
+				{
+					id: "0969ABA5C3C54F24"
+					type: "item"
+					item: {
+						gprops: { }
+						id: "indrev:condenser_mk4"
+						Count: 1b
+					}
+				}
+				{
+					id: "18A20622211F1C01"
+					type: "item"
+					item: {
+						gprops: { }
+						id: "indrev:smelter_mk4"
+						Count: 1b
+					}
+				}
+			]
+		}
+		{
+			x: -6.5d
+			y: 0.0d
+			dependencies: ["68DB32F00BACEEFD"]
+			id: "7155E1782D7A5CC3"
+			tasks: [{
+				id: "2D28B880B3E44414"
+				type: "item"
+				item: {
+					gprops: { }
+					id: "indrev:recycler_mk2"
+					Count: 1b
+				}
+			}]
+		}
+		{
+			x: -5.0d
+			y: 0.0d
+			subtitle: "This is probably what you are looking for in terms of energy creation."
+			dependencies: ["7155E1782D7A5CC3"]
+			id: "5A66FE8A5EC1BAC5"
+			tasks: [{
+				id: "79C357A391B887D6"
+				type: "item"
+				item: {
+					gprops: { }
+					id: "indrev:biomass_generator_mk3"
+					Count: 1b
+				}
+			}]
+		}
+		{
+			x: -6.5d
+			y: -1.5d
+			dependencies: ["13BA3A6E648DF2E4"]
+			id: "18B6548E50B087D3"
+			tasks: [{
+				id: "5A05A31972972B83"
+				type: "item"
+				item: {
+					gprops: { }
+					id: "indrev:heat_generator_mk4"
+					Count: 1b
+				}
+			}]
+		}
+	]
 }
