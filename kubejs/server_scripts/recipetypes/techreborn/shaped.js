@@ -40,6 +40,18 @@ onEvent('recipes', (event) => {
       },
       id: 'techreborn:crafting_table/machine/grinder'
     },
+        {
+      output: 'techreborn:alloy_smelter',
+      pattern: ['CEC', 'DAD', 'CBC'],
+      key: {
+        A: 'techreborn:basic_machine_frame',
+        B: 'techreborn:low_voltage_su',
+        C: 'techreborn:advanced_alloy_plate',
+        D: 'techreborn:electric_furnace',
+        E: 'techreborn:advanced_circuit'
+      },
+      id: 'techreborn:crafting_table/machine/alloy_smelter'
+    },
   ];
 
   recipes.forEach((recipe) => {
