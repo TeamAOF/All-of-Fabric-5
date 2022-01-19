@@ -1,23 +1,1463 @@
 {
 	id: "3B75DF2FD2A978FF"
-	group: "607036E1A9E1A42E"
-	order_index: 2
+	group: "76C22988F9A7C9CE"
+	order_index: 1
 	filename: "kibe"
-	title: "Kibe"
+	title: "Kibe Utilities"
 	icon: {
-		id: "kibe:angel_ring"
+		gprops: { }
+		id: "kibe:slime_sling"
 		Count: 1b
-		tag: { }
 	}
-	default_quest_shape: ""
+	default_quest_shape: "hexagon"
 	default_hide_dependency_lines: false
-	quests: [{
-		x: -0.5d
-		y: 1.0d
-		id: "1EFC38B92E71700C"
-		tasks: [{
-			id: "29299B59F40379EA"
-			type: "item"
-		}]
-	}]
+	quests: [
+		{
+			x: 6.5d
+			y: -0.5d
+			subtitle: "Bunch of random, and mostly unoriginal things but aswell useful utilities!"
+			dependencies: ["7AA36A1A2308EDFF"]
+			id: "3E1A0192F2A00E6E"
+			tasks: [{
+				id: "3931534EE6E5F653"
+				type: "checkmark"
+				title: "Kibe Utilities!"
+				icon: {
+					gprops: { }
+					id: "kibe:kibe"
+					Count: 1b
+				}
+			}]
+		}
+		{
+			x: -2.0d
+			y: -1.0d
+			id: "20EE964677BF776B"
+			tasks: [{
+				id: "1482B0FA2EB22760"
+				type: "item"
+				item: {
+					gprops: { }
+					id: "kibe:cobblestone_generator_mk1"
+					Count: 1b
+				}
+			}]
+			rewards: [{
+				id: "38F4793F45B8876E"
+				type: "item"
+				item: {
+					gprops: { }
+					id: "minecraft:gold_nugget"
+					Count: 1b
+				}
+			}]
+		}
+		{
+			x: -3.5d
+			y: -0.5d
+			dependencies: ["20EE964677BF776B"]
+			id: "4CD54BA3EBFD0234"
+			tasks: [{
+				id: "37A5A44C9F193EC8"
+				type: "item"
+				item: {
+					gprops: { }
+					id: "kibe:cobblestone_generator_mk2"
+					Count: 1b
+				}
+			}]
+			rewards: [{
+				id: "140D4BD4E253F3FD"
+				type: "item"
+				item: {
+					gprops: { }
+					id: "modern_industrialization:diamond_tiny_dust"
+					Count: 1b
+				}
+			}]
+		}
+		{
+			x: -3.5d
+			y: 0.5d
+			dependencies: ["4CD54BA3EBFD0234"]
+			id: "5F1542DFE1A7D796"
+			tasks: [{
+				id: "7945059FC4BAF633"
+				type: "item"
+				item: {
+					gprops: { }
+					id: "kibe:cobblestone_generator_mk3"
+					Count: 1b
+				}
+			}]
+			rewards: [{
+				id: "42E9411AD59D03AE"
+				type: "item"
+				item: {
+					gprops: { }
+					id: "modern_industrialization:emerald_tiny_dust"
+					Count: 1b
+				}
+			}]
+		}
+		{
+			x: -3.5d
+			y: 1.5d
+			description: ["Go do some farming now."]
+			dependencies: ["5F1542DFE1A7D796"]
+			id: "71961FC5DAAC33AB"
+			tasks: [{
+				id: "3A90C7EF9408C4F4"
+				type: "item"
+				item: {
+					gprops: { }
+					id: "kibe:cobblestone_generator_mk4"
+					Count: 1b
+				}
+			}]
+			rewards: [{
+				id: "42037F357F9CBE60"
+				type: "item"
+				item: {
+					gprops: { }
+					id: "minecraft:netherite_hoe"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: -3.5d
+			y: 2.5d
+			dependencies: ["71961FC5DAAC33AB"]
+			id: "572CC0E117B699E9"
+			tasks: [{
+				id: "38C35D7B6C49C7AB"
+				type: "item"
+				item: {
+					gprops: { }
+					id: "kibe:cobblestone_generator_mk5"
+					Count: 1b
+				}
+			}]
+		}
+		{
+			x: 1.0d
+			y: -1.0d
+			id: "3AB8D21E8188D30B"
+			tasks: [{
+				id: "08FB10212C97A9D8"
+				type: "item"
+				item: {
+					gprops: { }
+					id: "kibe:basalt_generator_mk1"
+					Count: 1b
+				}
+			}]
+		}
+		{
+			x: 2.5d
+			y: -0.5d
+			dependencies: ["3AB8D21E8188D30B"]
+			id: "5BDABC4E3DAC25D3"
+			tasks: [{
+				id: "7DCD9A3794551BF2"
+				type: "item"
+				item: {
+					gprops: { }
+					id: "kibe:basalt_generator_mk2"
+					Count: 1b
+				}
+			}]
+		}
+		{
+			x: 2.5d
+			y: 0.5d
+			dependencies: ["5BDABC4E3DAC25D3"]
+			id: "30974A8C1EF063E4"
+			tasks: [{
+				id: "58ED61DA1C7E66B8"
+				type: "item"
+				item: {
+					gprops: { }
+					id: "kibe:basalt_generator_mk3"
+					Count: 1b
+				}
+			}]
+		}
+		{
+			x: 2.5d
+			y: 1.5d
+			dependencies: ["30974A8C1EF063E4"]
+			id: "6868C14ADB823A0C"
+			tasks: [{
+				id: "5189E357486D70CD"
+				type: "item"
+				item: {
+					gprops: { }
+					id: "kibe:basalt_generator_mk4"
+					Count: 1b
+				}
+			}]
+		}
+		{
+			x: 2.5d
+			y: 2.5d
+			dependencies: ["6868C14ADB823A0C"]
+			id: "65776A57E9979D88"
+			tasks: [{
+				id: "0139CDB35A6C73EB"
+				type: "item"
+				item: {
+					gprops: { }
+					id: "kibe:basalt_generator_mk5"
+					Count: 1b
+				}
+			}]
+		}
+		{
+			x: 8.5d
+			y: -1.0d
+			subtitle: "Perhaps some of the greatest food ever."
+			dependencies: ["3E1A0192F2A00E6E"]
+			id: "489617A7727233D7"
+			tasks: [{
+				id: "550AD130B1B271BD"
+				type: "item"
+				item: {
+					gprops: { }
+					id: "kibe:golden_kibe"
+					Count: 1b
+				}
+			}]
+			rewards: [{
+				id: "235F43B8F062586F"
+				type: "random"
+				table_id: 2482271367426889676L
+			}]
+		}
+		{
+			x: 4.5d
+			y: -1.0d
+			subtitle: "Only the best for you"
+			dependencies: ["3E1A0192F2A00E6E"]
+			id: "249C89B94048A585"
+			tasks: [{
+				id: "166D7DD64BEA9D21"
+				type: "item"
+				item: {
+					gprops: { }
+					id: "kibe:diamond_kibe"
+					Count: 1b
+				}
+			}]
+			rewards: [{
+				id: "6760E3AC635B5233"
+				type: "random"
+				table_id: 2482271367426889676L
+			}]
+		}
+		{
+			x: 6.5d
+			y: -2.0d
+			subtitle: "Heals a lot. Small chance of instant death."
+			dependencies: ["3E1A0192F2A00E6E"]
+			id: "3AEF4D4334846377"
+			tasks: [{
+				id: "74B922352AFCC2C1"
+				type: "item"
+				item: {
+					gprops: { }
+					id: "kibe:cursed_kibe"
+					Count: 1b
+				}
+			}]
+			rewards: [{
+				id: "26866531F89CF25D"
+				type: "random"
+				table_id: 2482271367426889676L
+			}]
+		}
+		{
+			x: 6.5d
+			y: 2.5d
+			dependencies: ["7AA36A1A2308EDFF"]
+			id: "3E58A201EA40B757"
+			tasks: [{
+				id: "017BC2F70596CEBC"
+				type: "item"
+				item: {
+					gprops: { }
+					id: "kibe:diamond_ring"
+					Count: 1b
+				}
+			}]
+			rewards: [{
+				id: "21A61A559F926B7E"
+				type: "item"
+				item: {
+					gprops: { }
+					id: "minecraft:diamond"
+					Count: 1b
+				}
+			}]
+		}
+		{
+			x: 8.5d
+			y: 3.0d
+			dependencies: ["3E58A201EA40B757"]
+			id: "3BE35A9CDD2E461D"
+			tasks: [{
+				id: "629D1D4982FE2971"
+				type: "item"
+				item: {
+					gprops: { }
+					id: "kibe:magma_ring"
+					Count: 1b
+					tag: { }
+				}
+			}]
+			rewards: [{
+				id: "059DC50E9CF19CD9"
+				type: "item"
+				item: {
+					gprops: { }
+					id: "minecraft:magma_block"
+					Count: 1b
+				}
+				count: 64
+			}]
+		}
+		{
+			x: 6.5d
+			y: 4.0d
+			subtitle: "Creative flight anyone?"
+			dependencies: ["3E58A201EA40B757"]
+			id: "758FE2811BAE358E"
+			tasks: [{
+				id: "580BB54BBB2856D4"
+				type: "item"
+				item: {
+					gprops: { }
+					id: "kibe:angel_ring"
+					Count: 1b
+					tag: { }
+				}
+			}]
+			rewards: [{
+				id: "73E39A2DC1D7F836"
+				type: "item"
+				item: {
+					gprops: { }
+					id: "minecraft:trident"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: 4.5d
+			y: 3.0d
+			dependencies: ["3E58A201EA40B757"]
+			id: "7E300E8876853BB1"
+			tasks: [{
+				id: "37C52C86B6E0FA4A"
+				type: "item"
+				item: {
+					gprops: { }
+					id: "kibe:water_ring"
+					Count: 1b
+					tag: { }
+				}
+			}]
+			rewards: [{
+				id: "6DC112568E3917DA"
+				type: "item"
+				item: {
+					gprops: { }
+					id: "croptosis:iron_watering_can"
+					Count: 1b
+				}
+			}]
+		}
+		{
+			x: -0.5d
+			y: 2.5d
+			dependencies: ["1C9883ACFF33E397"]
+			id: "5C390D0E8AA56F83"
+			tasks: [{
+				id: "0ED500FB5F9B7C7F"
+				type: "item"
+				item: {
+					gprops: { }
+					id: "kibe:entangled_chest"
+					Count: 1b
+				}
+			}]
+			rewards: [
+				{
+					id: "0C67585728F46B4B"
+					type: "item"
+					item: {
+						gprops: { }
+						id: "kibe:yellow_rune"
+						Count: 1b
+					}
+					count: 2
+				}
+				{
+					id: "1B59311DCCBA2336"
+					type: "item"
+					item: {
+						gprops: { }
+						id: "kibe:lime_rune"
+						Count: 1b
+					}
+					count: 2
+				}
+				{
+					id: "750BE3B34F5D59C3"
+					type: "item"
+					item: {
+						gprops: { }
+						id: "kibe:pink_rune"
+						Count: 1b
+					}
+					count: 2
+				}
+				{
+					id: "79B2959D4520A57F"
+					type: "item"
+					item: {
+						gprops: { }
+						id: "kibe:gray_rune"
+						Count: 1b
+					}
+					count: 2
+				}
+			]
+		}
+		{
+			x: -2.0d
+			y: 1.0d
+			dependencies: ["1C9883ACFF33E397"]
+			id: "238AC181848E3D72"
+			tasks: [{
+				id: "78A859B3D0017802"
+				type: "item"
+				item: {
+					gprops: { }
+					id: "kibe:entangled_tank"
+					Count: 1b
+				}
+			}]
+			rewards: [
+				{
+					id: "6FD99B307FD8C5CD"
+					type: "item"
+					item: {
+						gprops: { }
+						id: "kibe:white_rune"
+						Count: 1b
+					}
+					count: 2
+				}
+				{
+					id: "38239E46A12D5C17"
+					type: "item"
+					item: {
+						gprops: { }
+						id: "kibe:orange_rune"
+						Count: 1b
+					}
+					count: 2
+				}
+				{
+					id: "64ACCACC38BBC3DB"
+					type: "item"
+					item: {
+						gprops: { }
+						id: "kibe:magenta_rune"
+						Count: 1b
+					}
+					count: 2
+				}
+				{
+					id: "09D0F08E633B07DC"
+					type: "item"
+					item: {
+						gprops: { }
+						id: "kibe:light_blue_rune"
+						Count: 1b
+					}
+					count: 2
+				}
+			]
+		}
+		{
+			x: 1.0d
+			y: 1.0d
+			dependencies: ["1C9883ACFF33E397"]
+			id: "34CB73ED88C89889"
+			tasks: [{
+				id: "37E61672584DFB3B"
+				type: "item"
+				item: {
+					gprops: { }
+					id: "kibe:entangled_bag"
+					Count: 1b
+				}
+			}]
+			rewards: [
+				{
+					id: "5745345A15F02D93"
+					type: "item"
+					item: {
+						gprops: { }
+						id: "kibe:light_gray_rune"
+						Count: 1b
+					}
+					count: 2
+				}
+				{
+					id: "612716ED8EF91E40"
+					type: "item"
+					item: {
+						gprops: { }
+						id: "kibe:cyan_rune"
+						Count: 1b
+					}
+					count: 2
+				}
+				{
+					id: "2F6D7323F1FF8D25"
+					type: "item"
+					item: {
+						gprops: { }
+						id: "kibe:purple_rune"
+						Count: 1b
+					}
+					count: 2
+				}
+				{
+					id: "6AFDC6FC8292E7B5"
+					type: "item"
+					item: {
+						gprops: { }
+						id: "kibe:green_rune"
+						Count: 1b
+					}
+					count: 2
+				}
+			]
+		}
+		{
+			x: -0.5d
+			y: -0.5d
+			dependencies: ["1C9883ACFF33E397"]
+			id: "4B282EE884728242"
+			tasks: [{
+				id: "1DC913CFADDF163B"
+				type: "item"
+				item: {
+					gprops: { }
+					id: "kibe:entangled_bucket"
+					Count: 1b
+				}
+			}]
+			rewards: [
+				{
+					id: "50150A1DF7286ABD"
+					type: "item"
+					item: {
+						gprops: { }
+						id: "kibe:brown_rune"
+						Count: 1b
+					}
+					count: 2
+				}
+				{
+					id: "631612CEA312AB42"
+					type: "item"
+					item: {
+						gprops: { }
+						id: "kibe:red_rune"
+						Count: 1b
+					}
+					count: 2
+				}
+				{
+					id: "23CD194EF2E60B43"
+					type: "item"
+					item: {
+						gprops: { }
+						id: "kibe:black_rune"
+						Count: 1b
+					}
+					count: 2
+				}
+			]
+		}
+		{
+			x: 6.5d
+			y: 1.0d
+			shape: "hexagon"
+			id: "7AA36A1A2308EDFF"
+			tasks: [{
+				id: "714E9C63DE4504CF"
+				type: "checkmark"
+				title: "Kibe and Rings"
+			}]
+			rewards: [{
+				id: "5EC9036E96573500"
+				type: "xp_levels"
+				xp_levels: 60
+			}]
+		}
+		{
+			x: -0.5d
+			y: 1.0d
+			shape: "hexagon"
+			subtitle: "Using kibe runes, you can code your linked chests and have as many different ones that your heart desires."
+			id: "1C9883ACFF33E397"
+			tasks: [{
+				id: "7C9B04C717763B2B"
+				type: "checkmark"
+				title: "Entangle your mind."
+			}]
+		}
+		{
+			x: 15.5d
+			y: 0.0d
+			dependencies: ["2EA53113508BD436"]
+			id: "3F4D2B9AA752B3FB"
+			tasks: [{
+				id: "3207E34716A01F5A"
+				type: "item"
+				item: {
+					gprops: { }
+					id: "kibe:xp_shower"
+					Count: 1b
+				}
+			}]
+		}
+		{
+			x: 16.0d
+			y: 1.0d
+			dependencies: ["2EA53113508BD436"]
+			id: "4AC90C2DA686B95E"
+			tasks: [{
+				id: "68B7BE2C6D332A76"
+				type: "item"
+				item: {
+					gprops: { }
+					id: "kibe:xp_drain"
+					Count: 1b
+				}
+			}]
+		}
+		{
+			x: 15.5d
+			y: 2.0d
+			dependencies: ["2EA53113508BD436"]
+			id: "67C114A40EB454B0"
+			tasks: [{
+				id: "5850558B76ECFFE0"
+				type: "item"
+				item: {
+					gprops: { }
+					id: "kibe:tank"
+					Count: 1b
+					tag: { }
+				}
+			}]
+		}
+		{
+			x: 11.5d
+			y: 0.0d
+			dependencies: ["2EA53113508BD436"]
+			id: "68C9B9EB5E7C680F"
+			tasks: [{
+				id: "2CA4CC93439BB357"
+				type: "item"
+				item: {
+					gprops: { }
+					id: "kibe:trash_can"
+					Count: 1b
+				}
+			}]
+		}
+		{
+			x: 12.0d
+			y: -1.0d
+			dependencies: ["2EA53113508BD436"]
+			id: "7F240BDC84E49D4A"
+			tasks: [{
+				id: "38230005D69B4184"
+				type: "item"
+				item: {
+					gprops: { }
+					id: "kibe:stone_spikes"
+					Count: 1b
+				}
+			}]
+		}
+		{
+			x: 13.0d
+			y: -1.5d
+			dependencies: ["2EA53113508BD436"]
+			id: "06089519F402F05D"
+			tasks: [{
+				id: "42E2BF8B278B6FEA"
+				type: "item"
+				item: {
+					gprops: { }
+					id: "kibe:iron_spikes"
+					Count: 1b
+				}
+			}]
+		}
+		{
+			x: 14.0d
+			y: -1.5d
+			dependencies: ["2EA53113508BD436"]
+			id: "315C879AAB4BFDA9"
+			tasks: [{
+				id: "2B470452DA5633D2"
+				type: "item"
+				item: {
+					gprops: { }
+					id: "kibe:gold_spikes"
+					Count: 1b
+				}
+			}]
+		}
+		{
+			x: 15.0d
+			y: -1.0d
+			dependencies: ["2EA53113508BD436"]
+			id: "0B5054BC06FD07E3"
+			tasks: [{
+				id: "66567097A995AF54"
+				type: "item"
+				item: {
+					gprops: { }
+					id: "kibe:diamond_spikes"
+					Count: 1b
+				}
+			}]
+		}
+		{
+			x: 11.0d
+			y: 1.0d
+			dependencies: ["2EA53113508BD436"]
+			id: "1405E9DA1177BF0E"
+			tasks: [{
+				id: "6B2D4FA7B4449E85"
+				type: "item"
+				item: {
+					gprops: { }
+					id: "kibe:cursed_droplets"
+					Count: 1b
+				}
+			}]
+		}
+		{
+			x: 11.5d
+			y: 2.0d
+			dependencies: ["2EA53113508BD436"]
+			id: "269C02E46D4F41F9"
+			tasks: [{
+				id: "157E7A93B794012C"
+				type: "item"
+				item: {
+					gprops: { }
+					id: "kibe:cursed_seeds"
+					Count: 1b
+				}
+			}]
+		}
+		{
+			x: 13.0d
+			y: 3.5d
+			dependencies: ["2EA53113508BD436"]
+			id: "216F02E8D4A1FD2F"
+			tasks: [{
+				id: "41C4364D32E8FB5E"
+				type: "item"
+				item: {
+					gprops: { }
+					id: "kibe:golden_lasso"
+					Count: 1b
+					tag: { }
+				}
+			}]
+		}
+		{
+			x: 12.0d
+			y: 3.0d
+			dependencies: ["2EA53113508BD436"]
+			id: "2BA5649A45BC563B"
+			tasks: [{
+				id: "65970F825BC4D9C4"
+				type: "item"
+				item: {
+					gprops: { }
+					id: "kibe:cursed_lasso"
+					Count: 1b
+					tag: { }
+				}
+			}]
+		}
+		{
+			x: 14.0d
+			y: 3.5d
+			dependencies: ["2EA53113508BD436"]
+			id: "6AFEFF91DB337139"
+			tasks: [{
+				id: "4F0EC7C4BA0E965A"
+				type: "item"
+				item: {
+					gprops: { }
+					id: "kibe:diamond_lasso"
+					Count: 1b
+					tag: { }
+				}
+			}]
+		}
+		{
+			x: 13.5d
+			y: 1.0d
+			shape: "hexagon"
+			description: [
+				"Use the various levels of spikes to leave at the bottom of your mob farm."
+				""
+				"Use the vacuum hopper to suck up items and xp."
+				""
+				"Store your xp in the tank"
+				""
+				"Use redstone to active the drain or shower, to store xp or to dispense."
+				""
+				"Cursed droplets and seeds are used to make cursed dirt. Which spawns more mobs."
+				""
+				"Use the trash can to get rid of any unwanted loot."
+				""
+				"Use the lassos to capture mobs.. for various reasons."
+				""
+				"Once you have mastered the mob farm, can you claim your reward."
+			]
+			id: "2EA53113508BD436"
+			tasks: [{
+				id: "7F9BE20A484C8715"
+				type: "checkmark"
+				title: "Kibe Mob Farm Method"
+			}]
+		}
+		{
+			x: 15.0d
+			y: 3.0d
+			dependencies: ["2EA53113508BD436"]
+			id: "6F48F204E6E04D94"
+			tasks: [{
+				id: "5C49C0A15140D59C"
+				type: "item"
+				item: {
+					gprops: { }
+					id: "kibe:vacuum_hopper"
+					Count: 1b
+				}
+			}]
+		}
+		{
+			x: 12.0d
+			y: -6.0d
+			dependencies: ["5EDF1BBEEBED927F"]
+			id: "06E66DB0079C1C33"
+			tasks: [{
+				id: "6246ADA7C69387FD"
+				type: "item"
+				item: {
+					gprops: { }
+					id: "kibe:wither_proof_glass"
+					Count: 1b
+				}
+			}]
+		}
+		{
+			x: 12.5d
+			y: -3.5d
+			dependencies: ["5EDF1BBEEBED927F"]
+			id: "32223B3C4D82A24B"
+			tasks: [{
+				id: "60F565C1307D35D8"
+				type: "item"
+				item: {
+					gprops: { }
+					id: "kibe:wither_proof_sand"
+					Count: 1b
+				}
+			}]
+		}
+		{
+			x: 13.5d
+			y: -7.0d
+			dependencies: ["5EDF1BBEEBED927F"]
+			id: "5006788393F2C549"
+			tasks: [{
+				id: "5F64773A4D914C46"
+				type: "item"
+				item: {
+					gprops: { }
+					id: "kibe:wither_proof_block"
+					Count: 1b
+				}
+			}]
+		}
+		{
+			x: 14.5d
+			y: -3.5d
+			dependencies: ["5EDF1BBEEBED927F"]
+			id: "38447A3B73A23497"
+			tasks: [{
+				id: "5F15D847732F2F5A"
+				type: "item"
+				item: {
+					gprops: { }
+					id: "kibe:wither_builder"
+					Count: 1b
+				}
+			}]
+		}
+		{
+			x: 15.0d
+			y: -6.0d
+			dependencies: ["5EDF1BBEEBED927F"]
+			id: "425EE3501EE44BFC"
+			tasks: [{
+				id: "0DBD9671347434C7"
+				type: "item"
+				item: {
+					gprops: { }
+					id: "indrev:wither_proof_obsidian"
+					Count: 1b
+				}
+			}]
+		}
+		{
+			title: "Wither Machine"
+			x: 13.5d
+			y: -5.0d
+			shape: "hexagon"
+			description: ["Use the following to create an automatic wither machine."]
+			id: "5EDF1BBEEBED927F"
+			tasks: [{
+				id: "24A1862F0308DA6E"
+				type: "checkmark"
+				title: "Wither machine"
+			}]
+			rewards: [
+				{
+					id: "115390D48721CC49"
+					type: "random"
+					table_id: 8969898993839230539L
+				}
+				{
+					id: "254D50AD8D38008B"
+					type: "item"
+					item: {
+						gprops: { }
+						id: "chisel:ornatesteel_old/glass"
+						Count: 1b
+					}
+					count: 12
+				}
+				{
+					id: "45CA8048AD6640FF"
+					type: "item"
+					item: {
+						gprops: { }
+						id: "blockus:cyan_stone_bricks"
+						Count: 1b
+					}
+					count: 12
+				}
+				{
+					id: "46DD4BBE78F80DA0"
+					type: "item"
+					item: {
+						gprops: { }
+						id: "chisel:poison/stone"
+						Count: 1b
+					}
+					count: 12
+				}
+			]
+		}
+		{
+			x: 8.0d
+			y: -7.0d
+			dependencies: ["168F737F6246967F"]
+			id: "020189CFCFC6C06B"
+			tasks: [{
+				id: "17F6FAC5607F17D5"
+				type: "item"
+				item: {
+					gprops: { }
+					id: "kibe:slime_sling"
+					Count: 1b
+				}
+			}]
+		}
+		{
+			x: 5.0d
+			y: -7.0d
+			dependencies: ["168F737F6246967F"]
+			id: "1BD0C018E49A7DD9"
+			tasks: [{
+				id: "61A61B471BE66608"
+				type: "item"
+				item: {
+					gprops: { }
+					id: "kibe:torch_sling"
+					Count: 1b
+				}
+			}]
+		}
+		{
+			x: 8.0d
+			y: -4.0d
+			dependencies: ["168F737F6246967F"]
+			id: "1043B10D063173A3"
+			tasks: [{
+				id: "7AD6BA51329E082C"
+				type: "item"
+				item: {
+					gprops: { }
+					id: "kibe:magnet"
+					Count: 1b
+					tag: { }
+				}
+			}]
+		}
+		{
+			title: "Sleeping bag"
+			x: 8.5d
+			y: -5.5d
+			dependencies: ["168F737F6246967F"]
+			id: "55A6E90245D38B8B"
+			tasks: [{
+				id: "3CC1B88DDA427A95"
+				type: "item"
+				item: {
+					gprops: { }
+					id: "itemfilters:or"
+					Count: 1b
+					tag: {
+						items: [
+							{
+								id: "kibe:pink_sleeping_bag"
+								Count: 1b
+							}
+							{
+								id: "kibe:lime_sleeping_bag"
+								Count: 1b
+							}
+							{
+								id: "kibe:yellow_sleeping_bag"
+								Count: 1b
+							}
+							{
+								id: "kibe:light_blue_sleeping_bag"
+								Count: 1b
+							}
+							{
+								id: "kibe:magenta_sleeping_bag"
+								Count: 1b
+							}
+							{
+								id: "kibe:orange_sleeping_bag"
+								Count: 1b
+							}
+							{
+								id: "kibe:white_sleeping_bag"
+								Count: 1b
+							}
+							{
+								id: "kibe:gray_sleeping_bag"
+								Count: 1b
+							}
+							{
+								id: "kibe:black_sleeping_bag"
+								Count: 1b
+							}
+							{
+								id: "kibe:red_sleeping_bag"
+								Count: 1b
+							}
+							{
+								id: "kibe:brown_sleeping_bag"
+								Count: 1b
+							}
+							{
+								id: "kibe:green_sleeping_bag"
+								Count: 1b
+							}
+							{
+								id: "kibe:purple_sleeping_bag"
+								Count: 1b
+							}
+							{
+								id: "kibe:sleeping_bag"
+								Count: 1b
+							}
+							{
+								id: "kibe:cyan_sleeping_bag"
+								Count: 1b
+							}
+							{
+								id: "kibe:light_gray_sleeping_bag"
+								Count: 1b
+							}
+						]
+					}
+				}
+			}]
+		}
+		{
+			x: 6.5d
+			y: -3.5d
+			dependencies: ["168F737F6246967F"]
+			id: "070E67FCDB179F5C"
+			tasks: [{
+				id: "75C42B370A6BECF0"
+				type: "item"
+				item: {
+					gprops: { }
+					id: "kibe:escape_rope"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: 6.5d
+			y: -7.5d
+			dependencies: ["168F737F6246967F"]
+			id: "52D48B65A5F04D87"
+			tasks: [{
+				id: "1ED3DDCCED07436B"
+				type: "item"
+				item: {
+					gprops: { }
+					id: "kibe:wooden_bucket"
+					Count: 1b
+				}
+			}]
+		}
+		{
+			x: 4.5d
+			y: -5.5d
+			dependencies: ["168F737F6246967F"]
+			id: "4E0CC10FCA19F0FF"
+			tasks: [{
+				id: "4DAE46A25DF5971F"
+				type: "item"
+				item: {
+					gprops: { }
+					id: "kibe:slime_boots"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			title: "Gliders"
+			x: 5.0d
+			y: -4.0d
+			dependencies: ["168F737F6246967F"]
+			id: "5348E2881E7A3F7D"
+			tasks: [{
+				id: "461A8026187F0779"
+				type: "item"
+				item: {
+					gprops: { }
+					id: "itemfilters:or"
+					Count: 1b
+					tag: {
+						items: [
+							{
+								id: "kibe:white_glider"
+								Count: 1b
+								tag: { }
+							}
+							{
+								id: "kibe:orange_glider"
+								Count: 1b
+								tag: { }
+							}
+							{
+								id: "kibe:magenta_glider"
+								Count: 1b
+								tag: { }
+							}
+							{
+								id: "kibe:light_blue_glider"
+								Count: 1b
+								tag: { }
+							}
+							{
+								id: "kibe:yellow_glider"
+								Count: 1b
+								tag: { }
+							}
+							{
+								id: "kibe:lime_glider"
+								Count: 1b
+								tag: { }
+							}
+							{
+								id: "kibe:pink_glider"
+								Count: 1b
+								tag: { }
+							}
+							{
+								id: "kibe:gray_glider"
+								Count: 1b
+								tag: { }
+							}
+							{
+								id: "kibe:light_gray_glider"
+								Count: 1b
+								tag: { }
+							}
+							{
+								id: "kibe:cyan_glider"
+								Count: 1b
+								tag: { }
+							}
+							{
+								id: "kibe:blue_glider"
+								Count: 1b
+								tag: { }
+							}
+							{
+								id: "kibe:purple_glider"
+								Count: 1b
+								tag: { }
+							}
+							{
+								id: "kibe:green_glider"
+								Count: 1b
+								tag: { }
+							}
+							{
+								id: "kibe:brown_glider"
+								Count: 1b
+								tag: { }
+							}
+							{
+								id: "kibe:red_glider"
+								Count: 1b
+								tag: { }
+							}
+							{
+								id: "kibe:black_glider"
+								Count: 1b
+								tag: { }
+							}
+						]
+					}
+				}
+			}]
+		}
+		{
+			x: 6.5d
+			y: -5.5d
+			id: "168F737F6246967F"
+			tasks: [{
+				id: "4B6651B07849440F"
+				type: "checkmark"
+				title: "Handy dandy utilities"
+			}]
+			rewards: [{
+				id: "7C2E9EEEB3C4B7B4"
+				type: "item"
+				item: {
+					gprops: { }
+					id: "ae2:certus_quartz_cutting_knife"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: -2.0d
+			y: -3.5d
+			dependencies: ["08F0301F0C8D7013"]
+			id: "6305856C330E4CEB"
+			tasks: [{
+				id: "0FC05324880FB6B9"
+				type: "item"
+				item: {
+					gprops: { }
+					id: "kibe:placer"
+					Count: 1b
+				}
+			}]
+		}
+		{
+			x: 1.0d
+			y: -3.5d
+			dependencies: ["08F0301F0C8D7013"]
+			id: "54078EAC76C5BAC8"
+			tasks: [{
+				id: "6B26491A205CD947"
+				type: "item"
+				item: {
+					gprops: { }
+					id: "kibe:drawbridge"
+					Count: 1b
+				}
+			}]
+		}
+		{
+			x: -2.0d
+			y: -6.5d
+			dependencies: ["08F0301F0C8D7013"]
+			id: "508129EE5F19EE89"
+			tasks: [{
+				id: "3343274513277EB6"
+				type: "item"
+				item: {
+					gprops: { }
+					id: "kibe:breaker"
+					Count: 1b
+				}
+			}]
+		}
+		{
+			x: 1.5d
+			y: -5.0d
+			dependencies: ["08F0301F0C8D7013"]
+			id: "3B020F4B1968FDB0"
+			tasks: [{
+				id: "3C9068E99A18D305"
+				type: "item"
+				item: {
+					gprops: { }
+					id: "kibe:igniter"
+					Count: 1b
+				}
+			}]
+		}
+		{
+			x: -2.5d
+			y: -5.0d
+			dependencies: ["08F0301F0C8D7013"]
+			id: "6C642DEC901512BF"
+			tasks: [{
+				id: "255905463378A934"
+				type: "item"
+				item: {
+					gprops: { }
+					id: "kibe:dehumidifier"
+					Count: 1b
+				}
+			}]
+		}
+		{
+			x: -0.5d
+			y: -3.0d
+			dependencies: ["08F0301F0C8D7013"]
+			id: "17C1D819D9227486"
+			tasks: [{
+				id: "792CDF0A914EFC9C"
+				type: "item"
+				item: {
+					gprops: { }
+					id: "kibe:heater"
+					Count: 1b
+				}
+			}]
+		}
+		{
+			x: -0.5d
+			y: -7.0d
+			dependencies: ["08F0301F0C8D7013"]
+			id: "76B5524C1838F058"
+			tasks: [{
+				id: "17E02EA331F7D7A6"
+				type: "item"
+				item: {
+					gprops: { }
+					id: "kibe:fluid_hopper"
+					Count: 1b
+				}
+			}]
+		}
+		{
+			x: 1.0d
+			y: -6.5d
+			dependencies: ["08F0301F0C8D7013"]
+			id: "40387D638061A2C3"
+			tasks: [{
+				id: "02D63A4D997340CA"
+				type: "item"
+				item: {
+					gprops: { }
+					id: "kibe:redstone_timer"
+					Count: 1b
+				}
+			}]
+		}
+		{
+			x: -0.5d
+			y: -5.0d
+			subtitle: "Use these various machines to do all kinds of things."
+			description: ["TIP: They are activated by redstone."]
+			id: "08F0301F0C8D7013"
+			tasks: [{
+				id: "093B8ECB1B60CFD3"
+				type: "checkmark"
+				title: "Machines to automate"
+			}]
+			rewards: [
+				{
+					id: "52220F163CE7ABE3"
+					type: "item"
+					item: {
+						gprops: { }
+						id: "betterend:gold_chandelier"
+						Count: 1b
+					}
+					count: 4
+				}
+				{
+					id: "189C6FF5DC7D2833"
+					type: "random"
+					table_id: 8264326110762821785L
+				}
+				{
+					id: "623C3C23AC217ED8"
+					type: "item"
+					item: {
+						gprops: { }
+						id: "blockus:bamboo_barrel"
+						Count: 1b
+					}
+					count: 4
+				}
+			]
+		}
+	]
 }
