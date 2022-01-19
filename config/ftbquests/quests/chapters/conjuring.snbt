@@ -5,19 +5,461 @@
 	filename: "conjuring"
 	title: "Conjuring"
 	icon: {
+		gprops: { }
 		id: "conjuring:enchiridion"
 		Count: 1b
 		tag: { }
 	}
-	default_quest_shape: ""
+	default_quest_shape: "square"
 	default_hide_dependency_lines: false
-	quests: [{
-		x: 0.0d
-		y: 1.0d
-		id: "608BC482A9E9F661"
-		tasks: [{
-			id: "455B25D4BE998F36"
-			type: "item"
-		}]
+	images: [{
+		x: -6.0d
+		y: -1.0d
+		width: 3.0d
+		height: 3.0d
+		rotation: 0.0d
+		image: "conjuring:textures/item/enchiridion.png"
+		hover: [ ]
+		click: ""
+		dev: false
+		corner: false
 	}]
+	quests: [
+		{
+			x: -4.0d
+			y: -4.0d
+			dependencies: ["00E561B037BFF9B4"]
+			id: "04B7A90A9A260CC3"
+			tasks: [{
+				id: "5AD216578C6CD5BE"
+				type: "item"
+				item: {
+					gprops: { }
+					id: "conjuring:gem_socket"
+					Count: 1b
+				}
+			}]
+		}
+		{
+			x: -7.0d
+			y: -3.0d
+			dependencies: ["52ED7FEFB4862043"]
+			id: "61DB1ACC5AB23AFA"
+			tasks: [{
+				id: "763861624BBCCEC6"
+				type: "item"
+				item: {
+					gprops: { }
+					id: "conjuring:gem_tinkerer"
+					Count: 1b
+				}
+			}]
+		}
+		{
+			x: -1.5d
+			y: -3.0d
+			dependencies: ["00E561B037BFF9B4"]
+			id: "0E908723F937FD89"
+			tasks: [{
+				id: "1A6A427027AF0958"
+				type: "item"
+				item: {
+					gprops: { }
+					id: "conjuring:soulfire_forge"
+					Count: 1b
+				}
+			}]
+		}
+		{
+			x: -3.0d
+			y: -3.0d
+			id: "00E561B037BFF9B4"
+			tasks: [{
+				id: "1CC8E36B0C6BE2DF"
+				type: "item"
+				item: {
+					gprops: { }
+					id: "conjuring:enchiridion"
+					Count: 1b
+					tag: { }
+				}
+			}]
+		}
+		{
+			x: 0.5d
+			y: 1.0d
+			dependencies: ["6AEEA39ABC54E7C4"]
+			id: "5AC0C2202D65449C"
+			tasks: [{
+				id: "507901397293C1E6"
+				type: "item"
+				item: {
+					gprops: { }
+					id: "conjuring:stabilized_conjuring_focus"
+					Count: 1b
+					tag: { }
+				}
+			}]
+		}
+		{
+			x: 0.0d
+			y: -3.0d
+			dependencies: ["0E908723F937FD89"]
+			id: "0F91A0EC16EBBBBB"
+			tasks: [{
+				id: "68E63E56E52EA132"
+				type: "item"
+				item: {
+					gprops: { }
+					id: "conjuring:soul_alloy"
+					Count: 1b
+				}
+			}]
+		}
+		{
+			x: 1.5d
+			y: -3.0d
+			dependencies: ["0F91A0EC16EBBBBB"]
+			id: "645B10BF6FCDE303"
+			tasks: [{
+				id: "7665D64C554FEF12"
+				type: "item"
+				item: {
+					gprops: { }
+					id: "conjuring:soul_slice"
+					Count: 1b
+				}
+			}]
+		}
+		{
+			x: -1.5d
+			y: -5.0d
+			dependencies: ["0F91A0EC16EBBBBB"]
+			id: "389463636AC92D4A"
+			tasks: [{
+				id: "2591D7BB6E0558AD"
+				type: "item"
+				item: {
+					gprops: { }
+					id: "conjuring:soul_alloy_sword"
+					Count: 1b
+					tag: {
+						Damage: 0
+						Modifiers: { }
+					}
+				}
+			}]
+		}
+		{
+			x: 0.5d
+			y: -5.0d
+			dependencies: ["0F91A0EC16EBBBBB"]
+			id: "3D6141DCD667189D"
+			tasks: [{
+				id: "1F46AEE4412AF0ED"
+				type: "item"
+				item: {
+					gprops: { }
+					id: "conjuring:soul_alloy_pickaxe"
+					Count: 1b
+					tag: {
+						Damage: 0
+						Modifiers: { }
+					}
+				}
+			}]
+		}
+		{
+			x: -0.5d
+			y: -5.0d
+			dependencies: ["0F91A0EC16EBBBBB"]
+			id: "5CD85868465A7E9B"
+			tasks: [{
+				id: "7508FC98B04197D9"
+				type: "item"
+				item: {
+					gprops: { }
+					id: "conjuring:soul_alloy_hatchet"
+					Count: 1b
+					tag: {
+						Damage: 0
+						Modifiers: { }
+					}
+				}
+			}]
+		}
+		{
+			x: 1.5d
+			y: -5.0d
+			dependencies: ["0F91A0EC16EBBBBB"]
+			id: "765F6E10ED3E1A1F"
+			tasks: [{
+				id: "30C4673B6D235BDE"
+				type: "item"
+				item: {
+					gprops: { }
+					id: "conjuring:soul_alloy_shovel"
+					Count: 1b
+					tag: {
+						Damage: 0
+						Modifiers: { }
+					}
+				}
+			}]
+		}
+		{
+			x: 3.0d
+			y: -3.0d
+			dependencies: ["645B10BF6FCDE303"]
+			id: "123117C7D38E3ED8"
+			tasks: [{
+				id: "714CBC4CB6DB728A"
+				type: "item"
+				item: {
+					gprops: { }
+					id: "conjuring:conjuration_essence"
+					Count: 1b
+				}
+			}]
+		}
+		{
+			x: 5.0d
+			y: -4.0d
+			dependencies: ["123117C7D38E3ED8"]
+			id: "12153697CC677412"
+			tasks: [{
+				id: "5D56B9D6B720A4DE"
+				type: "item"
+				item: {
+					gprops: { }
+					id: "conjuring:lesser_conjuration_essence"
+					Count: 1b
+				}
+			}]
+		}
+		{
+			x: -3.5d
+			y: -0.5d
+			dependencies: ["0E908723F937FD89"]
+			id: "55FE66A0CBE3C520"
+			tasks: [{
+				id: "21FA46FF3840E447"
+				type: "item"
+				item: {
+					gprops: { }
+					id: "conjuring:conjuring_scepter"
+					Count: 1b
+				}
+			}]
+		}
+		{
+			x: 5.0d
+			y: -1.0d
+			dependencies: ["123117C7D38E3ED8"]
+			id: "7CB1A19C567DE84C"
+			tasks: [{
+				id: "6B73E673A80B0705"
+				type: "item"
+				item: {
+					gprops: { }
+					id: "conjuring:superior_conjuring_scepter"
+					Count: 1b
+				}
+			}]
+		}
+		{
+			x: 5.0d
+			y: -5.0d
+			dependencies: ["123117C7D38E3ED8"]
+			id: "6A0E2B6A4A71BDCC"
+			tasks: [{
+				id: "5D87DB903AE8F45D"
+				type: "item"
+				item: {
+					gprops: { }
+					id: "conjuring:soul_rod"
+					Count: 1b
+				}
+			}]
+		}
+		{
+			x: -1.5d
+			y: -0.5d
+			dependencies: ["0E908723F937FD89"]
+			id: "7AD2D759DA73BC51"
+			tasks: [{
+				id: "797D8D532F53DBE9"
+				type: "item"
+				item: {
+					gprops: { }
+					id: "conjuring:soul_funnel"
+					Count: 1b
+				}
+			}]
+		}
+		{
+			x: -0.5d
+			y: -0.5d
+			dependencies: ["0E908723F937FD89"]
+			id: "147BCF7E6F4944A2"
+			tasks: [{
+				id: "3666880CAA50A00D"
+				type: "item"
+				item: {
+					gprops: { }
+					id: "conjuring:blackstone_pedestal"
+					Count: 1b
+				}
+			}]
+		}
+		{
+			x: -2.5d
+			y: -0.5d
+			dependencies: ["0E908723F937FD89"]
+			id: "482E9E6D0DBEDA9F"
+			tasks: [{
+				id: "2AEE7687908351FC"
+				type: "item"
+				item: {
+					gprops: { }
+					id: "conjuring:soul_weaver"
+					Count: 1b
+				}
+			}]
+		}
+		{
+			x: 5.0d
+			y: -3.0d
+			dependencies: ["123117C7D38E3ED8"]
+			id: "43304C008E8A700B"
+			tasks: [{
+				id: "513F4BFBDB849D3F"
+				type: "item"
+				item: {
+					gprops: { }
+					id: "conjuring:conjurer"
+					Count: 1b
+				}
+			}]
+		}
+		{
+			x: 5.0d
+			y: -2.0d
+			dependencies: ["123117C7D38E3ED8"]
+			id: "01B6FAE48DFC7B5D"
+			tasks: [{
+				id: "26EDCAA58BEDC06A"
+				type: "item"
+				item: {
+					gprops: { }
+					id: "conjuring:distilled_spirit"
+					Count: 1b
+				}
+			}]
+		}
+		{
+			x: -5.0d
+			y: -5.0d
+			dependencies: ["04B7A90A9A260CC3"]
+			id: "4D12C2B99A11FC06"
+			tasks: [
+				{
+					id: "124E9000EEF740C3"
+					type: "item"
+					item: {
+						gprops: { }
+						id: "conjuring:haste_gem"
+						Count: 1b
+					}
+				}
+				{
+					id: "5FBDEC2E3B04D382"
+					type: "item"
+					item: {
+						gprops: { }
+						id: "conjuring:ignorance_gem"
+						Count: 1b
+					}
+				}
+				{
+					id: "0C2780C1E359E66C"
+					type: "item"
+					item: {
+						gprops: { }
+						id: "conjuring:abundance_gem"
+						Count: 1b
+					}
+				}
+				{
+					id: "544F81AA31EC9A15"
+					type: "item"
+					item: {
+						gprops: { }
+						id: "conjuring:scope_gem"
+						Count: 1b
+					}
+				}
+			]
+		}
+		{
+			x: -6.0d
+			y: -4.0d
+			dependencies: ["4D12C2B99A11FC06"]
+			id: "52ED7FEFB4862043"
+			tasks: [
+				{
+					id: "098643AC49423F55"
+					type: "item"
+					item: {
+						gprops: { }
+						id: "conjuring:haste_charm"
+						Count: 1b
+					}
+				}
+				{
+					id: "7F4D16E0A4DEF8E4"
+					type: "item"
+					item: {
+						gprops: { }
+						id: "conjuring:ignorance_charm"
+						Count: 1b
+					}
+				}
+				{
+					id: "6DF456C1C835D4ED"
+					type: "item"
+					item: {
+						gprops: { }
+						id: "conjuring:plentifulness_charm"
+						Count: 1b
+					}
+				}
+				{
+					id: "371050B28FE8D1AF"
+					type: "item"
+					item: {
+						gprops: { }
+						id: "conjuring:scope_charm"
+						Count: 1b
+					}
+				}
+			]
+		}
+		{
+			x: 0.5d
+			y: -0.5d
+			dependencies: ["0E908723F937FD89"]
+			id: "6AEEA39ABC54E7C4"
+			tasks: [{
+				id: "4F87EE41560AB292"
+				type: "item"
+				item: {
+					gprops: { }
+					id: "conjuring:conjuring_focus"
+					Count: 1b
+					tag: { }
+				}
+			}]
+		}
+	]
 }
