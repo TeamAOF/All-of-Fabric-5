@@ -4,16 +4,218 @@
 	order_index: 0
 	filename: "getting_started"
 	title: "Getting Started"
-	icon: "onastick:crafting_table_on_a_stick"
+	icon: {
+		gprops: { }
+		id: "onastick:crafting_table_on_a_stick"
+		Count: 1b
+	}
 	default_quest_shape: ""
 	default_hide_dependency_lines: false
-	quests: [{
-		x: 2.5d
-		y: 1.5d
-		id: "4F5B75B9DB7FD648"
-		tasks: [{
-			id: "0FAED0B581975439"
-			type: "item"
-		}]
-	}]
+	quests: [
+		{
+			title: "Welcome to All of Fabric 5"
+			x: 7.5d
+			y: 2.0d
+			shape: "hexagon"
+			subtitle: "A Whole New World!"
+			description: [
+				"This chapter will introduce you to the basics of the pack."
+				""
+				"All of Fabric 5 offers the following:"
+				""
+				"- Challenges"
+				"- Learning Mods"
+				"- Adventuring"
+				"- Becoming a Chef"
+				""
+				"The adventures are ahead!"
+			]
+			size: 1.5d
+			id: "175F5611FB7716A4"
+			tasks: [{
+				id: "25B2DFAFD351900E"
+				type: "checkmark"
+				title: "Welcome to All of Fabric 5"
+				icon: {
+					gprops: { }
+					id: "kubejs:aof5_logo"
+					Count: 1b
+				}
+			}]
+			rewards: [{
+				id: "0C7586F6D57261AC"
+				type: "random"
+				table_id: 2482271367426889676L
+			}]
+		}
+		{
+			x: 10.0d
+			y: 0.0d
+			subtitle: "Ores Be Gone!"
+			description: [
+				"Excavate is by default bound to keybind \"Grave\""
+				""
+				""
+				"You can change this keybind by doing the following steps:"
+				""
+				""
+				"Go into Esc > Mods > Search > Diggus Maximus > Click the Cogwheel"
+			]
+			dependencies: ["175F5611FB7716A4"]
+			id: "7050DE96E151D1D1"
+			tasks: [{
+				id: "520CE3437306804D"
+				type: "checkmark"
+				title: "Excavate"
+				icon: {
+					gprops: { }
+					id: "minecraft:diamond_pickaxe"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: 7.5d
+			y: -1.0d
+			subtitle: "Are you worthy? Become the completionist!"
+			dependencies: ["175F5611FB7716A4"]
+			id: "477ECBF67056BF45"
+			tasks: [{
+				id: "7E0EE4376BC378B3"
+				type: "checkmark"
+				title: "Challenges"
+				icon: {
+					gprops: { }
+					id: "croptopia:starfruit"
+					Count: 1b
+				}
+			}]
+		}
+		{
+			icon: {
+				gprops: { }
+				id: "techreborn:wrench"
+				Count: 1b
+			}
+			x: 5.0d
+			y: 0.0d
+			subtitle: "Feel lost? Do not worry!"
+			description: [
+				"Mods are split into 4 categories:"
+				""
+				"- Technology"
+				"- Magic"
+				"- Utilities"
+				"- Logistics"
+				""
+				""
+				"Respectively, each chapter will guide you through progression."
+				""
+				"Certain chapters will have tips and tricks on how to ease your adventures with useful trinkets and gadgets."
+			]
+			dependencies: ["175F5611FB7716A4"]
+			id: "257EAB9268907E1D"
+			tasks: [{
+				id: "60A1EB763CF25699"
+				type: "checkmark"
+				title: "Learning Mods"
+			}]
+		}
+		{
+			icon: {
+				gprops: { }
+				id: "naturescompass:naturescompass"
+				Count: 1b
+				tag: { }
+			}
+			x: 7.5d
+			y: 5.0d
+			subtitle: "If you truly love nature, you will find beauty everywhere."
+			description: [
+				"Dont feel like running thousands of blocks for that favorite biome of yours?"
+				""
+				"The Nature's Compass saves your day!"
+				""
+				"Search for the biome of choice, clap 3 times and start running!"
+			]
+			dependencies: ["175F5611FB7716A4"]
+			id: "4D39B9BD9B99383E"
+			tasks: [{
+				id: "1E78FE3CAE735910"
+				type: "checkmark"
+				title: "Where to settle down?"
+			}]
+			rewards: [{
+				id: "197C077CA5118D52"
+				type: "item"
+				item: {
+					gprops: { }
+					id: "naturescompass:naturescompass"
+					Count: 1b
+					tag: { }
+				}
+			}]
+		}
+		{
+			title: "Crafting on the Go"
+			x: 5.0d
+			y: 4.0d
+			subtitle: "Only $4.99"
+			description: [
+				"Tired of having to put that crafting table of yours down any time your tool breaks when mining? Look no more!"
+				""
+				"Make the Crafting Table On A Stick! "
+				""
+				"There's also one for the following:"
+				"- Anvil"
+				"- Cartography"
+				"- Grindstone"
+				"- Loom"
+				"- Smithing"
+				"- Stonecutter"
+			]
+			dependencies: ["175F5611FB7716A4"]
+			id: "77EA450F77679791"
+			tasks: [{
+				id: "2EC6B9D7A8E9438D"
+				type: "checkmark"
+				title: "Crafting on the Go"
+				icon: {
+					gprops: { }
+					id: "onastick:crafting_table_on_a_stick"
+					Count: 1b
+				}
+			}]
+		}
+		{
+			title: "Recipe Wizardry"
+			icon: {
+				gprops: { }
+				id: "botania:placeholder"
+				Count: 1b
+			}
+			x: 10.0d
+			y: 4.0d
+			subtitle: "A recipe is a story that ends with a good meal."
+			description: [
+				"How to use an item? Hover over the item in REI and press \"U\" this will show you the uses, pay attention to the tabs."
+				""
+				"Dont know how to craft an item? Hover over the item and press \"R\"."
+				""
+				"Sometimes you have to start out processing a nugget, instead of an ingot or a block."
+				""
+				"You may need to look at the recipes for the material's respective nugget or sometimes even powders."
+			]
+			dependencies: ["175F5611FB7716A4"]
+			id: "2AB91711E9E7B298"
+			tasks: [{
+				id: "0657F4EC97E5ACAC"
+				type: "checkmark"
+				title: "I know how to use U and R"
+			}]
+		}
+	]
 }
