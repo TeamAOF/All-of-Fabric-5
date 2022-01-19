@@ -1,19 +1,298 @@
 {
 	id: "36C36FC0225A052C"
-	group: "607036E1A9E1A42E"
-	order_index: 0
+	group: "33A417364C0A17FE"
+	order_index: 2
 	filename: "deep_mob_learning"
 	title: "Deep Mob Learning"
-	icon: "dml-refabricated:deep_learner"
-	default_quest_shape: ""
+	icon: {
+		gprops: { }
+		id: "dml-refabricated:deep_learner"
+		Count: 1b
+	}
+	default_quest_shape: "square"
 	default_hide_dependency_lines: false
-	quests: [{
-		x: 1.5d
-		y: 0.0d
-		id: "0F1226D3C3137FC0"
-		tasks: [{
-			id: "079E76178C60C1FB"
-			type: "item"
-		}]
-	}]
+	quests: [
+		{
+			x: -9.5d
+			y: -2.5d
+			dependencies: ["394DCDE468051067"]
+			id: "2EA2885C13B2C158"
+			tasks: [{
+				id: "6FD0D261E90790A2"
+				type: "item"
+				item: {
+					gprops: { }
+					id: "dml-refabricated:data_model"
+					Count: 1b
+					tag: { }
+				}
+			}]
+		}
+		{
+			x: -6.5d
+			y: -2.5d
+			dependencies: ["0CCCC61B10044F46"]
+			id: "5A7277E2D1A1C51D"
+			tasks: [{
+				id: "1F74315ED1FF9FCB"
+				type: "item"
+				item: {
+					gprops: { }
+					id: "dml-refabricated:deep_learner"
+					Count: 1b
+				}
+			}]
+		}
+		{
+			x: -5.0d
+			y: -2.5d
+			dependencies: ["5A7277E2D1A1C51D"]
+			id: "01D568488C874E51"
+			tasks: [{
+				id: "1CAE14E935895EEE"
+				type: "item"
+				item: {
+					gprops: { }
+					id: "dml-refabricated:trial_keystone"
+					Count: 1b
+				}
+			}]
+		}
+		{
+			x: -3.5d
+			y: -2.5d
+			dependencies: ["01D568488C874E51"]
+			id: "2EF788D6F29C5EDA"
+			tasks: [{
+				id: "1712246FD3D1B782"
+				type: "item"
+				item: {
+					gprops: { }
+					id: "dml-refabricated:trial_key"
+					Count: 1b
+					tag: { }
+				}
+			}]
+		}
+		{
+			x: -12.0d
+			y: 0.5d
+			dependencies: ["7CB1D7180312E135"]
+			id: "22AED97627B96620"
+			tasks: [{
+				id: "26F16521AC49E60B"
+				type: "item"
+				item: {
+					gprops: { }
+					id: "dml-refabricated:loot_fabricator"
+					Count: 1b
+				}
+			}]
+		}
+		{
+			x: -2.0d
+			y: -2.5d
+			dependencies: ["2EF788D6F29C5EDA"]
+			id: "3F69B97A783AC81C"
+			tasks: [{
+				id: "763F3B0C76A6CB16"
+				type: "item"
+				item: {
+					gprops: { }
+					id: "dml-refabricated:glitch_ingot"
+					Count: 1b
+				}
+			}]
+		}
+		{
+			x: -0.5d
+			y: -4.0d
+			dependencies: ["3F69B97A783AC81C"]
+			id: "1272C0D3415143C1"
+			tasks: [{
+				id: "179697774E9623B7"
+				type: "item"
+				item: {
+					gprops: { }
+					id: "dml-refabricated:glitch_helmet"
+					Count: 1b
+					tag: { }
+				}
+			}]
+		}
+		{
+			x: -0.5d
+			y: -3.0d
+			dependencies: ["3F69B97A783AC81C"]
+			id: "357109A25A56D174"
+			tasks: [{
+				id: "25585ECD38565973"
+				type: "item"
+				item: {
+					gprops: { }
+					id: "dml-refabricated:glitch_chestplate"
+					Count: 1b
+					tag: { }
+				}
+			}]
+		}
+		{
+			x: -0.5d
+			y: -2.0d
+			dependencies: ["3F69B97A783AC81C"]
+			id: "08B3B658BDC6DD19"
+			tasks: [{
+				id: "107B4DE1BCB3EFA5"
+				type: "item"
+				item: {
+					gprops: { }
+					id: "dml-refabricated:glitch_leggings"
+					Count: 1b
+					tag: { }
+				}
+			}]
+		}
+		{
+			x: -0.5d
+			y: -1.0d
+			dependencies: ["3F69B97A783AC81C"]
+			id: "14AE6A87D1235145"
+			tasks: [{
+				id: "464886591A8DC64F"
+				type: "item"
+				item: {
+					gprops: { }
+					id: "dml-refabricated:glitch_boots"
+					Count: 1b
+					tag: { }
+				}
+			}]
+		}
+		{
+			title: "Get a data model"
+			x: -8.0d
+			y: -2.5d
+			dependencies: ["2EA2885C13B2C158"]
+			id: "0CCCC61B10044F46"
+			tasks: [{
+				id: "4A4F270C7B4CB954"
+				type: "item"
+				title: "Get a data model"
+				item: {
+					gprops: { }
+					id: "itemfilters:or"
+					Count: 1b
+					tag: {
+						items: [
+							{
+								id: "dml-refabricated:data_model_illager"
+								Count: 1b
+								tag: { }
+							}
+							{
+								id: "dml-refabricated:data_model_ocean"
+								Count: 1b
+								tag: { }
+							}
+							{
+								id: "dml-refabricated:data_model_slimy"
+								Count: 1b
+								tag: { }
+							}
+							{
+								id: "dml-refabricated:data_model_overworld"
+								Count: 1b
+								tag: { }
+							}
+							{
+								id: "dml-refabricated:data_model_zombie"
+								Count: 1b
+								tag: { }
+							}
+							{
+								id: "dml-refabricated:data_model_nether"
+								Count: 1b
+								tag: { }
+							}
+							{
+								id: "dml-refabricated:data_model_skeleton"
+								Count: 1b
+								tag: { }
+							}
+							{
+								id: "dml-refabricated:data_model_end"
+								Count: 1b
+								tag: { }
+							}
+							{
+								id: "dml-refabricated:data_model_ghost"
+								Count: 1b
+								tag: { }
+							}
+						]
+					}
+				}
+			}]
+		}
+		{
+			x: -10.0d
+			y: 0.5d
+			dependencies: ["7CB1D7180312E135"]
+			id: "0DEE3926C25C2221"
+			tasks: [{
+				id: "79866817A5588058"
+				type: "item"
+				item: {
+					gprops: { }
+					id: "dmlsimulacrum:simulation_chamber"
+					Count: 1b
+				}
+			}]
+		}
+		{
+			x: -11.0d
+			y: 0.5d
+			dependencies: ["7CB1D7180312E135"]
+			id: "6F9393A8015541A8"
+			tasks: [{
+				id: "195D1CB694FDCF69"
+				type: "item"
+				item: {
+					gprops: { }
+					id: "dml-refabricated:matter_condenser"
+					Count: 1b
+				}
+			}]
+		}
+		{
+			x: -11.0d
+			y: -1.0d
+			dependencies: ["394DCDE468051067"]
+			id: "7CB1D7180312E135"
+			tasks: [{
+				id: "6C44B445254F46B8"
+				type: "item"
+				item: {
+					gprops: { }
+					id: "dml-refabricated:machine_casing"
+					Count: 1b
+				}
+			}]
+		}
+		{
+			x: -11.0d
+			y: -2.5d
+			subtitle: "Rub your redstone on a block of coal."
+			id: "394DCDE468051067"
+			tasks: [{
+				id: "5EEB04255651FBAE"
+				type: "item"
+				item: {
+					gprops: { }
+					id: "dml-refabricated:soot_redstone"
+					Count: 1b
+				}
+			}]
+		}
+	]
 }
