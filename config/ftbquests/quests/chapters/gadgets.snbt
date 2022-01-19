@@ -1,32 +1,382 @@
 {
 	id: "19424F3F4D7521A2"
-	group: "607036E1A9E1A42E"
-	order_index: 1
+	group: "76C22988F9A7C9CE"
+	order_index: 0
 	filename: "gadgets"
-	title: "Gadgets"
+	title: "Building"
 	icon: {
-		id: "buildinggadgets:template"
+		gprops: { }
+		id: "betterend:iron_hammer"
 		Count: 1b
 		tag: {
-			"buildinggadgets:template_key": {
-				template_id: [I;
-					-927514175
-					-105624663
-					-1781008156
-					-1639149800
-				]
-			}
+			Damage: 0
 		}
 	}
 	default_quest_shape: ""
 	default_hide_dependency_lines: false
-	quests: [{
-		x: -0.5d
-		y: 1.5d
-		id: "3528A179146E9F1B"
-		tasks: [{
-			id: "45D0E3199FF8BEE4"
-			type: "item"
-		}]
-	}]
+	quests: [
+		{
+			x: 0.0d
+			y: 1.5d
+			subtitle: "You can dream, create, design, and build the most wonderful place in the world."
+			id: "341C7D2C93742900"
+			tasks: [{
+				id: "0AE0962EF2F84060"
+				type: "checkmark"
+				title: "Your every day toolbelt"
+				icon: {
+					gprops: { }
+					id: "betterend:iron_hammer"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: 0.5d
+			y: -1.0d
+			subtitle: "yeah.. that one"
+			description: ["Best tech to build it quick."]
+			dependencies: ["341C7D2C93742900"]
+			id: "45472C7319EC2261"
+			tasks: [{
+				id: "33686463964EEAED"
+				type: "item"
+				item: {
+					gprops: { }
+					id: "buildinggadgets:gadget_building"
+					Count: 1b
+					tag: {
+						Damage: 0
+						state: {
+							serializer: "buildinggadgets:dummy_serializer"
+							state: {
+								Name: "minecraft:air"
+							}
+							data: { }
+						}
+					}
+				}
+			}]
+		}
+		{
+			x: -0.5d
+			y: -1.0d
+			dependencies: ["341C7D2C93742900"]
+			id: "72D473E1810E45D7"
+			tasks: [{
+				id: "4278655EFD94DBF1"
+				type: "item"
+				item: {
+					gprops: { }
+					id: "buildinggadgets:gadget_exchanging"
+					Count: 1b
+					tag: {
+						Damage: 0
+						state: {
+							serializer: "buildinggadgets:dummy_serializer"
+							state: {
+								Name: "minecraft:air"
+							}
+							data: { }
+						}
+					}
+				}
+			}]
+		}
+		{
+			x: 1.5d
+			y: -0.5d
+			dependencies: ["341C7D2C93742900"]
+			id: "0232F82465ACC551"
+			tasks: [{
+				id: "77BB53C023067B54"
+				type: "item"
+				item: {
+					gprops: { }
+					id: "buildinggadgets:gadget_copy_paste"
+					Count: 1b
+					tag: {
+						Damage: 0
+						"buildinggadgets:template_key": {
+							template_id: [I;
+								1409924396
+								461915714
+								-1401375111
+								376838610
+							]
+						}
+					}
+				}
+			}]
+		}
+		{
+			x: -2.5d
+			y: 1.0d
+			dependencies: ["341C7D2C93742900"]
+			id: "5D5E53BCC9686BEB"
+			tasks: [{
+				id: "2A15AF7129E1D209"
+				type: "item"
+				item: {
+					gprops: { }
+					id: "chisel:chisel"
+					Count: 1b
+				}
+			}]
+		}
+		{
+			x: 2.5d
+			y: 1.0d
+			dependencies: ["341C7D2C93742900"]
+			id: "1503EBD099C0444B"
+			tasks: [{
+				id: "5C9D9AF921A12ED1"
+				type: "item"
+				item: {
+					gprops: { }
+					id: "bitsandchisels:iron_chisel"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: -1.5d
+			y: -0.5d
+			dependencies: ["341C7D2C93742900"]
+			id: "454C6A0D83B852C7"
+			tasks: [{
+				id: "5E7623ACE78AD0E5"
+				type: "item"
+				item: {
+					gprops: { }
+					id: "buildinggadgets:gadget_destruction"
+					Count: 1b
+					tag: {
+						overlay: 1b
+						Damage: 0
+						fuzzy: 1b
+					}
+				}
+			}]
+		}
+		{
+			x: -2.0d
+			y: 2.5d
+			subtitle: "for those whole like a magic touch to building"
+			dependencies: ["341C7D2C93742900"]
+			id: "5422C6DABE9F8D9D"
+			tasks: [{
+				id: "1F39D5573BB82545"
+				type: "item"
+				item: {
+					gprops: { }
+					id: "staffofbuilding:wooden_builder_staff"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [{
+				id: "5677C2D9C37F313E"
+				type: "random"
+				table_id: 8530759241018555690L
+			}]
+		}
+		{
+			x: -1.5d
+			y: 3.5d
+			dependencies: ["341C7D2C93742900"]
+			id: "4EC49EFF4B139771"
+			tasks: [{
+				id: "2F2DA7D863BC327A"
+				type: "item"
+				item: {
+					gprops: { }
+					id: "staffofbuilding:stone_builder_staff"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: -0.5d
+			y: 4.0d
+			dependencies: ["341C7D2C93742900"]
+			id: "424D1FF456C5309D"
+			tasks: [{
+				id: "2310EE65434E176F"
+				type: "item"
+				item: {
+					gprops: { }
+					id: "staffofbuilding:iron_builder_staff"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: 0.5d
+			y: 4.0d
+			dependencies: ["341C7D2C93742900"]
+			id: "493B90C284EB5402"
+			tasks: [{
+				id: "16890A75B553A2F3"
+				type: "item"
+				item: {
+					gprops: { }
+					id: "staffofbuilding:golden_builder_staff"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: 1.5d
+			y: 3.5d
+			dependencies: ["341C7D2C93742900"]
+			id: "4AD1DD230664681D"
+			tasks: [{
+				id: "7D5B4820134A5ACF"
+				type: "item"
+				item: {
+					gprops: { }
+					id: "staffofbuilding:diamond_builder_staff"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: 2.0d
+			y: 2.5d
+			subtitle: "Congrats! you must like building."
+			description: ["Have a bunch of different blocks for building."]
+			dependencies: ["341C7D2C93742900"]
+			id: "661F9C730DFEA05C"
+			tasks: [{
+				id: "0944E8C92FD41166"
+				type: "item"
+				item: {
+					gprops: { }
+					id: "staffofbuilding:netherite_builder_staff"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "2F8B7273C24A94ED"
+					type: "item"
+					item: {
+						gprops: { }
+						id: "blockus:white_futurneo_block"
+						Count: 1b
+					}
+					count: 64
+				}
+				{
+					id: "0AA03BA0351FA1DB"
+					type: "item"
+					item: {
+						gprops: { }
+						id: "blockus:golden_carrot_crate"
+						Count: 1b
+					}
+					count: 12
+				}
+				{
+					id: "3701ED933560919F"
+					type: "item"
+					item: {
+						gprops: { }
+						id: "chisel:triple_bricks/stone"
+						Count: 1b
+					}
+					count: 64
+				}
+				{
+					id: "55F9531A58CDFB66"
+					type: "item"
+					item: {
+						gprops: { }
+						id: "chisel:shipping_crate/crimson_planks"
+						Count: 1b
+					}
+					count: 64
+				}
+				{
+					id: "11BE7385D5BDAD94"
+					type: "item"
+					item: {
+						gprops: { }
+						id: "chisel:llama/light_gray_wool"
+						Count: 1b
+					}
+					count: 64
+				}
+				{
+					id: "5A8DD166C176C63E"
+					type: "item"
+					item: {
+						gprops: { }
+						id: "blockus:pink_stone_bricks"
+						Count: 1b
+					}
+					count: 64
+				}
+				{
+					id: "2B1B8FE4A60C637A"
+					type: "item"
+					item: {
+						gprops: { }
+						id: "bewitchment:cypress_log"
+						Count: 1b
+					}
+					count: 64
+				}
+				{
+					id: "37B7989892AFB3E8"
+					type: "item"
+					item: {
+						gprops: { }
+						id: "promenade:cherry_oak_log"
+						Count: 1b
+					}
+					count: 64
+				}
+				{
+					id: "2824B9074251A122"
+					type: "random"
+					table_id: 2482271367426889676L
+				}
+				{
+					id: "76EFC6B153970767"
+					type: "random"
+					table_id: 2482271367426889676L
+				}
+				{
+					id: "7654DAFA9263A647"
+					type: "random"
+					table_id: 2482271367426889676L
+				}
+			]
+		}
+	]
 }
