@@ -71,10 +71,10 @@
 			}]
 		}
 		{
-			title: "Backpack in gold?"
+			title: "Golden Backpack"
 			x: -2.0d
 			y: -1.5d
-			subtitle: "This one must be a heavy one."
+			subtitle: "Bag of Holding? Almost."
 			dependencies: ["54DB5154498B9336"]
 			id: "1569F3E295EA86B5"
 			tasks: [{
@@ -269,6 +269,12 @@
 		{
 			x: 11.5d
 			y: -3.5d
+			subtitle: "Another storage drawer in disguise."
+			description: [
+				"Bronze barrels can used to store and move 32 stacks of one item."
+				""
+				"Amount of stacks allowed increase for each tier of barrel."
+			]
 			dependencies: ["523A049CF07AD75B"]
 			id: "701620712CC907D7"
 			tasks: [{
@@ -389,6 +395,13 @@
 		{
 			x: 12.5d
 			y: -3.5d
+			subtitle: "Right-click with buckets or other tanks to transfer fluids."
+			description: [
+				"Bronze Tanks can store up to 4 buckets each."
+				"You can use that to interact with machines and can also be placed in the world."
+				""
+				"TIP: Tanks are stackable if containing the same fluid."
+			]
 			dependencies: ["523A049CF07AD75B"]
 			id: "3C5A8EA9636BF12F"
 			tasks: [{
@@ -511,6 +524,21 @@
 			x: 1.0d
 			y: -3.5d
 			subtitle: "Miner's pickup tool of choice."
+			description: [
+				"Bag Mode:"
+				""
+				"- In bag mode, the dank acts like a backpack."
+				""
+				"- Sneaking while hovering the tooltip will show contained items and the currently assigned keybind."
+				""
+				"Construction Mode:"
+				""
+				"- While in construction mode, the dank can no longer be placed down and will gain the enchantment glow to show that it's in construction mode."
+				""
+				"- While in construction mode, the dank storage has a selected slot, sneak - mousewheel will change the selected slot, pickblock functionality also works as well."
+				""
+				"- Right-clicking while the dank is in this state will attempt to use the currently selected item whether it be a block, a snowball, or even shears. Even potions and most food items can be consumed this way."
+			]
 			dependencies: ["6F2E92752228528C"]
 			id: "08812AFA81E0361B"
 			tasks: [{
@@ -674,6 +702,7 @@
 		{
 			x: 9.0d
 			y: -3.5d
+			subtitle: "Right click with buckets or other tanks to transfer fluids."
 			dependencies: ["64082742D6539923"]
 			id: "691F1102DCB3851D"
 			tasks: [{
@@ -692,8 +721,10 @@
 			}]
 		}
 		{
+			title: "Crude Storage Unit"
 			x: 8.0d
 			y: -3.5d
+			subtitle: "Storage drawer in disguise."
 			dependencies: ["64082742D6539923"]
 			id: "16D84060C075DC03"
 			tasks: [{
@@ -1127,6 +1158,13 @@
 			x: 12.0d
 			y: -5.0d
 			subtitle: "Barrels and tanks of different sizes. You know what they are.. They have no disguises."
+			description: [
+				"Barrels are used for mass storage of the same item. Shows count and item on front. "
+				""
+				"Tanks are used for high amounts of fluid storage."
+				"Can be used as a buffer and is movable with contents intact on break."
+				"Tanks are stackable if containing the same fluid."
+			]
 			id: "523A049CF07AD75B"
 			tasks: [{
 				id: "7279364B4E1843D4"
@@ -1142,7 +1180,8 @@
 				""
 				"Tank units store liquids.. that's about it."
 				""
-				"Battery box, mfe, mfsu and Interdimensional Su are energy storage devices. you can view their inventory and use the slot they have to charge devices."
+				"Battery Box, MFE, MFSU and Interdimensional SU are energy storage devices."
+				"You can view their inventory and use the slot they have to charge devices."
 			]
 			id: "64082742D6539923"
 			tasks: [{
@@ -1185,6 +1224,7 @@
 		{
 			x: 10.0d
 			y: -3.5d
+			subtitle: "Stores energy and charges items. "
 			dependencies: ["64082742D6539923"]
 			id: "02C255C9CAC286C8"
 			tasks: [{
@@ -1277,6 +1317,7 @@
 		{
 			x: 14.0d
 			y: -3.5d
+			subtitle: "Stores energy and charges items. "
 			dependencies: ["679464B1F04B106E"]
 			id: "17F540DAE69F9836"
 			tasks: [{
