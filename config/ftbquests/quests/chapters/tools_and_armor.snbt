@@ -1029,18 +1029,11 @@
 				type: "checkmark"
 				title: "Iron Will"
 			}]
-			rewards: [
-				{
-					id: "115E291BBCA39B6C"
-					type: "random"
-					table_id: 2482271367426889676L
-				}
-				{
-					id: "2531DEA2060F1599"
-					type: "random"
-					table_id: 8530759241018555690L
-				}
-			]
+			rewards: [{
+				id: "2531DEA2060F1599"
+				type: "random"
+				table_id: 8530759241018555690L
+			}]
 		}
 		{
 			x: -5.5d
@@ -1669,6 +1662,11 @@
 				type: "checkmark"
 				title: "HAMMER GOD"
 			}]
+			rewards: [{
+				id: "74C5585754FD34BE"
+				type: "random"
+				table_id: 8817810574139827171L
+			}]
 		}
 		{
 			x: 4.0d
@@ -1914,6 +1912,11 @@
 				id: "05051637FF6E9C61"
 				type: "checkmark"
 				title: "Dig Dug Done"
+			}]
+			rewards: [{
+				id: "3CD8EB527028522C"
+				type: "random"
+				table_id: 8817810574139827171L
 			}]
 		}
 		{
@@ -2870,7 +2873,7 @@
 		}
 		{
 			x: -5.0d
-			y: -24.5d
+			y: -25.5d
 			dependencies: ["3C291A04558AEC21"]
 			id: "58CC35F4F072518F"
 			tasks: [{
@@ -2888,7 +2891,7 @@
 		}
 		{
 			x: -2.0d
-			y: -24.5d
+			y: -25.5d
 			dependencies: ["3C291A04558AEC21"]
 			id: "5DDC200EFEC22DDC"
 			tasks: [{

@@ -323,11 +323,11 @@
 		{
 			x: -13.5d
 			y: -3.0d
-			subtitle: "Life gets easier from now on"
+			subtitle: "Life gets easier from now on."
 			description: [
-				"has 3x3 silktouch"
-				"right click burnable fuel while in inventory"
-				"rightclick water /flowing water, wont consume"
+				"- Has 3x3 Silktouch."
+				"- Right-click burnable fuel in inventory."
+				"- Right-click a water source block to fuel it up."
 			]
 			dependencies: ["385079198388468C"]
 			id: "70CD9F0D26A75E13"
@@ -827,7 +827,7 @@
 			title: "Lignite coal"
 			x: -13.5d
 			y: -4.5d
-			subtitle: "At first it seems useless. However it can be used as a fuel or for sulfur extraction later."
+			subtitle: "It's brown coal. Great fuel to be used with the Steam Mining Drill."
 			dependencies: ["70CD9F0D26A75E13"]
 			id: "0D10B5E838DF9196"
 			tasks: [{

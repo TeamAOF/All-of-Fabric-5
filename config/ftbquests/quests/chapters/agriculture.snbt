@@ -15,6 +15,7 @@
 		{
 			x: -6.0d
 			y: 15.0d
+			subtitle: "Your market of choice for seeds and crops."
 			id: "529FA5C3502DBF4D"
 			tasks: [{
 				id: "62B614931DDB6161"
@@ -29,6 +30,7 @@
 		{
 			x: -5.0d
 			y: 14.5d
+			subtitle: "Collects eggs laid by chickens."
 			id: "16FED75C44853ECA"
 			tasks: [{
 				id: "5F2ADAA3F72E4D09"
@@ -43,6 +45,7 @@
 		{
 			x: -4.0d
 			y: 15.0d
+			subtitle: "Auto-feeds nearby animals."
 			id: "2607DEA382FF044E"
 			tasks: [{
 				id: "755F341295669BDC"
@@ -57,6 +60,7 @@
 		{
 			x: -4.0d
 			y: 17.0d
+			subtitle: "Increases crop output."
 			id: "14D42EDBFFCED86E"
 			tasks: [{
 				id: "1604ECD381B21CFB"
@@ -71,6 +75,7 @@
 		{
 			x: -6.0d
 			y: 17.0d
+			subtitle: "Speeds up growth."
 			id: "4AE1EA3349567401"
 			tasks: [{
 				id: "443CD4678AE9D27A"
@@ -85,6 +90,7 @@
 		{
 			x: -5.0d
 			y: 17.5d
+			subtitle: "Prevents trampling."
 			id: "6AA43062AC98B59B"
 			tasks: [{
 				id: "0C1F44E719A323DC"
