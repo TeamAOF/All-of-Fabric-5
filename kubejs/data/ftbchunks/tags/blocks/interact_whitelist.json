@@ -1,0 +1,31 @@
+{
+	"replace": false,
+	"values": [
+		"minecraft:crafting_table",
+		"minecraft:bell",
+		{
+			"id": "#tombstone:graves",
+			"required": false
+		},
+		{
+			"id": "waystones:waystone",
+			"required": false
+		},
+		{
+			"id": "waystones:mossy_waystone",
+			"required": false
+		},
+		{
+			"id": "waystones:sandy_waystone",
+			"required": false
+		},
+		{
+			"id": "universal_graves:grave",
+			"required": false
+		},
+		{
+			"id": "yigd:grave",
+			"required": false
+		}
+	]
+}
