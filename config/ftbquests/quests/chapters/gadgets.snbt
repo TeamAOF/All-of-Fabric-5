@@ -19,6 +19,13 @@
 			x: 0.0d
 			y: 1.5d
 			subtitle: "You can dream, create, design, and build the most wonderful place in the world."
+			description: [
+				"Staff of Building:"
+				""
+				"- Holding a staff will show a placement range (but a range will only be displayed if you have the required items in your inventory)."
+				""
+				"- Clicking with the staff will fill in the selection with the relevant block, which lowers the staff durability and takes the blocks from your inventory."
+			]
 			id: "341C7D2C93742900"
 			tasks: [{
 				id: "0AE0962EF2F84060"
@@ -37,7 +44,7 @@
 		{
 			x: 0.5d
 			y: -1.0d
-			subtitle: "yeah.. that one"
+			subtitle: "Allows you to build structures using a set of different Building Modes."
 			description: ["Best tech to build it quick."]
 			dependencies: ["341C7D2C93742900"]
 			id: "45472C7319EC2261"
@@ -64,6 +71,7 @@
 		{
 			x: -0.5d
 			y: -1.0d
+			subtitle: "Provides basic exchanging abilities using a set of different Exchanging Modes."
 			dependencies: ["341C7D2C93742900"]
 			id: "72D473E1810E45D7"
 			tasks: [{
@@ -89,6 +97,7 @@
 		{
 			x: 1.5d
 			y: -0.5d
+			subtitle: "Allows you to select a large radius to copy and paste in a different location."
 			dependencies: ["341C7D2C93742900"]
 			id: "0232F82465ACC551"
 			tasks: [{
@@ -115,6 +124,7 @@
 		{
 			x: -2.5d
 			y: 1.0d
+			subtitle: "Right-click and put your block of choice in slot. Choose the variant that suits you."
 			dependencies: ["341C7D2C93742900"]
 			id: "5D5E53BCC9686BEB"
 			tasks: [{
@@ -128,8 +138,15 @@
 			}]
 		}
 		{
+			title: "Bits and Chisels"
 			x: 2.5d
 			y: 1.0d
+			subtitle: "Sculpture the world!"
+			description: [
+				"Remove small bits from blocks using chisels."
+				""
+				"You can use these bits to build detailed decorations or whatever else you want."
+			]
 			dependencies: ["341C7D2C93742900"]
 			id: "1503EBD099C0444B"
 			tasks: [{
@@ -148,6 +165,7 @@
 		{
 			x: -1.5d
 			y: -0.5d
+			subtitle: "Allows you to void a large area."
 			dependencies: ["341C7D2C93742900"]
 			id: "454C6A0D83B852C7"
 			tasks: [{
@@ -168,7 +186,7 @@
 		{
 			x: -2.0d
 			y: 2.5d
-			subtitle: "for those whole like a magic touch to building"
+			subtitle: "Used to speed up building and block placement."
 			dependencies: ["341C7D2C93742900"]
 			id: "5422C6DABE9F8D9D"
 			tasks: [{
@@ -192,6 +210,7 @@
 		{
 			x: -1.5d
 			y: 3.5d
+			subtitle: "Used to speed up building and block placement."
 			dependencies: ["341C7D2C93742900"]
 			id: "4EC49EFF4B139771"
 			tasks: [{
@@ -210,6 +229,7 @@
 		{
 			x: -0.5d
 			y: 4.0d
+			subtitle: "Used to speed up building and block placement."
 			dependencies: ["341C7D2C93742900"]
 			id: "424D1FF456C5309D"
 			tasks: [{
@@ -228,6 +248,7 @@
 		{
 			x: 0.5d
 			y: 4.0d
+			subtitle: "Used to speed up building and block placement."
 			dependencies: ["341C7D2C93742900"]
 			id: "493B90C284EB5402"
 			tasks: [{
@@ -246,6 +267,7 @@
 		{
 			x: 1.5d
 			y: 3.5d
+			subtitle: "Used to speed up building and block placement."
 			dependencies: ["341C7D2C93742900"]
 			id: "4AD1DD230664681D"
 			tasks: [{
