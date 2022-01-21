@@ -283,6 +283,7 @@
 		{
 			x: 6.5d
 			y: 2.5d
+			subtitle: "Used for crafting other rings."
 			dependencies: ["7AA36A1A2308EDFF"]
 			id: "3E58A201EA40B757"
 			tasks: [{
@@ -307,6 +308,7 @@
 		{
 			x: 8.5d
 			y: 3.0d
+			subtitle: "Gives an infinite Fire Resistance status to the wearer."
 			dependencies: ["3E58A201EA40B757"]
 			id: "3BE35A9CDD2E461D"
 			tasks: [{
@@ -362,6 +364,7 @@
 		{
 			x: 4.5d
 			y: 3.0d
+			subtitle: "Gives an infinite Water Breathing status to the wearer."
 			dependencies: ["3E58A201EA40B757"]
 			id: "7E300E8876853BB1"
 			tasks: [{
@@ -387,6 +390,7 @@
 		{
 			x: -0.5d
 			y: 2.5d
+			subtitle: "Universally linked chests that work across dimensions and stores the same items as long as they are color-coded the same."
 			dependencies: ["1C9883ACFF33E397"]
 			id: "5C390D0E8AA56F83"
 			tasks: [{
@@ -444,6 +448,7 @@
 		{
 			x: -2.0d
 			y: 1.0d
+			subtitle: "Exactly like Entangled Chests but they store fluids instead."
 			dependencies: ["1C9883ACFF33E397"]
 			id: "238AC181848E3D72"
 			tasks: [{
@@ -501,6 +506,7 @@
 		{
 			x: 1.0d
 			y: 1.0d
+			subtitle: "Access the contents of your Entangled Chest directly in your inventory."
 			dependencies: ["1C9883ACFF33E397"]
 			id: "34CB73ED88C89889"
 			tasks: [{
@@ -558,6 +564,7 @@
 		{
 			x: -0.5d
 			y: -0.5d
+			subtitle: "Access the contents of your Entangled Tank directly in your inventory."
 			dependencies: ["1C9883ACFF33E397"]
 			id: "4B282EE884728242"
 			tasks: [{
@@ -631,8 +638,10 @@
 			}]
 		}
 		{
+			title: "XP Shower"
 			x: 15.5d
 			y: 0.0d
+			subtitle: "Transforms the liquid XP from tanks behind it into experience orbs that players can absorb."
 			dependencies: ["2EA53113508BD436"]
 			id: "3F4D2B9AA752B3FB"
 			tasks: [{
@@ -646,8 +655,10 @@
 			}]
 		}
 		{
+			title: "XP Drain"
 			x: 16.0d
 			y: 1.0d
+			subtitle: "Will drain XP from a player and store it in a fluid container placed directly below it."
 			dependencies: ["2EA53113508BD436"]
 			id: "4AC90C2DA686B95E"
 			tasks: [{
@@ -663,6 +674,7 @@
 		{
 			x: 15.5d
 			y: 2.0d
+			subtitle: "Can store fluids, each tank can store up to 16 buckets, and when placed side by side they will connect and fluids will flow through them."
 			dependencies: ["2EA53113508BD436"]
 			id: "67C114A40EB454B0"
 			tasks: [{
@@ -679,6 +691,7 @@
 		{
 			x: 11.5d
 			y: 0.0d
+			subtitle: "It's a trashcan, nothing more to it."
 			dependencies: ["2EA53113508BD436"]
 			id: "68C9B9EB5E7C680F"
 			tasks: [{
@@ -754,6 +767,7 @@
 		{
 			x: 11.0d
 			y: 1.0d
+			subtitle: "Gathered from Wither Skeletons."
 			dependencies: ["2EA53113508BD436"]
 			id: "1405E9DA1177BF0E"
 			tasks: [{
@@ -769,6 +783,7 @@
 		{
 			x: 11.5d
 			y: 2.0d
+			subtitle: "Using Cursed Seeds on regular grass or dirt block will create Cursed Dirt, and can only spread 16 blocks from the center."
 			dependencies: ["2EA53113508BD436"]
 			id: "269C02E46D4F41F9"
 			tasks: [{
@@ -784,6 +799,7 @@
 		{
 			x: 13.0d
 			y: 3.5d
+			subtitle: "Can only hold passive animals."
 			dependencies: ["2EA53113508BD436"]
 			id: "216F02E8D4A1FD2F"
 			tasks: [{
@@ -800,6 +816,7 @@
 		{
 			x: 12.0d
 			y: 3.0d
+			subtitle: "Can hold aggressive entities but will add the curse effect to them upon release."
 			dependencies: ["2EA53113508BD436"]
 			id: "2BA5649A45BC563B"
 			tasks: [{
@@ -816,6 +833,7 @@
 		{
 			x: 14.0d
 			y: 3.5d
+			subtitle: "Can hold almost any entity without debuffs."
 			dependencies: ["2EA53113508BD436"]
 			id: "6AFEFF91DB337139"
 			tasks: [{
@@ -836,9 +854,9 @@
 			description: [
 				"Use the various levels of spikes to leave at the bottom of your mob farm."
 				""
-				"Use the vacuum hopper to suck up items and xp."
+				"Use the vacuum hopper to suck up items and XP."
 				""
-				"Store your xp in the tank"
+				"Store your XP in the tank"
 				""
 				"Use redstone to active the drain or shower, to store xp or to dispense."
 				""
@@ -860,6 +878,12 @@
 		{
 			x: 15.0d
 			y: 3.0d
+			subtitle: "Pulls nearby dropped items and experience orbs to their own inventory."
+			description: [
+				"Stored items can be accessed by opening the block's GUI or by using regular Hoppers."
+				""
+				"Stored XP can be used to craft Bottle o' Enchanting or Liquid XP buckets."
+			]
 			dependencies: ["2EA53113508BD436"]
 			id: "6F48F204E6E04D94"
 			tasks: [{
@@ -875,6 +899,7 @@
 		{
 			x: 12.0d
 			y: -6.0d
+			subtitle: "Cannot be destroyed by the wither boss."
 			dependencies: ["5EDF1BBEEBED927F"]
 			id: "06E66DB0079C1C33"
 			tasks: [{
@@ -890,6 +915,7 @@
 		{
 			x: 12.5d
 			y: -3.5d
+			subtitle: "Cannot be destroyed by the wither boss."
 			dependencies: ["5EDF1BBEEBED927F"]
 			id: "32223B3C4D82A24B"
 			tasks: [{
@@ -905,6 +931,7 @@
 		{
 			x: 13.5d
 			y: -7.0d
+			subtitle: "Cannot be destroyed by the wither boss."
 			dependencies: ["5EDF1BBEEBED927F"]
 			id: "5006788393F2C549"
 			tasks: [{
@@ -920,6 +947,7 @@
 		{
 			x: 14.5d
 			y: -3.5d
+			subtitle: "Activated by a redstone signal, will summon a wither if there's enough building material in its inventory and available space in front of it."
 			dependencies: ["5EDF1BBEEBED927F"]
 			id: "38447A3B73A23497"
 			tasks: [{
@@ -935,6 +963,7 @@
 		{
 			x: 15.0d
 			y: -6.0d
+			subtitle: "Cannot be destroyed by the wither boss."
 			dependencies: ["5EDF1BBEEBED927F"]
 			id: "425EE3501EE44BFC"
 			tasks: [{
@@ -998,8 +1027,9 @@
 			]
 		}
 		{
-			x: 8.0d
+			x: 7.5d
 			y: -7.0d
+			subtitle: "Throws the player in the sky when charged while aiming at a block."
 			dependencies: ["168F737F6246967F"]
 			id: "020189CFCFC6C06B"
 			tasks: [{
@@ -1013,8 +1043,9 @@
 			}]
 		}
 		{
-			x: 5.0d
+			x: 5.5d
 			y: -7.0d
+			subtitle: "It slings torches, pretty obvious."
 			dependencies: ["168F737F6246967F"]
 			id: "1BD0C018E49A7DD9"
 			tasks: [{
@@ -1028,8 +1059,9 @@
 			}]
 		}
 		{
-			x: 8.0d
+			x: 7.5d
 			y: -4.0d
+			subtitle: "It does what a magnet does, magnetize items towards you."
 			dependencies: ["168F737F6246967F"]
 			id: "1043B10D063173A3"
 			tasks: [{
@@ -1046,7 +1078,7 @@
 		{
 			title: "Sleeping bag"
 			x: 8.5d
-			y: -5.5d
+			y: -5.0d
 			dependencies: ["168F737F6246967F"]
 			id: "55A6E90245D38B8B"
 			tasks: [{
@@ -1162,7 +1194,8 @@
 		}
 		{
 			x: 4.5d
-			y: -5.5d
+			y: -5.0d
+			subtitle: "Negates fall damage and makes the player bounce when hitting the floor with considerable speed."
 			dependencies: ["168F737F6246967F"]
 			id: "4E0CC10FCA19F0FF"
 			tasks: [{
@@ -1180,8 +1213,9 @@
 		}
 		{
 			title: "Gliders"
-			x: 5.0d
+			x: 5.5d
 			y: -4.0d
+			subtitle: "Held by a player, will allow them to glide through the skies instead of falling normally."
 			dependencies: ["168F737F6246967F"]
 			id: "5348E2881E7A3F7D"
 			tasks: [{
@@ -1279,6 +1313,7 @@
 			}]
 		}
 		{
+			title: "Handy Dandy Utilities"
 			x: 6.5d
 			y: -5.5d
 			id: "168F737F6246967F"
@@ -1303,6 +1338,7 @@
 		{
 			x: -2.0d
 			y: -3.5d
+			subtitle: "Activated by a redstone signal, will place any block in its inventory in front of it, if possible."
 			dependencies: ["08F0301F0C8D7013"]
 			id: "6305856C330E4CEB"
 			tasks: [{
@@ -1333,6 +1369,7 @@
 		{
 			x: -2.0d
 			y: -6.5d
+			subtitle: "Activated by a redstone signal, will break any block in front of it and store its drops in its inventory, if possible."
 			dependencies: ["08F0301F0C8D7013"]
 			id: "508129EE5F19EE89"
 			tasks: [{
@@ -1393,6 +1430,7 @@
 		{
 			x: -0.5d
 			y: -7.0d
+			subtitle: "Exactly like vanilla Hoppers but that moves fluids instead of items."
 			dependencies: ["08F0301F0C8D7013"]
 			id: "76B5524C1838F058"
 			tasks: [{
@@ -1458,6 +1496,38 @@
 					count: 4
 				}
 			]
+		}
+		{
+			x: 8.5d
+			y: -6.0d
+			subtitle: "Cancels any mob spawning that requires no light in a configurable area. Useful to protect your base and to clean caves and dungeons."
+			dependencies: ["168F737F6246967F"]
+			id: "15D2E510EC4863F0"
+			tasks: [{
+				id: "679DE0A266DE5437"
+				type: "item"
+				item: {
+					gprops: { }
+					id: "kibe:big_torch"
+					Count: 1b
+				}
+			}]
+		}
+		{
+			x: 4.5d
+			y: -6.0d
+			subtitle: "When stepped upon, can teleport the player upwards and downwards, as long as it finds another elevator directly above or below it."
+			dependencies: ["168F737F6246967F"]
+			id: "1F7A66B361535659"
+			tasks: [{
+				id: "5E20F61EB482457C"
+				type: "item"
+				item: {
+					gprops: { }
+					id: "kibe:white_elevator"
+					Count: 1b
+				}
+			}]
 		}
 	]
 }
