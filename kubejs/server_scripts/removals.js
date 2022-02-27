@@ -19,16 +19,6 @@ onEvent('recipes', (event) => {
     'indrev:infusing/electrum_dust',
     'indrev:compressing/empty_upgrade',
     'techreborn:crafting_table/machine_block/basic_machine_frame_alt',
-    'bclib:tag_stonecutter',
-    'bclib:tag_smith_table',
-    'bclib:tag_shield',
-    'bclib:tag_rail',
-    'bclib:tag_piston',
-    'bclib:tag_minecart',
-    'bclib:tag_hopper',
-    'bclib:tag_compass',
-    'bclib:tag_cauldron',
-    'bclib:tag_bucket',
 
     ];
 
