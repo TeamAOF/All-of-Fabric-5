@@ -4,11 +4,7 @@
 	order_index: 1
 	filename: "industrial_revolution"
 	title: "Industrial Revolution"
-	icon: {
-		gprops: { }
-		id: "indrev:modular_core"
-		Count: 1b
-	}
+	icon: "indrev:modular_core"
 	default_quest_shape: "rsquare"
 	default_hide_dependency_lines: false
 	images: [{
@@ -29,58 +25,47 @@
 			x: -9.5d
 			y: -7.5d
 			subtitle: "Quit screwing around and wrench it off"
+			description: [
+				"The Wrench can be used to rotate blocks and break machines keeping their energy when using it while crouching."
+				""
+				"The Screwdriver is used to configure machines' input and outputs for items and fluids. Can also be used on Lazuli Flux Container to configurate energy sides."
+			]
 			dependencies: ["1CE1C8FC892A6F84"]
 			id: "47BB7143EA6AF423"
 			tasks: [
 				{
 					id: "120ED12697D4981E"
 					type: "item"
-					item: {
-						gprops: { }
-						id: "indrev:wrench"
-						Count: 1b
-					}
+					item: "indrev:wrench"
 				}
 				{
 					id: "6476760A6188EB18"
 					type: "item"
-					item: {
-						gprops: { }
-						id: "indrev:screwdriver"
-						Count: 1b
-					}
+					item: "indrev:screwdriver"
 				}
 			]
 		}
 		{
 			x: -5.0d
 			y: -4.5d
-			subtitle: "first near quantum level computer circuits"
+			subtitle: "First near quantum level computer circuits"
 			dependencies: ["72FAE2CEB348AF96"]
 			id: "60E79DB91F2919BD"
 			tasks: [{
 				id: "7D53A62DB0D746E1"
 				type: "item"
-				item: {
-					gprops: { }
-					id: "indrev:circuit_mk1"
-					Count: 1b
-				}
+				item: "indrev:circuit_mk1"
 			}]
 			rewards: [{
 				id: "5F2EFE144BB098DC"
 				type: "item"
-				item: {
-					gprops: { }
-					id: "indrev:circuit_mk1"
-					Count: 1b
-				}
+				item: "indrev:circuit_mk1"
 			}]
 		}
 		{
 			x: -3.0d
 			y: -4.5d
-			subtitle: "this helped indrev start their campaign for revolution."
+			subtitle: "This helped indrev start their campaign for revolution."
 			dependencies: [
 				"587B0ABFDC5F2428"
 				"60E79DB91F2919BD"
@@ -89,26 +74,18 @@
 			tasks: [{
 				id: "55EB225CEDCC8BB0"
 				type: "item"
-				item: {
-					gprops: { }
-					id: "indrev:circuit_mk2"
-					Count: 1b
-				}
+				item: "indrev:circuit_mk2"
 			}]
 			rewards: [{
 				id: "30F94EDD142AD0A5"
 				type: "item"
-				item: {
-					gprops: { }
-					id: "indrev:circuit_mk2"
-					Count: 1b
-				}
+				item: "indrev:circuit_mk2"
 			}]
 		}
 		{
 			x: -1.0d
 			y: -4.5d
-			subtitle: "just when you thought it couldn't get better."
+			subtitle: "Just when you thought it couldn't get better."
 			dependencies: [
 				"3BD2945543D442EB"
 				"5126D10B28A64460"
@@ -117,26 +94,18 @@
 			tasks: [{
 				id: "153F8D1FE2667FE0"
 				type: "item"
-				item: {
-					gprops: { }
-					id: "indrev:circuit_mk3"
-					Count: 1b
-				}
+				item: "indrev:circuit_mk3"
 			}]
 			rewards: [{
 				id: "60848CAD2C7A4625"
 				type: "item"
-				item: {
-					gprops: { }
-					id: "indrev:circuit_mk3"
-					Count: 1b
-				}
+				item: "indrev:circuit_mk3"
 			}]
 		}
 		{
 			x: 1.0d
 			y: -4.5d
-			subtitle: "circuit go brrrrrr"
+			subtitle: "Circuit go brrrrrr"
 			dependencies: [
 				"2C8663C76CFE101D"
 				"7A318DEE361289B5"
@@ -145,20 +114,12 @@
 			tasks: [{
 				id: "6C45B817876223D3"
 				type: "item"
-				item: {
-					gprops: { }
-					id: "indrev:circuit_mk4"
-					Count: 1b
-				}
+				item: "indrev:circuit_mk4"
 			}]
 			rewards: [{
 				id: "1A39118E2DE8AB1E"
 				type: "item"
-				item: {
-					gprops: { }
-					id: "indrev:circuit_mk4"
-					Count: 1b
-				}
+				item: "indrev:circuit_mk4"
 			}]
 		}
 		{
@@ -170,20 +131,12 @@
 			tasks: [{
 				id: "796D98D70BE353A9"
 				type: "item"
-				item: {
-					gprops: { }
-					id: "indrev:machine_block"
-					Count: 1b
-				}
+				item: "indrev:machine_block"
 			}]
 			rewards: [{
 				id: "34040D4E9EF57B7F"
 				type: "item"
-				item: {
-					gprops: { }
-					id: "minecraft:iron_block"
-					Count: 1b
-				}
+				item: "minecraft:iron_block"
 			}]
 		}
 		{
@@ -194,50 +147,36 @@
 			tasks: [{
 				id: "0FFED7DEC1728D8A"
 				type: "item"
-				item: {
-					gprops: { }
-					id: "indrev:battery"
-					Count: 1b
-				}
+				item: "indrev:battery"
 			}]
 			rewards: [{
 				id: "07D53991E89D98DC"
 				type: "item"
-				item: {
-					gprops: { }
-					id: "indrev:battery"
-					Count: 1b
-				}
+				item: "indrev:battery"
 			}]
 		}
 		{
 			x: -9.5d
 			y: -1.5d
+			subtitle: "Can use, not only coal, but anything a furnace can to generate energy."
 			dependencies: ["13BA3A6E648DF2E4"]
 			id: "6F42118FDF2C343D"
 			tasks: [{
 				id: "7C0D0B3221DF3798"
 				type: "item"
-				item: {
-					gprops: { }
-					id: "indrev:coal_generator_mk1"
-					Count: 1b
-				}
+				item: "indrev:coal_generator_mk1"
 			}]
 		}
 		{
 			x: -9.5d
 			y: 0.0d
+			subtitle: "Will generate energy as long as the sunlight can reach it."
 			dependencies: ["68DB32F00BACEEFD"]
 			id: "735E0A553EDF0FBB"
 			tasks: [{
 				id: "2CA2353FB904C629"
 				type: "item"
-				item: {
-					gprops: { }
-					id: "indrev:solar_generator_mk1"
-					Count: 1b
-				}
+				item: "indrev:solar_generator_mk1"
 			}]
 			rewards: [{
 				id: "658AA537C6E1FD90"
@@ -253,20 +192,12 @@
 			tasks: [{
 				id: "7A11B4D7826DE872"
 				type: "item"
-				item: {
-					gprops: { }
-					id: "indrev:nikolite_ingot"
-					Count: 1b
-				}
+				item: "indrev:nikolite_ingot"
 			}]
 			rewards: [{
 				id: "16B33460B706E717"
 				type: "item"
-				item: {
-					gprops: { }
-					id: "indrev:nikolite_ingot"
-					Count: 1b
-				}
+				item: "indrev:nikolite_ingot"
 			}]
 		}
 		{
@@ -279,172 +210,152 @@
 				{
 					id: "2F8A9A1509DDD699"
 					type: "item"
-					item: {
-						gprops: { }
-						id: "indrev:electric_furnace_mk1"
-						Count: 1b
-					}
+					item: "indrev:electric_furnace_mk1"
 				}
 				{
 					id: "43B579461130A023"
 					type: "item"
-					item: {
-						gprops: { }
-						id: "indrev:sawmill_mk1"
-						Count: 1b
-					}
+					item: "indrev:sawmill_mk1"
 				}
 			]
 		}
 		{
 			x: -6.5d
 			y: 2.0d
-			subtitle: "Used to double ore and in the process of tripling and quadrupling."
-			description: ["Make sure to check the Revolutionary Guide for more info on ore tripling and quadrupling."]
+			subtitle: "Mainly used for processing ores into two dusts."
+			description: [
+				"Make sure to check the Revolutionary Guide for more info on ore tripling and quadrupling."
+				""
+				"The Pulverizer will turn 1 ore into 2 dusts which can then be smelted into 2 ingots."
+			]
 			dependencies: ["68DB32F00BACEEFD"]
 			id: "0C00CEF0D380206E"
 			tasks: [{
 				id: "7BFD5C78BE44AE81"
 				type: "item"
-				item: {
-					gprops: { }
-					id: "indrev:pulverizer_mk1"
-					Count: 1b
-				}
+				item: "indrev:pulverizer_mk1"
 			}]
 		}
 		{
 			x: -6.5d
 			y: 1.0d
+			subtitle: "Has the capability of mixing two ingredients into a different one."
 			dependencies: ["68DB32F00BACEEFD"]
 			id: "21DB7EDD5C496202"
 			tasks: [{
 				id: "149E01643E01157E"
 				type: "item"
-				item: {
-					gprops: { }
-					id: "indrev:solid_infuser_mk1"
-					Count: 1b
-				}
+				item: "indrev:solid_infuser_mk1"
 			}]
 		}
 		{
 			x: -8.0d
 			y: -4.5d
 			subtitle: "This material helped spark a myriad of devices. Forever changing the universe."
-			description: [""]
+			description: ["Main component used in machines, from basic to advanced."]
 			dependencies: ["1CE1C8FC892A6F84"]
 			id: "72FAE2CEB348AF96"
 			tasks: [{
 				id: "096656EAD28C0878"
 				type: "item"
-				item: {
-					gprops: { }
-					id: "indrev:nikolite_dust"
-					Count: 1b
-				}
+				item: "indrev:nikolite_dust"
 			}]
 			rewards: [{
 				id: "361AEFAEDC96E694"
 				type: "item"
-				item: {
-					gprops: { }
-					id: "indrev:nikolite_dust"
-					Count: 1b
-				}
+				item: "indrev:nikolite_dust"
 				count: 4
 			}]
 		}
 		{
 			x: -5.0d
 			y: -7.5d
+			subtitle: "These machines are used to store Lazuli Flux."
+			description: ["You can see blue and orange arrows on each side. Blue arrows represent energy input and orange arrows represent energy output. You can configure these arrows using a Wrench in Configure Mode."]
 			dependencies: ["60E79DB91F2919BD"]
 			id: "3D20FC4E939D2D69"
 			tasks: [{
 				id: "2FF7126AFE0D915D"
 				type: "item"
-				item: {
-					gprops: { }
-					id: "indrev:lazuli_flux_container_mk1"
-					Count: 1b
-				}
+				item: "indrev:lazuli_flux_container_mk1"
 			}]
 		}
 		{
 			title: "Farming"
 			x: -9.5d
 			y: 2.0d
+			subtitle: "Note that it requires some items for it to function: (put them in the 2x2 square)"
+			description: [
+				"Chopper is a machine focused in automating wood farming, and it also supports enhancement upgrades."
+				""
+				"> Axe: if present in the inventory, will retrieve any wood and leaves in range (leaves will not consume durability)"
+				""
+				"> Sapling: if present in the inventory, will be planted in every block possible inside it's range."
+				""
+				"> Bone meal: will be applied to any saplings inside it's range."
+				""
+				"Farmer is a machine focused in crop farming, and it also supports enhancement upgrades."
+				""
+				"> Seeds: if present will be planted in the farmer's range. Note that it will try to match a crop and its seeds so you can use multiple crops."
+				""
+				"> Bone meal: if present, will fertilize any crops possible within range."
+				""
+				"Rancher is a machine focused in automating animal farming, and it also supports enhancement upgrades."
+				""
+				"> Sword: if present in the inventory, will kill animals if there are more than 7 in its range."
+				""
+				"> Wheat/Seed/Carrot: if present in the inventory, will be fed to the respective animals in it's range."
+				""
+				"Bucket: if present in the inventory, will collect milk from cows."
+			]
 			dependencies: ["68DB32F00BACEEFD"]
 			id: "66D17897621E815B"
 			tasks: [
 				{
 					id: "786D0D6A0CA678EB"
 					type: "item"
-					item: {
-						gprops: { }
-						id: "indrev:chopper_mk1"
-						Count: 1b
-					}
+					item: "indrev:chopper_mk1"
 				}
 				{
 					id: "7FB3E7F7BD760904"
 					type: "item"
-					item: {
-						gprops: { }
-						id: "indrev:farmer_mk1"
-						Count: 1b
-					}
+					item: "indrev:farmer_mk1"
 				}
 				{
 					id: "69782A1D5B774112"
 					type: "item"
-					item: {
-						gprops: { }
-						id: "indrev:slaughter_mk1"
-						Count: 1b
-					}
+					item: "indrev:slaughter_mk1"
 				}
 				{
 					id: "26E28715D93D8084"
 					type: "item"
-					item: {
-						gprops: { }
-						id: "indrev:rancher_mk1"
-						Count: 1b
-					}
+					item: "indrev:rancher_mk1"
 				}
 			]
 		}
 		{
 			x: -9.5d
 			y: 1.0d
+			subtitle: "Mainly used for compressing ingots into plates."
 			dependencies: ["68DB32F00BACEEFD"]
 			id: "47E0E13C53777452"
 			tasks: [{
 				id: "1A45BB2D75F41120"
 				type: "item"
-				item: {
-					gprops: { }
-					id: "indrev:compressor_mk1"
-					Count: 1b
-				}
+				item: "indrev:compressor_mk1"
 			}]
 		}
 		{
 			x: -7.5d
 			y: 3.0d
-			subtitle: "Used to make Wither-Proof Obsidian, Coolant and in the process of ore quadrupling."
+			subtitle: "Used for advanced infusing with fluids. It's main current use is for ore quadrupling."
 			description: ["Can also be used to turn Sand into Clay and Concrete Powder into Concrete."]
 			dependencies: ["68DB32F00BACEEFD"]
 			id: "3984A36C1D03501E"
 			tasks: [{
 				id: "297F433AB752D7CF"
 				type: "item"
-				item: {
-					gprops: { }
-					id: "indrev:fluid_infuser_mk1"
-					Count: 1b
-				}
+				item: "indrev:fluid_infuser_mk1"
 			}]
 		}
 		{
@@ -456,20 +367,12 @@
 			tasks: [{
 				id: "2A7E8398F675F060"
 				type: "item"
-				item: {
-					gprops: { }
-					id: "modern_industrialization:diamond_dust"
-					Count: 1b
-				}
+				item: "modern_industrialization:diamond_dust"
 			}]
 			rewards: [{
 				id: "301C463543A75132"
 				type: "item"
-				item: {
-					gprops: { }
-					id: "modern_industrialization:diamond_dust"
-					Count: 1b
-				}
+				item: "modern_industrialization:diamond_dust"
 			}]
 		}
 		{
@@ -483,20 +386,12 @@
 			tasks: [{
 				id: "0C2E5913E46CCEE9"
 				type: "item"
-				item: {
-					gprops: { }
-					id: "indrev:enriched_nikolite_dust"
-					Count: 1b
-				}
+				item: "indrev:enriched_nikolite_dust"
 			}]
 			rewards: [{
 				id: "243C78C00D94A4B6"
 				type: "item"
-				item: {
-					gprops: { }
-					id: "indrev:enriched_nikolite_dust"
-					Count: 1b
-				}
+				item: "indrev:enriched_nikolite_dust"
 			}]
 		}
 		{
@@ -507,20 +402,12 @@
 			tasks: [{
 				id: "300DF9751F4E8837"
 				type: "item"
-				item: {
-					gprops: { }
-					id: "indrev:enriched_nikolite_ingot"
-					Count: 1b
-				}
+				item: "indrev:enriched_nikolite_ingot"
 			}]
 			rewards: [{
 				id: "38549865E8684F77"
 				type: "item"
-				item: {
-					gprops: { }
-					id: "indrev:enriched_nikolite_ingot"
-					Count: 1b
-				}
+				item: "indrev:enriched_nikolite_ingot"
 			}]
 		}
 		{
@@ -532,36 +419,25 @@
 			tasks: [{
 				id: "565B90FE274B2C5D"
 				type: "item"
-				item: {
-					gprops: { }
-					id: "indrev:mining_drill_mk1"
-					Count: 1b
-				}
+				item: "indrev:mining_drill_mk1"
 			}]
 			rewards: [{
 				id: "457D3DC1C9BE4470"
 				type: "item"
-				item: {
-					gprops: { }
-					id: "indrev:nikolite_dust"
-					Count: 1b
-				}
+				item: "indrev:nikolite_dust"
 				count: 32
 			}]
 		}
 		{
 			x: -6.0d
 			y: -3.0d
+			subtitle: "Tells you the current stored energy in machines and, in some machines, also tells the energy consumption per tick."
 			dependencies: ["60E79DB91F2919BD"]
 			id: "397827B0621A2FB8"
 			tasks: [{
 				id: "32475889E503F43A"
 				type: "item"
-				item: {
-					gprops: { }
-					id: "indrev:energy_reader"
-					Count: 1b
-				}
+				item: "indrev:energy_reader"
 			}]
 		}
 		{
@@ -573,11 +449,7 @@
 			tasks: [{
 				id: "1420C61D8BC1EEB5"
 				type: "item"
-				item: {
-					gprops: { }
-					id: "indrev:mining_drill_mk2"
-					Count: 1b
-				}
+				item: "indrev:mining_drill_mk2"
 			}]
 		}
 		{
@@ -589,11 +461,7 @@
 			tasks: [{
 				id: "22202F4E896CF2D9"
 				type: "item"
-				item: {
-					gprops: { }
-					id: "indrev:mining_drill_mk3"
-					Count: 1b
-				}
+				item: "indrev:mining_drill_mk3"
 			}]
 		}
 		{
@@ -606,16 +474,14 @@
 			tasks: [{
 				id: "53580499F202653B"
 				type: "item"
-				item: {
-					gprops: { }
-					id: "indrev:mining_drill_mk4"
-					Count: 1b
-				}
+				item: "indrev:mining_drill_mk4"
 			}]
 		}
 		{
 			x: -3.0d
 			y: -7.5d
+			subtitle: "These machines are used to store Lazuli Flux."
+			description: ["You can see blue and orange arrows on each side. Blue arrows represent energy input and orange arrows represent energy output. You can configure these arrows using a Wrench in Configure Mode."]
 			dependencies: [
 				"3D20FC4E939D2D69"
 				"5126D10B28A64460"
@@ -624,16 +490,14 @@
 			tasks: [{
 				id: "29AEAE219B45C7F1"
 				type: "item"
-				item: {
-					gprops: { }
-					id: "indrev:lazuli_flux_container_mk2"
-					Count: 1b
-				}
+				item: "indrev:lazuli_flux_container_mk2"
 			}]
 		}
 		{
 			x: -1.0d
 			y: -7.5d
+			subtitle: "These machines are used to store Lazuli Flux."
+			description: ["You can see blue and orange arrows on each side. Blue arrows represent energy input and orange arrows represent energy output. You can configure these arrows using a Wrench in Configure Mode."]
 			dependencies: [
 				"41594D7E8549D5DE"
 				"7A318DEE361289B5"
@@ -642,16 +506,14 @@
 			tasks: [{
 				id: "2041703820C07DDA"
 				type: "item"
-				item: {
-					gprops: { }
-					id: "indrev:lazuli_flux_container_mk3"
-					Count: 1b
-				}
+				item: "indrev:lazuli_flux_container_mk3"
 			}]
 		}
 		{
 			x: 1.0d
 			y: -7.5d
+			subtitle: "These machines are used to store Lazuli Flux."
+			description: ["You can see blue and orange arrows on each side. Blue arrows represent energy input and orange arrows represent energy output. You can configure these arrows using a Wrench in Configure Mode."]
 			dependencies: [
 				"215EB2F203A92D38"
 				"65E60EDD6DE18DC2"
@@ -660,42 +522,33 @@
 			tasks: [{
 				id: "2323D65D8E26CF7D"
 				type: "item"
-				item: {
-					gprops: { }
-					id: "indrev:lazuli_flux_container_mk4"
-					Count: 1b
-				}
+				item: "indrev:lazuli_flux_container_mk4"
 			}]
 		}
 		{
 			x: -11.0d
 			y: 2.0d
+			subtitle: "A machine focused in fish farming, and it also supports enhancement upgrades."
+			description: ["It's only requirement is a Fishing Rod."]
 			dependencies: ["47E0E13C53777452"]
 			id: "130566BD27135220"
 			tasks: [{
 				id: "2160975BE87B0F26"
 				type: "item"
-				item: {
-					gprops: { }
-					id: "indrev:fisher_mk2"
-					Count: 1b
-				}
+				item: "indrev:fisher_mk2"
 			}]
 		}
 		{
 			title: "Solar Generator MK3"
 			x: -11.0d
 			y: 0.0d
+			subtitle: "Will generate energy as long as the sunlight can reach it."
 			dependencies: ["735E0A553EDF0FBB"]
 			id: "5AE46F6F569483BF"
 			tasks: [{
 				id: "69D934CCE991022B"
 				type: "item"
-				item: {
-					gprops: { }
-					id: "indrev:solar_generator_mk3"
-					Count: 1b
-				}
+				item: "indrev:solar_generator_mk3"
 			}]
 		}
 		{
@@ -706,11 +559,7 @@
 			tasks: [{
 				id: "56CD51887FCE1BC2"
 				type: "item"
-				item: {
-					gprops: { }
-					id: "indrev:fisher_mk3"
-					Count: 1b
-				}
+				item: "indrev:fisher_mk3"
 			}]
 		}
 		{
@@ -721,79 +570,62 @@
 			tasks: [{
 				id: "365BDA0295FF4F41"
 				type: "item"
-				item: {
-					gprops: { }
-					id: "indrev:fisher_mk4"
-					Count: 1b
-				}
+				item: "indrev:fisher_mk4"
 			}]
 		}
 		{
 			x: -11.0d
 			y: 1.0d
+			subtitle: "Upgrades can boost machines stats."
 			dependencies: ["47E0E13C53777452"]
 			id: "76C21BAB566F66A9"
 			tasks: [{
 				id: "52DD22CF4838D5B7"
 				type: "item"
-				item: {
-					gprops: { }
-					id: "indrev:empty_enhancer"
-					Count: 1b
-				}
+				item: "indrev:empty_enhancer"
 			}]
 		}
 		{
 			title: "Enhancers"
 			x: -12.5d
 			y: 1.0d
+			subtitle: "These upgrades will improve certain aspects of the machine like speed and energy usage."
+			description: [
+				"Speed: will increase the machine's processing speed at cost of energy."
+				""
+				"Buffer: will increase the machine's internal energy capacity."
+				""
+				"Blasting: will make the Electric Furnace accept Blast Furnace recipes."
+				""
+				"Smoker: will make the Electric Furnace accept Smoker recipes."
+			]
 			dependencies: ["76C21BAB566F66A9"]
 			id: "707124C02270FC3E"
 			tasks: [
 				{
 					id: "056A302B4A42091A"
 					type: "item"
-					item: {
-						gprops: { }
-						id: "indrev:buffer_enhancer"
-						Count: 1b
-					}
+					item: "indrev:buffer_enhancer"
 				}
 				{
 					id: "6AA190C4346A526C"
 					type: "item"
-					item: {
-						gprops: { }
-						id: "indrev:speed_enhancer"
-						Count: 1b
-					}
+					item: "indrev:speed_enhancer"
 				}
 				{
 					id: "0D800109FAF6E8CD"
 					type: "item"
-					item: {
-						gprops: { }
-						id: "indrev:blast_furnace_enhancer"
-						Count: 1b
-					}
+					item: "indrev:blast_furnace_enhancer"
 				}
 				{
 					id: "7D6E4AA15A9FC4D7"
 					type: "item"
-					item: {
-						gprops: { }
-						id: "indrev:smoker_enhancer"
-						Count: 1b
-					}
+					item: "indrev:smoker_enhancer"
 				}
 				{
 					id: "2CC2B59693FA6602"
 					type: "item"
-					item: {
-						gprops: { }
-						id: "indrev:damage_enhancer"
-						Count: 1b
-					}
+					item: "indrev:damage_enhancer"
 				}
 			]
 		}
@@ -816,58 +648,34 @@
 				{
 					id: "38FF00648317CA47"
 					type: "item"
-					item: {
-						gprops: { }
-						id: "modern_industrialization:tin_plate"
-						Count: 1b
-					}
+					item: "modern_industrialization:tin_plate"
 				}
 				{
 					id: "3F644DD10ADA8B85"
 					type: "item"
-					item: {
-						gprops: { }
-						id: "modern_industrialization:copper_plate"
-						Count: 1b
-					}
+					item: "modern_industrialization:copper_plate"
 				}
 				{
 					id: "550F31D9A31FE1AC"
 					type: "item"
-					item: {
-						gprops: { }
-						id: "modern_industrialization:iron_plate"
-						Count: 1b
-					}
+					item: "modern_industrialization:iron_plate"
 				}
 			]
 			rewards: [
 				{
 					id: "4B2F93B8040FA9FC"
 					type: "item"
-					item: {
-						gprops: { }
-						id: "modern_industrialization:tin_plate"
-						Count: 1b
-					}
+					item: "modern_industrialization:tin_plate"
 				}
 				{
 					id: "27A1E183BDBB7212"
 					type: "item"
-					item: {
-						gprops: { }
-						id: "modern_industrialization:copper_plate"
-						Count: 1b
-					}
+					item: "modern_industrialization:copper_plate"
 				}
 				{
 					id: "2051A913B0C807A8"
 					type: "item"
-					item: {
-						gprops: { }
-						id: "modern_industrialization:iron_plate"
-						Count: 1b
-					}
+					item: "modern_industrialization:iron_plate"
 				}
 			]
 		}
@@ -875,107 +683,68 @@
 			title: "Factory Components"
 			x: 7.5d
 			y: -5.0d
+			subtitle: "You'll be able to visualize the block positions by right clicking a factory."
 			dependencies: ["2094448C58554B0B"]
 			id: "60A8108BE12AFB39"
 			tasks: [
 				{
 					id: "38ED6ABEB7DBD348"
 					type: "item"
-					item: {
-						gprops: { }
-						id: "indrev:frame"
-						Count: 1b
-					}
+					item: "indrev:frame"
 					count: 9L
 				}
 				{
 					id: "60ACF87793F77948"
 					type: "item"
-					item: {
-						gprops: { }
-						id: "indrev:intake"
-						Count: 1b
-					}
+					item: "indrev:intake"
 					count: 6L
 				}
 				{
 					id: "1C5256772EF58948"
 					type: "item"
-					item: {
-						gprops: { }
-						id: "indrev:intake"
-						Count: 1b
-					}
+					item: "indrev:intake"
 					count: 3L
 				}
 				{
 					id: "73B89854D6DA6CE5"
 					type: "item"
-					item: {
-						gprops: { }
-						id: "indrev:duct"
-						Count: 1b
-					}
+					item: "indrev:duct"
 					count: 3L
 				}
 				{
 					id: "01915D287A13387C"
 					type: "item"
-					item: {
-						gprops: { }
-						id: "indrev:cabinet"
-						Count: 1b
-					}
+					item: "indrev:cabinet"
 					count: 2L
 				}
 				{
 					id: "4484E6789FF66185"
 					type: "item"
-					item: {
-						gprops: { }
-						id: "indrev:warning_strobe"
-						Count: 1b
-					}
+					item: "indrev:warning_strobe"
 				}
 				{
 					id: "6D730271D98B0803"
 					type: "item"
-					item: {
-						gprops: { }
-						id: "indrev:controller"
-						Count: 1b
-					}
+					item: "indrev:controller"
 				}
 			]
 			rewards: [
 				{
 					id: "5185DE4238D4AB56"
 					type: "item"
-					item: {
-						gprops: { }
-						id: "modern_industrialization:steel_plate"
-						Count: 1b
-					}
+					item: "modern_industrialization:steel_plate"
 					count: 12
 				}
 				{
 					id: "773CE85966D33F77"
 					type: "item"
-					item: {
-						gprops: { }
-						id: "modern_industrialization:silver_plate"
-						Count: 1b
-					}
+					item: "modern_industrialization:silver_plate"
 					count: 12
 				}
 				{
 					id: "5696355503C2B666"
 					type: "item"
-					item: {
-						gprops: { }
-						id: "minecraft:redstone_block"
-						Count: 1b
-					}
+					item: "minecraft:redstone_block"
 				}
 			]
 		}
@@ -988,11 +757,7 @@
 			tasks: [{
 				id: "31A68C5E6F3BE266"
 				type: "item"
-				item: {
-					gprops: { }
-					id: "indrev:fluid_pipe_mk2"
-					Count: 1b
-				}
+				item: "indrev:fluid_pipe_mk2"
 			}]
 		}
 		{
@@ -1004,11 +769,7 @@
 			tasks: [{
 				id: "74534788035362A2"
 				type: "item"
-				item: {
-					gprops: { }
-					id: "indrev:item_pipe_mk2"
-					Count: 1b
-				}
+				item: "indrev:item_pipe_mk2"
 			}]
 		}
 		{
@@ -1019,33 +780,25 @@
 			tasks: [{
 				id: "57EABDF07EE79675"
 				type: "item"
-				item: {
-					gprops: { }
-					id: "indrev:cable_mk2"
-					Count: 1b
-				}
+				item: "indrev:cable_mk2"
 			}]
 		}
 		{
 			x: -11.0d
 			y: -3.5d
-			subtitle: "Transport liquids with ease."
+			subtitle: "Fluid pipes can be used to transfer fluids between tanks far apart."
 			dependencies: ["2366955CB2AB1234"]
 			id: "6F89CD6C818B0B90"
 			tasks: [{
 				id: "3D0B6ABE07C06658"
 				type: "item"
-				item: {
-					gprops: { }
-					id: "indrev:fluid_pipe_mk1"
-					Count: 1b
-				}
+				item: "indrev:fluid_pipe_mk1"
 			}]
 		}
 		{
 			x: -11.0d
 			y: -5.5d
-			subtitle: "Transport items with ease."
+			subtitle: "Item pipes can be used to transfer items between inventories far apart."
 			description: [
 				"Don't forget to set the input/output of a machine."
 				""
@@ -1056,17 +809,13 @@
 			tasks: [{
 				id: "5A97C9ECE9C54E89"
 				type: "item"
-				item: {
-					gprops: { }
-					id: "indrev:item_pipe_mk1"
-					Count: 1b
-				}
+				item: "indrev:item_pipe_mk1"
 			}]
 		}
 		{
 			x: -11.0d
 			y: -4.5d
-			subtitle: "Requires Nikolite dust quest to unlock."
+			subtitle: "Cables can be used to transfer power between machines far apart from each other."
 			description: [
 				""
 				"Used to distribute power. Does not require servos."
@@ -1079,18 +828,31 @@
 			tasks: [{
 				id: "258B02AFA8680893"
 				type: "item"
-				item: {
-					gprops: { }
-					id: "indrev:cable_mk1"
-					Count: 1b
-				}
+				item: "indrev:cable_mk1"
 			}]
 		}
 		{
 			title: "Servos"
 			x: -9.5d
 			y: -4.5d
-			subtitle: "Servos are needed to use item and fluid pipes. Requires Nikolite dust quest to unlock."
+			subtitle: "Item and fluid pipes require servos to function."
+			description: [
+				"Click on the pipe connected to your container to attach a servo. Use a wrench to remove it."
+				""
+				"Servos have multiple modes to define priorities. Click on the servo to change it."
+				""
+				"Nearest first:  the servo will look for the closest container."
+				""
+				"Furthest first: the servo will look for the furthest container."
+				""
+				"Random: the servo will chose a random container."
+				""
+				"Round Robin: the servo will look for the container with the least amount of the transferred fluid/item."
+				""
+				"The Output Servo will push items/fluids to nearby containers UNLESS they are also marked as output."
+				""
+				"The Retriever Servo will pull items/fluids from nearby UNLESS they are also marked as retriever."
+			]
 			dependencies: [
 				"096656EAD28C0878"
 				"72FAE2CEB348AF96"
@@ -1101,7 +863,6 @@
 					id: "642EC72609F0F51D"
 					type: "item"
 					item: {
-						gprops: { }
 						id: "indrev:servo_retriever"
 						Count: 1b
 						tag: { }
@@ -1111,7 +872,6 @@
 					id: "680A01AC3697C85A"
 					type: "item"
 					item: {
-						gprops: { }
 						id: "indrev:servo_output"
 						Count: 1b
 						tag: { }
@@ -1127,11 +887,7 @@
 			tasks: [{
 				id: "5D2B52C752888C2A"
 				type: "item"
-				item: {
-					gprops: { }
-					id: "indrev:cable_mk3"
-					Count: 1b
-				}
+				item: "indrev:cable_mk3"
 			}]
 		}
 		{
@@ -1142,11 +898,7 @@
 			tasks: [{
 				id: "5D405BBC010DDBD7"
 				type: "item"
-				item: {
-					gprops: { }
-					id: "indrev:cable_mk4"
-					Count: 1b
-				}
+				item: "indrev:cable_mk4"
 			}]
 		}
 		{
@@ -1157,11 +909,7 @@
 			tasks: [{
 				id: "338A6D704171F6EC"
 				type: "item"
-				item: {
-					gprops: { }
-					id: "indrev:fluid_pipe_mk3"
-					Count: 1b
-				}
+				item: "indrev:fluid_pipe_mk3"
 			}]
 		}
 		{
@@ -1175,11 +923,7 @@
 			tasks: [{
 				id: "39B41CC0BF425639"
 				type: "item"
-				item: {
-					gprops: { }
-					id: "indrev:fluid_pipe_mk4"
-					Count: 1b
-				}
+				item: "indrev:fluid_pipe_mk4"
 			}]
 		}
 		{
@@ -1190,11 +934,7 @@
 			tasks: [{
 				id: "57122F006261DFFC"
 				type: "item"
-				item: {
-					gprops: { }
-					id: "indrev:item_pipe_mk3"
-					Count: 1b
-				}
+				item: "indrev:item_pipe_mk3"
 			}]
 		}
 		{
@@ -1205,11 +945,7 @@
 			tasks: [{
 				id: "211F0434522552E5"
 				type: "item"
-				item: {
-					gprops: { }
-					id: "indrev:item_pipe_mk4"
-					Count: 1b
-				}
+				item: "indrev:item_pipe_mk4"
 			}]
 		}
 		{
@@ -1217,114 +953,157 @@
 			x: -8.0d
 			y: -7.5d
 			subtitle: "Choose the best. Choose INDREV!"
+			description: [
+				"Scientists have done a good job at making machines smart enough not to explode and to benefit from temperature. Every machine has an optimal temperature which will never exceed."
+				""
+				"In order for the machine to stay on its optimal temperature, it needs to cool down often."
+				""
+				"While it's cooling down, it will not have the efficiency boost."
+			]
 			id: "1CE1C8FC892A6F84"
 			tasks: [{
 				id: "5AA23A717BC9D641"
 				type: "checkmark"
-				icon: {
-					gprops: { }
-					id: "indrev:guide_book"
-					Count: 1b
-				}
+				icon: "indrev:guide_book"
 			}]
 			rewards: [{
 				id: "419AC8433FA360AA"
 				type: "item"
-				item: {
-					gprops: { }
-					id: "indrev:guide_book"
-					Count: 1b
-				}
+				item: "indrev:guide_book"
 			}]
 		}
 		{
 			x: 7.0d
 			y: -6.5d
+			subtitle: "Factories are improved versions of machines and they can process 5 items at once."
 			dependencies: ["60A8108BE12AFB39"]
 			id: "4C0B1B9315FEB7D6"
 			tasks: [{
 				id: "62747E8844756A8E"
 				type: "item"
-				item: {
-					gprops: { }
-					id: "indrev:electric_furnace_factory_mk4"
-					Count: 1b
-				}
+				item: "indrev:electric_furnace_factory_mk4"
 			}]
+			rewards: [
+				{
+					id: "059C0AB2FCC56E3F"
+					type: "item"
+					item: "modern_industrialization:steel_plate"
+					count: 3
+				}
+				{
+					id: "700FE718B977F66F"
+					type: "item"
+					item: "modern_industrialization:silver_plate"
+					count: 3
+				}
+			]
 		}
 		{
 			x: 8.0d
 			y: -6.5d
+			subtitle: "Factories are improved versions of machines and they can process 5 items at once."
 			dependencies: ["60A8108BE12AFB39"]
 			id: "6CC13ADEE091FAA7"
 			tasks: [{
 				id: "1790DABC3E5BFAEC"
 				type: "item"
-				item: {
-					gprops: { }
-					id: "indrev:pulverizer_factory_mk4"
-					Count: 1b
-				}
+				item: "indrev:pulverizer_factory_mk4"
 			}]
+			rewards: [
+				{
+					id: "298E39BB35B71199"
+					type: "item"
+					item: "modern_industrialization:steel_plate"
+					count: 3
+				}
+				{
+					id: "3D4C7471B2235326"
+					type: "item"
+					item: "modern_industrialization:silver_plate"
+					count: 3
+				}
+			]
 		}
 		{
 			x: 6.0d
 			y: -6.5d
+			subtitle: "Factories are improved versions of machines and they can process 5 items at once."
 			dependencies: ["60A8108BE12AFB39"]
 			id: "6AC26B6C1525155B"
 			tasks: [{
 				id: "66777FB617B6DED4"
 				type: "item"
-				item: {
-					gprops: { }
-					id: "indrev:compressor_factory_mk4"
-					Count: 1b
-				}
+				item: "indrev:compressor_factory_mk4"
 			}]
+			rewards: [
+				{
+					id: "138AF79E3F362F35"
+					type: "item"
+					item: "modern_industrialization:steel_plate"
+					count: 3
+				}
+				{
+					id: "65042EC0CA81A52C"
+					type: "item"
+					item: "modern_industrialization:silver_plate"
+					count: 3
+				}
+			]
 		}
 		{
 			x: 9.0d
 			y: -6.5d
+			subtitle: "Factories are improved versions of machines and they can process 5 items at once."
 			dependencies: ["60A8108BE12AFB39"]
 			id: "0DFA948FD9DD8943"
 			tasks: [{
 				id: "37B41479BCC582F1"
 				type: "item"
-				item: {
-					gprops: { }
-					id: "indrev:solid_infuser_factory_mk4"
-					Count: 1b
-				}
+				item: "indrev:solid_infuser_factory_mk4"
 			}]
+			rewards: [
+				{
+					id: "0C24F97292B6B471"
+					type: "item"
+					item: "modern_industrialization:steel_plate"
+					count: 3
+				}
+				{
+					id: "533A073C50011CC1"
+					type: "item"
+					item: "modern_industrialization:silver_plate"
+					count: 3
+				}
+			]
 		}
 		{
-			icon: {
-				gprops: { }
-				id: "indrev:pump_mk1"
-				Count: 1b
-			}
+			icon: "indrev:pump_mk1"
 			x: -5.0d
 			y: -3.0d
+			subtitle: "Used to pump fluids placed in the world into fluid pipes and tanks."
+			description: [
+				"Usage: You must input energy from the top and take the fluid from the side it is facing."
+				""
+				"After receiving energy, it will drop down a pipe looking for fluids to pump."
+				""
+				"There is no hard limit, except for the fluid's physics."
+				""
+				"As long as there is fluid touching the pump's pipe, source or not, it will look for a source block to pump."
+				""
+				"This means it can be used to drain lava lakes from the Nether."
+			]
 			dependencies: ["60E79DB91F2919BD"]
 			id: "3747C4CCD1F8DBB7"
 			tasks: [
 				{
 					id: "6DA81FA2745A4BFE"
 					type: "item"
-					item: {
-						gprops: { }
-						id: "indrev:pump_mk1"
-						Count: 1b
-					}
+					item: "indrev:pump_mk1"
 				}
 				{
 					id: "425233ED2C940E6D"
 					type: "item"
-					item: {
-						gprops: { }
-						id: "indrev:drain_mk1"
-						Count: 1b
-					}
+					item: "indrev:drain_mk1"
 				}
 			]
 		}
@@ -1332,42 +1111,50 @@
 			title: "Charging the Core of Modularity"
 			x: 7.5d
 			y: -2.5d
-			description: [""]
+			subtitle: "The base for every modular tool."
+			description: [
+				"To activate it, you'll need at least one Laser, one Capsule and a lot of stored energy (100M)."
+				""
+				"The Capsule will hold your Core of Modularity during the process of activation."
+				""
+				"It will emit a redstone signal when it's finished."
+				""
+				"Laser Emitters should be placed facing the capsule with AN EXACT 3 BLOCKS DISTANCE. They store up to 2,5M LF and require a redstone signal to be toggled on."
+				""
+				"This process takes time but it goes faster for each laser emitter active."
+				""
+				"You must pay attention to these details to avoid problems:"
+				""
+				"- Pointing the laser emitter to something other than the capsule or and empty capsule will result in explosion."
+				""
+				"- If the laser emitters run out of power during the process, all progress will be lost."
+				""
+				"- Make sure to turn off your laser emitters before retrieving the activated core."
+			]
 			dependencies: ["61096F382C04254A"]
 			id: "3BCE5F8D19C6D53F"
 			tasks: [
 				{
 					id: "14DD0067D573465C"
 					type: "item"
-					item: {
-						gprops: { }
-						id: "indrev:laser_emitter_mk4"
-						Count: 1b
-					}
+					item: "indrev:laser_emitter_mk4"
 				}
 				{
 					id: "4496671EA77E9495"
 					type: "item"
-					item: {
-						gprops: { }
-						id: "indrev:capsule"
-						Count: 1b
-					}
+					item: "indrev:capsule"
 				}
 				{
 					id: "70BE041B9B65C2DF"
 					type: "item"
-					item: {
-						gprops: { }
-						id: "indrev:modular_core"
-						Count: 1b
-					}
+					item: "indrev:modular_core"
 				}
 			]
 		}
 		{
 			x: 7.5d
 			y: -1.0d
+			description: ["Module levels can be configured any way you want, go into the Controls menu and add a keybind to Modular item configuration."]
 			dependencies: [
 				"3BCE5F8D19C6D53F"
 				"61096F382C04254A"
@@ -1376,11 +1163,7 @@
 			tasks: [{
 				id: "35D41B3A51A85FF6"
 				type: "item"
-				item: {
-					gprops: { }
-					id: "indrev:modular_core_activated"
-					Count: 1b
-				}
+				item: "indrev:modular_core_activated"
 			}]
 		}
 		{
@@ -1392,26 +1175,25 @@
 			tasks: [{
 				id: "232CC4433FA2A5D5"
 				type: "item"
-				item: {
-					gprops: { }
-					id: "indrev:modular_armor_helmet"
-					Count: 1b
-				}
+				item: "indrev:modular_armor_helmet"
 			}]
 		}
 		{
 			x: 7.5d
 			y: -4.0d
+			subtitle: "Used to install modules onto Modular Armor parts."
+			description: [
+				"Notice that installing modules cost time and some energy!"
+				""
+				"The Modular Armor is, on it's own, not much, but when you install modules, it can become very powerful!"
+				""
+			]
 			dependencies: ["2094448C58554B0B"]
 			id: "61096F382C04254A"
 			tasks: [{
 				id: "140BC8875C9E1DB1"
 				type: "item"
-				item: {
-					gprops: { }
-					id: "indrev:modular_workbench_mk4"
-					Count: 1b
-				}
+				item: "indrev:modular_workbench_mk4"
 			}]
 		}
 		{
@@ -1422,11 +1204,7 @@
 			tasks: [{
 				id: "7D6B902175ED0E63"
 				type: "item"
-				item: {
-					gprops: { }
-					id: "indrev:modular_armor_chest"
-					Count: 1b
-				}
+				item: "indrev:modular_armor_chest"
 			}]
 		}
 		{
@@ -1437,11 +1215,7 @@
 			tasks: [{
 				id: "095E640FDD0C01E3"
 				type: "item"
-				item: {
-					gprops: { }
-					id: "indrev:modular_armor_boots"
-					Count: 1b
-				}
+				item: "indrev:modular_armor_boots"
 			}]
 		}
 		{
@@ -1452,11 +1226,7 @@
 			tasks: [{
 				id: "2AA53184FE9796DC"
 				type: "item"
-				item: {
-					gprops: { }
-					id: "indrev:modular_armor_legs"
-					Count: 1b
-				}
+				item: "indrev:modular_armor_legs"
 			}]
 		}
 		{
@@ -1469,38 +1239,22 @@
 				{
 					id: "019BF656C7259832"
 					type: "item"
-					item: {
-						gprops: { }
-						id: "indrev:module_night_vision"
-						Count: 1b
-					}
+					item: "indrev:module_night_vision"
 				}
 				{
 					id: "41419147396C1DC1"
 					type: "item"
-					item: {
-						gprops: { }
-						id: "indrev:module_breathing"
-						Count: 1b
-					}
+					item: "indrev:module_breathing"
 				}
 				{
 					id: "3C2ABBA7276DA446"
 					type: "item"
-					item: {
-						gprops: { }
-						id: "indrev:module_auto_feeder"
-						Count: 1b
-					}
+					item: "indrev:module_auto_feeder"
 				}
 				{
 					id: "6DFB29605367B77A"
 					type: "item"
-					item: {
-						gprops: { }
-						id: "indrev:module_solar_panel"
-						Count: 1b
-					}
+					item: "indrev:module_solar_panel"
 				}
 			]
 		}
@@ -1514,34 +1268,22 @@
 				{
 					id: "69F19C9D5C0ADF9A"
 					type: "item"
-					item: {
-						gprops: { }
-						id: "indrev:module_charger"
-						Count: 1b
-					}
+					item: "indrev:module_charger"
 				}
 				{
 					id: "63011A3C085A7F24"
 					type: "item"
-					item: {
-						gprops: { }
-						id: "indrev:module_elytra"
-						Count: 1b
-					}
+					item: "indrev:module_elytra"
 				}
 				{
 					id: "2C45E4BC48EBE43C"
 					type: "item"
-					item: {
-						gprops: { }
-						id: "indrev:module_fire_resistance"
-						Count: 1b
-					}
+					item: "indrev:module_fire_resistance"
 				}
 			]
 		}
 		{
-			title: "Leggins Modules"
+			title: "Leggings Modules"
 			x: 6.5d
 			y: 2.0d
 			dependencies: ["43CCF76CCC9BA3F1"]
@@ -1549,11 +1291,7 @@
 			tasks: [{
 				id: "347D1C0466989A82"
 				type: "item"
-				item: {
-					gprops: { }
-					id: "indrev:module_speed"
-					Count: 1b
-				}
+				item: "indrev:module_speed"
 			}]
 		}
 		{
@@ -1566,20 +1304,12 @@
 				{
 					id: "2C3E1D5D29A13D2B"
 					type: "item"
-					item: {
-						gprops: { }
-						id: "indrev:module_jump_boost"
-						Count: 1b
-					}
+					item: "indrev:module_jump_boost"
 				}
 				{
 					id: "4C97242936FBB889"
 					type: "item"
-					item: {
-						gprops: { }
-						id: "indrev:module_feather_falling"
-						Count: 1b
-					}
+					item: "indrev:module_feather_falling"
 				}
 			]
 		}
@@ -1601,20 +1331,12 @@
 				{
 					id: "74F34637FBDDD122"
 					type: "item"
-					item: {
-						gprops: { }
-						id: "indrev:module_protection"
-						Count: 1b
-					}
+					item: "indrev:module_protection"
 				}
 				{
 					id: "1034E07AEA0A7B35"
 					type: "item"
-					item: {
-						gprops: { }
-						id: "indrev:module_piglin_tricker"
-						Count: 1b
-					}
+					item: "indrev:module_piglin_tricker"
 				}
 			]
 		}
@@ -1622,6 +1344,7 @@
 			title: "Color Modules"
 			x: 7.5d
 			y: 0.5d
+			subtitle: "Do not have recipes, you must find them in dungeons."
 			description: ["Can you find them all?"]
 			hide_dependency_lines: true
 			dependencies: [
@@ -1636,92 +1359,52 @@
 				{
 					id: "1013B559A738E92F"
 					type: "item"
-					item: {
-						gprops: { }
-						id: "indrev:module_color_pink"
-						Count: 1b
-					}
+					item: "indrev:module_color_pink"
 				}
 				{
 					id: "2F2624E943122767"
 					type: "item"
-					item: {
-						gprops: { }
-						id: "indrev:module_color_red"
-						Count: 1b
-					}
+					item: "indrev:module_color_red"
 				}
 				{
 					id: "7EDE2B8620CC70AB"
 					type: "item"
-					item: {
-						gprops: { }
-						id: "indrev:module_color_purple"
-						Count: 1b
-					}
+					item: "indrev:module_color_purple"
 				}
 				{
 					id: "1B6ED0ACDFBCF08B"
 					type: "item"
-					item: {
-						gprops: { }
-						id: "indrev:module_color_blue"
-						Count: 1b
-					}
+					item: "indrev:module_color_blue"
 				}
 				{
 					id: "4EBF8BB1C828B43F"
 					type: "item"
-					item: {
-						gprops: { }
-						id: "indrev:module_color_cyan"
-						Count: 1b
-					}
+					item: "indrev:module_color_cyan"
 				}
 				{
 					id: "162B95D272482A99"
 					type: "item"
-					item: {
-						gprops: { }
-						id: "indrev:module_color_green"
-						Count: 1b
-					}
+					item: "indrev:module_color_green"
 				}
 				{
 					id: "7C47252C49DE6668"
 					type: "item"
-					item: {
-						gprops: { }
-						id: "indrev:module_color_yellow"
-						Count: 1b
-					}
+					item: "indrev:module_color_yellow"
 				}
 				{
 					id: "22E5EFD470FABB87"
 					type: "item"
-					item: {
-						gprops: { }
-						id: "indrev:module_color_orange"
-						Count: 1b
-					}
+					item: "indrev:module_color_orange"
 				}
 				{
 					id: "2B1B89A357CA1D52"
 					type: "item"
-					item: {
-						gprops: { }
-						id: "indrev:module_color_black"
-						Count: 1b
-					}
+					item: "indrev:module_color_black"
 				}
 				{
 					id: "1559BAAB88282020"
 					type: "item"
-					item: {
-						gprops: { }
-						id: "indrev:module_color_brown"
-						Count: 1b
-					}
+					item: "indrev:module_color_brown"
 				}
 			]
 		}
@@ -1729,44 +1412,29 @@
 			title: "Drill Modules"
 			x: 2.0d
 			y: -1.5d
+			subtitle: "Upgrades can boost machines stats."
 			dependencies: ["506362EC509AA1A8"]
 			id: "50BC772C414A1EAD"
 			tasks: [
 				{
 					id: "1033152CA5E70A76"
 					type: "item"
-					item: {
-						gprops: { }
-						id: "indrev:module_range"
-						Count: 1b
-					}
+					item: "indrev:module_range"
 				}
 				{
 					id: "40E31840F48D2DE4"
 					type: "item"
-					item: {
-						gprops: { }
-						id: "indrev:module_fortune"
-						Count: 1b
-					}
+					item: "indrev:module_fortune"
 				}
 				{
 					id: "4A9EDCC8E7294DDD"
 					type: "item"
-					item: {
-						gprops: { }
-						id: "indrev:module_silk_touch"
-						Count: 1b
-					}
+					item: "indrev:module_silk_touch"
 				}
 				{
 					id: "0F4A085127A0EB70"
 					type: "item"
-					item: {
-						gprops: { }
-						id: "indrev:module_efficiency"
-						Count: 1b
-					}
+					item: "indrev:module_efficiency"
 				}
 			]
 		}
@@ -1780,52 +1448,42 @@
 				{
 					id: "68EF5DA4B93ACDA6"
 					type: "item"
-					item: {
-						gprops: { }
-						id: "indrev:module_looting"
-						Count: 1b
-					}
+					item: "indrev:module_looting"
 				}
 				{
 					id: "6CA2787E39B5978D"
 					type: "item"
-					item: {
-						gprops: { }
-						id: "indrev:module_fire_aspect"
-						Count: 1b
-					}
+					item: "indrev:module_fire_aspect"
 				}
 				{
 					id: "63343A1B6AEA6468"
 					type: "item"
-					item: {
-						gprops: { }
-						id: "indrev:module_sharpness"
-						Count: 1b
-					}
+					item: "indrev:module_sharpness"
 				}
 				{
 					id: "67506E6AFB81E8E4"
 					type: "item"
-					item: {
-						gprops: { }
-						id: "indrev:module_efficiency"
-						Count: 1b
-					}
+					item: "indrev:module_efficiency"
 				}
 			]
 		}
 		{
 			x: 4.5d
 			y: 0.5d
-			subtitle: "First invention by Noven the third. Helped them slay a bunch of noobs."
+			subtitle: "The final gaming tool."
+			description: [
+				"It mines fast and deals great amount of damage when modules are installed."
+				""
+				"It may seem like just a stick, but wait until you activate it..."
+				""
+				")Use Right Click to activate it."
+			]
 			dependencies: ["2094448C58554B0B"]
 			id: "7055A363F8DDC7FF"
 			tasks: [{
 				id: "7DCAB581CB456599"
 				type: "item"
 				item: {
-					gprops: { }
 					id: "indrev:gamer_axe"
 					Count: 1b
 					tag: {
@@ -1842,68 +1500,60 @@
 			tasks: [{
 				id: "76A9AC313BDD324B"
 				type: "item"
-				item: {
-					gprops: { }
-					id: "modern_industrialization:steel_plate"
-					Count: 1b
-				}
+				item: "modern_industrialization:steel_plate"
 			}]
 		}
 		{
 			x: -4.0d
 			y: -6.0d
+			subtitle: "Upgrades MK1 machines to MK2."
+			description: ["These upgrades will improve the machine's input and output capability as well as other aspects. Right clicking on a machine below the upgrade's tier will upgrade it."]
 			dependencies: ["5126D10B28A64460"]
 			id: "38A91661EED44D9D"
 			tasks: [{
 				id: "4F4D8685014D737B"
 				type: "item"
-				item: {
-					gprops: { }
-					id: "indrev:tier_upgrade_mk2"
-					Count: 1b
-				}
+				item: "indrev:tier_upgrade_mk2"
 			}]
 		}
 		{
 			x: -2.0d
 			y: -6.0d
+			subtitle: "Upgrades MK2 machines to MK3."
+			description: ["These upgrades will improve the machine's input and output capability as well as other aspects. Right clicking on a machine below the upgrade's tier will upgrade it."]
 			dependencies: ["7A318DEE361289B5"]
 			id: "34998627D22F1DBE"
 			tasks: [{
 				id: "67E4C8E1A578868E"
 				type: "item"
-				item: {
-					gprops: { }
-					id: "indrev:tier_upgrade_mk3"
-					Count: 1b
-				}
+				item: "indrev:tier_upgrade_mk3"
 			}]
 		}
 		{
 			x: 0.0d
 			y: -6.0d
+			subtitle: "Upgrades MK3 machines to MK4."
+			description: ["These upgrades will improve the machine's input and output capability as well as other aspects. Right clicking on a machine below the upgrade's tier will upgrade it."]
 			dependencies: ["65E60EDD6DE18DC2"]
 			id: "3DF54B764A56AF28"
 			tasks: [{
 				id: "0D4A3AF2AE73BE76"
 				type: "item"
-				item: {
-					gprops: { }
-					id: "indrev:tier_upgrade_mk4"
-					Count: 1b
-				}
+				item: "indrev:tier_upgrade_mk4"
 			}]
 		}
 		{
 			title: "Mining Rig"
 			x: 4.5d
 			y: -7.5d
+			subtitle: "I have confidence in mining. I see exciting opportunities in it."
 			description: [
-				"To use the Chunk Scanner, hold right click in a chunk then put the Resource Report into the Mining Rig Computer."
+				"Chunk Scanner is a tool used to collect geographical data on the chunk's vein type. After being scanned, the Scanner will give you a result which is required by the Miner to work."
 				""
-				"You will need a steady supply of drill heads to keep mining."
+				"Mining Rig Drills are required for the Mining Rig Computer to work. They have to be placed next to the Computer and require drill heads to work. Each Drill increases the mining speed."
 				"Can hold up to 8 mining rig drills, make sure each one has a drill head."
 				""
+				"Note that the Drills can be placed connected or diagonally to the Mining Rig Computer."
 			]
 			dependencies: [
 				"65E60EDD6DE18DC2"
@@ -1914,45 +1564,41 @@
 				{
 					id: "3A3A6FA7D635E56C"
 					type: "item"
-					item: {
-						gprops: { }
-						id: "indrev:mining_rig_mk4"
-						Count: 1b
-					}
+					item: "indrev:mining_rig_mk4"
 				}
 				{
 					id: "44DA8D0214330F39"
 					type: "item"
-					item: {
-						gprops: { }
-						id: "indrev:drill_bottom"
-						Count: 1b
-					}
+					item: "indrev:drill_bottom"
 				}
 				{
 					id: "70A0FF01A2AD0E9F"
 					type: "item"
-					item: {
-						gprops: { }
-						id: "indrev:chunk_scanner"
-						Count: 1b
-					}
+					item: "indrev:chunk_scanner"
 				}
 			]
+			rewards: [{
+				id: "6338036372C1DA8A"
+				type: "item"
+				item: {
+					id: "indrev:diamond_drill_head"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
 		}
 		{
 			x: 1.0d
 			y: -9.5d
+			subtitle: "Recharge your batteries!"
 			dependencies: ["37A1603DE0B604FD"]
 			id: "7F905EDB05E4BE17"
 			tasks: [{
 				id: "47F075B67F7DD537"
 				type: "item"
-				item: {
-					gprops: { }
-					id: "indrev:charge_pad_mk4"
-					Count: 1b
-				}
+				item: "indrev:charge_pad_mk4"
 			}]
 		}
 		{
@@ -1960,73 +1606,69 @@
 			x: 2.0d
 			y: -7.5d
 			subtitle: "Used in the process of tripling and quadrupling ore."
+			description: [
+				"Insert your ores into an Industrial Smelter. It will smelt them into their fluid forms."
+				""
+				"Move your molten ore into a Condenser."
+				""
+				"It will solidify them into a Ore Chunk."
+				""
+				"Pulverize your Ore Chunk, which will then give you a dust."
+				""
+				"Smelt your dust."
+				""
+				"Done! Now you've transformed 1 ore into 3 ingots!"
+			]
 			dependencies: ["65E60EDD6DE18DC2"]
 			id: "0BED18C671FC94A5"
 			tasks: [
 				{
 					id: "0969ABA5C3C54F24"
 					type: "item"
-					item: {
-						gprops: { }
-						id: "indrev:condenser_mk4"
-						Count: 1b
-					}
+					item: "indrev:condenser_mk4"
 				}
 				{
 					id: "18A20622211F1C01"
 					type: "item"
-					item: {
-						gprops: { }
-						id: "indrev:smelter_mk4"
-						Count: 1b
-					}
+					item: "indrev:smelter_mk4"
 				}
 			]
 		}
 		{
 			x: -6.5d
 			y: 0.0d
+			subtitle: "Can process organic resources into biomass which can be used for energy generation."
 			dependencies: ["68DB32F00BACEEFD"]
 			id: "7155E1782D7A5CC3"
 			tasks: [{
 				id: "2D28B880B3E44414"
 				type: "item"
-				item: {
-					gprops: { }
-					id: "indrev:recycler_mk2"
-					Count: 1b
-				}
+				item: "indrev:recycler_mk2"
 			}]
 		}
 		{
 			x: -5.0d
 			y: 0.0d
 			subtitle: "This is probably what you are looking for in terms of energy creation."
+			description: ["Will burn biomass to generate energy."]
 			dependencies: ["7155E1782D7A5CC3"]
 			id: "5A66FE8A5EC1BAC5"
 			tasks: [{
 				id: "79C357A391B887D6"
 				type: "item"
-				item: {
-					gprops: { }
-					id: "indrev:biomass_generator_mk3"
-					Count: 1b
-				}
+				item: "indrev:biomass_generator_mk3"
 			}]
 		}
 		{
 			x: -6.5d
 			y: -1.5d
+			subtitle: "Will consume lava inside it to generate energy. Pairs up well with the pump."
 			dependencies: ["13BA3A6E648DF2E4"]
 			id: "18B6548E50B087D3"
 			tasks: [{
 				id: "5A05A31972972B83"
 				type: "item"
-				item: {
-					gprops: { }
-					id: "indrev:heat_generator_mk4"
-					Count: 1b
-				}
+				item: "indrev:heat_generator_mk4"
 			}]
 		}
 	]
