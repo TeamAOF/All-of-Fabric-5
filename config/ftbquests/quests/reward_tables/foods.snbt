@@ -1,0 +1,31 @@
+{
+	id: "2272CCA8339A57CC"
+	order_index: 0
+	title: "Foods"
+	icon: "farmersdelight:roast_chicken_block"
+	loot_size: 1
+	hide_tooltip: true
+	rewards: [
+		{ item: "farmersdelight:sweet_berry_cheesecake_slice", count: 2, random_bonus: 2 }
+		{ item: "croptopia:blt", count: 2, random_bonus: 2 }
+		{ item: "farmersdelight:dumplings", count: 2, random_bonus: 2 }
+		{ icon: "croptopia:peanut_butter_and_jam", item: "croptopia:peanut_butter_and_jam", count: 2, random_bonus: 2 }
+		{ item: "farmersdelight:cooked_mutton_chops", count: 2, random_bonus: 2 }
+		{ item: "farmersdelight:fruit_salad", count: 2, random_bonus: 2 }
+		{ item: "farmersdelight:noodle_soup", count: 2, random_bonus: 2 }
+		{ item: "farmersdelight:egg_sandwich", count: 2, random_bonus: 2 }
+		{ item: "farmersdelight:cabbage_rolls", count: 2, random_bonus: 2 }
+		{ item: "farmersdelight:chicken_sandwich", count: 2, random_bonus: 2 }
+		{ item: "farmersdelight:pasta_with_meatballs", count: 2, random_bonus: 2 }
+		{ item: "farmersdelight:steak_and_potatoes", count: 2, random_bonus: 2 }
+		{ item: "farmersdelight:honey_glazed_ham", count: 2, random_bonus: 2 }
+		{ item: "croptopia:fried_chicken", count: 2, random_bonus: 2 }
+		{ item: "croptopia:fajitas", count: 2, random_bonus: 2 }
+		{ item: "croptopia:cheese_cake", count: 2, random_bonus: 2 }
+		{ item: "cacao:caramel_milk_chocolate", count: 2, random_bonus: 2 }
+		{ item: "cacao:strawberry_cream_dark_chocolate", count: 2, random_bonus: 2 }
+		{ item: "croptopia:orange", count: 2, random_bonus: 2 }
+		{ item: "croptopia:corn", count: 2, random_bonus: 2 }
+		{ item: "croptopia:doughnut", count: 2, random_bonus: 2 }
+	]
+}

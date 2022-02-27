@@ -4,21 +4,13 @@
 	order_index: 4
 	filename: "spectrum"
 	title: "Spectrum"
-	icon: {
-		gprops: { }
-		id: "spectrum:end_portal_cracker"
-		Count: 1b
-	}
+	icon: "spectrum:end_portal_cracker"
 	default_quest_shape: ""
 	default_hide_dependency_lines: false
 	quests: [
 		{
 			title: "Welcome to the Spectrum mod"
-			icon: {
-				gprops: { }
-				id: "spectrum:manual"
-				Count: 1b
-			}
+			icon: "spectrum:manual"
 			x: 0.5d
 			y: 1.5d
 			description: [
@@ -40,41 +32,31 @@
 			rewards: [{
 				id: "6047D57E8CB20A9A"
 				type: "item"
-				item: {
-					gprops: { }
-					id: "spectrum:manual"
-					Count: 1b
-				}
+				item: "spectrum:manual"
 			}]
 		}
 		{
-			x: -3.0d
-			y: 2.5d
+			x: 9.5d
+			y: 6.0d
+			description: ["Not that you've found its gem, you realize it was never actually sea grass, but a new plant."]
 			dependencies: ["5584A52CAA574CFC"]
 			id: "3FC601DC3A2BCB7C"
 			tasks: [{
 				id: "5990FC0562B67D44"
 				type: "item"
-				item: {
-					gprops: { }
-					id: "spectrum:mermaids_brush"
-					Count: 1b
-				}
+				item: "spectrum:mermaids_brush"
 			}]
 		}
 		{
-			x: -1.5d
-			y: 2.5d
-			dependencies: ["6F9B2ECCE750C280"]
+			x: 9.5d
+			y: 4.5d
+			description: ["Using your new glow vision helmet, explore the ocean depths. Sparkling sea grass will eventually reveal a treasure."]
+			dependencies: ["31384FB473ED3961"]
 			id: "5584A52CAA574CFC"
 			tasks: [{
 				id: "0219D503BAB9A493"
 				type: "item"
-				item: {
-					gprops: { }
-					id: "spectrum:mermaids_gem"
-					Count: 1b
-				}
+				item: "spectrum:mermaids_gem"
 			}]
 		}
 		{
@@ -129,11 +111,7 @@
 			rewards: [{
 				id: "12C6CB96FD6FD2CD"
 				type: "item"
-				item: {
-					gprops: { }
-					id: "minecraft:anvil"
-					Count: 1b
-				}
+				item: "minecraft:anvil"
 			}]
 		}
 		{
@@ -150,11 +128,11 @@
 			}]
 		}
 		{
-			x: 1.0d
-			y: -3.5d
+			x: 12.5d
+			y: -0.5d
 			dependencies: [
-				"36DD725A9BB98FB7"
-				"2C8E380BE79F9E1F"
+				"2F56655D7C4C3882"
+				"24C70DAB3F66ECB2"
 			]
 			id: "678BCF3361AE5512"
 			tasks: [{
@@ -165,29 +143,7 @@
 			}]
 		}
 		{
-			x: -1.0d
-			y: -2.5d
-			id: "2C8E380BE79F9E1F"
-			tasks: [{
-				id: "24F8A34CD79281A5"
-				type: "advancement"
-				advancement: "spectrum:midgame/collect_scarlet"
-				criterion: ""
-			}]
-		}
-		{
-			x: -1.0d
-			y: -4.5d
-			id: "36DD725A9BB98FB7"
-			tasks: [{
-				id: "7BB99204451A905C"
-				type: "advancement"
-				advancement: "spectrum:collect_quitoxic_reeds"
-				criterion: ""
-			}]
-		}
-		{
-			x: 5.0d
+			x: 3.5d
 			y: -0.5d
 			description: ["After creating a Spectrum Focus, it has releaved a plant that was hidden from you. Venture into the boglands and find it!"]
 			dependencies: ["74F0C68679B78B5D"]
@@ -320,11 +276,7 @@
 			tasks: [{
 				id: "1CE9634136FBB731"
 				type: "item"
-				item: {
-					gprops: { }
-					id: "spectrum:orange_pigment"
-					Count: 1b
-				}
+				item: "spectrum:orange_pigment"
 			}]
 		}
 		{
@@ -334,11 +286,7 @@
 			tasks: [{
 				id: "0F1F9332DAD957D0"
 				type: "item"
-				item: {
-					gprops: { }
-					id: "spectrum:magenta_pigment"
-					Count: 1b
-				}
+				item: "spectrum:magenta_pigment"
 			}]
 		}
 		{
@@ -348,11 +296,7 @@
 			tasks: [{
 				id: "29882807DF613632"
 				type: "item"
-				item: {
-					gprops: { }
-					id: "spectrum:light_blue_pigment"
-					Count: 1b
-				}
+				item: "spectrum:light_blue_pigment"
 			}]
 		}
 		{
@@ -362,11 +306,7 @@
 			tasks: [{
 				id: "3810D2BB4E6142CD"
 				type: "item"
-				item: {
-					gprops: { }
-					id: "spectrum:yellow_pigment"
-					Count: 1b
-				}
+				item: "spectrum:yellow_pigment"
 			}]
 		}
 		{
@@ -376,11 +316,7 @@
 			tasks: [{
 				id: "2B9ADBDF75721934"
 				type: "item"
-				item: {
-					gprops: { }
-					id: "spectrum:lime_pigment"
-					Count: 1b
-				}
+				item: "spectrum:lime_pigment"
 			}]
 		}
 		{
@@ -390,11 +326,7 @@
 			tasks: [{
 				id: "7BEE98CD23CC9844"
 				type: "item"
-				item: {
-					gprops: { }
-					id: "spectrum:pink_pigment"
-					Count: 1b
-				}
+				item: "spectrum:pink_pigment"
 			}]
 		}
 		{
@@ -404,11 +336,7 @@
 			tasks: [{
 				id: "3CE56A94BB668E9C"
 				type: "item"
-				item: {
-					gprops: { }
-					id: "spectrum:cyan_pigment"
-					Count: 1b
-				}
+				item: "spectrum:cyan_pigment"
 			}]
 		}
 		{
@@ -418,11 +346,7 @@
 			tasks: [{
 				id: "6CB63845CBBC2DF2"
 				type: "item"
-				item: {
-					gprops: { }
-					id: "spectrum:purple_pigment"
-					Count: 1b
-				}
+				item: "spectrum:purple_pigment"
 			}]
 		}
 		{
@@ -432,11 +356,7 @@
 			tasks: [{
 				id: "702FE6C32B80A53E"
 				type: "item"
-				item: {
-					gprops: { }
-					id: "spectrum:blue_pigment"
-					Count: 1b
-				}
+				item: "spectrum:blue_pigment"
 			}]
 		}
 		{
@@ -446,11 +366,7 @@
 			tasks: [{
 				id: "4D330581B9875B00"
 				type: "item"
-				item: {
-					gprops: { }
-					id: "spectrum:green_pigment"
-					Count: 1b
-				}
+				item: "spectrum:green_pigment"
 			}]
 		}
 		{
@@ -460,25 +376,7 @@
 			tasks: [{
 				id: "00F3A6DC94F0AC91"
 				type: "item"
-				item: {
-					gprops: { }
-					id: "spectrum:red_pigment"
-					Count: 1b
-				}
-			}]
-		}
-		{
-			x: 9.5d
-			y: 3.0d
-			id: "16FEAFC70ECCB547"
-			tasks: [{
-				id: "75428D0D1136D133"
-				type: "item"
-				item: {
-					gprops: { }
-					id: "spectrum:brown_pigment"
-					Count: 1b
-				}
+				item: "spectrum:red_pigment"
 			}]
 		}
 		{
@@ -505,6 +403,181 @@
 				id: "7D0EB9275BA39983"
 				type: "advancement"
 				advancement: "spectrum:create_onyx_shard"
+				criterion: ""
+			}]
+		}
+		{
+			x: 9.5d
+			y: 1.5d
+			dependencies: ["6F3F4B2ADAAED3C1"]
+			id: "6D98F53C0C9748C4"
+			tasks: [{
+				id: "3BD1F28CE6C6D457"
+				type: "advancement"
+				advancement: "spectrum:craft_onyx_pedestal"
+				criterion: ""
+			}]
+		}
+		{
+			x: 11.0d
+			y: 1.5d
+			dependencies: ["6D98F53C0C9748C4"]
+			id: "681C638B38019A73"
+			tasks: [{
+				id: "11534701EC58670B"
+				type: "advancement"
+				advancement: "spectrum:midgame/build_advanced_pedestal_structure"
+				criterion: ""
+			}]
+		}
+		{
+			x: 11.0d
+			y: -3.0d
+			description: ["Chapter 2"]
+			id: "19FDC7218CA78F3B"
+			tasks: [{
+				id: "2F1F3AC20A472EC1"
+				type: "advancement"
+				advancement: "spectrum:midgame/spectrum_midgame"
+				criterion: ""
+			}]
+		}
+		{
+			x: 12.5d
+			y: 1.5d
+			dependencies: ["681C638B38019A73"]
+			id: "2F56655D7C4C3882"
+			tasks: [{
+				id: "0F13414A52097D55"
+				type: "advancement"
+				advancement: "spectrum:midgame/collect_scarlet"
+				criterion: ""
+			}]
+		}
+		{
+			x: 14.5d
+			y: -0.5d
+			description: [
+				"Your first Experiments were successful. But there has to be More..."
+				""
+				"This blob seems likely to be unsatisified with anything but the hardest of materials."
+			]
+			dependencies: ["678BCF3361AE5512"]
+			id: "1810EB195B0CC509"
+			tasks: [{
+				id: "7889167DE36DEF22"
+				type: "advancement"
+				advancement: "spectrum:midgame/collect_neolith"
+				criterion: ""
+			}]
+		}
+		{
+			x: 9.5d
+			y: 3.0d
+			description: ["Harness glow in sacs for a night vision effect!"]
+			id: "31384FB473ED3961"
+			tasks: [{
+				id: "6B16FDF3A29DFF13"
+				type: "item"
+				item: {
+					id: "spectrum:glow_vision_helmet"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: 11.0d
+			y: 4.5d
+			dependencies: [
+				"5584A52CAA574CFC"
+				"681C638B38019A73"
+			]
+			id: "0F6E96D9C9F5EF35"
+			tasks: [{
+				id: "6D58C64A9CC63876"
+				type: "advancement"
+				advancement: "spectrum:midgame/enter_liquid_crystal"
+				criterion: ""
+			}]
+		}
+		{
+			x: 12.5d
+			y: 4.5d
+			dependencies: ["0F6E96D9C9F5EF35"]
+			id: "5EA323A52C146DEA"
+			tasks: [{
+				id: "42F25E8A341BEB26"
+				type: "advancement"
+				advancement: "spectrum:midgame/build_enchanting_structure"
+				criterion: ""
+			}]
+		}
+		{
+			x: 16.5d
+			y: 4.5d
+			description: ["Use the Enchanter to copy the Enchantments from one or more Enchanted Books to another. It will get pricey."]
+			dependencies: ["28A03D971F3B3C6F"]
+			hide: true
+			id: "768511EA91A35A6F"
+			tasks: [{
+				id: "2F3A2281AFA3DD8D"
+				type: "advancement"
+				advancement: "spectrum:midgame/enchant_book"
+				criterion: ""
+			}]
+		}
+		{
+			x: 14.5d
+			y: 4.5d
+			description: ["To use the Enchanting Structure you will need to feed it XP using a Knowledge Gem"]
+			dependencies: ["5EA323A52C146DEA"]
+			hide: true
+			id: "28A03D971F3B3C6F"
+			tasks: [{
+				id: "6C376CC54335E769"
+				type: "item"
+				item: "spectrum:knowledge_gem"
+			}]
+		}
+		{
+			x: 16.5d
+			y: -0.5d
+			description: ["Another ore has beeen revealed. Find and aquire it."]
+			dependencies: ["1810EB195B0CC509"]
+			id: "2AB88707D86F0506"
+			tasks: [{
+				id: "0E372556B55A9935"
+				type: "advancement"
+				advancement: "spectrum:midgame/collect_azurite"
+				criterion: ""
+			}]
+		}
+		{
+			x: 18.5d
+			y: -1.5d
+			description: ["Is your Failing spreading too far? Reverse its consumption with Decay Away!"]
+			dependencies: ["2AB88707D86F0506"]
+			id: "0FC449098A9EAD1D"
+			tasks: [{
+				id: "0A9087BFACBDF44A"
+				type: "advancement"
+				advancement: "spectrum:midgame/craft_bottle_of_decay_away"
+				criterion: ""
+			}]
+		}
+		{
+			x: 18.5d
+			y: 0.5d
+			description: ["Refine raw Azurite in the Fusion Shrine. You didn't think it would only be used once did you?"]
+			dependencies: ["2AB88707D86F0506"]
+			id: "28CB44142633D257"
+			tasks: [{
+				id: "7A826E0E7E0F7C87"
+				type: "advancement"
+				advancement: "spectrum:midgame/create_refined_azurite"
 				criterion: ""
 			}]
 		}

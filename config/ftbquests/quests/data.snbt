@@ -1,11 +1,7 @@
 {
 	version: 13
 	title: "All of Fabric 5"
-	icon: {
-		gprops: { }
-		id: "kubejs:aof5_logo"
-		Count: 1b
-	}
+	icon: "kubejs:aof5_logo"
 	default_reward_team: false
 	default_consume_items: false
 	default_autoclaim_rewards: "disabled"

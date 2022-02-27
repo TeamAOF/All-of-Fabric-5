@@ -1,0 +1,1739 @@
+{
+  "sapling_patterns": {
+    "byg:orange_oak_sapling": [
+      {
+        "pattern": [
+          "x"
+        ],
+        "spawners": [
+          {
+            "data": {
+              "featureID": "byg:deciduous_orange_tree1"
+            },
+            "weight": 1
+          },
+          {
+            "data": {
+              "featureID": "byg:deciduous_orange_tree2"
+            },
+            "weight": 1
+          },
+          {
+            "data": {
+              "featureID": "byg:deciduous_orange_tree3"
+            },
+            "weight": 1
+          },
+          {
+            "data": {
+              "featureID": "byg:deciduous_orange_tree4"
+            },
+            "weight": 1
+          },
+          {
+            "data": {
+              "featureID": "byg:orange_oak_tree1"
+            },
+            "weight": 1
+          },
+          {
+            "data": {
+              "featureID": "byg:orange_oak_tree2"
+            },
+            "weight": 1
+          },
+          {
+            "data": {
+              "featureID": "byg:orange_oak_tree3"
+            },
+            "weight": 1
+          }
+        ]
+      },
+      {
+        "pattern": [
+          "xx",
+          "xx"
+        ],
+        "spawners": [
+          {
+            "data": {
+              "featureID": "byg:large_orange_oak_tree1"
+            },
+            "weight": 1
+          },
+          {
+            "data": {
+              "featureID": "byg:large_orange_oak_tree2"
+            },
+            "weight": 1
+          },
+          {
+            "data": {
+              "featureID": "byg:large_orange_oak_tree3"
+            },
+            "weight": 1
+          }
+        ]
+      }
+    ],
+    "byg:indigo_jacaranda_sapling": [
+      {
+        "pattern": [
+          "x"
+        ],
+        "spawners": [
+          {
+            "data": {
+              "featureID": "byg:indigo_jacaranda_tree1"
+            },
+            "weight": 1
+          },
+          {
+            "data": {
+              "featureID": "byg:indigo_jacaranda_tree2"
+            },
+            "weight": 1
+          }
+        ]
+      }
+    ],
+    "byg:jacaranda_sapling": [
+      {
+        "pattern": [
+          "x"
+        ],
+        "spawners": [
+          {
+            "data": {
+              "featureID": "byg:jacaranda_tree1"
+            },
+            "weight": 1
+          },
+          {
+            "data": {
+              "featureID": "byg:jacaranda_tree2"
+            },
+            "weight": 1
+          }
+        ]
+      }
+    ],
+    "byg:brown_birch_sapling": [
+      {
+        "pattern": [
+          "x"
+        ],
+        "spawners": [
+          {
+            "data": {
+              "featureID": "byg:brown_birch_tree1"
+            },
+            "weight": 1
+          },
+          {
+            "data": {
+              "featureID": "byg:brown_birch_tree2"
+            },
+            "weight": 1
+          },
+          {
+            "data": {
+              "featureID": "byg:brown_birch_tree3"
+            },
+            "weight": 1
+          },
+          {
+            "data": {
+              "featureID": "byg:brown_birch_tree4"
+            },
+            "weight": 1
+          }
+        ]
+      }
+    ],
+    "byg:cika_sapling": [
+      {
+        "pattern": [
+          " x ",
+          "xxx",
+          " x "
+        ],
+        "spawners": [
+          {
+            "data": {
+              "featureID": "byg:cika_tree1"
+            },
+            "weight": 1
+          },
+          {
+            "data": {
+              "featureID": "byg:cika_tree2"
+            },
+            "weight": 1
+          },
+          {
+            "data": {
+              "featureID": "byg:cika_tree3"
+            },
+            "weight": 1
+          }
+        ]
+      }
+    ],
+    "byg:maple_sapling": [
+      {
+        "pattern": [
+          "x"
+        ],
+        "spawners": [
+          {
+            "data": {
+              "featureID": "byg:maple_tree1"
+            },
+            "weight": 1
+          }
+        ]
+      }
+    ],
+    "byg:zelkova_sapling": [
+      {
+        "pattern": [
+          "x"
+        ],
+        "spawners": [
+          {
+            "data": {
+              "featureID": "byg:zelkova_tree1"
+            },
+            "weight": 1
+          },
+          {
+            "data": {
+              "featureID": "byg:zelkova_tree2"
+            },
+            "weight": 1
+          },
+          {
+            "data": {
+              "featureID": "byg:zelkova_tree3"
+            },
+            "weight": 1
+          },
+          {
+            "data": {
+              "featureID": "byg:zelkova_brown_tree1"
+            },
+            "weight": 1
+          },
+          {
+            "data": {
+              "featureID": "byg:zelkova_brown_tree2"
+            },
+            "weight": 1
+          },
+          {
+            "data": {
+              "featureID": "byg:zelkova_brown_tree3"
+            },
+            "weight": 1
+          }
+        ]
+      }
+    ],
+    "byg:lament_sapling": [
+      {
+        "pattern": [
+          "x"
+        ],
+        "spawners": [
+          {
+            "data": {
+              "featureID": "byg:lament_twisty_tree1"
+            },
+            "weight": 1
+          },
+          {
+            "data": {
+              "featureID": "byg:lament_twisty_tree2"
+            },
+            "weight": 1
+          },
+          {
+            "data": {
+              "featureID": "byg:lament_twisty_tree3"
+            },
+            "weight": 1
+          },
+          {
+            "data": {
+              "featureID": "byg:lament_weeping_tree1"
+            },
+            "weight": 1
+          },
+          {
+            "data": {
+              "featureID": "byg:lament_weeping_tree2"
+            },
+            "weight": 1
+          },
+          {
+            "data": {
+              "featureID": "byg:lament_weeping_tree3"
+            },
+            "weight": 1
+          }
+        ]
+      }
+    ],
+    "byg:araucaria_sapling": [
+      {
+        "pattern": [
+          "x"
+        ],
+        "spawners": [
+          {
+            "data": {
+              "featureID": "byg:araucaria_tree1"
+            },
+            "weight": 1
+          },
+          {
+            "data": {
+              "featureID": "byg:araucaria_tree2"
+            },
+            "weight": 1
+          }
+        ]
+      }
+    ],
+    "byg:withering_oak_sapling": [
+      {
+        "pattern": [
+          "x"
+        ],
+        "spawners": [
+          {
+            "data": {
+              "featureID": "byg:withering_oak_tree1"
+            },
+            "weight": 1
+          },
+          {
+            "data": {
+              "featureID": "byg:withering_oak_tree2"
+            },
+            "weight": 1
+          },
+          {
+            "data": {
+              "featureID": "byg:withering_oak_tree3"
+            },
+            "weight": 1
+          },
+          {
+            "data": {
+              "featureID": "byg:withering_oak_tree4"
+            },
+            "weight": 1
+          },
+          {
+            "data": {
+              "featureID": "byg:withering_oak_tree5"
+            },
+            "weight": 1
+          }
+        ]
+      }
+    ],
+    "byg:brown_zelkova_sapling": [
+      {
+        "pattern": [
+          "x"
+        ],
+        "spawners": [
+          {
+            "data": {
+              "featureID": "byg:zelkova_brown_tree1"
+            },
+            "weight": 1
+          },
+          {
+            "data": {
+              "featureID": "byg:zelkova_brown_tree2"
+            },
+            "weight": 1
+          },
+          {
+            "data": {
+              "featureID": "byg:zelkova_brown_tree3"
+            },
+            "weight": 1
+          }
+        ]
+      }
+    ],
+    "byg:cypress_sapling": [
+      {
+        "pattern": [
+          "  x  ",
+          "  x  ",
+          "xxxxx",
+          "  x  ",
+          "  x  "
+        ],
+        "spawners": [
+          {
+            "data": {
+              "featureID": "byg:cypress_tree1"
+            },
+            "weight": 1
+          },
+          {
+            "data": {
+              "featureID": "byg:cypress_tree2"
+            },
+            "weight": 1
+          },
+          {
+            "data": {
+              "featureID": "byg:cypress_tree3"
+            },
+            "weight": 1
+          }
+        ]
+      }
+    ],
+    "byg:orchard_sapling": [
+      {
+        "pattern": [
+          "x"
+        ],
+        "spawners": [
+          {
+            "data": {
+              "featureID": "byg:orchard_tree1"
+            },
+            "weight": 1
+          },
+          {
+            "data": {
+              "featureID": "byg:orchard_tree3"
+            },
+            "weight": 1
+          }
+        ]
+      },
+      {
+        "pattern": [
+          "xxx",
+          "xxx",
+          "xxx"
+        ],
+        "spawners": [
+          {
+            "data": {
+              "featureID": "byg:orchard_tree2"
+            },
+            "weight": 1
+          }
+        ]
+      }
+    ],
+    "byg:mahogany_sapling": [
+      {
+        "pattern": [
+          "x"
+        ],
+        "spawners": [
+          {
+            "data": {
+              "featureID": "byg:mahogany_tree1"
+            },
+            "weight": 1
+          },
+          {
+            "data": {
+              "featureID": "byg:mahogany_tree2"
+            },
+            "weight": 1
+          },
+          {
+            "data": {
+              "featureID": "byg:mahogany_tree3"
+            },
+            "weight": 1
+          },
+          {
+            "data": {
+              "featureID": "byg:mahogany_tree4"
+            },
+            "weight": 1
+          }
+        ]
+      }
+    ],
+    "byg:palm_sapling": [
+      {
+        "pattern": [
+          "x"
+        ],
+        "spawners": [
+          {
+            "data": {
+              "featureID": "byg:palm_tree1"
+            },
+            "weight": 1
+          },
+          {
+            "data": {
+              "featureID": "byg:palm_tree2"
+            },
+            "weight": 1
+          },
+          {
+            "data": {
+              "featureID": "byg:palm_tree3"
+            },
+            "weight": 1
+          },
+          {
+            "data": {
+              "featureID": "byg:palm_tree4"
+            },
+            "weight": 1
+          }
+        ]
+      }
+    ],
+    "byg:white_cherry_sapling": [
+      {
+        "pattern": [
+          "x"
+        ],
+        "spawners": [
+          {
+            "data": {
+              "featureID": "byg:white_cherry_tree2"
+            },
+            "weight": 1
+          }
+        ]
+      },
+      {
+        "pattern": [
+          "xx",
+          "xx"
+        ],
+        "spawners": [
+          {
+            "data": {
+              "featureID": "byg:white_cherry_tree1"
+            },
+            "weight": 1
+          }
+        ]
+      }
+    ],
+    "byg:blue_spruce_sapling": [
+      {
+        "pattern": [
+          "x"
+        ],
+        "spawners": [
+          {
+            "data": {
+              "featureID": "byg:spruce_blue_tree1"
+            },
+            "weight": 1
+          },
+          {
+            "data": {
+              "featureID": "byg:spruce_blue_tree2"
+            },
+            "weight": 1
+          },
+          {
+            "data": {
+              "featureID": "byg:spruce_blue_tree3"
+            },
+            "weight": 1
+          },
+          {
+            "data": {
+              "featureID": "byg:spruce_blue_tree4"
+            },
+            "weight": 1
+          }
+        ]
+      },
+      {
+        "pattern": [
+          "xx",
+          "xx"
+        ],
+        "spawners": [
+          {
+            "data": {
+              "featureID": "byg:spruce_blue_tree_medium1"
+            },
+            "weight": 1
+          },
+          {
+            "data": {
+              "featureID": "byg:spruce_blue_tree_medium2"
+            },
+            "weight": 1
+          },
+          {
+            "data": {
+              "featureID": "byg:spruce_blue_tree_medium3"
+            },
+            "weight": 1
+          },
+          {
+            "data": {
+              "featureID": "byg:spruce_blue_tree_medium4"
+            },
+            "weight": 1
+          }
+        ]
+      },
+      {
+        "pattern": [
+          "xxx",
+          "xxx",
+          "xxx"
+        ],
+        "spawners": [
+          {
+            "data": {
+              "featureID": "byg:spruce_blue_tree_large1"
+            },
+            "weight": 1
+          }
+        ]
+      }
+    ],
+    "byg:skyris_sapling": [
+      {
+        "pattern": [
+          "x"
+        ],
+        "spawners": [
+          {
+            "data": {
+              "featureID": "byg:skyris_tree1"
+            },
+            "weight": 1
+          },
+          {
+            "data": {
+              "featureID": "byg:skyris_tree2"
+            },
+            "weight": 1
+          },
+          {
+            "data": {
+              "featureID": "byg:skyris_tree3"
+            },
+            "weight": 1
+          },
+          {
+            "data": {
+              "featureID": "byg:skyris_tree4"
+            },
+            "weight": 1
+          },
+          {
+            "data": {
+              "featureID": "byg:skyris_tree5"
+            },
+            "weight": 1
+          }
+        ]
+      }
+    ],
+    "byg:willow_sapling": [
+      {
+        "pattern": [
+          "  x  ",
+          "     ",
+          "x   x",
+          "     ",
+          "  x  "
+        ],
+        "spawners": [
+          {
+            "data": {
+              "featureID": "byg:willow_tree1"
+            },
+            "weight": 1
+          },
+          {
+            "data": {
+              "featureID": "byg:willow_tree2"
+            },
+            "weight": 1
+          },
+          {
+            "data": {
+              "featureID": "byg:willow_tree3"
+            },
+            "weight": 1
+          },
+          {
+            "data": {
+              "featureID": "byg:willow_tree4"
+            },
+            "weight": 1
+          }
+        ]
+      }
+    ],
+    "byg:yellow_birch_sapling": [
+      {
+        "pattern": [
+          "x"
+        ],
+        "spawners": [
+          {
+            "data": {
+              "featureID": "byg:yellow_birch_tree1"
+            },
+            "weight": 1
+          },
+          {
+            "data": {
+              "featureID": "byg:yellow_birch_tree2"
+            },
+            "weight": 1
+          },
+          {
+            "data": {
+              "featureID": "byg:yellow_birch_tree3"
+            },
+            "weight": 1
+          },
+          {
+            "data": {
+              "featureID": "byg:yellow_birch_tree4"
+            },
+            "weight": 1
+          }
+        ]
+      }
+    ],
+    "byg:orange_spruce_sapling": [
+      {
+        "pattern": [
+          "x"
+        ],
+        "spawners": [
+          {
+            "data": {
+              "featureID": "byg:spruce_orange_tree1"
+            },
+            "weight": 1
+          },
+          {
+            "data": {
+              "featureID": "byg:spruce_orange_tree2"
+            },
+            "weight": 1
+          },
+          {
+            "data": {
+              "featureID": "byg:spruce_orange_tree3"
+            },
+            "weight": 1
+          },
+          {
+            "data": {
+              "featureID": "byg:spruce_orange_tree4"
+            },
+            "weight": 1
+          }
+        ]
+      },
+      {
+        "pattern": [
+          "xx",
+          "xx"
+        ],
+        "spawners": [
+          {
+            "data": {
+              "featureID": "byg:spruce_orange_tree_medium1"
+            },
+            "weight": 1
+          },
+          {
+            "data": {
+              "featureID": "byg:spruce_orange_tree_medium2"
+            },
+            "weight": 1
+          },
+          {
+            "data": {
+              "featureID": "byg:spruce_orange_tree_medium3"
+            },
+            "weight": 1
+          },
+          {
+            "data": {
+              "featureID": "byg:spruce_orange_tree_medium4"
+            },
+            "weight": 1
+          }
+        ]
+      },
+      {
+        "pattern": [
+          "xxx",
+          "xxx",
+          "xxx"
+        ],
+        "spawners": [
+          {
+            "data": {
+              "featureID": "byg:spruce_orange_tree_large1"
+            },
+            "weight": 1
+          }
+        ]
+      }
+    ],
+    "byg:pink_cherry_sapling": [
+      {
+        "pattern": [
+          "x"
+        ],
+        "spawners": [
+          {
+            "data": {
+              "featureID": "byg:pink_cherry_tree2"
+            },
+            "weight": 1
+          }
+        ]
+      },
+      {
+        "pattern": [
+          "xx",
+          "xx"
+        ],
+        "spawners": [
+          {
+            "data": {
+              "featureID": "byg:pink_cherry_tree1"
+            },
+            "weight": 1
+          }
+        ]
+      }
+    ],
+    "byg:silver_maple_sapling": [
+      {
+        "pattern": [
+          "x"
+        ],
+        "spawners": [
+          {
+            "data": {
+              "featureID": "byg:silver_maple_tree1"
+            },
+            "weight": 1
+          },
+          {
+            "data": {
+              "featureID": "byg:silver_maple_tree2"
+            },
+            "weight": 1
+          }
+        ]
+      }
+    ],
+    "byg:red_oak_sapling": [
+      {
+        "pattern": [
+          "x"
+        ],
+        "spawners": [
+          {
+            "data": {
+              "featureID": "byg:deciduous_red_tree1"
+            },
+            "weight": 1
+          },
+          {
+            "data": {
+              "featureID": "byg:deciduous_red_tree2"
+            },
+            "weight": 1
+          },
+          {
+            "data": {
+              "featureID": "byg:deciduous_red_tree3"
+            },
+            "weight": 1
+          },
+          {
+            "data": {
+              "featureID": "byg:deciduous_red_tree4"
+            },
+            "weight": 1
+          },
+          {
+            "data": {
+              "featureID": "byg:red_oak_tree1"
+            },
+            "weight": 1
+          },
+          {
+            "data": {
+              "featureID": "byg:red_oak_tree2"
+            },
+            "weight": 1
+          },
+          {
+            "data": {
+              "featureID": "byg:red_oak_tree3"
+            },
+            "weight": 1
+          }
+        ]
+      },
+      {
+        "pattern": [
+          "xx",
+          "xx"
+        ],
+        "spawners": [
+          {
+            "data": {
+              "featureID": "byg:large_red_oak_tree1"
+            },
+            "weight": 1
+          },
+          {
+            "data": {
+              "featureID": "byg:large_red_oak_tree2"
+            },
+            "weight": 1
+          },
+          {
+            "data": {
+              "featureID": "byg:large_red_oak_tree3"
+            },
+            "weight": 1
+          }
+        ]
+      }
+    ],
+    "byg:nightshade_sapling": [
+      {
+        "pattern": [
+          "x"
+        ],
+        "spawners": [
+          {
+            "data": {
+              "featureID": "byg:nightshade_tree1"
+            },
+            "weight": 1
+          },
+          {
+            "data": {
+              "featureID": "byg:nightshade_tree2"
+            },
+            "weight": 1
+          },
+          {
+            "data": {
+              "featureID": "byg:nightshade_tree3"
+            },
+            "weight": 1
+          },
+          {
+            "data": {
+              "featureID": "byg:nightshade_tree4"
+            },
+            "weight": 1
+          }
+        ]
+      }
+    ],
+    "byg:holly_sapling": [
+      {
+        "pattern": [
+          "x"
+        ],
+        "spawners": [
+          {
+            "data": {
+              "featureID": "byg:holly_tree1"
+            },
+            "weight": 1
+          },
+          {
+            "data": {
+              "featureID": "byg:holly_tree2"
+            },
+            "weight": 1
+          },
+          {
+            "data": {
+              "featureID": "byg:holly_tree4"
+            },
+            "weight": 1
+          }
+        ]
+      },
+      {
+        "pattern": [
+          "xx",
+          "xx"
+        ],
+        "spawners": [
+          {
+            "data": {
+              "featureID": "byg:holly_tree3"
+            },
+            "weight": 1
+          }
+        ]
+      }
+    ],
+    "byg:redwood_sapling": [
+      {
+        "pattern": [
+          " x ",
+          "xxx",
+          " x "
+        ],
+        "spawners": [
+          {
+            "data": {
+              "featureID": "byg:redwood_tree3"
+            },
+            "weight": 1
+          }
+        ]
+      },
+      {
+        "pattern": [
+          "xxx",
+          "xxx",
+          "xxx"
+        ],
+        "spawners": [
+          {
+            "data": {
+              "featureID": "byg:redwood_tree1"
+            },
+            "weight": 1
+          }
+        ]
+      },
+      {
+        "pattern": [
+          "  x  ",
+          " xxx ",
+          "xxxxx",
+          " xxx ",
+          "  x  "
+        ],
+        "spawners": [
+          {
+            "data": {
+              "featureID": "byg:redwood_tree2"
+            },
+            "weight": 1
+          }
+        ]
+      }
+    ],
+    "byg:joshua_sapling": [
+      {
+        "pattern": [
+          "x"
+        ],
+        "spawners": [
+          {
+            "data": {
+              "featureID": "byg:joshua_tree1"
+            },
+            "weight": 1
+          },
+          {
+            "data": {
+              "featureID": "byg:joshua_tree2"
+            },
+            "weight": 1
+          }
+        ]
+      }
+    ],
+    "byg:yellow_spruce_sapling": [
+      {
+        "pattern": [
+          "x"
+        ],
+        "spawners": [
+          {
+            "data": {
+              "featureID": "byg:spruce_yellow_tree1"
+            },
+            "weight": 1
+          },
+          {
+            "data": {
+              "featureID": "byg:spruce_yellow_tree2"
+            },
+            "weight": 1
+          },
+          {
+            "data": {
+              "featureID": "byg:spruce_yellow_tree3"
+            },
+            "weight": 1
+          },
+          {
+            "data": {
+              "featureID": "byg:spruce_yellow_tree4"
+            },
+            "weight": 1
+          }
+        ]
+      },
+      {
+        "pattern": [
+          "xx",
+          "xx"
+        ],
+        "spawners": [
+          {
+            "data": {
+              "featureID": "byg:spruce_yellow_tree_medium1"
+            },
+            "weight": 1
+          },
+          {
+            "data": {
+              "featureID": "byg:spruce_yellow_tree_medium2"
+            },
+            "weight": 1
+          },
+          {
+            "data": {
+              "featureID": "byg:spruce_yellow_tree_medium3"
+            },
+            "weight": 1
+          },
+          {
+            "data": {
+              "featureID": "byg:spruce_yellow_tree_medium4"
+            },
+            "weight": 1
+          }
+        ]
+      },
+      {
+        "pattern": [
+          "xxx",
+          "xxx",
+          "xxx"
+        ],
+        "spawners": [
+          {
+            "data": {
+              "featureID": "byg:spruce_yellow_tree_large1"
+            },
+            "weight": 1
+          }
+        ]
+      }
+    ],
+    "byg:baobab_sapling": [
+      {
+        "pattern": [
+          "xxx",
+          "xxx",
+          "xxx"
+        ],
+        "spawners": [
+          {
+            "data": {
+              "featureID": "byg:baobab_tree1"
+            },
+            "weight": 1
+          },
+          {
+            "data": {
+              "featureID": "byg:baobab_tree2"
+            },
+            "weight": 1
+          }
+        ]
+      }
+    ],
+    "byg:brown_oak_sapling": [
+      {
+        "pattern": [
+          "x"
+        ],
+        "spawners": [
+          {
+            "data": {
+              "featureID": "byg:deciduous_brown_tree1"
+            },
+            "weight": 1
+          },
+          {
+            "data": {
+              "featureID": "byg:deciduous_brown_tree2"
+            },
+            "weight": 1
+          },
+          {
+            "data": {
+              "featureID": "byg:deciduous_brown_tree3"
+            },
+            "weight": 1
+          },
+          {
+            "data": {
+              "featureID": "byg:deciduous_brown_tree4"
+            },
+            "weight": 1
+          },
+          {
+            "data": {
+              "featureID": "byg:brown_oak_tree1"
+            },
+            "weight": 1
+          },
+          {
+            "data": {
+              "featureID": "byg:brown_oak_tree2"
+            },
+            "weight": 1
+          },
+          {
+            "data": {
+              "featureID": "byg:brown_oak_tree3"
+            },
+            "weight": 1
+          }
+        ]
+      },
+      {
+        "pattern": [
+          "xx",
+          "xx"
+        ],
+        "spawners": [
+          {
+            "data": {
+              "featureID": "byg:large_brown_oak_tree1"
+            },
+            "weight": 1
+          },
+          {
+            "data": {
+              "featureID": "byg:large_brown_oak_tree2"
+            },
+            "weight": 1
+          },
+          {
+            "data": {
+              "featureID": "byg:large_brown_oak_tree3"
+            },
+            "weight": 1
+          }
+        ]
+      }
+    ],
+    "byg:witch_hazel_sapling": [
+      {
+        "pattern": [
+          "xx",
+          "xx"
+        ],
+        "spawners": [
+          {
+            "data": {
+              "featureID": "byg:hazel_tree1"
+            },
+            "weight": 4
+          },
+          {
+            "data": {
+              "featureID": "byg:hazel_tree2"
+            },
+            "weight": 4
+          },
+          {
+            "data": {
+              "featureID": "byg:dead_hazel_tree1"
+            },
+            "weight": 1
+          },
+          {
+            "data": {
+              "featureID": "byg:dead_hazel_tree2"
+            },
+            "weight": 1
+          }
+        ]
+      }
+    ],
+    "byg:blue_enchanted_sapling": [
+      {
+        "pattern": [
+          "x"
+        ],
+        "spawners": [
+          {
+            "data": {
+              "featureID": "byg:blue_enchanted_tree1"
+            },
+            "weight": 1
+          },
+          {
+            "data": {
+              "featureID": "byg:blue_enchanted_tree2"
+            },
+            "weight": 1
+          }
+        ]
+      }
+    ],
+    "byg:green_enchanted_sapling": [
+      {
+        "pattern": [
+          "x"
+        ],
+        "spawners": [
+          {
+            "data": {
+              "featureID": "byg:green_enchanted_tree1"
+            },
+            "weight": 1
+          },
+          {
+            "data": {
+              "featureID": "byg:green_enchanted_tree2"
+            },
+            "weight": 1
+          },
+          {
+            "data": {
+              "featureID": "byg:green_enchanted_tree3"
+            },
+            "weight": 1
+          }
+        ]
+      }
+    ],
+    "byg:orange_birch_sapling": [
+      {
+        "pattern": [
+          "x"
+        ],
+        "spawners": [
+          {
+            "data": {
+              "featureID": "byg:orange_birch_tree1"
+            },
+            "weight": 1
+          },
+          {
+            "data": {
+              "featureID": "byg:orange_birch_tree2"
+            },
+            "weight": 1
+          },
+          {
+            "data": {
+              "featureID": "byg:orange_birch_tree3"
+            },
+            "weight": 1
+          },
+          {
+            "data": {
+              "featureID": "byg:orange_birch_tree4"
+            },
+            "weight": 1
+          }
+        ]
+      }
+    ],
+    "byg:red_maple_sapling": [
+      {
+        "pattern": [
+          "x"
+        ],
+        "spawners": [
+          {
+            "data": {
+              "featureID": "byg:red_maple_tree1"
+            },
+            "weight": 1
+          },
+          {
+            "data": {
+              "featureID": "byg:red_maple_tree2"
+            },
+            "weight": 1
+          }
+        ]
+      }
+    ],
+    "byg:red_spruce_sapling": [
+      {
+        "pattern": [
+          "x"
+        ],
+        "spawners": [
+          {
+            "data": {
+              "featureID": "byg:spruce_red_tree1"
+            },
+            "weight": 1
+          },
+          {
+            "data": {
+              "featureID": "byg:spruce_red_tree2"
+            },
+            "weight": 1
+          },
+          {
+            "data": {
+              "featureID": "byg:spruce_red_tree3"
+            },
+            "weight": 1
+          },
+          {
+            "data": {
+              "featureID": "byg:spruce_red_tree4"
+            },
+            "weight": 1
+          }
+        ]
+      },
+      {
+        "pattern": [
+          "xx",
+          "xx"
+        ],
+        "spawners": [
+          {
+            "data": {
+              "featureID": "byg:spruce_red_tree_medium1"
+            },
+            "weight": 1
+          },
+          {
+            "data": {
+              "featureID": "byg:spruce_red_tree_medium2"
+            },
+            "weight": 1
+          },
+          {
+            "data": {
+              "featureID": "byg:spruce_red_tree_medium3"
+            },
+            "weight": 1
+          },
+          {
+            "data": {
+              "featureID": "byg:spruce_red_tree_medium4"
+            },
+            "weight": 1
+          }
+        ]
+      },
+      {
+        "pattern": [
+          "xxx",
+          "xxx",
+          "xxx"
+        ],
+        "spawners": [
+          {
+            "data": {
+              "featureID": "byg:spruce_red_tree_large1"
+            },
+            "weight": 1
+          }
+        ]
+      }
+    ],
+    "byg:ether_sapling": [
+      {
+        "pattern": [
+          "x"
+        ],
+        "spawners": [
+          {
+            "data": {
+              "featureID": "byg:ether_tree1"
+            },
+            "weight": 1
+          },
+          {
+            "data": {
+              "featureID": "byg:ether_tree2"
+            },
+            "weight": 1
+          },
+          {
+            "data": {
+              "featureID": "byg:ether_tree3"
+            },
+            "weight": 1
+          },
+          {
+            "data": {
+              "featureID": "byg:ether_tree4"
+            },
+            "weight": 1
+          },
+          {
+            "data": {
+              "featureID": "byg:ether_tree5"
+            },
+            "weight": 1
+          }
+        ]
+      }
+    ],
+    "byg:ebony_sapling": [
+      {
+        "pattern": [
+          "xx",
+          "xx"
+        ],
+        "spawners": [
+          {
+            "data": {
+              "featureID": "byg:ebony_bush1"
+            },
+            "weight": 1
+          },
+          {
+            "data": {
+              "featureID": "byg:ebony_tree1"
+            },
+            "weight": 1
+          },
+          {
+            "data": {
+              "featureID": "byg:ebony_tree2"
+            },
+            "weight": 1
+          }
+        ]
+      }
+    ],
+    "byg:pine_sapling": [
+      {
+        "pattern": [
+          "x"
+        ],
+        "spawners": [
+          {
+            "data": {
+              "featureID": "byg:pine_tree1"
+            },
+            "weight": 1
+          },
+          {
+            "data": {
+              "featureID": "byg:pine_tree2"
+            },
+            "weight": 1
+          }
+        ]
+      }
+    ],
+    "byg:red_birch_sapling": [
+      {
+        "pattern": [
+          "x"
+        ],
+        "spawners": [
+          {
+            "data": {
+              "featureID": "byg:red_birch_tree1"
+            },
+            "weight": 1
+          },
+          {
+            "data": {
+              "featureID": "byg:red_birch_tree2"
+            },
+            "weight": 1
+          },
+          {
+            "data": {
+              "featureID": "byg:red_birch_tree3"
+            },
+            "weight": 1
+          },
+          {
+            "data": {
+              "featureID": "byg:red_birch_tree4"
+            },
+            "weight": 1
+          }
+        ]
+      }
+    ],
+    "byg:palo_verde_sapling": [
+      {
+        "pattern": [
+          "x"
+        ],
+        "spawners": [
+          {
+            "data": {
+              "featureID": "byg:palo_verde_tree1"
+            },
+            "weight": 1
+          },
+          {
+            "data": {
+              "featureID": "byg:palo_verde_tree2"
+            },
+            "weight": 1
+          }
+        ]
+      }
+    ],
+    "byg:fir_sapling": [
+      {
+        "pattern": [
+          "x"
+        ],
+        "spawners": [
+          {
+            "data": {
+              "featureID": "byg:conifer_tree1"
+            },
+            "weight": 1
+          },
+          {
+            "data": {
+              "featureID": "byg:conifer_tree2"
+            },
+            "weight": 1
+          },
+          {
+            "data": {
+              "featureID": "byg:conifer_tree3"
+            },
+            "weight": 1
+          },
+          {
+            "data": {
+              "featureID": "byg:conifer_tree4"
+            },
+            "weight": 1
+          },
+          {
+            "data": {
+              "featureID": "byg:conifer_tree5"
+            },
+            "weight": 1
+          },
+          {
+            "data": {
+              "featureID": "byg:conifer_tree6"
+            },
+            "weight": 1
+          },
+          {
+            "data": {
+              "featureID": "byg:conifer_tree7"
+            },
+            "weight": 1
+          }
+        ]
+      },
+      {
+        "pattern": [
+          "xx",
+          "xx"
+        ],
+        "spawners": [
+          {
+            "data": {
+              "featureID": "byg:conifer_tree8"
+            },
+            "weight": 1
+          }
+        ]
+      }
+    ],
+    "byg:rainbow_eucalyptus_sapling": [
+      {
+        "pattern": [
+          "x"
+        ],
+        "spawners": [
+          {
+            "data": {
+              "featureID": "byg:rainbow_eucalyptus_tree1"
+            },
+            "weight": 1
+          }
+        ]
+      },
+      {
+        "pattern": [
+          " x ",
+          "xxx",
+          " x "
+        ],
+        "spawners": [
+          {
+            "data": {
+              "featureID": "byg:large_rainbow_eucalyptus_tree1"
+            },
+            "weight": 1
+          }
+        ]
+      }
+    ],
+    "byg:aspen_sapling": [
+      {
+        "pattern": [
+          "x"
+        ],
+        "spawners": [
+          {
+            "data": {
+              "featureID": "byg:aspen_tree1"
+            },
+            "weight": 1
+          },
+          {
+            "data": {
+              "featureID": "byg:aspen_tree2"
+            },
+            "weight": 1
+          },
+          {
+            "data": {
+              "featureID": "byg:aspen_tree3"
+            },
+            "weight": 1
+          }
+        ]
+      }
+    ]
+  }
+}

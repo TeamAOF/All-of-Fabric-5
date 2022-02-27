@@ -4,11 +4,7 @@
 	order_index: 2
 	filename: "agriculture"
 	title: "Agriculture"
-	icon: {
-		gprops: { }
-		id: "farmersdelight:cooking_pot"
-		Count: 1b
-	}
+	icon: "farmersdelight:cooking_pot"
 	default_quest_shape: ""
 	default_hide_dependency_lines: false
 	quests: [
@@ -20,11 +16,7 @@
 			tasks: [{
 				id: "62B614931DDB6161"
 				type: "item"
-				item: {
-					gprops: { }
-					id: "farmingforblockheads:market"
-					Count: 1b
-				}
+				item: "farmingforblockheads:market"
 			}]
 		}
 		{
@@ -35,11 +27,7 @@
 			tasks: [{
 				id: "5F2ADAA3F72E4D09"
 				type: "item"
-				item: {
-					gprops: { }
-					id: "farmingforblockheads:chicken_nest"
-					Count: 1b
-				}
+				item: "farmingforblockheads:chicken_nest"
 			}]
 		}
 		{
@@ -50,11 +38,7 @@
 			tasks: [{
 				id: "755F341295669BDC"
 				type: "item"
-				item: {
-					gprops: { }
-					id: "farmingforblockheads:feeding_trough"
-					Count: 1b
-				}
+				item: "farmingforblockheads:feeding_trough"
 			}]
 		}
 		{
@@ -65,11 +49,7 @@
 			tasks: [{
 				id: "1604ECD381B21CFB"
 				type: "item"
-				item: {
-					gprops: { }
-					id: "farmingforblockheads:green_fertilizer"
-					Count: 1b
-				}
+				item: "farmingforblockheads:green_fertilizer"
 			}]
 		}
 		{
@@ -80,11 +60,7 @@
 			tasks: [{
 				id: "443CD4678AE9D27A"
 				type: "item"
-				item: {
-					gprops: { }
-					id: "farmingforblockheads:red_fertilizer"
-					Count: 1b
-				}
+				item: "farmingforblockheads:red_fertilizer"
 			}]
 		}
 		{
@@ -95,11 +71,7 @@
 			tasks: [{
 				id: "0C1F44E719A323DC"
 				type: "item"
-				item: {
-					gprops: { }
-					id: "farmingforblockheads:yellow_fertilizer"
-					Count: 1b
-				}
+				item: "farmingforblockheads:yellow_fertilizer"
 			}]
 		}
 		{
@@ -109,11 +81,7 @@
 			tasks: [{
 				id: "346AF1543438BA37"
 				type: "item"
-				item: {
-					gprops: { }
-					id: "croptosis:iron_watering_can"
-					Count: 1b
-				}
+				item: "croptosis:iron_watering_can"
 			}]
 		}
 		{
@@ -124,11 +92,7 @@
 			tasks: [{
 				id: "1BC037866A5AC9C0"
 				type: "item"
-				item: {
-					gprops: { }
-					id: "croptosis:gold_watering_can"
-					Count: 1b
-				}
+				item: "croptosis:gold_watering_can"
 			}]
 		}
 		{
@@ -139,11 +103,7 @@
 			tasks: [{
 				id: "002F12D8ABAF5E60"
 				type: "item"
-				item: {
-					gprops: { }
-					id: "croptosis:diamond_watering_can"
-					Count: 1b
-				}
+				item: "croptosis:diamond_watering_can"
 			}]
 		}
 		{
@@ -154,11 +114,7 @@
 			tasks: [{
 				id: "3AEAC9DFBE07D472"
 				type: "item"
-				item: {
-					gprops: { }
-					id: "croptosis:netherite_watering_can"
-					Count: 1b
-				}
+				item: "croptosis:netherite_watering_can"
 			}]
 		}
 		{
@@ -168,11 +124,7 @@
 			tasks: [{
 				id: "6CA5629377C7E780"
 				type: "item"
-				item: {
-					gprops: { }
-					id: "croptopia:chocolate_milkshake"
-					Count: 1b
-				}
+				item: "croptopia:chocolate_milkshake"
 			}]
 		}
 		{
@@ -182,11 +134,7 @@
 			tasks: [{
 				id: "53A30F8E92CF1EEC"
 				type: "item"
-				item: {
-					gprops: { }
-					id: "croptopia:snicker_doodle"
-					Count: 1b
-				}
+				item: "croptopia:snicker_doodle"
 			}]
 		}
 		{
@@ -196,11 +144,7 @@
 			tasks: [{
 				id: "738AB0258B2DAAA1"
 				type: "item"
-				item: {
-					gprops: { }
-					id: "croptopia:raisin_oatmeal_cookie"
-					Count: 1b
-				}
+				item: "croptopia:raisin_oatmeal_cookie"
 			}]
 		}
 		{
@@ -210,11 +154,7 @@
 			tasks: [{
 				id: "56B4A7391DE235CA"
 				type: "item"
-				item: {
-					gprops: { }
-					id: "croptopia:cheese_cake"
-					Count: 1b
-				}
+				item: "croptopia:cheese_cake"
 			}]
 		}
 		{
@@ -224,11 +164,7 @@
 			tasks: [{
 				id: "7466D7F35E5D5ED0"
 				type: "item"
-				item: {
-					gprops: { }
-					id: "croptopia:doughnut"
-					Count: 1b
-				}
+				item: "croptopia:doughnut"
 			}]
 		}
 		{
@@ -238,11 +174,7 @@
 			tasks: [{
 				id: "0D044738FBBC376B"
 				type: "item"
-				item: {
-					gprops: { }
-					id: "croptopia:fruit_cake"
-					Count: 1b
-				}
+				item: "croptopia:fruit_cake"
 			}]
 		}
 		{
@@ -310,11 +242,7 @@
 			rewards: [{
 				id: "4DFA581A68815DAA"
 				type: "item"
-				item: {
-					gprops: { }
-					id: "adorn:egg_crate"
-					Count: 1b
-				}
+				item: "adorn:egg_crate"
 			}]
 		}
 		{
@@ -324,11 +252,7 @@
 			tasks: [{
 				id: "3B71D4720FA8282D"
 				type: "item"
-				item: {
-					gprops: { }
-					id: "croptopia:cooking_pot"
-					Count: 1b
-				}
+				item: "croptopia:cooking_pot"
 			}]
 		}
 		{
@@ -338,11 +262,7 @@
 			tasks: [{
 				id: "5ABFDDA4A799AA50"
 				type: "item"
-				item: {
-					gprops: { }
-					id: "croptopia:mortar_and_pestle"
-					Count: 1b
-				}
+				item: "croptopia:mortar_and_pestle"
 			}]
 		}
 		{
@@ -352,11 +272,7 @@
 			tasks: [{
 				id: "29E1787D0069B2CF"
 				type: "item"
-				item: {
-					gprops: { }
-					id: "croptopia:frying_pan"
-					Count: 1b
-				}
+				item: "croptopia:frying_pan"
 			}]
 		}
 		{
@@ -366,11 +282,7 @@
 			tasks: [{
 				id: "70F481780658F71B"
 				type: "item"
-				item: {
-					gprops: { }
-					id: "croptopia:pepper"
-					Count: 1b
-				}
+				item: "croptopia:pepper"
 			}]
 		}
 		{
@@ -380,11 +292,7 @@
 			tasks: [{
 				id: "59E9757E49E8926D"
 				type: "item"
-				item: {
-					gprops: { }
-					id: "croptopia:food_press"
-					Count: 1b
-				}
+				item: "croptopia:food_press"
 			}]
 		}
 		{
@@ -394,20 +302,12 @@
 			tasks: [{
 				id: "362E2C0F21ACAE54"
 				type: "item"
-				item: {
-					gprops: { }
-					id: "croptopia:flour"
-					Count: 1b
-				}
+				item: "croptopia:flour"
 			}]
 			rewards: [{
 				id: "590D456AA06B20AE"
 				type: "item"
-				item: {
-					gprops: { }
-					id: "croptopia:lemon_sapling"
-					Count: 1b
-				}
+				item: "croptopia:lemon_sapling"
 			}]
 		}
 		{
@@ -417,11 +317,7 @@
 			tasks: [{
 				id: "22F1EEBE89B61279"
 				type: "item"
-				item: {
-					gprops: { }
-					id: "croptopia:olive_oil"
-					Count: 1b
-				}
+				item: "croptopia:olive_oil"
 			}]
 		}
 		{
@@ -431,11 +327,7 @@
 			tasks: [{
 				id: "0BEEEB3684C7E8AB"
 				type: "item"
-				item: {
-					gprops: { }
-					id: "croptopia:salt"
-					Count: 1b
-				}
+				item: "croptopia:salt"
 			}]
 		}
 		{
@@ -445,11 +337,7 @@
 			tasks: [{
 				id: "7E35A6AE21505CA7"
 				type: "item"
-				item: {
-					gprops: { }
-					id: "croptopia:butter"
-					Count: 1b
-				}
+				item: "croptopia:butter"
 			}]
 		}
 		{
@@ -459,11 +347,7 @@
 			tasks: [{
 				id: "7698D7F854E0BD43"
 				type: "item"
-				item: {
-					gprops: { }
-					id: "croptopia:coffee"
-					Count: 1b
-				}
+				item: "croptopia:coffee"
 			}]
 		}
 		{
@@ -473,11 +357,7 @@
 			tasks: [{
 				id: "5D150B567A95C5EE"
 				type: "item"
-				item: {
-					gprops: { }
-					id: "croptopia:noodle"
-					Count: 1b
-				}
+				item: "croptopia:noodle"
 			}]
 		}
 		{
@@ -487,11 +367,7 @@
 			tasks: [{
 				id: "5EF171AFB4049ADE"
 				type: "item"
-				item: {
-					gprops: { }
-					id: "croptopia:greenonion"
-					Count: 1b
-				}
+				item: "croptopia:greenonion"
 			}]
 		}
 		{
@@ -502,11 +378,7 @@
 			tasks: [{
 				id: "438D3B75874A7E4E"
 				type: "item"
-				item: {
-					gprops: { }
-					id: "croptopia:fried_chicken"
-					Count: 1b
-				}
+				item: "croptopia:fried_chicken"
 			}]
 		}
 		{
@@ -517,11 +389,7 @@
 			tasks: [{
 				id: "743EE0ACB4383530"
 				type: "item"
-				item: {
-					gprops: { }
-					id: "croptopia:chicken_and_noodles"
-					Count: 1b
-				}
+				item: "croptopia:chicken_and_noodles"
 			}]
 		}
 		{
@@ -533,11 +401,7 @@
 			tasks: [{
 				id: "149B98622220A1B0"
 				type: "item"
-				item: {
-					gprops: { }
-					id: "minecraft:cooked_chicken"
-					Count: 1b
-				}
+				item: "minecraft:cooked_chicken"
 			}]
 			rewards: [{
 				id: "0F04AE5F08E7114E"
@@ -553,11 +417,7 @@
 			tasks: [{
 				id: "769FAD78808E29D2"
 				type: "item"
-				item: {
-					gprops: { }
-					id: "croptopia:beef_jerky"
-					Count: 1b
-				}
+				item: "croptopia:beef_jerky"
 			}]
 		}
 		{
@@ -569,11 +429,7 @@
 			tasks: [{
 				id: "079E08DF0D8D7054"
 				type: "item"
-				item: {
-					gprops: { }
-					id: "minecraft:cooked_beef"
-					Count: 1b
-				}
+				item: "minecraft:cooked_beef"
 			}]
 			rewards: [{
 				id: "2A05494F601BE09B"
@@ -589,11 +445,7 @@
 			tasks: [{
 				id: "2A03780155D63806"
 				type: "item"
-				item: {
-					gprops: { }
-					id: "croptopia:beef_stew"
-					Count: 1b
-				}
+				item: "croptopia:beef_stew"
 			}]
 		}
 		{
@@ -604,11 +456,7 @@
 			tasks: [{
 				id: "59389CABACD9A256"
 				type: "item"
-				item: {
-					gprops: { }
-					id: "croptopia:beef_stir_fry"
-					Count: 1b
-				}
+				item: "croptopia:beef_stir_fry"
 			}]
 		}
 		{
@@ -619,11 +467,7 @@
 			tasks: [{
 				id: "033E6011E6405EDE"
 				type: "item"
-				item: {
-					gprops: { }
-					id: "croptopia:beef_wellington"
-					Count: 1b
-				}
+				item: "croptopia:beef_wellington"
 			}]
 		}
 		{
@@ -635,11 +479,7 @@
 			tasks: [{
 				id: "23ADE26D7D517283"
 				type: "item"
-				item: {
-					gprops: { }
-					id: "minecraft:cooked_porkchop"
-					Count: 1b
-				}
+				item: "minecraft:cooked_porkchop"
 			}]
 			rewards: [{
 				id: "3F2C30BC19A74F15"
@@ -655,11 +495,7 @@
 			tasks: [{
 				id: "16495728E9511126"
 				type: "item"
-				item: {
-					gprops: { }
-					id: "croptopia:pork_jerky"
-					Count: 1b
-				}
+				item: "croptopia:pork_jerky"
 			}]
 		}
 		{
@@ -670,11 +506,7 @@
 			tasks: [{
 				id: "2A07A0ECED3A2F3B"
 				type: "item"
-				item: {
-					gprops: { }
-					id: "croptopia:pork_and_beans"
-					Count: 1b
-				}
+				item: "croptopia:pork_and_beans"
 			}]
 		}
 		{
@@ -685,11 +517,7 @@
 			tasks: [{
 				id: "477BE12C39AD854D"
 				type: "item"
-				item: {
-					gprops: { }
-					id: "croptopia:blt"
-					Count: 1b
-				}
+				item: "croptopia:blt"
 			}]
 		}
 		{
@@ -700,11 +528,7 @@
 			tasks: [{
 				id: "75D200E9D984A3D2"
 				type: "item"
-				item: {
-					gprops: { }
-					id: "croptopia:ham_sandwich"
-					Count: 1b
-				}
+				item: "croptopia:ham_sandwich"
 			}]
 		}
 		{
@@ -718,7 +542,6 @@
 				type: "item"
 				title: "Make one of the following chocolates"
 				item: {
-					gprops: { }
 					id: "itemfilters:or"
 					Count: 1b
 					tag: {
@@ -756,7 +579,6 @@
 				type: "item"
 				title: "Make one of the following caramel chocolates."
 				item: {
-					gprops: { }
 					id: "itemfilters:or"
 					Count: 1b
 					tag: {
@@ -794,7 +616,6 @@
 				type: "item"
 				title: "One of the following praline chocolates please."
 				item: {
-					gprops: { }
 					id: "itemfilters:or"
 					Count: 1b
 					tag: {
@@ -831,7 +652,6 @@
 				type: "item"
 				title: "Strawberry Cream Chocolates"
 				item: {
-					gprops: { }
 					id: "itemfilters:or"
 					Count: 1b
 					tag: {
@@ -868,7 +688,6 @@
 				type: "item"
 				title: "Cookies and Cream Chocolates"
 				item: {
-					gprops: { }
 					id: "itemfilters:or"
 					Count: 1b
 					tag: {
@@ -905,7 +724,6 @@
 				type: "item"
 				title: "Mixed Nuts Chocolates"
 				item: {
-					gprops: { }
 					id: "itemfilters:or"
 					Count: 1b
 					tag: {
@@ -942,7 +760,6 @@
 				type: "item"
 				title: "Coconut Chocolates"
 				item: {
-					gprops: { }
 					id: "itemfilters:or"
 					Count: 1b
 					tag: {
@@ -980,7 +797,6 @@
 				type: "item"
 				title: "Peanutbutter Chocolates"
 				item: {
-					gprops: { }
 					id: "itemfilters:or"
 					Count: 1b
 					tag: {
@@ -1015,11 +831,7 @@
 			tasks: [{
 				id: "42763C68172B38A8"
 				type: "item"
-				item: {
-					gprops: { }
-					id: "cacao:golden_chocolate"
-					Count: 1b
-				}
+				item: "cacao:golden_chocolate"
 			}]
 		}
 		{
@@ -1032,7 +844,6 @@
 				type: "item"
 				title: "Chocolate covered Apples"
 				item: {
-					gprops: { }
 					id: "itemfilters:or"
 					Count: 1b
 					tag: {
@@ -1067,20 +878,12 @@
 			tasks: [{
 				id: "7135D82B25C19185"
 				type: "item"
-				item: {
-					gprops: { }
-					id: "croptopia:chocolate"
-					Count: 1b
-				}
+				item: "croptopia:chocolate"
 			}]
 			rewards: [{
 				id: "00953DBE6F7EE102"
 				type: "item"
-				item: {
-					gprops: { }
-					id: "blockus:rainbow_bricks"
-					Count: 1b
-				}
+				item: "blockus:rainbow_bricks"
 				count: 12
 			}]
 		}
@@ -1092,17 +895,12 @@
 			tasks: [{
 				id: "0011E847A6347673"
 				type: "item"
-				item: {
-					gprops: { }
-					id: "croptopia:chocolate_ice_cream"
-					Count: 1b
-				}
+				item: "croptopia:chocolate_ice_cream"
 			}]
 			rewards: [{
 				id: "58721C71B08F9552"
 				type: "item"
 				item: {
-					gprops: { }
 					id: "minecraft:wooden_sword"
 					Count: 1b
 					tag: {
@@ -1119,20 +917,12 @@
 			tasks: [{
 				id: "69224B57D6B12ED6"
 				type: "item"
-				item: {
-					gprops: { }
-					id: "cacao:silicon_mold"
-					Count: 1b
-				}
+				item: "cacao:silicon_mold"
 			}]
 			rewards: [{
 				id: "1FDDFF72BA706624"
 				type: "item"
-				item: {
-					gprops: { }
-					id: "adorn:black_table_lamp"
-					Count: 1b
-				}
+				item: "adorn:black_table_lamp"
 			}]
 		}
 		{
@@ -1143,20 +933,12 @@
 			tasks: [{
 				id: "45FBB667A3A59DDA"
 				type: "item"
-				item: {
-					gprops: { }
-					id: "cacao:manual_food_grinder"
-					Count: 1b
-				}
+				item: "cacao:manual_food_grinder"
 			}]
 			rewards: [{
 				id: "55347EA5AF94E99F"
 				type: "item"
-				item: {
-					gprops: { }
-					id: "croptopia:lime_sapling"
-					Count: 1b
-				}
+				item: "croptopia:lime_sapling"
 			}]
 		}
 		{
@@ -1167,20 +949,12 @@
 			tasks: [{
 				id: "2AEDEFDACE573297"
 				type: "item"
-				item: {
-					gprops: { }
-					id: "cacao:all_purpose_filter"
-					Count: 1b
-				}
+				item: "cacao:filter_cloth"
 			}]
 			rewards: [{
 				id: "2B78EA371141BBB8"
 				type: "item"
-				item: {
-					gprops: { }
-					id: "croptopia:orange_sapling"
-					Count: 1b
-				}
+				item: "croptopia:orange_sapling"
 			}]
 		}
 		{
@@ -1191,20 +965,12 @@
 			tasks: [{
 				id: "3AFC17ADC90E9960"
 				type: "item"
-				item: {
-					gprops: { }
-					id: "cacao:cacao_nibs"
-					Count: 1b
-				}
+				item: "cacao:cacao_nibs"
 			}]
 			rewards: [{
 				id: "4D35011EF9040A7B"
 				type: "item"
-				item: {
-					gprops: { }
-					id: "croptopia:pecan_sapling"
-					Count: 1b
-				}
+				item: "croptopia:pecan_sapling"
 			}]
 		}
 		{
@@ -1215,20 +981,12 @@
 			tasks: [{
 				id: "1A6FAEB9E7262A9D"
 				type: "item"
-				item: {
-					gprops: { }
-					id: "cacao:cacao_mass_bucket"
-					Count: 1b
-				}
+				item: "cacao:cacao_mass_bucket"
 			}]
 			rewards: [{
 				id: "1699DD5B686C75F6"
 				type: "item"
-				item: {
-					gprops: { }
-					id: "croptopia:cherry_sapling"
-					Count: 1b
-				}
+				item: "croptopia:cherry_sapling"
 			}]
 		}
 		{
@@ -1239,20 +997,12 @@
 			tasks: [{
 				id: "2D3530B0991FE312"
 				type: "item"
-				item: {
-					gprops: { }
-					id: "cacao:cacao_mass_bottle"
-					Count: 1b
-				}
+				item: "cacao:cacao_mass_bottle"
 			}]
 			rewards: [{
 				id: "0CF24B65110C3D0E"
 				type: "item"
-				item: {
-					gprops: { }
-					id: "croptopia:banana_sapling"
-					Count: 1b
-				}
+				item: "croptopia:banana_sapling"
 			}]
 		}
 		{
@@ -1263,20 +1013,12 @@
 			tasks: [{
 				id: "4C892E2A6DB0EB17"
 				type: "item"
-				item: {
-					gprops: { }
-					id: "cacao:cacao_butter_bottle"
-					Count: 1b
-				}
+				item: "cacao:cacao_butter_bottle"
 			}]
 			rewards: [{
 				id: "3F969971792E8781"
 				type: "item"
-				item: {
-					gprops: { }
-					id: "croptopia:apple_sapling"
-					Count: 1b
-				}
+				item: "croptopia:apple_sapling"
 			}]
 		}
 		{
@@ -1288,20 +1030,12 @@
 			tasks: [{
 				id: "1C9BDC7F43E09D84"
 				type: "item"
-				item: {
-					gprops: { }
-					id: "cacao:nutella"
-					Count: 1b
-				}
+				item: "cacao:nutella"
 			}]
 			rewards: [{
 				id: "1F0EE39CBA51132E"
 				type: "item"
-				item: {
-					gprops: { }
-					id: "croptopia:mango_sapling"
-					Count: 1b
-				}
+				item: "croptopia:mango_sapling"
 			}]
 		}
 		{
@@ -1312,11 +1046,7 @@
 			tasks: [{
 				id: "0214F5242EEDE49A"
 				type: "item"
-				item: {
-					gprops: { }
-					id: "croptopia:lemon_chicken"
-					Count: 1b
-				}
+				item: "croptopia:lemon_chicken"
 			}]
 		}
 		{
@@ -1326,11 +1056,7 @@
 			tasks: [{
 				id: "5A1D040B9E5B9377"
 				type: "item"
-				item: {
-					gprops: { }
-					id: "farmersdelight:stove"
-					Count: 1b
-				}
+				item: "farmersdelight:stove"
 			}]
 			rewards: [{
 				id: "6CC22CCDF870D00B"
@@ -1346,20 +1072,12 @@
 			tasks: [{
 				id: "5B3FB7270A0C2AFF"
 				type: "item"
-				item: {
-					gprops: { }
-					id: "farmersdelight:cooking_pot"
-					Count: 1b
-				}
+				item: "farmersdelight:cooking_pot"
 			}]
 			rewards: [{
 				id: "10B490A162D60B49"
 				type: "item"
-				item: {
-					gprops: { }
-					id: "minecraft:iron_nugget"
-					Count: 1b
-				}
+				item: "minecraft:iron_nugget"
 			}]
 		}
 		{
@@ -1370,20 +1088,12 @@
 			tasks: [{
 				id: "3B26EAF63D893853"
 				type: "item"
-				item: {
-					gprops: { }
-					id: "farmersdelight:basket"
-					Count: 1b
-				}
+				item: "farmersdelight:basket"
 			}]
 			rewards: [{
 				id: "6D1D99E840103A13"
 				type: "item"
-				item: {
-					gprops: { }
-					id: "minecraft:andesite"
-					Count: 1b
-				}
+				item: "minecraft:andesite"
 				count: 12
 			}]
 		}
@@ -1396,7 +1106,6 @@
 				id: "23E5FACD3C83B36A"
 				type: "item"
 				item: {
-					gprops: { }
 					id: "farmersdelight:flint_knife"
 					Count: 1b
 					tag: {
@@ -1407,11 +1116,7 @@
 			rewards: [{
 				id: "74F3FA97139EB904"
 				type: "item"
-				item: {
-					gprops: { }
-					id: "farmersdelight:apple_pie_slice"
-					Count: 1b
-				}
+				item: "farmersdelight:apple_pie_slice"
 			}]
 		}
 		{
@@ -1423,7 +1128,6 @@
 				id: "2555B919EFB696A0"
 				type: "item"
 				item: {
-					gprops: { }
 					id: "farmersdelight:iron_knife"
 					Count: 1b
 					tag: {
@@ -1434,11 +1138,7 @@
 			rewards: [{
 				id: "4F87E9B65BCE1862"
 				type: "item"
-				item: {
-					gprops: { }
-					id: "croptopia:sushi"
-					Count: 1b
-				}
+				item: "croptopia:sushi"
 			}]
 		}
 		{
@@ -1450,7 +1150,6 @@
 				id: "75928169D7F17647"
 				type: "item"
 				item: {
-					gprops: { }
 					id: "farmersdelight:golden_knife"
 					Count: 1b
 					tag: {
@@ -1461,11 +1160,7 @@
 			rewards: [{
 				id: "3B3C63750BAA0695"
 				type: "item"
-				item: {
-					gprops: { }
-					id: "gofish:simple_lure"
-					Count: 1b
-				}
+				item: "gofish:simple_lure"
 			}]
 		}
 		{
@@ -1477,7 +1172,6 @@
 				id: "2D9FC0C9E78FBBE4"
 				type: "item"
 				item: {
-					gprops: { }
 					id: "farmersdelight:diamond_knife"
 					Count: 1b
 					tag: {
@@ -1488,11 +1182,7 @@
 			rewards: [{
 				id: "1BD7348B587A053C"
 				type: "item"
-				item: {
-					gprops: { }
-					id: "gofish:soul_lure"
-					Count: 1b
-				}
+				item: "gofish:soul_lure"
 			}]
 		}
 		{
@@ -1504,7 +1194,6 @@
 				id: "2D741257B7F54522"
 				type: "item"
 				item: {
-					gprops: { }
 					id: "farmersdelight:netherite_knife"
 					Count: 1b
 					tag: {
@@ -1515,11 +1204,7 @@
 			rewards: [{
 				id: "3893B57CF66FC1E3"
 				type: "item"
-				item: {
-					gprops: { }
-					id: "additionaladditions:honeyed_apple"
-					Count: 1b
-				}
+				item: "additionaladditions:honeyed_apple"
 				count: 2
 			}]
 		}
@@ -1531,20 +1216,12 @@
 			tasks: [{
 				id: "30AC1D443725C929"
 				type: "item"
-				item: {
-					gprops: { }
-					id: "farmersdelight:cutting_board"
-					Count: 1b
-				}
+				item: "farmersdelight:cutting_board"
 			}]
 			rewards: [{
 				id: "4A403A693BC43511"
 				type: "item"
-				item: {
-					gprops: { }
-					id: "farmersdelight:chocolate_pie_slice"
-					Count: 1b
-				}
+				item: "farmersdelight:chocolate_pie_slice"
 			}]
 		}
 		{
@@ -1555,20 +1232,12 @@
 			tasks: [{
 				id: "119C7B0894DF4F23"
 				type: "item"
-				item: {
-					gprops: { }
-					id: "farmersdelight:safety_net"
-					Count: 1b
-				}
+				item: "farmersdelight:safety_net"
 			}]
 			rewards: [{
 				id: "6E51B51D0A0F4828"
 				type: "item"
-				item: {
-					gprops: { }
-					id: "minecraft:granite"
-					Count: 1b
-				}
+				item: "minecraft:granite"
 				count: 12
 			}]
 		}
@@ -1580,20 +1249,12 @@
 			tasks: [{
 				id: "58841906C1672226"
 				type: "item"
-				item: {
-					gprops: { }
-					id: "farmersdelight:rope"
-					Count: 1b
-				}
+				item: "farmersdelight:rope"
 			}]
 			rewards: [{
 				id: "2818D08800C04A51"
 				type: "item"
-				item: {
-					gprops: { }
-					id: "minecraft:stone"
-					Count: 1b
-				}
+				item: "minecraft:stone"
 				count: 12
 			}]
 		}
@@ -1617,11 +1278,7 @@
 			rewards: [{
 				id: "00D5AEBCCCD49E67"
 				type: "item"
-				item: {
-					gprops: { }
-					id: "minecraft:spectral_arrow"
-					Count: 1b
-				}
+				item: "minecraft:spectral_arrow"
 				count: 12
 			}]
 		}
@@ -1632,11 +1289,7 @@
 			tasks: [{
 				id: "3D9F9D499E5CE19B"
 				type: "item"
-				item: {
-					gprops: { }
-					id: "farmersdelight:beef_stew"
-					Count: 1b
-				}
+				item: "farmersdelight:beef_stew"
 			}]
 		}
 		{
@@ -1646,11 +1299,7 @@
 			tasks: [{
 				id: "713E63D9B89E8134"
 				type: "item"
-				item: {
-					gprops: { }
-					id: "farmersdelight:chicken_soup"
-					Count: 1b
-				}
+				item: "farmersdelight:chicken_soup"
 			}]
 		}
 		{
@@ -1660,11 +1309,7 @@
 			tasks: [{
 				id: "0791A7F3A31813FD"
 				type: "item"
-				item: {
-					gprops: { }
-					id: "farmersdelight:raw_pasta"
-					Count: 1b
-				}
+				item: "farmersdelight:raw_pasta"
 			}]
 		}
 		{
@@ -1674,11 +1319,7 @@
 			tasks: [{
 				id: "519F5355E13C0482"
 				type: "item"
-				item: {
-					gprops: { }
-					id: "farmersdelight:pasta_with_meatballs"
-					Count: 1b
-				}
+				item: "farmersdelight:pasta_with_meatballs"
 			}]
 		}
 		{
@@ -1688,11 +1329,7 @@
 			tasks: [{
 				id: "1B107852452FB3FE"
 				type: "item"
-				item: {
-					gprops: { }
-					id: "farmersdelight:pasta_with_mutton_chop"
-					Count: 1b
-				}
+				item: "farmersdelight:pasta_with_mutton_chop"
 			}]
 		}
 		{
@@ -1702,11 +1339,7 @@
 			tasks: [{
 				id: "5B7C7FC520F2C25A"
 				type: "item"
-				item: {
-					gprops: { }
-					id: "farmersdelight:rice_bag"
-					Count: 1b
-				}
+				item: "farmersdelight:rice_bag"
 			}]
 		}
 		{
@@ -1716,11 +1349,7 @@
 			tasks: [{
 				id: "34F12C7D645E0DB3"
 				type: "item"
-				item: {
-					gprops: { }
-					id: "farmersdelight:cooked_rice"
-					Count: 1b
-				}
+				item: "farmersdelight:cooked_rice"
 			}]
 		}
 		{
@@ -1730,11 +1359,7 @@
 			tasks: [{
 				id: "0513DA54B544E113"
 				type: "item"
-				item: {
-					gprops: { }
-					id: "farmersdelight:fried_rice"
-					Count: 1b
-				}
+				item: "farmersdelight:fried_rice"
 			}]
 		}
 		{
@@ -1760,38 +1385,22 @@
 				{
 					id: "10C7160881F5E9A9"
 					type: "item"
-					item: {
-						gprops: { }
-						id: "minecraft:powder_snow_bucket"
-						Count: 1b
-					}
+					item: "minecraft:powder_snow_bucket"
 				}
 				{
 					id: "6BA7A3DBD9FCD0F7"
 					type: "item"
-					item: {
-						gprops: { }
-						id: "minecraft:carrot"
-						Count: 1b
-					}
+					item: "minecraft:carrot"
 				}
 				{
 					id: "30EF26060F8B2B1B"
 					type: "item"
-					item: {
-						gprops: { }
-						id: "minecraft:coal"
-						Count: 1b
-					}
+					item: "minecraft:coal"
 				}
 				{
 					id: "74836D125D9A01C8"
 					type: "item"
-					item: {
-						gprops: { }
-						id: "minecraft:coal"
-						Count: 1b
-					}
+					item: "minecraft:coal"
 				}
 			]
 		}
@@ -1802,11 +1411,7 @@
 			tasks: [{
 				id: "63FC5B92886A99C4"
 				type: "item"
-				item: {
-					gprops: { }
-					id: "farmersdelight:vegetable_soup"
-					Count: 1b
-				}
+				item: "farmersdelight:vegetable_soup"
 			}]
 		}
 		{
@@ -1816,11 +1421,7 @@
 			tasks: [{
 				id: "2D404FDB11C7C55E"
 				type: "item"
-				item: {
-					gprops: { }
-					id: "farmersdelight:pumpkin_soup"
-					Count: 1b
-				}
+				item: "farmersdelight:pumpkin_soup"
 			}]
 		}
 		{
@@ -1830,11 +1431,7 @@
 			tasks: [{
 				id: "220C287EA8EA4D01"
 				type: "item"
-				item: {
-					gprops: { }
-					id: "farmersdelight:noodle_soup"
-					Count: 1b
-				}
+				item: "farmersdelight:noodle_soup"
 			}]
 		}
 		{
@@ -1844,11 +1441,7 @@
 			tasks: [{
 				id: "51A2D639CA7DAC1E"
 				type: "item"
-				item: {
-					gprops: { }
-					id: "farmersdelight:fish_stew"
-					Count: 1b
-				}
+				item: "farmersdelight:fish_stew"
 			}]
 		}
 		{
@@ -1858,11 +1451,7 @@
 			tasks: [{
 				id: "3B7C4E95E20B48B4"
 				type: "item"
-				item: {
-					gprops: { }
-					id: "farmersdelight:baked_cod_stew"
-					Count: 1b
-				}
+				item: "farmersdelight:baked_cod_stew"
 			}]
 		}
 		{

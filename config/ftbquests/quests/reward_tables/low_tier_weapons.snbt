@@ -1,0 +1,115 @@
+{
+	id: "616980EC07F479AB"
+	order_index: 1
+	title: "Stone Weapons"
+	loot_size: 1
+	use_title: true
+	rewards: [
+		{
+			item: {
+				id: "minecraft:stone_sword"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+			weight: 5
+		}
+		{
+			item: {
+				id: "minecraft:stone_axe"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+			weight: 10
+		}
+		{
+			item: {
+				id: "gateofbabylon:stone_spear"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+			weight: 7
+		}
+		{
+			item: {
+				id: "gateofbabylon:stone_boomerang"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			item: {
+				id: "gateofbabylon:stone_yoyo"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+			weight: 5
+		}
+		{
+			item: {
+				id: "gateofbabylon:stone_dagger"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			item: {
+				id: "gateofbabylon:stone_broadsword"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			item: {
+				id: "gateofbabylon:stone_rapier"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+			weight: 4
+		}
+		{
+			item: {
+				id: "gateofbabylon:stone_haladie"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			item: {
+				id: "gateofbabylon:stone_katana"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+			weight: 3
+		}
+		{
+			item: {
+				id: "gateofbabylon:stone_waraxe"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+			weight: 3
+		}
+	]
+}

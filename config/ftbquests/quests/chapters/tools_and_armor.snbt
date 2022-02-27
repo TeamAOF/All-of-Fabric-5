@@ -4,17 +4,13 @@
 	order_index: 2
 	filename: "tools_and_armor"
 	title: "Tools and Armor"
-	icon: {
-		gprops: { }
-		id: "minecraft:smithing_table"
-		Count: 1b
-	}
+	icon: "minecraft:smithing_table"
 	default_quest_shape: ""
 	default_hide_dependency_lines: false
 	images: [
 		{
-			x: 9.5d
-			y: -19.5d
+			x: 7.0d
+			y: -20.5d
 			width: 1.5d
 			height: 1.5d
 			rotation: 45.0d
@@ -25,8 +21,8 @@
 			corner: false
 		}
 		{
-			x: 10.0d
-			y: -18.0d
+			x: 8.0d
+			y: -19.5d
 			width: 1.0d
 			height: 1.0d
 			rotation: -13.0d
@@ -37,8 +33,8 @@
 			corner: false
 		}
 		{
-			x: 11.0d
-			y: -17.0d
+			x: 8.5d
+			y: -18.5d
 			width: 0.75d
 			height: 0.75d
 			rotation: 20.0d
@@ -58,7 +54,6 @@
 				id: "20A9EAA7F745A465"
 				type: "item"
 				item: {
-					gprops: { }
 					id: "minecraft:iron_helmet"
 					Count: 1b
 					tag: {
@@ -75,7 +70,6 @@
 				id: "654CBB125F60F69D"
 				type: "item"
 				item: {
-					gprops: { }
 					id: "minecraft:diamond_helmet"
 					Count: 1b
 					tag: {
@@ -92,7 +86,6 @@
 				id: "175BCB4F53EE52FE"
 				type: "item"
 				item: {
-					gprops: { }
 					id: "minecraft:golden_helmet"
 					Count: 1b
 					tag: {
@@ -109,7 +102,6 @@
 				id: "2CA1D8D6DAE80728"
 				type: "item"
 				item: {
-					gprops: { }
 					id: "minecraft:netherite_helmet"
 					Count: 1b
 					tag: {
@@ -126,7 +118,6 @@
 				id: "201AC46C3410EF8C"
 				type: "item"
 				item: {
-					gprops: { }
 					id: "additionaladditions:rose_gold_helmet"
 					Count: 1b
 					tag: {
@@ -143,7 +134,6 @@
 				id: "06F7FE3256820024"
 				type: "item"
 				item: {
-					gprops: { }
 					id: "indrev:tin_helmet"
 					Count: 1b
 					tag: {
@@ -160,7 +150,6 @@
 				id: "7E1D2052527C7A2B"
 				type: "item"
 				item: {
-					gprops: { }
 					id: "indrev:lead_helmet"
 					Count: 1b
 					tag: {
@@ -177,7 +166,6 @@
 				id: "00B6056B030C4847"
 				type: "item"
 				item: {
-					gprops: { }
 					id: "indrev:copper_helmet"
 					Count: 1b
 					tag: {
@@ -194,7 +182,6 @@
 				id: "473A98D63A274571"
 				type: "item"
 				item: {
-					gprops: { }
 					id: "techreborn:steel_helmet"
 					Count: 1b
 					tag: {
@@ -211,7 +198,6 @@
 				id: "722C36988A2EB92A"
 				type: "item"
 				item: {
-					gprops: { }
 					id: "techreborn:silver_helmet"
 					Count: 1b
 					tag: {
@@ -228,7 +214,6 @@
 				id: "5169FD1A03E3CE4A"
 				type: "item"
 				item: {
-					gprops: { }
 					id: "indrev:tin_chestplate"
 					Count: 1b
 					tag: {
@@ -245,7 +230,6 @@
 				id: "16320801A24F2D09"
 				type: "item"
 				item: {
-					gprops: { }
 					id: "indrev:tin_leggings"
 					Count: 1b
 					tag: {
@@ -262,7 +246,6 @@
 				id: "65F1349B67B522C7"
 				type: "item"
 				item: {
-					gprops: { }
 					id: "indrev:tin_boots"
 					Count: 1b
 					tag: {
@@ -279,7 +262,6 @@
 				id: "57488C876268EF0C"
 				type: "item"
 				item: {
-					gprops: { }
 					id: "minecraft:iron_chestplate"
 					Count: 1b
 					tag: {
@@ -296,7 +278,6 @@
 				id: "670DA72B65A6F8CA"
 				type: "item"
 				item: {
-					gprops: { }
 					id: "minecraft:iron_leggings"
 					Count: 1b
 					tag: {
@@ -313,7 +294,6 @@
 				id: "5A853BE1BEA7D4CD"
 				type: "item"
 				item: {
-					gprops: { }
 					id: "minecraft:iron_boots"
 					Count: 1b
 					tag: {
@@ -330,7 +310,6 @@
 				id: "59A8739C47565C1C"
 				type: "item"
 				item: {
-					gprops: { }
 					id: "additionaladditions:rose_gold_chestplate"
 					Count: 1b
 					tag: {
@@ -347,7 +326,6 @@
 				id: "0160D0842ECA2708"
 				type: "item"
 				item: {
-					gprops: { }
 					id: "additionaladditions:rose_gold_leggings"
 					Count: 1b
 					tag: {
@@ -364,7 +342,6 @@
 				id: "4490BE67B313F716"
 				type: "item"
 				item: {
-					gprops: { }
 					id: "additionaladditions:rose_gold_boots"
 					Count: 1b
 					tag: {
@@ -381,7 +358,6 @@
 				id: "7FA2081330340A47"
 				type: "item"
 				item: {
-					gprops: { }
 					id: "minecraft:golden_chestplate"
 					Count: 1b
 					tag: {
@@ -398,7 +374,6 @@
 				id: "177703765951CF9D"
 				type: "item"
 				item: {
-					gprops: { }
 					id: "minecraft:golden_leggings"
 					Count: 1b
 					tag: {
@@ -415,7 +390,6 @@
 				id: "26598CF0B0C5BFD1"
 				type: "item"
 				item: {
-					gprops: { }
 					id: "minecraft:golden_boots"
 					Count: 1b
 					tag: {
@@ -432,7 +406,6 @@
 				id: "1C5507910F8BA40D"
 				type: "item"
 				item: {
-					gprops: { }
 					id: "minecraft:diamond_chestplate"
 					Count: 1b
 					tag: {
@@ -449,7 +422,6 @@
 				id: "3ACDFC9B56C49B40"
 				type: "item"
 				item: {
-					gprops: { }
 					id: "minecraft:diamond_leggings"
 					Count: 1b
 					tag: {
@@ -466,7 +438,6 @@
 				id: "1AE17EAFA5F030BC"
 				type: "item"
 				item: {
-					gprops: { }
 					id: "minecraft:diamond_boots"
 					Count: 1b
 					tag: {
@@ -483,7 +454,6 @@
 				id: "59ECC7BC7655EC75"
 				type: "item"
 				item: {
-					gprops: { }
 					id: "techreborn:silver_chestplate"
 					Count: 1b
 					tag: {
@@ -500,7 +470,6 @@
 				id: "605D9537C0BAEF3D"
 				type: "item"
 				item: {
-					gprops: { }
 					id: "techreborn:silver_leggings"
 					Count: 1b
 					tag: {
@@ -517,7 +486,6 @@
 				id: "1BF2C3F6389520E2"
 				type: "item"
 				item: {
-					gprops: { }
 					id: "techreborn:silver_boots"
 					Count: 1b
 					tag: {
@@ -534,7 +502,6 @@
 				id: "23B0F5DC38B48FC9"
 				type: "item"
 				item: {
-					gprops: { }
 					id: "minecraft:netherite_chestplate"
 					Count: 1b
 					tag: {
@@ -551,7 +518,6 @@
 				id: "14C3E40C41E74784"
 				type: "item"
 				item: {
-					gprops: { }
 					id: "minecraft:netherite_leggings"
 					Count: 1b
 					tag: {
@@ -568,7 +534,6 @@
 				id: "48917C11E549AACA"
 				type: "item"
 				item: {
-					gprops: { }
 					id: "minecraft:netherite_boots"
 					Count: 1b
 					tag: {
@@ -585,7 +550,6 @@
 				id: "7CF66398A810B346"
 				type: "item"
 				item: {
-					gprops: { }
 					id: "techreborn:steel_chestplate"
 					Count: 1b
 					tag: {
@@ -602,7 +566,6 @@
 				id: "14F22C34A54D6695"
 				type: "item"
 				item: {
-					gprops: { }
 					id: "techreborn:steel_leggings"
 					Count: 1b
 					tag: {
@@ -619,7 +582,6 @@
 				id: "20015AB249A07A01"
 				type: "item"
 				item: {
-					gprops: { }
 					id: "techreborn:steel_boots"
 					Count: 1b
 					tag: {
@@ -636,7 +598,6 @@
 				id: "1E92C7CE1D7789B2"
 				type: "item"
 				item: {
-					gprops: { }
 					id: "indrev:lead_chestplate"
 					Count: 1b
 					tag: {
@@ -653,7 +614,6 @@
 				id: "7D4A7A7BB28621F1"
 				type: "item"
 				item: {
-					gprops: { }
 					id: "indrev:lead_leggings"
 					Count: 1b
 					tag: {
@@ -670,7 +630,6 @@
 				id: "03CF6A65145CCE14"
 				type: "item"
 				item: {
-					gprops: { }
 					id: "indrev:lead_boots"
 					Count: 1b
 					tag: {
@@ -687,7 +646,6 @@
 				id: "6C5225702F3DB4B6"
 				type: "item"
 				item: {
-					gprops: { }
 					id: "indrev:copper_chestplate"
 					Count: 1b
 					tag: {
@@ -704,7 +662,6 @@
 				id: "44AD4E26F61DDCBC"
 				type: "item"
 				item: {
-					gprops: { }
 					id: "indrev:copper_leggings"
 					Count: 1b
 					tag: {
@@ -721,7 +678,6 @@
 				id: "5A20F56FADC9065C"
 				type: "item"
 				item: {
-					gprops: { }
 					id: "indrev:copper_boots"
 					Count: 1b
 					tag: {
@@ -738,7 +694,6 @@
 				id: "5F7FCB5F00E1267A"
 				type: "item"
 				item: {
-					gprops: { }
 					id: "techreborn:bronze_helmet"
 					Count: 1b
 					tag: {
@@ -755,7 +710,6 @@
 				id: "7978D0CD7B88833F"
 				type: "item"
 				item: {
-					gprops: { }
 					id: "techreborn:bronze_chestplate"
 					Count: 1b
 					tag: {
@@ -772,7 +726,6 @@
 				id: "1BF46F827D3D7DE2"
 				type: "item"
 				item: {
-					gprops: { }
 					id: "techreborn:bronze_leggings"
 					Count: 1b
 					tag: {
@@ -789,7 +742,6 @@
 				id: "7211845316E56BB2"
 				type: "item"
 				item: {
-					gprops: { }
 					id: "techreborn:bronze_boots"
 					Count: 1b
 					tag: {
@@ -806,7 +758,6 @@
 				id: "211C955AAB650EB3"
 				type: "item"
 				item: {
-					gprops: { }
 					id: "harvest_scythes:wooden_scythe"
 					Count: 1b
 					tag: {
@@ -817,11 +768,7 @@
 			rewards: [{
 				id: "399BDFA5D496435C"
 				type: "item"
-				item: {
-					gprops: { }
-					id: "croptopia:taco"
-					Count: 1b
-				}
+				item: "croptopia:taco"
 			}]
 		}
 		{
@@ -833,7 +780,6 @@
 				id: "5FE89CA36BF05B0E"
 				type: "item"
 				item: {
-					gprops: { }
 					id: "harvest_scythes:stone_scythe"
 					Count: 1b
 					tag: {
@@ -844,11 +790,7 @@
 			rewards: [{
 				id: "1969CE1B1DA0E5BB"
 				type: "item"
-				item: {
-					gprops: { }
-					id: "minecraft:birch_sapling"
-					Count: 1b
-				}
+				item: "minecraft:birch_sapling"
 				count: 6
 			}]
 		}
@@ -861,7 +803,6 @@
 				id: "7434B5CBF7D5553D"
 				type: "item"
 				item: {
-					gprops: { }
 					id: "harvest_scythes:iron_scythe"
 					Count: 1b
 					tag: {
@@ -873,20 +814,12 @@
 				{
 					id: "285DCE7295A03C86"
 					type: "item"
-					item: {
-						gprops: { }
-						id: "minecraft:gold_nugget"
-						Count: 1b
-					}
+					item: "minecraft:gold_nugget"
 				}
 				{
 					id: "6E7A5B4DEA1C43C3"
 					type: "item"
-					item: {
-						gprops: { }
-						id: "minecraft:stone"
-						Count: 1b
-					}
+					item: "minecraft:stone"
 					count: 64
 				}
 			]
@@ -900,7 +833,6 @@
 				id: "1BEDE68AD6C8E501"
 				type: "item"
 				item: {
-					gprops: { }
 					id: "harvest_scythes:diamond_scythe"
 					Count: 1b
 					tag: {
@@ -912,21 +844,13 @@
 				{
 					id: "535F7DB424F9C871"
 					type: "item"
-					item: {
-						gprops: { }
-						id: "minecraft:dark_oak_sapling"
-						Count: 1b
-					}
+					item: "minecraft:dark_oak_sapling"
 					count: 64
 				}
 				{
 					id: "63DC01516E4AD0C0"
 					type: "item"
-					item: {
-						gprops: { }
-						id: "croptopia:cheese_cake"
-						Count: 1b
-					}
+					item: "croptopia:cheese_cake"
 				}
 			]
 		}
@@ -939,7 +863,6 @@
 				id: "370235B9D854F7D2"
 				type: "item"
 				item: {
-					gprops: { }
 					id: "harvest_scythes:netherite_scythe"
 					Count: 1b
 					tag: {
@@ -1263,7 +1186,6 @@
 				id: "4CFABE20D5D0734E"
 				type: "item"
 				item: {
-					gprops: { }
 					id: "harvest_scythes:wooden_machete"
 					Count: 1b
 					tag: {
@@ -1281,7 +1203,6 @@
 				id: "6D04A24727659F90"
 				type: "item"
 				item: {
-					gprops: { }
 					id: "harvest_scythes:stone_machete"
 					Count: 1b
 					tag: {
@@ -1299,7 +1220,6 @@
 				id: "17ED0BBA386CA93B"
 				type: "item"
 				item: {
-					gprops: { }
 					id: "harvest_scythes:iron_machete"
 					Count: 1b
 					tag: {
@@ -1317,7 +1237,6 @@
 				id: "23A52AED665AB49E"
 				type: "item"
 				item: {
-					gprops: { }
 					id: "harvest_scythes:golden_machete"
 					Count: 1b
 					tag: {
@@ -1335,7 +1254,6 @@
 				id: "2459D535558F1BC8"
 				type: "item"
 				item: {
-					gprops: { }
 					id: "harvest_scythes:bronze_machete"
 					Count: 1b
 					tag: {
@@ -1353,7 +1271,6 @@
 				id: "64B750E1C7665988"
 				type: "item"
 				item: {
-					gprops: { }
 					id: "harvest_scythes:diamond_machete"
 					Count: 1b
 					tag: {
@@ -1371,7 +1288,6 @@
 				id: "5E4F39F72F89F6E5"
 				type: "item"
 				item: {
-					gprops: { }
 					id: "harvest_scythes:netherite_machete"
 					Count: 1b
 					tag: {
@@ -1389,7 +1305,6 @@
 				id: "7483C56575A23A1B"
 				type: "item"
 				item: {
-					gprops: { }
 					id: "harvest_scythes:golden_scythe"
 					Count: 1b
 					tag: {
@@ -1407,7 +1322,6 @@
 				id: "20551D888F260DED"
 				type: "item"
 				item: {
-					gprops: { }
 					id: "harvest_scythes:bronze_scythe"
 					Count: 1b
 					tag: {
@@ -1424,7 +1338,6 @@
 				id: "5CE6D8539B744D65"
 				type: "item"
 				item: {
-					gprops: { }
 					id: "vanilla-hammers:iron_hammer"
 					Count: 1b
 					tag: {
@@ -1441,7 +1354,6 @@
 				id: "10909537700BAF70"
 				type: "item"
 				item: {
-					gprops: { }
 					id: "vanilla-hammers:golden_hammer"
 					Count: 1b
 					tag: {
@@ -1458,7 +1370,6 @@
 				id: "1EB98FA181E834EF"
 				type: "item"
 				item: {
-					gprops: { }
 					id: "vanilla-hammers:netherite_hammer"
 					Count: 1b
 					tag: {
@@ -1475,7 +1386,6 @@
 				id: "4207ACB34ED12475"
 				type: "item"
 				item: {
-					gprops: { }
 					id: "vanilla-hammers:prismarine_hammer"
 					Count: 1b
 					tag: {
@@ -1492,7 +1402,6 @@
 				id: "7482ADE625054F52"
 				type: "item"
 				item: {
-					gprops: { }
 					id: "vanilla-hammers:quartz_hammer"
 					Count: 1b
 					tag: {
@@ -1509,7 +1418,6 @@
 				id: "7E1094F64CD83282"
 				type: "item"
 				item: {
-					gprops: { }
 					id: "vanilla-hammers:slime_hammer"
 					Count: 1b
 					tag: {
@@ -1526,7 +1434,6 @@
 				id: "52686AD5E299CF64"
 				type: "item"
 				item: {
-					gprops: { }
 					id: "vanilla-hammers:stone_hammer"
 					Count: 1b
 					tag: {
@@ -1543,7 +1450,6 @@
 				id: "6E345951CAB31CD4"
 				type: "item"
 				item: {
-					gprops: { }
 					id: "vanilla-hammers:wooden_hammer"
 					Count: 1b
 					tag: {
@@ -1560,7 +1466,6 @@
 				id: "36031BDDB1CBEC92"
 				type: "item"
 				item: {
-					gprops: { }
 					id: "vanilla-hammers:lapis_hammer"
 					Count: 1b
 					tag: {
@@ -1577,7 +1482,6 @@
 				id: "0169588C60643284"
 				type: "item"
 				item: {
-					gprops: { }
 					id: "vanilla-hammers:fiery_hammer"
 					Count: 1b
 					tag: {
@@ -1594,7 +1498,6 @@
 				id: "00DDB3A38F30F737"
 				type: "item"
 				item: {
-					gprops: { }
 					id: "vanilla-hammers:ender_hammer"
 					Count: 1b
 					tag: {
@@ -1611,7 +1514,6 @@
 				id: "1FA9F25B749B7B2C"
 				type: "item"
 				item: {
-					gprops: { }
 					id: "vanilla-hammers:emerald_hammer"
 					Count: 1b
 					tag: {
@@ -1628,7 +1530,6 @@
 				id: "45FB8B0C681E120C"
 				type: "item"
 				item: {
-					gprops: { }
 					id: "vanilla-hammers:diamond_hammer"
 					Count: 1b
 					tag: {
@@ -1676,7 +1577,6 @@
 				id: "7B09A2F204E7554D"
 				type: "item"
 				item: {
-					gprops: { }
 					id: "vanillaexcavators:wooden_excavator"
 					Count: 1b
 					tag: {
@@ -1693,7 +1593,6 @@
 				id: "7251431ECCA545CA"
 				type: "item"
 				item: {
-					gprops: { }
 					id: "vanillaexcavators:stone_excavator"
 					Count: 1b
 					tag: {
@@ -1710,7 +1609,6 @@
 				id: "1EF0B2BDEDAE015B"
 				type: "item"
 				item: {
-					gprops: { }
 					id: "vanillaexcavators:iron_excavator"
 					Count: 1b
 					tag: {
@@ -1727,7 +1625,6 @@
 				id: "7AAC4C7D40DE37AF"
 				type: "item"
 				item: {
-					gprops: { }
 					id: "vanillaexcavators:golden_excavator"
 					Count: 1b
 					tag: {
@@ -1744,7 +1641,6 @@
 				id: "4771070070E9CDCB"
 				type: "item"
 				item: {
-					gprops: { }
 					id: "vanillaexcavators:diamond_excavator"
 					Count: 1b
 					tag: {
@@ -1761,7 +1657,6 @@
 				id: "4A0150770E19FFA7"
 				type: "item"
 				item: {
-					gprops: { }
 					id: "vanillaexcavators:netherite_excavator"
 					Count: 1b
 					tag: {
@@ -1778,7 +1673,6 @@
 				id: "16C33D96AEA81D4B"
 				type: "item"
 				item: {
-					gprops: { }
 					id: "vanillaexcavators:emerald_excavator"
 					Count: 1b
 					tag: {
@@ -1795,7 +1689,6 @@
 				id: "548E0D25D516BAA8"
 				type: "item"
 				item: {
-					gprops: { }
 					id: "vanillaexcavators:lapis_excavator"
 					Count: 1b
 					tag: {
@@ -1812,7 +1705,6 @@
 				id: "0A5F4646CF6FED15"
 				type: "item"
 				item: {
-					gprops: { }
 					id: "vanillaexcavators:quartz_excavator"
 					Count: 1b
 					tag: {
@@ -1829,7 +1721,6 @@
 				id: "794EBC14DE34276A"
 				type: "item"
 				item: {
-					gprops: { }
 					id: "vanillaexcavators:fiery_excavator"
 					Count: 1b
 					tag: {
@@ -1846,7 +1737,6 @@
 				id: "7C7D363926918CF4"
 				type: "item"
 				item: {
-					gprops: { }
 					id: "vanillaexcavators:prismarine_excavator"
 					Count: 1b
 					tag: {
@@ -1863,7 +1753,6 @@
 				id: "53977E9B639D128B"
 				type: "item"
 				item: {
-					gprops: { }
 					id: "vanillaexcavators:ender_excavator"
 					Count: 1b
 					tag: {
@@ -1880,7 +1769,6 @@
 				id: "26454550BBD3A8FC"
 				type: "item"
 				item: {
-					gprops: { }
 					id: "vanillaexcavators:slime_excavator"
 					Count: 1b
 					tag: {
@@ -1927,7 +1815,6 @@
 				id: "7AFE6E71D3E35BC5"
 				type: "item"
 				item: {
-					gprops: { }
 					id: "basicaiots:wooden_aiot"
 					Count: 1b
 					tag: {
@@ -1938,11 +1825,7 @@
 			rewards: [{
 				id: "6C0EEEDA1134B757"
 				type: "item"
-				item: {
-					gprops: { }
-					id: "minecraft:paper"
-					Count: 1b
-				}
+				item: "minecraft:paper"
 				count: 12
 			}]
 		}
@@ -1954,7 +1837,6 @@
 				id: "11C49C07FAC29E0D"
 				type: "item"
 				item: {
-					gprops: { }
 					id: "basicaiots:stone_aiot"
 					Count: 1b
 					tag: {
@@ -1965,11 +1847,7 @@
 			rewards: [{
 				id: "04B8AE12B523EF42"
 				type: "item"
-				item: {
-					gprops: { }
-					id: "adorn:stone_torch"
-					Count: 1b
-				}
+				item: "adorn:stone_torch"
 				count: 12
 			}]
 		}
@@ -1981,7 +1859,6 @@
 				id: "38719249603AA2C6"
 				type: "item"
 				item: {
-					gprops: { }
 					id: "basicaiots:golden_aiot"
 					Count: 1b
 					tag: {
@@ -1992,11 +1869,7 @@
 			rewards: [{
 				id: "1063FDFA65B31229"
 				type: "item"
-				item: {
-					gprops: { }
-					id: "modern_industrialization:gold_dust"
-					Count: 1b
-				}
+				item: "modern_industrialization:gold_dust"
 				count: 12
 			}]
 		}
@@ -2008,7 +1881,6 @@
 				id: "1A032A42AA447B74"
 				type: "item"
 				item: {
-					gprops: { }
 					id: "basicaiots:iron_aiot"
 					Count: 1b
 					tag: {
@@ -2019,11 +1891,7 @@
 			rewards: [{
 				id: "4C131934B6AC199A"
 				type: "item"
-				item: {
-					gprops: { }
-					id: "modern_industrialization:iron_dust"
-					Count: 1b
-				}
+				item: "modern_industrialization:iron_dust"
 				count: 12
 			}]
 		}
@@ -2035,7 +1903,6 @@
 				id: "30DBB8E1FEAD6150"
 				type: "item"
 				item: {
-					gprops: { }
 					id: "basicaiots:diamond_aiot"
 					Count: 1b
 					tag: {
@@ -2046,11 +1913,7 @@
 			rewards: [{
 				id: "38B5BCDA01EE5102"
 				type: "item"
-				item: {
-					gprops: { }
-					id: "modern_industrialization:diamond_dust"
-					Count: 1b
-				}
+				item: "modern_industrialization:diamond_dust"
 				count: 12
 			}]
 		}
@@ -2070,7 +1933,6 @@
 				id: "11EE09267BD3E204"
 				type: "item"
 				item: {
-					gprops: { }
 					id: "basicaiots:netherite_aiot"
 					Count: 1b
 					tag: {
@@ -2092,7 +1954,6 @@
 				id: "0D3CCDEC8F757D40"
 				type: "item"
 				item: {
-					gprops: { }
 					id: "basicaiots:bronze_aiot"
 					Count: 1b
 					tag: {
@@ -2103,22 +1964,14 @@
 			rewards: [{
 				id: "55B7A7E6C8323600"
 				type: "item"
-				item: {
-					gprops: { }
-					id: "modern_industrialization:bronze_dust"
-					Count: 1b
-				}
+				item: "modern_industrialization:bronze_dust"
 				count: 12
 			}]
 		}
 		{
-			icon: {
-				gprops: { }
-				id: "minecraft:enchanting_table"
-				Count: 1b
-			}
-			x: 8.5d
-			y: -18.5d
+			icon: "minecraft:enchanting_table"
+			x: 5.5d
+			y: -17.0d
 			subtitle: "Always Enchant Your Gear!"
 			description: ["Don't waste your gear without enchanting!"]
 			id: "78213A977AB8E104"
@@ -2126,20 +1979,12 @@
 				{
 					id: "4560F2DFA1D8713A"
 					type: "item"
-					item: {
-						gprops: { }
-						id: "minecraft:enchanting_table"
-						Count: 1b
-					}
+					item: "minecraft:enchanting_table"
 				}
 				{
 					id: "76CFC0AA433A1E9C"
 					type: "item"
-					item: {
-						gprops: { }
-						id: "minecraft:bookshelf"
-						Count: 1b
-					}
+					item: "minecraft:bookshelf"
 					count: 15L
 				}
 			]
@@ -2147,7 +1992,6 @@
 				id: "70BFA828B9DE7E7E"
 				type: "item"
 				item: {
-					gprops: { }
 					id: "minecraft:enchanted_book"
 					Count: 1b
 					tag: {
@@ -2160,8 +2004,8 @@
 			}]
 		}
 		{
-			x: 8.5d
-			y: -17.5d
+			x: 5.5d
+			y: -18.5d
 			subtitle: "No Need For a Washing Machine"
 			description: ["Grindstones are great to remove enchants off your gear at low levels so you can re-enchant them again!"]
 			dependencies: ["78213A977AB8E104"]
@@ -2169,17 +2013,12 @@
 			tasks: [{
 				id: "00ED1B602BCB417A"
 				type: "item"
-				item: {
-					gprops: { }
-					id: "minecraft:grindstone"
-					Count: 1b
-				}
+				item: "minecraft:grindstone"
 			}]
 			rewards: [{
 				id: "500C1539A8887290"
 				type: "item"
 				item: {
-					gprops: { }
 					id: "minecraft:enchanted_book"
 					Count: 1b
 					tag: {
@@ -2192,8 +2031,8 @@
 			}]
 		}
 		{
-			x: 7.5d
-			y: -17.5d
+			x: 5.5d
+			y: -20.0d
 			subtitle: "Booking Enchants Downtown"
 			description: [
 				"Now you can remove enchants and put them onto a Book!"
@@ -2205,17 +2044,12 @@
 			tasks: [{
 				id: "015F564C649F1FB1"
 				type: "item"
-				item: {
-					gprops: { }
-					id: "infusion_table:infusion_table"
-					Count: 1b
-				}
+				item: "infusion_table:infusion_table"
 			}]
 			rewards: [{
 				id: "6D24214DE06F2B9B"
 				type: "item"
 				item: {
-					gprops: { }
 					id: "minecraft:enchanted_book"
 					Count: 1b
 					tag: {
@@ -2228,12 +2062,8 @@
 			}]
 		}
 		{
-			icon: {
-				gprops: { }
-				id: "xps:block_xp_obelisk"
-				Count: 1b
-			}
-			x: 7.5d
+			icon: "xps:block_xp_obelisk"
+			x: 4.0d
 			y: -18.5d
 			subtitle: "Enchanting Efficiency"
 			description: ["If you did not know by now that as you level up you waste more and more experince points when enchanting. So instead of wasting experince why not store it in this handy container!"]
@@ -2244,30 +2074,18 @@
 				{
 					id: "61327AB9EC4286FA"
 					type: "item"
-					item: {
-						gprops: { }
-						id: "xps:block_xp_obelisk"
-						Count: 1b
-					}
+					item: "xps:block_xp_obelisk"
 				}
 				{
 					id: "0F4E345BBC47ADB4"
 					type: "item"
-					item: {
-						gprops: { }
-						id: "xps:xp_remover"
-						Count: 1b
-					}
+					item: "xps:xp_remover"
 				}
 			]
 			rewards: [{
 				id: "13B854E24202DC9B"
 				type: "item"
-				item: {
-					gprops: { }
-					id: "minecraft:experience_bottle"
-					Count: 1b
-				}
+				item: "minecraft:experience_bottle"
 				count: 2
 				random_bonus: 8
 			}]
@@ -2280,7 +2098,6 @@
 				id: "0DB4E7D4FFD6121A"
 				type: "item"
 				item: {
-					gprops: { }
 					id: "botania:manaweave_helmet"
 					Count: 1b
 					tag: {
@@ -2297,7 +2114,6 @@
 				id: "19E4F43BA456F11D"
 				type: "item"
 				item: {
-					gprops: { }
 					id: "botania:manaweave_chestplate"
 					Count: 1b
 					tag: {
@@ -2314,7 +2130,6 @@
 				id: "568D2C363BCBA2ED"
 				type: "item"
 				item: {
-					gprops: { }
 					id: "botania:manaweave_leggings"
 					Count: 1b
 					tag: {
@@ -2331,7 +2146,6 @@
 				id: "78D3B85C9DAB7B5C"
 				type: "item"
 				item: {
-					gprops: { }
 					id: "botania:manaweave_boots"
 					Count: 1b
 					tag: {
@@ -2348,7 +2162,6 @@
 				id: "3251E5765448AEF9"
 				type: "item"
 				item: {
-					gprops: { }
 					id: "botania:manasteel_helmet"
 					Count: 1b
 					tag: {
@@ -2365,7 +2178,6 @@
 				id: "1AC3CD779D71DB4D"
 				type: "item"
 				item: {
-					gprops: { }
 					id: "botania:manasteel_chestplate"
 					Count: 1b
 					tag: {
@@ -2382,7 +2194,6 @@
 				id: "3153EE3F17E9F28C"
 				type: "item"
 				item: {
-					gprops: { }
 					id: "botania:manasteel_leggings"
 					Count: 1b
 					tag: {
@@ -2399,7 +2210,6 @@
 				id: "5299B408AA5171BD"
 				type: "item"
 				item: {
-					gprops: { }
 					id: "botania:manasteel_boots"
 					Count: 1b
 					tag: {
@@ -2416,7 +2226,6 @@
 				id: "21D60DBA91E77D22"
 				type: "item"
 				item: {
-					gprops: { }
 					id: "botania:terrasteel_helmet"
 					Count: 1b
 					tag: {
@@ -2433,7 +2242,6 @@
 				id: "59CC7FE5A0FBD342"
 				type: "item"
 				item: {
-					gprops: { }
 					id: "botania:terrasteel_chestplate"
 					Count: 1b
 					tag: {
@@ -2450,7 +2258,6 @@
 				id: "34121158EED3617C"
 				type: "item"
 				item: {
-					gprops: { }
 					id: "botania:terrasteel_leggings"
 					Count: 1b
 					tag: {
@@ -2467,7 +2274,6 @@
 				id: "164646E9DBCD8E7F"
 				type: "item"
 				item: {
-					gprops: { }
 					id: "botania:terrasteel_boots"
 					Count: 1b
 					tag: {
@@ -2484,7 +2290,6 @@
 				id: "6606688B1990C801"
 				type: "item"
 				item: {
-					gprops: { }
 					id: "botania:elementium_helmet"
 					Count: 1b
 					tag: {
@@ -2501,7 +2306,6 @@
 				id: "64B89C252C3357A4"
 				type: "item"
 				item: {
-					gprops: { }
 					id: "botania:elementium_chestplate"
 					Count: 1b
 					tag: {
@@ -2518,7 +2322,6 @@
 				id: "709C7F0ED5737CBA"
 				type: "item"
 				item: {
-					gprops: { }
 					id: "botania:elementium_leggings"
 					Count: 1b
 					tag: {
@@ -2535,7 +2338,6 @@
 				id: "57928696AC7E43A9"
 				type: "item"
 				item: {
-					gprops: { }
 					id: "botania:elementium_boots"
 					Count: 1b
 					tag: {
@@ -2623,7 +2425,6 @@
 				id: "01F2F6AAA892A94C"
 				type: "item"
 				item: {
-					gprops: { }
 					id: "botania:manasteel_pick"
 					Count: 1b
 					tag: {
@@ -2640,7 +2441,6 @@
 				id: "3B11A7AD76C25279"
 				type: "item"
 				item: {
-					gprops: { }
 					id: "botania:manasteel_shovel"
 					Count: 1b
 					tag: {
@@ -2657,7 +2457,6 @@
 				id: "2DCCD1BEB871BAC1"
 				type: "item"
 				item: {
-					gprops: { }
 					id: "botania:manasteel_hoe"
 					Count: 1b
 					tag: {
@@ -2674,7 +2473,6 @@
 				id: "41ADF3D7EF0D45A1"
 				type: "item"
 				item: {
-					gprops: { }
 					id: "botania:manasteel_axe"
 					Count: 1b
 					tag: {
@@ -2691,7 +2489,6 @@
 				id: "46B747277999EC78"
 				type: "item"
 				item: {
-					gprops: { }
 					id: "botania:manasteel_sword"
 					Count: 1b
 					tag: {
@@ -2708,7 +2505,6 @@
 				id: "2B6B5CC8223CAF55"
 				type: "item"
 				item: {
-					gprops: { }
 					id: "botania:manasteel_shears"
 					Count: 1b
 					tag: {
@@ -2725,7 +2521,6 @@
 				id: "57148315551E7787"
 				type: "item"
 				item: {
-					gprops: { }
 					id: "botania:elementium_pickaxe"
 					Count: 1b
 					tag: {
@@ -2742,7 +2537,6 @@
 				id: "18CC5A78979D1438"
 				type: "item"
 				item: {
-					gprops: { }
 					id: "botania:elementium_shovel"
 					Count: 1b
 					tag: {
@@ -2759,7 +2553,6 @@
 				id: "73A8F50C49B8EBE8"
 				type: "item"
 				item: {
-					gprops: { }
 					id: "botania:elementium_hoe"
 					Count: 1b
 					tag: {
@@ -2776,7 +2569,6 @@
 				id: "609673962028B128"
 				type: "item"
 				item: {
-					gprops: { }
 					id: "botania:elementium_axe"
 					Count: 1b
 					tag: {
@@ -2793,7 +2585,6 @@
 				id: "4DEC59F6E09464A1"
 				type: "item"
 				item: {
-					gprops: { }
 					id: "botania:elementium_sword"
 					Count: 1b
 					tag: {
@@ -2810,7 +2601,6 @@
 				id: "5A91BB731720CD85"
 				type: "item"
 				item: {
-					gprops: { }
 					id: "botania:elementium_shears"
 					Count: 1b
 					tag: {
@@ -2827,7 +2617,6 @@
 				id: "3C616C09777386FF"
 				type: "item"
 				item: {
-					gprops: { }
 					id: "botania:terra_pick"
 					Count: 1b
 					tag: {
@@ -2845,7 +2634,6 @@
 				id: "68A64BE6085A45A8"
 				type: "item"
 				item: {
-					gprops: { }
 					id: "botania:terra_axe"
 					Count: 1b
 					tag: {
@@ -2862,7 +2650,6 @@
 				id: "35830D82F07A7CA3"
 				type: "item"
 				item: {
-					gprops: { }
 					id: "botania:terra_sword"
 					Count: 1b
 					tag: {
@@ -2880,7 +2667,6 @@
 				id: "3505EFF3EA2D6BE3"
 				type: "item"
 				item: {
-					gprops: { }
 					id: "botania:thunder_sword"
 					Count: 1b
 					tag: {
@@ -2898,7 +2684,6 @@
 				id: "2E1454E7B4DF6477"
 				type: "item"
 				item: {
-					gprops: { }
 					id: "botania:star_sword"
 					Count: 1b
 					tag: {
@@ -2953,7 +2738,6 @@
 				id: "1C8C86CE8D780327"
 				type: "item"
 				item: {
-					gprops: { }
 					id: "techreborn:quantum_helmet"
 					Count: 1b
 					tag: {
@@ -2970,7 +2754,6 @@
 				id: "6BE5933C2D6D0779"
 				type: "item"
 				item: {
-					gprops: { }
 					id: "techreborn:quantum_chestplate"
 					Count: 1b
 					tag: {
@@ -2987,7 +2770,6 @@
 				id: "1DABB7158ECF9A28"
 				type: "item"
 				item: {
-					gprops: { }
 					id: "techreborn:quantum_leggings"
 					Count: 1b
 					tag: {
@@ -3004,7 +2786,6 @@
 				id: "30896FD6C7E6B561"
 				type: "item"
 				item: {
-					gprops: { }
 					id: "techreborn:quantum_boots"
 					Count: 1b
 					tag: {
@@ -3021,7 +2802,6 @@
 				id: "635092CDAF5C5F45"
 				type: "item"
 				item: {
-					gprops: { }
 					id: "techreborn:nanosaber"
 					Count: 1b
 					tag: {
@@ -3046,6 +2826,17 @@
 				id: "69550F5808AB287E"
 				type: "checkmark"
 				title: "Quantum Supremacy"
+			}]
+		}
+		{
+			x: 7.0d
+			y: -18.5d
+			dependencies: ["78213A977AB8E104"]
+			id: "030CFE419C9627F0"
+			tasks: [{
+				id: "2A1E3263D4BC0DE4"
+				type: "item"
+				item: "dark-enchanting:dark_enchanter"
 			}]
 		}
 	]

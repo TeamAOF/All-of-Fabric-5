@@ -4,11 +4,7 @@
 	order_index: 2
 	filename: "tech_reborn"
 	title: "Tech Reborn"
-	icon: {
-		gprops: { }
-		id: "techreborn:matter_fabricator"
-		Count: 1b
-	}
+	icon: "techreborn:matter_fabricator"
 	default_quest_shape: "rsquare"
 	default_hide_dependency_lines: false
 	images: [{
@@ -26,11 +22,7 @@
 	quests: [
 		{
 			title: "Tech Reborn"
-			icon: {
-				gprops: { }
-				id: "techreborn:manual"
-				Count: 1b
-			}
+			icon: "techreborn:manual"
 			x: -19.5d
 			y: 3.5d
 			subtitle: "Tech Reborn is a tech mod including tools and machines to gather resources, process materials, and progress through the mod."
@@ -46,16 +38,11 @@
 			rewards: [{
 				id: "546044F7F2A2862B"
 				type: "item"
-				item: {
-					gprops: { }
-					id: "techreborn:manual"
-					Count: 1b
-				}
+				item: "techreborn:manual"
 			}]
 		}
 		{
 			icon: {
-				gprops: { }
 				id: "techreborn:treetap"
 				Count: 1b
 				tag: {
@@ -79,7 +66,6 @@
 					id: "3C2F99001860B9E8"
 					type: "item"
 					item: {
-						gprops: { }
 						id: "techreborn:treetap"
 						Count: 1b
 						tag: {
@@ -90,21 +76,13 @@
 				{
 					id: "492D0F0F4BAA3931"
 					type: "item"
-					item: {
-						gprops: { }
-						id: "techreborn:sap"
-						Count: 1b
-					}
+					item: "techreborn:sap"
 					count: 6L
 				}
 				{
 					id: "68E17F6E8980B879"
 					type: "item"
-					item: {
-						gprops: { }
-						id: "techreborn:rubber"
-						Count: 1b
-					}
+					item: "techreborn:rubber"
 					count: 6L
 				}
 			]
@@ -112,7 +90,6 @@
 				id: "1370B40BF917925A"
 				type: "item"
 				item: {
-					gprops: { }
 					id: "techreborn:treetap"
 					Count: 1b
 					tag: {
@@ -135,21 +112,13 @@
 			tasks: [{
 				id: "76E9BBA63602A37A"
 				type: "item"
-				item: {
-					gprops: { }
-					id: "techreborn:refined_iron_ingot"
-					Count: 1b
-				}
+				item: "techreborn:refined_iron_ingot"
 				count: 8L
 			}]
 			rewards: [{
 				id: "28031C88C2918419"
 				type: "item"
-				item: {
-					gprops: { }
-					id: "minecraft:iron_ingot"
-					Count: 1b
-				}
+				item: "minecraft:iron_ingot"
 				count: 4
 			}]
 		}
@@ -165,29 +134,17 @@
 			tasks: [{
 				id: "4C79921177EFADDC"
 				type: "item"
-				item: {
-					gprops: { }
-					id: "techreborn:electronic_circuit"
-					Count: 1b
-				}
+				item: "techreborn:electronic_circuit"
 			}]
 			rewards: [{
 				id: "252AD579C758B41B"
 				type: "item"
-				item: {
-					gprops: { }
-					id: "techreborn:sap"
-					Count: 1b
-				}
+				item: "techreborn:sap"
 			}]
 		}
 		{
 			title: "Generating Power"
-			icon: {
-				gprops: { }
-				id: "techreborn:solid_fuel_generator"
-				Count: 1b
-			}
+			icon: "techreborn:solid_fuel_generator"
 			x: -13.5d
 			y: -7.5d
 			subtitle: "Your first machine from TR"
@@ -201,20 +158,12 @@
 			tasks: [{
 				id: "17F4F43262189636"
 				type: "item"
-				item: {
-					gprops: { }
-					id: "techreborn:solid_fuel_generator"
-					Count: 1b
-				}
+				item: "techreborn:solid_fuel_generator"
 			}]
 			rewards: [{
 				id: "46EDE253B7061413"
 				type: "item"
-				item: {
-					gprops: { }
-					id: "minecraft:coal_block"
-					Count: 1b
-				}
+				item: "minecraft:coal_block"
 			}]
 		}
 		{
@@ -227,20 +176,12 @@
 			tasks: [{
 				id: "67549940FC735CCB"
 				type: "item"
-				item: {
-					gprops: { }
-					id: "techreborn:electric_furnace"
-					Count: 1b
-				}
+				item: "techreborn:electric_furnace"
 			}]
 			rewards: [{
 				id: "7BE4757FD9082E73"
 				type: "item"
-				item: {
-					gprops: { }
-					id: "minecraft:porkchop"
-					Count: 1b
-				}
+				item: "minecraft:porkchop"
 			}]
 		}
 		{
@@ -256,20 +197,12 @@
 			tasks: [{
 				id: "085CC7F6D9F9E3F0"
 				type: "item"
-				item: {
-					gprops: { }
-					id: "techreborn:grinder"
-					Count: 1b
-				}
+				item: "techreborn:grinder"
 			}]
 			rewards: [{
 				id: "79476464C79EA0E1"
 				type: "item"
-				item: {
-					gprops: { }
-					id: "croptopia:flour"
-					Count: 1b
-				}
+				item: "croptopia:flour"
 			}]
 		}
 		{
@@ -282,20 +215,12 @@
 			tasks: [{
 				id: "491ED2AD681AF639"
 				type: "item"
-				item: {
-					gprops: { }
-					id: "techreborn:iron_furnace"
-					Count: 1b
-				}
+				item: "techreborn:iron_furnace"
 			}]
 			rewards: [{
 				id: "422891FB72F6F3D2"
 				type: "item"
-				item: {
-					gprops: { }
-					id: "dwarfcoal:dwarf_coal"
-					Count: 1b
-				}
+				item: "dwarfcoal:dwarf_coal"
 			}]
 		}
 		{
@@ -308,20 +233,12 @@
 			tasks: [{
 				id: "22206CF13738397A"
 				type: "item"
-				item: {
-					gprops: { }
-					id: "techreborn:extractor"
-					Count: 1b
-				}
+				item: "techreborn:extractor"
 			}]
 			rewards: [{
 				id: "2645479B52232AC4"
 				type: "item"
-				item: {
-					gprops: { }
-					id: "blockus:soul_o_lantern"
-					Count: 1b
-				}
+				item: "blockus:soul_o_lantern"
 			}]
 		}
 		{
@@ -334,20 +251,12 @@
 			tasks: [{
 				id: "38BBB88A75EE8CE6"
 				type: "item"
-				item: {
-					gprops: { }
-					id: "techreborn:solid_canning_machine"
-					Count: 1b
-				}
+				item: "techreborn:solid_canning_machine"
 			}]
 			rewards: [{
 				id: "6A47EFC488B6A545"
 				type: "item"
-				item: {
-					gprops: { }
-					id: "techreborn:compressed_plantball"
-					Count: 1b
-				}
+				item: "techreborn:compressed_plantball"
 			}]
 		}
 		{
@@ -363,20 +272,12 @@
 			tasks: [{
 				id: "52BD71FC339CBA98"
 				type: "item"
-				item: {
-					gprops: { }
-					id: "techreborn:rolling_machine"
-					Count: 1b
-				}
+				item: "techreborn:rolling_machine"
 			}]
 			rewards: [{
 				id: "5E1C89A4936C9C4C"
 				type: "item"
-				item: {
-					gprops: { }
-					id: "minecraft:pumpkin_pie"
-					Count: 1b
-				}
+				item: "minecraft:pumpkin_pie"
 			}]
 		}
 		{
@@ -388,29 +289,17 @@
 			tasks: [{
 				id: "0E3A7F048E5ED97B"
 				type: "item"
-				item: {
-					gprops: { }
-					id: "techreborn:wire_mill"
-					Count: 1b
-				}
+				item: "techreborn:wire_mill"
 			}]
 			rewards: [{
 				id: "63672FC3387EEA78"
 				type: "item"
-				item: {
-					gprops: { }
-					id: "techreborn:rubber"
-					Count: 1b
-				}
+				item: "techreborn:rubber"
 				count: 2
 			}]
 		}
 		{
-			icon: {
-				gprops: { }
-				id: "techreborn:scrapboxinator"
-				Count: 1b
-			}
+			icon: "techreborn:scrapboxinator"
 			x: -7.0d
 			y: -8.0d
 			subtitle: "Instead of using trashcan, put trash in the recycler"
@@ -424,31 +313,19 @@
 				{
 					id: "52D80A7455E84CD0"
 					type: "item"
-					item: {
-						gprops: { }
-						id: "techreborn:recycler"
-						Count: 1b
-					}
+					item: "techreborn:recycler"
 				}
 				{
 					id: "1F93FFF43FB3D3AA"
 					type: "item"
-					item: {
-						gprops: { }
-						id: "minecraft:cobblestone"
-						Count: 1b
-					}
+					item: "minecraft:cobblestone"
 					count: 64L
 				}
 			]
 			rewards: [{
 				id: "02DCBA09867F86F5"
 				type: "item"
-				item: {
-					gprops: { }
-					id: "minecraft:cobblestone"
-					Count: 1b
-				}
+				item: "minecraft:cobblestone"
 				count: 64
 			}]
 		}
@@ -466,30 +343,18 @@
 			tasks: [{
 				id: "42B06030439B3BDC"
 				type: "item"
-				item: {
-					gprops: { }
-					id: "techreborn:resin_basin"
-					Count: 1b
-				}
+				item: "techreborn:resin_basin"
 			}]
 			rewards: [
 				{
 					id: "5A4F27CA9254320E"
 					type: "item"
-					item: {
-						gprops: { }
-						id: "minecraft:hopper"
-						Count: 1b
-					}
+					item: "minecraft:hopper"
 				}
 				{
 					id: "4201C9EF964ABE68"
 					type: "item"
-					item: {
-						gprops: { }
-						id: "minecraft:chest"
-						Count: 1b
-					}
+					item: "minecraft:chest"
 				}
 			]
 		}
@@ -501,20 +366,12 @@
 			tasks: [{
 				id: "0F913A6A8D0D4AEA"
 				type: "item"
-				item: {
-					gprops: { }
-					id: "techreborn:advanced_circuit"
-					Count: 1b
-				}
+				item: "techreborn:advanced_circuit"
 			}]
 			rewards: [{
 				id: "271CAC39F6A142D2"
 				type: "item"
-				item: {
-					gprops: { }
-					id: "minecraft:lapis_lazuli"
-					Count: 1b
-				}
+				item: "minecraft:lapis_lazuli"
 			}]
 		}
 		{
@@ -528,20 +385,12 @@
 			tasks: [{
 				id: "1603F6AFE305FDFA"
 				type: "item"
-				item: {
-					gprops: { }
-					id: "techreborn:basic_solar_panel"
-					Count: 1b
-				}
+				item: "techreborn:basic_solar_panel"
 			}]
 			rewards: [{
 				id: "219242ED3E210ECE"
 				type: "item"
-				item: {
-					gprops: { }
-					id: "minecraft:sunflower"
-					Count: 1b
-				}
+				item: "minecraft:sunflower"
 			}]
 		}
 		{
@@ -552,20 +401,12 @@
 			tasks: [{
 				id: "3FEB22D1714AB7C3"
 				type: "item"
-				item: {
-					gprops: { }
-					id: "techreborn:advanced_solar_panel"
-					Count: 1b
-				}
+				item: "techreborn:advanced_solar_panel"
 			}]
 			rewards: [{
 				id: "73EFF9985B0F8227"
 				type: "item"
-				item: {
-					gprops: { }
-					id: "minecraft:sunflower"
-					Count: 1b
-				}
+				item: "minecraft:sunflower"
 				count: 2
 			}]
 		}
@@ -577,20 +418,12 @@
 			tasks: [{
 				id: "6596DA16576E85D2"
 				type: "item"
-				item: {
-					gprops: { }
-					id: "techreborn:industrial_solar_panel"
-					Count: 1b
-				}
+				item: "techreborn:industrial_solar_panel"
 			}]
 			rewards: [{
 				id: "7D164386AD271EFF"
 				type: "item"
-				item: {
-					gprops: { }
-					id: "minecraft:sunflower"
-					Count: 1b
-				}
+				item: "minecraft:sunflower"
 				count: 3
 			}]
 		}
@@ -602,20 +435,12 @@
 			tasks: [{
 				id: "536AF429E1F09DDB"
 				type: "item"
-				item: {
-					gprops: { }
-					id: "techreborn:ultimate_solar_panel"
-					Count: 1b
-				}
+				item: "techreborn:ultimate_solar_panel"
 			}]
 			rewards: [{
 				id: "150D7E43E9A6EA7D"
 				type: "item"
-				item: {
-					gprops: { }
-					id: "minecraft:sunflower"
-					Count: 1b
-				}
+				item: "minecraft:sunflower"
 				count: 4
 			}]
 		}
@@ -631,20 +456,12 @@
 			tasks: [{
 				id: "1DBAEB455FF1FD4C"
 				type: "item"
-				item: {
-					gprops: { }
-					id: "techreborn:quantum_solar_panel"
-					Count: 1b
-				}
+				item: "techreborn:quantum_solar_panel"
 			}]
 			rewards: [{
 				id: "3CD5446E7C5919B9"
 				type: "item"
-				item: {
-					gprops: { }
-					id: "minecraft:sunflower"
-					Count: 1b
-				}
+				item: "minecraft:sunflower"
 				count: 5
 			}]
 		}
@@ -656,11 +473,7 @@
 			tasks: [{
 				id: "5A9264CF54AF6DA9"
 				type: "item"
-				item: {
-					gprops: { }
-					id: "techreborn:auto_crafting_table"
-					Count: 1b
-				}
+				item: "techreborn:auto_crafting_table"
 			}]
 		}
 		{
@@ -673,35 +486,22 @@
 				{
 					id: "6CB45FD23B8984F6"
 					type: "item"
-					item: {
-						gprops: { }
-						id: "techreborn:basic_drill"
-						Count: 1b
-					}
+					item: "techreborn:basic_drill"
 				}
 				{
 					id: "05E09BE6BCB234E8"
 					type: "item"
-					item: {
-						gprops: { }
-						id: "techreborn:basic_chainsaw"
-						Count: 1b
-					}
+					item: "techreborn:basic_chainsaw"
 				}
 				{
 					id: "4FAD0566A57B02C0"
 					type: "item"
-					item: {
-						gprops: { }
-						id: "techreborn:basic_jackhammer"
-						Count: 1b
-					}
+					item: "techreborn:basic_jackhammer"
 				}
 				{
 					id: "2BE04E0364BD5A2B"
 					type: "item"
 					item: {
-						gprops: { }
 						id: "techreborn:rock_cutter"
 						Count: 1b
 						tag: {
@@ -728,20 +528,12 @@
 			tasks: [{
 				id: "67C411236837B752"
 				type: "item"
-				item: {
-					gprops: { }
-					id: "techreborn:drain"
-					Count: 1b
-				}
+				item: "techreborn:drain"
 			}]
 			rewards: [{
 				id: "565A8087D8B6EDCB"
 				type: "item"
-				item: {
-					gprops: { }
-					id: "minecraft:water_bucket"
-					Count: 1b
-				}
+				item: "minecraft:water_bucket"
 			}]
 		}
 		{
@@ -754,17 +546,12 @@
 			tasks: [{
 				id: "3CDA28D204483620"
 				type: "item"
-				item: {
-					gprops: { }
-					id: "techreborn:alarm"
-					Count: 1b
-				}
+				item: "techreborn:alarm"
 			}]
 			rewards: [{
 				id: "20A06AADE98CDC98"
 				type: "item"
 				item: {
-					gprops: { }
 					id: "vanilla-hammers:stone_hammer"
 					Count: 1b
 					tag: {
@@ -782,17 +569,12 @@
 			tasks: [{
 				id: "2FAE9FB5822A811F"
 				type: "item"
-				item: {
-					gprops: { }
-					id: "techreborn:overclocker_upgrade"
-					Count: 1b
-				}
+				item: "techreborn:overclocker_upgrade"
 			}]
 			rewards: [{
 				id: "731F9638F5DADAF7"
 				type: "item"
 				item: {
-					gprops: { }
 					id: "minecraft:splash_potion"
 					Count: 1b
 					tag: {
@@ -813,11 +595,7 @@
 			tasks: [{
 				id: "6455685BE29E200F"
 				type: "item"
-				item: {
-					gprops: { }
-					id: "techreborn:scrapboxinator"
-					Count: 1b
-				}
+				item: "techreborn:scrapboxinator"
 			}]
 		}
 		{
@@ -829,11 +607,7 @@
 			tasks: [{
 				id: "798D314ED3ACD680"
 				type: "item"
-				item: {
-					gprops: { }
-					id: "techreborn:assembly_machine"
-					Count: 1b
-				}
+				item: "techreborn:assembly_machine"
 			}]
 		}
 		{
@@ -844,11 +618,7 @@
 			tasks: [{
 				id: "684E519E525BE34C"
 				type: "item"
-				item: {
-					gprops: { }
-					id: "techreborn:industrial_blast_furnace"
-					Count: 1b
-				}
+				item: "techreborn:industrial_blast_furnace"
 			}]
 		}
 		{
@@ -859,11 +629,7 @@
 			tasks: [{
 				id: "07164E9C8B69E154"
 				type: "item"
-				item: {
-					gprops: { }
-					id: "techreborn:industrial_sawmill"
-					Count: 1b
-				}
+				item: "techreborn:industrial_sawmill"
 			}]
 		}
 		{
@@ -874,11 +640,7 @@
 			tasks: [{
 				id: "31E873A44F34D7BC"
 				type: "item"
-				item: {
-					gprops: { }
-					id: "techreborn:greenhouse_controller"
-					Count: 1b
-				}
+				item: "techreborn:greenhouse_controller"
 			}]
 		}
 		{
@@ -889,11 +651,7 @@
 			tasks: [{
 				id: "5DDBCC5EC0F926CB"
 				type: "item"
-				item: {
-					gprops: { }
-					id: "techreborn:industrial_grinder"
-					Count: 1b
-				}
+				item: "techreborn:industrial_grinder"
 			}]
 		}
 		{
@@ -904,11 +662,7 @@
 			tasks: [{
 				id: "2B2EF74A9FEE0407"
 				type: "item"
-				item: {
-					gprops: { }
-					id: "techreborn:vacuum_freezer"
-					Count: 1b
-				}
+				item: "techreborn:vacuum_freezer"
 			}]
 		}
 		{
@@ -924,11 +678,7 @@
 			tasks: [{
 				id: "4B8E24B498553034"
 				type: "item"
-				item: {
-					gprops: { }
-					id: "techreborn:implosion_compressor"
-					Count: 1b
-				}
+				item: "techreborn:implosion_compressor"
 			}]
 		}
 		{
@@ -942,11 +692,7 @@
 			tasks: [{
 				id: "6156252BBC27D3D4"
 				type: "item"
-				item: {
-					gprops: { }
-					id: "techreborn:distillation_tower"
-					Count: 1b
-				}
+				item: "techreborn:distillation_tower"
 			}]
 		}
 		{
@@ -957,11 +703,7 @@
 			tasks: [{
 				id: "661A7BC5F492DE02"
 				type: "item"
-				item: {
-					gprops: { }
-					id: "techreborn:industrial_circuit"
-					Count: 1b
-				}
+				item: "techreborn:industrial_circuit"
 			}]
 		}
 		{
@@ -972,11 +714,7 @@
 			tasks: [{
 				id: "381DEE3CEBF9F2CA"
 				type: "item"
-				item: {
-					gprops: { }
-					id: "techreborn:chemical_reactor"
-					Count: 1b
-				}
+				item: "techreborn:chemical_reactor"
 			}]
 		}
 		{
@@ -992,11 +730,7 @@
 			tasks: [{
 				id: "41A767CEF823633B"
 				type: "item"
-				item: {
-					gprops: { }
-					id: "techreborn:matter_fabricator"
-					Count: 1b
-				}
+				item: "techreborn:matter_fabricator"
 			}]
 		}
 		{
@@ -1007,11 +741,7 @@
 			tasks: [{
 				id: "529A500572A84DED"
 				type: "item"
-				item: {
-					gprops: { }
-					id: "techreborn:synthetic_redstone_crystal"
-					Count: 1b
-				}
+				item: "techreborn:synthetic_redstone_crystal"
 				count: 2L
 			}]
 		}
@@ -1023,11 +753,7 @@
 			tasks: [{
 				id: "6025592EFF18B643"
 				type: "item"
-				item: {
-					gprops: { }
-					id: "techreborn:uu_matter"
-					Count: 1b
-				}
+				item: "techreborn:uu_matter"
 			}]
 		}
 		{
@@ -1038,11 +764,7 @@
 			tasks: [{
 				id: "2F11B86F34EBE189"
 				type: "item"
-				item: {
-					gprops: { }
-					id: "modern_industrialization:silicon_plate"
-					Count: 1b
-				}
+				item: "modern_industrialization:silicon_plate"
 			}]
 		}
 		{
@@ -1056,11 +778,7 @@
 			tasks: [{
 				id: "19050C53906F7734"
 				type: "item"
-				item: {
-					gprops: { }
-					id: "techreborn:energy_crystal"
-					Count: 1b
-				}
+				item: "techreborn:energy_crystal"
 			}]
 		}
 		{
@@ -1074,11 +792,7 @@
 			tasks: [{
 				id: "5F5321382D130FEE"
 				type: "item"
-				item: {
-					gprops: { }
-					id: "techreborn:lapotron_crystal"
-					Count: 1b
-				}
+				item: "techreborn:lapotron_crystal"
 			}]
 		}
 		{
@@ -1092,11 +806,7 @@
 			tasks: [{
 				id: "778AE7FC798AC67E"
 				type: "item"
-				item: {
-					gprops: { }
-					id: "techreborn:energy_flow_chip"
-					Count: 1b
-				}
+				item: "techreborn:energy_flow_chip"
 			}]
 		}
 		{
@@ -1107,11 +817,7 @@
 			tasks: [{
 				id: "462D83630913D5AE"
 				type: "item"
-				item: {
-					gprops: { }
-					id: "techreborn:iridium_alloy_plate"
-					Count: 1b
-				}
+				item: "techreborn:iridium_alloy_plate"
 			}]
 		}
 		{
@@ -1122,11 +828,7 @@
 			tasks: [{
 				id: "1BA0F153578E7903"
 				type: "item"
-				item: {
-					gprops: { }
-					id: "techreborn:cupronickel_heating_coil"
-					Count: 1b
-				}
+				item: "techreborn:cupronickel_heating_coil"
 			}]
 		}
 		{
@@ -1140,11 +842,7 @@
 			tasks: [{
 				id: "62AAED07264EBD8A"
 				type: "item"
-				item: {
-					gprops: { }
-					id: "techreborn:nichrome_heating_coil"
-					Count: 1b
-				}
+				item: "techreborn:nichrome_heating_coil"
 			}]
 		}
 		{
@@ -1155,11 +853,7 @@
 			tasks: [{
 				id: "0977B8D889B55A08"
 				type: "item"
-				item: {
-					gprops: { }
-					id: "techreborn:magnalium_plate"
-					Count: 1b
-				}
+				item: "techreborn:magnalium_plate"
 			}]
 		}
 		{
@@ -1170,11 +864,7 @@
 			tasks: [{
 				id: "68890DC85370C465"
 				type: "item"
-				item: {
-					gprops: { }
-					id: "techreborn:wind_mill"
-					Count: 1b
-				}
+				item: "techreborn:wind_mill"
 			}]
 		}
 		{
@@ -1185,11 +875,7 @@
 			tasks: [{
 				id: "5253D479C5CBDA1A"
 				type: "item"
-				item: {
-					gprops: { }
-					id: "techreborn:insulated_copper_cable"
-					Count: 1b
-				}
+				item: "techreborn:insulated_copper_cable"
 			}]
 		}
 		{
@@ -1200,11 +886,7 @@
 			tasks: [{
 				id: "39749739E5C2CF55"
 				type: "item"
-				item: {
-					gprops: { }
-					id: "techreborn:red_cell_battery"
-					Count: 1b
-				}
+				item: "techreborn:red_cell_battery"
 			}]
 		}
 		{
@@ -1215,11 +897,7 @@
 			tasks: [{
 				id: "0492C08143ECC6A0"
 				type: "item"
-				item: {
-					gprops: { }
-					id: "techreborn:basic_machine_frame"
-					Count: 1b
-				}
+				item: "techreborn:basic_machine_frame"
 			}]
 		}
 		{
@@ -1230,11 +908,7 @@
 			tasks: [{
 				id: "53E96D1C408AFBF5"
 				type: "item"
-				item: {
-					gprops: { }
-					id: "techreborn:compressor"
-					Count: 1b
-				}
+				item: "techreborn:compressor"
 			}]
 		}
 		{
@@ -1248,11 +922,7 @@
 			tasks: [{
 				id: "1A23F77BB3A41C40"
 				type: "item"
-				item: {
-					gprops: { }
-					id: "modern_industrialization:carbon_plate"
-					Count: 1b
-				}
+				item: "modern_industrialization:carbon_plate"
 			}]
 		}
 		{
@@ -1267,11 +937,7 @@
 			tasks: [{
 				id: "21CE3972D3F6DED3"
 				type: "item"
-				item: {
-					gprops: { }
-					id: "techreborn:advanced_machine_frame"
-					Count: 1b
-				}
+				item: "techreborn:advanced_machine_frame"
 			}]
 		}
 		{
@@ -1282,11 +948,7 @@
 			tasks: [{
 				id: "5C4B2AF02256AD7B"
 				type: "item"
-				item: {
-					gprops: { }
-					id: "techreborn:data_storage_core"
-					Count: 1b
-				}
+				item: "techreborn:data_storage_core"
 			}]
 		}
 		{
@@ -1300,11 +962,7 @@
 			tasks: [{
 				id: "14E4CC657A935F79"
 				type: "item"
-				item: {
-					gprops: { }
-					id: "techreborn:data_storage_chip"
-					Count: 1b
-				}
+				item: "techreborn:data_storage_chip"
 			}]
 		}
 		{
@@ -1315,11 +973,7 @@
 			tasks: [{
 				id: "06B78021AEB3A7A4"
 				type: "item"
-				item: {
-					gprops: { }
-					id: "techreborn:basic_machine_casing"
-					Count: 1b
-				}
+				item: "techreborn:basic_machine_casing"
 			}]
 		}
 		{
@@ -1330,11 +984,7 @@
 			tasks: [{
 				id: "7A11C43617A63850"
 				type: "item"
-				item: {
-					gprops: { }
-					id: "modern_industrialization:steel_ingot"
-					Count: 1b
-				}
+				item: "modern_industrialization:steel_ingot"
 			}]
 		}
 		{
@@ -1345,11 +995,7 @@
 			tasks: [{
 				id: "398FE5821788EA84"
 				type: "item"
-				item: {
-					gprops: { }
-					id: "modern_industrialization:steel_plate"
-					Count: 1b
-				}
+				item: "modern_industrialization:steel_plate"
 			}]
 		}
 		{
@@ -1363,11 +1009,7 @@
 			tasks: [{
 				id: "696BC8BD052CB0E4"
 				type: "item"
-				item: {
-					gprops: { }
-					id: "techreborn:advanced_machine_casing"
-					Count: 1b
-				}
+				item: "techreborn:advanced_machine_casing"
 			}]
 		}
 		{
@@ -1382,11 +1024,7 @@
 			tasks: [{
 				id: "0802F2E9884F9801"
 				type: "item"
-				item: {
-					gprops: { }
-					id: "techreborn:industrial_machine_casing"
-					Count: 1b
-				}
+				item: "techreborn:industrial_machine_casing"
 			}]
 		}
 		{
@@ -1397,11 +1035,7 @@
 			tasks: [{
 				id: "3CBC183433CE6829"
 				type: "item"
-				item: {
-					gprops: { }
-					id: "techreborn:chrome_plate"
-					Count: 1b
-				}
+				item: "techreborn:chrome_plate"
 			}]
 		}
 		{
@@ -1412,11 +1046,7 @@
 			tasks: [{
 				id: "49B6E05F1768F7F0"
 				type: "item"
-				item: {
-					gprops: { }
-					id: "techreborn:chrome_ingot"
-					Count: 1b
-				}
+				item: "techreborn:chrome_ingot"
 			}]
 		}
 		{
@@ -1430,11 +1060,7 @@
 			tasks: [{
 				id: "5333851402ACF97E"
 				type: "item"
-				item: {
-					gprops: { }
-					id: "techreborn:industrial_machine_frame"
-					Count: 1b
-				}
+				item: "techreborn:industrial_machine_frame"
 			}]
 		}
 		{
@@ -1448,11 +1074,7 @@
 			tasks: [{
 				id: "2082D8D02ED9175B"
 				type: "item"
-				item: {
-					gprops: { }
-					id: "modern_industrialization:titanium_plate"
-					Count: 1b
-				}
+				item: "modern_industrialization:titanium_plate"
 			}]
 		}
 		{
@@ -1463,11 +1085,7 @@
 			tasks: [{
 				id: "1D93E0A128C9FD8A"
 				type: "item"
-				item: {
-					gprops: { }
-					id: "modern_industrialization:titanium_ingot"
-					Count: 1b
-				}
+				item: "modern_industrialization:titanium_ingot"
 			}]
 		}
 		{
@@ -1478,11 +1096,7 @@
 			tasks: [{
 				id: "15C28B8C2859DECC"
 				type: "item"
-				item: {
-					gprops: { }
-					id: "modern_industrialization:coal_dust"
-					Count: 1b
-				}
+				item: "modern_industrialization:coal_dust"
 			}]
 		}
 		{
@@ -1493,11 +1107,7 @@
 			tasks: [{
 				id: "01BC807BD6E5920B"
 				type: "item"
-				item: {
-					gprops: { }
-					id: "techreborn:carbon_fiber"
-					Count: 1b
-				}
+				item: "techreborn:carbon_fiber"
 			}]
 		}
 		{
@@ -1508,11 +1118,7 @@
 			tasks: [{
 				id: "3C45671BBF04B568"
 				type: "item"
-				item: {
-					gprops: { }
-					id: "techreborn:advanced_alloy_plate"
-					Count: 1b
-				}
+				item: "techreborn:advanced_alloy_plate"
 			}]
 		}
 		{
@@ -1523,11 +1129,7 @@
 			tasks: [{
 				id: "07EEECEC8A259761"
 				type: "item"
-				item: {
-					gprops: { }
-					id: "techreborn:lightning_rod"
-					Count: 1b
-				}
+				item: "techreborn:lightning_rod"
 			}]
 		}
 		{
@@ -1540,29 +1142,17 @@
 				{
 					id: "2BECBD929D9031AA"
 					type: "item"
-					item: {
-						gprops: { }
-						id: "techreborn:industrial_drill"
-						Count: 1b
-					}
+					item: "techreborn:industrial_drill"
 				}
 				{
 					id: "0A077C35405839AE"
 					type: "item"
-					item: {
-						gprops: { }
-						id: "techreborn:industrial_chainsaw"
-						Count: 1b
-					}
+					item: "techreborn:industrial_chainsaw"
 				}
 				{
 					id: "1B8CB81AF83D9DB6"
 					type: "item"
-					item: {
-						gprops: { }
-						id: "techreborn:industrial_jackhammer"
-						Count: 1b
-					}
+					item: "techreborn:industrial_jackhammer"
 				}
 			]
 		}
@@ -1579,29 +1169,17 @@
 				{
 					id: "7682A1978C0468C6"
 					type: "item"
-					item: {
-						gprops: { }
-						id: "techreborn:advanced_jackhammer"
-						Count: 1b
-					}
+					item: "techreborn:advanced_jackhammer"
 				}
 				{
 					id: "45E0378700C59B72"
 					type: "item"
-					item: {
-						gprops: { }
-						id: "techreborn:advanced_chainsaw"
-						Count: 1b
-					}
+					item: "techreborn:advanced_chainsaw"
 				}
 				{
 					id: "6DCBE9522B653BE0"
 					type: "item"
-					item: {
-						gprops: { }
-						id: "techreborn:advanced_drill"
-						Count: 1b
-					}
+					item: "techreborn:advanced_drill"
 				}
 			]
 		}
@@ -1614,11 +1192,7 @@
 			tasks: [{
 				id: "55D46876F5CBFA23"
 				type: "item"
-				item: {
-					gprops: { }
-					id: "techreborn:lithium_ion_battery"
-					Count: 1b
-				}
+				item: "techreborn:lithium_ion_battery"
 			}]
 		}
 		{
@@ -1632,11 +1206,7 @@
 			tasks: [{
 				id: "330243D7A04EEB17"
 				type: "item"
-				item: {
-					gprops: { }
-					id: "techreborn:electric_treetap"
-					Count: 1b
-				}
+				item: "techreborn:electric_treetap"
 			}]
 		}
 		{
@@ -1650,11 +1220,7 @@
 			tasks: [{
 				id: "0A8F3851C62C7EAB"
 				type: "item"
-				item: {
-					gprops: { }
-					id: "techreborn:lapotronic_orb"
-					Count: 1b
-				}
+				item: "techreborn:lapotronic_orb"
 			}]
 		}
 		{
@@ -1666,7 +1232,6 @@
 				id: "317063C4CFCB3C42"
 				type: "item"
 				item: {
-					gprops: { }
 					id: "techreborn:nanosaber"
 					Count: 1b
 					tag: {
@@ -1683,11 +1248,7 @@
 			tasks: [{
 				id: "6925B87D2B040AA2"
 				type: "item"
-				item: {
-					gprops: { }
-					id: "techreborn:adjustable_su"
-					Count: 1b
-				}
+				item: "techreborn:adjustable_su"
 			}]
 		}
 		{
@@ -1698,11 +1259,7 @@
 			tasks: [{
 				id: "3F1D60CE2CD6290C"
 				type: "item"
-				item: {
-					gprops: { }
-					id: "techreborn:interdimensional_su"
-					Count: 1b
-				}
+				item: "techreborn:interdimensional_su"
 			}]
 		}
 		{
@@ -1716,11 +1273,7 @@
 			tasks: [{
 				id: "7AD68B49A5DF06C5"
 				type: "item"
-				item: {
-					gprops: { }
-					id: "techreborn:superconductor"
-					Count: 1b
-				}
+				item: "techreborn:superconductor"
 			}]
 		}
 		{
@@ -1731,11 +1284,7 @@
 			tasks: [{
 				id: "76969CABB40BA5DA"
 				type: "item"
-				item: {
-					gprops: { }
-					id: "techreborn:cloaking_device"
-					Count: 1b
-				}
+				item: "techreborn:cloaking_device"
 			}]
 		}
 		{
@@ -1751,11 +1300,7 @@
 			tasks: [{
 				id: "307D2D572A30E77D"
 				type: "item"
-				item: {
-					gprops: { }
-					id: "techreborn:industrial_electrolyzer"
-					Count: 1b
-				}
+				item: "techreborn:industrial_electrolyzer"
 			}]
 		}
 		{
@@ -1767,7 +1312,6 @@
 				id: "3E0EE8BCEA3480F3"
 				type: "item"
 				item: {
-					gprops: { }
 					id: "techreborn:cell"
 					Count: 1b
 					tag: {
@@ -1785,11 +1329,7 @@
 			tasks: [{
 				id: "63C31057EF1EDA2B"
 				type: "item"
-				item: {
-					gprops: { }
-					id: "techreborn:neutron_reflector"
-					Count: 1b
-				}
+				item: "techreborn:neutron_reflector"
 			}]
 		}
 		{
@@ -1803,11 +1343,7 @@
 			tasks: [{
 				id: "14540EDF2DE44CB4"
 				type: "item"
-				item: {
-					gprops: { }
-					id: "techreborn:thick_neutron_reflector"
-					Count: 1b
-				}
+				item: "techreborn:thick_neutron_reflector"
 			}]
 		}
 		{
@@ -1818,11 +1354,7 @@
 			tasks: [{
 				id: "26C6BD42221F592C"
 				type: "item"
-				item: {
-					gprops: { }
-					id: "techreborn:iridium_neutron_reflector"
-					Count: 1b
-				}
+				item: "techreborn:iridium_neutron_reflector"
 			}]
 		}
 		{
@@ -1837,11 +1369,7 @@
 			tasks: [{
 				id: "3BC493B596B1CF53"
 				type: "item"
-				item: {
-					gprops: { }
-					id: "techreborn:fusion_coil"
-					Count: 1b
-				}
+				item: "techreborn:fusion_coil"
 			}]
 		}
 		{
@@ -1852,11 +1380,7 @@
 			tasks: [{
 				id: "52509B33D43F0E55"
 				type: "item"
-				item: {
-					gprops: { }
-					id: "techreborn:fusion_control_computer"
-					Count: 1b
-				}
+				item: "techreborn:fusion_control_computer"
 			}]
 		}
 		{
@@ -1867,11 +1391,7 @@
 			tasks: [{
 				id: "13D7EEA582AEA0A9"
 				type: "item"
-				item: {
-					gprops: { }
-					id: "techreborn:fluid_replicator"
-					Count: 1b
-				}
+				item: "techreborn:fluid_replicator"
 			}]
 		}
 		{
@@ -1882,11 +1402,7 @@
 			tasks: [{
 				id: "79FC49ED8506DD41"
 				type: "item"
-				item: {
-					gprops: { }
-					id: "techreborn:scrap"
-					Count: 1b
-				}
+				item: "techreborn:scrap"
 			}]
 		}
 		{
@@ -1897,11 +1413,7 @@
 			tasks: [{
 				id: "13F6E59856871982"
 				type: "item"
-				item: {
-					gprops: { }
-					id: "techreborn:scrap_box"
-					Count: 1b
-				}
+				item: "techreborn:scrap_box"
 				count: 64L
 				consume_items: true
 			}]
@@ -1914,11 +1426,7 @@
 			tasks: [{
 				id: "3F6957D32FF5EDC4"
 				type: "item"
-				item: {
-					gprops: { }
-					id: "techreborn:lamp_incandescent"
-					Count: 1b
-				}
+				item: "techreborn:lamp_incandescent"
 			}]
 		}
 		{
@@ -1929,11 +1437,7 @@
 			tasks: [{
 				id: "346B3EA16496606D"
 				type: "item"
-				item: {
-					gprops: { }
-					id: "techreborn:tungstensteel_ingot"
-					Count: 1b
-				}
+				item: "techreborn:tungstensteel_ingot"
 			}]
 		}
 		{
@@ -1944,11 +1448,7 @@
 			tasks: [{
 				id: "7BE1D7C88749145D"
 				type: "item"
-				item: {
-					gprops: { }
-					id: "techreborn:lv_transformer"
-					Count: 1b
-				}
+				item: "techreborn:lv_transformer"
 			}]
 		}
 		{
@@ -1959,11 +1459,7 @@
 			tasks: [{
 				id: "6AE87A05F2C6DC64"
 				type: "item"
-				item: {
-					gprops: { }
-					id: "techreborn:mv_transformer"
-					Count: 1b
-				}
+				item: "techreborn:mv_transformer"
 			}]
 		}
 		{
@@ -1974,11 +1470,7 @@
 			tasks: [{
 				id: "5626555AE3596C5E"
 				type: "item"
-				item: {
-					gprops: { }
-					id: "techreborn:hv_transformer"
-					Count: 1b
-				}
+				item: "techreborn:hv_transformer"
 			}]
 		}
 		{
@@ -1992,11 +1484,7 @@
 			tasks: [{
 				id: "1EEF64DE5D9666C3"
 				type: "item"
-				item: {
-					gprops: { }
-					id: "techreborn:plasma_generator"
-					Count: 1b
-				}
+				item: "techreborn:plasma_generator"
 			}]
 		}
 		{
@@ -2009,20 +1497,12 @@
 				{
 					id: "10441494EFB773E2"
 					type: "item"
-					item: {
-						gprops: { }
-						id: "techreborn:lapotronic_su"
-						Count: 1b
-					}
+					item: "techreborn:lapotronic_su"
 				}
 				{
 					id: "21FB0E4A828F0DC2"
 					type: "item"
-					item: {
-						gprops: { }
-						id: "techreborn:lsu_storage"
-						Count: 1b
-					}
+					item: "techreborn:lsu_storage"
 				}
 			]
 		}
@@ -2034,11 +1514,7 @@
 			tasks: [{
 				id: "6704AF85FB921573"
 				type: "item"
-				item: {
-					gprops: { }
-					id: "techreborn:superconductor_cable"
-					Count: 1b
-				}
+				item: "techreborn:superconductor_cable"
 			}]
 		}
 		{
@@ -2049,11 +1525,7 @@
 			tasks: [{
 				id: "022C0E926899C780"
 				type: "item"
-				item: {
-					gprops: { }
-					id: "techreborn:alloy_smelter"
-					Count: 1b
-				}
+				item: "techreborn:alloy_smelter"
 			}]
 		}
 		{
@@ -2069,11 +1541,7 @@
 			tasks: [{
 				id: "0968DE59EBE1A042"
 				type: "item"
-				item: {
-					gprops: { }
-					id: "techreborn:industrial_centrifuge"
-					Count: 1b
-				}
+				item: "techreborn:industrial_centrifuge"
 			}]
 		}
 		{
@@ -2084,11 +1552,7 @@
 			tasks: [{
 				id: "734F4480F0BA71B9"
 				type: "item"
-				item: {
-					gprops: { }
-					id: "techreborn:diesel_generator"
-					Count: 1b
-				}
+				item: "techreborn:diesel_generator"
 			}]
 		}
 		{
@@ -2099,11 +1563,7 @@
 			tasks: [{
 				id: "2519247526465D45"
 				type: "item"
-				item: {
-					gprops: { }
-					id: "techreborn:medium_voltage_su"
-					Count: 1b
-				}
+				item: "techreborn:medium_voltage_su"
 			}]
 		}
 		{
@@ -2114,11 +1574,7 @@
 			tasks: [{
 				id: "45D48F0B7EB2B0A6"
 				type: "item"
-				item: {
-					gprops: { }
-					id: "techreborn:dragon_egg_syphon"
-					Count: 1b
-				}
+				item: "techreborn:dragon_egg_syphon"
 			}]
 		}
 		{
@@ -2129,11 +1585,7 @@
 			tasks: [{
 				id: "630730631B156192"
 				type: "item"
-				item: {
-					gprops: { }
-					id: "techreborn:high_voltage_su"
-					Count: 1b
-				}
+				item: "techreborn:high_voltage_su"
 			}]
 		}
 		{
@@ -2146,29 +1598,17 @@
 				{
 					id: "7A558E88E4132647"
 					type: "item"
-					item: {
-						gprops: { }
-						id: "techreborn:thermal_generator"
-						Count: 1b
-					}
+					item: "techreborn:thermal_generator"
 				}
 				{
 					id: "4D2987EA2A31952D"
 					type: "item"
-					item: {
-						gprops: { }
-						id: "techreborn:water_mill"
-						Count: 1b
-					}
+					item: "techreborn:water_mill"
 				}
 				{
 					id: "13856D410604CC05"
 					type: "item"
-					item: {
-						gprops: { }
-						id: "techreborn:semi_fluid_generator"
-						Count: 1b
-					}
+					item: "techreborn:semi_fluid_generator"
 				}
 			]
 		}
@@ -2180,11 +1620,7 @@
 			tasks: [{
 				id: "13460BEA8329BB81"
 				type: "item"
-				item: {
-					gprops: { }
-					id: "techreborn:gas_turbine"
-					Count: 1b
-				}
+				item: "techreborn:gas_turbine"
 			}]
 		}
 		{
@@ -2195,11 +1631,7 @@
 			tasks: [{
 				id: "015C9DE863ED028F"
 				type: "item"
-				item: {
-					gprops: { }
-					id: "techreborn:omni_tool"
-					Count: 1b
-				}
+				item: "techreborn:omni_tool"
 			}]
 		}
 		{
@@ -2211,17 +1643,12 @@
 				{
 					id: "53A0C1A3C2FA7F67"
 					type: "item"
-					item: {
-						gprops: { }
-						id: "techreborn:wrench"
-						Count: 1b
-					}
+					item: "techreborn:wrench"
 				}
 				{
 					id: "32611199AE14E864"
 					type: "item"
 					item: {
-						gprops: { }
 						id: "techreborn:painting_tool"
 						Count: 1b
 						tag: {
@@ -2239,11 +1666,7 @@
 			tasks: [{
 				id: "70145374DD14DF78"
 				type: "item"
-				item: {
-					gprops: { }
-					id: "modern_industrialization:bronze_ingot"
-					Count: 1b
-				}
+				item: "modern_industrialization:bronze_ingot"
 			}]
 		}
 		{
@@ -2255,7 +1678,6 @@
 				id: "0B0EE94525B3DF2E"
 				type: "item"
 				item: {
-					gprops: { }
 					id: "techreborn:cell"
 					Count: 1b
 					tag: {

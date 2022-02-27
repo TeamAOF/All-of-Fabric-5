@@ -1,0 +1,72 @@
+{
+  "islandLayerData": {
+    "biomeWeights": [
+      {
+        "data": "minecraft:end_midlands",
+        "weight": 2
+      },
+      {
+        "data": "minecraft:end_barrens",
+        "weight": 2
+      },
+      {
+        "data": "minecraft:end_highlands",
+        "weight": 2
+      },
+      {
+        "data": "byg:ivis_fields",
+        "weight": 1
+      },
+      {
+        "data": "byg:nightshade_forest",
+        "weight": 3
+      },
+      {
+        "data": "byg:ethereal_islands",
+        "weight": 3
+      },
+      {
+        "data": "byg:bulbis_gardens",
+        "weight": 3
+      },
+      {
+        "data": "byg:shulkren_forest",
+        "weight": 3
+      },
+      {
+        "data": "byg:cryptic_wastes",
+        "weight": 1
+      },
+      {
+        "data": "byg:imparius_grove",
+        "weight": 3
+      }
+    ],
+    "biomeSize": 3
+  },
+  "voidLayerData": {
+    "biomeWeights": [
+      {
+        "data": "minecraft:small_end_islands",
+        "weight": 2
+      }
+    ],
+    "biomeSize": 2
+  },
+  "skyLayerData": {
+    "biomeWeights": [
+      {
+        "data": "byg:viscal_isles",
+        "weight": 1
+      },
+      {
+        "data": "minecraft:the_end",
+        "weight": 9
+      }
+    ],
+    "biomeSize": 2
+  },
+  "skyLayerStartY": 180,
+  "useBYGEndBiomeSourceInNewWorlds": true,
+  "warnBYGEndBiomeSourceNotUsedInNewWorlds": true
+}

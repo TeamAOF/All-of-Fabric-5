@@ -1,3 +1,39 @@
+### All of Fabric 5 | v1.0.0 | Questing Update
+
+_Fabric Loader 0.12.12_ | _[Mod Updates](https://github.com/TeamAOF/All-of-Fabric-5/blob/main/changelogs/changelog_mods_0.3.0.md)_ | _[Modlist](https://github.com/TeamAOF/All-of-Fabric-5/blob/main/changelogs/modlist_0.3.0.md)_
+
+## Changes
+
+* Added 18 questing chapters.
+* Added tons & tons of new biomes.
+* Big Torch now works for ghosts and werewolfs.
+* Updated to fabric loader 0.13.2
+* Blacklisted backpacks, storage units, relics, etc from Replicator (Most items/blocks that save NBT on break).
+* Thallasium can no longer be used instead of Iron.
+* Buffed Conjuring values by 30%-50%
+* Unhid bewitchment salt as used for rituals.
+
+## Fixes
+
+* Fixed spectrum quitoxic reeds not being breakable (#117)
+* Fixed dupe bug caused by partitioning.
+* Fixed issue with dwarf charcoal not being craftable due to how unifcation handles it.
+
+## Recipe Changes
+
+* New Machine Block (https://i.imgur.com/uTpy70B.png)
+* New Alloy Smelter (https://i.imgur.com/Eg0twEM.png)
+* Replace inputs of steel gear set from Indrev with TR (Fixes modular gear not being craftable)
+* Removed duplicate recipe of Iron Furnace
+* Removed Iron Alloy Furnace
+* Removed the Hammer from Indrev
+
+## Added
+
+* [XP Obelisk](https://www.curseforge.com/minecraft/mc-mods/xp-obelisk)
+
+---
+
 ### All of Fabric 5 | v0.2.11
 
 _Fabric Loader 0.12.12_ | _[Mod Updates](https://github.com/TeamAOF/All-of-Fabric-5/blob/main/changelogs/changelog_mods_0.2.11.md)_ | _[Modlist](https://github.com/TeamAOF/All-of-Fabric-5/blob/main/changelogs/modlist_0.2.11.md)_

@@ -5,8 +5,7 @@
 	filename: "gadgets"
 	title: "Building"
 	icon: {
-		gprops: { }
-		id: "betterend:iron_hammer"
+		id: "indrev:hammer"
 		Count: 1b
 		tag: {
 			Damage: 0
@@ -52,17 +51,16 @@
 				id: "33686463964EEAED"
 				type: "item"
 				item: {
-					gprops: { }
 					id: "buildinggadgets:gadget_building"
 					Count: 1b
 					tag: {
 						Damage: 0
 						state: {
-							serializer: "buildinggadgets:dummy_serializer"
+							data: { }
 							state: {
 								Name: "minecraft:air"
 							}
-							data: { }
+							serializer: "buildinggadgets:dummy_serializer"
 						}
 					}
 				}
@@ -78,17 +76,16 @@
 				id: "4278655EFD94DBF1"
 				type: "item"
 				item: {
-					gprops: { }
 					id: "buildinggadgets:gadget_exchanging"
 					Count: 1b
 					tag: {
 						Damage: 0
 						state: {
-							serializer: "buildinggadgets:dummy_serializer"
+							data: { }
 							state: {
 								Name: "minecraft:air"
 							}
-							data: { }
+							serializer: "buildinggadgets:dummy_serializer"
 						}
 					}
 				}
@@ -104,7 +101,6 @@
 				id: "77BB53C023067B54"
 				type: "item"
 				item: {
-					gprops: { }
 					id: "buildinggadgets:gadget_copy_paste"
 					Count: 1b
 					tag: {
@@ -130,11 +126,7 @@
 			tasks: [{
 				id: "2A15AF7129E1D209"
 				type: "item"
-				item: {
-					gprops: { }
-					id: "chisel:chisel"
-					Count: 1b
-				}
+				item: "chisel:chisel"
 			}]
 		}
 		{
@@ -153,7 +145,6 @@
 				id: "5C9D9AF921A12ED1"
 				type: "item"
 				item: {
-					gprops: { }
 					id: "bitsandchisels:iron_chisel"
 					Count: 1b
 					tag: {
@@ -172,13 +163,12 @@
 				id: "5E7623ACE78AD0E5"
 				type: "item"
 				item: {
-					gprops: { }
 					id: "buildinggadgets:gadget_destruction"
 					Count: 1b
 					tag: {
 						overlay: 1b
-						Damage: 0
 						fuzzy: 1b
+						Damage: 0
 					}
 				}
 			}]
@@ -193,7 +183,6 @@
 				id: "1F39D5573BB82545"
 				type: "item"
 				item: {
-					gprops: { }
 					id: "staffofbuilding:wooden_builder_staff"
 					Count: 1b
 					tag: {
@@ -217,7 +206,6 @@
 				id: "2F2DA7D863BC327A"
 				type: "item"
 				item: {
-					gprops: { }
 					id: "staffofbuilding:stone_builder_staff"
 					Count: 1b
 					tag: {
@@ -236,7 +224,6 @@
 				id: "2310EE65434E176F"
 				type: "item"
 				item: {
-					gprops: { }
 					id: "staffofbuilding:iron_builder_staff"
 					Count: 1b
 					tag: {
@@ -255,7 +242,6 @@
 				id: "16890A75B553A2F3"
 				type: "item"
 				item: {
-					gprops: { }
 					id: "staffofbuilding:golden_builder_staff"
 					Count: 1b
 					tag: {
@@ -274,7 +260,6 @@
 				id: "7D5B4820134A5ACF"
 				type: "item"
 				item: {
-					gprops: { }
 					id: "staffofbuilding:diamond_builder_staff"
 					Count: 1b
 					tag: {
@@ -294,7 +279,6 @@
 				id: "0944E8C92FD41166"
 				type: "item"
 				item: {
-					gprops: { }
 					id: "staffofbuilding:netherite_builder_staff"
 					Count: 1b
 					tag: {
@@ -306,81 +290,49 @@
 				{
 					id: "2F8B7273C24A94ED"
 					type: "item"
-					item: {
-						gprops: { }
-						id: "blockus:white_futurneo_block"
-						Count: 1b
-					}
+					item: "blockus:white_futurneo_block"
 					count: 64
 				}
 				{
 					id: "0AA03BA0351FA1DB"
 					type: "item"
-					item: {
-						gprops: { }
-						id: "blockus:golden_carrot_crate"
-						Count: 1b
-					}
+					item: "blockus:golden_carrot_crate"
 					count: 12
 				}
 				{
 					id: "3701ED933560919F"
 					type: "item"
-					item: {
-						gprops: { }
-						id: "chisel:triple_bricks/stone"
-						Count: 1b
-					}
+					item: "chisel:triple_bricks/stone"
 					count: 64
 				}
 				{
 					id: "55F9531A58CDFB66"
 					type: "item"
-					item: {
-						gprops: { }
-						id: "chisel:shipping_crate/crimson_planks"
-						Count: 1b
-					}
+					item: "chisel:shipping_crate/crimson_planks"
 					count: 64
 				}
 				{
 					id: "11BE7385D5BDAD94"
 					type: "item"
-					item: {
-						gprops: { }
-						id: "chisel:llama/light_gray_wool"
-						Count: 1b
-					}
+					item: "chisel:llama/light_gray_wool"
 					count: 64
 				}
 				{
 					id: "5A8DD166C176C63E"
 					type: "item"
-					item: {
-						gprops: { }
-						id: "blockus:pink_stone_bricks"
-						Count: 1b
-					}
+					item: "blockus:pink_stone_bricks"
 					count: 64
 				}
 				{
 					id: "2B1B8FE4A60C637A"
 					type: "item"
-					item: {
-						gprops: { }
-						id: "bewitchment:cypress_log"
-						Count: 1b
-					}
+					item: "bewitchment:cypress_log"
 					count: 64
 				}
 				{
 					id: "37B7989892AFB3E8"
 					type: "item"
-					item: {
-						gprops: { }
-						id: "promenade:cherry_oak_log"
-						Count: 1b
-					}
+					item: "promenade:cherry_oak_log"
 					count: 64
 				}
 				{

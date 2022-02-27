@@ -1,0 +1,44 @@
+{
+  "regularTower": {
+    "active": true,
+    "spacing": 72,
+    "separation": 8
+  },
+  "derelictTower": {
+    "active": true,
+    "spacing": 35,
+    "separation": 8
+  },
+  "derelictGrassTower": {
+    "active": true,
+    "spacing": 35,
+    "separation": 8
+  },
+  "iceTower": {
+    "active": true,
+    "spacing": 35,
+    "separation": 8
+  },
+  "jungleTower": {
+    "active": true,
+    "spacing": 38,
+    "separation": 8
+  },
+  "oceanTower": {
+    "active": true,
+    "spacing": 38,
+    "separation": 8
+  },
+  "oceanWarmTower": {
+    "active": true,
+    "spacing": 72,
+    "separation": 8
+  },
+  "modSupport": {
+    "enableWaystones": true
+  },
+  "debugging": {
+    "enableLogs": false,
+    "logConfig": false
+  }
+}

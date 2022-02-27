@@ -4,11 +4,7 @@
 	order_index: 1
 	filename: "adventurer"
 	title: "Adventurer"
-	icon: {
-		gprops: { }
-		id: "betterend:enchanted_petal"
-		Count: 1b
-	}
+	icon: "artifacts:aqua_dashers"
 	default_quest_shape: ""
 	default_hide_dependency_lines: false
 	quests: [
@@ -41,7 +37,6 @@
 				id: "0547BAE7CC407378"
 				type: "item"
 				item: {
-					gprops: { }
 					id: "guild:profession_licence"
 					Count: 1b
 					tag: { }
@@ -51,7 +46,6 @@
 		{
 			title: "Fishes and Crates!"
 			icon: {
-				gprops: { }
 				id: "gofish:celestial_rod"
 				Count: 1b
 				tag: {
@@ -104,38 +98,22 @@
 				{
 					id: "774EDFBA5BFE49ED"
 					type: "item"
-					item: {
-						gprops: { }
-						id: "gofish:wooden_crate"
-						Count: 1b
-					}
+					item: "gofish:wooden_crate"
 				}
 				{
 					id: "3A3830B0C58DB1E7"
 					type: "item"
-					item: {
-						gprops: { }
-						id: "gofish:iron_crate"
-						Count: 1b
-					}
+					item: "gofish:iron_crate"
 				}
 				{
 					id: "60BC612A323B51EC"
 					type: "item"
-					item: {
-						gprops: { }
-						id: "gofish:golden_crate"
-						Count: 1b
-					}
+					item: "gofish:golden_crate"
 				}
 				{
 					id: "00BDA34476768435"
 					type: "item"
-					item: {
-						gprops: { }
-						id: "gofish:diamond_crate"
-						Count: 1b
-					}
+					item: "gofish:diamond_crate"
 				}
 			]
 		}
@@ -150,11 +128,7 @@
 			tasks: [{
 				id: "73C759A163CEAEE8"
 				type: "observation"
-				icon: {
-					gprops: { }
-					id: "waystones:waystone"
-					Count: 1b
-				}
+				icon: "waystones:waystone"
 				timer: 0L
 				observe_type: 0
 				to_observe: "waystones:waystone"
@@ -172,7 +146,6 @@
 				type: "observation"
 				title: "Bounties"
 				icon: {
-					gprops: { }
 					id: "bountiful:bounty"
 					Count: 1b
 					tag: {
@@ -186,11 +159,7 @@
 		}
 		{
 			title: "Find a Graveyard"
-			icon: {
-				gprops: { }
-				id: "graveyard:skull_with_rib_cage"
-				Count: 1b
-			}
+			icon: "graveyard:skull_with_rib_cage"
 			x: 2.0d
 			y: -0.5d
 			subtitle: "Locate a Graveyard structure. Be sure to have a look or two below the graves for shiny loot."
@@ -208,7 +177,8 @@
 			y: 1.5d
 			subtitle: "The Blackstone Golem is the most deadliest creature in the world of Minecraft. Summoned at the Golem Altar, it will destroy the world until it killed all players."
 			description: [
-				"The Stone Golem can only be summoned with a golem ritual while being in the nether (See handbook)."
+				"The Stone Golem can only be summoned with a golem ritual while being in the nether."
+				"(See AdventureZ handbook)"
 				""
 				"Drops:"
 				"- 3 – 7 Blackstones"
@@ -224,11 +194,7 @@
 			tasks: [{
 				id: "58D29B40E7BF565C"
 				type: "kill"
-				icon: {
-					gprops: { }
-					id: "adventurez:stone_golem_heart"
-					Count: 1b
-				}
+				icon: "adventurez:stone_golem_heart"
 				entity: "adventurez:stone_golem"
 				value: 1L
 			}]
@@ -240,7 +206,7 @@
 			subtitle: "The Eye was never seen before by any human being and will drain all any energy you got until you are a dead corps."
 			description: [
 				"The Eye can only be summoned at an Eye Shrine."
-				"(See handbook)"
+				"(See AdventureZ handbook)"
 				""
 				"Drops:"
 				"- 0 -1 Prime Eyes "
@@ -251,7 +217,6 @@
 				id: "200D80E2ACC3571D"
 				type: "kill"
 				icon: {
-					gprops: { }
 					id: "adventurez:prime_eye"
 					Count: 1b
 					tag: {

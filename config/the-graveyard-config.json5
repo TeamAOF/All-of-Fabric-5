@@ -1,74 +1,163 @@
 {
   // Welcome to The Graveyard Config!
- //
- // Here, you can disable structures to spawn, change their chance of spawning, change their separation and also change their salt.
- // Additionally, you can turn the graveyard fog particles on and set the chance of spawning them (higher numbers = lower chance of spawning).
- // Graveyard fog particles spawn in graveyards and add an atmospheric and spooky element while exploring.
- // You can also disable and/or set the density of the fog in the biomes added by this mod. A lower value means a denser fog.
- //
- // To disable a structure to spawn, simply go to the corresponding entry and set `enabled` to false.
- //
- // The Graveyard uses the vanilla structure spawning system. That is -
- // - Separation is the minimum chunks between structures
- // - Spacing is the average chunks between structures (Spacing value needs to be higher than Separation value!)
- // - Salt is a special field that gives structures unique spawning positions. (Only change if you know what you are doing!)
- //
- // Notice: reducing the generation settings will increase the risk of structures overlapping. Especially jigsaw structures are unpredictable!
-
+  // //
+  // // Structures:
+  // // Disable structures to spawn, change their chance of spawning, change their separation and also change their salt.
+  // //
+  // // Mob Spawning:
+  // // Disable, which and if graveyard mobs spawn in the world (this does not affect the spawning in structures/of spawners), and set their spawning weight and group size.
+  // // Disable, if hordes can spawn in the world and set their spawning chance and size.
+  // //
+  // // Biome whitelist and blacklist:
+  // // Set in which biomes or in which biome categories the graveyard mobs and structures can spawn.
+  // // Valid vanilla biome categories are: taiga, extreme_hills, jungle, mesa, plains, savanna, icy, beach, forest, desert, swamp, mushroom, underground, mountain, nether.
+  // // A full list of all the biomes can be found here https://minecraft.fandom.com/wiki/Biome#Biome_IDs.
+  // // Modded Biomes: You can find the biome name for modded biomes in game by pressing F3.
+  // // So for example to allow a structure to only spawn in one specific biome, whitelist the biome category and blacklist all biomes of that category except the chosen one.
+  // //
+  // // Graveyard Fog:
+  // // Turn the graveyard fog particles off and set the chance of spawning them (higher numbers = lower chance of spawning).
+  // // Graveyard fog particles spawn in graveyards and add an atmospheric and spooky element while exploring.
+  // //
   "structureConfigEntries": {
     "mushroom_grave": {
       "enabled": true,
       "separation": 18,
       "spacing": 24,
-      "salt": 598017285
+      "salt": 379123039,
+      "allowedBiomeCategories": [
+        "mushroom",
+        "jungle",
+        "swamp"
+      ],
+      "blacklistedBiomes": []
     },
     "small_grave": {
       "enabled": true,
       "separation": 8,
       "spacing": 12,
-      "salt": 240451934
-    },
-    "small_walled_graveyard": {
-      "enabled": true,
-      "separation": 18,
-      "spacing": 20,
-      "salt": 1690192399
-    },
-    "large_birch_tree": {
-      "enabled": true,
-      "separation": 12,
-      "spacing": 14,
-      "salt": 304812394
-    },
-    "large_walled_graveyard": {
-      "enabled": true,
-      "separation": 9,
-      "spacing": 11,
-      "salt": 739017628
-    },
-    "small_walled_graveyard_desert": {
-      "enabled": true,
-      "separation": 28,
-      "spacing": 32,
-      "salt": 661903018
-    },
-    "medium_walled_graveyard": {
-      "enabled": true,
-      "separation": 14,
-      "spacing": 16,
-      "salt": 379123039
-    },
-    "small_walled_graveyard_savanna": {
-      "enabled": true,
-      "separation": 12,
-      "spacing": 14,
-      "salt": 451235912
+      "salt": 661903018,
+      "allowedBiomeCategories": [
+        "taiga",
+        "forest",
+        "plains"
+      ],
+      "blacklistedBiomes": []
     },
     "haunted_house": {
       "enabled": true,
       "separation": 20,
       "spacing": 25,
-      "salt": 529239621
+      "salt": 451235912,
+      "allowedBiomeCategories": [
+        "forest",
+        "swamp"
+      ],
+      "blacklistedBiomes": [
+        "forest",
+        "flower_forest",
+        "birch_forest",
+        "old_growth_birch_forest",
+        "windswept_forest"
+      ]
+    },
+    "small_graveyard": {
+      "enabled": true,
+      "separation": 18,
+      "spacing": 20,
+      "salt": 240451934,
+      "allowedBiomeCategories": [
+        "plains"
+      ],
+      "blacklistedBiomes": []
+    },
+    "small_desert_grave": {
+      "enabled": true,
+      "separation": 16,
+      "spacing": 20,
+      "salt": 681236914,
+      "allowedBiomeCategories": [
+        "desert"
+      ],
+      "blacklistedBiomes": []
+    },
+    "memorial_tree": {
+      "enabled": true,
+      "separation": 12,
+      "spacing": 14,
+      "salt": 529239621,
+      "allowedBiomeCategories": [
+        "forest"
+      ],
+      "blacklistedBiomes": [
+        "forest",
+        "flower_forest",
+        "dark_forest",
+        "windswept_forest"
+      ]
+    },
+    "medium_graveyard": {
+      "enabled": true,
+      "separation": 16,
+      "spacing": 18,
+      "salt": 1690192399,
+      "allowedBiomeCategories": [
+        "forest"
+      ],
+      "blacklistedBiomes": [
+        "dark_forest",
+        "birch_forest",
+        "old_growth_birch_forest"
+      ]
+    },
+    "small_desert_graveyard": {
+      "enabled": true,
+      "separation": 28,
+      "spacing": 32,
+      "salt": 598017285,
+      "allowedBiomeCategories": [
+        "desert"
+      ],
+      "blacklistedBiomes": []
+    },
+    "large_graveyard": {
+      "enabled": true,
+      "separation": 10,
+      "spacing": 12,
+      "salt": 304812394,
+      "allowedBiomeCategories": [
+        "forest",
+        "taiga"
+      ],
+      "blacklistedBiomes": [
+        "forest",
+        "flower_forest",
+        "birch_forest",
+        "old_growth_birch_forest",
+        "windswept_forest"
+      ]
+    },
+    "small_savanna_grave": {
+      "enabled": true,
+      "separation": 8,
+      "spacing": 12,
+      "salt": 709787761,
+      "allowedBiomeCategories": [
+        "mesa",
+        "savanna"
+      ],
+      "blacklistedBiomes": []
+    },
+    "small_mountain_grave": {
+      "enabled": true,
+      "separation": 8,
+      "spacing": 12,
+      "salt": 725689810,
+      "allowedBiomeCategories": [
+        "mountain",
+        "extreme_hills"
+      ],
+      "blacklistedBiomes": []
     }
   },
   "particleConfigEntries": {
@@ -77,30 +166,49 @@
       "spawnChance": 50
     }
   },
-  "biomeConfigEntries": {
-    "eroded_haunted_forest_biome": {
-      "biomeSpawn": true,
-      "biomeFogSpawn": true,
-      "biomeChance": 0.1,
-      "fogDensity": 0.9,
-      "fogMaxY": 256,
-      "fogMinY": 62
+  "mobConfigEntries": {
+    "acolyte": {
+      "enabled": true,
+      "weight": 0,
+      "minGroup": 2,
+      "maxGroup": 3
     },
-    "haunted_forest_biome": {
-      "biomeSpawn": true,
-      "biomeFogSpawn": true,
-      "biomeChance": 0.15,
-      "fogDensity": 0.5,
-      "fogMaxY": 256,
-      "fogMinY": 62
+    "revenant": {
+      "enabled": true,
+      "weight": 45,
+      "minGroup": 5,
+      "maxGroup": 8
     },
-    "haunted_lakes_biome": {
-      "biomeSpawn": true,
-      "biomeFogSpawn": true,
-      "biomeChance": 0.15,
-      "fogDensity": 0.7,
-      "fogMaxY": 256,
-      "fogMinY": 62
+    "skeleton_creeper": {
+      "enabled": true,
+      "weight": 35,
+      "minGroup": 1,
+      "maxGroup": 4
+    },
+    "ghoul": {
+      "enabled": true,
+      "weight": 45,
+      "minGroup": 2,
+      "maxGroup": 5
+    },
+    "reaper": {
+      "enabled": true,
+      "weight": 0,
+      "minGroup": 2,
+      "maxGroup": 3
+    },
+    "nightmare": {
+      "enabled": true,
+      "weight": 15,
+      "minGroup": 1,
+      "maxGroup": 1
+    }
+  },
+  "hordeConfigEntries": {
+    "horde_spawn": {
+      "enabled": true,
+      "size": 40,
+      "ticksUntilNextSpawn": 12000
     }
   }
 }

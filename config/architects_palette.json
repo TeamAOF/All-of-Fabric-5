@@ -1,0 +1,9 @@
+{
+  "Sunstone_Comment": "Chance of updating adjacent moon/sunstone blocks, cascading updates and helping larger areas stay in sync (RANGE:0.0 ~ 1.0)",
+  "sunstoneSpreadChance": 1.0,
+  "Villager_Comment": "Villagers that already sell AP items will continue to do so regardless of this setting.",
+  "enableVillagerTrades": true,
+  "enableWandererTrades": true,
+  "Vertical_Comment": "Adds vertical slabs for the OG builders out there",
+  "enableVerticalSlabs": false
+}

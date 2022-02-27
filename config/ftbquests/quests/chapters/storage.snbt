@@ -4,11 +4,7 @@
 	order_index: 0
 	filename: "storage"
 	title: "Storage"
-	icon: {
-		gprops: { }
-		id: "expandedstorage:wood_chest"
-		Count: 1b
-	}
+	icon: "expandedstorage:wood_chest"
 	default_quest_shape: "square"
 	default_hide_dependency_lines: false
 	images: [{
@@ -35,7 +31,6 @@
 				id: "53EFF04F0D471D35"
 				type: "item"
 				item: {
-					gprops: { }
 					id: "inmis:frayed_backpack"
 					Count: 1b
 					tag: { }
@@ -58,7 +53,6 @@
 				id: "0389793A9B8ED02D"
 				type: "item"
 				item: {
-					gprops: { }
 					id: "inmis:plated_backpack"
 					Count: 1b
 					tag: { }
@@ -81,7 +75,6 @@
 				id: "7698650D341A24A6"
 				type: "item"
 				item: {
-					gprops: { }
 					id: "inmis:gilded_backpack"
 					Count: 1b
 					tag: { }
@@ -104,7 +97,6 @@
 				id: "11B5FCEFA2E08385"
 				type: "item"
 				item: {
-					gprops: { }
 					id: "inmis:bejeweled_backpack"
 					Count: 1b
 					tag: { }
@@ -127,7 +119,6 @@
 				id: "27200ED2DA9EDDEE"
 				type: "item"
 				item: {
-					gprops: { }
 					id: "inmis:withered_backpack"
 					Count: 1b
 					tag: { }
@@ -150,7 +141,6 @@
 				id: "1725505C8D72840E"
 				type: "item"
 				item: {
-					gprops: { }
 					id: "inmis:endless_backpack"
 					Count: 1b
 					tag: { }
@@ -172,11 +162,7 @@
 			tasks: [{
 				id: "4E720A38A6D9CFE6"
 				type: "item"
-				item: {
-					gprops: { }
-					id: "expandedstorage:iron_chest"
-					Count: 1b
-				}
+				item: "expandedstorage:iron_chest"
 			}]
 			rewards: [{
 				id: "148CB381FEEB0016"
@@ -194,11 +180,7 @@
 			tasks: [{
 				id: "3D1ED067C24B1134"
 				type: "item"
-				item: {
-					gprops: { }
-					id: "expandedstorage:gold_chest"
-					Count: 1b
-				}
+				item: "expandedstorage:gold_chest"
 			}]
 			rewards: [{
 				id: "74FBC2EF950CB86A"
@@ -214,11 +196,7 @@
 			tasks: [{
 				id: "1ED0C18AAD522A97"
 				type: "item"
-				item: {
-					gprops: { }
-					id: "expandedstorage:diamond_chest"
-					Count: 1b
-				}
+				item: "expandedstorage:diamond_chest"
 			}]
 			rewards: [{
 				id: "751E9CC1607B84E1"
@@ -234,11 +212,7 @@
 			tasks: [{
 				id: "6C3A22620D3799C5"
 				type: "item"
-				item: {
-					gprops: { }
-					id: "expandedstorage:obsidian_chest"
-					Count: 1b
-				}
+				item: "expandedstorage:obsidian_chest"
 			}]
 			rewards: [{
 				id: "290246B41CC9E263"
@@ -254,11 +228,7 @@
 			tasks: [{
 				id: "29DEDBBF10195987"
 				type: "item"
-				item: {
-					gprops: { }
-					id: "expandedstorage:netherite_chest"
-					Count: 1b
-				}
+				item: "expandedstorage:netherite_chest"
 			}]
 			rewards: [{
 				id: "23FE030B3AD90796"
@@ -280,11 +250,7 @@
 			tasks: [{
 				id: "00779B056A43DEEA"
 				type: "item"
-				item: {
-					gprops: { }
-					id: "modern_industrialization:bronze_barrel"
-					Count: 1b
-				}
+				item: "modern_industrialization:bronze_barrel"
 			}]
 			rewards: [{
 				id: "4D9C5E224846D4D5"
@@ -300,11 +266,7 @@
 			tasks: [{
 				id: "31025F43DEF2146E"
 				type: "item"
-				item: {
-					gprops: { }
-					id: "modern_industrialization:steel_barrel"
-					Count: 1b
-				}
+				item: "modern_industrialization:steel_barrel"
 			}]
 			rewards: [{
 				id: "3BA2C5034E752280"
@@ -320,11 +282,7 @@
 			tasks: [{
 				id: "6A117D9E6E6C396A"
 				type: "item"
-				item: {
-					gprops: { }
-					id: "modern_industrialization:aluminum_barrel"
-					Count: 1b
-				}
+				item: "modern_industrialization:aluminum_barrel"
 			}]
 			rewards: [{
 				id: "5D9FF665C6BD00BC"
@@ -340,11 +298,7 @@
 			tasks: [{
 				id: "1D224B514E4D27BB"
 				type: "item"
-				item: {
-					gprops: { }
-					id: "modern_industrialization:stainless_steel_barrel"
-					Count: 1b
-				}
+				item: "modern_industrialization:stainless_steel_barrel"
 			}]
 			rewards: [{
 				id: "4B2CD5E36BCDE398"
@@ -360,11 +314,7 @@
 			tasks: [{
 				id: "477D2F4E7B22493B"
 				type: "item"
-				item: {
-					gprops: { }
-					id: "modern_industrialization:titanium_barrel"
-					Count: 1b
-				}
+				item: "modern_industrialization:titanium_barrel"
 			}]
 			rewards: [{
 				id: "5A7AFF7B329E1C50"
@@ -380,11 +330,7 @@
 			tasks: [{
 				id: "01BCEFA7EAD4F9DB"
 				type: "item"
-				item: {
-					gprops: { }
-					id: "modern_industrialization:quantum_barrel"
-					Count: 1b
-				}
+				item: "modern_industrialization:quantum_barrel"
 			}]
 			rewards: [{
 				id: "024EE241D090B6C9"
@@ -407,11 +353,7 @@
 			tasks: [{
 				id: "0E647B945E58B453"
 				type: "item"
-				item: {
-					gprops: { }
-					id: "modern_industrialization:bronze_tank"
-					Count: 1b
-				}
+				item: "modern_industrialization:bronze_tank"
 			}]
 			rewards: [{
 				id: "5FEA5183F56DCCCD"
@@ -427,11 +369,7 @@
 			tasks: [{
 				id: "0AA5B170D809E302"
 				type: "item"
-				item: {
-					gprops: { }
-					id: "modern_industrialization:steel_tank"
-					Count: 1b
-				}
+				item: "modern_industrialization:steel_tank"
 			}]
 			rewards: [{
 				id: "536D33EA28EE6545"
@@ -447,11 +385,7 @@
 			tasks: [{
 				id: "0D0319BE9A5E8567"
 				type: "item"
-				item: {
-					gprops: { }
-					id: "modern_industrialization:aluminum_tank"
-					Count: 1b
-				}
+				item: "modern_industrialization:aluminum_tank"
 			}]
 			rewards: [{
 				id: "1B2711E8B4C681E2"
@@ -467,11 +401,7 @@
 			tasks: [{
 				id: "6436BE309468817B"
 				type: "item"
-				item: {
-					gprops: { }
-					id: "modern_industrialization:stainless_steel_tank"
-					Count: 1b
-				}
+				item: "modern_industrialization:stainless_steel_tank"
 			}]
 			rewards: [{
 				id: "155FE5BC6B841ED8"
@@ -487,11 +417,7 @@
 			tasks: [{
 				id: "535970933372DF89"
 				type: "item"
-				item: {
-					gprops: { }
-					id: "modern_industrialization:titanium_tank"
-					Count: 1b
-				}
+				item: "modern_industrialization:titanium_tank"
 			}]
 			rewards: [{
 				id: "7FF5690F4676B40B"
@@ -507,11 +433,7 @@
 			tasks: [{
 				id: "0F1698CB2970E678"
 				type: "item"
-				item: {
-					gprops: { }
-					id: "modern_industrialization:quantum_tank"
-					Count: 1b
-				}
+				item: "modern_industrialization:quantum_tank"
 			}]
 			rewards: [{
 				id: "6F4EF3EC08FAF2BA"
@@ -544,11 +466,7 @@
 			tasks: [{
 				id: "5AC950AE1240C497"
 				type: "item"
-				item: {
-					gprops: { }
-					id: "dankstorage:dank_1"
-					Count: 1b
-				}
+				item: "dankstorage:dank_1"
 			}]
 			rewards: [{
 				id: "5AFD72C0D53622E6"
@@ -565,11 +483,7 @@
 			tasks: [{
 				id: "7458103DE8D41CFD"
 				type: "item"
-				item: {
-					gprops: { }
-					id: "dankstorage:dank_2"
-					Count: 1b
-				}
+				item: "dankstorage:dank_2"
 			}]
 			rewards: [{
 				id: "7B6AB3A246498191"
@@ -586,11 +500,7 @@
 			tasks: [{
 				id: "6B69BD987268BFE9"
 				type: "item"
-				item: {
-					gprops: { }
-					id: "dankstorage:dank_3"
-					Count: 1b
-				}
+				item: "dankstorage:dank_3"
 			}]
 			rewards: [{
 				id: "18999D80A9896C13"
@@ -607,11 +517,7 @@
 			tasks: [{
 				id: "1C9D9C9CDC0730F0"
 				type: "item"
-				item: {
-					gprops: { }
-					id: "dankstorage:dank_4"
-					Count: 1b
-				}
+				item: "dankstorage:dank_4"
 			}]
 			rewards: [{
 				id: "043745F85850D356"
@@ -628,11 +534,7 @@
 			tasks: [{
 				id: "78E8E5FE38C585C4"
 				type: "item"
-				item: {
-					gprops: { }
-					id: "dankstorage:dank_5"
-					Count: 1b
-				}
+				item: "dankstorage:dank_5"
 			}]
 			rewards: [{
 				id: "176B2F6BFA0786E6"
@@ -649,11 +551,7 @@
 			tasks: [{
 				id: "6F2EBCEF613C0B9B"
 				type: "item"
-				item: {
-					gprops: { }
-					id: "dankstorage:dank_6"
-					Count: 1b
-				}
+				item: "dankstorage:dank_6"
 			}]
 			rewards: [{
 				id: "18B276161883BD19"
@@ -670,11 +568,7 @@
 			tasks: [{
 				id: "015B208F0D6BEDCF"
 				type: "item"
-				item: {
-					gprops: { }
-					id: "dankstorage:dank_7"
-					Count: 1b
-				}
+				item: "dankstorage:dank_7"
 			}]
 			rewards: [
 				{
@@ -708,11 +602,7 @@
 			tasks: [{
 				id: "2D8DB2A4B2A7CCBE"
 				type: "item"
-				item: {
-					gprops: { }
-					id: "techreborn:basic_tank_unit"
-					Count: 1b
-				}
+				item: "techreborn:basic_tank_unit"
 			}]
 			rewards: [{
 				id: "326DAA2A2963C140"
@@ -730,11 +620,7 @@
 			tasks: [{
 				id: "14EAC75C541EAC9F"
 				type: "item"
-				item: {
-					gprops: { }
-					id: "techreborn:crude_storage_unit"
-					Count: 1b
-				}
+				item: "techreborn:crude_storage_unit"
 			}]
 			rewards: [{
 				id: "05BF62A39718CA1B"
@@ -751,7 +637,6 @@
 				id: "4047E84A003607DF"
 				type: "item"
 				item: {
-					gprops: { }
 					id: "ae2:portable_item_cell_1k"
 					Count: 1b
 					tag: { }
@@ -772,7 +657,6 @@
 				id: "2923476FBF22179D"
 				type: "item"
 				item: {
-					gprops: { }
 					id: "ae2:portable_item_cell_4k"
 					Count: 1b
 					tag: { }
@@ -793,7 +677,6 @@
 				id: "71BE3BA4905757B3"
 				type: "item"
 				item: {
-					gprops: { }
 					id: "ae2:portable_item_cell_16k"
 					Count: 1b
 					tag: { }
@@ -814,7 +697,6 @@
 				id: "35C282C1B8D33B87"
 				type: "item"
 				item: {
-					gprops: { }
 					id: "ae2:portable_item_cell_64k"
 					Count: 1b
 					tag: { }
@@ -835,7 +717,6 @@
 				id: "2279583F8E5EEB36"
 				type: "item"
 				item: {
-					gprops: { }
 					id: "ae2:portable_fluid_cell_1k"
 					Count: 1b
 					tag: { }
@@ -856,7 +737,6 @@
 				id: "43C781916B5E5A65"
 				type: "item"
 				item: {
-					gprops: { }
 					id: "ae2:portable_fluid_cell_4k"
 					Count: 1b
 					tag: { }
@@ -877,7 +757,6 @@
 				id: "0692A8C08A35DCC3"
 				type: "item"
 				item: {
-					gprops: { }
 					id: "ae2:portable_fluid_cell_16k"
 					Count: 1b
 					tag: { }
@@ -898,7 +777,6 @@
 				id: "440B9C7ACD790014"
 				type: "item"
 				item: {
-					gprops: { }
 					id: "ae2:portable_fluid_cell_64k"
 					Count: 1b
 					tag: { }
@@ -920,11 +798,7 @@
 			tasks: [{
 				id: "2B4C0EB03500550D"
 				type: "item"
-				item: {
-					gprops: { }
-					id: "expandedstorage:iron_barrel"
-					Count: 1b
-				}
+				item: "expandedstorage:iron_barrel"
 			}]
 			rewards: [{
 				id: "426794D6E6D3387D"
@@ -942,11 +816,7 @@
 			tasks: [{
 				id: "68460F5575BF476F"
 				type: "item"
-				item: {
-					gprops: { }
-					id: "expandedstorage:gold_barrel"
-					Count: 1b
-				}
+				item: "expandedstorage:gold_barrel"
 			}]
 			rewards: [{
 				id: "4FD4E0B728D174BF"
@@ -962,11 +832,7 @@
 			tasks: [{
 				id: "4740CF82772243A9"
 				type: "item"
-				item: {
-					gprops: { }
-					id: "expandedstorage:diamond_barrel"
-					Count: 1b
-				}
+				item: "expandedstorage:diamond_barrel"
 			}]
 			rewards: [{
 				id: "75066B6620294BDC"
@@ -982,11 +848,7 @@
 			tasks: [{
 				id: "02CBDF3A4275A06B"
 				type: "item"
-				item: {
-					gprops: { }
-					id: "expandedstorage:obsidian_barrel"
-					Count: 1b
-				}
+				item: "expandedstorage:obsidian_barrel"
 			}]
 			rewards: [{
 				id: "790A9065CCDCE548"
@@ -1002,11 +864,7 @@
 			tasks: [{
 				id: "6CBB00C8CB2DE300"
 				type: "item"
-				item: {
-					gprops: { }
-					id: "expandedstorage:netherite_barrel"
-					Count: 1b
-				}
+				item: "expandedstorage:netherite_barrel"
 			}]
 			rewards: [{
 				id: "32235D92E5C5062C"
@@ -1022,11 +880,7 @@
 			tasks: [{
 				id: "332A6C8DE153FB8A"
 				type: "item"
-				item: {
-					gprops: { }
-					id: "techreborn:basic_storage_unit"
-					Count: 1b
-				}
+				item: "techreborn:basic_storage_unit"
 			}]
 			rewards: [{
 				id: "11FD5E5321538612"
@@ -1042,11 +896,7 @@
 			tasks: [{
 				id: "34281E506046CD51"
 				type: "item"
-				item: {
-					gprops: { }
-					id: "techreborn:advanced_tank_unit"
-					Count: 1b
-				}
+				item: "techreborn:advanced_tank_unit"
 			}]
 			rewards: [{
 				id: "193FFBF21261E8DE"
@@ -1062,11 +912,7 @@
 			tasks: [{
 				id: "22CE468B3AC15142"
 				type: "item"
-				item: {
-					gprops: { }
-					id: "techreborn:advanced_storage_unit"
-					Count: 1b
-				}
+				item: "techreborn:advanced_storage_unit"
 			}]
 			rewards: [{
 				id: "4A1060107E124285"
@@ -1082,11 +928,7 @@
 			tasks: [{
 				id: "012C6C1DF6C46F0F"
 				type: "item"
-				item: {
-					gprops: { }
-					id: "techreborn:industrial_storage_unit"
-					Count: 1b
-				}
+				item: "techreborn:industrial_storage_unit"
 			}]
 			rewards: [{
 				id: "4AEF1830216EC884"
@@ -1102,11 +944,7 @@
 			tasks: [{
 				id: "272347DF31B60E19"
 				type: "item"
-				item: {
-					gprops: { }
-					id: "techreborn:quantum_storage_unit"
-					Count: 1b
-				}
+				item: "techreborn:quantum_storage_unit"
 			}]
 			rewards: [{
 				id: "073249D1E25B5800"
@@ -1122,11 +960,7 @@
 			tasks: [{
 				id: "41F08E4226C2B034"
 				type: "item"
-				item: {
-					gprops: { }
-					id: "techreborn:industrial_tank_unit"
-					Count: 1b
-				}
+				item: "techreborn:industrial_tank_unit"
 			}]
 			rewards: [{
 				id: "31E9FA3A17FF4089"
@@ -1142,11 +976,7 @@
 			tasks: [{
 				id: "1B1315F65EE4559C"
 				type: "item"
-				item: {
-					gprops: { }
-					id: "techreborn:quantum_tank_unit"
-					Count: 1b
-				}
+				item: "techreborn:quantum_tank_unit"
 			}]
 			rewards: [{
 				id: "129D531B1183328B"
@@ -1230,11 +1060,7 @@
 			tasks: [{
 				id: "2901054D6A1E5169"
 				type: "item"
-				item: {
-					gprops: { }
-					id: "techreborn:low_voltage_su"
-					Count: 1b
-				}
+				item: "techreborn:low_voltage_su"
 			}]
 			rewards: [{
 				id: "674E0D34A579213A"
@@ -1250,11 +1076,7 @@
 			tasks: [{
 				id: "3E91DD78CB3B5A29"
 				type: "item"
-				item: {
-					gprops: { }
-					id: "techreborn:medium_voltage_su"
-					Count: 1b
-				}
+				item: "techreborn:medium_voltage_su"
 			}]
 			rewards: [{
 				id: "615614CA8AAB107C"
@@ -1270,11 +1092,7 @@
 			tasks: [{
 				id: "729C6F46550B4901"
 				type: "item"
-				item: {
-					gprops: { }
-					id: "techreborn:high_voltage_su"
-					Count: 1b
-				}
+				item: "techreborn:high_voltage_su"
 			}]
 			rewards: [{
 				id: "1D5A6892D23AC30F"
@@ -1290,11 +1108,7 @@
 			tasks: [{
 				id: "619C6FB574819C0A"
 				type: "item"
-				item: {
-					gprops: { }
-					id: "techreborn:interdimensional_su"
-					Count: 1b
-				}
+				item: "techreborn:interdimensional_su"
 			}]
 			rewards: [{
 				id: "6ACFF23D28855783"
@@ -1323,11 +1137,7 @@
 			tasks: [{
 				id: "7659005A22D97F38"
 				type: "item"
-				item: {
-					gprops: { }
-					id: "indrev:lazuli_flux_container_mk1"
-					Count: 1b
-				}
+				item: "indrev:lazuli_flux_container_mk1"
 			}]
 			rewards: [{
 				id: "5394456298247B14"
@@ -1343,11 +1153,7 @@
 			tasks: [{
 				id: "6C0809992B96502B"
 				type: "item"
-				item: {
-					gprops: { }
-					id: "indrev:lazuli_flux_container_mk2"
-					Count: 1b
-				}
+				item: "indrev:lazuli_flux_container_mk2"
 			}]
 			rewards: [{
 				id: "7E7358C587607459"
@@ -1363,11 +1169,7 @@
 			tasks: [{
 				id: "20203EEE0087B7A5"
 				type: "item"
-				item: {
-					gprops: { }
-					id: "indrev:lazuli_flux_container_mk3"
-					Count: 1b
-				}
+				item: "indrev:lazuli_flux_container_mk3"
 			}]
 			rewards: [{
 				id: "60B23A692872D6F8"
@@ -1383,11 +1185,7 @@
 			tasks: [{
 				id: "46EBA4968DDC5066"
 				type: "item"
-				item: {
-					gprops: { }
-					id: "indrev:lazuli_flux_container_mk4"
-					Count: 1b
-				}
+				item: "indrev:lazuli_flux_container_mk4"
 			}]
 			rewards: [{
 				id: "27E20A9B069DA06B"
@@ -1404,11 +1202,7 @@
 			tasks: [{
 				id: "05925CAF51CE0B12"
 				type: "item"
-				item: {
-					gprops: { }
-					id: "cyti:trashcan_item"
-					Count: 1b
-				}
+				item: "cyti:trashcan_item"
 			}]
 		}
 		{
@@ -1421,11 +1215,7 @@
 			tasks: [{
 				id: "6EB150C656F759E2"
 				type: "item"
-				item: {
-					gprops: { }
-					id: "cyti:trashcan_fluid"
-					Count: 1b
-				}
+				item: "cyti:trashcan_fluid"
 			}]
 		}
 		{
@@ -1450,11 +1240,7 @@
 			tasks: [{
 				id: "33E2E81D15BBA2DD"
 				type: "item"
-				item: {
-					gprops: { }
-					id: "cyti:trashcan_energy"
-					Count: 1b
-				}
+				item: "cyti:trashcan_energy"
 			}]
 		}
 	]

@@ -4,11 +4,7 @@
 	order_index: 1
 	filename: "applied_energistics"
 	title: "Applied Energistics 2"
-	icon: {
-		gprops: { }
-		id: "ae2:singularity"
-		Count: 1b
-	}
+	icon: "ae2:singularity"
 	default_quest_shape: "square"
 	default_hide_dependency_lines: false
 	quests: [
@@ -30,20 +26,12 @@
 			tasks: [{
 				id: "2BCC42993452589F"
 				type: "item"
-				item: {
-					gprops: { }
-					id: "ae2:charged_certus_quartz_crystal"
-					Count: 1b
-				}
+				item: "ae2:charged_certus_quartz_crystal"
 			}]
 			rewards: [{
 				id: "37AAE9EDA300A4CF"
 				type: "item"
-				item: {
-					gprops: { }
-					id: "minecraft:clay_ball"
-					Count: 1b
-				}
+				item: "minecraft:clay_ball"
 			}]
 		}
 		{
@@ -54,21 +42,13 @@
 			tasks: [{
 				id: "58065B40437B33DA"
 				type: "item"
-				item: {
-					gprops: { }
-					id: "ae2:fluix_crystal"
-					Count: 1b
-				}
+				item: "ae2:fluix_crystal"
 				count: 16L
 			}]
 			rewards: [{
 				id: "77013016C470B1C1"
 				type: "item"
-				item: {
-					gprops: { }
-					id: "minecraft:sand"
-					Count: 1b
-				}
+				item: "minecraft:sand"
 				count: 2
 			}]
 		}
@@ -80,17 +60,12 @@
 			tasks: [{
 				id: "2BDA459026191334"
 				type: "item"
-				item: {
-					gprops: { }
-					id: "ae2:inscriber"
-					Count: 1b
-				}
+				item: "ae2:inscriber"
 			}]
 			rewards: [{
 				id: "6E46A2C75682CEB8"
 				type: "item"
 				item: {
-					gprops: { }
 					id: "minecraft:leather_boots"
 					Count: 1b
 					tag: {
@@ -108,20 +83,12 @@
 			tasks: [{
 				id: "283357E45102D87C"
 				type: "item"
-				item: {
-					gprops: { }
-					id: "ae2:charger"
-					Count: 1b
-				}
+				item: "ae2:charger"
 			}]
 			rewards: [{
 				id: "075947A8CD565C59"
 				type: "item"
-				item: {
-					gprops: { }
-					id: "chisel:spaceblack/iron_block"
-					Count: 1b
-				}
+				item: "chisel:spaceblack/iron_block"
 				count: 6
 			}]
 		}
@@ -134,11 +101,7 @@
 			tasks: [{
 				id: "7C8924F839D8D61E"
 				type: "item"
-				item: {
-					gprops: { }
-					id: "ae2:energy_acceptor"
-					Count: 1b
-				}
+				item: "ae2:energy_acceptor"
 			}]
 		}
 		{
@@ -150,21 +113,13 @@
 			tasks: [{
 				id: "1582C3D80B414E43"
 				type: "item"
-				item: {
-					gprops: { }
-					id: "ae2:fluix_glass_cable"
-					Count: 1b
-				}
+				item: "ae2:fluix_glass_cable"
 				count: 6L
 			}]
 			rewards: [{
 				id: "314F2650FE84C5F5"
 				type: "item"
-				item: {
-					gprops: { }
-					id: "minecraft:glass"
-					Count: 1b
-				}
+				item: "minecraft:glass"
 				count: 16
 			}]
 		}
@@ -176,21 +131,13 @@
 			tasks: [{
 				id: "7AA503B6ABF481D7"
 				type: "item"
-				item: {
-					gprops: { }
-					id: "ae2:quartz_growth_accelerator"
-					Count: 1b
-				}
+				item: "ae2:quartz_growth_accelerator"
 				count: 4L
 			}]
 			rewards: [{
 				id: "24694573F4D473FE"
 				type: "item"
-				item: {
-					gprops: { }
-					id: "minecraft:oxidized_copper"
-					Count: 1b
-				}
+				item: "minecraft:oxidized_copper"
 				count: 4
 			}]
 		}
@@ -202,11 +149,7 @@
 			tasks: [{
 				id: "02C1F3E82404AE7E"
 				type: "item"
-				item: {
-					gprops: { }
-					id: "ae2:fluix_crystal_seed"
-					Count: 1b
-				}
+				item: "ae2:fluix_crystal_seed"
 			}]
 			rewards: [{
 				id: "0418754C60B2560F"
@@ -222,20 +165,12 @@
 			tasks: [{
 				id: "6CB5F66C1E628B0E"
 				type: "item"
-				item: {
-					gprops: { }
-					id: "ae2:controller"
-					Count: 1b
-				}
+				item: "ae2:controller"
 			}]
 			rewards: [{
 				id: "782836835FC030BD"
 				type: "item"
-				item: {
-					gprops: { }
-					id: "modern_industrialization:copper_nugget"
-					Count: 1b
-				}
+				item: "modern_industrialization:copper_nugget"
 			}]
 		}
 		{
@@ -246,20 +181,12 @@
 			tasks: [{
 				id: "733C8308DEA8FB07"
 				type: "item"
-				item: {
-					gprops: { }
-					id: "ae2:fluix_smart_cable"
-					Count: 1b
-				}
+				item: "ae2:fluix_smart_cable"
 			}]
 			rewards: [{
 				id: "0A58F0EFDB8332AA"
 				type: "item"
-				item: {
-					gprops: { }
-					id: "minecraft:clay"
-					Count: 1b
-				}
+				item: "minecraft:clay"
 				count: 4
 			}]
 		}
@@ -271,11 +198,7 @@
 			tasks: [{
 				id: "04A70F331336A1D5"
 				type: "item"
-				item: {
-					gprops: { }
-					id: "ae2:drive"
-					Count: 1b
-				}
+				item: "ae2:drive"
 			}]
 			rewards: [{
 				id: "291D9147E4D54B78"
@@ -291,11 +214,7 @@
 			tasks: [{
 				id: "0FCC6C4E3FB97D07"
 				type: "item"
-				item: {
-					gprops: { }
-					id: "ae2:crafting_terminal"
-					Count: 1b
-				}
+				item: "ae2:crafting_terminal"
 			}]
 			rewards: [{
 				id: "5B247E0A84DC4F31"
@@ -311,20 +230,12 @@
 			tasks: [{
 				id: "5723EBB3D22A39E7"
 				type: "item"
-				item: {
-					gprops: { }
-					id: "ae2:me_p2p_tunnel"
-					Count: 1b
-				}
+				item: "ae2:me_p2p_tunnel"
 			}]
 			rewards: [{
 				id: "4B892F1741F96ED0"
 				type: "item"
-				item: {
-					gprops: { }
-					id: "minecraft:ender_pearl"
-					Count: 1b
-				}
+				item: "minecraft:ender_pearl"
 			}]
 		}
 		{
@@ -336,7 +247,6 @@
 				id: "07906B740B4ADB80"
 				type: "item"
 				item: {
-					gprops: { }
 					id: "ae2:memory_card"
 					Count: 1b
 					tag: { }
@@ -360,20 +270,12 @@
 			tasks: [{
 				id: "4D657D4CBB6A2016"
 				type: "item"
-				item: {
-					gprops: { }
-					id: "ae2:fluix_smart_dense_cable"
-					Count: 1b
-				}
+				item: "ae2:fluix_smart_dense_cable"
 			}]
 			rewards: [{
 				id: "59C106980F405513"
 				type: "item"
-				item: {
-					gprops: { }
-					id: "minecraft:clay"
-					Count: 1b
-				}
+				item: "minecraft:clay"
 				count: 6
 			}]
 		}
@@ -386,7 +288,6 @@
 				id: "3FDDED57431181C3"
 				type: "item"
 				item: {
-					gprops: { }
 					id: "ae2:item_storage_cell_1k"
 					Count: 1b
 					tag: { }
@@ -395,11 +296,7 @@
 			rewards: [{
 				id: "03AF7D554B6AD84A"
 				type: "item"
-				item: {
-					gprops: { }
-					id: "minecraft:stone"
-					Count: 1b
-				}
+				item: "minecraft:stone"
 				count: 64
 			}]
 		}
@@ -412,7 +309,6 @@
 				id: "2E155470D8151510"
 				type: "item"
 				item: {
-					gprops: { }
 					id: "ae2:item_storage_cell_4k"
 					Count: 1b
 					tag: { }
@@ -421,11 +317,7 @@
 			rewards: [{
 				id: "39D11868E82B8D97"
 				type: "item"
-				item: {
-					gprops: { }
-					id: "minecraft:gold_nugget"
-					Count: 1b
-				}
+				item: "minecraft:gold_nugget"
 			}]
 		}
 		{
@@ -437,7 +329,6 @@
 				id: "0950907AA16E55FA"
 				type: "item"
 				item: {
-					gprops: { }
 					id: "ae2:item_storage_cell_16k"
 					Count: 1b
 					tag: { }
@@ -446,11 +337,7 @@
 			rewards: [{
 				id: "5D33F7E3F1EBB89A"
 				type: "item"
-				item: {
-					gprops: { }
-					id: "modern_industrialization:emerald_tiny_dust"
-					Count: 1b
-				}
+				item: "modern_industrialization:emerald_tiny_dust"
 			}]
 		}
 		{
@@ -462,7 +349,6 @@
 				id: "7FAF15C54C21DDF8"
 				type: "item"
 				item: {
-					gprops: { }
 					id: "ae2:item_storage_cell_64k"
 					Count: 1b
 					tag: { }
@@ -471,11 +357,7 @@
 			rewards: [{
 				id: "3C2B0513F558A987"
 				type: "item"
-				item: {
-					gprops: { }
-					id: "modern_industrialization:diamond_tiny_dust"
-					Count: 1b
-				}
+				item: "modern_industrialization:diamond_tiny_dust"
 			}]
 		}
 		{
@@ -489,11 +371,7 @@
 			tasks: [{
 				id: "2A1935843BEBBF9F"
 				type: "item"
-				item: {
-					gprops: { }
-					id: "ae2:pattern_encoding_terminal"
-					Count: 1b
-				}
+				item: "ae2:pattern_encoding_terminal"
 			}]
 			rewards: [{
 				id: "1B30751FD2D4841E"
@@ -509,11 +387,7 @@
 			tasks: [{
 				id: "2FEE9FBD8CE4FE03"
 				type: "item"
-				item: {
-					gprops: { }
-					id: "ae2:terminal"
-					Count: 1b
-				}
+				item: "ae2:terminal"
 			}]
 			rewards: [{
 				id: "1A79CBD4685ABD28"
@@ -529,11 +403,7 @@
 			tasks: [{
 				id: "5F3D81B7D3F27CA2"
 				type: "item"
-				item: {
-					gprops: { }
-					id: "ae2:interface"
-					Count: 1b
-				}
+				item: "ae2:interface"
 			}]
 		}
 		{
@@ -544,11 +414,7 @@
 			tasks: [{
 				id: "2641A595A151CEC8"
 				type: "item"
-				item: {
-					gprops: { }
-					id: "ae2:crafting_unit"
-					Count: 1b
-				}
+				item: "ae2:crafting_unit"
 			}]
 		}
 		{
@@ -559,11 +425,7 @@
 			tasks: [{
 				id: "1E101186DD63E8A3"
 				type: "item"
-				item: {
-					gprops: { }
-					id: "ae2:molecular_assembler"
-					Count: 1b
-				}
+				item: "ae2:molecular_assembler"
 			}]
 		}
 		{
@@ -574,11 +436,7 @@
 			tasks: [{
 				id: "00690EE1F30F9B99"
 				type: "item"
-				item: {
-					gprops: { }
-					id: "ae2:1k_crafting_storage"
-					Count: 1b
-				}
+				item: "ae2:1k_crafting_storage"
 			}]
 		}
 		{
@@ -589,11 +447,7 @@
 			tasks: [{
 				id: "640B719C25B50B4B"
 				type: "item"
-				item: {
-					gprops: { }
-					id: "ae2:4k_crafting_storage"
-					Count: 1b
-				}
+				item: "ae2:4k_crafting_storage"
 			}]
 		}
 		{
@@ -604,11 +458,7 @@
 			tasks: [{
 				id: "3B28508C9447ACAC"
 				type: "item"
-				item: {
-					gprops: { }
-					id: "ae2:16k_crafting_storage"
-					Count: 1b
-				}
+				item: "ae2:16k_crafting_storage"
 			}]
 		}
 		{
@@ -619,11 +469,7 @@
 			tasks: [{
 				id: "0505C3A757A97D86"
 				type: "item"
-				item: {
-					gprops: { }
-					id: "ae2:64k_crafting_storage"
-					Count: 1b
-				}
+				item: "ae2:64k_crafting_storage"
 			}]
 		}
 		{
@@ -634,11 +480,7 @@
 			tasks: [{
 				id: "6DD06942CEC418CB"
 				type: "item"
-				item: {
-					gprops: { }
-					id: "ae2:storage_bus"
-					Count: 1b
-				}
+				item: "ae2:storage_bus"
 			}]
 		}
 		{
@@ -649,11 +491,7 @@
 			tasks: [{
 				id: "006B723E69E57816"
 				type: "item"
-				item: {
-					gprops: { }
-					id: "ae2:import_bus"
-					Count: 1b
-				}
+				item: "ae2:import_bus"
 			}]
 		}
 		{
@@ -664,11 +502,7 @@
 			tasks: [{
 				id: "3D82F453CBD0740A"
 				type: "item"
-				item: {
-					gprops: { }
-					id: "ae2:export_bus"
-					Count: 1b
-				}
+				item: "ae2:export_bus"
 			}]
 		}
 		{
@@ -679,11 +513,7 @@
 			tasks: [{
 				id: "6FDD185D41E3E494"
 				type: "item"
-				item: {
-					gprops: { }
-					id: "ae2:security_station"
-					Count: 1b
-				}
+				item: "ae2:security_station"
 			}]
 		}
 		{
@@ -694,11 +524,7 @@
 			tasks: [{
 				id: "21C4930537157E49"
 				type: "item"
-				item: {
-					gprops: { }
-					id: "ae2:biometric_card"
-					Count: 1b
-				}
+				item: "ae2:biometric_card"
 			}]
 		}
 		{
@@ -709,11 +535,7 @@
 			tasks: [{
 				id: "4E38E22FE7B37FE6"
 				type: "item"
-				item: {
-					gprops: { }
-					id: "ae2:wireless_access_point"
-					Count: 1b
-				}
+				item: "ae2:wireless_access_point"
 			}]
 		}
 		{
@@ -724,11 +546,7 @@
 			tasks: [{
 				id: "1CFC818DEC3E5B6C"
 				type: "item"
-				item: {
-					gprops: { }
-					id: "ae2:wireless_terminal"
-					Count: 1b
-				}
+				item: "ae2:wireless_terminal"
 			}]
 		}
 		{
@@ -739,11 +557,7 @@
 			tasks: [{
 				id: "6C0BA4228CC4B8B0"
 				type: "item"
-				item: {
-					gprops: { }
-					id: "ae2:wireless_booster"
-					Count: 1b
-				}
+				item: "ae2:wireless_booster"
 			}]
 		}
 		{
@@ -754,11 +568,7 @@
 			tasks: [{
 				id: "435ED5858F476384"
 				type: "item"
-				item: {
-					gprops: { }
-					id: "ae2:quantum_entangled_singularity"
-					Count: 1b
-				}
+				item: "ae2:quantum_entangled_singularity"
 			}]
 			rewards: [{
 				id: "6EB8E1407F39CE7A"
@@ -774,11 +584,7 @@
 			tasks: [{
 				id: "0DAFE1BDC893DE5F"
 				type: "item"
-				item: {
-					gprops: { }
-					id: "ae2:quantum_link"
-					Count: 1b
-				}
+				item: "ae2:quantum_link"
 			}]
 			rewards: [
 				{
@@ -806,11 +612,7 @@
 			tasks: [{
 				id: "422C32A11B9803B4"
 				type: "item"
-				item: {
-					gprops: { }
-					id: "ae2:quantum_ring"
-					Count: 1b
-				}
+				item: "ae2:quantum_ring"
 			}]
 			rewards: [
 				{
@@ -884,11 +686,7 @@
 			tasks: [{
 				id: "1A5F4DE4911B984A"
 				type: "item"
-				item: {
-					gprops: { }
-					id: "ae2:pattern_provider"
-					Count: 1b
-				}
+				item: "ae2:pattern_provider"
 			}]
 		}
 	]

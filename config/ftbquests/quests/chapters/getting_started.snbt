@@ -4,11 +4,7 @@
 	order_index: 0
 	filename: "getting_started"
 	title: "Getting Started"
-	icon: {
-		gprops: { }
-		id: "onastick:crafting_table_on_a_stick"
-		Count: 1b
-	}
+	icon: "onastick:crafting_table_on_a_stick"
 	default_quest_shape: ""
 	default_hide_dependency_lines: false
 	quests: [
@@ -36,11 +32,7 @@
 				id: "25B2DFAFD351900E"
 				type: "checkmark"
 				title: "Welcome to All of Fabric 5"
-				icon: {
-					gprops: { }
-					id: "kubejs:aof5_logo"
-					Count: 1b
-				}
+				icon: "kubejs:aof5_logo"
 			}]
 			rewards: [{
 				id: "0C7586F6D57261AC"
@@ -55,11 +47,7 @@
 			description: [
 				"Excavate is by default bound to keybind \"Grave\""
 				""
-				""
-				"You can change this keybind by doing the following steps:"
-				""
-				""
-				"Go into Esc > Mods > Search > Diggus Maximus > Click the Cogwheel"
+				"You can change this keybind by going into options and change the FTB Ultimine keybinds."
 			]
 			dependencies: ["175F5611FB7716A4"]
 			id: "7050DE96E151D1D1"
@@ -68,7 +56,6 @@
 				type: "checkmark"
 				title: "Excavate"
 				icon: {
-					gprops: { }
 					id: "minecraft:diamond_pickaxe"
 					Count: 1b
 					tag: {
@@ -81,25 +68,22 @@
 			x: 7.5d
 			y: -1.0d
 			subtitle: "Are you worthy? Become the completionist!"
+			description: [
+				"COMING SOON"
+				"COMING SOON"
+				"COMING SOON"
+			]
 			dependencies: ["175F5611FB7716A4"]
 			id: "477ECBF67056BF45"
 			tasks: [{
 				id: "7E0EE4376BC378B3"
 				type: "checkmark"
 				title: "Challenges"
-				icon: {
-					gprops: { }
-					id: "croptopia:starfruit"
-					Count: 1b
-				}
+				icon: "croptopia:starfruit"
 			}]
 		}
 		{
-			icon: {
-				gprops: { }
-				id: "techreborn:wrench"
-				Count: 1b
-			}
+			icon: "techreborn:wrench"
 			x: 5.0d
 			y: 0.0d
 			subtitle: "Feel lost? Do not worry!"
@@ -125,7 +109,6 @@
 		}
 		{
 			icon: {
-				gprops: { }
 				id: "naturescompass:naturescompass"
 				Count: 1b
 				tag: { }
@@ -151,7 +134,6 @@
 				id: "197C077CA5118D52"
 				type: "item"
 				item: {
-					gprops: { }
 					id: "naturescompass:naturescompass"
 					Count: 1b
 					tag: { }
@@ -182,20 +164,12 @@
 				id: "2EC6B9D7A8E9438D"
 				type: "checkmark"
 				title: "Crafting on the Go"
-				icon: {
-					gprops: { }
-					id: "onastick:crafting_table_on_a_stick"
-					Count: 1b
-				}
+				icon: "onastick:crafting_table_on_a_stick"
 			}]
 		}
 		{
 			title: "Recipe Wizardry"
-			icon: {
-				gprops: { }
-				id: "botania:placeholder"
-				Count: 1b
-			}
+			icon: "botania:placeholder"
 			x: 10.0d
 			y: 4.0d
 			subtitle: "A recipe is a story that ends with a good meal."

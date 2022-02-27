@@ -5,7 +5,6 @@
 	filename: "botania"
 	title: "Botania"
 	icon: {
-		gprops: { }
 		id: "botania:lexicon"
 		Count: 1b
 		tag: {
@@ -17,11 +16,7 @@
 	quests: [
 		{
 			title: "This is Botania"
-			icon: {
-				gprops: { }
-				id: "botania:lexicon"
-				Count: 1b
-			}
+			icon: "botania:lexicon"
 			x: -5.5d
 			y: -1.0d
 			subtitle: "Natural magic, revolving around flora."
@@ -33,11 +28,7 @@
 			rewards: [{
 				id: "3CEE2D5320850B8F"
 				type: "item"
-				item: {
-					gprops: { }
-					id: "botania:lexicon"
-					Count: 1b
-				}
+				item: "botania:lexicon"
 			}]
 		}
 		{
@@ -49,11 +40,7 @@
 				id: "4C569B32E08A8574"
 				type: "advancement"
 				title: "Find Mystical Flowers"
-				icon: {
-					gprops: { }
-					id: "botania:magenta_double_flower"
-					Count: 1b
-				}
+				icon: "botania:magenta_double_flower"
 				advancement: "botania:main/flower_pickup"
 				criterion: ""
 			}]
@@ -66,11 +53,7 @@
 			tasks: [{
 				id: "56C6E89025BDF94C"
 				type: "item"
-				item: {
-					gprops: { }
-					id: "botania:apothecary_default"
-					Count: 1b
-				}
+				item: "botania:apothecary_default"
 			}]
 		}
 		{
@@ -81,11 +64,7 @@
 			tasks: [{
 				id: "1A247FF180E6481A"
 				type: "item"
-				item: {
-					gprops: { }
-					id: "botania:pure_daisy"
-					Count: 1b
-				}
+				item: "botania:pure_daisy"
 			}]
 		}
 		{
@@ -96,11 +75,7 @@
 			tasks: [{
 				id: "03CC428B8A7A61D7"
 				type: "item"
-				item: {
-					gprops: { }
-					id: "botania:livingrock"
-					Count: 1b
-				}
+				item: "botania:livingrock"
 			}]
 		}
 		{
@@ -111,11 +86,7 @@
 			tasks: [{
 				id: "26F8B595973C58E6"
 				type: "item"
-				item: {
-					gprops: { }
-					id: "botania:livingwood"
-					Count: 1b
-				}
+				item: "botania:livingwood"
 			}]
 		}
 		{
@@ -128,20 +99,12 @@
 			tasks: [{
 				id: "36B856AD96BA8E03"
 				type: "item"
-				item: {
-					gprops: { }
-					id: "botania:flower_bag"
-					Count: 1b
-				}
+				item: "botania:flower_bag"
 			}]
 			rewards: [{
 				id: "3BB9604773FFFDAC"
 				type: "item"
-				item: {
-					gprops: { }
-					id: "botania:fertilizer"
-					Count: 1b
-				}
+				item: "botania:fertilizer"
 				count: 16
 			}]
 		}
@@ -161,23 +124,18 @@
 				id: "0C751A483EC49827"
 				type: "item"
 				item: {
-					gprops: { }
 					id: "botania:twig_wand"
 					Count: 1b
 					tag: {
-						color1: 0
 						color2: 0
+						color1: 0
 					}
 				}
 			}]
 			rewards: [{
 				id: "1C6554E07F67B1F5"
 				type: "item"
-				item: {
-					gprops: { }
-					id: "minecraft:dispenser"
-					Count: 1b
-				}
+				item: "minecraft:dispenser"
 			}]
 		}
 		{
@@ -188,11 +146,7 @@
 			tasks: [{
 				id: "751C161E36704045"
 				type: "item"
-				item: {
-					gprops: { }
-					id: "botania:mana_pool"
-					Count: 1b
-				}
+				item: "botania:mana_pool"
 			}]
 		}
 		{
@@ -203,11 +157,7 @@
 			tasks: [{
 				id: "033EEA4C276D2C05"
 				type: "item"
-				item: {
-					gprops: { }
-					id: "botania:mana_spreader"
-					Count: 1b
-				}
+				item: "botania:mana_spreader"
 			}]
 		}
 		{
@@ -218,11 +168,7 @@
 			tasks: [{
 				id: "07A6AB4B85652E07"
 				type: "item"
-				item: {
-					gprops: { }
-					id: "botania:white_mystical_flower"
-					Count: 1b
-				}
+				item: "botania:white_mystical_flower"
 			}]
 		}
 		{
@@ -233,11 +179,7 @@
 			tasks: [{
 				id: "30766F89265B3BC9"
 				type: "item"
-				item: {
-					gprops: { }
-					id: "botania:orange_mystical_flower"
-					Count: 1b
-				}
+				item: "botania:orange_mystical_flower"
 			}]
 		}
 		{
@@ -248,11 +190,7 @@
 			tasks: [{
 				id: "04FBA32A06D9CA04"
 				type: "item"
-				item: {
-					gprops: { }
-					id: "botania:magenta_mystical_flower"
-					Count: 1b
-				}
+				item: "botania:magenta_mystical_flower"
 			}]
 		}
 		{
@@ -263,11 +201,7 @@
 			tasks: [{
 				id: "1E582D83BE4A3410"
 				type: "item"
-				item: {
-					gprops: { }
-					id: "botania:light_blue_mystical_flower"
-					Count: 1b
-				}
+				item: "botania:light_blue_mystical_flower"
 			}]
 		}
 		{
@@ -278,11 +212,7 @@
 			tasks: [{
 				id: "497F834F6053DBDD"
 				type: "item"
-				item: {
-					gprops: { }
-					id: "botania:yellow_mystical_flower"
-					Count: 1b
-				}
+				item: "botania:yellow_mystical_flower"
 			}]
 		}
 		{
@@ -293,11 +223,7 @@
 			tasks: [{
 				id: "0E62D64F225C8586"
 				type: "item"
-				item: {
-					gprops: { }
-					id: "botania:lime_mystical_flower"
-					Count: 1b
-				}
+				item: "botania:lime_mystical_flower"
 			}]
 		}
 		{
@@ -308,11 +234,7 @@
 			tasks: [{
 				id: "39072EF2554C48F9"
 				type: "item"
-				item: {
-					gprops: { }
-					id: "botania:pink_mystical_flower"
-					Count: 1b
-				}
+				item: "botania:pink_mystical_flower"
 			}]
 		}
 		{
@@ -323,11 +245,7 @@
 			tasks: [{
 				id: "60856CD19F9DA9F0"
 				type: "item"
-				item: {
-					gprops: { }
-					id: "botania:gray_mystical_flower"
-					Count: 1b
-				}
+				item: "botania:gray_mystical_flower"
 			}]
 		}
 		{
@@ -338,11 +256,7 @@
 			tasks: [{
 				id: "39960953B542370B"
 				type: "item"
-				item: {
-					gprops: { }
-					id: "botania:light_gray_mystical_flower"
-					Count: 1b
-				}
+				item: "botania:light_gray_mystical_flower"
 			}]
 		}
 		{
@@ -353,11 +267,7 @@
 			tasks: [{
 				id: "76FEC99D553A4976"
 				type: "item"
-				item: {
-					gprops: { }
-					id: "botania:cyan_mystical_flower"
-					Count: 1b
-				}
+				item: "botania:cyan_mystical_flower"
 			}]
 		}
 		{
@@ -368,11 +278,7 @@
 			tasks: [{
 				id: "5ADC333844F07EF5"
 				type: "item"
-				item: {
-					gprops: { }
-					id: "botania:purple_mystical_flower"
-					Count: 1b
-				}
+				item: "botania:purple_mystical_flower"
 			}]
 		}
 		{
@@ -383,11 +289,7 @@
 			tasks: [{
 				id: "221EDF827DAE5DD7"
 				type: "item"
-				item: {
-					gprops: { }
-					id: "botania:blue_mystical_flower"
-					Count: 1b
-				}
+				item: "botania:blue_mystical_flower"
 			}]
 		}
 		{
@@ -398,11 +300,7 @@
 			tasks: [{
 				id: "7DC7AFDE150F5692"
 				type: "item"
-				item: {
-					gprops: { }
-					id: "botania:brown_mystical_flower"
-					Count: 1b
-				}
+				item: "botania:brown_mystical_flower"
 			}]
 		}
 		{
@@ -413,11 +311,7 @@
 			tasks: [{
 				id: "241C2066FBF8A473"
 				type: "item"
-				item: {
-					gprops: { }
-					id: "botania:green_mystical_flower"
-					Count: 1b
-				}
+				item: "botania:green_mystical_flower"
 			}]
 		}
 		{
@@ -428,11 +322,7 @@
 			tasks: [{
 				id: "7324CC49B2E900D7"
 				type: "item"
-				item: {
-					gprops: { }
-					id: "botania:red_mystical_flower"
-					Count: 1b
-				}
+				item: "botania:red_mystical_flower"
 			}]
 		}
 		{
@@ -443,11 +333,7 @@
 			tasks: [{
 				id: "6583B79E3F526CD2"
 				type: "item"
-				item: {
-					gprops: { }
-					id: "botania:black_mystical_flower"
-					Count: 1b
-				}
+				item: "botania:black_mystical_flower"
 			}]
 		}
 		{
@@ -471,11 +357,7 @@
 			tasks: [{
 				id: "08B8B55A0ECA17E3"
 				type: "item"
-				item: {
-					gprops: { }
-					id: "botania:mana_pearl"
-					Count: 1b
-				}
+				item: "botania:mana_pearl"
 			}]
 		}
 		{
@@ -486,11 +368,7 @@
 			tasks: [{
 				id: "4F7F9DFD86FC79D8"
 				type: "item"
-				item: {
-					gprops: { }
-					id: "botania:runic_altar"
-					Count: 1b
-				}
+				item: "botania:runic_altar"
 			}]
 		}
 		{
@@ -511,11 +389,7 @@
 			tasks: [{
 				id: "142422A08A522594"
 				type: "item"
-				item: {
-					gprops: { }
-					id: "botania:lens_normal"
-					Count: 1b
-				}
+				item: "botania:lens_normal"
 			}]
 		}
 		{
@@ -527,11 +401,7 @@
 			tasks: [{
 				id: "50B7612C256651A0"
 				type: "item"
-				item: {
-					gprops: { }
-					id: "botania:lens_speed"
-					Count: 1b
-				}
+				item: "botania:lens_speed"
 			}]
 		}
 		{
@@ -543,11 +413,7 @@
 			tasks: [{
 				id: "1A12C87BCC4E9F1E"
 				type: "item"
-				item: {
-					gprops: { }
-					id: "botania:lens_power"
-					Count: 1b
-				}
+				item: "botania:lens_power"
 			}]
 		}
 		{
@@ -559,11 +425,7 @@
 			tasks: [{
 				id: "658B1C4634D5D9C0"
 				type: "item"
-				item: {
-					gprops: { }
-					id: "botania:lens_time"
-					Count: 1b
-				}
+				item: "botania:lens_time"
 			}]
 		}
 		{
@@ -575,11 +437,7 @@
 			tasks: [{
 				id: "2D69A8FF842FE028"
 				type: "item"
-				item: {
-					gprops: { }
-					id: "botania:lens_efficiency"
-					Count: 1b
-				}
+				item: "botania:lens_efficiency"
 			}]
 		}
 		{
@@ -591,11 +449,7 @@
 			tasks: [{
 				id: "6BA864FB26017C8B"
 				type: "item"
-				item: {
-					gprops: { }
-					id: "botania:lens_bounce"
-					Count: 1b
-				}
+				item: "botania:lens_bounce"
 			}]
 		}
 		{
@@ -607,11 +461,7 @@
 			tasks: [{
 				id: "67297EF22DD381F9"
 				type: "item"
-				item: {
-					gprops: { }
-					id: "botania:lens_gravity"
-					Count: 1b
-				}
+				item: "botania:lens_gravity"
 			}]
 		}
 		{
@@ -623,11 +473,7 @@
 			tasks: [{
 				id: "360305905AE274EE"
 				type: "item"
-				item: {
-					gprops: { }
-					id: "botania:lens_mine"
-					Count: 1b
-				}
+				item: "botania:lens_mine"
 			}]
 		}
 		{
@@ -639,11 +485,7 @@
 			tasks: [{
 				id: "22F68D1743ACEAE5"
 				type: "item"
-				item: {
-					gprops: { }
-					id: "botania:lens_damage"
-					Count: 1b
-				}
+				item: "botania:lens_damage"
 			}]
 		}
 		{
@@ -655,11 +497,7 @@
 			tasks: [{
 				id: "05C6A0BA48C3A008"
 				type: "item"
-				item: {
-					gprops: { }
-					id: "botania:lens_phantom"
-					Count: 1b
-				}
+				item: "botania:lens_phantom"
 			}]
 		}
 		{
@@ -671,11 +509,7 @@
 			tasks: [{
 				id: "2454510C24AA70B7"
 				type: "item"
-				item: {
-					gprops: { }
-					id: "botania:lens_magnet"
-					Count: 1b
-				}
+				item: "botania:lens_magnet"
 			}]
 		}
 		{
@@ -687,11 +521,7 @@
 			tasks: [{
 				id: "3B9C4E7B7BD885EF"
 				type: "item"
-				item: {
-					gprops: { }
-					id: "botania:lens_explosive"
-					Count: 1b
-				}
+				item: "botania:lens_explosive"
 			}]
 		}
 		{
@@ -703,11 +533,7 @@
 			tasks: [{
 				id: "437247E67D5A5F54"
 				type: "item"
-				item: {
-					gprops: { }
-					id: "botania:lens_influence"
-					Count: 1b
-				}
+				item: "botania:lens_influence"
 			}]
 		}
 		{
@@ -719,11 +545,7 @@
 			tasks: [{
 				id: "256DE524215998F7"
 				type: "item"
-				item: {
-					gprops: { }
-					id: "botania:lens_weight"
-					Count: 1b
-				}
+				item: "botania:lens_weight"
 			}]
 		}
 		{
@@ -736,11 +558,7 @@
 			tasks: [{
 				id: "4CDB835CFD56D946"
 				type: "item"
-				item: {
-					gprops: { }
-					id: "botania:lens_paint"
-					Count: 1b
-				}
+				item: "botania:lens_paint"
 			}]
 		}
 		{
@@ -752,11 +570,7 @@
 			tasks: [{
 				id: "6761710FE51D1828"
 				type: "item"
-				item: {
-					gprops: { }
-					id: "botania:lens_fire"
-					Count: 1b
-				}
+				item: "botania:lens_fire"
 			}]
 		}
 		{
@@ -768,11 +582,7 @@
 			tasks: [{
 				id: "4F80BF93E5458491"
 				type: "item"
-				item: {
-					gprops: { }
-					id: "botania:lens_piston"
-					Count: 1b
-				}
+				item: "botania:lens_piston"
 			}]
 		}
 		{
@@ -784,11 +594,7 @@
 			tasks: [{
 				id: "33EF0F3BD67B95B7"
 				type: "item"
-				item: {
-					gprops: { }
-					id: "botania:lens_light"
-					Count: 1b
-				}
+				item: "botania:lens_light"
 			}]
 		}
 		{
@@ -801,11 +607,7 @@
 			tasks: [{
 				id: "530972159B061274"
 				type: "item"
-				item: {
-					gprops: { }
-					id: "botania:lens_warp"
-					Count: 1b
-				}
+				item: "botania:lens_warp"
 			}]
 		}
 		{
@@ -818,11 +620,7 @@
 			tasks: [{
 				id: "2AFCE6FE9DA3A83D"
 				type: "item"
-				item: {
-					gprops: { }
-					id: "botania:lens_redirect"
-					Count: 1b
-				}
+				item: "botania:lens_redirect"
 			}]
 		}
 		{
@@ -835,11 +633,7 @@
 			tasks: [{
 				id: "50CF2DA93433621A"
 				type: "item"
-				item: {
-					gprops: { }
-					id: "botania:lens_firework"
-					Count: 1b
-				}
+				item: "botania:lens_firework"
 			}]
 		}
 		{
@@ -855,11 +649,7 @@
 			tasks: [{
 				id: "671F1A0A43D2F334"
 				type: "item"
-				item: {
-					gprops: { }
-					id: "botania:lens_flare"
-					Count: 1b
-				}
+				item: "botania:lens_flare"
 			}]
 		}
 		{
@@ -871,11 +661,7 @@
 			tasks: [{
 				id: "71E55691160B7472"
 				type: "item"
-				item: {
-					gprops: { }
-					id: "botania:lens_messenger"
-					Count: 1b
-				}
+				item: "botania:lens_messenger"
 			}]
 		}
 		{
@@ -888,11 +674,7 @@
 			tasks: [{
 				id: "1A40F407B8B8B8DB"
 				type: "item"
-				item: {
-					gprops: { }
-					id: "botania:lens_tripwire"
-					Count: 1b
-				}
+				item: "botania:lens_tripwire"
 			}]
 		}
 		{
@@ -903,11 +685,7 @@
 			tasks: [{
 				id: "70CA060AFF348B7C"
 				type: "item"
-				item: {
-					gprops: { }
-					id: "botania:manasteel_ingot"
-					Count: 1b
-				}
+				item: "botania:manasteel_ingot"
 			}]
 		}
 		{
@@ -918,11 +696,7 @@
 			tasks: [{
 				id: "612EB016B5BC49E7"
 				type: "item"
-				item: {
-					gprops: { }
-					id: "botania:mana_diamond"
-					Count: 1b
-				}
+				item: "botania:mana_diamond"
 			}]
 		}
 		{
@@ -937,11 +711,7 @@
 			tasks: [{
 				id: "255BBC441DCAFF74"
 				type: "item"
-				item: {
-					gprops: { }
-					id: "botania:terra_plate"
-					Count: 1b
-				}
+				item: "botania:terra_plate"
 			}]
 		}
 		{
@@ -952,20 +722,12 @@
 			tasks: [{
 				id: "3AE4940037C330E2"
 				type: "item"
-				item: {
-					gprops: { }
-					id: "botania:terrasteel_ingot"
-					Count: 1b
-				}
+				item: "botania:terrasteel_ingot"
 			}]
 		}
 		{
 			title: "Open the Portal to Alfheim"
-			icon: {
-				gprops: { }
-				id: "botania:glimmering_livingwood"
-				Count: 1b
-			}
+			icon: "botania:glimmering_livingwood"
 			x: 11.5d
 			y: 9.5d
 			subtitle: "The knowledge of Alfheim's Mana-handling methods comes, of course, with an array of new and useful Mana Lenses."
@@ -985,11 +747,7 @@
 			tasks: [{
 				id: "31C09D28B3D46599"
 				type: "item"
-				item: {
-					gprops: { }
-					id: "botania:rune_water"
-					Count: 1b
-				}
+				item: "botania:rune_water"
 			}]
 		}
 		{
@@ -1000,11 +758,7 @@
 			tasks: [{
 				id: "5BD51D8F645A3D41"
 				type: "item"
-				item: {
-					gprops: { }
-					id: "botania:rune_fire"
-					Count: 1b
-				}
+				item: "botania:rune_fire"
 			}]
 		}
 		{
@@ -1015,11 +769,7 @@
 			tasks: [{
 				id: "55446945F5B5105D"
 				type: "item"
-				item: {
-					gprops: { }
-					id: "botania:rune_air"
-					Count: 1b
-				}
+				item: "botania:rune_air"
 			}]
 		}
 		{
@@ -1030,11 +780,7 @@
 			tasks: [{
 				id: "69B7FE88BE929946"
 				type: "item"
-				item: {
-					gprops: { }
-					id: "botania:rune_earth"
-					Count: 1b
-				}
+				item: "botania:rune_earth"
 			}]
 		}
 		{
@@ -1045,11 +791,7 @@
 			tasks: [{
 				id: "700E45EB85D36ACA"
 				type: "item"
-				item: {
-					gprops: { }
-					id: "botania:rune_spring"
-					Count: 1b
-				}
+				item: "botania:rune_spring"
 			}]
 		}
 		{
@@ -1060,11 +802,7 @@
 			tasks: [{
 				id: "0698275E9AACD5DA"
 				type: "item"
-				item: {
-					gprops: { }
-					id: "botania:rune_summer"
-					Count: 1b
-				}
+				item: "botania:rune_summer"
 			}]
 		}
 		{
@@ -1075,11 +813,7 @@
 			tasks: [{
 				id: "3DDE1896FC655F9B"
 				type: "item"
-				item: {
-					gprops: { }
-					id: "botania:rune_autumn"
-					Count: 1b
-				}
+				item: "botania:rune_autumn"
 			}]
 		}
 		{
@@ -1090,11 +824,7 @@
 			tasks: [{
 				id: "2FA5BD9ED7275F54"
 				type: "item"
-				item: {
-					gprops: { }
-					id: "botania:rune_winter"
-					Count: 1b
-				}
+				item: "botania:rune_winter"
 			}]
 		}
 		{
@@ -1105,11 +835,7 @@
 			tasks: [{
 				id: "3473574CE0C28CD3"
 				type: "item"
-				item: {
-					gprops: { }
-					id: "botania:rune_mana"
-					Count: 1b
-				}
+				item: "botania:rune_mana"
 			}]
 		}
 		{
@@ -1120,11 +846,7 @@
 			tasks: [{
 				id: "0010DF1C431429F8"
 				type: "item"
-				item: {
-					gprops: { }
-					id: "botania:rune_lust"
-					Count: 1b
-				}
+				item: "botania:rune_lust"
 			}]
 		}
 		{
@@ -1135,11 +857,7 @@
 			tasks: [{
 				id: "595A795242AEA62E"
 				type: "item"
-				item: {
-					gprops: { }
-					id: "botania:rune_gluttony"
-					Count: 1b
-				}
+				item: "botania:rune_gluttony"
 			}]
 		}
 		{
@@ -1150,11 +868,7 @@
 			tasks: [{
 				id: "0428E1195AC84722"
 				type: "item"
-				item: {
-					gprops: { }
-					id: "botania:rune_greed"
-					Count: 1b
-				}
+				item: "botania:rune_greed"
 			}]
 		}
 		{
@@ -1165,11 +879,7 @@
 			tasks: [{
 				id: "7ACCEE9E2C1511BA"
 				type: "item"
-				item: {
-					gprops: { }
-					id: "botania:rune_sloth"
-					Count: 1b
-				}
+				item: "botania:rune_sloth"
 			}]
 		}
 		{
@@ -1180,11 +890,7 @@
 			tasks: [{
 				id: "4F4D821C430DAA59"
 				type: "item"
-				item: {
-					gprops: { }
-					id: "botania:rune_wrath"
-					Count: 1b
-				}
+				item: "botania:rune_wrath"
 			}]
 		}
 		{
@@ -1195,11 +901,7 @@
 			tasks: [{
 				id: "23712C90550070AE"
 				type: "item"
-				item: {
-					gprops: { }
-					id: "botania:rune_envy"
-					Count: 1b
-				}
+				item: "botania:rune_envy"
 			}]
 		}
 		{
@@ -1210,11 +912,7 @@
 			tasks: [{
 				id: "36B116051592EA3D"
 				type: "item"
-				item: {
-					gprops: { }
-					id: "botania:rune_pride"
-					Count: 1b
-				}
+				item: "botania:rune_pride"
 			}]
 		}
 		{
@@ -1239,11 +937,7 @@
 			tasks: [{
 				id: "4BEA70A00A6E590B"
 				type: "item"
-				item: {
-					gprops: { }
-					id: "botania:bauble_box"
-					Count: 1b
-				}
+				item: "botania:bauble_box"
 			}]
 		}
 		{
@@ -1254,11 +948,7 @@
 			tasks: [{
 				id: "36962A45E463CC89"
 				type: "item"
-				item: {
-					gprops: { }
-					id: "botania:dandelifeon"
-					Count: 1b
-				}
+				item: "botania:dandelifeon"
 			}]
 		}
 		{
@@ -1269,11 +959,7 @@
 			tasks: [{
 				id: "12F80AD79FA56E86"
 				type: "item"
-				item: {
-					gprops: { }
-					id: "botania:endoflame"
-					Count: 1b
-				}
+				item: "botania:endoflame"
 			}]
 		}
 		{
@@ -1284,11 +970,7 @@
 			tasks: [{
 				id: "2E0DAF08C6243635"
 				type: "item"
-				item: {
-					gprops: { }
-					id: "botania:entropinnyum"
-					Count: 1b
-				}
+				item: "botania:entropinnyum"
 			}]
 		}
 		{
@@ -1299,11 +981,7 @@
 			tasks: [{
 				id: "799D4FA5D1044A0B"
 				type: "item"
-				item: {
-					gprops: { }
-					id: "botania:gourmaryllis"
-					Count: 1b
-				}
+				item: "botania:gourmaryllis"
 			}]
 		}
 		{
@@ -1314,11 +992,7 @@
 			tasks: [{
 				id: "0D3228DBF1F3139B"
 				type: "item"
-				item: {
-					gprops: { }
-					id: "botania:hydroangeas"
-					Count: 1b
-				}
+				item: "botania:hydroangeas"
 			}]
 		}
 		{
@@ -1329,11 +1003,7 @@
 			tasks: [{
 				id: "1C4509685FD3253C"
 				type: "item"
-				item: {
-					gprops: { }
-					id: "botania:kekimurus"
-					Count: 1b
-				}
+				item: "botania:kekimurus"
 			}]
 		}
 		{
@@ -1344,11 +1014,7 @@
 			tasks: [{
 				id: "67065A9C2A01679A"
 				type: "item"
-				item: {
-					gprops: { }
-					id: "botania:munchdew"
-					Count: 1b
-				}
+				item: "botania:munchdew"
 			}]
 		}
 		{
@@ -1359,11 +1025,7 @@
 			tasks: [{
 				id: "6DBA08661F495716"
 				type: "item"
-				item: {
-					gprops: { }
-					id: "botania:narslimmus"
-					Count: 1b
-				}
+				item: "botania:narslimmus"
 			}]
 		}
 		{
@@ -1374,11 +1036,7 @@
 			tasks: [{
 				id: "4D7288D8EE4B0670"
 				type: "item"
-				item: {
-					gprops: { }
-					id: "botania:rafflowsia"
-					Count: 1b
-				}
+				item: "botania:rafflowsia"
 			}]
 		}
 		{
@@ -1389,11 +1047,7 @@
 			tasks: [{
 				id: "6F8C3D231D508088"
 				type: "item"
-				item: {
-					gprops: { }
-					id: "botania:holy_cloak"
-					Count: 1b
-				}
+				item: "botania:holy_cloak"
 			}]
 		}
 		{
@@ -1404,11 +1058,7 @@
 			tasks: [{
 				id: "232B6DCD720FDA70"
 				type: "item"
-				item: {
-					gprops: { }
-					id: "botania:unholy_cloak"
-					Count: 1b
-				}
+				item: "botania:unholy_cloak"
 			}]
 		}
 		{
@@ -1419,11 +1069,7 @@
 			tasks: [{
 				id: "7C1D38DE12D541D0"
 				type: "item"
-				item: {
-					gprops: { }
-					id: "botania:balance_cloak"
-					Count: 1b
-				}
+				item: "botania:balance_cloak"
 			}]
 		}
 		{
@@ -1434,11 +1080,7 @@
 			tasks: [{
 				id: "5CEEF05B019B86E3"
 				type: "item"
-				item: {
-					gprops: { }
-					id: "botania:rosa_arcana"
-					Count: 1b
-				}
+				item: "botania:rosa_arcana"
 			}]
 		}
 		{
@@ -1449,11 +1091,7 @@
 			tasks: [{
 				id: "15F3E22562D703CF"
 				type: "item"
-				item: {
-					gprops: { }
-					id: "botania:invisibility_cloak"
-					Count: 1b
-				}
+				item: "botania:invisibility_cloak"
 			}]
 		}
 		{
@@ -1464,11 +1102,7 @@
 			tasks: [{
 				id: "49515826071B0A55"
 				type: "item"
-				item: {
-					gprops: { }
-					id: "botania:shulk_me_not"
-					Count: 1b
-				}
+				item: "botania:shulk_me_not"
 			}]
 		}
 		{
@@ -1479,11 +1113,7 @@
 			tasks: [{
 				id: "3C9BCEEF0E066A77"
 				type: "item"
-				item: {
-					gprops: { }
-					id: "botania:spectrolus"
-					Count: 1b
-				}
+				item: "botania:spectrolus"
 			}]
 		}
 		{
@@ -1494,11 +1124,7 @@
 			tasks: [{
 				id: "0E5A48F15685FA5C"
 				type: "item"
-				item: {
-					gprops: { }
-					id: "botania:thermalily"
-					Count: 1b
-				}
+				item: "botania:thermalily"
 			}]
 		}
 		{
@@ -1509,11 +1135,7 @@
 			tasks: [{
 				id: "2C4B43629EE0BAE8"
 				type: "item"
-				item: {
-					gprops: { }
-					id: "botania:travel_belt"
-					Count: 1b
-				}
+				item: "botania:travel_belt"
 			}]
 		}
 		{
@@ -1525,7 +1147,6 @@
 				id: "51D923B2C882AAE4"
 				type: "item"
 				item: {
-					gprops: { }
 					id: "botania:knockback_belt"
 					Count: 1b
 					tag: {
@@ -1547,11 +1168,7 @@
 			tasks: [{
 				id: "3EE9CCD6CFF5D1D7"
 				type: "item"
-				item: {
-					gprops: { }
-					id: "botania:super_travel_belt"
-					Count: 1b
-				}
+				item: "botania:super_travel_belt"
 			}]
 		}
 		{
@@ -1562,11 +1179,7 @@
 			tasks: [{
 				id: "60BDA1A9C06A4103"
 				type: "item"
-				item: {
-					gprops: { }
-					id: "botania:speed_up_belt"
-					Count: 1b
-				}
+				item: "botania:speed_up_belt"
 			}]
 		}
 		{
@@ -1577,11 +1190,7 @@
 			tasks: [{
 				id: "6FE162FA3C68D87F"
 				type: "item"
-				item: {
-					gprops: { }
-					id: "botania:magnet_ring"
-					Count: 1b
-				}
+				item: "botania:magnet_ring"
 			}]
 		}
 		{
@@ -1592,11 +1201,7 @@
 			tasks: [{
 				id: "68A22D489E97D991"
 				type: "item"
-				item: {
-					gprops: { }
-					id: "botania:magnet_ring_greater"
-					Count: 1b
-				}
+				item: "botania:magnet_ring_greater"
 			}]
 		}
 		{
@@ -1607,11 +1212,7 @@
 			tasks: [{
 				id: "25BE601B8DCD67A8"
 				type: "item"
-				item: {
-					gprops: { }
-					id: "botania:mana_ring"
-					Count: 1b
-				}
+				item: "botania:mana_ring"
 			}]
 		}
 		{
@@ -1622,11 +1223,7 @@
 			tasks: [{
 				id: "19F6189D4D9DFB0F"
 				type: "item"
-				item: {
-					gprops: { }
-					id: "botania:aura_ring"
-					Count: 1b
-				}
+				item: "botania:aura_ring"
 			}]
 		}
 		{
@@ -1637,11 +1234,7 @@
 			tasks: [{
 				id: "2C84F468D7C75C5F"
 				type: "item"
-				item: {
-					gprops: { }
-					id: "botania:aura_ring_greater"
-					Count: 1b
-				}
+				item: "botania:aura_ring_greater"
 			}]
 		}
 		{
@@ -1652,11 +1245,7 @@
 			tasks: [{
 				id: "59C05FB82489D92A"
 				type: "item"
-				item: {
-					gprops: { }
-					id: "botania:water_ring"
-					Count: 1b
-				}
+				item: "botania:water_ring"
 			}]
 		}
 		{
@@ -1667,11 +1256,7 @@
 			tasks: [{
 				id: "1EE667BA218E3F1F"
 				type: "item"
-				item: {
-					gprops: { }
-					id: "botania:swap_ring"
-					Count: 1b
-				}
+				item: "botania:swap_ring"
 			}]
 		}
 		{
@@ -1682,11 +1267,7 @@
 			tasks: [{
 				id: "777070D4A189539A"
 				type: "item"
-				item: {
-					gprops: { }
-					id: "botania:dodge_ring"
-					Count: 1b
-				}
+				item: "botania:dodge_ring"
 			}]
 		}
 		{
@@ -1697,11 +1278,7 @@
 			tasks: [{
 				id: "6E2A3C62890F04AF"
 				type: "item"
-				item: {
-					gprops: { }
-					id: "botania:mining_ring"
-					Count: 1b
-				}
+				item: "botania:mining_ring"
 			}]
 		}
 		{
@@ -1713,7 +1290,6 @@
 				id: "228165CB2AE09454"
 				type: "item"
 				item: {
-					gprops: { }
 					id: "botania:reach_ring"
 					Count: 1b
 					tag: {
@@ -1735,11 +1311,7 @@
 			tasks: [{
 				id: "1E4C5F07C8E3EC85"
 				type: "item"
-				item: {
-					gprops: { }
-					id: "botania:mana_pylon"
-					Count: 1b
-				}
+				item: "botania:mana_pylon"
 			}]
 		}
 		{
@@ -1753,11 +1325,7 @@
 			tasks: [{
 				id: "0E62314EE896D07B"
 				type: "item"
-				item: {
-					gprops: { }
-					id: "botania:natura_pylon"
-					Count: 1b
-				}
+				item: "botania:natura_pylon"
 			}]
 		}
 		{
@@ -1768,11 +1336,7 @@
 			tasks: [{
 				id: "05C2A877F11FB24D"
 				type: "item"
-				item: {
-					gprops: { }
-					id: "botania:glimmering_livingwood"
-					Count: 1b
-				}
+				item: "botania:glimmering_livingwood"
 			}]
 		}
 		{
@@ -1786,11 +1350,7 @@
 			tasks: [{
 				id: "7EFAEC63EE3BCFCF"
 				type: "item"
-				item: {
-					gprops: { }
-					id: "botania:alfheim_portal"
-					Count: 1b
-				}
+				item: "botania:alfheim_portal"
 			}]
 		}
 		{
@@ -1817,11 +1377,7 @@
 			tasks: [{
 				id: "4CF539B076353B98"
 				type: "item"
-				item: {
-					gprops: { }
-					id: "botania:agricarnation"
-					Count: 1b
-				}
+				item: "botania:agricarnation"
 			}]
 		}
 		{
@@ -1832,11 +1388,7 @@
 			tasks: [{
 				id: "411E9B6FF51B21DA"
 				type: "item"
-				item: {
-					gprops: { }
-					id: "bewitchment:belladonna"
-					Count: 1b
-				}
+				item: "bewitchment:belladonna"
 			}]
 		}
 		{
@@ -1847,11 +1399,7 @@
 			tasks: [{
 				id: "02C2CC2683A44F06"
 				type: "item"
-				item: {
-					gprops: { }
-					id: "botania:bubbell"
-					Count: 1b
-				}
+				item: "botania:bubbell"
 			}]
 		}
 		{
@@ -1862,11 +1410,7 @@
 			tasks: [{
 				id: "6CDBC82FF62E5E58"
 				type: "item"
-				item: {
-					gprops: { }
-					id: "botania:clayconia"
-					Count: 1b
-				}
+				item: "botania:clayconia"
 			}]
 		}
 		{
@@ -1877,11 +1421,7 @@
 			tasks: [{
 				id: "67D6122CC1110961"
 				type: "item"
-				item: {
-					gprops: { }
-					id: "botania:daffomill"
-					Count: 1b
-				}
+				item: "botania:daffomill"
 			}]
 		}
 		{
@@ -1892,11 +1432,7 @@
 			tasks: [{
 				id: "2834D9B064E702A9"
 				type: "item"
-				item: {
-					gprops: { }
-					id: "botania:dreadthorn"
-					Count: 1b
-				}
+				item: "botania:dreadthorn"
 			}]
 		}
 		{
@@ -1907,11 +1443,7 @@
 			tasks: [{
 				id: "240BEDF4B65A4503"
 				type: "item"
-				item: {
-					gprops: { }
-					id: "botania:exoflame"
-					Count: 1b
-				}
+				item: "botania:exoflame"
 			}]
 		}
 		{
@@ -1922,11 +1454,7 @@
 			tasks: [{
 				id: "1DE0756CB7505F8D"
 				type: "item"
-				item: {
-					gprops: { }
-					id: "botania:fallen_kanade"
-					Count: 1b
-				}
+				item: "botania:fallen_kanade"
 			}]
 		}
 		{
@@ -1937,11 +1465,7 @@
 			tasks: [{
 				id: "01152A13CD01BE2D"
 				type: "item"
-				item: {
-					gprops: { }
-					id: "botania:heisei_dream"
-					Count: 1b
-				}
+				item: "botania:heisei_dream"
 			}]
 		}
 		{
@@ -1952,11 +1476,7 @@
 			tasks: [{
 				id: "4450954132C7B88E"
 				type: "item"
-				item: {
-					gprops: { }
-					id: "botania:hopperhock"
-					Count: 1b
-				}
+				item: "botania:hopperhock"
 			}]
 		}
 		{
@@ -1967,11 +1487,7 @@
 			tasks: [{
 				id: "4D03DD5DB2E741B1"
 				type: "item"
-				item: {
-					gprops: { }
-					id: "botania:hyacidus"
-					Count: 1b
-				}
+				item: "botania:hyacidus"
 			}]
 		}
 		{
@@ -1982,11 +1498,7 @@
 			tasks: [{
 				id: "022915BBE155CB09"
 				type: "item"
-				item: {
-					gprops: { }
-					id: "botania:jaded_amaranthus"
-					Count: 1b
-				}
+				item: "botania:jaded_amaranthus"
 			}]
 		}
 		{
@@ -1997,11 +1509,7 @@
 			tasks: [{
 				id: "37340E43F396F16F"
 				type: "item"
-				item: {
-					gprops: { }
-					id: "botania:jiyuulia"
-					Count: 1b
-				}
+				item: "botania:jiyuulia"
 			}]
 		}
 		{
@@ -2012,11 +1520,7 @@
 			tasks: [{
 				id: "1401946B8766469F"
 				type: "item"
-				item: {
-					gprops: { }
-					id: "botania:labellia"
-					Count: 1b
-				}
+				item: "botania:labellia"
 			}]
 		}
 		{
@@ -2027,11 +1531,7 @@
 			tasks: [{
 				id: "7540AC03FDD9BA4E"
 				type: "item"
-				item: {
-					gprops: { }
-					id: "botania:loonium"
-					Count: 1b
-				}
+				item: "botania:loonium"
 			}]
 		}
 		{
@@ -2042,11 +1542,7 @@
 			tasks: [{
 				id: "7D78C2B4C0823016"
 				type: "item"
-				item: {
-					gprops: { }
-					id: "botania:marimorphosis"
-					Count: 1b
-				}
+				item: "botania:marimorphosis"
 			}]
 		}
 		{
@@ -2057,11 +1553,7 @@
 			tasks: [{
 				id: "2192AD1EDEB9A193"
 				type: "item"
-				item: {
-					gprops: { }
-					id: "botania:medumone"
-					Count: 1b
-				}
+				item: "botania:medumone"
 			}]
 		}
 		{
@@ -2072,11 +1564,7 @@
 			tasks: [{
 				id: "1269C1BA4D369F31"
 				type: "item"
-				item: {
-					gprops: { }
-					id: "botania:orechid"
-					Count: 1b
-				}
+				item: "botania:orechid"
 			}]
 		}
 		{
@@ -2087,11 +1575,7 @@
 			tasks: [{
 				id: "2CAEF4358AD9DBA5"
 				type: "item"
-				item: {
-					gprops: { }
-					id: "botania:orechid_ignem"
-					Count: 1b
-				}
+				item: "botania:orechid_ignem"
 			}]
 		}
 		{
@@ -2102,11 +1586,7 @@
 			tasks: [{
 				id: "5D07D651B8E87940"
 				type: "item"
-				item: {
-					gprops: { }
-					id: "botania:pollidisiac"
-					Count: 1b
-				}
+				item: "botania:pollidisiac"
 			}]
 		}
 		{
@@ -2117,11 +1597,7 @@
 			tasks: [{
 				id: "716E9075F3A1E978"
 				type: "item"
-				item: {
-					gprops: { }
-					id: "botania:rannuncarpus"
-					Count: 1b
-				}
+				item: "botania:rannuncarpus"
 			}]
 		}
 		{
@@ -2132,11 +1608,7 @@
 			tasks: [{
 				id: "6D0EBBF3A211F3D8"
 				type: "item"
-				item: {
-					gprops: { }
-					id: "botania:solegnolia"
-					Count: 1b
-				}
+				item: "botania:solegnolia"
 			}]
 		}
 		{
@@ -2147,11 +1619,7 @@
 			tasks: [{
 				id: "2E9F1D905187B838"
 				type: "item"
-				item: {
-					gprops: { }
-					id: "botania:spectranthemum"
-					Count: 1b
-				}
+				item: "botania:spectranthemum"
 			}]
 		}
 		{
@@ -2162,11 +1630,7 @@
 			tasks: [{
 				id: "333E0441FF3E202E"
 				type: "item"
-				item: {
-					gprops: { }
-					id: "botania:tangleberrie"
-					Count: 1b
-				}
+				item: "botania:tangleberrie"
 			}]
 		}
 		{
@@ -2177,11 +1641,7 @@
 			tasks: [{
 				id: "4C11AFC7156A8C3C"
 				type: "item"
-				item: {
-					gprops: { }
-					id: "botania:tigerseye"
-					Count: 1b
-				}
+				item: "botania:tigerseye"
 			}]
 		}
 		{
@@ -2192,11 +1652,7 @@
 			tasks: [{
 				id: "112F66232405056A"
 				type: "item"
-				item: {
-					gprops: { }
-					id: "botania:vinculotus"
-					Count: 1b
-				}
+				item: "botania:vinculotus"
 			}]
 		}
 		{
@@ -2207,11 +1663,7 @@
 			tasks: [{
 				id: "38F56D554C18D6D2"
 				type: "item"
-				item: {
-					gprops: { }
-					id: "botania:dreamwood"
-					Count: 1b
-				}
+				item: "botania:dreamwood"
 			}]
 		}
 		{
@@ -2222,11 +1674,7 @@
 			tasks: [{
 				id: "1094A24287B0EB2A"
 				type: "item"
-				item: {
-					gprops: { }
-					id: "botania:dragonstone"
-					Count: 1b
-				}
+				item: "botania:dragonstone"
 			}]
 		}
 		{
@@ -2237,11 +1685,7 @@
 			tasks: [{
 				id: "0C8AB123274A393C"
 				type: "item"
-				item: {
-					gprops: { }
-					id: "botania:pixie_dust"
-					Count: 1b
-				}
+				item: "botania:pixie_dust"
 			}]
 		}
 		{
@@ -2252,11 +1696,7 @@
 			tasks: [{
 				id: "0662886FB1AD8C04"
 				type: "item"
-				item: {
-					gprops: { }
-					id: "botania:elementium_ingot"
-					Count: 1b
-				}
+				item: "botania:elementium_ingot"
 			}]
 		}
 		{
@@ -2270,11 +1710,7 @@
 			tasks: [{
 				id: "1F91699F1E976516"
 				type: "item"
-				item: {
-					gprops: { }
-					id: "botania:gaia_pylon"
-					Count: 1b
-				}
+				item: "botania:gaia_pylon"
 			}]
 		}
 		{

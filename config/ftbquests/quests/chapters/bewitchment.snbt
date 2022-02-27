@@ -4,11 +4,7 @@
 	order_index: 1
 	filename: "bewitchment"
 	title: "Bewitchment"
-	icon: {
-		gprops: { }
-		id: "bewitchment:hellish_bauble"
-		Count: 1b
-	}
+	icon: "bewitchment:hellish_bauble"
 	default_quest_shape: "octagon"
 	default_hide_dependency_lines: false
 	images: [
@@ -62,20 +58,12 @@
 			tasks: [{
 				id: "30B4F2FED61C13F4"
 				type: "item"
-				item: {
-					gprops: { }
-					id: "bewitchment:book_of_shadows"
-					Count: 1b
-				}
+				item: "bewitchment:book_of_shadows"
 			}]
 			rewards: [{
 				id: "548B075558885167"
 				type: "item"
-				item: {
-					gprops: { }
-					id: "minecraft:gold_nugget"
-					Count: 1b
-				}
+				item: "minecraft:gold_nugget"
 			}]
 		}
 		{
@@ -85,20 +73,12 @@
 			tasks: [{
 				id: "4E8C15D371DB7A1A"
 				type: "item"
-				item: {
-					gprops: { }
-					id: "minecraft:cauldron"
-					Count: 1b
-				}
+				item: "minecraft:cauldron"
 			}]
 			rewards: [{
 				id: "4F8A36D51C6AD56B"
 				type: "item"
-				item: {
-					gprops: { }
-					id: "minecraft:iron_ingot"
-					Count: 1b
-				}
+				item: "minecraft:iron_ingot"
 			}]
 		}
 		{
@@ -109,20 +89,12 @@
 			tasks: [{
 				id: "769432E98298B4C8"
 				type: "item"
-				item: {
-					gprops: { }
-					id: "bewitchment:aqua_cerate"
-					Count: 1b
-				}
+				item: "bewitchment:aqua_cerate"
 			}]
 			rewards: [{
 				id: "187A3E6E16014706"
 				type: "item"
-				item: {
-					gprops: { }
-					id: "minecraft:water_bucket"
-					Count: 1b
-				}
+				item: "minecraft:water_bucket"
 			}]
 		}
 		{
@@ -133,20 +105,12 @@
 			tasks: [{
 				id: "5739D179CD4C5D26"
 				type: "item"
-				item: {
-					gprops: { }
-					id: "bewitchment:fiery_serum"
-					Count: 1b
-				}
+				item: "bewitchment:fiery_serum"
 			}]
 			rewards: [{
 				id: "0FD4E164CB37834D"
 				type: "item"
-				item: {
-					gprops: { }
-					id: "minecraft:campfire"
-					Count: 1b
-				}
+				item: "minecraft:campfire"
 			}]
 		}
 		{
@@ -157,20 +121,12 @@
 			tasks: [{
 				id: "6F651059DED11014"
 				type: "item"
-				item: {
-					gprops: { }
-					id: "bewitchment:heaven_extract"
-					Count: 1b
-				}
+				item: "bewitchment:heaven_extract"
 			}]
 			rewards: [{
 				id: "4BD914AE009D5A45"
 				type: "item"
-				item: {
-					gprops: { }
-					id: "kibe:liquid_xp_bucket"
-					Count: 1b
-				}
+				item: "kibe:liquid_xp_bucket"
 			}]
 		}
 		{
@@ -181,41 +137,25 @@
 			tasks: [{
 				id: "5D313A77DF22E070"
 				type: "item"
-				item: {
-					gprops: { }
-					id: "bewitchment:earth_ichor"
-					Count: 1b
-				}
+				item: "bewitchment:earth_ichor"
 			}]
 			rewards: [
 				{
 					id: "65346307794A1783"
 					type: "item"
-					item: {
-						gprops: { }
-						id: "minecraft:dirt"
-						Count: 1b
-					}
+					item: "minecraft:dirt"
 					count: 64
 				}
 				{
 					id: "1B83FEFF9E67C726"
 					type: "item"
-					item: {
-						gprops: { }
-						id: "minecraft:stone"
-						Count: 1b
-					}
+					item: "minecraft:stone"
 					count: 64
 				}
 				{
 					id: "19506209FAD892A5"
 					type: "item"
-					item: {
-						gprops: { }
-						id: "minecraft:water_bucket"
-						Count: 1b
-					}
+					item: "minecraft:water_bucket"
 				}
 			]
 		}
@@ -227,20 +167,12 @@
 			tasks: [{
 				id: "3183D796C616263D"
 				type: "item"
-				item: {
-					gprops: { }
-					id: "bewitchment:cleansing_balm"
-					Count: 1b
-				}
+				item: "bewitchment:cleansing_balm"
 			}]
 			rewards: [{
 				id: "5A7267213A4D5DAA"
 				type: "item"
-				item: {
-					gprops: { }
-					id: "croptopia:nectarine_sapling"
-					Count: 1b
-				}
+				item: "croptopia:nectarine_sapling"
 				count: 2
 			}]
 		}
@@ -252,17 +184,12 @@
 			tasks: [{
 				id: "251EFDBE770E7549"
 				type: "item"
-				item: {
-					gprops: { }
-					id: "bewitchment:grim_elixir"
-					Count: 1b
-				}
+				item: "bewitchment:grim_elixir"
 			}]
 			rewards: [{
 				id: "0D4C8F390B9BF73A"
 				type: "item"
 				item: {
-					gprops: { }
 					id: "minecraft:stone_sword"
 					Count: 1b
 					tag: {
@@ -278,21 +205,13 @@
 			tasks: [{
 				id: "0BB0332E269A468C"
 				type: "item"
-				item: {
-					gprops: { }
-					id: "bewitchment:taglock"
-					Count: 1b
-				}
+				item: "bewitchment:taglock"
 			}]
 			rewards: [
 				{
 					id: "4922BE265F6943B0"
 					type: "item"
-					item: {
-						gprops: { }
-						id: "minecraft:glass"
-						Count: 1b
-					}
+					item: "minecraft:glass"
 					count: 12
 				}
 				{
@@ -311,7 +230,6 @@
 				id: "55C622C7F900504C"
 				type: "item"
 				item: {
-					gprops: { }
 					id: "bewitchment:protection_poppet"
 					Count: 1b
 					tag: {
@@ -334,7 +252,6 @@
 				id: "17271F13609136DA"
 				type: "item"
 				item: {
-					gprops: { }
 					id: "bewitchment:death_protection_poppet"
 					Count: 1b
 					tag: {
@@ -357,7 +274,6 @@
 				id: "433EA789E4B03C5B"
 				type: "item"
 				item: {
-					gprops: { }
 					id: "bewitchment:voodoo_poppet"
 					Count: 1b
 					tag: {
@@ -380,7 +296,6 @@
 				id: "638ECB265FAE71EB"
 				type: "item"
 				item: {
-					gprops: { }
 					id: "bewitchment:voodoo_protection_poppet"
 					Count: 1b
 					tag: {
@@ -403,7 +318,6 @@
 				id: "67E2FD8CD240DD97"
 				type: "item"
 				item: {
-					gprops: { }
 					id: "bewitchment:mending_poppet"
 					Count: 1b
 					tag: {
@@ -426,7 +340,6 @@
 				id: "6C470769345218F8"
 				type: "item"
 				item: {
-					gprops: { }
 					id: "bewitchment:curse_poppet"
 					Count: 1b
 					tag: {
@@ -449,7 +362,6 @@
 				id: "4A5DB934B15056F6"
 				type: "item"
 				item: {
-					gprops: { }
 					id: "bewitchment:vampiric_poppet"
 					Count: 1b
 					tag: {
@@ -472,7 +384,6 @@
 				id: "3AD3144A2289E414"
 				type: "item"
 				item: {
-					gprops: { }
 					id: "bewitchment:judgment_poppet"
 					Count: 1b
 					tag: {
@@ -495,7 +406,6 @@
 				id: "4837A378979ED1AE"
 				type: "item"
 				item: {
-					gprops: { }
 					id: "bewitchment:fatigue_poppet"
 					Count: 1b
 					tag: {
@@ -518,7 +428,6 @@
 				id: "6BA10BD55A3F1DB4"
 				type: "item"
 				item: {
-					gprops: { }
 					id: "bewitchment:athame"
 					Count: 1b
 					tag: {
@@ -529,11 +438,7 @@
 			rewards: [{
 				id: "335C3A5A040DBBE5"
 				type: "item"
-				item: {
-					gprops: { }
-					id: "minecraft:flint"
-					Count: 1b
-				}
+				item: "minecraft:flint"
 				count: 12
 			}]
 		}
@@ -545,20 +450,12 @@
 			tasks: [{
 				id: "6F360235F1EA98C6"
 				type: "item"
-				item: {
-					gprops: { }
-					id: "bewitchment:bottle_of_blood"
-					Count: 1b
-				}
+				item: "bewitchment:bottle_of_blood"
 			}]
 			rewards: [{
 				id: "4FA2AE3C2B4AAA06"
 				type: "item"
-				item: {
-					gprops: { }
-					id: "minecraft:iron_ingot"
-					Count: 1b
-				}
+				item: "minecraft:iron_ingot"
 			}]
 		}
 		{
@@ -569,20 +466,12 @@
 			tasks: [{
 				id: "7B461B5FFCDEE357"
 				type: "item"
-				item: {
-					gprops: { }
-					id: "bewitchment:wood_ash"
-					Count: 1b
-				}
+				item: "bewitchment:wood_ash"
 			}]
 			rewards: [{
 				id: "3216C394118905D4"
 				type: "item"
-				item: {
-					gprops: { }
-					id: "minecraft:dark_oak_planks"
-					Count: 1b
-				}
+				item: "minecraft:dark_oak_planks"
 				count: 12
 			}]
 		}
@@ -594,20 +483,12 @@
 			tasks: [{
 				id: "38B08483C8E278D3"
 				type: "item"
-				item: {
-					gprops: { }
-					id: "bewitchment:oak_bark"
-					Count: 1b
-				}
+				item: "bewitchment:oak_bark"
 			}]
 			rewards: [{
 				id: "4C3E60E8C9FC5600"
 				type: "item"
-				item: {
-					gprops: { }
-					id: "minecraft:oak_log"
-					Count: 1b
-				}
+				item: "minecraft:oak_log"
 				count: 32
 			}]
 		}
@@ -619,17 +500,12 @@
 			tasks: [{
 				id: "23AFD5A3B04D25BE"
 				type: "item"
-				item: {
-					gprops: { }
-					id: "bewitchment:stone_witch_altar"
-					Count: 1b
-				}
+				item: "bewitchment:stone_witch_altar"
 			}]
 			rewards: [{
 				id: "10C86C587FB21A01"
 				type: "item"
 				item: {
-					gprops: { }
 					id: "minecraft:potion"
 					Count: 1b
 					tag: {
@@ -646,31 +522,19 @@
 			tasks: [{
 				id: "693CE5B86EF9DA53"
 				type: "item"
-				item: {
-					gprops: { }
-					id: "bewitchment:crystal_ball"
-					Count: 1b
-				}
+				item: "bewitchment:crystal_ball"
 			}]
 			rewards: [
 				{
 					id: "377297E1FA265138"
 					type: "item"
-					item: {
-						gprops: { }
-						id: "minecraft:glass"
-						Count: 1b
-					}
+					item: "minecraft:glass"
 					count: 32
 				}
 				{
 					id: "3F920617F36A3DAF"
 					type: "item"
-					item: {
-						gprops: { }
-						id: "kibe:regular_conveyor_belt"
-						Count: 1b
-					}
+					item: "kibe:regular_conveyor_belt"
 					count: 21
 				}
 			]
@@ -687,7 +551,6 @@
 				id: "372B31C55E138C15"
 				type: "item"
 				item: {
-					gprops: { }
 					id: "bewitchment:chalk"
 					Count: 1b
 					tag: {
@@ -699,21 +562,13 @@
 				{
 					id: "6F5B9421B62ED354"
 					type: "item"
-					item: {
-						gprops: { }
-						id: "bewitchment:bottle_of_blood"
-						Count: 1b
-					}
+					item: "bewitchment:bottle_of_blood"
 					count: 3
 				}
 				{
 					id: "0EFF63AC65CA4F25"
 					type: "item"
-					item: {
-						gprops: { }
-						id: "minecraft:glow_berries"
-						Count: 1b
-					}
+					item: "minecraft:glow_berries"
 					count: 12
 				}
 			]
@@ -729,17 +584,12 @@
 			tasks: [{
 				id: "0B6E7536EA8FC60D"
 				type: "item"
-				item: {
-					gprops: { }
-					id: "bewitchment:demon_heart"
-					Count: 1b
-				}
+				item: "bewitchment:demon_heart"
 			}]
 			rewards: [{
 				id: "408BAD84B0D9B71D"
 				type: "item"
 				item: {
-					gprops: { }
 					id: "gateofbabylon:iron_broadsword"
 					Count: 1b
 					tag: {
@@ -759,31 +609,19 @@
 			tasks: [{
 				id: "304B313C6A41FD87"
 				type: "item"
-				item: {
-					gprops: { }
-					id: "bewitchment:juniper_broom"
-					Count: 1b
-				}
+				item: "bewitchment:juniper_broom"
 			}]
 			rewards: [
 				{
 					id: "482BC1F93336875E"
 					type: "item"
-					item: {
-						gprops: { }
-						id: "minecraft:crimson_nylium"
-						Count: 1b
-					}
+					item: "minecraft:crimson_nylium"
 					count: 12
 				}
 				{
 					id: "6DA0374A298E1188"
 					type: "item"
-					item: {
-						gprops: { }
-						id: "minecraft:warped_nylium"
-						Count: 1b
-					}
+					item: "minecraft:warped_nylium"
 					count: 12
 				}
 			]
@@ -796,17 +634,12 @@
 			tasks: [{
 				id: "7C20D7008EA37334"
 				type: "item"
-				item: {
-					gprops: { }
-					id: "bewitchment:grotesque_stew"
-					Count: 1b
-				}
+				item: "bewitchment:grotesque_stew"
 			}]
 			rewards: [{
 				id: "340219C343E4C13A"
 				type: "item"
 				item: {
-					gprops: { }
 					id: "minecraft:potion"
 					Count: 1b
 					tag: {
@@ -824,7 +657,6 @@
 				id: "5AD904C0970364E4"
 				type: "item"
 				item: {
-					gprops: { }
 					id: "bewitchment:caduceus"
 					Count: 1b
 					tag: {
@@ -846,11 +678,7 @@
 			tasks: [{
 				id: "416484CF2AB4D71B"
 				type: "item"
-				item: {
-					gprops: { }
-					id: "bewitchment:demon_horn"
-					Count: 1b
-				}
+				item: "bewitchment:demon_horn"
 			}]
 			rewards: [{
 				id: "3E45B83755A40F71"
@@ -867,7 +695,6 @@
 				id: "6CDB1DB5399B31F8"
 				type: "item"
 				item: {
-					gprops: { }
 					id: "bewitchment:harbinger"
 					Count: 1b
 					tag: {
@@ -890,7 +717,6 @@
 				id: "21DC85807695CFAB"
 				type: "item"
 				item: {
-					gprops: { }
 					id: "bewitchment:scepter"
 					Count: 1b
 					tag: {
@@ -913,7 +739,6 @@
 				id: "2F68CB0B56C94B78"
 				type: "item"
 				item: {
-					gprops: { }
 					id: "bewitchment:horned_spear"
 					Count: 1b
 					tag: {
@@ -929,7 +754,7 @@
 		}
 		{
 			x: 11.5d
-			y: 3.5d
+			y: 4.0d
 			dependencies: ["734F1553E293E98D"]
 			id: "0FDB0002F258E8E5"
 			tasks: [{
@@ -942,11 +767,7 @@
 			rewards: [{
 				id: "790152FBA4E84D7A"
 				type: "item"
-				item: {
-					gprops: { }
-					id: "minecraft:blaze_powder"
-					Count: 1b
-				}
+				item: "minecraft:blaze_powder"
 			}]
 		}
 	]

@@ -5,7 +5,6 @@
 	filename: "conjuring"
 	title: "Conjuring"
 	icon: {
-		gprops: { }
 		id: "conjuring:enchiridion"
 		Count: 1b
 		tag: { }
@@ -33,11 +32,7 @@
 			tasks: [{
 				id: "5AD216578C6CD5BE"
 				type: "item"
-				item: {
-					gprops: { }
-					id: "conjuring:gem_socket"
-					Count: 1b
-				}
+				item: "conjuring:gem_socket"
 			}]
 		}
 		{
@@ -60,11 +55,7 @@
 			tasks: [{
 				id: "763861624BBCCEC6"
 				type: "item"
-				item: {
-					gprops: { }
-					id: "conjuring:gem_tinkerer"
-					Count: 1b
-				}
+				item: "conjuring:gem_tinkerer"
 			}]
 		}
 		{
@@ -77,11 +68,7 @@
 			tasks: [{
 				id: "1A6A427027AF0958"
 				type: "item"
-				item: {
-					gprops: { }
-					id: "conjuring:soulfire_forge"
-					Count: 1b
-				}
+				item: "conjuring:soulfire_forge"
 			}]
 		}
 		{
@@ -109,7 +96,6 @@
 				id: "1CC8E36B0C6BE2DF"
 				type: "item"
 				item: {
-					gprops: { }
 					id: "conjuring:enchiridion"
 					Count: 1b
 					tag: { }
@@ -134,7 +120,6 @@
 				id: "507901397293C1E6"
 				type: "item"
 				item: {
-					gprops: { }
 					id: "conjuring:stabilized_conjuring_focus"
 					Count: 1b
 					tag: { }
@@ -151,11 +136,7 @@
 			tasks: [{
 				id: "68E63E56E52EA132"
 				type: "item"
-				item: {
-					gprops: { }
-					id: "conjuring:soul_alloy"
-					Count: 1b
-				}
+				item: "conjuring:soul_alloy"
 			}]
 		}
 		{
@@ -172,11 +153,7 @@
 			tasks: [{
 				id: "7665D64C554FEF12"
 				type: "item"
-				item: {
-					gprops: { }
-					id: "conjuring:soul_slice"
-					Count: 1b
-				}
+				item: "conjuring:soul_slice"
 			}]
 		}
 		{
@@ -202,7 +179,6 @@
 				id: "2591D7BB6E0558AD"
 				type: "item"
 				item: {
-					gprops: { }
 					id: "conjuring:soul_alloy_sword"
 					Count: 1b
 					tag: {
@@ -235,7 +211,6 @@
 				id: "1F46AEE4412AF0ED"
 				type: "item"
 				item: {
-					gprops: { }
 					id: "conjuring:soul_alloy_pickaxe"
 					Count: 1b
 					tag: {
@@ -268,7 +243,6 @@
 				id: "7508FC98B04197D9"
 				type: "item"
 				item: {
-					gprops: { }
 					id: "conjuring:soul_alloy_hatchet"
 					Count: 1b
 					tag: {
@@ -301,7 +275,6 @@
 				id: "30C4673B6D235BDE"
 				type: "item"
 				item: {
-					gprops: { }
 					id: "conjuring:soul_alloy_shovel"
 					Count: 1b
 					tag: {
@@ -327,11 +300,7 @@
 			tasks: [{
 				id: "714CBC4CB6DB728A"
 				type: "item"
-				item: {
-					gprops: { }
-					id: "conjuring:conjuration_essence"
-					Count: 1b
-				}
+				item: "conjuring:conjuration_essence"
 			}]
 		}
 		{
@@ -344,11 +313,7 @@
 			tasks: [{
 				id: "5D56B9D6B720A4DE"
 				type: "item"
-				item: {
-					gprops: { }
-					id: "conjuring:lesser_conjuration_essence"
-					Count: 1b
-				}
+				item: "conjuring:lesser_conjuration_essence"
 			}]
 		}
 		{
@@ -365,11 +330,7 @@
 			tasks: [{
 				id: "21FA46FF3840E447"
 				type: "item"
-				item: {
-					gprops: { }
-					id: "conjuring:conjuring_scepter"
-					Count: 1b
-				}
+				item: "conjuring:conjuring_scepter"
 			}]
 		}
 		{
@@ -392,11 +353,7 @@
 			tasks: [{
 				id: "6B73E673A80B0705"
 				type: "item"
-				item: {
-					gprops: { }
-					id: "conjuring:superior_conjuring_scepter"
-					Count: 1b
-				}
+				item: "conjuring:superior_conjuring_scepter"
 			}]
 		}
 		{
@@ -425,11 +382,7 @@
 			tasks: [{
 				id: "3666880CAA50A00D"
 				type: "item"
-				item: {
-					gprops: { }
-					id: "conjuring:soul_funnel"
-					Count: 1b
-				}
+				item: "conjuring:soul_funnel"
 			}]
 		}
 		{
@@ -450,11 +403,7 @@
 			tasks: [{
 				id: "2AEE7687908351FC"
 				type: "item"
-				item: {
-					gprops: { }
-					id: "conjuring:soul_weaver"
-					Count: 1b
-				}
+				item: "conjuring:soul_weaver"
 			}]
 		}
 		{
@@ -483,11 +432,7 @@
 			tasks: [{
 				id: "513F4BFBDB849D3F"
 				type: "item"
-				item: {
-					gprops: { }
-					id: "conjuring:conjurer"
-					Count: 1b
-				}
+				item: "conjuring:conjurer"
 			}]
 		}
 		{
@@ -505,11 +450,7 @@
 			tasks: [{
 				id: "26EDCAA58BEDC06A"
 				type: "item"
-				item: {
-					gprops: { }
-					id: "conjuring:distilled_spirit"
-					Count: 1b
-				}
+				item: "conjuring:distilled_spirit"
 			}]
 		}
 		{
@@ -522,38 +463,22 @@
 				{
 					id: "124E9000EEF740C3"
 					type: "item"
-					item: {
-						gprops: { }
-						id: "conjuring:haste_gem"
-						Count: 1b
-					}
+					item: "conjuring:haste_gem"
 				}
 				{
 					id: "5FBDEC2E3B04D382"
 					type: "item"
-					item: {
-						gprops: { }
-						id: "conjuring:ignorance_gem"
-						Count: 1b
-					}
+					item: "conjuring:ignorance_gem"
 				}
 				{
 					id: "0C2780C1E359E66C"
 					type: "item"
-					item: {
-						gprops: { }
-						id: "conjuring:abundance_gem"
-						Count: 1b
-					}
+					item: "conjuring:abundance_gem"
 				}
 				{
 					id: "544F81AA31EC9A15"
 					type: "item"
-					item: {
-						gprops: { }
-						id: "conjuring:scope_gem"
-						Count: 1b
-					}
+					item: "conjuring:scope_gem"
 				}
 			]
 		}
@@ -570,38 +495,22 @@
 				{
 					id: "098643AC49423F55"
 					type: "item"
-					item: {
-						gprops: { }
-						id: "conjuring:haste_charm"
-						Count: 1b
-					}
+					item: "conjuring:haste_charm"
 				}
 				{
 					id: "7F4D16E0A4DEF8E4"
 					type: "item"
-					item: {
-						gprops: { }
-						id: "conjuring:ignorance_charm"
-						Count: 1b
-					}
+					item: "conjuring:ignorance_charm"
 				}
 				{
 					id: "6DF456C1C835D4ED"
 					type: "item"
-					item: {
-						gprops: { }
-						id: "conjuring:plentifulness_charm"
-						Count: 1b
-					}
+					item: "conjuring:plentifulness_charm"
 				}
 				{
 					id: "371050B28FE8D1AF"
 					type: "item"
-					item: {
-						gprops: { }
-						id: "conjuring:scope_charm"
-						Count: 1b
-					}
+					item: "conjuring:scope_charm"
 				}
 			]
 		}
@@ -626,7 +535,6 @@
 				id: "4F87EE41560AB292"
 				type: "item"
 				item: {
-					gprops: { }
 					id: "conjuring:conjuring_focus"
 					Count: 1b
 					tag: { }
@@ -651,11 +559,7 @@
 			tasks: [{
 				id: "0E36C158AEC8A73A"
 				type: "item"
-				item: {
-					gprops: { }
-					id: "conjuring:blackstone_pedestal"
-					Count: 1b
-				}
+				item: "conjuring:blackstone_pedestal"
 				count: 4L
 			}]
 		}
@@ -667,11 +571,7 @@
 			tasks: [{
 				id: "65CC3667BE68F75F"
 				type: "item"
-				item: {
-					gprops: { }
-					id: "conjuring:soul_rod"
-					Count: 1b
-				}
+				item: "conjuring:soul_rod"
 			}]
 		}
 	]

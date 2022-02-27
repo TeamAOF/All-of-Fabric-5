@@ -4,11 +4,7 @@
 	order_index: 1
 	filename: "kibe"
 	title: "Kibe Utilities"
-	icon: {
-		gprops: { }
-		id: "kibe:slime_sling"
-		Count: 1b
-	}
+	icon: "kibe:slime_sling"
 	default_quest_shape: "hexagon"
 	default_hide_dependency_lines: false
 	quests: [
@@ -22,11 +18,7 @@
 				id: "3931534EE6E5F653"
 				type: "checkmark"
 				title: "Kibe Utilities!"
-				icon: {
-					gprops: { }
-					id: "kibe:kibe"
-					Count: 1b
-				}
+				icon: "kibe:kibe"
 			}]
 		}
 		{
@@ -36,20 +28,12 @@
 			tasks: [{
 				id: "1482B0FA2EB22760"
 				type: "item"
-				item: {
-					gprops: { }
-					id: "kibe:cobblestone_generator_mk1"
-					Count: 1b
-				}
+				item: "kibe:cobblestone_generator_mk1"
 			}]
 			rewards: [{
 				id: "38F4793F45B8876E"
 				type: "item"
-				item: {
-					gprops: { }
-					id: "minecraft:gold_nugget"
-					Count: 1b
-				}
+				item: "minecraft:gold_nugget"
 			}]
 		}
 		{
@@ -60,20 +44,12 @@
 			tasks: [{
 				id: "37A5A44C9F193EC8"
 				type: "item"
-				item: {
-					gprops: { }
-					id: "kibe:cobblestone_generator_mk2"
-					Count: 1b
-				}
+				item: "kibe:cobblestone_generator_mk2"
 			}]
 			rewards: [{
 				id: "140D4BD4E253F3FD"
 				type: "item"
-				item: {
-					gprops: { }
-					id: "modern_industrialization:diamond_tiny_dust"
-					Count: 1b
-				}
+				item: "modern_industrialization:diamond_tiny_dust"
 			}]
 		}
 		{
@@ -84,20 +60,12 @@
 			tasks: [{
 				id: "7945059FC4BAF633"
 				type: "item"
-				item: {
-					gprops: { }
-					id: "kibe:cobblestone_generator_mk3"
-					Count: 1b
-				}
+				item: "kibe:cobblestone_generator_mk3"
 			}]
 			rewards: [{
 				id: "42E9411AD59D03AE"
 				type: "item"
-				item: {
-					gprops: { }
-					id: "modern_industrialization:emerald_tiny_dust"
-					Count: 1b
-				}
+				item: "modern_industrialization:emerald_tiny_dust"
 			}]
 		}
 		{
@@ -109,17 +77,12 @@
 			tasks: [{
 				id: "3A90C7EF9408C4F4"
 				type: "item"
-				item: {
-					gprops: { }
-					id: "kibe:cobblestone_generator_mk4"
-					Count: 1b
-				}
+				item: "kibe:cobblestone_generator_mk4"
 			}]
 			rewards: [{
 				id: "42037F357F9CBE60"
 				type: "item"
 				item: {
-					gprops: { }
 					id: "minecraft:netherite_hoe"
 					Count: 1b
 					tag: {
@@ -136,11 +99,7 @@
 			tasks: [{
 				id: "38C35D7B6C49C7AB"
 				type: "item"
-				item: {
-					gprops: { }
-					id: "kibe:cobblestone_generator_mk5"
-					Count: 1b
-				}
+				item: "kibe:cobblestone_generator_mk5"
 			}]
 		}
 		{
@@ -150,11 +109,7 @@
 			tasks: [{
 				id: "08FB10212C97A9D8"
 				type: "item"
-				item: {
-					gprops: { }
-					id: "kibe:basalt_generator_mk1"
-					Count: 1b
-				}
+				item: "kibe:basalt_generator_mk1"
 			}]
 		}
 		{
@@ -165,11 +120,7 @@
 			tasks: [{
 				id: "7DCD9A3794551BF2"
 				type: "item"
-				item: {
-					gprops: { }
-					id: "kibe:basalt_generator_mk2"
-					Count: 1b
-				}
+				item: "kibe:basalt_generator_mk2"
 			}]
 		}
 		{
@@ -180,11 +131,7 @@
 			tasks: [{
 				id: "58ED61DA1C7E66B8"
 				type: "item"
-				item: {
-					gprops: { }
-					id: "kibe:basalt_generator_mk3"
-					Count: 1b
-				}
+				item: "kibe:basalt_generator_mk3"
 			}]
 		}
 		{
@@ -195,11 +142,7 @@
 			tasks: [{
 				id: "5189E357486D70CD"
 				type: "item"
-				item: {
-					gprops: { }
-					id: "kibe:basalt_generator_mk4"
-					Count: 1b
-				}
+				item: "kibe:basalt_generator_mk4"
 			}]
 		}
 		{
@@ -210,11 +153,7 @@
 			tasks: [{
 				id: "0139CDB35A6C73EB"
 				type: "item"
-				item: {
-					gprops: { }
-					id: "kibe:basalt_generator_mk5"
-					Count: 1b
-				}
+				item: "kibe:basalt_generator_mk5"
 			}]
 		}
 		{
@@ -226,11 +165,7 @@
 			tasks: [{
 				id: "550AD130B1B271BD"
 				type: "item"
-				item: {
-					gprops: { }
-					id: "kibe:golden_kibe"
-					Count: 1b
-				}
+				item: "kibe:golden_kibe"
 			}]
 			rewards: [{
 				id: "235F43B8F062586F"
@@ -247,11 +182,7 @@
 			tasks: [{
 				id: "166D7DD64BEA9D21"
 				type: "item"
-				item: {
-					gprops: { }
-					id: "kibe:diamond_kibe"
-					Count: 1b
-				}
+				item: "kibe:diamond_kibe"
 			}]
 			rewards: [{
 				id: "6760E3AC635B5233"
@@ -268,11 +199,7 @@
 			tasks: [{
 				id: "74B922352AFCC2C1"
 				type: "item"
-				item: {
-					gprops: { }
-					id: "kibe:cursed_kibe"
-					Count: 1b
-				}
+				item: "kibe:cursed_kibe"
 			}]
 			rewards: [{
 				id: "26866531F89CF25D"
@@ -289,20 +216,12 @@
 			tasks: [{
 				id: "017BC2F70596CEBC"
 				type: "item"
-				item: {
-					gprops: { }
-					id: "kibe:diamond_ring"
-					Count: 1b
-				}
+				item: "kibe:diamond_ring"
 			}]
 			rewards: [{
 				id: "21A61A559F926B7E"
 				type: "item"
-				item: {
-					gprops: { }
-					id: "minecraft:diamond"
-					Count: 1b
-				}
+				item: "minecraft:diamond"
 			}]
 		}
 		{
@@ -315,7 +234,6 @@
 				id: "629D1D4982FE2971"
 				type: "item"
 				item: {
-					gprops: { }
 					id: "kibe:magma_ring"
 					Count: 1b
 					tag: { }
@@ -324,11 +242,7 @@
 			rewards: [{
 				id: "059DC50E9CF19CD9"
 				type: "item"
-				item: {
-					gprops: { }
-					id: "minecraft:magma_block"
-					Count: 1b
-				}
+				item: "minecraft:magma_block"
 				count: 64
 			}]
 		}
@@ -342,7 +256,6 @@
 				id: "580BB54BBB2856D4"
 				type: "item"
 				item: {
-					gprops: { }
 					id: "kibe:angel_ring"
 					Count: 1b
 					tag: { }
@@ -352,7 +265,6 @@
 				id: "73E39A2DC1D7F836"
 				type: "item"
 				item: {
-					gprops: { }
 					id: "minecraft:trident"
 					Count: 1b
 					tag: {
@@ -371,7 +283,6 @@
 				id: "37C52C86B6E0FA4A"
 				type: "item"
 				item: {
-					gprops: { }
 					id: "kibe:water_ring"
 					Count: 1b
 					tag: { }
@@ -380,11 +291,7 @@
 			rewards: [{
 				id: "6DC112568E3917DA"
 				type: "item"
-				item: {
-					gprops: { }
-					id: "croptosis:iron_watering_can"
-					Count: 1b
-				}
+				item: "croptosis:iron_watering_can"
 			}]
 		}
 		{
@@ -396,51 +303,31 @@
 			tasks: [{
 				id: "0ED500FB5F9B7C7F"
 				type: "item"
-				item: {
-					gprops: { }
-					id: "kibe:entangled_chest"
-					Count: 1b
-				}
+				item: "kibe:entangled_chest"
 			}]
 			rewards: [
 				{
 					id: "0C67585728F46B4B"
 					type: "item"
-					item: {
-						gprops: { }
-						id: "kibe:yellow_rune"
-						Count: 1b
-					}
+					item: "kibe:yellow_rune"
 					count: 2
 				}
 				{
 					id: "1B59311DCCBA2336"
 					type: "item"
-					item: {
-						gprops: { }
-						id: "kibe:lime_rune"
-						Count: 1b
-					}
+					item: "kibe:lime_rune"
 					count: 2
 				}
 				{
 					id: "750BE3B34F5D59C3"
 					type: "item"
-					item: {
-						gprops: { }
-						id: "kibe:pink_rune"
-						Count: 1b
-					}
+					item: "kibe:pink_rune"
 					count: 2
 				}
 				{
 					id: "79B2959D4520A57F"
 					type: "item"
-					item: {
-						gprops: { }
-						id: "kibe:gray_rune"
-						Count: 1b
-					}
+					item: "kibe:gray_rune"
 					count: 2
 				}
 			]
@@ -454,51 +341,31 @@
 			tasks: [{
 				id: "78A859B3D0017802"
 				type: "item"
-				item: {
-					gprops: { }
-					id: "kibe:entangled_tank"
-					Count: 1b
-				}
+				item: "kibe:entangled_tank"
 			}]
 			rewards: [
 				{
 					id: "6FD99B307FD8C5CD"
 					type: "item"
-					item: {
-						gprops: { }
-						id: "kibe:white_rune"
-						Count: 1b
-					}
+					item: "kibe:white_rune"
 					count: 2
 				}
 				{
 					id: "38239E46A12D5C17"
 					type: "item"
-					item: {
-						gprops: { }
-						id: "kibe:orange_rune"
-						Count: 1b
-					}
+					item: "kibe:orange_rune"
 					count: 2
 				}
 				{
 					id: "64ACCACC38BBC3DB"
 					type: "item"
-					item: {
-						gprops: { }
-						id: "kibe:magenta_rune"
-						Count: 1b
-					}
+					item: "kibe:magenta_rune"
 					count: 2
 				}
 				{
 					id: "09D0F08E633B07DC"
 					type: "item"
-					item: {
-						gprops: { }
-						id: "kibe:light_blue_rune"
-						Count: 1b
-					}
+					item: "kibe:light_blue_rune"
 					count: 2
 				}
 			]
@@ -512,51 +379,31 @@
 			tasks: [{
 				id: "37E61672584DFB3B"
 				type: "item"
-				item: {
-					gprops: { }
-					id: "kibe:entangled_bag"
-					Count: 1b
-				}
+				item: "kibe:entangled_bag"
 			}]
 			rewards: [
 				{
 					id: "5745345A15F02D93"
 					type: "item"
-					item: {
-						gprops: { }
-						id: "kibe:light_gray_rune"
-						Count: 1b
-					}
+					item: "kibe:light_gray_rune"
 					count: 2
 				}
 				{
 					id: "612716ED8EF91E40"
 					type: "item"
-					item: {
-						gprops: { }
-						id: "kibe:cyan_rune"
-						Count: 1b
-					}
+					item: "kibe:cyan_rune"
 					count: 2
 				}
 				{
 					id: "2F6D7323F1FF8D25"
 					type: "item"
-					item: {
-						gprops: { }
-						id: "kibe:purple_rune"
-						Count: 1b
-					}
+					item: "kibe:purple_rune"
 					count: 2
 				}
 				{
 					id: "6AFDC6FC8292E7B5"
 					type: "item"
-					item: {
-						gprops: { }
-						id: "kibe:green_rune"
-						Count: 1b
-					}
+					item: "kibe:green_rune"
 					count: 2
 				}
 			]
@@ -570,41 +417,25 @@
 			tasks: [{
 				id: "1DC913CFADDF163B"
 				type: "item"
-				item: {
-					gprops: { }
-					id: "kibe:entangled_bucket"
-					Count: 1b
-				}
+				item: "kibe:entangled_bucket"
 			}]
 			rewards: [
 				{
 					id: "50150A1DF7286ABD"
 					type: "item"
-					item: {
-						gprops: { }
-						id: "kibe:brown_rune"
-						Count: 1b
-					}
+					item: "kibe:brown_rune"
 					count: 2
 				}
 				{
 					id: "631612CEA312AB42"
 					type: "item"
-					item: {
-						gprops: { }
-						id: "kibe:red_rune"
-						Count: 1b
-					}
+					item: "kibe:red_rune"
 					count: 2
 				}
 				{
 					id: "23CD194EF2E60B43"
 					type: "item"
-					item: {
-						gprops: { }
-						id: "kibe:black_rune"
-						Count: 1b
-					}
+					item: "kibe:black_rune"
 					count: 2
 				}
 			]
@@ -647,11 +478,7 @@
 			tasks: [{
 				id: "3207E34716A01F5A"
 				type: "item"
-				item: {
-					gprops: { }
-					id: "kibe:xp_shower"
-					Count: 1b
-				}
+				item: "kibe:xp_shower"
 			}]
 		}
 		{
@@ -664,11 +491,7 @@
 			tasks: [{
 				id: "68B7BE2C6D332A76"
 				type: "item"
-				item: {
-					gprops: { }
-					id: "kibe:xp_drain"
-					Count: 1b
-				}
+				item: "kibe:xp_drain"
 			}]
 		}
 		{
@@ -681,7 +504,6 @@
 				id: "5850558B76ECFFE0"
 				type: "item"
 				item: {
-					gprops: { }
 					id: "kibe:tank"
 					Count: 1b
 					tag: { }
@@ -697,11 +519,7 @@
 			tasks: [{
 				id: "2CA4CC93439BB357"
 				type: "item"
-				item: {
-					gprops: { }
-					id: "kibe:trash_can"
-					Count: 1b
-				}
+				item: "kibe:trash_can"
 			}]
 		}
 		{
@@ -712,11 +530,7 @@
 			tasks: [{
 				id: "38230005D69B4184"
 				type: "item"
-				item: {
-					gprops: { }
-					id: "kibe:stone_spikes"
-					Count: 1b
-				}
+				item: "kibe:stone_spikes"
 			}]
 		}
 		{
@@ -727,11 +541,7 @@
 			tasks: [{
 				id: "42E2BF8B278B6FEA"
 				type: "item"
-				item: {
-					gprops: { }
-					id: "kibe:iron_spikes"
-					Count: 1b
-				}
+				item: "kibe:iron_spikes"
 			}]
 		}
 		{
@@ -742,11 +552,7 @@
 			tasks: [{
 				id: "2B470452DA5633D2"
 				type: "item"
-				item: {
-					gprops: { }
-					id: "kibe:gold_spikes"
-					Count: 1b
-				}
+				item: "kibe:gold_spikes"
 			}]
 		}
 		{
@@ -757,11 +563,7 @@
 			tasks: [{
 				id: "66567097A995AF54"
 				type: "item"
-				item: {
-					gprops: { }
-					id: "kibe:diamond_spikes"
-					Count: 1b
-				}
+				item: "kibe:diamond_spikes"
 			}]
 		}
 		{
@@ -773,11 +575,7 @@
 			tasks: [{
 				id: "6B2D4FA7B4449E85"
 				type: "item"
-				item: {
-					gprops: { }
-					id: "kibe:cursed_droplets"
-					Count: 1b
-				}
+				item: "kibe:cursed_droplets"
 			}]
 		}
 		{
@@ -789,11 +587,7 @@
 			tasks: [{
 				id: "157E7A93B794012C"
 				type: "item"
-				item: {
-					gprops: { }
-					id: "kibe:cursed_seeds"
-					Count: 1b
-				}
+				item: "kibe:cursed_seeds"
 			}]
 		}
 		{
@@ -806,7 +600,6 @@
 				id: "41C4364D32E8FB5E"
 				type: "item"
 				item: {
-					gprops: { }
 					id: "kibe:golden_lasso"
 					Count: 1b
 					tag: { }
@@ -823,7 +616,6 @@
 				id: "65970F825BC4D9C4"
 				type: "item"
 				item: {
-					gprops: { }
 					id: "kibe:cursed_lasso"
 					Count: 1b
 					tag: { }
@@ -840,7 +632,6 @@
 				id: "4F0EC7C4BA0E965A"
 				type: "item"
 				item: {
-					gprops: { }
 					id: "kibe:diamond_lasso"
 					Count: 1b
 					tag: { }
@@ -889,11 +680,7 @@
 			tasks: [{
 				id: "5C49C0A15140D59C"
 				type: "item"
-				item: {
-					gprops: { }
-					id: "kibe:vacuum_hopper"
-					Count: 1b
-				}
+				item: "kibe:vacuum_hopper"
 			}]
 		}
 		{
@@ -905,11 +692,7 @@
 			tasks: [{
 				id: "6246ADA7C69387FD"
 				type: "item"
-				item: {
-					gprops: { }
-					id: "kibe:wither_proof_glass"
-					Count: 1b
-				}
+				item: "kibe:wither_proof_glass"
 			}]
 		}
 		{
@@ -921,11 +704,7 @@
 			tasks: [{
 				id: "60F565C1307D35D8"
 				type: "item"
-				item: {
-					gprops: { }
-					id: "kibe:wither_proof_sand"
-					Count: 1b
-				}
+				item: "kibe:wither_proof_sand"
 			}]
 		}
 		{
@@ -937,11 +716,7 @@
 			tasks: [{
 				id: "5F64773A4D914C46"
 				type: "item"
-				item: {
-					gprops: { }
-					id: "kibe:wither_proof_block"
-					Count: 1b
-				}
+				item: "kibe:wither_proof_block"
 			}]
 		}
 		{
@@ -953,11 +728,7 @@
 			tasks: [{
 				id: "5F15D847732F2F5A"
 				type: "item"
-				item: {
-					gprops: { }
-					id: "kibe:wither_builder"
-					Count: 1b
-				}
+				item: "kibe:wither_builder"
 			}]
 		}
 		{
@@ -969,11 +740,7 @@
 			tasks: [{
 				id: "0DBD9671347434C7"
 				type: "item"
-				item: {
-					gprops: { }
-					id: "indrev:wither_proof_obsidian"
-					Count: 1b
-				}
+				item: "indrev:wither_proof_obsidian"
 			}]
 		}
 		{
@@ -997,31 +764,19 @@
 				{
 					id: "254D50AD8D38008B"
 					type: "item"
-					item: {
-						gprops: { }
-						id: "chisel:ornatesteel_old/glass"
-						Count: 1b
-					}
+					item: "chisel:ornatesteel_old/glass"
 					count: 12
 				}
 				{
 					id: "45CA8048AD6640FF"
 					type: "item"
-					item: {
-						gprops: { }
-						id: "blockus:cyan_stone_bricks"
-						Count: 1b
-					}
+					item: "blockus:cyan_stone_bricks"
 					count: 12
 				}
 				{
 					id: "46DD4BBE78F80DA0"
 					type: "item"
-					item: {
-						gprops: { }
-						id: "chisel:poison/stone"
-						Count: 1b
-					}
+					item: "chisel:poison/stone"
 					count: 12
 				}
 			]
@@ -1035,11 +790,7 @@
 			tasks: [{
 				id: "17F6FAC5607F17D5"
 				type: "item"
-				item: {
-					gprops: { }
-					id: "kibe:slime_sling"
-					Count: 1b
-				}
+				item: "kibe:slime_sling"
 			}]
 		}
 		{
@@ -1051,11 +802,7 @@
 			tasks: [{
 				id: "61A61B471BE66608"
 				type: "item"
-				item: {
-					gprops: { }
-					id: "kibe:torch_sling"
-					Count: 1b
-				}
+				item: "kibe:torch_sling"
 			}]
 		}
 		{
@@ -1068,7 +815,6 @@
 				id: "7AD6BA51329E082C"
 				type: "item"
 				item: {
-					gprops: { }
 					id: "kibe:magnet"
 					Count: 1b
 					tag: { }
@@ -1085,7 +831,6 @@
 				id: "3CC1B88DDA427A95"
 				type: "item"
 				item: {
-					gprops: { }
 					id: "itemfilters:or"
 					Count: 1b
 					tag: {
@@ -1168,7 +913,6 @@
 				id: "75C42B370A6BECF0"
 				type: "item"
 				item: {
-					gprops: { }
 					id: "kibe:escape_rope"
 					Count: 1b
 					tag: {
@@ -1185,11 +929,7 @@
 			tasks: [{
 				id: "1ED3DDCCED07436B"
 				type: "item"
-				item: {
-					gprops: { }
-					id: "kibe:wooden_bucket"
-					Count: 1b
-				}
+				item: "kibe:wooden_bucket"
 			}]
 		}
 		{
@@ -1202,7 +942,6 @@
 				id: "4DAE46A25DF5971F"
 				type: "item"
 				item: {
-					gprops: { }
 					id: "kibe:slime_boots"
 					Count: 1b
 					tag: {
@@ -1222,90 +961,89 @@
 				id: "461A8026187F0779"
 				type: "item"
 				item: {
-					gprops: { }
 					id: "itemfilters:or"
 					Count: 1b
 					tag: {
 						items: [
 							{
 								id: "kibe:white_glider"
-								Count: 1b
 								tag: { }
+								Count: 1b
 							}
 							{
 								id: "kibe:orange_glider"
-								Count: 1b
 								tag: { }
+								Count: 1b
 							}
 							{
 								id: "kibe:magenta_glider"
-								Count: 1b
 								tag: { }
+								Count: 1b
 							}
 							{
 								id: "kibe:light_blue_glider"
-								Count: 1b
 								tag: { }
+								Count: 1b
 							}
 							{
 								id: "kibe:yellow_glider"
-								Count: 1b
 								tag: { }
+								Count: 1b
 							}
 							{
 								id: "kibe:lime_glider"
-								Count: 1b
 								tag: { }
+								Count: 1b
 							}
 							{
 								id: "kibe:pink_glider"
-								Count: 1b
 								tag: { }
+								Count: 1b
 							}
 							{
 								id: "kibe:gray_glider"
-								Count: 1b
 								tag: { }
+								Count: 1b
 							}
 							{
 								id: "kibe:light_gray_glider"
-								Count: 1b
 								tag: { }
+								Count: 1b
 							}
 							{
 								id: "kibe:cyan_glider"
-								Count: 1b
 								tag: { }
+								Count: 1b
 							}
 							{
 								id: "kibe:blue_glider"
-								Count: 1b
 								tag: { }
+								Count: 1b
 							}
 							{
 								id: "kibe:purple_glider"
-								Count: 1b
 								tag: { }
+								Count: 1b
 							}
 							{
 								id: "kibe:green_glider"
-								Count: 1b
 								tag: { }
+								Count: 1b
 							}
 							{
 								id: "kibe:brown_glider"
-								Count: 1b
 								tag: { }
+								Count: 1b
 							}
 							{
 								id: "kibe:red_glider"
-								Count: 1b
 								tag: { }
+								Count: 1b
 							}
 							{
 								id: "kibe:black_glider"
-								Count: 1b
 								tag: { }
+								Count: 1b
 							}
 						]
 					}
@@ -1326,7 +1064,6 @@
 				id: "7C2E9EEEB3C4B7B4"
 				type: "item"
 				item: {
-					gprops: { }
 					id: "ae2:certus_quartz_cutting_knife"
 					Count: 1b
 					tag: {
@@ -1344,11 +1081,7 @@
 			tasks: [{
 				id: "0FC05324880FB6B9"
 				type: "item"
-				item: {
-					gprops: { }
-					id: "kibe:placer"
-					Count: 1b
-				}
+				item: "kibe:placer"
 			}]
 		}
 		{
@@ -1359,11 +1092,7 @@
 			tasks: [{
 				id: "6B26491A205CD947"
 				type: "item"
-				item: {
-					gprops: { }
-					id: "kibe:drawbridge"
-					Count: 1b
-				}
+				item: "kibe:drawbridge"
 			}]
 		}
 		{
@@ -1375,11 +1104,7 @@
 			tasks: [{
 				id: "3343274513277EB6"
 				type: "item"
-				item: {
-					gprops: { }
-					id: "kibe:breaker"
-					Count: 1b
-				}
+				item: "kibe:breaker"
 			}]
 		}
 		{
@@ -1390,11 +1115,7 @@
 			tasks: [{
 				id: "3C9068E99A18D305"
 				type: "item"
-				item: {
-					gprops: { }
-					id: "kibe:igniter"
-					Count: 1b
-				}
+				item: "kibe:igniter"
 			}]
 		}
 		{
@@ -1405,11 +1126,7 @@
 			tasks: [{
 				id: "255905463378A934"
 				type: "item"
-				item: {
-					gprops: { }
-					id: "kibe:dehumidifier"
-					Count: 1b
-				}
+				item: "kibe:dehumidifier"
 			}]
 		}
 		{
@@ -1420,11 +1137,7 @@
 			tasks: [{
 				id: "792CDF0A914EFC9C"
 				type: "item"
-				item: {
-					gprops: { }
-					id: "kibe:heater"
-					Count: 1b
-				}
+				item: "kibe:heater"
 			}]
 		}
 		{
@@ -1436,11 +1149,7 @@
 			tasks: [{
 				id: "17E02EA331F7D7A6"
 				type: "item"
-				item: {
-					gprops: { }
-					id: "kibe:fluid_hopper"
-					Count: 1b
-				}
+				item: "kibe:fluid_hopper"
 			}]
 		}
 		{
@@ -1451,11 +1160,7 @@
 			tasks: [{
 				id: "02D63A4D997340CA"
 				type: "item"
-				item: {
-					gprops: { }
-					id: "kibe:redstone_timer"
-					Count: 1b
-				}
+				item: "kibe:redstone_timer"
 			}]
 		}
 		{
@@ -1488,11 +1193,7 @@
 				{
 					id: "623C3C23AC217ED8"
 					type: "item"
-					item: {
-						gprops: { }
-						id: "blockus:bamboo_barrel"
-						Count: 1b
-					}
+					item: "blockus:bamboo_barrel"
 					count: 4
 				}
 			]
@@ -1506,11 +1207,7 @@
 			tasks: [{
 				id: "679DE0A266DE5437"
 				type: "item"
-				item: {
-					gprops: { }
-					id: "kibe:big_torch"
-					Count: 1b
-				}
+				item: "kibe:big_torch"
 			}]
 		}
 		{
@@ -1522,11 +1219,7 @@
 			tasks: [{
 				id: "5E20F61EB482457C"
 				type: "item"
-				item: {
-					gprops: { }
-					id: "kibe:white_elevator"
-					Count: 1b
-				}
+				item: "kibe:white_elevator"
 			}]
 		}
 	]

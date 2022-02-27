@@ -4,11 +4,7 @@
 	order_index: 2
 	filename: "deep_mob_learning"
 	title: "Deep Mob Learning"
-	icon: {
-		gprops: { }
-		id: "dml-refabricated:deep_learner"
-		Count: 1b
-	}
+	icon: "dml-refabricated:deep_learner"
 	default_quest_shape: "square"
 	default_hide_dependency_lines: false
 	quests: [
@@ -56,7 +52,6 @@
 				id: "6FD0D261E90790A2"
 				type: "item"
 				item: {
-					gprops: { }
 					id: "dml-refabricated:data_model"
 					Count: 1b
 					tag: { }
@@ -85,11 +80,7 @@
 			tasks: [{
 				id: "1F74315ED1FF9FCB"
 				type: "item"
-				item: {
-					gprops: { }
-					id: "dml-refabricated:deep_learner"
-					Count: 1b
-				}
+				item: "dml-refabricated:deep_learner"
 			}]
 		}
 		{
@@ -112,11 +103,7 @@
 			tasks: [{
 				id: "1CAE14E935895EEE"
 				type: "item"
-				item: {
-					gprops: { }
-					id: "dml-refabricated:trial_keystone"
-					Count: 1b
-				}
+				item: "dml-refabricated:trial_keystone"
 			}]
 		}
 		{
@@ -142,7 +129,6 @@
 				id: "1712246FD3D1B782"
 				type: "item"
 				item: {
-					gprops: { }
 					id: "dml-refabricated:trial_key"
 					Count: 1b
 					tag: { }
@@ -169,11 +155,7 @@
 			tasks: [{
 				id: "26F16521AC49E60B"
 				type: "item"
-				item: {
-					gprops: { }
-					id: "dml-refabricated:loot_fabricator"
-					Count: 1b
-				}
+				item: "dml-refabricated:loot_fabricator"
 			}]
 		}
 		{
@@ -196,11 +178,7 @@
 			tasks: [{
 				id: "763F3B0C76A6CB16"
 				type: "item"
-				item: {
-					gprops: { }
-					id: "dml-refabricated:glitch_ingot"
-					Count: 1b
-				}
+				item: "dml-refabricated:glitch_ingot"
 			}]
 		}
 		{
@@ -221,7 +199,6 @@
 				id: "179697774E9623B7"
 				type: "item"
 				item: {
-					gprops: { }
 					id: "dml-refabricated:glitch_helmet"
 					Count: 1b
 					tag: { }
@@ -246,7 +223,6 @@
 				id: "25585ECD38565973"
 				type: "item"
 				item: {
-					gprops: { }
 					id: "dml-refabricated:glitch_chestplate"
 					Count: 1b
 					tag: { }
@@ -271,7 +247,6 @@
 				id: "107B4DE1BCB3EFA5"
 				type: "item"
 				item: {
-					gprops: { }
 					id: "dml-refabricated:glitch_leggings"
 					Count: 1b
 					tag: { }
@@ -296,7 +271,6 @@
 				id: "464886591A8DC64F"
 				type: "item"
 				item: {
-					gprops: { }
 					id: "dml-refabricated:glitch_boots"
 					Count: 1b
 					tag: { }
@@ -316,55 +290,54 @@
 				type: "item"
 				title: "Get a data model"
 				item: {
-					gprops: { }
 					id: "itemfilters:or"
 					Count: 1b
 					tag: {
 						items: [
 							{
 								id: "dml-refabricated:data_model_illager"
-								Count: 1b
 								tag: { }
+								Count: 1b
 							}
 							{
 								id: "dml-refabricated:data_model_ocean"
-								Count: 1b
 								tag: { }
+								Count: 1b
 							}
 							{
 								id: "dml-refabricated:data_model_slimy"
-								Count: 1b
 								tag: { }
+								Count: 1b
 							}
 							{
 								id: "dml-refabricated:data_model_overworld"
-								Count: 1b
 								tag: { }
+								Count: 1b
 							}
 							{
 								id: "dml-refabricated:data_model_zombie"
-								Count: 1b
 								tag: { }
+								Count: 1b
 							}
 							{
 								id: "dml-refabricated:data_model_nether"
-								Count: 1b
 								tag: { }
+								Count: 1b
 							}
 							{
 								id: "dml-refabricated:data_model_skeleton"
-								Count: 1b
 								tag: { }
+								Count: 1b
 							}
 							{
 								id: "dml-refabricated:data_model_end"
-								Count: 1b
 								tag: { }
+								Count: 1b
 							}
 							{
 								id: "dml-refabricated:data_model_ghost"
-								Count: 1b
 								tag: { }
+								Count: 1b
 							}
 						]
 					}
@@ -395,11 +368,7 @@
 			tasks: [{
 				id: "79866817A5588058"
 				type: "item"
-				item: {
-					gprops: { }
-					id: "dmlsimulacrum:simulation_chamber"
-					Count: 1b
-				}
+				item: "dmlsimulacrum:simulation_chamber"
 			}]
 		}
 		{
@@ -418,11 +387,7 @@
 			tasks: [{
 				id: "195D1CB694FDCF69"
 				type: "item"
-				item: {
-					gprops: { }
-					id: "dml-refabricated:matter_condenser"
-					Count: 1b
-				}
+				item: "dml-refabricated:matter_condenser"
 			}]
 		}
 		{
@@ -434,11 +399,7 @@
 			tasks: [{
 				id: "6C44B445254F46B8"
 				type: "item"
-				item: {
-					gprops: { }
-					id: "dml-refabricated:machine_casing"
-					Count: 1b
-				}
+				item: "dml-refabricated:machine_casing"
 			}]
 		}
 		{
@@ -454,11 +415,7 @@
 			tasks: [{
 				id: "5EEB04255651FBAE"
 				type: "item"
-				item: {
-					gprops: { }
-					id: "dml-refabricated:soot_redstone"
-					Count: 1b
-				}
+				item: "dml-refabricated:soot_redstone"
 			}]
 		}
 	]

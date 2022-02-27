@@ -5,7 +5,6 @@
 	filename: "arcanus"
 	title: "Arcanus"
 	icon: {
-		gprops: { }
 		id: "arcanus:master_wand"
 		Count: 1b
 		tag: {
@@ -46,11 +45,7 @@
 				{
 					id: "2DDED1322F50D1EC"
 					type: "item"
-					item: {
-						gprops: { }
-						id: "minecraft:amethyst_shard"
-						Count: 1b
-					}
+					item: "minecraft:amethyst_shard"
 				}
 			]
 			rewards: [{
@@ -70,7 +65,6 @@
 				id: "3579AF788DF77E8B"
 				type: "item"
 				item: {
-					gprops: { }
 					id: "arcanus:initiate_wand"
 					Count: 1b
 					tag: {
@@ -81,11 +75,7 @@
 			rewards: [{
 				id: "478D95294735B6BC"
 				type: "item"
-				item: {
-					gprops: { }
-					id: "minecraft:amethyst_shard"
-					Count: 1b
-				}
+				item: "minecraft:amethyst_shard"
 				count: 4
 			}]
 		}
@@ -99,7 +89,6 @@
 				id: "762251340AF9A8F2"
 				type: "item"
 				item: {
-					gprops: { }
 					id: "arcanus:adept_wand"
 					Count: 1b
 					tag: {
@@ -123,7 +112,6 @@
 				id: "1CB9E7004495D24B"
 				type: "item"
 				item: {
-					gprops: { }
 					id: "arcanus:master_wand"
 					Count: 1b
 					tag: {
@@ -151,7 +139,6 @@
 				id: "624C9A1DE570923E"
 				type: "item"
 				item: {
-					gprops: { }
 					id: "arcanus:mana_flask"
 					Count: 1b
 					tag: {
@@ -165,7 +152,6 @@
 				id: "410F7C5281DE7B82"
 				type: "item"
 				item: {
-					gprops: { }
 					id: "arcanus:mana_flask"
 					Count: 1b
 					tag: {
@@ -186,20 +172,12 @@
 			tasks: [{
 				id: "783F238DEE18AF29"
 				type: "item"
-				item: {
-					gprops: { }
-					id: "arcanus:fillable_bookshelf"
-					Count: 1b
-				}
+				item: "arcanus:fillable_bookshelf"
 			}]
 			rewards: [{
 				id: "59CF3FE369C4A623"
 				type: "item"
-				item: {
-					gprops: { }
-					id: "minecraft:book"
-					Count: 1b
-				}
+				item: "minecraft:book"
 				count: 6
 			}]
 		}
@@ -217,20 +195,12 @@
 			tasks: [{
 				id: "3BF8F2AE1D1B98AA"
 				type: "item"
-				item: {
-					gprops: { }
-					id: "arcanus:display_case"
-					Count: 1b
-				}
+				item: "arcanus:display_case"
 			}]
 			rewards: [{
 				id: "247E7CA7B4803333"
 				type: "item"
-				item: {
-					gprops: { }
-					id: "minecraft:spyglass"
-					Count: 1b
-				}
+				item: "minecraft:spyglass"
 			}]
 		}
 		{
@@ -242,25 +212,20 @@
 				id: "1EEA90CD59064665"
 				type: "item"
 				item: {
-					gprops: { }
 					id: "minecraft:written_book"
 					Count: 1b
 					tag: {
-						spell: "arcanus:lunge"
 						pages: ["{\"extra\":[{\"translate\":\"book.arcanus.casting_pattern\"},{\"text\":\"          R-R-R\"}],\"translate\":\"book.arcanus.lunge.description\"}"]
-						title: "book.arcanus.lunge.title"
+						spell: "arcanus:lunge"
 						author: "book.arcanus.04.author"
+						title: "book.arcanus.lunge.title"
 					}
 				}
 			}]
 			rewards: [{
 				id: "7A64DCC9DD2E3518"
 				type: "item"
-				item: {
-					gprops: { }
-					id: "minecraft:stick"
-					Count: 1b
-				}
+				item: "minecraft:stick"
 				count: 12
 			}]
 		}
@@ -273,25 +238,20 @@
 				id: "0E9E5F9690FB177B"
 				type: "item"
 				item: {
-					gprops: { }
 					id: "minecraft:written_book"
 					Count: 1b
 					tag: {
-						spell: "arcanus:dream_warp"
 						pages: ["{\"extra\":[{\"translate\":\"book.arcanus.casting_pattern\"},{\"text\":\"          R-L-R\"}],\"translate\":\"book.arcanus.dream_warp.description\"}"]
-						title: "book.arcanus.dream_warp.title"
+						spell: "arcanus:dream_warp"
 						author: "book.arcanus.07.author"
+						title: "book.arcanus.dream_warp.title"
 					}
 				}
 			}]
 			rewards: [{
 				id: "43F44E33EA7A4810"
 				type: "item"
-				item: {
-					gprops: { }
-					id: "minecraft:cyan_bed"
-					Count: 1b
-				}
+				item: "minecraft:cyan_bed"
 			}]
 		}
 		{
@@ -303,25 +263,20 @@
 				id: "2F8FCFBB1480FC0E"
 				type: "item"
 				item: {
-					gprops: { }
 					id: "minecraft:written_book"
 					Count: 1b
 					tag: {
-						spell: "arcanus:magic_missile"
 						pages: ["{\"extra\":[{\"translate\":\"book.arcanus.casting_pattern\"},{\"text\":\"          L-L-L\"}],\"translate\":\"book.arcanus.magic_missile.description\"}"]
-						title: "book.arcanus.magic_missile.title"
+						spell: "arcanus:magic_missile"
 						author: "book.arcanus.03.author"
+						title: "book.arcanus.magic_missile.title"
 					}
 				}
 			}]
 			rewards: [{
 				id: "6D9F72597619D747"
 				type: "item"
-				item: {
-					gprops: { }
-					id: "minecraft:arrow"
-					Count: 1b
-				}
+				item: "minecraft:arrow"
 				count: 12
 			}]
 		}
@@ -334,14 +289,13 @@
 				id: "2AD6F90758713D4F"
 				type: "item"
 				item: {
-					gprops: { }
 					id: "minecraft:written_book"
 					Count: 1b
 					tag: {
-						spell: "arcanus:telekinetic_shock"
 						pages: ["{\"extra\":[{\"translate\":\"book.arcanus.casting_pattern\"},{\"text\":\"          L-R-L\"}],\"translate\":\"book.arcanus.telekinetic_shock.description\"}"]
-						title: "book.arcanus.telekinetic_shock.title"
+						spell: "arcanus:telekinetic_shock"
 						author: "book.arcanus.07.author"
+						title: "book.arcanus.telekinetic_shock.title"
 					}
 				}
 			}]
@@ -364,25 +318,20 @@
 				id: "6D01618D0A06ECEC"
 				type: "item"
 				item: {
-					gprops: { }
 					id: "minecraft:written_book"
 					Count: 1b
 					tag: {
-						spell: "arcanus:heal"
 						pages: ["{\"extra\":[{\"translate\":\"book.arcanus.casting_pattern\"},{\"text\":\"          R-L-L\"}],\"translate\":\"book.arcanus.heal.description\"}"]
-						title: "book.arcanus.heal.title"
+						spell: "arcanus:heal"
 						author: "book.arcanus.18.author"
+						title: "book.arcanus.heal.title"
 					}
 				}
 			}]
 			rewards: [{
 				id: "29AA802DC1085B29"
 				type: "item"
-				item: {
-					gprops: { }
-					id: "minecraft:glow_berries"
-					Count: 1b
-				}
+				item: "minecraft:glow_berries"
 			}]
 		}
 		{
@@ -394,25 +343,20 @@
 				id: "6FEA2CA6455D67F0"
 				type: "item"
 				item: {
-					gprops: { }
 					id: "minecraft:written_book"
 					Count: 1b
 					tag: {
-						spell: "arcanus:discombobulate"
 						pages: ["{\"extra\":[{\"translate\":\"book.arcanus.casting_pattern\"},{\"text\":\"          L-R-R\"}],\"translate\":\"book.arcanus.discombobulate.description\"}"]
-						title: "book.arcanus.discombobulate.title"
+						spell: "arcanus:discombobulate"
 						author: "book.arcanus.17.author"
+						title: "book.arcanus.discombobulate.title"
 					}
 				}
 			}]
 			rewards: [{
 				id: "796C666CFAFB0EDC"
 				type: "item"
-				item: {
-					gprops: { }
-					id: "minecraft:glass"
-					Count: 1b
-				}
+				item: "minecraft:glass"
 			}]
 		}
 		{
@@ -424,25 +368,20 @@
 				id: "0ADD6ED8F76BD871"
 				type: "item"
 				item: {
-					gprops: { }
 					id: "minecraft:written_book"
 					Count: 1b
 					tag: {
-						spell: "arcanus:solar_strike"
 						pages: ["{\"extra\":[{\"translate\":\"book.arcanus.casting_pattern\"},{\"text\":\"          L-L-R\"}],\"translate\":\"book.arcanus.solar_strike.description\"}"]
-						title: "book.arcanus.solar_strike.title"
+						spell: "arcanus:solar_strike"
 						author: "book.arcanus.18.author"
+						title: "book.arcanus.solar_strike.title"
 					}
 				}
 			}]
 			rewards: [{
 				id: "09D276D5A1CD31FB"
 				type: "item"
-				item: {
-					gprops: { }
-					id: "minecraft:sunflower"
-					Count: 1b
-				}
+				item: "minecraft:sunflower"
 				count: 12
 			}]
 		}
@@ -455,33 +394,24 @@
 				id: "285939FC28874007"
 				type: "item"
 				item: {
-					gprops: { }
 					id: "minecraft:written_book"
 					Count: 1b
 					tag: {
-						spell: "arcanus:arcane_barrier"
 						pages: ["{\"extra\":[{\"translate\":\"book.arcanus.casting_pattern\"},{\"text\":\"          R-R-L\"}],\"translate\":\"book.arcanus.arcane_barrier.description\"}"]
-						title: "book.arcanus.arcane_barrier.title"
+						spell: "arcanus:arcane_barrier"
 						author: "book.arcanus.14.author"
+						title: "book.arcanus.arcane_barrier.title"
 					}
 				}
 			}]
 			rewards: [{
 				id: "044FB7EDC89183A8"
 				type: "item"
-				item: {
-					gprops: { }
-					id: "blockus:rainbow_brick_wall"
-					Count: 1b
-				}
+				item: "blockus:rainbow_brick_wall"
 			}]
 		}
 		{
-			icon: {
-				gprops: { }
-				id: "minecraft:amethyst_cluster"
-				Count: 1b
-			}
+			icon: "minecraft:amethyst_cluster"
 			x: 1.0d
 			y: -7.5d
 			subtitle: "It feels good to be an adventurer."
@@ -496,11 +426,7 @@
 				{
 					id: "1CA43055D0AD6121"
 					type: "item"
-					item: {
-						gprops: { }
-						id: "plushies:red_fox_plushie"
-						Count: 1b
-					}
+					item: "plushies:red_fox_plushie"
 				}
 				{
 					id: "04E73FB23BC62C52"
