@@ -19,6 +19,7 @@ onEvent('recipes', (event) => {
     'indrev:infusing/electrum_dust',
     'indrev:compressing/empty_upgrade',
     'techreborn:crafting_table/machine_block/basic_machine_frame_alt',
+    'techreborn:crafting_table/machine/iron_furnace',
 
     ];
 
