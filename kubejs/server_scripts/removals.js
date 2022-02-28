@@ -7,8 +7,6 @@ onEvent('recipes', (event) => {
     'techreborn:crafting_table/solar_panel/advanced_solar_panel_alt',
     'techreborn:crafting_table/solar_panel/advanced_solar_panel_alt',
     'techreborn:rolling_machine/minecart',
-    'vanilla-excavators:obsidian_excavator',
-    'vanilla-hammers:obsidian_hammer',
     'croptopia:tomato_to_tomato_seed_shapeless',
     'croptopia:onion_to_onion_seed_shapeless',
     'croptopia:rice_to_rice_seed_shapeless',
@@ -20,6 +18,9 @@ onEvent('recipes', (event) => {
     'indrev:compressing/empty_upgrade',
     'techreborn:crafting_table/machine_block/basic_machine_frame_alt',
     'techreborn:crafting_table/machine/iron_furnace',
+    'techreborn:smelting/platinum_ingot_from_c_sheldonite_ores',
+    'techreborn:blasting/platinum_ingot_from_c_sheldonite_ores',
+    'techreborn:smelting/platinum_ingot_from_c_sheldonite_ores_exported_mi_furnace',
 
     ];
 
@@ -35,6 +36,8 @@ onEvent('recipes', (event) => {
     'kibe:angel_ring',
     'kibe:light_ring',
     'chisel:chisel',
+    'vanilla-excavators:obsidian_excavator',
+    'vanilla-hammers:obsidian_hammer',
     'croptopia:bacon',
     'croptopia:cooked_bacon',
     'croptopia:knife',
