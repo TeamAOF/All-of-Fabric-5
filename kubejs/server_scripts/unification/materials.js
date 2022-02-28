@@ -200,8 +200,6 @@ onEvent('recipes', event => {
     autoremove("techreborn:{}_ingot", "techreborn:crafting_table/ingot/{}_ingot_from_block");
     autoremove("techreborn:{}_ingot", "techreborn:crafting_table/ingot/{}_ingot_from_nugget");
     autoremove("techreborn:{}_ingot", "techreborn:crafting_table/ingot/{}_nugget_from_nugget");
-    autoremove("techreborn:{}_dust", "techreborn:crafting_table/small_dust/{}_small_dust");
-    autoremove("techreborn:{}_dust", "techreborn:crafting_table/dust/{}_dust");
     autoremove("techreborn:{}_nugget", "techreborn:crafting_table/nugget/{}_nugget");
 
     autoremove("techreborn:{}_ore", "techreborn:smelting/{}_ingot_from_c_{}_ores");
