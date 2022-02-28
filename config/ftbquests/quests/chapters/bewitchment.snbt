@@ -49,6 +49,7 @@
 		{
 			x: 5.5d
 			y: 2.0d
+			subtitle: "An introduction to the world of witchcraft."
 			description: [
 				"Bewitchment offers pacts with powerful demons, the ability to become a vampire or werewolf, brew powerful potions, cast rituals, curse your enemies (or friends), and so much more."
 				""
@@ -69,11 +70,23 @@
 		{
 			x: 0.0d
 			y: 2.5d
+			subtitle: "This magical cauldron is extremely versatile in use and is namely used for Oil Crafting, Brewing and and Teleportation."
+			description: [
+				"Items can be tossed into the Witch Cauldron once it boils."
+				""
+				"To make it boil, place hot blocks such as Lava or Magma Blocks below it."
+				""
+				"Note that the Witch Cauldron requires Altar Power, except for Oil Crafting."
+				""
+				"To teleport with a Witch Cauldron, simply throw in an Ender Pearl, step on it, and say your destination."
+				""
+				"That destination must be another Witch Cauldron that has been named with a Name Tag."
+			]
 			id: "40F6401B8512E29E"
 			tasks: [{
 				id: "4E8C15D371DB7A1A"
 				type: "item"
-				item: "minecraft:cauldron"
+				item: "bewitchment:witch_cauldron"
 			}]
 			rewards: [{
 				id: "4F8A36D51C6AD56B"
@@ -201,6 +214,12 @@
 		{
 			x: 1.0d
 			y: -4.0d
+			subtitle: "Yet another essential tool. It can gather an entity's hair, blood, and all things needed to establish a connection."
+			description: [
+				"To gather a taglock from an entity, either sneak up from behind or search for their bed."
+				""
+				"To gather a taglock from a Bed, use it while sneaking so you don't accidentally sleep."
+			]
 			id: "3B25DEDD2D24B914"
 			tasks: [{
 				id: "0BB0332E269A468C"
@@ -217,7 +236,6 @@
 				{
 					id: "14E6718E1E6F4F02"
 					type: "random"
-					table_id: 8530759241018555690L
 				}
 			]
 		}
@@ -240,7 +258,6 @@
 			rewards: [{
 				id: "24F1BCC004D1594B"
 				type: "random"
-				table_id: 8530759241018555690L
 			}]
 		}
 		{
@@ -262,7 +279,6 @@
 			rewards: [{
 				id: "4D14257DF84AC19E"
 				type: "random"
-				table_id: 8530759241018555690L
 			}]
 		}
 		{
@@ -284,7 +300,6 @@
 			rewards: [{
 				id: "73BB4B7F0AEDD45C"
 				type: "random"
-				table_id: 8530759241018555690L
 			}]
 		}
 		{
@@ -306,7 +321,6 @@
 			rewards: [{
 				id: "47D0C37E9B7A7248"
 				type: "random"
-				table_id: 8530759241018555690L
 			}]
 		}
 		{
@@ -328,7 +342,6 @@
 			rewards: [{
 				id: "33A7E7B2182D57FB"
 				type: "random"
-				table_id: 8530759241018555690L
 			}]
 		}
 		{
@@ -350,7 +363,6 @@
 			rewards: [{
 				id: "70B439F742F649C9"
 				type: "random"
-				table_id: 8530759241018555690L
 			}]
 		}
 		{
@@ -372,7 +384,6 @@
 			rewards: [{
 				id: "123330FB0062B529"
 				type: "random"
-				table_id: 8530759241018555690L
 			}]
 		}
 		{
@@ -394,7 +405,6 @@
 			rewards: [{
 				id: "2EEE429F6EFFEBF0"
 				type: "random"
-				table_id: 8530759241018555690L
 			}]
 		}
 		{
@@ -416,12 +426,19 @@
 			rewards: [{
 				id: "05EC3064DB8035BA"
 				type: "random"
-				table_id: 8530759241018555690L
 			}]
 		}
 		{
 			x: 7.5d
 			y: 2.0d
+			subtitle: "Convenient tools for any witch."
+			description: [
+				"It can be used to gather heads from mobs, among other niche uses."
+				""
+				"Being made out of Silver, it is perfectly usable against unholy creatures."
+				""
+				"Athames can also be used to start Rituals from a Dispenser."
+			]
 			dependencies: ["51E68C17C005CD95"]
 			id: "076F277FF3B41B79"
 			tasks: [{
@@ -445,6 +462,7 @@
 		{
 			x: 7.5d
 			y: 4.0d
+			subtitle: "Bottles of Blood can be obtained by slaying a humanoid with an Athame while holding a Glass Bottle in the offhand."
 			dependencies: ["076F277FF3B41B79"]
 			id: "5545B850D62C8BF0"
 			tasks: [{
@@ -461,6 +479,8 @@
 		{
 			x: 7.5d
 			y: 0.0d
+			subtitle: "Created by putting Bark on a Campfire."
+			description: ["When thrown into a filled Witch Cauldron it will immediately empty it."]
 			dependencies: ["076F277FF3B41B79"]
 			id: "6EA6B28327D944B7"
 			tasks: [{
@@ -478,6 +498,14 @@
 		{
 			x: 9.5d
 			y: 2.0d
+			subtitle: "Some say that Bark is the most magically potent part of the tree."
+			description: [
+				"Early witches learned to strip bark from wood using an Athame."
+				""
+				"Do note that some woods are simply too hard to strip Bark from."
+				""
+				"Bark can be used for many things, one of those being Wood Ash."
+			]
 			dependencies: ["076F277FF3B41B79"]
 			id: "2E57A82661E1CE1E"
 			tasks: [{
@@ -495,6 +523,26 @@
 		{
 			x: 11.5d
 			y: 2.0d
+			subtitle: "Altars are the cornerstone of any witch's lair."
+			description: [
+				"They can be used to collect energy - henceforth referred to as ME (magical energy)."
+				""
+				"This energy is essential to most witchcraft, and is collected from nearby plants."
+				""
+				"You'll want many different plants to collect maximum power."
+				""
+				"You may also place swords, pentacles, and wands atop the altar to modify it."
+				""
+				"Swords will increase the storage multiplier."
+				""
+				"Pentacles such as Skulls and Gems will increase gain."
+				""
+				"Wands such as Candelabrasl, Lanterns, and Torches will give a flat bonus on capacity."
+				""
+				"Altars are created by putting a carpet on their base block. The choice of base block and carpet is of cosmetic nature only and tied to one of the three realms."
+				""
+				"Nearby altars will fill a player's Internal ME Buffer, which is used for magic such as trinkets or Brooms."
+			]
 			dependencies: ["2E57A82661E1CE1E"]
 			id: "734F1553E293E98D"
 			tasks: [{
@@ -517,6 +565,14 @@
 		{
 			x: 11.5d
 			y: 0.0d
+			subtitle: "Crystal Balls are common divination tools."
+			description: [
+				"When used, they will give the caster a fortune, at the cost of some ME drawn from a nearby Altar."
+				""
+				"Additionally, Crystal Balls may be used for scrying."
+				""
+				"When used with a Taglock, it will give precise information on the target."
+			]
 			dependencies: ["734F1553E293E98D"]
 			id: "25C8C15C8701B834"
 			tasks: [{
@@ -601,6 +657,22 @@
 		{
 			x: 13.5d
 			y: 0.0d
+			subtitle: "Brooms are magical devices commonly used by witches."
+			description: [
+				"They enable the user to fly through the skies. Brooms come in four variants, each with unique properties:"
+				""
+				"- Juniper"
+				"The fastest of all brooms, without any other special properties."
+				""
+				"- Cypress"
+				"Wards the user, reducing both damage input and output."
+				""
+				"- Elder"
+				"Will return the user to where they mounted it after dismounting."
+				""
+				"- Dragon's Blood"
+				"Can have Active Sigils applied to them, much like any other Dragon's Blood block."
+			]
 			dependencies: [
 				"25C8C15C8701B834"
 				"40F771A3D6F771A6"
@@ -629,6 +701,14 @@
 		{
 			x: 13.5d
 			y: -2.0d
+			subtitle: "Gross."
+			description: [
+				"This questionable stew is part of the pledging rite."
+				""
+				"By drinking while deeply looking into the eyes of a Greater Demon, a witch can pledge to them."
+				""
+				"Pledging to a Greater Demon has unique benefits depending on the Demon."
+			]
 			dependencies: ["40F771A3D6F771A6"]
 			id: "6B3BB197C7AF5DDF"
 			tasks: [{
@@ -651,6 +731,14 @@
 		{
 			x: 9.0d
 			y: -4.0d
+			subtitle: "Baphomet's tool of choice."
+			description: [
+				"It has multiple-tool functionality comparable to Netherite."
+				""
+				"It can also be used to throw powerful fireballs at the cost of some ME."
+				""
+				"The Caduceus can be repaired with Netherite Ingots."
+			]
 			dependencies: ["1DB150821C15E02B"]
 			id: "16CC85D681077DFD"
 			tasks: [{
@@ -667,7 +755,6 @@
 			rewards: [{
 				id: "42FF36C80F68CB55"
 				type: "random"
-				table_id: 5326367464111173975L
 			}]
 		}
 		{
@@ -689,6 +776,12 @@
 		{
 			x: 8.0d
 			y: -4.0d
+			subtitle: "Acquired by defeating the Vampire Queen in battle, these shoes have a protection comparable to Netherite Boots."
+			description: [
+				"Because of their dark energies, the undead are neutral to the wearer."
+				""
+				"Harbinger can be repaired using Netherite Ingots."
+			]
 			dependencies: ["1DB150821C15E02B"]
 			id: "07CB7DF58F8AC311"
 			tasks: [{
@@ -705,12 +798,17 @@
 			rewards: [{
 				id: "2B451D8014C4F2C2"
 				type: "random"
-				table_id: 5326367464111173975L
 			}]
 		}
 		{
 			x: 10.0d
 			y: -4.0d
+			subtitle: "This powerful relic is obtained by defeating Leonard."
+			description: [
+				"It can be combined with a Splash Potion, which can then be thrown four times using the Scepter at the cost of ME."
+				""
+				"The Scepter can be repaired using Netherie Ingots."
+			]
 			dependencies: ["1DB150821C15E02B"]
 			id: "3980AEE68AB1A5A3"
 			tasks: [{
@@ -727,12 +825,17 @@
 			rewards: [{
 				id: "7919190B025C821B"
 				type: "random"
-				table_id: 5326367464111173975L
 			}]
 		}
 		{
 			x: 11.0d
 			y: -4.0d
+			subtitle: "This spear is the hunting weapon of Herne."
+			description: [
+				"Much like a Trident, it can be thrown towards a target, and will always return to whoever threw it."
+				""
+				"The Horned Spear can be repaired using Netherite Ingots."
+			]
 			dependencies: ["1DB150821C15E02B"]
 			id: "46E0C43C802E3417"
 			tasks: [{
@@ -749,10 +852,10 @@
 			rewards: [{
 				id: "3A7D597508E431AB"
 				type: "random"
-				table_id: 5326367464111173975L
 			}]
 		}
 		{
+			title: "Find a Nether Fortress"
 			x: 11.5d
 			y: 4.0d
 			dependencies: ["734F1553E293E98D"]
