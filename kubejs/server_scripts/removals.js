@@ -60,6 +60,10 @@ onEvent('recipes', (event) => {
     'mtmechs:iron_gear_item',
     'indrev:hammer',
     'techreborn:iron_alloy_furnace',
+    'additionaladditions:gilded_netherite_helmet',
+    'additionaladditions:gilded_netherite_chestplate',
+    'additionaladditions:gilded_netherite_leggings',
+    'additionaladditions:gilded_netherite_boots',
     ];
 
     id.forEach((id) => {
