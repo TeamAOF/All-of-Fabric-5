@@ -8,7 +8,7 @@
     "storage": 5000.0
   },
   "icyGenerator": {
-    "output": 64.0,
+    "output": 32.0,
     "storage": 16000.0
   },
   "colorfulGenerator": {
@@ -16,7 +16,7 @@
     "storage": 16000.0
   },
   "sludgyGenerator": {
-    "output": 128.0,
+    "output": 32.0,
     "storage": 32000.0
   },
   "teleportGenerator": {
@@ -28,7 +28,7 @@
     "storage": 32000.0
   },
   "steamGenerator": {
-    "output": 64.0,
+    "output": 32.0,
     "storage": 32000.0
   },
   "gluttonyGenerator": {
@@ -56,11 +56,11 @@
     "storage": 64000.0
   },
   "dragonGenerator": {
-    "output": 4096.0,
+    "output": 2048.0,
     "storage": 2048000.0
   },
   "witheredGenerator": {
-    "output": 2048.0,
+    "output": 512.0,
     "storage": 1024000.0
   },
   "heavenlyGenerator": {
