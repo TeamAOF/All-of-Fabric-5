@@ -394,21 +394,21 @@
   "lazuliFluxContainerMk1": {
     "maxEnergyStored": 10000,
     "maxInput": 128,
-    "maxOutput": 32
+    "maxOutput": 128
   },
   "lazuliFluxContainerMk2": {
     "maxEnergyStored": 100000,
     "maxInput": 512,
-    "maxOutput": 128
+    "maxOutput": 512
   },
   "lazuliFluxContainerMk3": {
     "maxEnergyStored": 1000000,
-    "maxInput": 4096,
-    "maxOutput": 512
+    "maxInput": 2048,
+    "maxOutput": 2048
   },
   "lazuliFluxContainerMk4": {
     "maxEnergyStored": 10000000,
     "maxInput": 16384,
-    "maxOutput": 2084
+    "maxOutput": 16384
   }
 }
