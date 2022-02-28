@@ -15,6 +15,7 @@ onEvent('recipes', (event) => {
     },
       id: 'indrev:shaped/machine_block'
     },
+
     {
       output: '8x indrev:item_pipe_mk1',
       pattern: ['BAB'],
@@ -24,6 +25,7 @@ onEvent('recipes', (event) => {
     },
       id: 'indrev:shaped/item_pipe_mk1'
     },
+
      {
       output: '8x indrev:fluid_pipe_mk1',
       pattern: ['BAB'],
@@ -32,6 +34,17 @@ onEvent('recipes', (event) => {
         B: '#c:iron_plates',
     },
       id: 'indrev:shaped/fluid_pipe_mk1'
+    },
+
+    {
+      output: 'indrev:lazuli_flux_container_mk4',
+      pattern: ['BCB', 'CAC', 'BCB'],
+      key: {
+        A: 'indrev:circuit_mk4',
+        B: '#c:electrum_plates',
+        C: 'indrev:lazuli_flux_container_mk3',
+    },
+      id: 'indrev:shaped/lazuli_flux_container_mk4'
     },
   ];
 
