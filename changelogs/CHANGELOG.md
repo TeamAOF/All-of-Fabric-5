@@ -1,37 +1,103 @@
-### All of Fabric 5 | v1.0.0 | Questing Update
+### All of Fabric 5 | v1.0.0 | Questing & Biomes
 
-_Fabric Loader 0.12.12_ | _[Mod Updates](https://github.com/TeamAOF/All-of-Fabric-5/blob/main/changelogs/changelog_mods_0.3.0.md)_ | _[Modlist](https://github.com/TeamAOF/All-of-Fabric-5/blob/main/changelogs/modlist_0.3.0.md)_
+_Fabric Loader 0.13.3_ | _[Mod Updates](https://github.com/TeamAOF/All-of-Fabric-5/blob/main/changelogs/changelog_mods_1.0.0.md)_ | _[Modlist](https://github.com/TeamAOF/All-of-Fabric-5/blob/main/changelogs/modlist_1.0.0.md)_
 
 ## Changes
 
 * Added 18 questing chapters.
 * Added tons & tons of new biomes.
 * Big Torch now works for ghosts and werewolfs.
-* Updated to fabric loader 0.13.2
+* Updated to fabric loader 0.13.3
+* Rebalanced Lazuli Flux Containers to be on par with TR.
+* Rebalanced extra generators output rates, also removed (gluttony, brew, redstone, blast, demise, icy, teleport, heavenly & infernal).
+* Rebalanced the Dark Enchanter (Removing enchantments from gear will no longer give xp, bookshelfs give less %, level cost per enchantment increased to 5).
 * Blacklisted backpacks, storage units, relics, etc from Replicator (Most items/blocks that save NBT on break).
 * Thallasium can no longer be used instead of Iron.
+* Moved ruby ore to steam quarry (bronze drill).
+* Added back Tech Reborn ores to world gen, go find your rubies!
 * Buffed Conjuring values by 30%-50%
+* Added item in hand count to screen hud.
 * Unhid bewitchment salt as used for rituals.
 
 ## Fixes
 
 * Fixed spectrum quitoxic reeds not being breakable (#117)
+* Fixed certain items always showing in REI, like actually actually this time.
 * Fixed dupe bug caused by partitioning.
+* Fixed broken small dust recipes from TR.
 * Fixed issue with dwarf charcoal not being craftable due to how unifcation handles it.
 
 ## Recipe Changes
 
 * New Machine Block (https://i.imgur.com/uTpy70B.png)
 * New Alloy Smelter (https://i.imgur.com/Eg0twEM.png)
+* New Lazuli Flux Container MK4 (https://i.imgur.com/H8XVqoD.png)
+* Added platinum progression through TR.
+* Added chromium to unification, merging TR chrome into MI variant.
 * Replace inputs of steel gear set from Indrev with TR (Fixes modular gear not being craftable)
 * Removed duplicate recipe of Iron Furnace
+* Removed Additional Additions Gilded Netherite armor set.
 * Removed Iron Alloy Furnace
 * Removed the Hammer from Indrev
 
 ## Added
 
-* [XP Obelisk](https://www.curseforge.com/minecraft/mc-mods/xp-obelisk)
+* [Advancements Debug](https://www.curseforge.com/minecraft/mc-mods/advancements-debug)
+* [Architect's Palette [FABRIC]](https://www.curseforge.com/minecraft/mc-mods/architects-palette-fabric)
+* [Artifacts (Fabric)](https://www.curseforge.com/minecraft/mc-mods/artifacts-fabric)
+* [Better Azalea](https://www.curseforge.com/minecraft/mc-mods/better-azalea)
+* [Biome Makeover](https://www.curseforge.com/minecraft/mc-mods/biome-makeover)
+* [Bookshelf](https://www.curseforge.com/minecraft/mc-mods/bookshelf)
+* [Bosses of Mass Destruction](https://www.curseforge.com/minecraft/mc-mods/bosses-of-mass-destruction)
+* [Cammie's Minecart Tweaks](https://www.curseforge.com/minecraft/mc-mods/cammies-minecart-tweaks)
+* [Campanion](https://www.curseforge.com/minecraft/mc-mods/campanion)
+* [Clickable advancements[Forge/Fabric]](https://www.curseforge.com/minecraft/mc-mods/clickable-advancements)
+* [Continuity](https://www.curseforge.com/minecraft/mc-mods/continuity)
+* [Cosmetic Armor [FABRIC]](https://www.curseforge.com/minecraft/mc-mods/cosmetic-armor-fabric)
+* [Creatures From The Snow! [Fabric]](https://www.curseforge.com/minecraft/mc-mods/creatures-of-the-snow)
+* [Earthbounds](https://www.curseforge.com/minecraft/mc-mods/earthbounds)
+* [Extra Alchemy](https://www.curseforge.com/minecraft/mc-mods/extra-alchemy)
+* [Extreme sound muffler (Fabric) Official](https://www.curseforge.com/minecraft/mc-mods/extreme-sound-muffler-fabric-official)
+* [FTB Quests (Fabric)](https://www.curseforge.com/minecraft/mc-mods/ftb-quests-fabric)
+* [FTB Ultimine (Fabric)](https://www.curseforge.com/minecraft/mc-mods/ftb-ultimine-fabric)
+* [Fabric Emotes](https://www.curseforge.com/minecraft/mc-mods/fabric-emotes)
+* [Forge Config API Port [Fabric]](https://www.curseforge.com/minecraft/mc-mods/forge-config-api-port-fabric)
+* [Guard Villagers (Fabric)](https://www.curseforge.com/minecraft/mc-mods/guard-villagers-fabric)
+* [Item Filters (Fabric)](https://www.curseforge.com/minecraft/mc-mods/item-filters-fabric)
+* [Macaw's Fences and Walls](https://www.curseforge.com/minecraft/mc-mods/macaws-fences-and-walls)
+* [Macaw's Paintings](https://www.curseforge.com/minecraft/mc-mods/macaws-paintings)
+* [Macaw's Trapdoors](https://www.curseforge.com/minecraft/mc-mods/macaws-trapdoors)
+* [Magical Forest](https://www.curseforge.com/minecraft/mc-mods/magical-forest)
+* [Mannequins](https://www.curseforge.com/minecraft/mc-mods/mannequins)
+* [More Villagers [Fabric]](https://www.curseforge.com/minecraft/mc-mods/more-villagers-fabric)
+* [Oh The Biomes You'll Go Refabricated](https://www.curseforge.com/minecraft/mc-mods/oh-the-biomes-youll-go-fabric)
+* [Op Items Tab](https://www.curseforge.com/minecraft/mc-mods/op-items-tab)
+* [Open Loader](https://www.curseforge.com/minecraft/mc-mods/open-loader)
+* [Pollen](https://www.curseforge.com/minecraft/mc-mods/pollen)
+* [Quests Additions (Fabric)](https://www.curseforge.com/minecraft/mc-mods/quests-additions-fabric)
+* [Rare Ice (Forge/Fabric)](https://www.curseforge.com/minecraft/mc-mods/rare-ice)
+* [Roughly Enough Resources](https://www.curseforge.com/minecraft/mc-mods/roughly-enough-resources)
+* [Runelic](https://www.curseforge.com/minecraft/mc-mods/runelic)
+* [Secret Rooms Fabric](https://www.curseforge.com/minecraft/mc-mods/secret-rooms-fabric)
+* [Show Me What You Got](https://www.curseforge.com/minecraft/mc-mods/show-me-what-you-got)
+* [TerraBlender (Fabric)](https://www.curseforge.com/minecraft/mc-mods/terrablender-fabric)
+* [Thatched](https://www.curseforge.com/minecraft/mc-mods/thatched)
+* [The Graveyard Biomes (FABRIC)](https://www.curseforge.com/minecraft/mc-mods/the-graveyard-biomes-fabric)
+* [Wandering Trapper](https://www.curseforge.com/minecraft/mc-mods/wandering-trapper)
+* [YUNG's API (Fabric)](https://www.curseforge.com/minecraft/mc-mods/yungs-api-fabric)
+* [YUNG's Better Dungeons (Fabric)](https://www.curseforge.com/minecraft/mc-mods/yungs-better-dungeons-fabric)
+* [YUNG's Better Strongholds (Fabric)](https://www.curseforge.com/minecraft/mc-mods/yungs-better-strongholds-fabric)
+* [Your Reputation](https://www.curseforge.com/minecraft/mc-mods/your-reputation)
+  
+## Removed
 
+* [BCLib](https://www.curseforge.com/minecraft/mc-mods/bclib)
+* [BetterEnd](https://www.curseforge.com/minecraft/mc-mods/betterend)
+* [Diggus Maximus](https://www.curseforge.com/minecraft/mc-mods/diggus-maximus)
+* [Drink Beer (Fabric)](https://www.curseforge.com/minecraft/mc-mods/drink-beer-fabric)
+* [FTB Ranks (Fabric)](https://www.curseforge.com/minecraft/mc-mods/ftb-ranks-fabric)
+* [MmmMmmMmmMmm (Target Dummy)](https://www.curseforge.com/minecraft/mc-mods/mmmmmmmmmmmm)
+* [Winterly](https://www.curseforge.com/minecraft/mc-mods/winterly)
 ---
 
 ### All of Fabric 5 | v0.2.11
