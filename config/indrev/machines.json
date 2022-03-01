@@ -403,8 +403,8 @@
   },
   "lazuliFluxContainerMk3": {
     "maxEnergyStored": 1000000,
-    "maxInput": 4096,
-    "maxOutput": 4096
+    "maxInput": 2048,
+    "maxOutput": 2048
   },
   "lazuliFluxContainerMk4": {
     "maxEnergyStored": 10000000,

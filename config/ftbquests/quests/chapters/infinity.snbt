@@ -1,0 +1,507 @@
+{
+	id: "55534E1BE135C3C1"
+	group: "72F1D9ADF99885C0"
+	order_index: 0
+	filename: "infinity"
+	title: "Challenges"
+	icon: "croptopia:starfruit"
+	always_invisible: true
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			title: "Can you do them all?"
+			x: 0.5d
+			y: 0.5d
+			dependencies: [
+				"5D2CEC6704ECAA48"
+				"2437E085589A2A4B"
+				"4C85A4C758CAB7FD"
+				"7BAF8F3079CFF4B4"
+				"3AE5C1578F308613"
+				"0BA35A6626B1226F"
+				"43A72CB048A3BE6F"
+				"56F23D562BDC2433"
+			]
+			id: "512CAEB25CD9B4E2"
+			tasks: [{
+				id: "25A176742B2F47D9"
+				type: "checkmark"
+			}]
+		}
+		{
+			x: 0.5d
+			y: 2.5d
+			subtitle: "Killed the dragon? Cool. Do it again."
+			id: "0BA35A6626B1226F"
+			tasks: [{
+				id: "41AC1D748FE90803"
+				type: "kill"
+				icon: "minecraft:dragon_head"
+				entity: "minecraft:ender_dragon"
+				value: 2147483647L
+			}]
+			rewards: [{
+				id: "3A5CF01E4302F3E8"
+				type: "item"
+				item: "minecraft:rotten_flesh"
+			}]
+		}
+		{
+			x: -1.5d
+			y: 0.5d
+			subtitle: "sneak for 250000 value.. whatever that means."
+			id: "5D2CEC6704ECAA48"
+			tasks: [{
+				id: "70046D3A833513EB"
+				type: "stat"
+				title: "You sneaky one"
+				icon: "spectrum:fox_head"
+				stat: "minecraft:sneak_time"
+				value: 250000
+			}]
+			rewards: [
+				{
+					id: "2924C2098442D2B3"
+					type: "item"
+					item: {
+						id: "entitybanners:entity_banner"
+						Count: 1b
+						tag: {
+							BlockEntityTag: {
+								entitybanners_Entity: "minecraft:fox"
+								Patterns: [
+									{
+										Pattern: "tts"
+										Color: 6
+									}
+									{
+										Pattern: "bts"
+										Color: 6
+									}
+									{
+										Pattern: "bo"
+										Color: 6
+									}
+									{
+										Pattern: "cs"
+										Color: 1
+									}
+								]
+								Bannerpp_LoomPatterns: [{
+									Pattern: "minecraft:fox_banner"
+									Color: 1
+									Index: 0
+								}]
+							}
+						}
+					}
+				}
+				{
+					id: "6DA0960757F0BB94"
+					type: "item"
+					item: "floral_flair:foxnip"
+				}
+				{
+					id: "35936ADBED755BF7"
+					type: "item"
+					item: "floral_flair:frosted_foxnip"
+				}
+				{
+					id: "12E256DD5BC33752"
+					type: "item"
+					item: "plushies:red_fox_plushie"
+				}
+				{
+					id: "5EE135A372DC829D"
+					type: "item"
+					item: "plushies:white_fox_plushie"
+				}
+				{
+					id: "72DC21561D32DF46"
+					type: "item"
+					item: "spectrum:fox_head"
+				}
+				{
+					id: "67E45C7C4B06EE82"
+					type: "item"
+					item: "spectrum:fox_arctic_head"
+				}
+				{
+					id: "628C8982273AE1DF"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					id: "48DBFE2B82DECA52"
+					type: "random"
+				}
+			]
+		}
+		{
+			title: "For whom the bell tolls"
+			x: 2.5d
+			y: 0.5d
+			subtitle: "Ring a bell 1000 times.. get a prize. or your buddy might kill you.. whatever comes first"
+			id: "3AE5C1578F308613"
+			tasks: [{
+				id: "3B9877872EECD3ED"
+				type: "stat"
+				title: "Bell Ringer of death"
+				icon: "minecraft:bell"
+				stat: "minecraft:bell_ring"
+				value: 1000
+			}]
+			rewards: [{
+				id: "6AF2E8D8CDD6A2B6"
+				type: "random"
+			}]
+		}
+		{
+			x: 0.5d
+			y: -1.5d
+			subtitle: "Talk to Villagers 2500 times.. you Gossip Boss, you."
+			id: "4C85A4C758CAB7FD"
+			tasks: [{
+				id: "2E91AE2A136CD5B6"
+				type: "stat"
+				title: "Goss Boss"
+				icon: "spectrum:villager_head"
+				stat: "minecraft:talked_to_villager"
+				value: 2500
+			}]
+			rewards: [
+				{
+					id: "54682A02A30A594B"
+					type: "item"
+					item: "spectrum:villager_head"
+				}
+				{
+					id: "3DE90408DFED3E47"
+					type: "item"
+					item: "minecraft:lectern"
+				}
+				{
+					id: "0F3C1A97D475F253"
+					type: "item"
+					item: "minecraft:book"
+					count: 6
+				}
+				{
+					id: "78937EAEFA7B5A44"
+					type: "item"
+					item: "minecraft:emerald_block"
+				}
+			]
+		}
+		{
+			x: 2.0d
+			y: -1.0d
+			subtitle: "Swim a total of 250000"
+			id: "7BAF8F3079CFF4B4"
+			tasks: [{
+				id: "5FA3679B25404E4C"
+				type: "stat"
+				title: "Swim Champ"
+				icon: "croptopia:water_bottle"
+				stat: "minecraft:swim_one_cm"
+				value: 250000
+			}]
+			rewards: [
+				{
+					id: "355238656E1149F9"
+					type: "item"
+					item: "minecraft:water_bucket"
+				}
+				{
+					id: "0CD3DE016EBC60DC"
+					type: "item"
+					item: {
+						id: "minecraft:potion"
+						Count: 1b
+						tag: {
+							Potion: "minecraft:water"
+						}
+					}
+				}
+				{
+					id: "33B89BA133B8A44E"
+					type: "item"
+					item: "botania:rune_water"
+				}
+				{
+					id: "479E3DA848A337CB"
+					type: "item"
+					item: {
+						id: "additionaladditions:watering_can"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "6D318EA6F6E9F6AC"
+					type: "random"
+				}
+			]
+		}
+		{
+			title: "Hunter Extreme"
+			x: -1.0d
+			y: -1.0d
+			subtitle: "Show us your hunting skills.. get some loot in the end."
+			id: "2437E085589A2A4B"
+			tasks: [
+				{
+					id: "7276E63BE40B7E49"
+					type: "kill"
+					icon: "betteranimalsplus:reindeerhead_1"
+					entity: "betteranimalsplus:reindeer"
+					value: 100L
+				}
+				{
+					id: "67856F6F50D4A8FE"
+					type: "kill"
+					icon: "betteranimalsplus:deerhead_2"
+					entity: "adventurez:deer"
+					value: 100L
+				}
+				{
+					id: "661B618D9FDE40F0"
+					type: "kill"
+					icon: "spectrum:fox_head"
+					entity: "minecraft:fox"
+					value: 100L
+				}
+				{
+					id: "40885290D622FD07"
+					type: "kill"
+					icon: "minecraft:rabbit_hide"
+					entity: "minecraft:rabbit"
+					value: 100L
+				}
+			]
+			rewards: [
+				{
+					id: "26B691A4FD321DFA"
+					type: "random"
+				}
+				{
+					id: "3FD2A280DDE247B8"
+					type: "random"
+				}
+				{
+					id: "334FA874ADFEAA07"
+					type: "random"
+				}
+				{
+					id: "1F2578621C88BB06"
+					type: "random"
+				}
+				{
+					id: "54F37DDB30D488B6"
+					type: "random"
+				}
+			]
+		}
+		{
+			title: "Sacrifice a block of netherite"
+			x: -1.0d
+			y: 2.0d
+			subtitle: "sacrifice a block of netherite to gain the hardest challenges"
+			id: "56F23D562BDC2433"
+			tasks: [{
+				id: "6BD4523AE379C2DC"
+				type: "item"
+				item: "minecraft:netherite_block"
+				consume_items: true
+			}]
+		}
+		{
+			title: "No pain No gain"
+			x: -2.5d
+			y: 2.0d
+			subtitle: "Make all this tech. Watch it dissapear."
+			description: [""]
+			dependencies: ["56F23D562BDC2433"]
+			id: "6D14E838F966FFA1"
+			tasks: [
+				{
+					id: "378A0FD2C966310E"
+					type: "item"
+					item: "modern_industrialization:bronze_compressor"
+					count: 64L
+					consume_items: true
+				}
+				{
+					id: "366D9D5D19221531"
+					type: "item"
+					item: "indrev:compressor_mk4"
+					count: 64L
+					consume_items: true
+				}
+				{
+					id: "4EED114DC94372BB"
+					type: "item"
+					item: "modern_industrialization:electric_compressor"
+					count: 64L
+					consume_items: true
+				}
+				{
+					id: "60D93B6D04D7E23C"
+					type: "item"
+					item: "techreborn:vacuum_freezer"
+					count: 64L
+					consume_items: true
+				}
+				{
+					id: "46F49CC0C93EEC0B"
+					type: "item"
+					item: "kibe:basalt_generator_mk3"
+					count: 64L
+					consume_items: true
+				}
+				{
+					id: "51FE17D7388DDFF2"
+					type: "item"
+					item: {
+						id: "techreborn:industrial_drill"
+						Count: 1b
+						tag: {
+							energy: 1000000L
+						}
+					}
+					consume_items: true
+				}
+				{
+					id: "4E52DB9F9F3620FA"
+					type: "item"
+					item: {
+						id: "techreborn:industrial_drill"
+						Count: 1b
+						tag: {
+							energy: 1000000L
+						}
+					}
+					consume_items: true
+				}
+				{
+					id: "150C0F04032F339C"
+					type: "item"
+					item: {
+						id: "techreborn:industrial_drill"
+						Count: 1b
+						tag: {
+							energy: 1000000L
+						}
+					}
+					consume_items: true
+				}
+				{
+					id: "31322E08DCB6F670"
+					type: "item"
+					item: "modern_industrialization:nuclear_reactor"
+					count: 64L
+					consume_items: true
+				}
+				{
+					id: "7328DB8DB9BCA391"
+					type: "item"
+					item: "modern_industrialization:singularity"
+					count: 64L
+					consume_items: true
+				}
+			]
+			rewards: [{
+				id: "34EECE07845CD250"
+				type: "xp_levels"
+				xp_levels: 500
+			}]
+		}
+		{
+			title: "Kill the birds and the bees"
+			x: -2.0d
+			y: 3.0d
+			dependencies: ["56F23D562BDC2433"]
+			id: "4CD0A992D2EB06E0"
+			tasks: [
+				{
+					id: "238777F4ACFD2C9F"
+					type: "kill"
+					icon: "plushies:bee_plushie"
+					entity: "minecraft:bee"
+					value: 250L
+				}
+				{
+					id: "2F38E69F3E8E6C3E"
+					type: "kill"
+					entity: "minecraft:parrot"
+					value: 250L
+				}
+			]
+			rewards: [
+				{
+					id: "343C697348B2DB65"
+					type: "item"
+					item: "croptopia:eggplant"
+					count: 64
+				}
+				{
+					id: "3B1BE6302CB16B4C"
+					type: "item"
+					item: "croptopia:peach"
+					count: 64
+				}
+				{
+					id: "6B2F7402245EA4AC"
+					type: "random"
+				}
+				{
+					id: "1916DC32539308FB"
+					type: "random"
+				}
+				{
+					id: "275E03535F38E5EA"
+					type: "random"
+				}
+			]
+		}
+		{
+			title: "Sleepy McGee"
+			x: 2.0d
+			y: 2.0d
+			id: "43A72CB048A3BE6F"
+			tasks: [{
+				id: "6D6ED3A18668BAFF"
+				type: "stat"
+				title: "Sleep 1000 times"
+				icon: "minecraft:cyan_bed"
+				stat: "minecraft:sleep_in_bed"
+				value: 1000
+			}]
+			rewards: [{
+				id: "54F97F4D593319EC"
+				type: "random"
+			}]
+		}
+		{
+			x: -1.0d
+			y: 3.5d
+			dependencies: ["56F23D562BDC2433"]
+			id: "5C7462224AB6E1E4"
+			tasks: [{
+				id: "76C6739F43AAF84F"
+				type: "kill"
+				title: "Kill the Guardian of Gaia 100 times"
+				entity: "botania:doppleganger"
+				value: 100L
+			}]
+			rewards: [{
+				id: "15BF26A0FD62DA2D"
+				type: "item"
+				item: "croptosis:creative_watering_can"
+			}]
+		}
+	]
+}

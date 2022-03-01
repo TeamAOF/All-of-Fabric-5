@@ -39,6 +39,11 @@
       "probability": 0.03
     },
     {
+      "item": "techreborn:ruby_ore",
+      "amount": 2,
+      "probability": 0.02
+    },
+    {
       "item": "minecraft:redstone_ore",
       "amount": 10,
       "probability": 0.02

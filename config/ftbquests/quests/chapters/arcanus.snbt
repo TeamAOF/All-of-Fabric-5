@@ -1,0 +1,441 @@
+{
+	id: "292065E5EB368449"
+	group: "1039AC171AB01709"
+	order_index: 0
+	filename: "arcanus"
+	title: "Arcanus"
+	icon: {
+		id: "arcanus:master_wand"
+		Count: 1b
+		tag: {
+			arcanus: { }
+		}
+	}
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	images: [{
+		x: 1.0d
+		y: -9.5d
+		width: 2.0d
+		height: 2.0d
+		rotation: 0.0d
+		image: "arcanus:textures/item/initiate_wand.png"
+		hover: ["One of our favorite simple yet effective magic mods from a great dev. We hope you enjoy it."]
+		click: ""
+		dev: false
+		corner: false
+	}]
+	quests: [
+		{
+			title: "Welcome to Arcanus"
+			x: 1.0d
+			y: 0.5d
+			subtitle: "You're a wizard, Harry!"
+			description: [
+				"A simple spell based mod. Using Amethyst to create mana and a single wand."
+				""
+				"The spells are found in loot from dungeons."
+			]
+			id: "756D7FADB9841FA5"
+			tasks: [
+				{
+					id: "686A5004ACD6FFD0"
+					type: "checkmark"
+				}
+				{
+					id: "2DDED1322F50D1EC"
+					type: "item"
+					item: "minecraft:amethyst_shard"
+				}
+			]
+			rewards: [{
+				id: "7135AEF7BAE4E236"
+				type: "loot"
+				table_id: 13756307348121783L
+			}]
+		}
+		{
+			x: 1.0d
+			y: -3.0d
+			subtitle: "Mic check, Mic check. Is this thing on?"
+			description: ["Remember to use R in REI to look at the recipe."]
+			dependencies: ["3B0E9B2A366C6574"]
+			id: "3575FEA5A4C605B0"
+			tasks: [{
+				id: "3579AF788DF77E8B"
+				type: "item"
+				item: {
+					id: "arcanus:initiate_wand"
+					Count: 1b
+					tag: {
+						arcanus: { }
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "478D95294735B6BC"
+					type: "item"
+					item: "minecraft:amethyst_shard"
+					count: 4
+				}
+				{
+					id: "690E41CAE588E4D9"
+					type: "loot"
+					table_id: 13756307348121783L
+				}
+			]
+		}
+		{
+			x: 1.0d
+			y: -4.5d
+			subtitle: "The more you use your wand, the more XP it gains. Get enough XP and your wand will upgrade itself."
+			dependencies: ["3575FEA5A4C605B0"]
+			id: "23919FDE0D10E077"
+			tasks: [{
+				id: "762251340AF9A8F2"
+				type: "item"
+				item: {
+					id: "arcanus:adept_wand"
+					Count: 1b
+					tag: {
+						arcanus: { }
+					}
+				}
+			}]
+			rewards: [{
+				id: "3FD04EDE2F0A0B84"
+				type: "loot"
+				table_id: 13756307348121783L
+			}]
+		}
+		{
+			x: 1.0d
+			y: -6.0d
+			subtitle: "Use your wand enough to get to this level and you truely are a magic master."
+			dependencies: ["23919FDE0D10E077"]
+			id: "77C1E1E5BA31AE01"
+			tasks: [{
+				id: "1CB9E7004495D24B"
+				type: "item"
+				item: {
+					id: "arcanus:master_wand"
+					Count: 1b
+					tag: {
+						arcanus: { }
+					}
+				}
+			}]
+			rewards: [{
+				id: "03AF315E665983C5"
+				type: "loot"
+				table_id: 13756307348121783L
+			}]
+		}
+		{
+			x: 1.0d
+			y: -1.5d
+			description: [
+				"Amethyst and a mana flask is all you need to get this item."
+				""
+				"You need to fill the mana flask to complete this quest."
+			]
+			dependencies: ["756D7FADB9841FA5"]
+			id: "3B0E9B2A366C6574"
+			tasks: [{
+				id: "624C9A1DE570923E"
+				type: "item"
+				item: {
+					id: "arcanus:mana_flask"
+					Count: 1b
+					tag: {
+						arcanus: {
+							Mana: 4
+						}
+					}
+				}
+			}]
+			rewards: [{
+				id: "7BB090CC49CBDFDB"
+				type: "loot"
+				table_id: 13756307348121783L
+			}]
+		}
+		{
+			x: 2.5d
+			y: -4.0d
+			subtitle: "Store your spell books here."
+			description: ["Also the textures look cool, the more you add or remove books."]
+			dependencies: ["3575FEA5A4C605B0"]
+			id: "3C7CCACADEC2A3AC"
+			tasks: [{
+				id: "783F238DEE18AF29"
+				type: "item"
+				item: "arcanus:fillable_bookshelf"
+			}]
+			rewards: [{
+				id: "59CF3FE369C4A623"
+				type: "item"
+				item: "minecraft:book"
+				count: 6
+			}]
+		}
+		{
+			x: -0.5d
+			y: -4.0d
+			subtitle: "Protect the goods."
+			description: [
+				"Or just show it off."
+				""
+				"Get a spyglass to give to the haters. So they can admire from a far."
+			]
+			dependencies: ["3575FEA5A4C605B0"]
+			id: "7B72273FBB8B70DD"
+			tasks: [{
+				id: "3BF8F2AE1D1B98AA"
+				type: "item"
+				item: "arcanus:display_case"
+			}]
+			rewards: [
+				{
+					id: "247E7CA7B4803333"
+					type: "item"
+					item: "minecraft:spyglass"
+				}
+				{
+					id: "772040E0057140F1"
+					type: "loot"
+					table_id: 13756307348121783L
+				}
+			]
+		}
+		{
+			x: -2.0d
+			y: 2.0d
+			dependencies: ["756D7FADB9841FA5"]
+			id: "4E0B2BC595E5C2D2"
+			tasks: [{
+				id: "1EEA90CD59064665"
+				type: "item"
+				item: {
+					id: "minecraft:written_book"
+					Count: 1b
+					tag: {
+						pages: ["{\"extra\":[{\"translate\":\"book.arcanus.casting_pattern\"},{\"text\":\"          R-R-R\"}],\"translate\":\"book.arcanus.lunge.description\"}"]
+						spell: "arcanus:lunge"
+						author: "book.arcanus.04.author"
+						title: "book.arcanus.lunge.title"
+					}
+				}
+			}]
+			rewards: [{
+				id: "7A64DCC9DD2E3518"
+				type: "item"
+				item: "minecraft:stick"
+				count: 12
+			}]
+		}
+		{
+			x: 4.0d
+			y: 2.0d
+			dependencies: ["756D7FADB9841FA5"]
+			id: "335A800C1EFCCD3F"
+			tasks: [{
+				id: "0E9E5F9690FB177B"
+				type: "item"
+				item: {
+					id: "minecraft:written_book"
+					Count: 1b
+					tag: {
+						pages: ["{\"extra\":[{\"translate\":\"book.arcanus.casting_pattern\"},{\"text\":\"          R-L-R\"}],\"translate\":\"book.arcanus.dream_warp.description\"}"]
+						spell: "arcanus:dream_warp"
+						author: "book.arcanus.07.author"
+						title: "book.arcanus.dream_warp.title"
+					}
+				}
+			}]
+			rewards: [{
+				id: "43F44E33EA7A4810"
+				type: "item"
+				item: "minecraft:cyan_bed"
+			}]
+		}
+		{
+			x: 4.0d
+			y: 1.0d
+			dependencies: ["756D7FADB9841FA5"]
+			id: "669C1B2C2A01DB9C"
+			tasks: [{
+				id: "2F8FCFBB1480FC0E"
+				type: "item"
+				item: {
+					id: "minecraft:written_book"
+					Count: 1b
+					tag: {
+						pages: ["{\"extra\":[{\"translate\":\"book.arcanus.casting_pattern\"},{\"text\":\"          L-L-L\"}],\"translate\":\"book.arcanus.magic_missile.description\"}"]
+						spell: "arcanus:magic_missile"
+						author: "book.arcanus.03.author"
+						title: "book.arcanus.magic_missile.title"
+					}
+				}
+			}]
+			rewards: [{
+				id: "6D9F72597619D747"
+				type: "item"
+				item: "minecraft:arrow"
+				count: 12
+			}]
+		}
+		{
+			x: 4.0d
+			y: 0.0d
+			dependencies: ["756D7FADB9841FA5"]
+			id: "7D56E6051F60B00F"
+			tasks: [{
+				id: "2AD6F90758713D4F"
+				type: "item"
+				item: {
+					id: "minecraft:written_book"
+					Count: 1b
+					tag: {
+						pages: ["{\"extra\":[{\"translate\":\"book.arcanus.casting_pattern\"},{\"text\":\"          L-R-L\"}],\"translate\":\"book.arcanus.telekinetic_shock.description\"}"]
+						spell: "arcanus:telekinetic_shock"
+						author: "book.arcanus.07.author"
+						title: "book.arcanus.telekinetic_shock.title"
+					}
+				}
+			}]
+		}
+		{
+			x: -2.0d
+			y: 1.0d
+			dependencies: ["756D7FADB9841FA5"]
+			id: "4C5214B3519865DF"
+			tasks: [{
+				id: "6D01618D0A06ECEC"
+				type: "item"
+				item: {
+					id: "minecraft:written_book"
+					Count: 1b
+					tag: {
+						pages: ["{\"extra\":[{\"translate\":\"book.arcanus.casting_pattern\"},{\"text\":\"          R-L-L\"}],\"translate\":\"book.arcanus.heal.description\"}"]
+						spell: "arcanus:heal"
+						author: "book.arcanus.18.author"
+						title: "book.arcanus.heal.title"
+					}
+				}
+			}]
+			rewards: [{
+				id: "29AA802DC1085B29"
+				type: "item"
+				item: "minecraft:glow_berries"
+			}]
+		}
+		{
+			x: -2.0d
+			y: -1.0d
+			dependencies: ["756D7FADB9841FA5"]
+			id: "5EDA0D094D24D820"
+			tasks: [{
+				id: "6FEA2CA6455D67F0"
+				type: "item"
+				item: {
+					id: "minecraft:written_book"
+					Count: 1b
+					tag: {
+						pages: ["{\"extra\":[{\"translate\":\"book.arcanus.casting_pattern\"},{\"text\":\"          L-R-R\"}],\"translate\":\"book.arcanus.discombobulate.description\"}"]
+						spell: "arcanus:discombobulate"
+						author: "book.arcanus.17.author"
+						title: "book.arcanus.discombobulate.title"
+					}
+				}
+			}]
+			rewards: [{
+				id: "796C666CFAFB0EDC"
+				type: "item"
+				item: "minecraft:glass"
+			}]
+		}
+		{
+			x: 4.0d
+			y: -1.0d
+			dependencies: ["756D7FADB9841FA5"]
+			id: "16C3CDC79927B81E"
+			tasks: [{
+				id: "0ADD6ED8F76BD871"
+				type: "item"
+				item: {
+					id: "minecraft:written_book"
+					Count: 1b
+					tag: {
+						pages: ["{\"extra\":[{\"translate\":\"book.arcanus.casting_pattern\"},{\"text\":\"          L-L-R\"}],\"translate\":\"book.arcanus.solar_strike.description\"}"]
+						spell: "arcanus:solar_strike"
+						author: "book.arcanus.18.author"
+						title: "book.arcanus.solar_strike.title"
+					}
+				}
+			}]
+			rewards: [{
+				id: "09D276D5A1CD31FB"
+				type: "item"
+				item: "minecraft:sunflower"
+				count: 12
+			}]
+		}
+		{
+			x: -2.0d
+			y: 0.0d
+			dependencies: ["756D7FADB9841FA5"]
+			id: "1AA763E8C46B95A2"
+			tasks: [{
+				id: "285939FC28874007"
+				type: "item"
+				item: {
+					id: "minecraft:written_book"
+					Count: 1b
+					tag: {
+						pages: ["{\"extra\":[{\"translate\":\"book.arcanus.casting_pattern\"},{\"text\":\"          R-R-L\"}],\"translate\":\"book.arcanus.arcane_barrier.description\"}"]
+						spell: "arcanus:arcane_barrier"
+						author: "book.arcanus.14.author"
+						title: "book.arcanus.arcane_barrier.title"
+					}
+				}
+			}]
+			rewards: [{
+				id: "044FB7EDC89183A8"
+				type: "item"
+				item: "blockus:rainbow_brick_wall"
+			}]
+		}
+		{
+			icon: "minecraft:amethyst_cluster"
+			x: 1.0d
+			y: -7.5d
+			subtitle: "It feels good to be an adventurer."
+			dependencies: ["77C1E1E5BA31AE01"]
+			id: "3935DB54BD9C5E4E"
+			tasks: [{
+				id: "78C59C1613C26A83"
+				type: "checkmark"
+				title: "Arcanus Champ"
+			}]
+			rewards: [
+				{
+					id: "1CA43055D0AD6121"
+					type: "item"
+					item: "plushies:red_fox_plushie"
+				}
+				{
+					id: "04E73FB23BC62C52"
+					type: "xp"
+					xp: 1000
+				}
+				{
+					id: "726FC0BED6A1772F"
+					type: "loot"
+					table_id: 13756307348121783L
+				}
+			]
+		}
+	]
+}

@@ -1,0 +1,945 @@
+{
+	id: "5BB4D2FC1908D3D1"
+	group: "0815C5D80307ECDF"
+	order_index: 1
+	filename: "modern_industrialization"
+	title: "Modern Industrialization"
+	icon: {
+		gprops: { }
+		id: "modern_industrialization:singularity"
+		Count: 1b
+	}
+	default_quest_shape: "circle"
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			title: "MI? whats that"
+			icon: "modern_industrialization:guidebook"
+			x: -15.0d
+			y: -1.5d
+			description: ["Everything the mod has is in the guidebook"]
+			id: "6F6196A606D3A8EF"
+			tasks: [{
+				id: "3E45F701C61708E1"
+				type: "checkmark"
+			}]
+			rewards: [{
+				id: "3CC4D443B33915F5"
+				type: "item"
+				item: "modern_industrialization:guidebook"
+			}]
+		}
+		{
+			title: "How much iron do i need?"
+			x: -13.0d
+			y: -1.5d
+			subtitle: "The more you have, the better, for now a stack lasts for 1 minute"
+			dependencies: ["6F6196A606D3A8EF"]
+			id: "175EB708C76C73FF"
+			tasks: [{
+				id: "4B278FF0D1B56D8A"
+				type: "item"
+				icon: "minecraft:iron_ingot"
+				item: "minecraft:iron_ingot"
+				count: 64L
+			}]
+			rewards: [{
+				id: "72C0A0294F6320ED"
+				type: "item"
+				item: "minecraft:iron_ingot"
+				count: 16
+			}]
+		}
+		{
+			x: -11.0d
+			y: -1.5d
+			subtitle: "See, there goes 49 iron already"
+			dependencies: ["175EB708C76C73FF"]
+			id: "385079198388468C"
+			tasks: [{
+				id: "1B769C345EAF942C"
+				type: "item"
+				item: "modern_industrialization:forge_hammer"
+			}]
+			rewards: [{
+				id: "6976B8C3A022A17F"
+				type: "item"
+				item: {
+					id: "modern_industrialization:iron_hammer"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			title: "Cook 64 bronze"
+			icon: "modern_industrialization:bronze_ingot"
+			x: -9.5d
+			y: -1.5d
+			subtitle: "You need a lot of it, but not a good idea to craft now, maybe you can use mixer?"
+			description: ["Note that rightclicking Steam machines with Gunpowder speeds up the process for limited time"]
+			dependencies: ["385079198388468C"]
+			id: "4661838E492BDE53"
+			tasks: [
+				{
+					id: "70E71E2E482D5EAC"
+					type: "item"
+					item: "modern_industrialization:bronze_dust"
+					count: 64L
+				}
+				{
+					id: "43C425E6990963E5"
+					type: "item"
+					item: "modern_industrialization:wrench"
+				}
+			]
+			rewards: [
+				{
+					id: "3E441C535BFEFCAD"
+					type: "item"
+					item: "modern_industrialization:bucket_steam"
+				}
+				{
+					id: "0F3A0CFB0F279107"
+					type: "item"
+					item: {
+						id: "modern_industrialization:iron_hammer"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+			]
+		}
+		{
+			x: -6.0d
+			y: -0.5d
+			subtitle: "Lets you make plates and rings in a good ratio"
+			dependencies: ["4661838E492BDE53"]
+			id: "7F96B49412F52611"
+			tasks: [{
+				id: "3F8C83D99FC1C002"
+				type: "item"
+				item: "modern_industrialization:bronze_compressor"
+			}]
+			rewards: [{
+				id: "13C4F9B3ACAAFC12"
+				type: "item"
+				item: "minecraft:piston"
+			}]
+		}
+		{
+			x: -6.0d
+			y: 1.0d
+			subtitle: "They just boil water, needs time to heat up"
+			description: [
+				"Its the first tier steam source, later you can use steel boiler, advanced steam boiler etc"
+				"They auto output to all sides, so maybe placing on top of a bronze pump saves you a piece of pipe?"
+			]
+			dependencies: ["4661838E492BDE53"]
+			id: "0BAB52BE15CE157F"
+			tasks: [{
+				id: "047BE723A63F9E5F"
+				type: "item"
+				item: "modern_industrialization:bronze_boiler"
+			}]
+			rewards: [{
+				id: "23FD45206CF0BE7B"
+				type: "item"
+				item: "modern_industrialization:coke"
+				count: 16
+			}]
+		}
+		{
+			title: "Steam blast furnace"
+			icon: "modern_industrialization:steam_blast_furnace"
+			x: 1.0d
+			y: -2.0d
+			subtitle: "One doesnt seems enough"
+			description: [
+				"now you have everything to make steel....."
+				"Hold wrench to show the multiblock hologram"
+				"you can overclock with replacing one bronze hatch with steel"
+			]
+			dependencies: [
+				"46516764261A77DA"
+				"3E1CB2EB0464CFA2"
+				"748D2241F66FF644"
+				"4FF7802D7FA86DF5"
+				"0DD703B94D202B68"
+			]
+			id: "586CB8FEAA0A50C6"
+			tasks: [
+				{
+					id: "34C10A32EE244F3F"
+					type: "item"
+					item: "modern_industrialization:fire_clay_bricks"
+					count: 27L
+				}
+				{
+					id: "49215E965FF25243"
+					type: "item"
+					item: "modern_industrialization:steam_blast_furnace"
+				}
+				{
+					id: "343625490325E9E0"
+					type: "item"
+					item: "modern_industrialization:bronze_fluid_input_hatch"
+				}
+				{
+					id: "1F0ABBBFABD188C2"
+					type: "item"
+					item: "modern_industrialization:bronze_item_input_hatch"
+				}
+				{
+					id: "6056045338C6DD46"
+					type: "item"
+					item: "modern_industrialization:bronze_item_output_hatch"
+				}
+			]
+			rewards: [{
+				id: "45148B85F7AD9D1B"
+				type: "item"
+				item: "modern_industrialization:uncooked_steel_dust"
+				count: 16
+			}]
+		}
+		{
+			x: -6.0d
+			y: 2.5d
+			subtitle: "They just grind stuff"
+			description: [
+				"now that we have macerator, ore multiplying.... something"
+				"Make sure to not grind your precious gem ores"
+			]
+			dependencies: ["4661838E492BDE53"]
+			id: "5A27B361EF71A4DF"
+			tasks: [{
+				id: "7799145BACA36D6A"
+				type: "item"
+				item: "modern_industrialization:bronze_macerator"
+			}]
+			rewards: [{
+				id: "41DCB66407D181FB"
+				type: "item"
+				item: "minecraft:diamond"
+			}]
+		}
+		{
+			x: -11.0d
+			y: -4.0d
+			subtitle: "Life gets easier from now on"
+			description: [
+				"has 3x3 silktouch"
+				"right click burnable fuel while in inventory"
+				"rightclick water /flowing water, wont consume"
+			]
+			dependencies: ["385079198388468C"]
+			id: "70CD9F0D26A75E13"
+			tasks: [{
+				id: "4BCB31C3818DC3D7"
+				type: "item"
+				item: "modern_industrialization:steam_mining_drill"
+			}]
+			rewards: [
+				{
+					id: "77CB2BB7884957A3"
+					type: "item"
+					item: "minecraft:water_bucket"
+				}
+				{
+					id: "1D21EBE1D2B67222"
+					type: "item"
+					item: "modern_industrialization:coke"
+					count: 16
+				}
+			]
+		}
+		{
+			x: -6.0d
+			y: -5.0d
+			subtitle: "Mixer let you mix alloy dust recipies cheaper"
+			dependencies: ["4661838E492BDE53"]
+			dependency_requirement: "one_started"
+			id: "4575644C7E5F2DEE"
+			tasks: [{
+				id: "1CCFC1ADFBB4F858"
+				type: "item"
+				item: "modern_industrialization:bronze_mixer"
+			}]
+			rewards: [{
+				id: "186468E982B897ED"
+				type: "item"
+				item: "modern_industrialization:bronze_dust"
+				count: 16
+			}]
+		}
+		{
+			icon: "modern_industrialization:bronze_cutting_machine"
+			x: -6.0d
+			y: -8.5d
+			subtitle: "Cutting Machine lets you make cheap rods and bolts"
+			description: ["You can make lubricant by combining redstone and creosote on mixer"]
+			dependencies: [
+				"4661838E492BDE53"
+				"424247795860B191"
+			]
+			id: "68E8311AC3140A56"
+			tasks: [
+				{
+					id: "05C1EB3A2AEB99EF"
+					type: "item"
+					icon: "modern_industrialization:bronze_cutting_machine"
+					item: "modern_industrialization:bronze_cutting_machine"
+				}
+				{
+					id: "5DD8FC73E8DA55A5"
+					type: "item"
+					item: "modern_industrialization:bucket_lubricant"
+				}
+			]
+			rewards: [{
+				id: "2D476E62E4CB8557"
+				type: "item"
+				item: "minecraft:diamond"
+			}]
+		}
+		{
+			title: "Fire Clay"
+			x: -6.0d
+			y: -3.5d
+			subtitle: "They are made by combining brick dust and clay"
+			description: ["TIP: Macerating terracota is a good way of getting brick dust, so maybe find a badlands? or steal from villages"]
+			dependencies: ["4661838E492BDE53"]
+			id: "39FADF9C0442304F"
+			tasks: [{
+				id: "5FB4F9E06ED83BA2"
+				type: "item"
+				item: "modern_industrialization:fire_clay_brick"
+				count: 12L
+			}]
+			rewards: [{
+				id: "48D0D6DC6DF499DF"
+				type: "item"
+				item: "modern_industrialization:fire_clay_dust"
+				count: 12
+			}]
+		}
+		{
+			x: -4.0d
+			y: -3.5d
+			subtitle: "Why? because its steam machine"
+			description: ["Not fast, but fuel efficient, can auto output unlike vanilla furnace"]
+			dependencies: ["39FADF9C0442304F"]
+			id: "4AD93229344EA0BE"
+			tasks: [{
+				id: "747A0D40FA945748"
+				type: "item"
+				item: "modern_industrialization:bronze_furnace"
+			}]
+		}
+		{
+			x: -4.0d
+			y: -8.5d
+			subtitle: "Now you can make rods without losing half of them on forge hammer"
+			dependencies: ["68E8311AC3140A56"]
+			id: "46516764261A77DA"
+			tasks: [{
+				id: "7F13A23BAF0B3AFB"
+				type: "item"
+				item: "modern_industrialization:bronze_rod"
+				count: 2L
+			}]
+			rewards: [{
+				id: "0B1E70E1F279DAC2"
+				type: "item"
+				item: "modern_industrialization:bronze_double_ingot"
+			}]
+		}
+		{
+			icon: "modern_industrialization:coke_oven"
+			x: -6.0d
+			y: -2.0d
+			subtitle: "Coke-A Cola -Technici4n"
+			description: [
+				"lets you make coal coke and coke dust"
+				"it voids the creosote if it dont has fluid output"
+				"you need creosote to turn into lubricant for cutting machine later, for that you need additional fluid output hatch"
+			]
+			dependencies: ["4661838E492BDE53"]
+			id: "36ECD7C06649DE78"
+			tasks: [
+				{
+					id: "217D2448551C324A"
+					type: "item"
+					item: "modern_industrialization:coke_oven"
+				}
+				{
+					id: "2418D8560CE16E75"
+					type: "item"
+					item: "minecraft:bricks"
+					count: 21L
+				}
+				{
+					id: "1EC4B2642DBB8127"
+					type: "item"
+					item: "modern_industrialization:bronze_item_input_hatch"
+				}
+				{
+					id: "510058C68DBCD031"
+					type: "item"
+					item: "modern_industrialization:bronze_item_output_hatch"
+				}
+				{
+					id: "267A96FED5F44276"
+					type: "item"
+					item: "modern_industrialization:bronze_fluid_input_hatch"
+				}
+			]
+			rewards: [{
+				id: "292BB527106994BA"
+				type: "item"
+				item: "modern_industrialization:coal_dust"
+				count: 64
+			}]
+		}
+		{
+			x: -4.0d
+			y: -5.0d
+			subtitle: "With mixer, you can now mix dusts without them sticking on your hands"
+			description: ["Dusts are now cheaper"]
+			dependencies: ["4575644C7E5F2DEE"]
+			id: "3E1CB2EB0464CFA2"
+			tasks: [{
+				id: "5E085207F0196364"
+				type: "item"
+				item: "modern_industrialization:bronze_dust"
+				count: 4L
+			}]
+			rewards: [
+				{
+					id: "49A676DC466B337A"
+					type: "item"
+					item: "modern_industrialization:copper_dust"
+					count: 3
+				}
+				{
+					id: "254E4F8A37DD2768"
+					type: "item"
+					item: "modern_industrialization:tin_dust"
+				}
+			]
+		}
+		{
+			x: -4.0d
+			y: -2.0d
+			subtitle: "Coal coke looks nice, but you need the dust for steel"
+			description: ["note that block of coal coke has less burn time compared to 9 coal coke, because minecraft feature"]
+			dependencies: ["36ECD7C06649DE78"]
+			id: "748D2241F66FF644"
+			tasks: [
+				{
+					id: "4F5F070D435F875B"
+					type: "item"
+					item: "modern_industrialization:coke"
+				}
+				{
+					id: "6C1E991F4D0A3148"
+					type: "item"
+					item: "modern_industrialization:coke_dust"
+				}
+			]
+			rewards: [{
+				id: "751BFC021B432DD6"
+				type: "item"
+				item: "minecraft:coal_ore"
+				count: 16
+			}]
+		}
+		{
+			x: -4.0d
+			y: -0.5d
+			subtitle: "Double ingot in machines has same processing time as single, but gets you 2x output for the same time and energy"
+			description: ["Cheap plates and rods"]
+			dependencies: ["7F96B49412F52611"]
+			id: "4FF7802D7FA86DF5"
+			tasks: [
+				{
+					id: "4F8D5180922038B8"
+					type: "item"
+					item: "modern_industrialization:bronze_plate"
+				}
+				{
+					id: "20FFD22A767C2D74"
+					type: "item"
+					item: "modern_industrialization:bronze_ring"
+				}
+			]
+			rewards: [{
+				id: "582E78D223880A80"
+				type: "item"
+				item: "modern_industrialization:bronze_double_ingot"
+			}]
+		}
+		{
+			x: -4.0d
+			y: 1.0d
+			subtitle: "Auto bucketer"
+			description: ["it pumps water when you give steam, have to be near atleast a water source, if it has water in all 4 sides, it pumps more water per operation"]
+			dependencies: ["0BAB52BE15CE157F"]
+			id: "0DD703B94D202B68"
+			tasks: [{
+				id: "510DB26BFE950469"
+				type: "item"
+				item: "modern_industrialization:bronze_water_pump"
+			}]
+			rewards: [{
+				id: "4A99781E414DF981"
+				type: "item"
+				item: "minecraft:water_bucket"
+			}]
+		}
+		{
+			x: -4.0d
+			y: 2.5d
+			subtitle: "Want to scale up your cola factory? This is the way"
+			description: ["With macerator you can grind terracotta for brick dust"]
+			dependencies: ["5A27B361EF71A4DF"]
+			id: "09B01837C769C6E1"
+			tasks: [{
+				id: "299FB72281BDFE79"
+				type: "item"
+				item: "minecraft:terracotta"
+			}]
+			rewards: [{
+				id: "438F8AB658C80E39"
+				type: "item"
+				item: "minecraft:dead_bush"
+			}]
+		}
+		{
+			title: "Lubricant"
+			x: -6.0d
+			y: -7.0d
+			subtitle: "They are used in cutting machines to cut metals"
+			dependencies: ["4575644C7E5F2DEE"]
+			id: "424247795860B191"
+			tasks: [{
+				id: "58534455387472E9"
+				type: "item"
+				item: "modern_industrialization:bucket_lubricant"
+			}]
+			rewards: [{
+				id: "565E0AB924E8D65D"
+				type: "item"
+				item: "minecraft:redstone"
+				count: 16
+			}]
+		}
+		{
+			title: "Fluid Transport"
+			x: -9.5d
+			y: 0.5d
+			description: [
+				"you can make fluid pipes now,item pipes are unlcoked when you get steel"
+				"three pipes/cables  can share a single block space"
+			]
+			dependencies: ["4661838E492BDE53"]
+			id: "75608EDF99965533"
+			tasks: [{
+				id: "2E9298C2FC478FF5"
+				type: "item"
+				item: "modern_industrialization:fluid_pipe"
+				count: 16L
+			}]
+			rewards: [{
+				id: "2BC12B649F63CE9F"
+				type: "item"
+				item: "modern_industrialization:item_pipe"
+				count: 8
+			}]
+		}
+		{
+			title: "Your first steel"
+			x: 3.5d
+			y: -2.0d
+			subtitle: "All this for steel?"
+			description: ["Yes, you are gonna need a lot later for quarry, item pipes barrel etc"]
+			dependencies: ["586CB8FEAA0A50C6"]
+			id: "7C5C1CA5A7954896"
+			tasks: [{
+				id: "3612549FFBF5E73C"
+				type: "item"
+				item: "modern_industrialization:steel_ingot"
+			}]
+			rewards: [{
+				id: "54EC2EA3BC88AADE"
+				type: "item"
+				item: "modern_industrialization:uncooked_steel_dust"
+				count: 16
+			}]
+		}
+		{
+			title: "Bronze storage"
+			x: -9.5d
+			y: -4.0d
+			description: [
+				"It stores 32 stack of single item, And 4 bucket of fluid in the tank. They keeps their content while breaking "
+				"Sneak right click with Wrench to break"
+				"There are better upgrades as you progress, search REI to find them"
+				"For now dump all your stone in this steel barrel"
+			]
+			dependencies: ["4661838E492BDE53"]
+			id: "0E42ED6ABB9B2AD7"
+			tasks: [
+				{
+					id: "30BD5E1C29B11221"
+					type: "item"
+					item: "modern_industrialization:bronze_barrel"
+				}
+				{
+					id: "4B4E536ACC4D1185"
+					type: "item"
+					item: "modern_industrialization:bronze_tank"
+				}
+			]
+			rewards: [{
+				id: "33665AA6BA1669B1"
+				type: "item"
+				item: "modern_industrialization:steel_barrel"
+			}]
+		}
+		{
+			title: "Lignite coal"
+			x: -11.0d
+			y: -6.0d
+			subtitle: "Yes, its useless, but its a good fuel, also later you can use it for sulfur"
+			dependencies: ["70CD9F0D26A75E13"]
+			id: "0D10B5E838DF9196"
+			tasks: [{
+				id: "5B8A314E5014ADA6"
+				type: "item"
+				item: "modern_industrialization:lignite_coal"
+				count: 64L
+			}]
+			rewards: [{
+				id: "7805B2687A3E2D90"
+				type: "item"
+				item: "modern_industrialization:sulfur_dust"
+				count: 16
+			}]
+		}
+		{
+			title: "Faster machines?"
+			x: 3.5d
+			y: -4.5d
+			subtitle: "Now that you have steel, we can upgrade the machines, note that its done in smithing table"
+			dependencies: ["7C5C1CA5A7954896"]
+			id: "6F4AE13DA520109C"
+			tasks: [{
+				id: "763B45889C554D7E"
+				type: "item"
+				item: "modern_industrialization:steel_upgrade"
+				count: 2L
+			}]
+			rewards: [{
+				id: "029241287979A24B"
+				type: "item"
+				item: "minecraft:gunpowder"
+				count: 64
+			}]
+		}
+		{
+			title: "More speed? cant make soldering alloy?"
+			x: 3.5d
+			y: 0.5d
+			subtitle: "Steam multiblocks which is using Bronze hatches/buses only can do recipies upto 2EU/t, but if you replace it with a steel hatch/bus, it can overclock upto 4EU/t"
+			dependencies: ["7C5C1CA5A7954896"]
+			id: "0C14E13796818F4B"
+			tasks: [{
+				id: "6B04F3DECEDE90B4"
+				type: "item"
+				item: "modern_industrialization:steel_machine_casing"
+			}]
+			rewards: [{
+				id: "75BC28038B5318CA"
+				type: "item"
+				item: "minecraft:gunpowder"
+				count: 64
+			}]
+		}
+		{
+			title: "Infinite resources? this early in the pack?"
+			icon: "modern_industrialization:steam_quarry"
+			x: 7.5d
+			y: -5.0d
+			subtitle: "So what does it do?"
+			description: [
+				""
+				"It uses the drill to drill under the bedrock for ores and blocks. For now you can only use Bronze and Copper drills. Note that they have a chance to break, just like the chance to get output"
+				""
+				"So then is it worth the effort?"
+				"    Yes it is, its only 1% chance to break"
+			]
+			dependencies: ["7C5C1CA5A7954896"]
+			id: "26E587E34810A8FE"
+			tasks: [
+				{
+					id: "0B829B6C4987D67B"
+					type: "item"
+					item: "modern_industrialization:steam_quarry"
+				}
+				{
+					id: "3FA8E3781E4BF9AE"
+					type: "item"
+					item: "modern_industrialization:steel_machine_casing"
+					count: 13L
+				}
+				{
+					id: "4AEC4A5817CF1493"
+					type: "item"
+					item: "modern_industrialization:steel_machine_casing_pipe"
+					count: 6L
+				}
+				{
+					id: "05F5685C54F12B88"
+					type: "item"
+					item: "minecraft:chain"
+					count: 4L
+				}
+			]
+			rewards: [{
+				id: "302AEA45DA84BE60"
+				type: "item"
+				item: "modern_industrialization:copper_drill"
+			}]
+		}
+		{
+			title: "Bronze drill"
+			x: 7.5d
+			y: -7.0d
+			subtitle: "For now make 4 drills, later you can make gears easily with assembler"
+			description: ["Bronze drill gives basic resources like iron,gold,tin etc. Check REI for more info"]
+			dependencies: ["26E587E34810A8FE"]
+			id: "74A278B57EF76B3B"
+			tasks: [{
+				id: "624F6E6D7A45923D"
+				type: "item"
+				item: "modern_industrialization:bronze_drill"
+				count: 4L
+			}]
+			rewards: [{
+				id: "333F6E9CD02C5A02"
+				type: "item"
+				item: "minecraft:gunpowder"
+				count: 64
+			}]
+		}
+		{
+			title: "Automatic Ore Processing"
+			x: 5.5d
+			y: -6.5d
+			subtitle: "It would be a good idea to make  a proper ore processing setup for your steam quarry "
+			dependencies: ["26E587E34810A8FE"]
+			id: "22EB0A76A95822A5"
+			tasks: [{
+				id: "399CF7A0D338B99B"
+				type: "item"
+				item: "modern_industrialization:steel_macerator"
+				count: 2L
+			}]
+			rewards: [{
+				id: "3D1ED0EB61695797"
+				type: "item"
+				item: "minecraft:iron_ore"
+				count: 16
+			}]
+		}
+		{
+			x: 7.5d
+			y: -2.0d
+			subtitle: "Wiremill lets you make wires "
+			dependencies: ["7C5C1CA5A7954896"]
+			id: "43F43FB0B9ED0818"
+			tasks: [{
+				id: "32FF28A50A8B3DD5"
+				type: "item"
+				item: "modern_industrialization:steel_wiremill"
+			}]
+			rewards: [{
+				id: "1679CA679854D2E7"
+				type: "item"
+				item: "modern_industrialization:tin_plate"
+				count: 16
+			}]
+		}
+		{
+			x: 9.5d
+			y: -6.5d
+			subtitle: "To those who dont like to MINE in Minecraft"
+			dependencies: ["26E587E34810A8FE"]
+			id: "2F5A88568154E986"
+			tasks: [{
+				id: "4CB128CC2F0687DD"
+				type: "item"
+				item: "modern_industrialization:copper_drill"
+			}]
+		}
+		{
+			title: "Rubber"
+			x: 7.5d
+			y: 0.5d
+			subtitle: "For circuit, rubber is required"
+			description: ["You can easily automate it with Wood, for that you need 3 mixer's, 1 Blast furnace and a macerator"]
+			dependencies: ["43F43FB0B9ED0818"]
+			dependency_requirement: "one_started"
+			optional: true
+			id: "7E5C67AC837B610C"
+			tasks: [
+				{
+					id: "02A613D2C1D5DD10"
+					type: "item"
+					item: "modern_industrialization:steam_blast_furnace"
+				}
+				{
+					id: "2DC12FD1A9941A21"
+					type: "item"
+					item: "modern_industrialization:steel_machine_casing"
+				}
+				{
+					id: "3F959BAA71D31EF9"
+					type: "item"
+					item: "modern_industrialization:bronze_mixer"
+					count: 3L
+				}
+				{
+					id: "239B1777FB813621"
+					type: "item"
+					item: "modern_industrialization:bronze_macerator"
+				}
+			]
+			rewards: [{
+				id: "0692C5F69F45C25A"
+				type: "item"
+				item: "modern_industrialization:steel_barrel"
+			}]
+		}
+		{
+			icon: "modern_industrialization:resistor"
+			x: 11.5d
+			y: -4.5d
+			subtitle: "Each circuits need 2 resistor"
+			dependencies: ["43F43FB0B9ED0818"]
+			id: "07F957350FCC1D98"
+			tasks: [{
+				id: "1E7D0F5F994C9BF6"
+				type: "item"
+				item: "modern_industrialization:resistor"
+				count: 18L
+			}]
+			rewards: [{
+				id: "342ED5DADDAC9A89"
+				type: "item"
+				item: "minecraft:copper_ingot"
+				count: 8
+			}]
+		}
+		{
+			x: 11.5d
+			y: -3.0d
+			subtitle: "Each circuit needs 1 "
+			dependencies: ["43F43FB0B9ED0818"]
+			id: "5AB4B2B1A416632E"
+			tasks: [{
+				id: "59D1204F72EA32CE"
+				type: "item"
+				item: "modern_industrialization:inductor"
+				count: 9L
+			}]
+		}
+		{
+			x: 11.5d
+			y: -1.5d
+			subtitle: "Each circuit needs 2"
+			dependencies: ["43F43FB0B9ED0818"]
+			id: "590185615CE89F08"
+			tasks: [{
+				id: "1CDEA2F2B59417F9"
+				type: "item"
+				item: "modern_industrialization:capacitor"
+				count: 18L
+			}]
+		}
+		{
+			x: 11.5d
+			y: 0.0d
+			subtitle: "You need one each"
+			dependencies: ["43F43FB0B9ED0818"]
+			id: "755B82B6F2B9C099"
+			tasks: [{
+				id: "1F06453DCE423AFA"
+				type: "item"
+				item: "modern_industrialization:analog_circuit_board"
+				count: 9L
+			}]
+		}
+		{
+			title: "Your first circuits"
+			x: 15.5d
+			y: -2.0d
+			subtitle: "By completing the previous quests, you now have enough items to craft 9 circuits, which is needed for an assembler and a steam turbine"
+			dependencies: [
+				"07F957350FCC1D98"
+				"5AB4B2B1A416632E"
+				"590185615CE89F08"
+				"755B82B6F2B9C099"
+			]
+			id: "19E5E31614FE485E"
+			tasks: [{
+				id: "33A196551A047E54"
+				type: "item"
+				item: "modern_industrialization:analog_circuit"
+				count: 9L
+			}]
+			rewards: [{
+				id: "0C7F9145B4CC4C35"
+				type: "item"
+				item: {
+					id: "cacao:cookie_cream_white_chocolate"
+					Count: 1b
+					tag: {
+						display: {
+							Name: "{\"text\":\"Here, this cookie is for you\"}"
+						}
+					}
+				}
+			}]
+		}
+		{
+			title: "Item transportation"
+			x: 6.0d
+			y: 0.0d
+			subtitle: "With steel, you can now make Item pipes"
+			description: [
+				"By default they are in whitelist mode, you have to change it to blacklist or filter items in the pipe GUI"
+				"They can be speed up by using motors"
+			]
+			dependencies: ["7C5C1CA5A7954896"]
+			id: "38F9192F665742BA"
+			tasks: [{
+				id: "52537690D3281DBF"
+				type: "item"
+				item: "modern_industrialization:item_pipe"
+				count: 16L
+			}]
+			rewards: [{
+				id: "2D1385BDDA39BA9B"
+				type: "item"
+				item: "modern_industrialization:motor"
+			}]
+		}
+	]
+}

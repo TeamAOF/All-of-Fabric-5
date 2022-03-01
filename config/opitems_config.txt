@@ -1,0 +1,17 @@
+Default items are below, add your own via NBT, here's an example:
+{id:"minecraft:elytra", Count:1, tag:{ Enchantments:[{id:"minecraft:unbreaking",lvl:10}], display: {Name:'{"text":"General Kenobi"}'} }}
+{id:"minecraft:command_block", Count:1}
+{id:"minecraft:chain_command_block", Count:1}
+{id:"minecraft:repeating_command_block", Count:1}
+{id:"minecraft:spawner", Count:1}
+{id:"minecraft:jigsaw", Count:1}
+{id:"minecraft:structure_block", Count:1}
+{id:"minecraft:structure_void", Count:1}
+{id:"minecraft:barrier", Count:1}
+{id:"minecraft:dragon_egg", Count:1}
+{id:"minecraft:debug_stick", Count:1}
+{id:"minecraft:knowledge_book", Count:1}
+{id:"minecraft:command_block_minecart", Count:1}
+{id:"minecraft:light", Count:1}
+{id:"minecraft:bundle", Count:1}
+{id:"minecraft:sculk_sensor", Count:1}

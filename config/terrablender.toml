@@ -1,0 +1,37 @@
+
+#General settings
+[general]
+	#Whether to replace the default built-in world types with our own.
+	replace_default_worldtypes = true
+	#Whether to replace the default Nether with our own.
+	replace_default_nether = true
+
+#Generation settings
+[generation_settings]
+	#The size of nether biome regions from each mod that uses TerraBlender when using the large biomes world type.
+	#Range: 2-6
+	nether_large_biomes_region_size = 4
+	#The weighting of data pack biome regions in the nether.
+	#Range: 0-2147483647
+	datapack_nether_region_weight = 15
+	#The size of overworld biome regions from each mod that uses TerraBlender.
+	#Range: 2-6
+	overworld_region_size = 3
+	#The size of overworld biome regions from each mod that uses TerraBlender when using the large biomes world type.
+	#Range: 2-6
+	overworld_large_biomes_region_size = 5
+	#The weighting of vanilla biome regions in the nether.
+	#Range: 0-2147483647
+	vanilla_nether_region_weight = 10
+	#The size of nether biome regions from each mod that uses TerraBlender.
+	#Range: 2-6
+	nether_region_size = 2
+	#The weighting of data pack biome regions in the overworld.
+	#Range: 0-2147483647
+	datapack_overworld_region_weight = 15
+	#Force the biome parameters to reset when loading worlds.
+	force_reset_biome_parameters = false
+	#The weighting of vanilla biome regions in the overworld.
+	#Range: 0-2147483647
+	vanilla_overworld_region_weight = 10
+

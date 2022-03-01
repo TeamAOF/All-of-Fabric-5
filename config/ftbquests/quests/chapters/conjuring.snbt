@@ -1,0 +1,693 @@
+{
+	id: "6486CFAD73CBEFBA"
+	group: "1039AC171AB01709"
+	order_index: 3
+	filename: "conjuring"
+	title: "Conjuring"
+	icon: {
+		id: "conjuring:enchiridion"
+		Count: 1b
+		tag: { }
+	}
+	default_quest_shape: "square"
+	default_hide_dependency_lines: false
+	images: [{
+		x: -10.5d
+		y: -1.0d
+		width: 3.0d
+		height: 3.0d
+		rotation: 0.0d
+		image: "conjuring:textures/item/enchiridion.png"
+		hover: [ ]
+		click: ""
+		dev: false
+		corner: false
+	}]
+	quests: [
+		{
+			x: -2.5d
+			y: -1.0d
+			dependencies: ["61DB1ACC5AB23AFA"]
+			id: "04B7A90A9A260CC3"
+			tasks: [{
+				id: "5AD216578C6CD5BE"
+				type: "item"
+				item: "conjuring:gem_socket"
+			}]
+			rewards: [{
+				id: "633AF0EF5C55D78F"
+				type: "loot"
+				table_id: 13756307348121783L
+			}]
+		}
+		{
+			title: "Basic Gem Tinkering"
+			x: -3.0d
+			y: -2.5d
+			description: [
+				"The different charm aspects will influence a Conjurer in the following ways:"
+				""
+				"Haste: Decreases the time between each summoning cycle."
+				""
+				"Abundance: Increases the amount of creatures conjured per cycle."
+				""
+				"Scope: Increases the range in which the Conjurer will sense a player's presence."
+				""
+				"Ignorance: Increases the amount of creatures in close vicinity the Conjurer ignores when judging how many new ones to summon."
+			]
+			dependencies: ["12153697CC677412"]
+			id: "61DB1ACC5AB23AFA"
+			tasks: [{
+				id: "763861624BBCCEC6"
+				type: "item"
+				item: "conjuring:gem_tinkerer"
+			}]
+			rewards: [{
+				id: "732CB90B4CC399F6"
+				type: "loot"
+				table_id: 13756307348121783L
+			}]
+		}
+		{
+			x: -7.5d
+			y: -4.0d
+			subtitle: "Craft a Soulfire Forge."
+			description: ["The first piece of equipment one shall create is the Soulfire Forge, required to form the elementary Soul Composite Materials."]
+			dependencies: ["00E561B037BFF9B4"]
+			id: "0E908723F937FD89"
+			tasks: [{
+				id: "1A6A427027AF0958"
+				type: "item"
+				item: "conjuring:soulfire_forge"
+			}]
+			rewards: [{
+				id: "6418BC43F10BD732"
+				type: "loot"
+				table_id: 13756307348121783L
+			}]
+		}
+		{
+			x: -9.0d
+			y: -4.0d
+			subtitle: "The practice of conjuration."
+			description: [
+				"To start out in the practice of conjuration, a basic supply of Netherite Scrap and some Conjuration Essence is required."
+				""
+				"The first piece of equipment one shall create is the Soulfire Forge, required to form the elementary Soul Composite Materials."
+				""
+				"Moving forward, constructing a Conjurer as well as a Conjuring Scepter Conjuring Focus is in order."
+				""
+				"Once this gear has been obtained, it is recommended to brush up on Ritual Basics and seek to perform the Ritual of Extraction to create a first summoning setup."
+				""
+				"This may be refined using the practices outlined in Basic Gem Tinkering."
+				""
+				"After having gained some experience with souls, creating Soul Alloy Tools may be of interest."
+				""
+				"These prestigious instruments can be enhanced through Advanced Gem Tinkering."
+				"Crafting them however, requires the Ritual of Weaving to be carried out."
+			]
+			id: "00E561B037BFF9B4"
+			tasks: [{
+				id: "1CC8E36B0C6BE2DF"
+				type: "item"
+				item: {
+					id: "conjuring:enchiridion"
+					Count: 1b
+					tag: { }
+				}
+			}]
+		}
+		{
+			x: -6.0d
+			y: -8.5d
+			description: [
+				"A Stabilized Conjuring Focus which is reinforced with Soul Slices is exponentially more powerful."
+				""
+				"Once inserted into a Conjurer, it will start mimicking a player's presence, practically allowing for perpetual summoning."
+				""
+				"Considering how expensive a Stabilized Focus is, cleaning and reusing it might seen practical."
+				""
+				"To accomplish this, one can utilize Distilled Spirit."
+			]
+			dependencies: ["645B10BF6FCDE303"]
+			id: "5AC0C2202D65449C"
+			tasks: [{
+				id: "507901397293C1E6"
+				type: "item"
+				item: {
+					id: "conjuring:stabilized_conjuring_focus"
+					Count: 1b
+					tag: { }
+				}
+			}]
+			rewards: [{
+				id: "0CFCF3549FA644E5"
+				type: "loot"
+				table_id: 13756307348121783L
+			}]
+		}
+		{
+			x: -6.0d
+			y: -4.0d
+			subtitle: "Vitally important in any and all endeavours involving summoning."
+			description: ["Being composed mostly of basic metals it is quite sturdy and could also prove handy in the creation of tools."]
+			dependencies: ["0E908723F937FD89"]
+			id: "0F91A0EC16EBBBBB"
+			tasks: [{
+				id: "68E63E56E52EA132"
+				type: "item"
+				item: "conjuring:soul_alloy"
+			}]
+			rewards: [{
+				id: "788B845CAF39216D"
+				type: "loot"
+				table_id: 13756307348121783L
+			}]
+		}
+		{
+			x: -6.0d
+			y: -7.0d
+			subtitle: "Extraordinary powers facilitate the creation of ever stronger instruments."
+			description: [
+				"A blend of Conjuration Essence and Iron Ingots adorned with a Nether Star the Soul Slice is a formidable material."
+				""
+				"Its extraordinary powers facilitate the creation of ever stronger instruments, like the Stabilized Conjuring Focus."
+			]
+			dependencies: ["123117C7D38E3ED8"]
+			id: "645B10BF6FCDE303"
+			tasks: [{
+				id: "7665D64C554FEF12"
+				type: "item"
+				item: "conjuring:soul_slice"
+			}]
+			rewards: [{
+				id: "5AB2151A2D120123"
+				type: "loot"
+				table_id: 13756307348121783L
+			}]
+		}
+		{
+			x: 1.5d
+			y: -1.0d
+			subtitle: "The Soul Alloy Sword is a contribution to the warrior who possess it."
+			description: [
+				"It's ability launches five beams, which normally deal 20% of that sword's attack damage each."
+				""
+				"If one wishes to make it stronger then the art of Basic Gem Tinkering will strengthen it so:"
+				""
+				"Haste: Improves the speed of swinging the sword."
+				""
+				"Abundance: Rewards the killer with larger spoils when eradicating an enemy. Stacks with Looting."
+				""
+				"Scope: Disables Sweeping Edge in favor of a large area of effect attack. The damage this deals increases with each gem fitted."
+				""
+				"Ignorance: Ignores a specific amount of armor per gem fitted."
+			]
+			dependencies: ["482E9E6D0DBEDA9F"]
+			id: "389463636AC92D4A"
+			tasks: [{
+				id: "2591D7BB6E0558AD"
+				type: "item"
+				item: {
+					id: "conjuring:soul_alloy_sword"
+					Count: 1b
+					tag: {
+						Damage: 0
+						Modifiers: { }
+					}
+				}
+			}]
+			rewards: [{
+				id: "3002B2E585C3347B"
+				type: "loot"
+				table_id: 13756307348121783L
+			}]
+		}
+		{
+			x: 0.5d
+			y: -1.0d
+			subtitle: "The perilous pickaxe of choice."
+			description: [
+				"Right-clicking will coerce it to send out a beam which vein-mines any ores it touches."
+				""
+				"Applying the various Aspect Gems onto it will affect it in a plethora of ways:"
+				""
+				"Haste: Improves the pace of mining with the pickaxe. Stacks with Efficiency."
+				""
+				"Abundance: Increases the amount dropped by certain ores. Stacks with Fortune."
+				""
+				"Scope: Quite literally increases the scope of mining. Increases by 1 block per gem."
+				""
+				"Ignorance: Ignores a small amount of durability loss when using the tool. Stacks with Unbreaking."
+			]
+			dependencies: ["482E9E6D0DBEDA9F"]
+			id: "3D6141DCD667189D"
+			tasks: [{
+				id: "1F46AEE4412AF0ED"
+				type: "item"
+				item: {
+					id: "conjuring:soul_alloy_pickaxe"
+					Count: 1b
+					tag: {
+						Damage: 0
+						Modifiers: { }
+					}
+				}
+			}]
+			rewards: [{
+				id: "3740E294EF2C744D"
+				type: "loot"
+				table_id: 13756307348121783L
+			}]
+		}
+		{
+			x: 2.5d
+			y: -1.0d
+			subtitle: "A powerful tool, both in damage and the Soul Feller ability."
+			description: [
+				"Upon right-clicking, a destructive beam is emitted that will obliterate any logs on contact."
+				""
+				"can be refined using using Aspect Gems in these ways:"
+				""
+				"Haste: Improves the efficiency of felling trees with the hatchet."
+				""
+				"Abundance: Rewards the killer with larger spoils when eradicating an enemy."
+				""
+				"Scope: Increases the reach of the Soul Felling ability."
+				""
+				"Ignorance: Ignores a small amount of durability loss when using the tool. Stacks with Unbreaking."
+			]
+			dependencies: ["482E9E6D0DBEDA9F"]
+			id: "5CD85868465A7E9B"
+			tasks: [{
+				id: "7508FC98B04197D9"
+				type: "item"
+				item: {
+					id: "conjuring:soul_alloy_hatchet"
+					Count: 1b
+					tag: {
+						Damage: 0
+						Modifiers: { }
+					}
+				}
+			}]
+			rewards: [{
+				id: "3E2773F64CB289B4"
+				type: "loot"
+				table_id: 13756307348121783L
+			}]
+		}
+		{
+			x: 3.5d
+			y: -1.0d
+			subtitle: "While the shovel sees little use normally, the ability of it is likely to become a good friend."
+			description: [
+				"When used it will seek out any items around and bring them back to it's caller."
+				""
+				"It may be fitted with Aspect Gems, which improves it in certain aspects:"
+				""
+				"Haste: Improves the pace of digging with the shovel. Stacks with Efficiency."
+				""
+				"Abundance: Enriches the loot found when digging up treasure. Stacks with Fortune."
+				""
+				"Scope: Expands the literal scope of digging. Increases by 1 block per gem."
+				""
+				"Ignorance: Ignores a small amount of durability loss when using the tool. Stacks with Unbreaking."
+			]
+			dependencies: ["482E9E6D0DBEDA9F"]
+			id: "765F6E10ED3E1A1F"
+			tasks: [{
+				id: "30C4673B6D235BDE"
+				type: "item"
+				item: {
+					id: "conjuring:soul_alloy_shovel"
+					Count: 1b
+					tag: {
+						Damage: 0
+						Modifiers: { }
+					}
+				}
+			}]
+			rewards: [{
+				id: "0F59C9A2142B0DE1"
+				type: "loot"
+				table_id: 13756307348121783L
+			}]
+		}
+		{
+			x: -6.0d
+			y: -5.5d
+			subtitle: "Basic substance involved in summoning."
+			description: [
+				"While being the most basic substance involved in summoning, is still of utmost importance."
+				""
+				"It embodies the most basic properties all souls share and is therefore involved in the creation of many more capable materials."
+				""
+				"One can obtain some essence of their own from breaking ordinary spawners as well as plundering chests."
+			]
+			dependencies: ["0E908723F937FD89"]
+			id: "123117C7D38E3ED8"
+			tasks: [{
+				id: "714CBC4CB6DB728A"
+				type: "item"
+				item: "conjuring:conjuration_essence"
+			}]
+			rewards: [{
+				id: "6944EA4B397D995C"
+				type: "loot"
+				table_id: 13756307348121783L
+			}]
+		}
+		{
+			x: -3.0d
+			y: -4.0d
+			subtitle: "Smash Conjuration Essence on stone for 4 pieces of Lesser Conjuration Essence."
+			description: ["For when a less concentrated material is required, simply right-clicking some essence on any stone-like surface smashes it into 4 pieces of Lesser Conjuration Essence."]
+			dependencies: ["43304C008E8A700B"]
+			id: "12153697CC677412"
+			tasks: [{
+				id: "5D56B9D6B720A4DE"
+				type: "item"
+				item: "conjuring:lesser_conjuration_essence"
+			}]
+			rewards: [{
+				id: "6AAD9611B759D03A"
+				type: "loot"
+				table_id: 13756307348121783L
+			}]
+		}
+		{
+			x: -6.0d
+			y: -2.5d
+			subtitle: "Commanding the powerful contraptions involved in conjuration."
+			description: [
+				"Commanding the powerful contraptions involved in conjuration is no easy task and as such, the Conjuring Scepter is required to interact with most of them."
+				""
+				"The very basic act of mounting a Nether Star on a Blaze Rod has apparently greatly improved their magical abilities, making the usage of most runic machinery a breeze."
+			]
+			dependencies: ["0E908723F937FD89"]
+			id: "55FE66A0CBE3C520"
+			tasks: [{
+				id: "21FA46FF3840E447"
+				type: "item"
+				item: "conjuring:conjuring_scepter"
+			}]
+			rewards: [{
+				id: "4A98520164393F60"
+				type: "loot"
+				table_id: 13756307348121783L
+			}]
+		}
+		{
+			x: -6.0d
+			y: 0.5d
+			subtitle: "A reliable long-term solution for Conjuration Essence."
+			description: [
+				"There may come a point at which one runs out of Conjuration Essence. "
+				""
+				"When this happens, many options can be explored, yet the Superior Conjuring Scepter should prove the most reliable long-term solution."
+				""
+				"By utilizing the innate mystical properties of the attached Nether Star, it manages to create so-called Soul Projectiles."
+				""
+				"These will condense an entity's soul into some Conjuration Essence when on sufficiently low health."
+				""
+				"Additionally, the scepter is capable of instantly finishing any process in the Soulfire Forge by right-clicking."
+			]
+			dependencies: ["651E1703E4D6A7F3"]
+			id: "7CB1A19C567DE84C"
+			tasks: [{
+				id: "6B73E673A80B0705"
+				type: "item"
+				item: "conjuring:superior_conjuring_scepter"
+			}]
+			rewards: [{
+				id: "5B2E49E9BB27216C"
+				type: "loot"
+				table_id: 13756307348121783L
+			}]
+		}
+		{
+			title: "Ritual of Extraction"
+			x: 1.5d
+			y: -4.5d
+			description: [
+				"Knowing how to perform the Ritual of Extraction is easily one of the most important skills involved in summoning."
+				""
+				"This potent practice brutally siphons an entity's soul into a provided Conjuring Focus."
+				""
+				"To begin, one must place a Soul Funnel and fill it with both Soul Sand and Conjuring Focus."
+				""
+				"As an optional step, four pedestals may now be placed and linked to the funnel as described in Ritual Basics (see the Enchiridion)."
+				""
+				"These will be used to stabilize the ritual by providing samples of the entity's essence, supplied in the form of an item the entity is known to drop."
+				""
+				"Having four of these present and executing the ritual in a Soul Sand Valley reportedly guarantees success."
+				""
+				"Once everything has been prepared, the entity shall be lured on the funnel."
+				""
+				"This will make it possible to commence the ritual by right-clicking the Soul Funnel with a Conjuring Scepter. "
+			]
+			dependencies: ["1866FF6B9D5AE777"]
+			id: "147BCF7E6F4944A2"
+			tasks: [{
+				id: "3666880CAA50A00D"
+				type: "item"
+				item: "conjuring:soul_funnel"
+			}]
+			rewards: [{
+				id: "78A79979DB967D26"
+				type: "loot"
+				table_id: 13756307348121783L
+			}]
+		}
+		{
+			title: "Ritual of Weaving"
+			x: 1.5d
+			y: -3.5d
+			description: [
+				"Some crafting processes, like those involved in fabricating Soul Alloy Tools, can be very involved and consequently require the Ritual of Weaving to be carried out."
+				""
+				"To get started, one ought place a Soul Weaver and link it to four pedestals as depicted in Ritual Basics (see Enchiridion)."
+				""
+				"Then, the crafting ingredients must be placed on both weaver and pedestals."
+				""
+				"In the final step, the Soul Weaver has to be loaded with Conjuration Essence and subsequently right-clicked with a Conjuration Scepter to commence the ritual."
+			]
+			dependencies: ["1866FF6B9D5AE777"]
+			id: "482E9E6D0DBEDA9F"
+			tasks: [{
+				id: "2AEE7687908351FC"
+				type: "item"
+				item: "conjuring:soul_weaver"
+			}]
+			rewards: [{
+				id: "32178DCACFFBAEA4"
+				type: "loot"
+				table_id: 13756307348121783L
+			}]
+		}
+		{
+			x: -4.5d
+			y: -4.0d
+			subtitle: "Mob spawner in red disguise?"
+			description: [
+				"To the untrained eye, a Conjurer may look remarkably similar to a normal monster spawner."
+				""
+				"This, however, would be a short-sighted conclusion."
+				""
+				"Even being nothing more than a cage constructed of Soul Alloy, it nevertheless enables an inserted Conjuring Focus to function."
+				""
+				"When one of these gizmos is inserted, the Conjurer will begin the summoning process."
+				""
+				"While this is of course a very useful setup even in it's basic state, many improvements can be made using Basic Gem Tinkering."
+				""
+				"A final feature of the Conjurer one should keep in mind is that, when confronted with a redstone signal, it will promptly seize operation."
+			]
+			dependencies: [
+				"0F91A0EC16EBBBBB"
+				"123117C7D38E3ED8"
+				"55FE66A0CBE3C520"
+			]
+			id: "43304C008E8A700B"
+			tasks: [{
+				id: "513F4BFBDB849D3F"
+				type: "item"
+				item: "conjuring:conjurer"
+			}]
+			rewards: [{
+				id: "365F4B31BC3B4063"
+				type: "loot"
+				table_id: 13756307348121783L
+			}]
+		}
+		{
+			x: -0.5d
+			y: -1.0d
+			description: [
+				"This freakish fluid is obtained by imbuing four pieces of Conjuration Essence into a plain old glass bottle using a Soul Weaver."
+				""
+				"The focus to be cleansed must then be placed into a Soul Funnel and the Distilled Spirit dropped on top."
+				""
+				"Finally, a simple right-click with a Conjuring Scepter will suffice to extract the soul."
+			]
+			dependencies: ["482E9E6D0DBEDA9F"]
+			id: "01B6FAE48DFC7B5D"
+			tasks: [{
+				id: "26EDCAA58BEDC06A"
+				type: "item"
+				item: "conjuring:distilled_spirit"
+			}]
+			rewards: [{
+				id: "05B2E1661FE80B9F"
+				type: "loot"
+				table_id: 13756307348121783L
+			}]
+		}
+		{
+			title: "Aspect Gems"
+			x: -3.5d
+			y: -1.0d
+			dependencies: ["61DB1ACC5AB23AFA"]
+			id: "4D12C2B99A11FC06"
+			tasks: [
+				{
+					id: "124E9000EEF740C3"
+					type: "item"
+					item: "conjuring:haste_gem"
+				}
+				{
+					id: "5FBDEC2E3B04D382"
+					type: "item"
+					item: "conjuring:ignorance_gem"
+				}
+				{
+					id: "0C2780C1E359E66C"
+					type: "item"
+					item: "conjuring:abundance_gem"
+				}
+				{
+					id: "544F81AA31EC9A15"
+					type: "item"
+					item: "conjuring:scope_gem"
+				}
+			]
+			rewards: [{
+				id: "758AA3DA9243E6CE"
+				type: "loot"
+				table_id: 13756307348121783L
+			}]
+		}
+		{
+			title: "Charms"
+			x: -3.0d
+			y: 0.5d
+			dependencies: [
+				"4D12C2B99A11FC06"
+				"04B7A90A9A260CC3"
+			]
+			id: "52ED7FEFB4862043"
+			tasks: [
+				{
+					id: "098643AC49423F55"
+					type: "item"
+					item: "conjuring:haste_charm"
+				}
+				{
+					id: "7F4D16E0A4DEF8E4"
+					type: "item"
+					item: "conjuring:ignorance_charm"
+				}
+				{
+					id: "6DF456C1C835D4ED"
+					type: "item"
+					item: "conjuring:plentifulness_charm"
+				}
+				{
+					id: "371050B28FE8D1AF"
+					type: "item"
+					item: "conjuring:scope_charm"
+				}
+			]
+			rewards: [{
+				id: "5870FEAC800943C7"
+				type: "loot"
+				table_id: 13756307348121783L
+			}]
+		}
+		{
+			x: -1.5d
+			y: -4.0d
+			subtitle: "Safely contain the inner construct of a certain soul type."
+			description: [
+				"Souls are complex entities and therefore containing them is certainly no easy task."
+				""
+				"The tool used to fulfill it has been dubbed the Conjuring Focus."
+				""
+				"A simple lens made of Soul Alloy and reinforced with some Gold, it employs their synergistic attributes to safely contain the inner construct of a certain soul type."
+				""
+				"When inserted into a Conjurer it's true power will start to unfold, and mobs of the stored soul's type will be conjured."
+				""
+				"To trap a soul inside a focus, one shall seek to perform a Ritual of Extraction."
+			]
+			dependencies: ["12153697CC677412"]
+			id: "6AEEA39ABC54E7C4"
+			tasks: [{
+				id: "4F87EE41560AB292"
+				type: "item"
+				item: {
+					id: "conjuring:conjuring_focus"
+					Count: 1b
+					tag: { }
+				}
+			}]
+			rewards: [{
+				id: "14EC64E36638B743"
+				type: "loot"
+				table_id: 13756307348121783L
+			}]
+		}
+		{
+			title: "Ritual Basics"
+			x: 0.0d
+			y: -4.0d
+			description: [
+				"Seeing as Gilded Blackstone has some peculiar magical properties, it seems perfectly reasonable to construct a pedestal out of it."
+				""
+				"These have been proven to excel at presenting items and providing their essence, enabling the performing of rituals."
+				""
+				"Prior to this, however, the pedestals needs to be linked to the respective ritual's core."
+				""
+				"This is accomplished by right-clicking first a pedestal and then the corresponding ritual core, all while wielding a Conjuring Scepter of any kind."
+			]
+			dependencies: ["6AEEA39ABC54E7C4"]
+			id: "1866FF6B9D5AE777"
+			tasks: [{
+				id: "0E36C158AEC8A73A"
+				type: "item"
+				item: "conjuring:blackstone_pedestal"
+				count: 4L
+			}]
+			rewards: [{
+				id: "29C9136D229DD029"
+				type: "loot"
+				table_id: 13756307348121783L
+			}]
+		}
+		{
+			x: -6.0d
+			y: -1.0d
+			dependencies: ["55FE66A0CBE3C520"]
+			id: "651E1703E4D6A7F3"
+			tasks: [{
+				id: "65CC3667BE68F75F"
+				type: "item"
+				item: "conjuring:soul_rod"
+			}]
+			rewards: [{
+				id: "1E740640A0415092"
+				type: "loot"
+				table_id: 13756307348121783L
+			}]
+		}
+	]
+}

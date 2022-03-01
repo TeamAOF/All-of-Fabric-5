@@ -3,13 +3,13 @@
 		// Whether Fortune should affect the amount of Conjuration Essence you can get when breaking a spawner
 		"fortuneEnabled": false,
 		// How many extra mobs to spawn per abundance charm
-		"abundance_multiplier": 1,
+		"abundance_multiplier": 2,
 		// How many ticks of waiting to remove per haste charm
-		"haste_multiplier": 43.75,
+		"haste_multiplier": 63.75,
 		// How many blocks of range to add per scope charm
-		"scope_multiplier": 3,
+		"scope_multiplier": 4,
 		// How many extra mobs are allowed close to the conjurer per ignorance charm
-		"ignorance_multiplier": 2,
+		"ignorance_multiplier": 3,
 		// Which mob types you shouldn't be able to create a conjuring focus for
 		"conjurer_blacklist": [
 			"adventurez:stone_golem",
@@ -46,8 +46,6 @@
 			"adventurez:shaman",
 			"adventurez:deer",
 			"adventurez:enderwarthog",
-			"aqupd:caracal",
-			"aqupd:grizzly_bear",
 			"artifacts:mimic",
 			"betterend:cubozoa",
 			"betterend:dragonfly",
@@ -71,10 +69,7 @@
 			"capybara:capybara",
 			"charm:coral_squid",
 			"charm:moobloom",
-			"cspirit:jack_frost",
-			"cspirit:reindeer",
 			"dml-refabricated:system_glitch",
-			"ecotones:duck",
 			"golemsgalore:amethyst_golem",
 			"golemsgalore:anti_creeper_golem",
 			"golemsgalore:diamond_golem",
@@ -93,7 +88,6 @@
 			"graveyard:acolyte",
 			"graveyard:ghoul",
 			"graveyard:reaper",
-			"lovely_snails:snail",
 			"mtmechs:magitekarmor",
 			"mtmechs:protoarmor",
 			"mtmechs:tunnelarmor",
@@ -117,7 +111,6 @@
 			"outvoted:wildfire",
 			"promenade:duck",
 			"promenade:sunken_skeleton",
-			"ratsmischief:rat",
 			"terrarianslimes:baby_slime",
 			"terrarianslimes:black_slime",
 			"terrarianslimes:blue_slime",
@@ -142,7 +135,6 @@
 			"terrarianslimes:yellow_slime",
 			"untitledduckmod:duck",
 			"untitledduckmod:goose",
-			"vanilla_degus:degu",
 			"minecraft:wither",
 			"minecraft:ender_dragon"
 		]
@@ -170,6 +162,14 @@
 		"axe_secondary_per_scope_durability_cost": 5,
 		// Cooldown for firing projectiles with the hatchet, in ticks
 		"axe_secondary_cooldown": 15,
+		// The exponent for the scope level, tree cutting range is calculated like this: 8 + scope_level^exponent * 8
+		"scythe_scope_exponent": 3.0,
+		// How much durability firing a projectile with the scythe costs, base value
+		"scythe_secondary_base_durability_cost": 10,
+		// How much durability firing a projectile with the scythe costs, added per scope level
+		"scythe_secondary_per_scope_durability_cost": 5,
+		// Cooldown for firing projectiles with the scythe, in ticks
+		"scythe_secondary_cooldown": 15,
 		// How much durability firing a projectile with the pickaxe costs
 		"pickaxe_secondary_durability_cost": 15,
 		// Cooldown for firing projectiles with the pickaxe, in ticks

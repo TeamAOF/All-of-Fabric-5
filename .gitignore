@@ -416,3 +416,5 @@ patched_shaders/
 *.tmp1
 
 local/
+
+ESM/

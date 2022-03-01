@@ -16,16 +16,12 @@
       "comment": "Energy Capacity for Basic Jackhammer",
       "value": 10000
     },
-    "clockingDeviceEnergyUsage": {
-      "comment": "Cloacking device energy usage",
-      "value": 10
-    },
     "quantumSuitSprintingCost": {
       "comment": "Quantum Suit Sprinting Cost",
       "value": 20
     },
     "cloakingDeviceCharge": {
-      "comment": "Energy Capacity for Cloacking Device",
+      "comment": "Energy Capacity for Cloaking Device",
       "value": 40000000
     },
     "LithiumBatpackCharge": {
@@ -35,6 +31,10 @@
     "basicJackhammerCost": {
       "comment": "Energy Cost for Basic Jackhammer",
       "value": 50
+    },
+    "clockingDeviceEnergyUsage": {
+      "comment": "Cloaking device energy usage",
+      "value": 10
     },
     "lapotronicOrbMaxCharge": {
       "comment": "Energy Capacity for Lapotronic Orb",
@@ -186,16 +186,16 @@
     }
   },
   "upgrades": {
-    "overclcoker_speed": {
-      "comment": "Overclocker behavior speed multipiler",
+    "overclocker_speed": {
+      "comment": "Overclocker behavior speed multiplier",
       "value": 0.25
     },
     "super_conductor": {
       "comment": "Energy flow power increase",
       "value": 1.0
     },
-    "overclcoker_power": {
-      "comment": "Overclocker behavior power multipiler",
+    "overclocker_power": {
+      "comment": "Overclocker behavior power multiplier",
       "value": 0.75
     },
     "energy_storage": {

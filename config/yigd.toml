@@ -6,9 +6,11 @@ dropPlayerHead = false
 dropGraveBlock = false
 requireGraveItem = false
 generateEmptyGraves = false
+ignoreSpawnProtection = true
 priority = "GRAVE"
 deleteEnchantments = ["minecraft:vanishing_curse"]
 soulboundEnchantments = ["yigd:soulbound"]
+applyBindingCurse = true
 trySoft = true
 tryStrict = true
 blacklistDimensions = []
@@ -16,6 +18,7 @@ graveInVoid = true
 ignoreDeathTypes = []
 graveSpawnHeight = 2
 lastResort = "DROP_ITEMS"
+putXpInGrave = true
 defaultXpDrop = false
 xpDropPercent = 50
 tellDeathPos = true
@@ -33,6 +36,15 @@ afterTime = 1
 timeType = "HOURS"
 dropInventory = false
 
+[graveSettings.itemLoss]
+enableLoss = false
+ignoreSoulboundItems = true
+affectStacks = false
+usePercentRange = false
+lossRangeFrom = 0
+lossRangeTo = 5
+percentChanceOfLoss = 100
+
 [graveSettings.blockUnderGrave]
 generateBlockUnder = true
 inOverWorld = "minecraft:cobblestone"
@@ -48,7 +60,17 @@ textShadow = true
 adaptRenderer = false
 glowingGrave = false
 glowMinDistance = 10
+glowMaxDistance = 10
 [utilitySettings]
 soulboundEnchant = true
+deathSightEnchant = false
+
+[utilitySettings.scrollItem]
+scrollType = "DISABLED"
+retrieveOnRespawn = true
 [commandToggles]
 retrieveGrave = true
+robGrave = true
+selfView = true
+adminView = true
+moderateGraves = true

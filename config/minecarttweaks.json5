@@ -1,0 +1,17 @@
+{
+	"clientTweaks": {
+		"useCampfireSmoke": true,
+		"playerViewIsLocked": false,
+		"maxViewAngle": 90
+	},
+	"serverTweaks": {
+		"furnaceMinecartSpeed": 40.0,
+		"otherMinecartSpeed": 10.0,
+		"maxSpeedAroundTurns": 8.0,
+		"minecartDamage": 20.0,
+		"furnaceMaxBurnTime": 72000,
+		"canLinkMinecarts": true,
+		"shouldPoweredRailsStopFurnace": true,
+		"furnacesCanUseAllFuels": true
+	}
+}

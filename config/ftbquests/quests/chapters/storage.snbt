@@ -1,0 +1,1251 @@
+{
+	id: "2D905E8603BFEC34"
+	group: "33A417364C0A17FE"
+	order_index: 0
+	filename: "storage"
+	title: "Storage"
+	icon: "expandedstorage:wood_chest"
+	default_quest_shape: "square"
+	default_hide_dependency_lines: false
+	images: [{
+		x: -4.0d
+		y: -6.0d
+		width: 2.0d
+		height: 2.0d
+		rotation: 0.0d
+		image: "betteranimalsplus:textures/items/head_bear_kermode.png"
+		hover: ["From items, fluids or on the go. We have all the storage options you need."]
+		click: ""
+		dev: false
+		corner: false
+	}]
+	quests: [
+		{
+			title: "Storage on the go"
+			x: -2.0d
+			y: -3.5d
+			subtitle: "Craft your first backpack."
+			dependencies: ["6F2E92752228528C"]
+			id: "15E104B33E6D3388"
+			tasks: [{
+				id: "53EFF04F0D471D35"
+				type: "item"
+				item: {
+					id: "inmis:frayed_backpack"
+					Count: 1b
+					tag: { }
+				}
+			}]
+			rewards: [{
+				id: "57DD8F8CF6FAFAF1"
+				type: "loot"
+				table_id: 13756307348121783L
+			}]
+		}
+		{
+			title: "More storage on the go"
+			x: -2.0d
+			y: -2.5d
+			subtitle: "Same backpack, more storage."
+			dependencies: ["15E104B33E6D3388"]
+			id: "54DB5154498B9336"
+			tasks: [{
+				id: "0389793A9B8ED02D"
+				type: "item"
+				item: {
+					id: "inmis:plated_backpack"
+					Count: 1b
+					tag: { }
+				}
+			}]
+			rewards: [{
+				id: "7936B91387F2CCB8"
+				type: "loot"
+				table_id: 13756307348121783L
+			}]
+		}
+		{
+			title: "Golden Backpack"
+			x: -2.0d
+			y: -1.5d
+			subtitle: "Bag of Holding? Almost."
+			dependencies: ["54DB5154498B9336"]
+			id: "1569F3E295EA86B5"
+			tasks: [{
+				id: "7698650D341A24A6"
+				type: "item"
+				item: {
+					id: "inmis:gilded_backpack"
+					Count: 1b
+					tag: { }
+				}
+			}]
+			rewards: [{
+				id: "093438DB7724CE5A"
+				type: "loot"
+				table_id: 13756307348121783L
+			}]
+		}
+		{
+			title: "All the storage you need!"
+			x: -2.0d
+			y: -0.5d
+			dependencies: ["1569F3E295EA86B5"]
+			id: "5DF23C8638C479E3"
+			tasks: [{
+				id: "11B5FCEFA2E08385"
+				type: "item"
+				item: {
+					id: "inmis:bejeweled_backpack"
+					Count: 1b
+					tag: { }
+				}
+			}]
+			rewards: [{
+				id: "1A139DA541EE830D"
+				type: "loot"
+				table_id: 13756307348121783L
+			}]
+		}
+		{
+			title: "Bag of the withered"
+			x: -2.0d
+			y: 0.5d
+			subtitle: "Made from the depths of the nether!"
+			dependencies: ["5DF23C8638C479E3"]
+			id: "516BB48E835F9956"
+			tasks: [{
+				id: "27200ED2DA9EDDEE"
+				type: "item"
+				item: {
+					id: "inmis:withered_backpack"
+					Count: 1b
+					tag: { }
+				}
+			}]
+			rewards: [{
+				id: "3611255090A8177B"
+				type: "loot"
+				table_id: 13756307348121783L
+			}]
+		}
+		{
+			title: "Ultimate Backpack!"
+			x: -2.0d
+			y: 1.5d
+			subtitle: "It dosent get any bigger than this."
+			dependencies: ["516BB48E835F9956"]
+			id: "7EAF41F12D2F3612"
+			tasks: [{
+				id: "1725505C8D72840E"
+				type: "item"
+				item: {
+					id: "inmis:endless_backpack"
+					Count: 1b
+					tag: { }
+				}
+			}]
+			rewards: [{
+				id: "060047D996FD4061"
+				type: "loot"
+				table_id: 13756307348121783L
+			}]
+		}
+		{
+			title: "Bigger Chests"
+			x: -1.0d
+			y: -3.5d
+			subtitle: "Can be placed both horizontally and vertically."
+			dependencies: ["6F2E92752228528C"]
+			id: "775BEA78AEB9EE77"
+			tasks: [{
+				id: "4E720A38A6D9CFE6"
+				type: "item"
+				item: "expandedstorage:iron_chest"
+			}]
+			rewards: [{
+				id: "08455867B00D4D26"
+				type: "loot"
+				table_id: 13756307348121783L
+			}]
+		}
+		{
+			title: "Even bigger chests"
+			x: -1.0d
+			y: -2.5d
+			subtitle: "May the chests be shining."
+			dependencies: ["775BEA78AEB9EE77"]
+			id: "04E1293B787FF906"
+			tasks: [{
+				id: "3D1ED067C24B1134"
+				type: "item"
+				item: "expandedstorage:gold_chest"
+			}]
+			rewards: [{
+				id: "26ECA55A20005337"
+				type: "loot"
+				table_id: 13756307348121783L
+			}]
+		}
+		{
+			x: -1.0d
+			y: -1.5d
+			dependencies: ["04E1293B787FF906"]
+			id: "7F69917A95491A52"
+			tasks: [{
+				id: "1ED0C18AAD522A97"
+				type: "item"
+				item: "expandedstorage:diamond_chest"
+			}]
+			rewards: [{
+				id: "3D53EC7914EF5751"
+				type: "loot"
+				table_id: 13756307348121783L
+			}]
+		}
+		{
+			x: -1.0d
+			y: -0.5d
+			dependencies: ["7F69917A95491A52"]
+			id: "723E09B161CC9E33"
+			tasks: [{
+				id: "6C3A22620D3799C5"
+				type: "item"
+				item: "expandedstorage:obsidian_chest"
+			}]
+			rewards: [{
+				id: "1501D60DB65390F8"
+				type: "loot"
+				table_id: 13756307348121783L
+			}]
+		}
+		{
+			x: -1.0d
+			y: 0.5d
+			dependencies: ["723E09B161CC9E33"]
+			id: "072E1CD9A57ABD85"
+			tasks: [{
+				id: "29DEDBBF10195987"
+				type: "item"
+				item: "expandedstorage:netherite_chest"
+			}]
+			rewards: [{
+				id: "72052FCFB50514BA"
+				type: "loot"
+				table_id: 13756307348121783L
+			}]
+		}
+		{
+			x: 11.5d
+			y: -3.5d
+			subtitle: "Another storage drawer in disguise."
+			description: [
+				"Bronze barrels can used to store and move 32 stacks of one item."
+				""
+				"Amount of stacks allowed increase for each tier of barrel."
+			]
+			dependencies: ["523A049CF07AD75B"]
+			id: "701620712CC907D7"
+			tasks: [{
+				id: "00779B056A43DEEA"
+				type: "item"
+				item: "modern_industrialization:bronze_barrel"
+			}]
+			rewards: [{
+				id: "7E841FEBD3FFD55E"
+				type: "loot"
+				table_id: 13756307348121783L
+			}]
+		}
+		{
+			x: 11.5d
+			y: -2.5d
+			dependencies: ["701620712CC907D7"]
+			id: "3E9D89B146C5CD1A"
+			tasks: [{
+				id: "31025F43DEF2146E"
+				type: "item"
+				item: "modern_industrialization:steel_barrel"
+			}]
+			rewards: [{
+				id: "032A78A85DC1C75C"
+				type: "loot"
+				table_id: 13756307348121783L
+			}]
+		}
+		{
+			x: 11.5d
+			y: -1.5d
+			dependencies: ["3E9D89B146C5CD1A"]
+			id: "4D0BDC938DA76D16"
+			tasks: [{
+				id: "6A117D9E6E6C396A"
+				type: "item"
+				item: "modern_industrialization:aluminum_barrel"
+			}]
+			rewards: [{
+				id: "43FE11BD6BE7201F"
+				type: "loot"
+				table_id: 13756307348121783L
+			}]
+		}
+		{
+			x: 11.5d
+			y: -0.5d
+			dependencies: ["4D0BDC938DA76D16"]
+			id: "11A648D56AFA31D1"
+			tasks: [{
+				id: "1D224B514E4D27BB"
+				type: "item"
+				item: "modern_industrialization:stainless_steel_barrel"
+			}]
+			rewards: [{
+				id: "046C52D067C51B60"
+				type: "loot"
+				table_id: 13756307348121783L
+			}]
+		}
+		{
+			x: 11.5d
+			y: 0.5d
+			dependencies: ["11A648D56AFA31D1"]
+			id: "4D59362F0B630ACA"
+			tasks: [{
+				id: "477D2F4E7B22493B"
+				type: "item"
+				item: "modern_industrialization:titanium_barrel"
+			}]
+			rewards: [{
+				id: "3B0FB3ABB1A43297"
+				type: "loot"
+				table_id: 13756307348121783L
+			}]
+		}
+		{
+			x: 11.5d
+			y: 1.5d
+			dependencies: ["4D59362F0B630ACA"]
+			id: "21BD1BBF2F0833A9"
+			tasks: [{
+				id: "01BCEFA7EAD4F9DB"
+				type: "item"
+				item: "modern_industrialization:quantum_barrel"
+			}]
+			rewards: [{
+				id: "32C13CE6DE692EEB"
+				type: "loot"
+				table_id: 13756307348121783L
+			}]
+		}
+		{
+			x: 12.5d
+			y: -3.5d
+			subtitle: "Right-click with buckets or other tanks to transfer fluids."
+			description: [
+				"Bronze Tanks can store up to 4 buckets each."
+				"You can use that to interact with machines and can also be placed in the world."
+				""
+				"TIP: Tanks are stackable if containing the same fluid."
+			]
+			dependencies: ["523A049CF07AD75B"]
+			id: "3C5A8EA9636BF12F"
+			tasks: [{
+				id: "0E647B945E58B453"
+				type: "item"
+				item: "modern_industrialization:bronze_tank"
+			}]
+			rewards: [{
+				id: "055CC327890FDAE1"
+				type: "loot"
+				table_id: 13756307348121783L
+			}]
+		}
+		{
+			x: 12.5d
+			y: -2.5d
+			dependencies: ["3C5A8EA9636BF12F"]
+			id: "57370D36B9C896E2"
+			tasks: [{
+				id: "0AA5B170D809E302"
+				type: "item"
+				item: "modern_industrialization:steel_tank"
+			}]
+			rewards: [{
+				id: "07C3C1EFAD4AFC19"
+				type: "loot"
+				table_id: 13756307348121783L
+			}]
+		}
+		{
+			x: 12.5d
+			y: -1.5d
+			dependencies: ["57370D36B9C896E2"]
+			id: "4DC3D05A8F8BBF75"
+			tasks: [{
+				id: "0D0319BE9A5E8567"
+				type: "item"
+				item: "modern_industrialization:aluminum_tank"
+			}]
+			rewards: [{
+				id: "2E3857945F941551"
+				type: "loot"
+				table_id: 13756307348121783L
+			}]
+		}
+		{
+			x: 12.5d
+			y: -0.5d
+			dependencies: ["4DC3D05A8F8BBF75"]
+			id: "7493E18AF65B41DE"
+			tasks: [{
+				id: "6436BE309468817B"
+				type: "item"
+				item: "modern_industrialization:stainless_steel_tank"
+			}]
+			rewards: [{
+				id: "1EB932E5F0E116B7"
+				type: "loot"
+				table_id: 13756307348121783L
+			}]
+		}
+		{
+			x: 12.5d
+			y: 0.5d
+			dependencies: ["7493E18AF65B41DE"]
+			id: "73629FD7B57CD7AB"
+			tasks: [{
+				id: "535970933372DF89"
+				type: "item"
+				item: "modern_industrialization:titanium_tank"
+			}]
+			rewards: [{
+				id: "6AE90D4823037DB2"
+				type: "loot"
+				table_id: 13756307348121783L
+			}]
+		}
+		{
+			x: 12.5d
+			y: 1.5d
+			dependencies: ["73629FD7B57CD7AB"]
+			id: "49DE26F91AA4CE1A"
+			tasks: [{
+				id: "0F1698CB2970E678"
+				type: "item"
+				item: "modern_industrialization:quantum_tank"
+			}]
+			rewards: [{
+				id: "11896AC8256BAEB5"
+				type: "loot"
+				table_id: 13756307348121783L
+			}]
+		}
+		{
+			title: "Dank MK1"
+			x: 1.0d
+			y: -3.5d
+			subtitle: "Miner's pickup tool of choice."
+			description: [
+				"Bag Mode:"
+				""
+				"- In bag mode, the dank acts like a backpack."
+				""
+				"- Sneaking while hovering the tooltip will show contained items and the currently assigned keybind."
+				""
+				"Construction Mode:"
+				""
+				"- While in construction mode, the dank can no longer be placed down and will gain the enchantment glow to show that it's in construction mode."
+				""
+				"- While in construction mode, the dank storage has a selected slot, sneak - mousewheel will change the selected slot, pickblock functionality also works as well."
+				""
+				"- Right-clicking while the dank is in this state will attempt to use the currently selected item whether it be a block, a snowball, or even shears. Even potions and most food items can be consumed this way."
+			]
+			dependencies: ["6F2E92752228528C"]
+			id: "08812AFA81E0361B"
+			tasks: [{
+				id: "5AC950AE1240C497"
+				type: "item"
+				item: "dankstorage:dank_1"
+			}]
+			rewards: [{
+				id: "5D8704A73ABE14F2"
+				type: "loot"
+				table_id: 13756307348121783L
+			}]
+		}
+		{
+			title: "Dank MK2"
+			x: 1.0d
+			y: -2.5d
+			dependencies: ["08812AFA81E0361B"]
+			id: "237A9481E48FF78E"
+			tasks: [{
+				id: "7458103DE8D41CFD"
+				type: "item"
+				item: "dankstorage:dank_2"
+			}]
+			rewards: [{
+				id: "464263C21580BB33"
+				type: "loot"
+				table_id: 13756307348121783L
+			}]
+		}
+		{
+			title: "Dank MK3"
+			x: 1.0d
+			y: -1.5d
+			dependencies: ["237A9481E48FF78E"]
+			id: "1ACB51C22A6CD24E"
+			tasks: [{
+				id: "6B69BD987268BFE9"
+				type: "item"
+				item: "dankstorage:dank_3"
+			}]
+			rewards: [{
+				id: "7E9570715342841C"
+				type: "loot"
+				table_id: 13756307348121783L
+			}]
+		}
+		{
+			title: "Dank MK4"
+			x: 1.0d
+			y: -0.5d
+			dependencies: ["1ACB51C22A6CD24E"]
+			id: "3F2424B1D10C7EE9"
+			tasks: [{
+				id: "1C9D9C9CDC0730F0"
+				type: "item"
+				item: "dankstorage:dank_4"
+			}]
+			rewards: [{
+				id: "1485612FCE2A0F0D"
+				type: "loot"
+				table_id: 13756307348121783L
+			}]
+		}
+		{
+			title: "Dank MK5"
+			x: 1.0d
+			y: 0.5d
+			dependencies: ["3F2424B1D10C7EE9"]
+			id: "08B93BF6A7AE7007"
+			tasks: [{
+				id: "78E8E5FE38C585C4"
+				type: "item"
+				item: "dankstorage:dank_5"
+			}]
+			rewards: [{
+				id: "29F64723C2496039"
+				type: "loot"
+				table_id: 13756307348121783L
+			}]
+		}
+		{
+			title: "Dank MK6"
+			x: 1.0d
+			y: 1.5d
+			dependencies: ["08B93BF6A7AE7007"]
+			id: "39AD0699B2DBAE16"
+			tasks: [{
+				id: "6F2EBCEF613C0B9B"
+				type: "item"
+				item: "dankstorage:dank_6"
+			}]
+			rewards: [{
+				id: "1213FEBA6656C50F"
+				type: "loot"
+				table_id: 13756307348121783L
+			}]
+		}
+		{
+			title: "Dank MK7"
+			x: 1.0d
+			y: 2.5d
+			dependencies: ["39AD0699B2DBAE16"]
+			id: "2557F1066749B6D7"
+			tasks: [{
+				id: "015B208F0D6BEDCF"
+				type: "item"
+				item: "dankstorage:dank_7"
+			}]
+			rewards: [
+				{
+					id: "5FC122DAB93C03D4"
+					type: "loot"
+					table_id: 13756307348121783L
+				}
+				{
+					id: "1DB031CFBD3F21A5"
+					type: "loot"
+					table_id: 13756307348121783L
+				}
+			]
+		}
+		{
+			x: 9.0d
+			y: -3.5d
+			subtitle: "Right click with buckets or other tanks to transfer fluids."
+			dependencies: ["64082742D6539923"]
+			id: "691F1102DCB3851D"
+			tasks: [{
+				id: "2D8DB2A4B2A7CCBE"
+				type: "item"
+				item: "techreborn:basic_tank_unit"
+			}]
+			rewards: [{
+				id: "4D664FB0AC8364E4"
+				type: "loot"
+				table_id: 13756307348121783L
+			}]
+		}
+		{
+			title: "Crude Storage Unit"
+			x: 8.0d
+			y: -3.5d
+			subtitle: "Storage drawer in disguise."
+			dependencies: ["64082742D6539923"]
+			id: "16D84060C075DC03"
+			tasks: [{
+				id: "14EAC75C541EAC9F"
+				type: "item"
+				item: "techreborn:crude_storage_unit"
+			}]
+			rewards: [{
+				id: "24DD47F4717CE294"
+				type: "loot"
+				table_id: 13756307348121783L
+			}]
+		}
+		{
+			x: 2.5d
+			y: -3.5d
+			dependencies: ["589C0E6DD1C6AAD3"]
+			id: "79F20CB0295BFBAF"
+			tasks: [{
+				id: "4047E84A003607DF"
+				type: "item"
+				item: {
+					id: "ae2:portable_item_cell_1k"
+					Count: 1b
+					tag: { }
+				}
+			}]
+			rewards: [{
+				id: "1DEF800153DBC44E"
+				type: "loot"
+				table_id: 13756307348121783L
+			}]
+		}
+		{
+			x: 3.0d
+			y: -2.5d
+			dependencies: ["589C0E6DD1C6AAD3"]
+			id: "2BBD3A888A2F0482"
+			tasks: [{
+				id: "2923476FBF22179D"
+				type: "item"
+				item: {
+					id: "ae2:portable_item_cell_4k"
+					Count: 1b
+					tag: { }
+				}
+			}]
+			rewards: [{
+				id: "7F1A98E8CB1B22A2"
+				type: "loot"
+				table_id: 13756307348121783L
+			}]
+		}
+		{
+			x: 3.5d
+			y: -1.5d
+			dependencies: ["589C0E6DD1C6AAD3"]
+			id: "15D6496849DE38CE"
+			tasks: [{
+				id: "71BE3BA4905757B3"
+				type: "item"
+				item: {
+					id: "ae2:portable_item_cell_16k"
+					Count: 1b
+					tag: { }
+				}
+			}]
+			rewards: [{
+				id: "7DFD1310FC65A5C3"
+				type: "loot"
+				table_id: 13756307348121783L
+			}]
+		}
+		{
+			x: 4.0d
+			y: -0.5d
+			dependencies: ["589C0E6DD1C6AAD3"]
+			id: "62A581403BE4D7DF"
+			tasks: [{
+				id: "35C282C1B8D33B87"
+				type: "item"
+				item: {
+					id: "ae2:portable_item_cell_64k"
+					Count: 1b
+					tag: { }
+				}
+			}]
+			rewards: [{
+				id: "7C921595C6E504EE"
+				type: "loot"
+				table_id: 13756307348121783L
+			}]
+		}
+		{
+			x: 6.5d
+			y: -3.5d
+			dependencies: ["589C0E6DD1C6AAD3"]
+			id: "2C9C080685498630"
+			tasks: [{
+				id: "2279583F8E5EEB36"
+				type: "item"
+				item: {
+					id: "ae2:portable_fluid_cell_1k"
+					Count: 1b
+					tag: { }
+				}
+			}]
+			rewards: [{
+				id: "6A1CBE22FA6E2D42"
+				type: "loot"
+				table_id: 13756307348121783L
+			}]
+		}
+		{
+			x: 6.0d
+			y: -2.5d
+			dependencies: ["589C0E6DD1C6AAD3"]
+			id: "29C5155600C904E6"
+			tasks: [{
+				id: "43C781916B5E5A65"
+				type: "item"
+				item: {
+					id: "ae2:portable_fluid_cell_4k"
+					Count: 1b
+					tag: { }
+				}
+			}]
+			rewards: [{
+				id: "2F181F3B9328FB14"
+				type: "loot"
+				table_id: 13756307348121783L
+			}]
+		}
+		{
+			x: 5.5d
+			y: -1.5d
+			dependencies: ["589C0E6DD1C6AAD3"]
+			id: "3EA1CBF951AF1474"
+			tasks: [{
+				id: "0692A8C08A35DCC3"
+				type: "item"
+				item: {
+					id: "ae2:portable_fluid_cell_16k"
+					Count: 1b
+					tag: { }
+				}
+			}]
+			rewards: [{
+				id: "2A71FE2E56A2DFF1"
+				type: "loot"
+				table_id: 13756307348121783L
+			}]
+		}
+		{
+			x: 5.0d
+			y: -0.5d
+			dependencies: ["589C0E6DD1C6AAD3"]
+			id: "5F40EB98055B2BA6"
+			tasks: [{
+				id: "440B9C7ACD790014"
+				type: "item"
+				item: {
+					id: "ae2:portable_fluid_cell_64k"
+					Count: 1b
+					tag: { }
+				}
+			}]
+			rewards: [{
+				id: "1CAA1F3A1CE3B952"
+				type: "loot"
+				table_id: 13756307348121783L
+			}]
+		}
+		{
+			title: "Bigger Barrels"
+			x: 0.0d
+			y: -3.5d
+			subtitle: "Goes well as buffers in automation setups."
+			dependencies: ["6F2E92752228528C"]
+			id: "3341ED2C0B9631BE"
+			tasks: [{
+				id: "2B4C0EB03500550D"
+				type: "item"
+				item: "expandedstorage:iron_barrel"
+			}]
+			rewards: [{
+				id: "4618B62B0B015AD2"
+				type: "loot"
+				table_id: 13756307348121783L
+			}]
+		}
+		{
+			title: "Even bigger barrels"
+			x: 0.0d
+			y: -2.5d
+			subtitle: "May the barrels be shining."
+			dependencies: ["3341ED2C0B9631BE"]
+			id: "213D8E0BB7F2E924"
+			tasks: [{
+				id: "68460F5575BF476F"
+				type: "item"
+				item: "expandedstorage:gold_barrel"
+			}]
+			rewards: [{
+				id: "200B0B6DA425345F"
+				type: "loot"
+				table_id: 13756307348121783L
+			}]
+		}
+		{
+			x: 0.0d
+			y: -1.5d
+			dependencies: ["213D8E0BB7F2E924"]
+			id: "0E970E8E69BA207A"
+			tasks: [{
+				id: "4740CF82772243A9"
+				type: "item"
+				item: "expandedstorage:diamond_barrel"
+			}]
+			rewards: [{
+				id: "7D2F0DDFB2DDA70A"
+				type: "loot"
+				table_id: 13756307348121783L
+			}]
+		}
+		{
+			x: 0.0d
+			y: -0.5d
+			dependencies: ["0E970E8E69BA207A"]
+			id: "19D64FC4F94A9B6A"
+			tasks: [{
+				id: "02CBDF3A4275A06B"
+				type: "item"
+				item: "expandedstorage:obsidian_barrel"
+			}]
+			rewards: [{
+				id: "3DBE9209B629B233"
+				type: "loot"
+				table_id: 13756307348121783L
+			}]
+		}
+		{
+			x: 0.0d
+			y: 0.5d
+			dependencies: ["19D64FC4F94A9B6A"]
+			id: "3593C7DBFDF77FE9"
+			tasks: [{
+				id: "6CBB00C8CB2DE300"
+				type: "item"
+				item: "expandedstorage:netherite_barrel"
+			}]
+			rewards: [{
+				id: "02A9714C694B6524"
+				type: "loot"
+				table_id: 13756307348121783L
+			}]
+		}
+		{
+			x: 8.0d
+			y: -2.5d
+			dependencies: ["16D84060C075DC03"]
+			id: "3E37A08E65F102D8"
+			tasks: [{
+				id: "332A6C8DE153FB8A"
+				type: "item"
+				item: "techreborn:basic_storage_unit"
+			}]
+			rewards: [{
+				id: "099D38D9F10DC19B"
+				type: "loot"
+				table_id: 13756307348121783L
+			}]
+		}
+		{
+			x: 9.0d
+			y: -2.5d
+			dependencies: ["691F1102DCB3851D"]
+			id: "2AEBEE27B2451EEA"
+			tasks: [{
+				id: "34281E506046CD51"
+				type: "item"
+				item: "techreborn:advanced_tank_unit"
+			}]
+			rewards: [{
+				id: "5E9A29D6D7228FD8"
+				type: "loot"
+				table_id: 13756307348121783L
+			}]
+		}
+		{
+			x: 8.0d
+			y: -1.5d
+			dependencies: ["3E37A08E65F102D8"]
+			id: "3BBD2850B68661AB"
+			tasks: [{
+				id: "22CE468B3AC15142"
+				type: "item"
+				item: "techreborn:advanced_storage_unit"
+			}]
+			rewards: [{
+				id: "758FC50B506E696A"
+				type: "loot"
+				table_id: 13756307348121783L
+			}]
+		}
+		{
+			x: 8.0d
+			y: -0.5d
+			dependencies: ["3BBD2850B68661AB"]
+			id: "6A0AF132BE5A8AAE"
+			tasks: [{
+				id: "012C6C1DF6C46F0F"
+				type: "item"
+				item: "techreborn:industrial_storage_unit"
+			}]
+			rewards: [{
+				id: "57719B1C0562B58F"
+				type: "loot"
+				table_id: 13756307348121783L
+			}]
+		}
+		{
+			x: 8.0d
+			y: 0.5d
+			dependencies: ["6A0AF132BE5A8AAE"]
+			id: "3A44CCFDB872EA17"
+			tasks: [{
+				id: "272347DF31B60E19"
+				type: "item"
+				item: "techreborn:quantum_storage_unit"
+			}]
+			rewards: [{
+				id: "6E639141403D1AE1"
+				type: "loot"
+				table_id: 13756307348121783L
+			}]
+		}
+		{
+			x: 9.0d
+			y: -1.5d
+			dependencies: ["2AEBEE27B2451EEA"]
+			id: "1A19CF23FD98EC6B"
+			tasks: [{
+				id: "41F08E4226C2B034"
+				type: "item"
+				item: "techreborn:industrial_tank_unit"
+			}]
+			rewards: [{
+				id: "172DADCD25EAF4F1"
+				type: "loot"
+				table_id: 13756307348121783L
+			}]
+		}
+		{
+			x: 9.0d
+			y: -0.5d
+			dependencies: ["1A19CF23FD98EC6B"]
+			id: "7F5430EAC0D58A99"
+			tasks: [{
+				id: "1B1315F65EE4559C"
+				type: "item"
+				item: "techreborn:quantum_tank_unit"
+			}]
+			rewards: [{
+				id: "33FB6AFE217087BA"
+				type: "loot"
+				table_id: 13756307348121783L
+			}]
+		}
+		{
+			x: 12.0d
+			y: -5.0d
+			subtitle: "Barrels and tanks of different sizes. You know what they are.. They have no disguises."
+			description: [
+				"Barrels are used for mass storage of the same item. Shows count and item on front. "
+				""
+				"Tanks are used for high amounts of fluid storage."
+				"Can be used as a buffer and is movable with contents intact on break."
+				"Tanks are stackable if containing the same fluid."
+			]
+			id: "523A049CF07AD75B"
+			tasks: [{
+				id: "7279364B4E1843D4"
+				type: "checkmark"
+				title: "Modern Industrialization"
+			}]
+		}
+		{
+			x: 9.0d
+			y: -5.0d
+			description: [
+				"Storage units are single item, mass storage devices with an inventory count on the face."
+				""
+				"Tank units store liquids.. that's about it."
+				""
+				"Battery Box, MFE, MFSU and Interdimensional SU are energy storage devices."
+				"You can view their inventory and use the slot they have to charge devices."
+			]
+			id: "64082742D6539923"
+			tasks: [{
+				id: "77F4F6BBF4F8AF10"
+				type: "checkmark"
+				title: "Tech Reborn"
+			}]
+		}
+		{
+			x: -0.5d
+			y: -5.0d
+			subtitle: "Learn about the basics of storage."
+			description: [
+				"Backpacks for increased inventory"
+				""
+				"Chests for mass storage"
+				""
+				"Barrels for buffers in automation or so you can access it's inventory in tight spots."
+				""
+				"Danks for automatic portable storage and dynamic inventory block placement."
+			]
+			id: "6F2E92752228528C"
+			tasks: [{
+				id: "4A26CDEE07DCD4B8"
+				type: "checkmark"
+				title: "Basic Storage"
+			}]
+		}
+		{
+			x: 4.5d
+			y: -5.0d
+			subtitle: "For when you need to digitize that portable storage"
+			id: "589C0E6DD1C6AAD3"
+			tasks: [{
+				id: "6605C80DB89DDE01"
+				type: "checkmark"
+				title: "Applied Energistics 2"
+			}]
+		}
+		{
+			x: 10.0d
+			y: -3.5d
+			subtitle: "Stores energy and charges items. "
+			dependencies: ["64082742D6539923"]
+			id: "02C255C9CAC286C8"
+			tasks: [{
+				id: "2901054D6A1E5169"
+				type: "item"
+				item: "techreborn:low_voltage_su"
+			}]
+			rewards: [{
+				id: "6BCFFC63E293FF33"
+				type: "loot"
+				table_id: 13756307348121783L
+			}]
+		}
+		{
+			x: 10.0d
+			y: -2.5d
+			dependencies: ["02C255C9CAC286C8"]
+			id: "363CEF71CB948F73"
+			tasks: [{
+				id: "3E91DD78CB3B5A29"
+				type: "item"
+				item: "techreborn:medium_voltage_su"
+			}]
+			rewards: [{
+				id: "60800D3A82F21651"
+				type: "loot"
+				table_id: 13756307348121783L
+			}]
+		}
+		{
+			x: 10.0d
+			y: -1.5d
+			dependencies: ["363CEF71CB948F73"]
+			id: "1DA0468352954BA9"
+			tasks: [{
+				id: "729C6F46550B4901"
+				type: "item"
+				item: "techreborn:high_voltage_su"
+			}]
+			rewards: [{
+				id: "4D088EC493C6DA6F"
+				type: "loot"
+				table_id: 13756307348121783L
+			}]
+		}
+		{
+			x: 10.0d
+			y: -0.5d
+			dependencies: ["1DA0468352954BA9"]
+			id: "247204A995A00576"
+			tasks: [{
+				id: "619C6FB574819C0A"
+				type: "item"
+				item: "techreborn:interdimensional_su"
+			}]
+			rewards: [{
+				id: "49D278C607B09127"
+				type: "loot"
+				table_id: 13756307348121783L
+			}]
+		}
+		{
+			x: 14.0d
+			y: -5.0d
+			subtitle: "Let the energy revolutionize!"
+			description: ["An Indrevian version of an energy storage device."]
+			id: "679464B1F04B106E"
+			tasks: [{
+				id: "0FB2E00F0013C475"
+				type: "checkmark"
+				title: "Industrial Revolution"
+			}]
+		}
+		{
+			x: 14.0d
+			y: -3.5d
+			subtitle: "Stores energy and charges items. "
+			dependencies: ["679464B1F04B106E"]
+			id: "17F540DAE69F9836"
+			tasks: [{
+				id: "7659005A22D97F38"
+				type: "item"
+				item: "indrev:lazuli_flux_container_mk1"
+			}]
+			rewards: [{
+				id: "4CCDE717AD8C1D5D"
+				type: "loot"
+				table_id: 13756307348121783L
+			}]
+		}
+		{
+			x: 14.0d
+			y: -2.5d
+			dependencies: ["17F540DAE69F9836"]
+			id: "4D4D4AB0102E6B6E"
+			tasks: [{
+				id: "6C0809992B96502B"
+				type: "item"
+				item: "indrev:lazuli_flux_container_mk2"
+			}]
+			rewards: [{
+				id: "00457C7CE2CE5D1C"
+				type: "loot"
+				table_id: 13756307348121783L
+			}]
+		}
+		{
+			x: 14.0d
+			y: -1.5d
+			dependencies: ["4D4D4AB0102E6B6E"]
+			id: "02B1E8CECB57D77C"
+			tasks: [{
+				id: "20203EEE0087B7A5"
+				type: "item"
+				item: "indrev:lazuli_flux_container_mk3"
+			}]
+			rewards: [{
+				id: "1B8728447568CD51"
+				type: "loot"
+				table_id: 13756307348121783L
+			}]
+		}
+		{
+			x: 14.0d
+			y: -0.5d
+			dependencies: ["02B1E8CECB57D77C"]
+			id: "4A9EAB93BC030448"
+			tasks: [{
+				id: "46EBA4968DDC5066"
+				type: "item"
+				item: "indrev:lazuli_flux_container_mk4"
+			}]
+			rewards: [{
+				id: "51DF4433C363C8A8"
+				type: "loot"
+				table_id: 13756307348121783L
+			}]
+		}
+		{
+			x: 16.5d
+			y: -3.5d
+			subtitle: "Deletes items so be careful what you put into it."
+			dependencies: ["362FABC06878807C"]
+			id: "798C017E412FA4FE"
+			tasks: [{
+				id: "05925CAF51CE0B12"
+				type: "item"
+				item: "cyti:trashcan_item"
+			}]
+			rewards: [{
+				id: "15D4BF65951E6D1B"
+				type: "loot"
+				table_id: 13756307348121783L
+			}]
+		}
+		{
+			x: 15.5d
+			y: -3.5d
+			subtitle: "Fluids be gone!"
+			description: ["Removes fluids from buckets and other fluid containers and can also remove fluids pumped into it by pipes or such."]
+			dependencies: ["362FABC06878807C"]
+			id: "56418D285D250B18"
+			tasks: [{
+				id: "6EB150C656F759E2"
+				type: "item"
+				item: "cyti:trashcan_fluid"
+			}]
+			rewards: [{
+				id: "0EB7671F315434B5"
+				type: "loot"
+				table_id: 13756307348121783L
+			}]
+		}
+		{
+			title: "Trashcans"
+			x: 16.5d
+			y: -5.0d
+			subtitle: "Throw away the resources you don't want"
+			id: "362FABC06878807C"
+			tasks: [{
+				id: "529C11C5A9056EB1"
+				type: "checkmark"
+				title: "Various trash cans."
+			}]
+		}
+		{
+			x: 17.5d
+			y: -3.5d
+			subtitle: "Energy flows through my... trashcan?"
+			description: ["The energy trashcan can remove energy from chargeable items and also takes care of the energy you no longer want via cables and things like that."]
+			dependencies: ["362FABC06878807C"]
+			id: "6309FAA2E30D6D7E"
+			tasks: [{
+				id: "33E2E81D15BBA2DD"
+				type: "item"
+				item: "cyti:trashcan_energy"
+			}]
+			rewards: [{
+				id: "59767BB9896E3756"
+				type: "loot"
+				table_id: 13756307348121783L
+			}]
+		}
+	]
+}

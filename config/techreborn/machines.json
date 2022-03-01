@@ -119,14 +119,6 @@
       "comment": "Rolling Machine Max Energy",
       "value": 10000
     },
-    "RollingMachineEnergyRunTime": {
-      "comment": "Rolling Machine Run Time",
-      "value": 250
-    },
-    "RollingMachineEnergyPerTick": {
-      "comment": "Rolling Machine Energy usage (Energy per tick)",
-      "value": 5
-    },
     "RollingMachineMaxInput": {
       "comment": "Rolling Machine Max Input (Energy per tick)",
       "value": 32
