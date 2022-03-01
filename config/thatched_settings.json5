@@ -1,0 +1,6 @@
+{
+	/*  How rare are Thatched Villages in Plains biomes.
+	   1 for spawning in most chunks and 1001 for none.
+	*/
+	"thatchedVillageMaxChunkDistance": 70
+}

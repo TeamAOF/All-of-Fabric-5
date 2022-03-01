@@ -7,8 +7,6 @@ onEvent('recipes', (event) => {
     'techreborn:crafting_table/solar_panel/advanced_solar_panel_alt',
     'techreborn:crafting_table/solar_panel/advanced_solar_panel_alt',
     'techreborn:rolling_machine/minecart',
-    'vanilla-excavators:obsidian_excavator',
-    'vanilla-hammers:obsidian_hammer',
     'croptopia:tomato_to_tomato_seed_shapeless',
     'croptopia:onion_to_onion_seed_shapeless',
     'croptopia:rice_to_rice_seed_shapeless',
@@ -19,6 +17,10 @@ onEvent('recipes', (event) => {
     'indrev:infusing/electrum_dust',
     'indrev:compressing/empty_upgrade',
     'techreborn:crafting_table/machine_block/basic_machine_frame_alt',
+    'techreborn:crafting_table/machine/iron_furnace',
+    'techreborn:smelting/platinum_ingot_from_c_sheldonite_ores',
+    'techreborn:blasting/platinum_ingot_from_c_sheldonite_ores',
+    'techreborn:smelting/platinum_ingot_from_c_sheldonite_ores_exported_mi_furnace',
 
     ];
 
@@ -34,6 +36,8 @@ onEvent('recipes', (event) => {
     'kibe:angel_ring',
     'kibe:light_ring',
     'chisel:chisel',
+    'vanilla-excavators:obsidian_excavator',
+    'vanilla-hammers:obsidian_hammer',
     'croptopia:bacon',
     'croptopia:cooked_bacon',
     'croptopia:knife',
@@ -57,6 +61,21 @@ onEvent('recipes', (event) => {
     'kibe:big_torch',
     'dwarfcoal:dwarf_charcoal',
     'mtmechs:iron_gear_item',
+    'indrev:hammer',
+    'techreborn:iron_alloy_furnace',
+    'additionaladditions:gilded_netherite_helmet',
+    'additionaladditions:gilded_netherite_chestplate',
+    'additionaladditions:gilded_netherite_leggings',
+    'additionaladditions:gilded_netherite_boots',
+    'extragenerators:gluttony_generator',
+    'extragenerators:brew_generator',
+    'extragenerators:redstone_generator',
+    'extragenerators:blast_generator',
+    'extragenerators:demise_generator',
+    'extragenerators:icy_generator',
+    'extragenerators:teleport_generator',
+    'extragenerators:heavenly_generator',
+    'extragenerators:infernal_generator',
     ];
 
     id.forEach((id) => {

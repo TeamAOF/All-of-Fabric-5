@@ -473,6 +473,17 @@
         "value": 10000000
       }
     },
+    "dml-refabricated:piglin_truce": {
+      "enabled": false,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 16,
+        "value": 10000000
+      }
+    },
     "dml-refabricated:undying": {
       "enabled": false,
       "min": {

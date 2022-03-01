@@ -6,7 +6,7 @@
     },
     "enableOreGeneration": {
       "comment": "When enabled ores will generate in the world",
-      "value": false
+      "value": true
     }
   },
   "loot": {

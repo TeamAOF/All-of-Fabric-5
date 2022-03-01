@@ -1,0 +1,132 @@
+{
+  //
+  //
+  //
+  //
+  //
+  //
+  //
+  //// Adds structure maps to any Villager's trades.
+  //// This should work with modded villager professions as well, but you will need to know its registry name.
+  //// Disabling a structure will not automatically remove the structure from the trades (The explorer map to the structure becomes an empty map).
+  "villagerMapTrades": {
+    "minecraft:cartographer": [
+      {
+        "structure": "repurposed_structures:mansion_savanna",
+        "mapIcon": "MANSION",
+        "tradeLevel": 4,
+        "emeraldsRequired": 14,
+        "tradesAllowed": 12,
+        "xpReward": 10
+      },
+      {
+        "structure": "repurposed_structures:fortress_jungle",
+        "mapIcon": "BANNER_GREEN",
+        "tradeLevel": 3,
+        "emeraldsRequired": 13,
+        "tradesAllowed": 12,
+        "xpReward": 10
+      },
+      {
+        "structure": "repurposed_structures:fortress_jungle",
+        "mapIcon": "BANNER_GREEN",
+        "tradeLevel": 4,
+        "emeraldsRequired": 14,
+        "tradesAllowed": 12,
+        "xpReward": 10
+      },
+      {
+        "structure": "repurposed_structures:mansion_birch",
+        "mapIcon": "MANSION",
+        "tradeLevel": 4,
+        "emeraldsRequired": 14,
+        "tradesAllowed": 12,
+        "xpReward": 10
+      },
+      {
+        "structure": "repurposed_structures:mansion_desert",
+        "mapIcon": "MANSION",
+        "tradeLevel": 4,
+        "emeraldsRequired": 14,
+        "tradesAllowed": 12,
+        "xpReward": 10
+      },
+      {
+        "structure": "repurposed_structures:mansion_jungle",
+        "mapIcon": "MANSION",
+        "tradeLevel": 4,
+        "emeraldsRequired": 14,
+        "tradesAllowed": 12,
+        "xpReward": 10
+      },
+      {
+        "structure": "repurposed_structures:mansion_oak",
+        "mapIcon": "MANSION",
+        "tradeLevel": 4,
+        "emeraldsRequired": 14,
+        "tradesAllowed": 12,
+        "xpReward": 10
+      },
+      {
+        "structure": "repurposed_structures:mansion_snowy",
+        "mapIcon": "MANSION",
+        "tradeLevel": 4,
+        "emeraldsRequired": 14,
+        "tradesAllowed": 12,
+        "xpReward": 10
+      },
+      {
+        "structure": "repurposed_structures:mansion_taiga",
+        "mapIcon": "MANSION",
+        "tradeLevel": 4,
+        "emeraldsRequired": 14,
+        "tradesAllowed": 12,
+        "xpReward": 10
+      }
+    ]
+  },
+  //
+  //
+  //
+  //
+  //
+  //
+  //
+  //// Adds structure maps to Wandering Trader's trades.
+  //// There is only two trade types for Wandering Trader and that's RARE and COMMON.
+  //// Disabling a structure will not automatically remove the structure from the trades (The explorer map to the structure becomes an empty map).
+  "wanderingTraderMapTrades": {
+    "RARE": [
+      {
+        "structure": "repurposed_structures:bastion_underground",
+        "mapIcon": "BANNER_GRAY",
+        "emeraldsRequired": 38,
+        "tradesAllowed": 1,
+        "xpReward": 100
+      },
+      {
+        "structure": "repurposed_structures:village_mushroom",
+        "mapIcon": "MANSION",
+        "emeraldsRequired": 38,
+        "tradesAllowed": 1,
+        "xpReward": 100
+      },
+      {
+        "structure": "repurposed_structures:city_overworld",
+        "mapIcon": "MANSION",
+        "emeraldsRequired": 38,
+        "tradesAllowed": 1,
+        "xpReward": 200
+      }
+    ]
+  },
+  //
+  //
+  //
+  //
+  //
+  //
+  //
+  //// for internal use only. Do not change this.
+  "configVersion": 2
+}

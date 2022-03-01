@@ -17,8 +17,11 @@
 		"traverse": true,
 		"terrestria": true,
 		"cinderscapes": true,
+		"blockus": true,
+		"promenade": true,
 		"woods_and_mires": true,
 		"towelette": true,
-		"biomemakeover": true
+		"biomemakeover": true,
+		"techreborn": true
 	}
 }

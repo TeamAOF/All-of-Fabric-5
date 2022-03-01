@@ -37,6 +37,17 @@
 		*/
 		"seeConfigFileForStructureNaturalMobSpawning": "Read comment above"
 	},
+	"RSMapTradeConfig": {
+		/* 
+		   
+		   
+		   If you are in the config GUI in-game and are looking for the configs to
+		   control what RS structure map is added to Villager/Wandering Trader's trades,
+		   please take a look at the map_trade_configs.json5 file in the config folder.
+		   Cloth Config API cannot show maps so you will need to edit the file itself.
+		*/
+		"seeConfigFileForStructureMapTradeConfig": "Read comment above"
+	},
 	"RSMiscConfig": {
 		/* 
 		   
@@ -62,7 +73,14 @@
 		   How rare are Nether Cities in Nether biomes.
 		   1 for spawning in most chunks and 1001 for none.
 		*/
-		"cityNetherAverageChunkDistance": 110
+		"cityNetherAverageChunkDistance": 110,
+		/* 
+		   
+		   
+		   How rare are Overworld Cities in Overworld biomes with generally large trees.
+		   1 for spawning in most chunks and 10001 for none.
+		*/
+		"cityOverworldAverageChunkDistance": 180
 	},
 	"RSDungeonsConfig": {
 		"attemptsPerChunk": {
@@ -390,7 +408,14 @@
 		   How rare are Stone Igloos in Giant Tree Taiga biomes.
 		   1 for spawning in most chunks and 1001 for none.
 		*/
-		"stoneIglooAverageChunkDistance": 20
+		"stoneIglooAverageChunkDistance": 20,
+		/* 
+		   
+		   
+		   How rare are Mushroom Igloos in Mushroom biomes.
+		   1 for spawning in most chunks and 1001 for none.
+		*/
+		"mushroomIglooAverageChunkDistance": 39
 	},
 	"RSMansionsConfig": {
 		/* 
@@ -987,7 +1012,14 @@
 		   How rare are Flower Forest Pyramid in Flower Forest biomes.
 		   1 for spawning in most chunks and 1001 for none.
 		*/
-		"pyramidFlowerForestAverageChunkDistance": 34
+		"pyramidFlowerForestAverageChunkDistance": 34,
+		/* 
+		   
+		   
+		   How rare are Dark Forest Pyramid in Dark Forest or other spooky forest biomes.
+		   1 for spawning in most chunks and 1001 for none.
+		*/
+		"pyramidDarkForestAverageChunkDistance": 44
 	},
 	"RSRuinedPortalsConfig": {
 		/* 
@@ -1020,7 +1052,21 @@
 		   How rare are Hot Land Ruins in Desert biomes.
 		   1 for spawning in most chunks and 1001 for none.
 		*/
-		"ruinsLandHotAverageChunkDistance": 39
+		"ruinsLandHotAverageChunkDistance": 39,
+		/* 
+		   
+		   
+		   How rare are Cold Land Ruins in Taiga, Extreme Hills, and Mountain biomes that are not snowy.
+		   1 for spawning in most chunks and 1001 for none.
+		*/
+		"ruinsLandColdAverageChunkDistance": 52,
+		/* 
+		   
+		   
+		   How rare are Icy Land Ruins in Icy biomes.
+		   1 for spawning in most chunks and 1001 for none.
+		*/
+		"ruinsLandIcyAverageChunkDistance": 52
 	},
 	"RSShipwrecksConfig": {
 		/* 

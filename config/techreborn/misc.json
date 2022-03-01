@@ -12,6 +12,10 @@
       "comment": "Machines crafting sound volume (0 - disabled, 1 - max)",
       "value": 1.0
     },
+    "vanillaUnlockRecipes": {
+      "comment": "Enable recipe unlocks only with vanilla mechanic, instead of getting all of them at once",
+      "value": false
+    },
     "IC2TransformersStyle": {
       "comment": "Input from dots side, output from other sides, like in IC2.",
       "value": true

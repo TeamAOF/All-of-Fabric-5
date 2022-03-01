@@ -1,0 +1,8 @@
+{
+    "replace": false,
+    "values": ["iron-jetpacks:creative_jetpack",
+               "iron-jetpacks:bronze_jetpack",
+               "iron-jetpacks:electrum_jetpack",
+               "iron-jetpacks:steel_jetpack",
+               "modern_industrialization:diesel_jetpack"]
+  }

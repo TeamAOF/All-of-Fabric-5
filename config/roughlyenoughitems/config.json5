@@ -78,7 +78,8 @@
 			// Declares whether entry rendering time should be debugged.
 			"debugRenderTimeRequired": false,
 			// Merges displays with equal contents under 1 display.
-			"mergeDisplayUnderOne": true
+			"mergeDisplayUnderOne": true,
+			"favoriteAddWidgetMode": "ALWAYS_VISIBLE"
 		},
 		"accessibility": {
 			"entrySize": 1.0,
@@ -110,13 +111,16 @@
 			// Declares the command used in servers to cheat items.
 			"giveCommand": "/give {player_name} {item_identifier}{nbt} {count}",
 			// Declares the command used to change weather.
-			"weatherCommand": "/weather {weather}"
+			"weatherCommand": "/weather {weather}",
+			// Declares the command used to change time.
+			"timeCommand": "/time set {time}"
 		},
 		"miscellaneous": {
 			// Declares whether arrows in containers should be clickable.
 			"clickableRecipeArrows": true,
 			"registerRecipesInAnotherThread": true,
-			"newFastEntryRendering": true
+			"newFastEntryRendering": true,
+			"cachingFastEntryRendering": false
 		}
 	},
 	"appearance": {
@@ -141,13 +145,17 @@
 		"verticalEntriesBoundariesRows": 1000,
 		"favoritesHorizontalEntriesBoundaries": 1.0,
 		"favoritesHorizontalEntriesBoundariesColumns": 50,
-		"syntaxHighlightingMode": "COLORFUL"
+		"syntaxHighlightingMode": "COLORFUL",
+		"isFocusModeZoomed": false
 	},
 	"functionality": {
 		// Declares whether REI should remove the recipe book.
 		"disableRecipeBook": true,
+		// Declares whether mob effects should be on the left side instead of the right side.
+		"leftSideMobEffects": false,
 		// Declares whether subsets is enabled.
 		"isSubsetsEnabled": false,
-		"allowInventoryHighlighting": true
+		"allowInventoryHighlighting": true,
+		"itemCheatingMode": "REI_LIKE"
 	}
 }
