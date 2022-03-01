@@ -37,9 +37,9 @@
 				}
 			}]
 			rewards: [{
-				id: "05E2CF56C1EBAC2C"
-				type: "random"
-				table_id: 1327074635400886561L
+				id: "57DD8F8CF6FAFAF1"
+				type: "loot"
+				table_id: 13756307348121783L
 			}]
 		}
 		{
@@ -59,9 +59,9 @@
 				}
 			}]
 			rewards: [{
-				id: "0BCB16D94F33DADC"
-				type: "random"
-				table_id: 2482271367426889676L
+				id: "7936B91387F2CCB8"
+				type: "loot"
+				table_id: 13756307348121783L
 			}]
 		}
 		{
@@ -81,16 +81,15 @@
 				}
 			}]
 			rewards: [{
-				id: "7B0447187E86681C"
-				type: "random"
-				table_id: 5326367464111173975L
+				id: "093438DB7724CE5A"
+				type: "loot"
+				table_id: 13756307348121783L
 			}]
 		}
 		{
 			title: "All the storage you need!"
 			x: -2.0d
 			y: -0.5d
-			subtitle: "Gucci bag? Almost."
 			dependencies: ["1569F3E295EA86B5"]
 			id: "5DF23C8638C479E3"
 			tasks: [{
@@ -103,9 +102,9 @@
 				}
 			}]
 			rewards: [{
-				id: "5FA59FBCF88EF795"
-				type: "random"
-				table_id: 5023855478423149265L
+				id: "1A139DA541EE830D"
+				type: "loot"
+				table_id: 13756307348121783L
 			}]
 		}
 		{
@@ -125,9 +124,9 @@
 				}
 			}]
 			rewards: [{
-				id: "0F7536213C27FED5"
-				type: "xp_levels"
-				xp_levels: 5
+				id: "3611255090A8177B"
+				type: "loot"
+				table_id: 13756307348121783L
 			}]
 		}
 		{
@@ -147,9 +146,9 @@
 				}
 			}]
 			rewards: [{
-				id: "3916F95FD13FB99A"
-				type: "random"
-				table_id: 3031070796978981367L
+				id: "060047D996FD4061"
+				type: "loot"
+				table_id: 13756307348121783L
 			}]
 		}
 		{
@@ -165,9 +164,9 @@
 				item: "expandedstorage:iron_chest"
 			}]
 			rewards: [{
-				id: "148CB381FEEB0016"
-				type: "random"
-				table_id: 1327074635400886561L
+				id: "08455867B00D4D26"
+				type: "loot"
+				table_id: 13756307348121783L
 			}]
 		}
 		{
@@ -183,9 +182,9 @@
 				item: "expandedstorage:gold_chest"
 			}]
 			rewards: [{
-				id: "74FBC2EF950CB86A"
-				type: "random"
-				table_id: 2482271367426889676L
+				id: "26ECA55A20005337"
+				type: "loot"
+				table_id: 13756307348121783L
 			}]
 		}
 		{
@@ -199,9 +198,9 @@
 				item: "expandedstorage:diamond_chest"
 			}]
 			rewards: [{
-				id: "751E9CC1607B84E1"
-				type: "random"
-				table_id: 5326367464111173975L
+				id: "3D53EC7914EF5751"
+				type: "loot"
+				table_id: 13756307348121783L
 			}]
 		}
 		{
@@ -215,9 +214,9 @@
 				item: "expandedstorage:obsidian_chest"
 			}]
 			rewards: [{
-				id: "290246B41CC9E263"
-				type: "random"
-				table_id: 5023855478423149265L
+				id: "1501D60DB65390F8"
+				type: "loot"
+				table_id: 13756307348121783L
 			}]
 		}
 		{
@@ -231,9 +230,9 @@
 				item: "expandedstorage:netherite_chest"
 			}]
 			rewards: [{
-				id: "23FE030B3AD90796"
-				type: "xp_levels"
-				xp_levels: 5
+				id: "72052FCFB50514BA"
+				type: "loot"
+				table_id: 13756307348121783L
 			}]
 		}
 		{
@@ -253,9 +252,9 @@
 				item: "modern_industrialization:bronze_barrel"
 			}]
 			rewards: [{
-				id: "4D9C5E224846D4D5"
-				type: "random"
-				table_id: 1327074635400886561L
+				id: "7E841FEBD3FFD55E"
+				type: "loot"
+				table_id: 13756307348121783L
 			}]
 		}
 		{
@@ -269,9 +268,9 @@
 				item: "modern_industrialization:steel_barrel"
 			}]
 			rewards: [{
-				id: "3BA2C5034E752280"
-				type: "random"
-				table_id: 2482271367426889676L
+				id: "032A78A85DC1C75C"
+				type: "loot"
+				table_id: 13756307348121783L
 			}]
 		}
 		{
@@ -285,9 +284,9 @@
 				item: "modern_industrialization:aluminum_barrel"
 			}]
 			rewards: [{
-				id: "5D9FF665C6BD00BC"
-				type: "random"
-				table_id: 5326367464111173975L
+				id: "43FE11BD6BE7201F"
+				type: "loot"
+				table_id: 13756307348121783L
 			}]
 		}
 		{
@@ -301,9 +300,9 @@
 				item: "modern_industrialization:stainless_steel_barrel"
 			}]
 			rewards: [{
-				id: "4B2CD5E36BCDE398"
-				type: "random"
-				table_id: 5023855478423149265L
+				id: "046C52D067C51B60"
+				type: "loot"
+				table_id: 13756307348121783L
 			}]
 		}
 		{
@@ -317,9 +316,9 @@
 				item: "modern_industrialization:titanium_barrel"
 			}]
 			rewards: [{
-				id: "5A7AFF7B329E1C50"
-				type: "xp_levels"
-				xp_levels: 5
+				id: "3B0FB3ABB1A43297"
+				type: "loot"
+				table_id: 13756307348121783L
 			}]
 		}
 		{
@@ -333,9 +332,9 @@
 				item: "modern_industrialization:quantum_barrel"
 			}]
 			rewards: [{
-				id: "024EE241D090B6C9"
-				type: "random"
-				table_id: 3031070796978981367L
+				id: "32C13CE6DE692EEB"
+				type: "loot"
+				table_id: 13756307348121783L
 			}]
 		}
 		{
@@ -356,9 +355,9 @@
 				item: "modern_industrialization:bronze_tank"
 			}]
 			rewards: [{
-				id: "5FEA5183F56DCCCD"
-				type: "random"
-				table_id: 1327074635400886561L
+				id: "055CC327890FDAE1"
+				type: "loot"
+				table_id: 13756307348121783L
 			}]
 		}
 		{
@@ -372,9 +371,9 @@
 				item: "modern_industrialization:steel_tank"
 			}]
 			rewards: [{
-				id: "536D33EA28EE6545"
-				type: "random"
-				table_id: 2482271367426889676L
+				id: "07C3C1EFAD4AFC19"
+				type: "loot"
+				table_id: 13756307348121783L
 			}]
 		}
 		{
@@ -388,9 +387,9 @@
 				item: "modern_industrialization:aluminum_tank"
 			}]
 			rewards: [{
-				id: "1B2711E8B4C681E2"
-				type: "random"
-				table_id: 5326367464111173975L
+				id: "2E3857945F941551"
+				type: "loot"
+				table_id: 13756307348121783L
 			}]
 		}
 		{
@@ -404,9 +403,9 @@
 				item: "modern_industrialization:stainless_steel_tank"
 			}]
 			rewards: [{
-				id: "155FE5BC6B841ED8"
-				type: "random"
-				table_id: 5023855478423149265L
+				id: "1EB932E5F0E116B7"
+				type: "loot"
+				table_id: 13756307348121783L
 			}]
 		}
 		{
@@ -420,9 +419,9 @@
 				item: "modern_industrialization:titanium_tank"
 			}]
 			rewards: [{
-				id: "7FF5690F4676B40B"
-				type: "xp_levels"
-				xp_levels: 5
+				id: "6AE90D4823037DB2"
+				type: "loot"
+				table_id: 13756307348121783L
 			}]
 		}
 		{
@@ -436,9 +435,9 @@
 				item: "modern_industrialization:quantum_tank"
 			}]
 			rewards: [{
-				id: "6F4EF3EC08FAF2BA"
-				type: "random"
-				table_id: 3031070796978981367L
+				id: "11896AC8256BAEB5"
+				type: "loot"
+				table_id: 13756307348121783L
 			}]
 		}
 		{
@@ -469,9 +468,9 @@
 				item: "dankstorage:dank_1"
 			}]
 			rewards: [{
-				id: "5AFD72C0D53622E6"
-				type: "random"
-				table_id: 1327074635400886561L
+				id: "5D8704A73ABE14F2"
+				type: "loot"
+				table_id: 13756307348121783L
 			}]
 		}
 		{
@@ -486,9 +485,9 @@
 				item: "dankstorage:dank_2"
 			}]
 			rewards: [{
-				id: "7B6AB3A246498191"
-				type: "random"
-				table_id: 2482271367426889676L
+				id: "464263C21580BB33"
+				type: "loot"
+				table_id: 13756307348121783L
 			}]
 		}
 		{
@@ -503,9 +502,9 @@
 				item: "dankstorage:dank_3"
 			}]
 			rewards: [{
-				id: "18999D80A9896C13"
-				type: "random"
-				table_id: 5326367464111173975L
+				id: "7E9570715342841C"
+				type: "loot"
+				table_id: 13756307348121783L
 			}]
 		}
 		{
@@ -520,9 +519,9 @@
 				item: "dankstorage:dank_4"
 			}]
 			rewards: [{
-				id: "043745F85850D356"
-				type: "random"
-				table_id: 5023855478423149265L
+				id: "1485612FCE2A0F0D"
+				type: "loot"
+				table_id: 13756307348121783L
 			}]
 		}
 		{
@@ -537,9 +536,9 @@
 				item: "dankstorage:dank_5"
 			}]
 			rewards: [{
-				id: "176B2F6BFA0786E6"
-				type: "xp_levels"
-				xp_levels: 5
+				id: "29F64723C2496039"
+				type: "loot"
+				table_id: 13756307348121783L
 			}]
 		}
 		{
@@ -554,9 +553,9 @@
 				item: "dankstorage:dank_6"
 			}]
 			rewards: [{
-				id: "18B276161883BD19"
-				type: "random"
-				table_id: 3031070796978981367L
+				id: "1213FEBA6656C50F"
+				type: "loot"
+				table_id: 13756307348121783L
 			}]
 		}
 		{
@@ -572,24 +571,14 @@
 			}]
 			rewards: [
 				{
-					id: "50AB54A59C477F4E"
-					type: "random"
-					table_id: 1327074635400886561L
+					id: "5FC122DAB93C03D4"
+					type: "loot"
+					table_id: 13756307348121783L
 				}
 				{
-					id: "6AF833B8DF289DCE"
-					type: "random"
-					table_id: 5326367464111173975L
-				}
-				{
-					id: "1945E08C0D1B65F0"
-					type: "random"
-					table_id: 2482271367426889676L
-				}
-				{
-					id: "2366786BEB23D2B4"
-					type: "random"
-					table_id: 5023855478423149265L
+					id: "1DB031CFBD3F21A5"
+					type: "loot"
+					table_id: 13756307348121783L
 				}
 			]
 		}
@@ -605,9 +594,9 @@
 				item: "techreborn:basic_tank_unit"
 			}]
 			rewards: [{
-				id: "326DAA2A2963C140"
-				type: "random"
-				table_id: 1327074635400886561L
+				id: "4D664FB0AC8364E4"
+				type: "loot"
+				table_id: 13756307348121783L
 			}]
 		}
 		{
@@ -623,9 +612,9 @@
 				item: "techreborn:crude_storage_unit"
 			}]
 			rewards: [{
-				id: "05BF62A39718CA1B"
-				type: "random"
-				table_id: 1327074635400886561L
+				id: "24DD47F4717CE294"
+				type: "loot"
+				table_id: 13756307348121783L
 			}]
 		}
 		{
@@ -643,9 +632,9 @@
 				}
 			}]
 			rewards: [{
-				id: "60AEACC49DD39F3C"
-				type: "random"
-				table_id: 1327074635400886561L
+				id: "1DEF800153DBC44E"
+				type: "loot"
+				table_id: 13756307348121783L
 			}]
 		}
 		{
@@ -663,9 +652,9 @@
 				}
 			}]
 			rewards: [{
-				id: "6E5A92D1963B17C4"
-				type: "random"
-				table_id: 2482271367426889676L
+				id: "7F1A98E8CB1B22A2"
+				type: "loot"
+				table_id: 13756307348121783L
 			}]
 		}
 		{
@@ -683,9 +672,9 @@
 				}
 			}]
 			rewards: [{
-				id: "744F0D1361180872"
-				type: "random"
-				table_id: 5326367464111173975L
+				id: "7DFD1310FC65A5C3"
+				type: "loot"
+				table_id: 13756307348121783L
 			}]
 		}
 		{
@@ -703,9 +692,9 @@
 				}
 			}]
 			rewards: [{
-				id: "360CCEAE73CE7C4E"
-				type: "random"
-				table_id: 5023855478423149265L
+				id: "7C921595C6E504EE"
+				type: "loot"
+				table_id: 13756307348121783L
 			}]
 		}
 		{
@@ -723,9 +712,9 @@
 				}
 			}]
 			rewards: [{
-				id: "21605DB2F8CD183E"
-				type: "random"
-				table_id: 1327074635400886561L
+				id: "6A1CBE22FA6E2D42"
+				type: "loot"
+				table_id: 13756307348121783L
 			}]
 		}
 		{
@@ -743,9 +732,9 @@
 				}
 			}]
 			rewards: [{
-				id: "6313710367D8A6D7"
-				type: "random"
-				table_id: 2482271367426889676L
+				id: "2F181F3B9328FB14"
+				type: "loot"
+				table_id: 13756307348121783L
 			}]
 		}
 		{
@@ -763,9 +752,9 @@
 				}
 			}]
 			rewards: [{
-				id: "1BAFA69EC29D2E10"
-				type: "random"
-				table_id: 5326367464111173975L
+				id: "2A71FE2E56A2DFF1"
+				type: "loot"
+				table_id: 13756307348121783L
 			}]
 		}
 		{
@@ -783,9 +772,9 @@
 				}
 			}]
 			rewards: [{
-				id: "6A76387195A20C40"
-				type: "random"
-				table_id: 5023855478423149265L
+				id: "1CAA1F3A1CE3B952"
+				type: "loot"
+				table_id: 13756307348121783L
 			}]
 		}
 		{
@@ -801,9 +790,9 @@
 				item: "expandedstorage:iron_barrel"
 			}]
 			rewards: [{
-				id: "426794D6E6D3387D"
-				type: "random"
-				table_id: 1327074635400886561L
+				id: "4618B62B0B015AD2"
+				type: "loot"
+				table_id: 13756307348121783L
 			}]
 		}
 		{
@@ -819,9 +808,9 @@
 				item: "expandedstorage:gold_barrel"
 			}]
 			rewards: [{
-				id: "4FD4E0B728D174BF"
-				type: "random"
-				table_id: 2482271367426889676L
+				id: "200B0B6DA425345F"
+				type: "loot"
+				table_id: 13756307348121783L
 			}]
 		}
 		{
@@ -835,9 +824,9 @@
 				item: "expandedstorage:diamond_barrel"
 			}]
 			rewards: [{
-				id: "75066B6620294BDC"
-				type: "random"
-				table_id: 5326367464111173975L
+				id: "7D2F0DDFB2DDA70A"
+				type: "loot"
+				table_id: 13756307348121783L
 			}]
 		}
 		{
@@ -851,9 +840,9 @@
 				item: "expandedstorage:obsidian_barrel"
 			}]
 			rewards: [{
-				id: "790A9065CCDCE548"
-				type: "random"
-				table_id: 5023855478423149265L
+				id: "3DBE9209B629B233"
+				type: "loot"
+				table_id: 13756307348121783L
 			}]
 		}
 		{
@@ -867,9 +856,9 @@
 				item: "expandedstorage:netherite_barrel"
 			}]
 			rewards: [{
-				id: "32235D92E5C5062C"
-				type: "xp_levels"
-				xp_levels: 5
+				id: "02A9714C694B6524"
+				type: "loot"
+				table_id: 13756307348121783L
 			}]
 		}
 		{
@@ -883,9 +872,9 @@
 				item: "techreborn:basic_storage_unit"
 			}]
 			rewards: [{
-				id: "11FD5E5321538612"
-				type: "random"
-				table_id: 2482271367426889676L
+				id: "099D38D9F10DC19B"
+				type: "loot"
+				table_id: 13756307348121783L
 			}]
 		}
 		{
@@ -899,9 +888,9 @@
 				item: "techreborn:advanced_tank_unit"
 			}]
 			rewards: [{
-				id: "193FFBF21261E8DE"
-				type: "random"
-				table_id: 2482271367426889676L
+				id: "5E9A29D6D7228FD8"
+				type: "loot"
+				table_id: 13756307348121783L
 			}]
 		}
 		{
@@ -915,9 +904,9 @@
 				item: "techreborn:advanced_storage_unit"
 			}]
 			rewards: [{
-				id: "4A1060107E124285"
-				type: "random"
-				table_id: 5326367464111173975L
+				id: "758FC50B506E696A"
+				type: "loot"
+				table_id: 13756307348121783L
 			}]
 		}
 		{
@@ -931,9 +920,9 @@
 				item: "techreborn:industrial_storage_unit"
 			}]
 			rewards: [{
-				id: "4AEF1830216EC884"
-				type: "random"
-				table_id: 5023855478423149265L
+				id: "57719B1C0562B58F"
+				type: "loot"
+				table_id: 13756307348121783L
 			}]
 		}
 		{
@@ -947,9 +936,9 @@
 				item: "techreborn:quantum_storage_unit"
 			}]
 			rewards: [{
-				id: "073249D1E25B5800"
-				type: "xp_levels"
-				xp_levels: 5
+				id: "6E639141403D1AE1"
+				type: "loot"
+				table_id: 13756307348121783L
 			}]
 		}
 		{
@@ -963,9 +952,9 @@
 				item: "techreborn:industrial_tank_unit"
 			}]
 			rewards: [{
-				id: "31E9FA3A17FF4089"
-				type: "random"
-				table_id: 5326367464111173975L
+				id: "172DADCD25EAF4F1"
+				type: "loot"
+				table_id: 13756307348121783L
 			}]
 		}
 		{
@@ -979,9 +968,9 @@
 				item: "techreborn:quantum_tank_unit"
 			}]
 			rewards: [{
-				id: "129D531B1183328B"
-				type: "random"
-				table_id: 5023855478423149265L
+				id: "33FB6AFE217087BA"
+				type: "loot"
+				table_id: 13756307348121783L
 			}]
 		}
 		{
@@ -1063,9 +1052,9 @@
 				item: "techreborn:low_voltage_su"
 			}]
 			rewards: [{
-				id: "674E0D34A579213A"
-				type: "random"
-				table_id: 1327074635400886561L
+				id: "6BCFFC63E293FF33"
+				type: "loot"
+				table_id: 13756307348121783L
 			}]
 		}
 		{
@@ -1079,9 +1068,9 @@
 				item: "techreborn:medium_voltage_su"
 			}]
 			rewards: [{
-				id: "615614CA8AAB107C"
-				type: "random"
-				table_id: 2482271367426889676L
+				id: "60800D3A82F21651"
+				type: "loot"
+				table_id: 13756307348121783L
 			}]
 		}
 		{
@@ -1095,9 +1084,9 @@
 				item: "techreborn:high_voltage_su"
 			}]
 			rewards: [{
-				id: "1D5A6892D23AC30F"
-				type: "random"
-				table_id: 5326367464111173975L
+				id: "4D088EC493C6DA6F"
+				type: "loot"
+				table_id: 13756307348121783L
 			}]
 		}
 		{
@@ -1111,9 +1100,9 @@
 				item: "techreborn:interdimensional_su"
 			}]
 			rewards: [{
-				id: "6ACFF23D28855783"
-				type: "random"
-				table_id: 5023855478423149265L
+				id: "49D278C607B09127"
+				type: "loot"
+				table_id: 13756307348121783L
 			}]
 		}
 		{
@@ -1140,9 +1129,9 @@
 				item: "indrev:lazuli_flux_container_mk1"
 			}]
 			rewards: [{
-				id: "5394456298247B14"
-				type: "random"
-				table_id: 1327074635400886561L
+				id: "4CCDE717AD8C1D5D"
+				type: "loot"
+				table_id: 13756307348121783L
 			}]
 		}
 		{
@@ -1156,9 +1145,9 @@
 				item: "indrev:lazuli_flux_container_mk2"
 			}]
 			rewards: [{
-				id: "7E7358C587607459"
-				type: "random"
-				table_id: 2482271367426889676L
+				id: "00457C7CE2CE5D1C"
+				type: "loot"
+				table_id: 13756307348121783L
 			}]
 		}
 		{
@@ -1172,9 +1161,9 @@
 				item: "indrev:lazuli_flux_container_mk3"
 			}]
 			rewards: [{
-				id: "60B23A692872D6F8"
-				type: "random"
-				table_id: 5326367464111173975L
+				id: "1B8728447568CD51"
+				type: "loot"
+				table_id: 13756307348121783L
 			}]
 		}
 		{
@@ -1188,9 +1177,9 @@
 				item: "indrev:lazuli_flux_container_mk4"
 			}]
 			rewards: [{
-				id: "27E20A9B069DA06B"
-				type: "random"
-				table_id: 5023855478423149265L
+				id: "51DF4433C363C8A8"
+				type: "loot"
+				table_id: 13756307348121783L
 			}]
 		}
 		{
@@ -1204,6 +1193,11 @@
 				type: "item"
 				item: "cyti:trashcan_item"
 			}]
+			rewards: [{
+				id: "15D4BF65951E6D1B"
+				type: "loot"
+				table_id: 13756307348121783L
+			}]
 		}
 		{
 			x: 15.5d
@@ -1216,6 +1210,11 @@
 				id: "6EB150C656F759E2"
 				type: "item"
 				item: "cyti:trashcan_fluid"
+			}]
+			rewards: [{
+				id: "0EB7671F315434B5"
+				type: "loot"
+				table_id: 13756307348121783L
 			}]
 		}
 		{
@@ -1241,6 +1240,11 @@
 				id: "33E2E81D15BBA2DD"
 				type: "item"
 				item: "cyti:trashcan_energy"
+			}]
+			rewards: [{
+				id: "59767BB9896E3756"
+				type: "loot"
+				table_id: 13756307348121783L
 			}]
 		}
 	]

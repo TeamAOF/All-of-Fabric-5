@@ -30,14 +30,6 @@
 				id: "0AE0962EF2F84060"
 				type: "checkmark"
 				title: "Your every day toolbelt"
-				icon: {
-					gprops: { }
-					id: "betterend:iron_hammer"
-					Count: 1b
-					tag: {
-						Damage: 0
-					}
-				}
 			}]
 		}
 		{
@@ -56,14 +48,19 @@
 					tag: {
 						Damage: 0
 						state: {
-							data: { }
 							state: {
 								Name: "minecraft:air"
 							}
+							data: { }
 							serializer: "buildinggadgets:dummy_serializer"
 						}
 					}
 				}
+			}]
+			rewards: [{
+				id: "5EA1ECBEFF608B9C"
+				type: "loot"
+				table_id: 13756307348121783L
 			}]
 		}
 		{
@@ -81,14 +78,19 @@
 					tag: {
 						Damage: 0
 						state: {
-							data: { }
 							state: {
 								Name: "minecraft:air"
 							}
+							data: { }
 							serializer: "buildinggadgets:dummy_serializer"
 						}
 					}
 				}
+			}]
+			rewards: [{
+				id: "33177193670A70BC"
+				type: "loot"
+				table_id: 13756307348121783L
 			}]
 		}
 		{
@@ -116,6 +118,11 @@
 					}
 				}
 			}]
+			rewards: [{
+				id: "77136482EFE2C8EA"
+				type: "loot"
+				table_id: 13756307348121783L
+			}]
 		}
 		{
 			x: -2.5d
@@ -127,6 +134,11 @@
 				id: "2A15AF7129E1D209"
 				type: "item"
 				item: "chisel:chisel"
+			}]
+			rewards: [{
+				id: "274486AF5C53B027"
+				type: "loot"
+				table_id: 13756307348121783L
 			}]
 		}
 		{
@@ -152,6 +164,11 @@
 					}
 				}
 			}]
+			rewards: [{
+				id: "567C37D50BB09667"
+				type: "loot"
+				table_id: 13756307348121783L
+			}]
 		}
 		{
 			x: -1.5d
@@ -167,10 +184,15 @@
 					Count: 1b
 					tag: {
 						overlay: 1b
-						fuzzy: 1b
 						Damage: 0
+						fuzzy: 1b
 					}
 				}
+			}]
+			rewards: [{
+				id: "5D4DEF0828F97584"
+				type: "loot"
+				table_id: 13756307348121783L
 			}]
 		}
 		{
@@ -191,9 +213,9 @@
 				}
 			}]
 			rewards: [{
-				id: "5677C2D9C37F313E"
-				type: "random"
-				table_id: 8530759241018555690L
+				id: "7629EE7C60C978CF"
+				type: "loot"
+				table_id: 13756307348121783L
 			}]
 		}
 		{
@@ -213,6 +235,11 @@
 					}
 				}
 			}]
+			rewards: [{
+				id: "051478D507A6B7E3"
+				type: "loot"
+				table_id: 13756307348121783L
+			}]
 		}
 		{
 			x: -0.5d
@@ -230,6 +257,11 @@
 						Damage: 0
 					}
 				}
+			}]
+			rewards: [{
+				id: "6485B3F9E55938C3"
+				type: "loot"
+				table_id: 13756307348121783L
 			}]
 		}
 		{
@@ -249,6 +281,11 @@
 					}
 				}
 			}]
+			rewards: [{
+				id: "4DA7C6B4311E9295"
+				type: "loot"
+				table_id: 13756307348121783L
+			}]
 		}
 		{
 			x: 1.5d
@@ -266,6 +303,11 @@
 						Damage: 0
 					}
 				}
+			}]
+			rewards: [{
+				id: "7BE7724358457022"
+				type: "loot"
+				table_id: 13756307348121783L
 			}]
 		}
 		{
@@ -334,21 +376,6 @@
 					type: "item"
 					item: "promenade:cherry_oak_log"
 					count: 64
-				}
-				{
-					id: "2824B9074251A122"
-					type: "random"
-					table_id: 2482271367426889676L
-				}
-				{
-					id: "76EFC6B153970767"
-					type: "random"
-					table_id: 2482271367426889676L
-				}
-				{
-					id: "7654DAFA9263A647"
-					type: "random"
-					table_id: 2482271367426889676L
 				}
 			]
 		}

@@ -42,6 +42,11 @@
 					tag: { }
 				}
 			}]
+			rewards: [{
+				id: "3B3F6A1571989667"
+				type: "loot"
+				table_id: 13756307348121783L
+			}]
 		}
 		{
 			title: "Fishes and Crates!"
@@ -116,6 +121,18 @@
 					item: "gofish:diamond_crate"
 				}
 			]
+			rewards: [
+				{
+					id: "69D9C7A4DDC5D916"
+					type: "loot"
+					table_id: 13756307348121783L
+				}
+				{
+					id: "0BF03DB8E0019CD2"
+					type: "loot"
+					table_id: 13756307348121783L
+				}
+			]
 		}
 		{
 			title: "Waystones"
@@ -132,6 +149,11 @@
 				timer: 0L
 				observe_type: 0
 				to_observe: "waystones:waystone"
+			}]
+			rewards: [{
+				id: "7E79E623D0CD9F54"
+				type: "loot"
+				table_id: 13756307348121783L
 			}]
 		}
 		{
@@ -156,6 +178,11 @@
 				observe_type: 0
 				to_observe: "bounties:bountyboard"
 			}]
+			rewards: [{
+				id: "15F460C5E0FFCE17"
+				type: "loot"
+				table_id: 13756307348121783L
+			}]
 		}
 		{
 			title: "Find a Graveyard"
@@ -169,6 +196,11 @@
 				id: "63A78B39851541A7"
 				type: "structure"
 				structure: "thegraveyard:small_graveyard"
+			}]
+			rewards: [{
+				id: "151790FF4F267945"
+				type: "loot"
+				table_id: 13756307348121783L
 			}]
 		}
 		{
@@ -198,6 +230,11 @@
 				entity: "adventurez:stone_golem"
 				value: 1L
 			}]
+			rewards: [{
+				id: "3AB6310C2FA1E582"
+				type: "loot"
+				table_id: 13756307348121783L
+			}]
 		}
 		{
 			title: "The Eye"
@@ -225,6 +262,11 @@
 				}
 				entity: "adventurez:the_eye"
 				value: 1L
+			}]
+			rewards: [{
+				id: "66B56E16696B659F"
+				type: "loot"
+				table_id: 13756307348121783L
 			}]
 		}
 	]

@@ -46,6 +46,11 @@
 				type: "item"
 				item: "spectrum:mermaids_brush"
 			}]
+			rewards: [{
+				id: "234B9442144507C5"
+				type: "loot"
+				table_id: 13756307348121783L
+			}]
 		}
 		{
 			x: 9.5d
@@ -57,6 +62,11 @@
 				id: "0219D503BAB9A493"
 				type: "item"
 				item: "spectrum:mermaids_gem"
+			}]
+			rewards: [{
+				id: "2859B7AA60045469"
+				type: "loot"
+				table_id: 13756307348121783L
 			}]
 		}
 		{
@@ -71,6 +81,11 @@
 				advancement: "spectrum:collect_all_basic_shards"
 				criterion: ""
 			}]
+			rewards: [{
+				id: "4EEA476803C3672F"
+				type: "loot"
+				table_id: 13756307348121783L
+			}]
 		}
 		{
 			x: 3.5d
@@ -83,6 +98,11 @@
 				advancement: "spectrum:craft_colored_pedestal"
 				criterion: ""
 			}]
+			rewards: [{
+				id: "1D92BB2FDA46790F"
+				type: "loot"
+				table_id: 13756307348121783L
+			}]
 		}
 		{
 			x: 5.0d
@@ -94,6 +114,11 @@
 				type: "advancement"
 				advancement: "spectrum:build_basic_pedestal_structure"
 				criterion: ""
+			}]
+			rewards: [{
+				id: "1D32B309EFF17941"
+				type: "loot"
+				table_id: 13756307348121783L
 			}]
 		}
 		{
@@ -108,11 +133,18 @@
 				advancement: "spectrum:place_pedestal"
 				criterion: ""
 			}]
-			rewards: [{
-				id: "12C6CB96FD6FD2CD"
-				type: "item"
-				item: "minecraft:anvil"
-			}]
+			rewards: [
+				{
+					id: "12C6CB96FD6FD2CD"
+					type: "item"
+					item: "minecraft:anvil"
+				}
+				{
+					id: "47B0357A4ABA1193"
+					type: "loot"
+					table_id: 13756307348121783L
+				}
+			]
 		}
 		{
 			x: 2.0d
@@ -125,6 +157,11 @@
 				type: "advancement"
 				advancement: "spectrum:collect_gemstone_powder"
 				criterion: ""
+			}]
+			rewards: [{
+				id: "36ACE50D44A6D519"
+				type: "loot"
+				table_id: 13756307348121783L
 			}]
 		}
 		{
@@ -141,6 +178,11 @@
 				advancement: "spectrum:midgame/craft_bottle_of_failing"
 				criterion: ""
 			}]
+			rewards: [{
+				id: "2DD4B56B20CF129B"
+				type: "loot"
+				table_id: 13756307348121783L
+			}]
 		}
 		{
 			x: 3.5d
@@ -153,6 +195,11 @@
 				type: "advancement"
 				advancement: "spectrum:collect_quitoxic_reeds"
 				criterion: ""
+			}]
+			rewards: [{
+				id: "36A116E4625D11E6"
+				type: "loot"
+				table_id: 13756307348121783L
 			}]
 		}
 		{
@@ -170,6 +217,11 @@
 				advancement: "spectrum:craft_using_pedestal"
 				criterion: ""
 			}]
+			rewards: [{
+				id: "5A9E1AF931F9CCA4"
+				type: "loot"
+				table_id: 13756307348121783L
+			}]
 		}
 		{
 			x: 2.0d
@@ -182,6 +234,11 @@
 				type: "advancement"
 				advancement: "spectrum:collect_sparklestone"
 				criterion: ""
+			}]
+			rewards: [{
+				id: "4F9E610F1DD722F7"
+				type: "loot"
+				table_id: 13756307348121783L
 			}]
 		}
 		{
@@ -200,6 +257,11 @@
 				advancement: "spectrum:craft_bottle_of_fading"
 				criterion: ""
 			}]
+			rewards: [{
+				id: "3B7BC022A5A971F3"
+				type: "loot"
+				table_id: 13756307348121783L
+			}]
 		}
 		{
 			x: 3.5d
@@ -217,6 +279,11 @@
 				advancement: "spectrum:collect_vegetal"
 				criterion: ""
 			}]
+			rewards: [{
+				id: "1CA80A7983D7CCC0"
+				type: "loot"
+				table_id: 13756307348121783L
+			}]
 		}
 		{
 			x: 5.0d
@@ -230,6 +297,11 @@
 				advancement: "spectrum:craft_colored_sapling"
 				criterion: ""
 			}]
+			rewards: [{
+				id: "40EE17DAA7859E8B"
+				type: "loot"
+				table_id: 13756307348121783L
+			}]
 		}
 		{
 			x: 6.5d
@@ -242,6 +314,11 @@
 				type: "advancement"
 				advancement: "spectrum:collect_pigment"
 				criterion: ""
+			}]
+			rewards: [{
+				id: "1CF3AA62BAB7B6BE"
+				type: "loot"
+				table_id: 13756307348121783L
 			}]
 		}
 		{
@@ -268,6 +345,11 @@
 				advancement: "spectrum:collect_all_basic_pigments_besides_brown"
 				criterion: ""
 			}]
+			rewards: [{
+				id: "48B135B3B2182FDB"
+				type: "loot"
+				table_id: 13756307348121783L
+			}]
 		}
 		{
 			x: 8.0d
@@ -277,6 +359,11 @@
 				id: "1CE9634136FBB731"
 				type: "item"
 				item: "spectrum:orange_pigment"
+			}]
+			rewards: [{
+				id: "124FC5D47240F437"
+				type: "loot"
+				table_id: 13756307348121783L
 			}]
 		}
 		{
@@ -288,6 +375,11 @@
 				type: "item"
 				item: "spectrum:magenta_pigment"
 			}]
+			rewards: [{
+				id: "3D4B1E010CDA62C8"
+				type: "loot"
+				table_id: 13756307348121783L
+			}]
 		}
 		{
 			x: 5.0d
@@ -297,6 +389,11 @@
 				id: "29882807DF613632"
 				type: "item"
 				item: "spectrum:light_blue_pigment"
+			}]
+			rewards: [{
+				id: "529BD938798A7297"
+				type: "loot"
+				table_id: 13756307348121783L
 			}]
 		}
 		{
@@ -308,6 +405,11 @@
 				type: "item"
 				item: "spectrum:yellow_pigment"
 			}]
+			rewards: [{
+				id: "5C69CFD4FD310359"
+				type: "loot"
+				table_id: 13756307348121783L
+			}]
 		}
 		{
 			x: 5.0d
@@ -317,6 +419,11 @@
 				id: "2B9ADBDF75721934"
 				type: "item"
 				item: "spectrum:lime_pigment"
+			}]
+			rewards: [{
+				id: "6F1CCF589652C316"
+				type: "loot"
+				table_id: 13756307348121783L
 			}]
 		}
 		{
@@ -328,6 +435,11 @@
 				type: "item"
 				item: "spectrum:pink_pigment"
 			}]
+			rewards: [{
+				id: "66A2CE85E4CA68C6"
+				type: "loot"
+				table_id: 13756307348121783L
+			}]
 		}
 		{
 			x: 5.0d
@@ -337,6 +449,11 @@
 				id: "3CE56A94BB668E9C"
 				type: "item"
 				item: "spectrum:cyan_pigment"
+			}]
+			rewards: [{
+				id: "67A9FDD934B7869B"
+				type: "loot"
+				table_id: 13756307348121783L
 			}]
 		}
 		{
@@ -348,6 +465,11 @@
 				type: "item"
 				item: "spectrum:purple_pigment"
 			}]
+			rewards: [{
+				id: "792070E157CF1065"
+				type: "loot"
+				table_id: 13756307348121783L
+			}]
 		}
 		{
 			x: 5.0d
@@ -357,6 +479,11 @@
 				id: "702FE6C32B80A53E"
 				type: "item"
 				item: "spectrum:blue_pigment"
+			}]
+			rewards: [{
+				id: "35756DC7E76EE4E2"
+				type: "loot"
+				table_id: 13756307348121783L
 			}]
 		}
 		{
@@ -368,6 +495,11 @@
 				type: "item"
 				item: "spectrum:green_pigment"
 			}]
+			rewards: [{
+				id: "3CE84D947815AF7D"
+				type: "loot"
+				table_id: 13756307348121783L
+			}]
 		}
 		{
 			x: 8.0d
@@ -377,6 +509,11 @@
 				id: "00F3A6DC94F0AC91"
 				type: "item"
 				item: "spectrum:red_pigment"
+			}]
+			rewards: [{
+				id: "5453E67AEACD0B09"
+				type: "loot"
+				table_id: 13756307348121783L
 			}]
 		}
 		{
@@ -393,6 +530,11 @@
 				advancement: "spectrum:build_fusion_shrine"
 				criterion: ""
 			}]
+			rewards: [{
+				id: "0AE6F7E82DE777F4"
+				type: "loot"
+				table_id: 13756307348121783L
+			}]
 		}
 		{
 			x: 8.0d
@@ -404,6 +546,11 @@
 				type: "advancement"
 				advancement: "spectrum:create_onyx_shard"
 				criterion: ""
+			}]
+			rewards: [{
+				id: "6029A74459C27B43"
+				type: "loot"
+				table_id: 13756307348121783L
 			}]
 		}
 		{
@@ -417,6 +564,11 @@
 				advancement: "spectrum:craft_onyx_pedestal"
 				criterion: ""
 			}]
+			rewards: [{
+				id: "10F0A4EE7E7E6803"
+				type: "loot"
+				table_id: 13756307348121783L
+			}]
 		}
 		{
 			x: 11.0d
@@ -429,10 +581,15 @@
 				advancement: "spectrum:midgame/build_advanced_pedestal_structure"
 				criterion: ""
 			}]
+			rewards: [{
+				id: "4740DB8D7DFEE405"
+				type: "loot"
+				table_id: 13756307348121783L
+			}]
 		}
 		{
-			x: 11.0d
-			y: -3.0d
+			x: 19.0d
+			y: 3.5d
 			description: ["Chapter 2"]
 			id: "19FDC7218CA78F3B"
 			tasks: [{
@@ -440,6 +597,11 @@
 				type: "advancement"
 				advancement: "spectrum:midgame/spectrum_midgame"
 				criterion: ""
+			}]
+			rewards: [{
+				id: "2ECD9F6550D3A901"
+				type: "loot"
+				table_id: 13756307348121783L
 			}]
 		}
 		{
@@ -452,6 +614,11 @@
 				type: "advancement"
 				advancement: "spectrum:midgame/collect_scarlet"
 				criterion: ""
+			}]
+			rewards: [{
+				id: "28F8FB582AFFC021"
+				type: "loot"
+				table_id: 13756307348121783L
 			}]
 		}
 		{
@@ -470,6 +637,11 @@
 				advancement: "spectrum:midgame/collect_neolith"
 				criterion: ""
 			}]
+			rewards: [{
+				id: "5653ABF9D4C32A2D"
+				type: "loot"
+				table_id: 13756307348121783L
+			}]
 		}
 		{
 			x: 9.5d
@@ -487,6 +659,11 @@
 					}
 				}
 			}]
+			rewards: [{
+				id: "40700F2EA0CDDD25"
+				type: "loot"
+				table_id: 13756307348121783L
+			}]
 		}
 		{
 			x: 11.0d
@@ -502,6 +679,11 @@
 				advancement: "spectrum:midgame/enter_liquid_crystal"
 				criterion: ""
 			}]
+			rewards: [{
+				id: "24EEBA48321D09F0"
+				type: "loot"
+				table_id: 13756307348121783L
+			}]
 		}
 		{
 			x: 12.5d
@@ -513,6 +695,11 @@
 				type: "advancement"
 				advancement: "spectrum:midgame/build_enchanting_structure"
 				criterion: ""
+			}]
+			rewards: [{
+				id: "05C1C6C9F5CECF91"
+				type: "loot"
+				table_id: 13756307348121783L
 			}]
 		}
 		{
@@ -528,6 +715,11 @@
 				advancement: "spectrum:midgame/enchant_book"
 				criterion: ""
 			}]
+			rewards: [{
+				id: "62A59B54E2727F3D"
+				type: "loot"
+				table_id: 13756307348121783L
+			}]
 		}
 		{
 			x: 14.5d
@@ -540,6 +732,11 @@
 				id: "6C376CC54335E769"
 				type: "item"
 				item: "spectrum:knowledge_gem"
+			}]
+			rewards: [{
+				id: "49864D20B054DD55"
+				type: "loot"
+				table_id: 13756307348121783L
 			}]
 		}
 		{
@@ -554,6 +751,11 @@
 				advancement: "spectrum:midgame/collect_azurite"
 				criterion: ""
 			}]
+			rewards: [{
+				id: "396317CFD5EB00BF"
+				type: "loot"
+				table_id: 13756307348121783L
+			}]
 		}
 		{
 			x: 18.5d
@@ -567,6 +769,11 @@
 				advancement: "spectrum:midgame/craft_bottle_of_decay_away"
 				criterion: ""
 			}]
+			rewards: [{
+				id: "40DACBBDC54E040E"
+				type: "loot"
+				table_id: 13756307348121783L
+			}]
 		}
 		{
 			x: 18.5d
@@ -579,6 +786,11 @@
 				type: "advancement"
 				advancement: "spectrum:midgame/create_refined_azurite"
 				criterion: ""
+			}]
+			rewards: [{
+				id: "1143364F1A2B988F"
+				type: "loot"
+				table_id: 13756307348121783L
 			}]
 		}
 	]

@@ -12,7 +12,7 @@
 	default_quest_shape: "square"
 	default_hide_dependency_lines: false
 	images: [{
-		x: -12.5d
+		x: -10.5d
 		y: -1.0d
 		width: 3.0d
 		height: 3.0d
@@ -33,6 +33,11 @@
 				id: "5AD216578C6CD5BE"
 				type: "item"
 				item: "conjuring:gem_socket"
+			}]
+			rewards: [{
+				id: "633AF0EF5C55D78F"
+				type: "loot"
+				table_id: 13756307348121783L
 			}]
 		}
 		{
@@ -57,6 +62,11 @@
 				type: "item"
 				item: "conjuring:gem_tinkerer"
 			}]
+			rewards: [{
+				id: "732CB90B4CC399F6"
+				type: "loot"
+				table_id: 13756307348121783L
+			}]
 		}
 		{
 			x: -7.5d
@@ -69,6 +79,11 @@
 				id: "1A6A427027AF0958"
 				type: "item"
 				item: "conjuring:soulfire_forge"
+			}]
+			rewards: [{
+				id: "6418BC43F10BD732"
+				type: "loot"
+				table_id: 13756307348121783L
 			}]
 		}
 		{
@@ -125,6 +140,11 @@
 					tag: { }
 				}
 			}]
+			rewards: [{
+				id: "0CFCF3549FA644E5"
+				type: "loot"
+				table_id: 13756307348121783L
+			}]
 		}
 		{
 			x: -6.0d
@@ -137,6 +157,11 @@
 				id: "68E63E56E52EA132"
 				type: "item"
 				item: "conjuring:soul_alloy"
+			}]
+			rewards: [{
+				id: "788B845CAF39216D"
+				type: "loot"
+				table_id: 13756307348121783L
 			}]
 		}
 		{
@@ -154,6 +179,11 @@
 				id: "7665D64C554FEF12"
 				type: "item"
 				item: "conjuring:soul_slice"
+			}]
+			rewards: [{
+				id: "5AB2151A2D120123"
+				type: "loot"
+				table_id: 13756307348121783L
 			}]
 		}
 		{
@@ -187,6 +217,11 @@
 					}
 				}
 			}]
+			rewards: [{
+				id: "3002B2E585C3347B"
+				type: "loot"
+				table_id: 13756307348121783L
+			}]
 		}
 		{
 			x: 0.5d
@@ -218,6 +253,11 @@
 						Modifiers: { }
 					}
 				}
+			}]
+			rewards: [{
+				id: "3740E294EF2C744D"
+				type: "loot"
+				table_id: 13756307348121783L
 			}]
 		}
 		{
@@ -251,6 +291,11 @@
 					}
 				}
 			}]
+			rewards: [{
+				id: "3E2773F64CB289B4"
+				type: "loot"
+				table_id: 13756307348121783L
+			}]
 		}
 		{
 			x: 3.5d
@@ -283,6 +328,11 @@
 					}
 				}
 			}]
+			rewards: [{
+				id: "0F59C9A2142B0DE1"
+				type: "loot"
+				table_id: 13756307348121783L
+			}]
 		}
 		{
 			x: -6.0d
@@ -302,6 +352,11 @@
 				type: "item"
 				item: "conjuring:conjuration_essence"
 			}]
+			rewards: [{
+				id: "6944EA4B397D995C"
+				type: "loot"
+				table_id: 13756307348121783L
+			}]
 		}
 		{
 			x: -3.0d
@@ -314,6 +369,11 @@
 				id: "5D56B9D6B720A4DE"
 				type: "item"
 				item: "conjuring:lesser_conjuration_essence"
+			}]
+			rewards: [{
+				id: "6AAD9611B759D03A"
+				type: "loot"
+				table_id: 13756307348121783L
 			}]
 		}
 		{
@@ -331,6 +391,11 @@
 				id: "21FA46FF3840E447"
 				type: "item"
 				item: "conjuring:conjuring_scepter"
+			}]
+			rewards: [{
+				id: "4A98520164393F60"
+				type: "loot"
+				table_id: 13756307348121783L
 			}]
 		}
 		{
@@ -354,6 +419,11 @@
 				id: "6B73E673A80B0705"
 				type: "item"
 				item: "conjuring:superior_conjuring_scepter"
+			}]
+			rewards: [{
+				id: "5B2E49E9BB27216C"
+				type: "loot"
+				table_id: 13756307348121783L
 			}]
 		}
 		{
@@ -384,6 +454,11 @@
 				type: "item"
 				item: "conjuring:soul_funnel"
 			}]
+			rewards: [{
+				id: "78A79979DB967D26"
+				type: "loot"
+				table_id: 13756307348121783L
+			}]
 		}
 		{
 			title: "Ritual of Weaving"
@@ -404,6 +479,11 @@
 				id: "2AEE7687908351FC"
 				type: "item"
 				item: "conjuring:soul_weaver"
+			}]
+			rewards: [{
+				id: "32178DCACFFBAEA4"
+				type: "loot"
+				table_id: 13756307348121783L
 			}]
 		}
 		{
@@ -434,6 +514,11 @@
 				type: "item"
 				item: "conjuring:conjurer"
 			}]
+			rewards: [{
+				id: "365F4B31BC3B4063"
+				type: "loot"
+				table_id: 13756307348121783L
+			}]
 		}
 		{
 			x: -0.5d
@@ -451,6 +536,11 @@
 				id: "26EDCAA58BEDC06A"
 				type: "item"
 				item: "conjuring:distilled_spirit"
+			}]
+			rewards: [{
+				id: "05B2E1661FE80B9F"
+				type: "loot"
+				table_id: 13756307348121783L
 			}]
 		}
 		{
@@ -481,6 +571,11 @@
 					item: "conjuring:scope_gem"
 				}
 			]
+			rewards: [{
+				id: "758AA3DA9243E6CE"
+				type: "loot"
+				table_id: 13756307348121783L
+			}]
 		}
 		{
 			title: "Charms"
@@ -513,6 +608,11 @@
 					item: "conjuring:scope_charm"
 				}
 			]
+			rewards: [{
+				id: "5870FEAC800943C7"
+				type: "loot"
+				table_id: 13756307348121783L
+			}]
 		}
 		{
 			x: -1.5d
@@ -540,6 +640,11 @@
 					tag: { }
 				}
 			}]
+			rewards: [{
+				id: "14EC64E36638B743"
+				type: "loot"
+				table_id: 13756307348121783L
+			}]
 		}
 		{
 			title: "Ritual Basics"
@@ -562,6 +667,11 @@
 				item: "conjuring:blackstone_pedestal"
 				count: 4L
 			}]
+			rewards: [{
+				id: "29C9136D229DD029"
+				type: "loot"
+				table_id: 13756307348121783L
+			}]
 		}
 		{
 			x: -6.0d
@@ -572,6 +682,11 @@
 				id: "65CC3667BE68F75F"
 				type: "item"
 				item: "conjuring:soul_rod"
+			}]
+			rewards: [{
+				id: "1E740640A0415092"
+				type: "loot"
+				table_id: 13756307348121783L
 			}]
 		}
 	]

@@ -44,6 +44,11 @@
 					item: "indrev:screwdriver"
 				}
 			]
+			rewards: [{
+				id: "4720059137F90A5F"
+				type: "loot"
+				table_id: 13756307348121783L
+			}]
 		}
 		{
 			x: -5.0d
@@ -57,9 +62,9 @@
 				item: "indrev:circuit_mk1"
 			}]
 			rewards: [{
-				id: "5F2EFE144BB098DC"
-				type: "item"
-				item: "indrev:circuit_mk1"
+				id: "60234C95A7D3BCFD"
+				type: "loot"
+				table_id: 13756307348121783L
 			}]
 		}
 		{
@@ -77,9 +82,9 @@
 				item: "indrev:circuit_mk2"
 			}]
 			rewards: [{
-				id: "30F94EDD142AD0A5"
-				type: "item"
-				item: "indrev:circuit_mk2"
+				id: "7F63E09195415C97"
+				type: "loot"
+				table_id: 13756307348121783L
 			}]
 		}
 		{
@@ -97,9 +102,9 @@
 				item: "indrev:circuit_mk3"
 			}]
 			rewards: [{
-				id: "60848CAD2C7A4625"
-				type: "item"
-				item: "indrev:circuit_mk3"
+				id: "70FAADD8808AF9C0"
+				type: "loot"
+				table_id: 13756307348121783L
 			}]
 		}
 		{
@@ -117,9 +122,9 @@
 				item: "indrev:circuit_mk4"
 			}]
 			rewards: [{
-				id: "1A39118E2DE8AB1E"
-				type: "item"
-				item: "indrev:circuit_mk4"
+				id: "3193B63980DA6223"
+				type: "loot"
+				table_id: 13756307348121783L
 			}]
 		}
 		{
@@ -133,11 +138,18 @@
 				type: "item"
 				item: "indrev:machine_block"
 			}]
-			rewards: [{
-				id: "34040D4E9EF57B7F"
-				type: "item"
-				item: "minecraft:iron_block"
-			}]
+			rewards: [
+				{
+					id: "34040D4E9EF57B7F"
+					type: "item"
+					item: "minecraft:iron_block"
+				}
+				{
+					id: "2906D5521822641E"
+					type: "loot"
+					table_id: 13756307348121783L
+				}
+			]
 		}
 		{
 			x: -8.0d
@@ -149,11 +161,18 @@
 				type: "item"
 				item: "indrev:battery"
 			}]
-			rewards: [{
-				id: "07D53991E89D98DC"
-				type: "item"
-				item: "indrev:battery"
-			}]
+			rewards: [
+				{
+					id: "07D53991E89D98DC"
+					type: "item"
+					item: "indrev:battery"
+				}
+				{
+					id: "7EB4DA6CEFEC317B"
+					type: "loot"
+					table_id: 13756307348121783L
+				}
+			]
 		}
 		{
 			x: -9.5d
@@ -165,6 +184,11 @@
 				id: "7C0D0B3221DF3798"
 				type: "item"
 				item: "indrev:coal_generator_mk1"
+			}]
+			rewards: [{
+				id: "365ED893BED2D1CC"
+				type: "loot"
+				table_id: 13756307348121783L
 			}]
 		}
 		{
@@ -179,9 +203,9 @@
 				item: "indrev:solar_generator_mk1"
 			}]
 			rewards: [{
-				id: "658AA537C6E1FD90"
-				type: "random"
-				table_id: 2482271367426889676L
+				id: "69110FBD8C2663AF"
+				type: "loot"
+				table_id: 13756307348121783L
 			}]
 		}
 		{
@@ -195,9 +219,9 @@
 				item: "indrev:nikolite_ingot"
 			}]
 			rewards: [{
-				id: "16B33460B706E717"
-				type: "item"
-				item: "indrev:nikolite_ingot"
+				id: "10280B9CCD8AD6D5"
+				type: "loot"
+				table_id: 13756307348121783L
 			}]
 		}
 		{
@@ -218,6 +242,11 @@
 					item: "indrev:sawmill_mk1"
 				}
 			]
+			rewards: [{
+				id: "529E34AAB5D0E878"
+				type: "loot"
+				table_id: 13756307348121783L
+			}]
 		}
 		{
 			x: -6.5d
@@ -235,6 +264,11 @@
 				type: "item"
 				item: "indrev:pulverizer_mk1"
 			}]
+			rewards: [{
+				id: "28BFAB8A86AD7ACF"
+				type: "loot"
+				table_id: 13756307348121783L
+			}]
 		}
 		{
 			x: -6.5d
@@ -246,6 +280,11 @@
 				id: "149E01643E01157E"
 				type: "item"
 				item: "indrev:solid_infuser_mk1"
+			}]
+			rewards: [{
+				id: "6662C98EC78F3304"
+				type: "loot"
+				table_id: 13756307348121783L
 			}]
 		}
 		{
@@ -260,12 +299,19 @@
 				type: "item"
 				item: "indrev:nikolite_dust"
 			}]
-			rewards: [{
-				id: "361AEFAEDC96E694"
-				type: "item"
-				item: "indrev:nikolite_dust"
-				count: 4
-			}]
+			rewards: [
+				{
+					id: "361AEFAEDC96E694"
+					type: "item"
+					item: "indrev:nikolite_dust"
+					count: 4
+				}
+				{
+					id: "54A9F43D6B3544F9"
+					type: "loot"
+					table_id: 13756307348121783L
+				}
+			]
 		}
 		{
 			x: -5.0d
@@ -278,6 +324,11 @@
 				id: "2FF7126AFE0D915D"
 				type: "item"
 				item: "indrev:lazuli_flux_container_mk1"
+			}]
+			rewards: [{
+				id: "24A1ECEAA66A14F5"
+				type: "loot"
+				table_id: 13756307348121783L
 			}]
 		}
 		{
@@ -332,6 +383,11 @@
 					item: "indrev:rancher_mk1"
 				}
 			]
+			rewards: [{
+				id: "34F527025E277FDD"
+				type: "loot"
+				table_id: 13756307348121783L
+			}]
 		}
 		{
 			x: -9.5d
@@ -343,6 +399,11 @@
 				id: "1A45BB2D75F41120"
 				type: "item"
 				item: "indrev:compressor_mk1"
+			}]
+			rewards: [{
+				id: "221A118BA6E687E1"
+				type: "loot"
+				table_id: 13756307348121783L
 			}]
 		}
 		{
@@ -357,6 +418,11 @@
 				type: "item"
 				item: "indrev:fluid_infuser_mk1"
 			}]
+			rewards: [{
+				id: "1F8E2F0ACBC0B2BE"
+				type: "loot"
+				table_id: 13756307348121783L
+			}]
 		}
 		{
 			x: -3.0d
@@ -370,9 +436,9 @@
 				item: "modern_industrialization:diamond_dust"
 			}]
 			rewards: [{
-				id: "301C463543A75132"
-				type: "item"
-				item: "modern_industrialization:diamond_dust"
+				id: "5194420B21D62735"
+				type: "loot"
+				table_id: 13756307348121783L
 			}]
 		}
 		{
@@ -389,9 +455,9 @@
 				item: "indrev:enriched_nikolite_dust"
 			}]
 			rewards: [{
-				id: "243C78C00D94A4B6"
-				type: "item"
-				item: "indrev:enriched_nikolite_dust"
+				id: "52C9FC817FDC6C0E"
+				type: "loot"
+				table_id: 13756307348121783L
 			}]
 		}
 		{
@@ -405,9 +471,9 @@
 				item: "indrev:enriched_nikolite_ingot"
 			}]
 			rewards: [{
-				id: "38549865E8684F77"
-				type: "item"
-				item: "indrev:enriched_nikolite_ingot"
+				id: "752D3493616DF405"
+				type: "loot"
+				table_id: 13756307348121783L
 			}]
 		}
 		{
@@ -422,10 +488,9 @@
 				item: "indrev:mining_drill_mk1"
 			}]
 			rewards: [{
-				id: "457D3DC1C9BE4470"
-				type: "item"
-				item: "indrev:nikolite_dust"
-				count: 32
+				id: "31B2EFE5BBFBB088"
+				type: "loot"
+				table_id: 13756307348121783L
 			}]
 		}
 		{
@@ -439,6 +504,11 @@
 				type: "item"
 				item: "indrev:energy_reader"
 			}]
+			rewards: [{
+				id: "76AC752565C62F15"
+				type: "loot"
+				table_id: 13756307348121783L
+			}]
 		}
 		{
 			x: -2.0d
@@ -450,6 +520,11 @@
 				id: "1420C61D8BC1EEB5"
 				type: "item"
 				item: "indrev:mining_drill_mk2"
+			}]
+			rewards: [{
+				id: "05C8BC9D520F72CB"
+				type: "loot"
+				table_id: 13756307348121783L
 			}]
 		}
 		{
@@ -463,6 +538,11 @@
 				type: "item"
 				item: "indrev:mining_drill_mk3"
 			}]
+			rewards: [{
+				id: "7E0B053CC2D14BD0"
+				type: "loot"
+				table_id: 13756307348121783L
+			}]
 		}
 		{
 			x: 2.0d
@@ -475,6 +555,11 @@
 				id: "53580499F202653B"
 				type: "item"
 				item: "indrev:mining_drill_mk4"
+			}]
+			rewards: [{
+				id: "6E10EE8430AADE3C"
+				type: "loot"
+				table_id: 13756307348121783L
 			}]
 		}
 		{
@@ -492,6 +577,11 @@
 				type: "item"
 				item: "indrev:lazuli_flux_container_mk2"
 			}]
+			rewards: [{
+				id: "0D8F80FEE84F4456"
+				type: "loot"
+				table_id: 13756307348121783L
+			}]
 		}
 		{
 			x: -1.0d
@@ -507,6 +597,11 @@
 				id: "2041703820C07DDA"
 				type: "item"
 				item: "indrev:lazuli_flux_container_mk3"
+			}]
+			rewards: [{
+				id: "1857F7A4299EF2C0"
+				type: "loot"
+				table_id: 13756307348121783L
 			}]
 		}
 		{
@@ -524,6 +619,11 @@
 				type: "item"
 				item: "indrev:lazuli_flux_container_mk4"
 			}]
+			rewards: [{
+				id: "6830A009FE724BF3"
+				type: "loot"
+				table_id: 13756307348121783L
+			}]
 		}
 		{
 			x: -11.0d
@@ -536,6 +636,11 @@
 				id: "2160975BE87B0F26"
 				type: "item"
 				item: "indrev:fisher_mk2"
+			}]
+			rewards: [{
+				id: "66CCEA10C0DAA919"
+				type: "loot"
+				table_id: 13756307348121783L
 			}]
 		}
 		{
@@ -561,6 +666,11 @@
 				type: "item"
 				item: "indrev:fisher_mk3"
 			}]
+			rewards: [{
+				id: "27AF35B731705597"
+				type: "loot"
+				table_id: 13756307348121783L
+			}]
 		}
 		{
 			x: -14.0d
@@ -571,6 +681,11 @@
 				id: "365BDA0295FF4F41"
 				type: "item"
 				item: "indrev:fisher_mk4"
+			}]
+			rewards: [{
+				id: "0114868109ACE32E"
+				type: "loot"
+				table_id: 13756307348121783L
 			}]
 		}
 		{
@@ -583,6 +698,11 @@
 				id: "52DD22CF4838D5B7"
 				type: "item"
 				item: "indrev:empty_enhancer"
+			}]
+			rewards: [{
+				id: "543BD1ABDAE0E105"
+				type: "loot"
+				table_id: 13756307348121783L
 			}]
 		}
 		{
@@ -628,6 +748,11 @@
 					item: "indrev:damage_enhancer"
 				}
 			]
+			rewards: [{
+				id: "3D7B935C1634C20B"
+				type: "loot"
+				table_id: 13756307348121783L
+			}]
 		}
 		{
 			title: "Poor Man's Compressor"
@@ -661,23 +786,11 @@
 					item: "modern_industrialization:iron_plate"
 				}
 			]
-			rewards: [
-				{
-					id: "4B2F93B8040FA9FC"
-					type: "item"
-					item: "modern_industrialization:tin_plate"
-				}
-				{
-					id: "27A1E183BDBB7212"
-					type: "item"
-					item: "modern_industrialization:copper_plate"
-				}
-				{
-					id: "2051A913B0C807A8"
-					type: "item"
-					item: "modern_industrialization:iron_plate"
-				}
-			]
+			rewards: [{
+				id: "11D7F980AD5F40EC"
+				type: "loot"
+				table_id: 13756307348121783L
+			}]
 		}
 		{
 			title: "Factory Components"
@@ -746,6 +859,11 @@
 					type: "item"
 					item: "minecraft:redstone_block"
 				}
+				{
+					id: "53F7D8AA1DA66F13"
+					type: "loot"
+					table_id: 13756307348121783L
+				}
 			]
 		}
 		{
@@ -759,6 +877,11 @@
 				type: "item"
 				item: "indrev:fluid_pipe_mk2"
 			}]
+			rewards: [{
+				id: "22E5732EF6A28BDC"
+				type: "loot"
+				table_id: 13756307348121783L
+			}]
 		}
 		{
 			x: -12.5d
@@ -771,6 +894,11 @@
 				type: "item"
 				item: "indrev:item_pipe_mk2"
 			}]
+			rewards: [{
+				id: "25FD723F0C029E82"
+				type: "loot"
+				table_id: 13756307348121783L
+			}]
 		}
 		{
 			x: -12.5d
@@ -781,6 +909,11 @@
 				id: "57EABDF07EE79675"
 				type: "item"
 				item: "indrev:cable_mk2"
+			}]
+			rewards: [{
+				id: "5251D4382E3BCAC6"
+				type: "loot"
+				table_id: 13756307348121783L
 			}]
 		}
 		{
@@ -793,6 +926,11 @@
 				id: "3D0B6ABE07C06658"
 				type: "item"
 				item: "indrev:fluid_pipe_mk1"
+			}]
+			rewards: [{
+				id: "17FF943438AE22F3"
+				type: "loot"
+				table_id: 13756307348121783L
 			}]
 		}
 		{
@@ -810,6 +948,11 @@
 				id: "5A97C9ECE9C54E89"
 				type: "item"
 				item: "indrev:item_pipe_mk1"
+			}]
+			rewards: [{
+				id: "1D37D2B41AF9E808"
+				type: "loot"
+				table_id: 13756307348121783L
 			}]
 		}
 		{
@@ -829,6 +972,11 @@
 				id: "258B02AFA8680893"
 				type: "item"
 				item: "indrev:cable_mk1"
+			}]
+			rewards: [{
+				id: "0D44182CE4517376"
+				type: "loot"
+				table_id: 13756307348121783L
 			}]
 		}
 		{
@@ -878,6 +1026,11 @@
 					}
 				}
 			]
+			rewards: [{
+				id: "4D7FCD13AB1BA8C5"
+				type: "loot"
+				table_id: 13756307348121783L
+			}]
 		}
 		{
 			x: -14.0d
@@ -888,6 +1041,11 @@
 				id: "5D2B52C752888C2A"
 				type: "item"
 				item: "indrev:cable_mk3"
+			}]
+			rewards: [{
+				id: "381A9020931A780F"
+				type: "loot"
+				table_id: 13756307348121783L
 			}]
 		}
 		{
@@ -900,6 +1058,11 @@
 				type: "item"
 				item: "indrev:cable_mk4"
 			}]
+			rewards: [{
+				id: "2DCD7F715E34CA43"
+				type: "loot"
+				table_id: 13756307348121783L
+			}]
 		}
 		{
 			x: -14.0d
@@ -910,6 +1073,11 @@
 				id: "338A6D704171F6EC"
 				type: "item"
 				item: "indrev:fluid_pipe_mk3"
+			}]
+			rewards: [{
+				id: "5D644B77B864BB4A"
+				type: "loot"
+				table_id: 13756307348121783L
 			}]
 		}
 		{
@@ -925,6 +1093,11 @@
 				type: "item"
 				item: "indrev:fluid_pipe_mk4"
 			}]
+			rewards: [{
+				id: "158087702069385C"
+				type: "loot"
+				table_id: 13756307348121783L
+			}]
 		}
 		{
 			x: -14.0d
@@ -936,6 +1109,11 @@
 				type: "item"
 				item: "indrev:item_pipe_mk3"
 			}]
+			rewards: [{
+				id: "27E1B461392AC7D9"
+				type: "loot"
+				table_id: 13756307348121783L
+			}]
 		}
 		{
 			x: -15.5d
@@ -946,6 +1124,11 @@
 				id: "211F0434522552E5"
 				type: "item"
 				item: "indrev:item_pipe_mk4"
+			}]
+			rewards: [{
+				id: "18147A41EE873B3F"
+				type: "loot"
+				table_id: 13756307348121783L
 			}]
 		}
 		{
@@ -996,6 +1179,11 @@
 					item: "modern_industrialization:silver_plate"
 					count: 3
 				}
+				{
+					id: "25140E5A75662601"
+					type: "loot"
+					table_id: 13756307348121783L
+				}
 			]
 		}
 		{
@@ -1021,6 +1209,11 @@
 					type: "item"
 					item: "modern_industrialization:silver_plate"
 					count: 3
+				}
+				{
+					id: "7C8F6581E7DA8404"
+					type: "loot"
+					table_id: 13756307348121783L
 				}
 			]
 		}
@@ -1048,6 +1241,11 @@
 					item: "modern_industrialization:silver_plate"
 					count: 3
 				}
+				{
+					id: "6E3E70CD66AEA39D"
+					type: "loot"
+					table_id: 13756307348121783L
+				}
 			]
 		}
 		{
@@ -1073,6 +1271,11 @@
 					type: "item"
 					item: "modern_industrialization:silver_plate"
 					count: 3
+				}
+				{
+					id: "00937948879409F0"
+					type: "loot"
+					table_id: 13756307348121783L
 				}
 			]
 		}
@@ -1106,6 +1309,11 @@
 					item: "indrev:drain_mk1"
 				}
 			]
+			rewards: [{
+				id: "5C6D97E7668B3098"
+				type: "loot"
+				table_id: 13756307348121783L
+			}]
 		}
 		{
 			title: "Charging the Core of Modularity"
@@ -1150,6 +1358,11 @@
 					item: "indrev:modular_core"
 				}
 			]
+			rewards: [{
+				id: "0D2865452BF707D1"
+				type: "loot"
+				table_id: 13756307348121783L
+			}]
 		}
 		{
 			x: 7.5d
@@ -1165,6 +1378,11 @@
 				type: "item"
 				item: "indrev:modular_core_activated"
 			}]
+			rewards: [{
+				id: "2E9145E6B7AB5881"
+				type: "loot"
+				table_id: 13756307348121783L
+			}]
 		}
 		{
 			x: 9.5d
@@ -1176,6 +1394,11 @@
 				id: "232CC4433FA2A5D5"
 				type: "item"
 				item: "indrev:modular_armor_helmet"
+			}]
+			rewards: [{
+				id: "5C64B251C3D29741"
+				type: "loot"
+				table_id: 13756307348121783L
 			}]
 		}
 		{
@@ -1195,6 +1418,11 @@
 				type: "item"
 				item: "indrev:modular_workbench_mk4"
 			}]
+			rewards: [{
+				id: "77B651605B9376EF"
+				type: "loot"
+				table_id: 13756307348121783L
+			}]
 		}
 		{
 			x: 8.5d
@@ -1205,6 +1433,11 @@
 				id: "7D6B902175ED0E63"
 				type: "item"
 				item: "indrev:modular_armor_chest"
+			}]
+			rewards: [{
+				id: "40780345CFC2CEC8"
+				type: "loot"
+				table_id: 13756307348121783L
 			}]
 		}
 		{
@@ -1217,6 +1450,11 @@
 				type: "item"
 				item: "indrev:modular_armor_boots"
 			}]
+			rewards: [{
+				id: "260E7D5FBE89314B"
+				type: "loot"
+				table_id: 13756307348121783L
+			}]
 		}
 		{
 			x: 6.5d
@@ -1227,6 +1465,11 @@
 				id: "2AA53184FE9796DC"
 				type: "item"
 				item: "indrev:modular_armor_legs"
+			}]
+			rewards: [{
+				id: "63A32C386C90D1C0"
+				type: "loot"
+				table_id: 13756307348121783L
 			}]
 		}
 		{
@@ -1257,6 +1500,11 @@
 					item: "indrev:module_solar_panel"
 				}
 			]
+			rewards: [{
+				id: "426AB82C6758B9A4"
+				type: "loot"
+				table_id: 13756307348121783L
+			}]
 		}
 		{
 			title: "Chestplate Modules"
@@ -1281,6 +1529,11 @@
 					item: "indrev:module_fire_resistance"
 				}
 			]
+			rewards: [{
+				id: "01146A9B7B32F204"
+				type: "loot"
+				table_id: 13756307348121783L
+			}]
 		}
 		{
 			title: "Leggings Modules"
@@ -1292,6 +1545,11 @@
 				id: "347D1C0466989A82"
 				type: "item"
 				item: "indrev:module_speed"
+			}]
+			rewards: [{
+				id: "6C54BC4ED27D67D9"
+				type: "loot"
+				table_id: 13756307348121783L
 			}]
 		}
 		{
@@ -1312,6 +1570,11 @@
 					item: "indrev:module_feather_falling"
 				}
 			]
+			rewards: [{
+				id: "09128FD2A70C8FB5"
+				type: "loot"
+				table_id: 13756307348121783L
+			}]
 		}
 		{
 			title: "Armor Modules"
@@ -1339,6 +1602,11 @@
 					item: "indrev:module_piglin_tricker"
 				}
 			]
+			rewards: [{
+				id: "45DEBB37F5F25A05"
+				type: "loot"
+				table_id: 13756307348121783L
+			}]
 		}
 		{
 			title: "Color Modules"
@@ -1407,6 +1675,11 @@
 					item: "indrev:module_color_brown"
 				}
 			]
+			rewards: [{
+				id: "6552F29A7D0725E8"
+				type: "loot"
+				table_id: 13756307348121783L
+			}]
 		}
 		{
 			title: "Drill Modules"
@@ -1437,6 +1710,11 @@
 					item: "indrev:module_efficiency"
 				}
 			]
+			rewards: [{
+				id: "26D676A15F6184CE"
+				type: "loot"
+				table_id: 13756307348121783L
+			}]
 		}
 		{
 			title: "Axe Modules"
@@ -1466,6 +1744,11 @@
 					item: "indrev:module_efficiency"
 				}
 			]
+			rewards: [{
+				id: "1A681495004F3532"
+				type: "loot"
+				table_id: 13756307348121783L
+			}]
 		}
 		{
 			x: 4.5d
@@ -1491,6 +1774,11 @@
 					}
 				}
 			}]
+			rewards: [{
+				id: "5920803FF09C0AF1"
+				type: "loot"
+				table_id: 13756307348121783L
+			}]
 		}
 		{
 			x: 4.5d
@@ -1501,6 +1789,11 @@
 				id: "76A9AC313BDD324B"
 				type: "item"
 				item: "modern_industrialization:steel_plate"
+			}]
+			rewards: [{
+				id: "507CB052CC2BE3C8"
+				type: "loot"
+				table_id: 13756307348121783L
 			}]
 		}
 		{
@@ -1515,6 +1808,11 @@
 				type: "item"
 				item: "indrev:tier_upgrade_mk2"
 			}]
+			rewards: [{
+				id: "6EB0251B4BF210DD"
+				type: "loot"
+				table_id: 13756307348121783L
+			}]
 		}
 		{
 			x: -2.0d
@@ -1528,6 +1826,11 @@
 				type: "item"
 				item: "indrev:tier_upgrade_mk3"
 			}]
+			rewards: [{
+				id: "1B52048DEE56AB7B"
+				type: "loot"
+				table_id: 13756307348121783L
+			}]
 		}
 		{
 			x: 0.0d
@@ -1540,6 +1843,11 @@
 				id: "0D4A3AF2AE73BE76"
 				type: "item"
 				item: "indrev:tier_upgrade_mk4"
+			}]
+			rewards: [{
+				id: "2B0681D399E375D0"
+				type: "loot"
+				table_id: 13756307348121783L
 			}]
 		}
 		{
@@ -1578,15 +1886,9 @@
 				}
 			]
 			rewards: [{
-				id: "6338036372C1DA8A"
-				type: "item"
-				item: {
-					id: "indrev:diamond_drill_head"
-					Count: 1b
-					tag: {
-						Damage: 0
-					}
-				}
+				id: "725874DA6AC16960"
+				type: "loot"
+				table_id: 13756307348121783L
 			}]
 		}
 		{
@@ -1599,6 +1901,11 @@
 				id: "47F075B67F7DD537"
 				type: "item"
 				item: "indrev:charge_pad_mk4"
+			}]
+			rewards: [{
+				id: "0B1A74509D84A62B"
+				type: "loot"
+				table_id: 13756307348121783L
 			}]
 		}
 		{
@@ -1633,6 +1940,11 @@
 					item: "indrev:smelter_mk4"
 				}
 			]
+			rewards: [{
+				id: "2BCBE7B3599797CC"
+				type: "loot"
+				table_id: 13756307348121783L
+			}]
 		}
 		{
 			x: -6.5d
@@ -1644,6 +1956,11 @@
 				id: "2D28B880B3E44414"
 				type: "item"
 				item: "indrev:recycler_mk2"
+			}]
+			rewards: [{
+				id: "44697F296487C36E"
+				type: "loot"
+				table_id: 13756307348121783L
 			}]
 		}
 		{
@@ -1658,6 +1975,11 @@
 				type: "item"
 				item: "indrev:biomass_generator_mk3"
 			}]
+			rewards: [{
+				id: "6D8D6AE7F244BE13"
+				type: "loot"
+				table_id: 13756307348121783L
+			}]
 		}
 		{
 			x: -6.5d
@@ -1669,6 +1991,11 @@
 				id: "5A05A31972972B83"
 				type: "item"
 				item: "indrev:heat_generator_mk4"
+			}]
+			rewards: [{
+				id: "26E58D993BF58219"
+				type: "loot"
+				table_id: 13756307348121783L
 			}]
 		}
 	]

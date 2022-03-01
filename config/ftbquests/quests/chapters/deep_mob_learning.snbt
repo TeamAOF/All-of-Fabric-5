@@ -57,6 +57,11 @@
 					tag: { }
 				}
 			}]
+			rewards: [{
+				id: "2A43BE265ABEC909"
+				type: "loot"
+				table_id: 13756307348121783L
+			}]
 		}
 		{
 			x: -6.5d
@@ -82,6 +87,11 @@
 				type: "item"
 				item: "dml-refabricated:deep_learner"
 			}]
+			rewards: [{
+				id: "2BE95BADFA9C8930"
+				type: "loot"
+				table_id: 13756307348121783L
+			}]
 		}
 		{
 			x: -3.5d
@@ -104,6 +114,11 @@
 				id: "1CAE14E935895EEE"
 				type: "item"
 				item: "dml-refabricated:trial_keystone"
+			}]
+			rewards: [{
+				id: "0395867049AA29C8"
+				type: "loot"
+				table_id: 13756307348121783L
 			}]
 		}
 		{
@@ -134,6 +149,11 @@
 					tag: { }
 				}
 			}]
+			rewards: [{
+				id: "51F8CDFE8B1CCB36"
+				type: "loot"
+				table_id: 13756307348121783L
+			}]
 		}
 		{
 			x: -12.0d
@@ -157,6 +177,11 @@
 				type: "item"
 				item: "dml-refabricated:loot_fabricator"
 			}]
+			rewards: [{
+				id: "601B95CDEEBD475B"
+				type: "loot"
+				table_id: 13756307348121783L
+			}]
 		}
 		{
 			x: -2.0d
@@ -179,6 +204,11 @@
 				id: "763F3B0C76A6CB16"
 				type: "item"
 				item: "dml-refabricated:glitch_ingot"
+			}]
+			rewards: [{
+				id: "01DD1F65D5A323BD"
+				type: "loot"
+				table_id: 13756307348121783L
 			}]
 		}
 		{
@@ -204,6 +234,11 @@
 					tag: { }
 				}
 			}]
+			rewards: [{
+				id: "0A8E66CC8841CF93"
+				type: "loot"
+				table_id: 13756307348121783L
+			}]
 		}
 		{
 			x: -0.5d
@@ -227,6 +262,11 @@
 					Count: 1b
 					tag: { }
 				}
+			}]
+			rewards: [{
+				id: "40F930004C20FBC3"
+				type: "loot"
+				table_id: 13756307348121783L
 			}]
 		}
 		{
@@ -252,6 +292,11 @@
 					tag: { }
 				}
 			}]
+			rewards: [{
+				id: "0D78E327FE7EA9B2"
+				type: "loot"
+				table_id: 13756307348121783L
+			}]
 		}
 		{
 			x: -0.5d
@@ -276,6 +321,11 @@
 					tag: { }
 				}
 			}]
+			rewards: [{
+				id: "5BB60F23727F4708"
+				type: "loot"
+				table_id: 13756307348121783L
+			}]
 		}
 		{
 			title: "Data Models"
@@ -296,52 +346,57 @@
 						items: [
 							{
 								id: "dml-refabricated:data_model_illager"
-								tag: { }
 								Count: 1b
+								tag: { }
 							}
 							{
 								id: "dml-refabricated:data_model_ocean"
-								tag: { }
 								Count: 1b
+								tag: { }
 							}
 							{
 								id: "dml-refabricated:data_model_slimy"
-								tag: { }
 								Count: 1b
+								tag: { }
 							}
 							{
 								id: "dml-refabricated:data_model_overworld"
-								tag: { }
 								Count: 1b
+								tag: { }
 							}
 							{
 								id: "dml-refabricated:data_model_zombie"
-								tag: { }
 								Count: 1b
+								tag: { }
 							}
 							{
 								id: "dml-refabricated:data_model_nether"
-								tag: { }
 								Count: 1b
+								tag: { }
 							}
 							{
 								id: "dml-refabricated:data_model_skeleton"
-								tag: { }
 								Count: 1b
+								tag: { }
 							}
 							{
 								id: "dml-refabricated:data_model_end"
-								tag: { }
 								Count: 1b
+								tag: { }
 							}
 							{
 								id: "dml-refabricated:data_model_ghost"
-								tag: { }
 								Count: 1b
+								tag: { }
 							}
 						]
 					}
 				}
+			}]
+			rewards: [{
+				id: "1B4D0D7590B856A4"
+				type: "loot"
+				table_id: 13756307348121783L
 			}]
 		}
 		{
@@ -370,6 +425,11 @@
 				type: "item"
 				item: "dmlsimulacrum:simulation_chamber"
 			}]
+			rewards: [{
+				id: "107F3399260A39C4"
+				type: "loot"
+				table_id: 13756307348121783L
+			}]
 		}
 		{
 			x: -11.0d
@@ -389,6 +449,11 @@
 				type: "item"
 				item: "dml-refabricated:matter_condenser"
 			}]
+			rewards: [{
+				id: "1744FE1986CFACE1"
+				type: "loot"
+				table_id: 13756307348121783L
+			}]
 		}
 		{
 			x: -11.0d
@@ -400,6 +465,11 @@
 				id: "6C44B445254F46B8"
 				type: "item"
 				item: "dml-refabricated:machine_casing"
+			}]
+			rewards: [{
+				id: "2C2031F8B50172C0"
+				type: "loot"
+				table_id: 13756307348121783L
 			}]
 		}
 		{
@@ -416,6 +486,11 @@
 				id: "5EEB04255651FBAE"
 				type: "item"
 				item: "dml-refabricated:soot_redstone"
+			}]
+			rewards: [{
+				id: "2BFFE5842B51C9B2"
+				type: "loot"
+				table_id: 13756307348121783L
 			}]
 		}
 	]

@@ -154,9 +154,9 @@
 				item: "modern_industrialization:bronze_compressor"
 			}]
 			rewards: [{
-				id: "13C4F9B3ACAAFC12"
-				type: "item"
-				item: "minecraft:piston"
+				id: "5C3930FAAC5AFBB7"
+				type: "loot"
+				table_id: 13756307348121783L
 			}]
 		}
 		{
@@ -182,9 +182,9 @@
 				item: "modern_industrialization:bronze_boiler"
 			}]
 			rewards: [{
-				id: "1E6977DD25B71629"
-				type: "item"
-				item: "minecraft:water_bucket"
+				id: "6D8ABEBC370E900C"
+				type: "loot"
+				table_id: 13756307348121783L
 			}]
 		}
 		{
@@ -235,10 +235,9 @@
 				}
 			]
 			rewards: [{
-				id: "28A655E29C3A3009"
-				type: "item"
-				item: "modern_industrialization:fire_clay_bricks"
-				count: 8
+				id: "28716AEA84F1837D"
+				type: "loot"
+				table_id: 13756307348121783L
 			}]
 		}
 		{
@@ -259,9 +258,9 @@
 				item: "modern_industrialization:bronze_macerator"
 			}]
 			rewards: [{
-				id: "35AAA475B2E24F38"
-				type: "item"
-				item: "minecraft:diamond"
+				id: "3F303241ADEBDFBC"
+				type: "loot"
+				table_id: 13756307348121783L
 			}]
 		}
 		{
@@ -389,9 +388,9 @@
 				item: "modern_industrialization:bronze_furnace"
 			}]
 			rewards: [{
-				id: "7C3609C57C8DABEF"
-				type: "item"
-				item: "minecraft:blast_furnace"
+				id: "17AC3EF54F4E9B84"
+				type: "loot"
+				table_id: 13756307348121783L
 			}]
 		}
 		{
@@ -507,9 +506,9 @@
 				item: "modern_industrialization:bronze_water_pump"
 			}]
 			rewards: [{
-				id: "3747D7374E02AF96"
-				type: "item"
-				item: "minecraft:water_bucket"
+				id: "2AEDBF6DC1F8F0AA"
+				type: "loot"
+				table_id: 13756307348121783L
 			}]
 		}
 		{
@@ -566,10 +565,9 @@
 				item: "modern_industrialization:steel_ingot"
 			}]
 			rewards: [{
-				id: "1296E42E454B5492"
-				type: "item"
-				item: "modern_industrialization:steel_ingot"
-				count: 4
+				id: "36A1D42CD94293F6"
+				type: "loot"
+				table_id: 13756307348121783L
 			}]
 		}
 		{
@@ -604,6 +602,11 @@
 				type: "item"
 				item: "modern_industrialization:steel_upgrade"
 				count: 2L
+			}]
+			rewards: [{
+				id: "1055A70750FD98ED"
+				type: "loot"
+				table_id: 13756307348121783L
 			}]
 		}
 		{
@@ -645,6 +648,11 @@
 					count: 4L
 				}
 			]
+			rewards: [{
+				id: "388CF8B7A5818995"
+				type: "loot"
+				table_id: 13756307348121783L
+			}]
 		}
 		{
 			title: "Bronze drill"
@@ -658,6 +666,11 @@
 				type: "item"
 				item: "modern_industrialization:bronze_drill"
 				count: 4L
+			}]
+			rewards: [{
+				id: "15C461D9898E5B96"
+				type: "loot"
+				table_id: 13756307348121783L
 			}]
 		}
 		{
@@ -698,11 +711,17 @@
 				type: "item"
 				item: "modern_industrialization:copper_drill"
 			}]
+			rewards: [{
+				id: "78C277549C6DE7D9"
+				type: "loot"
+				table_id: 13756307348121783L
+			}]
 		}
 		{
 			title: "The Electric Age!"
 			x: -1.0d
 			y: -1.5d
+			shape: "gear"
 			subtitle: "Basics of Electricity"
 			description: [
 				"Electric machines work exactly the same as steam machines, except that they require electricity instead of steam and they progressively overclock recipes up to 32 EU/t."
@@ -712,6 +731,7 @@
 				"We strongly suggest that you automate Machine Hull, Analog Circuits, Motors, Pistons, Robot Arms and Conveyor Belts using Assemblers as soon as possible, that will make crafting electric machines basically free!"
 			]
 			dependencies: ["43F43FB0B9ED0818"]
+			size: 1.2d
 			id: "19E5E31614FE485E"
 			tasks: [{
 				id: "33A196551A047E54"
@@ -719,19 +739,26 @@
 				item: "modern_industrialization:analog_circuit"
 				count: 2L
 			}]
-			rewards: [{
-				id: "0C7F9145B4CC4C35"
-				type: "item"
-				item: {
-					id: "cacao:cookie_cream_white_chocolate"
-					Count: 1b
-					tag: {
-						display: {
-							Name: "{\"text\":\"Here, this cookie is for you\"}"
+			rewards: [
+				{
+					id: "0C7F9145B4CC4C35"
+					type: "item"
+					item: {
+						id: "cacao:cookie_cream_white_chocolate"
+						Count: 1b
+						tag: {
+							display: {
+								Name: "{\"text\":\"Here, this cookie is for you\"}"
+							}
 						}
 					}
 				}
-			}]
+				{
+					id: "179716A30A8E8159"
+					type: "loot"
+					table_id: 13756307348121783L
+				}
+			]
 		}
 		{
 			title: "Item Transportation"
@@ -775,12 +802,19 @@
 				type: "item"
 				item: "modern_industrialization:assembler"
 			}]
-			rewards: [{
-				id: "2E44F161981497D4"
-				type: "item"
-				item: "modern_industrialization:robot_arm"
-				count: 2
-			}]
+			rewards: [
+				{
+					id: "2E44F161981497D4"
+					type: "item"
+					item: "modern_industrialization:robot_arm"
+					count: 2
+				}
+				{
+					id: "595100DEF7A3E778"
+					type: "loot"
+					table_id: 13756307348121783L
+				}
+			]
 		}
 		{
 			icon: "modern_industrialization:large_steam_boiler"
@@ -856,11 +890,18 @@
 				type: "item"
 				item: "modern_industrialization:lv_steam_turbine"
 			}]
-			rewards: [{
-				id: "56B68944B996BFFC"
-				type: "item"
-				item: "modern_industrialization:bucket_steam"
-			}]
+			rewards: [
+				{
+					id: "56B68944B996BFFC"
+					type: "item"
+					item: "modern_industrialization:bucket_steam"
+				}
+				{
+					id: "42827AC3574FC656"
+					type: "loot"
+					table_id: 13756307348121783L
+				}
+			]
 		}
 		{
 			x: 2.0d
@@ -874,12 +915,19 @@
 				type: "item"
 				item: "modern_industrialization:polarizer"
 			}]
-			rewards: [{
-				id: "36D19E83ED7A2C1B"
-				type: "item"
-				item: "modern_industrialization:steel_rod_magnetic"
-				count: 4
-			}]
+			rewards: [
+				{
+					id: "36D19E83ED7A2C1B"
+					type: "item"
+					item: "modern_industrialization:steel_rod_magnetic"
+					count: 4
+				}
+				{
+					id: "237C2BDF22DA6FD7"
+					type: "loot"
+					table_id: 13756307348121783L
+				}
+			]
 		}
 		{
 			icon: "modern_industrialization:electric_blast_furnace"
@@ -927,24 +975,38 @@
 					type: "item"
 					item: "modern_industrialization:steel_item_output_hatch"
 				}
+				{
+					id: "2F5FD71943FA8274"
+					type: "loot"
+					table_id: 13756307348121783L
+				}
 			]
 		}
 		{
 			x: 5.0d
 			y: -1.5d
+			shape: "gear"
 			subtitle: "Advanced Electricity!"
 			dependencies: ["796F33AE4A9CF30C"]
+			size: 1.2d
 			id: "6BEB4461CA08633F"
 			tasks: [{
 				id: "36962E06671E364F"
 				type: "item"
 				item: "modern_industrialization:electronic_circuit"
 			}]
-			rewards: [{
-				id: "3B9ED5E4CBECDD82"
-				type: "item"
-				item: "croptopia:fruit_cake"
-			}]
+			rewards: [
+				{
+					id: "3B9ED5E4CBECDD82"
+					type: "item"
+					item: "croptopia:fruit_cake"
+				}
+				{
+					id: "3CE6833849BCF006"
+					type: "loot"
+					table_id: 13756307348121783L
+				}
+			]
 		}
 		{
 			x: 8.0d
@@ -957,6 +1019,11 @@
 				id: "25449DE629548BDF"
 				type: "item"
 				item: "modern_industrialization:distillery"
+			}]
+			rewards: [{
+				id: "715875CA3ED0A56D"
+				type: "loot"
+				table_id: 13756307348121783L
 			}]
 		}
 		{
@@ -992,21 +1059,35 @@
 					item: "modern_industrialization:diesel_jetpack"
 				}
 			]
-			rewards: [{
-				id: "4CF843A1EEFA60E8"
-				type: "item"
-				item: "modern_industrialization:bucket_light_fuel"
-			}]
+			rewards: [
+				{
+					id: "4CF843A1EEFA60E8"
+					type: "item"
+					item: "modern_industrialization:bucket_light_fuel"
+				}
+				{
+					id: "6CE155BD6F85710B"
+					type: "loot"
+					table_id: 13756307348121783L
+				}
+			]
 		}
 		{
 			x: 9.5d
 			y: -1.5d
+			shape: "gear"
 			dependencies: ["036292964BDE4944"]
+			size: 1.2d
 			id: "7CE18D246F01445D"
 			tasks: [{
 				id: "096259C009D8AFC1"
 				type: "item"
 				item: "modern_industrialization:digital_circuit"
+			}]
+			rewards: [{
+				id: "0D155806A704AA5E"
+				type: "loot"
+				table_id: 13756307348121783L
 			}]
 		}
 		{
@@ -1050,6 +1131,11 @@
 					count: 18L
 				}
 			]
+			rewards: [{
+				id: "49EB8376326F1A94"
+				type: "loot"
+				table_id: 13756307348121783L
+			}]
 		}
 		{
 			x: 8.0d
@@ -1061,6 +1147,11 @@
 				id: "4405859846ECFE0E"
 				type: "item"
 				item: "modern_industrialization:chemical_reactor"
+			}]
+			rewards: [{
+				id: "27A2D5918105F8D3"
+				type: "loot"
+				table_id: 13756307348121783L
 			}]
 		}
 		{
@@ -1083,6 +1174,11 @@
 				type: "item"
 				item: "modern_industrialization:diesel_generator"
 			}]
+			rewards: [{
+				id: "6BF5CD2CA2398E59"
+				type: "loot"
+				table_id: 13756307348121783L
+			}]
 		}
 		{
 			x: 15.0d
@@ -1100,6 +1196,11 @@
 				type: "item"
 				item: "modern_industrialization:distillation_tower"
 			}]
+			rewards: [{
+				id: "37DD170F6A20628A"
+				type: "loot"
+				table_id: 13756307348121783L
+			}]
 		}
 		{
 			x: 15.0d
@@ -1112,6 +1213,11 @@
 				id: "4223D53BFBB35DEF"
 				type: "item"
 				item: "modern_industrialization:heat_exchanger"
+			}]
+			rewards: [{
+				id: "2D61A6BEF9497B4E"
+				type: "loot"
+				table_id: 13756307348121783L
 			}]
 		}
 		{
@@ -1156,6 +1262,11 @@
 					item: "modern_industrialization:advanced_machine_hull"
 				}
 			]
+			rewards: [{
+				id: "5773C6D5F5E9118A"
+				type: "loot"
+				table_id: 13756307348121783L
+			}]
 		}
 		{
 			x: 8.0d
@@ -1168,6 +1279,11 @@
 				id: "68D837AA6DE85D6F"
 				type: "item"
 				item: "modern_industrialization:centrifuge"
+			}]
+			rewards: [{
+				id: "030957C1C31F31A1"
+				type: "loot"
+				table_id: 13756307348121783L
 			}]
 		}
 		{
@@ -1208,10 +1324,9 @@
 				}
 			]
 			rewards: [{
-				id: "6614FF43507F884A"
-				type: "item"
-				item: "modern_industrialization:steel_item_output_hatch"
-				count: 2
+				id: "35A961D0CC2B8B06"
+				type: "loot"
+				table_id: 13756307348121783L
 			}]
 		}
 		{
@@ -1225,6 +1340,11 @@
 				type: "item"
 				item: "modern_industrialization:gold_drill"
 			}]
+			rewards: [{
+				id: "6F9BE34823759C39"
+				type: "loot"
+				table_id: 13756307348121783L
+			}]
 		}
 		{
 			x: 4.0d
@@ -1237,6 +1357,11 @@
 				type: "item"
 				item: "modern_industrialization:stainless_steel_drill"
 			}]
+			rewards: [{
+				id: "2DC1DBF9976DB237"
+				type: "loot"
+				table_id: 13756307348121783L
+			}]
 		}
 		{
 			x: 6.0d
@@ -1248,6 +1373,11 @@
 				id: "758EB0D2CB85F803"
 				type: "item"
 				item: "modern_industrialization:steel_drill"
+			}]
+			rewards: [{
+				id: "7C21A5542D8CAE35"
+				type: "loot"
+				table_id: 13756307348121783L
 			}]
 		}
 		{
@@ -1265,6 +1395,11 @@
 				type: "item"
 				item: "modern_industrialization:advanced_upgrade"
 			}]
+			rewards: [{
+				id: "5F5B4F44466C5F14"
+				type: "loot"
+				table_id: 13756307348121783L
+			}]
 		}
 		{
 			x: 8.0d
@@ -1275,6 +1410,11 @@
 				id: "16E814CBBEE5F8AB"
 				type: "item"
 				item: "modern_industrialization:mv_steam_turbine"
+			}]
+			rewards: [{
+				id: "0C55BAA10ED787D7"
+				type: "loot"
+				table_id: 13756307348121783L
 			}]
 		}
 		{
@@ -1288,6 +1428,11 @@
 				id: "54B31CE72767D4C6"
 				type: "item"
 				item: "modern_industrialization:hv_steam_turbine"
+			}]
+			rewards: [{
+				id: "25B3E34D19921D92"
+				type: "loot"
+				table_id: 13756307348121783L
 			}]
 		}
 		{
@@ -1307,6 +1452,11 @@
 				id: "438923113D0A1141"
 				type: "item"
 				item: "modern_industrialization:turbo_diesel_generator"
+			}]
+			rewards: [{
+				id: "139DE6C871EC83D7"
+				type: "loot"
+				table_id: 13756307348121783L
 			}]
 		}
 		{
@@ -1329,6 +1479,11 @@
 					count: 33L
 				}
 			]
+			rewards: [{
+				id: "59BC7A734B41939A"
+				type: "loot"
+				table_id: 13756307348121783L
+			}]
 		}
 		{
 			x: 8.0d
@@ -1340,6 +1495,11 @@
 				id: "4ECD4D66C0DAB6AC"
 				type: "item"
 				item: "modern_industrialization:electrolyzer"
+			}]
+			rewards: [{
+				id: "27BEE8715C458319"
+				type: "loot"
+				table_id: 13756307348121783L
 			}]
 		}
 		{
@@ -1354,6 +1514,11 @@
 				type: "item"
 				item: "modern_industrialization:stainless_steel_ingot"
 			}]
+			rewards: [{
+				id: "32987C89A8901696"
+				type: "loot"
+				table_id: 13756307348121783L
+			}]
 		}
 		{
 			x: 15.0d
@@ -1367,6 +1532,11 @@
 				type: "item"
 				item: "modern_industrialization:screwdriver"
 			}]
+			rewards: [{
+				id: "1C4C438B1ECE028B"
+				type: "loot"
+				table_id: 13756307348121783L
+			}]
 		}
 		{
 			x: 15.0d
@@ -1379,6 +1549,11 @@
 				item: "modern_industrialization:kanthal_coil"
 				count: 16L
 			}]
+			rewards: [{
+				id: "6DFD4B7A898CF0B1"
+				type: "loot"
+				table_id: 13756307348121783L
+			}]
 		}
 		{
 			x: 16.5d
@@ -1389,6 +1564,11 @@
 				id: "040031047A05E0AE"
 				type: "item"
 				item: "modern_industrialization:titanium_ingot"
+			}]
+			rewards: [{
+				id: "6295E4B97FA674C8"
+				type: "loot"
+				table_id: 13756307348121783L
 			}]
 		}
 		{
@@ -1401,6 +1581,11 @@
 				type: "item"
 				item: "modern_industrialization:processing_unit"
 			}]
+			rewards: [{
+				id: "10D62CE7BBB003E8"
+				type: "loot"
+				table_id: 13756307348121783L
+			}]
 		}
 		{
 			x: 18.0d
@@ -1412,6 +1597,11 @@
 				type: "item"
 				item: "modern_industrialization:raw_iridium"
 			}]
+			rewards: [{
+				id: "60C654118A8A98E8"
+				type: "loot"
+				table_id: 13756307348121783L
+			}]
 		}
 		{
 			x: 18.0d
@@ -1422,6 +1612,11 @@
 				id: "072C3C5C4355E8DF"
 				type: "item"
 				item: "modern_industrialization:blastproof_alloy_plate"
+			}]
+			rewards: [{
+				id: "58579E7BEFA7FA83"
+				type: "loot"
+				table_id: 13756307348121783L
 			}]
 		}
 		{
@@ -1450,6 +1645,11 @@
 					count: 9L
 				}
 			]
+			rewards: [{
+				id: "704D05C0FD5AE2DE"
+				type: "loot"
+				table_id: 13756307348121783L
+			}]
 		}
 		{
 			x: 19.5d
@@ -1460,6 +1660,11 @@
 				id: "119D5B764A8F7E09"
 				type: "item"
 				item: "modern_industrialization:superconductor_cable"
+			}]
+			rewards: [{
+				id: "4AED232043169928"
+				type: "loot"
+				table_id: 13756307348121783L
 			}]
 		}
 		{
@@ -1477,6 +1682,11 @@
 				id: "4AEAA8FA55EA9B82"
 				type: "item"
 				item: "modern_industrialization:gravichestplate"
+			}]
+			rewards: [{
+				id: "2A2212FD1CFE5243"
+				type: "loot"
+				table_id: 13756307348121783L
 			}]
 		}
 		{
@@ -1510,6 +1720,11 @@
 					count: 17L
 				}
 			]
+			rewards: [{
+				id: "72B642876E498FE0"
+				type: "loot"
+				table_id: 13756307348121783L
+			}]
 		}
 		{
 			x: 21.0d
@@ -1520,6 +1735,11 @@
 				id: "5E67F55373049C23"
 				type: "item"
 				item: "modern_industrialization:mixed_ingot_iridium"
+			}]
+			rewards: [{
+				id: "4B78044EDEFCD8D7"
+				type: "loot"
+				table_id: 13756307348121783L
 			}]
 		}
 		{
@@ -1532,6 +1752,11 @@
 				type: "item"
 				item: "modern_industrialization:quantum_circuit"
 			}]
+			rewards: [{
+				id: "0BEC20C9D3E3FA0D"
+				type: "loot"
+				table_id: 13756307348121783L
+			}]
 		}
 		{
 			x: 22.5d
@@ -1543,6 +1768,11 @@
 				id: "4CD547671372F659"
 				type: "item"
 				item: "modern_industrialization:quantum_upgrade"
+			}]
+			rewards: [{
+				id: "284AB7D05FCF1B41"
+				type: "loot"
+				table_id: 13756307348121783L
 			}]
 		}
 		{
@@ -1576,6 +1806,11 @@
 					count: 203L
 				}
 			]
+			rewards: [{
+				id: "5BA1266B129C0A12"
+				type: "loot"
+				table_id: 13756307348121783L
+			}]
 		}
 		{
 			x: 25.5d
@@ -1603,6 +1838,11 @@
 					count: 17L
 				}
 			]
+			rewards: [{
+				id: "62C30F884D4BFEED"
+				type: "loot"
+				table_id: 13756307348121783L
+			}]
 		}
 		{
 			x: 22.0d
@@ -1615,6 +1855,11 @@
 				id: "65573E368D0A8C59"
 				type: "item"
 				item: "modern_industrialization:replicator"
+			}]
+			rewards: [{
+				id: "248F0A4526643230"
+				type: "loot"
+				table_id: 13756307348121783L
 			}]
 		}
 		{
@@ -1660,6 +1905,11 @@
 					item: "modern_industrialization:quantum_sword"
 				}
 			]
+			rewards: [{
+				id: "6FE1BA3464183B72"
+				type: "loot"
+				table_id: 13756307348121783L
+			}]
 		}
 		{
 			x: 21.0d
@@ -1686,7 +1936,7 @@
 				""
 				"The number of absorbed neutrons in a single hatch can be seen in the GUI. The probability for each processes is shown in REI. Those will strongly depend on the hatch's content and the neutron type (fast or thermal). Nuclear fuels absorb thermal neutrons far better."
 				""
-				"\"When a neutron, either fast or thermal, is absorbed in nuclear fuel, more neutrons are generated. Those are always fast neutrons and have random direction. Their generation is accompanied by the direct release of energy in the form of additional heat in the hatch."
+				"When a neutron, either fast or thermal, is absorbed in nuclear fuel, more neutrons are generated. Those are always fast neutrons and have random direction. Their generation is accompanied by the direct release of energy in the form of additional heat in the hatch."
 				""
 				"Above a certain threshold, the number of generated neutrons will decrease with the temperature until reaching zero. This process wastes some energy, but guarantees the stability of the reactor. The number of generated neutrons (and effective efficiency), the direct energy and the temperature threshold are in REI."
 				""
@@ -1715,6 +1965,11 @@
 					count: 77L
 				}
 			]
+			rewards: [{
+				id: "129DB4B4FFE26E14"
+				type: "loot"
+				table_id: 13756307348121783L
+			}]
 		}
 		{
 			x: 22.5d
@@ -1726,6 +1981,11 @@
 				id: "562F6128B9E139A8"
 				type: "item"
 				item: "modern_industrialization:nuke"
+			}]
+			rewards: [{
+				id: "251F9B88A53BD193"
+				type: "loot"
+				table_id: 13756307348121783L
 			}]
 		}
 		{
@@ -1740,6 +2000,11 @@
 				type: "item"
 				item: "modern_industrialization:singularity"
 			}]
+			rewards: [{
+				id: "6220D6964E84DF80"
+				type: "loot"
+				table_id: 13756307348121783L
+			}]
 		}
 		{
 			x: 25.5d
@@ -1753,11 +2018,18 @@
 				type: "item"
 				item: "modern_industrialization:bucket_uu_matter"
 			}]
-			rewards: [{
-				id: "5B72A41410DB60FF"
-				type: "item"
-				item: "minecraft:flint"
-			}]
+			rewards: [
+				{
+					id: "5B72A41410DB60FF"
+					type: "item"
+					item: "minecraft:flint"
+				}
+				{
+					id: "527FADF1DB02BCCC"
+					type: "loot"
+					table_id: 13756307348121783L
+				}
+			]
 		}
 		{
 			x: 19.5d
@@ -1768,6 +2040,11 @@
 				id: "537CE70D027A8B77"
 				type: "item"
 				item: "modern_industrialization:highly_advanced_upgrade"
+			}]
+			rewards: [{
+				id: "2FFAE69D34EB05DB"
+				type: "loot"
+				table_id: 13756307348121783L
 			}]
 		}
 		{
@@ -1781,6 +2058,11 @@
 				type: "item"
 				item: "modern_industrialization:aluminum_drill"
 			}]
+			rewards: [{
+				id: "29DCA64EF4A010A8"
+				type: "loot"
+				table_id: 13756307348121783L
+			}]
 		}
 		{
 			x: 18.0d
@@ -1792,6 +2074,11 @@
 				id: "6448D47D73DD3726"
 				type: "item"
 				item: "modern_industrialization:titanium_drill"
+			}]
+			rewards: [{
+				id: "296D56D21B0D054D"
+				type: "loot"
+				table_id: 13756307348121783L
 			}]
 		}
 		{
@@ -1812,6 +2099,11 @@
 				type: "item"
 				item: "modern_industrialization:wrench"
 			}]
+			rewards: [{
+				id: "5D84F5B463C03DB4"
+				type: "loot"
+				table_id: 13756307348121783L
+			}]
 		}
 		{
 			x: 3.5d
@@ -1825,11 +2117,18 @@
 				type: "item"
 				item: "modern_industrialization:lv_energy_input_hatch"
 			}]
-			rewards: [{
-				id: "0CFB0E3E504A70F7"
-				type: "item"
-				item: "modern_industrialization:basic_machine_hull"
-			}]
+			rewards: [
+				{
+					id: "0CFB0E3E504A70F7"
+					type: "item"
+					item: "modern_industrialization:basic_machine_hull"
+				}
+				{
+					id: "5439E2873F9B26C5"
+					type: "loot"
+					table_id: 13756307348121783L
+				}
+			]
 		}
 		{
 			x: -4.0d
@@ -1861,11 +2160,18 @@
 					item: "modern_industrialization:steel_item_output_hatch"
 				}
 			]
-			rewards: [{
-				id: "54AF33022467EEBE"
-				type: "item"
-				item: "modern_industrialization:steel_item_output_hatch"
-			}]
+			rewards: [
+				{
+					id: "54AF33022467EEBE"
+					type: "item"
+					item: "modern_industrialization:steel_item_output_hatch"
+				}
+				{
+					id: "3EF55DE0CF3FE333"
+					type: "loot"
+					table_id: 13756307348121783L
+				}
+			]
 		}
 		{
 			x: -3.0d
@@ -1879,6 +2185,11 @@
 				type: "item"
 				item: "modern_industrialization:steel_packer"
 			}]
+			rewards: [{
+				id: "64ABA029EB796AD1"
+				type: "loot"
+				table_id: 13756307348121783L
+			}]
 		}
 		{
 			x: -5.0d
@@ -1890,6 +2201,11 @@
 				id: "58691A4447512CEE"
 				type: "item"
 				item: "modern_industrialization:steel_unpacker"
+			}]
+			rewards: [{
+				id: "2ABA2304997809DD"
+				type: "loot"
+				table_id: 13756307348121783L
 			}]
 		}
 		{
@@ -1915,6 +2231,11 @@
 				type: "item"
 				item: "modern_industrialization:tin_cable"
 			}]
+			rewards: [{
+				id: "7ABBD7E8207C36A2"
+				type: "loot"
+				table_id: 13756307348121783L
+			}]
 		}
 		{
 			x: 5.0d
@@ -1927,6 +2248,11 @@
 				id: "5A4042280D8835FB"
 				type: "item"
 				item: "modern_industrialization:advanced_large_steam_boiler"
+			}]
+			rewards: [{
+				id: "3018FE391FB1338D"
+				type: "loot"
+				table_id: 13756307348121783L
 			}]
 		}
 	]

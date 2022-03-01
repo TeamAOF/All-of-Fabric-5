@@ -20,6 +20,11 @@
 				title: "Kibe Utilities!"
 				icon: "kibe:kibe"
 			}]
+			rewards: [{
+				id: "182279AEE38B3466"
+				type: "loot"
+				table_id: 13756307348121783L
+			}]
 		}
 		{
 			x: -2.0d
@@ -31,9 +36,9 @@
 				item: "kibe:cobblestone_generator_mk1"
 			}]
 			rewards: [{
-				id: "38F4793F45B8876E"
-				type: "item"
-				item: "minecraft:gold_nugget"
+				id: "2CA127A3EEB32A56"
+				type: "loot"
+				table_id: 13756307348121783L
 			}]
 		}
 		{
@@ -47,9 +52,9 @@
 				item: "kibe:cobblestone_generator_mk2"
 			}]
 			rewards: [{
-				id: "140D4BD4E253F3FD"
-				type: "item"
-				item: "modern_industrialization:diamond_tiny_dust"
+				id: "74ACE22199B8984F"
+				type: "loot"
+				table_id: 13756307348121783L
 			}]
 		}
 		{
@@ -63,9 +68,9 @@
 				item: "kibe:cobblestone_generator_mk3"
 			}]
 			rewards: [{
-				id: "42E9411AD59D03AE"
-				type: "item"
-				item: "modern_industrialization:emerald_tiny_dust"
+				id: "4071511857A418CC"
+				type: "loot"
+				table_id: 13756307348121783L
 			}]
 		}
 		{
@@ -80,15 +85,9 @@
 				item: "kibe:cobblestone_generator_mk4"
 			}]
 			rewards: [{
-				id: "42037F357F9CBE60"
-				type: "item"
-				item: {
-					id: "minecraft:netherite_hoe"
-					Count: 1b
-					tag: {
-						Damage: 0
-					}
-				}
+				id: "72F31E6CE8DEDB5C"
+				type: "loot"
+				table_id: 13756307348121783L
 			}]
 		}
 		{
@@ -101,6 +100,11 @@
 				type: "item"
 				item: "kibe:cobblestone_generator_mk5"
 			}]
+			rewards: [{
+				id: "59305A24CDA39C88"
+				type: "loot"
+				table_id: 13756307348121783L
+			}]
 		}
 		{
 			x: 1.0d
@@ -110,6 +114,11 @@
 				id: "08FB10212C97A9D8"
 				type: "item"
 				item: "kibe:basalt_generator_mk1"
+			}]
+			rewards: [{
+				id: "53420773440BB5D4"
+				type: "loot"
+				table_id: 13756307348121783L
 			}]
 		}
 		{
@@ -122,6 +131,11 @@
 				type: "item"
 				item: "kibe:basalt_generator_mk2"
 			}]
+			rewards: [{
+				id: "3A58FDAFDC650747"
+				type: "loot"
+				table_id: 13756307348121783L
+			}]
 		}
 		{
 			x: 2.5d
@@ -132,6 +146,11 @@
 				id: "58ED61DA1C7E66B8"
 				type: "item"
 				item: "kibe:basalt_generator_mk3"
+			}]
+			rewards: [{
+				id: "05DA790D757FBB2B"
+				type: "loot"
+				table_id: 13756307348121783L
 			}]
 		}
 		{
@@ -144,6 +163,11 @@
 				type: "item"
 				item: "kibe:basalt_generator_mk4"
 			}]
+			rewards: [{
+				id: "2690130DBF1A01A2"
+				type: "loot"
+				table_id: 13756307348121783L
+			}]
 		}
 		{
 			x: 2.5d
@@ -154,6 +178,11 @@
 				id: "0139CDB35A6C73EB"
 				type: "item"
 				item: "kibe:basalt_generator_mk5"
+			}]
+			rewards: [{
+				id: "30D2A2F5F6E4BFC6"
+				type: "loot"
+				table_id: 13756307348121783L
 			}]
 		}
 		{
@@ -168,9 +197,9 @@
 				item: "kibe:golden_kibe"
 			}]
 			rewards: [{
-				id: "235F43B8F062586F"
-				type: "random"
-				table_id: 2482271367426889676L
+				id: "317BFAD7D9251F2C"
+				type: "loot"
+				table_id: 13756307348121783L
 			}]
 		}
 		{
@@ -185,9 +214,9 @@
 				item: "kibe:diamond_kibe"
 			}]
 			rewards: [{
-				id: "6760E3AC635B5233"
-				type: "random"
-				table_id: 2482271367426889676L
+				id: "46752D8F0EC3910A"
+				type: "loot"
+				table_id: 13756307348121783L
 			}]
 		}
 		{
@@ -202,9 +231,9 @@
 				item: "kibe:cursed_kibe"
 			}]
 			rewards: [{
-				id: "26866531F89CF25D"
-				type: "random"
-				table_id: 2482271367426889676L
+				id: "1B8CC735D5AEC99A"
+				type: "loot"
+				table_id: 13756307348121783L
 			}]
 		}
 		{
@@ -219,9 +248,9 @@
 				item: "kibe:diamond_ring"
 			}]
 			rewards: [{
-				id: "21A61A559F926B7E"
-				type: "item"
-				item: "minecraft:diamond"
+				id: "1D851BB7FB144D34"
+				type: "loot"
+				table_id: 13756307348121783L
 			}]
 		}
 		{
@@ -240,10 +269,9 @@
 				}
 			}]
 			rewards: [{
-				id: "059DC50E9CF19CD9"
-				type: "item"
-				item: "minecraft:magma_block"
-				count: 64
+				id: "40835DAD975CECBF"
+				type: "loot"
+				table_id: 13756307348121783L
 			}]
 		}
 		{
@@ -262,15 +290,9 @@
 				}
 			}]
 			rewards: [{
-				id: "73E39A2DC1D7F836"
-				type: "item"
-				item: {
-					id: "minecraft:trident"
-					Count: 1b
-					tag: {
-						Damage: 0
-					}
-				}
+				id: "55F8304CCD21421D"
+				type: "loot"
+				table_id: 13756307348121783L
 			}]
 		}
 		{
@@ -289,9 +311,9 @@
 				}
 			}]
 			rewards: [{
-				id: "6DC112568E3917DA"
-				type: "item"
-				item: "croptosis:iron_watering_can"
+				id: "55FF10D7ABFD1DBB"
+				type: "loot"
+				table_id: 13756307348121783L
 			}]
 		}
 		{
@@ -480,6 +502,11 @@
 				type: "item"
 				item: "kibe:xp_shower"
 			}]
+			rewards: [{
+				id: "6ECD882C62A9B230"
+				type: "loot"
+				table_id: 13756307348121783L
+			}]
 		}
 		{
 			title: "XP Drain"
@@ -492,6 +519,11 @@
 				id: "68B7BE2C6D332A76"
 				type: "item"
 				item: "kibe:xp_drain"
+			}]
+			rewards: [{
+				id: "4EB1F6BFC1F8AC9B"
+				type: "loot"
+				table_id: 13756307348121783L
 			}]
 		}
 		{
@@ -509,6 +541,11 @@
 					tag: { }
 				}
 			}]
+			rewards: [{
+				id: "0C6650B175B07148"
+				type: "loot"
+				table_id: 13756307348121783L
+			}]
 		}
 		{
 			x: 11.5d
@@ -521,6 +558,11 @@
 				type: "item"
 				item: "kibe:trash_can"
 			}]
+			rewards: [{
+				id: "25F6FB26D790C78A"
+				type: "loot"
+				table_id: 13756307348121783L
+			}]
 		}
 		{
 			x: 12.0d
@@ -531,6 +573,11 @@
 				id: "38230005D69B4184"
 				type: "item"
 				item: "kibe:stone_spikes"
+			}]
+			rewards: [{
+				id: "106E864E88ECD3B1"
+				type: "loot"
+				table_id: 13756307348121783L
 			}]
 		}
 		{
@@ -543,6 +590,11 @@
 				type: "item"
 				item: "kibe:iron_spikes"
 			}]
+			rewards: [{
+				id: "672CA6C0946CD1ED"
+				type: "loot"
+				table_id: 13756307348121783L
+			}]
 		}
 		{
 			x: 14.0d
@@ -554,6 +606,11 @@
 				type: "item"
 				item: "kibe:gold_spikes"
 			}]
+			rewards: [{
+				id: "6CE5B559C1C504FD"
+				type: "loot"
+				table_id: 13756307348121783L
+			}]
 		}
 		{
 			x: 15.0d
@@ -564,6 +621,11 @@
 				id: "66567097A995AF54"
 				type: "item"
 				item: "kibe:diamond_spikes"
+			}]
+			rewards: [{
+				id: "1035B291D565BA25"
+				type: "loot"
+				table_id: 13756307348121783L
 			}]
 		}
 		{
@@ -577,6 +639,11 @@
 				type: "item"
 				item: "kibe:cursed_droplets"
 			}]
+			rewards: [{
+				id: "51A242AEB94A9DFC"
+				type: "loot"
+				table_id: 13756307348121783L
+			}]
 		}
 		{
 			x: 11.5d
@@ -588,6 +655,11 @@
 				id: "157E7A93B794012C"
 				type: "item"
 				item: "kibe:cursed_seeds"
+			}]
+			rewards: [{
+				id: "5C8D244C580972C3"
+				type: "loot"
+				table_id: 13756307348121783L
 			}]
 		}
 		{
@@ -605,6 +677,11 @@
 					tag: { }
 				}
 			}]
+			rewards: [{
+				id: "56FE2C47F438FC82"
+				type: "loot"
+				table_id: 13756307348121783L
+			}]
 		}
 		{
 			x: 12.0d
@@ -621,6 +698,11 @@
 					tag: { }
 				}
 			}]
+			rewards: [{
+				id: "3B178DB0DBDBA8F9"
+				type: "loot"
+				table_id: 13756307348121783L
+			}]
 		}
 		{
 			x: 14.0d
@@ -636,6 +718,11 @@
 					Count: 1b
 					tag: { }
 				}
+			}]
+			rewards: [{
+				id: "679AA5AC2A39862E"
+				type: "loot"
+				table_id: 13756307348121783L
 			}]
 		}
 		{
@@ -682,6 +769,11 @@
 				type: "item"
 				item: "kibe:vacuum_hopper"
 			}]
+			rewards: [{
+				id: "57A1BF74F7A4655C"
+				type: "loot"
+				table_id: 13756307348121783L
+			}]
 		}
 		{
 			x: 12.0d
@@ -693,6 +785,11 @@
 				id: "6246ADA7C69387FD"
 				type: "item"
 				item: "kibe:wither_proof_glass"
+			}]
+			rewards: [{
+				id: "6680183C6F65F5F4"
+				type: "loot"
+				table_id: 13756307348121783L
 			}]
 		}
 		{
@@ -706,6 +803,11 @@
 				type: "item"
 				item: "kibe:wither_proof_sand"
 			}]
+			rewards: [{
+				id: "58578D45619EE901"
+				type: "loot"
+				table_id: 13756307348121783L
+			}]
 		}
 		{
 			x: 13.5d
@@ -717,6 +819,11 @@
 				id: "5F64773A4D914C46"
 				type: "item"
 				item: "kibe:wither_proof_block"
+			}]
+			rewards: [{
+				id: "08DE8010DAB48ACE"
+				type: "loot"
+				table_id: 13756307348121783L
 			}]
 		}
 		{
@@ -730,6 +837,11 @@
 				type: "item"
 				item: "kibe:wither_builder"
 			}]
+			rewards: [{
+				id: "72126637843E21DE"
+				type: "loot"
+				table_id: 13756307348121783L
+			}]
 		}
 		{
 			x: 15.0d
@@ -741,6 +853,11 @@
 				id: "0DBD9671347434C7"
 				type: "item"
 				item: "indrev:wither_proof_obsidian"
+			}]
+			rewards: [{
+				id: "65BDF6E13A3475B2"
+				type: "loot"
+				table_id: 13756307348121783L
 			}]
 		}
 		{
@@ -759,7 +876,6 @@
 				{
 					id: "115390D48721CC49"
 					type: "random"
-					table_id: 8969898993839230539L
 				}
 				{
 					id: "254D50AD8D38008B"
@@ -792,6 +908,11 @@
 				type: "item"
 				item: "kibe:slime_sling"
 			}]
+			rewards: [{
+				id: "4C342EAB6E5B7817"
+				type: "loot"
+				table_id: 13756307348121783L
+			}]
 		}
 		{
 			x: 5.5d
@@ -803,6 +924,11 @@
 				id: "61A61B471BE66608"
 				type: "item"
 				item: "kibe:torch_sling"
+			}]
+			rewards: [{
+				id: "17A06289AE3B26B0"
+				type: "loot"
+				table_id: 13756307348121783L
 			}]
 		}
 		{
@@ -819,6 +945,11 @@
 					Count: 1b
 					tag: { }
 				}
+			}]
+			rewards: [{
+				id: "377CFE97A2EF2714"
+				type: "loot"
+				table_id: 13756307348121783L
 			}]
 		}
 		{
@@ -903,6 +1034,11 @@
 					}
 				}
 			}]
+			rewards: [{
+				id: "15C177CAC83BD508"
+				type: "loot"
+				table_id: 13756307348121783L
+			}]
 		}
 		{
 			x: 6.5d
@@ -920,6 +1056,11 @@
 					}
 				}
 			}]
+			rewards: [{
+				id: "499817B60CE72976"
+				type: "loot"
+				table_id: 13756307348121783L
+			}]
 		}
 		{
 			x: 6.5d
@@ -930,6 +1071,11 @@
 				id: "1ED3DDCCED07436B"
 				type: "item"
 				item: "kibe:wooden_bucket"
+			}]
+			rewards: [{
+				id: "6C9B8CEB41A6B2B1"
+				type: "loot"
+				table_id: 13756307348121783L
 			}]
 		}
 		{
@@ -949,6 +1095,11 @@
 					}
 				}
 			}]
+			rewards: [{
+				id: "4C96DE02671BCB57"
+				type: "loot"
+				table_id: 13756307348121783L
+			}]
 		}
 		{
 			title: "Gliders"
@@ -967,87 +1118,92 @@
 						items: [
 							{
 								id: "kibe:white_glider"
-								tag: { }
 								Count: 1b
+								tag: { }
 							}
 							{
 								id: "kibe:orange_glider"
-								tag: { }
 								Count: 1b
+								tag: { }
 							}
 							{
 								id: "kibe:magenta_glider"
-								tag: { }
 								Count: 1b
+								tag: { }
 							}
 							{
 								id: "kibe:light_blue_glider"
-								tag: { }
 								Count: 1b
+								tag: { }
 							}
 							{
 								id: "kibe:yellow_glider"
-								tag: { }
 								Count: 1b
+								tag: { }
 							}
 							{
 								id: "kibe:lime_glider"
-								tag: { }
 								Count: 1b
+								tag: { }
 							}
 							{
 								id: "kibe:pink_glider"
-								tag: { }
 								Count: 1b
+								tag: { }
 							}
 							{
 								id: "kibe:gray_glider"
-								tag: { }
 								Count: 1b
+								tag: { }
 							}
 							{
 								id: "kibe:light_gray_glider"
-								tag: { }
 								Count: 1b
+								tag: { }
 							}
 							{
 								id: "kibe:cyan_glider"
-								tag: { }
 								Count: 1b
+								tag: { }
 							}
 							{
 								id: "kibe:blue_glider"
-								tag: { }
 								Count: 1b
+								tag: { }
 							}
 							{
 								id: "kibe:purple_glider"
-								tag: { }
 								Count: 1b
+								tag: { }
 							}
 							{
 								id: "kibe:green_glider"
-								tag: { }
 								Count: 1b
+								tag: { }
 							}
 							{
 								id: "kibe:brown_glider"
-								tag: { }
 								Count: 1b
+								tag: { }
 							}
 							{
 								id: "kibe:red_glider"
-								tag: { }
 								Count: 1b
+								tag: { }
 							}
 							{
 								id: "kibe:black_glider"
-								tag: { }
 								Count: 1b
+								tag: { }
 							}
 						]
 					}
 				}
+			}]
+			rewards: [{
+				id: "64EBC1FF2855F827"
+				type: "loot"
+				table_id: 13756307348121783L
 			}]
 		}
 		{
@@ -1083,6 +1239,11 @@
 				type: "item"
 				item: "kibe:placer"
 			}]
+			rewards: [{
+				id: "142FF17693F992B9"
+				type: "loot"
+				table_id: 13756307348121783L
+			}]
 		}
 		{
 			x: 1.0d
@@ -1093,6 +1254,11 @@
 				id: "6B26491A205CD947"
 				type: "item"
 				item: "kibe:drawbridge"
+			}]
+			rewards: [{
+				id: "3DFBD4EC2B3FC622"
+				type: "loot"
+				table_id: 13756307348121783L
 			}]
 		}
 		{
@@ -1106,6 +1272,11 @@
 				type: "item"
 				item: "kibe:breaker"
 			}]
+			rewards: [{
+				id: "53E64710C29094C1"
+				type: "loot"
+				table_id: 13756307348121783L
+			}]
 		}
 		{
 			x: 1.5d
@@ -1116,6 +1287,11 @@
 				id: "3C9068E99A18D305"
 				type: "item"
 				item: "kibe:igniter"
+			}]
+			rewards: [{
+				id: "012435C34F9D4744"
+				type: "loot"
+				table_id: 13756307348121783L
 			}]
 		}
 		{
@@ -1128,6 +1304,11 @@
 				type: "item"
 				item: "kibe:dehumidifier"
 			}]
+			rewards: [{
+				id: "14D4E70A1C5663F5"
+				type: "loot"
+				table_id: 13756307348121783L
+			}]
 		}
 		{
 			x: -0.5d
@@ -1138,6 +1319,11 @@
 				id: "792CDF0A914EFC9C"
 				type: "item"
 				item: "kibe:heater"
+			}]
+			rewards: [{
+				id: "34BCCBA2520A0142"
+				type: "loot"
+				table_id: 13756307348121783L
 			}]
 		}
 		{
@@ -1151,6 +1337,11 @@
 				type: "item"
 				item: "kibe:fluid_hopper"
 			}]
+			rewards: [{
+				id: "1ED5E238DD403F5B"
+				type: "loot"
+				table_id: 13756307348121783L
+			}]
 		}
 		{
 			x: 1.0d
@@ -1161,6 +1352,11 @@
 				id: "02D63A4D997340CA"
 				type: "item"
 				item: "kibe:redstone_timer"
+			}]
+			rewards: [{
+				id: "435B08ADE0E7D4B7"
+				type: "loot"
+				table_id: 13756307348121783L
 			}]
 		}
 		{
@@ -1188,7 +1384,6 @@
 				{
 					id: "189C6FF5DC7D2833"
 					type: "random"
-					table_id: 8264326110762821785L
 				}
 				{
 					id: "623C3C23AC217ED8"
@@ -1209,6 +1404,11 @@
 				type: "item"
 				item: "kibe:big_torch"
 			}]
+			rewards: [{
+				id: "4CF5D3C09B700FA7"
+				type: "loot"
+				table_id: 13756307348121783L
+			}]
 		}
 		{
 			x: 4.5d
@@ -1220,6 +1420,11 @@
 				id: "5E20F61EB482457C"
 				type: "item"
 				item: "kibe:white_elevator"
+			}]
+			rewards: [{
+				id: "4F75B5B694D289A2"
+				type: "loot"
+				table_id: 13756307348121783L
 			}]
 		}
 	]

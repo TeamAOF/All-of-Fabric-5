@@ -135,7 +135,6 @@
 				{
 					id: "48DBFE2B82DECA52"
 					type: "random"
-					table_id: 8530759241018555690L
 				}
 			]
 		}
@@ -156,7 +155,6 @@
 			rewards: [{
 				id: "6AF2E8D8CDD6A2B6"
 				type: "random"
-				table_id: 8969898993839230539L
 			}]
 		}
 		{
@@ -245,7 +243,6 @@
 				{
 					id: "6D318EA6F6E9F6AC"
 					type: "random"
-					table_id: 8530759241018555690L
 				}
 			]
 		}
@@ -289,27 +286,22 @@
 				{
 					id: "26B691A4FD321DFA"
 					type: "random"
-					table_id: 8264326110762821785L
 				}
 				{
 					id: "3FD2A280DDE247B8"
 					type: "random"
-					table_id: 8530759241018555690L
 				}
 				{
 					id: "334FA874ADFEAA07"
 					type: "random"
-					table_id: 8530759241018555690L
 				}
 				{
 					id: "1F2578621C88BB06"
 					type: "random"
-					table_id: 8530759241018555690L
 				}
 				{
 					id: "54F37DDB30D488B6"
 					type: "random"
-					table_id: 8981598721841145636L
 				}
 			]
 		}
@@ -464,17 +456,14 @@
 				{
 					id: "6B2F7402245EA4AC"
 					type: "random"
-					table_id: 8817810574139827171L
 				}
 				{
 					id: "1916DC32539308FB"
 					type: "random"
-					table_id: 8817810574139827171L
 				}
 				{
 					id: "275E03535F38E5EA"
 					type: "random"
-					table_id: 8817810574139827171L
 				}
 			]
 		}
@@ -494,7 +483,6 @@
 			rewards: [{
 				id: "54F97F4D593319EC"
 				type: "random"
-				table_id: 6115726535057844717L
 			}]
 		}
 		{

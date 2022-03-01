@@ -18,6 +18,11 @@
 				type: "item"
 				item: "farmingforblockheads:market"
 			}]
+			rewards: [{
+				id: "05458C99B95ACE1D"
+				type: "loot"
+				table_id: 13756307348121783L
+			}]
 		}
 		{
 			x: -5.0d
@@ -28,6 +33,11 @@
 				id: "5F2ADAA3F72E4D09"
 				type: "item"
 				item: "farmingforblockheads:chicken_nest"
+			}]
+			rewards: [{
+				id: "042F41574A0F96DD"
+				type: "loot"
+				table_id: 13756307348121783L
 			}]
 		}
 		{
@@ -40,6 +50,11 @@
 				type: "item"
 				item: "farmingforblockheads:feeding_trough"
 			}]
+			rewards: [{
+				id: "5E3799855EF24121"
+				type: "loot"
+				table_id: 13756307348121783L
+			}]
 		}
 		{
 			x: -4.0d
@@ -50,6 +65,11 @@
 				id: "1604ECD381B21CFB"
 				type: "item"
 				item: "farmingforblockheads:green_fertilizer"
+			}]
+			rewards: [{
+				id: "6289EAD144C207A7"
+				type: "loot"
+				table_id: 13756307348121783L
 			}]
 		}
 		{
@@ -62,6 +82,11 @@
 				type: "item"
 				item: "farmingforblockheads:red_fertilizer"
 			}]
+			rewards: [{
+				id: "12D7CE3250C790C1"
+				type: "loot"
+				table_id: 13756307348121783L
+			}]
 		}
 		{
 			x: -5.0d
@@ -73,6 +98,11 @@
 				type: "item"
 				item: "farmingforblockheads:yellow_fertilizer"
 			}]
+			rewards: [{
+				id: "246A47AA48C0EFA0"
+				type: "loot"
+				table_id: 13756307348121783L
+			}]
 		}
 		{
 			x: -3.5d
@@ -82,6 +112,11 @@
 				id: "346AF1543438BA37"
 				type: "item"
 				item: "croptosis:iron_watering_can"
+			}]
+			rewards: [{
+				id: "6890DCC8DAA57021"
+				type: "loot"
+				table_id: 13756307348121783L
 			}]
 		}
 		{
@@ -94,6 +129,11 @@
 				type: "item"
 				item: "croptosis:gold_watering_can"
 			}]
+			rewards: [{
+				id: "15382CCD3C591F44"
+				type: "loot"
+				table_id: 13756307348121783L
+			}]
 		}
 		{
 			x: -2.0d
@@ -104,6 +144,11 @@
 				id: "002F12D8ABAF5E60"
 				type: "item"
 				item: "croptosis:diamond_watering_can"
+			}]
+			rewards: [{
+				id: "013ECA11A04D8C3B"
+				type: "loot"
+				table_id: 13756307348121783L
 			}]
 		}
 		{
@@ -116,6 +161,11 @@
 				type: "item"
 				item: "croptosis:netherite_watering_can"
 			}]
+			rewards: [{
+				id: "716AECFBFC3081E4"
+				type: "loot"
+				table_id: 13756307348121783L
+			}]
 		}
 		{
 			x: 5.5d
@@ -125,6 +175,11 @@
 				id: "6CA5629377C7E780"
 				type: "item"
 				item: "croptopia:chocolate_milkshake"
+			}]
+			rewards: [{
+				id: "099B2FDAD9320F85"
+				type: "loot"
+				table_id: 13756307348121783L
 			}]
 		}
 		{
@@ -136,6 +191,11 @@
 				type: "item"
 				item: "croptopia:snicker_doodle"
 			}]
+			rewards: [{
+				id: "19A80E2CFEAA5A07"
+				type: "loot"
+				table_id: 13756307348121783L
+			}]
 		}
 		{
 			x: 5.0d
@@ -145,6 +205,11 @@
 				id: "738AB0258B2DAAA1"
 				type: "item"
 				item: "croptopia:raisin_oatmeal_cookie"
+			}]
+			rewards: [{
+				id: "0C33614CFF0CE380"
+				type: "loot"
+				table_id: 13756307348121783L
 			}]
 		}
 		{
@@ -156,6 +221,11 @@
 				type: "item"
 				item: "croptopia:cheese_cake"
 			}]
+			rewards: [{
+				id: "21E4CA97836B1655"
+				type: "loot"
+				table_id: 13756307348121783L
+			}]
 		}
 		{
 			x: 6.5d
@@ -166,6 +236,11 @@
 				type: "item"
 				item: "croptopia:doughnut"
 			}]
+			rewards: [{
+				id: "01903220ADF6FE0F"
+				type: "loot"
+				table_id: 13756307348121783L
+			}]
 		}
 		{
 			x: 3.5d
@@ -175,6 +250,11 @@
 				id: "0D044738FBBC376B"
 				type: "item"
 				item: "croptopia:fruit_cake"
+			}]
+			rewards: [{
+				id: "1A903B247E4128E3"
+				type: "loot"
+				table_id: 13756307348121783L
 			}]
 		}
 		{
@@ -196,9 +276,9 @@
 				title: "Sweet Tooth"
 			}]
 			rewards: [{
-				id: "41244735620ED56D"
-				type: "random"
-				table_id: 8530759241018555690L
+				id: "2C8012939DAB0B82"
+				type: "loot"
+				table_id: 13756307348121783L
 			}]
 		}
 		{
@@ -211,6 +291,11 @@
 				id: "04801BAC52C4D589"
 				type: "checkmark"
 				title: "Chocolatier"
+			}]
+			rewards: [{
+				id: "583E581394907836"
+				type: "loot"
+				table_id: 13756307348121783L
 			}]
 		}
 		{
@@ -239,11 +324,18 @@
 				type: "checkmark"
 				title: "Kitchen basics"
 			}]
-			rewards: [{
-				id: "4DFA581A68815DAA"
-				type: "item"
-				item: "adorn:egg_crate"
-			}]
+			rewards: [
+				{
+					id: "4DFA581A68815DAA"
+					type: "item"
+					item: "adorn:egg_crate"
+				}
+				{
+					id: "2A0231667C3E26C9"
+					type: "loot"
+					table_id: 13756307348121783L
+				}
+			]
 		}
 		{
 			x: -0.5d
@@ -253,6 +345,11 @@
 				id: "3B71D4720FA8282D"
 				type: "item"
 				item: "croptopia:cooking_pot"
+			}]
+			rewards: [{
+				id: "0769BE153574F03F"
+				type: "loot"
+				table_id: 13756307348121783L
 			}]
 		}
 		{
@@ -264,6 +361,11 @@
 				type: "item"
 				item: "croptopia:mortar_and_pestle"
 			}]
+			rewards: [{
+				id: "28C63CDE3E2317A0"
+				type: "loot"
+				table_id: 13756307348121783L
+			}]
 		}
 		{
 			x: -2.5d
@@ -273,6 +375,11 @@
 				id: "29E1787D0069B2CF"
 				type: "item"
 				item: "croptopia:frying_pan"
+			}]
+			rewards: [{
+				id: "2C3798C4AD9CB169"
+				type: "loot"
+				table_id: 13756307348121783L
 			}]
 		}
 		{
@@ -284,6 +391,11 @@
 				type: "item"
 				item: "croptopia:pepper"
 			}]
+			rewards: [{
+				id: "790CAB3A9A0CEF30"
+				type: "loot"
+				table_id: 13756307348121783L
+			}]
 		}
 		{
 			x: 2.5d
@@ -293,6 +405,11 @@
 				id: "59E9757E49E8926D"
 				type: "item"
 				item: "croptopia:food_press"
+			}]
+			rewards: [{
+				id: "2EB4AF2744954317"
+				type: "loot"
+				table_id: 13756307348121783L
 			}]
 		}
 		{
@@ -304,11 +421,18 @@
 				type: "item"
 				item: "croptopia:flour"
 			}]
-			rewards: [{
-				id: "590D456AA06B20AE"
-				type: "item"
-				item: "croptopia:lemon_sapling"
-			}]
+			rewards: [
+				{
+					id: "590D456AA06B20AE"
+					type: "item"
+					item: "croptopia:lemon_sapling"
+				}
+				{
+					id: "070BB33F1ADB7DAE"
+					type: "loot"
+					table_id: 13756307348121783L
+				}
+			]
 		}
 		{
 			x: -2.5d
@@ -318,6 +442,11 @@
 				id: "22F1EEBE89B61279"
 				type: "item"
 				item: "croptopia:olive_oil"
+			}]
+			rewards: [{
+				id: "257930BDFAF9E99B"
+				type: "loot"
+				table_id: 13756307348121783L
 			}]
 		}
 		{
@@ -329,6 +458,11 @@
 				type: "item"
 				item: "croptopia:salt"
 			}]
+			rewards: [{
+				id: "7E8AC70A7AE45FC0"
+				type: "loot"
+				table_id: 13756307348121783L
+			}]
 		}
 		{
 			x: 3.5d
@@ -338,6 +472,11 @@
 				id: "7E35A6AE21505CA7"
 				type: "item"
 				item: "croptopia:butter"
+			}]
+			rewards: [{
+				id: "2F7B0105C3C78962"
+				type: "loot"
+				table_id: 13756307348121783L
 			}]
 		}
 		{
@@ -349,6 +488,11 @@
 				type: "item"
 				item: "croptopia:coffee"
 			}]
+			rewards: [{
+				id: "0C4D33E184DD9467"
+				type: "loot"
+				table_id: 13756307348121783L
+			}]
 		}
 		{
 			x: -1.5d
@@ -359,6 +503,11 @@
 				type: "item"
 				item: "croptopia:noodle"
 			}]
+			rewards: [{
+				id: "7F491D3BB2C73638"
+				type: "loot"
+				table_id: 13756307348121783L
+			}]
 		}
 		{
 			x: 2.5d
@@ -368,6 +517,11 @@
 				id: "5EF171AFB4049ADE"
 				type: "item"
 				item: "croptopia:greenonion"
+			}]
+			rewards: [{
+				id: "12DA28A7D09DCCB5"
+				type: "loot"
+				table_id: 13756307348121783L
 			}]
 		}
 		{
@@ -419,6 +573,11 @@
 				type: "item"
 				item: "croptopia:beef_jerky"
 			}]
+			rewards: [{
+				id: "64AC9B28E73D0C8B"
+				type: "loot"
+				table_id: 13756307348121783L
+			}]
 		}
 		{
 			x: 0.5d
@@ -431,11 +590,18 @@
 				type: "item"
 				item: "minecraft:cooked_beef"
 			}]
-			rewards: [{
-				id: "2A05494F601BE09B"
-				type: "xp"
-				xp: 50
-			}]
+			rewards: [
+				{
+					id: "2A05494F601BE09B"
+					type: "xp"
+					xp: 50
+				}
+				{
+					id: "3EB9F281E6BD950A"
+					type: "loot"
+					table_id: 13756307348121783L
+				}
+			]
 		}
 		{
 			x: -0.5d
@@ -446,6 +612,11 @@
 				id: "2A03780155D63806"
 				type: "item"
 				item: "croptopia:beef_stew"
+			}]
+			rewards: [{
+				id: "01AB8A73AACFDEDA"
+				type: "loot"
+				table_id: 13756307348121783L
 			}]
 		}
 		{
@@ -458,6 +629,11 @@
 				type: "item"
 				item: "croptopia:beef_stir_fry"
 			}]
+			rewards: [{
+				id: "344C6FBC72D3A07A"
+				type: "loot"
+				table_id: 13756307348121783L
+			}]
 		}
 		{
 			x: 1.5d
@@ -468,6 +644,11 @@
 				id: "033E6011E6405EDE"
 				type: "item"
 				item: "croptopia:beef_wellington"
+			}]
+			rewards: [{
+				id: "5D7CA4B966EAD1AB"
+				type: "loot"
+				table_id: 13756307348121783L
 			}]
 		}
 		{
@@ -481,11 +662,18 @@
 				type: "item"
 				item: "minecraft:cooked_porkchop"
 			}]
-			rewards: [{
-				id: "3F2C30BC19A74F15"
-				type: "xp"
-				xp: 50
-			}]
+			rewards: [
+				{
+					id: "3F2C30BC19A74F15"
+					type: "xp"
+					xp: 50
+				}
+				{
+					id: "1EDF4653879F849D"
+					type: "loot"
+					table_id: 13756307348121783L
+				}
+			]
 		}
 		{
 			x: 5.0d
@@ -496,6 +684,11 @@
 				id: "16495728E9511126"
 				type: "item"
 				item: "croptopia:pork_jerky"
+			}]
+			rewards: [{
+				id: "5E462D4160D58E99"
+				type: "loot"
+				table_id: 13756307348121783L
 			}]
 		}
 		{
@@ -508,6 +701,11 @@
 				type: "item"
 				item: "croptopia:pork_and_beans"
 			}]
+			rewards: [{
+				id: "56B4396500A6B1C3"
+				type: "loot"
+				table_id: 13756307348121783L
+			}]
 		}
 		{
 			x: 6.0d
@@ -519,6 +717,11 @@
 				type: "item"
 				item: "croptopia:blt"
 			}]
+			rewards: [{
+				id: "7B9CBDA8B07E48A3"
+				type: "loot"
+				table_id: 13756307348121783L
+			}]
 		}
 		{
 			x: 6.0d
@@ -529,6 +732,11 @@
 				id: "75D200E9D984A3D2"
 				type: "item"
 				item: "croptopia:ham_sandwich"
+			}]
+			rewards: [{
+				id: "7305F293C36E66CD"
+				type: "loot"
+				table_id: 13756307348121783L
 			}]
 		}
 		{
@@ -563,9 +771,9 @@
 				}
 			}]
 			rewards: [{
-				id: "0260B5F5E945577B"
-				type: "random"
-				table_id: 1327074635400886561L
+				id: "5E88753DB59E918C"
+				type: "loot"
+				table_id: 13756307348121783L
 			}]
 		}
 		{
@@ -600,9 +808,9 @@
 				}
 			}]
 			rewards: [{
-				id: "6471312CFBFD43F7"
-				type: "random"
-				table_id: 1327074635400886561L
+				id: "2375CF2C5159015C"
+				type: "loot"
+				table_id: 13756307348121783L
 			}]
 		}
 		{
@@ -637,9 +845,9 @@
 				}
 			}]
 			rewards: [{
-				id: "239F5EE802FF8B53"
-				type: "random"
-				table_id: 1327074635400886561L
+				id: "364D580C202B24D1"
+				type: "loot"
+				table_id: 13756307348121783L
 			}]
 		}
 		{
@@ -673,9 +881,9 @@
 				}
 			}]
 			rewards: [{
-				id: "110F691879062A4C"
-				type: "random"
-				table_id: 1327074635400886561L
+				id: "2474C2A3C040C18E"
+				type: "loot"
+				table_id: 13756307348121783L
 			}]
 		}
 		{
@@ -709,9 +917,9 @@
 				}
 			}]
 			rewards: [{
-				id: "68FE3A11ED035142"
-				type: "random"
-				table_id: 1327074635400886561L
+				id: "26EA182154142AB1"
+				type: "loot"
+				table_id: 13756307348121783L
 			}]
 		}
 		{
@@ -745,9 +953,9 @@
 				}
 			}]
 			rewards: [{
-				id: "4989D3CD3E9CDF35"
-				type: "random"
-				table_id: 1327074635400886561L
+				id: "1F171F40725A0E32"
+				type: "loot"
+				table_id: 13756307348121783L
 			}]
 		}
 		{
@@ -781,9 +989,9 @@
 				}
 			}]
 			rewards: [{
-				id: "337E8ADD80C4A954"
-				type: "random"
-				table_id: 1327074635400886561L
+				id: "2DC291502EA235D2"
+				type: "loot"
+				table_id: 13756307348121783L
 			}]
 		}
 		{
@@ -818,9 +1026,9 @@
 				}
 			}]
 			rewards: [{
-				id: "272D88C0EDA10503"
-				type: "random"
-				table_id: 1327074635400886561L
+				id: "5A8AF2FE3DFAB733"
+				type: "loot"
+				table_id: 13756307348121783L
 			}]
 		}
 		{
@@ -832,6 +1040,11 @@
 				id: "42763C68172B38A8"
 				type: "item"
 				item: "cacao:golden_chocolate"
+			}]
+			rewards: [{
+				id: "16E54E8FCC0D5CEE"
+				type: "loot"
+				table_id: 13756307348121783L
 			}]
 		}
 		{
@@ -865,9 +1078,9 @@
 				}
 			}]
 			rewards: [{
-				id: "1BD8E3914800A343"
-				type: "random"
-				table_id: 1327074635400886561L
+				id: "51DBB1C30599733A"
+				type: "loot"
+				table_id: 13756307348121783L
 			}]
 		}
 		{
@@ -880,12 +1093,19 @@
 				type: "item"
 				item: "croptopia:chocolate"
 			}]
-			rewards: [{
-				id: "00953DBE6F7EE102"
-				type: "item"
-				item: "blockus:rainbow_bricks"
-				count: 12
-			}]
+			rewards: [
+				{
+					id: "00953DBE6F7EE102"
+					type: "item"
+					item: "blockus:rainbow_bricks"
+					count: 12
+				}
+				{
+					id: "51272F3B4CF4B109"
+					type: "loot"
+					table_id: 13756307348121783L
+				}
+			]
 		}
 		{
 			x: 4.5d
@@ -897,17 +1117,24 @@
 				type: "item"
 				item: "croptopia:chocolate_ice_cream"
 			}]
-			rewards: [{
-				id: "58721C71B08F9552"
-				type: "item"
-				item: {
-					id: "minecraft:wooden_sword"
-					Count: 1b
-					tag: {
-						Damage: 0
+			rewards: [
+				{
+					id: "58721C71B08F9552"
+					type: "item"
+					item: {
+						id: "minecraft:wooden_sword"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
 					}
 				}
-			}]
+				{
+					id: "01AF9577CC8E993F"
+					type: "loot"
+					table_id: 13756307348121783L
+				}
+			]
 		}
 		{
 			x: -10.5d
@@ -919,11 +1146,18 @@
 				type: "item"
 				item: "cacao:silicon_mold"
 			}]
-			rewards: [{
-				id: "1FDDFF72BA706624"
-				type: "item"
-				item: "adorn:black_table_lamp"
-			}]
+			rewards: [
+				{
+					id: "1FDDFF72BA706624"
+					type: "item"
+					item: "adorn:black_table_lamp"
+				}
+				{
+					id: "4FAB8E04A3CB0F77"
+					type: "loot"
+					table_id: 13756307348121783L
+				}
+			]
 		}
 		{
 			x: -7.0d
@@ -935,11 +1169,18 @@
 				type: "item"
 				item: "cacao:manual_food_grinder"
 			}]
-			rewards: [{
-				id: "55347EA5AF94E99F"
-				type: "item"
-				item: "croptopia:lime_sapling"
-			}]
+			rewards: [
+				{
+					id: "55347EA5AF94E99F"
+					type: "item"
+					item: "croptopia:lime_sapling"
+				}
+				{
+					id: "4818A6B00A896852"
+					type: "loot"
+					table_id: 13756307348121783L
+				}
+			]
 		}
 		{
 			x: -8.0d
@@ -951,11 +1192,18 @@
 				type: "item"
 				item: "cacao:filter_cloth"
 			}]
-			rewards: [{
-				id: "2B78EA371141BBB8"
-				type: "item"
-				item: "croptopia:orange_sapling"
-			}]
+			rewards: [
+				{
+					id: "2B78EA371141BBB8"
+					type: "item"
+					item: "croptopia:orange_sapling"
+				}
+				{
+					id: "7F21BC08C509C19C"
+					type: "loot"
+					table_id: 13756307348121783L
+				}
+			]
 		}
 		{
 			x: -11.0d
@@ -967,11 +1215,18 @@
 				type: "item"
 				item: "cacao:cacao_nibs"
 			}]
-			rewards: [{
-				id: "4D35011EF9040A7B"
-				type: "item"
-				item: "croptopia:pecan_sapling"
-			}]
+			rewards: [
+				{
+					id: "4D35011EF9040A7B"
+					type: "item"
+					item: "croptopia:pecan_sapling"
+				}
+				{
+					id: "262457A1C82228A3"
+					type: "loot"
+					table_id: 13756307348121783L
+				}
+			]
 		}
 		{
 			x: -9.5d
@@ -983,11 +1238,18 @@
 				type: "item"
 				item: "cacao:cacao_mass_bucket"
 			}]
-			rewards: [{
-				id: "1699DD5B686C75F6"
-				type: "item"
-				item: "croptopia:cherry_sapling"
-			}]
+			rewards: [
+				{
+					id: "1699DD5B686C75F6"
+					type: "item"
+					item: "croptopia:cherry_sapling"
+				}
+				{
+					id: "17EFE7CC3F7E356D"
+					type: "loot"
+					table_id: 13756307348121783L
+				}
+			]
 		}
 		{
 			x: -12.5d
@@ -999,11 +1261,18 @@
 				type: "item"
 				item: "cacao:cacao_mass_bottle"
 			}]
-			rewards: [{
-				id: "0CF24B65110C3D0E"
-				type: "item"
-				item: "croptopia:banana_sapling"
-			}]
+			rewards: [
+				{
+					id: "0CF24B65110C3D0E"
+					type: "item"
+					item: "croptopia:banana_sapling"
+				}
+				{
+					id: "577CD9430578F86D"
+					type: "loot"
+					table_id: 13756307348121783L
+				}
+			]
 		}
 		{
 			x: -13.5d
@@ -1015,11 +1284,18 @@
 				type: "item"
 				item: "cacao:cacao_butter_bottle"
 			}]
-			rewards: [{
-				id: "3F969971792E8781"
-				type: "item"
-				item: "croptopia:apple_sapling"
-			}]
+			rewards: [
+				{
+					id: "3F969971792E8781"
+					type: "item"
+					item: "croptopia:apple_sapling"
+				}
+				{
+					id: "3C7440EAA2B30FC5"
+					type: "loot"
+					table_id: 13756307348121783L
+				}
+			]
 		}
 		{
 			x: -7.5d
@@ -1032,11 +1308,18 @@
 				type: "item"
 				item: "cacao:nutella"
 			}]
-			rewards: [{
-				id: "1F0EE39CBA51132E"
-				type: "item"
-				item: "croptopia:mango_sapling"
-			}]
+			rewards: [
+				{
+					id: "1F0EE39CBA51132E"
+					type: "item"
+					item: "croptopia:mango_sapling"
+				}
+				{
+					id: "1E39D66B37A2199B"
+					type: "loot"
+					table_id: 13756307348121783L
+				}
+			]
 		}
 		{
 			x: 0.5d
@@ -1059,9 +1342,9 @@
 				item: "farmersdelight:stove"
 			}]
 			rewards: [{
-				id: "6CC22CCDF870D00B"
-				type: "random"
-				table_id: 8530759241018555690L
+				id: "55DAF502FB5DD924"
+				type: "loot"
+				table_id: 13756307348121783L
 			}]
 		}
 		{
@@ -1074,11 +1357,18 @@
 				type: "item"
 				item: "farmersdelight:cooking_pot"
 			}]
-			rewards: [{
-				id: "10B490A162D60B49"
-				type: "item"
-				item: "minecraft:iron_nugget"
-			}]
+			rewards: [
+				{
+					id: "10B490A162D60B49"
+					type: "item"
+					item: "minecraft:iron_nugget"
+				}
+				{
+					id: "2BA09F57353EF1C3"
+					type: "loot"
+					table_id: 13756307348121783L
+				}
+			]
 		}
 		{
 			x: -10.0d
@@ -1090,12 +1380,19 @@
 				type: "item"
 				item: "farmersdelight:basket"
 			}]
-			rewards: [{
-				id: "6D1D99E840103A13"
-				type: "item"
-				item: "minecraft:andesite"
-				count: 12
-			}]
+			rewards: [
+				{
+					id: "6D1D99E840103A13"
+					type: "item"
+					item: "minecraft:andesite"
+					count: 12
+				}
+				{
+					id: "032B538B0D6EF69D"
+					type: "loot"
+					table_id: 13756307348121783L
+				}
+			]
 		}
 		{
 			x: -8.0d
@@ -1113,11 +1410,18 @@
 					}
 				}
 			}]
-			rewards: [{
-				id: "74F3FA97139EB904"
-				type: "item"
-				item: "farmersdelight:apple_pie_slice"
-			}]
+			rewards: [
+				{
+					id: "74F3FA97139EB904"
+					type: "item"
+					item: "farmersdelight:apple_pie_slice"
+				}
+				{
+					id: "2F1EDAAD78FB24BD"
+					type: "loot"
+					table_id: 13756307348121783L
+				}
+			]
 		}
 		{
 			x: -8.0d
@@ -1135,11 +1439,18 @@
 					}
 				}
 			}]
-			rewards: [{
-				id: "4F87E9B65BCE1862"
-				type: "item"
-				item: "croptopia:sushi"
-			}]
+			rewards: [
+				{
+					id: "4F87E9B65BCE1862"
+					type: "item"
+					item: "croptopia:sushi"
+				}
+				{
+					id: "55030423F4CB0E7A"
+					type: "loot"
+					table_id: 13756307348121783L
+				}
+			]
 		}
 		{
 			x: -7.0d
@@ -1157,11 +1468,18 @@
 					}
 				}
 			}]
-			rewards: [{
-				id: "3B3C63750BAA0695"
-				type: "item"
-				item: "gofish:simple_lure"
-			}]
+			rewards: [
+				{
+					id: "3B3C63750BAA0695"
+					type: "item"
+					item: "gofish:simple_lure"
+				}
+				{
+					id: "2E653268E1822BCF"
+					type: "loot"
+					table_id: 13756307348121783L
+				}
+			]
 		}
 		{
 			x: -5.0d
@@ -1179,11 +1497,18 @@
 					}
 				}
 			}]
-			rewards: [{
-				id: "1BD7348B587A053C"
-				type: "item"
-				item: "gofish:soul_lure"
-			}]
+			rewards: [
+				{
+					id: "1BD7348B587A053C"
+					type: "item"
+					item: "gofish:soul_lure"
+				}
+				{
+					id: "1E7956FEAFFB8F6F"
+					type: "loot"
+					table_id: 13756307348121783L
+				}
+			]
 		}
 		{
 			x: -3.0d
@@ -1201,12 +1526,19 @@
 					}
 				}
 			}]
-			rewards: [{
-				id: "3893B57CF66FC1E3"
-				type: "item"
-				item: "additionaladditions:honeyed_apple"
-				count: 2
-			}]
+			rewards: [
+				{
+					id: "3893B57CF66FC1E3"
+					type: "item"
+					item: "additionaladditions:honeyed_apple"
+					count: 2
+				}
+				{
+					id: "2015DF06D8E9C323"
+					type: "loot"
+					table_id: 13756307348121783L
+				}
+			]
 		}
 		{
 			x: -8.0d
@@ -1218,11 +1550,18 @@
 				type: "item"
 				item: "farmersdelight:cutting_board"
 			}]
-			rewards: [{
-				id: "4A403A693BC43511"
-				type: "item"
-				item: "farmersdelight:chocolate_pie_slice"
-			}]
+			rewards: [
+				{
+					id: "4A403A693BC43511"
+					type: "item"
+					item: "farmersdelight:chocolate_pie_slice"
+				}
+				{
+					id: "496FA79E4BDB9DF8"
+					type: "loot"
+					table_id: 13756307348121783L
+				}
+			]
 		}
 		{
 			x: -10.0d
@@ -1234,12 +1573,19 @@
 				type: "item"
 				item: "farmersdelight:safety_net"
 			}]
-			rewards: [{
-				id: "6E51B51D0A0F4828"
-				type: "item"
-				item: "minecraft:granite"
-				count: 12
-			}]
+			rewards: [
+				{
+					id: "6E51B51D0A0F4828"
+					type: "item"
+					item: "minecraft:granite"
+					count: 12
+				}
+				{
+					id: "6D743EECA28FE769"
+					type: "loot"
+					table_id: 13756307348121783L
+				}
+			]
 		}
 		{
 			x: -10.0d
@@ -1251,12 +1597,19 @@
 				type: "item"
 				item: "farmersdelight:rope"
 			}]
-			rewards: [{
-				id: "2818D08800C04A51"
-				type: "item"
-				item: "minecraft:stone"
-				count: 12
-			}]
+			rewards: [
+				{
+					id: "2818D08800C04A51"
+					type: "item"
+					item: "minecraft:stone"
+					count: 12
+				}
+				{
+					id: "36C1A5B250FBD3C2"
+					type: "loot"
+					table_id: 13756307348121783L
+				}
+			]
 		}
 		{
 			x: -4.5d
@@ -1291,6 +1644,11 @@
 				type: "item"
 				item: "farmersdelight:beef_stew"
 			}]
+			rewards: [{
+				id: "3E2E8A824DD37776"
+				type: "loot"
+				table_id: 13756307348121783L
+			}]
 		}
 		{
 			x: 10.5d
@@ -1300,6 +1658,11 @@
 				id: "713E63D9B89E8134"
 				type: "item"
 				item: "farmersdelight:chicken_soup"
+			}]
+			rewards: [{
+				id: "05ED726DD453FB4D"
+				type: "loot"
+				table_id: 13756307348121783L
 			}]
 		}
 		{
@@ -1311,6 +1674,11 @@
 				type: "item"
 				item: "farmersdelight:raw_pasta"
 			}]
+			rewards: [{
+				id: "3CA8A2A42EFFB481"
+				type: "loot"
+				table_id: 13756307348121783L
+			}]
 		}
 		{
 			x: -4.5d
@@ -1320,6 +1688,11 @@
 				id: "519F5355E13C0482"
 				type: "item"
 				item: "farmersdelight:pasta_with_meatballs"
+			}]
+			rewards: [{
+				id: "53BEEC6C6E07DDF8"
+				type: "loot"
+				table_id: 13756307348121783L
 			}]
 		}
 		{
@@ -1331,6 +1704,11 @@
 				type: "item"
 				item: "farmersdelight:pasta_with_mutton_chop"
 			}]
+			rewards: [{
+				id: "38FBB0423A79F101"
+				type: "loot"
+				table_id: 13756307348121783L
+			}]
 		}
 		{
 			x: -4.5d
@@ -1340,6 +1718,11 @@
 				id: "5B7C7FC520F2C25A"
 				type: "item"
 				item: "farmersdelight:rice_bag"
+			}]
+			rewards: [{
+				id: "0680FBA5703B0AEB"
+				type: "loot"
+				table_id: 13756307348121783L
 			}]
 		}
 		{
@@ -1351,6 +1734,11 @@
 				type: "item"
 				item: "farmersdelight:cooked_rice"
 			}]
+			rewards: [{
+				id: "3F426C315AC8DE87"
+				type: "loot"
+				table_id: 13756307348121783L
+			}]
 		}
 		{
 			x: -5.5d
@@ -1360,6 +1748,11 @@
 				id: "0513DA54B544E113"
 				type: "item"
 				item: "farmersdelight:fried_rice"
+			}]
+			rewards: [{
+				id: "448B3B3F719ACF3B"
+				type: "loot"
+				table_id: 13756307348121783L
 			}]
 		}
 		{
@@ -1413,6 +1806,11 @@
 				type: "item"
 				item: "farmersdelight:vegetable_soup"
 			}]
+			rewards: [{
+				id: "18AEABF703E2DB2C"
+				type: "loot"
+				table_id: 13756307348121783L
+			}]
 		}
 		{
 			x: 8.0d
@@ -1422,6 +1820,11 @@
 				id: "2D404FDB11C7C55E"
 				type: "item"
 				item: "farmersdelight:pumpkin_soup"
+			}]
+			rewards: [{
+				id: "18FDCE3559CE22BB"
+				type: "loot"
+				table_id: 13756307348121783L
 			}]
 		}
 		{
@@ -1433,6 +1836,11 @@
 				type: "item"
 				item: "farmersdelight:noodle_soup"
 			}]
+			rewards: [{
+				id: "1B641D1E5ED01BE8"
+				type: "loot"
+				table_id: 13756307348121783L
+			}]
 		}
 		{
 			x: 8.0d
@@ -1443,6 +1851,11 @@
 				type: "item"
 				item: "farmersdelight:fish_stew"
 			}]
+			rewards: [{
+				id: "1E89A51299638DB1"
+				type: "loot"
+				table_id: 13756307348121783L
+			}]
 		}
 		{
 			x: 10.0d
@@ -1452,6 +1865,11 @@
 				id: "3B7C4E95E20B48B4"
 				type: "item"
 				item: "farmersdelight:baked_cod_stew"
+			}]
+			rewards: [{
+				id: "655A803BAA2663F7"
+				type: "loot"
+				table_id: 13756307348121783L
 			}]
 		}
 		{
@@ -1473,9 +1891,9 @@
 				title: "Blockhead"
 			}]
 			rewards: [{
-				id: "423970770E11D5A8"
-				type: "random"
-				table_id: 5326367464111173975L
+				id: "401D3AF812692FB6"
+				type: "loot"
+				table_id: 13756307348121783L
 			}]
 		}
 	]

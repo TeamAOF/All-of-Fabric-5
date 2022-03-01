@@ -870,18 +870,11 @@
 					}
 				}
 			}]
-			rewards: [
-				{
-					id: "1D1AA60ECD39E6A9"
-					type: "random"
-					table_id: 6115726535057844717L
-				}
-				{
-					id: "0965CE644363314C"
-					type: "random"
-					table_id: 8530759241018555690L
-				}
-			]
+			rewards: [{
+				id: "06690B411BC59C1C"
+				type: "loot"
+				table_id: 13756307348121783L
+			}]
 		}
 		{
 			x: -9.0d
@@ -898,23 +891,11 @@
 				type: "checkmark"
 				title: "Bronze Bonus"
 			}]
-			rewards: [
-				{
-					id: "045A9B80520840AB"
-					type: "random"
-					table_id: 5326367464111173975L
-				}
-				{
-					id: "6206B4DCD6DCB950"
-					type: "random"
-					table_id: 5326367464111173975L
-				}
-				{
-					id: "3C85CEFECF649FA7"
-					type: "random"
-					table_id: 8530759241018555690L
-				}
-			]
+			rewards: [{
+				id: "5706C371EB4728E7"
+				type: "loot"
+				table_id: 13756307348121783L
+			}]
 		}
 		{
 			x: -9.0d
@@ -932,9 +913,9 @@
 				title: "Tin Man"
 			}]
 			rewards: [{
-				id: "3F2C11EB1112B1D7"
-				type: "random"
-				table_id: 8530759241018555690L
+				id: "3D160173186C0B0B"
+				type: "loot"
+				table_id: 13756307348121783L
 			}]
 		}
 		{
@@ -953,9 +934,9 @@
 				title: "Iron Will"
 			}]
 			rewards: [{
-				id: "2531DEA2060F1599"
-				type: "random"
-				table_id: 8530759241018555690L
+				id: "31668F16B4B9A0D6"
+				type: "loot"
+				table_id: 13756307348121783L
 			}]
 		}
 		{
@@ -974,18 +955,12 @@
 				type: "checkmark"
 				title: "Golden Opportunity"
 			}]
-			rewards: [
-				{
-					id: "411DDC0839BBBAA6"
-					type: "random"
-					table_id: 2482271367426889676L
-				}
-				{
-					id: "3653E30EE96D1183"
-					type: "random"
-					table_id: 8530759241018555690L
-				}
-			]
+			rewards: [{
+				id: "7A8891211020964E"
+				type: "item"
+				item: "minecraft:rotten_flesh"
+				count: 64
+			}]
 		}
 		{
 			x: -1.5d
@@ -1002,23 +977,11 @@
 				type: "checkmark"
 				title: "Rose Gold Dreams"
 			}]
-			rewards: [
-				{
-					id: "5EF8669D15E32B5F"
-					type: "random"
-					table_id: 8530759241018555690L
-				}
-				{
-					id: "68BE416A32C3EA15"
-					type: "random"
-					table_id: 8530759241018555690L
-				}
-				{
-					id: "785702626410CFD9"
-					type: "random"
-					table_id: 8530759241018555690L
-				}
-			]
+			rewards: [{
+				id: "0531263CB068CD2B"
+				type: "loot"
+				table_id: 13756307348121783L
+			}]
 		}
 		{
 			x: -1.0d
@@ -1036,9 +999,9 @@
 				title: "Diamond Determination"
 			}]
 			rewards: [{
-				id: "3B9A000186235001"
-				type: "random"
-				table_id: 8981598721841145636L
+				id: "2F964D99A5B1E290"
+				type: "loot"
+				table_id: 13756307348121783L
 			}]
 		}
 		{
@@ -1056,28 +1019,11 @@
 				type: "checkmark"
 				title: "Silver Monkey's"
 			}]
-			rewards: [
-				{
-					id: "68C376073B84553D"
-					type: "random"
-					table_id: 5326367464111173975L
-				}
-				{
-					id: "3D6048850C0FA830"
-					type: "random"
-					table_id: 5326367464111173975L
-				}
-				{
-					id: "6A9E8E67E396E11F"
-					type: "random"
-					table_id: 5326367464111173975L
-				}
-				{
-					id: "29925678E1EE5EBC"
-					type: "random"
-					table_id: 8530759241018555690L
-				}
-			]
+			rewards: [{
+				id: "1011859288BA2C0B"
+				type: "loot"
+				table_id: 13756307348121783L
+			}]
 		}
 		{
 			title: "Netherite Knight"
@@ -1096,9 +1042,9 @@
 				title: "Netherite night"
 			}]
 			rewards: [{
-				id: "77DA5AEA4FA73714"
-				type: "random"
-				table_id: 8981598721841145636L
+				id: "1CF1B7E8129F2A0D"
+				type: "loot"
+				table_id: 13756307348121783L
 			}]
 		}
 		{
@@ -1117,9 +1063,9 @@
 				title: "Steel and Shiny"
 			}]
 			rewards: [{
-				id: "70CBA3501126C04C"
-				type: "random"
-				table_id: 8981598721841145636L
+				id: "1523FB0DE863F7A6"
+				type: "loot"
+				table_id: 13756307348121783L
 			}]
 		}
 		{
@@ -1137,18 +1083,11 @@
 				type: "checkmark"
 				title: "Lead Head"
 			}]
-			rewards: [
-				{
-					id: "628755093F1AF20F"
-					type: "random"
-					table_id: 2482271367426889676L
-				}
-				{
-					id: "09533E3F89A080D4"
-					type: "random"
-					table_id: 8530759241018555690L
-				}
-			]
+			rewards: [{
+				id: "51BFC88BCF7B581C"
+				type: "loot"
+				table_id: 13756307348121783L
+			}]
 		}
 		{
 			x: 2.0d
@@ -1165,18 +1104,11 @@
 				type: "checkmark"
 				title: "Can't catch me copper"
 			}]
-			rewards: [
-				{
-					id: "0D8B6525EBEEDDCC"
-					type: "random"
-					table_id: 8530759241018555690L
-				}
-				{
-					id: "35B265AB20E1E217"
-					type: "random"
-					table_id: 8530759241018555690L
-				}
-			]
+			rewards: [{
+				id: "0A6B3CD5492C1CF4"
+				type: "loot"
+				table_id: 13756307348121783L
+			}]
 		}
 		{
 			x: -7.0d
@@ -1295,6 +1227,11 @@
 					}
 				}
 			}]
+			rewards: [{
+				id: "6199CA6EA0BCCF90"
+				type: "loot"
+				table_id: 13756307348121783L
+			}]
 		}
 		{
 			x: 0.0d
@@ -1376,6 +1313,11 @@
 						Damage: 0
 					}
 				}
+			}]
+			rewards: [{
+				id: "2AB8B89F3AB5E3D4"
+				type: "loot"
+				table_id: 13756307348121783L
 			}]
 		}
 		{
@@ -1489,6 +1431,11 @@
 					}
 				}
 			}]
+			rewards: [{
+				id: "7DEDE9A80024CCC2"
+				type: "loot"
+				table_id: 13756307348121783L
+			}]
 		}
 		{
 			x: -11.0d
@@ -1521,6 +1468,11 @@
 					}
 				}
 			}]
+			rewards: [{
+				id: "73EBF73D4DDDE229"
+				type: "loot"
+				table_id: 13756307348121783L
+			}]
 		}
 		{
 			x: -14.0d
@@ -1536,6 +1488,11 @@
 						Damage: 0
 					}
 				}
+			}]
+			rewards: [{
+				id: "139FC16373E686EF"
+				type: "loot"
+				table_id: 13756307348121783L
 			}]
 		}
 		{
@@ -1564,9 +1521,9 @@
 				title: "HAMMER GOD"
 			}]
 			rewards: [{
-				id: "74C5585754FD34BE"
-				type: "random"
-				table_id: 8817810574139827171L
+				id: "4F722DBB479A9613"
+				type: "loot"
+				table_id: 13756307348121783L
 			}]
 		}
 		{
@@ -1648,6 +1605,11 @@
 					}
 				}
 			}]
+			rewards: [{
+				id: "0DCF8578C487A957"
+				type: "loot"
+				table_id: 13756307348121783L
+			}]
 		}
 		{
 			x: 5.5d
@@ -1663,6 +1625,11 @@
 						Damage: 0
 					}
 				}
+			}]
+			rewards: [{
+				id: "56C9743AD0E9B219"
+				type: "loot"
+				table_id: 13756307348121783L
 			}]
 		}
 		{
@@ -1727,6 +1694,11 @@
 						Damage: 0
 					}
 				}
+			}]
+			rewards: [{
+				id: "2405B2EEF7318F8D"
+				type: "loot"
+				table_id: 13756307348121783L
 			}]
 		}
 		{
@@ -1802,9 +1774,9 @@
 				title: "Dig Dug Done"
 			}]
 			rewards: [{
-				id: "3CD8EB527028522C"
-				type: "random"
-				table_id: 8817810574139827171L
+				id: "5A4C3B405D0673F2"
+				type: "loot"
+				table_id: 13756307348121783L
 			}]
 		}
 		{
@@ -1941,9 +1913,9 @@
 				}
 			}]
 			rewards: [{
-				id: "353FE8E606C52423"
-				type: "random"
-				table_id: 6115726535057844717L
+				id: "64A1A2902772D27D"
+				type: "loot"
+				table_id: 13756307348121783L
 			}]
 		}
 		{
@@ -1988,20 +1960,27 @@
 					count: 15L
 				}
 			]
-			rewards: [{
-				id: "70BFA828B9DE7E7E"
-				type: "item"
-				item: {
-					id: "minecraft:enchanted_book"
-					Count: 1b
-					tag: {
-						StoredEnchantments: [{
-							lvl: 2s
-							id: "minecraft:sharpness"
-						}]
+			rewards: [
+				{
+					id: "70BFA828B9DE7E7E"
+					type: "item"
+					item: {
+						id: "minecraft:enchanted_book"
+						Count: 1b
+						tag: {
+							StoredEnchantments: [{
+								lvl: 2s
+								id: "minecraft:sharpness"
+							}]
+						}
 					}
 				}
-			}]
+				{
+					id: "5E8B041B6E350F52"
+					type: "loot"
+					table_id: 13756307348121783L
+				}
+			]
 		}
 		{
 			x: 5.5d
@@ -2015,20 +1994,27 @@
 				type: "item"
 				item: "minecraft:grindstone"
 			}]
-			rewards: [{
-				id: "500C1539A8887290"
-				type: "item"
-				item: {
-					id: "minecraft:enchanted_book"
-					Count: 1b
-					tag: {
-						StoredEnchantments: [{
-							lvl: 2s
-							id: "minecraft:protection"
-						}]
+			rewards: [
+				{
+					id: "500C1539A8887290"
+					type: "item"
+					item: {
+						id: "minecraft:enchanted_book"
+						Count: 1b
+						tag: {
+							StoredEnchantments: [{
+								lvl: 2s
+								id: "minecraft:protection"
+							}]
+						}
 					}
 				}
-			}]
+				{
+					id: "0E623BAC6345DC76"
+					type: "loot"
+					table_id: 13756307348121783L
+				}
+			]
 		}
 		{
 			x: 5.5d
@@ -2046,20 +2032,27 @@
 				type: "item"
 				item: "infusion_table:infusion_table"
 			}]
-			rewards: [{
-				id: "6D24214DE06F2B9B"
-				type: "item"
-				item: {
-					id: "minecraft:enchanted_book"
-					Count: 1b
-					tag: {
-						StoredEnchantments: [{
-							lvl: 2s
-							id: "minecraft:looting"
-						}]
+			rewards: [
+				{
+					id: "6D24214DE06F2B9B"
+					type: "item"
+					item: {
+						id: "minecraft:enchanted_book"
+						Count: 1b
+						tag: {
+							StoredEnchantments: [{
+								lvl: 2s
+								id: "minecraft:looting"
+							}]
+						}
 					}
 				}
-			}]
+				{
+					id: "711B73B80D690816"
+					type: "loot"
+					table_id: 13756307348121783L
+				}
+			]
 		}
 		{
 			icon: "xps:block_xp_obelisk"
@@ -2082,13 +2075,20 @@
 					item: "xps:xp_remover"
 				}
 			]
-			rewards: [{
-				id: "13B854E24202DC9B"
-				type: "item"
-				item: "minecraft:experience_bottle"
-				count: 2
-				random_bonus: 8
-			}]
+			rewards: [
+				{
+					id: "13B854E24202DC9B"
+					type: "item"
+					item: "minecraft:experience_bottle"
+					count: 2
+					random_bonus: 8
+				}
+				{
+					id: "43C8934A031D887A"
+					type: "loot"
+					table_id: 13756307348121783L
+				}
+			]
 		}
 		{
 			x: -5.0d
@@ -2361,6 +2361,11 @@
 				type: "checkmark"
 				title: "Manaweave"
 			}]
+			rewards: [{
+				id: "3E5C2F71B6F784D2"
+				type: "loot"
+				table_id: 13756307348121783L
+			}]
 		}
 		{
 			title: "Manasteel Armor"
@@ -2377,6 +2382,11 @@
 				id: "23842C30863CA1D0"
 				type: "checkmark"
 				title: "Manasteel"
+			}]
+			rewards: [{
+				id: "3E10429F5EC8D19E"
+				type: "loot"
+				table_id: 13756307348121783L
 			}]
 		}
 		{
@@ -2399,6 +2409,11 @@
 				type: "checkmark"
 				title: "Terrasteel"
 			}]
+			rewards: [{
+				id: "15257C77886BCB48"
+				type: "loot"
+				table_id: 13756307348121783L
+			}]
 		}
 		{
 			title: "Elementium Armor"
@@ -2415,6 +2430,11 @@
 				id: "6A4A402F8923FD3B"
 				type: "checkmark"
 				title: "Elementium"
+			}]
+			rewards: [{
+				id: "6C9BF22DD19304EA"
+				type: "loot"
+				table_id: 13756307348121783L
 			}]
 		}
 		{
@@ -2710,6 +2730,11 @@
 				type: "checkmark"
 				title: "Manasteel"
 			}]
+			rewards: [{
+				id: "7C60CA789E7FAA27"
+				type: "loot"
+				table_id: 13756307348121783L
+			}]
 		}
 		{
 			title: "Elementium Tools"
@@ -2728,6 +2753,11 @@
 				id: "15E2BEE00FF25F54"
 				type: "checkmark"
 				title: "Elementium"
+			}]
+			rewards: [{
+				id: "40446D28DFFA24E2"
+				type: "loot"
+				table_id: 13756307348121783L
 			}]
 		}
 		{
@@ -2827,6 +2857,11 @@
 				type: "checkmark"
 				title: "Quantum Supremacy"
 			}]
+			rewards: [{
+				id: "31BE99E1C3912B32"
+				type: "loot"
+				table_id: 13756307348121783L
+			}]
 		}
 		{
 			x: 7.0d
@@ -2837,6 +2872,11 @@
 				id: "2A1E3263D4BC0DE4"
 				type: "item"
 				item: "dark-enchanting:dark_enchanter"
+			}]
+			rewards: [{
+				id: "6C4C5B29661563A7"
+				type: "loot"
+				table_id: 13756307348121783L
 			}]
 		}
 	]

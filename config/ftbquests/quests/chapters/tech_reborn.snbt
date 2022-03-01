@@ -84,17 +84,24 @@
 					count: 6L
 				}
 			]
-			rewards: [{
-				id: "1370B40BF917925A"
-				type: "item"
-				item: {
-					id: "techreborn:treetap"
-					Count: 1b
-					tag: {
-						Damage: 0
+			rewards: [
+				{
+					id: "1370B40BF917925A"
+					type: "item"
+					item: {
+						id: "techreborn:treetap"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
 					}
 				}
-			}]
+				{
+					id: "5DC3500F5D788762"
+					type: "loot"
+					table_id: 13756307348121783L
+				}
+			]
 		}
 		{
 			title: "Refining Iron"
@@ -113,12 +120,19 @@
 				item: "techreborn:refined_iron_ingot"
 				count: 8L
 			}]
-			rewards: [{
-				id: "28031C88C2918419"
-				type: "item"
-				item: "minecraft:iron_ingot"
-				count: 4
-			}]
+			rewards: [
+				{
+					id: "28031C88C2918419"
+					type: "item"
+					item: "minecraft:iron_ingot"
+					count: 4
+				}
+				{
+					id: "64E986B4E8A1DAEF"
+					type: "loot"
+					table_id: 13756307348121783L
+				}
+			]
 		}
 		{
 			x: -13.5d
@@ -134,11 +148,18 @@
 				type: "item"
 				item: "techreborn:electronic_circuit"
 			}]
-			rewards: [{
-				id: "252AD579C758B41B"
-				type: "item"
-				item: "techreborn:sap"
-			}]
+			rewards: [
+				{
+					id: "252AD579C758B41B"
+					type: "item"
+					item: "techreborn:sap"
+				}
+				{
+					id: "0AF7C655A979BBC9"
+					type: "loot"
+					table_id: 13756307348121783L
+				}
+			]
 		}
 		{
 			title: "Generating Power"
@@ -160,11 +181,18 @@
 				type: "item"
 				item: "techreborn:solid_fuel_generator"
 			}]
-			rewards: [{
-				id: "46EDE253B7061413"
-				type: "item"
-				item: "minecraft:coal_block"
-			}]
+			rewards: [
+				{
+					id: "46EDE253B7061413"
+					type: "item"
+					item: "minecraft:coal_block"
+				}
+				{
+					id: "5BA84307D253CAE7"
+					type: "loot"
+					table_id: 13756307348121783L
+				}
+			]
 		}
 		{
 			x: -12.0d
@@ -178,11 +206,18 @@
 				type: "item"
 				item: "techreborn:electric_furnace"
 			}]
-			rewards: [{
-				id: "7BE4757FD9082E73"
-				type: "item"
-				item: "minecraft:porkchop"
-			}]
+			rewards: [
+				{
+					id: "7BE4757FD9082E73"
+					type: "item"
+					item: "minecraft:porkchop"
+				}
+				{
+					id: "556F0763055C7649"
+					type: "loot"
+					table_id: 13756307348121783L
+				}
+			]
 		}
 		{
 			x: -12.5d
@@ -199,11 +234,18 @@
 				type: "item"
 				item: "techreborn:grinder"
 			}]
-			rewards: [{
-				id: "79476464C79EA0E1"
-				type: "item"
-				item: "croptopia:flour"
-			}]
+			rewards: [
+				{
+					id: "79476464C79EA0E1"
+					type: "item"
+					item: "croptopia:flour"
+				}
+				{
+					id: "3448D6D5EAC92918"
+					type: "loot"
+					table_id: 13756307348121783L
+				}
+			]
 		}
 		{
 			x: -17.0d
@@ -217,11 +259,18 @@
 				type: "item"
 				item: "techreborn:iron_furnace"
 			}]
-			rewards: [{
-				id: "422891FB72F6F3D2"
-				type: "item"
-				item: "dwarfcoal:dwarf_coal"
-			}]
+			rewards: [
+				{
+					id: "422891FB72F6F3D2"
+					type: "item"
+					item: "dwarfcoal:dwarf_coal"
+				}
+				{
+					id: "6FAD3193B699FB16"
+					type: "loot"
+					table_id: 13756307348121783L
+				}
+			]
 		}
 		{
 			x: -15.0d
@@ -234,11 +283,18 @@
 				type: "item"
 				item: "techreborn:extractor"
 			}]
-			rewards: [{
-				id: "2645479B52232AC4"
-				type: "item"
-				item: "blockus:soul_o_lantern"
-			}]
+			rewards: [
+				{
+					id: "2645479B52232AC4"
+					type: "item"
+					item: "blockus:soul_o_lantern"
+				}
+				{
+					id: "76210AC37B887C56"
+					type: "loot"
+					table_id: 13756307348121783L
+				}
+			]
 		}
 		{
 			x: -14.5d
@@ -252,11 +308,18 @@
 				type: "item"
 				item: "techreborn:solid_canning_machine"
 			}]
-			rewards: [{
-				id: "6A47EFC488B6A545"
-				type: "item"
-				item: "techreborn:compressed_plantball"
-			}]
+			rewards: [
+				{
+					id: "6A47EFC488B6A545"
+					type: "item"
+					item: "techreborn:compressed_plantball"
+				}
+				{
+					id: "1B4061B86AA337A1"
+					type: "loot"
+					table_id: 13756307348121783L
+				}
+			]
 		}
 		{
 			x: -4.5d
@@ -270,11 +333,18 @@
 				type: "item"
 				item: "techreborn:rolling_machine"
 			}]
-			rewards: [{
-				id: "5E1C89A4936C9C4C"
-				type: "item"
-				item: "minecraft:pumpkin_pie"
-			}]
+			rewards: [
+				{
+					id: "5E1C89A4936C9C4C"
+					type: "item"
+					item: "minecraft:pumpkin_pie"
+				}
+				{
+					id: "4BC5EC0333B3E4A4"
+					type: "loot"
+					table_id: 13756307348121783L
+				}
+			]
 		}
 		{
 			x: -17.0d
@@ -287,12 +357,19 @@
 				type: "item"
 				item: "techreborn:wire_mill"
 			}]
-			rewards: [{
-				id: "63672FC3387EEA78"
-				type: "item"
-				item: "techreborn:rubber"
-				count: 2
-			}]
+			rewards: [
+				{
+					id: "63672FC3387EEA78"
+					type: "item"
+					item: "techreborn:rubber"
+					count: 2
+				}
+				{
+					id: "661EDC8823188196"
+					type: "loot"
+					table_id: 13756307348121783L
+				}
+			]
 		}
 		{
 			icon: "techreborn:scrapboxinator"
@@ -315,10 +392,9 @@
 				}
 			]
 			rewards: [{
-				id: "02DCBA09867F86F5"
-				type: "item"
-				item: "minecraft:cobblestone"
-				count: 64
+				id: "4AFADEBF589162A6"
+				type: "loot"
+				table_id: 13756307348121783L
 			}]
 		}
 		{
@@ -347,6 +423,11 @@
 					type: "item"
 					item: "minecraft:chest"
 				}
+				{
+					id: "082AFE405CB89E38"
+					type: "loot"
+					table_id: 13756307348121783L
+				}
 			]
 		}
 		{
@@ -361,9 +442,9 @@
 				item: "techreborn:advanced_circuit"
 			}]
 			rewards: [{
-				id: "271CAC39F6A142D2"
-				type: "item"
-				item: "minecraft:lapis_lazuli"
+				id: "564C433A791B95CB"
+				type: "loot"
+				table_id: 13756307348121783L
 			}]
 		}
 		{
@@ -380,11 +461,18 @@
 				type: "item"
 				item: "techreborn:basic_solar_panel"
 			}]
-			rewards: [{
-				id: "219242ED3E210ECE"
-				type: "item"
-				item: "minecraft:sunflower"
-			}]
+			rewards: [
+				{
+					id: "219242ED3E210ECE"
+					type: "item"
+					item: "minecraft:sunflower"
+				}
+				{
+					id: "7BB9832C6AC03904"
+					type: "loot"
+					table_id: 13756307348121783L
+				}
+			]
 		}
 		{
 			x: -12.5d
@@ -397,12 +485,19 @@
 				type: "item"
 				item: "techreborn:advanced_solar_panel"
 			}]
-			rewards: [{
-				id: "73EFF9985B0F8227"
-				type: "item"
-				item: "minecraft:sunflower"
-				count: 2
-			}]
+			rewards: [
+				{
+					id: "73EFF9985B0F8227"
+					type: "item"
+					item: "minecraft:sunflower"
+					count: 2
+				}
+				{
+					id: "46F319453ECC2668"
+					type: "loot"
+					table_id: 13756307348121783L
+				}
+			]
 		}
 		{
 			x: -12.5d
@@ -415,12 +510,19 @@
 				type: "item"
 				item: "techreborn:industrial_solar_panel"
 			}]
-			rewards: [{
-				id: "7D164386AD271EFF"
-				type: "item"
-				item: "minecraft:sunflower"
-				count: 3
-			}]
+			rewards: [
+				{
+					id: "7D164386AD271EFF"
+					type: "item"
+					item: "minecraft:sunflower"
+					count: 3
+				}
+				{
+					id: "3FB6B35E229FEF71"
+					type: "loot"
+					table_id: 13756307348121783L
+				}
+			]
 		}
 		{
 			x: -12.5d
@@ -433,12 +535,19 @@
 				type: "item"
 				item: "techreborn:ultimate_solar_panel"
 			}]
-			rewards: [{
-				id: "150D7E43E9A6EA7D"
-				type: "item"
-				item: "minecraft:sunflower"
-				count: 4
-			}]
+			rewards: [
+				{
+					id: "150D7E43E9A6EA7D"
+					type: "item"
+					item: "minecraft:sunflower"
+					count: 4
+				}
+				{
+					id: "3D0BEEE320CB0C76"
+					type: "loot"
+					table_id: 13756307348121783L
+				}
+			]
 		}
 		{
 			x: -10.0d
@@ -454,12 +563,19 @@
 				type: "item"
 				item: "techreborn:quantum_solar_panel"
 			}]
-			rewards: [{
-				id: "3CD5446E7C5919B9"
-				type: "item"
-				item: "minecraft:sunflower"
-				count: 5
-			}]
+			rewards: [
+				{
+					id: "3CD5446E7C5919B9"
+					type: "item"
+					item: "minecraft:sunflower"
+					count: 5
+				}
+				{
+					id: "0E293BB80FEF415C"
+					type: "loot"
+					table_id: 13756307348121783L
+				}
+			]
 		}
 		{
 			x: -2.5d
@@ -471,6 +587,11 @@
 				id: "5A9264CF54AF6DA9"
 				type: "item"
 				item: "techreborn:auto_crafting_table"
+			}]
+			rewards: [{
+				id: "67FA4C8E0DEB14B3"
+				type: "loot"
+				table_id: 13756307348121783L
 			}]
 		}
 		{
@@ -517,6 +638,11 @@
 					}
 				}
 			]
+			rewards: [{
+				id: "02D0BA12517DC72F"
+				type: "loot"
+				table_id: 13756307348121783L
+			}]
 		}
 		{
 			x: -19.0d
@@ -540,11 +666,18 @@
 				type: "item"
 				item: "techreborn:drain"
 			}]
-			rewards: [{
-				id: "565A8087D8B6EDCB"
-				type: "item"
-				item: "minecraft:water_bucket"
-			}]
+			rewards: [
+				{
+					id: "565A8087D8B6EDCB"
+					type: "item"
+					item: "minecraft:water_bucket"
+				}
+				{
+					id: "663E1E9A67FE4D39"
+					type: "loot"
+					table_id: 13756307348121783L
+				}
+			]
 		}
 		{
 			x: -18.0d
@@ -557,17 +690,24 @@
 				type: "item"
 				item: "techreborn:alarm"
 			}]
-			rewards: [{
-				id: "20A06AADE98CDC98"
-				type: "item"
-				item: {
-					id: "vanilla-hammers:stone_hammer"
-					Count: 1b
-					tag: {
-						Damage: 0
+			rewards: [
+				{
+					id: "20A06AADE98CDC98"
+					type: "item"
+					item: {
+						id: "vanilla-hammers:stone_hammer"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
 					}
 				}
-			}]
+				{
+					id: "10344AA8C14C13D6"
+					type: "loot"
+					table_id: 13756307348121783L
+				}
+			]
 		}
 		{
 			x: -13.5d
@@ -580,17 +720,24 @@
 				type: "item"
 				item: "techreborn:overclocker_upgrade"
 			}]
-			rewards: [{
-				id: "731F9638F5DADAF7"
-				type: "item"
-				item: {
-					id: "minecraft:splash_potion"
-					Count: 1b
-					tag: {
-						Potion: "goblintraders:dig_speed_extended"
+			rewards: [
+				{
+					id: "731F9638F5DADAF7"
+					type: "item"
+					item: {
+						id: "minecraft:splash_potion"
+						Count: 1b
+						tag: {
+							Potion: "goblintraders:dig_speed_extended"
+						}
 					}
 				}
-			}]
+				{
+					id: "1BA6AB9399BD5F16"
+					type: "loot"
+					table_id: 13756307348121783L
+				}
+			]
 		}
 		{
 			x: -5.0d
@@ -603,6 +750,11 @@
 				type: "item"
 				item: "techreborn:scrapboxinator"
 			}]
+			rewards: [{
+				id: "742A0840F9C2477C"
+				type: "loot"
+				table_id: 13756307348121783L
+			}]
 		}
 		{
 			x: -2.0d
@@ -614,6 +766,11 @@
 				id: "798D314ED3ACD680"
 				type: "item"
 				item: "techreborn:assembly_machine"
+			}]
+			rewards: [{
+				id: "43A40A18BFC53A34"
+				type: "loot"
+				table_id: 13756307348121783L
 			}]
 		}
 		{
@@ -638,6 +795,11 @@
 				id: "684E519E525BE34C"
 				type: "item"
 				item: "techreborn:industrial_blast_furnace"
+			}]
+			rewards: [{
+				id: "6937048F6FA33056"
+				type: "loot"
+				table_id: 13756307348121783L
 			}]
 		}
 		{
@@ -664,6 +826,11 @@
 				type: "item"
 				item: "techreborn:industrial_sawmill"
 			}]
+			rewards: [{
+				id: "2CCCC4DD5D2469BA"
+				type: "loot"
+				table_id: 13756307348121783L
+			}]
 		}
 		{
 			title: "Greenhouse Controller"
@@ -683,6 +850,11 @@
 				id: "31E873A44F34D7BC"
 				type: "item"
 				item: "techreborn:greenhouse_controller"
+			}]
+			rewards: [{
+				id: "5A23E186D4286E75"
+				type: "loot"
+				table_id: 13756307348121783L
 			}]
 		}
 		{
@@ -709,6 +881,11 @@
 				type: "item"
 				item: "techreborn:industrial_grinder"
 			}]
+			rewards: [{
+				id: "2D79F173F91302A0"
+				type: "loot"
+				table_id: 13756307348121783L
+			}]
 		}
 		{
 			x: -4.5d
@@ -725,6 +902,11 @@
 				id: "2B2EF74A9FEE0407"
 				type: "item"
 				item: "techreborn:vacuum_freezer"
+			}]
+			rewards: [{
+				id: "011BA7041CFFF339"
+				type: "loot"
+				table_id: 13756307348121783L
 			}]
 		}
 		{
@@ -759,6 +941,11 @@
 				type: "item"
 				item: "techreborn:implosion_compressor"
 			}]
+			rewards: [{
+				id: "2D1690E1CFBC715C"
+				type: "loot"
+				table_id: 13756307348121783L
+			}]
 		}
 		{
 			x: 7.5d
@@ -787,6 +974,11 @@
 				type: "item"
 				item: "techreborn:distillation_tower"
 			}]
+			rewards: [{
+				id: "630E3995EE17403C"
+				type: "loot"
+				table_id: 13756307348121783L
+			}]
 		}
 		{
 			x: 0.0d
@@ -797,6 +989,11 @@
 				id: "661A7BC5F492DE02"
 				type: "item"
 				item: "techreborn:industrial_circuit"
+			}]
+			rewards: [{
+				id: "7F6BCAB1DE2F563D"
+				type: "loot"
+				table_id: 13756307348121783L
 			}]
 		}
 		{
@@ -809,6 +1006,11 @@
 				id: "381DEE3CEBF9F2CA"
 				type: "item"
 				item: "techreborn:chemical_reactor"
+			}]
+			rewards: [{
+				id: "4E0E1EAE592292FC"
+				type: "loot"
+				table_id: 13756307348121783L
 			}]
 		}
 		{
@@ -833,6 +1035,11 @@
 				type: "item"
 				item: "techreborn:matter_fabricator"
 			}]
+			rewards: [{
+				id: "00FA48067818E8A9"
+				type: "loot"
+				table_id: 13756307348121783L
+			}]
 		}
 		{
 			x: -1.5d
@@ -844,6 +1051,11 @@
 				type: "item"
 				item: "techreborn:synthetic_redstone_crystal"
 				count: 2L
+			}]
+			rewards: [{
+				id: "1C8A175EF6278DEE"
+				type: "loot"
+				table_id: 13756307348121783L
 			}]
 		}
 		{
@@ -857,6 +1069,11 @@
 				type: "item"
 				item: "techreborn:uu_matter"
 			}]
+			rewards: [{
+				id: "1B6AC5E02C576F7B"
+				type: "loot"
+				table_id: 13756307348121783L
+			}]
 		}
 		{
 			x: 0.0d
@@ -867,6 +1084,11 @@
 				id: "2F11B86F34EBE189"
 				type: "item"
 				item: "modern_industrialization:silicon_plate"
+			}]
+			rewards: [{
+				id: "36863CD4B97573B8"
+				type: "loot"
+				table_id: 13756307348121783L
 			}]
 		}
 		{
@@ -883,6 +1105,11 @@
 				type: "item"
 				item: "techreborn:energy_crystal"
 			}]
+			rewards: [{
+				id: "323760905F1ECC4E"
+				type: "loot"
+				table_id: 13756307348121783L
+			}]
 		}
 		{
 			x: 0.0d
@@ -898,6 +1125,11 @@
 				type: "item"
 				item: "techreborn:lapotron_crystal"
 			}]
+			rewards: [{
+				id: "6129C7375E441C15"
+				type: "loot"
+				table_id: 13756307348121783L
+			}]
 		}
 		{
 			x: 1.5d
@@ -912,6 +1144,11 @@
 				type: "item"
 				item: "techreborn:energy_flow_chip"
 			}]
+			rewards: [{
+				id: "08AECFD1F42C6F0B"
+				type: "loot"
+				table_id: 13756307348121783L
+			}]
 		}
 		{
 			x: 3.0d
@@ -923,6 +1160,11 @@
 				type: "item"
 				item: "techreborn:iridium_alloy_plate"
 			}]
+			rewards: [{
+				id: "13C5CEB67D346151"
+				type: "loot"
+				table_id: 13756307348121783L
+			}]
 		}
 		{
 			x: -4.5d
@@ -933,6 +1175,11 @@
 				id: "1BA0F153578E7903"
 				type: "item"
 				item: "techreborn:cupronickel_heating_coil"
+			}]
+			rewards: [{
+				id: "0D36FFB958ED6503"
+				type: "loot"
+				table_id: 13756307348121783L
 			}]
 		}
 		{
@@ -948,6 +1195,11 @@
 				type: "item"
 				item: "techreborn:nichrome_heating_coil"
 			}]
+			rewards: [{
+				id: "522D50629BA99B1B"
+				type: "loot"
+				table_id: 13756307348121783L
+			}]
 		}
 		{
 			x: -3.0d
@@ -958,6 +1210,11 @@
 				id: "0977B8D889B55A08"
 				type: "item"
 				item: "techreborn:magnalium_plate"
+			}]
+			rewards: [{
+				id: "678FA041E90EF6D4"
+				type: "loot"
+				table_id: 13756307348121783L
 			}]
 		}
 		{
@@ -978,6 +1235,11 @@
 				type: "item"
 				item: "techreborn:wind_mill"
 			}]
+			rewards: [{
+				id: "462077DE52B0F93D"
+				type: "loot"
+				table_id: 13756307348121783L
+			}]
 		}
 		{
 			x: -17.0d
@@ -989,6 +1251,11 @@
 				id: "5253D479C5CBDA1A"
 				type: "item"
 				item: "techreborn:insulated_copper_cable"
+			}]
+			rewards: [{
+				id: "5DF799151660E254"
+				type: "loot"
+				table_id: 13756307348121783L
 			}]
 		}
 		{
@@ -1002,6 +1269,11 @@
 				type: "item"
 				item: "techreborn:red_cell_battery"
 			}]
+			rewards: [{
+				id: "75FE1FA366841C8A"
+				type: "loot"
+				table_id: 13756307348121783L
+			}]
 		}
 		{
 			x: -13.5d
@@ -1013,6 +1285,11 @@
 				id: "0492C08143ECC6A0"
 				type: "item"
 				item: "techreborn:basic_machine_frame"
+			}]
+			rewards: [{
+				id: "7A6160CBA821288E"
+				type: "loot"
+				table_id: 13756307348121783L
 			}]
 		}
 		{
@@ -1027,6 +1304,11 @@
 				type: "item"
 				item: "techreborn:compressor"
 			}]
+			rewards: [{
+				id: "0C3BD244A25D63A1"
+				type: "loot"
+				table_id: 13756307348121783L
+			}]
 		}
 		{
 			x: -9.0d
@@ -1040,6 +1322,11 @@
 				id: "1A23F77BB3A41C40"
 				type: "item"
 				item: "modern_industrialization:carbon_plate"
+			}]
+			rewards: [{
+				id: "7AF280E03DF3311F"
+				type: "loot"
+				table_id: 13756307348121783L
 			}]
 		}
 		{
@@ -1056,6 +1343,11 @@
 				type: "item"
 				item: "techreborn:advanced_machine_frame"
 			}]
+			rewards: [{
+				id: "5BBF0AD46B115957"
+				type: "loot"
+				table_id: 13756307348121783L
+			}]
 		}
 		{
 			x: -9.0d
@@ -1066,6 +1358,11 @@
 				id: "5C4B2AF02256AD7B"
 				type: "item"
 				item: "techreborn:data_storage_core"
+			}]
+			rewards: [{
+				id: "346EDB625AE93F8E"
+				type: "loot"
+				table_id: 13756307348121783L
 			}]
 		}
 		{
@@ -1093,6 +1390,11 @@
 				type: "item"
 				item: "techreborn:basic_machine_casing"
 			}]
+			rewards: [{
+				id: "1DAC184AF763BCF0"
+				type: "loot"
+				table_id: 13756307348121783L
+			}]
 		}
 		{
 			x: -6.0d
@@ -1104,6 +1406,11 @@
 				type: "item"
 				item: "modern_industrialization:steel_ingot"
 			}]
+			rewards: [{
+				id: "25D636D1741BF5B0"
+				type: "loot"
+				table_id: 13756307348121783L
+			}]
 		}
 		{
 			x: -7.5d
@@ -1114,6 +1421,11 @@
 				id: "398FE5821788EA84"
 				type: "item"
 				item: "modern_industrialization:steel_plate"
+			}]
+			rewards: [{
+				id: "5EFE34155A5BD776"
+				type: "loot"
+				table_id: 13756307348121783L
 			}]
 		}
 		{
@@ -1129,6 +1441,11 @@
 				id: "696BC8BD052CB0E4"
 				type: "item"
 				item: "techreborn:advanced_machine_casing"
+			}]
+			rewards: [{
+				id: "39E1BAF61EE71E11"
+				type: "loot"
+				table_id: 13756307348121783L
 			}]
 		}
 		{
@@ -1146,6 +1463,11 @@
 				type: "item"
 				item: "techreborn:industrial_machine_casing"
 			}]
+			rewards: [{
+				id: "7ADBDA171F6D4207"
+				type: "loot"
+				table_id: 13756307348121783L
+			}]
 		}
 		{
 			x: -7.5d
@@ -1155,7 +1477,12 @@
 			tasks: [{
 				id: "3CBC183433CE6829"
 				type: "item"
-				item: "techreborn:chrome_plate"
+				item: "modern_industrialization:chromium_plate"
+			}]
+			rewards: [{
+				id: "1795A61B0F03764A"
+				type: "loot"
+				table_id: 13756307348121783L
 			}]
 		}
 		{
@@ -1167,7 +1494,12 @@
 			tasks: [{
 				id: "49B6E05F1768F7F0"
 				type: "item"
-				item: "techreborn:chrome_ingot"
+				item: "modern_industrialization:chromium_ingot"
+			}]
+			rewards: [{
+				id: "4E3D76E70FA19655"
+				type: "loot"
+				table_id: 13756307348121783L
 			}]
 		}
 		{
@@ -1184,6 +1516,11 @@
 				type: "item"
 				item: "techreborn:industrial_machine_frame"
 			}]
+			rewards: [{
+				id: "027C047925994DB9"
+				type: "loot"
+				table_id: 13756307348121783L
+			}]
 		}
 		{
 			x: -4.5d
@@ -1198,6 +1535,11 @@
 				type: "item"
 				item: "modern_industrialization:titanium_plate"
 			}]
+			rewards: [{
+				id: "3CBA28123BA9B91D"
+				type: "loot"
+				table_id: 13756307348121783L
+			}]
 		}
 		{
 			x: -3.0d
@@ -1209,6 +1551,11 @@
 				type: "item"
 				item: "modern_industrialization:titanium_ingot"
 			}]
+			rewards: [{
+				id: "04B7126351814647"
+				type: "loot"
+				table_id: 13756307348121783L
+			}]
 		}
 		{
 			x: -11.0d
@@ -1219,6 +1566,11 @@
 				id: "15C28B8C2859DECC"
 				type: "item"
 				item: "modern_industrialization:coal_dust"
+			}]
+			rewards: [{
+				id: "45874E91E1D1AED3"
+				type: "loot"
+				table_id: 13756307348121783L
 			}]
 		}
 		{
@@ -1232,6 +1584,11 @@
 				type: "item"
 				item: "techreborn:carbon_fiber"
 			}]
+			rewards: [{
+				id: "35128DE4702A8E30"
+				type: "loot"
+				table_id: 13756307348121783L
+			}]
 		}
 		{
 			x: -6.5d
@@ -1242,6 +1599,11 @@
 				id: "3C45671BBF04B568"
 				type: "item"
 				item: "techreborn:advanced_alloy_plate"
+			}]
+			rewards: [{
+				id: "3E05428858F0E8E9"
+				type: "loot"
+				table_id: 13756307348121783L
 			}]
 		}
 		{
@@ -1254,6 +1616,11 @@
 				id: "07EEECEC8A259761"
 				type: "item"
 				item: "techreborn:lightning_rod"
+			}]
+			rewards: [{
+				id: "4F67B22C7632F09C"
+				type: "loot"
+				table_id: 13756307348121783L
 			}]
 		}
 		{
@@ -1286,6 +1653,11 @@
 					item: "techreborn:industrial_jackhammer"
 				}
 			]
+			rewards: [{
+				id: "1F845DFE3B8F19A9"
+				type: "loot"
+				table_id: 13756307348121783L
+			}]
 		}
 		{
 			title: "Advanced Tools"
@@ -1320,6 +1692,11 @@
 					item: "techreborn:advanced_drill"
 				}
 			]
+			rewards: [{
+				id: "2DC70C991B9F8E82"
+				type: "loot"
+				table_id: 13756307348121783L
+			}]
 		}
 		{
 			x: -3.0d
@@ -1331,6 +1708,11 @@
 				id: "55D46876F5CBFA23"
 				type: "item"
 				item: "techreborn:lithium_ion_battery"
+			}]
+			rewards: [{
+				id: "3B3620580001BCC2"
+				type: "loot"
+				table_id: 13756307348121783L
 			}]
 		}
 		{
@@ -1354,6 +1736,11 @@
 				type: "item"
 				item: "techreborn:electric_treetap"
 			}]
+			rewards: [{
+				id: "7504DD0783046CBA"
+				type: "loot"
+				table_id: 13756307348121783L
+			}]
 		}
 		{
 			x: 1.5d
@@ -1368,6 +1755,11 @@
 				id: "0A8F3851C62C7EAB"
 				type: "item"
 				item: "techreborn:lapotronic_orb"
+			}]
+			rewards: [{
+				id: "77B675C35F0B8795"
+				type: "loot"
+				table_id: 13756307348121783L
 			}]
 		}
 		{
@@ -1396,6 +1788,11 @@
 					}
 				}
 			}]
+			rewards: [{
+				id: "44377FABFBEF4744"
+				type: "loot"
+				table_id: 13756307348121783L
+			}]
 		}
 		{
 			x: 3.5d
@@ -1407,6 +1804,11 @@
 				id: "6925B87D2B040AA2"
 				type: "item"
 				item: "techreborn:adjustable_su"
+			}]
+			rewards: [{
+				id: "658937208BE78769"
+				type: "loot"
+				table_id: 13756307348121783L
 			}]
 		}
 		{
@@ -1425,6 +1827,11 @@
 				type: "item"
 				item: "techreborn:interdimensional_su"
 			}]
+			rewards: [{
+				id: "2AF085D78D60831D"
+				type: "loot"
+				table_id: 13756307348121783L
+			}]
 		}
 		{
 			x: 3.0d
@@ -1439,6 +1846,11 @@
 				type: "item"
 				item: "techreborn:superconductor"
 			}]
+			rewards: [{
+				id: "4163FC722DD708AF"
+				type: "loot"
+				table_id: 13756307348121783L
+			}]
 		}
 		{
 			x: 1.5d
@@ -1449,6 +1861,11 @@
 				id: "76969CABB40BA5DA"
 				type: "item"
 				item: "techreborn:cloaking_device"
+			}]
+			rewards: [{
+				id: "06D91D7190CD5C8A"
+				type: "loot"
+				table_id: 13756307348121783L
 			}]
 		}
 		{
@@ -1467,6 +1884,11 @@
 				type: "item"
 				item: "techreborn:industrial_electrolyzer"
 			}]
+			rewards: [{
+				id: "6E1491F4091DB429"
+				type: "loot"
+				table_id: 13756307348121783L
+			}]
 		}
 		{
 			x: 6.0d
@@ -1484,6 +1906,11 @@
 					}
 				}
 			}]
+			rewards: [{
+				id: "654D5786F934AB19"
+				type: "loot"
+				table_id: 13756307348121783L
+			}]
 		}
 		{
 			x: 7.5d
@@ -1495,6 +1922,11 @@
 				id: "63C31057EF1EDA2B"
 				type: "item"
 				item: "techreborn:neutron_reflector"
+			}]
+			rewards: [{
+				id: "62EC37408BF992AB"
+				type: "loot"
+				table_id: 13756307348121783L
 			}]
 		}
 		{
@@ -1510,6 +1942,11 @@
 				type: "item"
 				item: "techreborn:thick_neutron_reflector"
 			}]
+			rewards: [{
+				id: "708A2D7C0A3EC10B"
+				type: "loot"
+				table_id: 13756307348121783L
+			}]
 		}
 		{
 			x: 4.5d
@@ -1520,6 +1957,11 @@
 				id: "26C6BD42221F592C"
 				type: "item"
 				item: "techreborn:iridium_neutron_reflector"
+			}]
+			rewards: [{
+				id: "429ED260F224D6C2"
+				type: "loot"
+				table_id: 13756307348121783L
 			}]
 		}
 		{
@@ -1536,6 +1978,11 @@
 				type: "item"
 				item: "techreborn:fusion_coil"
 				count: 16L
+			}]
+			rewards: [{
+				id: "7F08BF5C96BE6C41"
+				type: "loot"
+				table_id: 13756307348121783L
 			}]
 		}
 		{
@@ -1564,6 +2011,11 @@
 				type: "item"
 				item: "techreborn:fusion_control_computer"
 			}]
+			rewards: [{
+				id: "6EBB15DD5A3D9BC5"
+				type: "loot"
+				table_id: 13756307348121783L
+			}]
 		}
 		{
 			x: -3.5d
@@ -1589,6 +2041,11 @@
 				type: "item"
 				item: "techreborn:fluid_replicator"
 			}]
+			rewards: [{
+				id: "37DB0A4529332ACE"
+				type: "loot"
+				table_id: 13756307348121783L
+			}]
 		}
 		{
 			x: -6.5d
@@ -1605,6 +2062,11 @@
 				id: "79FC49ED8506DD41"
 				type: "item"
 				item: "techreborn:scrap"
+			}]
+			rewards: [{
+				id: "5E3F5648D97BA05E"
+				type: "loot"
+				table_id: 13756307348121783L
 			}]
 		}
 		{
@@ -1625,6 +2087,11 @@
 				count: 64L
 				consume_items: true
 			}]
+			rewards: [{
+				id: "0AA2DC13CC74FE36"
+				type: "loot"
+				table_id: 13756307348121783L
+			}]
 		}
 		{
 			x: -10.0d
@@ -1636,6 +2103,11 @@
 				type: "item"
 				item: "techreborn:lamp_incandescent"
 			}]
+			rewards: [{
+				id: "7632F88A18EE65EB"
+				type: "loot"
+				table_id: 13756307348121783L
+			}]
 		}
 		{
 			x: -4.5d
@@ -1646,6 +2118,11 @@
 				id: "346B3EA16496606D"
 				type: "item"
 				item: "techreborn:tungstensteel_ingot"
+			}]
+			rewards: [{
+				id: "01F18304A9E3118B"
+				type: "loot"
+				table_id: 13756307348121783L
 			}]
 		}
 		{
@@ -1659,6 +2136,11 @@
 				type: "item"
 				item: "techreborn:lv_transformer"
 			}]
+			rewards: [{
+				id: "4EE79D62694F7F92"
+				type: "loot"
+				table_id: 13756307348121783L
+			}]
 		}
 		{
 			x: -15.0d
@@ -1671,6 +2153,11 @@
 				type: "item"
 				item: "techreborn:mv_transformer"
 			}]
+			rewards: [{
+				id: "00E64315A8FC9151"
+				type: "loot"
+				table_id: 13756307348121783L
+			}]
 		}
 		{
 			x: -14.5d
@@ -1682,6 +2169,11 @@
 				id: "5626555AE3596C5E"
 				type: "item"
 				item: "techreborn:hv_transformer"
+			}]
+			rewards: [{
+				id: "0A854DADA5D90B16"
+				type: "loot"
+				table_id: 13756307348121783L
 			}]
 		}
 		{
@@ -1702,6 +2194,11 @@
 				id: "1EEF64DE5D9666C3"
 				type: "item"
 				item: "techreborn:plasma_generator"
+			}]
+			rewards: [{
+				id: "2E03ED7718BB8ECC"
+				type: "loot"
+				table_id: 13756307348121783L
 			}]
 		}
 		{
@@ -1730,6 +2227,11 @@
 					item: "techreborn:lsu_storage"
 				}
 			]
+			rewards: [{
+				id: "61AD2A1A469C2025"
+				type: "loot"
+				table_id: 13756307348121783L
+			}]
 		}
 		{
 			x: 4.5d
@@ -1740,6 +2242,11 @@
 				id: "6704AF85FB921573"
 				type: "item"
 				item: "techreborn:superconductor_cable"
+			}]
+			rewards: [{
+				id: "6DB72197BBD38605"
+				type: "loot"
+				table_id: 13756307348121783L
 			}]
 		}
 		{
@@ -1753,6 +2260,11 @@
 				id: "022C0E926899C780"
 				type: "item"
 				item: "techreborn:alloy_smelter"
+			}]
+			rewards: [{
+				id: "5A6DBD8F1DC09DAC"
+				type: "loot"
+				table_id: 13756307348121783L
 			}]
 		}
 		{
@@ -1770,6 +2282,11 @@
 				id: "0968DE59EBE1A042"
 				type: "item"
 				item: "techreborn:industrial_centrifuge"
+			}]
+			rewards: [{
+				id: "19CC1AFDFA101719"
+				type: "loot"
+				table_id: 13756307348121783L
 			}]
 		}
 		{
@@ -1792,6 +2309,11 @@
 				type: "item"
 				item: "techreborn:diesel_generator"
 			}]
+			rewards: [{
+				id: "39236FB7C57AE57F"
+				type: "loot"
+				table_id: 13756307348121783L
+			}]
 		}
 		{
 			x: 1.5d
@@ -1803,6 +2325,11 @@
 				id: "2519247526465D45"
 				type: "item"
 				item: "techreborn:medium_voltage_su"
+			}]
+			rewards: [{
+				id: "553E15E0CD2D8BF2"
+				type: "loot"
+				table_id: 13756307348121783L
 			}]
 		}
 		{
@@ -1816,6 +2343,11 @@
 				type: "item"
 				item: "techreborn:dragon_egg_syphon"
 			}]
+			rewards: [{
+				id: "5AF88C6CFBCE16E4"
+				type: "loot"
+				table_id: 13756307348121783L
+			}]
 		}
 		{
 			x: 3.0d
@@ -1827,6 +2359,11 @@
 				id: "630730631B156192"
 				type: "item"
 				item: "techreborn:high_voltage_su"
+			}]
+			rewards: [{
+				id: "0216B61BB88462D9"
+				type: "loot"
+				table_id: 13756307348121783L
 			}]
 		}
 		{
@@ -1860,6 +2397,11 @@
 					item: "techreborn:semi_fluid_generator"
 				}
 			]
+			rewards: [{
+				id: "37D09F789FC27B2E"
+				type: "loot"
+				table_id: 13756307348121783L
+			}]
 		}
 		{
 			x: -1.5d
@@ -1884,6 +2426,11 @@
 				type: "item"
 				item: "techreborn:gas_turbine"
 			}]
+			rewards: [{
+				id: "4CD5331D906B3CAA"
+				type: "loot"
+				table_id: 13756307348121783L
+			}]
 		}
 		{
 			x: 1.5d
@@ -1894,6 +2441,11 @@
 				id: "015C9DE863ED028F"
 				type: "item"
 				item: "techreborn:omni_tool"
+			}]
+			rewards: [{
+				id: "6871A9AB378D3A80"
+				type: "loot"
+				table_id: 13756307348121783L
 			}]
 		}
 		{
@@ -1925,6 +2477,11 @@
 					}
 				}
 			]
+			rewards: [{
+				id: "4F33DB5B1C46E310"
+				type: "loot"
+				table_id: 13756307348121783L
+			}]
 		}
 		{
 			x: -9.0d
@@ -1936,6 +2493,11 @@
 				id: "70145374DD14DF78"
 				type: "item"
 				item: "modern_industrialization:bronze_ingot"
+			}]
+			rewards: [{
+				id: "60C1C42374F55035"
+				type: "loot"
+				table_id: 13756307348121783L
 			}]
 		}
 		{
@@ -1953,6 +2515,11 @@
 						fluid: "techreborn:heliumplasma"
 					}
 				}
+			}]
+			rewards: [{
+				id: "5F2B34678464F8A8"
+				type: "loot"
+				table_id: 13756307348121783L
 			}]
 		}
 	]

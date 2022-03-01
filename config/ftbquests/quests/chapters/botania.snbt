@@ -55,6 +55,11 @@
 				type: "item"
 				item: "botania:apothecary_default"
 			}]
+			rewards: [{
+				id: "34A5D43BDC1DCA5C"
+				type: "loot"
+				table_id: 13756307348121783L
+			}]
 		}
 		{
 			x: 11.5d
@@ -66,6 +71,11 @@
 				type: "item"
 				item: "botania:pure_daisy"
 			}]
+			rewards: [{
+				id: "66EEAB12CBCF2641"
+				type: "loot"
+				table_id: 13756307348121783L
+			}]
 		}
 		{
 			x: 13.5d
@@ -76,6 +86,11 @@
 				id: "03CC428B8A7A61D7"
 				type: "item"
 				item: "botania:livingrock"
+			}]
+			rewards: [{
+				id: "67280EDFF2CB7CD5"
+				type: "loot"
+				table_id: 13756307348121783L
 			}]
 		}
 		{
@@ -127,8 +142,8 @@
 					id: "botania:twig_wand"
 					Count: 1b
 					tag: {
-						color2: 0
 						color1: 0
+						color2: 0
 					}
 				}
 			}]
@@ -147,6 +162,11 @@
 				id: "751C161E36704045"
 				type: "item"
 				item: "botania:mana_pool"
+			}]
+			rewards: [{
+				id: "413331726465D6DF"
+				type: "loot"
+				table_id: 13756307348121783L
 			}]
 		}
 		{
@@ -359,6 +379,11 @@
 				type: "item"
 				item: "botania:mana_pearl"
 			}]
+			rewards: [{
+				id: "5D8779B9971D3843"
+				type: "loot"
+				table_id: 13756307348121783L
+			}]
 		}
 		{
 			x: 16.5d
@@ -369,6 +394,11 @@
 				id: "4F7F9DFD86FC79D8"
 				type: "item"
 				item: "botania:runic_altar"
+			}]
+			rewards: [{
+				id: "78823BF25B066C22"
+				type: "loot"
+				table_id: 13756307348121783L
 			}]
 		}
 		{
@@ -687,6 +717,11 @@
 				type: "item"
 				item: "botania:manasteel_ingot"
 			}]
+			rewards: [{
+				id: "2A8BF48B9E1D4A8A"
+				type: "loot"
+				table_id: 13756307348121783L
+			}]
 		}
 		{
 			x: 16.5d
@@ -697,6 +732,11 @@
 				id: "612EB016B5BC49E7"
 				type: "item"
 				item: "botania:mana_diamond"
+			}]
+			rewards: [{
+				id: "322F454A268032BB"
+				type: "loot"
+				table_id: 13756307348121783L
 			}]
 		}
 		{
@@ -713,6 +753,11 @@
 				type: "item"
 				item: "botania:terra_plate"
 			}]
+			rewards: [{
+				id: "4D227844DDEF4777"
+				type: "loot"
+				table_id: 13756307348121783L
+			}]
 		}
 		{
 			x: 19.5d
@@ -723,6 +768,11 @@
 				id: "3AE4940037C330E2"
 				type: "item"
 				item: "botania:terrasteel_ingot"
+			}]
+			rewards: [{
+				id: "5C788FDEB221CF2C"
+				type: "loot"
+				table_id: 13756307348121783L
 			}]
 		}
 		{
@@ -749,6 +799,11 @@
 				type: "item"
 				item: "botania:rune_water"
 			}]
+			rewards: [{
+				id: "2631BA3B5CADEBAF"
+				type: "loot"
+				table_id: 13756307348121783L
+			}]
 		}
 		{
 			x: 17.5d
@@ -759,6 +814,11 @@
 				id: "5BD51D8F645A3D41"
 				type: "item"
 				item: "botania:rune_fire"
+			}]
+			rewards: [{
+				id: "65B561F85DB541CE"
+				type: "loot"
+				table_id: 13756307348121783L
 			}]
 		}
 		{
@@ -771,6 +831,11 @@
 				type: "item"
 				item: "botania:rune_air"
 			}]
+			rewards: [{
+				id: "101750617AF2D572"
+				type: "loot"
+				table_id: 13756307348121783L
+			}]
 		}
 		{
 			x: 14.5d
@@ -781,6 +846,11 @@
 				id: "69B7FE88BE929946"
 				type: "item"
 				item: "botania:rune_earth"
+			}]
+			rewards: [{
+				id: "72CDCEA1E079D81D"
+				type: "loot"
+				table_id: 13756307348121783L
 			}]
 		}
 		{
@@ -793,6 +863,11 @@
 				type: "item"
 				item: "botania:rune_spring"
 			}]
+			rewards: [{
+				id: "69A58AE36C0E8377"
+				type: "loot"
+				table_id: 13756307348121783L
+			}]
 		}
 		{
 			x: 13.5d
@@ -803,6 +878,11 @@
 				id: "0698275E9AACD5DA"
 				type: "item"
 				item: "botania:rune_summer"
+			}]
+			rewards: [{
+				id: "44DB622375DED57F"
+				type: "loot"
+				table_id: 13756307348121783L
 			}]
 		}
 		{
@@ -815,6 +895,11 @@
 				type: "item"
 				item: "botania:rune_autumn"
 			}]
+			rewards: [{
+				id: "2EB002CAB54D9BA5"
+				type: "loot"
+				table_id: 13756307348121783L
+			}]
 		}
 		{
 			x: 19.0d
@@ -825,6 +910,11 @@
 				id: "2FA5BD9ED7275F54"
 				type: "item"
 				item: "botania:rune_winter"
+			}]
+			rewards: [{
+				id: "105B6F550219DC07"
+				type: "loot"
+				table_id: 13756307348121783L
 			}]
 		}
 		{
@@ -837,6 +927,11 @@
 				type: "item"
 				item: "botania:rune_mana"
 			}]
+			rewards: [{
+				id: "3A817F43C857BBE7"
+				type: "loot"
+				table_id: 13756307348121783L
+			}]
 		}
 		{
 			x: 14.0d
@@ -847,6 +942,11 @@
 				id: "0010DF1C431429F8"
 				type: "item"
 				item: "botania:rune_lust"
+			}]
+			rewards: [{
+				id: "2BFB471F8A048D45"
+				type: "loot"
+				table_id: 13756307348121783L
 			}]
 		}
 		{
@@ -859,6 +959,11 @@
 				type: "item"
 				item: "botania:rune_gluttony"
 			}]
+			rewards: [{
+				id: "2FC3B5173E3B0F38"
+				type: "loot"
+				table_id: 13756307348121783L
+			}]
 		}
 		{
 			x: 16.0d
@@ -869,6 +974,11 @@
 				id: "0428E1195AC84722"
 				type: "item"
 				item: "botania:rune_greed"
+			}]
+			rewards: [{
+				id: "681CD294086CEEA7"
+				type: "loot"
+				table_id: 13756307348121783L
 			}]
 		}
 		{
@@ -881,6 +991,11 @@
 				type: "item"
 				item: "botania:rune_sloth"
 			}]
+			rewards: [{
+				id: "7D3CB6287AEC1486"
+				type: "loot"
+				table_id: 13756307348121783L
+			}]
 		}
 		{
 			x: 18.0d
@@ -891,6 +1006,11 @@
 				id: "4F4D821C430DAA59"
 				type: "item"
 				item: "botania:rune_wrath"
+			}]
+			rewards: [{
+				id: "5F579F9CAA40B4A8"
+				type: "loot"
+				table_id: 13756307348121783L
 			}]
 		}
 		{
@@ -903,6 +1023,11 @@
 				type: "item"
 				item: "botania:rune_envy"
 			}]
+			rewards: [{
+				id: "72CA6545F9A3AEDD"
+				type: "loot"
+				table_id: 13756307348121783L
+			}]
 		}
 		{
 			x: 17.0d
@@ -913,6 +1038,11 @@
 				id: "36B116051592EA3D"
 				type: "item"
 				item: "botania:rune_pride"
+			}]
+			rewards: [{
+				id: "681781BF1AA00CCA"
+				type: "loot"
+				table_id: 13756307348121783L
 			}]
 		}
 		{
@@ -925,6 +1055,11 @@
 				type: "advancement"
 				advancement: "botania:main/functional_flower"
 				criterion: ""
+			}]
+			rewards: [{
+				id: "0DAFA3B8A83F5BB4"
+				type: "loot"
+				table_id: 13756307348121783L
 			}]
 		}
 		{
@@ -939,6 +1074,11 @@
 				type: "item"
 				item: "botania:bauble_box"
 			}]
+			rewards: [{
+				id: "72B66F48C44350D3"
+				type: "loot"
+				table_id: 13756307348121783L
+			}]
 		}
 		{
 			x: 0.5d
@@ -949,6 +1089,11 @@
 				id: "36962A45E463CC89"
 				type: "item"
 				item: "botania:dandelifeon"
+			}]
+			rewards: [{
+				id: "66BB973660BB5A4E"
+				type: "loot"
+				table_id: 13756307348121783L
 			}]
 		}
 		{
@@ -961,6 +1106,11 @@
 				type: "item"
 				item: "botania:endoflame"
 			}]
+			rewards: [{
+				id: "34DD3A3D6D56C512"
+				type: "loot"
+				table_id: 13756307348121783L
+			}]
 		}
 		{
 			x: 0.5d
@@ -971,6 +1121,11 @@
 				id: "2E0DAF08C6243635"
 				type: "item"
 				item: "botania:entropinnyum"
+			}]
+			rewards: [{
+				id: "1116A7586F4985E3"
+				type: "loot"
+				table_id: 13756307348121783L
 			}]
 		}
 		{
@@ -983,6 +1138,11 @@
 				type: "item"
 				item: "botania:gourmaryllis"
 			}]
+			rewards: [{
+				id: "62240495A925953E"
+				type: "loot"
+				table_id: 13756307348121783L
+			}]
 		}
 		{
 			x: 1.5d
@@ -993,6 +1153,11 @@
 				id: "0D3228DBF1F3139B"
 				type: "item"
 				item: "botania:hydroangeas"
+			}]
+			rewards: [{
+				id: "711085CAB740CA2E"
+				type: "loot"
+				table_id: 13756307348121783L
 			}]
 		}
 		{
@@ -1005,6 +1170,11 @@
 				type: "item"
 				item: "botania:kekimurus"
 			}]
+			rewards: [{
+				id: "46ECAD5910582D9F"
+				type: "loot"
+				table_id: 13756307348121783L
+			}]
 		}
 		{
 			x: 3.5d
@@ -1015,6 +1185,11 @@
 				id: "67065A9C2A01679A"
 				type: "item"
 				item: "botania:munchdew"
+			}]
+			rewards: [{
+				id: "7F597427420A7488"
+				type: "loot"
+				table_id: 13756307348121783L
 			}]
 		}
 		{
@@ -1027,6 +1202,11 @@
 				type: "item"
 				item: "botania:narslimmus"
 			}]
+			rewards: [{
+				id: "5EB2084564A2EEF9"
+				type: "loot"
+				table_id: 13756307348121783L
+			}]
 		}
 		{
 			x: 5.5d
@@ -1037,6 +1217,11 @@
 				id: "4D7288D8EE4B0670"
 				type: "item"
 				item: "botania:rafflowsia"
+			}]
+			rewards: [{
+				id: "142438EDF6CC45D4"
+				type: "loot"
+				table_id: 13756307348121783L
 			}]
 		}
 		{
@@ -1049,6 +1234,11 @@
 				type: "item"
 				item: "botania:holy_cloak"
 			}]
+			rewards: [{
+				id: "705BC5C57B2C1E82"
+				type: "loot"
+				table_id: 13756307348121783L
+			}]
 		}
 		{
 			x: 12.0d
@@ -1059,6 +1249,11 @@
 				id: "232B6DCD720FDA70"
 				type: "item"
 				item: "botania:unholy_cloak"
+			}]
+			rewards: [{
+				id: "6F815CD4DE66CA1E"
+				type: "loot"
+				table_id: 13756307348121783L
 			}]
 		}
 		{
@@ -1071,6 +1266,11 @@
 				type: "item"
 				item: "botania:balance_cloak"
 			}]
+			rewards: [{
+				id: "5F405C2A70C5EA23"
+				type: "loot"
+				table_id: 13756307348121783L
+			}]
 		}
 		{
 			x: 6.5d
@@ -1081,6 +1281,11 @@
 				id: "5CEEF05B019B86E3"
 				type: "item"
 				item: "botania:rosa_arcana"
+			}]
+			rewards: [{
+				id: "5D93884FBA735CE8"
+				type: "loot"
+				table_id: 13756307348121783L
 			}]
 		}
 		{
@@ -1093,6 +1298,11 @@
 				type: "item"
 				item: "botania:invisibility_cloak"
 			}]
+			rewards: [{
+				id: "00C353189FC2E6CB"
+				type: "loot"
+				table_id: 13756307348121783L
+			}]
 		}
 		{
 			x: 6.5d
@@ -1103,6 +1313,11 @@
 				id: "49515826071B0A55"
 				type: "item"
 				item: "botania:shulk_me_not"
+			}]
+			rewards: [{
+				id: "34FAA660F786A798"
+				type: "loot"
+				table_id: 13756307348121783L
 			}]
 		}
 		{
@@ -1115,6 +1330,11 @@
 				type: "item"
 				item: "botania:spectrolus"
 			}]
+			rewards: [{
+				id: "0C2550AC95DF128C"
+				type: "loot"
+				table_id: 13756307348121783L
+			}]
 		}
 		{
 			x: 6.5d
@@ -1126,6 +1346,11 @@
 				type: "item"
 				item: "botania:thermalily"
 			}]
+			rewards: [{
+				id: "1AD0D4E4E31840C2"
+				type: "loot"
+				table_id: 13756307348121783L
+			}]
 		}
 		{
 			x: 10.5d
@@ -1136,6 +1361,11 @@
 				id: "2C4B43629EE0BAE8"
 				type: "item"
 				item: "botania:travel_belt"
+			}]
+			rewards: [{
+				id: "3D6D74F4CFB7B432"
+				type: "loot"
+				table_id: 13756307348121783L
 			}]
 		}
 		{
@@ -1159,6 +1389,11 @@
 					}
 				}
 			}]
+			rewards: [{
+				id: "5F9E58D692E794F5"
+				type: "loot"
+				table_id: 13756307348121783L
+			}]
 		}
 		{
 			x: 10.0d
@@ -1169,6 +1404,11 @@
 				id: "3EE9CCD6CFF5D1D7"
 				type: "item"
 				item: "botania:super_travel_belt"
+			}]
+			rewards: [{
+				id: "4F4E3929A32014EE"
+				type: "loot"
+				table_id: 13756307348121783L
 			}]
 		}
 		{
@@ -1181,6 +1421,11 @@
 				type: "item"
 				item: "botania:speed_up_belt"
 			}]
+			rewards: [{
+				id: "64FD1C941209C8A0"
+				type: "loot"
+				table_id: 13756307348121783L
+			}]
 		}
 		{
 			x: 9.5d
@@ -1191,6 +1436,11 @@
 				id: "6FE162FA3C68D87F"
 				type: "item"
 				item: "botania:magnet_ring"
+			}]
+			rewards: [{
+				id: "528049BEC2423A4F"
+				type: "loot"
+				table_id: 13756307348121783L
 			}]
 		}
 		{
@@ -1203,6 +1453,11 @@
 				type: "item"
 				item: "botania:magnet_ring_greater"
 			}]
+			rewards: [{
+				id: "4D54D55D221AE44C"
+				type: "loot"
+				table_id: 13756307348121783L
+			}]
 		}
 		{
 			x: 13.0d
@@ -1213,6 +1468,11 @@
 				id: "25BE601B8DCD67A8"
 				type: "item"
 				item: "botania:mana_ring"
+			}]
+			rewards: [{
+				id: "3C6D0A1D91C2C266"
+				type: "loot"
+				table_id: 13756307348121783L
 			}]
 		}
 		{
@@ -1225,6 +1485,11 @@
 				type: "item"
 				item: "botania:aura_ring"
 			}]
+			rewards: [{
+				id: "36BA283E3529814D"
+				type: "loot"
+				table_id: 13756307348121783L
+			}]
 		}
 		{
 			x: 12.0d
@@ -1235,6 +1500,11 @@
 				id: "2C84F468D7C75C5F"
 				type: "item"
 				item: "botania:aura_ring_greater"
+			}]
+			rewards: [{
+				id: "3A02243D25D25244"
+				type: "loot"
+				table_id: 13756307348121783L
 			}]
 		}
 		{
@@ -1247,6 +1517,11 @@
 				type: "item"
 				item: "botania:water_ring"
 			}]
+			rewards: [{
+				id: "07886DBF577B3AF7"
+				type: "loot"
+				table_id: 13756307348121783L
+			}]
 		}
 		{
 			x: 8.0d
@@ -1257,6 +1532,11 @@
 				id: "1EE667BA218E3F1F"
 				type: "item"
 				item: "botania:swap_ring"
+			}]
+			rewards: [{
+				id: "703468F48D3C736C"
+				type: "loot"
+				table_id: 13756307348121783L
 			}]
 		}
 		{
@@ -1269,6 +1549,11 @@
 				type: "item"
 				item: "botania:dodge_ring"
 			}]
+			rewards: [{
+				id: "5598C779EFC522BC"
+				type: "loot"
+				table_id: 13756307348121783L
+			}]
 		}
 		{
 			x: 12.5d
@@ -1279,6 +1564,11 @@
 				id: "6E2A3C62890F04AF"
 				type: "item"
 				item: "botania:mining_ring"
+			}]
+			rewards: [{
+				id: "049FE61639141E6F"
+				type: "loot"
+				table_id: 13756307348121783L
 			}]
 		}
 		{
@@ -1302,6 +1592,11 @@
 					}
 				}
 			}]
+			rewards: [{
+				id: "6C7C8F1203C65DF4"
+				type: "loot"
+				table_id: 13756307348121783L
+			}]
 		}
 		{
 			x: 15.0d
@@ -1312,6 +1607,11 @@
 				id: "1E4C5F07C8E3EC85"
 				type: "item"
 				item: "botania:mana_pylon"
+			}]
+			rewards: [{
+				id: "7623D313E5ACDEE5"
+				type: "loot"
+				table_id: 13756307348121783L
 			}]
 		}
 		{
@@ -1327,6 +1627,11 @@
 				type: "item"
 				item: "botania:natura_pylon"
 			}]
+			rewards: [{
+				id: "67A84ACBF5ACC3B8"
+				type: "loot"
+				table_id: 13756307348121783L
+			}]
 		}
 		{
 			x: 20.5d
@@ -1337,6 +1642,11 @@
 				id: "05C2A877F11FB24D"
 				type: "item"
 				item: "botania:glimmering_livingwood"
+			}]
+			rewards: [{
+				id: "3EE3991CFD94A71E"
+				type: "loot"
+				table_id: 13756307348121783L
 			}]
 		}
 		{
@@ -1351,6 +1661,11 @@
 				id: "7EFAEC63EE3BCFCF"
 				type: "item"
 				item: "botania:alfheim_portal"
+			}]
+			rewards: [{
+				id: "0D3998CC23596610"
+				type: "loot"
+				table_id: 13756307348121783L
 			}]
 		}
 		{
@@ -1368,6 +1683,11 @@
 				advancement: "botania:main/elf_portal_open"
 				criterion: ""
 			}]
+			rewards: [{
+				id: "2745CB8B5301FFE8"
+				type: "loot"
+				table_id: 13756307348121783L
+			}]
 		}
 		{
 			x: 1.5d
@@ -1378,6 +1698,11 @@
 				id: "4CF539B076353B98"
 				type: "item"
 				item: "botania:agricarnation"
+			}]
+			rewards: [{
+				id: "38714A02A977173B"
+				type: "loot"
+				table_id: 13756307348121783L
 			}]
 		}
 		{
@@ -1390,6 +1715,11 @@
 				type: "item"
 				item: "bewitchment:belladonna"
 			}]
+			rewards: [{
+				id: "1A3B720F0035C789"
+				type: "loot"
+				table_id: 13756307348121783L
+			}]
 		}
 		{
 			x: 0.5d
@@ -1400,6 +1730,11 @@
 				id: "02C2CC2683A44F06"
 				type: "item"
 				item: "botania:bubbell"
+			}]
+			rewards: [{
+				id: "3E2D7F6A7056D9B0"
+				type: "loot"
+				table_id: 13756307348121783L
 			}]
 		}
 		{
@@ -1412,6 +1747,11 @@
 				type: "item"
 				item: "botania:clayconia"
 			}]
+			rewards: [{
+				id: "38CB0479910DEC5B"
+				type: "loot"
+				table_id: 13756307348121783L
+			}]
 		}
 		{
 			x: 0.5d
@@ -1422,6 +1762,11 @@
 				id: "67D6122CC1110961"
 				type: "item"
 				item: "botania:daffomill"
+			}]
+			rewards: [{
+				id: "3D58FE4CC5B8E609"
+				type: "loot"
+				table_id: 13756307348121783L
 			}]
 		}
 		{
@@ -1434,6 +1779,11 @@
 				type: "item"
 				item: "botania:dreadthorn"
 			}]
+			rewards: [{
+				id: "23153AA6CF516E45"
+				type: "loot"
+				table_id: 13756307348121783L
+			}]
 		}
 		{
 			x: 0.5d
@@ -1444,6 +1794,11 @@
 				id: "240BEDF4B65A4503"
 				type: "item"
 				item: "botania:exoflame"
+			}]
+			rewards: [{
+				id: "6D3479B72CA48CED"
+				type: "loot"
+				table_id: 13756307348121783L
 			}]
 		}
 		{
@@ -1456,6 +1811,11 @@
 				type: "item"
 				item: "botania:fallen_kanade"
 			}]
+			rewards: [{
+				id: "35946FEE03060B27"
+				type: "loot"
+				table_id: 13756307348121783L
+			}]
 		}
 		{
 			x: 0.5d
@@ -1466,6 +1826,11 @@
 				id: "01152A13CD01BE2D"
 				type: "item"
 				item: "botania:heisei_dream"
+			}]
+			rewards: [{
+				id: "1AD8357687AEBE38"
+				type: "loot"
+				table_id: 13756307348121783L
 			}]
 		}
 		{
@@ -1478,6 +1843,11 @@
 				type: "item"
 				item: "botania:hopperhock"
 			}]
+			rewards: [{
+				id: "3D56401C9D459059"
+				type: "loot"
+				table_id: 13756307348121783L
+			}]
 		}
 		{
 			x: 3.0d
@@ -1488,6 +1858,11 @@
 				id: "4D03DD5DB2E741B1"
 				type: "item"
 				item: "botania:hyacidus"
+			}]
+			rewards: [{
+				id: "09BCC0ECC7C1900F"
+				type: "loot"
+				table_id: 13756307348121783L
 			}]
 		}
 		{
@@ -1500,6 +1875,11 @@
 				type: "item"
 				item: "botania:jaded_amaranthus"
 			}]
+			rewards: [{
+				id: "7E622D98154178E3"
+				type: "loot"
+				table_id: 13756307348121783L
+			}]
 		}
 		{
 			x: 2.5d
@@ -1510,6 +1890,11 @@
 				id: "37340E43F396F16F"
 				type: "item"
 				item: "botania:jiyuulia"
+			}]
+			rewards: [{
+				id: "5ED94B43E46F4A11"
+				type: "loot"
+				table_id: 13756307348121783L
 			}]
 		}
 		{
@@ -1522,6 +1907,11 @@
 				type: "item"
 				item: "botania:labellia"
 			}]
+			rewards: [{
+				id: "65B8C495C27C2507"
+				type: "loot"
+				table_id: 13756307348121783L
+			}]
 		}
 		{
 			x: 5.0d
@@ -1532,6 +1922,11 @@
 				id: "7540AC03FDD9BA4E"
 				type: "item"
 				item: "botania:loonium"
+			}]
+			rewards: [{
+				id: "764986BEABA0E397"
+				type: "loot"
+				table_id: 13756307348121783L
 			}]
 		}
 		{
@@ -1544,6 +1939,11 @@
 				type: "item"
 				item: "botania:marimorphosis"
 			}]
+			rewards: [{
+				id: "047B014443813218"
+				type: "loot"
+				table_id: 13756307348121783L
+			}]
 		}
 		{
 			x: 6.0d
@@ -1554,6 +1954,11 @@
 				id: "2192AD1EDEB9A193"
 				type: "item"
 				item: "botania:medumone"
+			}]
+			rewards: [{
+				id: "120A6DC4A0612015"
+				type: "loot"
+				table_id: 13756307348121783L
 			}]
 		}
 		{
@@ -1566,6 +1971,11 @@
 				type: "item"
 				item: "botania:orechid"
 			}]
+			rewards: [{
+				id: "4D3DAD8BA76C1F8C"
+				type: "loot"
+				table_id: 13756307348121783L
+			}]
 		}
 		{
 			x: 6.5d
@@ -1576,6 +1986,11 @@
 				id: "2CAEF4358AD9DBA5"
 				type: "item"
 				item: "botania:orechid_ignem"
+			}]
+			rewards: [{
+				id: "0BBE2EB5304FD0E3"
+				type: "loot"
+				table_id: 13756307348121783L
 			}]
 		}
 		{
@@ -1588,6 +2003,11 @@
 				type: "item"
 				item: "botania:pollidisiac"
 			}]
+			rewards: [{
+				id: "00D3D16034377AB4"
+				type: "loot"
+				table_id: 13756307348121783L
+			}]
 		}
 		{
 			x: 6.5d
@@ -1598,6 +2018,11 @@
 				id: "716E9075F3A1E978"
 				type: "item"
 				item: "botania:rannuncarpus"
+			}]
+			rewards: [{
+				id: "1A08150D8DB01E32"
+				type: "loot"
+				table_id: 13756307348121783L
 			}]
 		}
 		{
@@ -1610,6 +2035,11 @@
 				type: "item"
 				item: "botania:solegnolia"
 			}]
+			rewards: [{
+				id: "32C10E585204D026"
+				type: "loot"
+				table_id: 13756307348121783L
+			}]
 		}
 		{
 			x: 6.5d
@@ -1620,6 +2050,11 @@
 				id: "2E9F1D905187B838"
 				type: "item"
 				item: "botania:spectranthemum"
+			}]
+			rewards: [{
+				id: "26F2461046CD775B"
+				type: "loot"
+				table_id: 13756307348121783L
 			}]
 		}
 		{
@@ -1632,6 +2067,11 @@
 				type: "item"
 				item: "botania:tangleberrie"
 			}]
+			rewards: [{
+				id: "73A8275BEDBF697C"
+				type: "loot"
+				table_id: 13756307348121783L
+			}]
 		}
 		{
 			x: 6.5d
@@ -1642,6 +2082,11 @@
 				id: "4C11AFC7156A8C3C"
 				type: "item"
 				item: "botania:tigerseye"
+			}]
+			rewards: [{
+				id: "0E766593025C2797"
+				type: "loot"
+				table_id: 13756307348121783L
 			}]
 		}
 		{
@@ -1654,6 +2099,11 @@
 				type: "item"
 				item: "botania:vinculotus"
 			}]
+			rewards: [{
+				id: "46EFEC5C12C3BC4C"
+				type: "loot"
+				table_id: 13756307348121783L
+			}]
 		}
 		{
 			x: 23.5d
@@ -1664,6 +2114,11 @@
 				id: "38F56D554C18D6D2"
 				type: "item"
 				item: "botania:dreamwood"
+			}]
+			rewards: [{
+				id: "1964350531971998"
+				type: "loot"
+				table_id: 13756307348121783L
 			}]
 		}
 		{
@@ -1676,6 +2131,11 @@
 				type: "item"
 				item: "botania:dragonstone"
 			}]
+			rewards: [{
+				id: "10C801C8F153184B"
+				type: "loot"
+				table_id: 13756307348121783L
+			}]
 		}
 		{
 			x: 23.5d
@@ -1687,6 +2147,11 @@
 				type: "item"
 				item: "botania:pixie_dust"
 			}]
+			rewards: [{
+				id: "10751C0F5884076B"
+				type: "loot"
+				table_id: 13756307348121783L
+			}]
 		}
 		{
 			x: 23.5d
@@ -1697,6 +2162,11 @@
 				id: "0662886FB1AD8C04"
 				type: "item"
 				item: "botania:elementium_ingot"
+			}]
+			rewards: [{
+				id: "350C6B8B2E6CAE3E"
+				type: "loot"
+				table_id: 13756307348121783L
 			}]
 		}
 		{
@@ -1712,6 +2182,11 @@
 				type: "item"
 				item: "botania:gaia_pylon"
 			}]
+			rewards: [{
+				id: "497A3C912B95BC88"
+				type: "loot"
+				table_id: 13756307348121783L
+			}]
 		}
 		{
 			x: 26.5d
@@ -1723,6 +2198,11 @@
 				type: "advancement"
 				advancement: "botania:main/gaia_guardian_kill"
 				criterion: ""
+			}]
+			rewards: [{
+				id: "7E1062DF3DC9F318"
+				type: "loot"
+				table_id: 13756307348121783L
 			}]
 		}
 	]

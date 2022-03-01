@@ -31,9 +31,9 @@
 				item: "ae2:charged_certus_quartz_crystal"
 			}]
 			rewards: [{
-				id: "37AAE9EDA300A4CF"
-				type: "item"
-				item: "minecraft:clay_ball"
+				id: "1D81FAFB7CD11D6B"
+				type: "loot"
+				table_id: 13756307348121783L
 			}]
 		}
 		{
@@ -48,10 +48,9 @@
 				count: 16L
 			}]
 			rewards: [{
-				id: "77013016C470B1C1"
-				type: "item"
-				item: "minecraft:sand"
-				count: 2
+				id: "3545563E6E32AC3D"
+				type: "loot"
+				table_id: 13756307348121783L
 			}]
 		}
 		{
@@ -66,15 +65,9 @@
 				item: "ae2:inscriber"
 			}]
 			rewards: [{
-				id: "6E46A2C75682CEB8"
-				type: "item"
-				item: {
-					id: "minecraft:leather_boots"
-					Count: 1b
-					tag: {
-						Damage: 0
-					}
-				}
+				id: "2B2E12989BCC4DF6"
+				type: "loot"
+				table_id: 13756307348121783L
 			}]
 		}
 		{
@@ -94,10 +87,9 @@
 				item: "ae2:charger"
 			}]
 			rewards: [{
-				id: "075947A8CD565C59"
-				type: "item"
-				item: "chisel:spaceblack/iron_block"
-				count: 6
+				id: "2667CE60FB687E04"
+				type: "loot"
+				table_id: 13756307348121783L
 			}]
 		}
 		{
@@ -110,6 +102,11 @@
 				id: "7C8924F839D8D61E"
 				type: "item"
 				item: "ae2:energy_acceptor"
+			}]
+			rewards: [{
+				id: "1646033242B799C1"
+				type: "loot"
+				table_id: 13756307348121783L
 			}]
 		}
 		{
@@ -132,10 +129,9 @@
 				count: 6L
 			}]
 			rewards: [{
-				id: "314F2650FE84C5F5"
-				type: "item"
-				item: "minecraft:glass"
-				count: 16
+				id: "4EF17501CBFF2087"
+				type: "loot"
+				table_id: 13756307348121783L
 			}]
 		}
 		{
@@ -151,10 +147,9 @@
 				count: 4L
 			}]
 			rewards: [{
-				id: "24694573F4D473FE"
-				type: "item"
-				item: "minecraft:oxidized_copper"
-				count: 4
+				id: "065802CBACCBE341"
+				type: "loot"
+				table_id: 13756307348121783L
 			}]
 		}
 		{
@@ -176,8 +171,9 @@
 				item: "ae2:fluix_crystal_seed"
 			}]
 			rewards: [{
-				id: "0418754C60B2560F"
-				type: "random"
+				id: "262447B4477C4C26"
+				type: "loot"
+				table_id: 13756307348121783L
 			}]
 		}
 		{
@@ -192,9 +188,9 @@
 				item: "ae2:controller"
 			}]
 			rewards: [{
-				id: "782836835FC030BD"
-				type: "item"
-				item: "modern_industrialization:copper_nugget"
+				id: "3263CC53B6C24CDB"
+				type: "loot"
+				table_id: 13756307348121783L
 			}]
 		}
 		{
@@ -214,10 +210,9 @@
 				item: "ae2:fluix_smart_cable"
 			}]
 			rewards: [{
-				id: "0A58F0EFDB8332AA"
-				type: "item"
-				item: "minecraft:clay"
-				count: 4
+				id: "7F665B7979BA2C8A"
+				type: "loot"
+				table_id: 13756307348121783L
 			}]
 		}
 		{
@@ -247,8 +242,9 @@
 				item: "ae2:drive"
 			}]
 			rewards: [{
-				id: "291D9147E4D54B78"
-				type: "random"
+				id: "5751269980EAF0AF"
+				type: "loot"
+				table_id: 13756307348121783L
 			}]
 		}
 		{
@@ -263,8 +259,9 @@
 				item: "ae2:crafting_terminal"
 			}]
 			rewards: [{
-				id: "5B247E0A84DC4F31"
-				type: "random"
+				id: "6E68A01114D103E1"
+				type: "loot"
+				table_id: 13756307348121783L
 			}]
 		}
 		{
@@ -292,9 +289,9 @@
 				item: "ae2:me_p2p_tunnel"
 			}]
 			rewards: [{
-				id: "4B892F1741F96ED0"
-				type: "item"
-				item: "minecraft:ender_pearl"
+				id: "1E6BDDAEB6D3E641"
+				type: "loot"
+				table_id: 13756307348121783L
 			}]
 		}
 		{
@@ -312,13 +309,9 @@
 				}
 			}]
 			rewards: [{
-				id: "58036C1950810CC6"
-				type: "item"
-				item: {
-					gprops: { }
-					id: "betterend:umbrella_tree_sapling"
-					Count: 1b
-				}
+				id: "6A0D087F9939DEF6"
+				type: "loot"
+				table_id: 13756307348121783L
 			}]
 		}
 		{
@@ -334,10 +327,9 @@
 				item: "ae2:fluix_smart_dense_cable"
 			}]
 			rewards: [{
-				id: "59C106980F405513"
-				type: "item"
-				item: "minecraft:clay"
-				count: 6
+				id: "4330B05B53533D6C"
+				type: "loot"
+				table_id: 13756307348121783L
 			}]
 		}
 		{
@@ -361,10 +353,9 @@
 				}
 			}]
 			rewards: [{
-				id: "03AF7D554B6AD84A"
-				type: "item"
-				item: "minecraft:stone"
-				count: 64
+				id: "649B9989A24F85A0"
+				type: "loot"
+				table_id: 13756307348121783L
 			}]
 		}
 		{
@@ -388,9 +379,9 @@
 				}
 			}]
 			rewards: [{
-				id: "39D11868E82B8D97"
-				type: "item"
-				item: "minecraft:gold_nugget"
+				id: "0E07A03963E49881"
+				type: "loot"
+				table_id: 13756307348121783L
 			}]
 		}
 		{
@@ -414,9 +405,9 @@
 				}
 			}]
 			rewards: [{
-				id: "5D33F7E3F1EBB89A"
-				type: "item"
-				item: "modern_industrialization:emerald_tiny_dust"
+				id: "5431849B646D74A7"
+				type: "loot"
+				table_id: 13756307348121783L
 			}]
 		}
 		{
@@ -440,9 +431,9 @@
 				}
 			}]
 			rewards: [{
-				id: "3C2B0513F558A987"
-				type: "item"
-				item: "modern_industrialization:diamond_tiny_dust"
+				id: "2E7996FFCCA4BEDB"
+				type: "loot"
+				table_id: 13756307348121783L
 			}]
 		}
 		{
@@ -469,8 +460,9 @@
 				item: "ae2:pattern_encoding_terminal"
 			}]
 			rewards: [{
-				id: "1B30751FD2D4841E"
-				type: "random"
+				id: "029183DD4EFACEE5"
+				type: "loot"
+				table_id: 13756307348121783L
 			}]
 		}
 		{
@@ -490,19 +482,26 @@
 				item: "ae2:terminal"
 			}]
 			rewards: [{
-				id: "1A79CBD4685ABD28"
-				type: "random"
+				id: "7CDA5584E969893A"
+				type: "loot"
+				table_id: 13756307348121783L
 			}]
 		}
 		{
 			x: 2.0d
 			y: -4.5d
+			subtitle: "Read ME Pattern Provider quest for more info."
 			dependencies: ["2BE8127E1180DA21"]
 			id: "115B865B26BE47E5"
 			tasks: [{
 				id: "5F3D81B7D3F27CA2"
 				type: "item"
 				item: "ae2:interface"
+			}]
+			rewards: [{
+				id: "75BCEA59308257CA"
+				type: "loot"
+				table_id: 13756307348121783L
 			}]
 		}
 		{
@@ -517,16 +516,27 @@
 				type: "item"
 				item: "ae2:crafting_unit"
 			}]
+			rewards: [{
+				id: "35560ED76E3DEE07"
+				type: "loot"
+				table_id: 13756307348121783L
+			}]
 		}
 		{
 			x: 3.0d
 			y: -4.5d
+			subtitle: "Read ME Pattern Provider quest for more info."
 			dependencies: ["2BE8127E1180DA21"]
 			id: "63DF8DED795008EA"
 			tasks: [{
 				id: "1E101186DD63E8A3"
 				type: "item"
 				item: "ae2:molecular_assembler"
+			}]
+			rewards: [{
+				id: "36274E786964367A"
+				type: "loot"
+				table_id: 13756307348121783L
 			}]
 		}
 		{
@@ -540,6 +550,11 @@
 				type: "item"
 				item: "ae2:1k_crafting_storage"
 			}]
+			rewards: [{
+				id: "60B2624F883FD72F"
+				type: "loot"
+				table_id: 13756307348121783L
+			}]
 		}
 		{
 			x: 2.0d
@@ -551,6 +566,11 @@
 				id: "640B719C25B50B4B"
 				type: "item"
 				item: "ae2:4k_crafting_storage"
+			}]
+			rewards: [{
+				id: "6F58CE36BA02724F"
+				type: "loot"
+				table_id: 13756307348121783L
 			}]
 		}
 		{
@@ -564,6 +584,11 @@
 				type: "item"
 				item: "ae2:16k_crafting_storage"
 			}]
+			rewards: [{
+				id: "3CAC6A77BD991766"
+				type: "loot"
+				table_id: 13756307348121783L
+			}]
 		}
 		{
 			x: 4.0d
@@ -576,6 +601,11 @@
 				type: "item"
 				item: "ae2:64k_crafting_storage"
 			}]
+			rewards: [{
+				id: "663D11734F2B827E"
+				type: "loot"
+				table_id: 13756307348121783L
+			}]
 		}
 		{
 			x: 2.5d
@@ -586,6 +616,11 @@
 				id: "6DD06942CEC418CB"
 				type: "item"
 				item: "ae2:storage_bus"
+			}]
+			rewards: [{
+				id: "50BDA7486CD5F797"
+				type: "loot"
+				table_id: 13756307348121783L
 			}]
 		}
 		{
@@ -598,6 +633,11 @@
 				type: "item"
 				item: "ae2:import_bus"
 			}]
+			rewards: [{
+				id: "5FE40F90038D950F"
+				type: "loot"
+				table_id: 13756307348121783L
+			}]
 		}
 		{
 			x: 2.5d
@@ -608,6 +648,11 @@
 				id: "3D82F453CBD0740A"
 				type: "item"
 				item: "ae2:export_bus"
+			}]
+			rewards: [{
+				id: "015E6C5EDA60D2A8"
+				type: "loot"
+				table_id: 13756307348121783L
 			}]
 		}
 		{
@@ -634,6 +679,11 @@
 				type: "item"
 				item: "ae2:security_station"
 			}]
+			rewards: [{
+				id: "71278AA6D7386AED"
+				type: "loot"
+				table_id: 13756307348121783L
+			}]
 		}
 		{
 			x: -5.5d
@@ -644,6 +694,11 @@
 				id: "21C4930537157E49"
 				type: "item"
 				item: "ae2:biometric_card"
+			}]
+			rewards: [{
+				id: "42A223A49CCD5F52"
+				type: "loot"
+				table_id: 13756307348121783L
 			}]
 		}
 		{
@@ -664,6 +719,11 @@
 				type: "item"
 				item: "ae2:wireless_access_point"
 			}]
+			rewards: [{
+				id: "4E65ABF8921A048C"
+				type: "loot"
+				table_id: 13756307348121783L
+			}]
 		}
 		{
 			x: -5.5d
@@ -676,6 +736,11 @@
 				type: "item"
 				item: "ae2:wireless_terminal"
 			}]
+			rewards: [{
+				id: "51F75DBF6855EF97"
+				type: "loot"
+				table_id: 13756307348121783L
+			}]
 		}
 		{
 			x: -5.5d
@@ -687,6 +752,11 @@
 				id: "6C0BA4228CC4B8B0"
 				type: "item"
 				item: "ae2:wireless_booster"
+			}]
+			rewards: [{
+				id: "56CE5BDC03E4B724"
+				type: "loot"
+				table_id: 13756307348121783L
 			}]
 		}
 		{
@@ -712,8 +782,9 @@
 				item: "ae2:quantum_entangled_singularity"
 			}]
 			rewards: [{
-				id: "6EB8E1407F39CE7A"
-				type: "random"
+				id: "2DD77D29A7CA2D98"
+				type: "loot"
+				table_id: 13756307348121783L
 			}]
 		}
 		{
@@ -732,20 +803,11 @@
 				type: "item"
 				item: "ae2:quantum_link"
 			}]
-			rewards: [
-				{
-					id: "60C9FBFEC2A5EBDF"
-					type: "choice"
-				}
-				{
-					id: "039F66EC4AA60A71"
-					type: "choice"
-				}
-				{
-					id: "00276540DBF411BD"
-					type: "choice"
-				}
-			]
+			rewards: [{
+				id: "6FFEB53CB2191D64"
+				type: "loot"
+				table_id: 13756307348121783L
+			}]
 		}
 		{
 			x: -7.5d
@@ -759,29 +821,11 @@
 				type: "item"
 				item: "ae2:quantum_ring"
 			}]
-			rewards: [
-				{
-					id: "28075A5E3E1B58AF"
-					type: "choice"
-				}
-				{
-					id: "1634F9997F62DE59"
-					type: "choice"
-				}
-				{
-					id: "6B1C0C166E85F2C3"
-					type: "choice"
-				}
-				{
-					id: "1829E1ED83F85572"
-					type: "choice"
-				}
-				{
-					id: "2D1CD803D9D84A5E"
-					type: "random"
-					table_id: 2482271367426889676L
-				}
-			]
+			rewards: [{
+				id: "7ED338DC09F7805B"
+				type: "loot"
+				table_id: 13756307348121783L
+			}]
 		}
 		{
 			title: "Security, Wireless and Beyond"
@@ -829,6 +873,11 @@
 				""
 				"When the crafting CPU then needs to craft the primary result of that pattern, it'll delegate this to the pattern provider."
 				""
+				"Normally, the pattern provider will then push out the ingredients to an adjacent block (a Molecular Assembler for crafting recipes, for example), and crafting continues once the result enters the network again."
+				""
+				"his can be achieved by pushing the crafting result back into the pattern provider, an ME Interface or any other means that would import the crafting result into the network."
+				""
+				"Molecular assemblers are smart enough to automatically return the crafting result to the same pattern provider that provided the ingredients."
 			]
 			dependencies: ["2BE8127E1180DA21"]
 			id: "20AD73B935309188"
@@ -836,6 +885,11 @@
 				id: "1A5F4DE4911B984A"
 				type: "item"
 				item: "ae2:pattern_provider"
+			}]
+			rewards: [{
+				id: "2A54A638B71261B7"
+				type: "loot"
+				table_id: 13756307348121783L
 			}]
 		}
 	]

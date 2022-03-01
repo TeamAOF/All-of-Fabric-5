@@ -54,6 +54,8 @@
 				"Bewitchment offers pacts with powerful demons, the ability to become a vampire or werewolf, brew powerful potions, cast rituals, curse your enemies (or friends), and so much more."
 				""
 				"To get started, craft the Book of Shadows with a Book and a Mandrake Root, the seeds of which are dropped from grass."
+				""
+				"Feel lost? Check the book!"
 			]
 			id: "51E68C17C005CD95"
 			tasks: [{
@@ -88,11 +90,18 @@
 				type: "item"
 				item: "bewitchment:witch_cauldron"
 			}]
-			rewards: [{
-				id: "4F8A36D51C6AD56B"
-				type: "item"
-				item: "minecraft:iron_ingot"
-			}]
+			rewards: [
+				{
+					id: "4F8A36D51C6AD56B"
+					type: "item"
+					item: "minecraft:iron_ingot"
+				}
+				{
+					id: "5F5DA7FA05248447"
+					type: "loot"
+					table_id: 13756307348121783L
+				}
+			]
 		}
 		{
 			x: -1.0d
@@ -104,11 +113,18 @@
 				type: "item"
 				item: "bewitchment:aqua_cerate"
 			}]
-			rewards: [{
-				id: "187A3E6E16014706"
-				type: "item"
-				item: "minecraft:water_bucket"
-			}]
+			rewards: [
+				{
+					id: "187A3E6E16014706"
+					type: "item"
+					item: "minecraft:water_bucket"
+				}
+				{
+					id: "041F1725845726D9"
+					type: "loot"
+					table_id: 13756307348121783L
+				}
+			]
 		}
 		{
 			x: -1.5d
@@ -120,11 +136,18 @@
 				type: "item"
 				item: "bewitchment:fiery_serum"
 			}]
-			rewards: [{
-				id: "0FD4E164CB37834D"
-				type: "item"
-				item: "minecraft:campfire"
-			}]
+			rewards: [
+				{
+					id: "0FD4E164CB37834D"
+					type: "item"
+					item: "minecraft:campfire"
+				}
+				{
+					id: "18BA37BE7DDE3AD3"
+					type: "loot"
+					table_id: 13756307348121783L
+				}
+			]
 		}
 		{
 			x: 1.0d
@@ -136,11 +159,18 @@
 				type: "item"
 				item: "bewitchment:heaven_extract"
 			}]
-			rewards: [{
-				id: "4BD914AE009D5A45"
-				type: "item"
-				item: "kibe:liquid_xp_bucket"
-			}]
+			rewards: [
+				{
+					id: "4BD914AE009D5A45"
+					type: "item"
+					item: "kibe:liquid_xp_bucket"
+				}
+				{
+					id: "3F6B62F784AFDDC5"
+					type: "loot"
+					table_id: 13756307348121783L
+				}
+			]
 		}
 		{
 			x: 1.0d
@@ -170,6 +200,11 @@
 					type: "item"
 					item: "minecraft:water_bucket"
 				}
+				{
+					id: "7714EC4293C3A916"
+					type: "loot"
+					table_id: 13756307348121783L
+				}
 			]
 		}
 		{
@@ -182,12 +217,19 @@
 				type: "item"
 				item: "bewitchment:cleansing_balm"
 			}]
-			rewards: [{
-				id: "5A7267213A4D5DAA"
-				type: "item"
-				item: "croptopia:nectarine_sapling"
-				count: 2
-			}]
+			rewards: [
+				{
+					id: "5A7267213A4D5DAA"
+					type: "item"
+					item: "croptopia:nectarine_sapling"
+					count: 2
+				}
+				{
+					id: "6F52718B41B604BA"
+					type: "loot"
+					table_id: 13756307348121783L
+				}
+			]
 		}
 		{
 			x: 1.5d
@@ -199,17 +241,24 @@
 				type: "item"
 				item: "bewitchment:grim_elixir"
 			}]
-			rewards: [{
-				id: "0D4C8F390B9BF73A"
-				type: "item"
-				item: {
-					id: "minecraft:stone_sword"
-					Count: 1b
-					tag: {
-						Damage: 0
+			rewards: [
+				{
+					id: "0D4C8F390B9BF73A"
+					type: "item"
+					item: {
+						id: "minecraft:stone_sword"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
 					}
 				}
-			}]
+				{
+					id: "1A57CCA9DDF441C1"
+					type: "loot"
+					table_id: 13756307348121783L
+				}
+			]
 		}
 		{
 			x: 1.0d
@@ -234,8 +283,9 @@
 					count: 12
 				}
 				{
-					id: "14E6718E1E6F4F02"
-					type: "random"
+					id: "0A6BEA7C535B1B9F"
+					type: "loot"
+					table_id: 13756307348121783L
 				}
 			]
 		}
@@ -256,8 +306,9 @@
 				}
 			}]
 			rewards: [{
-				id: "24F1BCC004D1594B"
-				type: "random"
+				id: "5AD1456A868ED3D5"
+				type: "loot"
+				table_id: 13756307348121783L
 			}]
 		}
 		{
@@ -277,8 +328,9 @@
 				}
 			}]
 			rewards: [{
-				id: "4D14257DF84AC19E"
-				type: "random"
+				id: "366530C9E0B5E96C"
+				type: "loot"
+				table_id: 13756307348121783L
 			}]
 		}
 		{
@@ -298,8 +350,9 @@
 				}
 			}]
 			rewards: [{
-				id: "73BB4B7F0AEDD45C"
-				type: "random"
+				id: "3AD663800A9F6D12"
+				type: "loot"
+				table_id: 13756307348121783L
 			}]
 		}
 		{
@@ -319,8 +372,9 @@
 				}
 			}]
 			rewards: [{
-				id: "47D0C37E9B7A7248"
-				type: "random"
+				id: "171939461E27A97F"
+				type: "loot"
+				table_id: 13756307348121783L
 			}]
 		}
 		{
@@ -340,8 +394,9 @@
 				}
 			}]
 			rewards: [{
-				id: "33A7E7B2182D57FB"
-				type: "random"
+				id: "1D6187D235B38A70"
+				type: "loot"
+				table_id: 13756307348121783L
 			}]
 		}
 		{
@@ -361,8 +416,9 @@
 				}
 			}]
 			rewards: [{
-				id: "70B439F742F649C9"
-				type: "random"
+				id: "69345CA741060C4E"
+				type: "loot"
+				table_id: 13756307348121783L
 			}]
 		}
 		{
@@ -382,8 +438,9 @@
 				}
 			}]
 			rewards: [{
-				id: "123330FB0062B529"
-				type: "random"
+				id: "1269B99F3D93A8AC"
+				type: "loot"
+				table_id: 13756307348121783L
 			}]
 		}
 		{
@@ -403,8 +460,9 @@
 				}
 			}]
 			rewards: [{
-				id: "2EEE429F6EFFEBF0"
-				type: "random"
+				id: "4EA9059676F6A37E"
+				type: "loot"
+				table_id: 13756307348121783L
 			}]
 		}
 		{
@@ -424,8 +482,9 @@
 				}
 			}]
 			rewards: [{
-				id: "05EC3064DB8035BA"
-				type: "random"
+				id: "1E1B83377EF7AC6B"
+				type: "loot"
+				table_id: 13756307348121783L
 			}]
 		}
 		{
@@ -452,12 +511,19 @@
 					}
 				}
 			}]
-			rewards: [{
-				id: "335C3A5A040DBBE5"
-				type: "item"
-				item: "minecraft:flint"
-				count: 12
-			}]
+			rewards: [
+				{
+					id: "335C3A5A040DBBE5"
+					type: "item"
+					item: "minecraft:flint"
+					count: 12
+				}
+				{
+					id: "399DD8CCB32EA0A7"
+					type: "loot"
+					table_id: 13756307348121783L
+				}
+			]
 		}
 		{
 			x: 7.5d
@@ -470,11 +536,18 @@
 				type: "item"
 				item: "bewitchment:bottle_of_blood"
 			}]
-			rewards: [{
-				id: "4FA2AE3C2B4AAA06"
-				type: "item"
-				item: "minecraft:iron_ingot"
-			}]
+			rewards: [
+				{
+					id: "4FA2AE3C2B4AAA06"
+					type: "item"
+					item: "minecraft:iron_ingot"
+				}
+				{
+					id: "523F83191576CFFA"
+					type: "loot"
+					table_id: 13756307348121783L
+				}
+			]
 		}
 		{
 			x: 7.5d
@@ -488,12 +561,19 @@
 				type: "item"
 				item: "bewitchment:wood_ash"
 			}]
-			rewards: [{
-				id: "3216C394118905D4"
-				type: "item"
-				item: "minecraft:dark_oak_planks"
-				count: 12
-			}]
+			rewards: [
+				{
+					id: "3216C394118905D4"
+					type: "item"
+					item: "minecraft:dark_oak_planks"
+					count: 12
+				}
+				{
+					id: "5552CB945A0DF506"
+					type: "loot"
+					table_id: 13756307348121783L
+				}
+			]
 		}
 		{
 			x: 9.5d
@@ -513,12 +593,19 @@
 				type: "item"
 				item: "bewitchment:oak_bark"
 			}]
-			rewards: [{
-				id: "4C3E60E8C9FC5600"
-				type: "item"
-				item: "minecraft:oak_log"
-				count: 32
-			}]
+			rewards: [
+				{
+					id: "4C3E60E8C9FC5600"
+					type: "item"
+					item: "minecraft:oak_log"
+					count: 32
+				}
+				{
+					id: "342C0C2E127CB127"
+					type: "loot"
+					table_id: 13756307348121783L
+				}
+			]
 		}
 		{
 			x: 11.5d
@@ -550,17 +637,24 @@
 				type: "item"
 				item: "bewitchment:stone_witch_altar"
 			}]
-			rewards: [{
-				id: "10C86C587FB21A01"
-				type: "item"
-				item: {
-					id: "minecraft:potion"
-					Count: 1b
-					tag: {
-						Potion: "minecraft:strong_healing"
+			rewards: [
+				{
+					id: "10C86C587FB21A01"
+					type: "item"
+					item: {
+						id: "minecraft:potion"
+						Count: 1b
+						tag: {
+							Potion: "minecraft:strong_healing"
+						}
 					}
 				}
-			}]
+				{
+					id: "50C5139BD0BCEC4A"
+					type: "loot"
+					table_id: 13756307348121783L
+				}
+			]
 		}
 		{
 			x: 11.5d
@@ -592,6 +686,11 @@
 					type: "item"
 					item: "kibe:regular_conveyor_belt"
 					count: 21
+				}
+				{
+					id: "29BE21CD6CC11E20"
+					type: "loot"
+					table_id: 13756307348121783L
 				}
 			]
 		}
@@ -627,6 +726,11 @@
 					item: "minecraft:glow_berries"
 					count: 12
 				}
+				{
+					id: "4567FF1F762BAB51"
+					type: "loot"
+					table_id: 13756307348121783L
+				}
 			]
 		}
 		{
@@ -642,17 +746,24 @@
 				type: "item"
 				item: "bewitchment:demon_heart"
 			}]
-			rewards: [{
-				id: "408BAD84B0D9B71D"
-				type: "item"
-				item: {
-					id: "gateofbabylon:iron_broadsword"
-					Count: 1b
-					tag: {
-						Damage: 0
+			rewards: [
+				{
+					id: "408BAD84B0D9B71D"
+					type: "item"
+					item: {
+						id: "gateofbabylon:iron_broadsword"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
 					}
 				}
-			}]
+				{
+					id: "70D4506E9553F956"
+					type: "loot"
+					table_id: 13756307348121783L
+				}
+			]
 		}
 		{
 			x: 13.5d
@@ -696,6 +807,11 @@
 					item: "minecraft:warped_nylium"
 					count: 12
 				}
+				{
+					id: "65BB5BCD2DE16F6A"
+					type: "loot"
+					table_id: 13756307348121783L
+				}
 			]
 		}
 		{
@@ -716,17 +832,24 @@
 				type: "item"
 				item: "bewitchment:grotesque_stew"
 			}]
-			rewards: [{
-				id: "340219C343E4C13A"
-				type: "item"
-				item: {
-					id: "minecraft:potion"
-					Count: 1b
-					tag: {
-						Potion: "minecraft:long_swiftness"
+			rewards: [
+				{
+					id: "340219C343E4C13A"
+					type: "item"
+					item: {
+						id: "minecraft:potion"
+						Count: 1b
+						tag: {
+							Potion: "minecraft:long_swiftness"
+						}
 					}
 				}
-			}]
+				{
+					id: "2BE73063740EA328"
+					type: "loot"
+					table_id: 13756307348121783L
+				}
+			]
 		}
 		{
 			x: 9.0d
@@ -753,8 +876,9 @@
 				}
 			}]
 			rewards: [{
-				id: "42FF36C80F68CB55"
-				type: "random"
+				id: "087DB5ECFB7B5167"
+				type: "loot"
+				table_id: 13756307348121783L
 			}]
 		}
 		{
@@ -768,9 +892,9 @@
 				item: "bewitchment:demon_horn"
 			}]
 			rewards: [{
-				id: "3E45B83755A40F71"
-				type: "random"
-				table_id: 6115726535057844717L
+				id: "36B4DCA4733AAB8D"
+				type: "loot"
+				table_id: 13756307348121783L
 			}]
 		}
 		{
@@ -796,8 +920,9 @@
 				}
 			}]
 			rewards: [{
-				id: "2B451D8014C4F2C2"
-				type: "random"
+				id: "0C1ED7E39355C5E7"
+				type: "loot"
+				table_id: 13756307348121783L
 			}]
 		}
 		{
@@ -823,8 +948,9 @@
 				}
 			}]
 			rewards: [{
-				id: "7919190B025C821B"
-				type: "random"
+				id: "509B05D082A88539"
+				type: "loot"
+				table_id: 13756307348121783L
 			}]
 		}
 		{
@@ -850,8 +976,9 @@
 				}
 			}]
 			rewards: [{
-				id: "3A7D597508E431AB"
-				type: "random"
+				id: "383D293F727B8CAC"
+				type: "loot"
+				table_id: 13756307348121783L
 			}]
 		}
 		{
@@ -867,11 +994,18 @@
 				advancement: "minecraft:nether/find_fortress"
 				criterion: ""
 			}]
-			rewards: [{
-				id: "790152FBA4E84D7A"
-				type: "item"
-				item: "minecraft:blaze_powder"
-			}]
+			rewards: [
+				{
+					id: "790152FBA4E84D7A"
+					type: "item"
+					item: "minecraft:blaze_powder"
+				}
+				{
+					id: "298F46423DCE8527"
+					type: "loot"
+					table_id: 13756307348121783L
+				}
+			]
 		}
 	]
 }

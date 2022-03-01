@@ -35,9 +35,9 @@
 				icon: "kubejs:aof5_logo"
 			}]
 			rewards: [{
-				id: "0C7586F6D57261AC"
-				type: "random"
-				table_id: 2482271367426889676L
+				id: "564320DA50D9E285"
+				type: "loot"
+				table_id: 13756307348121783L
 			}]
 		}
 		{
