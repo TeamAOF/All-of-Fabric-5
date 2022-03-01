@@ -1118,83 +1118,83 @@
 						items: [
 							{
 								id: "kibe:white_glider"
-								tag: { }
 								Count: 1b
+								tag: { }
 							}
 							{
 								id: "kibe:orange_glider"
-								tag: { }
 								Count: 1b
+								tag: { }
 							}
 							{
 								id: "kibe:magenta_glider"
-								tag: { }
 								Count: 1b
+								tag: { }
 							}
 							{
 								id: "kibe:light_blue_glider"
-								tag: { }
 								Count: 1b
+								tag: { }
 							}
 							{
 								id: "kibe:yellow_glider"
-								tag: { }
 								Count: 1b
+								tag: { }
 							}
 							{
 								id: "kibe:lime_glider"
-								tag: { }
 								Count: 1b
+								tag: { }
 							}
 							{
 								id: "kibe:pink_glider"
-								tag: { }
 								Count: 1b
+								tag: { }
 							}
 							{
 								id: "kibe:gray_glider"
-								tag: { }
 								Count: 1b
+								tag: { }
 							}
 							{
 								id: "kibe:light_gray_glider"
-								tag: { }
 								Count: 1b
+								tag: { }
 							}
 							{
 								id: "kibe:cyan_glider"
-								tag: { }
 								Count: 1b
+								tag: { }
 							}
 							{
 								id: "kibe:blue_glider"
-								tag: { }
 								Count: 1b
+								tag: { }
 							}
 							{
 								id: "kibe:purple_glider"
-								tag: { }
 								Count: 1b
+								tag: { }
 							}
 							{
 								id: "kibe:green_glider"
-								tag: { }
 								Count: 1b
+								tag: { }
 							}
 							{
 								id: "kibe:brown_glider"
-								tag: { }
 								Count: 1b
+								tag: { }
 							}
 							{
 								id: "kibe:red_glider"
-								tag: { }
 								Count: 1b
+								tag: { }
 							}
 							{
 								id: "kibe:black_glider"
-								tag: { }
 								Count: 1b
+								tag: { }
 							}
 						]
 					}
@@ -1370,28 +1370,6 @@
 				type: "checkmark"
 				title: "Machines to automate"
 			}]
-			rewards: [
-				{
-					id: "52220F163CE7ABE3"
-					type: "item"
-					item: {
-						gprops: { }
-						id: "betterend:gold_chandelier"
-						Count: 1b
-					}
-					count: 4
-				}
-				{
-					id: "189C6FF5DC7D2833"
-					type: "random"
-				}
-				{
-					id: "623C3C23AC217ED8"
-					type: "item"
-					item: "blockus:bamboo_barrel"
-					count: 4
-				}
-			]
 		}
 		{
 			x: 8.5d
