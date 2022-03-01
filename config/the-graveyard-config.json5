@@ -1,163 +1,218 @@
 {
   // Welcome to The Graveyard Config!
-  // //
-  // // Structures:
-  // // Disable structures to spawn, change their chance of spawning, change their separation and also change their salt.
-  // //
-  // // Mob Spawning:
-  // // Disable, which and if graveyard mobs spawn in the world (this does not affect the spawning in structures/of spawners), and set their spawning weight and group size.
-  // // Disable, if hordes can spawn in the world and set their spawning chance and size.
-  // //
-  // // Biome whitelist and blacklist:
-  // // Set in which biomes or in which biome categories the graveyard mobs and structures can spawn.
-  // // Valid vanilla biome categories are: taiga, extreme_hills, jungle, mesa, plains, savanna, icy, beach, forest, desert, swamp, mushroom, underground, mountain, nether.
-  // // A full list of all the biomes can be found here https://minecraft.fandom.com/wiki/Biome#Biome_IDs.
-  // // Modded Biomes: You can find the biome name for modded biomes in game by pressing F3.
-  // // So for example to allow a structure to only spawn in one specific biome, whitelist the biome category and blacklist all biomes of that category except the chosen one.
-  // //
-  // // Graveyard Fog:
-  // // Turn the graveyard fog particles off and set the chance of spawning them (higher numbers = lower chance of spawning).
-  // // Graveyard fog particles spawn in graveyards and add an atmospheric and spooky element while exploring.
-  // //
+  //
+  // Structures:
+  // Configure separation (Minimum distance between two structures of this type in chunks. Must be less than spacing).
+  // Configure spacing (Average distance between two structure placement attempts of this type in chunks).
+  // Configure whitelist: use "#biomeCategory" for biome categories and "minecraft:biome" for biomes (mod identifier + ":" + biome name).
+  // Configure blacklist: use "#biomeCategory" for biome categories and "minecraft:biome" for biomes (mod identifier + ":" + biome name).
+  // Configure mod whitelist: use "#modid" to whitelist the biomes of the specified mod for structures to spawn in (examples: #minecraft, #graveyard, #graveyard_biomes, #terralith, #byg, #bop).
+  // Valid vanilla biome categories are: #taiga, #extreme_hills, #jungle, #mesa, #plains, #savanna, #icy, #beach, #forest, #desert, #swamp, #mushroom, #underground, #mountain.
+  // A full list of all the biomes can be found here https:minecraft.fandom.com/wiki/Biome#Biome_IDs.
+  //
+  // Mobs:
+  // Configure spawning weight and group size of the spawn.
+  // Configure if mobs burn in sunlight and/or if mobs are affected by the wither effect.
+  // Configure whitelist: use "#biomeCategory" for biome categories and "minecraft:biome" for biomes (mod identifier + ":" + biome name).
+  // Configure blacklist: use "#biomeCategory" for biome categories and "minecraft:biome" for biomes (mod identifier + ":" + biome name).
+  // Configure mod whitelist: use "#modid" to whitelist the biomes of the specified mod for structures to spawn in (examples: #minecraft, #graveyard, #graveyard_biomes, #terralith, #byg, #bop).
+  //
+  // Additional:
+  // Configure graveyard fog particles rising from moss and set the chance of spawning them (higher numbers = lower chance of spawning).
+  // Configure if hordes of graveyard mobs can spawn and set their size and frequency.
+  // Configure if urns have a double chest inventory.
   "structureConfigEntries": {
     "mushroom_grave": {
       "enabled": true,
       "separation": 18,
       "spacing": 24,
       "salt": 379123039,
-      "allowedBiomeCategories": [
-        "mushroom",
-        "jungle",
-        "swamp"
+      "whitelist": [
+        "#mushroom",
+        "#jungle",
+        "#swamp"
       ],
-      "blacklistedBiomes": []
+      "blacklist": [],
+      "modWhitelist": [
+        "#minecraft"
+      ],
+      "canSpawnGraveyardMobs": false
     },
     "small_grave": {
       "enabled": true,
       "separation": 8,
       "spacing": 12,
       "salt": 661903018,
-      "allowedBiomeCategories": [
-        "taiga",
-        "forest",
-        "plains"
+      "whitelist": [
+        "#taiga",
+        "#forest",
+        "#plains"
       ],
-      "blacklistedBiomes": []
+      "blacklist": [],
+      "modWhitelist": [
+        "#minecraft",
+        "#graveyard_biomes"
+      ],
+      "canSpawnGraveyardMobs": false
     },
     "haunted_house": {
       "enabled": true,
       "separation": 20,
       "spacing": 25,
       "salt": 451235912,
-      "allowedBiomeCategories": [
-        "forest",
-        "swamp"
+      "whitelist": [
+        "#forest",
+        "#swamp"
       ],
-      "blacklistedBiomes": [
-        "forest",
-        "flower_forest",
-        "birch_forest",
-        "old_growth_birch_forest",
-        "windswept_forest"
-      ]
+      "blacklist": [
+        "minecraft:forest",
+        "minecraft:flower_forest",
+        "minecraft:birch_forest",
+        "minecraft:old_growth_birch_forest",
+        "minecraft:windswept_forest",
+        "graveyard_biomes:haunted_forest"
+      ],
+      "modWhitelist": [
+        "#minecraft",
+        "#graveyard_biomes"
+      ],
+      "canSpawnGraveyardMobs": false
     },
     "small_graveyard": {
       "enabled": true,
       "separation": 18,
       "spacing": 20,
       "salt": 240451934,
-      "allowedBiomeCategories": [
-        "plains"
+      "whitelist": [
+        "#plains"
       ],
-      "blacklistedBiomes": []
+      "blacklist": [],
+      "modWhitelist": [
+        "#minecraft"
+      ],
+      "canSpawnGraveyardMobs": false
     },
     "small_desert_grave": {
       "enabled": true,
       "separation": 16,
       "spacing": 20,
       "salt": 681236914,
-      "allowedBiomeCategories": [
-        "desert"
+      "whitelist": [
+        "#desert"
       ],
-      "blacklistedBiomes": []
+      "blacklist": [],
+      "modWhitelist": [
+        "#minecraft"
+      ],
+      "canSpawnGraveyardMobs": false
     },
     "memorial_tree": {
       "enabled": true,
       "separation": 12,
       "spacing": 14,
       "salt": 529239621,
-      "allowedBiomeCategories": [
-        "forest"
+      "whitelist": [
+        "#forest"
       ],
-      "blacklistedBiomes": [
-        "forest",
-        "flower_forest",
-        "dark_forest",
-        "windswept_forest"
-      ]
+      "blacklist": [
+        "minecraft:forest",
+        "minecraft:flower_forest",
+        "minecraft:dark_forest",
+        "minecraft:windswept_forest"
+      ],
+      "modWhitelist": [
+        "#minecraft"
+      ],
+      "canSpawnGraveyardMobs": false
     },
     "medium_graveyard": {
       "enabled": true,
       "separation": 16,
       "spacing": 18,
       "salt": 1690192399,
-      "allowedBiomeCategories": [
-        "forest"
+      "whitelist": [
+        "#forest"
       ],
-      "blacklistedBiomes": [
-        "dark_forest",
-        "birch_forest",
-        "old_growth_birch_forest"
-      ]
+      "blacklist": [
+        "minecraft:dark_forest",
+        "minecraft:birch_forest",
+        "minecraft:old_growth_birch_forest",
+        "graveyard_biomes:haunted_lakes",
+        "graveyard_biomes:haunted_forest"
+      ],
+      "modWhitelist": [
+        "#minecraft",
+        "#graveyard_biomes"
+      ],
+      "canSpawnGraveyardMobs": true
     },
     "small_desert_graveyard": {
       "enabled": true,
       "separation": 28,
       "spacing": 32,
       "salt": 598017285,
-      "allowedBiomeCategories": [
-        "desert"
+      "whitelist": [
+        "#desert"
       ],
-      "blacklistedBiomes": []
+      "blacklist": [],
+      "modWhitelist": [
+        "#minecraft"
+      ],
+      "canSpawnGraveyardMobs": false
     },
     "large_graveyard": {
       "enabled": true,
       "separation": 10,
       "spacing": 12,
       "salt": 304812394,
-      "allowedBiomeCategories": [
-        "forest",
-        "taiga"
+      "whitelist": [
+        "#forest",
+        "#taiga"
       ],
-      "blacklistedBiomes": [
-        "forest",
-        "flower_forest",
-        "birch_forest",
-        "old_growth_birch_forest",
-        "windswept_forest"
-      ]
+      "blacklist": [
+        "minecraft:forest",
+        "minecraft:flower_forest",
+        "minecraft:birch_forest",
+        "minecraft:old_growth_birch_forest",
+        "minecraft:windswept_forest",
+        "graveyard_biomes:eroded_haunted_forest",
+        "graveyard_biomes:haunted_lakes"
+      ],
+      "modWhitelist": [
+        "#minecraft",
+        "#graveyard_biomes"
+      ],
+      "canSpawnGraveyardMobs": true
     },
     "small_savanna_grave": {
       "enabled": true,
       "separation": 8,
       "spacing": 12,
       "salt": 709787761,
-      "allowedBiomeCategories": [
-        "mesa",
-        "savanna"
+      "whitelist": [
+        "#mesa",
+        "#savanna"
       ],
-      "blacklistedBiomes": []
+      "blacklist": [],
+      "modWhitelist": [
+        "#minecraft"
+      ],
+      "canSpawnGraveyardMobs": false
     },
     "small_mountain_grave": {
       "enabled": true,
       "separation": 8,
       "spacing": 12,
       "salt": 725689810,
-      "allowedBiomeCategories": [
-        "mountain",
-        "extreme_hills"
+      "whitelist": [
+        "#mountain",
+        "#extreme_hills"
       ],
-      "blacklistedBiomes": []
+      "blacklist": [],
+      "modWhitelist": [
+        "#minecraft"
+      ],
+      "canSpawnGraveyardMobs": false
     }
   },
   "particleConfigEntries": {
@@ -168,47 +223,188 @@
   },
   "mobConfigEntries": {
     "acolyte": {
-      "enabled": true,
+      "enabled": false,
       "weight": 0,
       "minGroup": 2,
-      "maxGroup": 3
+      "maxGroup": 3,
+      "canBurnInSunlight": false,
+      "canBeWithered": false,
+      "whitelist": [
+        "#taiga",
+        "#extreme_hills",
+        "#jungle",
+        "#mesa",
+        "#plains",
+        "#savanna",
+        "#icy",
+        "#beach",
+        "#forest",
+        "#desert",
+        "#swamp",
+        "#underground",
+        "#mountain"
+      ],
+      "blacklist": [
+        "minecraft:flower_forest",
+        "minecraft:lush_caves"
+      ],
+      "modWhitelist": [
+        "#minecraft",
+        "#graveyard_biomes"
+      ]
     },
     "revenant": {
       "enabled": true,
-      "weight": 45,
+      "weight": 25,
       "minGroup": 5,
-      "maxGroup": 8
+      "maxGroup": 8,
+      "canBurnInSunlight": true,
+      "canBeWithered": false,
+      "whitelist": [
+        "#taiga",
+        "#extreme_hills",
+        "#jungle",
+        "#mesa",
+        "#plains",
+        "#savanna",
+        "#icy",
+        "#beach",
+        "#forest",
+        "#desert",
+        "#swamp",
+        "#underground",
+        "#mountain"
+      ],
+      "blacklist": [
+        "minecraft:flower_forest",
+        "minecraft:lush_caves"
+      ],
+      "modWhitelist": [
+        "#minecraft",
+        "#graveyard_biomes"
+      ]
     },
     "skeleton_creeper": {
       "enabled": true,
-      "weight": 35,
+      "weight": 25,
       "minGroup": 1,
-      "maxGroup": 4
+      "maxGroup": 4,
+      "canBurnInSunlight": true,
+      "canBeWithered": false,
+      "whitelist": [
+        "#taiga",
+        "#extreme_hills",
+        "#jungle",
+        "#mesa",
+        "#plains",
+        "#savanna",
+        "#icy",
+        "#beach",
+        "#forest",
+        "#desert",
+        "#swamp",
+        "#underground",
+        "#mountain"
+      ],
+      "blacklist": [
+        "minecraft:flower_forest",
+        "minecraft:lush_caves"
+      ],
+      "modWhitelist": [
+        "#minecraft",
+        "#graveyard_biomes"
+      ]
     },
     "ghoul": {
       "enabled": true,
-      "weight": 45,
+      "weight": 25,
       "minGroup": 2,
-      "maxGroup": 5
+      "maxGroup": 5,
+      "canBurnInSunlight": true,
+      "canBeWithered": false,
+      "whitelist": [
+        "#taiga",
+        "#extreme_hills",
+        "#jungle",
+        "#mesa",
+        "#plains",
+        "#savanna",
+        "#icy",
+        "#beach",
+        "#forest",
+        "#desert",
+        "#swamp",
+        "#underground",
+        "#mountain"
+      ],
+      "blacklist": [
+        "minecraft:flower_forest",
+        "minecraft:lush_caves"
+      ],
+      "modWhitelist": [
+        "#minecraft",
+        "#graveyard_biomes"
+      ]
     },
     "reaper": {
       "enabled": true,
-      "weight": 0,
+      "weight": 10,
       "minGroup": 2,
-      "maxGroup": 3
+      "maxGroup": 3,
+      "canBurnInSunlight": true,
+      "canBeWithered": false,
+      "whitelist": [
+        "graveyard_biomes:eroded_haunted_forest"
+      ],
+      "blacklist": [
+        "minecraft:flower_forest",
+        "minecraft:lush_caves"
+      ],
+      "modWhitelist": [
+        "#minecraft",
+        "#graveyard_biomes"
+      ]
     },
     "nightmare": {
       "enabled": true,
-      "weight": 15,
+      "weight": 10,
       "minGroup": 1,
-      "maxGroup": 1
+      "maxGroup": 1,
+      "canBurnInSunlight": false,
+      "canBeWithered": false,
+      "whitelist": [
+        "#taiga",
+        "#extreme_hills",
+        "#jungle",
+        "#mesa",
+        "#plains",
+        "#savanna",
+        "#icy",
+        "#beach",
+        "#forest",
+        "#desert",
+        "#swamp",
+        "#underground",
+        "#mountain"
+      ],
+      "blacklist": [
+        "minecraft:flower_forest",
+        "minecraft:lush_caves"
+      ],
+      "modWhitelist": [
+        "#minecraft",
+        "#graveyard_biomes"
+      ]
     }
   },
   "hordeConfigEntries": {
     "horde_spawn": {
       "enabled": true,
       "size": 40,
-      "ticksUntilNextSpawn": 12000
+      "ticksUntilNextSpawn": 24000
     }
+  },
+  "booleanEntries": {
+    "urnHasDoubleInventory": true
   }
 }

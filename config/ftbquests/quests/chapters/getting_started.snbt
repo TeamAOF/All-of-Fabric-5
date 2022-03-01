@@ -35,9 +35,13 @@
 				icon: "kubejs:aof5_logo"
 			}]
 			rewards: [{
-				id: "564320DA50D9E285"
-				type: "loot"
-				table_id: 13756307348121783L
+				id: "300CDF28987696BC"
+				type: "item"
+				item: {
+					id: "inmis:baby_backpack"
+					Count: 1b
+					tag: { }
+				}
 			}]
 		}
 		{

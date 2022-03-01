@@ -11,4 +11,8 @@
 	# Default: 0
 	# Range: 0 ~ 100
 	prevent_tool_break: 0
+	
+	# Require damageable tools or items added to ftbultimine:tools tag to ultimine.
+	# Default: false
+	require_tool: false
 }
