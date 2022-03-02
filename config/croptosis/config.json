@@ -43,6 +43,6 @@
     "enable_rotten_pile": false
   },
   "fertilized_blocks": {
-    "enable_bone_meal_conversion": true
+    "enable_bone_meal_conversion": false
   }
 }
