@@ -189,7 +189,7 @@
 			icon: "graveyard:skull_with_rib_cage"
 			x: 2.0d
 			y: -0.5d
-			subtitle: "Locate a Graveyard structure. Be sure to have a look or two below the graves for shiny loot."
+			subtitle: "Locate a Small Graveyard structure. Be sure to have a look or two below the graves for shiny loot."
 			dependencies: ["6EC4700B21DB617B"]
 			id: "14DE762F4663D1C9"
 			tasks: [{
