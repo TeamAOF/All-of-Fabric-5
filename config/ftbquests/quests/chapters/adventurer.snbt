@@ -176,7 +176,7 @@
 				}
 				timer: 0L
 				observe_type: 0
-				to_observe: "bounties:bountyboard"
+				to_observe: "bountiful:bountyboard"
 			}]
 			rewards: [{
 				id: "15F460C5E0FFCE17"
