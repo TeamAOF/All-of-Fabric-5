@@ -60,7 +60,6 @@
 		{ item: "indrev:circuit_mk1" }
 		{ item: "indrev:circuit_mk2" }
 		{ item: "indrev:circuit_mk3" }
-		{ item: "indrev:circuit_mk4" }
 		{ item: "ae2:calculation_processor_press" }
 		{ item: "ae2:engineering_processor_press" }
 		{ item: "ae2:logic_processor_press" }
@@ -356,9 +355,9 @@
 		{ item: "croptosis:iron_watering_can" }
 		{ item: "croptosis:gold_watering_can" }
 		{ item: "croptosis:diamond_watering_can" }
-		{ item: "farmingforblockheads:green_fertilizer", count: 4 }
-		{ item: "farmingforblockheads:red_fertilizer", count: 4 }
-		{ item: "farmingforblockheads:yellow_fertilizer", count: 4 }
+		{ item: "farmingforblockheads:green_fertilizer", count: 12 }
+		{ item: "farmingforblockheads:red_fertilizer", count: 12 }
+		{ item: "farmingforblockheads:yellow_fertilizer", count: 12 }
 		{ item: "farmingforblockheads:feeding_trough", count: 4 }
 		{ item: "farmingforblockheads:chicken_nest", count: 4 }
 		{
@@ -563,15 +562,6 @@
 		}
 		{
 			item: {
-				id: "gateofbabylon:netherite_katana"
-				Count: 1b
-				tag: {
-					Damage: 0
-				}
-			}
-		}
-		{
-			item: {
 				id: "extraalchemy:potion_bag"
 				Count: 1b
 				tag: { }
@@ -606,15 +596,7 @@
 		{ item: "iron-jetpacks:bronze_jetpack" }
 		{ item: "iron-jetpacks:electrum_jetpack" }
 		{ item: "iron-jetpacks:steel_jetpack" }
-		{
-			item: {
-				id: "techreborn:energy_crystal"
-				Count: 1b
-				tag: {
-					energy: 1000000L
-				}
-			}
-		}
+		{ item: "techreborn:energy_crystal" }
 		{ item: "techreborn:basic_drill" }
 		{ item: "techreborn:basic_chainsaw" }
 		{ item: "techreborn:basic_jackhammer" }
@@ -652,7 +634,7 @@
 		{ item: "indrev:smoker_enhancer" }
 		{ item: "indrev:damage_enhancer" }
 		{ item: "indrev:energy_reader" }
-		{ item: "indrev:mining_drill_mk3" }
+		{ item: "indrev:mining_drill_mk2" }
 		{ item: "indrev:cable_mk1", count: 8, random_bonus: 8 }
 		{ item: "indrev:cable_mk2", count: 8, random_bonus: 8 }
 		{ item: "indrev:cable_mk3", count: 8, random_bonus: 8 }
@@ -721,13 +703,6 @@
 		{
 			item: {
 				id: "ae2:item_storage_cell_16k"
-				Count: 1b
-				tag: { }
-			}
-		}
-		{
-			item: {
-				id: "ae2:item_storage_cell_64k"
 				Count: 1b
 				tag: { }
 			}
@@ -844,8 +819,6 @@
 		{ item: "extragenerators:scalding_generator" }
 		{ item: "extragenerators:steam_generator" }
 		{ item: "extragenerators:enchanted_generator" }
-		{ item: "extragenerators:dragon_generator" }
-		{ item: "extragenerators:withered_generator" }
 		{
 			item: {
 				id: "gofish:blaze_rod"
@@ -1001,7 +974,6 @@
 				}
 			}
 		}
-		{ item: "expandedstorage:netherite_chest" }
 		{ item: "adorn:apple_crate", count: 3 }
 		{ item: "adorn:wheat_crate", count: 3 }
 		{ item: "adorn:carrot_crate", count: 3 }
@@ -1578,5 +1550,93 @@
 		{ item: "ae2:engineering_processor", count: 2, random_bonus: 3 }
 		{ item: "minecraft:leather", count: 6, random_bonus: 6 }
 		{ item: "terrarianslimes:royal_gel" }
+		{ item: "expandedstorage:iron_chest" }
+		{ item: "expandedstorage:gold_chest" }
+		{ item: "expandedstorage:diamond_chest" }
+		{ item: "expandedstorage:obsidian_chest" }
+		{
+			item: {
+				id: "techreborn:bronze_chestplate"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			item: {
+				id: "techreborn:bronze_helmet"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			item: {
+				id: "techreborn:bronze_pickaxe"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{ item: "minecraft:spectral_arrow", count: 3, random_bonus: 16 }
+		{
+			item: {
+				id: "minecraft:golden_helmet"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			item: {
+				id: "minecraft:golden_chestplate"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			item: {
+				id: "minecraft:golden_leggings"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			item: {
+				id: "minecraft:golden_boots"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{ item: "minecraft:gold_ingot", count: 3, random_bonus: 8 }
+		{ item: "modern_industrialization:silver_ingot", count: 3, random_bonus: 8 }
+		{ item: "minecraft:oak_boat" }
+		{ item: "minecraft:cake" }
+		{ item: "croptopia:tres_leche_cake", count: 8 }
+		{ item: "minecraft:stone", count: 16 }
+		{ item: "minecraft:iron_ore", count: 3, random_bonus: 5 }
+		{ item: "betteranimalsplus:crab_bucket" }
+		{ item: "croptopia:stuffed_poblanos", count: 6 }
+		{ item: "croptopia:squash", count: 8 }
+		{ item: "croptopia:avocado", count: 6 }
+		{ item: "croptopia:pear", count: 8 }
+		{ item: "croptopia:apricot", count: 8 }
+		{ item: "croptopia:mango", count: 8 }
+		{ item: "croptopia:limeade", count: 8 }
+		{ item: "croptopia:strawberry_jam", count: 8 }
+		{ item: "croptopia:pumpkin_spice_latte", count: 7 }
+		{ item: "croptopia:strawberry_smoothie", count: 8 }
+		{ item: "croptopia:fruit_smoothie", count: 8 }
+		{ item: "croptopia:grape_jam", count: 8 }
 	]
 }
