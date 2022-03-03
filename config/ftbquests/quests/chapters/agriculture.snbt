@@ -534,6 +534,11 @@
 				type: "item"
 				item: "croptopia:fried_chicken"
 			}]
+			rewards: [{
+				id: "6C6F767C020DB489"
+				type: "loot"
+				table_id: 13756307348121783L
+			}]
 		}
 		{
 			x: -0.5d
@@ -544,6 +549,11 @@
 				id: "743EE0ACB4383530"
 				type: "item"
 				item: "croptopia:chicken_and_noodles"
+			}]
+			rewards: [{
+				id: "19F63F5C1042BF10"
+				type: "loot"
+				table_id: 13756307348121783L
 			}]
 		}
 		{
@@ -557,11 +567,18 @@
 				type: "item"
 				item: "minecraft:cooked_chicken"
 			}]
-			rewards: [{
-				id: "0F04AE5F08E7114E"
-				type: "xp"
-				xp: 50
-			}]
+			rewards: [
+				{
+					id: "0F04AE5F08E7114E"
+					type: "xp"
+					xp: 50
+				}
+				{
+					id: "02C624A42ADAE728"
+					type: "loot"
+					table_id: 13756307348121783L
+				}
+			]
 		}
 		{
 			x: 0.0d
@@ -1330,6 +1347,11 @@
 				id: "0214F5242EEDE49A"
 				type: "item"
 				item: "croptopia:lemon_chicken"
+			}]
+			rewards: [{
+				id: "16DE5F8CDF5F4C1E"
+				type: "loot"
+				table_id: 13756307348121783L
 			}]
 		}
 		{
