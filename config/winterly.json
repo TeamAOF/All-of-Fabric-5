@@ -1,7 +1,0 @@
-{
-  "decorations_on_mobs": {
-    "enabled": true,
-    "only_in_winter": true,
-    "chance_percentage": 15
-  }
-}
