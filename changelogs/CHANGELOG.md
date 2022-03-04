@@ -1,3 +1,48 @@
+### All of Fabric 5 | v1.0.1
+
+_Fabric Loader 0.13.3_ | _[Mod Updates](https://github.com/TeamAOF/All-of-Fabric-5/blob/main/changelogs/changelog_mods_1.0.1.md)_ | _[Modlist](https://github.com/TeamAOF/All-of-Fabric-5/blob/main/changelogs/modlist_1.0.1.md)_
+
+## Changes
+
+* 12 New nether biomes (A reset of nether is needed for this).
+* Added more available quest rewards.
+* Graveyard quest description should now be a bit more clear.
+* Enchanted generator nerfed (512E/t > 256E/t).
+* Blacklisted spectrum enchantments in the dark enchanter.
+* Disabled bone meal conversion for fertilized blocks (Use farming for blockheads fertilizers).
+* Added croptopia trees to BYG biomes.
+* Changed default difficulty to HARD.
+
+## Fixes
+
+* Incorrect rewards for "Machines to Automate" quest.
+* The "Bounties" quest not completing on observation.
+* Biomemakeover icon always showing in REI.
+* Sludge, Enchanted & Withered generators not being craftable.
+* Kibe tanks not retaining content when broken.
+* Iron golems not attacking hostile mobs or players when attacked.
+* Chicken quests missing quest rewards.
+
+## Recipe Changes
+
+* Livingwood twig not being craftable.
+* Any planks can now be used to craft the Wooden Staff of Building.
+* New Modular Mining Drill (https://i.imgur.com/58ANSJX.png).
+
+## Added
+
+* [BisectHosting Server Integration Menu [FABRIC]](https://www.curseforge.com/minecraft/mc-mods/bisecthosting-server-integration-menu-fabric)
+* [Overloaded Armor Bar Fabric](https://www.curseforge.com/minecraft/mc-mods/overloaded-armor-bar-fabric)
+* [RightClickHarvest](https://www.curseforge.com/minecraft/mc-mods/rightclickharvest-fabric)
+
+## Removed
+
+* [Basic Shields [Fabric]](https://www.curseforge.com/minecraft/mc-mods/basic-shields-fabric)
+* [Clickable advancements[Forge/Fabric]](https://www.curseforge.com/minecraft/mc-mods/clickable-advancements)
+* [Cosmetic Armor [FABRIC]](https://www.curseforge.com/minecraft/mc-mods/cosmetic-armor-fabric)
+* [Your Reputation](https://www.curseforge.com/minecraft/mc-mods/your-reputation)
+---
+
 ### All of Fabric 5 | v1.0.0 | Questing & Biomes
 
 _Fabric Loader 0.13.3_ | _[Mod Updates](https://github.com/TeamAOF/All-of-Fabric-5/blob/main/changelogs/changelog_mods_1.0.0.md)_ | _[Modlist](https://github.com/TeamAOF/All-of-Fabric-5/blob/main/changelogs/modlist_1.0.0.md)_

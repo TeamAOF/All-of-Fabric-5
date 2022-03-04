@@ -1915,8 +1915,12 @@
 		{
 			x: 7.5d
 			y: 4.5d
+			subtitle: "Requires Coal Dust quest to unlock."
 			hide_dependency_lines: true
-			dependencies: ["37F10FC248B237FF"]
+			dependencies: [
+				"37F10FC248B237FF"
+				"53C9A64CC798A992"
+			]
 			id: "45DA8A8C7D48D774"
 			tasks: [{
 				id: "63C31057EF1EDA2B"

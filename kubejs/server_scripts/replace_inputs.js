@@ -15,6 +15,8 @@ onEvent('recipes', (event) => {
     event.replaceInput({}, 'extragenerators:brew_generator', 'extragenerators:colorful_generator');
     event.replaceInput({}, 'extragenerators:demise_generator', 'extragenerators:enchanted_generator');
 
+    event.replaceInput({id: "staffofbuilding:wooden_builder_staff"}, 'minecraft:oak_planks', '#minecraft:planks');
+
     // Chromium
     event.replaceInput({}, 'techreborn:chrome_ingot', 'modern_industrialization:chromium_ingot');
     event.replaceInput({}, 'techreborn:chrome_nugget', 'modern_industrialization:chromium_nugget');

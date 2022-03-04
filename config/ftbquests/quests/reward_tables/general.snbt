@@ -1638,5 +1638,21 @@
 		{ item: "croptopia:strawberry_smoothie", count: 8 }
 		{ item: "croptopia:fruit_smoothie", count: 8 }
 		{ item: "croptopia:grape_jam", count: 8 }
+		{ item: "croptopia:coffee", count: 8 }
+		{ item: "croptopia:corn", count: 16 }
+		{ item: "croptopia:elderberry", count: 8 }
+		{ item: "croptopia:walnut", count: 16 }
+		{ item: "croptopia:leek_soup", count: 8 }
+		{ item: "farmersdelight:grilled_salmon", count: 8 }
+		{ item: "farmersdelight:pasta_with_mutton_chop", count: 16 }
+		{ item: "farmersdelight:steak_and_potatoes", count: 12 }
+		{ item: "farmersdelight:baked_cod_stew", count: 8 }
+		{ item: "farmersdelight:dog_food", count: 8 }
+		{ item: "farmersdelight:shepherds_pie", count: 12 }
+		{ item: "farmersdelight:honey_glazed_ham", count: 12 }
+		{ item: "farmersdelight:roast_chicken", count: 12 }
+		{ item: "farmersdelight:ratatouille", count: 8 }
+		{ item: "farmersdelight:roasted_mutton_chops", count: 8 }
+		{ item: "farmersdelight:fish_stew", count: 8 }
 	]
 }
