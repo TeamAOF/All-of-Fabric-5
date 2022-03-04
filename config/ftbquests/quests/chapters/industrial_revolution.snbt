@@ -314,24 +314,6 @@
 			]
 		}
 		{
-			x: -5.0d
-			y: -7.5d
-			subtitle: "These machines are used to store Lazuli Flux."
-			description: ["You can see blue and orange arrows on each side. Blue arrows represent energy input and orange arrows represent energy output. You can configure these arrows using a Wrench in Configure Mode."]
-			dependencies: ["60E79DB91F2919BD"]
-			id: "3D20FC4E939D2D69"
-			tasks: [{
-				id: "2FF7126AFE0D915D"
-				type: "item"
-				item: "indrev:lazuli_flux_container_mk1"
-			}]
-			rewards: [{
-				id: "24A1ECEAA66A14F5"
-				type: "loot"
-				table_id: 13756307348121783L
-			}]
-		}
-		{
 			title: "Farming"
 			x: -9.5d
 			y: 2.0d
@@ -558,69 +540,6 @@
 			}]
 			rewards: [{
 				id: "6E10EE8430AADE3C"
-				type: "loot"
-				table_id: 13756307348121783L
-			}]
-		}
-		{
-			x: -3.0d
-			y: -7.5d
-			subtitle: "These machines are used to store Lazuli Flux."
-			description: ["You can see blue and orange arrows on each side. Blue arrows represent energy input and orange arrows represent energy output. You can configure these arrows using a Wrench in Configure Mode."]
-			dependencies: [
-				"3D20FC4E939D2D69"
-				"5126D10B28A64460"
-			]
-			id: "41594D7E8549D5DE"
-			tasks: [{
-				id: "29AEAE219B45C7F1"
-				type: "item"
-				item: "indrev:lazuli_flux_container_mk2"
-			}]
-			rewards: [{
-				id: "0D8F80FEE84F4456"
-				type: "loot"
-				table_id: 13756307348121783L
-			}]
-		}
-		{
-			x: -1.0d
-			y: -7.5d
-			subtitle: "These machines are used to store Lazuli Flux."
-			description: ["You can see blue and orange arrows on each side. Blue arrows represent energy input and orange arrows represent energy output. You can configure these arrows using a Wrench in Configure Mode."]
-			dependencies: [
-				"41594D7E8549D5DE"
-				"7A318DEE361289B5"
-			]
-			id: "215EB2F203A92D38"
-			tasks: [{
-				id: "2041703820C07DDA"
-				type: "item"
-				item: "indrev:lazuli_flux_container_mk3"
-			}]
-			rewards: [{
-				id: "1857F7A4299EF2C0"
-				type: "loot"
-				table_id: 13756307348121783L
-			}]
-		}
-		{
-			x: 1.0d
-			y: -7.5d
-			subtitle: "These machines are used to store Lazuli Flux."
-			description: ["You can see blue and orange arrows on each side. Blue arrows represent energy input and orange arrows represent energy output. You can configure these arrows using a Wrench in Configure Mode."]
-			dependencies: [
-				"215EB2F203A92D38"
-				"65E60EDD6DE18DC2"
-			]
-			id: "37A1603DE0B604FD"
-			tasks: [{
-				id: "2323D65D8E26CF7D"
-				type: "item"
-				item: "indrev:lazuli_flux_container_mk4"
-			}]
-			rewards: [{
-				id: "6830A009FE724BF3"
 				type: "loot"
 				table_id: 13756307348121783L
 			}]
@@ -1893,9 +1812,9 @@
 		}
 		{
 			x: 1.0d
-			y: -9.5d
+			y: -7.5d
 			subtitle: "Recharge your batteries!"
-			dependencies: ["37A1603DE0B604FD"]
+			dependencies: ["65E60EDD6DE18DC2"]
 			id: "7F905EDB05E4BE17"
 			tasks: [{
 				id: "47F075B67F7DD537"
