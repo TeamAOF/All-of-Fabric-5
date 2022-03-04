@@ -6,8 +6,16 @@ onEvent('recipes', (event) => {
     event.replaceInput({}, '#c:steel_leggings', 'techreborn:steel_leggings');
     event.replaceInput({}, '#c:steel_boots', 'techreborn:steel_boots');
     event.replaceInput({}, '#c:wooden_chests', '#c:wooden_chests');
+    
     event.replaceInput({}, '#c:workbench', '#c:workbench');
+
     event.replaceInput({}, 'mtmechs:iron_gear_item', 'modern_industrialization:iron_gear');
+
+    event.replaceInput({}, 'extragenerators:icy_generator', 'extragenerators:colorful_generator');
+    event.replaceInput({}, 'extragenerators:brew_generator', 'extragenerators:colorful_generator');
+    event.replaceInput({}, 'extragenerators:demise_generator', 'extragenerators:enchanted_generator');
+
+    event.replaceInput({id: "staffofbuilding:wooden_builder_staff"}, 'minecraft:oak_planks', '#minecraft:planks');
 
     // Chromium
     event.replaceInput({}, 'techreborn:chrome_ingot', 'modern_industrialization:chromium_ingot');

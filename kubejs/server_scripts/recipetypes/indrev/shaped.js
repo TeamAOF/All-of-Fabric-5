@@ -46,6 +46,20 @@ onEvent('recipes', (event) => {
     },
       id: 'indrev:shaped/lazuli_flux_container_mk4'
     },
+
+        {
+      output: 'indrev:mining_drill_mk4',
+      pattern: ['DCD', 'EAE', 'BFB'],
+      key: {
+        A: 'indrev:circuit_mk4',
+        B: 'indrev:battery',
+        C: 'indrev:netherite_drill_head',
+        D: 'indrev:enriched_nikolite_ingot',
+        E: 'modern_industrialization:steel_large_plate',
+        F: 'indrev:modular_core_activated',
+    },
+      id: 'indrev:shaped/mining_drill_mk4'
+    },
   ];
 
   recipes.forEach((recipe) => {

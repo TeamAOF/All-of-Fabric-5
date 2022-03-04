@@ -1,12 +1,16 @@
 {
   "builtinServers": [
     {
-      "name": "EU Server",
+      "name": "Europe Central",
       "address": "eu.alloffabric.com"
     },
     {
-      "name": "NA Server",
+      "name": "NA West",
       "address": "nw.alloffabric.com"
+    },
+    {
+      "name": "NA South",
+      "address": "nas.alloffabric.com"
     }
   ]
 }

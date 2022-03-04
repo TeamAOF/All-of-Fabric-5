@@ -11,7 +11,7 @@
 
 	  "customEntries": [
 
-    // Saplings
+    
     {
       "output": {
         "item": "croptopia:apple_sapling"
@@ -282,7 +282,7 @@
       "category": "farmingforblockheads:saplings"
     },
 
-    // Seeds
+    
 
     {
       "output": {

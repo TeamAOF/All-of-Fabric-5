@@ -48,7 +48,7 @@
     "storage": 64000.0
   },
   "enchantedGenerator": {
-    "output": 512.0,
+    "output": 256.0,
     "storage": 128000.0
   },
   "demiseGenerator": {

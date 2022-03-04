@@ -176,7 +176,7 @@
 				}
 				timer: 0L
 				observe_type: 0
-				to_observe: "bounties:bountyboard"
+				to_observe: "bountiful:bountyboard"
 			}]
 			rewards: [{
 				id: "15F460C5E0FFCE17"
@@ -189,7 +189,7 @@
 			icon: "graveyard:skull_with_rib_cage"
 			x: 2.0d
 			y: -0.5d
-			subtitle: "Locate a Graveyard structure. Be sure to have a look or two below the graves for shiny loot."
+			subtitle: "Locate a Small Graveyard structure. Be sure to have a look or two below the graves for shiny loot."
 			dependencies: ["6EC4700B21DB617B"]
 			id: "14DE762F4663D1C9"
 			tasks: [{
@@ -240,7 +240,7 @@
 			title: "The Eye"
 			x: 1.0d
 			y: 1.5d
-			subtitle: "The Eye was never seen before by any human being and will drain all any energy you got until you are a dead corps."
+			subtitle: "The Eye was never seen before by any human being and will drain all energy you've got until you are a dead corpse."
 			description: [
 				"The Eye can only be summoned at an Eye Shrine."
 				"(See AdventureZ handbook)"

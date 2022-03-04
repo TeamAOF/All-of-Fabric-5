@@ -1,0 +1,285 @@
+{
+  "middleLayer": {
+    "biomeWeights": [
+      {
+        "data": "minecraft:crimson_forest",
+        "weight": 2
+      },
+      {
+        "data": "minecraft:nether_wastes",
+        "weight": 2
+      },
+      {
+        "data": "minecraft:soul_sand_valley",
+        "weight": 2
+      },
+      {
+        "data": "minecraft:basalt_deltas",
+        "weight": 2
+      },
+      {
+        "data": "minecraft:warped_forest",
+        "weight": 2
+      },
+      {
+        "data": "byg:brimstone_caverns",
+        "weight": 2
+      },
+      {
+        "data": "byg:subzero_hypogeal",
+        "weight": 2
+      },
+      {
+        "data": "byg:warped_desert",
+        "weight": 2
+      },
+      {
+        "data": "byg:weeping_mire",
+        "weight": 0
+      },
+      {
+        "data": "byg:magma_wastes",
+        "weight": 2
+      },
+      {
+        "data": "byg:embur_bog",
+        "weight": 2
+      },
+      {
+        "data": "byg:quartz_desert",
+        "weight": 2
+      },
+      {
+        "data": "byg:crimson_gardens",
+        "weight": 2
+      },
+      {
+        "data": "byg:glowstone_gardens",
+        "weight": 2
+      },
+      {
+        "data": "byg:sythian_torrids",
+        "weight": 2
+      },
+      {
+        "data": "byg:wailing_garth",
+        "weight": 2
+      },
+      {
+        "data": "byg:arisian_undergrowth",
+        "weight": 2
+      },
+      {
+        "data": "promenade:tall_crimson_forest",
+        "weight": 2
+      },
+      {
+        "data": "promenade:tall_warped_forest",
+        "weight": 2
+      },
+      {
+        "data": "promenade:tritanopian_gallery",
+        "weight": 2
+      },
+      {
+        "data": "promenade:achromatopsian_gallery",
+        "weight": 2
+      },
+      {
+        "data": "promenade:protanopian_gallery",
+        "weight": 2
+      }
+    ],
+    "biomeSize": 3
+  },
+  "bottomLayer": {
+    "biomeWeights": [
+      {
+        "data": "minecraft:crimson_forest",
+        "weight": 2
+      },
+      {
+        "data": "minecraft:nether_wastes",
+        "weight": 2
+      },
+      {
+        "data": "minecraft:soul_sand_valley",
+        "weight": 2
+      },
+      {
+        "data": "minecraft:basalt_deltas",
+        "weight": 2
+      },
+      {
+        "data": "minecraft:warped_forest",
+        "weight": 2
+      },
+      {
+        "data": "byg:weeping_mire",
+        "weight": 2
+      },
+      {
+        "data": "byg:embur_bog",
+        "weight": 2
+      },
+      {
+        "data": "byg:brimstone_caverns",
+        "weight": 0
+      },
+      {
+        "data": "byg:subzero_hypogeal",
+        "weight": 0
+      },
+      {
+        "data": "byg:warped_desert",
+        "weight": 0
+      },
+      {
+        "data": "byg:magma_wastes",
+        "weight": 0
+      },
+      {
+        "data": "byg:quartz_desert",
+        "weight": 0
+      },
+      {
+        "data": "byg:crimson_gardens",
+        "weight": 0
+      },
+      {
+        "data": "byg:glowstone_gardens",
+        "weight": 0
+      },
+      {
+        "data": "byg:sythian_torrids",
+        "weight": 0
+      },
+      {
+        "data": "byg:wailing_garth",
+        "weight": 0
+      },
+      {
+        "data": "byg:arisian_undergrowth",
+        "weight": 0
+      },
+      {
+        "data": "promenade:tall_crimson_forest",
+        "weight": 2
+      },
+      {
+        "data": "promenade:tall_warped_forest",
+        "weight": 2
+      },
+      {
+        "data": "promenade:tritanopian_gallery",
+        "weight": 2
+      },
+      {
+        "data": "promenade:achromatopsian_gallery",
+        "weight": 2
+      },
+      {
+        "data": "promenade:protanopian_gallery",
+        "weight": 2
+      }
+    ],
+    "biomeSize": 3
+  },
+  "layerSizeInBlocks": 40,
+  "addAllEndBiomeCategoryEntries": true,
+  "useBYGNetherBiomeSourceInNewWorlds": true,
+  "warnBYGNetherBiomeSourceNotUsedInNewWorlds": true,
+  "upperLayer": {
+    "biomeWeights": [
+      {
+        "data": "minecraft:crimson_forest",
+        "weight": 2
+      },
+      {
+        "data": "minecraft:nether_wastes",
+        "weight": 2
+      },
+      {
+        "data": "minecraft:soul_sand_valley",
+        "weight": 2
+      },
+      {
+        "data": "minecraft:basalt_deltas",
+        "weight": 2
+      },
+      {
+        "data": "minecraft:warped_forest",
+        "weight": 2
+      },
+      {
+        "data": "byg:brimstone_caverns",
+        "weight": 2
+      },
+      {
+        "data": "byg:subzero_hypogeal",
+        "weight": 2
+      },
+      {
+        "data": "byg:embur_bog",
+        "weight": 0
+      },
+      {
+        "data": "byg:weeping_mire",
+        "weight": 0
+      },
+      {
+        "data": "byg:warped_desert",
+        "weight": 2
+      },
+      {
+        "data": "byg:quartz_desert",
+        "weight": 2
+      },
+      {
+        "data": "byg:crimson_gardens",
+        "weight": 2
+      },
+      {
+        "data": "byg:magma_wastes",
+        "weight": 2
+      },
+      {
+        "data": "byg:glowstone_gardens",
+        "weight": 2
+      },
+      {
+        "data": "byg:sythian_torrids",
+        "weight": 2
+      },
+      {
+        "data": "byg:wailing_garth",
+        "weight": 2
+      },
+      {
+        "data": "byg:arisian_undergrowth",
+        "weight": 2
+      },
+      {
+        "data": "promenade:tall_crimson_forest",
+        "weight": 2
+      },
+      {
+        "data": "promenade:tall_warped_forest",
+        "weight": 2
+      },
+      {
+        "data": "promenade:tritanopian_gallery",
+        "weight": 2
+      },
+      {
+        "data": "promenade:achromatopsian_gallery",
+        "weight": 2
+      },
+      {
+        "data": "promenade:protanopian_gallery",
+        "weight": 2
+      }
+    ],
+    "biomeSize": 3
+  }
+}

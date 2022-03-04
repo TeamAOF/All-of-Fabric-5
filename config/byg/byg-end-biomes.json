@@ -1,4 +1,30 @@
 {
+  "voidLayerData": {
+    "biomeWeights": [
+      {
+        "data": "minecraft:small_end_islands",
+        "weight": 2
+      }
+    ],
+    "biomeSize": 2
+  },
+  "skyLayerData": {
+    "biomeWeights": [
+      {
+        "data": "byg:viscal_isles",
+        "weight": 1
+      },
+      {
+        "data": "minecraft:the_end",
+        "weight": 9
+      }
+    ],
+    "biomeSize": 2
+  },
+  "skyLayerStartY": 180,
+  "addAllEndBiomeCategoryEntries": true,
+  "useBYGNetherBiomeSourceInNewWorlds": true,
+  "warnBYGNetherBiomeSourceNotUsedInNewWorlds": true,
   "islandLayerData": {
     "biomeWeights": [
       {
@@ -40,33 +66,28 @@
       {
         "data": "byg:imparius_grove",
         "weight": 3
-      }
-    ],
-    "biomeSize": 3
-  },
-  "voidLayerData": {
-    "biomeWeights": [
-      {
-        "data": "minecraft:small_end_islands",
-        "weight": 2
-      }
-    ],
-    "biomeSize": 2
-  },
-  "skyLayerData": {
-    "biomeWeights": [
-      {
-        "data": "byg:viscal_isles",
-        "weight": 1
       },
       {
         "data": "minecraft:the_end",
-        "weight": 9
+        "weight": 2
+      },
+      {
+        "data": "minecraft:small_end_islands",
+        "weight": 2
+      },
+      {
+        "data": "byg:viscal_isles",
+        "weight": 2
+      },
+      {
+        "data": "promenade:dark_amaranth_forest",
+        "weight": 2
+      },
+      {
+        "data": "promenade:tall_dark_amaranth_forest",
+        "weight": 2
       }
     ],
-    "biomeSize": 2
-  },
-  "skyLayerStartY": 180,
-  "useBYGEndBiomeSourceInNewWorlds": true,
-  "warnBYGEndBiomeSourceNotUsedInNewWorlds": true
+    "biomeSize": 3
+  }
 }

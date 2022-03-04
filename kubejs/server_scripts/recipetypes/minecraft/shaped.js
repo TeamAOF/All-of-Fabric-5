@@ -21,12 +21,6 @@ onEvent('recipes', (event) => {
     "#minecraft:planks"
   );
 
-    // Sticks
-  event.shaped("16x minecraft:stick", [
-    ["#minecraft:logs"],
-    ["#minecraft:logs"],
-  ]);
-
     // Flint
     event.shaped("minecraft:flint", [
       ["minecraft:gravel", "minecraft:gravel", null],

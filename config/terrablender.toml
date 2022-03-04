@@ -4,7 +4,7 @@
 	#Whether to replace the default built-in world types with our own.
 	replace_default_worldtypes = true
 	#Whether to replace the default Nether with our own.
-	replace_default_nether = true
+	replace_default_nether = false
 
 #Generation settings
 [generation_settings]
@@ -30,7 +30,7 @@
 	#Range: 0-2147483647
 	datapack_overworld_region_weight = 15
 	#Force the biome parameters to reset when loading worlds.
-	force_reset_biome_parameters = false
+	force_reset_biome_parameters = true
 	#The weighting of vanilla biome regions in the overworld.
 	#Range: 0-2147483647
 	vanilla_overworld_region_weight = 10

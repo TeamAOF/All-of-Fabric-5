@@ -1,4 +1,5 @@
 {
+  "overworld_enabled": true,
   "providers": [
     {
       "plateau_biomes": [
@@ -196,7 +197,7 @@
           "byg:araucaria_savanna",
           "minecraft:the_void",
           "byg:amaranth_fields",
-          "minecraft:the_void"
+          "byg:crag_gardens"
         ],
         [
           "minecraft:eroded_badlands",

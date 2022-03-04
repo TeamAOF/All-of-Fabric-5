@@ -60,7 +60,6 @@
 		{ item: "indrev:circuit_mk1" }
 		{ item: "indrev:circuit_mk2" }
 		{ item: "indrev:circuit_mk3" }
-		{ item: "indrev:circuit_mk4" }
 		{ item: "ae2:calculation_processor_press" }
 		{ item: "ae2:engineering_processor_press" }
 		{ item: "ae2:logic_processor_press" }
@@ -356,10 +355,9 @@
 		{ item: "croptosis:iron_watering_can" }
 		{ item: "croptosis:gold_watering_can" }
 		{ item: "croptosis:diamond_watering_can" }
-		{ item: "croptosis:netherite_watering_can" }
-		{ item: "farmingforblockheads:green_fertilizer", count: 4 }
-		{ item: "farmingforblockheads:red_fertilizer", count: 4 }
-		{ item: "farmingforblockheads:yellow_fertilizer", count: 4 }
+		{ item: "farmingforblockheads:green_fertilizer", count: 12 }
+		{ item: "farmingforblockheads:red_fertilizer", count: 12 }
+		{ item: "farmingforblockheads:yellow_fertilizer", count: 12 }
 		{ item: "farmingforblockheads:feeding_trough", count: 4 }
 		{ item: "farmingforblockheads:chicken_nest", count: 4 }
 		{
@@ -510,15 +508,6 @@
 		}
 		{
 			item: {
-				id: "gateofbabylon:netherite_shield"
-				Count: 1b
-				tag: {
-					Damage: 0
-				}
-			}
-		}
-		{
-			item: {
 				id: "gateofbabylon:iron_broadsword"
 				Count: 1b
 				tag: {
@@ -546,15 +535,6 @@
 		}
 		{
 			item: {
-				id: "gateofbabylon:netherite_broadsword"
-				Count: 1b
-				tag: {
-					Damage: 0
-				}
-			}
-		}
-		{
-			item: {
 				id: "gateofbabylon:iron_katana"
 				Count: 1b
 				tag: {
@@ -574,15 +554,6 @@
 		{
 			item: {
 				id: "gateofbabylon:diamond_katana"
-				Count: 1b
-				tag: {
-					Damage: 0
-				}
-			}
-		}
-		{
-			item: {
-				id: "gateofbabylon:netherite_katana"
 				Count: 1b
 				tag: {
 					Damage: 0
@@ -625,15 +596,7 @@
 		{ item: "iron-jetpacks:bronze_jetpack" }
 		{ item: "iron-jetpacks:electrum_jetpack" }
 		{ item: "iron-jetpacks:steel_jetpack" }
-		{
-			item: {
-				id: "techreborn:energy_crystal"
-				Count: 1b
-				tag: {
-					energy: 1000000L
-				}
-			}
-		}
+		{ item: "techreborn:energy_crystal" }
 		{ item: "techreborn:basic_drill" }
 		{ item: "techreborn:basic_chainsaw" }
 		{ item: "techreborn:basic_jackhammer" }
@@ -641,7 +604,6 @@
 		{ item: "techreborn:advanced_solar_panel" }
 		{ item: "techreborn:industrial_solar_panel" }
 		{ item: "techreborn:ultimate_solar_panel" }
-		{ item: "techreborn:quantum_solar_panel" }
 		{ item: "croptopia:ham_sandwich", count: 3 }
 		{ item: "croptopia:grilled_cheese", count: 3 }
 		{ item: "croptopia:lemon_chicken", count: 3 }
@@ -659,7 +621,6 @@
 		{ item: "croptopia:burrito", count: 4 }
 		{ item: "croptopia:cornish_pasty", count: 4 }
 		{ item: "croptopia:fruit_cake", count: 4 }
-		{ }
 		{ item: "cacao:caramel_dark_chocolate", count: 4 }
 		{ item: "cacao:praline_dark_chocolate", count: 4 }
 		{ item: "cacao:strawberry_cream_dark_chocolate", count: 4 }
@@ -673,7 +634,7 @@
 		{ item: "indrev:smoker_enhancer" }
 		{ item: "indrev:damage_enhancer" }
 		{ item: "indrev:energy_reader" }
-		{ item: "indrev:mining_drill_mk3" }
+		{ item: "indrev:mining_drill_mk2" }
 		{ item: "indrev:cable_mk1", count: 8, random_bonus: 8 }
 		{ item: "indrev:cable_mk2", count: 8, random_bonus: 8 }
 		{ item: "indrev:cable_mk3", count: 8, random_bonus: 8 }
@@ -746,13 +707,6 @@
 				tag: { }
 			}
 		}
-		{
-			item: {
-				id: "ae2:item_storage_cell_64k"
-				Count: 1b
-				tag: { }
-			}
-		}
 		{ item: "xps:xp_dust", count: 2, random_bonus: 3 }
 		{ item: "terrarianslimes:dirt_bomb", count: 8 }
 		{ item: "terrarianslimes:glowstick", count: 16 }
@@ -773,7 +727,6 @@
 		{ item: "modern_industrialization:gold_drill" }
 		{ item: "modern_industrialization:stainless_steel_drill" }
 		{ item: "modern_industrialization:steel_drill" }
-		{ item: "modern_industrialization:titanium_drill" }
 		{ item: "modern_industrialization:resistor", count: 3 }
 		{ item: "modern_industrialization:steel_tank" }
 		{ item: "modern_industrialization:bronze_tank" }
@@ -783,25 +736,7 @@
 		{ item: "modern_industrialization:advanced_pump", count: 2, random_bonus: 2 }
 		{ item: "modern_industrialization:advanced_pump", count: 2 }
 		{ item: "modern_industrialization:large_advanced_pump" }
-		{ item: "modern_industrialization:digital_circuit", count: 2 }
-		{
-			item: {
-				id: "additionaladditions:gilded_netherite_sword"
-				Count: 1b
-				tag: {
-					Damage: 0
-				}
-			}
-		}
-		{
-			item: {
-				id: "additionaladditions:gilded_netherite_pickaxe"
-				Count: 1b
-				tag: {
-					Damage: 0
-				}
-			}
-		}
+		{ item: "modern_industrialization:digital_circuit" }
 		{
 			item: {
 				id: "additionaladditions:gilded_netherite_axe"
@@ -863,7 +798,7 @@
 		{ item: "modern_industrialization:iron_gear", count: 4 }
 		{ item: "modern_industrialization:stainless_steel_gear", count: 4 }
 		{ item: "modern_industrialization:steel_gear", count: 4 }
-		{ item: "modern_industrialization:titanium_gear", count: 4 }
+		{ item: "modern_industrialization:titanium_gear", count: 3 }
 		{ item: "modern_industrialization:copper_rotor", count: 5 }
 		{ item: "modern_industrialization:bronze_rotor", count: 5 }
 		{ item: "modern_industrialization:stainless_steel_rotor", count: 5 }
@@ -884,8 +819,6 @@
 		{ item: "extragenerators:scalding_generator" }
 		{ item: "extragenerators:steam_generator" }
 		{ item: "extragenerators:enchanted_generator" }
-		{ item: "extragenerators:dragon_generator" }
-		{ item: "extragenerators:withered_generator" }
 		{
 			item: {
 				id: "gofish:blaze_rod"
@@ -1028,7 +961,6 @@
 		{ item: "blockus:lantern_block", count: 16 }
 		{ item: "blockus:red_beveled_glass", count: 16 }
 		{ item: "blockus:black_beveled_glass", count: 16 }
-		{ }
 		{ item: "architects_palette:algal_lamp", count: 16 }
 		{ item: "architects_palette:dripstone_lamp", count: 16 }
 		{ item: "architects_palette:wither_lamp", count: 16 }
@@ -1042,7 +974,6 @@
 				}
 			}
 		}
-		{ item: "expandedstorage:netherite_chest" }
 		{ item: "adorn:apple_crate", count: 3 }
 		{ item: "adorn:wheat_crate", count: 3 }
 		{ item: "adorn:carrot_crate", count: 3 }
@@ -1147,7 +1078,6 @@
 		{ item: "minecraft:clay", count: 3, random_bonus: 3 }
 		{ item: "modern_industrialization:basic_machine_hull", count: 2, random_bonus: 1 }
 		{ item: "modern_industrialization:advanced_machine_hull" }
-		{ item: "modern_industrialization:turbo_machine_hull" }
 		{ item: "plushies:panda_plushie" }
 		{ item: "plushies:slime_plushie" }
 		{ item: "plushies:red_fox_plushie" }
@@ -1158,5 +1088,571 @@
 		{ item: "plushies:bee_plushie" }
 		{ item: "plushies:llama_plushie" }
 		{ item: "plushies:magma_cube_plushie" }
+		{ item: "modern_industrialization:bronze_machine_casing", count: 2 }
+		{ item: "modern_industrialization:steel_machine_casing" }
+		{ item: "modern_industrialization:turbo_machine_casing" }
+		{ item: "bewitchment:garlic_bread", count: 6 }
+		{ item: "additionaladditions:depth_meter" }
+		{
+			item: {
+				id: "additionaladditions:pocket_jukebox"
+				Count: 1b
+				tag: { }
+			}
+		}
+		{
+			item: {
+				id: "additionaladditions:watering_can"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			item: {
+				id: "additionaladditions:crossbow_with_spyglass"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{ item: "additionaladditions:glow_stick", count: 8 }
+		{ item: "additionaladditions:rope", count: 16 }
+		{
+			item: {
+				id: "additionaladditions:rose_gold_helmet"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			item: {
+				id: "additionaladditions:rose_gold_chestplate"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			item: {
+				id: "additionaladditions:rose_gold_leggings"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			item: {
+				id: "additionaladditions:rose_gold_boots"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			item: {
+				id: "additionaladditions:rose_gold_sword"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			item: {
+				id: "additionaladditions:rose_gold_pickaxe"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			item: {
+				id: "additionaladditions:rose_gold_axe"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			item: {
+				id: "additionaladditions:rose_gold_shovel"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			item: {
+				id: "additionaladditions:rose_gold_hoe"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{ item: "adorn:sweet_berry_juice" }
+		{
+			item: {
+				id: "botania:brew_vial"
+				Count: 1b
+				tag: {
+					brewKey: "botania:absorption"
+				}
+			}
+		}
+		{
+			item: {
+				id: "botania:brew_vial"
+				Count: 1b
+				tag: {
+					brewKey: "botania:overload"
+				}
+			}
+		}
+		{
+			item: {
+				id: "botania:brew_vial"
+				Count: 1b
+				tag: {
+					brewKey: "botania:feather_feet"
+				}
+			}
+		}
+		{
+			item: {
+				id: "botania:brew_vial"
+				Count: 1b
+				tag: {
+					brewKey: "botania:resistance"
+				}
+			}
+		}
+		{
+			item: {
+				id: "botania:brew_vial"
+				Count: 1b
+				tag: {
+					brewKey: "botania:regen"
+				}
+			}
+		}
+		{
+			item: {
+				id: "botania:brew_vial"
+				Count: 1b
+				tag: {
+					brewKey: "botania:jump_boost"
+				}
+			}
+		}
+		{
+			item: {
+				id: "botania:brew_vial"
+				Count: 1b
+				tag: {
+					brewKey: "botania:healing"
+				}
+			}
+		}
+		{
+			item: {
+				id: "botania:brew_vial"
+				Count: 1b
+				tag: {
+					brewKey: "botania:fire_resistance"
+				}
+			}
+		}
+		{
+			item: {
+				id: "botania:brew_flask"
+				Count: 1b
+				tag: {
+					brewKey: "botania:regen_weak"
+				}
+			}
+		}
+		{
+			item: {
+				id: "botania:brew_flask"
+				Count: 1b
+				tag: {
+					brewKey: "botania:feather_feet"
+				}
+			}
+		}
+		{
+			item: {
+				id: "botania:brew_flask"
+				Count: 1b
+				tag: {
+					brewKey: "botania:regen"
+				}
+			}
+		}
+		{
+			item: {
+				id: "botania:brew_flask"
+				Count: 1b
+				tag: {
+					brewKey: "botania:jump_boost"
+				}
+			}
+		}
+		{
+			item: {
+				id: "botania:brew_flask"
+				Count: 1b
+				tag: {
+					brewKey: "botania:absorption"
+				}
+			}
+		}
+		{
+			item: {
+				id: "arcanus:mana_flask"
+				Count: 1b
+				tag: {
+					arcanus: {
+						Mana: 4
+					}
+				}
+			}
+		}
+		{
+			item: {
+				id: "botania:brew_flask"
+				Count: 1b
+				tag: {
+					brewKey: "botania:water_breathing"
+				}
+			}
+		}
+		{ item: "croptopia:ajvar_toast", count: 6 }
+		{ item: "blast:confetti_trigger_bomb", count: 16 }
+		{
+			item: {
+				id: "blast:slime_bombard"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			item: {
+				id: "blast:amethyst_bombard"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			item: {
+				id: "blast:frost_bombard"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			item: {
+				id: "blast:bombard"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{ item: "blast:pearl_trigger_bomb", count: 4 }
+		{
+			item: {
+				id: "crookedcrooks:ruby_crook"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{ item: "modern_industrialization:gold_plate", count: 16 }
+		{ item: "modern_industrialization:lead_plate", count: 16 }
+		{ item: "modern_industrialization:tin_plate", count: 16 }
+		{ item: "modern_industrialization:silver_plate", count: 16 }
+		{ item: "modern_industrialization:iron_plate", count: 16 }
+		{
+			item: {
+				id: "techreborn:treetap"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{ item: "modern_industrialization:wrench" }
+		{ item: "techreborn:wrench" }
+		{ item: "indrev:wrench" }
+		{ item: "ae2:certus_quartz_wrench" }
+		{ item: "botania:flower_bag" }
+		{ item: "botania:bauble_box" }
+		{ item: "farmersdelight:chocolate_pie_slice", count: 12 }
+		{ item: "farmersdelight:horse_feed", count: 6 }
+		{ item: "farmersdelight:pumpkin_slice", count: 16 }
+		{
+			item: {
+				id: "farmersdelight:iron_knife"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			item: {
+				id: "farmersdelight:golden_knife"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			item: {
+				id: "farmersdelight:diamond_knife"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{ item: "farmersdelight:grilled_salmon", count: 6 }
+		{ item: "farmersdelight:vegetable_noodles", count: 5 }
+		{ item: "farmersdelight:cooked_cod_slice", count: 8 }
+		{ item: "farmersdelight:cooking_pot" }
+		{ item: "farmersdelight:stove" }
+		{ item: "farmersdelight:basket" }
+		{ item: "farmersdelight:rich_soil", count: 16 }
+		{
+			item: {
+				id: "biomemakeover:cladded_helmet"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			item: {
+				id: "biomemakeover:cladded_chestplate"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			item: {
+				id: "biomemakeover:cladded_leggings"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			item: {
+				id: "biomemakeover:cladded_boots"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{ item: "croptopia:beer", count: 8 }
+		{ item: "croptopia:wine", count: 8 }
+		{ item: "croptopia:quesadilla", count: 8 }
+		{ item: "croptopia:french_fries", count: 9 }
+		{ item: "croptopia:saucy_chips", count: 9 }
+		{ item: "croptopia:yoghurt", count: 12 }
+		{ item: "croptopia:banana_nut_bread", count: 9 }
+		{ item: "croptopia:tofuburger", count: 12 }
+		{ item: "croptopia:banana_cream_pie", count: 6 }
+		{ item: "croptopia:enchilada", count: 8 }
+		{ item: "croptopia:eggplant_parmesan", count: 4 }
+		{ item: "croptopia:rhubarb_crisp", count: 8 }
+		{ item: "croptopia:mead", count: 9 }
+		{ item: "croptopia:broccoli", count: 16 }
+		{ item: "croptopia:grape", count: 16 }
+		{ item: "croptopia:elderberry", count: 16 }
+		{ item: "croptopia:kiwi", count: 16 }
+		{ item: "croptopia:leek", count: 16 }
+		{ item: "croptopia:saguaro", count: 16 }
+		{ item: "croptopia:pineapple", count: 16 }
+		{ item: "croptopia:rhubarb", count: 16 }
+		{ item: "croptopia:rutabaga", count: 16 }
+		{ item: "croptopia:squash", count: 16 }
+		{ item: "croptopia:strawberry", count: 16 }
+		{ item: "croptopia:sweetpotato", count: 16 }
+		{ item: "croptopia:turnip", count: 16 }
+		{ item: "techreborn:industrial_storage_unit" }
+		{ item: "techreborn:advanced_storage_unit" }
+		{ item: "techreborn:basic_storage_unit" }
+		{ item: "techreborn:advanced_tank_unit" }
+		{ item: "techreborn:industrial_tank_unit" }
+		{ item: "dml-refabricated:soot_redstone", count: 4, random_bonus: 8 }
+		{ item: "blockus:marble", count: 64 }
+		{ item: "blockus:lava_bricks", count: 32 }
+		{ item: "blockus:crimson_warty_blackstone_bricks", count: 32 }
+		{ item: "blockus:blaze_bricks", count: 32 }
+		{ item: "indrev:module_protection" }
+		{ item: "indrev:module_auto_feeder" }
+		{ item: "indrev:module_feather_falling" }
+		{ item: "indrev:module_breathing" }
+		{ item: "indrev:module_efficiency" }
+		{
+			item: {
+				id: "indrev:servo_retriever"
+				Count: 1b
+				tag: { }
+			}
+			count: 2
+			random_bonus: 6
+		}
+		{ item: "indrev:charge_pad_mk4" }
+		{ item: "indrev:fisher_mk2" }
+		{ item: "indrev:fisher_mk3" }
+		{ item: "indrev:machine_block", count: 2 }
+		{ item: "kibe:vacuum_hopper" }
+		{ item: "kibe:placer" }
+		{ item: "kibe:breaker" }
+		{ item: "kibe:heater" }
+		{ item: "kibe:dehumidifier" }
+		{ item: "kibe:wither_proof_block", count: 4, random_bonus: 4 }
+		{ item: "kibe:fluid_hopper" }
+		{ item: "kibe:void_bucket" }
+		{ item: "kibe:torch_sling" }
+		{ item: "waystones:waystone", count: 2 }
+		{ item: "ae2:wireless_booster" }
+		{ item: "ae2:logic_processor", count: 2, random_bonus: 3 }
+		{ item: "ae2:calculation_processor", count: 2, random_bonus: 3 }
+		{ item: "ae2:engineering_processor", count: 2, random_bonus: 3 }
+		{ item: "minecraft:leather", count: 6, random_bonus: 6 }
+		{ item: "terrarianslimes:royal_gel" }
+		{ item: "expandedstorage:iron_chest" }
+		{ item: "expandedstorage:gold_chest" }
+		{ item: "expandedstorage:diamond_chest" }
+		{ item: "expandedstorage:obsidian_chest" }
+		{
+			item: {
+				id: "techreborn:bronze_chestplate"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			item: {
+				id: "techreborn:bronze_helmet"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			item: {
+				id: "techreborn:bronze_pickaxe"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{ item: "minecraft:spectral_arrow", count: 3, random_bonus: 16 }
+		{
+			item: {
+				id: "minecraft:golden_helmet"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			item: {
+				id: "minecraft:golden_chestplate"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			item: {
+				id: "minecraft:golden_leggings"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			item: {
+				id: "minecraft:golden_boots"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{ item: "minecraft:gold_ingot", count: 3, random_bonus: 8 }
+		{ item: "modern_industrialization:silver_ingot", count: 3, random_bonus: 8 }
+		{ item: "minecraft:oak_boat" }
+		{ item: "minecraft:cake" }
+		{ item: "croptopia:tres_leche_cake", count: 8 }
+		{ item: "minecraft:stone", count: 16 }
+		{ item: "minecraft:iron_ore", count: 3, random_bonus: 5 }
+		{ item: "betteranimalsplus:crab_bucket" }
+		{ item: "croptopia:stuffed_poblanos", count: 6 }
+		{ item: "croptopia:squash", count: 8 }
+		{ item: "croptopia:avocado", count: 6 }
+		{ item: "croptopia:pear", count: 8 }
+		{ item: "croptopia:apricot", count: 8 }
+		{ item: "croptopia:mango", count: 8 }
+		{ item: "croptopia:limeade", count: 8 }
+		{ item: "croptopia:strawberry_jam", count: 8 }
+		{ item: "croptopia:pumpkin_spice_latte", count: 7 }
+		{ item: "croptopia:strawberry_smoothie", count: 8 }
+		{ item: "croptopia:fruit_smoothie", count: 8 }
+		{ item: "croptopia:grape_jam", count: 8 }
+		{ item: "croptopia:coffee", count: 8 }
+		{ item: "croptopia:corn", count: 16 }
+		{ item: "croptopia:elderberry", count: 8 }
+		{ item: "croptopia:walnut", count: 16 }
+		{ item: "croptopia:leek_soup", count: 8 }
+		{ item: "farmersdelight:grilled_salmon", count: 8 }
+		{ item: "farmersdelight:pasta_with_mutton_chop", count: 16 }
+		{ item: "farmersdelight:steak_and_potatoes", count: 12 }
+		{ item: "farmersdelight:baked_cod_stew", count: 8 }
+		{ item: "farmersdelight:dog_food", count: 8 }
+		{ item: "farmersdelight:shepherds_pie", count: 12 }
+		{ item: "farmersdelight:honey_glazed_ham", count: 12 }
+		{ item: "farmersdelight:roast_chicken", count: 12 }
+		{ item: "farmersdelight:ratatouille", count: 8 }
+		{ item: "farmersdelight:roasted_mutton_chops", count: 8 }
+		{ item: "farmersdelight:fish_stew", count: 8 }
 	]
 }
