@@ -76,6 +76,7 @@ onEvent('recipes', (event) => {
     'extragenerators:teleport_generator',
     'extragenerators:heavenly_generator',
     'extragenerators:infernal_generator',
+    'campanion:mre',
     ];
 
     id.forEach((id) => {
