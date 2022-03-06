@@ -45,7 +45,7 @@
 
     {
       "item": "minecraft:glowstone",
-      "amount": 12,
+      "amount": 6,
       "probability": 0.05
     },
     {
@@ -72,6 +72,11 @@
       "item": "techreborn:cinnabar_ore",
       "amount": 3,
       "probability": 0.04
+    },
+    {
+      "item": "byg:pervaded_netherrack",
+      "amount": 3,
+      "probability": 0.03
     }
   ]
 }
