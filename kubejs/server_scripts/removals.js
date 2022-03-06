@@ -21,6 +21,8 @@ onEvent('recipes', (event) => {
     'techreborn:smelting/platinum_ingot_from_c_sheldonite_ores',
     'techreborn:blasting/platinum_ingot_from_c_sheldonite_ores',
     'techreborn:smelting/platinum_ingot_from_c_sheldonite_ores_exported_mi_furnace',
+    'modern_industrialization:compat/indrev/quarry_nikolite',
+    'modern_industrialization:compat/ae2/quarry_ae2',
 
     ];
 

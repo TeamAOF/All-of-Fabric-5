@@ -67,6 +67,16 @@
       "item": "techreborn:galena_ore",
       "amount": 3,
       "probability": 0.03
+    },
+    {
+      "item": "ae2:quartz_ore",
+      "amount": 6,
+      "probability": 0.02
+    },
+    {
+      "item": "indrev:nikolite_ore",
+      "amount": 4,
+      "probability": 0.03
     }
   ]
 }
