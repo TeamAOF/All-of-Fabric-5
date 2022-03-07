@@ -14,9 +14,14 @@ onEvent('recipes', (event) => {
     event.replaceOutput({}, '#c:steel_leggings', 'techreborn:steel_leggings');
     event.replaceOutput({}, '#c:steel_boots', 'techreborn:steel_boots');
 
-    event.replaceOutput({}, '#c:silver_helmets', 'techreborn:silver_helmet');
-    event.replaceOutput({}, '#c:silver_chestplates', 'techreborn:silver_chestplate');
-    event.replaceOutput({}, '#c:silver_leggings', 'techreborn:silver_leggings');
-    event.replaceOutput({}, '#c:silver_boots', 'techreborn:silver_boots');
+    event.replaceOutput({}, 'indrev:silver_helmet', 'techreborn:silver_helmet');
+    event.replaceOutput({}, 'indrev:silver_chestplate', 'techreborn:silver_chestplate');
+    event.replaceOutput({}, 'indrev:silver_legging', 'techreborn:silver_leggings');
+    event.replaceOutput({}, 'indrev:silver_boots', 'techreborn:silver_boots');
+
+    event.replaceOutput({}, 'indrev:bronze_helmet', 'techreborn:bronze_helmet');
+    event.replaceOutput({}, 'indrev:bronze_chestplate', 'techreborn:bronze_chestplate');
+    event.replaceOutput({}, 'indrev:bronze_legging', 'techreborn:bronze_leggings');
+    event.replaceOutput({}, 'indrev:bronze_boots', 'techreborn:bronze_boots');
 
 });
