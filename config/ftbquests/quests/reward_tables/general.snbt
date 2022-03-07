@@ -592,10 +592,6 @@
 				}
 			}
 		}
-		{ item: "techreborn:lithium_ion_batpack" }
-		{ item: "iron-jetpacks:bronze_jetpack" }
-		{ item: "iron-jetpacks:electrum_jetpack" }
-		{ item: "iron-jetpacks:steel_jetpack" }
 		{ item: "techreborn:energy_crystal" }
 		{ item: "techreborn:basic_drill" }
 		{ item: "techreborn:basic_chainsaw" }
@@ -603,7 +599,6 @@
 		{ item: "techreborn:basic_solar_panel" }
 		{ item: "techreborn:advanced_solar_panel" }
 		{ item: "techreborn:industrial_solar_panel" }
-		{ item: "techreborn:ultimate_solar_panel" }
 		{ item: "croptopia:ham_sandwich", count: 3 }
 		{ item: "croptopia:grilled_cheese", count: 3 }
 		{ item: "croptopia:lemon_chicken", count: 3 }
@@ -737,42 +732,6 @@
 		{ item: "modern_industrialization:advanced_pump", count: 2 }
 		{ item: "modern_industrialization:large_advanced_pump" }
 		{ item: "modern_industrialization:digital_circuit" }
-		{
-			item: {
-				id: "additionaladditions:gilded_netherite_axe"
-				Count: 1b
-				tag: {
-					Damage: 0
-				}
-			}
-		}
-		{
-			item: {
-				id: "additionaladditions:gilded_netherite_shovel"
-				Count: 1b
-				tag: {
-					Damage: 0
-				}
-			}
-		}
-		{
-			item: {
-				id: "additionaladditions:gilded_netherite_hoe"
-				Count: 1b
-				tag: {
-					Damage: 0
-				}
-			}
-		}
-		{
-			item: {
-				id: "crookedcrooks:gilded_netherite_crook"
-				Count: 1b
-				tag: {
-					Damage: 0
-				}
-			}
-		}
 		{
 			item: {
 				id: "crookedcrooks:diamond_crook"
@@ -1654,5 +1613,6 @@
 		{ item: "farmersdelight:ratatouille", count: 8 }
 		{ item: "farmersdelight:roasted_mutton_chops", count: 8 }
 		{ item: "farmersdelight:fish_stew", count: 8 }
+		{ item: "minecraft:netherite_scrap", count: 2 }
 	]
 }
