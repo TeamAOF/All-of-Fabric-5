@@ -418,3 +418,5 @@ patched_shaders/
 local/
 
 ESM/
+
+imgui.ini

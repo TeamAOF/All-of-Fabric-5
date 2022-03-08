@@ -1,3 +1,32 @@
+### All of Fabric 5 | v1.0.2
+
+_Fabric Loader 0.13.3_ | _[Mod Updates](https://github.com/TeamAOF/All-of-Fabric-5/blob/main/changelogs/changelog_mods_1.0.2.md)_ | _[Modlist](https://github.com/TeamAOF/All-of-Fabric-5/blob/main/changelogs/modlist_1.0.2.md)_
+
+## Changes
+
+* Removed duplicate quests from Industrial Revolution chapter.
+* Dark enchanter has been rebalanced.
+* You'll now spawn in with a quest book on first join.
+* Continuity (Connected Textures) will now be used by default.
+
+## Fixes
+
+* Error/crash with "Tried to read NBT tag that was too big" has been solved.
+* Incorrect inputs for Large Steam Boiler quest.
+* Glitch armor breaking on 1 hit.
+* Bug where level 1 + 1 (or any) = max enchantment (example: Prot 1 + Prot 1 = prot 4).
+* Missing lang corrections.
+
+## Recipe Changes
+
+* Incorrect outputs of raw silver from block has been fixed.
+* Incorrect outputs of silver, steel & bronze armor has been fixed.
+* Moved certus quartz ore and nikolite ore to steel drill.
+* Added Pervaded Netherrack to quarry (Gold drill).
+* Added Pervaded Netherrack to macerator.
+* Removed MRE.
+---
+
 ### All of Fabric 5 | v1.0.1
 
 _Fabric Loader 0.13.3_ | _[Mod Updates](https://github.com/TeamAOF/All-of-Fabric-5/blob/main/changelogs/changelog_mods_1.0.1.md)_ | _[Modlist](https://github.com/TeamAOF/All-of-Fabric-5/blob/main/changelogs/modlist_1.0.1.md)_
