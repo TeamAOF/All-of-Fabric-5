@@ -240,6 +240,7 @@ onEvent('recipes', event => {
     autoremove("indrev:{}_ingot", "indrev:smelting/{}_ingot_from_smelting");
 
     autoremove("indrev:{}_ingot", "indrev:blasting/{}_ingot_from_raw_ores");
+    autoremove("indrev:{}_ingot", "indrev:blasting/{}_ingot_from_raw_ore");
     autoremove("indrev:{}_ingot", "indrev:blasting/{}_ingot");
     autoremove("indrev:{}_ingot", "indrev:blasting/{}_ingot_from_ores");
     autoremove("indrev:{}_ingot", "indrev:blasting/{}_ingot_from_ore");
