@@ -196,40 +196,6 @@
 				}
 			}
 		}
-		{ item: "artifacts:whoopee_cushion" }
-		{ item: "artifacts:plastic_drinking_hat" }
-		{ item: "artifacts:novelty_drinking_hat" }
-		{ item: "artifacts:snorkel" }
-		{ item: "artifacts:night_vision_goggles" }
-		{ item: "artifacts:villager_hat" }
-		{ item: "artifacts:superstitious_hat" }
-		{ item: "artifacts:lucky_scarf" }
-		{ item: "artifacts:scarf_of_invisibility" }
-		{ item: "artifacts:cross_necklace" }
-		{ item: "artifacts:panic_necklace" }
-		{ item: "artifacts:shock_pendant" }
-		{ item: "artifacts:flame_pendant" }
-		{ item: "artifacts:thorn_pendant" }
-		{ item: "artifacts:charm_of_sinking" }
-		{ item: "artifacts:obsidian_skull" }
-		{ item: "artifacts:antidote_vessel" }
-		{ item: "artifacts:universal_attractor" }
-		{ item: "artifacts:crystal_heart" }
-		{ item: "artifacts:cloud_in_a_bottle" }
-		{ item: "artifacts:helium_flamingo" }
-		{ item: "artifacts:digging_claws" }
-		{ item: "artifacts:feral_claws" }
-		{ item: "artifacts:power_glove" }
-		{ item: "artifacts:fire_gauntlet" }
-		{ item: "artifacts:pocket_piston" }
-		{ item: "artifacts:vampiric_glove" }
-		{ item: "artifacts:golden_hook" }
-		{ item: "artifacts:aqua_dashers" }
-		{ item: "artifacts:bunny_hoppers" }
-		{ item: "artifacts:kitty_slippers" }
-		{ item: "artifacts:running_shoes" }
-		{ item: "artifacts:steadfast_spikes" }
-		{ item: "artifacts:flippers" }
 		{
 			item: {
 				id: "botania:manasteel_helmet"
@@ -1614,5 +1580,123 @@
 		{ item: "farmersdelight:roasted_mutton_chops", count: 8 }
 		{ item: "farmersdelight:fish_stew", count: 8 }
 		{ item: "minecraft:netherite_scrap", count: 2 }
+		{ item: "tradingpost:trading_post" }
+		{
+			item: {
+				id: "gateofbabylon:stone_bow"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			item: {
+				id: "gateofbabylon:iron_bow"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			item: {
+				id: "gateofbabylon:golden_bow"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			item: {
+				id: "gateofbabylon:wooden_boomerang"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			item: {
+				id: "gateofbabylon:stone_boomerang"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			item: {
+				id: "gateofbabylon:iron_boomerang"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			item: {
+				id: "gateofbabylon:golden_boomerang"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			item: {
+				id: "gateofbabylon:diamond_boomerang"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			item: {
+				id: "gateofbabylon:wooden_yoyo"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			item: {
+				id: "gateofbabylon:stone_yoyo"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			item: {
+				id: "gateofbabylon:iron_yoyo"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			item: {
+				id: "gateofbabylon:golden_yoyo"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			item: {
+				id: "gateofbabylon:diamond_yoyo"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+		}
 	]
 }
