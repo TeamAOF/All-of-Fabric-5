@@ -100,4 +100,39 @@ onEvent('recipes', (event) => {
           plates.forEach((plates) => {
               event.remove({ id: 'indrev:shapeless/' + plates + '_plate_from_hammer' });
           });
+
+          const double_ingots = [
+            'aluminum',
+            'annealed_copper',
+            'battery_alloy',
+            'bronze',
+            'cadmium',
+            'chromium',
+            'copper',
+            'bronze',
+            'cupronickel',
+            'electrum',
+            'gold',
+            'invar',
+            'iron',
+            'kanthal',
+            'lead',
+            'nickel',
+            'platinum',
+            'silicon',
+            'silver',
+            'stainless_steel',
+            'steel',
+            'superconductor',
+            'tin',
+            'titanium',
+            'tungsten',
+            'beryllium',
+          
+            ];
+          
+              double_ingots.forEach((double_ingots) => {
+                  event.remove({ output: 'modern_industrialization:' + double_ingots + '_double_ingot' });
+                  event.remove({ input: 'modern_industrialization:' + double_ingots + '_double_ingot' });
+              });
 });

@@ -18,6 +18,8 @@ onEvent('recipes', (event) => {
 
     event.replaceInput({id: "staffofbuilding:wooden_builder_staff"}, 'minecraft:oak_planks', '#minecraft:planks');
 
+    event.replaceInput({id: "minecraft:oak_sign"}, 'minecraft:oak_planks', '#minecraft:planks');
+
     // Chromium
     event.replaceInput({}, 'techreborn:chrome_ingot', 'modern_industrialization:chromium_ingot');
     event.replaceInput({}, 'techreborn:chrome_nugget', 'modern_industrialization:chromium_nugget');
