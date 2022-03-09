@@ -1,506 +1,384 @@
 {
 	id: "55534E1BE135C3C1"
-	group: "72F1D9ADF99885C0"
-	order_index: 0
+	group: ""
+	order_index: 1
 	filename: "infinity"
 	title: "Challenges"
 	icon: "croptopia:starfruit"
-	always_invisible: true
 	default_quest_shape: ""
 	default_hide_dependency_lines: false
 	quests: [
 		{
-			title: "Can you do them all?"
+			title: "Are you worthy?"
 			x: 0.5d
 			y: 0.5d
-			dependencies: [
-				"5D2CEC6704ECAA48"
-				"2437E085589A2A4B"
-				"4C85A4C758CAB7FD"
-				"7BAF8F3079CFF4B4"
-				"3AE5C1578F308613"
-				"0BA35A6626B1226F"
-				"43A72CB048A3BE6F"
-				"56F23D562BDC2433"
-			]
+			subtitle: "Kill the Ender Dragon to unlock challenges."
+			size: 1.8d
 			id: "512CAEB25CD9B4E2"
 			tasks: [{
-				id: "25A176742B2F47D9"
-				type: "checkmark"
-			}]
-		}
-		{
-			x: 0.5d
-			y: 2.5d
-			subtitle: "Killed the dragon? Cool. Do it again."
-			id: "0BA35A6626B1226F"
-			tasks: [{
-				id: "41AC1D748FE90803"
+				id: "3A9ABB487CD82821"
 				type: "kill"
 				icon: "minecraft:dragon_head"
 				entity: "minecraft:ender_dragon"
-				value: 2147483647L
-			}]
-			rewards: [{
-				id: "3A5CF01E4302F3E8"
-				type: "item"
-				item: "minecraft:rotten_flesh"
+				value: 1L
 			}]
 		}
 		{
-			x: -1.5d
-			y: 0.5d
-			subtitle: "sneak for 250000 value.. whatever that means."
-			id: "5D2CEC6704ECAA48"
-			tasks: [{
-				id: "70046D3A833513EB"
-				type: "stat"
-				title: "You sneaky one"
-				icon: "spectrum:fox_head"
-				stat: "minecraft:sneak_time"
-				value: 250000
-			}]
-			rewards: [
-				{
-					id: "2924C2098442D2B3"
-					type: "item"
-					item: {
-						id: "entitybanners:entity_banner"
-						Count: 1b
-						tag: {
-							BlockEntityTag: {
-								entitybanners_Entity: "minecraft:fox"
-								Patterns: [
-									{
-										Pattern: "tts"
-										Color: 6
-									}
-									{
-										Pattern: "bts"
-										Color: 6
-									}
-									{
-										Pattern: "bo"
-										Color: 6
-									}
-									{
-										Pattern: "cs"
-										Color: 1
-									}
-								]
-								Bannerpp_LoomPatterns: [{
-									Pattern: "minecraft:fox_banner"
-									Color: 1
-									Index: 0
-								}]
-							}
-						}
-					}
-				}
-				{
-					id: "6DA0960757F0BB94"
-					type: "item"
-					item: "floral_flair:foxnip"
-				}
-				{
-					id: "35936ADBED755BF7"
-					type: "item"
-					item: "floral_flair:frosted_foxnip"
-				}
-				{
-					id: "12E256DD5BC33752"
-					type: "item"
-					item: "plushies:red_fox_plushie"
-				}
-				{
-					id: "5EE135A372DC829D"
-					type: "item"
-					item: "plushies:white_fox_plushie"
-				}
-				{
-					id: "72DC21561D32DF46"
-					type: "item"
-					item: "spectrum:fox_head"
-				}
-				{
-					id: "67E45C7C4B06EE82"
-					type: "item"
-					item: "spectrum:fox_arctic_head"
-				}
-				{
-					id: "628C8982273AE1DF"
-					type: "xp_levels"
-					xp_levels: 5
-				}
-				{
-					id: "48DBFE2B82DECA52"
-					type: "random"
-				}
-			]
-		}
-		{
-			title: "For whom the bell tolls"
-			x: 2.5d
-			y: 0.5d
-			subtitle: "Ring a bell 1000 times.. get a prize. or your buddy might kill you.. whatever comes first"
-			id: "3AE5C1578F308613"
-			tasks: [{
-				id: "3B9877872EECD3ED"
-				type: "stat"
-				title: "Bell Ringer of death"
-				icon: "minecraft:bell"
-				stat: "minecraft:bell_ring"
-				value: 1000
-			}]
-			rewards: [{
-				id: "6AF2E8D8CDD6A2B6"
-				type: "random"
-			}]
-		}
-		{
-			x: 0.5d
-			y: -1.5d
-			subtitle: "Talk to Villagers 2500 times.. you Gossip Boss, you."
-			id: "4C85A4C758CAB7FD"
-			tasks: [{
-				id: "2E91AE2A136CD5B6"
-				type: "stat"
-				title: "Goss Boss"
-				icon: "spectrum:villager_head"
-				stat: "minecraft:talked_to_villager"
-				value: 2500
-			}]
-			rewards: [
-				{
-					id: "54682A02A30A594B"
-					type: "item"
-					item: "spectrum:villager_head"
-				}
-				{
-					id: "3DE90408DFED3E47"
-					type: "item"
-					item: "minecraft:lectern"
-				}
-				{
-					id: "0F3C1A97D475F253"
-					type: "item"
-					item: "minecraft:book"
-					count: 6
-				}
-				{
-					id: "78937EAEFA7B5A44"
-					type: "item"
-					item: "minecraft:emerald_block"
-				}
-			]
-		}
-		{
-			x: 2.0d
+			title: "Hell's Kitchen"
+			icon: "farmersdelight:cooking_pot"
+			x: 3.0d
 			y: -1.0d
-			subtitle: "Swim a total of 250000"
-			id: "7BAF8F3079CFF4B4"
-			tasks: [{
-				id: "5FA3679B25404E4C"
-				type: "stat"
-				title: "Swim Champ"
-				icon: "croptopia:water_bottle"
-				stat: "minecraft:swim_one_cm"
-				value: 250000
-			}]
-			rewards: [
+			subtitle: "So when people ask me, ‘What do you think of Michelin?’ I don’t cook for guides. I cook for customers."
+			description: [
+				"To submit items, left click the food type of choice and hand in."
+				""
+				"Recommended to make Water Bottles from Croptopia for the recipes requiring it."
+				""
+				"Water Bottles can be automated with a simple Drain from Tech Reborn and a Tank Unit below it."
+				""
+				"Put buckets in said Tank Unit and have them output into either a buffer or directly into ME, craft these into Water Bottles from Croptopia."
+			]
+			dependencies: ["512CAEB25CD9B4E2"]
+			id: "18035D9544EC01DA"
+			tasks: [
 				{
-					id: "355238656E1149F9"
+					id: "6E802DA4BECBA8FD"
 					type: "item"
-					item: "minecraft:water_bucket"
+					item: "farmersdelight:steak_and_potatoes"
+					count: 2500L
+					consume_items: true
 				}
 				{
-					id: "0CD3DE016EBC60DC"
+					id: "220729A89B4CACBC"
 					type: "item"
-					item: {
-						id: "minecraft:potion"
-						Count: 1b
-						tag: {
-							Potion: "minecraft:water"
-						}
-					}
+					item: "farmersdelight:pasta_with_mutton_chop"
+					count: 2500L
+					consume_items: true
 				}
 				{
-					id: "33B89BA133B8A44E"
+					id: "73CDF0DFBCE93D91"
 					type: "item"
-					item: "botania:rune_water"
+					item: "farmersdelight:grilled_salmon"
+					count: 2500L
+					consume_items: true
 				}
 				{
-					id: "479E3DA848A337CB"
+					id: "776FA22E4BF48CA4"
 					type: "item"
-					item: {
-						id: "additionaladditions:watering_can"
+					item: "farmersdelight:stuffed_potato"
+					count: 2500L
+					consume_items: true
+				}
+				{
+					id: "116F0EAC536F98E0"
+					type: "item"
+					item: "farmersdelight:barbecue_stick"
+					count: 2500L
+					consume_items: true
+				}
+				{
+					id: "2ECF53D6587A8AA1"
+					type: "item"
+					item: "farmersdelight:roast_chicken_block"
+					count: 2500L
+					consume_items: true
+				}
+				{
+					id: "36AD733AEFC78B15"
+					type: "item"
+					item: "croptopia:fish_and_chips"
+					count: 2500L
+					consume_items: true
+				}
+				{
+					id: "71C16F3D34ABA15E"
+					type: "item"
+					item: "farmersdelight:dumplings"
+					count: 2500L
+					consume_items: true
+				}
+				{
+					id: "2E2A693C93C5A838"
+					type: "item"
+					item: "croptopia:tres_leche_cake"
+					count: 2500L
+					consume_items: true
+				}
+				{
+					id: "0881465B825D57BD"
+					type: "item"
+					item: "croptopia:trifle"
+					count: 2500L
+					consume_items: true
+				}
+				{
+					id: "12D4B1763C101794"
+					type: "item"
+					item: "croptopia:sticky_toffee_pudding"
+					count: 2500L
+					consume_items: true
+				}
+				{
+					id: "3B3A38AFCEE30AD1"
+					type: "item"
+					item: "croptopia:pumpkin_spice_latte"
+					count: 2500L
+					consume_items: true
+				}
+			]
+		}
+		{
+			title: "Boss Rush"
+			icon: {
+				id: "dragonloot:dragon_helmet"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+			x: -2.0d
+			y: 2.0d
+			subtitle: "Slay 'em All"
+			description: [
+				"King Slime:"
+				"Craft a Slime Crown and spawn on use."
+				""
+				"Blackstone Golem:"
+				"Can only be summoned with a golem ritual while being in the nether."
+				""
+				"The Eye:"
+				"Can only be summoned at an Eye Shrine."
+				""
+				"Night Lich:"
+				"Found in rare towers in cold biomes. Locate the towers by following soul stars."
+				""
+				"Obsidilith:"
+				"Appears in rare structures in the end islands."
+				""
+				"Nether Gauntlet:"
+				"Appears in rare structures in the nether."
+				""
+				"Void Blossom:"
+				"Appears in rare caves at the bottom of the world. Void lilies will point the way."
+				""
+				"Guardian of Gaia:"
+				"To summon the boss, shift right-click a Terrasteel Ingot on an active Beacon with 4 Gaia Pylons nearby. Using a Gaia Spirit Ingot will summon a harder version of the boss instead."
+			]
+			dependencies: ["512CAEB25CD9B4E2"]
+			id: "1F0EE1298663FE88"
+			tasks: [
+				{
+					id: "0DB7AADBA2D37802"
+					type: "kill"
+					icon: "terrarianslimes:slime_crown"
+					entity: "terrarianslimes:king_slime"
+					value: 1L
+				}
+				{
+					id: "6E33DDB7EF109050"
+					type: "kill"
+					icon: "adventurez:stone_golem_heart"
+					entity: "adventurez:stone_golem"
+					value: 1L
+				}
+				{
+					id: "4DA5F492F8AD4449"
+					type: "kill"
+					icon: {
+						id: "adventurez:prime_eye"
 						Count: 1b
 						tag: {
 							Damage: 0
 						}
 					}
+					entity: "adventurez:the_eye"
+					value: 1L
 				}
 				{
-					id: "6D318EA6F6E9F6AC"
-					type: "random"
+					id: "1A43CE833FBD4D06"
+					type: "kill"
+					icon: "bosses_of_mass_destruction:ancient_anima"
+					entity: "bosses_of_mass_destruction:lich"
+					value: 1L
+				}
+				{
+					id: "0FA9460CCC66FF44"
+					type: "kill"
+					icon: "bosses_of_mass_destruction:obsidian_heart"
+					entity: "bosses_of_mass_destruction:obsidilith"
+					value: 1L
+				}
+				{
+					id: "799C560B71E547C7"
+					type: "kill"
+					icon: "bosses_of_mass_destruction:blazing_eye"
+					entity: "bosses_of_mass_destruction:gauntlet"
+					value: 1L
+				}
+				{
+					id: "31C60566337BA9C2"
+					type: "kill"
+					icon: "bosses_of_mass_destruction:void_thorn"
+					entity: "bosses_of_mass_destruction:void_blossom"
+					value: 1L
+				}
+				{
+					id: "1C502D06D2093A4F"
+					type: "kill"
+					icon: "botania:gaia_head"
+					entity: "botania:doppleganger"
+					value: 1L
 				}
 			]
 		}
 		{
-			title: "Hunter Extreme"
-			x: -1.0d
-			y: -1.0d
-			subtitle: "Show us your hunting skills.. get some loot in the end."
-			id: "2437E085589A2A4B"
-			tasks: [
-				{
-					id: "7276E63BE40B7E49"
-					type: "kill"
-					icon: "betteranimalsplus:reindeerhead_1"
-					entity: "betteranimalsplus:reindeer"
-					value: 100L
-				}
-				{
-					id: "67856F6F50D4A8FE"
-					type: "kill"
-					icon: "betteranimalsplus:deerhead_2"
-					entity: "adventurez:deer"
-					value: 100L
-				}
-				{
-					id: "661B618D9FDE40F0"
-					type: "kill"
-					icon: "spectrum:fox_head"
-					entity: "minecraft:fox"
-					value: 100L
-				}
-				{
-					id: "40885290D622FD07"
-					type: "kill"
-					icon: "minecraft:rabbit_hide"
-					entity: "minecraft:rabbit"
-					value: 100L
-				}
+			icon: "farmingforblockheads:feeding_trough"
+			x: 3.5d
+			y: 0.5d
+			subtitle: "Breed all the animals!"
+			description: [
+				"> Bee"
+				"> Cat"
+				"> Chicken"
+				"> Cow"
+				"> Donkey"
+				"> Fox"
+				"> Hoglin"
+				"> Horse"
+				"> Llama"
+				"> Mooshroom"
+				"> Mule"
+				"> Ocelot"
+				"> Panda"
+				"> Pig"
+				"> Rabbit"
+				"> Sheep"
+				"> Strider"
+				"> Turtle"
+				"> Wolf"
 			]
-			rewards: [
-				{
-					id: "26B691A4FD321DFA"
-					type: "random"
-				}
-				{
-					id: "3FD2A280DDE247B8"
-					type: "random"
-				}
-				{
-					id: "334FA874ADFEAA07"
-					type: "random"
-				}
-				{
-					id: "1F2578621C88BB06"
-					type: "random"
-				}
-				{
-					id: "54F37DDB30D488B6"
-					type: "random"
-				}
-			]
-		}
-		{
-			title: "Sacrifice a block of netherite"
-			x: -1.0d
-			y: 2.0d
-			subtitle: "sacrifice a block of netherite to gain the hardest challenges"
-			id: "56F23D562BDC2433"
+			dependencies: ["512CAEB25CD9B4E2"]
+			id: "6F99E812CEAA9DCA"
 			tasks: [{
-				id: "6BD4523AE379C2DC"
-				type: "item"
-				item: "minecraft:netherite_block"
-				consume_items: true
+				id: "4D25DE5A135D9B75"
+				type: "advancement"
+				icon: "spectrum:pig_head"
+				advancement: "minecraft:husbandry/bred_all_animals"
+				criterion: ""
 			}]
 		}
 		{
-			title: "No pain No gain"
-			x: -2.5d
-			y: 2.0d
-			subtitle: "Make all this tech. Watch it dissapear."
-			description: [""]
-			dependencies: ["56F23D562BDC2433"]
-			id: "6D14E838F966FFA1"
-			tasks: [
-				{
-					id: "378A0FD2C966310E"
-					type: "item"
-					item: "modern_industrialization:bronze_compressor"
-					count: 64L
-					consume_items: true
-				}
-				{
-					id: "366D9D5D19221531"
-					type: "item"
-					item: "indrev:compressor_mk4"
-					count: 64L
-					consume_items: true
-				}
-				{
-					id: "4EED114DC94372BB"
-					type: "item"
-					item: "modern_industrialization:electric_compressor"
-					count: 64L
-					consume_items: true
-				}
-				{
-					id: "60D93B6D04D7E23C"
-					type: "item"
-					item: "techreborn:vacuum_freezer"
-					count: 64L
-					consume_items: true
-				}
-				{
-					id: "46F49CC0C93EEC0B"
-					type: "item"
-					item: "kibe:basalt_generator_mk3"
-					count: 64L
-					consume_items: true
-				}
-				{
-					id: "51FE17D7388DDFF2"
-					type: "item"
-					item: {
-						id: "techreborn:industrial_drill"
-						Count: 1b
-						tag: {
-							energy: 1000000L
-						}
-					}
-					consume_items: true
-				}
-				{
-					id: "4E52DB9F9F3620FA"
-					type: "item"
-					item: {
-						id: "techreborn:industrial_drill"
-						Count: 1b
-						tag: {
-							energy: 1000000L
-						}
-					}
-					consume_items: true
-				}
-				{
-					id: "150C0F04032F339C"
-					type: "item"
-					item: {
-						id: "techreborn:industrial_drill"
-						Count: 1b
-						tag: {
-							energy: 1000000L
-						}
-					}
-					consume_items: true
-				}
-				{
-					id: "31322E08DCB6F670"
-					type: "item"
-					item: "modern_industrialization:nuclear_reactor"
-					count: 64L
-					consume_items: true
-				}
-				{
-					id: "7328DB8DB9BCA391"
-					type: "item"
-					item: "modern_industrialization:singularity"
-					count: 64L
-					consume_items: true
-				}
-			]
-			rewards: [{
-				id: "34EECE07845CD250"
-				type: "xp_levels"
-				xp_levels: 500
-			}]
-		}
-		{
-			title: "Kill the birds and the bees"
+			title: "Ring of Angels"
 			x: -2.0d
-			y: 3.0d
-			dependencies: ["56F23D562BDC2433"]
-			id: "4CD0A992D2EB06E0"
+			y: -1.0d
+			subtitle: "Creative flight at your disposal."
+			dependencies: ["512CAEB25CD9B4E2"]
+			id: "4394FBA9FF34416C"
+			tasks: [{
+				id: "64A0A716321AC14E"
+				type: "item"
+				item: {
+					id: "kibe:angel_ring"
+					Count: 1b
+					tag: { }
+				}
+			}]
+		}
+		{
+			title: "Quantum Physics"
+			icon: "modern_industrialization:quantum_circuit"
+			x: -2.5d
+			y: 0.5d
+			subtitle: "Ethereal powers!"
+			description: [
+				"Craft everything quantum and shape your own future."
+				""
+				"It'll be a long journey, can you do it?"
+				""
+				"- Quantum Sword"
+				"Uses the raw power of the Schrödinger equation to instantly vaporize any foe (or friend!) you hit with it."
+				""
+				"- Quantum Armor"
+				"Through the gravitational effect of the Heisenberg uncertainty principle, the full Quantum Armor set makes you immune to all damage and grants you creative flight. Each new piece of armour increases by 25% the likelihood of nullifying any damage taken."
+				""
+				"- Replicator"
+				"With 100 mB of UU Matter, the replicator can duplicate (almost) any item in the game!"
+			]
+			dependencies: ["512CAEB25CD9B4E2"]
+			id: "0A87F01B58718A44"
 			tasks: [
 				{
-					id: "238777F4ACFD2C9F"
-					type: "kill"
-					icon: "plushies:bee_plushie"
-					entity: "minecraft:bee"
-					value: 250L
-				}
-				{
-					id: "2F38E69F3E8E6C3E"
-					type: "kill"
-					entity: "minecraft:parrot"
-					value: 250L
-				}
-			]
-			rewards: [
-				{
-					id: "343C697348B2DB65"
+					id: "2C0CB64FEB3B5231"
 					type: "item"
-					item: "croptopia:eggplant"
-					count: 64
+					item: "modern_industrialization:quantum_helmet"
 				}
 				{
-					id: "3B1BE6302CB16B4C"
+					id: "084F5D6F0CC6EA1B"
 					type: "item"
-					item: "croptopia:peach"
-					count: 64
+					item: "modern_industrialization:quantum_chestplate"
 				}
 				{
-					id: "6B2F7402245EA4AC"
-					type: "random"
+					id: "562636C5CC110A71"
+					type: "item"
+					item: "modern_industrialization:quantum_leggings"
 				}
 				{
-					id: "1916DC32539308FB"
-					type: "random"
+					id: "57330A353CA74D1C"
+					type: "item"
+					item: "modern_industrialization:quantum_boots"
 				}
 				{
-					id: "275E03535F38E5EA"
-					type: "random"
+					id: "4A147AB84CC2EABE"
+					type: "item"
+					item: "modern_industrialization:quantum_sword"
+				}
+				{
+					id: "5C5E2952B74F3C83"
+					type: "item"
+					item: "modern_industrialization:replicator"
 				}
 			]
 		}
 		{
-			title: "Sleepy McGee"
-			x: 2.0d
+			x: 3.0d
 			y: 2.0d
-			id: "43A72CB048A3BE6F"
+			subtitle: "Become the hunter, not the hunted,"
+			description: [
+				"Collect all the animal heads from Better Animals Plus. Keep in mind that there are different variants of the same animal."
+				""
+				"25 heads to be exact."
+				""
+				"Why not put them up for show? Place them on your wall!"
+			]
+			dependencies: ["512CAEB25CD9B4E2"]
+			id: "063E361961708544"
 			tasks: [{
-				id: "6D6ED3A18668BAFF"
-				type: "stat"
-				title: "Sleep 1000 times"
-				icon: "minecraft:cyan_bed"
-				stat: "minecraft:sleep_in_bed"
-				value: 1000
-			}]
-			rewards: [{
-				id: "54F97F4D593319EC"
-				type: "random"
+				id: "0DA320C054F71578"
+				type: "advancement"
+				advancement: "betteranimalsplus:animal_head_all"
+				criterion: ""
 			}]
 		}
 		{
-			x: -1.0d
-			y: 3.5d
-			dependencies: ["56F23D562BDC2433"]
-			id: "5C7462224AB6E1E4"
+			x: 0.5d
+			y: -3.0d
+			subtitle: "Complete all the challenges!"
+			hide_dependency_lines: true
+			dependencies: [
+				"4394FBA9FF34416C"
+				"0A87F01B58718A44"
+				"1F0EE1298663FE88"
+				"063E361961708544"
+				"6F99E812CEAA9DCA"
+				"18035D9544EC01DA"
+			]
+			size: 1.5d
+			id: "28E4C9B8787B595A"
 			tasks: [{
-				id: "76C6739F43AAF84F"
-				type: "kill"
-				title: "Kill the Guardian of Gaia 100 times"
-				entity: "botania:doppleganger"
-				value: 100L
-			}]
-			rewards: [{
-				id: "15BF26A0FD62DA2D"
-				type: "item"
-				item: "croptosis:creative_watering_can"
+				id: "1662F63BB2C25243"
+				type: "checkmark"
+				title: "The Completionist"
+				icon: "spectrum:stardust"
 			}]
 		}
 	]
