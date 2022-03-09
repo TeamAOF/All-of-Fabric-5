@@ -1,7 +1,7 @@
 {
 	id: "4F80AA2EB0DCC10C"
 	group: ""
-	order_index: 1
+	order_index: 2
 	filename: "adventurer"
 	title: "Adventurer"
 	icon: "artifacts:aqua_dashers"
@@ -21,8 +21,8 @@
 		}
 		{
 			title: "Professions"
-			x: 1.5d
-			y: -2.5d
+			x: 2.0d
+			y: -2.0d
 			subtitle: "Find a Guild Master in a plains village, and buy a Profession Licence."
 			description: [
 				"The Guild structure can found mainly in plains villages and more rarely in other ones."
@@ -58,7 +58,7 @@
 				}
 			}
 			x: -3.0d
-			y: -0.5d
+			y: 1.0d
 			subtitle: "Fishing should be fun."
 			description: [
 				"Go Fish adds in general Fish, which are obtainable globally in any area for each dimension, and biome-specific Fish, which are only obtainable in certain areas (See below)."
@@ -157,8 +157,8 @@
 			}]
 		}
 		{
-			x: -2.5d
-			y: -2.5d
+			x: -3.0d
+			y: -2.0d
 			subtitle: "Obtain your first bounty, rewards depend on rarity."
 			description: ["Bounty boards will mostly be found in villages around the world."]
 			dependencies: ["6EC4700B21DB617B"]
@@ -188,7 +188,7 @@
 			title: "Find a Graveyard"
 			icon: "graveyard:skull_with_rib_cage"
 			x: 2.0d
-			y: -0.5d
+			y: 1.0d
 			subtitle: "Locate a Small Graveyard structure. Be sure to have a look or two below the graves for shiny loot."
 			dependencies: ["6EC4700B21DB617B"]
 			id: "14DE762F4663D1C9"
@@ -204,68 +204,33 @@
 			}]
 		}
 		{
-			title: "Blackstone Golem"
-			x: -2.0d
-			y: 1.5d
-			subtitle: "The Blackstone Golem is the most deadliest creature in the world of Minecraft. Summoned at the Golem Altar, it will destroy the world until it killed all players."
+			title: "Artifacts"
+			x: -0.5d
+			y: 2.0d
+			subtitle: "Magical items with great power."
 			description: [
-				"The Stone Golem can only be summoned with a golem ritual while being in the nether."
-				"(See AdventureZ handbook)"
+				"The items added by this mod can be found in chests."
 				""
-				"Drops:"
-				"- 3 – 7 Blackstones"
-				"- 0 – 2 Ancient Debris"
-				"- 0 – 2 Netherite Scrap"
-				"- 0 – 1 Gilded Netherite Fragment"
-				"(Used for upgrading netherite armor to gilded netherite armor)."
-				"- 0 – 1 Stone Golem Heart"
-				"(Used to upgrade an iron golem or you can replace your heart with it to get the stoned heart effect)."
+				"All artifacts only have a few chests in which they can be found, so go out and explore!"
+				""
+				"Additionally, a new underground campsite structure has been added. Mimics occasionally spawn in these campsites instead of a chests, which are dangerous enemies that attack players that get too close. Mimics always drop a random artifact when killed."
 			]
 			dependencies: ["6EC4700B21DB617B"]
-			id: "4229B9D6304340B3"
+			id: "32910C1041DE2764"
 			tasks: [{
-				id: "58D29B40E7BF565C"
-				type: "kill"
-				icon: "adventurez:stone_golem_heart"
-				entity: "adventurez:stone_golem"
-				value: 1L
-			}]
-			rewards: [{
-				id: "3AB6310C2FA1E582"
-				type: "loot"
-				table_id: 13756307348121783L
-			}]
-		}
-		{
-			title: "The Eye"
-			x: 1.0d
-			y: 1.5d
-			subtitle: "The Eye was never seen before by any human being and will drain all energy you've got until you are a dead corpse."
-			description: [
-				"The Eye can only be summoned at an Eye Shrine."
-				"(See AdventureZ handbook)"
-				""
-				"Drops:"
-				"- 0 -1 Prime Eyes "
-			]
-			dependencies: ["6EC4700B21DB617B"]
-			id: "268C929CD3EBDA69"
-			tasks: [{
-				id: "200D80E2ACC3571D"
-				type: "kill"
-				icon: {
-					id: "adventurez:prime_eye"
+				id: "51B9513FF8AB7491"
+				type: "item"
+				item: {
+					id: "itemfilters:tag"
 					Count: 1b
 					tag: {
-						Damage: 0
+						value: "artifacts:artifacts"
 					}
 				}
-				entity: "adventurez:the_eye"
-				value: 1L
 			}]
 			rewards: [{
-				id: "66B56E16696B659F"
-				type: "loot"
+				id: "7F25E542A51AFADF"
+				type: "random"
 				table_id: 13756307348121783L
 			}]
 		}
