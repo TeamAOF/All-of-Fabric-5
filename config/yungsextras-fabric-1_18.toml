@@ -1,0 +1,32 @@
+[yungsExtras.desertDecorations]
+additionalBiomeWhitelist = "[]"
+biomeBlacklist = "[]"
+
+[yungsExtras.desertDecorations.wells]
+smallNormalWellSpawnRate = 1200
+mediumNormalWellSpawnRate = 1200
+largeNormalWellSpawnRate = 1200
+smallWishingWellSpawnRate = 1200
+mediumWishingWellSpawnRate = 1200
+largeWishingWellSpawnRate = 1200
+smallDryWellSpawnRate = 1200
+mediumDryWellSpawnRate = 1200
+largeDryWellSpawnRate = 1200
+
+[yungsExtras.desertDecorations.obelisks]
+normalObeliskSpawnRate = 700
+creeperObeliskSpawnRate = 700
+ruinedObeliskSpawnRate = 700
+blackstoneObeliskSpawnRate = 3000
+
+[yungsExtras.desertDecorations.misc]
+smallRuinsSpawnRate = 1000
+giantTorchSpawnRate = 700
+chillzoneSpawnRate = 1000
+[yungsExtras.swampStructures]
+pillarSpawnRate = 900
+ogreSpawnRate = 3000
+cubbySpawnRate = 1000
+archSpawnRate = 1200
+doubleArchSpawnRate = 1500
+churchSpawnRate = 2000

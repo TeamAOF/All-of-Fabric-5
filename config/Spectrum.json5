@@ -80,7 +80,7 @@
 	"InventoryInsertionEnchantmentEnabled": true,
 	"PestControlEnchantmentEnabled": true,
 	"TreasureHunterEnchantmentEnabled": true,
-	"DisarmingEnchantmentEnabled": true,
+	"DisarmingEnchantmentEnabled": false,
 	"FirstStrikeEnchantmentEnabled": true,
 	"ImprovedCriticalEnchantmentEnabled": true,
 	"InertiaEnchantmentEnabled": true,

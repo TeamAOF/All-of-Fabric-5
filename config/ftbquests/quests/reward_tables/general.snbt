@@ -1698,5 +1698,9 @@
 				}
 			}
 		}
+		{ item: "darkutils:charm_sleep" }
+		{ item: "darkutils:vector_plate", count: 6, random_bonus: 6 }
+		{ item: "darkutils:vector_plate_fast", count: 6, random_bonus: 6 }
+		{ item: "darkutils:vector_plate_extreme", count: 6, random_bonus: 6 }
 	]
 }

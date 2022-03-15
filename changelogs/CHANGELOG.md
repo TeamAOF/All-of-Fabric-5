@@ -1,30 +1,42 @@
-### All of Fabric 5 | v1.0.2
+### All of Fabric 5 | v1.1.0
 
-_Fabric Loader 0.13.3_ | _[Mod Updates](https://github.com/TeamAOF/All-of-Fabric-5/blob/main/changelogs/changelog_mods_1.0.2.md)_ | _[Modlist](https://github.com/TeamAOF/All-of-Fabric-5/blob/main/changelogs/modlist_1.0.2.md)_
+_Fabric Loader 0.13.3_ | _[Mod Updates](https://github.com/TeamAOF/All-of-Fabric-5/blob/main/changelogs/changelog_mods_1.1.0.md)_ | _[Modlist](https://github.com/TeamAOF/All-of-Fabric-5/blob/main/changelogs/modlist_1.1.0.md)_
 
 ## Changes
 
+* Added Challenges chapter.
+* Added artifacts quest to Adventurer chapter.
 * Removed duplicate quests from Industrial Revolution chapter.
 * Dark enchanter has been rebalanced.
-* You'll now spawn in with a quest book on first join.
+* Added quest book on first join.
 * Continuity (Connected Textures) will now be used by default.
+* Livingwood quest now requires logs.
+* Removed artifacts from quest rewards.
+* Botania building tools added to building chapter.
+* Disabled Disarming enchantment due to exploits.
 
 ## Fixes
 
 * Error/crash with "Tried to read NBT tag that was too big" has been solved.
-* Incorrect inputs for Large Steam Boiler quest.
+* Incorrect inputs for "Large Steam Boiler" quest.
+* Incorrect inputs for "Factory Components" quest.
 * Glitch armor breaking on 1 hit.
+* Vanilla bookshelf not being valid as input for lectern.
+* Missing rewards for botania chapter.
 * Bug where level 1 + 1 (or any) = max enchantment (example: Prot 1 + Prot 1 = prot 4).
 * Missing lang corrections.
 
 ## Recipe Changes
 
-* Incorrect outputs of raw silver from block has been fixed.
-* Incorrect outputs of silver, steel & bronze armor has been fixed.
+* Milk unification between Farmer's Delight and Croptopia.
+* Removed inputs/outputs of all double ingots.
+* Incorrect outputs of raw silver from block.
+* Incorrect outputs of silver, steel & bronze armor.
 * Moved certus quartz ore and nikolite ore to steel drill.
 * Added Pervaded Netherrack to quarry (Gold drill).
 * Added Pervaded Netherrack to macerator.
 * Removed MRE.
+* Compat for MI and TR plates in the indrev compressor.
 ---
 
 ### All of Fabric 5 | v1.0.1

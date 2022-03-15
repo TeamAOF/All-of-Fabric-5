@@ -658,6 +658,8 @@
 				"You should probably place a tank underneath the drain and configure it to pull from the drain above it using the interface of the tank."
 				""
 				"It does not require an energy source nor consumes anything, it's entirely gravity-based."
+				""
+				"Can be used to auto-fill buckets."
 			]
 			dependencies: ["38EAD09F2E4BE8B8"]
 			id: "5FA218AD7AA5A48C"
@@ -668,14 +670,15 @@
 			}]
 			rewards: [
 				{
-					id: "565A8087D8B6EDCB"
-					type: "item"
-					item: "minecraft:water_bucket"
-				}
-				{
 					id: "663E1E9A67FE4D39"
 					type: "loot"
 					table_id: 13756307348121783L
+				}
+				{
+					id: "31DF073742CD6CF4"
+					type: "item"
+					item: "croptopia:water_bottle"
+					count: 16
 				}
 			]
 		}

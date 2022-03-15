@@ -275,27 +275,6 @@
 			}]
 		}
 		{
-			x: 6.5d
-			y: 4.0d
-			subtitle: "Creative flight anyone?"
-			dependencies: ["3E58A201EA40B757"]
-			id: "758FE2811BAE358E"
-			tasks: [{
-				id: "580BB54BBB2856D4"
-				type: "item"
-				item: {
-					id: "kibe:angel_ring"
-					Count: 1b
-					tag: { }
-				}
-			}]
-			rewards: [{
-				id: "55F8304CCD21421D"
-				type: "loot"
-				table_id: 13756307348121783L
-			}]
-		}
-		{
 			x: 4.5d
 			y: 3.0d
 			subtitle: "Gives an infinite Water Breathing status to the wearer."
@@ -1118,83 +1097,83 @@
 						items: [
 							{
 								id: "kibe:white_glider"
-								tag: { }
 								Count: 1b
+								tag: { }
 							}
 							{
 								id: "kibe:orange_glider"
-								tag: { }
 								Count: 1b
+								tag: { }
 							}
 							{
 								id: "kibe:magenta_glider"
-								tag: { }
 								Count: 1b
+								tag: { }
 							}
 							{
 								id: "kibe:light_blue_glider"
-								tag: { }
 								Count: 1b
+								tag: { }
 							}
 							{
 								id: "kibe:yellow_glider"
-								tag: { }
 								Count: 1b
+								tag: { }
 							}
 							{
 								id: "kibe:lime_glider"
-								tag: { }
 								Count: 1b
+								tag: { }
 							}
 							{
 								id: "kibe:pink_glider"
-								tag: { }
 								Count: 1b
+								tag: { }
 							}
 							{
 								id: "kibe:gray_glider"
-								tag: { }
 								Count: 1b
+								tag: { }
 							}
 							{
 								id: "kibe:light_gray_glider"
-								tag: { }
 								Count: 1b
+								tag: { }
 							}
 							{
 								id: "kibe:cyan_glider"
-								tag: { }
 								Count: 1b
+								tag: { }
 							}
 							{
 								id: "kibe:blue_glider"
-								tag: { }
 								Count: 1b
+								tag: { }
 							}
 							{
 								id: "kibe:purple_glider"
-								tag: { }
 								Count: 1b
+								tag: { }
 							}
 							{
 								id: "kibe:green_glider"
-								tag: { }
 								Count: 1b
+								tag: { }
 							}
 							{
 								id: "kibe:brown_glider"
-								tag: { }
 								Count: 1b
+								tag: { }
 							}
 							{
 								id: "kibe:red_glider"
-								tag: { }
 								Count: 1b
+								tag: { }
 							}
 							{
 								id: "kibe:black_glider"
-								tag: { }
 								Count: 1b
+								tag: { }
 							}
 						]
 					}

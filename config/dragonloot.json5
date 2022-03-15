@@ -1,8 +1,8 @@
 {
-	"scale_minimum_drop_amount": 3,
+	"scale_minimum_drop_amount": 2,
 	"additional_scales_per_player": 2,
 	// 0.8F = 80%
-	"additional_scale_drop_chance": 0.800000011920929,
+	"additional_scale_drop_chance": 0.4000000059604645,
 	"dragon_armor_protection_helmet": 7,
 	"dragon_armor_protection_chest": 10,
 	"dragon_armor_protection_leggings": 9,
