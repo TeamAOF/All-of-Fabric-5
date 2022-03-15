@@ -1009,11 +1009,11 @@
 			]
 		}
 		{
-			x: 8.0d
-			y: -1.5d
+			x: 9.5d
+			y: -4.0d
 			subtitle: "Will turn various fluids into their lighter parts."
 			description: ["This will be very useful for Oil Processing."]
-			dependencies: ["6BEB4461CA08633F"]
+			dependencies: ["33BF21CF8232FD35"]
 			id: "036292964BDE4944"
 			tasks: [{
 				id: "25449DE629548BDF"
@@ -1028,8 +1028,8 @@
 		}
 		{
 			title: "Diesel Jetpack and Tools"
-			x: 9.5d
-			y: -0.5d
+			x: 8.5d
+			y: -6.5d
 			description: [
 				"- Jetpack go brrr... The more powerful the fuel, the faster the jetpack! We recommend Rubber Boots and a Rubber Helmet..."
 				""
@@ -1073,10 +1073,13 @@
 			]
 		}
 		{
-			x: 9.5d
-			y: -1.5d
+			x: 14.000680272108838d
+			y: -4.008163265306102d
 			shape: "gear"
-			dependencies: ["036292964BDE4944"]
+			dependencies: [
+				"036292964BDE4944"
+				"64BACF5B60AD2406"
+			]
 			size: 1.2d
 			id: "7CE18D246F01445D"
 			tasks: [{
@@ -1092,8 +1095,8 @@
 		}
 		{
 			icon: "modern_industrialization:oil_drilling_rig"
-			x: 8.0d
-			y: -4.5d
+			x: 7.5d
+			y: -4.0d
 			subtitle: "A huge multiblock that can dig for Crude Oil under the bedrock using fluid pipes."
 			description: [
 				"Yes, it's an oil quarry basically. Oil processing will give you a ton of byproducts and energy!"
@@ -1138,8 +1141,8 @@
 			}]
 		}
 		{
-			x: 8.0d
-			y: -2.5d
+			x: 7.5d
+			y: -2.0d
 			subtitle: "Can make items and fluids react with eachother."
 			dependencies: ["6BEB4461CA08633F"]
 			id: "6B11B8A209763B36"
@@ -1156,7 +1159,7 @@
 		}
 		{
 			x: 9.5d
-			y: -2.5d
+			y: -6.5d
 			subtitle: "Diesel generators will only use fuel when it needs to."
 			description: [
 				"Various fuels can be burned in the Diesel Generator, and you can check in REI how many EU each fuel produces."
@@ -1181,15 +1184,15 @@
 			}]
 		}
 		{
-			x: 15.0d
-			y: -2.5d
+			x: 14.5d
+			y: -6.5d
 			subtitle: "Once you get some digital circuits going, make sure to build a Distillation Tower."
 			description: [
 				"The Distillery only gives you one oil processing output, but the tower gives you ONE PER LAYER!"
 				""
 				"To change the height of the Distillation Tower, right-click it with a screwdriver. This applies to other multiblocks with multiple shapes as well, such as the Kanthal tier EBF."
 			]
-			dependencies: ["64BACF5B60AD2406"]
+			dependencies: ["7CE18D246F01445D"]
 			id: "2AE689F6495C83A6"
 			tasks: [{
 				id: "54C9073262B25D06"
@@ -1203,11 +1206,11 @@
 			}]
 		}
 		{
-			x: 15.0d
-			y: -0.5d
+			x: 15.5d
+			y: -6.5d
 			subtitle: "You can use a Heat Exchanger to recover the HP water for another cycle."
 			description: ["Remember that pressurizing water into HP water costs a lot of energy, but the turbine will not give it back!"]
-			dependencies: ["64BACF5B60AD2406"]
+			dependencies: ["7CE18D246F01445D"]
 			id: "7F41EEF87B3A8B84"
 			tasks: [{
 				id: "4223D53BFBB35DEF"
@@ -1221,9 +1224,9 @@
 			}]
 		}
 		{
-			title: "Upgrades!"
-			x: 15.0d
-			y: 1.5d
+			title: "More upgrades!"
+			x: 11.5d
+			y: -6.5d
 			description: [
 				"- Overclock Upgrades"
 				""
@@ -1243,7 +1246,7 @@
 				""
 				"Right-click with a crowbar to remove the upgrade."
 			]
-			dependencies: ["64BACF5B60AD2406"]
+			dependencies: ["6B522DC6845DB558"]
 			id: "65CB5CA13FBD010E"
 			tasks: [
 				{
@@ -1269,8 +1272,8 @@
 			}]
 		}
 		{
-			x: 8.0d
-			y: -0.5d
+			x: 7.5d
+			y: 0.0d
 			subtitle: "Splits items by spinning them very fast."
 			description: ["You can use it to make carbon dust and unlock better recipes for steel and silicon."]
 			dependencies: ["6BEB4461CA08633F"]
@@ -1381,14 +1384,15 @@
 			}]
 		}
 		{
-			x: 8.0d
-			y: 1.5d
+			title: "Upgrades!"
+			x: 10.5d
+			y: -6.5d
 			subtitle: "You are almost Prepared!"
 			description: [
 				""
 				"Now that your Into the Start of MV, you can start working on your oil processing and start working on Basic Upgrades that you can easily then turn into Advanced Upgrades!"
 			]
-			dependencies: ["6BEB4461CA08633F"]
+			dependencies: ["036292964BDE4944"]
 			id: "6B522DC6845DB558"
 			tasks: [{
 				id: "71B5428A94930A18"
@@ -1402,8 +1406,8 @@
 			}]
 		}
 		{
-			x: 8.0d
-			y: -3.5d
+			x: 7.5d
+			y: -3.0d
 			dependencies: ["6BEB4461CA08633F"]
 			id: "7D4B8F84394B1B35"
 			tasks: [{
@@ -1418,11 +1422,11 @@
 			}]
 		}
 		{
-			x: 15.0d
-			y: -4.5d
+			x: 12.5d
+			y: -6.5d
 			subtitle: "Another option for small setups is to use an HV steam turbine."
 			description: ["Like other HV generators, it will produce 512 EU/t. This one will only accept regular steam."]
-			dependencies: ["64BACF5B60AD2406"]
+			dependencies: ["7CE18D246F01445D"]
 			id: "2B0219B675E3820F"
 			tasks: [{
 				id: "54B31CE72767D4C6"
@@ -1436,8 +1440,8 @@
 			}]
 		}
 		{
-			x: 15.0d
-			y: -3.5d
+			x: 13.5d
+			y: -6.5d
 			subtitle: "Keep in mind you can use a Turbo Diesel Generator for compat HV power generation."
 			description: [
 				"As you might expect, it produces up to 512 EU/t."
@@ -1446,7 +1450,7 @@
 				""
 				"Once you have access to processing units and highly advanced machine hulls, considering making a few Large Diesel Generators. Each of these bad boys will turn fuel into EU, up to 16384 EU/t!"
 			]
-			dependencies: ["64BACF5B60AD2406"]
+			dependencies: ["7CE18D246F01445D"]
 			id: "715CEF4FB78310FF"
 			tasks: [{
 				id: "438923113D0A1141"
@@ -1461,10 +1465,10 @@
 		}
 		{
 			icon: "modern_industrialization:vacuum_freezer"
-			x: 11.0d
-			y: -1.5d
+			x: 7.5d
+			y: -1.0d
 			subtitle: "You can check the base materials with REI, and the exact shape with a wrench!"
-			dependencies: ["7CE18D246F01445D"]
+			dependencies: ["6BEB4461CA08633F"]
 			id: "0A0931D04AE50D4B"
 			tasks: [
 				{
@@ -1486,8 +1490,8 @@
 			}]
 		}
 		{
-			x: 8.0d
-			y: 0.5d
+			x: 7.5d
+			y: 1.0d
 			subtitle: "Can split materials into their different parts using strong electric currents."
 			dependencies: ["6BEB4461CA08633F"]
 			id: "68BD457258EC8CBF"
@@ -1503,8 +1507,8 @@
 			}]
 		}
 		{
-			x: 12.5d
-			y: -1.5d
+			x: 9.5d
+			y: -1.0d
 			subtitle: "The next material you will want a large quantity of."
 			description: ["Smelting stainless steel dust in an EBF will give you hot ingots, which you can cool back into regular ingots with a Vacuum Freezer."]
 			dependencies: ["0A0931D04AE50D4B"]
@@ -1521,8 +1525,8 @@
 			}]
 		}
 		{
-			x: 15.0d
-			y: 0.5d
+			x: 12.5d
+			y: -1.0d
 			subtitle: "Don't Screw Yourself!"
 			description: ["The Screwdriver is very Important to increase certain muiltiblock structures. Just Right Click the Main Machine Block and it will increase its size. "]
 			dependencies: ["64BACF5B60AD2406"]
@@ -1539,9 +1543,9 @@
 			}]
 		}
 		{
-			x: 15.0d
-			y: -1.5d
-			dependencies: ["64BACF5B60AD2406"]
+			x: 14.0d
+			y: -1.0d
+			dependencies: ["49350931282F3BF5"]
 			id: "6B15091EC1B119B0"
 			tasks: [{
 				id: "2BD708AAF08C5905"
@@ -1556,8 +1560,8 @@
 			}]
 		}
 		{
-			x: 16.5d
-			y: -1.5d
+			x: 17.5d
+			y: -1.0d
 			dependencies: ["6B15091EC1B119B0"]
 			id: "7D3D156BE9C9E150"
 			tasks: [{
@@ -1572,9 +1576,12 @@
 			}]
 		}
 		{
-			x: 18.0d
-			y: 0.5d
-			dependencies: ["6B15091EC1B119B0"]
+			x: 14.0d
+			y: -2.5d
+			dependencies: [
+				"6B15091EC1B119B0"
+				"7CE18D246F01445D"
+			]
 			id: "5310B93F2821826A"
 			tasks: [{
 				id: "5D18FA4D68318732"
@@ -1588,8 +1595,8 @@
 			}]
 		}
 		{
-			x: 18.0d
-			y: -2.5d
+			x: 19.5d
+			y: -2.0d
 			dependencies: ["7D3D156BE9C9E150"]
 			id: "6B05C72FF31E104D"
 			tasks: [{
@@ -1604,8 +1611,8 @@
 			}]
 		}
 		{
-			x: 18.0d
-			y: -1.5d
+			x: 19.5d
+			y: -1.0d
 			dependencies: ["7D3D156BE9C9E150"]
 			id: "1EACE9E49BA4B753"
 			tasks: [{
@@ -1621,10 +1628,13 @@
 		}
 		{
 			icon: "modern_industrialization:pressurizer"
-			x: 18.0d
-			y: -3.5d
+			x: 17.5d
+			y: -4.0d
 			subtitle: "A new multiblock made of titanium that can turn water into HP (high pressure) water, steam into HP steam, and the other way around."
-			dependencies: ["7D3D156BE9C9E150"]
+			dependencies: [
+				"7D3D156BE9C9E150"
+				"7CE18D246F01445D"
+			]
 			id: "46319F2AE2F90532"
 			tasks: [
 				{
@@ -1652,8 +1662,8 @@
 			}]
 		}
 		{
-			x: 19.5d
-			y: -2.5d
+			x: 21.5d
+			y: -2.0d
 			dependencies: ["6B05C72FF31E104D"]
 			id: "18949581A0F3E28B"
 			tasks: [{
@@ -1668,8 +1678,8 @@
 			}]
 		}
 		{
-			x: 21.0d
-			y: -3.0d
+			x: 23.0d
+			y: -2.5d
 			subtitle: "Uses advanced superconductor technology to invert the gravitational field around the player wearing it."
 			description: [
 				"It uses EU, and can be charged by right-clicking a block that can output energy."
@@ -1691,8 +1701,8 @@
 		}
 		{
 			icon: "modern_industrialization:implosion_compressor"
-			x: 19.5d
-			y: -1.5d
+			x: 21.5d
+			y: -1.0d
 			subtitle: "Using Industrial TNT, the Implosion Compressor is able to compress dust and ingots of the most resistant materials."
 			description: [
 				"This includes Tungsten, Blastproof Alloy, Beryllium - these materials are very important for nuclear fission - and Diamonds at last!"
@@ -1727,8 +1737,8 @@
 			}]
 		}
 		{
-			x: 21.0d
-			y: -2.0d
+			x: 23.0d
+			y: -1.5d
 			dependencies: ["0F7CE2BA2A295A4D"]
 			id: "46D1B0C583A57B12"
 			tasks: [{
@@ -1743,8 +1753,8 @@
 			}]
 		}
 		{
-			x: 22.5d
-			y: -2.0d
+			x: 24.5d
+			y: -1.5d
 			dependencies: ["46D1B0C583A57B12"]
 			id: "363455215C23E84E"
 			tasks: [{
@@ -1759,8 +1769,8 @@
 			}]
 		}
 		{
-			x: 22.5d
-			y: -3.5d
+			x: 24.5d
+			y: -3.0d
 			subtitle: "The most powerful machine upgrade ever. Have a look for yourself."
 			dependencies: ["363455215C23E84E"]
 			id: "4847BA675A04852F"
@@ -1777,8 +1787,8 @@
 		}
 		{
 			icon: "modern_industrialization:fusion_reactor"
-			x: 24.0d
-			y: -2.0d
+			x: 26.0d
+			y: -1.5d
 			subtitle: "The Fusion Reactor is the ultimate energy source!"
 			description: [
 				"It can combine Deuterium, Tritium, and/or Helium-3 into Helium Plasma, the most powerful fuel in the game!"
@@ -1813,8 +1823,8 @@
 			}]
 		}
 		{
-			x: 25.5d
-			y: -2.0d
+			x: 27.5d
+			y: -1.5d
 			subtitle: "Turns Helium Plasma into EU, at the rate of 100 kEU per millibucket."
 			description: ["Its maximum production rate is roughly 1 MEU/t."]
 			dependencies: ["208DE0E29C636F41"]
@@ -1845,8 +1855,8 @@
 			}]
 		}
 		{
-			x: 22.0d
-			y: -5.0d
+			x: 24.0d
+			y: -4.5d
 			subtitle: "With 100 mB of UU Matter, the replicator can duplicate (almost) any item in the game!"
 			description: ["Congratulations, it is now Yourcraft."]
 			dependencies: ["4847BA675A04852F"]
@@ -1864,8 +1874,8 @@
 		}
 		{
 			title: "Quantum Physics"
-			x: 23.0d
-			y: -5.0d
+			x: 25.0d
+			y: -4.5d
 			subtitle: "Unstoppable!"
 			description: [
 				"- Quantum Sword"
@@ -1912,8 +1922,8 @@
 			}]
 		}
 		{
-			x: 21.0d
-			y: -1.0d
+			x: 23.0d
+			y: -0.5d
 			subtitle: "A large multiblock whose purpose is to generate massive amounts of energy by consuming nuclear fuel."
 			description: [
 				"It can produce 100s of times more EU/t than diesel. It comes in several sizes from small to large."
@@ -1972,8 +1982,8 @@
 			}]
 		}
 		{
-			x: 22.5d
-			y: -1.0d
+			x: 24.5d
+			y: -0.5d
 			subtitle: "Does it work?"
 			dependencies: ["03896D148D7B4E3B"]
 			id: "04FAF93691F0BD9C"
@@ -1989,8 +1999,8 @@
 			}]
 		}
 		{
-			x: 24.0d
-			y: -1.0d
+			x: 26.0d
+			y: -0.5d
 			subtitle: "What happens when scientists try to build a miniature black hole in their lab?"
 			description: ["The Singularity is the answer: this immensely powerful ball of matter has very useful quantum physics applications with the proper stabilizing materials."]
 			dependencies: ["04FAF93691F0BD9C"]
@@ -2007,8 +2017,8 @@
 			}]
 		}
 		{
-			x: 25.5d
-			y: -1.0d
+			x: 27.5d
+			y: -0.5d
 			subtitle: "UwU Matter"
 			description: ["With a suitable Electrolyzer setup and a Singularity, large amounts of energy can be turned through Quantum Hawnking Radiation,  into Universally Useable Matter also known as UU Matter, the very fabric of the universe."]
 			dependencies: ["6314525E36DEA54B"]
@@ -2032,8 +2042,8 @@
 			]
 		}
 		{
-			x: 19.5d
-			y: 0.5d
+			x: 16.0d
+			y: -2.5d
 			dependencies: ["5310B93F2821826A"]
 			id: "60A05C52ACCBE35D"
 			tasks: [{
@@ -2048,8 +2058,8 @@
 			}]
 		}
 		{
-			x: 9.5d
-			y: -4.5d
+			x: 7.5d
+			y: -5.0d
 			subtitle: "Used in the quarry. Check REI for outputs."
 			dependencies: ["33BF21CF8232FD35"]
 			id: "419F7B74E30C2AF4"
@@ -2065,8 +2075,8 @@
 			}]
 		}
 		{
-			x: 18.0d
-			y: -0.5d
+			x: 19.5d
+			y: 0.0d
 			subtitle: "Used in the quarry. Check REI for outputs."
 			dependencies: ["7D3D156BE9C9E150"]
 			id: "24535DA01189CC75"
