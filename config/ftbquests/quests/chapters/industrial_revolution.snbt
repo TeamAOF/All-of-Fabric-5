@@ -217,6 +217,7 @@
 				id: "7A11B4D7826DE872"
 				type: "item"
 				item: "indrev:nikolite_ingot"
+				count: 4L
 			}]
 			rewards: [{
 				id: "10280B9CCD8AD6D5"
@@ -416,6 +417,7 @@
 				id: "2A7E8398F675F060"
 				type: "item"
 				item: "modern_industrialization:diamond_dust"
+				count: 4L
 			}]
 			rewards: [{
 				id: "5194420B21D62735"
@@ -435,6 +437,7 @@
 				id: "0C2E5913E46CCEE9"
 				type: "item"
 				item: "indrev:enriched_nikolite_dust"
+				count: 4L
 			}]
 			rewards: [{
 				id: "52C9FC817FDC6C0E"
@@ -451,6 +454,7 @@
 				id: "300DF9751F4E8837"
 				type: "item"
 				item: "indrev:enriched_nikolite_ingot"
+				count: 4L
 			}]
 			rewards: [{
 				id: "752D3493616DF405"
@@ -728,7 +732,7 @@
 				{
 					id: "60ACF87793F77948"
 					type: "item"
-					item: "indrev:intake"
+					item: "indrev:silo"
 					count: 6L
 				}
 				{
@@ -1708,6 +1712,7 @@
 				id: "76A9AC313BDD324B"
 				type: "item"
 				item: "modern_industrialization:steel_plate"
+				count: 4L
 			}]
 			rewards: [{
 				id: "507CB052CC2BE3C8"
