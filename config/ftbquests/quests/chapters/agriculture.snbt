@@ -1,7 +1,7 @@
 {
 	id: "5D25557A809CB5D3"
 	group: ""
-	order_index: 2
+	order_index: 3
 	filename: "agriculture"
 	title: "Agriculture"
 	icon: "farmersdelight:cooking_pot"
@@ -581,22 +581,6 @@
 			]
 		}
 		{
-			x: 0.0d
-			y: 15.0d
-			dependencies: ["6491E686F47C9A2B"]
-			id: "25B5401E022706DC"
-			tasks: [{
-				id: "769FAD78808E29D2"
-				type: "item"
-				item: "croptopia:beef_jerky"
-			}]
-			rewards: [{
-				id: "64AC9B28E73D0C8B"
-				type: "loot"
-				table_id: 13756307348121783L
-			}]
-		}
-		{
 			x: 0.5d
 			y: 13.5d
 			subtitle: "Goes good anytime."
@@ -622,7 +606,7 @@
 		}
 		{
 			x: -0.5d
-			y: 14.0d
+			y: 14.5d
 			dependencies: ["6491E686F47C9A2B"]
 			id: "369C7A6D63995ABE"
 			tasks: [{
@@ -637,7 +621,7 @@
 			}]
 		}
 		{
-			x: 1.0d
+			x: 0.5d
 			y: 15.0d
 			dependencies: ["6491E686F47C9A2B"]
 			id: "580D16DAB054E674"
@@ -654,7 +638,7 @@
 		}
 		{
 			x: 1.5d
-			y: 14.0d
+			y: 14.5d
 			dependencies: ["6491E686F47C9A2B"]
 			id: "6FC9213E4C5B1172"
 			tasks: [{
