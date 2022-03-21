@@ -105,7 +105,7 @@ onEvent('tags.items', event => {
         'gofish:end_crate',
         'gofish:astral_crate',
         'gofish:gilded_blackstone_crate',
-
+        'chisel:chisel',
     ];
 
     replicator.forEach((item) => {
