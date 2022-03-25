@@ -8,8 +8,8 @@
 	default_quest_shape: "square"
 	default_hide_dependency_lines: false
 	images: [{
-		x: -4.0d
-		y: -6.0d
+		x: 10.5d
+		y: -6.5d
 		width: 2.0d
 		height: 2.0d
 		rotation: 0.0d
@@ -22,7 +22,7 @@
 	quests: [
 		{
 			title: "Storage on the go"
-			x: -2.0d
+			x: 3.5d
 			y: -3.5d
 			subtitle: "Craft your first backpack."
 			dependencies: ["6F2E92752228528C"]
@@ -44,7 +44,7 @@
 		}
 		{
 			title: "More storage on the go"
-			x: -2.0d
+			x: 3.5d
 			y: -2.5d
 			subtitle: "Same backpack, more storage."
 			dependencies: ["15E104B33E6D3388"]
@@ -66,7 +66,7 @@
 		}
 		{
 			title: "Golden Backpack"
-			x: -2.0d
+			x: 3.5d
 			y: -1.5d
 			subtitle: "Bag of Holding? Almost."
 			dependencies: ["54DB5154498B9336"]
@@ -88,7 +88,7 @@
 		}
 		{
 			title: "All the storage you need!"
-			x: -2.0d
+			x: 3.5d
 			y: -0.5d
 			dependencies: ["1569F3E295EA86B5"]
 			id: "5DF23C8638C479E3"
@@ -109,7 +109,7 @@
 		}
 		{
 			title: "Bag of the withered"
-			x: -2.0d
+			x: 3.5d
 			y: 0.5d
 			subtitle: "Made from the depths of the nether!"
 			dependencies: ["5DF23C8638C479E3"]
@@ -131,7 +131,7 @@
 		}
 		{
 			title: "Ultimate Backpack!"
-			x: -2.0d
+			x: 3.5d
 			y: 1.5d
 			subtitle: "It dosent get any bigger than this."
 			dependencies: ["516BB48E835F9956"]
@@ -153,7 +153,7 @@
 		}
 		{
 			title: "Bigger Chests"
-			x: -1.0d
+			x: 4.5d
 			y: -3.5d
 			subtitle: "Can be placed both horizontally and vertically."
 			dependencies: ["6F2E92752228528C"]
@@ -171,7 +171,7 @@
 		}
 		{
 			title: "Even bigger chests"
-			x: -1.0d
+			x: 4.5d
 			y: -2.5d
 			subtitle: "May the chests be shining."
 			dependencies: ["775BEA78AEB9EE77"]
@@ -188,7 +188,7 @@
 			}]
 		}
 		{
-			x: -1.0d
+			x: 4.5d
 			y: -1.5d
 			dependencies: ["04E1293B787FF906"]
 			id: "7F69917A95491A52"
@@ -204,7 +204,7 @@
 			}]
 		}
 		{
-			x: -1.0d
+			x: 4.5d
 			y: -0.5d
 			dependencies: ["7F69917A95491A52"]
 			id: "723E09B161CC9E33"
@@ -220,7 +220,7 @@
 			}]
 		}
 		{
-			x: -1.0d
+			x: 4.5d
 			y: 0.5d
 			dependencies: ["723E09B161CC9E33"]
 			id: "072E1CD9A57ABD85"
@@ -442,7 +442,7 @@
 		}
 		{
 			title: "Dank MK1"
-			x: 1.0d
+			x: 6.5d
 			y: -3.5d
 			subtitle: "Miner's pickup tool of choice."
 			description: [
@@ -475,7 +475,7 @@
 		}
 		{
 			title: "Dank MK2"
-			x: 1.0d
+			x: 6.5d
 			y: -2.5d
 			dependencies: ["08812AFA81E0361B"]
 			id: "237A9481E48FF78E"
@@ -492,7 +492,7 @@
 		}
 		{
 			title: "Dank MK3"
-			x: 1.0d
+			x: 6.5d
 			y: -1.5d
 			dependencies: ["237A9481E48FF78E"]
 			id: "1ACB51C22A6CD24E"
@@ -509,7 +509,7 @@
 		}
 		{
 			title: "Dank MK4"
-			x: 1.0d
+			x: 6.5d
 			y: -0.5d
 			dependencies: ["1ACB51C22A6CD24E"]
 			id: "3F2424B1D10C7EE9"
@@ -526,7 +526,7 @@
 		}
 		{
 			title: "Dank MK5"
-			x: 1.0d
+			x: 6.5d
 			y: 0.5d
 			dependencies: ["3F2424B1D10C7EE9"]
 			id: "08B93BF6A7AE7007"
@@ -543,7 +543,7 @@
 		}
 		{
 			title: "Dank MK6"
-			x: 1.0d
+			x: 6.5d
 			y: 1.5d
 			dependencies: ["08B93BF6A7AE7007"]
 			id: "39AD0699B2DBAE16"
@@ -560,7 +560,7 @@
 		}
 		{
 			title: "Dank MK7"
-			x: 1.0d
+			x: 6.5d
 			y: 2.5d
 			dependencies: ["39AD0699B2DBAE16"]
 			id: "2557F1066749B6D7"
@@ -618,168 +618,8 @@
 			}]
 		}
 		{
-			x: 2.5d
-			y: -3.5d
-			dependencies: ["589C0E6DD1C6AAD3"]
-			id: "79F20CB0295BFBAF"
-			tasks: [{
-				id: "4047E84A003607DF"
-				type: "item"
-				item: {
-					id: "ae2:portable_item_cell_1k"
-					Count: 1b
-					tag: { }
-				}
-			}]
-			rewards: [{
-				id: "1DEF800153DBC44E"
-				type: "loot"
-				table_id: 13756307348121783L
-			}]
-		}
-		{
-			x: 3.0d
-			y: -2.5d
-			dependencies: ["589C0E6DD1C6AAD3"]
-			id: "2BBD3A888A2F0482"
-			tasks: [{
-				id: "2923476FBF22179D"
-				type: "item"
-				item: {
-					id: "ae2:portable_item_cell_4k"
-					Count: 1b
-					tag: { }
-				}
-			}]
-			rewards: [{
-				id: "7F1A98E8CB1B22A2"
-				type: "loot"
-				table_id: 13756307348121783L
-			}]
-		}
-		{
-			x: 3.5d
-			y: -1.5d
-			dependencies: ["589C0E6DD1C6AAD3"]
-			id: "15D6496849DE38CE"
-			tasks: [{
-				id: "71BE3BA4905757B3"
-				type: "item"
-				item: {
-					id: "ae2:portable_item_cell_16k"
-					Count: 1b
-					tag: { }
-				}
-			}]
-			rewards: [{
-				id: "7DFD1310FC65A5C3"
-				type: "loot"
-				table_id: 13756307348121783L
-			}]
-		}
-		{
-			x: 4.0d
-			y: -0.5d
-			dependencies: ["589C0E6DD1C6AAD3"]
-			id: "62A581403BE4D7DF"
-			tasks: [{
-				id: "35C282C1B8D33B87"
-				type: "item"
-				item: {
-					id: "ae2:portable_item_cell_64k"
-					Count: 1b
-					tag: { }
-				}
-			}]
-			rewards: [{
-				id: "7C921595C6E504EE"
-				type: "loot"
-				table_id: 13756307348121783L
-			}]
-		}
-		{
-			x: 6.5d
-			y: -3.5d
-			dependencies: ["589C0E6DD1C6AAD3"]
-			id: "2C9C080685498630"
-			tasks: [{
-				id: "2279583F8E5EEB36"
-				type: "item"
-				item: {
-					id: "ae2:portable_fluid_cell_1k"
-					Count: 1b
-					tag: { }
-				}
-			}]
-			rewards: [{
-				id: "6A1CBE22FA6E2D42"
-				type: "loot"
-				table_id: 13756307348121783L
-			}]
-		}
-		{
-			x: 6.0d
-			y: -2.5d
-			dependencies: ["589C0E6DD1C6AAD3"]
-			id: "29C5155600C904E6"
-			tasks: [{
-				id: "43C781916B5E5A65"
-				type: "item"
-				item: {
-					id: "ae2:portable_fluid_cell_4k"
-					Count: 1b
-					tag: { }
-				}
-			}]
-			rewards: [{
-				id: "2F181F3B9328FB14"
-				type: "loot"
-				table_id: 13756307348121783L
-			}]
-		}
-		{
-			x: 5.5d
-			y: -1.5d
-			dependencies: ["589C0E6DD1C6AAD3"]
-			id: "3EA1CBF951AF1474"
-			tasks: [{
-				id: "0692A8C08A35DCC3"
-				type: "item"
-				item: {
-					id: "ae2:portable_fluid_cell_16k"
-					Count: 1b
-					tag: { }
-				}
-			}]
-			rewards: [{
-				id: "2A71FE2E56A2DFF1"
-				type: "loot"
-				table_id: 13756307348121783L
-			}]
-		}
-		{
-			x: 5.0d
-			y: -0.5d
-			dependencies: ["589C0E6DD1C6AAD3"]
-			id: "5F40EB98055B2BA6"
-			tasks: [{
-				id: "440B9C7ACD790014"
-				type: "item"
-				item: {
-					id: "ae2:portable_fluid_cell_64k"
-					Count: 1b
-					tag: { }
-				}
-			}]
-			rewards: [{
-				id: "1CAA1F3A1CE3B952"
-				type: "loot"
-				table_id: 13756307348121783L
-			}]
-		}
-		{
 			title: "Bigger Barrels"
-			x: 0.0d
+			x: 5.5d
 			y: -3.5d
 			subtitle: "Goes well as buffers in automation setups."
 			dependencies: ["6F2E92752228528C"]
@@ -797,7 +637,7 @@
 		}
 		{
 			title: "Even bigger barrels"
-			x: 0.0d
+			x: 5.5d
 			y: -2.5d
 			subtitle: "May the barrels be shining."
 			dependencies: ["3341ED2C0B9631BE"]
@@ -814,7 +654,7 @@
 			}]
 		}
 		{
-			x: 0.0d
+			x: 5.5d
 			y: -1.5d
 			dependencies: ["213D8E0BB7F2E924"]
 			id: "0E970E8E69BA207A"
@@ -830,7 +670,7 @@
 			}]
 		}
 		{
-			x: 0.0d
+			x: 5.5d
 			y: -0.5d
 			dependencies: ["0E970E8E69BA207A"]
 			id: "19D64FC4F94A9B6A"
@@ -846,7 +686,7 @@
 			}]
 		}
 		{
-			x: 0.0d
+			x: 5.5d
 			y: 0.5d
 			dependencies: ["19D64FC4F94A9B6A"]
 			id: "3593C7DBFDF77FE9"
@@ -1010,7 +850,7 @@
 			}]
 		}
 		{
-			x: -0.5d
+			x: 5.0d
 			y: -5.0d
 			subtitle: "Learn about the basics of storage."
 			description: [
@@ -1027,17 +867,6 @@
 				id: "4A26CDEE07DCD4B8"
 				type: "checkmark"
 				title: "Basic Storage"
-			}]
-		}
-		{
-			x: 4.5d
-			y: -5.0d
-			subtitle: "For when you need to digitize that portable storage"
-			id: "589C0E6DD1C6AAD3"
-			tasks: [{
-				id: "6605C80DB89DDE01"
-				type: "checkmark"
-				title: "Applied Energistics 2"
 			}]
 		}
 		{

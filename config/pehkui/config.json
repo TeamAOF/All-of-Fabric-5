@@ -42,6 +42,8 @@
 	"view_bobbing.maximum": 3.4028234663852886E38,
 	"visibility.minimum": 1.401298464324817E-45,
 	"visibility.maximum": 3.4028234663852886E38,
+	"jump_height.minimum": 1.401298464324817E-45,
+	"jump_height.maximum": 3.4028234663852886E38,
 	"flight.minimum": 1.401298464324817E-45,
 	"flight.maximum": 3.4028234663852886E38,
 	"reach.minimum": 1.401298464324817E-45,

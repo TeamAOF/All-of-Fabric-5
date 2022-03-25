@@ -7,11 +7,11 @@
   //
   //Enchantments will cost this many levels for any transactions.
   //Default: 3.0
-  "baseCost": 5.0,
+  "baseCost": 3.0,
   //
   //Each enchantment's cost is multiplied by this value.
   //Default: 1.0
-  "costFactor": 1.5,
+  "costFactor": 4.0,
   //
   //Removing an enchantment from gear will give XP back.
   //The amount received back is multiplied by this value.
@@ -41,7 +41,7 @@
   //
   //TLDR: higher values means that this will DECREASE rarer enchantment's cost, while lower values will INCREASE the cost.
   //Default: 2.0
-  "weightDivisor": 1.0,
+  "weightDivisor": 3.0,
   //
   //Repairing any item will have its cost multiplied by this value.
   //Default: 1.0

@@ -6,35 +6,29 @@
 
 
 onEvent('recipes', (event) => {
+    
+  const recipes = [
+{
+  output: 'minecraft:lectern',
+  pattern: ['AAA', ' B ', ' A '],
+  key: {
+    A: '#minecraft:wooden_slabs',
+    B: 'minecraft:bookshelf',
+},
+  id: 'aof:lectern'
+},
 
-  // Cobweb
-  event.shaped("minecraft:cobweb", [
-    ["minecraft:string", "minecraft:string", "minecraft:string"],
-    ["minecraft:string", "minecraft:string", "minecraft:string"],
-    ["minecraft:string", "minecraft:string", "minecraft:string"],
-  ]);
+    {
+  output: 'minecraft:flint',
+  pattern: ['AA ', 'A  ', '   '],
+  key: {
+    A: 'minecraft:gravel',
+},
+  id: 'aof:flint'
+},
+];
 
-    // Oak Sign
-  event.replaceInput(
-    { id: "minecraft:oak_sign" },
-    "minecraft:oak_planks",
-    "#minecraft:planks"
-  );
-
-    // Flint
-    event.shaped("minecraft:flint", [
-      ["minecraft:gravel", "minecraft:gravel", null],
-      ["minecraft:gravel", null, null],
-      [null, null, null],
-    ]);
-
-
-  // Hopper
-  event.remove({ id: "charm:variant_chests/hopper" });
-    event.shaped("minecraft:hopper", [
-      ["minecraft:iron_ingot", "#minecraft:logs",     "minecraft:iron_ingot"],
-      ["minecraft:iron_ingot", "#minecraft:logs",     "minecraft:iron_ingot"],
-      [null,                   "minecraft:iron_ingot", null],
-    ]);
-  
+recipes.forEach((recipe) => {
+event.shaped(recipe.output, recipe.pattern, recipe.key).id(recipe.id);
+});
 });

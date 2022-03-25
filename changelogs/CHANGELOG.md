@@ -1,3 +1,91 @@
+### All of Fabric 5 | v1.1.0
+
+_Fabric Loader 0.13.3_ | _[Mod Updates](https://github.com/TeamAOF/All-of-Fabric-5/blob/main/changelogs/changelog_mods_1.1.0.md)_ | _[Modlist](https://github.com/TeamAOF/All-of-Fabric-5/blob/main/changelogs/modlist_1.1.0.md)_
+
+## Changes
+
+* Added Challenges chapter.
+* Added artifacts quest to Adventurer chapter.
+* Tools and Armor chapter has been fully redone.
+* Removed duplicate quests from Industrial Revolution chapter.
+* Dark enchanter has been rebalanced.
+* Added quest book on first join.
+* Continuity (Connected Textures) will now be used by default.
+* Livingwood quest now requires logs.
+* Removed artifacts from quest rewards.
+* Botania building tools added to building chapter.
+* Updated Modern Industrialization chapter with correct order of progression.
+* Disabled Disarming enchantment due to exploits.
+
+## Fixes
+
+* Error/crash with "Tried to read NBT tag that was too big" has been solved.
+* Incorrect inputs for "Large Steam Boiler" quest.
+* Incorrect inputs for "Factory Components" quest.
+* Glitch armor breaking on 1 hit.
+* Vanilla bookshelf not being valid as input for lectern.
+* Missing rewards for botania chapter.
+* Bug where level 1 + 1 (or any) = max enchantment (example: Prot 1 + Prot 1 = prot 4).
+* Missing lang corrections for Artifality.
+
+## Recipe Changes
+
+* Milk unification between Farmer's Delight and Croptopia.
+* Removed inputs/outputs of all double ingots.
+* Replace platinum dust outputs in Industrial Grinder with raw variants.
+* Fixed incorrect outputs of raw silver from block.
+* Fixed incorrect outputs of silver, steel & bronze armor.
+* Moved certus quartz ore and nikolite ore to steel drill.
+* Added Pervaded Netherrack to quarry (Gold drill).
+* Added Pervaded Netherrack to macerator.
+* Removed MRE.
+* Compat for MI and TR plates in the indrev compressor.
+
+## Added
+
+* [Ambient Environment](https://www.curseforge.com/minecraft/mc-mods/ambient-environment)
+* [Beacon Overhaul](https://www.curseforge.com/minecraft/mc-mods/beaconoverhaul)
+* [Better Loading Screen](https://www.curseforge.com/minecraft/mc-mods/betterloadingscreen)
+* [Better Ping Display [Fabric]](https://www.curseforge.com/minecraft/mc-mods/better-ping-display-fabric)
+* [CleanCut](https://www.curseforge.com/minecraft/mc-mods/cleancut)
+* [Companion 🐕 (Fabric)](https://www.curseforge.com/minecraft/mc-mods/companion-fabric)
+* [Crawl (Fabric)](https://www.curseforge.com/minecraft/mc-mods/crawl)
+* [Creeper Overhaul](https://www.curseforge.com/minecraft/mc-mods/creeper-overhaul)
+* [Dark Utilities](https://www.curseforge.com/minecraft/mc-mods/dark-utilities)
+* [DragonLoot](https://www.curseforge.com/minecraft/mc-mods/dragonloot)
+* [Dual Riders](https://www.curseforge.com/minecraft/mc-mods/dual-riders)
+* [Dusk[Forge/Fabric]](https://www.curseforge.com/minecraft/mc-mods/dusk)
+* [Easy Magic [Fabric]](https://www.curseforge.com/minecraft/mc-mods/easy-magic-fabric)
+* [Farsight [Fabric]](https://www.curseforge.com/minecraft/mc-mods/farsight-fabric)
+* [Iris Shaders](https://www.curseforge.com/minecraft/mc-mods/irisshaders)
+* [Leaves Us In Peace](https://www.curseforge.com/minecraft/mc-mods/leaves-us-in-peace)
+* [Login Protection[Forge/Fabric]](https://www.curseforge.com/minecraft/mc-mods/login-protection)
+* [Macaw's Lights and Lamps](https://www.curseforge.com/minecraft/mc-mods/macaws-lights-and-lamps)
+* [Mob Scarecrows](https://www.curseforge.com/minecraft/mc-mods/mob-scarecrows)
+* [Not Enough Crashes (Fabric)](https://www.curseforge.com/minecraft/mc-mods/not-enough-crashes)
+* [Pig Pen Cipher](https://www.curseforge.com/minecraft/mc-mods/pig-pen-cipher)
+* [Platforms [Fabric]](https://www.curseforge.com/minecraft/mc-mods/platforms-fabric)
+* [Puzzles Lib [Fabric]](https://www.curseforge.com/minecraft/mc-mods/puzzles-lib-fabric)
+* [ShetiPhianCore [Fabric]](https://www.curseforge.com/minecraft/mc-mods/shetiphiancore-fabric)
+* [SlimyFloor](https://www.curseforge.com/minecraft/mc-mods/slimyfloor)
+* [Straw Dummy](https://www.curseforge.com/minecraft/mc-mods/straw-dummy)
+* [Tiny Skeletons [Fabric]](https://www.curseforge.com/minecraft/mc-mods/tiny-skeletons-fabric)
+* [Trading Post [Fabric]](https://www.curseforge.com/minecraft/mc-mods/trading-post-fabric)
+* [Twigs](https://www.curseforge.com/minecraft/mc-mods/twigs)
+* [XL Packets Fabric](https://www.curseforge.com/minecraft/mc-mods/xl-packets-fabric)
+* [YUNG's Better Mineshafts (Fabric)](https://www.curseforge.com/minecraft/mc-mods/yungs-better-mineshafts-fabric)
+* [YUNG's Bridges (Fabric)](https://www.curseforge.com/minecraft/mc-mods/yungs-bridges-fabric)
+* [YUNG's Extras (Fabric)](https://www.curseforge.com/minecraft/mc-mods/yungs-extras-fabric)
+
+## Removed
+
+* [CraftingCraft (Fabric Edition)](https://www.curseforge.com/minecraft/mc-mods/craftingcraft-fabric)
+* [Creatures From The Snow! [Fabric]](https://www.curseforge.com/minecraft/mc-mods/creatures-of-the-snow)
+* [Fabric Shield Lib](https://www.curseforge.com/minecraft/mc-mods/fabric-shield-lib)
+* [Mannequins](https://www.curseforge.com/minecraft/mc-mods/mannequins)
+* [Pollen](https://www.curseforge.com/minecraft/mc-mods/pollen)
+---
+
 ### All of Fabric 5 | v1.0.1
 
 _Fabric Loader 0.13.3_ | _[Mod Updates](https://github.com/TeamAOF/All-of-Fabric-5/blob/main/changelogs/changelog_mods_1.0.1.md)_ | _[Modlist](https://github.com/TeamAOF/All-of-Fabric-5/blob/main/changelogs/modlist_1.0.1.md)_

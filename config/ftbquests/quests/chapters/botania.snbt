@@ -101,7 +101,13 @@
 			tasks: [{
 				id: "26F8B595973C58E6"
 				type: "item"
-				item: "botania:livingwood"
+				item: "botania:livingwood_log"
+				count: 4L
+			}]
+			rewards: [{
+				id: "3DDFB816E5E69CF8"
+				type: "random"
+				table_id: 13756307348121783L
 			}]
 		}
 		{
@@ -142,8 +148,8 @@
 					id: "botania:twig_wand"
 					Count: 1b
 					tag: {
-						color2: 0
 						color1: 0
+						color2: 0
 					}
 				}
 			}]
@@ -178,6 +184,11 @@
 				id: "033EEA4C276D2C05"
 				type: "item"
 				item: "botania:mana_spreader"
+			}]
+			rewards: [{
+				id: "5212903C504828BB"
+				type: "random"
+				table_id: 13756307348121783L
 			}]
 		}
 		{
@@ -421,6 +432,11 @@
 				type: "item"
 				item: "botania:lens_normal"
 			}]
+			rewards: [{
+				id: "5C6056C1FC0B672B"
+				type: "loot"
+				table_id: 13756307348121783L
+			}]
 		}
 		{
 			x: 8.5d
@@ -432,6 +448,11 @@
 				id: "50B7612C256651A0"
 				type: "item"
 				item: "botania:lens_speed"
+			}]
+			rewards: [{
+				id: "0F0D6B18F5E87BC3"
+				type: "random"
+				table_id: 13756307348121783L
 			}]
 		}
 		{
@@ -445,6 +466,11 @@
 				type: "item"
 				item: "botania:lens_power"
 			}]
+			rewards: [{
+				id: "47FD1CBAF6043D31"
+				type: "random"
+				table_id: 13756307348121783L
+			}]
 		}
 		{
 			x: 12.5d
@@ -456,6 +482,11 @@
 				id: "658B1C4634D5D9C0"
 				type: "item"
 				item: "botania:lens_time"
+			}]
+			rewards: [{
+				id: "710813CACCF021EE"
+				type: "random"
+				table_id: 13756307348121783L
 			}]
 		}
 		{
@@ -469,6 +500,11 @@
 				type: "item"
 				item: "botania:lens_efficiency"
 			}]
+			rewards: [{
+				id: "118B8A22ED426A58"
+				type: "random"
+				table_id: 13756307348121783L
+			}]
 		}
 		{
 			x: 9.5d
@@ -480,6 +516,11 @@
 				id: "6BA864FB26017C8B"
 				type: "item"
 				item: "botania:lens_bounce"
+			}]
+			rewards: [{
+				id: "34666A32A9D04D9E"
+				type: "random"
+				table_id: 13756307348121783L
 			}]
 		}
 		{
@@ -493,6 +534,11 @@
 				type: "item"
 				item: "botania:lens_gravity"
 			}]
+			rewards: [{
+				id: "1FD32DD0A6CA9AA2"
+				type: "random"
+				table_id: 13756307348121783L
+			}]
 		}
 		{
 			x: 14.5d
@@ -504,6 +550,11 @@
 				id: "360305905AE274EE"
 				type: "item"
 				item: "botania:lens_mine"
+			}]
+			rewards: [{
+				id: "6470510379587C9A"
+				type: "random"
+				table_id: 13756307348121783L
 			}]
 		}
 		{
@@ -517,6 +568,11 @@
 				type: "item"
 				item: "botania:lens_damage"
 			}]
+			rewards: [{
+				id: "790C8033BFA6240D"
+				type: "random"
+				table_id: 13756307348121783L
+			}]
 		}
 		{
 			x: 14.5d
@@ -528,6 +584,11 @@
 				id: "05C6A0BA48C3A008"
 				type: "item"
 				item: "botania:lens_phantom"
+			}]
+			rewards: [{
+				id: "1FDEA087AC0D3CC3"
+				type: "random"
+				table_id: 13756307348121783L
 			}]
 		}
 		{
@@ -541,6 +602,11 @@
 				type: "item"
 				item: "botania:lens_magnet"
 			}]
+			rewards: [{
+				id: "56D921B376811719"
+				type: "random"
+				table_id: 13756307348121783L
+			}]
 		}
 		{
 			x: 14.5d
@@ -552,6 +618,11 @@
 				id: "3B9C4E7B7BD885EF"
 				type: "item"
 				item: "botania:lens_explosive"
+			}]
+			rewards: [{
+				id: "3D5110317DCC62BB"
+				type: "random"
+				table_id: 13756307348121783L
 			}]
 		}
 		{
@@ -565,6 +636,11 @@
 				type: "item"
 				item: "botania:lens_influence"
 			}]
+			rewards: [{
+				id: "5ACC5B12DF11E99A"
+				type: "random"
+				table_id: 13756307348121783L
+			}]
 		}
 		{
 			x: 10.5d
@@ -576,6 +652,11 @@
 				id: "256DE524215998F7"
 				type: "item"
 				item: "botania:lens_weight"
+			}]
+			rewards: [{
+				id: "1825485AF24995C0"
+				type: "random"
+				table_id: 13756307348121783L
 			}]
 		}
 		{
@@ -590,6 +671,11 @@
 				type: "item"
 				item: "botania:lens_paint"
 			}]
+			rewards: [{
+				id: "6808A9477C234300"
+				type: "random"
+				table_id: 13756307348121783L
+			}]
 		}
 		{
 			x: 12.5d
@@ -601,6 +687,11 @@
 				id: "6761710FE51D1828"
 				type: "item"
 				item: "botania:lens_fire"
+			}]
+			rewards: [{
+				id: "07543B14A0390231"
+				type: "random"
+				table_id: 13756307348121783L
 			}]
 		}
 		{
@@ -614,6 +705,11 @@
 				type: "item"
 				item: "botania:lens_piston"
 			}]
+			rewards: [{
+				id: "107A54EB41BB3829"
+				type: "random"
+				table_id: 13756307348121783L
+			}]
 		}
 		{
 			x: 8.5d
@@ -625,6 +721,11 @@
 				id: "33EF0F3BD67B95B7"
 				type: "item"
 				item: "botania:lens_light"
+			}]
+			rewards: [{
+				id: "75B08A41C7D3ECEC"
+				type: "random"
+				table_id: 13756307348121783L
 			}]
 		}
 		{
@@ -639,6 +740,11 @@
 				type: "item"
 				item: "botania:lens_warp"
 			}]
+			rewards: [{
+				id: "3DAE71106C0000B2"
+				type: "random"
+				table_id: 13756307348121783L
+			}]
 		}
 		{
 			x: 12.0d
@@ -652,6 +758,11 @@
 				type: "item"
 				item: "botania:lens_redirect"
 			}]
+			rewards: [{
+				id: "07735332E39195B8"
+				type: "random"
+				table_id: 13756307348121783L
+			}]
 		}
 		{
 			x: 13.0d
@@ -664,6 +775,11 @@
 				id: "50CF2DA93433621A"
 				type: "item"
 				item: "botania:lens_firework"
+			}]
+			rewards: [{
+				id: "738E0FA01271BB70"
+				type: "random"
+				table_id: 13756307348121783L
 			}]
 		}
 		{
@@ -681,6 +797,11 @@
 				type: "item"
 				item: "botania:lens_flare"
 			}]
+			rewards: [{
+				id: "26D34B7D1F820340"
+				type: "random"
+				table_id: 13756307348121783L
+			}]
 		}
 		{
 			x: 13.5d
@@ -692,6 +813,11 @@
 				id: "71E55691160B7472"
 				type: "item"
 				item: "botania:lens_messenger"
+			}]
+			rewards: [{
+				id: "61CA4D84BD25A2AF"
+				type: "random"
+				table_id: 13756307348121783L
 			}]
 		}
 		{
@@ -705,6 +831,11 @@
 				id: "1A40F407B8B8B8DB"
 				type: "item"
 				item: "botania:lens_tripwire"
+			}]
+			rewards: [{
+				id: "336C453DFE084D4B"
+				type: "random"
+				table_id: 13756307348121783L
 			}]
 		}
 		{
@@ -787,6 +918,11 @@
 				id: "58CBEE0C60B24303"
 				type: "checkmark"
 				title: "Open the Portal to Alfheim"
+			}]
+			rewards: [{
+				id: "356156A3F6908124"
+				type: "loot"
+				table_id: 13756307348121783L
 			}]
 		}
 		{

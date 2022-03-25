@@ -213,7 +213,12 @@ onEvent('recipes', event => {
     autoremove("techreborn:{}_ingot", "techreborn:blasting/{}_ingot_from_c_{}_dusts");
     autoremove("techreborn:{}_ingot", "techreborn:blasting/{}_ingot_from_{}_dust");
     autoremove("techreborn:{}_ingot", "techreborn:blasting/{}_ingot_from_c_raw_{}_ores");
-    autoremove("techreborn:{}_raw", "techreborn:blasting/{}_ingot_from_c_raw_{}_ores");
+
+    event.replaceOutput({id: "techreborn:industrial_grinder/sheldonite_ore_with_water"}, '#c:platinum_dusts', 'modern_industrialization:raw_platinum');
+    event.replaceOutput({id: "techreborn:industrial_grinder/sheldonite_ore_with_mercury"}, '#c:platinum_dusts', 'modern_industrialization:raw_platinum');
+    event.replaceOutput({id: "techreborn:industrial_grinder/iridium_ore_with_sodiumpersulfate"}, '#c:platinum_dusts', 'modern_industrialization:raw_platinum');
+    event.replaceOutput({id: "techreborn:industrial_grinder/heart_of_the_sea_with_mercury"}, '#c:platinum_dusts', 'modern_industrialization:raw_platinum');
+    
 
     // ingot -> raw ore recipes with mercury... -_-
     autoremove("techreborn:raw_{}", "techreborn:industrial_grinder/{}_ingot_with_mercury");
@@ -234,12 +239,13 @@ onEvent('recipes', event => {
     autoremove("indrev:{}_ingot", "indrev:shapeless/{}_ingot_from_nugget");
 
     autoremove("indrev:{}_ingot", "indrev:smelting/{}_ingot");
-    autoremove("indrev:{}_ingot", "indrev:smelting/{}_ingot_from_raw_ores");
+    autoremove("indrev:{}_ingot", "indrev:smelting/{}_ingot_from_raw_ore");
     autoremove("indrev:{}_ingot", "indrev:smelting/{}_ingot_from_ores");
     autoremove("indrev:{}_ingot", "indrev:smelting/{}_ingot_from_ore");
     autoremove("indrev:{}_ingot", "indrev:smelting/{}_ingot_from_smelting");
 
     autoremove("indrev:{}_ingot", "indrev:blasting/{}_ingot_from_raw_ores");
+    autoremove("indrev:{}_ingot", "indrev:blasting/{}_ingot_from_raw_ore");
     autoremove("indrev:{}_ingot", "indrev:blasting/{}_ingot");
     autoremove("indrev:{}_ingot", "indrev:blasting/{}_ingot_from_ores");
     autoremove("indrev:{}_ingot", "indrev:blasting/{}_ingot_from_ore");
@@ -253,6 +259,8 @@ onEvent('recipes', event => {
     autoremove("bewitchment:{}_ingot", "bewitchment:{}_ingot_from_blasting_{}_ore");
     autoremove("bewitchment:{}_ingot", "bewitchment:{}_ingot_from_blasting_deepslate_{}_ore");
     autoremove("bewitchment:{}_ingot", "bewitchment:{}_ingot_from_blasting_raw_{}");
+
+    autoremove("bewitchment:raw_silver");
 
     if (GENERATE_REI_SCRIPT) {
         generateReiScript(itemIdToUnified);

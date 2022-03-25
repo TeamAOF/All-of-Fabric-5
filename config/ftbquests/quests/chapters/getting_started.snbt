@@ -73,9 +73,20 @@
 			y: -1.0d
 			subtitle: "Are you worthy? Become the completionist!"
 			description: [
-				"COMING SOON"
-				"COMING SOON"
-				"COMING SOON"
+				"Challenges are unlocked when you've killed the Ender Dragon."
+				""
+				"These challenges will take you on multiple different paths."
+				""
+				"- Animal Hunting"
+				"- Bosses"
+				"- Become a Michelin Chef"
+				"- Become the ultimate rancher"
+				"- Quantum Physics"
+				"- Creative Flight"
+				""
+				"These are the ultimate goals, it's your journey."
+				""
+				"Complete them all to become The Completionist!"
 			]
 			dependencies: ["175F5611FB7716A4"]
 			id: "477ECBF67056BF45"

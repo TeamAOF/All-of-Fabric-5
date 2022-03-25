@@ -212,122 +212,6 @@
 			}]
 		}
 		{
-			x: -0.5d
-			y: -4.0d
-			description: [
-				"Barely crafted Glitch Armor pieces are pretty good, but they can be better tho. If you got some extra Pristine Matter you can try using it to upgrade your armor. For this you will need to condense the matter into the armor using a Matter Condenser."
-				""
-				"If you attempt to put a bound Data Model into a piece of armor you will be able to \"inherit\" some effects of the mobs of the category you choose."
-				""
-				"To do that, just get an armor piece in hands and right click, putting a Data Model into the slot."
-				""
-				"The greater the tier of your armor, the greatest the effects you will be gifted with."
-			]
-			dependencies: ["3F69B97A783AC81C"]
-			id: "1272C0D3415143C1"
-			tasks: [{
-				id: "179697774E9623B7"
-				type: "item"
-				item: {
-					id: "dml-refabricated:glitch_helmet"
-					Count: 1b
-					tag: { }
-				}
-			}]
-			rewards: [{
-				id: "0A8E66CC8841CF93"
-				type: "loot"
-				table_id: 13756307348121783L
-			}]
-		}
-		{
-			x: -0.5d
-			y: -3.0d
-			description: [
-				"Barely crafted Glitch Armor pieces are pretty good, but they can be better tho. If you got some extra Pristine Matter you can try using it to upgrade your armor. For this you will need to condense the matter into the armor using a Matter Condenser."
-				""
-				"If you attempt to put a bound Data Model into a piece of armor you will be able to \"inherit\" some effects of the mobs of the category you choose."
-				""
-				"To do that, just get an armor piece in hands and right click, putting a Data Model into the slot."
-				""
-				"The greater the tier of your armor, the greatest the effects you will be gifted with."
-			]
-			dependencies: ["3F69B97A783AC81C"]
-			id: "357109A25A56D174"
-			tasks: [{
-				id: "25585ECD38565973"
-				type: "item"
-				item: {
-					id: "dml-refabricated:glitch_chestplate"
-					Count: 1b
-					tag: { }
-				}
-			}]
-			rewards: [{
-				id: "40F930004C20FBC3"
-				type: "loot"
-				table_id: 13756307348121783L
-			}]
-		}
-		{
-			x: -0.5d
-			y: -2.0d
-			description: [
-				"Barely crafted Glitch Armor pieces are pretty good, but they can be better tho. If you got some extra Pristine Matter you can try using it to upgrade your armor. For this you will need to condense the matter into the armor using a Matter Condenser."
-				""
-				"If you attempt to put a bound Data Model into a piece of armor you will be able to \"inherit\" some effects of the mobs of the category you choose."
-				""
-				"To do that, just get an armor piece in hands and right click, putting a Data Model into the slot."
-				""
-				"The greater the tier of your armor, the greatest the effects you will be gifted with."
-			]
-			dependencies: ["3F69B97A783AC81C"]
-			id: "08B3B658BDC6DD19"
-			tasks: [{
-				id: "107B4DE1BCB3EFA5"
-				type: "item"
-				item: {
-					id: "dml-refabricated:glitch_leggings"
-					Count: 1b
-					tag: { }
-				}
-			}]
-			rewards: [{
-				id: "0D78E327FE7EA9B2"
-				type: "loot"
-				table_id: 13756307348121783L
-			}]
-		}
-		{
-			x: -0.5d
-			y: -1.0d
-			description: [
-				"Barely crafted Glitch Armor pieces are pretty good, but they can be better tho. If you got some extra Pristine Matter you can try using it to upgrade your armor. For this you will need to condense the matter into the armor using a Matter Condenser."
-				""
-				"If you attempt to put a bound Data Model into a piece of armor you will be able to \"inherit\" some effects of the mobs of the category you choose."
-				""
-				"To do that, just get an armor piece in hands and right click, putting a Data Model into the slot."
-				""
-				"The greater the tier of your armor, the greatest the effects you will be gifted with."
-			]
-			dependencies: ["3F69B97A783AC81C"]
-			id: "14AE6A87D1235145"
-			tasks: [{
-				id: "464886591A8DC64F"
-				type: "item"
-				item: {
-					id: "dml-refabricated:glitch_boots"
-					Count: 1b
-					tag: { }
-				}
-			}]
-			rewards: [{
-				id: "5BB60F23727F4708"
-				type: "loot"
-				table_id: 13756307348121783L
-			}]
-		}
-		{
 			title: "Data Models"
 			x: -8.0d
 			y: -2.5d
@@ -346,48 +230,48 @@
 						items: [
 							{
 								id: "dml-refabricated:data_model_illager"
-								tag: { }
 								Count: 1b
+								tag: { }
 							}
 							{
 								id: "dml-refabricated:data_model_ocean"
-								tag: { }
 								Count: 1b
+								tag: { }
 							}
 							{
 								id: "dml-refabricated:data_model_slimy"
-								tag: { }
 								Count: 1b
+								tag: { }
 							}
 							{
 								id: "dml-refabricated:data_model_overworld"
-								tag: { }
 								Count: 1b
+								tag: { }
 							}
 							{
 								id: "dml-refabricated:data_model_zombie"
-								tag: { }
 								Count: 1b
+								tag: { }
 							}
 							{
 								id: "dml-refabricated:data_model_nether"
-								tag: { }
 								Count: 1b
+								tag: { }
 							}
 							{
 								id: "dml-refabricated:data_model_skeleton"
-								tag: { }
 								Count: 1b
+								tag: { }
 							}
 							{
 								id: "dml-refabricated:data_model_end"
-								tag: { }
 								Count: 1b
+								tag: { }
 							}
 							{
 								id: "dml-refabricated:data_model_ghost"
-								tag: { }
 								Count: 1b
+								tag: { }
 							}
 						]
 					}

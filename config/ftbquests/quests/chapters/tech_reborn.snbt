@@ -595,56 +595,6 @@
 			}]
 		}
 		{
-			title: "Basic Tools"
-			x: -15.0d
-			y: 1.5d
-			description: [
-				"Drill could be used as a replacement for Iron Pickaxe and Iron Shovel. It will cost 50 Energy to break one block."
-				""
-				"Chainsaw could be used as a replacement for Iron Axe. It will cost 50 Energy to break one block."
-				""
-				"Rock Cutter is a Diamond like tool with Silk Touch enchantment. It has 10k Energy storage. It uses Energy instead of durability to break a block. It will cost 10 Energy to break one block."
-			]
-			dependencies: ["080ED62486BE9176"]
-			id: "176AEFF941EB6BD3"
-			tasks: [
-				{
-					id: "6CB45FD23B8984F6"
-					type: "item"
-					item: "techreborn:basic_drill"
-				}
-				{
-					id: "05E09BE6BCB234E8"
-					type: "item"
-					item: "techreborn:basic_chainsaw"
-				}
-				{
-					id: "4FAD0566A57B02C0"
-					type: "item"
-					item: "techreborn:basic_jackhammer"
-				}
-				{
-					id: "2BE04E0364BD5A2B"
-					type: "item"
-					item: {
-						id: "techreborn:rock_cutter"
-						Count: 1b
-						tag: {
-							Enchantments: [{
-								lvl: 1s
-								id: "minecraft:silk_touch"
-							}]
-						}
-					}
-				}
-			]
-			rewards: [{
-				id: "02D0BA12517DC72F"
-				type: "loot"
-				table_id: 13756307348121783L
-			}]
-		}
-		{
 			x: -19.0d
 			y: 1.5d
 			subtitle: "A simple contraption that is used to automate the gathering of fluid (Mostly water)."
@@ -658,6 +608,8 @@
 				"You should probably place a tank underneath the drain and configure it to pull from the drain above it using the interface of the tank."
 				""
 				"It does not require an energy source nor consumes anything, it's entirely gravity-based."
+				""
+				"Can be used to auto-fill buckets."
 			]
 			dependencies: ["38EAD09F2E4BE8B8"]
 			id: "5FA218AD7AA5A48C"
@@ -668,14 +620,15 @@
 			}]
 			rewards: [
 				{
-					id: "565A8087D8B6EDCB"
-					type: "item"
-					item: "minecraft:water_bucket"
-				}
-				{
 					id: "663E1E9A67FE4D39"
 					type: "loot"
 					table_id: 13756307348121783L
+				}
+				{
+					id: "31DF073742CD6CF4"
+					type: "item"
+					item: "croptopia:water_bottle"
+					count: 16
 				}
 			]
 		}
@@ -1624,81 +1577,6 @@
 			}]
 		}
 		{
-			title: "Industrial Tools"
-			x: 1.5d
-			y: 4.5d
-			description: [
-				"Industrial Drill is a most powerfull drill. It can do AOE mining in 3×3 area. It has 1.000.000 Energy storage. "
-				""
-				"Industrial Chainsaw is a top tier chainsaw.  It has 1M Energy storage. Chainsaw could be used as a replacement for Diamond Axe and able to chop down whole tree at once. It will cost 150 Energy to break one block."
-				""
-				"Industrial Jackhammer is a top tier JackHammer.  It has 1M energy storage.  Industrial Jackhammer is capable of 3×3 and 5×5 AoE mining when set to active. It will cost 150 energy to break one block."
-			]
-			dependencies: ["53A44AD06333997E"]
-			id: "7BB81849D2DED08F"
-			tasks: [
-				{
-					id: "2BECBD929D9031AA"
-					type: "item"
-					item: "techreborn:industrial_drill"
-				}
-				{
-					id: "0A077C35405839AE"
-					type: "item"
-					item: "techreborn:industrial_chainsaw"
-				}
-				{
-					id: "1B8CB81AF83D9DB6"
-					type: "item"
-					item: "techreborn:industrial_jackhammer"
-				}
-			]
-			rewards: [{
-				id: "1F845DFE3B8F19A9"
-				type: "loot"
-				table_id: 13756307348121783L
-			}]
-		}
-		{
-			title: "Advanced Tools"
-			x: 0.0d
-			y: -4.5d
-			description: [
-				"Advanced Drill is an advanced version of Basic Drill and works same as Diamond Pickaxe or Diamond Shovel."
-				""
-				"Advanced Chainsaw is a more advanced chainsaw compare to Basic Chainsaw."
-				""
-				"Advanced Jackhammer is a more advanced version of Basic Jackhammer. Advanced Jackhammer is capable of 3×3 mining when set to active."
-			]
-			dependencies: [
-				"1DD10BCEE7DB3612"
-				"1173AB9C916F02ED"
-			]
-			id: "0CFD4DEE81CDC679"
-			tasks: [
-				{
-					id: "7682A1978C0468C6"
-					type: "item"
-					item: "techreborn:advanced_jackhammer"
-				}
-				{
-					id: "45E0378700C59B72"
-					type: "item"
-					item: "techreborn:advanced_chainsaw"
-				}
-				{
-					id: "6DCBE9522B653BE0"
-					type: "item"
-					item: "techreborn:advanced_drill"
-				}
-			]
-			rewards: [{
-				id: "2DC70C991B9F8E82"
-				type: "loot"
-				table_id: 13756307348121783L
-			}]
-		}
-		{
 			x: -3.0d
 			y: -6.0d
 			subtitle: "Requires Assembling Machine"
@@ -1758,38 +1636,6 @@
 			}]
 			rewards: [{
 				id: "77B675C35F0B8795"
-				type: "loot"
-				table_id: 13756307348121783L
-			}]
-		}
-		{
-			x: -1.5d
-			y: 1.5d
-			subtitle: "An advanced weapon that can be used against hostile mobs, or players."
-			description: [
-				"The Saber requires power to work, every hit done to an entity will cost 150 Energy."
-				""
-				"The nano saber requires being active to work."
-				""
-				"To toggle the active state the user must shift-right click."
-				""
-				"A chat message will appear saying the new mod that the weapon is in."
-			]
-			dependencies: ["685F6A8A28DA99F9"]
-			id: "34D64E941EAB5DE9"
-			tasks: [{
-				id: "317063C4CFCB3C42"
-				type: "item"
-				item: {
-					id: "techreborn:nanosaber"
-					Count: 1b
-					tag: {
-						isActive: 0b
-					}
-				}
-			}]
-			rewards: [{
-				id: "44377FABFBEF4744"
 				type: "loot"
 				table_id: 13756307348121783L
 			}]
@@ -2432,22 +2278,6 @@
 			}]
 			rewards: [{
 				id: "4CD5331D906B3CAA"
-				type: "loot"
-				table_id: 13756307348121783L
-			}]
-		}
-		{
-			x: 1.5d
-			y: -4.5d
-			dependencies: ["0CFD4DEE81CDC679"]
-			id: "214A3F7F1C116AE8"
-			tasks: [{
-				id: "015C9DE863ED028F"
-				type: "item"
-				item: "techreborn:omni_tool"
-			}]
-			rewards: [{
-				id: "6871A9AB378D3A80"
 				type: "loot"
 				table_id: 13756307348121783L
 			}]

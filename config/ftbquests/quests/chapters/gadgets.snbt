@@ -18,12 +18,26 @@
 			x: 0.0d
 			y: 1.5d
 			subtitle: "You can dream, create, design, and build the most wonderful place in the world."
-			description: [
-				"Staff of Building:"
-				""
-				"- Holding a staff will show a placement range (but a range will only be displayed if you have the required items in your inventory)."
-				""
-				"- Clicking with the staff will fill in the selection with the relevant block, which lowers the staff durability and takes the blocks from your inventory."
+			description: ["INFINITE BUILDING!"]
+			dependencies: [
+				"57A128EE5135A494"
+				"5422C6DABE9F8D9D"
+				"4EC49EFF4B139771"
+				"424D1FF456C5309D"
+				"493B90C284EB5402"
+				"4AD1DD230664681D"
+				"661F9C730DFEA05C"
+				"503DD3CEEFE78FFF"
+				"6CFB83CA3C41D891"
+				"1A7AF56567D80ECB"
+				"1503EBD099C0444B"
+				"0232F82465ACC551"
+				"45472C7319EC2261"
+				"72D473E1810E45D7"
+				"454C6A0D83B852C7"
+				"5D5E53BCC9686BEB"
+				"72D41352FD2B752C"
+				"009320766602EAAF"
 			]
 			id: "341C7D2C93742900"
 			tasks: [{
@@ -31,13 +45,17 @@
 				type: "checkmark"
 				title: "Your every day toolbelt"
 			}]
+			rewards: [{
+				id: "2B08F0AD303DA2A2"
+				type: "item"
+				item: "staffofbuilding:infinite_builder_staff"
+			}]
 		}
 		{
 			x: 0.5d
-			y: -1.0d
+			y: -1.5d
 			subtitle: "Allows you to build structures using a set of different Building Modes."
 			description: ["Best tech to build it quick."]
-			dependencies: ["341C7D2C93742900"]
 			id: "45472C7319EC2261"
 			tasks: [{
 				id: "33686463964EEAED"
@@ -48,10 +66,10 @@
 					tag: {
 						Damage: 0
 						state: {
-							data: { }
 							state: {
 								Name: "minecraft:air"
 							}
+							data: { }
 							serializer: "buildinggadgets:dummy_serializer"
 						}
 					}
@@ -65,9 +83,8 @@
 		}
 		{
 			x: -0.5d
-			y: -1.0d
+			y: -1.5d
 			subtitle: "Provides basic exchanging abilities using a set of different Exchanging Modes."
-			dependencies: ["341C7D2C93742900"]
 			id: "72D473E1810E45D7"
 			tasks: [{
 				id: "4278655EFD94DBF1"
@@ -78,10 +95,10 @@
 					tag: {
 						Damage: 0
 						state: {
-							data: { }
 							state: {
 								Name: "minecraft:air"
 							}
+							data: { }
 							serializer: "buildinggadgets:dummy_serializer"
 						}
 					}
@@ -95,9 +112,8 @@
 		}
 		{
 			x: 1.5d
-			y: -0.5d
+			y: -1.0d
 			subtitle: "Allows you to select a large radius to copy and paste in a different location."
-			dependencies: ["341C7D2C93742900"]
 			id: "0232F82465ACC551"
 			tasks: [{
 				id: "77BB53C023067B54"
@@ -126,9 +142,8 @@
 		}
 		{
 			x: -2.5d
-			y: 1.0d
+			y: -0.5d
 			subtitle: "Right-click and put your block of choice in slot. Choose the variant that suits you."
-			dependencies: ["341C7D2C93742900"]
 			id: "5D5E53BCC9686BEB"
 			tasks: [{
 				id: "2A15AF7129E1D209"
@@ -144,14 +159,13 @@
 		{
 			title: "Bits and Chisels"
 			x: 2.5d
-			y: 1.0d
+			y: -0.5d
 			subtitle: "Sculpture the world!"
 			description: [
 				"Remove small bits from blocks using chisels."
 				""
 				"You can use these bits to build detailed decorations or whatever else you want."
 			]
-			dependencies: ["341C7D2C93742900"]
 			id: "1503EBD099C0444B"
 			tasks: [{
 				id: "5C9D9AF921A12ED1"
@@ -172,9 +186,8 @@
 		}
 		{
 			x: -1.5d
-			y: -0.5d
+			y: -1.0d
 			subtitle: "Allows you to void a large area."
-			dependencies: ["341C7D2C93742900"]
 			id: "454C6A0D83B852C7"
 			tasks: [{
 				id: "5E7623ACE78AD0E5"
@@ -184,8 +197,8 @@
 					Count: 1b
 					tag: {
 						overlay: 1b
-						fuzzy: 1b
 						Damage: 0
+						fuzzy: 1b
 					}
 				}
 			}]
@@ -196,10 +209,10 @@
 			}]
 		}
 		{
-			x: -2.0d
-			y: 2.5d
+			x: -2.5d
+			y: 3.5d
 			subtitle: "Used to speed up building and block placement."
-			dependencies: ["341C7D2C93742900"]
+			description: ["- Holding a staff will show a placement range (but a range will only be displayed if you have the required items in your inventory)."]
 			id: "5422C6DABE9F8D9D"
 			tasks: [{
 				id: "1F39D5573BB82545"
@@ -220,9 +233,9 @@
 		}
 		{
 			x: -1.5d
-			y: 3.5d
+			y: 4.0d
 			subtitle: "Used to speed up building and block placement."
-			dependencies: ["341C7D2C93742900"]
+			description: ["- Holding a staff will show a placement range (but a range will only be displayed if you have the required items in your inventory)."]
 			id: "4EC49EFF4B139771"
 			tasks: [{
 				id: "2F2DA7D863BC327A"
@@ -243,9 +256,9 @@
 		}
 		{
 			x: -0.5d
-			y: 4.0d
+			y: 4.5d
 			subtitle: "Used to speed up building and block placement."
-			dependencies: ["341C7D2C93742900"]
+			description: ["- Holding a staff will show a placement range (but a range will only be displayed if you have the required items in your inventory)."]
 			id: "424D1FF456C5309D"
 			tasks: [{
 				id: "2310EE65434E176F"
@@ -266,9 +279,9 @@
 		}
 		{
 			x: 0.5d
-			y: 4.0d
+			y: 4.5d
 			subtitle: "Used to speed up building and block placement."
-			dependencies: ["341C7D2C93742900"]
+			description: ["- Holding a staff will show a placement range (but a range will only be displayed if you have the required items in your inventory)."]
 			id: "493B90C284EB5402"
 			tasks: [{
 				id: "16890A75B553A2F3"
@@ -289,9 +302,9 @@
 		}
 		{
 			x: 1.5d
-			y: 3.5d
+			y: 4.0d
 			subtitle: "Used to speed up building and block placement."
-			dependencies: ["341C7D2C93742900"]
+			description: ["- Holding a staff will show a placement range (but a range will only be displayed if you have the required items in your inventory)."]
 			id: "4AD1DD230664681D"
 			tasks: [{
 				id: "7D5B4820134A5ACF"
@@ -311,11 +324,10 @@
 			}]
 		}
 		{
-			x: 2.0d
-			y: 2.5d
-			subtitle: "Congrats! you must like building."
-			description: ["Have a bunch of different blocks for building."]
-			dependencies: ["341C7D2C93742900"]
+			x: 2.5d
+			y: 3.5d
+			subtitle: "Used to speed up building and block placement."
+			description: ["- Holding a staff will show a placement range (but a range will only be displayed if you have the required items in your inventory)."]
 			id: "661F9C730DFEA05C"
 			tasks: [{
 				id: "0944E8C92FD41166"
@@ -378,6 +390,101 @@
 					count: 64
 				}
 			]
+		}
+		{
+			x: 3.0d
+			y: 0.5d
+			subtitle: "Dirty Stick"
+			id: "1A7AF56567D80ECB"
+			tasks: [{
+				id: "3AA7A6C9CA235353"
+				type: "item"
+				item: "botania:dirt_rod"
+			}]
+			rewards: [{
+				id: "60008B7651F96325"
+				type: "random"
+				table_id: 13756307348121783L
+			}]
+		}
+		{
+			x: 3.5d
+			y: 1.5d
+			subtitle: "Dirty Stick MK II"
+			id: "6CFB83CA3C41D891"
+			tasks: [{
+				id: "07E070E14442B2D5"
+				type: "item"
+				item: "botania:skydirt_rod"
+			}]
+			rewards: [{
+				id: "4E850F618F4B07BC"
+				type: "random"
+				table_id: 13756307348121783L
+			}]
+		}
+		{
+			x: 3.0d
+			y: 2.5d
+			id: "503DD3CEEFE78FFF"
+			tasks: [{
+				id: "6E7765039271CC78"
+				type: "item"
+				item: "botania:terraform_rod"
+			}]
+			rewards: [{
+				id: "1ED31F8DA461B54B"
+				type: "random"
+				table_id: 13756307348121783L
+			}]
+		}
+		{
+			x: -3.5d
+			y: 1.5d
+			subtitle: "It's cobbling time!"
+			id: "009320766602EAAF"
+			tasks: [{
+				id: "5B3866A5E0AD8DCF"
+				type: "item"
+				item: "botania:cobble_rod"
+			}]
+			rewards: [{
+				id: "1CE5C30DD79A7098"
+				type: "random"
+				table_id: 13756307348121783L
+			}]
+		}
+		{
+			x: -3.0d
+			y: 0.5d
+			subtitle: "Keep the ocean clean!"
+			id: "72D41352FD2B752C"
+			tasks: [{
+				id: "69CE55AF68F39797"
+				type: "item"
+				item: "botania:water_rod"
+			}]
+			rewards: [{
+				id: "1A8308C8DEE71022"
+				type: "random"
+				table_id: 13756307348121783L
+			}]
+		}
+		{
+			x: -3.0d
+			y: 2.5d
+			subtitle: "Shift your block of choice."
+			id: "57A128EE5135A494"
+			tasks: [{
+				id: "5F10EB7947E7C1CB"
+				type: "item"
+				item: "botania:exchange_rod"
+			}]
+			rewards: [{
+				id: "4E2062F5C1DBE105"
+				type: "random"
+				table_id: 13756307348121783L
+			}]
 		}
 	]
 }

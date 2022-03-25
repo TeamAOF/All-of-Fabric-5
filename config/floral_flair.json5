@@ -16,5 +16,21 @@
 	// The density of Sunset Poppy flowers in savannas [default = 6]
 	"sunsetPoppyDensity": 6,
 	// The density of Purpureum flowers in swamps [default = 7]
-	"purpureumDensity": 7
+	"purpureumDensity": 7,
+	// The density of Midnight_orchid flowers [default = 6]
+	"midnight_orchidDensity": 6,
+	// The density of Hyacinth flowers [default = 6]
+	"hyacinthDensity": 6,
+	// The density of Anthurium flowers [default = 6]
+	"anthuriumDensity": 12,
+	// The density of Snow_fall_flower flowers [default = 6]
+	"snow_fall_flowerDensity": 6,
+	// The density of Spiked_tulip flowers [default = 6]
+	"spiked_tulipDensity": 6,
+	// The density of Lunula flowers [default = 6]
+	"lunulaDensity": 6,
+	// The density of Stonnete flowers [default = 3]
+	"stonneteDensity": 3,
+	// The density of Scilla flowers [default = 6]
+	"scillaDensity": 6
 }

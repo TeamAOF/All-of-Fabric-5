@@ -105,7 +105,13 @@ onEvent('tags.items', event => {
         'gofish:end_crate',
         'gofish:astral_crate',
         'gofish:gilded_blackstone_crate',
-
+        'chisel:chisel',
+        'modern_industrialization:quantum_helmet',
+        'modern_industrialization:quantum_chestplate',
+        'modern_industrialization:quantum_leggings',
+        'modern_industrialization:quantum_boots',
+        'modern_industrialization:quantum_sword',
+        'modern_industrialization:singularity',
     ];
 
     replicator.forEach((item) => {

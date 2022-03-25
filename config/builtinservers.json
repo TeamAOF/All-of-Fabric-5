@@ -5,12 +5,12 @@
       "address": "eu.alloffabric.com"
     },
     {
-      "name": "NA West",
+      "name": "NA East",
       "address": "nw.alloffabric.com"
     },
     {
       "name": "NA South",
-      "address": "nas.alloffabric.com"
+      "address": "nas5.alloffabric.com:25650"
     }
   ]
 }
