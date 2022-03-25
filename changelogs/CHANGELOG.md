@@ -4,7 +4,6 @@ _Fabric Loader 0.13.3_ | _[Mod Updates](https://github.com/TeamAOF/All-of-Fabric
 
 ## Changes
 
-* Added Challenges chapter.
 * Added artifacts quest to Adventurer chapter.
 * Tools and Armor chapter has been fully redone.
 * Removed duplicate quests from Industrial Revolution chapter.
