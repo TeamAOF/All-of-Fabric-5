@@ -1,4 +1,5 @@
-﻿DO_RAMDISK=0
+#!/usr/bin/env bash
+DO_RAMDISK=0
 if [[ $(cat server-setup-config.yaml | grep 'ramDisk:' | awk 'BEGIN {FS=":"}{print $2}') =~ "yes" ]]; then
     SAVE_DIR=$(cat server.properties | grep 'level-name' | awk 'BEGIN {FS="="}{print $2}')
     mv $SAVE_DIR "${SAVE_DIR}_backup"
@@ -27,7 +28,7 @@ fi
 			which curl >> /dev/null
 			if [ $? -eq 0 ]; then
 				echo "DEBUG: (curl) Downloading ${URL}"
-				curl -o serverstarter-2.1.1.jar "${URL}"
+				curl -L -o serverstarter-2.1.1.jar "${URL}"
 			else
 				echo "Neither wget or curl were found on your system. Please install one and try again"
          fi
