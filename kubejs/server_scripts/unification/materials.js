@@ -213,6 +213,11 @@ onEvent('recipes', event => {
     autoremove("techreborn:{}_ingot", "techreborn:blasting/{}_ingot_from_c_{}_dusts");
     autoremove("techreborn:{}_ingot", "techreborn:blasting/{}_ingot_from_{}_dust");
     autoremove("techreborn:{}_ingot", "techreborn:blasting/{}_ingot_from_c_raw_{}_ores");
+
+    event.replaceOutput({id: "techreborn:industrial_grinder/sheldonite_ore_with_water"}, '#c:platinum_dusts', 'modern_industrialization:raw_platinum');
+    event.replaceOutput({id: "techreborn:industrial_grinder/sheldonite_ore_with_mercury"}, '#c:platinum_dusts', 'modern_industrialization:raw_platinum');
+    event.replaceOutput({id: "techreborn:industrial_grinder/iridium_ore_with_sodiumpersulfate"}, '#c:platinum_dusts', 'modern_industrialization:raw_platinum');
+    event.replaceOutput({id: "techreborn:industrial_grinder/heart_of_the_sea_with_mercury"}, '#c:platinum_dusts', 'modern_industrialization:raw_platinum');
     
 
     // ingot -> raw ore recipes with mercury... -_-

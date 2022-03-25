@@ -1,7 +1,7 @@
 {
 	id: "4F80AA2EB0DCC10C"
 	group: ""
-	order_index: 2
+	order_index: 1
 	filename: "adventurer"
 	title: "Adventurer"
 	icon: "artifacts:aqua_dashers"
@@ -99,40 +99,22 @@
 			]
 			dependencies: ["6EC4700B21DB617B"]
 			id: "1941554F8883F5BE"
-			tasks: [
-				{
-					id: "774EDFBA5BFE49ED"
-					type: "item"
-					item: "gofish:wooden_crate"
+			tasks: [{
+				id: "52BEAE23DF485E51"
+				type: "item"
+				item: {
+					id: "itemfilters:mod"
+					Count: 1b
+					tag: {
+						value: "gofish"
+					}
 				}
-				{
-					id: "3A3830B0C58DB1E7"
-					type: "item"
-					item: "gofish:iron_crate"
-				}
-				{
-					id: "60BC612A323B51EC"
-					type: "item"
-					item: "gofish:golden_crate"
-				}
-				{
-					id: "00BDA34476768435"
-					type: "item"
-					item: "gofish:diamond_crate"
-				}
-			]
-			rewards: [
-				{
-					id: "69D9C7A4DDC5D916"
-					type: "loot"
-					table_id: 13756307348121783L
-				}
-				{
-					id: "0BF03DB8E0019CD2"
-					type: "loot"
-					table_id: 13756307348121783L
-				}
-			]
+			}]
+			rewards: [{
+				id: "69D9C7A4DDC5D916"
+				type: "loot"
+				table_id: 13756307348121783L
+			}]
 		}
 		{
 			title: "Waystones"

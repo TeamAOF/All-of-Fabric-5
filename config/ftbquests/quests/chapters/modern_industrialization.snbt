@@ -444,6 +444,11 @@
 					type: "item"
 					item: "modern_industrialization:bronze_fluid_input_hatch"
 				}
+				{
+					id: "092B490D68ACEA49"
+					type: "item"
+					item: "modern_industrialization:bronze_fluid_output_hatch"
+				}
 			]
 			rewards: [{
 				id: "7B545F9C9DFD9A38"

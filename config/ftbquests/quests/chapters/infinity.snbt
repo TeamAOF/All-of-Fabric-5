@@ -1,10 +1,11 @@
 {
 	id: "55534E1BE135C3C1"
-	group: ""
-	order_index: 1
+	group: "1FCC565F739A4207"
+	order_index: 0
 	filename: "infinity"
 	title: "Challenges"
 	icon: "croptopia:starfruit"
+	always_invisible: true
 	default_quest_shape: ""
 	default_hide_dependency_lines: false
 	quests: [

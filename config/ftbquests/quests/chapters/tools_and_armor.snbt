@@ -150,11 +150,6 @@
 				type: "checkmark"
 				title: "Mysterious Enchanting"
 			}]
-			rewards: [{
-				id: "1E206DF741AB42CD"
-				type: "random"
-				table_id: 13756307348121783L
-			}]
 		}
 		{
 			x: -7.0d

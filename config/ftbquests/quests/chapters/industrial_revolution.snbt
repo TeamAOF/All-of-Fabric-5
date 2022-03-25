@@ -463,24 +463,7 @@
 			}]
 		}
 		{
-			x: -4.0d
-			y: -3.0d
-			subtitle: "Indrevian tech at it's finest. Drill harder and faster. Impress your friends."
-			dependencies: ["60E79DB91F2919BD"]
-			id: "0282A36B7F6A332E"
-			tasks: [{
-				id: "565B90FE274B2C5D"
-				type: "item"
-				item: "indrev:mining_drill_mk1"
-			}]
-			rewards: [{
-				id: "31B2EFE5BBFBB088"
-				type: "loot"
-				table_id: 13756307348121783L
-			}]
-		}
-		{
-			x: -6.0d
+			x: -5.5d
 			y: -3.0d
 			subtitle: "Tells you the current stored energy in machines and, in some machines, also tells the energy consumption per tick."
 			dependencies: ["60E79DB91F2919BD"]
@@ -492,58 +475,6 @@
 			}]
 			rewards: [{
 				id: "76AC752565C62F15"
-				type: "loot"
-				table_id: 13756307348121783L
-			}]
-		}
-		{
-			x: -2.0d
-			y: -3.0d
-			subtitle: "Be the talk of town, with this badboy."
-			dependencies: ["5126D10B28A64460"]
-			id: "215DBF0AE070D7A7"
-			tasks: [{
-				id: "1420C61D8BC1EEB5"
-				type: "item"
-				item: "indrev:mining_drill_mk2"
-			}]
-			rewards: [{
-				id: "05C8BC9D520F72CB"
-				type: "loot"
-				table_id: 13756307348121783L
-			}]
-		}
-		{
-			x: 0.0d
-			y: -3.0d
-			subtitle: "Now in blueberry flavor!"
-			dependencies: ["7A318DEE361289B5"]
-			id: "5BC38A7636835353"
-			tasks: [{
-				id: "22202F4E896CF2D9"
-				type: "item"
-				item: "indrev:mining_drill_mk3"
-			}]
-			rewards: [{
-				id: "7E0B053CC2D14BD0"
-				type: "loot"
-				table_id: 13756307348121783L
-			}]
-		}
-		{
-			x: 2.0d
-			y: -3.0d
-			subtitle: "Harder and faster than ever before. Drill to the other side of the planet."
-			description: ["Indrev is not responsible for death's caused by attempting to drill to the other side of the planet."]
-			dependencies: ["65E60EDD6DE18DC2"]
-			id: "506362EC509AA1A8"
-			tasks: [{
-				id: "53580499F202653B"
-				type: "item"
-				item: "indrev:mining_drill_mk4"
-			}]
-			rewards: [{
-				id: "6E10EE8430AADE3C"
 				type: "loot"
 				table_id: 13756307348121783L
 			}]
@@ -717,8 +648,8 @@
 		}
 		{
 			title: "Factory Components"
-			x: 7.5d
-			y: -5.0d
+			x: 5.0d
+			y: -4.5d
 			subtitle: "You'll be able to visualize the block positions by right clicking a factory."
 			dependencies: ["2094448C58554B0B"]
 			id: "60A8108BE12AFB39"
@@ -1079,8 +1010,8 @@
 			}]
 		}
 		{
-			x: 7.0d
-			y: -6.5d
+			x: 7.5d
+			y: -5.0d
 			subtitle: "Factories are improved versions of machines and they can process 5 items at once."
 			dependencies: ["60A8108BE12AFB39"]
 			id: "4C0B1B9315FEB7D6"
@@ -1110,8 +1041,8 @@
 			]
 		}
 		{
-			x: 8.0d
-			y: -6.5d
+			x: 7.5d
+			y: -4.0d
 			subtitle: "Factories are improved versions of machines and they can process 5 items at once."
 			dependencies: ["60A8108BE12AFB39"]
 			id: "6CC13ADEE091FAA7"
@@ -1141,8 +1072,8 @@
 			]
 		}
 		{
-			x: 6.0d
-			y: -6.5d
+			x: 7.5d
+			y: -6.0d
 			subtitle: "Factories are improved versions of machines and they can process 5 items at once."
 			dependencies: ["60A8108BE12AFB39"]
 			id: "6AC26B6C1525155B"
@@ -1172,8 +1103,8 @@
 			]
 		}
 		{
-			x: 9.0d
-			y: -6.5d
+			x: 7.5d
+			y: -3.0d
 			subtitle: "Factories are improved versions of machines and they can process 5 items at once."
 			dependencies: ["60A8108BE12AFB39"]
 			id: "0DFA948FD9DD8943"
@@ -1204,7 +1135,7 @@
 		}
 		{
 			icon: "indrev:pump_mk1"
-			x: -5.0d
+			x: -4.5d
 			y: -3.0d
 			subtitle: "Used to pump fluids placed in the world into fluid pipes and tanks."
 			description: [
@@ -1240,8 +1171,8 @@
 		}
 		{
 			title: "Charging the Core of Modularity"
-			x: 7.5d
-			y: -2.5d
+			x: 3.0d
+			y: -1.5d
 			subtitle: "The base for every modular tool."
 			description: [
 				"To activate it, you'll need at least one Laser, one Capsule and a lot of stored energy (100M)."
@@ -1288,13 +1219,10 @@
 			}]
 		}
 		{
-			x: 7.5d
-			y: -1.0d
+			x: 3.0d
+			y: 0.0d
 			description: ["Module levels can be configured any way you want, go into the Controls menu and add a keybind to Modular item configuration."]
-			dependencies: [
-				"3BCE5F8D19C6D53F"
-				"61096F382C04254A"
-			]
+			dependencies: ["3BCE5F8D19C6D53F"]
 			id: "6873CA3A8CD43343"
 			tasks: [{
 				id: "35D41B3A51A85FF6"
@@ -1308,25 +1236,8 @@
 			}]
 		}
 		{
-			x: 9.5d
-			y: 0.5d
-			subtitle: "Originally invented so it's creator didn't have to feed themselves."
-			dependencies: ["6873CA3A8CD43343"]
-			id: "70B21600BA90277E"
-			tasks: [{
-				id: "232CC4433FA2A5D5"
-				type: "item"
-				item: "indrev:modular_armor_helmet"
-			}]
-			rewards: [{
-				id: "5C64B251C3D29741"
-				type: "loot"
-				table_id: 13756307348121783L
-			}]
-		}
-		{
-			x: 7.5d
-			y: -4.0d
+			x: 3.0d
+			y: -3.0d
 			subtitle: "Used to install modules onto Modular Armor parts."
 			description: [
 				"Notice that installing modules cost time and some energy!"
@@ -1348,363 +1259,7 @@
 			}]
 		}
 		{
-			x: 8.5d
-			y: 0.5d
-			dependencies: ["6873CA3A8CD43343"]
-			id: "7E6C7DDA7CE568A6"
-			tasks: [{
-				id: "7D6B902175ED0E63"
-				type: "item"
-				item: "indrev:modular_armor_chest"
-			}]
-			rewards: [{
-				id: "40780345CFC2CEC8"
-				type: "loot"
-				table_id: 13756307348121783L
-			}]
-		}
-		{
-			x: 5.5d
-			y: 0.5d
-			dependencies: ["6873CA3A8CD43343"]
-			id: "50E5828991143975"
-			tasks: [{
-				id: "095E640FDD0C01E3"
-				type: "item"
-				item: "indrev:modular_armor_boots"
-			}]
-			rewards: [{
-				id: "260E7D5FBE89314B"
-				type: "loot"
-				table_id: 13756307348121783L
-			}]
-		}
-		{
-			x: 6.5d
-			y: 0.5d
-			dependencies: ["6873CA3A8CD43343"]
-			id: "43CCF76CCC9BA3F1"
-			tasks: [{
-				id: "2AA53184FE9796DC"
-				type: "item"
-				item: "indrev:modular_armor_legs"
-			}]
-			rewards: [{
-				id: "63A32C386C90D1C0"
-				type: "loot"
-				table_id: 13756307348121783L
-			}]
-		}
-		{
-			title: "Helmet Modules"
-			x: 9.5d
-			y: 2.0d
-			dependencies: ["70B21600BA90277E"]
-			id: "3C6DBBDE8DE77D0E"
-			tasks: [
-				{
-					id: "019BF656C7259832"
-					type: "item"
-					item: "indrev:module_night_vision"
-				}
-				{
-					id: "41419147396C1DC1"
-					type: "item"
-					item: "indrev:module_breathing"
-				}
-				{
-					id: "3C2ABBA7276DA446"
-					type: "item"
-					item: "indrev:module_auto_feeder"
-				}
-				{
-					id: "6DFB29605367B77A"
-					type: "item"
-					item: "indrev:module_solar_panel"
-				}
-			]
-			rewards: [{
-				id: "426AB82C6758B9A4"
-				type: "loot"
-				table_id: 13756307348121783L
-			}]
-		}
-		{
-			title: "Chestplate Modules"
-			x: 8.5d
-			y: 2.0d
-			dependencies: ["7E6C7DDA7CE568A6"]
-			id: "6F654A8FACF40A6C"
-			tasks: [
-				{
-					id: "69F19C9D5C0ADF9A"
-					type: "item"
-					item: "indrev:module_charger"
-				}
-				{
-					id: "63011A3C085A7F24"
-					type: "item"
-					item: "indrev:module_elytra"
-				}
-				{
-					id: "2C45E4BC48EBE43C"
-					type: "item"
-					item: "indrev:module_fire_resistance"
-				}
-			]
-			rewards: [{
-				id: "01146A9B7B32F204"
-				type: "loot"
-				table_id: 13756307348121783L
-			}]
-		}
-		{
-			title: "Leggings Modules"
-			x: 6.5d
-			y: 2.0d
-			dependencies: ["43CCF76CCC9BA3F1"]
-			id: "4A33B0D837A1A47E"
-			tasks: [{
-				id: "347D1C0466989A82"
-				type: "item"
-				item: "indrev:module_speed"
-			}]
-			rewards: [{
-				id: "6C54BC4ED27D67D9"
-				type: "loot"
-				table_id: 13756307348121783L
-			}]
-		}
-		{
-			title: "Boots Modules"
-			x: 5.5d
-			y: 2.0d
-			dependencies: ["50E5828991143975"]
-			id: "323E2DB782ACA2A3"
-			tasks: [
-				{
-					id: "2C3E1D5D29A13D2B"
-					type: "item"
-					item: "indrev:module_jump_boost"
-				}
-				{
-					id: "4C97242936FBB889"
-					type: "item"
-					item: "indrev:module_feather_falling"
-				}
-			]
-			rewards: [{
-				id: "09128FD2A70C8FB5"
-				type: "loot"
-				table_id: 13756307348121783L
-			}]
-		}
-		{
-			title: "Armor Modules"
-			x: 7.5d
-			y: 2.0d
-			hide_dependency_lines: true
-			dependencies: [
-				"50E5828991143975"
-				"7E6C7DDA7CE568A6"
-				"70B21600BA90277E"
-				"43CCF76CCC9BA3F1"
-				"6873CA3A8CD43343"
-			]
-			dependency_requirement: "one_completed"
-			id: "0FA5856144B8B4CE"
-			tasks: [
-				{
-					id: "74F34637FBDDD122"
-					type: "item"
-					item: "indrev:module_protection"
-				}
-				{
-					id: "1034E07AEA0A7B35"
-					type: "item"
-					item: "indrev:module_piglin_tricker"
-				}
-			]
-			rewards: [{
-				id: "45DEBB37F5F25A05"
-				type: "loot"
-				table_id: 13756307348121783L
-			}]
-		}
-		{
-			title: "Color Modules"
-			x: 7.5d
-			y: 0.5d
-			subtitle: "Do not have recipes, you must find them in dungeons."
-			description: ["Can you find them all?"]
-			hide_dependency_lines: true
-			dependencies: [
-				"50E5828991143975"
-				"7E6C7DDA7CE568A6"
-				"70B21600BA90277E"
-				"43CCF76CCC9BA3F1"
-			]
-			dependency_requirement: "one_completed"
-			id: "7DD0B28B994964AE"
-			tasks: [
-				{
-					id: "1013B559A738E92F"
-					type: "item"
-					item: "indrev:module_color_pink"
-				}
-				{
-					id: "2F2624E943122767"
-					type: "item"
-					item: "indrev:module_color_red"
-				}
-				{
-					id: "7EDE2B8620CC70AB"
-					type: "item"
-					item: "indrev:module_color_purple"
-				}
-				{
-					id: "1B6ED0ACDFBCF08B"
-					type: "item"
-					item: "indrev:module_color_blue"
-				}
-				{
-					id: "4EBF8BB1C828B43F"
-					type: "item"
-					item: "indrev:module_color_cyan"
-				}
-				{
-					id: "162B95D272482A99"
-					type: "item"
-					item: "indrev:module_color_green"
-				}
-				{
-					id: "7C47252C49DE6668"
-					type: "item"
-					item: "indrev:module_color_yellow"
-				}
-				{
-					id: "22E5EFD470FABB87"
-					type: "item"
-					item: "indrev:module_color_orange"
-				}
-				{
-					id: "2B1B89A357CA1D52"
-					type: "item"
-					item: "indrev:module_color_black"
-				}
-				{
-					id: "1559BAAB88282020"
-					type: "item"
-					item: "indrev:module_color_brown"
-				}
-			]
-			rewards: [{
-				id: "6552F29A7D0725E8"
-				type: "loot"
-				table_id: 13756307348121783L
-			}]
-		}
-		{
-			title: "Drill Modules"
-			x: 2.0d
-			y: -1.5d
-			subtitle: "Upgrades can boost machines stats."
-			dependencies: ["506362EC509AA1A8"]
-			id: "50BC772C414A1EAD"
-			tasks: [
-				{
-					id: "1033152CA5E70A76"
-					type: "item"
-					item: "indrev:module_range"
-				}
-				{
-					id: "40E31840F48D2DE4"
-					type: "item"
-					item: "indrev:module_fortune"
-				}
-				{
-					id: "4A9EDCC8E7294DDD"
-					type: "item"
-					item: "indrev:module_silk_touch"
-				}
-				{
-					id: "0F4A085127A0EB70"
-					type: "item"
-					item: "indrev:module_efficiency"
-				}
-			]
-			rewards: [{
-				id: "26D676A15F6184CE"
-				type: "loot"
-				table_id: 13756307348121783L
-			}]
-		}
-		{
-			title: "Axe Modules"
-			x: 4.5d
-			y: 2.0d
-			dependencies: ["7055A363F8DDC7FF"]
-			id: "7425F4E8BCF6F0D1"
-			tasks: [
-				{
-					id: "68EF5DA4B93ACDA6"
-					type: "item"
-					item: "indrev:module_looting"
-				}
-				{
-					id: "6CA2787E39B5978D"
-					type: "item"
-					item: "indrev:module_fire_aspect"
-				}
-				{
-					id: "63343A1B6AEA6468"
-					type: "item"
-					item: "indrev:module_sharpness"
-				}
-				{
-					id: "67506E6AFB81E8E4"
-					type: "item"
-					item: "indrev:module_efficiency"
-				}
-			]
-			rewards: [{
-				id: "1A681495004F3532"
-				type: "loot"
-				table_id: 13756307348121783L
-			}]
-		}
-		{
-			x: 4.5d
-			y: 0.5d
-			subtitle: "The final gaming tool."
-			description: [
-				"It mines fast and deals great amount of damage when modules are installed."
-				""
-				"It may seem like just a stick, but wait until you activate it..."
-				""
-				")Use Right Click to activate it."
-			]
-			dependencies: ["2094448C58554B0B"]
-			id: "7055A363F8DDC7FF"
-			tasks: [{
-				id: "7DCAB581CB456599"
-				type: "item"
-				item: {
-					id: "indrev:gamer_axe"
-					Count: 1b
-					tag: {
-						Damage: 0
-					}
-				}
-			}]
-			rewards: [{
-				id: "5920803FF09C0AF1"
-				type: "loot"
-				table_id: 13756307348121783L
-			}]
-		}
-		{
-			x: 4.5d
+			x: 3.0d
 			y: -4.5d
 			dependencies: ["65E60EDD6DE18DC2"]
 			id: "2094448C58554B0B"
@@ -1721,7 +1276,7 @@
 			}]
 		}
 		{
-			x: -4.0d
+			x: -3.0d
 			y: -6.0d
 			subtitle: "Upgrades MK1 machines to MK2."
 			description: ["These upgrades will improve the machine's input and output capability as well as other aspects. Right clicking on a machine below the upgrade's tier will upgrade it."]
@@ -1739,7 +1294,7 @@
 			}]
 		}
 		{
-			x: -2.0d
+			x: -1.0d
 			y: -6.0d
 			subtitle: "Upgrades MK2 machines to MK3."
 			description: ["These upgrades will improve the machine's input and output capability as well as other aspects. Right clicking on a machine below the upgrade's tier will upgrade it."]
@@ -1758,7 +1313,7 @@
 		}
 		{
 			x: 0.0d
-			y: -6.0d
+			y: -7.5d
 			subtitle: "Upgrades MK3 machines to MK4."
 			description: ["These upgrades will improve the machine's input and output capability as well as other aspects. Right clicking on a machine below the upgrade's tier will upgrade it."]
 			dependencies: ["65E60EDD6DE18DC2"]
@@ -1776,7 +1331,7 @@
 		}
 		{
 			title: "Mining Rig"
-			x: 4.5d
+			x: 3.0d
 			y: -7.5d
 			subtitle: "I have confidence in mining. I see exciting opportunities in it."
 			description: [
