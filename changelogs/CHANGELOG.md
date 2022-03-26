@@ -4,7 +4,6 @@ _Fabric Loader 0.13.3_ | _[Mod Updates](https://github.com/TeamAOF/All-of-Fabric
 
 ## Changes
 
-* Added Challenges chapter.
 * Added artifacts quest to Adventurer chapter.
 * Tools and Armor chapter has been fully redone.
 * Removed duplicate quests from Industrial Revolution chapter.
@@ -43,7 +42,10 @@ _Fabric Loader 0.13.3_ | _[Mod Updates](https://github.com/TeamAOF/All-of-Fabric
 
 ## Added
 
+* ['Dustrial Decor [Fabric]](https://www.curseforge.com/minecraft/mc-mods/dustrial-decor-fabric)
+* [AOF Emotes](https://www.curseforge.com/minecraft/mc-mods/aof-emotes)
 * [Ambient Environment](https://www.curseforge.com/minecraft/mc-mods/ambient-environment)
+* [Animal Feeding Trough [Fabric | Forge]](https://www.curseforge.com/minecraft/mc-mods/animal-feeding-trough)
 * [Beacon Overhaul](https://www.curseforge.com/minecraft/mc-mods/beaconoverhaul)
 * [Better Loading Screen](https://www.curseforge.com/minecraft/mc-mods/betterloadingscreen)
 * [Better Ping Display [Fabric]](https://www.curseforge.com/minecraft/mc-mods/better-ping-display-fabric)
@@ -56,9 +58,10 @@ _Fabric Loader 0.13.3_ | _[Mod Updates](https://github.com/TeamAOF/All-of-Fabric
 * [Dual Riders](https://www.curseforge.com/minecraft/mc-mods/dual-riders)
 * [Dusk[Forge/Fabric]](https://www.curseforge.com/minecraft/mc-mods/dusk)
 * [Easy Magic [Fabric]](https://www.curseforge.com/minecraft/mc-mods/easy-magic-fabric)
+* [Ecologics](https://www.curseforge.com/minecraft/mc-mods/ecologics)
+* [Egg Tab - Fabric](https://www.curseforge.com/minecraft/mc-mods/eggtab-fabric)
 * [Farsight [Fabric]](https://www.curseforge.com/minecraft/mc-mods/farsight-fabric)
 * [Iris Shaders](https://www.curseforge.com/minecraft/mc-mods/irisshaders)
-* [Leaves Us In Peace](https://www.curseforge.com/minecraft/mc-mods/leaves-us-in-peace)
 * [Login Protection[Forge/Fabric]](https://www.curseforge.com/minecraft/mc-mods/login-protection)
 * [Macaw's Lights and Lamps](https://www.curseforge.com/minecraft/mc-mods/macaws-lights-and-lamps)
 * [Mob Scarecrows](https://www.curseforge.com/minecraft/mc-mods/mob-scarecrows)
@@ -79,8 +82,10 @@ _Fabric Loader 0.13.3_ | _[Mod Updates](https://github.com/TeamAOF/All-of-Fabric
 
 ## Removed
 
+* [Better Animals Plus](https://www.curseforge.com/minecraft/mc-mods/betteranimalsplus)
 * [CraftingCraft (Fabric Edition)](https://www.curseforge.com/minecraft/mc-mods/craftingcraft-fabric)
 * [Creatures From The Snow! [Fabric]](https://www.curseforge.com/minecraft/mc-mods/creatures-of-the-snow)
+* [Fabric Emotes](https://www.curseforge.com/minecraft/mc-mods/fabric-emotes)
 * [Fabric Shield Lib](https://www.curseforge.com/minecraft/mc-mods/fabric-shield-lib)
 * [Mannequins](https://www.curseforge.com/minecraft/mc-mods/mannequins)
 * [Pollen](https://www.curseforge.com/minecraft/mc-mods/pollen)

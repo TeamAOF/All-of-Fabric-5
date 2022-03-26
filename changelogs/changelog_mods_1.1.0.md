@@ -2,7 +2,10 @@
 
 ## Added
 
+* ['Dustrial Decor [Fabric]](https://www.curseforge.com/minecraft/mc-mods/dustrial-decor-fabric)
+* [AOF Emotes](https://www.curseforge.com/minecraft/mc-mods/aof-emotes)
 * [Ambient Environment](https://www.curseforge.com/minecraft/mc-mods/ambient-environment)
+* [Animal Feeding Trough [Fabric | Forge]](https://www.curseforge.com/minecraft/mc-mods/animal-feeding-trough)
 * [Beacon Overhaul](https://www.curseforge.com/minecraft/mc-mods/beaconoverhaul)
 * [Better Loading Screen](https://www.curseforge.com/minecraft/mc-mods/betterloadingscreen)
 * [Better Ping Display [Fabric]](https://www.curseforge.com/minecraft/mc-mods/better-ping-display-fabric)
@@ -15,9 +18,10 @@
 * [Dual Riders](https://www.curseforge.com/minecraft/mc-mods/dual-riders)
 * [Dusk[Forge/Fabric]](https://www.curseforge.com/minecraft/mc-mods/dusk)
 * [Easy Magic [Fabric]](https://www.curseforge.com/minecraft/mc-mods/easy-magic-fabric)
+* [Ecologics](https://www.curseforge.com/minecraft/mc-mods/ecologics)
+* [Egg Tab - Fabric](https://www.curseforge.com/minecraft/mc-mods/eggtab-fabric)
 * [Farsight [Fabric]](https://www.curseforge.com/minecraft/mc-mods/farsight-fabric)
 * [Iris Shaders](https://www.curseforge.com/minecraft/mc-mods/irisshaders)
-* [Leaves Us In Peace](https://www.curseforge.com/minecraft/mc-mods/leaves-us-in-peace)
 * [Login Protection[Forge/Fabric]](https://www.curseforge.com/minecraft/mc-mods/login-protection)
 * [Macaw's Lights and Lamps](https://www.curseforge.com/minecraft/mc-mods/macaws-lights-and-lamps)
 * [Mob Scarecrows](https://www.curseforge.com/minecraft/mc-mods/mob-scarecrows)
@@ -38,31 +42,35 @@
 
 ## Updated
 
-### [Architectury API (Fabric)](https://www.curseforge.com/minecraft/mc-mods/architectury-fabric) ([[Fabric 1.18(.1)] v3.7.26](https://www.curseforge.com/minecraft/mc-mods/architectury-fabric/files/3666162)⟶[[Fabric 1.18(.1)] v3.7.31](https://www.curseforge.com/minecraft/mc-mods/architectury-fabric/files/3671604))
+### [Applied Energistics 2 Wireless Terminals](https://www.curseforge.com/minecraft/mc-mods/applied-energistics-2-wireless-terminals) ([10.1.1-beta.5-fabric](https://www.curseforge.com/minecraft/mc-mods/applied-energistics-2-wireless-terminals/files/3646894)⟶[10.1.1-beta.6-fabric](https://www.curseforge.com/minecraft/mc-mods/applied-energistics-2-wireless-terminals/files/3711161))
 
-#### [[Fabric 1.18(.1)] v3.7.31](https://www.curseforge.com/minecraft/mc-mods/architectury-fabric/files/3671604)
+#### [10.1.1-beta.6-fabric](https://www.curseforge.com/minecraft/mc-mods/applied-energistics-2-wireless-terminals/files/3711161)
 
-Architectury v3.7.31 for 1.18(.1)
+show Wireless Universal Terminal with an installed crafting terminal as REI workstation (Fabric) show Wireless Universal Terminal with an installed crafting terminal as JEI recipe catalyst (Forge) make wireless terminals usable in curio slots (Forge)
 
-Updated at 2022-03-04 02:09.
+#### [1 more entry](https://www.curseforge.com/minecraft/mc-mods/applied-energistics-2-wireless-terminals/files/all)
+
+### [Architectury API (Fabric)](https://www.curseforge.com/minecraft/mc-mods/architectury-fabric) ([[Fabric 1.18(.1)] v3.7.26](https://www.curseforge.com/minecraft/mc-mods/architectury-fabric/files/3666162)⟶[[Fabric 1.18(.1)] v3.7.33](https://www.curseforge.com/minecraft/mc-mods/architectury-fabric/files/3705892))
+
+#### [[Fabric 1.18(.1)] v3.7.33](https://www.curseforge.com/minecraft/mc-mods/architectury-fabric/files/3705892)
+
+Architectury v3.7.33 for 1.18(.1)
+
+Updated at 2022-03-20 12:33.
 
 [Click here for changelog](https://www.github.com/architectury/architectury/commits/1.18)
 
-* Prevent getFeatures from crashing due to IndexOutOfRange
+* Fixed EntitySpawnExtension buffer being unable to be read from, Fix #208 (#220)
 
-#### [3 more entries](https://www.curseforge.com/minecraft/mc-mods/architectury-fabric/files/all)
+#### [5 more entries](https://www.curseforge.com/minecraft/mc-mods/architectury-fabric/files/all)
 
-### [Better Animals Plus](https://www.curseforge.com/minecraft/mc-mods/betteranimalsplus) ([Better Animals Plus 1.18.1-11.0.4 [Fabric]](https://www.curseforge.com/minecraft/mc-mods/betteranimalsplus/files/3633571)⟶[Better Animals Plus 1.18.1-11.0.5 [Fabric]](https://www.curseforge.com/minecraft/mc-mods/betteranimalsplus/files/3680859))
+### [Better Compatibility Checker](https://www.curseforge.com/minecraft/mc-mods/better-compatibility-checker) ([bcc-fabric-1.0.4.jar](https://www.curseforge.com/minecraft/mc-mods/better-compatibility-checker/files/3569379)⟶[betterCompatibilityChecker-fabric-1.0.5.jar](https://www.curseforge.com/minecraft/mc-mods/better-compatibility-checker/files/3679841))
 
-#### [Better Animals Plus 1.18.1-11.0.5 [Fabric]](https://www.curseforge.com/minecraft/mc-mods/betteranimalsplus/files/3680859)
+#### [betterCompatibilityChecker-fabric-1.0.5.jar](https://www.curseforge.com/minecraft/mc-mods/better-compatibility-checker/files/3679841)
 
-11.0.5
+No changelog available.
 
-* Fixed bug where the goose pickup blocklist did not work
-* Revised text for punch a bear to death advancement in light of recent world events
-* 1.16 Forge: Fixed capes not animating when worn in the back slot
-
-#### [1 more entry](https://www.curseforge.com/minecraft/mc-mods/betteranimalsplus/files/all)
+#### [6 more entries](https://www.curseforge.com/minecraft/mc-mods/better-compatibility-checker/files/all)
 
 ### [Bewitchment](https://www.curseforge.com/minecraft/mc-mods/bewitchment) ([bewitchment-1.18-14.jar](https://www.curseforge.com/minecraft/mc-mods/bewitchment/files/3658194)⟶[bewitchment-1.18-15.jar](https://www.curseforge.com/minecraft/mc-mods/bewitchment/files/3672524))
 
@@ -72,27 +80,76 @@ Updated at 2022-03-04 02:09.
 
 -fix [https://github.com/MoriyaShiine/bewitchment/issues/261](https://github.com/MoriyaShiine/bewitchment/issues/261)
 
-### [BisectHosting Server Integration Menu [FABRIC]](https://www.curseforge.com/minecraft/mc-mods/bisecthosting-server-integration-menu-fabric) ([BH Menu 1.17.1-1.18.2 v1.1](https://www.curseforge.com/minecraft/mc-mods/bisecthosting-server-integration-menu-fabric/files/3670476)⟶[BH Menu 1.17.1-1.18.2 v1.2](https://www.curseforge.com/minecraft/mc-mods/bisecthosting-server-integration-menu-fabric/files/3684000))
+### [BisectHosting Server Integration Menu [FABRIC]](https://www.curseforge.com/minecraft/mc-mods/bisecthosting-server-integration-menu-fabric) ([BH Menu 1.17.1-1.18.2 v1.1](https://www.curseforge.com/minecraft/mc-mods/bisecthosting-server-integration-menu-fabric/files/3670476)⟶[BH Menu 1.17.1-1.18.2 v1.3](https://www.curseforge.com/minecraft/mc-mods/bisecthosting-server-integration-menu-fabric/files/3707430))
 
-#### [BH Menu 1.17.1-1.18.2 v1.2](https://www.curseforge.com/minecraft/mc-mods/bisecthosting-server-integration-menu-fabric/files/3684000)
+#### [BH Menu 1.17.1-1.18.2 v1.3](https://www.curseforge.com/minecraft/mc-mods/bisecthosting-server-integration-menu-fabric/files/3707430)
 
-Version v1.2 (General Bugfixes)
+Version v1.3 (New Languages)
 
-* Resolved narrator crashing
-* Added additional version support
-* Resolved random bugs and defects.
+* Added language translation capability for configs and the order process
 
-### [Blockus](https://www.curseforge.com/minecraft/mc-mods/blockus) ([(1.18.1) blockus-2.3.6+1.18.1](https://www.curseforge.com/minecraft/mc-mods/blockus/files/3670094)⟶[(1.18.1) blockus-2.3.7+1.18.1](https://www.curseforge.com/minecraft/mc-mods/blockus/files/3693338))
+#### [1 more entry](https://www.curseforge.com/minecraft/mc-mods/bisecthosting-server-integration-menu-fabric/files/all)
 
-#### [(1.18.1) blockus-2.3.7+1.18.1](https://www.curseforge.com/minecraft/mc-mods/blockus/files/3693338)
+### [Blockus](https://www.curseforge.com/minecraft/mc-mods/blockus) ([(1.18.1) blockus-2.3.6+1.18.1](https://www.curseforge.com/minecraft/mc-mods/blockus/files/3670094)⟶[(1.18.1) blockus-2.3.10+1.18.1](https://www.curseforge.com/minecraft/mc-mods/blockus/files/3711897))
 
-This version is not for 1.18.2
+#### [(1.18.1) blockus-2.3.10+1.18.1](https://www.curseforge.com/minecraft/mc-mods/blockus/files/3711897)
 
-* You can now use a poppy on a Weight Storage Cube to turns it into a Companion Cube.
-* Tweaked texture for Chiseled Andesite Bricks, Chiseled Diorite Bricks, Chiseled Granite Bricks and Chiseled Tuff
-* Fixed [Burnt Paper Blocks no longer give gunpowder when crafting them](https://github.com/Brandcraf06/Blockus/issues/220)
-* Fixed [Shingles cannot be made from uncolored terracotta](https://github.com/Brandcraf06/Blockus/issues/222)
-* Change of how some blocks are registered (Thanks to [Hugman](https://github.com/Hugman76) for the help)
+* Added a new recipe for teal nether bricks (1 Warped Wart Block & 1 Nether Bricks = 2 Teal Nether Bricks)
+* Fixed [Wall Signs Texture error](https://github.com/Brandcraf06/Blockus/issues/229)
+
+#### [6 more entries](https://www.curseforge.com/minecraft/mc-mods/blockus/files/all)
+
+### [Bookshelf](https://www.curseforge.com/minecraft/mc-mods/bookshelf) ([Bookshelf-Fabric-1.18.1-12.0.21.jar](https://www.curseforge.com/minecraft/mc-mods/bookshelf/files/3669434)⟶[Bookshelf-Fabric-1.18.1-12.0.23.jar](https://www.curseforge.com/minecraft/mc-mods/bookshelf/files/3712012))
+
+#### [Bookshelf-Fabric-1.18.1-12.0.23.jar](https://www.curseforge.com/minecraft/mc-mods/bookshelf/files/3712012)
+
+* Add way to get mod name from modid. [(45af172b)](https://github.com/Darkhax-Minecraft/Bookshelf/commit/45af172b)
+
+This project is made possible by [Patreon](https://www.patreon.com/Darkhax?bookshelf) support from players like you. Thank you!
+
+* Rempler
+* lothrazar
+* SuperslowJelly
+* Spencer Gilbert
+* Adam Y
+* Pongo Sapiens
+* Darkosto
+
+#### [15 more entries](https://www.curseforge.com/minecraft/mc-mods/bookshelf/files/all)
+
+### [Caracal Mod (Fabric/Forge)](https://www.curseforge.com/minecraft/mc-mods/caracal-mod) ([[1.18-fabric] Caracal 1.3.5.1](https://www.curseforge.com/minecraft/mc-mods/caracal-mod/files/3580009)⟶[[1.18-fabric] Caracal 1.3.7.1](https://www.curseforge.com/minecraft/mc-mods/caracal-mod/files/3709593))
+
+#### [[1.18-fabric] Caracal 1.3.7.1](https://www.curseforge.com/minecraft/mc-mods/caracal-mod/files/3709593)
+
+No changelog available.
+
+#### [3 more entries](https://www.curseforge.com/minecraft/mc-mods/caracal-mod/files/all)
+
+### [Chisel Refabricated](https://www.curseforge.com/minecraft/mc-mods/fabric-chisel) ([[1.18.1] 1.4.4](https://www.curseforge.com/minecraft/mc-mods/fabric-chisel/files/3578088)⟶[ [1.18.x] 1.4.5](https://www.curseforge.com/minecraft/mc-mods/fabric-chisel/files/3695148))
+
+#### [ [1.18.x] 1.4.5](https://www.curseforge.com/minecraft/mc-mods/fabric-chisel/files/3695148)
+
+Makes all 1.18 versions work with the mod
+
+#### [1 more entry](https://www.curseforge.com/minecraft/mc-mods/fabric-chisel/files/all)
+
+### [Croptopia [FABRIC/FORGE]](https://www.curseforge.com/minecraft/mc-mods/croptopia-fabric) ([Croptopia-1.18-FABRIC-1.8.2.jar](https://www.curseforge.com/minecraft/mc-mods/croptopia-fabric/files/3671479)⟶[Croptopia-1.18-FABRIC-1.8.3.jar](https://www.curseforge.com/minecraft/mc-mods/croptopia-fabric/files/3707654))
+
+#### [Croptopia-1.18-FABRIC-1.8.3.jar](https://www.curseforge.com/minecraft/mc-mods/croptopia-fabric/files/3707654)
+
+#324 Make Chile Peppers edible so villagers will pick them up.
+
+#330 Add FarmingForBlockheads market support for Croptopia seeds
+
+Fix: qualify croptopia:guide as a book
+
+#337 add a line break to the seed tooltip
+
+#336 fix poblanos and tamales using the wrong pepper
+
+#303 try to make coconut trees spawn more frequently
+
+#### [1 more entry](https://www.curseforge.com/minecraft/mc-mods/croptopia-fabric/files/all)
 
 ### [Deep Mob Learning: Refabricated](https://www.curseforge.com/minecraft/mc-mods/deep-mob-learning-refabricated) ([Deep Mob Learning: Refabricated 1.18.1+0.5.2-beta](https://www.curseforge.com/minecraft/mc-mods/deep-mob-learning-refabricated/files/3657658)⟶[Deep Mob Learning: Refabricated 1.18.1+0.5.3-beta](https://www.curseforge.com/minecraft/mc-mods/deep-mob-learning-refabricated/files/3680143))
 
@@ -197,13 +254,22 @@ v1.16
 * Fix StructureTask only recognising structures found in BuiltinRegistries (#42) - Max
 * Update issue tracker url (#641) - MelanX
 
-### [Guard Villagers (Fabric)](https://www.curseforge.com/minecraft/mc-mods/guard-villagers-fabric) ([guard-villagers-fabric-1.0.7](https://www.curseforge.com/minecraft/mc-mods/guard-villagers-fabric/files/3651844)⟶[guard-villagers-fabric-1.0.9](https://www.curseforge.com/minecraft/mc-mods/guard-villagers-fabric/files/3680874))
+### [Guard Villagers (Fabric)](https://www.curseforge.com/minecraft/mc-mods/guard-villagers-fabric) ([guard-villagers-fabric-1.0.7](https://www.curseforge.com/minecraft/mc-mods/guard-villagers-fabric/files/3651844)⟶[guard-villagers-fabric-1.18.1-1.0.10](https://www.curseforge.com/minecraft/mc-mods/guard-villagers-fabric/files/3697633))
 
-#### [guard-villagers-fabric-1.0.9](https://www.curseforge.com/minecraft/mc-mods/guard-villagers-fabric/files/3680874)
+#### [guard-villagers-fabric-1.18.1-1.0.10](https://www.curseforge.com/minecraft/mc-mods/guard-villagers-fabric/files/3697633)
 
--blacklist config fix
+Added Modmenu support
 
-#### [1 more entry](https://www.curseforge.com/minecraft/mc-mods/guard-villagers-fabric/files/all)
+#### [3 more entries](https://www.curseforge.com/minecraft/mc-mods/guard-villagers-fabric/files/all)
+
+### [Industrial Revolution](https://www.curseforge.com/minecraft/mc-mods/industrial-revolution) ([Industrial Revolution 1.13.6-BETA](https://www.curseforge.com/minecraft/mc-mods/industrial-revolution/files/3599880)⟶[Industrial Revolution 1.13.7-BETA](https://www.curseforge.com/minecraft/mc-mods/industrial-revolution/files/3696625))
+
+#### [Industrial Revolution 1.13.7-BETA](https://www.curseforge.com/minecraft/mc-mods/industrial-revolution/files/3696625)
+
+* Fix desync when applying covers
+* You have to hit the cover with the wrench to remove it
+* Fixed broken tooltips inside the Modular Workbench
+* Fix wrenched pipes connecting again on block updates
 
 ### [Nature's Compass](https://www.curseforge.com/minecraft/mc-mods/natures-compass) ([NaturesCompass-1.18.1-2.0.2-fabric.jar](https://www.curseforge.com/minecraft/mc-mods/natures-compass/files/3569968)⟶[NaturesCompass-1.18.1-2.0.3-fabric.jar](https://www.curseforge.com/minecraft/mc-mods/natures-compass/files/3684912))
 
@@ -306,6 +372,14 @@ FORGE: 1.9.3 - 1.18.1, 1.18
 
 #### [1 more entry](https://www.curseforge.com/minecraft/mc-mods/natures-compass/files/all)
 
+### [Plushie Mod](https://www.curseforge.com/minecraft/mc-mods/plushie-mod) ([v1.1 for 1.18.1](https://www.curseforge.com/minecraft/mc-mods/plushie-mod/files/3559945)⟶[v1.2 for 1.18.1](https://www.curseforge.com/minecraft/mc-mods/plushie-mod/files/3699524))
+
+#### [v1.2 for 1.18.1](https://www.curseforge.com/minecraft/mc-mods/plushie-mod/files/3699524)
+
+v1.2 for 1.18.1
+
+#### [1 more entry](https://www.curseforge.com/minecraft/mc-mods/plushie-mod/files/all)
+
 ### [Quests Additions (Fabric)](https://www.curseforge.com/minecraft/mc-mods/quests-additions-fabric) ([questsadditions-fabric-1.18-1.1.2.jar](https://www.curseforge.com/minecraft/mc-mods/quests-additions-fabric/files/3668455)⟶[questsadditions-fabric-1.18-1.2.0.jar](https://www.curseforge.com/minecraft/mc-mods/quests-additions-fabric/files/3682970))
 
 #### [questsadditions-fabric-1.18-1.2.0.jar](https://www.curseforge.com/minecraft/mc-mods/quests-additions-fabric/files/3682970)
@@ -318,6 +392,39 @@ FORGE: 1.9.3 - 1.18.1, 1.18
 1 new block:
 
 * Loot Crate Block: same as the Loot Crate from ftb quests but it's a block.
+
+### [Rhino](https://www.curseforge.com/minecraft/mc-mods/rhino) ([rhino-fabric-1801.1.8-build.102.jar](https://www.curseforge.com/minecraft/mc-mods/rhino/files/3647780)⟶[rhino-fabric-1801.1.8-build.108.jar](https://www.curseforge.com/minecraft/mc-mods/rhino/files/3711802))
+
+#### [rhino-fabric-1801.1.8-build.108.jar](https://www.curseforge.com/minecraft/mc-mods/rhino/files/3711802)
+
+* Merge branch '1.18/dev' into 1.18/main - LatvianModder
+* Exposed some JavaMembers methods, removed Fabric API dependency - LatvianModder
+
+#### [5 more entries](https://www.curseforge.com/minecraft/mc-mods/rhino/files/all)
+
+### [Spectrum](https://www.curseforge.com/minecraft/mc-mods/spectrum) ([1.2.8-midgame9](https://www.curseforge.com/minecraft/mc-mods/spectrum/files/3631776)⟶[1.2.10-midgame11-trinkets-brewing](https://www.curseforge.com/minecraft/mc-mods/spectrum/files/3699682))
+
+#### [1.2.10-midgame11-trinkets-brewing](https://www.curseforge.com/minecraft/mc-mods/spectrum/files/3699682)
+
+Mostly a small bugfix release that patches a server crash and a few other minor improvements
+
+* Fixed crash with the Fabrication Chest
+* Fixed Azure Dike not immediately recharging when relogging a world
+* Azure Dike does not protect from some damage sources anymore (Starvation, Void)
+* Fixed recipe conflict between Chiseled Blocks and Bricks
+* Added Stonecutter recipes for Notched Blocks
+* Added a Fusion Recipe for Gilded Blackstone
+* Config option to show recipes in REI as "not yet unlocked" instead of hiding them completely
+
+#### [1 more entry](https://www.curseforge.com/minecraft/mc-mods/spectrum/files/all)
+
+### [WTHIT](https://www.curseforge.com/minecraft/mc-mods/wthit) ([[1.18.1] 4.5.4](https://www.curseforge.com/minecraft/mc-mods/wthit/files/3662798)⟶[[1.18.1] 4.5.5](https://www.curseforge.com/minecraft/mc-mods/wthit/files/3707003))
+
+#### [[1.18.1] 4.5.5](https://www.curseforge.com/minecraft/mc-mods/wthit/files/3707003)
+
+[https://github.com/badasintended/wthit/releases/tag/4.5.5](https://github.com/badasintended/wthit/releases/tag/4.5.5)
+
+#### [4 more entries](https://www.curseforge.com/minecraft/mc-mods/wthit/files/all)
 
 ### [You're in Grave Danger](https://www.curseforge.com/minecraft/mc-mods/youre-in-grave-danger) ([youre-in-grave-danger-1.2.21](https://www.curseforge.com/minecraft/mc-mods/youre-in-grave-danger/files/3670012)⟶[youre-in-grave-danger-1.2.22](https://www.curseforge.com/minecraft/mc-mods/youre-in-grave-danger/files/3675866))
 
@@ -351,8 +458,10 @@ Fixed error in English translation.
 
 ## Removed
 
+* [Better Animals Plus](https://www.curseforge.com/minecraft/mc-mods/betteranimalsplus)
 * [CraftingCraft (Fabric Edition)](https://www.curseforge.com/minecraft/mc-mods/craftingcraft-fabric)
 * [Creatures From The Snow! [Fabric]](https://www.curseforge.com/minecraft/mc-mods/creatures-of-the-snow)
+* [Fabric Emotes](https://www.curseforge.com/minecraft/mc-mods/fabric-emotes)
 * [Fabric Shield Lib](https://www.curseforge.com/minecraft/mc-mods/fabric-shield-lib)
 * [Mannequins](https://www.curseforge.com/minecraft/mc-mods/mannequins)
 * [Pollen](https://www.curseforge.com/minecraft/mc-mods/pollen)
