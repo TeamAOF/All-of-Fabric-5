@@ -56,7 +56,6 @@
 		{ item: "croptopia:tea", count: 3, random_bonus: 3 }
 		{ item: "techreborn:electronic_circuit" }
 		{ item: "techreborn:advanced_circuit" }
-		{ item: "techreborn:industrial_circuit" }
 		{ item: "indrev:circuit_mk1" }
 		{ item: "indrev:circuit_mk2" }
 		{ item: "indrev:circuit_mk3" }
@@ -625,9 +624,6 @@
 			}
 			count: 4
 		}
-		{ item: "bosses_of_mass_destruction:blazing_eye" }
-		{ item: "bosses_of_mass_destruction:ancient_anima" }
-		{ item: "bosses_of_mass_destruction:void_thorn" }
 		{ item: "chisel:chisel" }
 		{
 			item: {
@@ -733,9 +729,8 @@
 		{ item: "modern_industrialization:fluid_pipe", count: 8, random_bonus: 32 }
 		{ item: "modern_industrialization:item_pipe", count: 8, random_bonus: 32 }
 		{ item: "modern_industrialization:tungsten_ingot", count: 3, random_bonus: 8 }
-		{ item: "techreborn:basic_machine_casing", count: 3, random_bonus: 2 }
+		{ item: "techreborn:basic_machine_casing", count: 2, random_bonus: 2 }
 		{ item: "techreborn:advanced_machine_casing", count: 2, random_bonus: 1 }
-		{ item: "techreborn:industrial_machine_casing", count: 2, random_bonus: 1 }
 		{ item: "techreborn:basic_machine_frame", count: 2 }
 		{ item: "techreborn:advanced_machine_frame", count: 2 }
 		{ item: "extragenerators:burnable_generator" }
@@ -852,7 +847,7 @@
 		{ item: "glassential:tinted_ethereal_glass", count: 4, random_bonus: 4 }
 		{ item: "glassential:ethereal_glass", count: 4, random_bonus: 4 }
 		{ item: "glassential:light_glass", count: 4, random_bonus: 4 }
-		{ item: "dark-enchanting:dark_conduit", count: 2 }
+		{ item: "dark-enchanting:dark_conduit" }
 		{ item: "botania:magnet_ring" }
 		{
 			item: {
@@ -1550,7 +1545,6 @@
 		{ item: "croptopia:tres_leche_cake", count: 8 }
 		{ item: "minecraft:stone", count: 16 }
 		{ item: "minecraft:iron_ore", count: 3, random_bonus: 5 }
-		{ item: "betteranimalsplus:crab_bucket" }
 		{ item: "croptopia:stuffed_poblanos", count: 6 }
 		{ item: "croptopia:squash", count: 8 }
 		{ item: "croptopia:avocado", count: 6 }
@@ -1702,5 +1696,9 @@
 		{ item: "darkutils:vector_plate", count: 6, random_bonus: 6 }
 		{ item: "darkutils:vector_plate_fast", count: 6, random_bonus: 6 }
 		{ item: "darkutils:vector_plate_extreme", count: 6, random_bonus: 6 }
+		{ item: "twigs:crimson_roots_paper_lantern", count: 6 }
+		{ item: "strawdummy:strawdummy" }
+		{ item: "animal_feeding_trough:feeding_trough", count: 2 }
+		{ item: "tradingpost:trading_post" }
 	]
 }

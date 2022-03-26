@@ -1,3 +1,25 @@
+### All of Fabric 5 | v1.1.1
+
+_Fabric Loader 0.13.3_ | _[Mod Updates](https://github.com/TeamAOF/All-of-Fabric-5/blob/main/changelogs/changelog_mods_1.1.1.md)_ | _[Modlist](https://github.com/TeamAOF/All-of-Fabric-5/blob/main/changelogs/modlist_1.1.1.md)_
+
+## Changes
+
+* Increased Baby Backpack row width by 2.
+* Removed Challenges quest in Getting Started chapter for now (full feature will be added soon).
+* Removed BOMD items from quest rewards.
+
+## Fixes
+
+* Missing icon for storage chapter.
+* End of file unexpected (expecting "then") error launching .sh script with servers.
+* Seeds not working on certain farmlands like BYG and Farmers Delight.
+
+## Added
+
+* [Dyed](https://www.curseforge.com/minecraft/mc-mods/dyed)
+* [Raised](https://www.curseforge.com/minecraft/mc-mods/raised)
+---
+
 ### All of Fabric 5 | v1.1.0
 
 _Fabric Loader 0.13.3_ | _[Mod Updates](https://github.com/TeamAOF/All-of-Fabric-5/blob/main/changelogs/changelog_mods_1.1.0.md)_ | _[Modlist](https://github.com/TeamAOF/All-of-Fabric-5/blob/main/changelogs/modlist_1.1.0.md)_

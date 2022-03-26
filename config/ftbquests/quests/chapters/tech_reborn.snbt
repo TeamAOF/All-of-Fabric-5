@@ -1232,6 +1232,7 @@
 			x: -13.5d
 			y: -1.5d
 			subtitle: "Used to build basic machines."
+			description: ["NOTE: Before having access to a Compressor, you'll need to use the Forge Hammer from MI to craft plates of said kind."]
 			dependencies: ["080ED62486BE9176"]
 			id: "14F7AC09561537D7"
 			tasks: [{

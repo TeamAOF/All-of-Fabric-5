@@ -1081,6 +1081,7 @@
 			x: 14.000680272108838d
 			y: -4.008163265306102d
 			shape: "gear"
+			subtitle: "A Digital World!"
 			dependencies: [
 				"036292964BDE4944"
 				"64BACF5B60AD2406"

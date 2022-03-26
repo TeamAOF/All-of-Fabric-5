@@ -426,7 +426,7 @@
 				""
 				"If the player wears all four parts of the armor, they'll be able to press default key “v” to activate the armor indicated by a glowing red layer on the armor."
 				""
-				"It will grant fire restistance, less receiving damage and lasts for 1 minute indicated by a small fire resistance symbol above the experience level symbol."
+				"It will grant fire resistance, less receiving damage and lasts for 1 minute indicated by a small fire resistance symbol above the experience level symbol."
 			]
 			dependencies: ["35F0E2CEEE9D9AD0"]
 			id: "1F084E4BED012340"

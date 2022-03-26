@@ -7,18 +7,6 @@
 	icon: "expandedstorage:wood_chest"
 	default_quest_shape: "square"
 	default_hide_dependency_lines: false
-	images: [{
-		x: 10.5d
-		y: -6.5d
-		width: 2.0d
-		height: 2.0d
-		rotation: 0.0d
-		image: "betteranimalsplus:textures/items/head_bear_kermode.png"
-		hover: ["From items, fluids or on the go. We have all the storage options you need."]
-		click: ""
-		dev: false
-		corner: false
-	}]
 	quests: [
 		{
 			title: "Storage on the go"
