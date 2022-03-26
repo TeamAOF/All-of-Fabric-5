@@ -341,26 +341,6 @@
 			]
 		}
 		{
-			x: 3.0d
-			y: 2.0d
-			subtitle: "Become the hunter, not the hunted,"
-			description: [
-				"Collect all the animal heads from Better Animals Plus. Keep in mind that there are different variants of the same animal."
-				""
-				"25 heads to be exact."
-				""
-				"Why not put them up for show? Place them on your wall!"
-			]
-			dependencies: ["512CAEB25CD9B4E2"]
-			id: "063E361961708544"
-			tasks: [{
-				id: "0DA320C054F71578"
-				type: "advancement"
-				advancement: "betteranimalsplus:animal_head_all"
-				criterion: ""
-			}]
-		}
-		{
 			x: 0.5d
 			y: -3.0d
 			subtitle: "Complete all the challenges!"
@@ -369,7 +349,6 @@
 				"4394FBA9FF34416C"
 				"0A87F01B58718A44"
 				"1F0EE1298663FE88"
-				"063E361961708544"
 				"6F99E812CEAA9DCA"
 				"18035D9544EC01DA"
 			]
@@ -380,6 +359,40 @@
 				type: "checkmark"
 				title: "The Completionist"
 				icon: "spectrum:stardust"
+			}]
+		}
+		{
+			x: 0.5d
+			y: -1.5d
+			subtitle: "Are you worthy? Become the completionist!"
+			description: [
+				"Challenges are unlocked when you've killed the Ender Dragon."
+				""
+				"These challenges will take you on multiple different paths."
+				""
+				"- Animal Hunting"
+				"- Bosses"
+				"- Become a Michelin Chef"
+				"- Become the ultimate rancher"
+				"- Quantum Physics"
+				"- Creative Flight"
+				""
+				"These are the ultimate goals, it's your journey."
+				""
+				"Complete them all to become The Completionist!"
+				""
+				"CURRENTLY NOT IN THE PACK!"
+				"CURRENTLY NOT IN THE PACK!"
+				"CURRENTLY NOT IN THE PACK!"
+				"CURRENTLY NOT IN THE PACK!"
+			]
+			dependencies: ["175F5611FB7716A4"]
+			id: "477ECBF67056BF45"
+			tasks: [{
+				id: "7E0EE4376BC378B3"
+				type: "checkmark"
+				title: "Challenges"
+				icon: "croptopia:starfruit"
 			}]
 		}
 	]
