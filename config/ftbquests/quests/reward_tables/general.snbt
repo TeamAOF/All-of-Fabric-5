@@ -625,9 +625,6 @@
 			}
 			count: 4
 		}
-		{ item: "bosses_of_mass_destruction:blazing_eye" }
-		{ item: "bosses_of_mass_destruction:ancient_anima" }
-		{ item: "bosses_of_mass_destruction:void_thorn" }
 		{ item: "chisel:chisel" }
 		{
 			item: {
@@ -1550,7 +1547,6 @@
 		{ item: "croptopia:tres_leche_cake", count: 8 }
 		{ item: "minecraft:stone", count: 16 }
 		{ item: "minecraft:iron_ore", count: 3, random_bonus: 5 }
-		{ item: "betteranimalsplus:crab_bucket" }
 		{ item: "croptopia:stuffed_poblanos", count: 6 }
 		{ item: "croptopia:squash", count: 8 }
 		{ item: "croptopia:avocado", count: 6 }
