@@ -1,6 +1,6 @@
 # The main modpack folder
 # Do not change or move
-$InstanceRoot = ("$PSScriptRoot/.." | Resolve-Path)
+$INSTANCE_ROOT = ("$PSScriptRoot/.." | Resolve-Path)
 
 # =====================================================================//
 #  CURSEFORGE ACCOUNT SETTINGS
