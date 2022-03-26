@@ -59,28 +59,20 @@ $GAME_VERSIONS = @(8857)
 $CLIENT_RELEASE_TYPE = "release"
 
 #=====================================================================//
-#  DEPENDENCIES URL
+#  DEPENDENCIES
 #=====================================================================//
 
-# File name of the latest https://github.com/Gaz492/twitch-export-builder/releases
-$TwitchExportBuilderDLWindows = "twitch-export-builder_windows_amd64.exe"
-$TwitchExportBuilderDLLinux = "twitch-export-builder_linux_amd64"
-$TwitchExportBuilderDLMac = "twitch-export-builder_darwin_amd64"
-
 # File name of the latest https://github.com/TheRandomLabs/ChangelogGenerator/releases
-$ChangelogGeneratorDL = "ChangelogGenerator-2.0.0-pre10.jar"
+$CHANGELOG_GENERATOR_JAR = "ChangelogGenerator-2.0.0-pre10.jar"
 
 # File name of the latest https://github.com/MelanX/ModListCreator/releases
-$ModlistCreatorJar = "ModListCreator-1.2.1.jar"
+$MODLIST_CREATOR_JAR = "ModListCreator-2.0.1.jar"
 
 #=====================================================================//
 #  CLIENT FILE SETTINGS
 #=====================================================================//
 
-# Most of these are defined in .build.json.
-
-# Configs to remove from the client files
-$CONFIGS_TO_REMOVE_FROM_CLIENT_FILES = 
+$CONFIGS_TO_REMOVE_FROM_CLIENT_FILES = @()
 
 # Accepts directories
 $REMOVE_FROM_CLIENT_FILES = @("local/ftbutilities", "local/ftbchunks/data", "local/ftbultimine", "local/ftbultimine-client.snbt")
@@ -94,21 +86,6 @@ $REMOVE_FROM_CLIENT_FILES = @("local/ftbutilities", "local/ftbchunks/data", "loc
 $ServerFilesFolder = "$InstanceRoot/server_files"
 
 $ServerSetupConfigPath = "$InstanceRoot/server_files/server-setup-config.yaml"
-
-# A continuous line of the folders and files (with extensions) to zip into Server Files.
-# Default: @("mods", "config")
-# Deprecated, everything in the server_files folder is zipped
-$CONTENTS_TO_ZIP = @()
-
-# =====================================================================//
-#  Operating System
-# =====================================================================//
-
-$IsLinux = $false
-
-$IsMacOS = $false
-
-$IsWindows = $true
 
 # =====================================================================//
 #  MODULES
@@ -132,10 +109,14 @@ $ENABLE_SERVER_FILE_MODULE = $true
 # $LAST_MODPACK_VERSION must be set, and the manifest naming must be consistent.
 # Default: $false
 $ENABLE_CHANGELOG_GENERATOR_MODULE = $true
+# Path to the ChangelogGenerator's output file
+$CHANGELOG_PATH = "$INSTANCE_ROOT/changelogs/changelog_mods_$MODPACK_VERSION.md"
 
 # Toggle creation of a modlist file on/off
 # Default: $true
 $ENABLE_MODLIST_CREATOR_MODULE = $true
+# Path to the ModListCreator's output file
+$MODLIST_PATH = "$INSTANCE_ROOT/changelogs/modlist_$MODPACK_VERSION.md"
 
 # Toggle removal and re-download of jars on/off.
 # Setting this to true will ensure that you always have the latest 
@@ -149,7 +130,7 @@ $ENABLE_ALWAYS_UPDATE_JARS = $false
 # See below link for info:
 # https://github.com/github-changelog-generator/github-changelog-generator
 # Default: $false
-$ENABLE_GITHUB_CHANGELOG_GENERATOR_MODULE = $true	
+$ENABLE_GITHUB_CHANGELOG_GENERATOR_MODULE = $false	
 
 
 
@@ -185,7 +166,3 @@ $SERVER_ZIP_NAME = "$CLIENT_NAME`-Server-$MODPACK_VERSION"
 
 # Default: $SERVER_FILENAME
 $SERVER_FILE_DISPLAY_NAME = "All of Fabric 5 Server - $MODPACK_VERSION"
-
-# Path to the ModListCreators output file
-$ModlistPath = "$InstanceRoot/changelogs/modlist_$MODPACK_VERSION.md"
-$ChangelogPath = "$InstanceRoot/changelogs/changelog_mods_$MODPACK_VERSION.md"
