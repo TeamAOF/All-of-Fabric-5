@@ -10,7 +10,7 @@
   "MysteriousBundle": true,
   "Crossbows": true,
   "MusicDiscs": true,
-  "RoseGold": true,
+  "RoseGold": false,
   "FoodItems": true,
   "Potions": true,
   "WateringCan": true,
