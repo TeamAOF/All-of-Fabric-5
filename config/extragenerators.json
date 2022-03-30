@@ -1,6 +1,6 @@
 {
   "thermoelectricGenerator": {
-    "output": 32.0,
+    "output": 24.0,
     "storage": 16000.0
   },
   "burnableGenerator": {
