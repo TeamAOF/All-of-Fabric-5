@@ -1,0 +1,33 @@
+{
+	/* How long Loot Crates take to break. <1 makes them indestructible.
+	   Obsidian has 50. 150 makes them very much breakable, but taking ages.
+	   Long enough to absolutely not breakable by accident, but still possible to
+	   remove them if they are in the way somehow.
+	*/
+	"ChestCrateHardness": 150.0,
+	"LootBarrelHardness": 150.0,
+	"ShulkerCrateHardness": 3.0,
+	/* If crates that are mined by players should drop as items
+	   Otherwise they will be destroyed and do not drop.
+	*/
+	"ChestCratesDropAsItems": false,
+	"LootBarrelsDropAsItems": false,
+	"ShulkerCratesDropAsItems": true,
+	/* Whether chest and shulker loot crates should keep their inventory when broken.
+	   Otherwise they will drop their contents just like broken chests
+	*/
+	"ChestCratesKeepTheirInventory": false,
+	"LootBarrelsKeepTheirInventory": false,
+	"ShulkerCratesKeepTheirInventory": true,
+	/* If all chests that generate during worldgen should be replaced by loot crates.
+	   This includes vanilla and modded structures. See the granular configuration in LootCratesWorldgenSettings.json5
+	   This is especially useful if you want new players to find treasure in structures that were
+	   raided by players before, or if players should have an incentive to visit those structures again.
+	   Setting restocking to <= 0 results them functioning like vanilla chests.
+	   Restocking is only evaluated when players actually open chests, no performance impact besides that.
+	   So feel free to leave it at 1 if you want loot to be available instantly for every unique player.
+	*/
+	"ReplaceVanillaWorldgenChests": true,
+	// Dimension identifiers where chests will not be replaced
+	"ReplaceVanillaWorldgenChestsDimensionsBlacklist": []
+}
