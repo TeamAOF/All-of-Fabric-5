@@ -79,6 +79,7 @@ onEvent('recipes', (event) => {
     'extragenerators:heavenly_generator',
     'extragenerators:infernal_generator',
     'campanion:mre',
+    'additionaladditions:fried_egg',
     ];
 
     id.forEach((id) => {

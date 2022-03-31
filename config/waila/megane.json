@@ -29,7 +29,8 @@
       "extragenerators": 7408640,
       "appliedenergistics2": 6556063,
       "modern_industrialization": 11993088,
-      "ae2": 6556063
+      "ae2": 6556063,
+      "dmlsimulacrum": 12588052
     },
     "units": {
       "megane": "E",
@@ -41,7 +42,8 @@
       "extragenerators": "E",
       "appliedenergistics2": "AE",
       "modern_industrialization": "EU",
-      "ae2": "AE"
+      "ae2": "AE",
+      "dmlsimulacrum": "E"
     },
     "blacklist": [
       "appliedenergistics2:energy_acceptor"

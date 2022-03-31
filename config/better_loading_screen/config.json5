@@ -16,6 +16,11 @@
 	*/
 	rendersHint: true,
 	/* 
+	   Renders the logo on the loading screen.
+	   Default: true
+	*/
+	rendersLogo: true,
+	/* 
 	   Declares the background color of the loading screen.
 	   Default: #EF323D
 	*/

@@ -1,0 +1,153 @@
+[
+	{
+		"loot_table": "",
+		"entries": [
+			{
+				"once_per_player": true,
+				"replenish_time_ticks": 1,
+				"lock": "none",
+				"weight": 1
+			}
+		]
+	},
+	{
+		"loot_table": "minecraft:example_loot_table",
+		"entries": [
+			{
+				"crate_rarity": "common",
+				"once_per_player": true,
+				"replenish_time_ticks": 1,
+				"lock": "require_key",
+				"weight": 3
+			},
+			{
+				"crate_rarity": "uncommon",
+				"loot_table": "minecraft:example_loot_table_uncommon",
+				"once_per_player": true,
+				"replenish_time_ticks": 1,
+				"lock": "consume_key",
+				"weight": 2
+			},
+			{
+				"crate_rarity": "rare",
+				"loot_table": "minecraft:example_loot_table_rare",
+				"once_per_player": true,
+				"replenish_time_ticks": 1,
+				"lock": "consume_key",
+				"weight": 1
+			}
+		]
+	},
+	{
+		"loot_table": "minecraft:chests/bastion_bridge",
+		"entries": [{
+			"crate_rarity": "blaze",
+			"once_per_player": true,
+			"replenish_time_ticks": 1
+		}]
+	},
+	{
+		"loot_table": "minecraft:chests/bastion_bridge",
+		"entries": [{
+			"crate_rarity": "blaze",
+			"once_per_player": true,
+			"replenish_time_ticks": 1
+		}]
+	},
+	{
+		"loot_table": "minecraft:chests/bastion_hoglin_stable",
+		"entries": [{
+			"crate_rarity": "blaze",
+			"once_per_player": true,
+			"replenish_time_ticks": 1
+		}]
+	},
+	{
+		"loot_table": "minecraft:chests/bastion_other",
+		"entries": [{
+			"crate_rarity": "blaze",
+			"once_per_player": true,
+			"replenish_time_ticks": 1
+		}]
+	},
+	{
+		"loot_table": "minecraft:chests/bastion_treasure",
+		"entries": [{
+			"crate_rarity": "blaze",
+			"once_per_player": true,
+			"replenish_time_ticks": 1
+		}]
+	},
+	{
+		"loot_table": "minecraft:chests/buried_treasure",
+		"entries": [{
+			"crate_rarity": "rare",
+			"once_per_player": true,
+			"replenish_time_ticks": 1
+		}]
+	},
+	{
+		"loot_table": "minecraft:chests/end_city_treasure",
+		"entries": [{
+			"crate_rarity": "epic",
+			"once_per_player": true,
+			"replenish_time_ticks": 1
+		}]
+	},
+	{
+		"loot_table": "minecraft:chests/simple_dungeon",
+		"entries": [{
+			"crate_rarity": "uncommon",
+			"once_per_player": true,
+			"replenish_time_ticks": 1
+		}]
+	},
+	{
+		"loot_table": "minecraft:chests/stronghold_corridor",
+		"entries": [{
+			"crate_rarity": "uncommon",
+			"once_per_player": true,
+			"replenish_time_ticks": 1
+		}]
+	},
+	{
+		"loot_table": "minecraft:chests/stronghold_corridor",
+		"entries": [{
+			"crate_rarity": "uncommon",
+			"once_per_player": true,
+			"replenish_time_ticks": 1
+		}]
+	},
+	{
+		"loot_table": "minecraft:chests/stronghold_corridor",
+		"entries": [{
+			"crate_rarity": "uncommon",
+			"once_per_player": true,
+			"replenish_time_ticks": 1
+		}]
+	},
+	{
+		"loot_table": "minecraft:chests/underwater_ruin_big",
+		"entries": [{
+			"crate_rarity": "rare",
+			"once_per_player": true,
+			"replenish_time_ticks": 1
+		}]
+	},
+	{
+		"loot_table": "minecraft:chests/underwater_ruin_small",
+		"entries": [{
+			"crate_rarity": "rare",
+			"once_per_player": true,
+			"replenish_time_ticks": 1
+		}]
+	},
+	{
+		"loot_table": "minecraft:chests/woodland_mansion",
+		"entries": [{
+			"crate_rarity": "ghost",
+			"once_per_player": true,
+			"replenish_time_ticks": 1
+		}]
+	}
+]

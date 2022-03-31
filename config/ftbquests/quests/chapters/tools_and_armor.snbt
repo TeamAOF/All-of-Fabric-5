@@ -44,11 +44,6 @@
 					type: "loot"
 					table_id: 13756307348121783L
 				}
-				{
-					id: "6FC89EF5B487CC2D"
-					type: "random"
-					table_id: 13756307348121783L
-				}
 			]
 		}
 		{
@@ -85,11 +80,6 @@
 					type: "loot"
 					table_id: 13756307348121783L
 				}
-				{
-					id: "5EE466A450069A36"
-					type: "random"
-					table_id: 13756307348121783L
-				}
 			]
 		}
 		{
@@ -103,18 +93,11 @@
 				type: "item"
 				item: "dark-enchanting:dark_enchanter"
 			}]
-			rewards: [
-				{
-					id: "6C4C5B29661563A7"
-					type: "loot"
-					table_id: 13756307348121783L
-				}
-				{
-					id: "4BD54ECD44703703"
-					type: "random"
-					table_id: 13756307348121783L
-				}
-			]
+			rewards: [{
+				id: "6C4C5B29661563A7"
+				type: "loot"
+				table_id: 13756307348121783L
+			}]
 		}
 		{
 			x: 0.0d
@@ -128,18 +111,11 @@
 				type: "item"
 				item: "dragonloot:dragon_anvil"
 			}]
-			rewards: [
-				{
-					id: "035CB53BF5171058"
-					type: "random"
-					table_id: 13756307348121783L
-				}
-				{
-					id: "59D2EE43926D83C0"
-					type: "random"
-					table_id: 13756307348121783L
-				}
-			]
+			rewards: [{
+				id: "035CB53BF5171058"
+				type: "random"
+				table_id: 13756307348121783L
+			}]
 		}
 		{
 			x: 0.0d
