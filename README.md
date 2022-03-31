@@ -1,9 +1,9 @@
-# All-of-Fabric-5
+<p align="center">
 Modpack containing the latest &amp; best of Fabric on Minecraft 1.18
 
 [<img src="https://i.imgur.com/TtOQaCk.png" width="100%">](https://www.curseforge.com/minecraft/modpacks/all-of-fabric-5)
 
-<p align="center">
+  <p align="center">
   <a href="https://discord.gg/6rkdm48">
     <img src="https://img.shields.io/discord/570630340075454474?color=50c396&label=Discord&logo=Discord&logoColor=50c396&style=for-the-badge" />
   </a>&nbsp;&nbsp;
