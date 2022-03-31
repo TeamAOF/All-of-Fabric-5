@@ -8,7 +8,6 @@ _Fabric Loader 0.13.3_ | _[Mod Updates](https://github.com/TeamAOF/All-of-Fabric
 * New emotes added (most from the AOF Discord).
 * Rebalanced dragon gear.
 * Disabled rose gold gear due to balancing reasons.
-* Instanced loot.
 * Removed everlasting beef drop from cow.
 * Nerfed Thermoelectric generator from 32E/t > 24E/t.
 
@@ -26,14 +25,12 @@ _Fabric Loader 0.13.3_ | _[Mod Updates](https://github.com/TeamAOF/All-of-Fabric
 
 * [DashLoader](https://www.curseforge.com/minecraft/mc-mods/dashloader)
 * [Dynamic FPS](https://www.curseforge.com/minecraft/mc-mods/dynamic-fps)
-* [Modular Loot Crates and Bundles](https://www.curseforge.com/minecraft/mc-mods/fabric-loot-crates)
 * [spark](https://www.curseforge.com/minecraft/mc-mods/spark)
 
 ## Removed
 
 * [Easy Magic [Fabric]](https://www.curseforge.com/minecraft/mc-mods/easy-magic-fabric)
 * [FPS Reducer](https://www.curseforge.com/minecraft/mc-mods/fps-reducer)
-* [Iris Shaders](https://www.curseforge.com/minecraft/mc-mods/irisshaders)
 * [Not Enough Crashes (Fabric)](https://www.curseforge.com/minecraft/mc-mods/not-enough-crashes)
 * [Puzzles Lib [Fabric]](https://www.curseforge.com/minecraft/mc-mods/puzzles-lib-fabric)
 * [Tiny Skeletons [Fabric]](https://www.curseforge.com/minecraft/mc-mods/tiny-skeletons-fabric)
