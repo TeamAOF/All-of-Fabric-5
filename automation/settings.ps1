@@ -26,11 +26,11 @@ $MODPACK_NAME = "all-of-fabric-5"
 $CLIENT_NAME = "All-of-Fabric-5"
 
 # Version Of The Modpack
-$MODPACK_VERSION = "1.1.2"
+$MODPACK_VERSION = "1.1.3"
 
 # Last Version Of The Modpack
 # Needed For Changelog Parsing
-$LAST_MODPACK_VERSION = "1.1.1"
+$LAST_MODPACK_VERSION = "1.1.2"
 
 # =====================================================================//
 #  CHANGELOG SETTINGS
@@ -78,7 +78,7 @@ $FOLDERS_TO_INCLUDE_IN_CLIENT_FILES = @(
 	"config",
 	"kubejs")
 
-$CONFIGS_TO_REMOVE_FROM_CLIENT_FILES = @()
+$CONFIGS_TO_REMOVE_FROM_CLIENT_FILES = @("spark")
 
 # Accepts directories
 $FOLDERS_TO_REMOVE_FROM_CLIENT_FILES = @("local/ftbutilities", "local/ftbchunks/data", "local/ftbultimine", "local/ftbultimine-client.snbt")
