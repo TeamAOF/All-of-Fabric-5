@@ -1426,11 +1426,9 @@
 		{ item: "croptopia:strawberry", count: 16 }
 		{ item: "croptopia:sweetpotato", count: 16 }
 		{ item: "croptopia:turnip", count: 16 }
-		{ item: "techreborn:industrial_storage_unit" }
 		{ item: "techreborn:advanced_storage_unit" }
 		{ item: "techreborn:basic_storage_unit" }
 		{ item: "techreborn:advanced_tank_unit" }
-		{ item: "techreborn:industrial_tank_unit" }
 		{ item: "dml-refabricated:soot_redstone", count: 4, random_bonus: 8 }
 		{ item: "blockus:marble", count: 64 }
 		{ item: "blockus:lava_bricks", count: 32 }
@@ -1574,7 +1572,6 @@
 		{ item: "farmersdelight:roasted_mutton_chops", count: 8 }
 		{ item: "farmersdelight:fish_stew", count: 8 }
 		{ item: "minecraft:netherite_scrap", count: 2 }
-		{ item: "tradingpost:trading_post" }
 		{
 			item: {
 				id: "gateofbabylon:stone_bow"
@@ -1699,6 +1696,5 @@
 		{ item: "twigs:crimson_roots_paper_lantern", count: 6 }
 		{ item: "strawdummy:strawdummy" }
 		{ item: "animal_feeding_trough:feeding_trough", count: 2 }
-		{ item: "tradingpost:trading_post" }
 	]
 }

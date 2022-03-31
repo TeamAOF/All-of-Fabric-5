@@ -1,0 +1,6 @@
+artifactRarity = 1.0
+
+[campsite]
+campsiteRarity = 5
+mimicChance = 30
+oreChance = 25

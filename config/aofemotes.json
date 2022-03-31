@@ -1,14 +1,14 @@
 {
   "emotes": {
-    "PepeRee": "aofemotes:emotes/tiny_potato.png",
-    "PepeLurk": "aofemotes:emotes/pepelurk.png",
-    "LisaStare": "aofemotes:emotes/lisa_stare.png",
-    "TinyPotato": "aofemotes:emotes/tiny_potato.png",
-    "Irritater": "aofemotes:emotes/irritater.png",
-    "Concern": "aofemotes:emotes/concern.png",
-    "What": "aofemotes:emotes/what.png",
-    "Wheeze": "aofemotes:emotes/wheeze.png",
-    "Chicken": "aofemotes:emotes/chicken.png",
+    "PepeRee": "aof:emotes/tiny_potato.png",
+    "PepeLurk": "aof:emotes/pepelurk.png",
+    "LisaStare": "aof:emotes/lisa_stare.png",
+    "TinyPotato": "aof:emotes/tiny_potato.png",
+    "Irritater": "aof:emotes/irritater.png",
+    "Concern": "aof:emotes/concern.png",
+    "What": "aof:emotes/what.png",
+    "Wheeze": "aof:emotes/wheeze.png",
+    "Chicken": "aof:emotes/chicken.png",
     "Bedge": "aofemotes:emotes/bedge.png",
     "bright_eyes": "aofemotes:emotes/bright-eyes.png",
     "catCry": "aofemotes:emotes/cat-cry.png",
@@ -38,11 +38,11 @@
     "suffer": "aofemotes:emotes/suffer.png",
     "Susge": "aofemotes:emotes/susge.png",
     "KEKW": {
-      "path": "aofemotes:emotes/animated/kekw.png",
+      "path": "aof:emotes/animated/kekw.png",
       "frame_time": 50
     },
     "TATERDANCE": {
-      "path": "aofemotes:emotes/animated/taterdance.png",
+      "path": "aof:emotes/animated/taterdance.png",
       "frame_time": 40
     },
     "catJAM": {

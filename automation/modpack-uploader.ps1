@@ -68,7 +68,7 @@ function Test-ForDependencies {
 }
 
 function New-ClientFiles {
-    if ($ENABLE_CURSE_CLIENT_MODULE) {
+    if ($ENABLE_CLIENT_FILE_MODULE) {
         Write-Host 
         Write-Host "Creating Client Files..." -ForegroundColor Cyan
         Write-Host 
@@ -148,7 +148,7 @@ function New-ManifestJson {
 }
 
 function Remove-BlacklistedFiles {
-    if ($ENABLE_CURSE_CLIENT_MODULE -or $ENABLE_SERVER_FILE_MODULE) {    
+    if ($ENABLE_CLIENT_FILE_MODULE -or $ENABLE_SERVER_FILE_MODULE) {    
         $FOLDERS_TO_REMOVE_FROM_CLIENT_FILES | ForEach-Object {
             Write-Host "Removing overrides/$_"
             Remove-Item -Path "overrides/$_" -Recurse -ErrorAction SilentlyContinue
@@ -202,7 +202,7 @@ function New-Changelog {
 function Push-ClientFiles {
     if ($ENABLE_MODPACK_UPLOADER_MODULE) {
 
-        if ($ENABLE_CURSE_CLIENT_MODULE -eq $false) {
+        if ($ENABLE_CLIENT_FILE_MODULE -eq $false) {
             Remove-BlacklistedFiles
         }
 
@@ -247,7 +247,9 @@ function Push-ClientFiles {
             Write-Host "Return Id: $clientFileReturnId" -ForegroundColor Cyan
             Write-Host
 
-            Update-FileLinkInServerFiles -ClientFileReturnId $clientFileReturnId
+            if ($ENABLE_SERVERSTARTER_MODULE) {
+                Update-FileLinkInServerFiles -ClientFileReturnId $clientFileReturnId
+            }
         }
     }
 }

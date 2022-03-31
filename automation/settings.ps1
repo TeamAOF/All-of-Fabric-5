@@ -26,11 +26,11 @@ $MODPACK_NAME = "all-of-fabric-5"
 $CLIENT_NAME = "All-of-Fabric-5"
 
 # Version Of The Modpack
-$MODPACK_VERSION = "1.1.1"
+$MODPACK_VERSION = "1.1.2"
 
 # Last Version Of The Modpack
 # Needed For Changelog Parsing
-$LAST_MODPACK_VERSION = "1.1.0"
+$LAST_MODPACK_VERSION = "1.1.1"
 
 # =====================================================================//
 #  CHANGELOG SETTINGS
@@ -72,10 +72,16 @@ $MODLIST_CREATOR_JAR = "ModListCreator-2.0.1.jar"
 #  CLIENT FILE SETTINGS
 #=====================================================================//
 
+$CLIENT_FILE_AUTHOR = "TeamAOF"
+
+$FOLDERS_TO_INCLUDE_IN_CLIENT_FILES = @(
+	"config",
+	"kubejs")
+
 $CONFIGS_TO_REMOVE_FROM_CLIENT_FILES = @()
 
 # Accepts directories
-$REMOVE_FROM_CLIENT_FILES = @("local/ftbutilities", "local/ftbchunks/data", "local/ftbultimine", "local/ftbultimine-client.snbt")
+$FOLDERS_TO_REMOVE_FROM_CLIENT_FILES = @("local/ftbutilities", "local/ftbchunks/data", "local/ftbultimine", "local/ftbultimine-client.snbt")
 
 #=====================================================================//
 #  SERVER FILE SETTINGS
@@ -83,17 +89,22 @@ $REMOVE_FROM_CLIENT_FILES = @("local/ftbutilities", "local/ftbchunks/data", "loc
 
 # $CLIENT_MODS_TO_REMOVE_FROM_SERVER_FILES has been moved to remove-client-mods.ps1 
 
-$ServerFilesFolder = "$InstanceRoot/server_files"
+$SERVER_FILES_FOLDER = "$INSTANCE_ROOT/server_files"
 
-$ServerSetupConfigPath = "$InstanceRoot/server_files/server-setup-config.yaml"
+$SERVER_SETUP_CONFIG_PATH = "$SERVER_FILES_FOLDER/server-setup-config.yaml"
+
+# A continuous line of the folders and files (with extensions) to zip into Server Files.
+# Default: @("mods", "config")
+# Deprecated, everything in the server_files folder is zipped
+$CONTENTS_TO_ZIP = @()
 
 # =====================================================================//
 #  MODULES
 # =====================================================================//
 
-# Toggle twitch-export-builder (automatic building of the manifest zip) on/off
+# Toggle automatic building of the manifest zip on/off
 # Default: $true
-$ENABLE_CURSE_CLIENT_MODULE = $true
+$ENABLE_CLIENT_FILE_MODULE = $true
 
 # Toggle the modpack uploader on/off
 # Setting this to $false will also disable the Server File and Changelog Generator Modules.
@@ -103,6 +114,12 @@ $ENABLE_MODPACK_UPLOADER_MODULE = $true
 # Toggle server file feature on/off
 # Default: $true
 $ENABLE_SERVER_FILE_MODULE = $true
+
+# Toggle serverstarter compatibility on/off
+# This will update the "modpackUrl" in the file found at $SERVER_SETUP_CONFIG_PATH
+# to point to your newly created client files on the CurseForge CDN.
+# Default: $false
+$ENABLE_SERVERSTARTER_MODULE = $true
 
 # Toggle automatic changelog generator on/off
 # This module requires an older modpack manifest zip to be present, 
@@ -125,12 +142,11 @@ $MODLIST_PATH = "$INSTANCE_ROOT/changelogs/modlist_$MODPACK_VERSION.md"
 # Default: $false
 $ENABLE_ALWAYS_UPDATE_JARS = $false
 
-# Toggles github changelog generator integration on/off.
-# Requires extensive setup, this is an advanced step.
+# Toggles github release integration on/off.
+# This will create a new release on your issue-tracker when using the modpack uploader.
 # See below link for info:
-# https://github.com/github-changelog-generator/github-changelog-generator
 # Default: $false
-$ENABLE_GITHUB_CHANGELOG_GENERATOR_MODULE = $false	
+$ENABLE_GITHUB_RELEASE_MODULE = $false	
 
 
 
@@ -166,3 +182,7 @@ $SERVER_ZIP_NAME = "$CLIENT_NAME`-Server-$MODPACK_VERSION"
 
 # Default: $SERVER_FILENAME
 $SERVER_FILE_DISPLAY_NAME = "All of Fabric 5 Server - $MODPACK_VERSION"
+
+# Path to the ModListCreators output file
+$MODLIST_PATH = "$INSTANCE_ROOT/changelogs/modlist_$MODPACK_VERSION.md"
+$CHANGELOG_PATH = "$INSTANCE_ROOT/changelogs/changelog_mods_$MODPACK_VERSION.md"
