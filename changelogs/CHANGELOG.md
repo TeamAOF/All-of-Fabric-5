@@ -1,3 +1,23 @@
+### All of Fabric 5 | v1.1.4
+
+_Fabric Loader 0.13.3_ | _[Mod Updates](https://github.com/TeamAOF/All-of-Fabric-5/blob/main/changelogs/changelog_mods_1.1.4.md)_ | _[Modlist](https://github.com/TeamAOF/All-of-Fabric-5/blob/main/changelogs/modlist_1.1.4.md)_
+
+## Changes
+
+* Removed rose gold gear from quest rewards.
+
+## Fixes
+
+* Log spam when air is parsed through crafting stations.
+
+## Removed
+
+* [Ambient Environment](https://www.curseforge.com/minecraft/mc-mods/ambient-environment) (Memory Issues)
+* [DashLoader](https://www.curseforge.com/minecraft/mc-mods/dashloader) (Rendering Issues, will be readded when fixed)
+* [Farsight [Fabric]](https://www.curseforge.com/minecraft/mc-mods/farsight-fabric) (Memory Issues)
+* [Macaw's Lights and Lamps](https://www.curseforge.com/minecraft/mc-mods/macaws-lights-and-lamps) (Server joining issues)
+---
+
 ### All of Fabric 5 | v1.1.3
 
 _Fabric Loader 0.13.3_ | _[Mod Updates](https://github.com/TeamAOF/All-of-Fabric-5/blob/main/changelogs/changelog_mods_1.1.3.md)_ | _[Modlist](https://github.com/TeamAOF/All-of-Fabric-5/blob/main/changelogs/modlist_1.1.3.md)_
