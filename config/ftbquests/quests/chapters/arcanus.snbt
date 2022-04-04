@@ -223,8 +223,8 @@
 					tag: {
 						pages: ["{\"extra\":[{\"translate\":\"book.arcanus.casting_pattern\"},{\"text\":\"          R-R-R\"}],\"translate\":\"book.arcanus.lunge.description\"}"]
 						spell: "arcanus:lunge"
-						author: "book.arcanus.04.author"
 						title: "book.arcanus.lunge.title"
+						author: "book.arcanus.04.author"
 					}
 				}
 			}]
@@ -249,8 +249,8 @@
 					tag: {
 						pages: ["{\"extra\":[{\"translate\":\"book.arcanus.casting_pattern\"},{\"text\":\"          R-L-R\"}],\"translate\":\"book.arcanus.dream_warp.description\"}"]
 						spell: "arcanus:dream_warp"
-						author: "book.arcanus.07.author"
 						title: "book.arcanus.dream_warp.title"
+						author: "book.arcanus.07.author"
 					}
 				}
 			}]
@@ -274,8 +274,8 @@
 					tag: {
 						pages: ["{\"extra\":[{\"translate\":\"book.arcanus.casting_pattern\"},{\"text\":\"          L-L-L\"}],\"translate\":\"book.arcanus.magic_missile.description\"}"]
 						spell: "arcanus:magic_missile"
-						author: "book.arcanus.03.author"
 						title: "book.arcanus.magic_missile.title"
+						author: "book.arcanus.03.author"
 					}
 				}
 			}]
@@ -300,8 +300,8 @@
 					tag: {
 						pages: ["{\"extra\":[{\"translate\":\"book.arcanus.casting_pattern\"},{\"text\":\"          L-R-L\"}],\"translate\":\"book.arcanus.telekinetic_shock.description\"}"]
 						spell: "arcanus:telekinetic_shock"
-						author: "book.arcanus.07.author"
 						title: "book.arcanus.telekinetic_shock.title"
+						author: "book.arcanus.07.author"
 					}
 				}
 			}]
@@ -320,8 +320,8 @@
 					tag: {
 						pages: ["{\"extra\":[{\"translate\":\"book.arcanus.casting_pattern\"},{\"text\":\"          R-L-L\"}],\"translate\":\"book.arcanus.heal.description\"}"]
 						spell: "arcanus:heal"
-						author: "book.arcanus.18.author"
 						title: "book.arcanus.heal.title"
+						author: "book.arcanus.18.author"
 					}
 				}
 			}]
@@ -345,8 +345,8 @@
 					tag: {
 						pages: ["{\"extra\":[{\"translate\":\"book.arcanus.casting_pattern\"},{\"text\":\"          L-R-R\"}],\"translate\":\"book.arcanus.discombobulate.description\"}"]
 						spell: "arcanus:discombobulate"
-						author: "book.arcanus.17.author"
 						title: "book.arcanus.discombobulate.title"
+						author: "book.arcanus.17.author"
 					}
 				}
 			}]
@@ -370,8 +370,8 @@
 					tag: {
 						pages: ["{\"extra\":[{\"translate\":\"book.arcanus.casting_pattern\"},{\"text\":\"          L-L-R\"}],\"translate\":\"book.arcanus.solar_strike.description\"}"]
 						spell: "arcanus:solar_strike"
-						author: "book.arcanus.18.author"
 						title: "book.arcanus.solar_strike.title"
+						author: "book.arcanus.18.author"
 					}
 				}
 			}]
@@ -396,8 +396,8 @@
 					tag: {
 						pages: ["{\"extra\":[{\"translate\":\"book.arcanus.casting_pattern\"},{\"text\":\"          R-R-L\"}],\"translate\":\"book.arcanus.arcane_barrier.description\"}"]
 						spell: "arcanus:arcane_barrier"
-						author: "book.arcanus.14.author"
 						title: "book.arcanus.arcane_barrier.title"
+						author: "book.arcanus.14.author"
 					}
 				}
 			}]
