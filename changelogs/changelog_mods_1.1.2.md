@@ -4,7 +4,6 @@
 
 * [DashLoader](https://www.curseforge.com/minecraft/mc-mods/dashloader)
 * [Dynamic FPS](https://www.curseforge.com/minecraft/mc-mods/dynamic-fps)
-* [Modular Loot Crates and Bundles](https://www.curseforge.com/minecraft/mc-mods/fabric-loot-crates)
 * [spark](https://www.curseforge.com/minecraft/mc-mods/spark)
 
 ## Updated
@@ -235,7 +234,6 @@ Fixes backported to 1.18.1 for Modpacks
 
 * [Easy Magic [Fabric]](https://www.curseforge.com/minecraft/mc-mods/easy-magic-fabric)
 * [FPS Reducer](https://www.curseforge.com/minecraft/mc-mods/fps-reducer)
-* [Iris Shaders](https://www.curseforge.com/minecraft/mc-mods/irisshaders)
 * [Not Enough Crashes (Fabric)](https://www.curseforge.com/minecraft/mc-mods/not-enough-crashes)
 * [Puzzles Lib [Fabric]](https://www.curseforge.com/minecraft/mc-mods/puzzles-lib-fabric)
 * [Tiny Skeletons [Fabric]](https://www.curseforge.com/minecraft/mc-mods/tiny-skeletons-fabric)
