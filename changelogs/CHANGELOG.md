@@ -8,6 +8,7 @@ _Fabric Loader 0.13.3_ | _[Mod Updates](https://github.com/TeamAOF/All-of-Fabric
 
 ## Removed
 
+* [Better Loading Screen](https://www.curseforge.com/minecraft/mc-mods/betterloadingscreen)
 ---
 
 ### All of Fabric 5 | v1.1.4
