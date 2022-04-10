@@ -1,3 +1,15 @@
+### All of Fabric 5 | v1.1.5
+
+_Fabric Loader 0.13.3_ | _[Mod Updates](https://github.com/TeamAOF/All-of-Fabric-5/blob/main/changelogs/changelog_mods_1.1.5.md)_ | _[Modlist](https://github.com/TeamAOF/All-of-Fabric-5/blob/main/changelogs/modlist_1.1.5.md)_
+
+## Fixes
+
+* Memory leak overstepping Xmx until crash.
+
+## Removed
+
+---
+
 ### All of Fabric 5 | v1.1.4
 
 _Fabric Loader 0.13.3_ | _[Mod Updates](https://github.com/TeamAOF/All-of-Fabric-5/blob/main/changelogs/changelog_mods_1.1.4.md)_ | _[Modlist](https://github.com/TeamAOF/All-of-Fabric-5/blob/main/changelogs/modlist_1.1.4.md)_
