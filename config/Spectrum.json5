@@ -4,16 +4,16 @@
 	   while topaz will generate at the top of mountains (everywhere from y=82+)
 	   if the worldgen has lots of high mountains consider raising the TopazGeodeMinFixedGenerationHeight
 	*/
-	"CitrineGeodeMinAboveBottomGenerationHeight": 35,
+	"CitrineGeodeMinAboveBottomGenerationHeight": 96,
 	"CitrineGeodeFixedMaxGenerationHeight": 60,
-	"TopazGeodeMinFixedGenerationHeight": 90,
+	"TopazGeodeMinFixedGenerationHeight": 82,
 	"TopazGeodeMaxBelowTopGenerationHeight": 0,
 	// Every x chunks there is a chance for a geode to generate, Moonstone geodes do not spawn in the Overworld
-	"TopazGeodeChunkChance": 12,
-	"CitrineGeodeChunkChance": 40,
+	"TopazGeodeChunkChance": 7,
+	"CitrineGeodeChunkChance": 50,
 	"MoonstoneGeodeChunkChance": 35,
 	// The amount of colored tree patches to generate every X chunks
-	"ColoredTreePatchChanceChunk": 50,
+	"ColoredTreePatchChanceChunk": 75,
 	/* The chance that an Enderman is holding a special treasure block on spawn
 	   Separate value for Endermen spawning in the end, since there are LOTS of them there
 	   Those blocks do not gate progression, so it is not that drastic not finding any right away.
@@ -100,17 +100,17 @@
 	"TightGripMaxLevel": 2,
 	// Exuberance increases experience gained when killing mobs. With 25% bonus XP and 5 levels this would mean 2,25x XP on max level
 	"ExuberanceMaxLevel": 5,
-	"ExuberanceBonusExperiencePercentPerLevel": 0.20000000298023224,
+	"ExuberanceBonusExperiencePercentPerLevel": 0.25,
 	// In vanilla, crits are a flat 50 % damage bonus. Improved Critical increases this damage by additional 50 % per level by default
 	"ImprovedCriticalExtraDamageMultiplierPerLevel": 0.5,
 	// Flat additional damage dealt with each level of the First Strike enchantment
-	"FirstStrikeDamagePerLevel": 3.0,
+	"FirstStrikeDamagePerLevel": 2.0,
 	// The percentile a mobs armor/hand stacks are being dropped when hit with a Disarming enchanted weapon per the enchantments level
 	"DisarmingChancePerLevelMobs": 0.009999999776482582,
 	// If > 0 the Disarming Enchantment is able to remove armor and hand tools from a hit player. Should be a far smaller chance than for mobs
 	"DisarmingChancePerLevelPlayers": 0.0010000000474974513,
 	// The duration a glow ink sac gives night vision when wearing a glow vision helmet in seconds
-	"GlowVisionGogglesDuration": 180,
+	"GlowVisionGogglesDuration": 240,
 	// By Default, Roughly Enough Items does not show recipes for items at all unless unlocked. Setting this value to true will show a 'recipe not unlocked yet' screen instead
 	"REIListsRecipesAsNotUnlocked": false,
 	/* If the player has Azure Dike Charges: Where should they be rendered on the screen. Default: Over the food bar
