@@ -1035,7 +1035,7 @@
 		}
 		{
 			title: "Hammers"
-			x: -2.0d
+			x: -1.5d
 			y: 2.5d
 			subtitle: "3x3 Mining on your doorstep."
 			description: ["Craft any hammer to complete quest."]
@@ -1060,7 +1060,7 @@
 		}
 		{
 			title: "Excavators"
-			x: -1.0d
+			x: -0.5d
 			y: 2.5d
 			subtitle: "3x3 Digging on your doorstep."
 			dependencies: ["300FAC6161C1BCDB"]
@@ -1084,7 +1084,7 @@
 		}
 		{
 			title: "Machetes"
-			x: 0.0d
+			x: 0.5d
 			y: 2.5d
 			subtitle: "Will break surrounding leaf blocks depending on the tool."
 			dependencies: ["300FAC6161C1BCDB"]
@@ -1108,7 +1108,7 @@
 		}
 		{
 			title: "Scythes"
-			x: 1.0d
+			x: 1.5d
 			y: 2.5d
 			subtitle: "Harvest crops in a range!"
 			description: [
@@ -1135,31 +1135,6 @@
 			}]
 			rewards: [{
 				id: "4CD735583D918380"
-				type: "random"
-				table_id: 13756307348121783L
-			}]
-		}
-		{
-			title: "Crooks"
-			x: 2.0d
-			y: 2.5d
-			subtitle: "Effective on breaking leaves and grasses."
-			description: ["Multiplies its drops (5x for leaves, 3x for grasses), and are able to pull mobs by right-clicking, with a wooden crook only being effective on pulling mobs with the size of a chicken with better materials, like diamond, being capable of even pulling creepers!"]
-			dependencies: ["300FAC6161C1BCDB"]
-			id: "7EEB5C68E81EC61A"
-			tasks: [{
-				id: "1732A1D107451B52"
-				type: "item"
-				item: {
-					id: "itemfilters:mod"
-					Count: 1b
-					tag: {
-						value: "crookedcrooks"
-					}
-				}
-			}]
-			rewards: [{
-				id: "29D81A3C3F07CE4E"
 				type: "random"
 				table_id: 13756307348121783L
 			}]

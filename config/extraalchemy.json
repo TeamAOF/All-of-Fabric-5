@@ -5,6 +5,7 @@
   "enableBrewingStandFire": true,
   "useAnchorChargesWithReturnPotion": true,
   "allowRingsInInventoryWithThirdPartyMods": false,
+  "showIconsInTooltips": true,
   "potions": {
     "magnetism": true,
     "photosynthesis": true,

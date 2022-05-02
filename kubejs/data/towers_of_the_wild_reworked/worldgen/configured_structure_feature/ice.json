@@ -1,0 +1,10 @@
+{
+    "type": "minecraft:village",
+    "biomes": "#towers_of_the_wild_reworked:has_structure/ice_tower",
+    "adapt_noise": true,
+    "spawn_overrides": {},
+    "config": {
+        "start_pool": "towers_of_the_wild_reworked:ice/bottom",
+        "size": 1
+    }
+}

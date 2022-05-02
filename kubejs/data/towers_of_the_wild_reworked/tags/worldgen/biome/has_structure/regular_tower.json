@@ -1,0 +1,16 @@
+{
+    "replace": false,
+    "values": [
+        "minecraft:taiga",
+        "#minecraft:is_badlands",
+        "minecraft:plains",
+        "minecraft:sunflower_plains",
+        "minecraft:savanna",
+        "#minecraft:is_forest",
+        "minecraft:desert",
+        "minecraft:swamp",
+        "#minecraft:is_mountain",
+        "#minecraft:is_hill"
+    ]
+}
+  

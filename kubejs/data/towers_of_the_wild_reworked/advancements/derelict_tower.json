@@ -1,0 +1,33 @@
+{
+    "parent": "towers_of_the_wild_reworked:root",
+    "display": {
+        "icon": {
+            "item": "minecraft:cracked_deepslate_bricks"
+        },
+        "title": {
+            "translate": "I found it like this..."
+        },
+        "description": {
+            "translate": "Find a Ancient Tower"
+        },
+        "frame": "task",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "criteria": {
+        "derelict": {
+            "trigger": "minecraft:location",
+            "conditions": {
+                "location": {
+                    "feature": "towers_of_the_wild_reworked:derelict"
+                }
+            }
+        }
+    },
+    "requirements": [
+        [
+            "derelict"
+        ]
+    ]
+}

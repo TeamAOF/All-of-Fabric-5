@@ -1,7 +1,3 @@
-[betterStrongholds]
-whitelistedDimensions = "[minecraft:overworld]"
-blacklistedBiomes = "[minecraft:ocean, minecraft:frozen_ocean, minecraft:deep_ocean, minecraft:warm_ocean, minecraft:lukewarm_ocean, minecraft:cold_ocean, minecraft:deep_lukewarm_ocean, minecraft:deep_cold_ocean, minecraft:deep_frozen_ocean, minecraft:beach, minecraft:snowy_beach, minecraft:river, minecraft:frozen_river]"
-
 [betterStrongholds.general]
 strongholdStartMinY = -30
 strongholdStartMaxY = 11
@@ -11,7 +7,6 @@ cobwebReplacementChanceNormal = 0.1
 cobwebReplacementChanceSpawner = 0.3
 torchSpawnRate = 0.1
 lanternSpawnRate = 0.2
-
 [betterStrongholds.pieceSettings]
 grandLibraryMaxCount = 1
 smallLibraryMaxCount = 2

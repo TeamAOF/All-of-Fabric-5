@@ -1,0 +1,14 @@
+{
+    "structures": [
+        {
+            "structure": "towers_of_the_wild_reworked:jungle",
+            "weight": 1
+        }
+    ],
+    "placement": {
+        "type": "minecraft:random_spread",
+        "spacing": 45,
+        "separation": 25,
+        "salt": 1689778
+    }
+}

@@ -80,5 +80,9 @@
   //If true, backpacks in armor/trinket slots will empty out into the world (scatter contents) when the player dies.
   "spillArmorBackpacksOnDeath": false,
   //If true, backpacks in main inventory slots will empty out into the world (scatter contents) when the player dies.
-  "spillMainBackpacksOnDeath": false
+  "spillMainBackpacksOnDeath": false,
+  //Set this value to false to disable Backpack rendering when using Trinkets.
+  "trinketRendering": true,
+  //Color of the text rendered in the INMIS GUI.
+  "guiTitleColor": "0x404040"
 }

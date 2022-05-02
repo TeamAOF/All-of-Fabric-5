@@ -53,6 +53,9 @@
       "maxY": 160
     }
   },
+  "miscConfigEntries": {
+    "useSoulLanternsInHauntedLakes": false
+  },
   "biomeGeneration": {
     "theGraveyardBiomesWeight": 1
   }

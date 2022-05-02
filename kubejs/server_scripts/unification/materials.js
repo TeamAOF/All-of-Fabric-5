@@ -6,7 +6,7 @@
 // AOF Unification Script - MIT licensed. //
 //////////////////////////////////////////////////
 
-const GENERATE_REI_SCRIPT = false;
+const GENERATE_REI_SCRIPT = true;
 // List of part tags to unify.
 const PARTS = [
     "c:{}_blocks",
@@ -218,7 +218,7 @@ onEvent('recipes', event => {
     event.replaceOutput({id: "techreborn:industrial_grinder/sheldonite_ore_with_mercury"}, '#c:platinum_dusts', 'modern_industrialization:raw_platinum');
     event.replaceOutput({id: "techreborn:industrial_grinder/iridium_ore_with_sodiumpersulfate"}, '#c:platinum_dusts', 'modern_industrialization:raw_platinum');
     event.replaceOutput({id: "techreborn:industrial_grinder/heart_of_the_sea_with_mercury"}, '#c:platinum_dusts', 'modern_industrialization:raw_platinum');
-    
+
 
     // ingot -> raw ore recipes with mercury... -_-
     autoremove("techreborn:raw_{}", "techreborn:industrial_grinder/{}_ingot_with_mercury");
@@ -273,8 +273,8 @@ function generateReiScript(itemIdToUnified) {
 // AOF 5 REI Unification Script.                                        //
 //////////////////////////////////////////////////////////////////////////
 const DELETED_ITEMS = ["${Object.keys(itemIdToUnified).join('", "')}"];
-events.listen("kjsextras_rei", event => {
-    DELETED_ITEMS.forEach(id => event.remove(id));
+onEvent("rei.hide.items", event => {
+    DELETED_ITEMS.forEach(id => event.hide(id));
 });
     `;
     console.log("Generated REI unification script.");
