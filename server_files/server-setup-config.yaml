@@ -2,11 +2,11 @@ _specver: 2
 
 modpack:
   name: All of Fabric 5
-  description: The latest & best of Fabric on 1.18.1. Performance, technology, magic & exploration!
+  description: The latest & best of Fabric on 1.18.2. Performance, technology, magic & exploration!
   
 install:
-  mcVersion: 1.18.1
-  loaderVersion: 0.13.3
+  mcVersion: 1.18.2
+  loaderVersion: 0.14.4
   modpackUrl: https://media.forgecdn.net/files/3734/940/All-of-Fabric-5-1.1.4.zip
   installerUrl: https://maven.fabricmc.net/net/fabricmc/fabric-installer/0.10.2/fabric-installer-0.10.2.jar
   
@@ -21,9 +21,9 @@ install:
     - "-downloadMinecraft"
     - "-snapshot"
     - "-mcversion"
-    - "1.18.1"
+    - "1.18.2"
     - "-loader"
-    - "0.13.3"
+    - "0.14.4"
   modpackFormat: curse
   formatSpecific:
     ignoreProject: 

@@ -123,7 +123,14 @@ function New-ManifestJson {
             }) > $null
     }
 
-    $modloaderId = "fabric-0.13.3"
+    $modloaderId = $minecraftInstanceJson.baseModLoader.name
+
+    if ($MODLOADER -eq "fabric") {
+        # Example output: "fabric-0.13.3-1.18.1"
+        $splitModloaderId = $modloaderId -split "-"
+        # Only keep "fabric-0.13.3"
+        $modloaderId = $splitModloaderId[0] + "-" + $splitModloaderId[1]
+    }
 
     $jsonOutput = @{
         minecraft       = @{
