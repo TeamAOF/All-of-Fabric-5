@@ -5,5 +5,6 @@
   "mimic_chance": 0.45,
   "easier_mimics": false,
   "spawn_natural_mimics": true,
-  "natural_mimic_spawn_rate_modifier": 0.6
+  "natural_mimic_spawn_rate_modifier": 0.6,
+  "allow_pet_mimics": true
 }

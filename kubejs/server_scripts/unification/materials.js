@@ -53,6 +53,7 @@ const MATERIALS = [
 const UNIFICATION_ORDER = [
     "modern_industrialization",
     "indrev",
+    "charm",
     "bewitchment",
     "techreborn",
     "croptopia",

@@ -678,22 +678,6 @@
 		}
 		{
 			x: 5.0d
-			y: 9.5d
-			dependencies: ["75A6E279852D6BE1"]
-			id: "72F3626BC3C39C70"
-			tasks: [{
-				id: "16495728E9511126"
-				type: "item"
-				item: "croptopia:pork_jerky"
-			}]
-			rewards: [{
-				id: "5E462D4160D58E99"
-				type: "loot"
-				table_id: 13756307348121783L
-			}]
-		}
-		{
-			x: 5.0d
 			y: 11.5d
 			dependencies: ["75A6E279852D6BE1"]
 			id: "02C910A474BC863E"
@@ -725,7 +709,7 @@
 			}]
 		}
 		{
-			x: 6.0d
+			x: 5.5d
 			y: 9.5d
 			dependencies: ["75A6E279852D6BE1"]
 			id: "7A99AED2CE6A77A6"
