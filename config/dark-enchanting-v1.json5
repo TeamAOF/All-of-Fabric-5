@@ -1,0 +1,91 @@
+{
+  //
+  //Performance: Decide whether Dark Conduits emit particles.
+  //True means they do emit particles.
+  //Default: true
+  "hasFancyShrineParticle": true,
+  //
+  //Base experience cost for each enchantment.
+  //All enchantments will be worth at least this much.
+  //Default: 30
+  "baseExperienceCost": 30,
+  //
+  //Each enchantment's cost is multiplied by this value.
+  //Default: 1.0
+  "costFactor": 1.0,
+  //
+  //Removing an enchantment from gear will give XP back.
+  //The amount received back is multiplied by this value.
+  //Default: 0.49
+  "receiveFactor": 0.49,
+  //
+  //Each curse enchantment's cost is multiplied by this value.
+  //Curse Enchantments will show up as red on the Dark Enchanter.
+  //Default: 3.0
+  "curseFactor": 3.0,
+  //
+  //Each TREASURE enchantment's cost is multiplied by this value.
+  //TREASURE Enchantments will show up as blue on the Dark Enchanter.
+  //Default: 4.0
+  "treasureFactor": 4.0,
+  //
+  //How much an enchantment's inverted weight should be multiplied with.
+  //Each enchantment has a Rarity, and each Rarity has a weight.
+  //You can check Enchantment weights on many Minecraft wikis.
+  //Inverted weight is calculated through (11.0 - Weight),
+  //and we multiply the inverted weight with the cost,
+  //so that cost is affected by the rarity of the Enchantment.
+  //This weightFactor allows you to modify the inverted weight.
+  //
+  //Default: 3.0
+  "weightFactor": 3.0,
+  //
+  //Repairing any item will have its cost multiplied by this value.
+  //Default: 1.0
+  "repairFactor": 1.0,
+  //
+  //This number represents the discount from bookshelves.
+  //Default: 0.4 (40%)
+  "bookshelvesDiscount": 0.4,
+  //
+  //This number represents the discount from Dark Conduits.
+  //Default: 0.1 (10%)
+  "conduitDiscount": 0.1,
+  //
+  //As a security feature, the client can no longer send packets to the server requesting above
+  //maximum enchantment levels.
+  //
+  //However, improper implementation from other mods can result in this check leading to undesirable effects.
+  //For example, mods that remove the limit will likely want this config option off to ensure
+  //compability.
+  //Default: true
+  "shouldRejectEnchantmentAttemptsAboveMaxValue": true,
+  //
+  //This list can be used to configure specific enchantments.
+  //The values are as follows:
+  //
+  //    enchantmentId: The In-Game identification of the Enchantment.
+  //        No Default.
+  //    activated: Determines whether the enchantment will be available in the Dark Enchanter.
+  //        Default: true
+  //    personalFactor: During transactions, the cost of the specific enchantment is multiplied by this value.
+  //        Default: 1.0
+  //    personalReceiveFactor: Removing enchantments allows you to receive back some XP. The amount received is multiplied by this value.
+  //
+  //Below is an example entry for Sharpness with its defaults.
+  //A mending example is also put on here, but this one changes the default cost of Mending to give less when you are disenchanting items. This is added to avoid Mending XP farming.
+  "configEnchantments": [
+    {
+      "enchantmentId": "minecraft:sharpness",
+      "activated": true,
+      "personalFactor": 1.0,
+      "personalReceiveFactor": 1.0
+    },
+    {
+      "enchantmentId": "minecraft:mending",
+      "activated": true,
+      "personalFactor": 1.0,
+      "personalReceiveFactor": 0.5
+    }
+  ]
+}

@@ -35,6 +35,7 @@
     "packetLog": false,
     "craftingLog": false,
     "debugLog": false,
+    "gridLog": false,
     "__comment": "Enable stack trace logging for the chunk loading debug command",
     "chunkLoggerTrace": false
   },
@@ -49,13 +50,11 @@
     "matterCannon": 200000
   },
   "worldGen": {
-    "generateMeteorites": true,
-    "__comment": "Biome IDs in which quartz ores should NOT be generated (i.e. minecraft:plains).",
-    "meteoriteBiomeBlacklist": [],
     "spawnPressesInMeteorites": true,
     "generateQuartzOre": true,
     "quartzOresPerCluster": 5,
     "quartzOresClusterAmount": 15,
+    "__comment": "Biome IDs in which quartz ores should NOT be generated (i.e. minecraft:plains).",
     "quartzOresBiomeBlacklist": []
   },
   "wireless": {

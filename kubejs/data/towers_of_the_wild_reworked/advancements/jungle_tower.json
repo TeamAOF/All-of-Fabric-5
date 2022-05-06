@@ -1,0 +1,33 @@
+{
+    "parent": "towers_of_the_wild_reworked:root",
+    "display": {
+        "icon": {
+            "item": "minecraft:vine"
+        },
+        "title": {
+            "translate": "BANANAS?"
+        },
+        "description": {
+            "translate": "Find a Tower in the Jungle"
+        },
+        "frame": "task",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "criteria": {
+        "jungle": {
+            "trigger": "minecraft:location",
+            "conditions": {
+                "location": {
+                    "feature": "towers_of_the_wild_reworked:jungle"
+                }
+            }
+        }
+    },
+    "requirements": [
+        [
+            "jungle"
+        ]
+    ]
+}

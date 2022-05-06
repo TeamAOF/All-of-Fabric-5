@@ -395,5 +395,33 @@
 				icon: "croptopia:starfruit"
 			}]
 		}
+		{
+			x: 3.0d
+			y: 3.0d
+			subtitle: "Obtain your first bounty, rewards depend on rarity."
+			description: ["Bounty boards will mostly be found in villages around the world."]
+			dependencies: ["6EC4700B21DB617B"]
+			id: "71B0D2F9318DEBC1"
+			tasks: [{
+				id: "7A4D0D148A41E347"
+				type: "observation"
+				title: "Bounties"
+				icon: {
+					id: "bountiful:bounty"
+					Count: 1b
+					tag: {
+						"bountiful:bounty_data": "{}"
+					}
+				}
+				timer: 0L
+				observe_type: 0
+				to_observe: "bountiful:bountyboard"
+			}]
+			rewards: [{
+				id: "15F460C5E0FFCE17"
+				type: "loot"
+				table_id: 13756307348121783L
+			}]
+		}
 	]
 }

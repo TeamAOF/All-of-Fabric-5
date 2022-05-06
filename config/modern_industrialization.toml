@@ -8,3 +8,4 @@ newVersionMessage = false
 enableHatchPlacementOverlay = true
 colorWaterLava = true
 enableDebugCommands = false
+enableAe2Integration = true

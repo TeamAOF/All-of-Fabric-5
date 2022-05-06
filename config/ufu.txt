@@ -1,0 +1,32 @@
+// Make sure to make backups!
+// Format is <old identifier> -> <new identifier>
+// Example: removed_mod:bad_block_or_item -> added_mod:good_block_or_item
+// You can press F3 to see block IDs on the right, and F3 + H to see item IDs
+byg:nylium_soul_sand -> byg:warped_soul_sand
+byg:nylium_soul_soil -> byg:warped_soul_soil
+betterazalea:azalea_button -> ecologics:azalea_button
+betterazalea:azalea_door -> ecologics:azalea_door
+betterazalea:azalea_fence -> ecologics:azalea_fence
+betterazalea:azalea_fence_gate -> ecologics:azalea_fence_gate
+betterazalea:azalea_flower -> ecologics:azalea_flower
+betterazalea:azalea_log -> ecologics:azalea_log
+betterazalea:azalea_planks -> ecologics:azalea_planks
+betterazalea:azalea_pressure_plate -> ecologics:azalea_pressure_plate
+betterazalea:azalea_slab -> ecologics:azalea_slab
+betterazalea:azalea_stairs -> ecologics:azalea_stairs
+betterazalea:azalea_trapdoor -> ecologics:azalea_trapdoor
+betterazalea:azalea_wood -> ecologics:azalea_wood
+betterazalea:flowering_azalea_door -> ecologics:flowering_azalea_door
+betterazalea:flowering_azalea_fence -> ecologics:flowering_azalea_fence
+betterazalea:flowering_azalea_fence_gate -> ecologics:flowering_azalea_fence_gate
+betterazalea:flowering_azalea_log -> ecologics:flowering_azalea_log
+betterazalea:flowering_azalea_planks -> ecologics:flowering_azalea_planks
+betterazalea:flowering_azalea_slab -> ecologics:flowering_azalea_slab
+betterazalea:flowering_azalea_stairs -> ecologics:flowering_azalea_stairs
+betterazalea:flowering_azalea_trapdoor -> ecologics:flowering_azalea_trapdoor
+betterazalea:flowering_azalea_wood -> ecologics:flowering_azalea_wood
+betterazalea:surface_moss -> ecologics:surface_moss
+betterazalea:moss_layer -> ecologics:moss_layer
+betterazalea:stripped_azalea_log -> ecologics:stripped_azalea_log
+betterazalea:stripped_azalea_wood -> ecologics:stripped_azalea_wood
+betterazalea:flowering_azalea_sign -> ecologics:flowering_azalea_sign

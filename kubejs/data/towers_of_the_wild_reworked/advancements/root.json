@@ -1,0 +1,35 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:stone_bricks"
+        },
+        "title": {
+            "translate": "Towers of the Wild: Reworked"
+        },
+        "description": {
+            "translate": "Are you able to climb all Towers?"
+        },
+        "frame": "task",
+        "show_toast": false,
+        "announce_to_chat": false,
+        "hidden": false,
+        "background": "minecraft:textures/gui/advancements/backgrounds/adventure.png"
+    },
+    "criteria": {
+        "sample_trigger": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "minecraft:crafting_table"
+                    }
+                ]
+            }
+        }
+    },
+    "requirements": [
+        [
+            "sample_trigger"
+        ]
+    ]
+}

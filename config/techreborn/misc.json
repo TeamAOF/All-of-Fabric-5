@@ -1,9 +1,5 @@
 {
   "general": {
-    "DispenserScrapbox": {
-      "comment": "Dispensers will open scrapboxes",
-      "value": true
-    },
     "manualRefund": {
       "comment": "Allow refunding items used to craft the manual",
       "value": true
@@ -11,6 +7,10 @@
     "MachineSoundVolume": {
       "comment": "Machines crafting sound volume (0 - disabled, 1 - max)",
       "value": 1.0
+    },
+    "DispenserScrapbox": {
+      "comment": "Dispensers will open scrapboxes",
+      "value": true
     },
     "vanillaUnlockRecipes": {
       "comment": "Enable recipe unlocks only with vanilla mechanic, instead of getting all of them at once",
@@ -46,12 +46,12 @@
     }
   },
   "cable": {
-    "uninsulatedElectrocutionDamage": {
-      "comment": "When true an uninsulated cable will cause damage to entities",
-      "value": true
-    },
     "uninsulatedElectrocutionSound": {
       "comment": "When true an uninsulated cable will create a spark sound when an entity touches it",
+      "value": true
+    },
+    "uninsulatedElectrocutionDamage": {
+      "comment": "When true an uninsulated cable will cause damage to entities",
       "value": true
     },
     "uninsulatedElectrocutionParticles": {

@@ -10,6 +10,8 @@ onEvent('recipes', (event) => {
     
     event.replaceInput({}, '#c:workbench', '#c:workbench');
 
+    event.replaceInput({}, '#c:barrel', '#c:barrel');
+
     event.replaceInput({}, 'mtmechs:iron_gear_item', 'modern_industrialization:iron_gear');
 
     event.replaceInput({}, 'extragenerators:icy_generator', 'extragenerators:colorful_generator');

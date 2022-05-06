@@ -20,35 +20,6 @@
 			}]
 		}
 		{
-			title: "Professions"
-			x: 2.0d
-			y: -2.0d
-			subtitle: "Find a Guild Master in a plains village, and buy a Profession Licence."
-			description: [
-				"The Guild structure can found mainly in plains villages and more rarely in other ones."
-				""
-				"Here you can buy Professions Licences to start accepting quests or to expand your choices."
-				""
-				"A quest is a set of randomly generated tasks usually accompanied by a corresponding reward based on said tasks."
-			]
-			dependencies: ["6EC4700B21DB617B"]
-			id: "6B484D5ABD8D177E"
-			tasks: [{
-				id: "0547BAE7CC407378"
-				type: "item"
-				item: {
-					id: "guild:profession_licence"
-					Count: 1b
-					tag: { }
-				}
-			}]
-			rewards: [{
-				id: "3B3F6A1571989667"
-				type: "loot"
-				table_id: 13756307348121783L
-			}]
-		}
-		{
 			title: "Fishes and Crates!"
 			icon: {
 				id: "gofish:celestial_rod"
@@ -58,7 +29,7 @@
 				}
 			}
 			x: -3.0d
-			y: 1.0d
+			y: -0.5d
 			subtitle: "Fishing should be fun."
 			description: [
 				"Go Fish adds in general Fish, which are obtainable globally in any area for each dimension, and biome-specific Fish, which are only obtainable in certain areas (See below)."
@@ -139,45 +110,17 @@
 			}]
 		}
 		{
-			x: -3.0d
-			y: -2.0d
-			subtitle: "Obtain your first bounty, rewards depend on rarity."
-			description: ["Bounty boards will mostly be found in villages around the world."]
-			dependencies: ["6EC4700B21DB617B"]
-			id: "71B0D2F9318DEBC1"
-			tasks: [{
-				id: "7A4D0D148A41E347"
-				type: "observation"
-				title: "Bounties"
-				icon: {
-					id: "bountiful:bounty"
-					Count: 1b
-					tag: {
-						"bountiful:bounty_data": "{}"
-					}
-				}
-				timer: 0L
-				observe_type: 0
-				to_observe: "bountiful:bountyboard"
-			}]
-			rewards: [{
-				id: "15F460C5E0FFCE17"
-				type: "loot"
-				table_id: 13756307348121783L
-			}]
-		}
-		{
 			title: "Find a Graveyard"
 			icon: "graveyard:skull_with_rib_cage"
 			x: 2.0d
-			y: 1.0d
+			y: -0.5d
 			subtitle: "Locate a Small Graveyard structure. Be sure to have a look or two below the graves for shiny loot."
 			dependencies: ["6EC4700B21DB617B"]
 			id: "14DE762F4663D1C9"
 			tasks: [{
 				id: "63A78B39851541A7"
 				type: "structure"
-				structure: "thegraveyard:small_graveyard"
+				structure: "graveyard:small_graveyard"
 			}]
 			rewards: [{
 				id: "151790FF4F267945"

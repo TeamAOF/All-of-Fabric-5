@@ -1,36 +1,36 @@
 {
-	// The density of Pulse Petal flowers generating in forests [default = 6]
+	// The density of Pulse Petal flowers generating in forests [default = 8]
 	"pulsePetalDensity": 6,
-	// The density of Foxnip flowers generating in taigas [default = 4]
+	// The density of Foxnip flowers generating in taigas [default = 8]
 	"foxnipDensity": 4,
-	// Frosted Foxnip flower spawning density in game [default = 4]
+	// Frosted Foxnip flower spawning density in game [default = 10]
 	"frostedFoxnipDensity": 4,
-	// The density of Fairy Blossom flowers generating in flower forests [default = 8]
+	// The density of Fairy Blossom flowers generating in flower forests [default = 10]
 	"fairyBlossomDensity": 8,
-	// The density of Gem of the Jungle flowers in jungles [default = 5]
+	// The density of Gem of the Jungle flowers in jungles [default = 12]
 	"jungleGemDensity": 5,
-	// The density of Rose flowers in forests and plains [default = 6]
+	// The density of Rose flowers in meadows [default = 8]
 	"roseDensity": 6,
-	// The density of Muscari flowers in snowy places [default = 8]
+	// The density of Muscari flowers in snowy places [default = 10]
 	"muscariDensity": 8,
-	// The density of Sunset Poppy flowers in savannas [default = 6]
+	// The density of Sunset Poppy flowers in savannas [default = 10]
 	"sunsetPoppyDensity": 6,
-	// The density of Purpureum flowers in swamps [default = 7]
+	// The density of Purpureum flowers in swamps [default = 12]
 	"purpureumDensity": 7,
-	// The density of Midnight_orchid flowers [default = 6]
-	"midnight_orchidDensity": 6,
-	// The density of Hyacinth flowers [default = 6]
+	// The density of Midnight Orchid flowers [default = 12]
+	"midnightOrchidDensity": 12,
+	// The density of Hyacinth flowers [default = 10]
 	"hyacinthDensity": 6,
-	// The density of Anthurium flowers [default = 6]
+	// The density of Anthurium flowers [default = 8]
 	"anthuriumDensity": 12,
-	// The density of Snow_fall_flower flowers [default = 6]
-	"snow_fall_flowerDensity": 6,
-	// The density of Spiked_tulip flowers [default = 6]
-	"spiked_tulipDensity": 6,
-	// The density of Lunula flowers [default = 6]
+	// The density of Snow Fall flowers [default = 10]
+	"snowFallFlowerDensity": 10,
+	// The density of Spiked Tulip flowers [default = 3]
+	"spikedTulipDensity": 3,
+	// The density of Lunula flowers [default = 10]
 	"lunulaDensity": 6,
 	// The density of Stonnete flowers [default = 3]
 	"stonneteDensity": 3,
-	// The density of Scilla flowers [default = 6]
+	// The density of Scilla flowers [default = 10]
 	"scillaDensity": 6
 }

@@ -1,117 +1,34 @@
 {
-  "recycler": {
-    "RecyclerChance": {
-      "comment": "Recycler Chance to produce scrap (1 out of chance)",
-      "value": 6
-    },
-    "RecyclerInput": {
-      "comment": "Recycler Max Input (Energy per tick)",
-      "value": 32
-    },
-    "RecyclerBlacklist": {
-      "comment": "Recycler blacklist",
-      "value": [
-        "techreborn:scrap_box",
-        "techreborn:scrap"
-      ]
-    },
-    "RecyclerMaxEnergy": {
-      "comment": "Recycler Max Energy",
-      "value": 1000
-    }
-  },
-  "greenhouse_controller": {
-    "GreenhouseControllerEnergyPerBonemeal": {
-      "comment": "Greenhouse Controller Energy usage Per Bonemeal",
-      "value": 50
-    },
-    "GreenhouseControllerMaxEnergy": {
-      "comment": "Greenhouse Controller Max Energy",
-      "value": 1000
-    },
-    "GreenhouseControllerEnergyPerTick": {
-      "comment": "Greenhouse Controller Energy usage Per Tick",
-      "value": 2
-    },
-    "GreenhouseControllerEnergyPerHarvest": {
-      "comment": "Greenhouse Controller Energy usage Per Harvest",
-      "value": 100
-    },
-    "GreenhouseControllerMaxInput": {
-      "comment": "Greenhouse Controller Max Input (Energy per tick)",
-      "value": 32
-    }
-  },
   "lesu": {
     "LesuMaxEnergyPerBlock": {
       "comment": "LESU Max Energy Per Block",
       "value": 1000000
     },
-    "LesuBaseOutput": {
-      "comment": "LESU Base Output",
-      "value": 5
-    },
     "LesuExtraIO": {
       "comment": "LESU Extra I/O Multiplier",
       "value": 1
-    }
-  },
-  "implosion_compressor": {
-    "ImplosionCompressorMaxEnergy": {
-      "comment": "Implosion Compressor Max Energy",
-      "value": 64000
     },
-    "ImplosionCompressorMaxInput": {
-      "comment": "Implosion Compressor Max Input (Energy per tick)",
-      "value": 64
-    }
-  },
-  "industrial_sawmill": {
-    "IndustrialSawmillMaxEnergy": {
-      "comment": "Industrial Sawmill Max Energy",
-      "value": 10000
-    },
-    "IndustrialSawmillMaxInput": {
-      "comment": "Industrial Sawmill Max Input (Energy per tick)",
-      "value": 128
-    }
-  },
-  "centrifuge": {
-    "CentrifugeMaxInput": {
-      "comment": "Centrifuge Max Input (Energy per tick)",
-      "value": 32
-    },
-    "CentrifugeMaxEnergy": {
-      "comment": "Centrifuge Max Energy",
-      "value": 10000
-    }
-  },
-  "matter_fabricator": {
-    "MatterFabricatorMaxEnergy": {
-      "comment": "Matter Fabricator Max Energy",
-      "value": 10000000
-    },
-    "MatterFabricatorEnergyPerAmp": {
-      "comment": "Matter Fabricator EU per amplifier unit, multiply this with the rate for total Energy",
+    "LesuBaseOutput": {
+      "comment": "LESU Base Output",
       "value": 5
-    },
-    "MatterFabricatorFabricationRate": {
-      "comment": "Matter Fabricator Fabrication Rate, amount of amplifier units per UUM",
-      "value": 6000
-    },
-    "MatterFabricatorMaxInput": {
-      "comment": "Matter Fabricator Max Input (Energy per tick)",
-      "value": 8192
     }
   },
-  "scrapboxinator": {
-    "ScrapboxinatorMaxEnergy": {
-      "comment": "Scrapboxinator Max Energy",
+  "block_placer": {
+    "BlockPlacerMaxEnergy": {
+      "comment": "Block Placer Max Energy",
       "value": 1000
     },
-    "ScrapboxinatorMaxInput": {
-      "comment": "Scrapboxinator Max Input (Energy per tick)",
+    "BlockPlacerMaxInput": {
+      "comment": "Block Placer Max Input (Energy per tick)",
       "value": 32
+    },
+    "BlockPlacerBaseBreakTime": {
+      "comment": "How many ticks a block of hardness 1 requires to be placed",
+      "value": 100
+    },
+    "BlockPlacerEnergyPerTick": {
+      "comment": "Block Placer Energy usage Per Tick",
+      "value": 5
     }
   },
   "rolling_machine": {
@@ -134,16 +51,6 @@
       "value": 128
     }
   },
-  "electric_furnace": {
-    "ElectricFurnaceInput": {
-      "comment": "Electric Furnace Max Input (Energy per tick)",
-      "value": 32
-    },
-    "ElectricFurnaceMaxEnergy": {
-      "comment": "Electric Furnace Max Energy",
-      "value": 1000
-    }
-  },
   "vacuumfreezer": {
     "VacuumFreezerMaxEnergy": {
       "comment": "Vacuum Freezer Max Energy",
@@ -155,10 +62,6 @@
     }
   },
   "storage": {
-    "QuantumTankUnitCapacity": {
-      "comment": "How much liquid a Quantum Tank Unit can take (Value in buckets, 1000 Mb)(Compat: \u003d\u003d MAX_VALUE)",
-      "value": 2147483
-    },
     "AdvancedStorageMaxStorage": {
       "comment": "Maximum amount of items an Advanced Storage Unit can store",
       "value": 32768
@@ -171,14 +74,6 @@
       "comment": "Maximum amount of items a Crude Storage Unit can store",
       "value": 2048
     },
-    "QuantumStorageUnitMaxStorage": {
-      "comment": "Maximum amount of items a Quantum Storage Unit can store (Compat: \u003d\u003d MAX_VALUE)",
-      "value": 2147483647
-    },
-    "AdvancedTankUnitMaxStorage": {
-      "comment": "How much liquid an Advanced Tank Unit can take (Value in buckets, 1000 Mb)",
-      "value": 200
-    },
     "IndustrialStorageMaxStorage": {
       "comment": "Maximum amount of items an Industrial Storage Unit can store (Compat: \u003e\u003d 32768)",
       "value": 65536
@@ -190,20 +85,36 @@
     "IndustrialTankUnitCapacity": {
       "comment": "How much liquid an Industrial Tank Unit can take (Value in buckets, 1000 Mb)",
       "value": 500
+    },
+    "QuantumTankUnitCapacity": {
+      "comment": "How much liquid a Quantum Tank Unit can take (Value in buckets, 1000 Mb)(Compat: \u003d\u003d MAX_VALUE)",
+      "value": 2147483
+    },
+    "QuantumStorageUnitMaxStorage": {
+      "comment": "Maximum amount of items a Quantum Storage Unit can store (Compat: \u003d\u003d MAX_VALUE)",
+      "value": 2147483647
+    },
+    "AdvancedTankUnitMaxStorage": {
+      "comment": "How much liquid an Advanced Tank Unit can take (Value in buckets, 1000 Mb)",
+      "value": 200
     }
   },
-  "charge_bench": {
-    "ChargeBenchMaxEnergy": {
-      "comment": "Charge Bench Max Energy",
-      "value": 100000000
+  "matter_fabricator": {
+    "MatterFabricatorEnergyPerAmp": {
+      "comment": "Matter Fabricator EU per amplifier unit, multiply this with the rate for total Energy",
+      "value": 5
     },
-    "ChargeBenchMaxInput": {
-      "comment": "Charge Bench Max Input (Energy per tick)",
-      "value": 512
+    "MatterFabricatorFabricationRate": {
+      "comment": "Matter Fabricator Fabrication Rate, amount of amplifier units per UUM",
+      "value": 6000
     },
-    "ChargeBenchMaxOutput": {
-      "comment": "Charge Bench Max Output (Energy per tick)",
-      "value": 512
+    "MatterFabricatorMaxInput": {
+      "comment": "Matter Fabricator Max Input (Energy per tick)",
+      "value": 8192
+    },
+    "MatterFabricatorMaxEnergy": {
+      "comment": "Matter Fabricator Max Energy",
+      "value": 10000000
     }
   },
   "Distillation_tower": {
@@ -214,34 +125,6 @@
     "DistillationTowerMaxInput": {
       "comment": "Distillation Tower Max Input (Energy per tick)",
       "value": 128
-    }
-  },
-  "fusion_reactor": {
-    "FusionReactorMaxInput": {
-      "comment": "Fusion Reactor Max Input (Energy per tick)",
-      "value": 8192
-    },
-    "FusionReactorMaxCoilSize": {
-      "comment": "Fusion Reactor Max Coil size (Radius)",
-      "value": 50
-    },
-    "FusionReactorMaxEnergy": {
-      "comment": "Fusion Reactor Max Energy",
-      "value": 100000000
-    },
-    "FusionReactorMaxOutput": {
-      "comment": "Fusion Reactor Max Output (Energy per tick)",
-      "value": 1000000
-    }
-  },
-  "solid_canning_machine": {
-    "solidCanningMachineMaxEnergy": {
-      "comment": "Solid Canning Machine Max Energy",
-      "value": 1000
-    },
-    "solidCanningMachineMaxInput": {
-      "comment": "Solid Canning Machine Max Input (Energy per tick)",
-      "value": 32
     }
   },
   "compressor": {
@@ -264,14 +147,28 @@
       "value": 256
     }
   },
-  "iron_machine": {
-    "fuel_scale": {
-      "comment": "Multiplier for vanilla furnace item burn time",
-      "value": 1.25
+  "charge_bench": {
+    "ChargeBenchMaxInput": {
+      "comment": "Charge Bench Max Input (Energy per tick)",
+      "value": 512
     },
-    "cooking_scale": {
-      "comment": "Multiplier for vanilla furnace item cook time",
-      "value": 1.25
+    "ChargeBenchMaxEnergy": {
+      "comment": "Charge Bench Max Energy",
+      "value": 100000000
+    },
+    "ChargeBenchMaxOutput": {
+      "comment": "Charge Bench Max Output (Energy per tick)",
+      "value": 512
+    }
+  },
+  "electric_furnace": {
+    "ElectricFurnaceMaxEnergy": {
+      "comment": "Electric Furnace Max Energy",
+      "value": 1000
+    },
+    "ElectricFurnaceInput": {
+      "comment": "Electric Furnace Max Input (Energy per tick)",
+      "value": 32
     }
   },
   "player_detector": {
@@ -292,24 +189,46 @@
       "value": 128
     }
   },
-  "alloy_smelter": {
-    "AlloySmelterMaxEnergy": {
-      "comment": "Alloy Smelter Max Energy",
-      "value": 1000
+  "implosion_compressor": {
+    "ImplosionCompressorMaxInput": {
+      "comment": "Implosion Compressor Max Input (Energy per tick)",
+      "value": 64
     },
-    "AlloySmelterMaxInput": {
-      "comment": "Alloy Smelter Max Input (Energy per tick)",
-      "value": 32
+    "ImplosionCompressorMaxEnergy": {
+      "comment": "Implosion Compressor Max Energy",
+      "value": 64000
     }
   },
-  "extractor": {
-    "ExtractorInput": {
-      "comment": "Extractor Max Input (Energy per tick)",
-      "value": 32
+  "iron_machine": {
+    "cooking_scale": {
+      "comment": "Multiplier for vanilla furnace item cook time",
+      "value": 1.25
     },
-    "ExtractorMaxEnergy": {
-      "comment": "Extractor Max Energy",
+    "fuel_scale": {
+      "comment": "Multiplier for vanilla furnace item burn time",
+      "value": 1.25
+    }
+  },
+  "greenhouse_controller": {
+    "GreenhouseControllerMaxEnergy": {
+      "comment": "Greenhouse Controller Max Energy",
       "value": 1000
+    },
+    "GreenhouseControllerEnergyPerTick": {
+      "comment": "Greenhouse Controller Energy usage Per Tick",
+      "value": 2
+    },
+    "GreenhouseControllerEnergyPerHarvest": {
+      "comment": "Greenhouse Controller Energy usage Per Harvest",
+      "value": 100
+    },
+    "GreenhouseControllerEnergyPerBonemeal": {
+      "comment": "Greenhouse Controller Energy usage Per Bonemeal",
+      "value": 50
+    },
+    "GreenhouseControllerMaxInput": {
+      "comment": "Greenhouse Controller Max Input (Energy per tick)",
+      "value": 32
     }
   },
   "industrial_furnace": {
@@ -332,10 +251,25 @@
       "value": 10000
     }
   },
-  "chunk_loader": {
-    "ChunkLoaderMaxRadius": {
-      "comment": "Chunk Loader Max Radius",
-      "value": 5
+  "recycler": {
+    "RecyclerInput": {
+      "comment": "Recycler Max Input (Energy per tick)",
+      "value": 32
+    },
+    "RecyclerChance": {
+      "comment": "Recycler Chance to produce scrap (1 out of chance)",
+      "value": 6
+    },
+    "RecyclerBlacklist": {
+      "comment": "Recycler blacklist",
+      "value": [
+        "techreborn:scrap_box",
+        "techreborn:scrap"
+      ]
+    },
+    "RecyclerMaxEnergy": {
+      "comment": "Recycler Max Energy",
+      "value": 1000
     }
   },
   "industrial_grinder": {
@@ -348,26 +282,20 @@
       "value": 128
     }
   },
-  "autocrafter": {
-    "AutoCrafterInput": {
-      "comment": "AutoCrafting Table Max Input (Energy per tick)",
-      "value": 32
-    },
-    "AutoCrafterMaxEnergy": {
-      "comment": "AutoCrafting Table Max Energy",
-      "value": 10000
-    }
-  },
   "aesu": {
     "AesuMaxEnergy": {
       "comment": "AESU Max Energy",
       "value": 100000000
     }
   },
-  "idsu": {
-    "IdsuMaxEnergy": {
-      "comment": "IDSU Max Energy",
-      "value": 1000000000
+  "alloy_smelter": {
+    "AlloySmelterMaxInput": {
+      "comment": "Alloy Smelter Max Input (Energy per tick)",
+      "value": 32
+    },
+    "AlloySmelterMaxEnergy": {
+      "comment": "Alloy Smelter Max Energy",
+      "value": 1000
     }
   },
   "industrial_electrolyzer": {
@@ -378,6 +306,120 @@
     "IndustrialElectrolyzerMaxInput": {
       "comment": "Industrial Electrolyzer Max Input (Energy per tick)",
       "value": 128
+    }
+  },
+  "fusion_reactor": {
+    "FusionReactorMaxEnergy": {
+      "comment": "Fusion Reactor Max Energy",
+      "value": 100000000
+    },
+    "FusionReactorMaxOutput": {
+      "comment": "Fusion Reactor Max Output (Energy per tick)",
+      "value": 1000000
+    },
+    "FusionReactorMaxInput": {
+      "comment": "Fusion Reactor Max Input (Energy per tick)",
+      "value": 8192
+    },
+    "FusionReactorMaxCoilSize": {
+      "comment": "Fusion Reactor Max Coil size (Radius)",
+      "value": 50
+    }
+  },
+  "centrifuge": {
+    "CentrifugeMaxEnergy": {
+      "comment": "Centrifuge Max Energy",
+      "value": 10000
+    },
+    "CentrifugeMaxInput": {
+      "comment": "Centrifuge Max Input (Energy per tick)",
+      "value": 32
+    }
+  },
+  "drain": {
+    "TicksUntilNextDrainAttempt": {
+      "comment": "How many ticks should go between two drain attempts. 0 or negative will disable drain.",
+      "value": 10
+    }
+  },
+  "industrial_sawmill": {
+    "IndustrialSawmillMaxEnergy": {
+      "comment": "Industrial Sawmill Max Energy",
+      "value": 10000
+    },
+    "IndustrialSawmillMaxInput": {
+      "comment": "Industrial Sawmill Max Input (Energy per tick)",
+      "value": 128
+    }
+  },
+  "scrapboxinator": {
+    "ScrapboxinatorMaxEnergy": {
+      "comment": "Scrapboxinator Max Energy",
+      "value": 1000
+    },
+    "ScrapboxinatorMaxInput": {
+      "comment": "Scrapboxinator Max Input (Energy per tick)",
+      "value": 32
+    }
+  },
+  "block_breaker": {
+    "BlockBreakerBaseBreakTime": {
+      "comment": "How many ticks a block of hardness 1 requires to be broken",
+      "value": 100
+    },
+    "BlockBreakerEnergyPerTick": {
+      "comment": "Block Breaker Energy usage Per Tick",
+      "value": 5
+    },
+    "BlockBreakerMaxInput": {
+      "comment": "Block Breaker Max Input (Energy per tick)",
+      "value": 32
+    },
+    "BlockBreakerMaxEnergy": {
+      "comment": "Block Breaker Max Energy",
+      "value": 1000
+    }
+  },
+  "solid_canning_machine": {
+    "solidCanningMachineMaxEnergy": {
+      "comment": "Solid Canning Machine Max Energy",
+      "value": 1000
+    },
+    "solidCanningMachineMaxInput": {
+      "comment": "Solid Canning Machine Max Input (Energy per tick)",
+      "value": 32
+    }
+  },
+  "extractor": {
+    "ExtractorInput": {
+      "comment": "Extractor Max Input (Energy per tick)",
+      "value": 32
+    },
+    "ExtractorMaxEnergy": {
+      "comment": "Extractor Max Energy",
+      "value": 1000
+    }
+  },
+  "chunk_loader": {
+    "ChunkLoaderMaxRadius": {
+      "comment": "Chunk Loader Max Radius",
+      "value": 5
+    }
+  },
+  "autocrafter": {
+    "AutoCrafterInput": {
+      "comment": "AutoCrafting Table Max Input (Energy per tick)",
+      "value": 32
+    },
+    "AutoCrafterMaxEnergy": {
+      "comment": "AutoCrafting Table Max Energy",
+      "value": 10000
+    }
+  },
+  "idsu": {
+    "IdsuMaxEnergy": {
+      "comment": "IDSU Max Energy",
+      "value": 1000000000
     }
   }
 }

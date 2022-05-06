@@ -1,0 +1,10 @@
+{
+    "type": "minecraft:village",
+    "biomes": "#towers_of_the_wild_reworked:has_structure/regular_tower",
+    "adapt_noise": true,
+    "spawn_overrides": {},
+    "config": {
+        "start_pool": "towers_of_the_wild_reworked:regular/bottom",
+        "size": 1
+    }
+}

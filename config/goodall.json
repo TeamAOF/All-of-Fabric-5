@@ -1,0 +1,95 @@
+{
+  "Spawn Configurations": {
+    "//Spawn Configurations": "Spawn Configurations for all the mobs in goodall.",
+    "Rhino": {
+      "//Rhino": "Rhino Spawn Configurations",
+      "//weight": "The spawn weighting.",
+      "weight": 2,
+      "//min": "The min group size.",
+      "min": 1,
+      "//max": "The max group size.",
+      "max": 1
+    },
+    "Dumbo Octopus": {
+      "//Dumbo Octopus": "Dumbo Octopus Spawn Configurations",
+      "//weight": "The spawn weighting.",
+      "weight": 2,
+      "//min": "The min group size.",
+      "min": 0,
+      "//max": "The max group size.",
+      "max": 2
+    },
+    "Blue Footed Booby": {
+      "//Blue Footed Booby": "Blue Footed Booby Spawn Configurations",
+      "//weight": "The spawn weighting.",
+      "weight": 4,
+      "//min": "The min group size.",
+      "min": 0,
+      "//max": "The max group size.",
+      "max": 1
+    },
+    "Fennec Fox": {
+      "//Fennec Fox": "Fennec Fox Spawn Configurations",
+      "//weight": "The spawn weighting.",
+      "weight": 2,
+      "//min": "The min group size.",
+      "min": 0,
+      "//max": "The max group size.",
+      "max": 1
+    },
+    "Kiwi": {
+      "//Kiwi": "Kiwi Spawn Configurations",
+      "//weight": "The spawn weighting.",
+      "weight": 10,
+      "//min": "The min group size.",
+      "min": 1,
+      "//max": "The max group size.",
+      "max": 2
+    },
+    "Manatee": {
+      "//Manatee": "Manatee Spawn Configurations",
+      "//weight": "The spawn weighting.",
+      "weight": 5,
+      "//min": "The min group size.",
+      "min": 0,
+      "//max": "The max group size.",
+      "max": 1
+    },
+    "Red Deer": {
+      "//Red Deer": "Red Deer Spawn Configurations",
+      "//weight": "The spawn weighting.",
+      "weight": 10,
+      "//min": "The min group size.",
+      "min": 0,
+      "//max": "The max group size.",
+      "max": 1
+    },
+    "White Tailed Deer": {
+      "//White Tailed Deer": "White Tailed Deer Spawn Configurations",
+      "//weight": "The spawn weighting. Note: +5 is added for flower forests.",
+      "weight": 20,
+      "//min": "The min group size.",
+      "min": 1,
+      "//max": "The max group size.",
+      "max": 3
+    },
+    "Seal": {
+      "//Seal": "Seal Spawn Configurations",
+      "//weight": "The spawn weighting.",
+      "weight": 5,
+      "//min": "The min group size.",
+      "min": 0,
+      "//max": "The max group size.",
+      "max": 1
+    },
+    "Flamingo": {
+      "//Flamingo": "Flamingo Spawn Configurations",
+      "//weight": "The spawn weighting.",
+      "weight": 1,
+      "//min": "The min group size.",
+      "min": 0,
+      "//max": "The max group size.",
+      "max": 1
+    }
+  }
+}

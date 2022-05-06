@@ -91,7 +91,9 @@
 			"compositeScrollBarPermanent": false,
 			"toastDisplayedOnCopyIdentifier": true,
 			// Declares whether REI should use compact tabs for categories.
-			"useCompactTabs": true
+			"useCompactTabs": true,
+			// Declares whether REI should use compact tab buttons for categories.
+			"useCompactTabButtons": true
 		},
 		"search": {
 			// Declares whether search time should be debugged.
@@ -133,7 +135,7 @@
 			// Declares the position of the config button.
 			"configButtonLocation": "LOWER",
 			// Declares whether the craftable filter button is enabled.
-			"enableCraftableOnlyButton": false
+			"enableCraftableOnlyButton": true
 		},
 		// Declares the appearance of recipe's border.
 		"recipeBorder": "DEFAULT",

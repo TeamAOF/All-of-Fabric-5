@@ -1,13 +1,22 @@
 {
-  "generate_in_villages": true,
+  "worldgen": {
+    "generate_in_villages": true,
+    "village_waystone_weight": 5
+  },
+  "teleportation_cost": {
+    "cost_type": "level",
+    "cost_item": "minecraft:ender_pearl",
+    "base_cost": 1,
+    "cost_per_block_distance": 0.0,
+    "cost_multiplier_between_dimensions": 1.0
+  },
+  "discover_with_item": "none",
+  "take_amount_from_discover_item": 0,
   "consume_infinite_knowledge_scroll_on_use": false,
   "consume_local_void_on_use": true,
   "free_local_void_teleport": true,
   "store_waystone_data_on_sneak_break": true,
   "can_owners_redeem_payments": false,
-  "cost_amount": 1,
-  "cost_type": "level",
-  "cost_item": "minecraft:ender_pearl",
   "waystone_block_hardness": 4.0,
   "waystone_block_required_mining_level": 1,
   "prevent_non_owners_from_breaking_waystone": false,

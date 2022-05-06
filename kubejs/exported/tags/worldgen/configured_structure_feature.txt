@@ -1,0 +1,321 @@
+To refresh this file, delete it and run /reload command again! Last updated: Apr 10, 2022, 10:37:47 PM
+
+#repurposed_structures:collections/villages
+- repurposed_structures:village_badlands
+- repurposed_structures:village_birch
+- repurposed_structures:village_crimson
+- repurposed_structures:village_dark_forest
+- repurposed_structures:village_giant_taiga
+- repurposed_structures:village_jungle
+- repurposed_structures:village_mountains
+- repurposed_structures:village_mushroom
+- repurposed_structures:village_oak
+- repurposed_structures:village_swamp
+- repurposed_structures:village_warped
+
+#repurposed_structures:collections/temples
+- repurposed_structures:temple_nether_basalt
+- repurposed_structures:temple_nether_crimson
+- repurposed_structures:temple_nether_soul
+- repurposed_structures:temple_nether_warped
+- repurposed_structures:temple_nether_wasteland
+
+#repurposed_structures:explorer_maps/stronghold_end
+- repurposed_structures:stronghold_end
+
+#repurposed_structures:collections/mineshafts
+- repurposed_structures:mineshaft_birch
+- repurposed_structures:mineshaft_crimson
+- repurposed_structures:mineshaft_dark_forest
+- repurposed_structures:mineshaft_desert
+- repurposed_structures:mineshaft_end
+- repurposed_structures:mineshaft_icy
+- repurposed_structures:mineshaft_jungle
+- repurposed_structures:mineshaft_nether
+- repurposed_structures:mineshaft_ocean
+- repurposed_structures:mineshaft_savanna
+- repurposed_structures:mineshaft_stone
+- repurposed_structures:mineshaft_swamp
+- repurposed_structures:mineshaft_taiga
+- repurposed_structures:mineshaft_warped
+
+#repurposed_structures:explorer_maps/pyramid_end
+- repurposed_structures:pyramid_end
+
+#repurposed_structures:collections/shipwrecks
+- repurposed_structures:shipwreck_crimson
+- repurposed_structures:shipwreck_end
+- repurposed_structures:shipwreck_nether_bricks
+- repurposed_structures:shipwreck_warped
+
+#repurposed_structures:explorer_maps/end_city
+- minecraft:end_city
+
+#repurposed_structures:collections/cities
+- repurposed_structures:city_overworld
+- repurposed_structures:city_nether
+
+#minecraft:on_treasure_maps
+- minecraft:buried_treasure
+
+#morevillagers:on_mineshaft_explorer_maps
+- minecraft:mineshaft
+
+#morevillagers:on_swamp_hut_explorer_maps
+- minecraft:swamp_hut
+
+#repurposed_structures:explorer_maps/ruins_nether
+- repurposed_structures:ruins_nether
+
+#byg:village
+- byg:village_red_rock
+- byg:village_skyris
+- byg:village_ruins
+- byg:village_tropical
+
+#repurposed_structures:collections/strongholds
+- repurposed_structures:stronghold_nether
+- repurposed_structures:stronghold_end
+
+#repurposed_structures:collections/bastions
+- repurposed_structures:bastion_underground
+
+#repurposed_structures:collections/pyramids
+- repurposed_structures:pyramid_badlands
+- repurposed_structures:pyramid_dark_forest
+- repurposed_structures:pyramid_end
+- repurposed_structures:pyramid_flower_forest
+- repurposed_structures:pyramid_giant_tree_taiga
+- repurposed_structures:pyramid_icy
+- repurposed_structures:pyramid_jungle
+- repurposed_structures:pyramid_mushroom
+- repurposed_structures:pyramid_nether
+- repurposed_structures:pyramid_ocean
+- repurposed_structures:pyramid_snowy
+
+#morevillagers:on_end_city_explorer_maps
+- minecraft:end_city
+
+#mostructures:no_lakes
+- mostructures:barn_house
+- mostructures:big_pyramid
+- mostructures:desert_abandoned_church
+- mostructures:ice_tower
+- mostructures:jungle_pyramid
+- mostructures:killer_bunny_castle
+- mostructures:lighthouse
+- mostructures:moai
+- mostructures:pillager_factory
+- mostructures:plains_abandoned_church
+- mostructures:savanna_abandoned_church
+- mostructures:snowy_abandoned_church
+- mostructures:taiga_abandoned_church
+- mostructures:tavern
+- mostructures:villager_market
+- mostructures:villager_tower
+
+#repurposed_structures:collections/igloos
+- repurposed_structures:igloo_grassy
+- repurposed_structures:igloo_mushroom
+- repurposed_structures:igloo_stone
+
+#repurposed_structures:explorer_maps/city_nether
+- repurposed_structures:city_nether
+
+#repurposed_structures:explorer_maps/bastion_remnant
+- minecraft:bastion_remnant
+
+#repurposed_structures:spawn_black_cats
+- #repurposed_structures:collections/witch_huts
+
+#repurposed_structures:no_lavafalls
+- repurposed_structures:bastion_underground
+- repurposed_structures:mineshaft_icy
+
+#repurposed_structures:collections/outposts
+- repurposed_structures:outpost_badlands
+- repurposed_structures:outpost_birch
+- repurposed_structures:outpost_crimson
+- repurposed_structures:outpost_desert
+- repurposed_structures:outpost_end
+- repurposed_structures:outpost_giant_tree_taiga
+- repurposed_structures:outpost_icy
+- repurposed_structures:outpost_jungle
+- repurposed_structures:outpost_nether_brick
+- repurposed_structures:outpost_oak
+- repurposed_structures:outpost_snowy
+- repurposed_structures:outpost_taiga
+- repurposed_structures:outpost_warped
+
+#byg:arches
+- byg:red_rock_arch
+- byg:destroyed_red_rock_arch
+- byg:overgrown_stone_arch
+- byg:stone_arch
+
+#minecraft:dolphin_located
+- #minecraft:ocean_ruin
+- #minecraft:shipwreck
+- repurposed_structures:pyramid_ocean
+
+#repurposed_structures:less_jungle_bushes
+- repurposed_structures:outpost_jungle
+- repurposed_structures:village_jungle
+
+#morevillagers:on_buried_treasure_explorer_maps
+- minecraft:buried_treasure
+
+#pneumaticcraft:no_oil_lakes
+- repurposed_structures:bastion_underground
+- #repurposed_structures:collections/villages
+- #repurposed_structures:collections/mansions
+- #repurposed_structures:collections/witch_huts
+
+#repurposed_structures:collections/fortresses
+- repurposed_structures:fortress_jungle
+
+#minecraft:shipwreck
+- minecraft:shipwreck
+- minecraft:shipwreck_beached
+
+#charm:endermite_powder_located
+- minecraft:end_city
+
+#repurposed_structures:explorer_maps/bastion_underground
+- repurposed_structures:bastion_underground
+
+#minecraft:on_ocean_explorer_maps
+- minecraft:monument
+
+#morevillagers:on_pillager_outpost_explorer_maps
+- minecraft:pillager_outpost
+
+#repurposed_structures:collections/mansions
+- repurposed_structures:mansion_birch
+- repurposed_structures:mansion_desert
+- repurposed_structures:mansion_jungle
+- repurposed_structures:mansion_oak
+- repurposed_structures:mansion_savanna
+- repurposed_structures:mansion_snowy
+- repurposed_structures:mansion_taiga
+
+#morevillagers:on_fortress_explorer_maps
+- minecraft:fortress
+
+#repurposed_structures:collections/witch_huts
+- repurposed_structures:witch_hut_birch
+- repurposed_structures:witch_hut_dark_forest
+- repurposed_structures:witch_hut_giant_tree_taiga
+- repurposed_structures:witch_hut_oak
+- repurposed_structures:witch_hut_taiga
+
+#repurposed_structures:collections/ruined_portals
+- repurposed_structures:ruined_portal_end
+
+#minecraft:ruined_portal
+- minecraft:ruined_portal_desert
+- minecraft:ruined_portal_jungle
+- minecraft:ruined_portal_mountain
+- minecraft:ruined_portal_nether
+- minecraft:ruined_portal_ocean
+- minecraft:ruined_portal
+- minecraft:ruined_portal_swamp
+- repurposed_structures:ruined_portal_end
+
+#repurposed_structures:explorer_maps/stronghold_nether
+- repurposed_structures:stronghold_nether
+
+#minecraft:village
+- minecraft:village_plains
+- minecraft:village_desert
+- minecraft:village_savanna
+- minecraft:village_snowy
+- minecraft:village_taiga
+- #byg:village
+- repurposed_structures:village_badlands
+- repurposed_structures:village_birch
+- repurposed_structures:village_crimson
+- repurposed_structures:village_dark_forest
+- repurposed_structures:village_giant_taiga
+- repurposed_structures:village_jungle
+- repurposed_structures:village_mountains
+- repurposed_structures:village_mushroom
+- repurposed_structures:village_oak
+- repurposed_structures:village_swamp
+- repurposed_structures:village_warped
+- thatched:village_thatched
+
+#repurposed_structures:no_basalt
+- repurposed_structures:mineshaft_nether
+- repurposed_structures:mineshaft_crimson
+- repurposed_structures:mineshaft_warped
+- repurposed_structures:temple_nether_basalt
+- repurposed_structures:shipwreck_nether_bricks
+- repurposed_structures:outpost_nether_brick
+- repurposed_structures:village_crimson
+- repurposed_structures:village_warped
+- repurposed_structures:ruins_nether
+
+#minecraft:ocean_ruin
+- minecraft:ocean_ruin_cold
+- minecraft:ocean_ruin_warm
+
+#repurposed_structures:collections/ruins
+- repurposed_structures:ruins_land_icy
+- repurposed_structures:ruins_land_cold
+- repurposed_structures:ruins_land_warm
+- repurposed_structures:ruins_land_hot
+- repurposed_structures:ruins_nether
+
+#minecraft:mineshaft
+- minecraft:mineshaft
+- minecraft:mineshaft_mesa
+- repurposed_structures:mineshaft_birch
+- repurposed_structures:mineshaft_crimson
+- repurposed_structures:mineshaft_dark_forest
+- repurposed_structures:mineshaft_desert
+- repurposed_structures:mineshaft_end
+- repurposed_structures:mineshaft_icy
+- repurposed_structures:mineshaft_jungle
+- repurposed_structures:mineshaft_nether
+- repurposed_structures:mineshaft_ocean
+- repurposed_structures:mineshaft_savanna
+- repurposed_structures:mineshaft_stone
+- repurposed_structures:mineshaft_swamp
+- repurposed_structures:mineshaft_taiga
+- repurposed_structures:mineshaft_warped
+
+#bosses_of_mass_destruction:void_lily_target
+- bosses_of_mass_destruction:void_blossom
+
+#minecraft:on_woodland_explorer_maps
+- minecraft:mansion
+- biomemakeover:mansion
+
+#repurposed_structures:collections/monuments
+- repurposed_structures:monument_jungle
+- repurposed_structures:monument_icy
+- repurposed_structures:monument_nether
+- repurposed_structures:monument_desert
+
+#bosses_of_mass_destruction:soul_star_target
+- bosses_of_mass_destruction:lich_tower
+
+#morevillagers:on_bastion_remnant_explorer_maps
+- minecraft:bastion_remnant
+
+#repurposed_structures:explorer_maps/nether_fortress
+- minecraft:fortress
+
+#morevillagers:on_jungle_temple_explorer_maps
+- minecraft:jungle_pyramid
+
+#minecraft:eye_of_ender_located
+- minecraft:stronghold
+- #repurposed_structures:collections/strongholds
+
+#repurposed_structures:no_lakes
+- repurposed_structures:bastion_underground
+- #repurposed_structures:collections/villages
+- #repurposed_structures:collections/mansions
+- #repurposed_structures:collections/witch_huts

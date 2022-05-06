@@ -1,6 +1,7 @@
 {
 	"clientTweaks": {
 		"useCampfireSmoke": true,
+		"dontEatEnchantedItems": true,
 		"playerViewIsLocked": false,
 		"maxViewAngle": 90
 	},
@@ -12,6 +13,8 @@
 		"furnaceMaxBurnTime": 72000,
 		"canLinkMinecarts": true,
 		"shouldPoweredRailsStopFurnace": true,
-		"furnacesCanUseAllFuels": true
+		"furnacesCanUseAllFuels": true,
+		"furnaceMinecartsLoadChunks": false,
+		"toolsHarvestBlockMinecarts": true
 	}
 }

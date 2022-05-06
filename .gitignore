@@ -74,3 +74,7 @@ imgui.ini
 not-enough-crashes/
 
 logs/
+
+journeymap/
+
+client_data/

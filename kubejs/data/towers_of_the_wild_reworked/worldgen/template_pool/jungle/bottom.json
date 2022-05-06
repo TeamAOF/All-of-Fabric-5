@@ -1,0 +1,15 @@
+{
+    "name": "towers_of_the_wild_reworked:jungle/bottom",
+    "fallback": "minecraft:empty",
+    "elements": [
+        {
+            "weight": 1,
+            "element": {
+                "element_type": "minecraft:legacy_single_pool_element",
+                "location": "towers_of_the_wild_reworked:jungle/jungle_tower_bottom",
+                "projection": "rigid",
+                "processors": "minecraft:empty"
+            }
+        }
+    ]
+}

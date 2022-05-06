@@ -112,6 +112,7 @@ onEvent('tags.items', event => {
         'modern_industrialization:quantum_boots',
         'modern_industrialization:quantum_sword',
         'modern_industrialization:singularity',
+        'techreborn:nuke',
     ];
 
     replicator.forEach((item) => {

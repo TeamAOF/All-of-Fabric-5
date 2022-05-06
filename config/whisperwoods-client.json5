@@ -1,0 +1,4 @@
+// This is a client configuration file. Configurations with further options are located in: .minecraft/saves/(your world)/serverconfig/. Placing a server configuration in .minecraft/defaultconfigs/ will copy it to newly created worlds automatically.
+{
+	"entities": { }
+}

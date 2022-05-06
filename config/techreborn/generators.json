@@ -17,20 +17,6 @@
       "value": 262144
     }
   },
-  "water_mill": {
-    "WaterMillMaxEnergy": {
-      "comment": "Water Mill Max Energy",
-      "value": 1000
-    },
-    "WaterMillMaxOutput": {
-      "comment": "Water Mill Max Output (Energy per tick)",
-      "value": 32
-    },
-    "WaterMillEnergyPerTick": {
-      "comment": "Water Mill generation rate per water block (Energy per tick)",
-      "value": 0.1
-    }
-  },
   "dragon_egg_siphoner": {
     "DragonEggSiphonerMaxEnergy": {
       "comment": "Dragon Egg Siphoner Max Energy",
@@ -45,18 +31,18 @@
       "value": 4
     }
   },
-  "thermal_generator": {
-    "ThermalGeneratorMaxOutput": {
-      "comment": "Thermal Generator Max Output (Energy per tick)",
-      "value": 128
+  "water_mill": {
+    "WaterMillMaxOutput": {
+      "comment": "Water Mill Max Output (Energy per tick)",
+      "value": 32
     },
-    "ThermalGeneratorMaxEnergy": {
-      "comment": "Thermal Generator Max Energy",
-      "value": 1000000
+    "WaterMillMaxEnergy": {
+      "comment": "Water Mill Max Energy",
+      "value": 1000
     },
-    "ThermalGeneratorEnergyPerTick": {
-      "comment": "Thermal Generator Energy Per Tick",
-      "value": 16
+    "WaterMillEnergyPerTick": {
+      "comment": "Water Mill generation rate per water block (Energy per tick)",
+      "value": 0.1
     }
   },
   "wind_mill": {
@@ -99,6 +85,20 @@
     "basicDayRate": {
       "comment": "Generation rate during day for Basic Solar Panel (Energy per tick)",
       "value": 1
+    }
+  },
+  "thermal_generator": {
+    "ThermalGeneratorMaxEnergy": {
+      "comment": "Thermal Generator Max Energy",
+      "value": 1000000
+    },
+    "ThermalGeneratorEnergyPerTick": {
+      "comment": "Thermal Generator Energy Per Tick",
+      "value": 16
+    },
+    "ThermalGeneratorMaxOutput": {
+      "comment": "Thermal Generator Max Output (Energy per tick)",
+      "value": 128
     }
   },
   "solarPanelAdvanced": {

@@ -1,0 +1,10 @@
+{
+    "replace": false,
+    "values": [
+        "#minecraft:has_structure/mineshaft_mesa",
+        "minecraft:desert",
+        "#minecraft:is_mountain",
+        "#minecraft:is_hill"
+    ]
+}
+  

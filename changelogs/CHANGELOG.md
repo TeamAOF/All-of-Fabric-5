@@ -1,3 +1,75 @@
+### All of Fabric 5 | v1.2.0
+
+_Fabric Loader 0.14.4_ | _[Mod Updates](https://github.com/TeamAOF/All-of-Fabric-5/blob/main/changelogs/changelog_mods_1.2.0.md)_ | _[Modlist](https://github.com/TeamAOF/All-of-Fabric-5/blob/main/changelogs/modlist_1.2.0.md)_
+
+## Changes
+
+* Updated to 1.18.2
+* Instanced loot.
+* Resummoned ender dragon will now drop the egg.
+
+## Fixes
+
+* Graveyard quest using incorrect structure id.
+* Crashes reaching a Mansion.
+
+## Added
+
+* Applied Botanics
+* Bad Packets
+* Better Bad Omen
+* Cardinal Components API
+* CC: Restitched
+* Charm
+* Charmonium
+* Coxinha Utilities
+* Duckling
+* Enchancement
+* FindMe
+* FlytreLib
+* Grizzly Bear mob
+* Illager Expansion
+* Lootr
+* Macaw's Bridges
+* Macaw's Doors
+* Macaw's Lights and Lamps
+* Macaw's Windows
+* Probably Chests
+* Simple Void World
+* ThonkUtil
+* Towers of the Wild: Additions
+* Trinket of Undying
+* UpdateFixerUpper
+* VoidTotem
+* Whisperwoods
+
+## Removed
+
+* Artifality
+* Better Azalea
+* BoatContainer
+* Bountiful
+* Crooked Crooks 
+* Earthbounds
+* FastFurnace
+* Kambrik
+* Luminous Wool  
+* Platforms 
+* ShetiPhianCore 
+* Urns
+
+---
+
+### All of Fabric 5 | v1.1.5
+
+_Fabric Loader 0.13.3_ | _[Mod Updates](https://github.com/TeamAOF/All-of-Fabric-5/blob/main/changelogs/changelog_mods_1.1.5.md)_ | _[Modlist](https://github.com/TeamAOF/All-of-Fabric-5/blob/main/changelogs/modlist_1.1.5.md)_
+
+## Fixes
+
+* Memory leak overstepping Xmx until crash.
+
+---
+
 ### All of Fabric 5 | v1.1.4
 
 _Fabric Loader 0.13.3_ | _[Mod Updates](https://github.com/TeamAOF/All-of-Fabric-5/blob/main/changelogs/changelog_mods_1.1.4.md)_ | _[Modlist](https://github.com/TeamAOF/All-of-Fabric-5/blob/main/changelogs/modlist_1.1.4.md)_

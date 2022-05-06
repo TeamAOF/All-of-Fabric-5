@@ -1,0 +1,33 @@
+{
+    "parent": "towers_of_the_wild_reworked:root",
+    "display": {
+        "icon": {
+            "item": "minecraft:mossy_cobblestone"
+        },
+        "title": {
+            "translate": "A trip to the Countryside"
+        },
+        "description": {
+            "translate": "Find a Ancient Tower in the Woods or out in the Fields"
+        },
+        "frame": "task",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "criteria": {
+        "derelict_grass": {
+            "trigger": "minecraft:location",
+            "conditions": {
+                "location": {
+                    "feature": "towers_of_the_wild_reworked:derelict_grass"
+                }
+            }
+        }
+    },
+    "requirements": [
+        [
+            "derelict_grass"
+        ]
+    ]
+}

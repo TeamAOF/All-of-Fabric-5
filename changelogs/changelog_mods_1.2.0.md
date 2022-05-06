@@ -1,0 +1,222 @@
+# all-of-fabric-5 1.1.5⟶all-of-fabric-5 1.2.0
+
+**Added**
+- Applied Botanics: Applied-Botanics-1.0.0.jar  
+- Bad Packets: badpackets-fabric-0.1.2.jar  
+- Better Bad Omen: BetterBadOmen-1.2.0.jar  
+- Cardinal Components API: cardinal-components-api-4.1.4.jar  
+- CC: Restitched: cc-restitched-1.100.5.jar  
+- Charm: charm-fabric-1.18-4.1.0.jar  
+- Charmonium: charmonium-fabric-1.18-4.0.0.jar  
+- Coxinha Utilities: coxinhautilities-1.2+1.18.2.jar  
+- Duckling: duckling-1.0.4-fabric.jar  
+- Enchancement: enchancement-1.18-9.jar  
+- FindMe: findme-3.0.6-fabric.jar  
+- FlytreLib: flytre_lib-1.18.2-1.8.0-fabric.jar  
+- Grizzly Bear mob: grizzlybear-1.18-1.3.jar  
+- Illager Expansion: illager_expansion-0.1.5.jar  
+- Lootr: lootr-1.18.2-0.3.18.54.jar  
+- Macaw's Bridges: mcw-bridges-2.0.2fabric-mc1.18.2.jar  
+- Macaw's Doors: mcw-doors-1.0.6fabric-mc1.18.2.jar  
+- Macaw's Lights and Lamps: mcw-lights-1.0.3c fabric-mc1.18.2.jar  
+- Macaw's Windows: mcw-windows-2.0.3bfabric-mc1.18.2.jar  
+- Probably Chests: probablychests-0.4.2.jar  
+- Simple Void World: SimpleVoidWorld-6.0.0.jar  
+- ThonkUtil: thonkutil-2.12.0+1.18.jar  
+- Towers of the Wild: Additions: totw_additions-1.2.1-1.18.2-fabric-polymer.jar  
+- Trinket of Undying: trinketofundying-fabric-2.0.1-1.18.jar  
+- UpdateFixerUpper: updatefixerupper-1.0.0.jar  
+- VoidTotem (Fabric): voidtotem-fabric-1.18.2-1.3.1.jar  
+- Whisperwoods: whisperwoods-1.18.2-2.1.0-fabric.jar  
+  
+**Removed**  
+- Artifality: artifality-0.5.5.jar  
+- Better Azalea: azalea-FABRIC-1.0.1.jar  
+- BoatContainer: boatcontainer-1.0.4.jar  
+- Bountiful: BountifulFabric-2.0.2.jar  
+- Crooked Crooks: crookedcrooks-2.0.1+1.18.1.jar  
+- Earthbounds: earthbounds-1.0.5b.jar  
+- FastFurnace: fastfurnace-1.18-4.jar  
+- Kambrik: Kambrik-3.1.0-1.18.jar  
+- Luminous Wool: luminous-wool-1.2.2.jar  
+- Platforms: platforms-[fabric]-1.18-1.2.1.jar  
+- ShetiPhianCore: shetiphiancore-[fabric]-1.18-1.2.4.jar  
+- Urns: urns-v1.0.1-mc1.18.1.jar  
+  
+**Updated**  
+- Additional Additions: AdditionalAdditions-4.0.0.jar  
+- Adorn: Adorn-3.4.0+1.18.2-fabric.jar  
+- AdventureZ: adventurez-1.4.10.jar  
+- AE2Things: AE2Things-1.1.0-beta.3.jar  
+- AE2WTLib: AE2WTLib-11.0.0-alpha.2.jar  
+- Animal Feeding Trough: animal_feeding_trough-1.0.3+1.18.2.jar  
+- AOF Emotes: aofemotes-0.0.4+1.18.1.jar  
+- AppleSkin: appleskin-fabric-mc1.18.2-2.4.0.jar  
+- Applied Energistics 2: appliedenergistics2-11.0.0-alpha.5.jar  
+- Arcanus: arcanus-1.29.jar  
+- Architect's Palette Fabric: architects-palette-fabric-1.7.jar  
+- Architectury: architectury-4.4.54.jar  
+- Runtime Resource Pack: arrp-0.5.7.jar  
+- Artifacts: artifacts-7.0.3+fabric.jar  
+- AttributeFix: AttributeFix-Fabric-1.18.2-14.0.1.jar  
+- Auth Me: authme-mc1.18.2-3.1.0.jar  
+- Balm: balm-fabric-3.0.0+0.jar  
+- Basic AIOTs: basicaiots-1.3.3+1.18.2.jar  
+- Beacon Overhaul: BeaconOverhaul-1.6.0+1.18.2.jar  
+- YUNG's Better Dungeons: YungsBetterDungeons-1.18.2-Fabric-2.1.0.jar  
+- YUNG's Better Mineshafts: YungsBetterMineshafts-1.18.2-Fabric-2.1.1.jar  
+- YUNG's Better Strongholds: YungsBetterStrongholds-1.18.2-Fabric-2.1.1.jar  
+- Bewitchment: bewitchment-1.18-19.jar  
+- BHMenu-Fabric: bhmenu-1.17.1-1.18.2-1.3.jar  
+- Biome Makeover: biomemakeover-FABRIC-1.18.2-1.4.18.jar  
+- BitsAndChisels: bitsandchisels-2.6.8.jar  
+- BLAST: blast-1.8.5.jar  
+- Blockus: blockus-2.4.5+1.18.2.jar  
+- Bosses of Mass Destruction (Beta): BOMD-1.3.6-1.18.2.jar  
+- Bookshelf: Bookshelf-Fabric-1.18.2-13.0.13.jar  
+- Botania: Botania-1.18.2-431-FABRIC.jar  
+- Cammie's Minecart Tweaks: cammies-minecart-tweaks-1.5.jar  
+- Campanion: campanion-3.0.3.jar  
+- cAn i MiNe thIS bLOCk?: can-i-mine-this-block-1.2.0.jar  
+- Capybara: capybara-1.18-1.0.4.jar  
+- Caracal mob: caracal-1.18.2-1.3.8.jar  
+- Carrier: carrier-1.10.0.jar  
+- Catwalks Inc.: catwalks-inc-1.3.0.jar  
+- Chalk: chalk-2.0.0+1.18.2.jar  
+- Cloth API: cloth-api-3.2.64.jar  
+- Clumps: Clumps-fabric-1.18.2-8.0.0+8.jar  
+- Companion: Companion-1.18.2-fabric-2.0.1.jar  
+- Conjuring: conjuring-1.0.22+1.18.jar  
+- Continuity: continuity-1.1.0+1.18.2.jar  
+- Controlling For Fabric: Controlling-fabric-1.18.2-9.0+19.jar  
+- Couplings: Couplings-1.8.0+1.18.2.jar  
+- Crawl: crawl-0.10.6.jar  
+- Creeper Overhaul: creeperoverhaul-1.18.2-1.3.0-fabric.jar  
+- Croptopia: Croptopia-1.18.2-FABRIC-2.0.1.jar  
+- Croptopia's Chocolaterie: croptopia-chocolaterie-1.1.jar  
+- Dank Storage: dankstorage-1.18.2-3.7.jar  
+- Dark Enchanting: dark-enchanting-1.0.0+1.18.2.jar  
+- DarkPaintings: DarkPaintings-Fabric-1.18.2-10.0.1.jar  
+- DarkUtilities: DarkUtilities-Fabric-1.18.2-10.0.4.jar  
+- Dawn API: dawn-3.3.0.jar  
+- DeathLog: deathlog-0.2.7+1.18.jar  
+- Decorative Blocks: Decorative Blocks-fabric-1.18.2-2.1.0.jar  
+- Deep Mob Learning: Refabricated: deepmoblearning-refabricated-1.18.2.jar  
+- Deepslate Cutting: deepslatecutting-1.18.2-1.3.2.jar  
+- Disable Custom Worlds Advice: DisableCustomWorldsAdvice-2.0.jar  
+- DragonLoot: dragonloot-1.0.10.jar  
+- Dusk Mod: dusk-fabric-1.18.2-1.9.jar  
+- Dustrial Decor: dustrial-decor-fabric-0.5.jar  
+- Ecologics: ecologics-FABRIC-1.18.2-1.5.4.jar  
+- EnchantmentDescriptions: EnchantmentDescriptions-Fabric-1.18.2-10.0.3.jar  
+- Expanded Storage: expandedstorage-7.3.12+1.18.2.jar  
+- Extra Generators: extra-generators-1.2.1-BETA+1.18.jar  
+- Extra Alchemy: extraalchemy-fabric-1.18.2-1.8.1.jar  
+- Fabric API: fabric-api-0.51.1+1.18.2.jar  
+- Fabric Language Kotlin: fabric-language-kotlin-1.7.4+kotlin.1.6.21.jar  
+- Farmer's Delight: farmers-delight-fabric-0.2.1.jar  
+- Farming for Blockheads: farmingforblockheads-fabric-1.18.2-10.0.0.jar  
+- Feature NBT Deadlock Be Gone - Fabric: feature_nbt_deadlock_be_gone_fabric-2.0.0+1.18.2-rc1.jar  
+- FerriteCore: ferritecore-4.2.1-fabric.jar  
+- Floral Flair: Floral-Flair-1.3.0.jar  
+- Forge Config API Port: ForgeConfigAPIPort-v3.2.0-1.18.2-Fabric.jar  
+- FTB Chunks: ftb-chunks-fabric-1802.3.6-build.138.jar  
+- FTB Library: ftb-library-fabric-1802.3.6-build.115.jar  
+- FTB Quests: ftb-quests-fabric-1802.3.8-build.101.jar  
+- FTB Teams: ftb-teams-fabric-1802.2.6-build.51.jar  
+- FTB Ultimine: ftb-ultimine-fabric-1802.3.3-build.55.jar  
+- Gate Of Babylon: gate-of-babylon-1.7.0-1.18.2.jar  
+- Geckolib: geckolib-fabric-1.18-3.0.38.jar  
+- Go Fish: go-fish-1.5.0-1.18.2.jar  
+- Goblin Traders: goblin-traders-1.5.1.jar  
+- Golden Hoppers: goldenhoppers-1.3.0.jar  
+- Guard Villagers Fabric: guard-villagers-fabric-1.18.2-1.0.14.jar  
+- Guild: guild-fabric-0.4.0.jar  
+- Iceberg: Iceberg-1.18.2-fabric-1.0.38.jar  
+- Impaled: impaled-1.1.1.jar  
+- Improved Stations: improved-stations-2.1.0.jar  
+- Incantationem: incantationem-1.1.3+1.18.2.jar  
+- Indium: indium-1.0.3+mc1.18.2.jar  
+- Industrial Revolution: indrev-1.14.0-BETA.jar  
+- Inmis: inmis-2.5.3-1.18.2.jar  
+- Inventory Sorter: InventorySorter-1.8.6-1.18.jar  
+- Iris: iris-mc1.18.2-1.2.4-build.38.jar  
+- Iron Jetpacks: iron-jetpacks-0.4.3.jar  
+- Item Filters: item-filters-fabric-1802.2.7-build.21.jar  
+- Kibe: kibe-1.9.7-BETA+1.18.jar  
+- KubeJS Extras: kjsextras-2.0.0.jar  
+- KubeJS: kubejs-fabric-1802.5.1-build.386.jar  
+- Legendary Tooltips: LegendaryTooltips-1.18.2-fabric-1.2.4.jar  
+- Lifts: lifts-1.4.1-BETA+1.18.jar  
+- Light Overlay: light-overlay-6.0.5.jar  
+- Lithium: lithium-fabric-mc1.18.2-0.7.9.jar  
+- Logprot Mod: logprot-fabric-1.18-1.6.jar  
+- Lovely Snails: lovely_snails-1.0.4+1.18.jar  
+- Magical Forest: MagicalForest-fabric-1.18.2-2.0.2.jar  
+- Magitek Mechs: magitekmechs-fabric-MC1.18-1.0.12.jar  
+- Macaw's Fences and Walls: mcw-fences-1.0.4fabric-mc1.18.2.jar  
+- Macaw's Paintings: mcw-paintings-1.0.3fabric-mc1.18.2.jar  
+- Macaw's Trapdoors: mcw-trapdoors-1.0.5fabric-mc1.18.2.jar  
+- megane: megane-7.5.1.jar  
+- Mob Scarecrow: mobscarecrow-1.2.2.jar  
+- Mo' Colors: mocolors-1.4.0.jar  
+- Modern Industrialization: Modern-Industrialization-1.1.1.jar  
+- Mod Menu: modmenu-3.2.1.jar  
+- MoreVillagersFabric: morevillagers-FABRIC-1.18.2-3.2.0.jar  
+- Mo' Structures: mostructures-1.4.2+1.18.2.jar  
+- Nature's Compass: NaturesCompass-1.18.2-2.0.3-fabric.jar  
+- Nears: nears-fabric-1.18-1.1.8.jar  
+- BYG: Oh_The_Biomes_You'll_Go-fabric-1.18.2-1.4-RC-11.jar  
+- OpenLoader: OpenLoader-Fabric-1.18.2-12.0.1.jar  
+- oÏ‰o: owo-lib-0.7.2+1.18.jar  
+- Patchouli: Patchouli-1.18.2-67-FABRIC.jar  
+- Pehkui: Pehkui-3.3.0+1.14.4-1.19.jar  
+- PigPen: PigPen-Fabric-1.18.2-8.0.1.jar  
+- Plushie Mod: plushie-mod-1.2-1.18.2.jar  
+- Promenade: promenade-2.6.1.jar  
+- Quests Additions: questsadditions-fabric-1.18.2-1.3.0b.jar  
+- Raised: raised-fabric-1.18.2-1.0.8.jar  
+- Rare Ice: rare-ice-0.4.1.jar  
+- Reborn Core: RebornCore-5.2.0-beta.3.jar  
+- Redstone Bits: redstone-bits-1.7.1+fabric-mc1.18.2.jar  
+- Repurposed Structures: repurposed_structures_fabric-4.1.6+1.18.2.jar  
+- Roughly Enough Resources: rer-2.5.0.jar  
+- Respawnable Pets: respawnablepets-1.18-4.jar  
+- Right Click Harvest: rightclickharvest-2.0.0.jar  
+- Roughly Enough Items: RoughlyEnoughItems-8.1.457.jar  
+- Runelic: Runelic-Fabric-1.18.2-11.0.1.jar  
+- Secret Rooms: secretrooms-1.3.1+1.18.2.jar  
+- Show Me What You Got: ShowMeWhatYouGot-1.18-1.0.1.jar  
+- Shulker Box Tooltip: shulkerboxtooltip-3.0.7+1.18.2.jar  
+- 'Slight' GUI Modifications: slight-gui-modifications-2.1.0.jar  
+- Sodium: sodium-fabric-mc1.18.2-0.4.1+build.15.jar  
+- Some Forge Patches Ported: someforgepatchesported-1.0.3.jar  
+- spark: spark-1.9.1-fabric.jar  
+- Spectrum: spectrum-1.3.3-1.18.2-midgame18-trinkets-brewing.jar  
+- Stoneholm: stoneholm-1.4.3.jar  
+- Straw Dummy: strawdummy-1.7.0.jar  
+- st'ructure tools: structure-tools-1.0.21.jar  
+- Tech Reborn: TechReborn-5.2.0-beta.3.jar  
+- TerraBlender: TerraBlender-fabric-1.18.2-1.1.0.99.jar  
+- Terrarian Slimes: terrarian-slimes-1.2-BETA+1.18.jar  
+- Thatched: Thatched-fabric-1.18.2-1.1.0.jar  
+- The Graveyard: The_Graveyard_1.7_(FABRIC)_for_1.18.2.jar  
+- The Graveyard Biomes: The_Graveyard_Biomes_1.1_(FABRIC)_for_1.18.2.jar  
+- ToolStats: ToolStats-Fabric-1.18.2-9.0.1.jar  
+- Trinkets: trinkets-3.3.0.jar  
+- Twigs: twigs-fabric-1.1.3-patch1+1.18.2.jar  
+- Vanilla Hammers: vanilla-hammers-3.3.0-1.18.2.jar  
+- Vanilla Excavators: vanillaexcavators-2.3.1-1.18.2.jar  
+- Visuality: visuality-0.4.2.jar  
+- Wireless Networks: wirelessnetworks-1.5.1.jar  
+- Wither Totems Mod: Wither-Totems-Mod-0.3.5-1.18.2-pre2.jar  
+- Wolves With Armor: wolves-with-armor-1.7.1-1.18.2.jar  
+- Croptosis: wraith-croptosis-1.5.0.jar  
+- Harvest Scythes: wraith-harvestscythes-2.5.0.jar  
+- Waystones: wraith-waystones-2.5.0.jar  
+- wthit: wthit-fabric-4.10.1.jar  
+- Xp Obelisk: xp_obelisk-0.3.8.r_for_1.18.x_Fabric.jar  
+- You're in Grave Danger: youre-in-grave-danger-1.3.1.jar  
+- YUNG's API: YungsApi-1.18.2-Fabric-2.0.8.jar  
+- YUNG's Bridges: YungsBridges-1.18.2-Fabric-2.1.0.jar  
+- YUNG's Extras: YungsExtras-1.18.2-Fabric-2.1.0.jar  

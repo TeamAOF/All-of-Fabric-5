@@ -11,17 +11,6 @@
         "value": 10000000
       }
     },
-    "dml-refabricated:poseidon_bless": {
-      "enabled": false,
-      "min": {
-        "default": 0,
-        "value": 0
-      },
-      "max": {
-        "default": 16,
-        "value": 10000000
-      }
-    },
     "dml-refabricated:fire_protection": {
       "enabled": false,
       "min": {
@@ -66,50 +55,6 @@
         "value": 10000000
       }
     },
-    "dml-refabricated:endermen_proof_vision": {
-      "enabled": false,
-      "min": {
-        "default": 0,
-        "value": 0
-      },
-      "max": {
-        "default": 16,
-        "value": 10000000
-      }
-    },
-    "reach-entity-attributes:reach": {
-      "enabled": false,
-      "min": {
-        "default": -1024,
-        "value": -1024
-      },
-      "max": {
-        "default": 1024,
-        "value": 10000000
-      }
-    },
-    "dml-refabricated:night_vision": {
-      "enabled": false,
-      "min": {
-        "default": 0,
-        "value": 0
-      },
-      "max": {
-        "default": 16,
-        "value": 10000000
-      }
-    },
-    "dml-refabricated:unrotten_flesh": {
-      "enabled": false,
-      "min": {
-        "default": 0,
-        "value": 0
-      },
-      "max": {
-        "default": 16,
-        "value": 10000000
-      }
-    },
     "dml-refabricated:auto_extinguish": {
       "enabled": false,
       "min": {
@@ -118,39 +63,6 @@
       },
       "max": {
         "default": 16,
-        "value": 10000000
-      }
-    },
-    "arcanus:casting_multiplier": {
-      "enabled": false,
-      "min": {
-        "default": 0,
-        "value": 0
-      },
-      "max": {
-        "default": 1024,
-        "value": 10000000
-      }
-    },
-    "minecraft:generic.attack_speed": {
-      "enabled": true,
-      "min": {
-        "default": 0,
-        "value": 0
-      },
-      "max": {
-        "default": 1024,
-        "value": 10000000
-      }
-    },
-    "minecraft:generic.attack_damage": {
-      "enabled": true,
-      "min": {
-        "default": 0,
-        "value": 0
-      },
-      "max": {
-        "default": 2048,
         "value": 10000000
       }
     },
@@ -173,28 +85,6 @@
       },
       "max": {
         "default": 1024,
-        "value": 10000000
-      }
-    },
-    "minecraft:generic.armor": {
-      "enabled": true,
-      "min": {
-        "default": 0,
-        "value": 0
-      },
-      "max": {
-        "default": 30,
-        "value": 10000000
-      }
-    },
-    "dml-refabricated:skeleton_friendly": {
-      "enabled": false,
-      "min": {
-        "default": 0,
-        "value": 0
-      },
-      "max": {
-        "default": 16,
         "value": 10000000
       }
     },
@@ -231,40 +121,7 @@
         "value": 10000000
       }
     },
-    "dml-refabricated:plenty": {
-      "enabled": false,
-      "min": {
-        "default": 0,
-        "value": 0
-      },
-      "max": {
-        "default": 16,
-        "value": 10000000
-      }
-    },
-    "creeperoverhaul:swim_speed": {
-      "enabled": false,
-      "min": {
-        "default": 0,
-        "value": 0
-      },
-      "max": {
-        "default": 1024,
-        "value": 10000000
-      }
-    },
     "dml-refabricated:underwater_haste": {
-      "enabled": false,
-      "min": {
-        "default": 0,
-        "value": 0
-      },
-      "max": {
-        "default": 16,
-        "value": 10000000
-      }
-    },
-    "dml-refabricated:teleport": {
       "enabled": false,
       "min": {
         "default": 0,
@@ -286,30 +143,8 @@
         "value": 10000000
       }
     },
-    "dml-refabricated:resistance": {
+    "additionalentityattributes:lava_visibility": {
       "enabled": false,
-      "min": {
-        "default": 0,
-        "value": 0
-      },
-      "max": {
-        "default": 16,
-        "value": 10000000
-      }
-    },
-    "dml-refabricated:water_breathing": {
-      "enabled": false,
-      "min": {
-        "default": 0,
-        "value": 0
-      },
-      "max": {
-        "default": 16,
-        "value": 10000000
-      }
-    },
-    "minecraft:generic.flying_speed": {
-      "enabled": true,
       "min": {
         "default": 0,
         "value": 0
@@ -341,44 +176,11 @@
         "value": 10000000
       }
     },
-    "minecraft:generic.movement_speed": {
-      "enabled": true,
-      "min": {
-        "default": 0,
-        "value": 0
-      },
-      "max": {
-        "default": 1024,
-        "value": 10000000
-      }
-    },
     "stepheightentityattribute:stepheight": {
       "enabled": false,
       "min": {
         "default": -1024,
         "value": -1024
-      },
-      "max": {
-        "default": 1024,
-        "value": 10000000
-      }
-    },
-    "botania:pixie_spawn_chance": {
-      "enabled": false,
-      "min": {
-        "default": 0,
-        "value": 0
-      },
-      "max": {
-        "default": 1,
-        "value": 10000000
-      }
-    },
-    "minecraft:generic.max_health": {
-      "enabled": true,
-      "min": {
-        "default": 1,
-        "value": 1
       },
       "max": {
         "default": 1024,
@@ -407,17 +209,6 @@
         "value": 10000000
       }
     },
-    "dml-refabricated:rot_resistance": {
-      "enabled": false,
-      "min": {
-        "default": 0,
-        "value": 0
-      },
-      "max": {
-        "default": 16,
-        "value": 10000000
-      }
-    },
     "minecraft:zombie.spawn_reinforcements": {
       "enabled": true,
       "min": {
@@ -429,28 +220,6 @@
         "value": 10000000
       }
     },
-    "minecraft:horse.jump_strength": {
-      "enabled": true,
-      "min": {
-        "default": 0,
-        "value": 0
-      },
-      "max": {
-        "default": 2,
-        "value": 10000000
-      }
-    },
-    "dml-refabricated:feather_falling": {
-      "enabled": false,
-      "min": {
-        "default": 0,
-        "value": 0
-      },
-      "max": {
-        "default": 16,
-        "value": 10000000
-      }
-    },
     "minecraft:generic.attack_knockback": {
       "enabled": true,
       "min": {
@@ -459,17 +228,6 @@
       },
       "max": {
         "default": 5,
-        "value": 10000000
-      }
-    },
-    "minecraft:generic.knockback_resistance": {
-      "enabled": true,
-      "min": {
-        "default": 0,
-        "value": 0
-      },
-      "max": {
-        "default": 1,
         "value": 10000000
       }
     },
@@ -525,6 +283,303 @@
       },
       "max": {
         "default": 1024,
+        "value": 10000000
+      }
+    },
+    "dml-refabricated:poseidon_bless": {
+      "enabled": false,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 16,
+        "value": 10000000
+      }
+    },
+    "additionalentityattributes:water_visibility": {
+      "enabled": false,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 1024,
+        "value": 10000000
+      }
+    },
+    "dml-refabricated:endermen_proof_vision": {
+      "enabled": false,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 16,
+        "value": 10000000
+      }
+    },
+    "reach-entity-attributes:reach": {
+      "enabled": false,
+      "min": {
+        "default": -1024,
+        "value": -1024
+      },
+      "max": {
+        "default": 1024,
+        "value": 10000000
+      }
+    },
+    "dml-refabricated:night_vision": {
+      "enabled": false,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 16,
+        "value": 10000000
+      }
+    },
+    "additionalentityattributes:water_speed": {
+      "enabled": false,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 1,
+        "value": 10000000
+      }
+    },
+    "dml-refabricated:unrotten_flesh": {
+      "enabled": false,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 16,
+        "value": 10000000
+      }
+    },
+    "arcanus:casting_multiplier": {
+      "enabled": false,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 1024,
+        "value": 10000000
+      }
+    },
+    "minecraft:generic.attack_speed": {
+      "enabled": true,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 1024,
+        "value": 10000000
+      }
+    },
+    "minecraft:generic.attack_damage": {
+      "enabled": true,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 2048,
+        "value": 10000000
+      }
+    },
+    "minecraft:generic.armor": {
+      "enabled": true,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 30,
+        "value": 10000000
+      }
+    },
+    "dml-refabricated:skeleton_friendly": {
+      "enabled": false,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 16,
+        "value": 10000000
+      }
+    },
+    "additionalentityattributes:critical_bonus_damage": {
+      "enabled": false,
+      "min": {
+        "default": -1,
+        "value": -1
+      },
+      "max": {
+        "default": 1024,
+        "value": 10000000
+      }
+    },
+    "dml-refabricated:plenty": {
+      "enabled": false,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 16,
+        "value": 10000000
+      }
+    },
+    "creeperoverhaul:swim_speed": {
+      "enabled": false,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 1024,
+        "value": 10000000
+      }
+    },
+    "dml-refabricated:teleport": {
+      "enabled": false,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 16,
+        "value": 10000000
+      }
+    },
+    "dml-refabricated:resistance": {
+      "enabled": false,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 16,
+        "value": 10000000
+      }
+    },
+    "dml-refabricated:water_breathing": {
+      "enabled": false,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 16,
+        "value": 10000000
+      }
+    },
+    "minecraft:generic.flying_speed": {
+      "enabled": true,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 1024,
+        "value": 10000000
+      }
+    },
+    "minecraft:generic.movement_speed": {
+      "enabled": true,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 1024,
+        "value": 10000000
+      }
+    },
+    "botania:pixie_spawn_chance": {
+      "enabled": false,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 1,
+        "value": 10000000
+      }
+    },
+    "minecraft:generic.max_health": {
+      "enabled": true,
+      "min": {
+        "default": 1,
+        "value": 1
+      },
+      "max": {
+        "default": 1024,
+        "value": 10000000
+      }
+    },
+    "dml-refabricated:rot_resistance": {
+      "enabled": false,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 16,
+        "value": 10000000
+      }
+    },
+    "additionalentityattributes:lava_speed": {
+      "enabled": false,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 1,
+        "value": 10000000
+      }
+    },
+    "minecraft:horse.jump_strength": {
+      "enabled": true,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 2,
+        "value": 10000000
+      }
+    },
+    "dml-refabricated:feather_falling": {
+      "enabled": false,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 16,
+        "value": 10000000
+      }
+    },
+    "minecraft:generic.knockback_resistance": {
+      "enabled": true,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 1,
         "value": 10000000
       }
     }

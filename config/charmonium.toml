@@ -1,0 +1,87 @@
+#Plays ambient background sound according to the biome and time of day.
+"BiomeAmbience Enabled" = true
+#Plays specific ambient sound according to the situation or location.
+"SituationalAmbience Enabled" = true
+#Plays ambient background sound when the player is underground at different depths and light levels.
+"UndergroundAmbience Enabled" = true
+
+[BiomeAmbience]
+	#Affects the volume of all biome ambient sounds. 1.0 is full volume.
+	"Volume scaling" = 0.55
+	#If true, plays ambient sounds in beach biomes.
+	"Beach ambience" = true
+	#If true, plays ambient sounds in badlands (mesa) biomes.
+	"Badlands ambience" = true
+	#If true, plays ambience sounds in underground biomes such as dripstone and lush caves.
+	"Cave biome ambience" = true
+	#If true, plays ambient sounds in desert biomes.
+	"Desert ambience" = true
+	#If true, plays ambient sounds in forest biomes.
+	"Forest ambience" = true
+	#If true, plays ambient sounds in cold (tundra, snowy) biomes.
+	"Icy ambience" = true
+	#If true, plays ambient sounds in jungle biomes.
+	"Jungle ambience" = true
+	#If true, plays ambient sounds in mountain biomes.
+	"Mountains ambience" = true
+	#If true, plays ambient sounds in ocean biomes when above the water surface.
+	"Ocean ambience" = true
+	#If true, plays ambient sounds in plains biomes.
+	"Plains ambience" = true
+	#If true, plays ambient sounds when in rivers and frozen rivers.
+	"River ambience" = true
+	#If true, plays ambient sounds in savanna biomes.
+	"Savanna ambience" = true
+	#If true, plays ambient sounds in swamp biomes.
+	"Swamp ambience" = true
+	#If true, plays ambient sounds in taiga biomes.
+	"Taiga ambience" = true
+	#If true, plays ambient sounds in the End biomes.
+	"The End ambience" = true
+	#Dimensions in which biome ambience will be played.
+	"Valid dimensions" = ["minecraft:overworld", "minecraft:the_end"]
+
+[SituationalAmbience]
+	#Affects the volume of all situational ambient sounds. 1.0 is full volume.
+	"Volume scaling" = 0.55
+	#If true, plays ambient sounds while anywhere in the End.
+	"Alien ambience" = true
+	#If true, plays ambient sounds in cold and/or barren overworld environments.
+	"Bleak ambience" = true
+	#If true, plays water sounds from a nearby water source when underground.
+	"Cave water ambience" = true
+	#If true, plays ambient sounds when the player is underground and near deepslate blocks.
+	"Deepslate ambience" = true
+	#If true, plays ambient sounds in dry and/or hot overworld environments.
+	"Dry ambience" = true
+	#If true, plays ambient sounds from a nearby amethyst geode.
+	"Geode ambience" = true
+	#If true, plays ambient sounds when the player is underground and near gravel blocks.
+	"Gravel ambience" = true
+	#If true, plays ambient sounds when high up in the overworld.
+	"High ambience" = true
+	#If true, plays ambient sounds while inside a woodland mansion.
+	"Mansion ambience" = true
+	#If true, plays ambient sounds from a nearby mineshaft.
+	"Mineshaft ambience" = true
+	#If true, plays ambient sounds in plains environments at night.
+	"Night plains ambience" = true
+	#If true, plays ambient sounds when in a cold biome during a thunderstorm.
+	"Snowstorm ambience" = true
+	#If true, plays ambient sounds when a player is inside a village.
+	"Village ambience" = true
+
+[UndergroundAmbience]
+	#Affects the volume of all underground ambient sounds. 1.0 is full volume.
+	"Volume scaling" = 0.55
+	#Dimensions in which underground ambience will be played.
+	"Valid dimensions" = ["minecraft:overworld"]
+	#If true, the cave ambience will be played. Cave ambience is normally a low frequency drone.
+	"Cave ambience" = true
+	#If true, the deepcave ambience will be played. This takes effect when the player is deep underground and at low light level.
+	"Deepcave ambience" = true
+	#When the player is lower than this depth then cave background sound will be always be triggered.
+	"Cave depth" = 48
+	#When the light is lower than this level then cave and deepcave background sound will be triggered.
+	"Light level" = 10
+
