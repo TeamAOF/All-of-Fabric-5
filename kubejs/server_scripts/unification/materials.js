@@ -53,7 +53,6 @@ const MATERIALS = [
 const UNIFICATION_ORDER = [
     "modern_industrialization",
     "indrev",
-    "charm",
     "bewitchment",
     "techreborn",
     "croptopia",
@@ -72,14 +71,13 @@ const unifiedTagList = [];
 function findTagUnification(event, tagName) {
     if (UNIFICATION_BLACKLIST.includes(tagName)) return;
 
-    const tagItems = event.get(tagName).kjsextras_getAllIds();
+    const tagItems = event.get(tagName).getObjectIds();
 
     // Check if unification is OK
     let doUnify = true;
     tagItems.forEach(id => {
-        const namespace = id.split(":")[0];
         // Don't unify if it contains the MC namespace
-        if (namespace === "minecraft") {
+        if (id.getNamespace() === "minecraft") {
             doUnify = false;
         }
     });
@@ -89,6 +87,7 @@ function findTagUnification(event, tagName) {
     UNIFICATION_ORDER.forEach(unificationNamespace => {
         // Do tag unification
         tagItems.forEach(id => {
+            id = "" + id; // convert ResLoc to native JS string
             // Skip deepslate!
             if (id.includes("deepslate")) return;
 
@@ -122,7 +121,8 @@ onEvent('tags.items', event => {
             unifiedTagList.push(tagName);
 
             // Collect other items for item unification.
-            event.get(tagName).kjsextras_getAllIds().forEach(id => {
+            event.get(tagName).getObjectIds().forEach(id => {
+                id = "" + id; // convert ResLoc to native JS string
                 if (id in itemIdToUnified) {
                     throw new Error("Item id " + tagStack.id + " already has a unification mapping! " + itemIdToUnified[id]);
                 } else if (id !== unifyTargetId) {
@@ -146,7 +146,8 @@ onEvent('tags.items', event => {
         const deepslateOreItemId = oreItemIdParts[0] + ":deepslate_" + oreItemIdParts[1];
 
         // Collect ores, unify deepslate to deepslate and regular to regular.
-        event.get(oreTagName).kjsextras_getAllIds().forEach(id => {
+        event.get(oreTagName).getObjectIds().forEach(id => {
+            id = "" + id; // convert ResLoc to native JS string
             if (id in itemIdToUnified) {
                 throw new Error("Item id " + id + " already has a unification mapping! " + itemIdToUnified[id]);
             } else if (id !== oreItemId && id !== deepslateOreItemId) {

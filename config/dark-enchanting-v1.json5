@@ -12,12 +12,12 @@
   //
   //Each enchantment's cost is multiplied by this value.
   //Default: 1.0
-  "costFactor": 1.0,
+  "costFactor": 4.0,
   //
   //Removing an enchantment from gear will give XP back.
   //The amount received back is multiplied by this value.
   //Default: 0.49
-  "receiveFactor": 0.49,
+  "receiveFactor": 0.0,
   //
   //Each curse enchantment's cost is multiplied by this value.
   //Curse Enchantments will show up as red on the Dark Enchanter.
@@ -46,11 +46,11 @@
   //
   //This number represents the discount from bookshelves.
   //Default: 0.4 (40%)
-  "bookshelvesDiscount": 0.4,
+  "bookshelvesDiscount": 0.15,
   //
   //This number represents the discount from Dark Conduits.
   //Default: 0.1 (10%)
-  "conduitDiscount": 0.1,
+  "conduitDiscount": 0.05,
   //
   //As a security feature, the client can no longer send packets to the server requesting above
   //maximum enchantment levels.
@@ -76,16 +76,106 @@
   //A mending example is also put on here, but this one changes the default cost of Mending to give less when you are disenchanting items. This is added to avoid Mending XP farming.
   "configEnchantments": [
     {
-      "enchantmentId": "minecraft:sharpness",
-      "activated": true,
-      "personalFactor": 1.0,
-      "personalReceiveFactor": 1.0
+      "enchantmentId": "spectrum:resonance",
+      "activated": false,
+      "personalFactor": 0.0,
+      "personalReceiveFactor": 0.0
     },
     {
-      "enchantmentId": "minecraft:mending",
-      "activated": true,
-      "personalFactor": 1.0,
-      "personalReceiveFactor": 0.5
+      "enchantmentId": "spectrum:voiding",
+      "activated": false,
+      "personalFactor": 0.0,
+      "personalReceiveFactor": 0.0
+    },
+    {
+      "enchantmentId": "spectrum:pest_control",
+      "activated": false,
+      "personalFactor": 0.0,
+      "personalReceiveFactor": 0.0
+    },
+    {
+      "enchantmentId": "spectrum:autosmelt",
+      "activated": false,
+      "personalFactor": 0.0,
+      "personalReceiveFactor": 0.0
+    },
+    {
+      "enchantmentId": "spectrum:inventory_insertion",
+      "activated": false,
+      "personalFactor": 0.0,
+      "personalReceiveFactor": 0.0
+    },
+    {
+      "enchantmentId": "spectrum:exuberance",
+      "activated": false,
+      "personalFactor": 0.0,
+      "personalReceiveFactor": 0.0
+    },
+    {
+      "enchantmentId": "spectrum:treasure_hunter",
+      "activated": false,
+      "personalFactor": 0.0,
+      "personalReceiveFactor": 0.0
+    },
+    {
+      "enchantmentId": "spectrum:disarming",
+      "activated": false,
+      "personalFactor": 0.0,
+      "personalReceiveFactor": 0.0
+    },
+    {
+      "enchantmentId": "spectrum:fire_strike",
+      "activated": false,
+      "personalFactor": 0.0,
+      "personalReceiveFactor": 0.0
+    },
+    {
+      "enchantmentId": "spectrum:inventory_incertion",
+      "activated": false,
+      "personalFactor": 0.0,
+      "personalReceiveFactor": 0.0
+    },
+    {
+      "enchantmentId": "spectrum:improved_critical",
+      "activated": false,
+      "personalFactor": 0.0,
+      "personalReceiveFactor": 0.0
+    },
+    {
+      "enchantmentId": "spectrum:inertia",
+      "activated": false,
+      "personalFactor": 0.0,
+      "personalReceiveFactor": 0.0
+    },
+    {
+      "enchantmentId": "spectrum:clovers_favor",
+      "activated": false,
+      "personalFactor": 0.0,
+      "personalReceiveFactor": 0.0
+    },
+    {
+      "enchantmentId": "spectrum:sniping",
+      "activated": false,
+      "personalFactor": 0.0,
+      "personalReceiveFactor": 0.0
+    },
+    {
+      "enchantmentId": "spectrum:tight_grip",
+      "activated": false,
+      "personalFactor": 0.0,
+      "personalReceiveFactor": 0.0
+    },
+    {
+      "enchantmentId": "spectrum:inventory_incertion",
+      "activated": false,
+      "personalFactor": 0.0,
+      "personalReceiveFactor": 0.0
+    },
+    {
+      "enchantmentId": "spectrum:damage_proof",
+      "activated": false,
+      "personalFactor": 0.0,
+      "personalReceiveFactor": 0.0
     }
   ]
 }
