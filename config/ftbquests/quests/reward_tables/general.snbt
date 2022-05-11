@@ -234,51 +234,6 @@
 		{ item: "additionaladditions:honeyed_apple", count: 3 }
 		{
 			item: {
-				id: "artifality:floral_staff"
-				Count: 1b
-				tag: { }
-			}
-		}
-		{
-			item: {
-				id: "artifality:forest_staff"
-				Count: 1b
-				tag: { }
-			}
-		}
-		{
-			item: {
-				id: "artifality:harvest_staff"
-				Count: 1b
-				tag: { }
-			}
-		}
-		{
-			item: {
-				id: "artifality:ukulele"
-				Count: 1b
-				tag: { }
-			}
-		}
-		{
-			item: {
-				id: "artifality:zeus_staff"
-				Count: 1b
-				tag: { }
-			}
-		}
-		{ item: "artifality:invisibility_cape" }
-		{
-			item: {
-				id: "artifality:balloon"
-				Count: 1b
-				tag: {
-					Damage: 0
-				}
-			}
-		}
-		{
-			item: {
 				id: "botania:elementium_helmet"
 				Count: 1b
 				tag: {
@@ -694,24 +649,6 @@
 		{ item: "modern_industrialization:advanced_pump", count: 2 }
 		{ item: "modern_industrialization:large_advanced_pump" }
 		{ item: "modern_industrialization:digital_circuit" }
-		{
-			item: {
-				id: "crookedcrooks:diamond_crook"
-				Count: 1b
-				tag: {
-					Damage: 0
-				}
-			}
-		}
-		{
-			item: {
-				id: "crookedcrooks:ruby_crook"
-				Count: 1b
-				tag: {
-					Damage: 0
-				}
-			}
-		}
 		{ item: "modern_industrialization:bronze_gear", count: 4 }
 		{ item: "modern_industrialization:copper_gear", count: 4 }
 		{ item: "modern_industrialization:gold_gear", count: 4 }
@@ -1217,15 +1154,6 @@
 			}
 		}
 		{ item: "blast:pearl_trigger_bomb", count: 4 }
-		{
-			item: {
-				id: "crookedcrooks:ruby_crook"
-				Count: 1b
-				tag: {
-					Damage: 0
-				}
-			}
-		}
 		{ item: "modern_industrialization:gold_plate", count: 16 }
 		{ item: "modern_industrialization:lead_plate", count: 16 }
 		{ item: "modern_industrialization:tin_plate", count: 16 }
