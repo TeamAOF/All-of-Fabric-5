@@ -4,7 +4,7 @@
 
 onEvent('recipes', (event) => {
 
-  // Gunpowder Block
+  // Chisel
   event.shaped('chisel:chisel', [
     ["minecraft:stick", null, null],
     [null, "minecraft:iron_ingot", null],
