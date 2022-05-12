@@ -12,15 +12,11 @@
   "freeEnchantedBookMerging": false,
   "luckOfTheSeaHasLure": false,
   "negateEnderPearlDamage": true,
-  "safeChanneling": false,
-  "tridentsReturnFromVoid": false,
+  "safeChanneling": true,
+  "tridentsReturnFromVoid": true,
   "weakerPotions": false,
   "maxExtractingBlocks": 64,
   "maxLumberjackBlocks": 1024,
   "maxLumberjackHorizontalLength": 7,
   "unbreakingChangesFlag": -1
-<<<<<<< HEAD
 }
-=======
-}
->>>>>>> dev

@@ -15,11 +15,11 @@ _Fabric Loader 0.14.4_ | _[Mod Updates](https://github.com/TeamAOF/All-of-Fabric
 * Books not being enchantable.
 * STDOUT spam related to saving player.
 * Invalid quest rewards.
+* Crash upon opening CYTI trashcans.
 
 ## Recipe Changes
 
 * Fixed incorrect number of inputs for lignite coal block, now 9 prior to it being just 1.
-
 ---
 
 ### All of Fabric 5 | v1.2.0

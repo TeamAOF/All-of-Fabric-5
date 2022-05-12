@@ -2,7 +2,8 @@
 
 ## Added
 
-* [Cloth Config API (UNUSED)](https://www.curseforge.com/minecraft/mc-mods/cloth-config-legacy)
+* [Peripheralium](https://www.curseforge.com/minecraft/mc-mods/peripheralium)
+* [UnlimitedPeripheralWorks](https://www.curseforge.com/minecraft/mc-mods/unlimitedperipheralworks)
 
 ## Updated
 
@@ -19,6 +20,20 @@ Updated at 2022-05-10 22:52.
 * Fix fluid testmod, add dummy init method to FluidStack (classloading 😍)
 
 #### [3 more entries](https://www.curseforge.com/minecraft/mc-mods/architectury-api/files/all)
+
+### [Biome Makeover](https://www.curseforge.com/minecraft/mc-mods/biome-makeover) ([biomemakeover-FABRIC-1.18.2-1.4.19.jar](https://www.curseforge.com/minecraft/mc-mods/biome-makeover/files/3782287)⟶[biomemakeover-FABRIC-1.18.2-1.4.20.jar](https://www.curseforge.com/minecraft/mc-mods/biome-makeover/files/3788318))
+
+#### [biomemakeover-FABRIC-1.18.2-1.4.20.jar](https://www.curseforge.com/minecraft/mc-mods/biome-makeover/files/3788318)
+
+* Fix altar crashing under some unusual circumstances
+
+### [Can You Trash It?](https://www.curseforge.com/minecraft/mc-mods/can-you-trash-it) ([can-you-trash-it-1.0.3](https://www.curseforge.com/minecraft/mc-mods/can-you-trash-it/files/3598312)⟶[can-you-trash-it-1.0.5](https://www.curseforge.com/minecraft/mc-mods/can-you-trash-it/files/3788274))
+
+#### [can-you-trash-it-1.0.5](https://www.curseforge.com/minecraft/mc-mods/can-you-trash-it/files/3788274)
+
+Fixed the deprecated Screen Handlers!
+
+#### [1 more entry](https://www.curseforge.com/minecraft/mc-mods/can-you-trash-it/files/all)
 
 ### [Creeper Overhaul](https://www.curseforge.com/minecraft/mc-mods/creeper-overhaul) ([[Fabric] Creeper Overhaul 1.3.0](https://www.curseforge.com/minecraft/mc-mods/creeper-overhaul/files/3676159)⟶[[Fabric] Creeper Overhaul 1.3.1](https://www.curseforge.com/minecraft/mc-mods/creeper-overhaul/files/3787154))
 
@@ -40,37 +55,22 @@ Fixed Jungle Creepers spawning in daylight
 
 #### [2 more entries](https://www.curseforge.com/minecraft/mc-mods/dual-riders/files/all)
 
-### [Enchancement](https://www.curseforge.com/minecraft/mc-mods/enchancement) ([enchancement-1.18-10.jar](https://www.curseforge.com/minecraft/mc-mods/enchancement/files/3782808)⟶[enchancement-1.18-14.jar](https://www.curseforge.com/minecraft/mc-mods/enchancement/files/3786417))
+### [Enchancement](https://www.curseforge.com/minecraft/mc-mods/enchancement) ([enchancement-1.18-10.jar](https://www.curseforge.com/minecraft/mc-mods/enchancement/files/3782808)⟶[enchancement-1.18-15.jar](https://www.curseforge.com/minecraft/mc-mods/enchancement/files/3788303))
 
-#### [enchancement-1.18-14.jar](https://www.curseforge.com/minecraft/mc-mods/enchancement/files/3786417)
+#### [enchancement-1.18-15.jar](https://www.curseforge.com/minecraft/mc-mods/enchancement/files/3788303)
 
--fix books not being enchantable with overhaulEnchantingTable set to false
+-fix [https://github.com/MoriyaShiine/enchancement/issues/6](https://github.com/MoriyaShiine/enchancement/issues/6)
 
--fix leech bypassing shields
+#### [4 more entries](https://www.curseforge.com/minecraft/mc-mods/enchancement/files/all)
 
--add lumberjack horizontal limit
+### [FTB Chunks (Fabric)](https://www.curseforge.com/minecraft/mc-mods/ftb-chunks-fabric) ([ftb-chunks-fabric-1802.3.6-build.138.jar](https://www.curseforge.com/minecraft/mc-mods/ftb-chunks-fabric/files/3780112)⟶[ftb-chunks-fabric-1802.3.6-build.145.jar](https://www.curseforge.com/minecraft/mc-mods/ftb-chunks-fabric/files/3787347))
 
--remove berserk right click functionality
-
--ender pearls no longer deal damage
-
--unburying an entity no longer deals damage
-
--nerf some potions
-
-#### [3 more entries](https://www.curseforge.com/minecraft/mc-mods/enchancement/files/all)
-
-### [FTB Chunks (Fabric)](https://www.curseforge.com/minecraft/mc-mods/ftb-chunks-fabric) ([ftb-chunks-fabric-1802.3.6-build.138.jar](https://www.curseforge.com/minecraft/mc-mods/ftb-chunks-fabric/files/3780112)⟶[ftb-chunks-fabric-1802.3.6-build.143.jar](https://www.curseforge.com/minecraft/mc-mods/ftb-chunks-fabric/files/3787289))
-
-#### [ftb-chunks-fabric-1802.3.6-build.143.jar](https://www.curseforge.com/minecraft/mc-mods/ftb-chunks-fabric/files/3787289)
+#### [ftb-chunks-fabric-1802.3.6-build.145.jar](https://www.curseforge.com/minecraft/mc-mods/ftb-chunks-fabric/files/3787347)
 
 * Merge branch '1.18/dev' into 1.18/main - Michael Hillcox
-* fix: use uuid for chunk claiming - Michael Hillcox
-* fix: forge chunk claiming not applying - Michael Hillcox
-* Merge remote-tracking branch 'origin/1.18/dev' into 1.18/dev - Michael Hillcox
-* feat: forge and fabric chunk loaded specific code - Michael Hillcox
-* [ci skip] Merge pull request #206 from gjeodnd12165/patch-1 - Michael Hillcox
-* Create ko_kr.json - gjeodnd12165
+* fix: arch dep - Michael Hillcox
+
+#### [1 more entry](https://www.curseforge.com/minecraft/mc-mods/ftb-chunks-fabric/files/all)
 
 ### [GeckoLib](https://www.curseforge.com/minecraft/mc-mods/geckolib) ([geckolib-fabric-1.18-3.0.38.jar](https://www.curseforge.com/minecraft/mc-mods/geckolib/files/3755162)⟶[geckolib-fabric-1.18-3.0.42.jar](https://www.curseforge.com/minecraft/mc-mods/geckolib/files/3785825))
 
@@ -88,14 +88,14 @@ Fixed Jungle Creepers spawning in daylight
 
 1.18.2 fixes & changes to the config, you can now uncap teleport distance for rails.
 
-### [KubeJS](https://www.curseforge.com/minecraft/mc-mods/kubejs) ([kubejs-fabric-1802.5.1-build.395.jar](https://www.curseforge.com/minecraft/mc-mods/kubejs/files/3783244)⟶[kubejs-fabric-1802.5.2-build.405.jar](https://www.curseforge.com/minecraft/mc-mods/kubejs/files/3785577))
+### [KubeJS](https://www.curseforge.com/minecraft/mc-mods/kubejs) ([kubejs-fabric-1802.5.1-build.395.jar](https://www.curseforge.com/minecraft/mc-mods/kubejs/files/3783244)⟶[kubejs-fabric-1802.5.2-build.415.jar](https://www.curseforge.com/minecraft/mc-mods/kubejs/files/3787851))
 
-#### [kubejs-fabric-1802.5.2-build.405.jar](https://www.curseforge.com/minecraft/mc-mods/kubejs/files/3785577)
+#### [kubejs-fabric-1802.5.2-build.415.jar](https://www.curseforge.com/minecraft/mc-mods/kubejs/files/3787851)
 
 * Merge branch '1.18/dev' into 1.18/main - LatvianModder
-* Fixed Painter - LatvianModder
+* Added menu and player (nullable) in ModifyRecipeCraftingGrid - LatvianModder
 
-#### [3 more entries](https://www.curseforge.com/minecraft/mc-mods/kubejs/files/all)
+#### [9 more entries](https://www.curseforge.com/minecraft/mc-mods/kubejs/files/all)
 
 ### [Probably Chests](https://www.curseforge.com/minecraft/mc-mods/probably-chests) ([Probably-Chests-0.4.2](https://www.curseforge.com/minecraft/mc-mods/probably-chests/files/3778845)⟶[Probably-Chests-0.4.3](https://www.curseforge.com/minecraft/mc-mods/probably-chests/files/3785849))
 
