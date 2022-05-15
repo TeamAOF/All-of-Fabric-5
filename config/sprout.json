@@ -1,0 +1,12 @@
+{
+  "World Generation": {
+    "//World Generation": "World Generation Configurations.",
+    "Sprouts": {
+      "//Sprouts": "Sprouts Generation Configurations",
+      "//enabled": "Weather you want sprouts or not.",
+      "enabled": true,
+      "//frequency": "The frequency that sprouts will spawn. Note: 32 is vanilla grass.",
+      "frequency": 32
+    }
+  }
+}

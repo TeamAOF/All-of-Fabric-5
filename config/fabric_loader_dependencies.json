@@ -11,6 +11,11 @@
                 "minecraft": ""
             }
         },
+        "impaled": {
+            "-depends": {
+                "minecraft": ""
+            }
+        },
         "crusade": {
             "-depends": {
                 "minecraft": ""

@@ -2,6 +2,23 @@
 
 _Fabric Loader 0.14.4_ | _[Mod Updates](https://github.com/TeamAOF/All-of-Fabric-5/blob/main/changelogs/changelog_mods_1.2.1.md)_ | _[Modlist](https://github.com/TeamAOF/All-of-Fabric-5/blob/main/changelogs/modlist_1.2.1.md)_
 
+## Added
+
+* [Chimes](https://www.curseforge.com/minecraft/mc-mods/chimes)
+* [Display Case](https://www.curseforge.com/minecraft/mc-mods/displaycase)
+* [Goodall](https://www.curseforge.com/minecraft/mc-mods/goodall)
+* [More Geodes](https://www.curseforge.com/minecraft/mc-mods/emerald-geodes)
+* [Peripheralium](https://www.curseforge.com/minecraft/mc-mods/peripheralium)
+* [Pyrotastic 🎆](https://www.curseforge.com/minecraft/mc-mods/pyrotastic)
+* [TimeOutOut (Fabric)](https://www.curseforge.com/minecraft/mc-mods/timeoutout-fabric)
+* [UnlimitedPeripheralWorks](https://www.curseforge.com/minecraft/mc-mods/unlimitedperipheralworks)
+
+## Removed
+
+* [Architectury API (UNUSED)](https://www.curseforge.com/minecraft/mc-mods/architectury-fabric)
+* [KubeJS (Old)](https://www.curseforge.com/minecraft/mc-mods/kubejs-fabric)
+* [Op Items Tab](https://www.curseforge.com/minecraft/mc-mods/op-items-tab)
+
 ## Changes
 
 * Durability is a thing again, this is not terraria you fool.
