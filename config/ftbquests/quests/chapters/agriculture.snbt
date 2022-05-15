@@ -168,8 +168,8 @@
 			}]
 		}
 		{
-			x: 5.5d
-			y: 13.5d
+			x: 6.0d
+			y: 14.0d
 			id: "42884F5FEB13891C"
 			tasks: [{
 				id: "6CA5629377C7E780"
@@ -198,8 +198,8 @@
 			}]
 		}
 		{
-			x: 5.0d
-			y: 16.5d
+			x: 6.0d
+			y: 16.0d
 			id: "19980B0244DAA868"
 			tasks: [{
 				id: "738AB0258B2DAAA1"
@@ -213,23 +213,8 @@
 			}]
 		}
 		{
-			x: 6.0d
-			y: 16.0d
-			id: "02129DB917E9D13E"
-			tasks: [{
-				id: "56B4A7391DE235CA"
-				type: "item"
-				item: "croptopia:cheese_cake"
-			}]
-			rewards: [{
-				id: "21E4CA97836B1655"
-				type: "loot"
-				table_id: 13756307348121783L
-			}]
-		}
-		{
 			x: 6.5d
-			y: 14.5d
+			y: 15.0d
 			id: "7B28D737D605A2D5"
 			tasks: [{
 				id: "7466D7F35E5D5ED0"
@@ -244,7 +229,7 @@
 		}
 		{
 			x: 3.5d
-			y: 14.5d
+			y: 15.0d
 			id: "630438EFBC26B625"
 			tasks: [{
 				id: "0D044738FBBC376B"
@@ -261,7 +246,6 @@
 			x: 5.0d
 			y: 15.0d
 			dependencies: [
-				"02129DB917E9D13E"
 				"7B28D737D605A2D5"
 				"42884F5FEB13891C"
 				"630438EFBC26B625"
@@ -1093,8 +1077,8 @@
 			]
 		}
 		{
-			x: 4.5d
-			y: 13.5d
+			x: 4.0d
+			y: 14.0d
 			subtitle: "Everybody loves ice cream... everybody."
 			id: "1A1F70A9F47461C6"
 			tasks: [{

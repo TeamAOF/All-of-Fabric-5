@@ -1,3 +1,16 @@
+### All of Fabric 5 | v1.2.2
+
+_Fabric Loader 0.14.4_ | _[Mod Updates](https://github.com/TeamAOF/All-of-Fabric-5/blob/main/changelogs/changelog_mods_1.2.2.md)_ | _[Modlist](https://github.com/TeamAOF/All-of-Fabric-5/blob/main/changelogs/modlist_1.2.2.md)_
+
+## Changes
+
+* Removed Cheesecake quest as not craftable.
+
+## Fixes
+
+* Wireless crafting terminal crashing.
+---
+
 ### All of Fabric 5 | v1.2.1
 
 _Fabric Loader 0.14.4_ | _[Mod Updates](https://github.com/TeamAOF/All-of-Fabric-5/blob/main/changelogs/changelog_mods_1.2.1.md)_ | _[Modlist](https://github.com/TeamAOF/All-of-Fabric-5/blob/main/changelogs/modlist_1.2.1.md)_
