@@ -69,7 +69,7 @@
 #Armor returns a single ingot, leather or diamond when used on the grindstone.
 "GrindableArmor Enabled" = true
 #Scroll the mouse while hovering over a bundle or shulker box to change the order of its contents.
-"HoverSorting Enabled" = tfalse
+"HoverSorting Enabled" = false
 #A husk has a chance to drop sand when killed.
 "HusksDropSand Enabled" = true
 #Husks spawn anywhere within their biome rather than just the surface.
