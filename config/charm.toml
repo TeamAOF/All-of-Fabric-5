@@ -22,7 +22,7 @@
 #Eating a chorus fruit will teleport you to the nearest ender pearl block.
 "BlockOfEnderPearls Enabled" = true
 #A storage block for gunpowder. It obeys gravity and dissolves in lava.
-"BlockOfGunpowder Enabled" = true
+"BlockOfGunpowder Enabled" = false
 #A storage block for sugar. It obeys gravity and dissolves in water.
 "BlockOfSugar Enabled" = true
 #Integration with Bumblezone.
@@ -36,7 +36,7 @@
 #Add amethyst shards to item frames to make them invisible.
 "ClearItemFrames Enabled" = true
 #Tools with the Collection enchantment automatically pick up drops.
-"CollectionEnchantment Enabled" = true
+"CollectionEnchantment Enabled" = false
 #Allows bundles to be dyed.
 "ColoredBundles Enabled" = true
 #Throw dye into a nether portal to change its color.
@@ -69,7 +69,7 @@
 #Armor returns a single ingot, leather or diamond when used on the grindstone.
 "GrindableArmor Enabled" = true
 #Scroll the mouse while hovering over a bundle or shulker box to change the order of its contents.
-"HoverSorting Enabled" = true
+"HoverSorting Enabled" = tfalse
 #A husk has a chance to drop sand when killed.
 "HusksDropSand Enabled" = true
 #Husks spawn anywhere within their biome rather than just the surface.
@@ -81,7 +81,7 @@
 #Adds decoration and more ores to mineshafts.
 "ImprovedMineshafts Enabled" = true
 #Button to automatically tidy inventories.
-"InventoryTidying Enabled" = true
+"InventoryTidying Enabled" = false
 #A functional block that speeds up cooking of clay, glass, bricks and terracotta.
 "Kilns Enabled" = true
 #Drop an item onto a lava bucket item to destroy it.
@@ -105,7 +105,7 @@
 "NoCuredVillagerDiscount Enabled" = false
 #When any action would cause a villager to become a nitwit, it becomes an unemployed villager instead.
 #This is an opinionated feature that removes a gameplay element and so is disabled by default.
-"NoNitwits Enabled" = false
+"NoNitwits Enabled" = true
 #Tamed animals do not take direct damage from players.
 "NoPetDamage Enabled" = true
 #Removes the potion enchantment glint so you can see what the potion color is.
@@ -124,15 +124,15 @@
 #Player-only pressure plates crafted using gilded blackstone.
 "PlayerPressurePlates Enabled" = true
 #Allows crafting from inventory if the player has a crafting table in their inventory.
-"PortableCrafting Enabled" = true
+"PortableCrafting Enabled" = false
 #Right-click with a hoe to quickly harvest and replant a fully-grown crop.
-"QuickReplant Enabled" = true
+"QuickReplant Enabled" = false
 #Raid horns are sometimes dropped from raid leaders and can be used to call off or start raids.
 "RaidHorns Enabled" = true
 #A lantern that emits light when a redstone signal is received.
-"RedstoneLanterns Enabled" = true
+"RedstoneLanterns Enabled" = false
 #A block that acts like sand but is powered like a block of redstone.
-"RedstoneSand Enabled" = true
+"RedstoneSand Enabled" = false
 #Leather can be used to repair elytra when insomnia is disabled.
 "RepairElytraFromLeather Enabled" = true
 #Use netherite scrap to repair a small amount of netherite item damage.
@@ -149,7 +149,7 @@
 #A shulker box's contents is shown in the item tooltip when hovering over.
 "ShulkerBoxTooltip Enabled" = true
 #Increases snow layers when snowing in cold biomes
-"SnowAccumulation Enabled" = true
+"SnowAccumulation Enabled" = false
 #Allows enchanted books to stack.
 "StackableEnchantedBooks Enabled" = true
 #Allows potions to stack.
@@ -165,17 +165,17 @@
 #The player's inventory items will be held in the Totem of Preserving upon death.
 #By default, a new totem will always be spawned to hold items upon dying in Easy or Peaceful mode ('Grave mode').
 #In Normal and Hard mode, the player must be holding an empty Totem of Preserving in order for it to hold items upon death.
-"TotemOfPreserving Enabled" = true
+"TotemOfPreserving Enabled" = false
 #A totem will work from anywhere in the player's inventory as well as held in the main or offhand.
-"TotemWorksFromInventory Enabled" = true
+"TotemWorksFromInventory Enabled" = false
 #Barrels available in all types of vanilla wood.
 "VariantBarrels Enabled" = true
 #Variant bars crafted from vanilla metal ingots.
-"VariantBars Enabled" = true
+"VariantBars Enabled" = false
 #Bookshelves available in all types of vanilla wood.
 "VariantBookshelves Enabled" = true
 #Variant chains crafted from vanilla metal ingots and nuggets.
-"VariantChains Enabled" = true
+"VariantChains Enabled" = false
 #Chests available in all types of vanilla wood.
 "VariantChests Enabled" = true
 #Ladders available in all types of vanilla wood.
@@ -255,9 +255,9 @@
 	#If true, adds a blast furnace recipe for smelting raw ore blocks into ore blocks.
 	"Ore block from raw ore block" = true
 	#If true, adds a recipe for Gilded Blackstone using gold nuggets and blackstone.
-	"Gilded Blackstone" = true
+	"Gilded Blackstone" = false
 	#If true, adds a recipe for the Trident using a heart of the sea, prismarine shards and crystals.
-	Trident = true
+	Trident = false
 	#If true, adds a recipe for Cyan Dye using warped roots.
 	"Cyan Dye from warped roots" = true
 	#If true, adds a recipe for Green Dye using yellow and blue dyes.
@@ -271,9 +271,9 @@
 	#If true, adds a recipe for Soul Torches using soul sand/soul soil and sticks.
 	"Simpler Soul Torch" = true
 	#If true, adds a shapeless recipe for bread.
-	"Shapeless bread" = true
+	"Shapeless bread" = false
 	#If true, adds a shapeless recipe for paper.
-	"Shapeless paper" = true
+	"Shapeless paper" = false
 	#If true, adds a recipe for crafting bundles from leather.
 	"Bundle from leather" = true
 
@@ -333,7 +333,7 @@
 
 [PortableCrafting]
 	#If true, sets a keybind for opening the portable crafting table (defaults to 'v').
-	"Enable keybind" = true
+	"Enable keybind" = false
 
 [QuickReplant]
 	#List of blockstate definitions for replantable crops.
