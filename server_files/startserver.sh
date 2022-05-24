@@ -27,7 +27,7 @@ fi
 			which curl >> /dev/null
 			if [ $? -eq 0 ]; then
 				echo "DEBUG: (curl) Downloading ${URL}"
-				curl -o serverstarter-2.1.1.jar "${URL}"
+				curl -LJRo serverstarter-2.1.1.jar "${URL}"
 			else
 				echo "Neither wget or curl were found on your system. Please install one and try again"
          fi
