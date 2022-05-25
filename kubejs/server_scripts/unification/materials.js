@@ -48,10 +48,14 @@ const MATERIALS = [
     "tungsten",
     "salt",
     "carbon",
+    "brass",
+    "zinc"
 ];
 // Order of mods to unify
 const UNIFICATION_ORDER = [
     "modern_industrialization",
+    "create",
+    "createplus",
     "indrev",
     "bewitchment",
     "techreborn",
