@@ -124,7 +124,7 @@ $ENABLE_SERVER_FILE_MODULE = $true
 # This will update the "modpackUrl" in the file found at $SERVER_SETUP_CONFIG_PATH
 # to point to your newly created client files on the CurseForge CDN.
 # Default: $false
-$ENABLE_SERVERSTARTER_MODULE = $true
+$ENABLE_SERVERSTARTER_MODULE = $false
 
 # Toggle automatic changelog generator on/off
 # This module requires an older modpack manifest zip to be present, 

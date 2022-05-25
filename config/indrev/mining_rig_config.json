@@ -23,7 +23,7 @@
     "c:emerald_ores": 4,
     "c:galena_ores": 4,
     "c:gold_ores": 4,
-    "c:iridium_ores": 4,
+    "c:iridium_ores": 6,
     "c:iron_ores": 4,
     "c:lapis_ores": 4,
     "c:lignite_coal_ores": 4,
@@ -37,10 +37,10 @@
     "c:ruby_ores": 4,
     "c:salt_ores": 4,
     "c:sapphire_ores": 4,
-    "c:sheldonite_ores": 4,
-    "c:sodalite_ores": 4,
-    "c:sphalerite_ores": 4,
-    "c:titanium_ores": 4,
-    "c:uranium_ores": 4
+    "c:sheldonite_ores": 5,
+    "c:sodalite_ores": 5,
+    "c:sphalerite_ores": 5,
+    "c:titanium_ores": 6,
+    "c:uranium_ores": 6
   }
 }

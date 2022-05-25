@@ -1,6 +1,8 @@
 {
   "worldgen": {
     "generate_in_villages": true,
+    "min_per_village": 0,
+    "max_per_village": 0,
     "village_waystone_weight": 5
   },
   "teleportation_cost": {
@@ -26,6 +28,14 @@
     "cooldown_ticks_from_abyss_watcher": 0,
     "cooldown_ticks_from_pocket_wormhole": 0,
     "cooldown_ticks_from_local_void": 0,
+    "cooldown_ticks_from_void_totem": 0,
     "cooldown_ticks_from_waystone": 0
+  },
+  "add_waystone_structure_piece": {
+    "minecraft:village/plains/houses": "village_waystone",
+    "minecraft:village/savanna/houses": "village_waystone",
+    "minecraft:village/desert/houses": "desert_village_waystone",
+    "minecraft:village/snowy/houses": "village_waystone",
+    "minecraft:village/taiga/houses": "village_waystone"
   }
 }

@@ -18,7 +18,7 @@ If your settings in this file seem to have to no effect on the generation of the
 	"forceBYGEndBiomeSource": true,
 	// Biomes that spawn where the large end islands/surface generate.
 	"islandLayer": {
-		"biomeSize": 3,
+		"biomeSize": 4,
 		/* Higher weight, means the biome in question is bound to spawn more frequently against all other biomes listed here.
 		   Weight of 0 means the biome is disabled.
 		   
@@ -67,16 +67,16 @@ If your settings in this file seem to have to no effect on the generation of the
 				"weight": 3
 			},
 			{
-				"data": "minecraft:the_end",
-				"weight": 2
-			},
-			{
 				"data": "minecraft:small_end_islands",
-				"weight": 2
+				"weight": 0
 			},
 			{
 				"data": "byg:viscal_isles",
-				"weight": 2
+				"weight": 0
+			},
+			{
+				"data": "minecraft:the_end",
+				"weight": 0
 			},
 			{
 				"data": "promenade:dark_amaranth_forest",
@@ -90,7 +90,7 @@ If your settings in this file seem to have to no effect on the generation of the
 	},
 	// Biomes that spawn in the Y range of "skyLayerStartY to Dimension Max Y.
 	"skyLayer": {
-		"biomeSize": 2,
+		"biomeSize": 3,
 		/* Higher weight, means the biome in question is bound to spawn more frequently against all other biomes listed here.
 		   Weight of 0 means the biome is disabled.
 		   
@@ -111,7 +111,7 @@ If your settings in this file seem to have to no effect on the generation of the
 	"skyLayerStartY": 180,
 	// Biomes that spawn where there is no ground aka void.
 	"voidLayer": {
-		"biomeSize": 2,
+		"biomeSize": 3,
 		/* Higher weight, means the biome in question is bound to spawn more frequently against all other biomes listed here.
 		   Weight of 0 means the biome is disabled.
 		   

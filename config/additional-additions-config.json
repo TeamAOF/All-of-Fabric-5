@@ -1,8 +1,7 @@
 {
-  "version": 6,
+  "version": 7,
   "GildedNetherite": true,
   "Wrench": true,
-  "AmethystLamp": true,
   "EnchantmentPrecision": true,
   "EnchantmentSpeed": true,
   "CompostableRottenFlesh": true,
@@ -11,7 +10,6 @@
   "Crossbows": true,
   "MusicDiscs": true,
   "RoseGold": false,
-  "Potions": true,
   "WateringCan": true,
   "CopperPatina": true,
   "Ropes": true,
@@ -36,5 +34,9 @@
   "DepthMeter": {
     "enabled": true,
     "displayElevationAlways": false
+  },
+  "AmethystLamp": {
+    "enabled": true,
+    "despawnChance": 0.5
   }
 }

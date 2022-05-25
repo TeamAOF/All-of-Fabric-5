@@ -15,7 +15,7 @@ Appearing on mountainous terrain & ABOVE weirdness 0, here is the "peak_biome_va
 [ ARID-HOT, DRY-HOT, NEUTRAL-HOT, WET-HOT, HUMID-HOT ]
 
 All keys passed in must be valid in the biome registry!
-"minecraft:the_void" is invalid as it represents a value of "NULL(nothing)" internally.
+In slots containing "minecraft:the_void", biomes at the equivalent temperature/humidity index in "slope_biomes" will be used instead.
 */
 {
 	"value": [

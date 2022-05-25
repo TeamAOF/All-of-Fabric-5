@@ -19,10 +19,10 @@ All keys passed in must be valid in the biome registry!
 */
 {
 	"value": [
-		[ "minecraft:snowy_plains", "minecraft:snowy_plains", "minecraft:snowy_plains", "byg:frosted_taiga", "minecraft:taiga" ],
-		[ "minecraft:plains", "byg:weeping_witch_forest", "byg:zelkova_forest", "byg:autumnal_taiga", "minecraft:old_growth_spruce_taiga" ],
-		[ "minecraft:flower_forest", "minecraft:plains", "byg:orchard", "byg:aspen_forest", "byg:jacaranda_forest" ],
-		[ "byg:baobab_savanna", "byg:firecracker_shrubland", "byg:forgotten_forest", "minecraft:jungle", "byg:tropical_rainforest" ],
-		[ "minecraft:desert", "minecraft:desert", "byg:sierra_badlands", "minecraft:desert", "byg:mojave_desert" ]
+		[ "byg:frosted_coniferous_forest", "byg:frosted_coniferous_forest", "byg:frosted_taiga", "byg:autumnal_forest", "byg:autumnal_taiga" ],
+		[ "byg:rose_fields", "byg:fragment_forest", "byg:zelkova_forest", "byg:coconino_meadow", "byg:redwood_thicket" ],
+		[ "byg:temperate_grove", "byg:orchard", "byg:orchard", "byg:red_oak_forest", "byg:jacaranda_forest" ],
+		[ "byg:firecracker_shrubland", "byg:firecracker_shrubland", "byg:amaranth_fields", "byg:crag_gardens", "byg:tropical_rainforest" ],
+		[ "byg:atacama_desert", "byg:atacama_desert", "byg:sierra_badlands", "byg:atacama_desert", "byg:mojave_desert" ]
 	]
 }

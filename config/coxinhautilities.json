@@ -1,0 +1,12 @@
+{
+  //Whether or not Ender Orchids can generate in The End.
+  "canGenerateEnderOrchids": true,
+  //Ender Orchid's spawn ratio; Increase to generate more Ender Orchids per chunk.
+  "enderOrchidSpawnRatio": 2,
+  //Whether or not Ender Orchids can be placed and grow on blocks other than End Stone.
+  "hasEnderOrchidStrictPlacement": true,
+  //Changes the odds an Ender Orchid will grow when planted on End Stone. The bigger the value, the less likely it is.
+  "enderOrchidRegularGrowthRatio": 8,
+  //Changes the odds an Ender Orchid will grow on other blocks. The bigger the value, the less likely it is.
+  "enderOrchidSpecialGrowthRatio": 12
+}

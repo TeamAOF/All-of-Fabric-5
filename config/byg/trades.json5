@@ -8,8 +8,6 @@ JSON5 plugin(for VSCode): https://marketplace.visualstudio.com/items?itemName=mr
 to make editing this file much easier.
 */
 {
-	// Whether this file appends villager/wandering trader trades.
-	"enabled": true,
 	// Trades for a given villager profession. Trade levels are in the range of 1-5
 	"trades_by_profession": {
 		"byg:forager": {
@@ -424,297 +422,331 @@ to make editing this file much easier.
 			"5": []
 		}
 	},
+	// Whether this file appends villager/wandering trader trades.
+	"visible": true,
 	// Trades for the wandering trader. Trades in "1" are "generic" trades. Trades appearing in "2" are "rare" trades.
 	"wandering_trader_trades": {
 		// Trades listed here are "generic" and a few(not only from these listed here but from other mods/vanilla also) are picked when a wandering trader spawns.
 		"1": [
 			{
 				"config": {
-					"cost": 5,
+					"emerald_cost": 5,
 					"item": "byg:aspen_sapling",
-					"max_uses": 2,
+					"max_uses": 12,
+					"number_of_items": 1,
 					"villager_xp": 2
 				},
-				"type": "byg:emerald_for_items"
+				"type": "byg:items_for_emeralds"
 			},
 			{
 				"config": {
-					"cost": 5,
+					"emerald_cost": 5,
 					"item": "byg:baobab_sapling",
-					"max_uses": 2,
+					"max_uses": 12,
+					"number_of_items": 1,
 					"villager_xp": 2
 				},
-				"type": "byg:emerald_for_items"
+				"type": "byg:items_for_emeralds"
 			},
 			{
 				"config": {
-					"cost": 5,
+					"emerald_cost": 5,
 					"item": "byg:blue_enchanted_sapling",
-					"max_uses": 2,
+					"max_uses": 12,
+					"number_of_items": 1,
 					"villager_xp": 2
 				},
-				"type": "byg:emerald_for_items"
+				"type": "byg:items_for_emeralds"
 			},
 			{
 				"config": {
-					"cost": 5,
+					"emerald_cost": 5,
 					"item": "byg:pink_cherry_sapling",
-					"max_uses": 2,
+					"max_uses": 12,
+					"number_of_items": 1,
 					"villager_xp": 2
 				},
-				"type": "byg:emerald_for_items"
+				"type": "byg:items_for_emeralds"
 			},
 			{
 				"config": {
-					"cost": 5,
+					"emerald_cost": 5,
 					"item": "byg:white_cherry_sapling",
-					"max_uses": 2,
+					"max_uses": 12,
+					"number_of_items": 1,
 					"villager_xp": 2
 				},
-				"type": "byg:emerald_for_items"
+				"type": "byg:items_for_emeralds"
 			},
 			{
 				"config": {
-					"cost": 5,
+					"emerald_cost": 5,
 					"item": "byg:cika_sapling",
-					"max_uses": 2,
+					"max_uses": 12,
+					"number_of_items": 1,
 					"villager_xp": 2
 				},
-				"type": "byg:emerald_for_items"
+				"type": "byg:items_for_emeralds"
 			},
 			{
 				"config": {
-					"cost": 5,
+					"emerald_cost": 5,
 					"item": "byg:cypress_sapling",
-					"max_uses": 2,
+					"max_uses": 12,
+					"number_of_items": 1,
 					"villager_xp": 2
 				},
-				"type": "byg:emerald_for_items"
+				"type": "byg:items_for_emeralds"
 			},
 			{
 				"config": {
-					"cost": 5,
+					"emerald_cost": 5,
 					"item": "byg:ebony_sapling",
-					"max_uses": 2,
+					"max_uses": 12,
+					"number_of_items": 1,
 					"villager_xp": 2
 				},
-				"type": "byg:emerald_for_items"
+				"type": "byg:items_for_emeralds"
 			},
 			{
 				"config": {
-					"cost": 5,
+					"emerald_cost": 5,
 					"item": "byg:ether_sapling",
-					"max_uses": 2,
+					"max_uses": 12,
+					"number_of_items": 1,
 					"villager_xp": 2
 				},
-				"type": "byg:emerald_for_items"
+				"type": "byg:items_for_emeralds"
 			},
 			{
 				"config": {
-					"cost": 5,
+					"emerald_cost": 5,
 					"item": "byg:fir_sapling",
-					"max_uses": 2,
+					"max_uses": 12,
+					"number_of_items": 1,
 					"villager_xp": 2
 				},
-				"type": "byg:emerald_for_items"
+				"type": "byg:items_for_emeralds"
 			},
 			{
 				"config": {
-					"cost": 5,
+					"emerald_cost": 5,
 					"item": "byg:green_enchanted_sapling",
-					"max_uses": 2,
+					"max_uses": 12,
+					"number_of_items": 1,
 					"villager_xp": 2
 				},
-				"type": "byg:emerald_for_items"
+				"type": "byg:items_for_emeralds"
 			},
 			{
 				"config": {
-					"cost": 5,
+					"emerald_cost": 5,
 					"item": "byg:holly_sapling",
-					"max_uses": 2,
+					"max_uses": 12,
+					"number_of_items": 1,
 					"villager_xp": 2
 				},
-				"type": "byg:emerald_for_items"
+				"type": "byg:items_for_emeralds"
 			},
 			{
 				"config": {
-					"cost": 5,
+					"emerald_cost": 5,
 					"item": "byg:jacaranda_sapling",
-					"max_uses": 2,
+					"max_uses": 12,
+					"number_of_items": 1,
 					"villager_xp": 2
 				},
-				"type": "byg:emerald_for_items"
+				"type": "byg:items_for_emeralds"
 			},
 			{
 				"config": {
-					"cost": 5,
+					"emerald_cost": 5,
 					"item": "byg:indigo_jacaranda_sapling",
-					"max_uses": 2,
+					"max_uses": 12,
+					"number_of_items": 1,
 					"villager_xp": 2
 				},
-				"type": "byg:emerald_for_items"
+				"type": "byg:items_for_emeralds"
 			},
 			{
 				"config": {
-					"cost": 5,
+					"emerald_cost": 5,
 					"item": "byg:lament_sapling",
-					"max_uses": 2,
+					"max_uses": 12,
+					"number_of_items": 1,
 					"villager_xp": 2
 				},
-				"type": "byg:emerald_for_items"
+				"type": "byg:items_for_emeralds"
 			},
 			{
 				"config": {
-					"cost": 5,
+					"emerald_cost": 5,
 					"item": "byg:mahogany_sapling",
-					"max_uses": 2,
+					"max_uses": 12,
+					"number_of_items": 1,
 					"villager_xp": 2
 				},
-				"type": "byg:emerald_for_items"
+				"type": "byg:items_for_emeralds"
 			},
 			{
 				"config": {
-					"cost": 5,
+					"emerald_cost": 5,
 					"item": "byg:mangrove_sapling",
-					"max_uses": 2,
+					"max_uses": 12,
+					"number_of_items": 1,
 					"villager_xp": 2
 				},
-				"type": "byg:emerald_for_items"
+				"type": "byg:items_for_emeralds"
 			},
 			{
 				"config": {
-					"cost": 5,
+					"emerald_cost": 5,
 					"item": "byg:maple_sapling",
-					"max_uses": 2,
+					"max_uses": 12,
+					"number_of_items": 1,
 					"villager_xp": 2
 				},
-				"type": "byg:emerald_for_items"
+				"type": "byg:items_for_emeralds"
 			},
 			{
 				"config": {
-					"cost": 5,
+					"emerald_cost": 5,
 					"item": "byg:red_maple_sapling",
-					"max_uses": 2,
+					"max_uses": 12,
+					"number_of_items": 1,
 					"villager_xp": 2
 				},
-				"type": "byg:emerald_for_items"
+				"type": "byg:items_for_emeralds"
 			},
 			{
 				"config": {
-					"cost": 5,
+					"emerald_cost": 5,
 					"item": "byg:silver_maple_sapling",
-					"max_uses": 2,
+					"max_uses": 12,
+					"number_of_items": 1,
 					"villager_xp": 2
 				},
-				"type": "byg:emerald_for_items"
+				"type": "byg:items_for_emeralds"
 			},
 			{
 				"config": {
-					"cost": 5,
+					"emerald_cost": 5,
 					"item": "byg:nightshade_sapling",
-					"max_uses": 2,
+					"max_uses": 12,
+					"number_of_items": 1,
 					"villager_xp": 2
 				},
-				"type": "byg:emerald_for_items"
+				"type": "byg:items_for_emeralds"
 			},
 			{
 				"config": {
-					"cost": 5,
+					"emerald_cost": 5,
 					"item": "byg:palm_sapling",
-					"max_uses": 2,
+					"max_uses": 12,
+					"number_of_items": 1,
 					"villager_xp": 2
 				},
-				"type": "byg:emerald_for_items"
+				"type": "byg:items_for_emeralds"
 			},
 			{
 				"config": {
-					"cost": 5,
+					"emerald_cost": 5,
 					"item": "byg:palo_verde_sapling",
-					"max_uses": 2,
+					"max_uses": 12,
+					"number_of_items": 1,
 					"villager_xp": 2
 				},
-				"type": "byg:emerald_for_items"
+				"type": "byg:items_for_emeralds"
 			},
 			{
 				"config": {
-					"cost": 5,
+					"emerald_cost": 5,
 					"item": "byg:pine_sapling",
-					"max_uses": 2,
+					"max_uses": 12,
+					"number_of_items": 1,
 					"villager_xp": 2
 				},
-				"type": "byg:emerald_for_items"
+				"type": "byg:items_for_emeralds"
 			},
 			{
 				"config": {
-					"cost": 5,
+					"emerald_cost": 5,
 					"item": "byg:rainbow_eucalyptus_sapling",
-					"max_uses": 2,
+					"max_uses": 12,
+					"number_of_items": 1,
 					"villager_xp": 2
 				},
-				"type": "byg:emerald_for_items"
+				"type": "byg:items_for_emeralds"
 			},
 			{
 				"config": {
-					"cost": 5,
+					"emerald_cost": 5,
 					"item": "byg:redwood_sapling",
-					"max_uses": 2,
+					"max_uses": 12,
+					"number_of_items": 1,
 					"villager_xp": 2
 				},
-				"type": "byg:emerald_for_items"
+				"type": "byg:items_for_emeralds"
 			},
 			{
 				"config": {
-					"cost": 5,
+					"emerald_cost": 5,
 					"item": "byg:skyris_sapling",
-					"max_uses": 2,
+					"max_uses": 12,
+					"number_of_items": 1,
 					"villager_xp": 2
 				},
-				"type": "byg:emerald_for_items"
+				"type": "byg:items_for_emeralds"
 			},
 			{
 				"config": {
-					"cost": 5,
+					"emerald_cost": 5,
 					"item": "byg:willow_sapling",
-					"max_uses": 2,
+					"max_uses": 12,
+					"number_of_items": 1,
 					"villager_xp": 2
 				},
-				"type": "byg:emerald_for_items"
+				"type": "byg:items_for_emeralds"
 			},
 			{
 				"config": {
-					"cost": 5,
+					"emerald_cost": 5,
 					"item": "byg:witch_hazel_sapling",
-					"max_uses": 2,
+					"max_uses": 12,
+					"number_of_items": 1,
 					"villager_xp": 2
 				},
-				"type": "byg:emerald_for_items"
+				"type": "byg:items_for_emeralds"
 			},
 			{
 				"config": {
-					"cost": 5,
+					"emerald_cost": 5,
 					"item": "byg:zelkova_sapling",
-					"max_uses": 2,
+					"max_uses": 12,
+					"number_of_items": 1,
 					"villager_xp": 2
 				},
-				"type": "byg:emerald_for_items"
+				"type": "byg:items_for_emeralds"
 			},
 			{
 				"config": {
-					"cost": 5,
+					"emerald_cost": 5,
 					"item": "byg:skyris_vine",
-					"max_uses": 2,
+					"max_uses": 12,
+					"number_of_items": 2,
 					"villager_xp": 2
 				},
-				"type": "byg:emerald_for_items"
+				"type": "byg:items_for_emeralds"
 			},
 			{
 				"config": {
-					"cost": 5,
+					"emerald_cost": 5,
 					"item": "byg:poison_ivy",
-					"max_uses": 2,
+					"max_uses": 12,
+					"number_of_items": 2,
 					"villager_xp": 2
 				},
-				"type": "byg:emerald_for_items"
+				"type": "byg:items_for_emeralds"
 			}
 		],
 		// Trades listed here are "rare" and only one(not only from these listed here but from other mods/vanilla also) is picked when a wandering trader spawns.
