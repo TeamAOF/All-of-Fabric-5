@@ -11,7 +11,9 @@
 		// If true, sleeping on sofas can skip the night.
 		"skipNightOnSofas": true,
 		// If true, kitchen sinks are infinite sources for infinite fluids.
-		"infiniteKitchenSinks": true
+		"infiniteKitchenSinks": true,
+		// If true, broken trading stations drop a locked version with their contents inside.
+		"dropLockedTradingStations": true
 	},
 	// Mod compatibility toggles (enabled: true, disabled: false)
 	"compat": {

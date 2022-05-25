@@ -1,0 +1,16 @@
+{
+  "charging_station": {
+    "ChargingStationMaxInput": {
+      "comment": "Charging Station Max Input (Value in EU)",
+      "value": 10000
+    },
+    "ChargingStationMaxEnergy": {
+      "comment": "Charging Station Max Energy (Value in EU)",
+      "value": 100000000
+    },
+    "ChargingStationMaxOutput": {
+      "comment": "Charging Station Max Output (Value in EU)",
+      "value": 10000
+    }
+  }
+}

@@ -26,11 +26,19 @@ $MODPACK_NAME = "all-of-fabric-5"
 $CLIENT_NAME = "All-of-Fabric-5"
 
 # Version Of The Modpack
+<<<<<<< HEAD
 $MODPACK_VERSION = "1.2.2"
 
 # Last Version Of The Modpack
 # Needed For Changelog Parsing
 $LAST_MODPACK_VERSION = "1.2.1"
+=======
+$MODPACK_VERSION = "1.2.3"
+
+# Last Version Of The Modpack
+# Needed For Changelog Parsing
+$LAST_MODPACK_VERSION = "1.2.2"
+>>>>>>> dev
 
 # Which modloader the modpack uses
 # Can be "forge" or "fabric"
@@ -124,7 +132,7 @@ $ENABLE_SERVER_FILE_MODULE = $true
 # This will update the "modpackUrl" in the file found at $SERVER_SETUP_CONFIG_PATH
 # to point to your newly created client files on the CurseForge CDN.
 # Default: $false
-$ENABLE_SERVERSTARTER_MODULE = $true
+$ENABLE_SERVERSTARTER_MODULE = $false
 
 # Toggle automatic changelog generator on/off
 # This module requires an older modpack manifest zip to be present, 

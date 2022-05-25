@@ -15,7 +15,7 @@ All keys passed in must be valid in the biome registry!
 */
 {
 	"value": [
-		[ "minecraft:deep_frozen_ocean", "minecraft:deep_cold_ocean", "minecraft:deep_ocean", "minecraft:deep_lukewarm_ocean", "byg:lush_stacks" ],
-		[ "minecraft:frozen_ocean", "minecraft:cold_ocean", "minecraft:ocean", "minecraft:lukewarm_ocean", "byg:lush_stacks" ]
+		[ "byg:lush_stacks", "byg:lush_stacks", "byg:lush_stacks", "byg:dead_sea", "byg:dead_sea" ],
+		[ "byg:lush_stacks", "byg:lush_stacks", "byg:lush_stacks", "byg:dead_sea", "byg:dead_sea" ]
 	]
 }

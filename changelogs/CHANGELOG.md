@@ -1,3 +1,33 @@
+<<<<<<< HEAD
+=======
+### All of Fabric 5 | v1.2.3
+
+_Fabric Loader 0.14.6_ | _[Mod Updates](https://github.com/TeamAOF/All-of-Fabric-5/blob/main/changelogs/changelog_mods_1.2.3.md)_ | _[Modlist](https://github.com/TeamAOF/All-of-Fabric-5/blob/main/changelogs/modlist_1.2.3.md)_
+
+## Changes
+
+* Update replicator_blacklist.js to include more ae2things items.
+* Added back double ingots from MI.
+* Disabled a couple overlapping charm features.
+* Added more valid ores for the mining rig.
+
+## Fixes
+
+* Dumbo Octopus spawning in a different category than it was registered as so, therefore, ignoring mob caps.
+* Advanced inscriber insertions.
+* Certain terminals not working after updating.
+
+## Added
+
+* Auto Workstations
+* Create
+* CreatePlus  
+* Ellemes' Container Library
+* JamLib
+* KubeJS Create
+---
+
+>>>>>>> dev
 ### All of Fabric 5 | v1.2.2
 
 _Fabric Loader 0.14.4_ | _[Mod Updates](https://github.com/TeamAOF/All-of-Fabric-5/blob/main/changelogs/changelog_mods_1.2.2.md)_ | _[Modlist](https://github.com/TeamAOF/All-of-Fabric-5/blob/main/changelogs/modlist_1.2.2.md)_

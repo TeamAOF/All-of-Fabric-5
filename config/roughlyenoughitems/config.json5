@@ -72,7 +72,7 @@
 			// The ordering of the items on the entry panel.
 			"entryPanelOrdering": "REGISTRY_ASCENDING",
 			// Declares the maximum amount of recipes displayed in a page if possible.
-			"maxRecipesPerPage": 15,
+			"maxRecipesPerPage": 8,
 			// Declares the maximum amount of recipes displayed in a page if possible.
 			"maxRecipesPageHeight": 300,
 			// Declares whether entry rendering time should be debugged.
@@ -85,8 +85,6 @@
 			"entrySize": 1.0,
 			// Declares the position of the entry panel.
 			"displayPanelLocation": "RIGHT",
-			// Declares whether scrolled entry panel should snap to rows.
-			"snapToRows": false,
 			// Declares how the scrollbar in composite screen should act.
 			"compositeScrollBarPermanent": false,
 			"toastDisplayedOnCopyIdentifier": true,
@@ -135,7 +133,7 @@
 			// Declares the position of the config button.
 			"configButtonLocation": "LOWER",
 			// Declares whether the craftable filter button is enabled.
-			"enableCraftableOnlyButton": true
+			"showCraftableOnlyButton": true
 		},
 		// Declares the appearance of recipe's border.
 		"recipeBorder": "DEFAULT",
@@ -143,7 +141,7 @@
 		"scrollingEntryListWidget": false,
 		"horizontalEntriesBoundaries": 1.0,
 		"verticalEntriesBoundaries": 1.0,
-		"horizontalEntriesBoundariesColumns": 11,
+		"horizontalEntriesBoundariesColumns": 50,
 		"verticalEntriesBoundariesRows": 1000,
 		"favoritesHorizontalEntriesBoundaries": 1.0,
 		"favoritesHorizontalEntriesBoundariesColumns": 50,

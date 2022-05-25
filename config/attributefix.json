@@ -143,6 +143,17 @@
         "value": 10000000
       }
     },
+    "porting_lib:entity_gravity": {
+      "enabled": false,
+      "min": {
+        "default": -8,
+        "value": -8
+      },
+      "max": {
+        "default": 8,
+        "value": 10000000
+      }
+    },
     "additionalentityattributes:lava_visibility": {
       "enabled": false,
       "min": {
@@ -437,6 +448,17 @@
       },
       "max": {
         "default": 16,
+        "value": 10000000
+      }
+    },
+    "porting_lib:swim_speed": {
+      "enabled": false,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 1024,
         "value": 10000000
       }
     },

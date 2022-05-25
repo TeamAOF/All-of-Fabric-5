@@ -19,10 +19,10 @@ All keys passed in must be valid in the biome registry!
 */
 {
 	"value": [
-		[ "minecraft:snowy_plains", "minecraft:snowy_plains", "minecraft:snowy_plains", "minecraft:snowy_taiga", "minecraft:taiga" ],
-		[ "minecraft:plains", "byg:weeping_witch_forest", "byg:weeping_witch_forest", "minecraft:taiga", "minecraft:old_growth_spruce_taiga" ],
-		[ "minecraft:flower_forest", "byg:prairie", "byg:temperate_rainforest", "byg:aspen_forest", "byg:redwood_thicket" ],
-		[ "byg:baobab_savanna", "byg:araucaria_savanna", "minecraft:forest", "byg:amaranth_fields", "byg:crag_gardens" ],
-		[ "minecraft:desert", "minecraft:desert", "minecraft:desert", "byg:mojave_desert", "byg:red_rock_valley" ]
+		[ "byg:shattered_glacier", "byg:cardinal_tundra", "byg:borealis_grove", "byg:borealis_grove", "byg:black_forest" ],
+		[ "byg:coconino_meadow", "byg:maple_taiga", "byg:maple_taiga", "byg:coconino_meadow", "byg:coniferous_forest" ],
+		[ "byg:temperate_grove", "byg:prairie", "byg:allium_fields", "byg:aspen_forest", "byg:dacite_ridges" ],
+		[ "byg:baobab_savanna", "byg:araucaria_savanna", "byg:cherry_blossom_forest", "byg:ebony_woods", "byg:tropical_rainforest" ],
+		[ "byg:atacama_desert", "byg:windswept_desert", "byg:windswept_desert", "byg:mojave_desert", "byg:red_rock_valley" ]
 	]
 }

@@ -22,7 +22,7 @@ All keys passed in must be valid in the biome registry!
 		[ "minecraft:snowy_plains", "minecraft:snowy_plains", "minecraft:snowy_plains", "minecraft:snowy_taiga", "minecraft:snowy_taiga" ],
 		[ "minecraft:meadow", "minecraft:meadow", "minecraft:forest", "minecraft:taiga", "minecraft:old_growth_spruce_taiga" ],
 		[ "minecraft:meadow", "minecraft:meadow", "minecraft:meadow", "minecraft:meadow", "minecraft:dark_forest" ],
-		[ "minecraft:savanna_plateau", "minecraft:savanna_plateau", "byg:red_oak_forest", "minecraft:forest", "minecraft:jungle" ],
+		[ "minecraft:savanna_plateau", "minecraft:savanna_plateau", "minecraft:forest", "minecraft:forest", "minecraft:jungle" ],
 		[ "minecraft:badlands", "minecraft:badlands", "minecraft:badlands", "minecraft:wooded_badlands", "minecraft:wooded_badlands" ]
 	]
 }

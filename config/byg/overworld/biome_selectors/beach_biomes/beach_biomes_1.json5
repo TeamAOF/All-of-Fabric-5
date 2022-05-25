@@ -21,8 +21,8 @@ All keys passed in must be valid in the biome registry!
 	"value": [
 		[ "minecraft:snowy_beach", "minecraft:snowy_beach", "minecraft:snowy_beach", "minecraft:snowy_beach", "minecraft:snowy_beach" ],
 		[ "minecraft:beach", "minecraft:beach", "minecraft:beach", "minecraft:beach", "minecraft:beach" ],
-		[ "minecraft:beach", "minecraft:beach", "minecraft:beach", "minecraft:beach", "minecraft:beach" ],
-		[ "minecraft:beach", "minecraft:beach", "minecraft:beach", "minecraft:beach", "minecraft:beach" ],
+		[ "byg:basalt_barrera", "byg:basalt_barrera", "byg:basalt_barrera", "byg:basalt_barrera", "byg:basalt_barrera" ],
+		[ "byg:rainbow_beach", "byg:rainbow_beach", "byg:rainbow_beach", "byg:rainbow_beach", "byg:rainbow_beach" ],
 		[ "byg:windswept_beach", "byg:windswept_beach", "byg:windswept_beach", "byg:windswept_beach", "byg:windswept_beach" ]
 	]
 }

@@ -16,7 +16,7 @@ If your settings in this file seem to have to no effect on the generation of the
 	   This layer appears in the y range of: "dimension min Y to layer size".
 	*/
 	"bottomLayer": {
-		"biomeSize": 3,
+		"biomeSize": 4,
 		/* Higher weight, means the biome in question is bound to spawn more frequently against all other biomes listed here.
 		   Weight of 0 means the biome is disabled.
 		   
@@ -54,7 +54,7 @@ If your settings in this file seem to have to no effect on the generation of the
 			},
 			{
 				"data": "byg:brimstone_caverns",
-				"weight": 0
+				"weight": 2
 			},
 			{
 				"data": "byg:subzero_hypogeal",
@@ -66,7 +66,7 @@ If your settings in this file seem to have to no effect on the generation of the
 			},
 			{
 				"data": "byg:magma_wastes",
-				"weight": 0
+				"weight": 2
 			},
 			{
 				"data": "byg:quartz_desert",
@@ -74,23 +74,23 @@ If your settings in this file seem to have to no effect on the generation of the
 			},
 			{
 				"data": "byg:crimson_gardens",
-				"weight": 0
+				"weight": 2
 			},
 			{
 				"data": "byg:glowstone_gardens",
-				"weight": 0
+				"weight": 2
 			},
 			{
 				"data": "byg:sythian_torrids",
-				"weight": 0
+				"weight": 2
 			},
 			{
 				"data": "byg:wailing_garth",
-				"weight": 0
+				"weight": 2
 			},
 			{
 				"data": "byg:arisian_undergrowth",
-				"weight": 0
+				"weight": 2
 			},
 			{
 				"data": "promenade:tall_crimson_forest",
@@ -124,7 +124,7 @@ If your settings in this file seem to have to no effect on the generation of the
 	   ie. y40 to y80 if layer size is 40 or y60 to y120 if layer size is 60.
 	*/
 	"middleLayer": {
-		"biomeSize": 3,
+		"biomeSize": 4,
 		/* Higher weight, means the biome in question is bound to spawn more frequently against all other biomes listed here.
 		   Weight of 0 means the biome is disabled.
 		   
@@ -166,7 +166,7 @@ If your settings in this file seem to have to no effect on the generation of the
 			},
 			{
 				"data": "byg:weeping_mire",
-				"weight": 0
+				"weight": 2
 			},
 			{
 				"data": "byg:magma_wastes",
@@ -223,7 +223,7 @@ If your settings in this file seem to have to no effect on the generation of the
 		]
 	},
 	"upperLayer": {
-		"biomeSize": 3,
+		"biomeSize": 4,
 		"biomeWeights": [
 			{
 				"data": "minecraft:crimson_forest",
@@ -255,11 +255,11 @@ If your settings in this file seem to have to no effect on the generation of the
 			},
 			{
 				"data": "byg:embur_bog",
-				"weight": 0
+				"weight": 2
 			},
 			{
 				"data": "byg:weeping_mire",
-				"weight": 0
+				"weight": 2
 			},
 			{
 				"data": "byg:warped_desert",

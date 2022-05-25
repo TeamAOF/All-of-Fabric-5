@@ -20,8 +20,8 @@ All keys passed in must be valid in the biome registry!
 {
 	"value": [
 		[ "minecraft:snowy_plains", "minecraft:snowy_plains", "minecraft:snowy_plains", "minecraft:snowy_taiga", "minecraft:taiga" ],
-		[ "minecraft:plains", "byg:allium_fields", "byg:red_oak_forest", "minecraft:taiga", "minecraft:old_growth_spruce_taiga" ],
-		[ "minecraft:flower_forest", "minecraft:plains", "byg:red_oak_forest", "minecraft:birch_forest", "minecraft:dark_forest" ],
+		[ "minecraft:plains", "minecraft:plains", "minecraft:forest", "minecraft:taiga", "minecraft:old_growth_spruce_taiga" ],
+		[ "minecraft:flower_forest", "minecraft:plains", "minecraft:forest", "minecraft:birch_forest", "minecraft:dark_forest" ],
 		[ "minecraft:savanna", "minecraft:savanna", "minecraft:forest", "minecraft:jungle", "minecraft:jungle" ],
 		[ "minecraft:desert", "minecraft:desert", "minecraft:desert", "minecraft:desert", "minecraft:desert" ]
 	]
