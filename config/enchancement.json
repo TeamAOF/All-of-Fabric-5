@@ -15,12 +15,9 @@
   "safeChanneling": false,
   "tridentsReturnFromVoid": false,
   "weakerPotions": false,
+  "weaponEnchantmentCooldownRequirement": 0.7,
   "maxExtractingBlocks": 64,
   "maxLumberjackBlocks": 1024,
   "maxLumberjackHorizontalLength": 7,
   "unbreakingChangesFlag": -1
-<<<<<<< HEAD
 }
-=======
-}
->>>>>>> dev
