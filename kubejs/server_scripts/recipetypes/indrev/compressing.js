@@ -48,9 +48,12 @@ onEvent('recipes', (event) => {
 
     const tr_plates_compat = [
         'advanced_alloy',
-        'brass',
         'refined_iron',
         'tungstensteel'
+    ];
+
+    const create_plates_compat = [
+        'brass',
     ];
 
     mi_plates_compat.forEach((mi_plates_compat) => {
@@ -80,6 +83,23 @@ onEvent('recipes', (event) => {
             },
             output: {
                 item: 'techreborn:' + tr_plates_compat + '_plate',
+                count: 1
+            },
+            processTime: 300
+
+        });
+    });
+
+    create_plates_compat.forEach((create_plates_compat) => {
+        event.recipes.indrev.compress({
+
+            type: 'indrev:compress',
+            ingredients: {
+                tag: 'c:' + create_plates_compat + '_ingots',
+                count: 1
+            },
+            output: {
+                item: 'create:' + create_plates_compat + '_sheet',
                 count: 1
             },
             processTime: 300
