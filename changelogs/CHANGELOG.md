@@ -1,5 +1,3 @@
-<<<<<<< HEAD
-=======
 ### All of Fabric 5 | v1.2.3
 
 _Fabric Loader 0.14.6_ | _[Mod Updates](https://github.com/TeamAOF/All-of-Fabric-5/blob/main/changelogs/changelog_mods_1.2.3.md)_ | _[Modlist](https://github.com/TeamAOF/All-of-Fabric-5/blob/main/changelogs/modlist_1.2.3.md)_
@@ -27,7 +25,6 @@ _Fabric Loader 0.14.6_ | _[Mod Updates](https://github.com/TeamAOF/All-of-Fabric
 * KubeJS Create
 ---
 
->>>>>>> dev
 ### All of Fabric 5 | v1.2.2
 
 _Fabric Loader 0.14.4_ | _[Mod Updates](https://github.com/TeamAOF/All-of-Fabric-5/blob/main/changelogs/changelog_mods_1.2.2.md)_ | _[Modlist](https://github.com/TeamAOF/All-of-Fabric-5/blob/main/changelogs/modlist_1.2.2.md)_
