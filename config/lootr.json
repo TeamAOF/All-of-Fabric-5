@@ -18,7 +18,9 @@
     "dimension_whitelist": [],
     "dimension_blacklist": [],
     "loot_table_blacklist": [],
-    "loot_modid_blacklist": [],
+    "loot_modid_blacklist": [
+      "graveyard"
+    ],
     "loot_structure_blacklist": []
   },
   "decay": {
