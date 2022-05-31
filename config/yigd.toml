@@ -10,10 +10,12 @@ ignoreSpawnProtection = true
 deathInSpawnProtection = "CREATE_GRAVE"
 priority = "GRAVE"
 unlockableGraves = true
-deleteEnchantments = ["minecraft:vanishing_curse"]
+deleteEnchantments = ["minecraft:vanishing_curse", "vanishing_curse"]
 soulboundEnchantments = ["yigd:soulbound"]
+voidSlots = []
+soulboundSlots = []
 applyBindingCurse = true
-trySoft = true
+trySoft = false
 tryStrict = true
 replaceWhenClaimed = true
 blacklistDimensions = []
@@ -28,10 +30,10 @@ tellDeathPos = true
 maxGraveBackups = 50
 
 [graveSettings.graveRobbing]
-enableRobbing = false
+enableRobbing = true
 onlyMurderer = false
-afterTime = 0
-timeType = "MINUTES"
+afterTime = 1
+timeType = "HOURS"
 robPriority = "INVENTORY"
 
 [graveSettings.graveDeletion]
@@ -60,6 +62,8 @@ inCustom = "minecraft:dirt"
 levelzXpInGraves = true
 levelzXpDropPercent = 100
 claimRuleOverride = "CREATE_GRAVE"
+prioritiseTheGraveyardGraves = false
+graveyardSearchRadius = 10
 
 [graveSettings.graveRenderSettings]
 useRenderFeatures = true
@@ -67,17 +71,22 @@ renderGraveSkull = true
 renderGraveOwner = true
 textShadow = true
 adaptRenderer = false
-glowingGrave = false
-glowMinDistance = 10
+glowingGrave = true
+glowMinDistance = 0
 glowMaxDistance = 10
-[utilitySettings]
-soulboundEnchant = true
-deathSightEnchant = false
-
+[utilitySettings.soulboundEnchant]
+enabled = true
+isTreasure = false
+villagerTrade = true
+tableAndLoot = false
+[utilitySettings.deathSightEnchant]
+enabled = false
+isTreasure = true
+villagerTrade = true
+tableAndLoot = true
 [utilitySettings.scrollItem]
 scrollType = "DISABLED"
 retrieveOnRespawn = true
-
 [utilitySettings.graveKeySettings]
 enableKeys = false
 alwaysRequire = false

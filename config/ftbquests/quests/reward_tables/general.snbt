@@ -637,8 +637,6 @@
 		{ item: "modern_industrialization:bronze_drill" }
 		{ item: "modern_industrialization:copper_drill" }
 		{ item: "modern_industrialization:gold_drill" }
-		{ item: "modern_industrialization:stainless_steel_drill" }
-		{ item: "modern_industrialization:steel_drill" }
 		{ item: "modern_industrialization:resistor", count: 3 }
 		{ item: "modern_industrialization:steel_tank" }
 		{ item: "modern_industrialization:bronze_tank" }
@@ -654,15 +652,10 @@
 		{ item: "modern_industrialization:gold_gear", count: 4 }
 		{ item: "modern_industrialization:invar_gear", count: 4 }
 		{ item: "modern_industrialization:iron_gear", count: 4 }
-		{ item: "modern_industrialization:stainless_steel_gear", count: 4 }
 		{ item: "modern_industrialization:steel_gear", count: 4 }
-		{ item: "modern_industrialization:titanium_gear", count: 3 }
 		{ item: "modern_industrialization:copper_rotor", count: 5 }
 		{ item: "modern_industrialization:bronze_rotor", count: 5 }
-		{ item: "modern_industrialization:stainless_steel_rotor", count: 5 }
 		{ item: "modern_industrialization:tin_rotor", count: 5 }
-		{ item: "modern_industrialization:titanium_rotor", count: 3 }
-		{ item: "modern_industrialization:aluminum_rotor", count: 3 }
 		{ item: "modern_industrialization:fluid_pipe", count: 8, random_bonus: 32 }
 		{ item: "modern_industrialization:item_pipe", count: 8, random_bonus: 32 }
 		{ item: "modern_industrialization:tungsten_ingot", count: 3, random_bonus: 8 }
@@ -1117,42 +1110,6 @@
 		}
 		{ item: "croptopia:ajvar_toast", count: 6 }
 		{ item: "blast:confetti_trigger_bomb", count: 16 }
-		{
-			item: {
-				id: "blast:slime_bombard"
-				Count: 1b
-				tag: {
-					Damage: 0
-				}
-			}
-		}
-		{
-			item: {
-				id: "blast:amethyst_bombard"
-				Count: 1b
-				tag: {
-					Damage: 0
-				}
-			}
-		}
-		{
-			item: {
-				id: "blast:frost_bombard"
-				Count: 1b
-				tag: {
-					Damage: 0
-				}
-			}
-		}
-		{
-			item: {
-				id: "blast:bombard"
-				Count: 1b
-				tag: {
-					Damage: 0
-				}
-			}
-		}
 		{ item: "blast:pearl_trigger_bomb", count: 4 }
 		{ item: "modern_industrialization:gold_plate", count: 16 }
 		{ item: "modern_industrialization:lead_plate", count: 16 }
@@ -1543,5 +1500,7 @@
 		{ item: "twigs:crimson_roots_paper_lantern", count: 6 }
 		{ item: "strawdummy:strawdummy" }
 		{ item: "animal_feeding_trough:feeding_trough", count: 2 }
+		{ item: "create:builders_tea", count: 3 }
+		{ }
 	]
 }

@@ -1,0 +1,21 @@
+{
+	id: "5811BFDF9E484981"
+	group: "0815C5D80307ECDF"
+	order_index: 0
+	filename: "create"
+	title: "Create"
+	icon: "create:wrench"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [{
+		x: 0.5d
+		y: 0.0d
+		subtitle: "Currently being made."
+		id: "5A115C1A96F372B7"
+		tasks: [{
+			id: "6D46A2D4E7185815"
+			type: "checkmark"
+			title: "Coming Soon"
+		}]
+	}]
+}

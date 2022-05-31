@@ -1,3 +1,29 @@
+### All of Fabric 5 | v1.2.4
+
+_Fabric Loader 0.14.6_ | _[Mod Updates](https://github.com/TeamAOF/All-of-Fabric-5/blob/main/changelogs/changelog_mods_1.2.4.md)_ | _[Modlist](https://github.com/TeamAOF/All-of-Fabric-5/blob/main/changelogs/modlist_1.2.4.md)_
+
+## Changes
+
+* ServerStarter makes a return.
+* FFB Market now sells the correct type of tomato and cabbage seeds.
+
+## Fixes
+
+* Crashes when Create was being used inside claims.
+* Advancements not showing.
+* Graveyard coffins not containing loot.
+
+## Added
+
+* [Macaw's Roofs](https://www.curseforge.com/minecraft/mc-mods/macaws-roofs)
+* [Modern Dynamics](https://www.curseforge.com/minecraft/mc-mods/modern-dynamics)
+* [Paginated Advancements](https://www.curseforge.com/minecraft/mc-mods/paginated-advancements)
+
+## Removed
+
+* [Whisperwoods](https://www.curseforge.com/minecraft/mc-mods/whisperwoods)
+---
+
 ### All of Fabric 5 | v1.2.3
 
 _Fabric Loader 0.14.6_ | _[Mod Updates](https://github.com/TeamAOF/All-of-Fabric-5/blob/main/changelogs/changelog_mods_1.2.3.md)_ | _[Modlist](https://github.com/TeamAOF/All-of-Fabric-5/blob/main/changelogs/modlist_1.2.3.md)_

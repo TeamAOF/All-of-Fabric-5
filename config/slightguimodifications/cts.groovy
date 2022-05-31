@@ -29,11 +29,7 @@ mainMenu {
             }
         }
 
-<<<<<<< HEAD
-        text = literal("All of Fabric 5 - 1.2.2")
-=======
-        text = literal("All of Fabric 5 - 1.2.3")
->>>>>>> dev
+        text = literal("All of Fabric 5 - 1.2.4")
     }
 
     button {
