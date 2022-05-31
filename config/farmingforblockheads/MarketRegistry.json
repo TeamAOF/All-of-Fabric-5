@@ -356,7 +356,7 @@
 
    {
       "output": {
-        "item": "croptopia:cabbage_seed"
+        "item": "farmersdelight:cabbage_seeds"
       },
       "payment": {
         "item": "minecraft:emerald"
@@ -716,7 +716,7 @@
 
     {
       "output": {
-        "item": "croptopia:tomato_seed"
+        "item": "farmersdelight:tomato_seeds"
       },
       "payment": {
         "item": "minecraft:emerald"
