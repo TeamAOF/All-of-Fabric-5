@@ -6,9 +6,9 @@ modpack:
   
 install:
   mcVersion: 1.18.2
-  loaderVersion: 0.14.4
-  modpackUrl: https://media.forgecdn.net/files/3792/885/All-of-Fabric-5-1.2.2.zip
-  installerUrl: https://maven.fabricmc.net/net/fabricmc/fabric-installer/0.10.2/fabric-installer-0.10.2.jar
+  loaderVersion: 0.14.6
+  modpackUrl: https://media.forgecdn.net/files/3812/137/All-of-Fabric-5-1.2.4.zip
+  installerUrl: https://maven.fabricmc.net/net/fabricmc/fabric-installer/0.11.0/fabric-installer-0.11.0.jar
   
   ignoreFiles:
     - mods/optifine*.jar
@@ -23,7 +23,7 @@ install:
     - "-mcversion"
     - "1.18.2"
     - "-loader"
-    - "0.14.4"
+    - "0.14.6"
   modpackFormat: curse
   formatSpecific:
     ignoreProject: 

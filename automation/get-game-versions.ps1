@@ -8,8 +8,6 @@ function Validate-SecretsFile {
     }
 }
 
- . "$PSScriptRoot\$secretsFile"
+. "$PSScriptRoot\$secretsFile"
 
 curl.exe -H X-Api-Token:$CURSEFORGE_TOKEN https://minecraft.curseforge.com/api/game/versions >> game-versions.json
-
-pause
