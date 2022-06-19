@@ -1,3 +1,32 @@
+### All of Fabric 5 | v1.3.0
+
+_Fabric Loader 0.14.8_ | _[Mod Updates](https://github.com/TeamAOF/All-of-Fabric-5/blob/main/changelogs/changelog_mods_1.3.0.md)_ | _[Modlist](https://github.com/TeamAOF/All-of-Fabric-5/blob/main/changelogs/modlist_1.3.0.md)_
+
+## DISCLAIMER: Replace all Charm chests with vanilla ones before updating!
+
+## Fixes
+
+* Enchanted books not showing up in REI.
+* Sandpaper deploying in create no longer crashes.
+* Fixed an issue where vein mining MD pipes would stop block drops from working.
+
+## Added
+
+* [EffectTooltips](https://www.curseforge.com/minecraft/mc-mods/effect-tooltips)
+* [Macaw's Paths and Pavings](https://www.curseforge.com/minecraft/mc-mods/macaws-paths-and-pavings)
+* [Roughly Enough Professions](https://www.curseforge.com/minecraft/mc-mods/roughly-enough-professions-rep)
+* [Tips](https://www.curseforge.com/minecraft/mc-mods/tips)
+* [The Twilight Forest](https://www.curseforge.com/minecraft/mc-mods/the-twilight-forest)
+* [FabricaeExNihilo](https://www.curseforge.com/minecraft/mc-mods/ex-nihilo-fabrico)
+* [YUNG's Better Desert Temples](https://www.curseforge.com/minecraft/mc-mods/yungs-better-desert-temples-fabric)
+* [YUNG's Better Witch Huts](https://www.curseforge.com/minecraft/mc-mods/yungs-better-witch-huts-fabric)
+
+## Removed
+
+* [Charm](https://www.curseforge.com/minecraft/mc-mods/charm) (Due to ping issues)
+* [Charmonium](https://www.curseforge.com/minecraft/mc-mods/charmonium)
+---
+
 ### All of Fabric 5 | v1.2.4
 
 _Fabric Loader 0.14.6_ | _[Mod Updates](https://github.com/TeamAOF/All-of-Fabric-5/blob/main/changelogs/changelog_mods_1.2.4.md)_ | _[Modlist](https://github.com/TeamAOF/All-of-Fabric-5/blob/main/changelogs/modlist_1.2.4.md)_

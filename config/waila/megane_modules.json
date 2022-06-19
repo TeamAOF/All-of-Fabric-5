@@ -8,6 +8,9 @@
       "lol.bai.megane.module.indrev.MeganeIndustrialRevolution": true,
       "badasintended.megane.impl.IndustrialRevolution": true
     },
+    "fabricaeexnihilo": {
+      "wraith.fabricaeexnihilo.compatibility.megane.FENMeganeModule": true
+    },
     "megane-modern-industrialization": {
       "badasintended.megane.impl.ModernIndustrialization": true
     },
@@ -23,6 +26,9 @@
     "megane-team-reborn-energy": {
       "badasintended.megane.impl.TeamRebornEnergy": true,
       "badasintended.megane.impl.LegacyTeamRebornEnergy": true
+    },
+    "megane-create": {
+      "lol.bai.megane.module.create.MeganeCreate": true
     },
     "megane-reborn-core": {
       "lol.bai.megane.module.reborncore.MeganeRebornCore": true,

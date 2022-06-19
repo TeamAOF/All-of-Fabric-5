@@ -89,7 +89,8 @@
 	"CloversFavorEnchantmentEnabled": true,
 	"SniperEnchantmentEnabled": true,
 	"TightGripEnchantmentEnabled": true,
-	"DamageProofEnchantmentEnabled": true,
+	"SteadfastEnchantmentEnabled": true,
+	"IndestructibleEnchantmentEnabled": true,
 	// The max levels for all Enchantments
 	"TreasureHunterMaxLevel": 3,
 	"DisarmingMaxLevel": 2,
@@ -111,7 +112,7 @@
 	"DisarmingChancePerLevelPlayers": 0.0010000000474974513,
 	// The duration a glow ink sac gives night vision when wearing a glow vision helmet in seconds
 	"GlowVisionGogglesDuration": 240,
-	// By Default, Roughly Enough Items does not show recipes for items at all unless unlocked. Setting this value to true will show a 'recipe not unlocked yet' screen instead
+	// By Default, Roughly Enough Items will show a 'recipe not unlocked yet' screen for not yet unlocked recipes. Setting this value to false will instead not show this screen, showing no recipes whatsoever, until unlocked
 	"REIListsRecipesAsNotUnlocked": false,
 	/* If the player has Azure Dike Charges: Where should they be rendered on the screen. Default: Over the food bar
 	   Only touch those values if you have other mods that render GUI overlays!

@@ -1,13 +1,9 @@
 {
-  "horseinfo": {
-    "enabled": true,
-    "ignore_mount": false
-  },
   "waila": {
     "show_blocks": true,
     "show_fluids": false,
     "show_entities": true,
-    "show_item": true,
+    "show_icon": true,
     "show_mod_name": true,
     "show_registry": false,
     "show_entity_hp": true,
@@ -21,13 +17,16 @@
     "override.powder_snow": true,
     "pet.owner": true,
     "furnace_contents": true,
+    "jukebox.record": true,
+    "breaking_progress.enabled": false,
+    "breaking_progress.color": -1426063361,
+    "breaking_progress.bottom_only": false,
     "spawner_type": true,
     "crop_progress": true,
     "redstone.lever": true,
     "redstone.repeater": true,
     "redstone.comparator": true,
     "redstone.level": true,
-    "jukebox.record": true,
     "player_head.name": true,
     "level.composter": true,
     "level.honey": true,
@@ -35,5 +34,9 @@
     "note_block.note": "SHARP",
     "note_block.int_value": false,
     "pet.hide_unknown_owner": false
+  },
+  "horseinfo": {
+    "enabled": true,
+    "ignore_mount": false
   }
 }

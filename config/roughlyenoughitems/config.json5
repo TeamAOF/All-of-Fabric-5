@@ -1,6 +1,7 @@
 {
 	"basics": {
 		"favorites": [],
+		"hiddenFavorites": [],
 		// Declares whether cheating mode is on.
 		"cheating": false,
 		"favoritesEnabled": true,

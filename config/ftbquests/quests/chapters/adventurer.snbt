@@ -28,8 +28,8 @@
 					Damage: 0
 				}
 			}
-			x: -3.0d
-			y: -0.5d
+			x: -2.5d
+			y: 1.0d
 			subtitle: "Fishing should be fun."
 			description: [
 				"Go Fish adds in general Fish, which are obtainable globally in any area for each dimension, and biome-specific Fish, which are only obtainable in certain areas (See below)."
@@ -112,8 +112,8 @@
 		{
 			title: "Find a Graveyard"
 			icon: "graveyard:skull_with_rib_cage"
-			x: 2.0d
-			y: -0.5d
+			x: 1.5d
+			y: -2.5d
 			subtitle: "Locate a Small Graveyard structure. Be sure to have a look or two below the graves for shiny loot."
 			dependencies: ["6EC4700B21DB617B"]
 			id: "14DE762F4663D1C9"
@@ -130,8 +130,8 @@
 		}
 		{
 			title: "Artifacts"
-			x: -0.5d
-			y: 2.0d
+			x: 1.5d
+			y: 1.0d
 			subtitle: "Magical items with great power."
 			description: [
 				"The items added by this mod can be found in chests."
@@ -155,6 +155,31 @@
 			}]
 			rewards: [{
 				id: "7F25E542A51AFADF"
+				type: "random"
+				table_id: 13756307348121783L
+			}]
+		}
+		{
+			title: "The Twilight Forest"
+			icon: "twilightforest:twilight_portal_miniature_structure"
+			x: -2.5d
+			y: -2.5d
+			subtitle: "Step into the Twilight Realm!"
+			description: [
+				"To make a portal to the Twilight Forest, make a 2x2 shallow pool (4 squares) of water in a grassy area, and surround it entirely with natural stuff (flowers, mushrooms, saplings, leaves, grass, anything considered a \"plant\" or \"leaves\")."
+				""
+				"Twilight Forest is a dimension exploration mod focused on adventure that will take you on a journey to meet strange creatures, exploring dungeons, and much more."
+			]
+			dependencies: ["6EC4700B21DB617B"]
+			id: "36D37A1AFFC1B369"
+			tasks: [{
+				id: "64630338E7F2207F"
+				type: "dimension"
+				icon: "twilightforest:twilight_portal_miniature_structure"
+				dimension: "twilightforest:twilight_forest"
+			}]
+			rewards: [{
+				id: "0C0869CB6A2C4E9F"
 				type: "random"
 				table_id: 13756307348121783L
 			}]

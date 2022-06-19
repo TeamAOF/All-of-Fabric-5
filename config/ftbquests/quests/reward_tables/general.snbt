@@ -1501,6 +1501,5 @@
 		{ item: "strawdummy:strawdummy" }
 		{ item: "animal_feeding_trough:feeding_trough", count: 2 }
 		{ item: "create:builders_tea", count: 3 }
-		{ }
 	]
 }

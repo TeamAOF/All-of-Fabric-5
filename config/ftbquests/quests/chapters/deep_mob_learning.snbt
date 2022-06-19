@@ -230,48 +230,48 @@
 						items: [
 							{
 								id: "dml-refabricated:data_model_illager"
-								Count: 1b
 								tag: { }
+								Count: 1b
 							}
 							{
 								id: "dml-refabricated:data_model_ocean"
-								Count: 1b
 								tag: { }
+								Count: 1b
 							}
 							{
 								id: "dml-refabricated:data_model_slimy"
-								Count: 1b
 								tag: { }
+								Count: 1b
 							}
 							{
 								id: "dml-refabricated:data_model_overworld"
-								Count: 1b
 								tag: { }
+								Count: 1b
 							}
 							{
 								id: "dml-refabricated:data_model_zombie"
-								Count: 1b
 								tag: { }
+								Count: 1b
 							}
 							{
 								id: "dml-refabricated:data_model_nether"
-								Count: 1b
 								tag: { }
+								Count: 1b
 							}
 							{
 								id: "dml-refabricated:data_model_skeleton"
-								Count: 1b
 								tag: { }
+								Count: 1b
 							}
 							{
 								id: "dml-refabricated:data_model_end"
-								Count: 1b
 								tag: { }
+								Count: 1b
 							}
 							{
 								id: "dml-refabricated:data_model_ghost"
-								Count: 1b
 								tag: { }
+								Count: 1b
 							}
 						]
 					}

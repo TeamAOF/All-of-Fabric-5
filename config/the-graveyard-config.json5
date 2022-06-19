@@ -545,7 +545,8 @@
     }
   },
   "booleanEntries": {
-    "urnHasDoubleInventory": true
+    "urnHasDoubleInventory": true,
+    "disableWitherSkeletonSpawner": false
   },
   "integerEntries": {
     "maxTerrainHeightDifference": 6

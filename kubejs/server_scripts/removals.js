@@ -80,6 +80,7 @@ onEvent('recipes', (event) => {
     'extragenerators:infernal_generator',
     'campanion:mre',
     'additionaladditions:fried_egg',
+    'twilightforest:uncrafting_table',
     ];
 
     id.forEach((id) => {

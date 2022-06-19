@@ -1,5 +1,5 @@
 {
-  "engine": "INSTANCING",
+  "backend": "INSTANCING",
   "debugNormals": false,
   "limitUpdates": true
 }
