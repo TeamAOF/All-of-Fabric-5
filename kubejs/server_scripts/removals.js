@@ -103,3 +103,25 @@ onEvent('recipes', (event) => {
               event.remove({ id: 'indrev:shapeless/' + plates + '_plate_from_hammer' });
           });
 });
+
+onEvent('block.place', event => {
+  if (event.block.id == "twilightforest:uncrafting_table") {
+    event.cancel()
+  }
+});
+
+onEvent('block.break', event => {
+  if (event.block.id == "twilightforest:uncrafting_table") {
+    event.cancel()
+  }
+});
+
+onEvent('block.right_click', event => {
+  if (event.block.id == "twilightforest:uncrafting_table") {
+    event.cancel()
+  }
+});
+
+onEvent('recipes', event => {
+  event.remove({input:"twilightforest:uncrafting_table"})
+});
