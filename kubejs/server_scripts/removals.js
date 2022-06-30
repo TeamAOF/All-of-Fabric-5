@@ -23,6 +23,17 @@ onEvent('recipes', (event) => {
     'techreborn:smelting/platinum_ingot_from_c_sheldonite_ores_exported_mi_furnace',
     'modern_industrialization:compat/indrev/quarry_nikolite',
     'modern_industrialization:compat/ae2/quarry_ae2',
+//    'createplus:architects_palette/mixing/sunstone',
+//    'createplus:biomemakeover/cutting/ancient_log/stripped_wood',
+//    'spectrum:enchantment_upgrade/spectrum/disarming',
+//    'createplus:biomemakeover/mixing/mesmerite',
+//    'createplus:biomemakeover/cutting/ancient_log/wood',
+//    'createplus:biomemakeover/cutting/ancient_log/log',
+//    'createplus:modern_industrialization/mixer/limestone',
+//    'createplus:biomemakeover/cutting/ancient_log/stripped_log',
+    'createplus:ae2/sequenced_assembly/mixing/calculation_processor',
+    'createplus:ae2/sequenced_assembly/mixing/engineering_processor',
+    'createplus:ae2/sequenced_assembly/mixing/logic_processor',
 
     ];
 
@@ -81,6 +92,8 @@ onEvent('recipes', (event) => {
     'campanion:mre',
     'additionaladditions:fried_egg',
     'twilightforest:uncrafting_table',
+//    'fabricaeexnihilo:end_cake',
+//    'yigd:death_scroll',
     ];
 
     id.forEach((id) => {
@@ -102,26 +115,12 @@ onEvent('recipes', (event) => {
           plates.forEach((plates) => {
               event.remove({ id: 'indrev:shapeless/' + plates + '_plate_from_hammer' });
           });
-});
-
-onEvent('block.place', event => {
-  if (event.block.id == "twilightforest:uncrafting_table") {
-    event.cancel()
-  }
-});
-
-onEvent('block.break', event => {
-  if (event.block.id == "twilightforest:uncrafting_table") {
-    event.cancel()
-  }
+ 
+    event.remove({input:"twilightforest:uncrafting_table"});
 });
 
 onEvent('block.right_click', event => {
   if (event.block.id == "twilightforest:uncrafting_table") {
     event.cancel()
   }
-});
-
-onEvent('recipes', event => {
-  event.remove({input:"twilightforest:uncrafting_table"})
 });
