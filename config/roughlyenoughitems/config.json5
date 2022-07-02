@@ -2,6 +2,7 @@
 	"basics": {
 		"favorites": [],
 		"hiddenFavorites": [],
+		"displayHistory": [],
 		// Declares whether cheating mode is on.
 		"cheating": false,
 		"favoritesEnabled": true,
@@ -31,7 +32,7 @@
 				"modifier": 0
 			},
 			"copyRecipeIdentifierKeybind": {
-				"keyCode": "key.keyboard.home",
+				"keyCode": "key.mouse.middle",
 				"modifier": 0
 			},
 			"favoriteKeybind": {
@@ -39,7 +40,7 @@
 				"modifier": 0
 			},
 			"exportImageKeybind": {
-				"keyCode": "key.keyboard.unknown",
+				"keyCode": "key.keyboard.f8",
 				"modifier": 0
 			},
 			"previousScreenKeybind": {
@@ -49,7 +50,7 @@
 		},
 		// Declares whether REI is visible.
 		"overlayVisible": true,
-		"cheatingStyle": "GIVE",
+		"cheatingStyle": "GRAB",
 		"motion": {
 			"favoritesAnimation": true
 		}

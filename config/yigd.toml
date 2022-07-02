@@ -106,3 +106,6 @@ whitelist = true
 whitelistAdd = true
 whitelistRemove = true
 whitelistToggle = true
+[debugConfig]
+clearInventoryOnRespawn = false
+createGraveBeforeDeathMessage = false

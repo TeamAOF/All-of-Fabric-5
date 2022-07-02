@@ -1,3 +1,14 @@
+### All of Fabric 5 | v1.3.1
+
+_Fabric Loader 0.14.8_ | _[Mod Updates](https://github.com/TeamAOF/All-of-Fabric-5/blob/main/changelogs/changelog_mods_1.3.1.md)_ | _[Modlist](https://github.com/TeamAOF/All-of-Fabric-5/blob/main/changelogs/modlist_1.3.1.md)_
+
+## Fixes
+
+* Certain signs crashing upon placement.
+* Uncrafting table crashing upon use.
+* Soulbound items sometimes being lost upon death/teleport.
+---
+
 ### All of Fabric 5 | v1.3.0
 
 _Fabric Loader 0.14.8_ | _[Mod Updates](https://github.com/TeamAOF/All-of-Fabric-5/blob/main/changelogs/changelog_mods_1.3.0.md)_ | _[Modlist](https://github.com/TeamAOF/All-of-Fabric-5/blob/main/changelogs/modlist_1.3.0.md)_

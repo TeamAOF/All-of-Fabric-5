@@ -7,18 +7,6 @@
 	icon: "modern_industrialization:singularity"
 	default_quest_shape: "rsquare"
 	default_hide_dependency_lines: false
-	images: [{
-		x: -14.5d
-		y: 1.0d
-		width: 3.0d
-		height: 3.0d
-		rotation: 10.0d
-		image: "modern_industrialization:textures/blocks/machines/nuclear_reactor/overlay_front.png"
-		hover: [ ]
-		click: ""
-		dev: false
-		corner: false
-	}]
 	quests: [
 		{
 			title: "Modern Industrialization"
