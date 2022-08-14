@@ -24,6 +24,7 @@ _Fabric Loader 0.14.9_ | _[Mod Updates](https://github.com/TeamAOF/All-of-Fabric
 * XP Storage quest not showing up in Tools & Armor chapter.
 
 ## Added
+
 - Ad Astra!
 - AEAdditions
 - Automobility
@@ -53,6 +54,7 @@ _Fabric Loader 0.14.9_ | _[Mod Updates](https://github.com/TeamAOF/All-of-Fabric
 - TheWildBackport
   
 ## Removed
+
 - Basic AIOTs (Replaced by Piercing Paxels)
 - Cammie's Wearable Backpacks (Replaced by Traveler's Backpack)
 - Chimes (Incompat with Automobility)
