@@ -16,8 +16,10 @@ voidSlots = []
 soulboundSlots = []
 applyBindingCurse = true
 trySoft = false
+trySoftApproach = "RADIUS"
 tryStrict = true
 replaceWhenClaimed = true
+persistGraves = false
 blacklistDimensions = []
 graveInVoid = true
 ignoreDeathTypes = []
@@ -35,6 +37,8 @@ onlyMurderer = false
 afterTime = 1
 timeType = "HOURS"
 robPriority = "INVENTORY"
+tellRobber = true
+notifyWhenRobbed = true
 
 [graveSettings.graveDeletion]
 canDelete = false
@@ -64,9 +68,11 @@ levelzXpDropPercent = 100
 claimRuleOverride = "CREATE_GRAVE"
 prioritiseTheGraveyardGraves = false
 graveyardSearchRadius = 10
+keepAllTrinkets = false
 
 [graveSettings.graveRenderSettings]
 useRenderFeatures = true
+useSpecialBlockRenderer = true
 renderGraveSkull = true
 renderGraveOwner = true
 textShadow = true
@@ -94,6 +100,9 @@ retrieveOnRespawn = true
 getFromGui = false
 rebindable = false
 graveKeySpecification = "PLAYER"
+[utilitySettings.graveCompassSettings]
+receiveOnDeath = false
+tryDeleteOnClaim = true
 [commandToggles]
 coreCommandName = "yigd"
 retrieveGrave = true

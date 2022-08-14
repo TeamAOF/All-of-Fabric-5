@@ -4,6 +4,9 @@
       "badasintended.megane.impl.Kibe": true,
       "lol.bai.megane.module.kibe.MeganeKibe": true
     },
+    "megane-modern-dynamics": {
+      "lol.bai.megane.module.moderndynamics.MeganeModernDynamics": true
+    },
     "megane-industrial-revolution": {
       "lol.bai.megane.module.indrev.MeganeIndustrialRevolution": true,
       "badasintended.megane.impl.IndustrialRevolution": true
@@ -45,6 +48,9 @@
     "megane-extra-generators": {
       "lol.bai.megane.module.extragenerators.MeganeExtraGenerators": true,
       "badasintended.megane.impl.ExtraGenerators": true
+    },
+    "megane-luggage": {
+      "lol.bai.megane.module.luggage.MeganeLuggage": true
     },
     "megane-lib-block-attributes": {
       "lol.bai.megane.module.lba.MeganeLibBlockAttributes": true,

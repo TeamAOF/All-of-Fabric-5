@@ -39,13 +39,12 @@
 		*/
 		"serverIntegration": true,
 		/* The theme to use for preview windows.
-		   MOD_AUTO: ShulkerBoxTooltip's style using the dark mode setting from LibGui, defaults to light theme if not present.
 		   MOD_LIGHT: ShulkerBoxTooltip's style with vanilla colors.
-		   MOD_DARK: ShulkeBoxTooltip's style with gray preview windows instead of white.
+		   MOD_DARK: ShulkerBoxTooltip's style with gray preview windows instead of white.
 		   VANILLA: Mimics the style of vanilla bundle previews.
-		   (default value: MOD_AUTO)
+		   (default value: MOD_LIGHT)
 		*/
-		"theme": "MOD_AUTO",
+		"theme": "MOD_LIGHT",
 		/* The position of the preview window.
 		   INSIDE: Inside the item's tooltip.
 		   OUTSIDE: Outside the item's tooltip, moves dependening on the screen borders.
@@ -80,7 +79,7 @@
 		*/
 		"lootTableInfoType": "HIDE",
 		/* If on, the mod hides the custom text on shulker box tooltips.
-		   Use this option when a server-side preview datapack clashes with the mod.
+		   Use this option when a server-side preview data pack clashes with the mod.
 		   (default value: false)
 		*/
 		"hideShulkerBoxLore": false
@@ -108,7 +107,7 @@
 		/* Changes the way the ender chest content preview is synchronized.
 		   NONE: No synchronization, prevents clients from seeing a preview of their ender chest.
 		   ACTIVE: Ender chest contents are synchronized when changed.
-		   PASSIVE: Ender chest contents are synchonized when the client opens a preview.
+		   PASSIVE: Ender chest contents are synchronized when the client opens a preview.
 		   (default value: ACTIVE)
 		*/
 		"enderChestSyncType": "ACTIVE"

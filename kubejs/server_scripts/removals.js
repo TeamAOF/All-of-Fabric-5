@@ -23,6 +23,9 @@ onEvent('recipes', (event) => {
     'techreborn:smelting/platinum_ingot_from_c_sheldonite_ores_exported_mi_furnace',
     'modern_industrialization:compat/indrev/quarry_nikolite',
     'modern_industrialization:compat/ae2/quarry_ae2',
+    'ad_astra:hammering/iron_plate',
+    'ad_astra:recipes/steel_ingot_from_smelting_iron_ingot',
+    'ad_astra:recipes/steel_ingot_from_blasting_iron_ingot',
 
     ];
 

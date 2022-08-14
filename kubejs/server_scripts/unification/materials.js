@@ -54,6 +54,7 @@ const MATERIALS = [
 // Order of mods to unify
 const UNIFICATION_ORDER = [
     "modern_industrialization",
+    "ad_astra",
     "create",
     "createplus",
     "indrev",

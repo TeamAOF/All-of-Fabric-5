@@ -1,3 +1,66 @@
+### All of Fabric 5 | v1.4.0
+
+_Fabric Loader 0.14.9_ | _[Mod Updates](https://github.com/TeamAOF/All-of-Fabric-5/blob/main/changelogs/changelog_mods_1.4.0.md)_ | _[Modlist](https://github.com/TeamAOF/All-of-Fabric-5/blob/main/changelogs/modlist_1.4.0.md)_
+
+## DISCLAIMER: Empty your Cammie's Backpacks before updating!
+
+## Changes
+
+* Added Create questing chapter.
+* Added quest for Ad Astra in the Adventurer chapter.
+* Added quest for Piercing Paxels in Tools & Armor chapter.
+* Added quest for Traveler's Backpack in Getting Starter chapter.
+* Hide unused AE2Things items from REI.
+* ALL mythic mounts random spawn chance has been lowered.
+* Updated Spectrum quests to match the new update.
+* Lowered chances of pots and chests from probablychests spawning on surface.
+* Removed NA South server from list, if more servers are needed we'll add more.
+
+## Fixes
+
+* Grinder recipe showing incorrect inputs.
+* All railings & rooftop conflicting recipes.
+* Multiple recipes using plates tag instead of set MI variant.
+* XP Storage quest not showing up in Tools & Armor chapter.
+
+## Added
+- Ad Astra!
+- AEAdditions
+- Automobility
+- BedBenefits
+- Better Withered Mobs
+- Chassis
+- Cloth Config v6
+- Compact Machines 4
+- Compressor
+- Cooking for Blockheads
+- DeathKnell
+- Doodads
+- FTB Backups 2  
+- Garden of Glass
+- Icy Incitement
+- Log Begone
+- Luggage
+- Mini Effects
+- Naturalist
+- Overweight Farming
+- Piercing Paxels
+- PolyLib
+- Revelationary
+- Speedometer Mod
+- Structory
+- Traveler's Backpack
+- TheWildBackport
+  
+## Removed
+- Basic AIOTs (Replaced by Piercing Paxels)
+- Cammie's Wearable Backpacks (Replaced by Traveler's Backpack)
+- Chimes (Incompat with Automobility)
+- Extreme sound muffler (Lag issues)
+- Raised (UI displacements on certain monitors)
+- UpdateFixerUpper
+---
+
 ### All of Fabric 5 | v1.3.1
 
 _Fabric Loader 0.14.8_ | _[Mod Updates](https://github.com/TeamAOF/All-of-Fabric-5/blob/main/changelogs/changelog_mods_1.3.1.md)_ | _[Modlist](https://github.com/TeamAOF/All-of-Fabric-5/blob/main/changelogs/modlist_1.3.1.md)_

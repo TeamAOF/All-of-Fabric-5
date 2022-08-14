@@ -38,19 +38,9 @@
 	   per night per player that unlocked the required progression.
 	*/
 	"ShootingStarChance": 0.019999999552965164,
-	// The biomes where the biome specific plants are growing
-	"MermaidsBrushGenerationBiomes": [
-		"minecraft:ocean",
-		"minecraft:cold_ocean",
-		"minecraft_frozen_ocean",
-		"minecraft:lukewarm_ocean",
-		"minecraft:warm_ocean",
-		"minecraft:deep_ocean",
-		"minecraft:deep_cold_ocean",
-		"minecraft:deep_frozen_ocean",
-		"minecraft:deep_warm_ocean",
-		"minecraft:deep_lukewarm_ocean"
-	],
+	"MermaidsBrushChanceChunk": 16,
+	"QuitoxicReedsCountPerChunk": 25,
+	// The biomes where Quitoxic Reeds are growing (usually swamps)
 	"QuitoxicReedsGenerationBiomes": [
 		"minecraft:swamp"
 	],
@@ -112,6 +102,24 @@
 	"DisarmingChancePerLevelPlayers": 0.0010000000474974513,
 	// The duration a glow ink sac gives night vision when wearing a glow vision helmet in seconds
 	"GlowVisionGogglesDuration": 240,
+	"GemstoneArmorHelmetProtection": 3,
+	"GemstoneArmorChestplateProtection": 7,
+	"GemstoneArmorLeggingsProtection": 5,
+	"GemstoneArmorBootsProtection": 3,
+	"GemstoneArmorToughness": 0.0,
+	"GemstoneArmorKnockbackResistance": 0.0,
+	"GemstoneArmorWeaknessAmplifier": 1,
+	"GemstoneArmorSlownessAmplifier": 1,
+	"GemstoneArmorAbsorptionAmplifier": 0,
+	"GemstoneArmorResistanceAmplifier": 1,
+	"GemstoneArmorRegenerationAmplifier": 1,
+	"GemstoneArmorSpeedAmplifier": 2,
+	"BedrockArmorHelmetProtection": 6,
+	"BedrockArmorLeggingsProtection": 10,
+	"BedrockArmorChestplateProtection": 14,
+	"BedrockArmorBootsProtection": 6,
+	"BedrockArmorToughness": 4.0,
+	"BedrockArmorKnockbackResistance": 0.4000000059604645,
 	// By Default, Roughly Enough Items will show a 'recipe not unlocked yet' screen for not yet unlocked recipes. Setting this value to false will instead not show this screen, showing no recipes whatsoever, until unlocked
 	"REIListsRecipesAsNotUnlocked": false,
 	/* If the player has Azure Dike Charges: Where should they be rendered on the screen. Default: Over the food bar
@@ -119,6 +127,6 @@
 	*/
 	"azureDikeHudOffsetX": 0,
 	"azureDikeHudOffsetY": 0,
-	"azureDikeHudOffsetXLackingAir": 0,
-	"azureDikeHudOffsetYLackingAir": -10
+	"azureDikeHudOffsetYWithArmor": -10,
+	"azureDikeHudOffsetYForEachRowOfExtraHearts": -10
 }

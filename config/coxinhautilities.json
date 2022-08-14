@@ -8,5 +8,7 @@
   //Changes the odds an Ender Orchid will grow when planted on End Stone. The bigger the value, the less likely it is.
   "enderOrchidRegularGrowthRatio": 8,
   //Changes the odds an Ender Orchid will grow on other blocks. The bigger the value, the less likely it is.
-  "enderOrchidSpecialGrowthRatio": 12
+  "enderOrchidSpecialGrowthRatio": 12,
+  //Make blocks present on Carrier's blacklist unboxable
+  "useCarrierBlacklist": true
 }

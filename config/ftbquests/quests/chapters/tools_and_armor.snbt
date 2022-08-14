@@ -53,7 +53,6 @@
 			subtitle: "Enchanting Efficiency"
 			description: ["If you did not know by now that as you level up you waste more and more experince points when enchanting. So instead of wasting experince why not store it in this handy container!"]
 			dependencies: ["25B6D9950B1CF03C"]
-			hide: true
 			id: "73C866780EE5AD4F"
 			tasks: [
 				{
@@ -1329,20 +1328,50 @@
 			}]
 		}
 		{
-			title: "AIOTs"
+			title: "Paxels"
 			x: -3.0d
 			y: 1.5d
-			subtitle: "All in One."
+			subtitle: "All in One!"
+			description: [
+				"These paxels can break the same blocks as any tool, and can have upgrades added to them by opening their inventory with shift right-click, adding new abilities and traits."
+				""
+				"They also won't break when they reach 0 durability, instead becoming unusable until repaired, so you won't lose any hard-earned enchantments."
+			]
 			dependencies: ["300FAC6161C1BCDB"]
 			id: "364F9B3D61ED0079"
 			tasks: [{
 				id: "6DACDA252E01FFFE"
 				type: "item"
 				item: {
-					id: "itemfilters:mod"
+					id: "itemfilters:or"
 					Count: 1b
 					tag: {
-						value: "basicaiots"
+						items: [
+							{
+								id: "piercingpaxels:wooden_paxel"
+								Count: 1b
+							}
+							{
+								id: "piercingpaxels:stone_paxel"
+								Count: 1b
+							}
+							{
+								id: "piercingpaxels:gold_paxel"
+								Count: 1b
+							}
+							{
+								id: "piercingpaxels:iron_paxel"
+								Count: 1b
+							}
+							{
+								id: "piercingpaxels:diamond_paxel"
+								Count: 1b
+							}
+							{
+								id: "piercingpaxels:netherite_paxel"
+								Count: 1b
+							}
+						]
 					}
 				}
 			}]

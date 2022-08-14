@@ -66,6 +66,17 @@
         "value": 10000000
       }
     },
+    "porting_lib:step_height_addition": {
+      "enabled": false,
+      "min": {
+        "default": -512,
+        "value": -512
+      },
+      "max": {
+        "default": 512,
+        "value": 10000000
+      }
+    },
     "dml-refabricated:fly": {
       "enabled": false,
       "min": {

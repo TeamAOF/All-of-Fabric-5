@@ -10,7 +10,7 @@ onEvent('recipes', (event) => {
       pattern: ['BAB', 'BCB', 'BAB'],
       key: {
         A: 'indrev:nikolite_dust',
-        B: '#c:iron_plates',
+        B: 'modern_industrialization:iron_plate',
         C: 'indrev:battery',
     },
       id: 'indrev:shaped/machine_block'
@@ -21,7 +21,7 @@ onEvent('recipes', (event) => {
       pattern: ['BAB'],
       key: {
         A: 'goldenhoppers:golden_hopper',
-        B: '#c:iron_plates',
+        B: 'modern_industrialization:iron_plate',
     },
       id: 'indrev:shaped/item_pipe_mk1'
     },
@@ -31,7 +31,7 @@ onEvent('recipes', (event) => {
       pattern: ['BAB'],
       key: {
         A: 'kibe:fluid_hopper',
-        B: '#c:iron_plates',
+        B: 'modern_industrialization:iron_plate',
     },
       id: 'indrev:shaped/fluid_pipe_mk1'
     },

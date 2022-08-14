@@ -28,7 +28,7 @@
 					Damage: 0
 				}
 			}
-			x: -2.5d
+			x: -3.0d
 			y: 1.0d
 			subtitle: "Fishing should be fun."
 			description: [
@@ -112,8 +112,8 @@
 		{
 			title: "Find a Graveyard"
 			icon: "graveyard:skull_with_rib_cage"
-			x: 1.5d
-			y: -2.5d
+			x: 2.0d
+			y: -2.0d
 			subtitle: "Locate a Small Graveyard structure. Be sure to have a look or two below the graves for shiny loot."
 			dependencies: ["6EC4700B21DB617B"]
 			id: "14DE762F4663D1C9"
@@ -130,7 +130,7 @@
 		}
 		{
 			title: "Artifacts"
-			x: 1.5d
+			x: 2.0d
 			y: 1.0d
 			subtitle: "Magical items with great power."
 			description: [
@@ -162,8 +162,8 @@
 		{
 			title: "The Twilight Forest"
 			icon: "twilightforest:twilight_portal_miniature_structure"
-			x: -2.5d
-			y: -2.5d
+			x: -3.0d
+			y: -2.0d
 			subtitle: "Step into the Twilight Realm!"
 			description: [
 				"To make a portal to the Twilight Forest, make a 2x2 shallow pool (4 squares) of water in a grassy area, and surround it entirely with natural stuff (flowers, mushrooms, saplings, leaves, grass, anything considered a \"plant\" or \"leaves\")."
@@ -183,6 +183,48 @@
 				type: "random"
 				table_id: 13756307348121783L
 			}]
+		}
+		{
+			title: "Space Travels"
+			icon: {
+				id: "ad_astra:tier_1_rocket"
+				Count: 1b
+				tag: { }
+			}
+			x: -0.5d
+			y: 2.0d
+			subtitle: "To the moon!"
+			description: [
+				"Ad Astra is a technology and space exploration mod."
+				""
+				"It allows you to build rockets capable of space travel. Yes, even mineable cheese."
+				""
+				"You can explore multiple planets throughout the Solar System, build oxygenated space stations and bases and survive in space."
+				""
+				"Had dreams about being an astronaut? This is it!"
+				""
+				"Complete this quest by crafting the Astrodux."
+			]
+			dependencies: ["6EC4700B21DB617B"]
+			id: "1F68089CE40CABC9"
+			tasks: [{
+				id: "5E109F35ECDB37C6"
+				type: "item"
+				item: "ad_astra:astrodux"
+			}]
+			rewards: [
+				{
+					id: "440B0AFFF9785B72"
+					type: "random"
+					table_id: 13756307348121783L
+				}
+				{
+					id: "583873BD842B01B4"
+					type: "item"
+					item: "ad_astra:cheese"
+					count: 16
+				}
+			]
 		}
 	]
 }
