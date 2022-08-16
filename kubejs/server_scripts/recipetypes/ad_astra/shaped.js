@@ -8,12 +8,20 @@ onEvent('recipes', (event) => {
 
   const recipes = [
     {
-      output: '16x beyond_earth:iron_plating',
+      output: '16x ad_astra:iron_plating',
       pattern: ['AAA', 'AAA'],
       key: {
         A: 'modern_industrialization:iron_plate',
       },
-      id: 'beyond_earth:recipes/iron_plating'
+      id: 'ad_astra:recipes/iron_plating'
+    },
+    {
+      output: 'ad_astra:cheese_block',
+      pattern: ['AAA', 'AAA', 'AAA'],
+      key: {
+        A: 'croptopia:cheese',
+      },
+      id: 'aof:cheese_block'
     },
   ];
 
