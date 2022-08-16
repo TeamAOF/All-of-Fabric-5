@@ -866,51 +866,6 @@
 		{ item: "croptopia:sushi", count: 6 }
 		{ item: "croptopia:roasted_turnips", count: 6 }
 		{ item: "croptopia:sticky_toffee_pudding", count: 6 }
-		{
-			item: {
-				id: "basicaiots:iron_aiot"
-				Count: 1b
-				tag: {
-					Damage: 0
-				}
-			}
-		}
-		{
-			item: {
-				id: "basicaiots:diamond_aiot"
-				Count: 1b
-				tag: {
-					Damage: 0
-				}
-			}
-		}
-		{
-			item: {
-				id: "basicaiots:ruby_aiot"
-				Count: 1b
-				tag: {
-					Damage: 0
-				}
-			}
-		}
-		{
-			item: {
-				id: "basicaiots:sapphire_aiot"
-				Count: 1b
-				tag: {
-					Damage: 0
-				}
-			}
-		}
-		{
-			item: {
-				id: "basicaiots:peridot_aiot"
-				Count: 1b
-				tag: {
-					Damage: 0
-				}
-			}
-		}
 		{ item: "totemmod:totem_top" }
 		{ item: "totemmod:totem_base" }
 		{ item: "minecraft:totem_of_undying" }
@@ -1501,5 +1456,38 @@
 		{ item: "strawdummy:strawdummy" }
 		{ item: "animal_feeding_trough:feeding_trough", count: 2 }
 		{ item: "create:builders_tea", count: 3 }
+		{ item: "ad_astra:cheese", count: 6 }
+		{ item: "cookingforblockheads:cooking_table" }
+		{ item: "cookingforblockheads:fridge" }
+		{ item: "cookingforblockheads:corner" }
+		{ item: "cookingforblockheads:recipe_book" }
+		{ item: "cookingforblockheads:heating_unit" }
+		{
+			item: {
+				id: "piercingpaxels:stone_paxel"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			item: {
+				id: "piercingpaxels:golden_paxel"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			item: {
+				id: "piercingpaxels:iron_paxel"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+		}
 	]
 }
