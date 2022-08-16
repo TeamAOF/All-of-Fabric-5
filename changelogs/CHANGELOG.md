@@ -28,7 +28,7 @@ _Fabric Loader 0.14.9_ | _[Mod Updates](https://github.com/TeamAOF/All-of-Fabric
 
 * Compact machines not loading recipes.
 * Missing item rewards from quests.
-* Texture glitches with Certain Modern Industrialization machines.
+* Texture glitches with certain Modern Industrialization machines.
 
 ## Removed 
 
