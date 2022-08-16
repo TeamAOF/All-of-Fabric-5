@@ -391,35 +391,24 @@
 			]
 		}
 		{
-			title: "Slow Spin Power"
+			title: "Fan it Up!"
 			x: 6.0d
 			y: -3.5d
-			subtitle: "When SU isn't an issue"
+			subtitle: "Pushing and Pulling Entities"
 			description: [
-				"> Step 1:  Place a Heat Source, (Magma Block, Lava, Fire, or Campfire)"
-				"> Step 2: Place the Encased fan above heat source. Fan Facing towards Heat."
-				"> Step 3: Place lever and turn on the Encased Fan"
-				"> Step 4: It's spinning!"
+				"The Encased Fan is a mechanical component that can create air streams."
+				""
+				"Encased Fans are used for moving entities, Bulk Washing, Bulk Blasting, Bulk Haunting, and Bulk Smoking."
+				""
+				"The Encased Fan connects to other rotational components from the back."
 			]
 			dependencies: ["38E2D761D7A9C369"]
 			id: "3989950BC95DB959"
-			tasks: [
-				{
-					id: "2E585309D2A5E70B"
-					type: "item"
-					item: "create:encased_fan"
-				}
-				{
-					id: "31F7696DCE2C6BDE"
-					type: "item"
-					item: "minecraft:campfire"
-				}
-				{
-					id: "016F91A221122517"
-					type: "item"
-					item: "minecraft:lever"
-				}
-			]
+			tasks: [{
+				id: "2E585309D2A5E70B"
+				type: "item"
+				item: "create:encased_fan"
+			}]
 			rewards: [
 				{
 					id: "284F437BC5FD1C3F"
