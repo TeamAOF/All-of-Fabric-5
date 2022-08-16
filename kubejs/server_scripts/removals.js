@@ -84,6 +84,7 @@ onEvent('recipes', (event) => {
     'campanion:mre',
     'additionaladditions:fried_egg',
     'twilightforest:uncrafting_table',
+    'extragenerators:thermoelectric_generator',
     ];
 
     id.forEach((id) => {
