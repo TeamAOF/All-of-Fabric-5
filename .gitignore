@@ -84,3 +84,5 @@ server_files/
 rhino.local.properties
 
 backups/
+
+irisUpdateInfo.json

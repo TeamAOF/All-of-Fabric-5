@@ -1,3 +1,42 @@
+### All of Fabric 5 | v1.4.1
+
+_Fabric Loader 0.14.9_ | _[Mod Updates](https://github.com/TeamAOF/All-of-Fabric-5/blob/main/changelogs/changelog_mods_1.4.1.md)_ | _[Modlist](https://github.com/TeamAOF/All-of-Fabric-5/blob/main/changelogs/modlist_1.4.1.md)_
+
+## Changes
+
+* Added RS datapacks for (Farmer's Delight & Better Strongholds).
+* Added back continuity resource pack to be default.
+* Removed whistle keybind due to overlap with Ultimine (Rebind as you wish).
+* Removed steel ingot & iron plate from loot chests.
+* Updated Encased Fan quest to be on par with Create 0.5
+* Hide Ad Astra materials not used due to unify in REI.
+* Hide Indrev Hammer from REI.
+* WTHIT will now show hearts/armor in compact mode if above 10 (20 points).
+* Indestrutible enchantment has been removed from the Dark Enchanter
+
+## Recipes
+
+* Added Compressed Steel to steel plates tag, therefore unifying it.
+* Fixed conflicts between Ad Astra plating and MI large plates.
+* Added alternative Cheese Block recipe using Croptopia Cheese.
+* Changed iron ingots to iron plates in Hammer recipe from Ad Astra (Fixes conflict with ExNihilo iron hammer).
+* Fixed incorrect output from charcoal to dwarf charcoal.
+* Removed Thermoelectric Generator from Extra Gens (Balancing).
+* Paper Lamp conflict between Twigs & Blockus has been fixed.
+
+## Fixes
+
+* Compact machines not loading recipes.
+* Missing item rewards from quests.
+* Texture glitches with Certain Modern Industrialization machines.
+
+## Removed 
+
+* FTB Backups 2 (Lag issues)
+* Garden of Glass (Skyblock will happen at some point)
+* Mini Effects
+---
+
 ### All of Fabric 5 | v1.4.0
 
 _Fabric Loader 0.14.9_ | _[Mod Updates](https://github.com/TeamAOF/All-of-Fabric-5/blob/main/changelogs/changelog_mods_1.4.0.md)_ | _[Modlist](https://github.com/TeamAOF/All-of-Fabric-5/blob/main/changelogs/modlist_1.4.0.md)_

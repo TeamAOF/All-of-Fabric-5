@@ -66,10 +66,10 @@
 					tag: {
 						Damage: 0
 						state: {
+							data: { }
 							state: {
 								Name: "minecraft:air"
 							}
-							data: { }
 							serializer: "buildinggadgets:dummy_serializer"
 						}
 					}
@@ -95,10 +95,10 @@
 					tag: {
 						Damage: 0
 						state: {
+							data: { }
 							state: {
 								Name: "minecraft:air"
 							}
-							data: { }
 							serializer: "buildinggadgets:dummy_serializer"
 						}
 					}
@@ -197,8 +197,8 @@
 					Count: 1b
 					tag: {
 						overlay: 1b
-						Damage: 0
 						fuzzy: 1b
+						Damage: 0
 					}
 				}
 			}]
