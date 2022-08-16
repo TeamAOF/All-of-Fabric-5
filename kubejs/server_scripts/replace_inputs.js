@@ -28,5 +28,8 @@ onEvent('recipes', (event) => {
     event.replaceInput({}, 'techreborn:chrome_dust', 'modern_industrialization:chromium_dust');
     event.replaceInput({}, 'techreborn:chrome_plate', 'modern_industrialization:chromium_plate');
     event.replaceInput({}, 'techreborn:chrome_storage_block', 'modern_industrialization:chromium_block');
+
+    // Ad Astra Hammer
+    event.replaceInput({id: "ad_astra:recipes/hammer"}, 'minecraft:iron_ingot', 'modern_industrialization:iron_plate');
     
 });
