@@ -82,6 +82,12 @@
       "personalReceiveFactor": 0.0
     },
     {
+      "enchantmentId": "spectrum:indestructible",
+      "activated": false,
+      "personalFactor": 0.0,
+      "personalReceiveFactor": 0.0
+    },
+    {
       "enchantmentId": "spectrum:voiding",
       "activated": false,
       "personalFactor": 0.0,
