@@ -26,6 +26,12 @@ onEvent('recipes', (event) => {
     'ad_astra:hammering/iron_plate',
     'ad_astra:recipes/steel_ingot_from_smelting_iron_ingot',
     'ad_astra:recipes/steel_ingot_from_blasting_iron_ingot',
+    'createplus:createplus/ore_processing/platinum/techreborn/smelting',
+    'createplus:createplus/ore_processing/platinum/techreborn/blasting',
+    'create:smelting/platinum_ingot_compat_modern_industrialization',
+    'create:blasting/platinum_ingot_compat_modern_industrialization',
+    'indrev:smelting/tungsten_ingot_from_raw_ores',
+    'createplus:createplus/ore_processing/nickel/modern_industrialization/smelting',
 
     ];
 

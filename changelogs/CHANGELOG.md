@@ -1,3 +1,40 @@
+### All of Fabric 5 | v1.5.0
+
+_Fabric Loader 0.14.9_ | _[Mod Updates](https://github.com/TeamAOF/All-of-Fabric-5/blob/main/changelogs/changelog_mods_1.4.2.md)_ | _[Modlist](https://github.com/TeamAOF/All-of-Fabric-5/blob/main/changelogs/modlist_1.4.2.md)_
+
+## DISCLAIMER: This update WILL break your bits & chisels builds.
+
+## Changes
+
+* New quest chapter for Spirit.
+* New quests for Advanced Netherite in Tools and Armor.
+* Slighty redone Building quest chapter, also added quest for Chipped.
+* Nerfed drop chances of Doodads in chests.
+* Removed Doodads from entity drops.
+* Disable Asphalt recipe from Doodads.
+* Removed platinum ingot from crushed ore (Progression reasons).
+* Removed tungsten ingot from raw ore in furnace (Progression reasons).
+* Balanced TR tungsten progression (It'll now requires much more resources through TR, you profit more from MI this way).
+
+## Fixes
+
+* Large performance hit due to how Better Temples does locate structure checks.
+
+## Added
+
+* Advanced Netherite
+* Chipped
+* Chisels & Bits
+* Spirit
+
+## Removed
+
+* Better Withered Mobs (Overlapping features)
+* Bits & Chisels (Replaced by Chisels & Bits, better in general)
+* Fabricae Ex Nihilo (Balancing reasons, skyblock is coming)
+* Overweight Farming (Causing too many issues with automated farms)
+---
+
 ### All of Fabric 5 | v1.4.1
 
 _Fabric Loader 0.14.9_ | _[Mod Updates](https://github.com/TeamAOF/All-of-Fabric-5/blob/main/changelogs/changelog_mods_1.4.1.md)_ | _[Modlist](https://github.com/TeamAOF/All-of-Fabric-5/blob/main/changelogs/modlist_1.4.1.md)_

@@ -582,24 +582,6 @@
 		{ item: "chisel:chisel" }
 		{
 			item: {
-				id: "bitsandchisels:diamond_chisel"
-				Count: 1b
-				tag: {
-					Damage: 0
-				}
-			}
-		}
-		{
-			item: {
-				id: "bitsandchisels:iron_chisel"
-				Count: 1b
-				tag: {
-					Damage: 0
-				}
-			}
-		}
-		{
-			item: {
 				id: "ae2:item_storage_cell_1k"
 				Count: 1b
 				tag: { }
@@ -1489,5 +1471,33 @@
 				}
 			}
 		}
+		{ item: "chipped:botanist_workbench" }
+		{ item: "chipped:glassblower" }
+		{ item: "chipped:carpenters_table" }
+		{ item: "chipped:loom_table" }
+		{ item: "chipped:mason_table" }
+		{ item: "chipped:alchemy_bench" }
+		{ item: "chipped:mechanist_workbench" }
+		{
+			item: {
+				id: "chiselsandbits:chisel_diamond"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			item: {
+				id: "chiselsandbits:chisel_iron"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{ item: "speedometer:speedometer" }
+		{ item: "create:polished_rose_quartz", count: 16 }
+		{ item: "create:andesite_alloy", count: 16 }
 	]
 }

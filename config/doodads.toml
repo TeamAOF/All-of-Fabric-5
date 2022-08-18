@@ -26,13 +26,13 @@ enableSoggyGlove = true
 enableSpeedySneakers = true
 enableSunStoneRing = true
 [doodadBlocks]
-enableAsphalt = true
+enableAsphalt = false
 enableBrickRoad = true
 enableStoneBrickRoad = true
 enableYellowBrickRoad = true
 enablePlatform = true
 enablePortableNether = true
 [doodadWorldGen]
-chestDoodadSpawnRate = 19.0
+chestDoodadSpawnRate = 16.0
 enableDoodadSpawnsInVillages = false
-entityDoodadDropRate = 16.0
+entityDoodadDropRate = 0.0

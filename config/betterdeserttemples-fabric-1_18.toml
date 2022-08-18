@@ -2,4 +2,4 @@
 startMinY = 61
 startMaxY = 200
 disableVanillaPyramids = true
-applyMiningFatigue = true
+applyMiningFatigue = false
