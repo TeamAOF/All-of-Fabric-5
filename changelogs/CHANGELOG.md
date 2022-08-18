@@ -1,6 +1,19 @@
+### All of Fabric 5 | v1.5.1
+
+_Fabric Loader 0.14.9_ | _[Mod Updates](https://github.com/TeamAOF/All-of-Fabric-5/blob/main/changelogs/changelog_mods_1.5.0.md)_ | _[Modlist](https://github.com/TeamAOF/All-of-Fabric-5/blob/main/changelogs/modlist_1.5.0.md)_
+
+## Changes
+
+* Blacklisted MD pipes to be used with Ultimine (Fixes crashes).
+
+## Fixes
+
+* Fixed IllegalStateException crash (WTHIT).
+---
+
 ### All of Fabric 5 | v1.5.0
 
-_Fabric Loader 0.14.9_ | _[Mod Updates](https://github.com/TeamAOF/All-of-Fabric-5/blob/main/changelogs/changelog_mods_1.4.2.md)_ | _[Modlist](https://github.com/TeamAOF/All-of-Fabric-5/blob/main/changelogs/modlist_1.4.2.md)_
+_Fabric Loader 0.14.9_ | _[Mod Updates](https://github.com/TeamAOF/All-of-Fabric-5/blob/main/changelogs/changelog_mods_1.5.0.md)_ | _[Modlist](https://github.com/TeamAOF/All-of-Fabric-5/blob/main/changelogs/modlist_1.5.0.md)_
 
 ## DISCLAIMER: This update WILL break your bits & chisels builds.
 
