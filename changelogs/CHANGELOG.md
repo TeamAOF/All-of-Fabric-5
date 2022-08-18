@@ -27,7 +27,7 @@ _Fabric Loader 0.14.9_ | _[Mod Updates](https://github.com/TeamAOF/All-of-Fabric
 * Disable Asphalt recipe from Doodads.
 * Removed platinum ingot from crushed ore (Progression reasons).
 * Removed tungsten ingot from raw ore in furnace (Progression reasons).
-* Balanced TR tungsten progression (It'll now requires much more resources through TR, you profit more from MI this way).
+* Balanced TR tungsten progression (It'll now require much more resources through TR, you profit more from MI this way).
 
 ## Fixes
 
