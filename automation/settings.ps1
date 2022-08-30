@@ -26,11 +26,11 @@ $MODPACK_NAME = "all-of-fabric-5"
 $CLIENT_NAME = "All-of-Fabric-5"
 
 # Version Of The Modpack
-$MODPACK_VERSION = "1.5.1"
+$MODPACK_VERSION = "1.5.2"
 
 # Last Version Of The Modpack
 # Needed For Changelog Parsing
-$LAST_MODPACK_VERSION = "1.5.0"
+$LAST_MODPACK_VERSION = "1.5.1"
 
 # Which modloader the modpack uses
 # Can be "forge" or "fabric"
@@ -67,11 +67,11 @@ $CLIENT_RELEASE_TYPE = "release"
 #  DEPENDENCIES
 #=====================================================================//
 
-# File name of the latest https://github.com/TheRandomLabs/ChangelogGenerator/releases
-$CHANGELOG_GENERATOR_JAR = "ChangelogGenerator-2.0.0-pre10.jar"
+# File name of the latest https://github.com/ModdingX/ModListCreator/releases
+$CHANGELOG_GENERATOR_JAR = "ModListCreator-4.0.1-fatjar.jar"
 
-# File name of the latest https://github.com/MelanX/ModListCreator/releases
-$MODLIST_CREATOR_JAR = "ModListCreator-2.0.1.jar"
+# File name of the latest https://github.com/ModdingX/ModListCreator/releases
+$MODLIST_CREATOR_JAR = "ModListCreator-4.0.1-fatjar.jar"
 
 #=====================================================================//
 #  CLIENT FILE SETTINGS
@@ -130,7 +130,7 @@ $ENABLE_SERVERSTARTER_MODULE = $true
 # This module requires an older modpack manifest zip to be present, 
 # $LAST_MODPACK_VERSION must be set, and the manifest naming must be consistent.
 # Default: $false
-$ENABLE_CHANGELOG_GENERATOR_MODULE = $false
+$ENABLE_CHANGELOG_GENERATOR_MODULE = $true
 # Path to the ChangelogGenerator's output file
 $CHANGELOG_PATH = "$INSTANCE_ROOT/changelogs/changelog_mods_$MODPACK_VERSION.md"
 

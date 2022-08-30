@@ -79,7 +79,7 @@ oxygenMultiplier = 0.8
 energyMultiplier = 3.0
 [solarPanel]
 maxEnergy = 18000
-energyPerTick = 15
+energyMultiplier = 1.0
 [waterPump]
 maxEnergy = 9000
 energyPerTick = 10

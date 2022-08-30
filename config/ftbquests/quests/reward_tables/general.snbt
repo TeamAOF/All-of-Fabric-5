@@ -606,10 +606,6 @@
 		{ item: "terrarianslimes:glowstick", count: 16 }
 		{ item: "terrarianslimes:slime_crown" }
 		{ item: "terrarianslimes:gold_crown" }
-		{ item: "mtmechs:ma_chassis_item" }
-		{ item: "mtmechs:ma_arm_item" }
-		{ item: "mtmechs:ma_leg_item" }
-		{ item: "mtmechs:ma_stack_item" }
 		{ item: "modern_industrialization:analog_circuit" }
 		{ item: "modern_industrialization:cupronickel_wire_magnetic", count: 2, random_bonus: 2 }
 		{ item: "modern_industrialization:electronic_circuit" }

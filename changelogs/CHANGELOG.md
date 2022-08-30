@@ -1,3 +1,42 @@
+### All of Fabric 5 | v1.5.2
+
+_Fabric Loader 0.14.9_ | _[Mod Updates](https://github.com/TeamAOF/All-of-Fabric-5/blob/main/changelogs/changelog_mods_1.5.2.md)_ | _[Modlist](https://github.com/TeamAOF/All-of-Fabric-5/blob/main/changelogs/modlist_1.5.2.md)_
+
+## Changes
+
+* You'll now spawn with a book about Hex Crafting.
+* Revamped Ender Dragon fight, from me to you... Good luck.
+
+## Recipes
+
+* Conflict between Spruce Shelf and Spruce Bannister.
+
+## Fixes
+
+* Crafting blocks sometimes leaving "world holes" when playing on dedicated servers.
+* Issues with Spectrum trees not updating colors until chunk is updated.
+* Being able to place water in the nether.
+* Crash when mining a mechanical piston using a piercing paxel.
+* Crawling speeds being faster than normal.
+* Missing texture in Spirit quests.
+
+## Added
+
+* Bamboo Combat
+* Dragonfight
+* FuelInfo
+* Hex Casting
+* Niolite Expansion
+* PAUCAL
+* Prism
+* Roughly Enough Loot Tables (RELT)
+* Roughly Enough Trades (RET)
+
+## Removed
+
+* Magitek Mechs (Due to crashes)
+---
+
 ### All of Fabric 5 | v1.5.1
 
 _Fabric Loader 0.14.9_ | _[Mod Updates](https://github.com/TeamAOF/All-of-Fabric-5/blob/main/changelogs/changelog_mods_1.5.0.md)_ | _[Modlist](https://github.com/TeamAOF/All-of-Fabric-5/blob/main/changelogs/modlist_1.5.0.md)_
