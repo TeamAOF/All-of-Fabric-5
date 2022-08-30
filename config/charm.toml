@@ -25,6 +25,8 @@
 "BlockOfGunpowder Enabled" = false
 #A storage block for sugar. It obeys gravity and dissolves in water.
 "BlockOfSugar Enabled" = true
+#Bookcases hold up to 9 stacks of books, paper and maps.
+"Bookcases Enabled" = true
 #Integration with Bumblezone.
 "BumblezoneIntegration Enabled" = true
 #Cave spiders have a chance to drop cobwebs when killed.
@@ -218,6 +220,10 @@
 	"Chorus fruit teleport" = true
 	#If true, a silverfish has a chance to be converted into an endermite when it is next to an ender pearl block.
 	"Convert silverfish to endermite" = true
+
+[Bookcases]
+	#Items that may be placed in bookcases.
+	"Valid items" = ["minecraft:book", "minecraft:enchanted_book", "minecraft:written_book", "minecraft:writable_book", "minecraft:knowledge_book", "minecraft:paper", "minecraft:map", "minecraft:filled_map"]
 
 [CaveSpidersDropCobwebs]
 	#Maximum cobwebs dropped when cave spider is killed.

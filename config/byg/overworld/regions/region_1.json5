@@ -48,13 +48,13 @@ Biome selectors may be inlined or may call a file from "this_file_parent_directo
 	*/
 	"middle_biomes_variant": "middle_biomes_variant/middle_biomes_variant_vanilla",
 	/* Appearing on terrain below sea level, here is the "ocean_biomes" layout:
-	   [ SHALLOW-ICY, SHALLOW-COLD, SHALLOW-NEUTRAL, SHALLOW-WARM, SHALLOW-HOT ],
 	   [ DEEP-ICY, DEEP-COLD, DEEP-NEUTRAL, DEEP-WARM, DEEP-HOT ]
+	   [ SHALLOW-ICY, SHALLOW-COLD, SHALLOW-NEUTRAL, SHALLOW-WARM, SHALLOW-HOT ],
 	   
 	   All keys passed in must be valid in the biome registry!
 	   "minecraft:the_void" is invalid as it represents a value of "NULL(nothing)" internally.
 	*/
-	"ocean_biomes": "oceans/oceans_1",
+	"ocean_biomes": "oceans/oceans_vanilla",
 	/* Appearing on mountainous terrain & BELOW weirdness 0, here is the "peak_biomes" layout:
 	   
 	   [ ARID-ICY, DRY-ICY, NEUTRAL-ICY, WET-ICY, HUMID-ICY ],
@@ -138,5 +138,5 @@ Biome selectors may be inlined or may call a file from "this_file_parent_directo
 	   Higher numbers do NOT increase the provider's size.
 	   Weight "0" disables this provider and all its entries.
 	*/
-	"weight": 6
+	"weight": 3
 }

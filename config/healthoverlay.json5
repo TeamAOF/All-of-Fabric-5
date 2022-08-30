@@ -71,26 +71,36 @@
 		"absorption_frozen_colors": [
 			"#90D136",
 			"#36D183"
-		],
-		"advanced": {
-			/* Display absorption in the same row as health
-			   Absorption is rendered after and over health depending on the mode
+		]
+	},
+	"qol": {
+		/* Display absorption in the same row as health
+		   Absorption hearts start directly after the last health heart.
+		*/
+		"absorption_over_health": false,
+		"counter": {
+			/* Visualizes health/absorption to left of the hearts.
+			   Allowed Values: OFF, ALWAYS, ON_CHANGE
 			*/
-			"absorption_over_health": false,
-			/* Display mode for absorption
-			   absorption.advanced.absorption_over_health must be true
-			   Modes:
-			     "BEGINNING":
-			       Absorption always starts at first heart.
-			     "AFTER_HEALTH":
-			       Absorption starts after the last highest health heart and loops back to first health heart if overflowing.
-			       This means that health hearts will be hidden when absorption has 10 or more hearts.
-			         Example 1: If a player has 10 health (5 hearts), absorption will render itself in the last
-			                      five hearts and in case it is higher it will loop back over first five health hearts.
-			         Example 2: If a player has more than 20 absorption, second color is shown the same way as in "BEGINNING".
-			         Example 3: If player health is divisible by 20, absorption is shown the same way as in "BEGINNING".
+			"display_mode": "OFF",
+			/* Text displayed next to health. Minecraft chat color codes are allowed.
+			   Available variables:
+			       "[HEALTH]": Current health.
+			       "[MAX]": Max health.
+			       "[HEARTS]": Current health in hearts.
+			       "[MAX_HEARTS]": Max health in hearts.
+			       "[ROW]": Current health row.
+			       "[MAX_ROW]": Max health row.
 			*/
-			"absorption_over_health_mode": "AFTER_HEALTH"
+			"text_health": "\u00a74[HEALTH]\u00a77/\u00a72[MAX]",
+			/* Text displayed next to absorption. Minecraft chat color codes are allowed.
+			   In case 'absorption_over_health' is true, this text is displayed at the same position as or left of 'text_health'.
+			   Available variables:
+			      "[ABSORPTION]": Current absorption.
+			      "[HEARTS]": Current absorption in hearts.
+			      "[ROW]": Current absorption row.
+			*/
+			"text_absorption": "\u00a76[ABSORPTION]"
 		}
 	}
 }

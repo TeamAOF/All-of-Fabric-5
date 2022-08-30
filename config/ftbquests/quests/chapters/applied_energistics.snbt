@@ -875,7 +875,7 @@
 				""
 				"Normally, the pattern provider will then push out the ingredients to an adjacent block (a Molecular Assembler for crafting recipes, for example), and crafting continues once the result enters the network again."
 				""
-				"his can be achieved by pushing the crafting result back into the pattern provider, an ME Interface or any other means that would import the crafting result into the network."
+				"This can be achieved by pushing the crafting result back into the pattern provider, an ME Interface or any other means that would import the crafting result into the network."
 				""
 				"Molecular assemblers are smart enough to automatically return the crafting result to the same pattern provider that provided the ingredients."
 			]

@@ -22,11 +22,6 @@
 			dependencies: [
 				"57A128EE5135A494"
 				"5422C6DABE9F8D9D"
-				"4EC49EFF4B139771"
-				"424D1FF456C5309D"
-				"493B90C284EB5402"
-				"4AD1DD230664681D"
-				"661F9C730DFEA05C"
 				"503DD3CEEFE78FFF"
 				"6CFB83CA3C41D891"
 				"1A7AF56567D80ECB"
@@ -38,6 +33,7 @@
 				"5D5E53BCC9686BEB"
 				"72D41352FD2B752C"
 				"009320766602EAAF"
+				"08FAEB8EB602EF41"
 			]
 			id: "341C7D2C93742900"
 			tasks: [{
@@ -45,11 +41,18 @@
 				type: "checkmark"
 				title: "Your every day toolbelt"
 			}]
-			rewards: [{
-				id: "2B08F0AD303DA2A2"
-				type: "item"
-				item: "staffofbuilding:infinite_builder_staff"
-			}]
+			rewards: [
+				{
+					id: "2B08F0AD303DA2A2"
+					type: "item"
+					item: "staffofbuilding:infinite_builder_staff"
+				}
+				{
+					id: "5ADADA59D90F7273"
+					type: "random"
+					table_id: 13756307348121783L
+				}
+			]
 		}
 		{
 			x: 0.5d
@@ -141,8 +144,8 @@
 			}]
 		}
 		{
-			x: -2.5d
-			y: -0.5d
+			x: 1.5d
+			y: 4.0d
 			subtitle: "Right-click and put your block of choice in slot. Choose the variant that suits you."
 			id: "5D5E53BCC9686BEB"
 			tasks: [{
@@ -158,8 +161,8 @@
 		}
 		{
 			title: "Bits and Chisels"
-			x: 2.5d
-			y: -0.5d
+			x: 0.5d
+			y: 4.5d
 			subtitle: "Sculpture the world!"
 			description: [
 				"Remove small bits from blocks using chisels."
@@ -171,10 +174,10 @@
 				id: "5C9D9AF921A12ED1"
 				type: "item"
 				item: {
-					id: "bitsandchisels:iron_chisel"
+					id: "itemfilters:tag"
 					Count: 1b
 					tag: {
-						Damage: 0
+						value: "chiselsandbits:chisel"
 					}
 				}
 			}]
@@ -209,8 +212,9 @@
 			}]
 		}
 		{
-			x: -2.5d
-			y: 3.5d
+			title: "Staffs of Building"
+			x: -0.5d
+			y: 4.5d
 			subtitle: "Used to speed up building and block placement."
 			description: ["- Holding a staff will show a placement range (but a range will only be displayed if you have the required items in your inventory)."]
 			id: "5422C6DABE9F8D9D"
@@ -218,10 +222,35 @@
 				id: "1F39D5573BB82545"
 				type: "item"
 				item: {
-					id: "staffofbuilding:wooden_builder_staff"
+					id: "itemfilters:or"
 					Count: 1b
 					tag: {
-						Damage: 0
+						items: [
+							{
+								id: "staffofbuilding:wooden_builder_staff"
+								Count: 1b
+							}
+							{
+								id: "staffofbuilding:stone_builder_staff"
+								Count: 1b
+							}
+							{
+								id: "staffofbuilding:iron_builder_staff"
+								Count: 1b
+							}
+							{
+								id: "staffofbuilding:golden_builder_staff"
+								Count: 1b
+							}
+							{
+								id: "staffofbuilding:diamond_builder_staff"
+								Count: 1b
+							}
+							{
+								id: "staffofbuilding:netherite_builder_staff"
+								Count: 1b
+							}
+						]
 					}
 				}
 			}]
@@ -232,168 +261,8 @@
 			}]
 		}
 		{
-			x: -1.5d
-			y: 4.0d
-			subtitle: "Used to speed up building and block placement."
-			description: ["- Holding a staff will show a placement range (but a range will only be displayed if you have the required items in your inventory)."]
-			id: "4EC49EFF4B139771"
-			tasks: [{
-				id: "2F2DA7D863BC327A"
-				type: "item"
-				item: {
-					id: "staffofbuilding:stone_builder_staff"
-					Count: 1b
-					tag: {
-						Damage: 0
-					}
-				}
-			}]
-			rewards: [{
-				id: "051478D507A6B7E3"
-				type: "loot"
-				table_id: 13756307348121783L
-			}]
-		}
-		{
-			x: -0.5d
-			y: 4.5d
-			subtitle: "Used to speed up building and block placement."
-			description: ["- Holding a staff will show a placement range (but a range will only be displayed if you have the required items in your inventory)."]
-			id: "424D1FF456C5309D"
-			tasks: [{
-				id: "2310EE65434E176F"
-				type: "item"
-				item: {
-					id: "staffofbuilding:iron_builder_staff"
-					Count: 1b
-					tag: {
-						Damage: 0
-					}
-				}
-			}]
-			rewards: [{
-				id: "6485B3F9E55938C3"
-				type: "loot"
-				table_id: 13756307348121783L
-			}]
-		}
-		{
-			x: 0.5d
-			y: 4.5d
-			subtitle: "Used to speed up building and block placement."
-			description: ["- Holding a staff will show a placement range (but a range will only be displayed if you have the required items in your inventory)."]
-			id: "493B90C284EB5402"
-			tasks: [{
-				id: "16890A75B553A2F3"
-				type: "item"
-				item: {
-					id: "staffofbuilding:golden_builder_staff"
-					Count: 1b
-					tag: {
-						Damage: 0
-					}
-				}
-			}]
-			rewards: [{
-				id: "4DA7C6B4311E9295"
-				type: "loot"
-				table_id: 13756307348121783L
-			}]
-		}
-		{
-			x: 1.5d
-			y: 4.0d
-			subtitle: "Used to speed up building and block placement."
-			description: ["- Holding a staff will show a placement range (but a range will only be displayed if you have the required items in your inventory)."]
-			id: "4AD1DD230664681D"
-			tasks: [{
-				id: "7D5B4820134A5ACF"
-				type: "item"
-				item: {
-					id: "staffofbuilding:diamond_builder_staff"
-					Count: 1b
-					tag: {
-						Damage: 0
-					}
-				}
-			}]
-			rewards: [{
-				id: "7BE7724358457022"
-				type: "loot"
-				table_id: 13756307348121783L
-			}]
-		}
-		{
 			x: 2.5d
-			y: 3.5d
-			subtitle: "Used to speed up building and block placement."
-			description: ["- Holding a staff will show a placement range (but a range will only be displayed if you have the required items in your inventory)."]
-			id: "661F9C730DFEA05C"
-			tasks: [{
-				id: "0944E8C92FD41166"
-				type: "item"
-				item: {
-					id: "staffofbuilding:netherite_builder_staff"
-					Count: 1b
-					tag: {
-						Damage: 0
-					}
-				}
-			}]
-			rewards: [
-				{
-					id: "2F8B7273C24A94ED"
-					type: "item"
-					item: "blockus:white_futurneo_block"
-					count: 64
-				}
-				{
-					id: "0AA03BA0351FA1DB"
-					type: "item"
-					item: "blockus:golden_carrot_crate"
-					count: 12
-				}
-				{
-					id: "3701ED933560919F"
-					type: "item"
-					item: "chisel:triple_bricks/stone"
-					count: 64
-				}
-				{
-					id: "55F9531A58CDFB66"
-					type: "item"
-					item: "chisel:shipping_crate/crimson_planks"
-					count: 64
-				}
-				{
-					id: "11BE7385D5BDAD94"
-					type: "item"
-					item: "chisel:llama/light_gray_wool"
-					count: 64
-				}
-				{
-					id: "5A8DD166C176C63E"
-					type: "item"
-					item: "blockus:pink_stone_bricks"
-					count: 64
-				}
-				{
-					id: "2B1B8FE4A60C637A"
-					type: "item"
-					item: "bewitchment:cypress_log"
-					count: 64
-				}
-				{
-					id: "37B7989892AFB3E8"
-					type: "item"
-					item: "promenade:cherry_oak_log"
-					count: 64
-				}
-			]
-		}
-		{
-			x: 3.0d
-			y: 0.5d
+			y: 0.0d
 			subtitle: "Dirty Stick"
 			id: "1A7AF56567D80ECB"
 			tasks: [{
@@ -408,7 +277,7 @@
 			}]
 		}
 		{
-			x: 3.5d
+			x: 3.0d
 			y: 1.5d
 			subtitle: "Dirty Stick MK II"
 			id: "6CFB83CA3C41D891"
@@ -424,8 +293,8 @@
 			}]
 		}
 		{
-			x: 3.0d
-			y: 2.5d
+			x: 2.5d
+			y: 3.0d
 			id: "503DD3CEEFE78FFF"
 			tasks: [{
 				id: "6E7765039271CC78"
@@ -439,7 +308,7 @@
 			}]
 		}
 		{
-			x: -3.5d
+			x: -3.0d
 			y: 1.5d
 			subtitle: "It's cobbling time!"
 			id: "009320766602EAAF"
@@ -455,8 +324,8 @@
 			}]
 		}
 		{
-			x: -3.0d
-			y: 0.5d
+			x: -2.5d
+			y: 0.0d
 			subtitle: "Keep the ocean clean!"
 			id: "72D41352FD2B752C"
 			tasks: [{
@@ -471,8 +340,8 @@
 			}]
 		}
 		{
-			x: -3.0d
-			y: 2.5d
+			x: -2.5d
+			y: 3.0d
 			subtitle: "Shift your block of choice."
 			id: "57A128EE5135A494"
 			tasks: [{
@@ -482,6 +351,56 @@
 			}]
 			rewards: [{
 				id: "4E2062F5C1DBE105"
+				type: "random"
+				table_id: 13756307348121783L
+			}]
+		}
+		{
+			title: "Chipped"
+			x: -1.5d
+			y: 4.0d
+			subtitle: "A builders dream come true!"
+			description: ["Craft all the stations, build your dream house."]
+			id: "08FAEB8EB602EF41"
+			tasks: [
+				{
+					id: "1081E226FA1E8A5E"
+					type: "item"
+					item: "chipped:mechanist_workbench"
+				}
+				{
+					id: "7D1FC9CC4B131EE8"
+					type: "item"
+					item: "chipped:glassblower"
+				}
+				{
+					id: "6F87FF8CD4C95965"
+					type: "item"
+					item: "chipped:carpenters_table"
+				}
+				{
+					id: "6BE11CE32F07B059"
+					type: "item"
+					item: "chipped:loom_table"
+				}
+				{
+					id: "38BE32401E8D97CF"
+					type: "item"
+					item: "chipped:mason_table"
+				}
+				{
+					id: "60FFEA7368FF723F"
+					type: "item"
+					item: "chipped:alchemy_bench"
+				}
+				{
+					id: "779880FC571ECD33"
+					type: "item"
+					item: "chipped:mechanist_workbench"
+				}
+			]
+			rewards: [{
+				id: "15AAC3F322683558"
 				type: "random"
 				table_id: 13756307348121783L
 			}]

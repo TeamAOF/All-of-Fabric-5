@@ -582,24 +582,6 @@
 		{ item: "chisel:chisel" }
 		{
 			item: {
-				id: "bitsandchisels:diamond_chisel"
-				Count: 1b
-				tag: {
-					Damage: 0
-				}
-			}
-		}
-		{
-			item: {
-				id: "bitsandchisels:iron_chisel"
-				Count: 1b
-				tag: {
-					Damage: 0
-				}
-			}
-		}
-		{
-			item: {
 				id: "ae2:item_storage_cell_1k"
 				Count: 1b
 				tag: { }
@@ -624,10 +606,6 @@
 		{ item: "terrarianslimes:glowstick", count: 16 }
 		{ item: "terrarianslimes:slime_crown" }
 		{ item: "terrarianslimes:gold_crown" }
-		{ item: "mtmechs:ma_chassis_item" }
-		{ item: "mtmechs:ma_arm_item" }
-		{ item: "mtmechs:ma_leg_item" }
-		{ item: "mtmechs:ma_stack_item" }
 		{ item: "modern_industrialization:analog_circuit" }
 		{ item: "modern_industrialization:cupronickel_wire_magnetic", count: 2, random_bonus: 2 }
 		{ item: "modern_industrialization:electronic_circuit" }
@@ -637,8 +615,6 @@
 		{ item: "modern_industrialization:bronze_drill" }
 		{ item: "modern_industrialization:copper_drill" }
 		{ item: "modern_industrialization:gold_drill" }
-		{ item: "modern_industrialization:stainless_steel_drill" }
-		{ item: "modern_industrialization:steel_drill" }
 		{ item: "modern_industrialization:resistor", count: 3 }
 		{ item: "modern_industrialization:steel_tank" }
 		{ item: "modern_industrialization:bronze_tank" }
@@ -654,15 +630,10 @@
 		{ item: "modern_industrialization:gold_gear", count: 4 }
 		{ item: "modern_industrialization:invar_gear", count: 4 }
 		{ item: "modern_industrialization:iron_gear", count: 4 }
-		{ item: "modern_industrialization:stainless_steel_gear", count: 4 }
 		{ item: "modern_industrialization:steel_gear", count: 4 }
-		{ item: "modern_industrialization:titanium_gear", count: 3 }
 		{ item: "modern_industrialization:copper_rotor", count: 5 }
 		{ item: "modern_industrialization:bronze_rotor", count: 5 }
-		{ item: "modern_industrialization:stainless_steel_rotor", count: 5 }
 		{ item: "modern_industrialization:tin_rotor", count: 5 }
-		{ item: "modern_industrialization:titanium_rotor", count: 3 }
-		{ item: "modern_industrialization:aluminum_rotor", count: 3 }
 		{ item: "modern_industrialization:fluid_pipe", count: 8, random_bonus: 32 }
 		{ item: "modern_industrialization:item_pipe", count: 8, random_bonus: 32 }
 		{ item: "modern_industrialization:tungsten_ingot", count: 3, random_bonus: 8 }
@@ -873,51 +844,6 @@
 		{ item: "croptopia:sushi", count: 6 }
 		{ item: "croptopia:roasted_turnips", count: 6 }
 		{ item: "croptopia:sticky_toffee_pudding", count: 6 }
-		{
-			item: {
-				id: "basicaiots:iron_aiot"
-				Count: 1b
-				tag: {
-					Damage: 0
-				}
-			}
-		}
-		{
-			item: {
-				id: "basicaiots:diamond_aiot"
-				Count: 1b
-				tag: {
-					Damage: 0
-				}
-			}
-		}
-		{
-			item: {
-				id: "basicaiots:ruby_aiot"
-				Count: 1b
-				tag: {
-					Damage: 0
-				}
-			}
-		}
-		{
-			item: {
-				id: "basicaiots:sapphire_aiot"
-				Count: 1b
-				tag: {
-					Damage: 0
-				}
-			}
-		}
-		{
-			item: {
-				id: "basicaiots:peridot_aiot"
-				Count: 1b
-				tag: {
-					Damage: 0
-				}
-			}
-		}
 		{ item: "totemmod:totem_top" }
 		{ item: "totemmod:totem_base" }
 		{ item: "minecraft:totem_of_undying" }
@@ -1117,42 +1043,6 @@
 		}
 		{ item: "croptopia:ajvar_toast", count: 6 }
 		{ item: "blast:confetti_trigger_bomb", count: 16 }
-		{
-			item: {
-				id: "blast:slime_bombard"
-				Count: 1b
-				tag: {
-					Damage: 0
-				}
-			}
-		}
-		{
-			item: {
-				id: "blast:amethyst_bombard"
-				Count: 1b
-				tag: {
-					Damage: 0
-				}
-			}
-		}
-		{
-			item: {
-				id: "blast:frost_bombard"
-				Count: 1b
-				tag: {
-					Damage: 0
-				}
-			}
-		}
-		{
-			item: {
-				id: "blast:bombard"
-				Count: 1b
-				tag: {
-					Damage: 0
-				}
-			}
-		}
 		{ item: "blast:pearl_trigger_bomb", count: 4 }
 		{ item: "modern_industrialization:gold_plate", count: 16 }
 		{ item: "modern_industrialization:lead_plate", count: 16 }
@@ -1543,5 +1433,67 @@
 		{ item: "twigs:crimson_roots_paper_lantern", count: 6 }
 		{ item: "strawdummy:strawdummy" }
 		{ item: "animal_feeding_trough:feeding_trough", count: 2 }
+		{ item: "create:builders_tea", count: 3 }
+		{ item: "ad_astra:cheese", count: 6 }
+		{ item: "cookingforblockheads:cooking_table" }
+		{ item: "cookingforblockheads:fridge" }
+		{ item: "cookingforblockheads:corner" }
+		{ item: "cookingforblockheads:recipe_book" }
+		{ item: "cookingforblockheads:heating_unit" }
+		{
+			item: {
+				id: "piercingpaxels:stone_paxel"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			item: {
+				id: "piercingpaxels:golden_paxel"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			item: {
+				id: "piercingpaxels:iron_paxel"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{ item: "chipped:botanist_workbench" }
+		{ item: "chipped:glassblower" }
+		{ item: "chipped:carpenters_table" }
+		{ item: "chipped:loom_table" }
+		{ item: "chipped:mason_table" }
+		{ item: "chipped:alchemy_bench" }
+		{ item: "chipped:mechanist_workbench" }
+		{
+			item: {
+				id: "chiselsandbits:chisel_diamond"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			item: {
+				id: "chiselsandbits:chisel_iron"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{ item: "speedometer:speedometer" }
+		{ item: "create:polished_rose_quartz", count: 16 }
+		{ item: "create:andesite_alloy", count: 16 }
 	]
 }

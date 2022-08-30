@@ -1,3 +1,262 @@
+### All of Fabric 5 | v1.5.2
+
+_Fabric Loader 0.14.9_ | _[Mod Updates](https://github.com/TeamAOF/All-of-Fabric-5/blob/main/changelogs/changelog_mods_1.5.2.md)_ | _[Modlist](https://github.com/TeamAOF/All-of-Fabric-5/blob/main/changelogs/modlist_1.5.2.md)_
+
+## Changes
+
+* You'll now spawn with a book about Hex Crafting.
+* Revamped Ender Dragon fight, from me to you... Good luck.
+
+## Recipes
+
+* Conflict between Spruce Shelf and Spruce Bannister.
+
+## Fixes
+
+* Crafting blocks sometimes leaving "world holes" when playing on dedicated servers.
+* Issues with Spectrum trees not updating colors until chunk is updated.
+* Being able to place water in the nether.
+* Crash when mining a mechanical piston using a piercing paxel.
+* Crawling speeds being faster than normal.
+* Missing texture in Spirit quests.
+
+## Added
+
+* Bamboo Combat
+* Dragonfight
+* FuelInfo
+* Hex Casting
+* Niolite Expansion
+* PAUCAL
+* Prism
+* Roughly Enough Loot Tables (RELT)
+* Roughly Enough Trades (RET)
+
+## Removed
+
+* Magitek Mechs (Due to crashes)
+---
+
+### All of Fabric 5 | v1.5.1
+
+_Fabric Loader 0.14.9_ | _[Mod Updates](https://github.com/TeamAOF/All-of-Fabric-5/blob/main/changelogs/changelog_mods_1.5.0.md)_ | _[Modlist](https://github.com/TeamAOF/All-of-Fabric-5/blob/main/changelogs/modlist_1.5.0.md)_
+
+## Changes
+
+* Blacklisted MD pipes to be used with Ultimine (Fixes crashes).
+
+## Fixes
+
+* Fixed IllegalStateException crash (WTHIT).
+---
+
+### All of Fabric 5 | v1.5.0
+
+_Fabric Loader 0.14.9_ | _[Mod Updates](https://github.com/TeamAOF/All-of-Fabric-5/blob/main/changelogs/changelog_mods_1.5.0.md)_ | _[Modlist](https://github.com/TeamAOF/All-of-Fabric-5/blob/main/changelogs/modlist_1.5.0.md)_
+
+## DISCLAIMER: This update WILL break your bits & chisels builds.
+
+## Changes
+
+* New quest chapter for Spirit.
+* New quests for Advanced Netherite in Tools and Armor.
+* Slighty redone Building quest chapter, also added quest for Chipped.
+* Nerfed drop chances of Doodads in chests.
+* Removed Doodads from entity drops.
+* Disable Asphalt recipe from Doodads.
+* Removed platinum ingot from crushed ore (Progression reasons).
+* Removed tungsten ingot from raw ore in furnace (Progression reasons).
+* Balanced TR tungsten progression (It'll now require much more resources through TR, you profit more from MI this way).
+
+## Fixes
+
+* Large performance hit due to how Better Temples does locate structure checks.
+
+## Added
+
+* Advanced Netherite
+* Chipped
+* Chisels & Bits
+* Spirit
+
+## Removed
+
+* Better Withered Mobs (Overlapping features)
+* Bits & Chisels (Replaced by Chisels & Bits, better in general)
+* Fabricae Ex Nihilo (Balancing reasons, skyblock is coming)
+* Overweight Farming (Causing too many issues with automated farms)
+---
+
+### All of Fabric 5 | v1.4.1
+
+_Fabric Loader 0.14.9_ | _[Mod Updates](https://github.com/TeamAOF/All-of-Fabric-5/blob/main/changelogs/changelog_mods_1.4.1.md)_ | _[Modlist](https://github.com/TeamAOF/All-of-Fabric-5/blob/main/changelogs/modlist_1.4.1.md)_
+
+## Changes
+
+* Added RS datapacks for (Farmer's Delight & Better Strongholds).
+* Added back continuity resource pack to be default.
+* Removed whistle keybind due to overlap with Ultimine (Rebind as you wish).
+* Removed steel ingot & iron plate from loot chests.
+* Updated Encased Fan quest to be on par with Create 0.5
+* Hide Ad Astra materials not used due to unify in REI.
+* Hide Indrev Hammer from REI.
+* WTHIT will now show hearts/armor in compact mode if above 10 (20 points).
+* Indestrutible enchantment has been removed from the Dark Enchanter
+
+## Recipes
+
+* Added Compressed Steel to steel plates tag, therefore unifying it.
+* Fixed conflicts between Ad Astra plating and MI large plates.
+* Added alternative Cheese Block recipe using Croptopia Cheese.
+* Changed iron ingots to iron plates in Hammer recipe from Ad Astra (Fixes conflict with ExNihilo iron hammer).
+* Fixed incorrect output from charcoal to dwarf charcoal.
+* Removed Thermoelectric Generator from Extra Gens (Balancing).
+* Paper Lamp conflict between Twigs & Blockus has been fixed.
+
+## Fixes
+
+* Compact machines not loading recipes.
+* Missing item rewards from quests.
+* Texture glitches with certain Modern Industrialization machines.
+
+## Removed 
+
+* FTB Backups 2 (Lag issues)
+* Garden of Glass (Skyblock will happen at some point)
+* Mini Effects
+---
+
+### All of Fabric 5 | v1.4.0
+
+_Fabric Loader 0.14.9_ | _[Mod Updates](https://github.com/TeamAOF/All-of-Fabric-5/blob/main/changelogs/changelog_mods_1.4.0.md)_ | _[Modlist](https://github.com/TeamAOF/All-of-Fabric-5/blob/main/changelogs/modlist_1.4.0.md)_
+
+## DISCLAIMER: Empty your Cammie's Backpacks before updating!
+
+## Changes
+
+* Added Create questing chapter.
+* Added quest for Ad Astra in the Adventurer chapter.
+* Added quest for Piercing Paxels in Tools & Armor chapter.
+* Added quest for Traveler's Backpack in Getting Starter chapter.
+* Hide unused AE2Things items from REI.
+* ALL mythic mounts random spawn chance has been lowered.
+* Updated Spectrum quests to match the new update.
+* Lowered chances of pots and chests from probablychests spawning on surface.
+* Removed NA South server from list, if more servers are needed we'll add more.
+
+## Fixes
+
+* Grinder recipe showing incorrect inputs.
+* All railings & rooftop conflicting recipes.
+* Multiple recipes using plates tag instead of set MI variant.
+* XP Storage quest not showing up in Tools & Armor chapter.
+
+## Added
+
+- Ad Astra!
+- AEAdditions
+- Automobility
+- BedBenefits
+- Better Withered Mobs
+- Chassis
+- Cloth Config v6
+- Compact Machines 4
+- Compressor
+- Cooking for Blockheads
+- DeathKnell
+- Doodads
+- FTB Backups 2  
+- Garden of Glass
+- Icy Incitement
+- Log Begone
+- Luggage
+- Mini Effects
+- Naturalist
+- Overweight Farming
+- Piercing Paxels
+- PolyLib
+- Revelationary
+- Speedometer Mod
+- Structory
+- Traveler's Backpack
+- TheWildBackport
+  
+## Removed
+
+- Basic AIOTs (Replaced by Piercing Paxels)
+- Cammie's Wearable Backpacks (Replaced by Traveler's Backpack)
+- Chimes (Incompat with Automobility)
+- Extreme sound muffler (Lag issues)
+- Raised (UI displacements on certain monitors)
+- UpdateFixerUpper
+---
+
+### All of Fabric 5 | v1.3.1
+
+_Fabric Loader 0.14.8_ | _[Mod Updates](https://github.com/TeamAOF/All-of-Fabric-5/blob/main/changelogs/changelog_mods_1.3.1.md)_ | _[Modlist](https://github.com/TeamAOF/All-of-Fabric-5/blob/main/changelogs/modlist_1.3.1.md)_
+
+## Fixes
+
+* Certain signs crashing upon placement.
+* Uncrafting table crashing upon use.
+* Soulbound items sometimes being lost upon death/teleport.
+---
+
+### All of Fabric 5 | v1.3.0
+
+_Fabric Loader 0.14.8_ | _[Mod Updates](https://github.com/TeamAOF/All-of-Fabric-5/blob/main/changelogs/changelog_mods_1.3.0.md)_ | _[Modlist](https://github.com/TeamAOF/All-of-Fabric-5/blob/main/changelogs/modlist_1.3.0.md)_
+
+## DISCLAIMER: Replace all Charm chests with vanilla ones before updating!
+
+## Fixes
+
+* Enchanted books not showing up in REI.
+* Sandpaper deploying in create no longer crashes.
+* Fixed an issue where vein mining MD pipes would stop block drops from working.
+
+## Added
+
+* [EffectTooltips](https://www.curseforge.com/minecraft/mc-mods/effect-tooltips)
+* [Macaw's Paths and Pavings](https://www.curseforge.com/minecraft/mc-mods/macaws-paths-and-pavings)
+* [Roughly Enough Professions](https://www.curseforge.com/minecraft/mc-mods/roughly-enough-professions-rep)
+* [Tips](https://www.curseforge.com/minecraft/mc-mods/tips)
+* [The Twilight Forest](https://www.curseforge.com/minecraft/mc-mods/the-twilight-forest)
+* [FabricaeExNihilo](https://www.curseforge.com/minecraft/mc-mods/ex-nihilo-fabrico)
+* [YUNG's Better Desert Temples](https://www.curseforge.com/minecraft/mc-mods/yungs-better-desert-temples-fabric)
+* [YUNG's Better Witch Huts](https://www.curseforge.com/minecraft/mc-mods/yungs-better-witch-huts-fabric)
+
+## Removed
+
+* [Charm](https://www.curseforge.com/minecraft/mc-mods/charm) (Due to ping issues)
+* [Charmonium](https://www.curseforge.com/minecraft/mc-mods/charmonium)
+---
+
+### All of Fabric 5 | v1.2.4
+
+_Fabric Loader 0.14.6_ | _[Mod Updates](https://github.com/TeamAOF/All-of-Fabric-5/blob/main/changelogs/changelog_mods_1.2.4.md)_ | _[Modlist](https://github.com/TeamAOF/All-of-Fabric-5/blob/main/changelogs/modlist_1.2.4.md)_
+
+## Changes
+
+* ServerStarter makes a return.
+* FFB Market now sells the correct type of tomato and cabbage seeds.
+
+## Fixes
+
+* Crashes when Create was being used inside claims.
+* Advancements not showing.
+* Graveyard coffins not containing loot.
+
+## Added
+
+* [Macaw's Roofs](https://www.curseforge.com/minecraft/mc-mods/macaws-roofs)
+* [Modern Dynamics](https://www.curseforge.com/minecraft/mc-mods/modern-dynamics)
+* [Paginated Advancements](https://www.curseforge.com/minecraft/mc-mods/paginated-advancements)
+
+## Removed
+
+* [Whisperwoods](https://www.curseforge.com/minecraft/mc-mods/whisperwoods)
+---
+
 ### All of Fabric 5 | v1.2.3
 
 _Fabric Loader 0.14.6_ | _[Mod Updates](https://github.com/TeamAOF/All-of-Fabric-5/blob/main/changelogs/changelog_mods_1.2.3.md)_ | _[Modlist](https://github.com/TeamAOF/All-of-Fabric-5/blob/main/changelogs/modlist_1.2.3.md)_
@@ -42,6 +301,23 @@ _Fabric Loader 0.14.4_ | _[Mod Updates](https://github.com/TeamAOF/All-of-Fabric
 
 _Fabric Loader 0.14.4_ | _[Mod Updates](https://github.com/TeamAOF/All-of-Fabric-5/blob/main/changelogs/changelog_mods_1.2.1.md)_ | _[Modlist](https://github.com/TeamAOF/All-of-Fabric-5/blob/main/changelogs/modlist_1.2.1.md)_
 
+## Added
+
+* [Chimes](https://www.curseforge.com/minecraft/mc-mods/chimes)
+* [Display Case](https://www.curseforge.com/minecraft/mc-mods/displaycase)
+* [Goodall](https://www.curseforge.com/minecraft/mc-mods/goodall)
+* [More Geodes](https://www.curseforge.com/minecraft/mc-mods/emerald-geodes)
+* [Peripheralium](https://www.curseforge.com/minecraft/mc-mods/peripheralium)
+* [Pyrotastic 🎆](https://www.curseforge.com/minecraft/mc-mods/pyrotastic)
+* [TimeOutOut (Fabric)](https://www.curseforge.com/minecraft/mc-mods/timeoutout-fabric)
+* [UnlimitedPeripheralWorks](https://www.curseforge.com/minecraft/mc-mods/unlimitedperipheralworks)
+
+## Removed
+
+* [Architectury API (UNUSED)](https://www.curseforge.com/minecraft/mc-mods/architectury-fabric)
+* [KubeJS (Old)](https://www.curseforge.com/minecraft/mc-mods/kubejs-fabric)
+* [Op Items Tab](https://www.curseforge.com/minecraft/mc-mods/op-items-tab)
+
 ## Changes
 
 * Durability is a thing again, this is not terraria you fool.
@@ -55,11 +331,11 @@ _Fabric Loader 0.14.4_ | _[Mod Updates](https://github.com/TeamAOF/All-of-Fabric
 * Books not being enchantable.
 * STDOUT spam related to saving player.
 * Invalid quest rewards.
+* Crash upon opening CYTI trashcans.
 
 ## Recipe Changes
 
 * Fixed incorrect number of inputs for lignite coal block, now 9 prior to it being just 1.
-
 ---
 
 ### All of Fabric 5 | v1.2.0

@@ -4,9 +4,15 @@
       "badasintended.megane.impl.Kibe": true,
       "lol.bai.megane.module.kibe.MeganeKibe": true
     },
+    "megane-modern-dynamics": {
+      "lol.bai.megane.module.moderndynamics.MeganeModernDynamics": true
+    },
     "megane-industrial-revolution": {
       "lol.bai.megane.module.indrev.MeganeIndustrialRevolution": true,
       "badasintended.megane.impl.IndustrialRevolution": true
+    },
+    "fabricaeexnihilo": {
+      "wraith.fabricaeexnihilo.compatibility.megane.FENMeganeModule": true
     },
     "megane-modern-industrialization": {
       "badasintended.megane.impl.ModernIndustrialization": true
@@ -24,6 +30,9 @@
       "badasintended.megane.impl.TeamRebornEnergy": true,
       "badasintended.megane.impl.LegacyTeamRebornEnergy": true
     },
+    "megane-create": {
+      "lol.bai.megane.module.create.MeganeCreate": true
+    },
     "megane-reborn-core": {
       "lol.bai.megane.module.reborncore.MeganeRebornCore": true,
       "badasintended.megane.impl.RebornCore": true
@@ -39,6 +48,9 @@
     "megane-extra-generators": {
       "lol.bai.megane.module.extragenerators.MeganeExtraGenerators": true,
       "badasintended.megane.impl.ExtraGenerators": true
+    },
+    "megane-luggage": {
+      "lol.bai.megane.module.luggage.MeganeLuggage": true
     },
     "megane-lib-block-attributes": {
       "lol.bai.megane.module.lba.MeganeLibBlockAttributes": true,

@@ -1,0 +1,8 @@
+{
+  "witherSkeletonsSpawnWithWitheringEnchantedStoneSwords": true,
+  "witheredMobsDontDropRegularBones": true,
+  "witheringEnchantmentCanBeAnviledOntoAxes": true,
+  "witheringEnchantmentCanBeAnviledOntoTridents": true,
+  "maximumLevelForWitheringEnchantment": 5,
+  "tickMultiplierForWitheringEnchantment": 60
+}

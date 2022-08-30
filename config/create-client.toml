@@ -85,6 +85,14 @@
 		comfyReading = false
 
 	# 
+	#Railway related settings
+	[client.trains]
+		# 
+		#How far away the Camera should zoom when seated on a train
+		#Range: 0.0 ~ 3.4028234663852886E38
+		mountedZoomMultiplier = 3.0
+
+	# 
 	#Settings for the Goggle Overlay
 	[client.goggleOverlay]
 		# 

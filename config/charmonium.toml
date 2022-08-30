@@ -2,12 +2,16 @@
 "BiomeAmbience Enabled" = true
 #Plays specific ambient sound according to the situation or location.
 "SituationalAmbience Enabled" = true
-#Plays ambient background sound when the player is underground at different depths and light levels.
-"UndergroundAmbience Enabled" = true
 
 [BiomeAmbience]
 	#Affects the volume of all biome ambient sounds. 1.0 is full volume.
 	"Volume scaling" = 0.55
+	#Number of blocks above the ground that biome ambience will be silenced.
+	#Set to zero to disable.
+	"Above ground for ambience silencing" = 32
+	#Number of blocks to check for neighbouring biomes.
+	#Set to zero to disable.
+	"Biome sound blending" = 32
 	#If true, plays ambient sounds in beach biomes.
 	"Beach ambience" = true
 	#If true, plays ambient sounds in badlands (mesa) biomes.
@@ -39,17 +43,27 @@
 	#If true, plays ambient sounds in the End biomes.
 	"The End ambience" = true
 	#Dimensions in which biome ambience will be played.
-	"Valid dimensions" = ["minecraft:overworld", "minecraft:the_end"]
+	"Valid biome dimensions" = ["minecraft:overworld", "minecraft:the_end"]
+
+[Core]
+	#The channel that Charmonium will use for playing sounds. Defaults to 'ambient'.
+	#Options: music, record, weather, block, hostile, neutral, player, ambient, voice
+	"Audio channel" = "ambient"
 
 [SituationalAmbience]
 	#Affects the volume of all situational ambient sounds. 1.0 is full volume.
 	"Volume scaling" = 0.55
+	#Number of blocks above the ground that biome ambience will be silenced.
+	#Set to zero to disable.
+	"Above ground for ambience silencing" = 32
 	#If true, plays ambient sounds while anywhere in the End.
 	"Alien ambience" = true
 	#If true, plays ambient sounds in cold and/or barren overworld environments.
 	"Bleak ambience" = true
-	#If true, plays water sounds from a nearby water source when underground.
-	"Cave water ambience" = true
+	#If true, plays a low drone sound when in a cave below Y 48.
+	"Cave drone ambience" = true
+	#If true, plays more intense cave sounds when below Y 0 and light level is lower than 10.
+	"Cave depth ambience" = true
 	#If true, plays ambient sounds when the player is underground and near deepslate blocks.
 	"Deepslate ambience" = true
 	#If true, plays ambient sounds in dry and/or hot overworld environments.
@@ -68,20 +82,10 @@
 	"Night plains ambience" = true
 	#If true, plays ambient sounds when in a cold biome during a thunderstorm.
 	"Snowstorm ambience" = true
+	#If true, plays water sounds from a nearby water source when underground.
+	"Underground water ambience" = true
 	#If true, plays ambient sounds when a player is inside a village.
 	"Village ambience" = true
-
-[UndergroundAmbience]
-	#Affects the volume of all underground ambient sounds. 1.0 is full volume.
-	"Volume scaling" = 0.55
-	#Dimensions in which underground ambience will be played.
-	"Valid dimensions" = ["minecraft:overworld"]
-	#If true, the cave ambience will be played. Cave ambience is normally a low frequency drone.
-	"Cave ambience" = true
-	#If true, the deepcave ambience will be played. This takes effect when the player is deep underground and at low light level.
-	"Deepcave ambience" = true
-	#When the player is lower than this depth then cave background sound will be always be triggered.
-	"Cave depth" = 48
-	#When the light is lower than this level then cave and deepcave background sound will be triggered.
-	"Light level" = 10
+	#Dimensions in which cave drone and cave depth sounds will be played.
+	"Valid cave drone dimensions" = ["minecraft:overworld"]
 

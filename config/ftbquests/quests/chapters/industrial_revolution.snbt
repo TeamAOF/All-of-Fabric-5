@@ -1,7 +1,7 @@
 {
 	id: "47B446DF2ABE5972"
 	group: "0815C5D80307ECDF"
-	order_index: 1
+	order_index: 2
 	filename: "industrial_revolution"
 	title: "Industrial Revolution"
 	icon: "indrev:modular_core"
@@ -1335,7 +1335,7 @@
 			y: -7.5d
 			subtitle: "I have confidence in mining. I see exciting opportunities in it."
 			description: [
-				"Chunk Scanner is a tool used to collect geographical data on the chunk's vein type. After being scanned, the Scanner will give you a result which is required by the Miner to work."
+				""
 				""
 				"Mining Rig Drills are required for the Mining Rig Computer to work. They have to be placed next to the Computer and require drill heads to work. Each Drill increases the mining speed."
 				"Can hold up to 8 mining rig drills, make sure each one has a drill head."
@@ -1357,11 +1357,6 @@
 					id: "44DA8D0214330F39"
 					type: "item"
 					item: "indrev:drill_bottom"
-				}
-				{
-					id: "70A0FF01A2AD0E9F"
-					type: "item"
-					item: "indrev:chunk_scanner"
 				}
 			]
 			rewards: [{

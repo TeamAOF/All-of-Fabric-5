@@ -53,7 +53,6 @@
 			subtitle: "Enchanting Efficiency"
 			description: ["If you did not know by now that as you level up you waste more and more experince points when enchanting. So instead of wasting experince why not store it in this handy container!"]
 			dependencies: ["25B6D9950B1CF03C"]
-			hide: true
 			id: "73C866780EE5AD4F"
 			tasks: [
 				{
@@ -394,7 +393,7 @@
 		}
 		{
 			title: "Gilded Netherite"
-			x: -7.0d
+			x: -6.5d
 			y: -2.5d
 			subtitle: "More durable than the netherite set and has a full set ability."
 			description: [
@@ -1035,7 +1034,7 @@
 		}
 		{
 			title: "Hammers"
-			x: -1.5d
+			x: -2.0d
 			y: 2.5d
 			subtitle: "3x3 Mining on your doorstep."
 			description: ["Craft any hammer to complete quest."]
@@ -1060,7 +1059,7 @@
 		}
 		{
 			title: "Excavators"
-			x: -0.5d
+			x: 0.0d
 			y: 2.5d
 			subtitle: "3x3 Digging on your doorstep."
 			dependencies: ["300FAC6161C1BCDB"]
@@ -1084,7 +1083,7 @@
 		}
 		{
 			title: "Machetes"
-			x: 0.5d
+			x: 1.0d
 			y: 2.5d
 			subtitle: "Will break surrounding leaf blocks depending on the tool."
 			dependencies: ["300FAC6161C1BCDB"]
@@ -1108,7 +1107,7 @@
 		}
 		{
 			title: "Scythes"
-			x: 1.5d
+			x: 2.0d
 			y: 2.5d
 			subtitle: "Harvest crops in a range!"
 			description: [
@@ -1329,20 +1328,50 @@
 			}]
 		}
 		{
-			title: "AIOTs"
+			title: "Paxels"
 			x: -3.0d
 			y: 1.5d
-			subtitle: "All in One."
+			subtitle: "All in One!"
+			description: [
+				"These paxels can break the same blocks as any tool, and can have upgrades added to them by opening their inventory with shift right-click, adding new abilities and traits."
+				""
+				"They also won't break when they reach 0 durability, instead becoming unusable until repaired, so you won't lose any hard-earned enchantments."
+			]
 			dependencies: ["300FAC6161C1BCDB"]
 			id: "364F9B3D61ED0079"
 			tasks: [{
 				id: "6DACDA252E01FFFE"
 				type: "item"
 				item: {
-					id: "itemfilters:mod"
+					id: "itemfilters:or"
 					Count: 1b
 					tag: {
-						value: "basicaiots"
+						items: [
+							{
+								id: "piercingpaxels:wooden_paxel"
+								Count: 1b
+							}
+							{
+								id: "piercingpaxels:stone_paxel"
+								Count: 1b
+							}
+							{
+								id: "piercingpaxels:gold_paxel"
+								Count: 1b
+							}
+							{
+								id: "piercingpaxels:iron_paxel"
+								Count: 1b
+							}
+							{
+								id: "piercingpaxels:diamond_paxel"
+								Count: 1b
+							}
+							{
+								id: "piercingpaxels:netherite_paxel"
+								Count: 1b
+							}
+						]
 					}
 				}
 			}]
@@ -1493,6 +1522,54 @@
 			}]
 			rewards: [{
 				id: "256C020D69DB5CF4"
+				type: "random"
+				table_id: 13756307348121783L
+			}]
+		}
+		{
+			title: "Advanced Netherite"
+			x: -1.0d
+			y: 2.5d
+			subtitle: "Every Netherite tier has its own unique properties."
+			dependencies: ["300FAC6161C1BCDB"]
+			id: "6A5ED6653D734805"
+			tasks: [{
+				id: "0809C64ADB415234"
+				type: "item"
+				item: {
+					id: "itemfilters:tag"
+					Count: 1b
+					tag: {
+						value: "advancednetherite:tiers/tools"
+					}
+				}
+			}]
+			rewards: [{
+				id: "036E6B1FD2BBE842"
+				type: "random"
+				table_id: 13756307348121783L
+			}]
+		}
+		{
+			title: "Advanced Netherite"
+			x: -7.5d
+			y: -2.5d
+			subtitle: "Every Netherite tier has its own unique properties."
+			dependencies: ["35F0E2CEEE9D9AD0"]
+			id: "1AB242681EF30210"
+			tasks: [{
+				id: "4E2C968C442F487C"
+				type: "item"
+				item: {
+					id: "itemfilters:tag"
+					Count: 1b
+					tag: {
+						value: "advancednetherite:tiers/armor"
+					}
+				}
+			}]
+			rewards: [{
+				id: "70A0FF7C62A8601A"
 				type: "random"
 				table_id: 13756307348121783L
 			}]

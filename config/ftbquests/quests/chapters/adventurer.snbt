@@ -29,7 +29,7 @@
 				}
 			}
 			x: -3.0d
-			y: -0.5d
+			y: 1.0d
 			subtitle: "Fishing should be fun."
 			description: [
 				"Go Fish adds in general Fish, which are obtainable globally in any area for each dimension, and biome-specific Fish, which are only obtainable in certain areas (See below)."
@@ -113,7 +113,7 @@
 			title: "Find a Graveyard"
 			icon: "graveyard:skull_with_rib_cage"
 			x: 2.0d
-			y: -0.5d
+			y: -2.0d
 			subtitle: "Locate a Small Graveyard structure. Be sure to have a look or two below the graves for shiny loot."
 			dependencies: ["6EC4700B21DB617B"]
 			id: "14DE762F4663D1C9"
@@ -130,8 +130,8 @@
 		}
 		{
 			title: "Artifacts"
-			x: -0.5d
-			y: 2.0d
+			x: 2.0d
+			y: 1.0d
 			subtitle: "Magical items with great power."
 			description: [
 				"The items added by this mod can be found in chests."
@@ -158,6 +158,73 @@
 				type: "random"
 				table_id: 13756307348121783L
 			}]
+		}
+		{
+			title: "The Twilight Forest"
+			icon: "twilightforest:twilight_portal_miniature_structure"
+			x: -3.0d
+			y: -2.0d
+			subtitle: "Step into the Twilight Realm!"
+			description: [
+				"To make a portal to the Twilight Forest, make a 2x2 shallow pool (4 squares) of water in a grassy area, and surround it entirely with natural stuff (flowers, mushrooms, saplings, leaves, grass, anything considered a \"plant\" or \"leaves\")."
+				""
+				"Twilight Forest is a dimension exploration mod focused on adventure that will take you on a journey to meet strange creatures, exploring dungeons, and much more."
+			]
+			dependencies: ["6EC4700B21DB617B"]
+			id: "36D37A1AFFC1B369"
+			tasks: [{
+				id: "64630338E7F2207F"
+				type: "dimension"
+				icon: "twilightforest:twilight_portal_miniature_structure"
+				dimension: "twilightforest:twilight_forest"
+			}]
+			rewards: [{
+				id: "0C0869CB6A2C4E9F"
+				type: "random"
+				table_id: 13756307348121783L
+			}]
+		}
+		{
+			title: "Space Travels"
+			icon: {
+				id: "ad_astra:tier_1_rocket"
+				Count: 1b
+				tag: { }
+			}
+			x: -0.5d
+			y: 2.0d
+			subtitle: "To the moon!"
+			description: [
+				"Ad Astra is a technology and space exploration mod."
+				""
+				"It allows you to build rockets capable of space travel. Yes, even mineable cheese."
+				""
+				"You can explore multiple planets throughout the Solar System, build oxygenated space stations and bases and survive in space."
+				""
+				"Had dreams about being an astronaut? This is it!"
+				""
+				"Complete this quest by crafting the Astrodux."
+			]
+			dependencies: ["6EC4700B21DB617B"]
+			id: "1F68089CE40CABC9"
+			tasks: [{
+				id: "5E109F35ECDB37C6"
+				type: "item"
+				item: "ad_astra:astrodux"
+			}]
+			rewards: [
+				{
+					id: "440B0AFFF9785B72"
+					type: "random"
+					table_id: 13756307348121783L
+				}
+				{
+					id: "583873BD842B01B4"
+					type: "item"
+					item: "ad_astra:cheese"
+					count: 16
+				}
+			]
 		}
 	]
 }

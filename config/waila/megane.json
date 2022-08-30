@@ -67,7 +67,8 @@
       "modern_industrialization:lubricant": 16761856,
       "modern_industrialization:synthetic_rubber": 5000268,
       "modern_industrialization:uu_matter": 16711927,
-      "minecraft:lava": 13916690
+      "minecraft:lava": 13916690,
+      "modern_industrialization:heavy_water_steam": 14274536
     },
     "blacklist": []
   },

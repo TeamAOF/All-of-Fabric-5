@@ -18,6 +18,8 @@ onEvent('tags.items', event => {
   event.add('c:iron_plates', 'create:iron_sheet')
   event.add('c:copper_plates', 'create:copper_sheet')
 
+  event.add('c:steel_plates', 'ad_astra:compressed_steel')
+
 
 
 });

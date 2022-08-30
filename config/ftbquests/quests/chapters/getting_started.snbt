@@ -156,8 +156,8 @@
 		{
 			title: "Recipe Wizardry"
 			icon: "botania:placeholder"
-			x: 10.0d
-			y: 4.0d
+			x: 7.5d
+			y: -1.0d
 			subtitle: "A recipe is a story that ends with a good meal."
 			description: [
 				"How to use an item? Hover over the item in REI and press \"U\" this will show you the uses, pay attention to the tabs."
@@ -175,6 +175,49 @@
 				type: "checkmark"
 				title: "I know how to use U and R"
 			}]
+		}
+		{
+			title: "Don't be a tourist, be a traveler"
+			x: 10.0d
+			y: 4.0d
+			subtitle: "Inventory cramped? Fear not!"
+			description: [
+				"The traveler's backpack can provide about 45 inventory slots and 2 fluid tanks, which each can store up to 4 buckets of fluid or even 16 bottles of potions."
+				""
+				"All inventory slots and tanks can be accessed via external pipes."
+				""
+				"The backpack also provides special buttons - sort, quick stack and transfer to manage inventory!"
+			]
+			dependencies: ["175F5611FB7716A4"]
+			id: "5A382E13722186FA"
+			tasks: [{
+				id: "418AF38E1BF686D8"
+				type: "item"
+				item: {
+					id: "travelersbackpack:standard"
+					Count: 1b
+					tag: { }
+				}
+			}]
+			rewards: [
+				{
+					id: "22B2ADA03AFDEA66"
+					type: "random"
+					table_id: 13756307348121783L
+				}
+				{
+					id: "58C5F7DE3E58FC9A"
+					type: "item"
+					item: {
+						id: "minecraft:splash_potion"
+						Count: 1b
+						tag: {
+							Potion: "goblintraders:powerful_speed"
+						}
+					}
+					count: 3
+				}
+			]
 		}
 	]
 }

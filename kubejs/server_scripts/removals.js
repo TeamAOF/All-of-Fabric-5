@@ -23,6 +23,15 @@ onEvent('recipes', (event) => {
     'techreborn:smelting/platinum_ingot_from_c_sheldonite_ores_exported_mi_furnace',
     'modern_industrialization:compat/indrev/quarry_nikolite',
     'modern_industrialization:compat/ae2/quarry_ae2',
+    'ad_astra:hammering/iron_plate',
+    'ad_astra:recipes/steel_ingot_from_smelting_iron_ingot',
+    'ad_astra:recipes/steel_ingot_from_blasting_iron_ingot',
+    'createplus:createplus/ore_processing/platinum/techreborn/smelting',
+    'createplus:createplus/ore_processing/platinum/techreborn/blasting',
+    'create:smelting/platinum_ingot_compat_modern_industrialization',
+    'create:blasting/platinum_ingot_compat_modern_industrialization',
+    'indrev:smelting/tungsten_ingot_from_raw_ores',
+    'createplus:createplus/ore_processing/nickel/modern_industrialization/smelting',
 
     ];
 
@@ -80,6 +89,8 @@ onEvent('recipes', (event) => {
     'extragenerators:infernal_generator',
     'campanion:mre',
     'additionaladditions:fried_egg',
+    'twilightforest:uncrafting_table',
+    'extragenerators:thermoelectric_generator',
     ];
 
     id.forEach((id) => {
@@ -101,4 +112,26 @@ onEvent('recipes', (event) => {
           plates.forEach((plates) => {
               event.remove({ id: 'indrev:shapeless/' + plates + '_plate_from_hammer' });
           });
+});
+
+onEvent('block.place', event => {
+  if (event.block.id == "twilightforest:uncrafting_table") {
+    event.cancel()
+  }
+});
+
+onEvent('block.break', event => {
+  if (event.block.id == "twilightforest:uncrafting_table") {
+    event.cancel()
+  }
+});
+
+onEvent('block.right_click', event => {
+  if (event.block.id == "twilightforest:uncrafting_table") {
+    event.cancel()
+  }
+});
+
+onEvent('recipes', event => {
+  event.remove({input:"twilightforest:uncrafting_table"})
 });

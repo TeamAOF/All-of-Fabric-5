@@ -54,6 +54,7 @@ const MATERIALS = [
 // Order of mods to unify
 const UNIFICATION_ORDER = [
     "modern_industrialization",
+    "ad_astra",
     "create",
     "createplus",
     "indrev",
@@ -224,6 +225,10 @@ onEvent('recipes', event => {
     event.replaceOutput({id: "techreborn:industrial_grinder/sheldonite_ore_with_mercury"}, '#c:platinum_dusts', 'modern_industrialization:raw_platinum');
     event.replaceOutput({id: "techreborn:industrial_grinder/iridium_ore_with_sodiumpersulfate"}, '#c:platinum_dusts', 'modern_industrialization:raw_platinum');
     event.replaceOutput({id: "techreborn:industrial_grinder/heart_of_the_sea_with_mercury"}, '#c:platinum_dusts', 'modern_industrialization:raw_platinum');
+
+    event.replaceOutput({id: 'techreborn:blast_furnace/tungsten_ingot_from_small_dust'}, 'modern_industrialization:tungsten_ingot', 'modern_industrialization:tungsten_nugget');
+    event.replaceOutput({id: 'createplus:techreborn/blast_furnace/tungsten_ingot_from_crushed'}, 'modern_industrialization:tungsten_ingot', 'modern_industrialization:tungsten_nugget');
+    event.replaceOutput({id: 'techreborn:blast_furnace/tungsten_ingot'}, 'modern_industrialization:tungsten_ingot', 'modern_industrialization:tungsten_nugget');
 
 
     // ingot -> raw ore recipes with mercury... -_-
