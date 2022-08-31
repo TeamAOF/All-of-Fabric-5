@@ -642,7 +642,6 @@
 		{ item: "techreborn:basic_machine_frame", count: 2 }
 		{ item: "techreborn:advanced_machine_frame", count: 2 }
 		{ item: "extragenerators:burnable_generator" }
-		{ item: "extragenerators:thermoelectric_generator" }
 		{ item: "extragenerators:sludgy_generator" }
 		{ item: "extragenerators:scalding_generator" }
 		{ item: "extragenerators:steam_generator" }
