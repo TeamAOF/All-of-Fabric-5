@@ -6,6 +6,11 @@
 onEvent('tags.items', event => {
 
     const replicator = [
+        'croptosis:creative_watering_can',
+        'create:handheld_worldshaper',
+        'harvest_scythes:creative_machete',
+        'harvest_scythes:creative_scythe',
+        'create:creative_blaze_cake',
         'inmis:baby_backpack',
         'inmis:frayed_backpack',
         'inmis:plated_backpack',
