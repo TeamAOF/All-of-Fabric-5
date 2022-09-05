@@ -130,13 +130,7 @@
       "personalReceiveFactor": 0.0
     },
     {
-      "enchantmentId": "spectrum:fire_strike",
-      "activated": false,
-      "personalFactor": 0.0,
-      "personalReceiveFactor": 0.0
-    },
-    {
-      "enchantmentId": "spectrum:inventory_incertion",
+      "enchantmentId": "spectrum:first_strike",
       "activated": false,
       "personalFactor": 0.0,
       "personalReceiveFactor": 0.0
@@ -172,13 +166,7 @@
       "personalReceiveFactor": 0.0
     },
     {
-      "enchantmentId": "spectrum:inventory_incertion",
-      "activated": false,
-      "personalFactor": 0.0,
-      "personalReceiveFactor": 0.0
-    },
-    {
-      "enchantmentId": "spectrum:damage_proof",
+      "enchantmentId": "spectrum:steadfast",
       "activated": false,
       "personalFactor": 0.0,
       "personalReceiveFactor": 0.0
