@@ -26,7 +26,7 @@ $MODPACK_NAME = "all-of-fabric-5"
 $CLIENT_NAME = "All-of-Fabric-5"
 
 # Version Of The Modpack
-$MODPACK_VERSION = "1.5.2"
+$MODPACK_VERSION = "1.6.0"
 
 # Last Version Of The Modpack
 # Needed For Changelog Parsing

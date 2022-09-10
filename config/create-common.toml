@@ -10,10 +10,10 @@
 
 		[worldgen.v2.striated_ores_overworld]
 			# 
-			#Range: > -64
+			#Range: > -2147483648
 			minHeight = -30
 			# 
-			#Range: > -64
+			#Range: > -2147483648
 			maxHeight = 70
 			# 
 			#Range: > 0
@@ -28,10 +28,10 @@
 
 		[worldgen.v2.zinc_ore]
 			# 
-			#Range: > -64
+			#Range: > -2147483648
 			minHeight = -63
 			# 
-			#Range: > -64
+			#Range: > -2147483648
 			maxHeight = 70
 			# 
 			#Range: > 0
@@ -46,10 +46,10 @@
 
 		[worldgen.v2.striated_ores_nether]
 			# 
-			#Range: > -64
+			#Range: > -2147483648
 			minHeight = 40
 			# 
-			#Range: > -64
+			#Range: > -2147483648
 			maxHeight = 90
 			# 
 			#Range: > 0

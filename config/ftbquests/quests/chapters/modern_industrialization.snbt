@@ -1,7 +1,7 @@
 {
 	id: "5BB4D2FC1908D3D1"
 	group: "0815C5D80307ECDF"
-	order_index: 1
+	order_index: 2
 	filename: "modern_industrialization"
 	title: "Modern Industrialization"
 	icon: "modern_industrialization:singularity"
@@ -988,18 +988,12 @@
 				type: "item"
 				item: "modern_industrialization:electronic_circuit"
 			}]
-			rewards: [
-				{
-					id: "3B9ED5E4CBECDD82"
-					type: "item"
-					item: "croptopia:fruit_cake"
-				}
-				{
-					id: "3CE6833849BCF006"
-					type: "loot"
-					table_id: 13756307348121783L
-				}
-			]
+			rewards: [{
+				id: "1377B51059BA71D4"
+				type: "item"
+				title: "MI Epic Loot Bag"
+				item: "kubejs:loot_bag_epic"
+			}]
 		}
 		{
 			x: 9.5d

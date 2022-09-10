@@ -1,11 +1,21 @@
-### All of Fabric 5 | v1.5.2
+### All of Fabric 5 | v2.0.0
 
-_Fabric Loader 0.14.9_ | _[Mod Updates](https://github.com/TeamAOF/All-of-Fabric-5/blob/main/changelogs/changelog_mods_1.5.2.md)_ | _[Modlist](https://github.com/TeamAOF/All-of-Fabric-5/blob/main/changelogs/modlist_1.5.2.md)_
+_Fabric Loader 0.14.9_ | _[Mod Updates](https://github.com/TeamAOF/All-of-Fabric-5/blob/main/changelogs/changelog_mods_2.0.0.md)_ | _[Modlist](https://github.com/TeamAOF/All-of-Fabric-5/blob/main/changelogs/modlist_2.0.0.md)_
 
 ## Changes
 
-* You'll now spawn with a book about Hex Crafting.
+* Fully revamped worldgen thanks to Terralith.
+* Added Challenges questing chapter, become The Completionist!
+* Added Hex Casting questing chapter.
+* Added Ad Astra questing chapter.
+* Added Archeology quest in Adventurer chapter.
+* Added Lootr quest in Adventurer chapter.
+* Reworked the Building chapter.
+* New quest rewards system.
 * Revamped Ender Dragon fight, from me to you... Good luck.
+* Remove Thermoelectric Generator from quest rewards.
+* Added all overworld sapling to farmingforblockheads market.
+* Void totem will now show on chest when worn in charm slot.
 
 ## Recipes
 
@@ -19,22 +29,54 @@ _Fabric Loader 0.14.9_ | _[Mod Updates](https://github.com/TeamAOF/All-of-Fabric
 * Crash when mining a mechanical piston using a piercing paxel.
 * Crawling speeds being faster than normal.
 * Missing texture in Spirit quests.
+* Items turning into mana when using the export bus
 
 ## Added
 
+* Ambient Sounds 5
+* Archeology
 * Bamboo Combat
+* Botany Pots
+* CC:C Bridge
+* Connectivity
+* Dangerous Stone Cutter
 * Dragonfight
+* Entity Culling
 * FuelInfo
 * Hex Casting
-* Niolite Expansion
+* Inmis Addon (3D Models)
+* Iron Chests: Restocked
+* Logicates
+* Macaw's Bridges - Oh The Biomes You'll Go
+* Macaw's Roofs - Oh The Biomes You'll Go
+* Nikolite Expansion
 * PAUCAL
+* Playdate
+* Powah
 * Prism
+* Productive Villagers
 * Roughly Enough Loot Tables (RELT)
 * Roughly Enough Trades (RET)
+* SlimyBoyos
+* Staff of Traveling
+* Starlight
+* Stronger Snowballs
+* Terralith
+* Tempad
+* The Splash Milk
+* Toast Manager
+* XP Obelisk Additions
 
 ## Removed
 
+* Dwarf Coal (Replaced by Tiny Coal)
+* Expanded Storage
+* Extra Generators (Due to balancing reasons & addition of Powah)
 * Magitek Mechs (Due to crashes)
+* Phosphor (Replaced by Starlight)
+* Plushie (Replaced by Playdate)
+* Timeoutout (Replaced by Connectivity)
+* XL Packets (Replaced by Connectivity)
 ---
 
 ### All of Fabric 5 | v1.5.1

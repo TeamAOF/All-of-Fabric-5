@@ -1494,5 +1494,6 @@
 		{ item: "speedometer:speedometer" }
 		{ item: "create:polished_rose_quartz", count: 16 }
 		{ item: "create:andesite_alloy", count: 16 }
+		{ item: "travelstaff:travel_staff" }
 	]
 }

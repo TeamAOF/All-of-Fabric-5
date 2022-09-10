@@ -259,51 +259,6 @@
         "#terralith"
       ],
       "canSpawnGraveyardMobs": false
-    },
-    "altar": {
-      "enabled": true,
-      "separation": 24,
-      "spacing": 30,
-      "salt": 1093123913,
-      "whitelist": [
-        "minecraft:snowy_plains"
-      ],
-      "blacklist": [],
-      "modWhitelist": [
-        "#minecraft",
-        "#terralith"
-      ],
-      "canSpawnGraveyardMobs": false
-    },
-    "giant_mushroom": {
-      "enabled": true,
-      "separation": 18,
-      "spacing": 20,
-      "salt": 365012356,
-      "whitelist": [
-        "#mushroom"
-      ],
-      "blacklist": [],
-      "modWhitelist": [
-        "#minecraft",
-        "#terralith"
-      ],
-      "canSpawnGraveyardMobs": false
-    },
-    "crypt": {
-      "enabled": true,
-      "separation": 12,
-      "spacing": 14,
-      "salt": 893183913,
-      "whitelist": [
-        "#underground"
-      ],
-      "blacklist": [],
-      "modWhitelist": [
-        "#minecraft",
-        "#terralith"
-      ],
-      "canSpawnGraveyardMobs": false
     }
   },
   "particleConfigEntries": {
@@ -579,99 +534,6 @@
         "#minecraft",
         "#graveyard_biomes"
       ]
-    },
-    "corrupted_vindicator": {
-      "enabled": false,
-      "weight": 0,
-      "minGroup": 2,
-      "maxGroup": 3,
-      "canBurnInSunlight": true,
-      "canBeWithered": false,
-      "whitelist": [
-        "#taiga",
-        "#extreme_hills",
-        "#jungle",
-        "#mesa",
-        "#plains",
-        "#savanna",
-        "#icy",
-        "#beach",
-        "#forest",
-        "#desert",
-        "#swamp",
-        "#underground",
-        "#mountain"
-      ],
-      "blacklist": [
-        "minecraft:flower_forest",
-        "minecraft:lush_caves"
-      ],
-      "modWhitelist": [
-        "#minecraft",
-        "#graveyard_biomes"
-      ]
-    },
-    "corrupted_pillager": {
-      "enabled": false,
-      "weight": 0,
-      "minGroup": 2,
-      "maxGroup": 3,
-      "canBurnInSunlight": true,
-      "canBeWithered": false,
-      "whitelist": [
-        "#taiga",
-        "#extreme_hills",
-        "#jungle",
-        "#mesa",
-        "#plains",
-        "#savanna",
-        "#icy",
-        "#beach",
-        "#forest",
-        "#desert",
-        "#swamp",
-        "#underground",
-        "#mountain"
-      ],
-      "blacklist": [
-        "minecraft:flower_forest",
-        "minecraft:lush_caves"
-      ],
-      "modWhitelist": [
-        "#minecraft",
-        "#graveyard_biomes"
-      ]
-    },
-    "wraith": {
-      "enabled": false,
-      "weight": 0,
-      "minGroup": 2,
-      "maxGroup": 3,
-      "canBurnInSunlight": true,
-      "canBeWithered": false,
-      "whitelist": [
-        "#taiga",
-        "#extreme_hills",
-        "#jungle",
-        "#mesa",
-        "#plains",
-        "#savanna",
-        "#icy",
-        "#beach",
-        "#forest",
-        "#desert",
-        "#swamp",
-        "#underground",
-        "#mountain"
-      ],
-      "blacklist": [
-        "minecraft:flower_forest",
-        "minecraft:lush_caves"
-      ],
-      "modWhitelist": [
-        "#minecraft",
-        "#graveyard_biomes"
-      ]
     }
   },
   "hordeConfigEntries": {
@@ -683,10 +545,10 @@
     }
   },
   "booleanEntries": {
-    "urnHasDoubleInventory": true,
-    "disableWitherSkeletonSpawner": false
+    "disableWitherSkeletonSpawner": false,
+    "urnHasDoubleInventory": true
   },
   "integerEntries": {
-    "maxTerrainHeightDifference": 6
+    "maxTerrainHeightDifference": 5
   }
 }

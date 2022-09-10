@@ -258,9 +258,9 @@
 				}
 			}]
 			rewards: [{
-				id: "32091156063F0C8C"
-				type: "random"
-				table_id: 13756307348121783L
+				id: "4267E0E24A7BF901"
+				type: "item"
+				item: "kubejs:loot_bag_rare"
 			}]
 		}
 		{
