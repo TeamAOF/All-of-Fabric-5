@@ -138,6 +138,13 @@ onEvent('tags.items', event => {
         'modern_industrialization:quantum_sword',
         'modern_industrialization:singularity',
         'techreborn:nuke',
+        'create:fluid_tank',
+        'create:creative_fluid_tank',
+        'coxinhautilities:portable_tank_mk1',
+        'coxinhautilities:portable_tank_mk2',
+        'coxinhautilities:portable_tank_mk3',
+        'coxinhautilities:portable_tank_mk4',
+        'coxinhautilities:portable_tank_mk5',
     ];
 
     replicator.forEach((item) => {
