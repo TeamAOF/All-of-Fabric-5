@@ -6,19 +6,8 @@
         "entries": [
           {
             "type": "minecraft:item",
-            "weight": 3,
-            "name": "minecraft:coal_ore",
-            "functions": [
-              {
-                "function": "set_count",
-                "count": 32
-              }
-            ]
-          },
-          {
-            "type": "minecraft:item",
-            "weight": 3,
-            "name": "modern_industrialization:lignite_coal_ore",
+            "weight": 1,
+            "name": "modern_industrialization:aluminum_ingot",
             "functions": [
               {
                 "function": "set_count",
@@ -28,8 +17,19 @@
           },
           {
             "type": "minecraft:item",
-            "weight": 3,
-            "name": "minecraft:iron_ore",
+            "weight": 1,
+            "name": "modern_industrialization:stainless_steel_ingot",
+            "functions": [
+              {
+                "function": "set_count",
+                "count": 32
+              }
+            ]
+          },
+          {
+            "type": "minecraft:item",
+            "weight": 1,
+            "name": "minecraft:titanium_ingot",
             "functions": [
               {
                 "function": "set_count",
@@ -39,8 +39,8 @@
           },
           {
             "type": "minecraft:item",
-            "weight": 3,
-            "name": "minecraft:copper_ore",
+            "weight": 2,
+            "name": "modern_industrialization:battery_alloy_plate",
             "functions": [
               {
                 "function": "set_count",
@@ -51,40 +51,7 @@
           {
             "type": "minecraft:item",
             "weight": 2,
-            "name": "modern_industrialization:tin_ore",
-            "functions": [
-              {
-                "function": "set_count",
-                "count": 16
-              }
-            ]
-          },
-          {
-            "type": "minecraft:item",
-            "weight": 2,
-            "name": "minecraft:bricks",
-            "functions": [
-              {
-                "function": "set_count",
-                "count": 16
-              }
-            ]
-          },
-          {
-            "type": "minecraft:item",
-            "weight": 2,
-            "name": "modern_industrialization:bronze_ingot",
-            "functions": [
-              {
-                "function": "set_count",
-                "count": 16
-              }
-            ]
-          },
-          {
-            "type": "minecraft:item",
-            "weight": 2,
-            "name": "modern_industrialization:steel_ingot",
+            "name": "modern_industrialization:electronic_circuit",
             "functions": [
               {
                 "function": "set_count",
@@ -95,7 +62,62 @@
           {
             "type": "minecraft:item",
             "weight": 1,
-            "name": "modern_industrialization:resistor",
+            "name": "modern_industrialization:electronic_circuit",
+            "functions": [
+              {
+                "function": "set_count",
+                "count": 16
+              }
+            ]
+          },
+          {
+            "type": "minecraft:item",
+            "weight": 1,
+            "name": "modern_industrialization:digital_circuit",
+            "functions": [
+              {
+                "function": "set_count",
+                "count": 4
+              }
+            ]
+          },
+          {
+            "type": "minecraft:item",
+            "weight": 1,
+            "name": "modern_industrialization:advanced_machine_hull",
+            "functions": [
+              {
+                "function": "set_count",
+                "count": 2
+              }
+            ]
+          },
+          {
+            "type": "minecraft:item",
+            "weight": 2,
+            "name": "modern_industrialization:mv_steam_turbine",
+            "functions": [
+              {
+                "function": "set_count",
+                "count": 2
+              }
+            ]
+          },
+          {
+            "type": "minecraft:item",
+            "weight": 2,
+            "name": "modern_industrialization:motor",
+            "functions": [
+              {
+                "function": "set_count",
+                "count": 16
+              }
+            ]
+          },
+          {
+            "type": "minecraft:item",
+            "weight": 2,
+            "name": "modern_industrialization:pump",
             "functions": [
               {
                 "function": "set_count",
@@ -106,7 +128,7 @@
           {
             "type": "minecraft:item",
             "weight": 1,
-            "name": "modern_industrialization:capacitor",
+            "name": "modern_industrialization:large_motor",
             "functions": [
               {
                 "function": "set_count",
@@ -117,7 +139,18 @@
           {
             "type": "minecraft:item",
             "weight": 1,
-            "name": "modern_industrialization:inductor",
+            "name": "modern_industrialization:large_pump",
+            "functions": [
+              {
+                "function": "set_count",
+                "count": 2
+              }
+            ]
+          },
+          {
+            "type": "minecraft:item",
+            "weight": 2,
+            "name": "modern_industrialization:turbo_upgrade",
             "functions": [
               {
                 "function": "set_count",
@@ -128,7 +161,29 @@
           {
             "type": "minecraft:item",
             "weight": 1,
-            "name": "modern_industrialization:gold_drill",
+            "name": "modern_industrialization:highly_advanced_upgrade",
+            "functions": [
+              {
+                "function": "set_count",
+                "count": 1
+              }
+            ]
+          },
+          {
+            "type": "minecraft:item",
+            "weight": 1,
+            "name": "modern_industrialization:stainless_steel_drill",
+            "functions": [
+              {
+                "function": "set_count",
+                "count": 2
+              }
+            ]
+          },
+          {
+            "type": "minecraft:item",
+            "weight": 1,
+            "name": "modern_industrialization:titanium_drill",
             "functions": [
               {
                 "function": "set_count",
