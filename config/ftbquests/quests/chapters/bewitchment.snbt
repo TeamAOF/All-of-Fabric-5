@@ -64,9 +64,12 @@
 				item: "bewitchment:book_of_shadows"
 			}]
 			rewards: [{
-				id: "548B075558885167"
-				type: "item"
-				item: "minecraft:gold_nugget"
+				id: "53AAF406B4A61ECD"
+				type: "command"
+				title: "Magic Common Loot Bag"
+				icon: "kubejs:loot_bag_common"
+				command: "/execute at @p run loot spawn ~ ~1 ~ loot aof:loot_bags/magic_common"
+				player_command: false
 			}]
 		}
 		{
@@ -90,18 +93,14 @@
 				type: "item"
 				item: "bewitchment:witch_cauldron"
 			}]
-			rewards: [
-				{
-					id: "4F8A36D51C6AD56B"
-					type: "item"
-					item: "minecraft:iron_ingot"
-				}
-				{
-					id: "5F5DA7FA05248447"
-					type: "loot"
-					table_id: 13756307348121783L
-				}
-			]
+			rewards: [{
+				id: "2BB362DD8FE8D7BC"
+				type: "command"
+				title: "Magic Rare Loot Bag"
+				icon: "kubejs:loot_bag_common"
+				command: "/execute at @p run loot spawn ~ ~1 ~ loot aof:loot_bags/magic_common"
+				player_command: false
+			}]
 		}
 		{
 			x: -1.0d
@@ -113,18 +112,14 @@
 				type: "item"
 				item: "bewitchment:aqua_cerate"
 			}]
-			rewards: [
-				{
-					id: "187A3E6E16014706"
-					type: "item"
-					item: "minecraft:water_bucket"
-				}
-				{
-					id: "041F1725845726D9"
-					type: "loot"
-					table_id: 13756307348121783L
-				}
-			]
+			rewards: [{
+				id: "6BDAF17D9C110E45"
+				type: "command"
+				title: "Magic Common Loot Bag"
+				icon: "kubejs:loot_bag_common"
+				command: "/execute at @p run loot spawn ~ ~1 ~ loot aof:loot_bags/magic_common"
+				player_command: false
+			}]
 		}
 		{
 			x: -1.5d
@@ -136,18 +131,14 @@
 				type: "item"
 				item: "bewitchment:fiery_serum"
 			}]
-			rewards: [
-				{
-					id: "0FD4E164CB37834D"
-					type: "item"
-					item: "minecraft:campfire"
-				}
-				{
-					id: "18BA37BE7DDE3AD3"
-					type: "loot"
-					table_id: 13756307348121783L
-				}
-			]
+			rewards: [{
+				id: "7E43D3C5218996AF"
+				type: "command"
+				title: "Magic Common Loot Bag"
+				icon: "kubejs:loot_bag_common"
+				command: "/execute at @p run loot spawn ~ ~1 ~ loot aof:loot_bags/magic_common"
+				player_command: false
+			}]
 		}
 		{
 			x: 1.0d
@@ -166,9 +157,12 @@
 					item: "kibe:liquid_xp_bucket"
 				}
 				{
-					id: "3F6B62F784AFDDC5"
-					type: "loot"
-					table_id: 13756307348121783L
+					id: "4DE1033C1B5E6288"
+					type: "command"
+					title: "Magic Common Loot Bag"
+					icon: "kubejs:loot_bag_common"
+					command: "/execute at @p run loot spawn ~ ~1 ~ loot aof:loot_bags/magic_common"
+					player_command: false
 				}
 			]
 		}
@@ -182,30 +176,14 @@
 				type: "item"
 				item: "bewitchment:earth_ichor"
 			}]
-			rewards: [
-				{
-					id: "65346307794A1783"
-					type: "item"
-					item: "minecraft:dirt"
-					count: 64
-				}
-				{
-					id: "1B83FEFF9E67C726"
-					type: "item"
-					item: "minecraft:stone"
-					count: 64
-				}
-				{
-					id: "19506209FAD892A5"
-					type: "item"
-					item: "minecraft:water_bucket"
-				}
-				{
-					id: "7714EC4293C3A916"
-					type: "loot"
-					table_id: 13756307348121783L
-				}
-			]
+			rewards: [{
+				id: "29ABBA511B2BE4DA"
+				type: "command"
+				title: "Magic Common Loot Bag"
+				icon: "kubejs:loot_bag_common"
+				command: "/execute at @p run loot spawn ~ ~1 ~ loot aof:loot_bags/magic_common"
+				player_command: false
+			}]
 		}
 		{
 			x: -1.0d
@@ -217,19 +195,14 @@
 				type: "item"
 				item: "bewitchment:cleansing_balm"
 			}]
-			rewards: [
-				{
-					id: "5A7267213A4D5DAA"
-					type: "item"
-					item: "croptopia:nectarine_sapling"
-					count: 2
-				}
-				{
-					id: "6F52718B41B604BA"
-					type: "loot"
-					table_id: 13756307348121783L
-				}
-			]
+			rewards: [{
+				id: "23B40FAAD5AD1857"
+				type: "command"
+				title: "Magic Common Loot Bag"
+				icon: "kubejs:loot_bag_common"
+				command: "/execute at @p run loot spawn ~ ~1 ~ loot aof:loot_bags/magic_common"
+				player_command: false
+			}]
 		}
 		{
 			x: 1.5d
@@ -241,24 +214,14 @@
 				type: "item"
 				item: "bewitchment:grim_elixir"
 			}]
-			rewards: [
-				{
-					id: "0D4C8F390B9BF73A"
-					type: "item"
-					item: {
-						id: "minecraft:stone_sword"
-						Count: 1b
-						tag: {
-							Damage: 0
-						}
-					}
-				}
-				{
-					id: "1A57CCA9DDF441C1"
-					type: "loot"
-					table_id: 13756307348121783L
-				}
-			]
+			rewards: [{
+				id: "57C81811F1DE3909"
+				type: "command"
+				title: "Magic Common Loot Bag"
+				icon: "kubejs:loot_bag_common"
+				command: "/execute at @p run loot spawn ~ ~1 ~ loot aof:loot_bags/magic_common"
+				player_command: false
+			}]
 		}
 		{
 			x: 1.0d
@@ -283,9 +246,12 @@
 					count: 12
 				}
 				{
-					id: "0A6BEA7C535B1B9F"
-					type: "loot"
-					table_id: 13756307348121783L
+					id: "64157082ED4E66DB"
+					type: "command"
+					title: "Magic Common Loot Bag"
+					icon: "kubejs:loot_bag_common"
+					command: "/execute at @p run loot spawn ~ ~1 ~ loot aof:loot_bags/magic_common"
+					player_command: false
 				}
 			]
 		}
@@ -306,9 +272,12 @@
 				}
 			}]
 			rewards: [{
-				id: "5AD1456A868ED3D5"
-				type: "loot"
-				table_id: 13756307348121783L
+				id: "1EA5E39972351E6F"
+				type: "command"
+				title: "Magic Common Loot Bag"
+				icon: "kubejs:loot_bag_common"
+				command: "/execute at @p run loot spawn ~ ~1 ~ loot aof:loot_bags/magic_common"
+				player_command: false
 			}]
 		}
 		{
@@ -328,9 +297,12 @@
 				}
 			}]
 			rewards: [{
-				id: "366530C9E0B5E96C"
-				type: "loot"
-				table_id: 13756307348121783L
+				id: "25C1C4298CD17DE3"
+				type: "command"
+				title: "Magic Common Loot Bag"
+				icon: "kubejs:loot_bag_common"
+				command: "/execute at @p run loot spawn ~ ~1 ~ loot aof:loot_bags/magic_common"
+				player_command: false
 			}]
 		}
 		{
@@ -350,9 +322,12 @@
 				}
 			}]
 			rewards: [{
-				id: "3AD663800A9F6D12"
-				type: "loot"
-				table_id: 13756307348121783L
+				id: "7B570F941245F14E"
+				type: "command"
+				title: "Magic Common Loot Bag"
+				icon: "kubejs:loot_bag_common"
+				command: "/execute at @p run loot spawn ~ ~1 ~ loot aof:loot_bags/magic_common"
+				player_command: false
 			}]
 		}
 		{
@@ -372,9 +347,12 @@
 				}
 			}]
 			rewards: [{
-				id: "171939461E27A97F"
-				type: "loot"
-				table_id: 13756307348121783L
+				id: "1C3FAC2177CE6B2F"
+				type: "command"
+				title: "Magic Common Loot Bag"
+				icon: "kubejs:loot_bag_common"
+				command: "/execute at @p run loot spawn ~ ~1 ~ loot aof:loot_bags/magic_common"
+				player_command: false
 			}]
 		}
 		{
@@ -394,9 +372,12 @@
 				}
 			}]
 			rewards: [{
-				id: "1D6187D235B38A70"
-				type: "loot"
-				table_id: 13756307348121783L
+				id: "01B6D49BD7DA582B"
+				type: "command"
+				title: "Magic Common Loot Bag"
+				icon: "kubejs:loot_bag_common"
+				command: "/execute at @p run loot spawn ~ ~1 ~ loot aof:loot_bags/magic_common"
+				player_command: false
 			}]
 		}
 		{
@@ -416,9 +397,12 @@
 				}
 			}]
 			rewards: [{
-				id: "69345CA741060C4E"
-				type: "loot"
-				table_id: 13756307348121783L
+				id: "01CFEF25E821787A"
+				type: "command"
+				title: "Magic Common Loot Bag"
+				icon: "kubejs:loot_bag_common"
+				command: "/execute at @p run loot spawn ~ ~1 ~ loot aof:loot_bags/magic_common"
+				player_command: false
 			}]
 		}
 		{
@@ -438,9 +422,12 @@
 				}
 			}]
 			rewards: [{
-				id: "1269B99F3D93A8AC"
-				type: "loot"
-				table_id: 13756307348121783L
+				id: "3D9141CC666DCFA0"
+				type: "command"
+				title: "Magic Common Loot Bag"
+				icon: "kubejs:loot_bag_common"
+				command: "/execute at @p run loot spawn ~ ~1 ~ loot aof:loot_bags/magic_common"
+				player_command: false
 			}]
 		}
 		{
@@ -460,9 +447,12 @@
 				}
 			}]
 			rewards: [{
-				id: "4EA9059676F6A37E"
-				type: "loot"
-				table_id: 13756307348121783L
+				id: "3F1721C8AE1C6240"
+				type: "command"
+				title: "Magic Common Loot Bag"
+				icon: "kubejs:loot_bag_common"
+				command: "/execute at @p run loot spawn ~ ~1 ~ loot aof:loot_bags/magic_common"
+				player_command: false
 			}]
 		}
 		{
@@ -482,9 +472,12 @@
 				}
 			}]
 			rewards: [{
-				id: "1E1B83377EF7AC6B"
-				type: "loot"
-				table_id: 13756307348121783L
+				id: "21988A8D48CCA979"
+				type: "command"
+				title: "Magic Common Loot Bag"
+				icon: "kubejs:loot_bag_common"
+				command: "/execute at @p run loot spawn ~ ~1 ~ loot aof:loot_bags/magic_common"
+				player_command: false
 			}]
 		}
 		{
@@ -511,19 +504,14 @@
 					}
 				}
 			}]
-			rewards: [
-				{
-					id: "335C3A5A040DBBE5"
-					type: "item"
-					item: "minecraft:flint"
-					count: 12
-				}
-				{
-					id: "399DD8CCB32EA0A7"
-					type: "loot"
-					table_id: 13756307348121783L
-				}
-			]
+			rewards: [{
+				id: "0EC94E446B290ED7"
+				type: "command"
+				title: "Magic Common Loot Bag"
+				icon: "kubejs:loot_bag_common"
+				command: "/execute at @p run loot spawn ~ ~1 ~ loot aof:loot_bags/magic_common"
+				player_command: false
+			}]
 		}
 		{
 			x: 7.5d
@@ -536,18 +524,14 @@
 				type: "item"
 				item: "bewitchment:bottle_of_blood"
 			}]
-			rewards: [
-				{
-					id: "4FA2AE3C2B4AAA06"
-					type: "item"
-					item: "minecraft:iron_ingot"
-				}
-				{
-					id: "523F83191576CFFA"
-					type: "loot"
-					table_id: 13756307348121783L
-				}
-			]
+			rewards: [{
+				id: "6C79663EE360635F"
+				type: "command"
+				title: "Magic Rare Loot Bag"
+				icon: "kubejs:loot_bag_rare"
+				command: "/execute at @p run loot spawn ~ ~1 ~ loot aof:loot_bags/magic_rare"
+				player_command: false
+			}]
 		}
 		{
 			x: 7.5d
@@ -561,19 +545,14 @@
 				type: "item"
 				item: "bewitchment:wood_ash"
 			}]
-			rewards: [
-				{
-					id: "3216C394118905D4"
-					type: "item"
-					item: "minecraft:dark_oak_planks"
-					count: 12
-				}
-				{
-					id: "5552CB945A0DF506"
-					type: "loot"
-					table_id: 13756307348121783L
-				}
-			]
+			rewards: [{
+				id: "1B1541D3EB3DD3B7"
+				type: "command"
+				title: "Magic Common Loot Bag"
+				icon: "kubejs:loot_bag_common"
+				command: "/execute at @p run loot spawn ~ ~1 ~ loot aof:loot_bags/magic_common"
+				player_command: false
+			}]
 		}
 		{
 			x: 9.5d
@@ -593,19 +572,14 @@
 				type: "item"
 				item: "bewitchment:oak_bark"
 			}]
-			rewards: [
-				{
-					id: "4C3E60E8C9FC5600"
-					type: "item"
-					item: "minecraft:oak_log"
-					count: 32
-				}
-				{
-					id: "342C0C2E127CB127"
-					type: "loot"
-					table_id: 13756307348121783L
-				}
-			]
+			rewards: [{
+				id: "4C58D3AD96662BDC"
+				type: "command"
+				title: "Magic Common Loot Bag"
+				icon: "kubejs:loot_bag_common"
+				command: "/execute at @p run loot spawn ~ ~1 ~ loot aof:loot_bags/magic_common"
+				player_command: false
+			}]
 		}
 		{
 			x: 11.5d
@@ -637,24 +611,14 @@
 				type: "item"
 				item: "bewitchment:stone_witch_altar"
 			}]
-			rewards: [
-				{
-					id: "10C86C587FB21A01"
-					type: "item"
-					item: {
-						id: "minecraft:potion"
-						Count: 1b
-						tag: {
-							Potion: "minecraft:strong_healing"
-						}
-					}
-				}
-				{
-					id: "50C5139BD0BCEC4A"
-					type: "loot"
-					table_id: 13756307348121783L
-				}
-			]
+			rewards: [{
+				id: "239E2CA6E4C9802D"
+				type: "command"
+				title: "Magic Common Loot Bag"
+				icon: "kubejs:loot_bag_common"
+				command: "/execute at @p run loot spawn ~ ~1 ~ loot aof:loot_bags/magic_common"
+				player_command: false
+			}]
 		}
 		{
 			x: 11.5d
@@ -674,25 +638,14 @@
 				type: "item"
 				item: "bewitchment:crystal_ball"
 			}]
-			rewards: [
-				{
-					id: "377297E1FA265138"
-					type: "item"
-					item: "minecraft:glass"
-					count: 32
-				}
-				{
-					id: "3F920617F36A3DAF"
-					type: "item"
-					item: "kibe:regular_conveyor_belt"
-					count: 21
-				}
-				{
-					id: "29BE21CD6CC11E20"
-					type: "loot"
-					table_id: 13756307348121783L
-				}
-			]
+			rewards: [{
+				id: "4CAE40F8B3548D20"
+				type: "command"
+				title: "Magic Rare Loot Bag"
+				icon: "kubejs:loot_bag_rare"
+				command: "/execute at @p run loot spawn ~ ~1 ~ loot aof:loot_bags/magic_rare"
+				player_command: false
+			}]
 		}
 		{
 			x: 9.5d
@@ -713,25 +666,14 @@
 					}
 				}
 			}]
-			rewards: [
-				{
-					id: "6F5B9421B62ED354"
-					type: "item"
-					item: "bewitchment:bottle_of_blood"
-					count: 3
-				}
-				{
-					id: "0EFF63AC65CA4F25"
-					type: "item"
-					item: "minecraft:glow_berries"
-					count: 12
-				}
-				{
-					id: "4567FF1F762BAB51"
-					type: "loot"
-					table_id: 13756307348121783L
-				}
-			]
+			rewards: [{
+				id: "7745ABB2FAD8EC3D"
+				type: "command"
+				title: "Magic Common Loot Bag"
+				icon: "kubejs:loot_bag_common"
+				command: "/execute at @p run loot spawn ~ ~1 ~ loot aof:loot_bags/magic_common"
+				player_command: false
+			}]
 		}
 		{
 			x: 11.5d
@@ -746,24 +688,14 @@
 				type: "item"
 				item: "bewitchment:demon_heart"
 			}]
-			rewards: [
-				{
-					id: "408BAD84B0D9B71D"
-					type: "item"
-					item: {
-						id: "gateofbabylon:iron_broadsword"
-						Count: 1b
-						tag: {
-							Damage: 0
-						}
-					}
-				}
-				{
-					id: "70D4506E9553F956"
-					type: "loot"
-					table_id: 13756307348121783L
-				}
-			]
+			rewards: [{
+				id: "6A7387D1485BA3E2"
+				type: "command"
+				title: "Magic Rare Loot Bag"
+				icon: "kubejs:loot_bag_rare"
+				command: "/execute at @p run loot spawn ~ ~1 ~ loot aof:loot_bags/magic_rare"
+				player_command: false
+			}]
 		}
 		{
 			x: 13.5d
@@ -810,7 +742,6 @@
 				{
 					id: "65BB5BCD2DE16F6A"
 					type: "loot"
-					table_id: 13756307348121783L
 				}
 			]
 		}
@@ -845,9 +776,12 @@
 					}
 				}
 				{
-					id: "2BE73063740EA328"
-					type: "loot"
-					table_id: 13756307348121783L
+					id: "74C2C05E3229BEFB"
+					type: "command"
+					title: "Magic Rare Loot Bag"
+					icon: "kubejs:loot_bag_rare"
+					command: "/execute at @p run loot spawn ~ ~1 ~ loot aof:loot_bags/magic_rare"
+					player_command: false
 				}
 			]
 		}
@@ -876,9 +810,12 @@
 				}
 			}]
 			rewards: [{
-				id: "087DB5ECFB7B5167"
-				type: "loot"
-				table_id: 13756307348121783L
+				id: "522D586825A5A430"
+				type: "command"
+				title: "Magic Rare Loot Bag"
+				icon: "kubejs:loot_bag_rare"
+				command: "/execute at @p run loot spawn ~ ~1 ~ loot aof:loot_bags/magic_rare"
+				player_command: false
 			}]
 		}
 		{
@@ -892,9 +829,12 @@
 				item: "bewitchment:demon_horn"
 			}]
 			rewards: [{
-				id: "36B4DCA4733AAB8D"
-				type: "loot"
-				table_id: 13756307348121783L
+				id: "19773ADC66F69709"
+				type: "command"
+				title: "Magic Rare Loot Bag"
+				icon: "kubejs:loot_bag_rare"
+				command: "/execute at @p run loot spawn ~ ~1 ~ loot aof:loot_bags/magic_rare"
+				player_command: false
 			}]
 		}
 		{
@@ -920,9 +860,12 @@
 				}
 			}]
 			rewards: [{
-				id: "0C1ED7E39355C5E7"
-				type: "loot"
-				table_id: 13756307348121783L
+				id: "17736DAC94AFF969"
+				type: "command"
+				title: "Magic Rare Loot Bag"
+				icon: "kubejs:loot_bag_rare"
+				command: "/execute at @p run loot spawn ~ ~1 ~ loot aof:loot_bags/magic_rare"
+				player_command: false
 			}]
 		}
 		{
@@ -948,9 +891,12 @@
 				}
 			}]
 			rewards: [{
-				id: "509B05D082A88539"
-				type: "loot"
-				table_id: 13756307348121783L
+				id: "5A93AA7B7E03CE30"
+				type: "command"
+				title: "Magic Rare Loot Bag"
+				icon: "kubejs:loot_bag_rare"
+				command: "/execute at @p run loot spawn ~ ~1 ~ loot aof:loot_bags/magic_rare"
+				player_command: false
 			}]
 		}
 		{
@@ -976,9 +922,12 @@
 				}
 			}]
 			rewards: [{
-				id: "383D293F727B8CAC"
-				type: "loot"
-				table_id: 13756307348121783L
+				id: "416A5B2E8FB0B843"
+				type: "command"
+				title: "Magic Rare Loot Bag"
+				icon: "kubejs:loot_bag_rare"
+				command: "/execute at @p run loot spawn ~ ~1 ~ loot aof:loot_bags/magic_rare"
+				player_command: false
 			}]
 		}
 		{
@@ -994,18 +943,14 @@
 				advancement: "minecraft:nether/find_fortress"
 				criterion: ""
 			}]
-			rewards: [
-				{
-					id: "790152FBA4E84D7A"
-					type: "item"
-					item: "minecraft:blaze_powder"
-				}
-				{
-					id: "298F46423DCE8527"
-					type: "loot"
-					table_id: 13756307348121783L
-				}
-			]
+			rewards: [{
+				id: "3CFC0AF406E6F4C8"
+				type: "command"
+				title: "Magic Common Loot Bag"
+				icon: "kubejs:loot_bag_common"
+				command: "/execute at @p run loot spawn ~ ~1 ~ loot aof:loot_bags/magic_common"
+				player_command: false
+			}]
 		}
 	]
 }
