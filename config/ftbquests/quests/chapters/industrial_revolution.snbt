@@ -1,7 +1,7 @@
 {
 	id: "47B446DF2ABE5972"
 	group: "0815C5D80307ECDF"
-	order_index: 2
+	order_index: 3
 	filename: "industrial_revolution"
 	title: "Industrial Revolution"
 	icon: "indrev:modular_core"
@@ -45,9 +45,12 @@
 				}
 			]
 			rewards: [{
-				id: "4720059137F90A5F"
-				type: "loot"
-				table_id: 13756307348121783L
+				id: "7B3AA028EB162EEF"
+				type: "command"
+				title: "IR Common Loot Bag"
+				icon: "kubejs:loot_bag_common"
+				command: "/execute at @p run loot spawn ~ ~1 ~ loot aof:loot_bags/industrial_revolution_loot_common"
+				player_command: false
 			}]
 		}
 		{
@@ -61,11 +64,20 @@
 				type: "item"
 				item: "indrev:circuit_mk1"
 			}]
-			rewards: [{
-				id: "60234C95A7D3BCFD"
-				type: "loot"
-				table_id: 13756307348121783L
-			}]
+			rewards: [
+				{
+					id: "60234C95A7D3BCFD"
+					type: "loot"
+				}
+				{
+					id: "238F5DC73A868F07"
+					type: "command"
+					title: "IR Common Loot Bag"
+					icon: "kubejs:loot_bag_common"
+					command: "/execute at @p run loot spawn ~ ~1 ~ loot aof:loot_bags/industrial_revolution_loot_common"
+					player_command: false
+				}
+			]
 		}
 		{
 			x: -3.0d
@@ -82,9 +94,12 @@
 				item: "indrev:circuit_mk2"
 			}]
 			rewards: [{
-				id: "7F63E09195415C97"
-				type: "loot"
-				table_id: 13756307348121783L
+				id: "25DAAEA3159EC8A7"
+				type: "command"
+				title: "IR Rare Loot Bag"
+				icon: "kubejs:loot_bag_rare"
+				command: "/execute at @p run loot spawn ~ ~1 ~ loot aof:loot_bags/industrial_revolution_loot_rare"
+				player_command: false
 			}]
 		}
 		{
@@ -102,9 +117,12 @@
 				item: "indrev:circuit_mk3"
 			}]
 			rewards: [{
-				id: "70FAADD8808AF9C0"
-				type: "loot"
-				table_id: 13756307348121783L
+				id: "77E243FC4207E72E"
+				type: "command"
+				title: "IR Rare Loot Bag"
+				icon: "kubejs:loot_bag_rare"
+				command: "/execute at @p run loot spawn ~ ~1 ~ loot aof:loot_bags/industrial_revolution_loot_rare"
+				player_command: false
 			}]
 		}
 		{
@@ -122,9 +140,12 @@
 				item: "indrev:circuit_mk4"
 			}]
 			rewards: [{
-				id: "3193B63980DA6223"
-				type: "loot"
-				table_id: 13756307348121783L
+				id: "52BF8DAAFC8EC7A0"
+				type: "command"
+				title: "IR Rare Loot Bag"
+				icon: "kubejs:loot_bag_rare"
+				command: "/execute at @p run loot spawn ~ ~1 ~ loot aof:loot_bags/industrial_revolution_loot_rare"
+				player_command: false
 			}]
 		}
 		{
@@ -145,9 +166,12 @@
 					item: "minecraft:iron_block"
 				}
 				{
-					id: "2906D5521822641E"
-					type: "loot"
-					table_id: 13756307348121783L
+					id: "781808B2B4034E00"
+					type: "command"
+					title: "IR Common Loot Bag"
+					icon: "kubejs:loot_bag_common"
+					command: "/execute at @p run loot spawn ~ ~1 ~ loot aof:loot_bags/industrial_revolution_loot_common"
+					player_command: false
 				}
 			]
 		}
@@ -161,18 +185,14 @@
 				type: "item"
 				item: "indrev:battery"
 			}]
-			rewards: [
-				{
-					id: "07D53991E89D98DC"
-					type: "item"
-					item: "indrev:battery"
-				}
-				{
-					id: "7EB4DA6CEFEC317B"
-					type: "loot"
-					table_id: 13756307348121783L
-				}
-			]
+			rewards: [{
+				id: "1ECC3DF4AADC805D"
+				type: "command"
+				title: "IR Common Loot Bag"
+				icon: "kubejs:loot_bag_common"
+				command: "/execute at @p run loot spawn ~ ~1 ~ loot aof:loot_bags/industrial_revolution_loot_common"
+				player_command: false
+			}]
 		}
 		{
 			x: -9.5d
@@ -186,9 +206,12 @@
 				item: "indrev:coal_generator_mk1"
 			}]
 			rewards: [{
-				id: "365ED893BED2D1CC"
-				type: "loot"
-				table_id: 13756307348121783L
+				id: "3517F63A89FE34FE"
+				type: "command"
+				title: "IR Common Loot Bag"
+				icon: "kubejs:loot_bag_common"
+				command: "/execute at @p run loot spawn ~ ~1 ~ loot aof:loot_bags/industrial_revolution_loot_common"
+				player_command: false
 			}]
 		}
 		{
@@ -203,9 +226,12 @@
 				item: "indrev:solar_generator_mk1"
 			}]
 			rewards: [{
-				id: "69110FBD8C2663AF"
-				type: "loot"
-				table_id: 13756307348121783L
+				id: "7E3DC1FFEEA94B68"
+				type: "command"
+				title: "IR Common Loot Bag"
+				icon: "kubejs:loot_bag_common"
+				command: "/execute at @p run loot spawn ~ ~1 ~ loot aof:loot_bags/industrial_revolution_loot_common"
+				player_command: false
 			}]
 		}
 		{
@@ -220,9 +246,12 @@
 				count: 4L
 			}]
 			rewards: [{
-				id: "10280B9CCD8AD6D5"
-				type: "loot"
-				table_id: 13756307348121783L
+				id: "7908578BD6CE6C15"
+				type: "command"
+				title: "IR Rare Loot Bag"
+				icon: "kubejs:loot_bag_rare"
+				command: "/execute at @p run loot spawn ~ ~1 ~ loot aof:loot_bags/industrial_revolution_loot_rare"
+				player_command: false
 			}]
 		}
 		{
@@ -244,9 +273,12 @@
 				}
 			]
 			rewards: [{
-				id: "529E34AAB5D0E878"
-				type: "loot"
-				table_id: 13756307348121783L
+				id: "57C269CE0DF67034"
+				type: "command"
+				title: "IR Common Loot Bag"
+				icon: "kubejs:loot_bag_common"
+				command: "/execute at @p run loot spawn ~ ~1 ~ loot aof:loot_bags/industrial_revolution_loot_common"
+				player_command: false
 			}]
 		}
 		{
@@ -266,9 +298,12 @@
 				item: "indrev:pulverizer_mk1"
 			}]
 			rewards: [{
-				id: "28BFAB8A86AD7ACF"
-				type: "loot"
-				table_id: 13756307348121783L
+				id: "46131EB89CEFFECD"
+				type: "command"
+				title: "IR Common Loot Bag"
+				icon: "kubejs:loot_bag_common"
+				command: "/execute at @p run loot spawn ~ ~1 ~ loot aof:loot_bags/industrial_revolution_loot_common"
+				player_command: false
 			}]
 		}
 		{
@@ -283,9 +318,12 @@
 				item: "indrev:solid_infuser_mk1"
 			}]
 			rewards: [{
-				id: "6662C98EC78F3304"
-				type: "loot"
-				table_id: 13756307348121783L
+				id: "410ED412233723AF"
+				type: "command"
+				title: "IR Common Loot Bag"
+				icon: "kubejs:loot_bag_common"
+				command: "/execute at @p run loot spawn ~ ~1 ~ loot aof:loot_bags/industrial_revolution_loot_common"
+				player_command: false
 			}]
 		}
 		{
@@ -308,9 +346,12 @@
 					count: 4
 				}
 				{
-					id: "54A9F43D6B3544F9"
-					type: "loot"
-					table_id: 13756307348121783L
+					id: "17A6F9360BAC4EB8"
+					type: "command"
+					title: "IR Common Loot Bag"
+					icon: "kubejs:loot_bag_common"
+					command: "/execute at @p run loot spawn ~ ~1 ~ loot aof:loot_bags/industrial_revolution_loot_common"
+					player_command: false
 				}
 			]
 		}
@@ -367,9 +408,12 @@
 				}
 			]
 			rewards: [{
-				id: "34F527025E277FDD"
-				type: "loot"
-				table_id: 13756307348121783L
+				id: "3E53C278EB695099"
+				type: "command"
+				title: "IR Common Loot Bag"
+				icon: "kubejs:loot_bag_common"
+				command: "/execute at @p run loot spawn ~ ~1 ~ loot aof:loot_bags/industrial_revolution_loot_common"
+				player_command: false
 			}]
 		}
 		{
@@ -384,9 +428,12 @@
 				item: "indrev:compressor_mk1"
 			}]
 			rewards: [{
-				id: "221A118BA6E687E1"
-				type: "loot"
-				table_id: 13756307348121783L
+				id: "7A8B758D007E31B4"
+				type: "command"
+				title: "IR Common Loot Bag"
+				icon: "kubejs:loot_bag_common"
+				command: "/execute at @p run loot spawn ~ ~1 ~ loot aof:loot_bags/industrial_revolution_loot_common"
+				player_command: false
 			}]
 		}
 		{
@@ -402,9 +449,12 @@
 				item: "indrev:fluid_infuser_mk1"
 			}]
 			rewards: [{
-				id: "1F8E2F0ACBC0B2BE"
-				type: "loot"
-				table_id: 13756307348121783L
+				id: "35D35206DCBD8187"
+				type: "command"
+				title: "IR Common Loot Bag"
+				icon: "kubejs:loot_bag_common"
+				command: "/execute at @p run loot spawn ~ ~1 ~ loot aof:loot_bags/industrial_revolution_loot_common"
+				player_command: false
 			}]
 		}
 		{
@@ -420,9 +470,12 @@
 				count: 4L
 			}]
 			rewards: [{
-				id: "5194420B21D62735"
-				type: "loot"
-				table_id: 13756307348121783L
+				id: "74FA63591DEBE176"
+				type: "command"
+				title: "IR Rare Loot Bag"
+				icon: "kubejs:loot_bag_rare"
+				command: "/execute at @p run loot spawn ~ ~1 ~ loot aof:loot_bags/industrial_revolution_loot_rare"
+				player_command: false
 			}]
 		}
 		{
@@ -440,9 +493,12 @@
 				count: 4L
 			}]
 			rewards: [{
-				id: "52C9FC817FDC6C0E"
-				type: "loot"
-				table_id: 13756307348121783L
+				id: "70FE93467EB59E75"
+				type: "command"
+				title: "IR Rare Loot Bag"
+				icon: "kubejs:loot_bag_rare"
+				command: "/execute at @p run loot spawn ~ ~1 ~ loot aof:loot_bags/industrial_revolution_loot_rare"
+				player_command: false
 			}]
 		}
 		{
@@ -457,9 +513,12 @@
 				count: 4L
 			}]
 			rewards: [{
-				id: "752D3493616DF405"
-				type: "loot"
-				table_id: 13756307348121783L
+				id: "2F78EABB9CDE6439"
+				type: "command"
+				title: "IR Rare Loot Bag"
+				icon: "kubejs:loot_bag_rare"
+				command: "/execute at @p run loot spawn ~ ~1 ~ loot aof:loot_bags/industrial_revolution_loot_rare"
+				player_command: false
 			}]
 		}
 		{
@@ -473,11 +532,20 @@
 				type: "item"
 				item: "indrev:energy_reader"
 			}]
-			rewards: [{
-				id: "76AC752565C62F15"
-				type: "loot"
-				table_id: 13756307348121783L
-			}]
+			rewards: [
+				{
+					id: "76AC752565C62F15"
+					type: "loot"
+				}
+				{
+					id: "06C0F4DB51EB6ABC"
+					type: "command"
+					title: "IR Common Loot Bag"
+					icon: "kubejs:loot_bag_common"
+					command: "/execute at @p run loot spawn ~ ~1 ~ loot aof:loot_bags/industrial_revolution_loot_common"
+					player_command: false
+				}
+			]
 		}
 		{
 			x: -11.0d
@@ -492,9 +560,12 @@
 				item: "indrev:fisher_mk2"
 			}]
 			rewards: [{
-				id: "66CCEA10C0DAA919"
-				type: "loot"
-				table_id: 13756307348121783L
+				id: "6CD7DDCAC7634A6D"
+				type: "command"
+				title: "IR Common Loot Bag"
+				icon: "kubejs:loot_bag_common"
+				command: "/execute at @p run loot spawn ~ ~1 ~ loot aof:loot_bags/industrial_revolution_loot_common"
+				player_command: false
 			}]
 		}
 		{
@@ -509,6 +580,14 @@
 				type: "item"
 				item: "indrev:solar_generator_mk3"
 			}]
+			rewards: [{
+				id: "14A566B17F4B8DE1"
+				type: "command"
+				title: "IR Rare Loot Bag"
+				icon: "kubejs:loot_bag_rare"
+				command: "/execute at @p run loot spawn ~ ~1 ~ loot aof:loot_bags/industrial_revolution_loot_rare"
+				player_command: false
+			}]
 		}
 		{
 			x: -12.5d
@@ -521,9 +600,12 @@
 				item: "indrev:fisher_mk3"
 			}]
 			rewards: [{
-				id: "27AF35B731705597"
-				type: "loot"
-				table_id: 13756307348121783L
+				id: "0E05A463DC5AB13D"
+				type: "command"
+				title: "IR Rare Loot Bag"
+				icon: "kubejs:loot_bag_rare"
+				command: "/execute at @p run loot spawn ~ ~1 ~ loot aof:loot_bags/industrial_revolution_loot_rare"
+				player_command: false
 			}]
 		}
 		{
@@ -537,9 +619,12 @@
 				item: "indrev:fisher_mk4"
 			}]
 			rewards: [{
-				id: "0114868109ACE32E"
-				type: "loot"
-				table_id: 13756307348121783L
+				id: "7B4F590CBD04DD6D"
+				type: "command"
+				title: "IR Rare Loot Bag"
+				icon: "kubejs:loot_bag_rare"
+				command: "/execute at @p run loot spawn ~ ~1 ~ loot aof:loot_bags/industrial_revolution_loot_rare"
+				player_command: false
 			}]
 		}
 		{
@@ -554,9 +639,12 @@
 				item: "indrev:empty_enhancer"
 			}]
 			rewards: [{
-				id: "543BD1ABDAE0E105"
-				type: "loot"
-				table_id: 13756307348121783L
+				id: "11BF0AB4A36E9625"
+				type: "command"
+				title: "IR Common Loot Bag"
+				icon: "kubejs:loot_bag_common"
+				command: "/execute at @p run loot spawn ~ ~1 ~ loot aof:loot_bags/industrial_revolution_loot_common"
+				player_command: false
 			}]
 		}
 		{
@@ -603,9 +691,12 @@
 				}
 			]
 			rewards: [{
-				id: "3D7B935C1634C20B"
-				type: "loot"
-				table_id: 13756307348121783L
+				id: "6B858052DF67DC3E"
+				type: "command"
+				title: "IR Common Loot Bag"
+				icon: "kubejs:loot_bag_common"
+				command: "/execute at @p run loot spawn ~ ~1 ~ loot aof:loot_bags/industrial_revolution_loot_common"
+				player_command: false
 			}]
 		}
 		{
@@ -641,9 +732,12 @@
 				}
 			]
 			rewards: [{
-				id: "11D7F980AD5F40EC"
-				type: "loot"
-				table_id: 13756307348121783L
+				id: "278A2E90AFCDB9A0"
+				type: "command"
+				title: "IR Common Loot Bag"
+				icon: "kubejs:loot_bag_common"
+				command: "/execute at @p run loot spawn ~ ~1 ~ loot aof:loot_bags/industrial_revolution_loot_common"
+				player_command: false
 			}]
 		}
 		{
@@ -714,9 +808,12 @@
 					item: "minecraft:redstone_block"
 				}
 				{
-					id: "53F7D8AA1DA66F13"
-					type: "loot"
-					table_id: 13756307348121783L
+					id: "0D6E550E5B126A3D"
+					type: "command"
+					title: "IR Rare Loot Bag"
+					icon: "kubejs:loot_bag_rare"
+					command: "/execute at @p run loot spawn ~ ~1 ~ loot aof:loot_bags/industrial_revolution_loot_rare"
+					player_command: false
 				}
 			]
 		}
@@ -732,9 +829,12 @@
 				item: "indrev:fluid_pipe_mk2"
 			}]
 			rewards: [{
-				id: "22E5732EF6A28BDC"
-				type: "loot"
-				table_id: 13756307348121783L
+				id: "440E72651B7C90D6"
+				type: "command"
+				title: "IR Common Loot Bag"
+				icon: "kubejs:loot_bag_common"
+				command: "/execute at @p run loot spawn ~ ~1 ~ loot aof:loot_bags/industrial_revolution_loot_common"
+				player_command: false
 			}]
 		}
 		{
@@ -749,9 +849,12 @@
 				item: "indrev:item_pipe_mk2"
 			}]
 			rewards: [{
-				id: "25FD723F0C029E82"
-				type: "loot"
-				table_id: 13756307348121783L
+				id: "0AA6FE219A0D25AA"
+				type: "command"
+				title: "IR Common Loot Bag"
+				icon: "kubejs:loot_bag_common"
+				command: "/execute at @p run loot spawn ~ ~1 ~ loot aof:loot_bags/industrial_revolution_loot_common"
+				player_command: false
 			}]
 		}
 		{
@@ -765,9 +868,12 @@
 				item: "indrev:cable_mk2"
 			}]
 			rewards: [{
-				id: "5251D4382E3BCAC6"
-				type: "loot"
-				table_id: 13756307348121783L
+				id: "07707A91F2F393DF"
+				type: "command"
+				title: "IR Common Loot Bag"
+				icon: "kubejs:loot_bag_common"
+				command: "/execute at @p run loot spawn ~ ~1 ~ loot aof:loot_bags/industrial_revolution_loot_common"
+				player_command: false
 			}]
 		}
 		{
@@ -782,9 +888,12 @@
 				item: "indrev:fluid_pipe_mk1"
 			}]
 			rewards: [{
-				id: "17FF943438AE22F3"
-				type: "loot"
-				table_id: 13756307348121783L
+				id: "03D83DCD6EDF3D49"
+				type: "command"
+				title: "IR Common Loot Bag"
+				icon: "kubejs:loot_bag_common"
+				command: "/execute at @p run loot spawn ~ ~1 ~ loot aof:loot_bags/industrial_revolution_loot_common"
+				player_command: false
 			}]
 		}
 		{
@@ -804,9 +913,12 @@
 				item: "indrev:item_pipe_mk1"
 			}]
 			rewards: [{
-				id: "1D37D2B41AF9E808"
-				type: "loot"
-				table_id: 13756307348121783L
+				id: "0FAF067F082BE5F4"
+				type: "command"
+				title: "IR Common Loot Bag"
+				icon: "kubejs:loot_bag_common"
+				command: "/execute at @p run loot spawn ~ ~1 ~ loot aof:loot_bags/industrial_revolution_loot_common"
+				player_command: false
 			}]
 		}
 		{
@@ -828,9 +940,12 @@
 				item: "indrev:cable_mk1"
 			}]
 			rewards: [{
-				id: "0D44182CE4517376"
-				type: "loot"
-				table_id: 13756307348121783L
+				id: "09F245D7B37C6427"
+				type: "command"
+				title: "IR Common Loot Bag"
+				icon: "kubejs:loot_bag_common"
+				command: "/execute at @p run loot spawn ~ ~1 ~ loot aof:loot_bags/industrial_revolution_loot_common"
+				player_command: false
 			}]
 		}
 		{
@@ -881,9 +996,12 @@
 				}
 			]
 			rewards: [{
-				id: "4D7FCD13AB1BA8C5"
-				type: "loot"
-				table_id: 13756307348121783L
+				id: "2782415DD5C958FC"
+				type: "command"
+				title: "IR Common Loot Bag"
+				icon: "kubejs:loot_bag_common"
+				command: "/execute at @p run loot spawn ~ ~1 ~ loot aof:loot_bags/industrial_revolution_loot_common"
+				player_command: false
 			}]
 		}
 		{
@@ -897,9 +1015,12 @@
 				item: "indrev:cable_mk3"
 			}]
 			rewards: [{
-				id: "381A9020931A780F"
-				type: "loot"
-				table_id: 13756307348121783L
+				id: "1A9B7A30AAECAE28"
+				type: "command"
+				title: "IR Rare Loot Bag"
+				icon: "kubejs:loot_bag_rare"
+				command: "/execute at @p run loot spawn ~ ~1 ~ loot aof:loot_bags/industrial_revolution_loot_rare"
+				player_command: false
 			}]
 		}
 		{
@@ -913,9 +1034,12 @@
 				item: "indrev:cable_mk4"
 			}]
 			rewards: [{
-				id: "2DCD7F715E34CA43"
-				type: "loot"
-				table_id: 13756307348121783L
+				id: "5CE1354CD0DC0A38"
+				type: "command"
+				title: "IR Rare Loot Bag"
+				icon: "kubejs:loot_bag_rare"
+				command: "/execute at @p run loot spawn ~ ~1 ~ loot aof:loot_bags/industrial_revolution_loot_rare"
+				player_command: false
 			}]
 		}
 		{
@@ -929,9 +1053,12 @@
 				item: "indrev:fluid_pipe_mk3"
 			}]
 			rewards: [{
-				id: "5D644B77B864BB4A"
-				type: "loot"
-				table_id: 13756307348121783L
+				id: "791B97E8B46C3AB4"
+				type: "command"
+				title: "IR Rare Loot Bag"
+				icon: "kubejs:loot_bag_rare"
+				command: "/execute at @p run loot spawn ~ ~1 ~ loot aof:loot_bags/industrial_revolution_loot_rare"
+				player_command: false
 			}]
 		}
 		{
@@ -948,9 +1075,12 @@
 				item: "indrev:fluid_pipe_mk4"
 			}]
 			rewards: [{
-				id: "158087702069385C"
-				type: "loot"
-				table_id: 13756307348121783L
+				id: "0BC28E58B7DEEE0E"
+				type: "command"
+				title: "IR Rare Loot Bag"
+				icon: "kubejs:loot_bag_rare"
+				command: "/execute at @p run loot spawn ~ ~1 ~ loot aof:loot_bags/industrial_revolution_loot_rare"
+				player_command: false
 			}]
 		}
 		{
@@ -964,9 +1094,12 @@
 				item: "indrev:item_pipe_mk3"
 			}]
 			rewards: [{
-				id: "27E1B461392AC7D9"
-				type: "loot"
-				table_id: 13756307348121783L
+				id: "673C2FEFA35058A6"
+				type: "command"
+				title: "IR Rare Loot Bag"
+				icon: "kubejs:loot_bag_rare"
+				command: "/execute at @p run loot spawn ~ ~1 ~ loot aof:loot_bags/industrial_revolution_loot_rare"
+				player_command: false
 			}]
 		}
 		{
@@ -980,9 +1113,12 @@
 				item: "indrev:item_pipe_mk4"
 			}]
 			rewards: [{
-				id: "18147A41EE873B3F"
-				type: "loot"
-				table_id: 13756307348121783L
+				id: "5468A1F377DE8E16"
+				type: "command"
+				title: "IR Rare Loot Bag"
+				icon: "kubejs:loot_bag_rare"
+				command: "/execute at @p run loot spawn ~ ~1 ~ loot aof:loot_bags/industrial_revolution_loot_rare"
+				player_command: false
 			}]
 		}
 		{
@@ -1034,9 +1170,12 @@
 					count: 3
 				}
 				{
-					id: "25140E5A75662601"
-					type: "loot"
-					table_id: 13756307348121783L
+					id: "7788E71BD7C7E08F"
+					type: "command"
+					title: "IR Rare Loot Bag"
+					icon: "kubejs:loot_bag_rare"
+					command: "/execute at @p run loot spawn ~ ~1 ~ loot aof:loot_bags/industrial_revolution_loot_rare"
+					player_command: false
 				}
 			]
 		}
@@ -1065,9 +1204,12 @@
 					count: 3
 				}
 				{
-					id: "7C8F6581E7DA8404"
-					type: "loot"
-					table_id: 13756307348121783L
+					id: "12D9C4DC72A3768D"
+					type: "command"
+					title: "IR Rare Loot Bag"
+					icon: "kubejs:loot_bag_rare"
+					command: "/execute at @p run loot spawn ~ ~1 ~ loot aof:loot_bags/industrial_revolution_loot_rare"
+					player_command: false
 				}
 			]
 		}
@@ -1096,9 +1238,12 @@
 					count: 3
 				}
 				{
-					id: "6E3E70CD66AEA39D"
-					type: "loot"
-					table_id: 13756307348121783L
+					id: "6DD320A876D4E29A"
+					type: "command"
+					title: "IR Rare Loot Bag"
+					icon: "kubejs:loot_bag_rare"
+					command: "/execute at @p run loot spawn ~ ~1 ~ loot aof:loot_bags/industrial_revolution_loot_rare"
+					player_command: false
 				}
 			]
 		}
@@ -1127,9 +1272,12 @@
 					count: 3
 				}
 				{
-					id: "00937948879409F0"
-					type: "loot"
-					table_id: 13756307348121783L
+					id: "746764C1CC14D22B"
+					type: "command"
+					title: "IR Rare Loot Bag"
+					icon: "kubejs:loot_bag_rare"
+					command: "/execute at @p run loot spawn ~ ~1 ~ loot aof:loot_bags/industrial_revolution_loot_rare"
+					player_command: false
 				}
 			]
 		}
@@ -1163,11 +1311,20 @@
 					item: "indrev:drain_mk1"
 				}
 			]
-			rewards: [{
-				id: "5C6D97E7668B3098"
-				type: "loot"
-				table_id: 13756307348121783L
-			}]
+			rewards: [
+				{
+					id: "5C6D97E7668B3098"
+					type: "loot"
+				}
+				{
+					id: "19808F09D6FE3E09"
+					type: "command"
+					title: "IR Common Loot Bag"
+					icon: "kubejs:loot_bag_common"
+					command: "/execute at @p run loot spawn ~ ~1 ~ loot aof:loot_bags/industrial_revolution_loot_common"
+					player_command: false
+				}
+			]
 		}
 		{
 			title: "Charging the Core of Modularity"
@@ -1213,9 +1370,12 @@
 				}
 			]
 			rewards: [{
-				id: "0D2865452BF707D1"
-				type: "loot"
-				table_id: 13756307348121783L
+				id: "789B8EBA44137D09"
+				type: "command"
+				title: "IR Rare Loot Bag"
+				icon: "kubejs:loot_bag_rare"
+				command: "/execute at @p run loot spawn ~ ~1 ~ loot aof:loot_bags/industrial_revolution_loot_rare"
+				player_command: false
 			}]
 		}
 		{
@@ -1230,9 +1390,12 @@
 				item: "indrev:modular_core_activated"
 			}]
 			rewards: [{
-				id: "2E9145E6B7AB5881"
-				type: "loot"
-				table_id: 13756307348121783L
+				id: "5A5099B092E1219D"
+				type: "command"
+				title: "IR Rare Loot Bag"
+				icon: "kubejs:loot_bag_rare"
+				command: "/execute at @p run loot spawn ~ ~1 ~ loot aof:loot_bags/industrial_revolution_loot_rare"
+				player_command: false
 			}]
 		}
 		{
@@ -1253,9 +1416,12 @@
 				item: "indrev:modular_workbench_mk4"
 			}]
 			rewards: [{
-				id: "77B651605B9376EF"
-				type: "loot"
-				table_id: 13756307348121783L
+				id: "1C33ED6AFA03FA1F"
+				type: "command"
+				title: "IR Rare Loot Bag"
+				icon: "kubejs:loot_bag_rare"
+				command: "/execute at @p run loot spawn ~ ~1 ~ loot aof:loot_bags/industrial_revolution_loot_rare"
+				player_command: false
 			}]
 		}
 		{
@@ -1270,9 +1436,12 @@
 				count: 4L
 			}]
 			rewards: [{
-				id: "507CB052CC2BE3C8"
-				type: "loot"
-				table_id: 13756307348121783L
+				id: "37847037A012D05C"
+				type: "command"
+				title: "IR Rare Loot Bag"
+				icon: "kubejs:loot_bag_rare"
+				command: "/execute at @p run loot spawn ~ ~1 ~ loot aof:loot_bags/industrial_revolution_loot_rare"
+				player_command: false
 			}]
 		}
 		{
@@ -1288,9 +1457,12 @@
 				item: "indrev:tier_upgrade_mk2"
 			}]
 			rewards: [{
-				id: "6EB0251B4BF210DD"
-				type: "loot"
-				table_id: 13756307348121783L
+				id: "587EA64BEAEB47E2"
+				type: "command"
+				title: "IR Rare Loot Bag"
+				icon: "kubejs:loot_bag_rare"
+				command: "/execute at @p run loot spawn ~ ~1 ~ loot aof:loot_bags/industrial_revolution_loot_rare"
+				player_command: false
 			}]
 		}
 		{
@@ -1306,9 +1478,12 @@
 				item: "indrev:tier_upgrade_mk3"
 			}]
 			rewards: [{
-				id: "1B52048DEE56AB7B"
-				type: "loot"
-				table_id: 13756307348121783L
+				id: "3272E3642C6BAEB3"
+				type: "command"
+				title: "IR Rare Loot Bag"
+				icon: "kubejs:loot_bag_rare"
+				command: "/execute at @p run loot spawn ~ ~1 ~ loot aof:loot_bags/industrial_revolution_loot_rare"
+				player_command: false
 			}]
 		}
 		{
@@ -1324,9 +1499,12 @@
 				item: "indrev:tier_upgrade_mk4"
 			}]
 			rewards: [{
-				id: "2B0681D399E375D0"
-				type: "loot"
-				table_id: 13756307348121783L
+				id: "07F13B3B745111E0"
+				type: "command"
+				title: "IR Rare Loot Bag"
+				icon: "kubejs:loot_bag_rare"
+				command: "/execute at @p run loot spawn ~ ~1 ~ loot aof:loot_bags/industrial_revolution_loot_rare"
+				player_command: false
 			}]
 		}
 		{
@@ -1360,9 +1538,12 @@
 				}
 			]
 			rewards: [{
-				id: "725874DA6AC16960"
-				type: "loot"
-				table_id: 13756307348121783L
+				id: "7E48E5130E230EB3"
+				type: "command"
+				title: "IR Rare Loot Bag"
+				icon: "kubejs:loot_bag_rare"
+				command: "/execute at @p run loot spawn ~ ~1 ~ loot aof:loot_bags/industrial_revolution_loot_rare"
+				player_command: false
 			}]
 		}
 		{
@@ -1377,9 +1558,12 @@
 				item: "indrev:charge_pad_mk4"
 			}]
 			rewards: [{
-				id: "0B1A74509D84A62B"
-				type: "loot"
-				table_id: 13756307348121783L
+				id: "1E7965DA8EB42F5A"
+				type: "command"
+				title: "IR Rare Loot Bag"
+				icon: "kubejs:loot_bag_rare"
+				command: "/execute at @p run loot spawn ~ ~1 ~ loot aof:loot_bags/industrial_revolution_loot_rare"
+				player_command: false
 			}]
 		}
 		{
@@ -1415,9 +1599,12 @@
 				}
 			]
 			rewards: [{
-				id: "2BCBE7B3599797CC"
-				type: "loot"
-				table_id: 13756307348121783L
+				id: "2FCDBB4BBCA0CABD"
+				type: "command"
+				title: "IR Rare Loot Bag"
+				icon: "kubejs:loot_bag_rare"
+				command: "/execute at @p run loot spawn ~ ~1 ~ loot aof:loot_bags/industrial_revolution_loot_rare"
+				player_command: false
 			}]
 		}
 		{
@@ -1432,9 +1619,12 @@
 				item: "indrev:recycler_mk2"
 			}]
 			rewards: [{
-				id: "44697F296487C36E"
-				type: "loot"
-				table_id: 13756307348121783L
+				id: "2B02F5E3B81155C5"
+				type: "command"
+				title: "IR Common Loot Bag"
+				icon: "kubejs:loot_bag_common"
+				command: "/execute at @p run loot spawn ~ ~1 ~ loot aof:loot_bags/industrial_revolution_loot_common"
+				player_command: false
 			}]
 		}
 		{
@@ -1450,9 +1640,12 @@
 				item: "indrev:biomass_generator_mk3"
 			}]
 			rewards: [{
-				id: "6D8D6AE7F244BE13"
-				type: "loot"
-				table_id: 13756307348121783L
+				id: "3FEA619A9B299655"
+				type: "command"
+				title: "IR Rare Loot Bag"
+				icon: "kubejs:loot_bag_rare"
+				command: "/execute at @p run loot spawn ~ ~1 ~ loot aof:loot_bags/industrial_revolution_loot_rare"
+				player_command: false
 			}]
 		}
 		{
@@ -1467,9 +1660,12 @@
 				item: "indrev:heat_generator_mk4"
 			}]
 			rewards: [{
-				id: "26E58D993BF58219"
-				type: "loot"
-				table_id: 13756307348121783L
+				id: "44EBF25DDD272F6A"
+				type: "command"
+				title: "IR Rare Loot Bag"
+				icon: "kubejs:loot_bag_rare"
+				command: "/execute at @p run loot spawn ~ ~1 ~ loot aof:loot_bags/industrial_revolution_loot_rare"
+				player_command: false
 			}]
 		}
 	]

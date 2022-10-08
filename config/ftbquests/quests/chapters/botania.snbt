@@ -44,6 +44,14 @@
 				advancement: "botania:main/flower_pickup"
 				criterion: ""
 			}]
+			rewards: [{
+				id: "44CB89CD06FF8E1E"
+				type: "command"
+				title: "Magic Common Loot Bag"
+				icon: "kubejs:loot_bag_common"
+				command: "/execute at @p run loot spawn ~ ~1 ~ loot aof:loot_bags/magic_common"
+				player_command: false
+			}]
 		}
 		{
 			x: 3.5d
@@ -56,9 +64,12 @@
 				item: "botania:apothecary_default"
 			}]
 			rewards: [{
-				id: "34A5D43BDC1DCA5C"
-				type: "loot"
-				table_id: 13756307348121783L
+				id: "417A2064E378817D"
+				type: "command"
+				title: "Magic Common Loot Bag"
+				icon: "kubejs:loot_bag_common"
+				command: "/execute at @p run loot spawn ~ ~1 ~ loot aof:loot_bags/magic_common"
+				player_command: false
 			}]
 		}
 		{
@@ -72,9 +83,12 @@
 				item: "botania:pure_daisy"
 			}]
 			rewards: [{
-				id: "66EEAB12CBCF2641"
-				type: "loot"
-				table_id: 13756307348121783L
+				id: "429EE131486623B3"
+				type: "command"
+				title: "Magic Common Loot Bag"
+				icon: "kubejs:loot_bag_common"
+				command: "/execute at @p run loot spawn ~ ~1 ~ loot aof:loot_bags/magic_common"
+				player_command: false
 			}]
 		}
 		{
@@ -88,9 +102,12 @@
 				item: "botania:livingrock"
 			}]
 			rewards: [{
-				id: "67280EDFF2CB7CD5"
-				type: "loot"
-				table_id: 13756307348121783L
+				id: "0A04030B976599F1"
+				type: "command"
+				title: "Magic Common Loot Bag"
+				icon: "kubejs:loot_bag_common"
+				command: "/execute at @p run loot spawn ~ ~1 ~ loot aof:loot_bags/magic_common"
+				player_command: false
 			}]
 		}
 		{
@@ -105,16 +122,19 @@
 				count: 4L
 			}]
 			rewards: [{
-				id: "3DDFB816E5E69CF8"
-				type: "random"
-				table_id: 13756307348121783L
+				id: "6C219E16A322B09F"
+				type: "command"
+				title: "Magic Rare Loot Bag"
+				icon: "kubejs:loot_bag_rare"
+				command: "/execute at @p run loot spawn ~ ~1 ~ loot aof:loot_bags/magic_rare"
+				player_command: false
 			}]
 		}
 		{
 			title: "Where do i store all this flowers?"
 			x: -4.5d
-			y: 5.0d
-			subtitle: "There are 16 different mystical flowers and this pouch can hold all of it"
+			y: 2.5d
+			subtitle: "There are 16 different mystical flowers, this pouch can hold them all!"
 			dependencies: ["5309927D0A001918"]
 			id: "1DCA13B8B677B0CC"
 			tasks: [{
@@ -148,15 +168,18 @@
 					id: "botania:twig_wand"
 					Count: 1b
 					tag: {
-						color2: 0
 						color1: 0
+						color2: 0
 					}
 				}
 			}]
 			rewards: [{
-				id: "1C6554E07F67B1F5"
-				type: "item"
-				item: "minecraft:dispenser"
+				id: "141FA1B8C7EC450C"
+				type: "command"
+				title: "Magic Rare Loot Bag"
+				icon: "kubejs:loot_bag_rare"
+				command: "/execute at @p run loot spawn ~ ~1 ~ loot aof:loot_bags/magic_rare"
+				player_command: false
 			}]
 		}
 		{
@@ -170,9 +193,12 @@
 				item: "botania:mana_pool"
 			}]
 			rewards: [{
-				id: "413331726465D6DF"
-				type: "loot"
-				table_id: 13756307348121783L
+				id: "6D6720B2005407B8"
+				type: "command"
+				title: "Magic Rare Loot Bag"
+				icon: "kubejs:loot_bag_rare"
+				command: "/execute at @p run loot spawn ~ ~1 ~ loot aof:loot_bags/magic_rare"
+				player_command: false
 			}]
 		}
 		{
@@ -186,191 +212,18 @@
 				item: "botania:mana_spreader"
 			}]
 			rewards: [{
-				id: "5212903C504828BB"
-				type: "random"
-				table_id: 13756307348121783L
-			}]
-		}
-		{
-			x: -1.5d
-			y: 3.5d
-			dependencies: ["1DCA13B8B677B0CC"]
-			id: "4DE51B6F7826D1CD"
-			tasks: [{
-				id: "07A6AB4B85652E07"
-				type: "item"
-				item: "botania:white_mystical_flower"
-			}]
-		}
-		{
-			x: -1.5d
-			y: 7.5d
-			dependencies: ["1DCA13B8B677B0CC"]
-			id: "3A802F4315CA09AC"
-			tasks: [{
-				id: "30766F89265B3BC9"
-				type: "item"
-				item: "botania:orange_mystical_flower"
-			}]
-		}
-		{
-			x: -1.5d
-			y: 1.5d
-			dependencies: ["1DCA13B8B677B0CC"]
-			id: "4AAEDE4C41C2AF0F"
-			tasks: [{
-				id: "04FBA32A06D9CA04"
-				type: "item"
-				item: "botania:magenta_mystical_flower"
-			}]
-		}
-		{
-			x: -7.5d
-			y: 6.5d
-			dependencies: ["1DCA13B8B677B0CC"]
-			id: "5F0B9CD82C302A08"
-			tasks: [{
-				id: "1E582D83BE4A3410"
-				type: "item"
-				item: "botania:light_blue_mystical_flower"
-			}]
-		}
-		{
-			x: -7.5d
-			y: 3.5d
-			dependencies: ["1DCA13B8B677B0CC"]
-			id: "35DB2E88CCF31C1C"
-			tasks: [{
-				id: "497F834F6053DBDD"
-				type: "item"
-				item: "botania:yellow_mystical_flower"
-			}]
-		}
-		{
-			x: -7.5d
-			y: 2.5d
-			dependencies: ["1DCA13B8B677B0CC"]
-			id: "58FBD5D0BA065864"
-			tasks: [{
-				id: "0E62D64F225C8586"
-				type: "item"
-				item: "botania:lime_mystical_flower"
-			}]
-		}
-		{
-			x: -1.5d
-			y: 2.5d
-			dependencies: ["1DCA13B8B677B0CC"]
-			id: "08536B9FF28A8555"
-			tasks: [{
-				id: "39072EF2554C48F9"
-				type: "item"
-				item: "botania:pink_mystical_flower"
-			}]
-		}
-		{
-			x: -1.5d
-			y: 8.5d
-			dependencies: ["1DCA13B8B677B0CC"]
-			id: "43BD2137533C261B"
-			tasks: [{
-				id: "60856CD19F9DA9F0"
-				type: "item"
-				item: "botania:gray_mystical_flower"
-			}]
-		}
-		{
-			x: -7.5d
-			y: 7.5d
-			dependencies: ["1DCA13B8B677B0CC"]
-			id: "21452E2B08AC6596"
-			tasks: [{
-				id: "39960953B542370B"
-				type: "item"
-				item: "botania:light_gray_mystical_flower"
-			}]
-		}
-		{
-			x: -7.5d
-			y: 1.5d
-			dependencies: ["1DCA13B8B677B0CC"]
-			id: "7F83CFD60F1F6E5F"
-			tasks: [{
-				id: "76FEC99D553A4976"
-				type: "item"
-				item: "botania:cyan_mystical_flower"
-			}]
-		}
-		{
-			x: -1.5d
-			y: 5.5d
-			dependencies: ["1DCA13B8B677B0CC"]
-			id: "52327DFBED8CEE77"
-			tasks: [{
-				id: "5ADC333844F07EF5"
-				type: "item"
-				item: "botania:purple_mystical_flower"
-			}]
-		}
-		{
-			x: -7.5d
-			y: 4.5d
-			dependencies: ["1DCA13B8B677B0CC"]
-			id: "57A097A991947816"
-			tasks: [{
-				id: "221EDF827DAE5DD7"
-				type: "item"
-				item: "botania:blue_mystical_flower"
-			}]
-		}
-		{
-			x: -1.5d
-			y: 4.5d
-			dependencies: ["1DCA13B8B677B0CC"]
-			id: "68D053888D93021C"
-			tasks: [{
-				id: "7DC7AFDE150F5692"
-				type: "item"
-				item: "botania:brown_mystical_flower"
-			}]
-		}
-		{
-			x: -7.5d
-			y: 5.5d
-			dependencies: ["1DCA13B8B677B0CC"]
-			id: "019E2DEA791A8DF8"
-			tasks: [{
-				id: "241C2066FBF8A473"
-				type: "item"
-				item: "botania:green_mystical_flower"
-			}]
-		}
-		{
-			x: -1.5d
-			y: 6.5d
-			dependencies: ["1DCA13B8B677B0CC"]
-			id: "7F04B71002CA834C"
-			tasks: [{
-				id: "7324CC49B2E900D7"
-				type: "item"
-				item: "botania:red_mystical_flower"
-			}]
-		}
-		{
-			x: -7.5d
-			y: 8.5d
-			dependencies: ["1DCA13B8B677B0CC"]
-			id: "561EA632CE2A4639"
-			tasks: [{
-				id: "6583B79E3F526CD2"
-				type: "item"
-				item: "botania:black_mystical_flower"
+				id: "22BB6DD3A3E50361"
+				type: "command"
+				title: "Magic Rare Loot Bag"
+				icon: "kubejs:loot_bag_rare"
+				command: "/execute at @p run loot spawn ~ ~1 ~ loot aof:loot_bags/magic_rare"
+				player_command: false
 			}]
 		}
 		{
 			x: 3.5d
 			y: -1.5d
-			description: ["Craft and Endoflame or Hydroageas using the Petal Apothecary"]
+			description: ["Craft an Endoflame or Hydroageas using the Petal Apothecary."]
 			dependencies: ["04C2CA40AEA918DB"]
 			id: "5CF7175F3F5F64F6"
 			tasks: [{
@@ -378,6 +231,14 @@
 				type: "advancement"
 				advancement: "botania:main/generating_flower"
 				criterion: ""
+			}]
+			rewards: [{
+				id: "65782C4E1F08EDF6"
+				type: "command"
+				title: "Magic Common Loot Bag"
+				icon: "kubejs:loot_bag_common"
+				command: "/execute at @p run loot spawn ~ ~1 ~ loot aof:loot_bags/magic_common"
+				player_command: false
 			}]
 		}
 		{
@@ -391,9 +252,13 @@
 				item: "botania:mana_pearl"
 			}]
 			rewards: [{
-				id: "5D8779B9971D3843"
-				type: "loot"
-				table_id: 13756307348121783L
+				id: "4E44B9F3781EA9B3"
+				type: "command"
+				title: "Magic Rare Loot Bag"
+				icon: "kubejs:loot_bag_rare"
+				auto: "enabled"
+				command: "/execute at @p run loot spawn ~ ~1 ~ loot aof:loot_bags/magic_rare"
+				player_command: false
 			}]
 		}
 		{
@@ -407,9 +272,12 @@
 				item: "botania:runic_altar"
 			}]
 			rewards: [{
-				id: "78823BF25B066C22"
-				type: "loot"
-				table_id: 13756307348121783L
+				id: "13977863C629CE2B"
+				type: "command"
+				title: "Magic Rare Loot Bag"
+				icon: "kubejs:loot_bag_rare"
+				command: "/execute at @p run loot spawn ~ ~1 ~ loot aof:loot_bags/magic_rare"
+				player_command: false
 			}]
 		}
 		{
@@ -433,9 +301,12 @@
 				item: "botania:lens_normal"
 			}]
 			rewards: [{
-				id: "5C6056C1FC0B672B"
-				type: "loot"
-				table_id: 13756307348121783L
+				id: "79282EB958FE7B99"
+				type: "command"
+				title: "Magic Common Loot Bag"
+				icon: "kubejs:loot_bag_common"
+				command: "/execute at @p run loot spawn ~ ~1 ~ loot aof:loot_bags/magic_common"
+				player_command: false
 			}]
 		}
 		{
@@ -450,9 +321,12 @@
 				item: "botania:lens_speed"
 			}]
 			rewards: [{
-				id: "0F0D6B18F5E87BC3"
-				type: "random"
-				table_id: 13756307348121783L
+				id: "3B92B6A6A151363E"
+				type: "command"
+				title: "Magic Rare Loot Bag"
+				icon: "kubejs:loot_bag_rare"
+				command: "/execute at @p run loot spawn ~ ~1 ~ loot aof:loot_bags/magic_rare"
+				player_command: false
 			}]
 		}
 		{
@@ -467,9 +341,12 @@
 				item: "botania:lens_power"
 			}]
 			rewards: [{
-				id: "47FD1CBAF6043D31"
-				type: "random"
-				table_id: 13756307348121783L
+				id: "50CAF7094EA61645"
+				type: "command"
+				title: "Magic Rare Loot Bag"
+				icon: "kubejs:loot_bag_rare"
+				command: "/execute at @p run loot spawn ~ ~1 ~ loot aof:loot_bags/magic_rare"
+				player_command: false
 			}]
 		}
 		{
@@ -486,7 +363,6 @@
 			rewards: [{
 				id: "710813CACCF021EE"
 				type: "random"
-				table_id: 13756307348121783L
 			}]
 		}
 		{
@@ -501,9 +377,12 @@
 				item: "botania:lens_efficiency"
 			}]
 			rewards: [{
-				id: "118B8A22ED426A58"
-				type: "random"
-				table_id: 13756307348121783L
+				id: "41B706060EAC7D17"
+				type: "command"
+				title: "Magic Rare Loot Bag"
+				icon: "kubejs:loot_bag_rare"
+				command: "/execute at @p run loot spawn ~ ~1 ~ loot aof:loot_bags/magic_rare"
+				player_command: false
 			}]
 		}
 		{
@@ -518,9 +397,12 @@
 				item: "botania:lens_bounce"
 			}]
 			rewards: [{
-				id: "34666A32A9D04D9E"
-				type: "random"
-				table_id: 13756307348121783L
+				id: "5FA3A1287667D5E3"
+				type: "command"
+				title: "Magic Rare Loot Bag"
+				icon: "kubejs:loot_bag_rare"
+				command: "/execute at @p run loot spawn ~ ~1 ~ loot aof:loot_bags/magic_rare"
+				player_command: false
 			}]
 		}
 		{
@@ -535,9 +417,12 @@
 				item: "botania:lens_gravity"
 			}]
 			rewards: [{
-				id: "1FD32DD0A6CA9AA2"
-				type: "random"
-				table_id: 13756307348121783L
+				id: "2CF8E740BE18C9B2"
+				type: "command"
+				title: "Magic Rare Loot Bag"
+				icon: "kubejs:loot_bag_rare"
+				command: "/execute at @p run loot spawn ~ ~1 ~ loot aof:loot_bags/magic_rare"
+				player_command: false
 			}]
 		}
 		{
@@ -552,9 +437,12 @@
 				item: "botania:lens_mine"
 			}]
 			rewards: [{
-				id: "6470510379587C9A"
-				type: "random"
-				table_id: 13756307348121783L
+				id: "31197A754DB9A348"
+				type: "command"
+				title: "Magic Rare Loot Bag"
+				icon: "kubejs:loot_bag_rare"
+				command: "/execute at @p run loot spawn ~ ~1 ~ loot aof:loot_bags/magic_rare"
+				player_command: false
 			}]
 		}
 		{
@@ -569,9 +457,12 @@
 				item: "botania:lens_damage"
 			}]
 			rewards: [{
-				id: "790C8033BFA6240D"
-				type: "random"
-				table_id: 13756307348121783L
+				id: "28E0643BDA5FEFB3"
+				type: "command"
+				title: "Magic Rare Loot Bag"
+				icon: "kubejs:loot_bag_rare"
+				command: "/execute at @p run loot spawn ~ ~1 ~ loot aof:loot_bags/magic_rare"
+				player_command: false
 			}]
 		}
 		{
@@ -586,9 +477,12 @@
 				item: "botania:lens_phantom"
 			}]
 			rewards: [{
-				id: "1FDEA087AC0D3CC3"
-				type: "random"
-				table_id: 13756307348121783L
+				id: "40A4019B787B1FE7"
+				type: "command"
+				title: "Magic Rare Loot Bag"
+				icon: "kubejs:loot_bag_rare"
+				command: "/execute at @p run loot spawn ~ ~1 ~ loot aof:loot_bags/magic_rare"
+				player_command: false
 			}]
 		}
 		{
@@ -603,9 +497,12 @@
 				item: "botania:lens_magnet"
 			}]
 			rewards: [{
-				id: "56D921B376811719"
-				type: "random"
-				table_id: 13756307348121783L
+				id: "65E91824E03FF9CC"
+				type: "command"
+				title: "Magic Rare Loot Bag"
+				icon: "kubejs:loot_bag_rare"
+				command: "/execute at @p run loot spawn ~ ~1 ~ loot aof:loot_bags/magic_rare"
+				player_command: false
 			}]
 		}
 		{
@@ -620,9 +517,12 @@
 				item: "botania:lens_explosive"
 			}]
 			rewards: [{
-				id: "3D5110317DCC62BB"
-				type: "random"
-				table_id: 13756307348121783L
+				id: "6290DE10073837B3"
+				type: "command"
+				title: "Magic Rare Loot Bag"
+				icon: "kubejs:loot_bag_rare"
+				command: "/execute at @p run loot spawn ~ ~1 ~ loot aof:loot_bags/magic_rare"
+				player_command: false
 			}]
 		}
 		{
@@ -637,9 +537,12 @@
 				item: "botania:lens_influence"
 			}]
 			rewards: [{
-				id: "5ACC5B12DF11E99A"
-				type: "random"
-				table_id: 13756307348121783L
+				id: "479EDC382F299AE3"
+				type: "command"
+				title: "Magic Rare Loot Bag"
+				icon: "kubejs:loot_bag_rare"
+				command: "/execute at @p run loot spawn ~ ~1 ~ loot aof:loot_bags/magic_rare"
+				player_command: false
 			}]
 		}
 		{
@@ -654,9 +557,12 @@
 				item: "botania:lens_weight"
 			}]
 			rewards: [{
-				id: "1825485AF24995C0"
-				type: "random"
-				table_id: 13756307348121783L
+				id: "23C852C91316ECE9"
+				type: "command"
+				title: "Magic Rare Loot Bag"
+				icon: "kubejs:loot_bag_rare"
+				command: "/execute at @p run loot spawn ~ ~1 ~ loot aof:loot_bags/magic_rare"
+				player_command: false
 			}]
 		}
 		{
@@ -672,9 +578,12 @@
 				item: "botania:lens_paint"
 			}]
 			rewards: [{
-				id: "6808A9477C234300"
-				type: "random"
-				table_id: 13756307348121783L
+				id: "615753FD9C113D52"
+				type: "command"
+				title: "Magic Epic Loot Bag"
+				icon: "kubejs:loot_bag_epic"
+				command: "/execute at @p run loot spawn ~ ~1 ~ loot aof:loot_bags/magic_epic"
+				player_command: false
 			}]
 		}
 		{
@@ -689,9 +598,12 @@
 				item: "botania:lens_fire"
 			}]
 			rewards: [{
-				id: "07543B14A0390231"
-				type: "random"
-				table_id: 13756307348121783L
+				id: "66275740AD52BD66"
+				type: "command"
+				title: "Magic Rare Loot Bag"
+				icon: "kubejs:loot_bag_rare"
+				command: "/execute at @p run loot spawn ~ ~1 ~ loot aof:loot_bags/magic_rare"
+				player_command: false
 			}]
 		}
 		{
@@ -706,9 +618,12 @@
 				item: "botania:lens_piston"
 			}]
 			rewards: [{
-				id: "107A54EB41BB3829"
-				type: "random"
-				table_id: 13756307348121783L
+				id: "1EAFC68E482EA47E"
+				type: "command"
+				title: "Magic Rare Loot Bag"
+				icon: "kubejs:loot_bag_rare"
+				command: "/execute at @p run loot spawn ~ ~1 ~ loot aof:loot_bags/magic_rare"
+				player_command: false
 			}]
 		}
 		{
@@ -723,9 +638,12 @@
 				item: "botania:lens_light"
 			}]
 			rewards: [{
-				id: "75B08A41C7D3ECEC"
-				type: "random"
-				table_id: 13756307348121783L
+				id: "65F31E2884D7D355"
+				type: "command"
+				title: "Magic Rare Loot Bag"
+				icon: "kubejs:loot_bag_rare"
+				command: "/execute at @p run loot spawn ~ ~1 ~ loot aof:loot_bags/magic_rare"
+				player_command: false
 			}]
 		}
 		{
@@ -741,9 +659,12 @@
 				item: "botania:lens_warp"
 			}]
 			rewards: [{
-				id: "3DAE71106C0000B2"
-				type: "random"
-				table_id: 13756307348121783L
+				id: "03249A3038AA6FA3"
+				type: "command"
+				title: "Magic Epic Loot Bag"
+				icon: "kubejs:loot_bag_epic"
+				command: "/execute at @p run loot spawn ~ ~1 ~ loot aof:loot_bags/magic_epic"
+				player_command: false
 			}]
 		}
 		{
@@ -759,9 +680,12 @@
 				item: "botania:lens_redirect"
 			}]
 			rewards: [{
-				id: "07735332E39195B8"
-				type: "random"
-				table_id: 13756307348121783L
+				id: "085AEBE8C060A3B4"
+				type: "command"
+				title: "Magic Epic Loot Bag"
+				icon: "kubejs:loot_bag_epic"
+				command: "/execute at @p run loot spawn ~ ~1 ~ loot aof:loot_bags/magic_epic"
+				player_command: false
 			}]
 		}
 		{
@@ -777,9 +701,12 @@
 				item: "botania:lens_firework"
 			}]
 			rewards: [{
-				id: "738E0FA01271BB70"
-				type: "random"
-				table_id: 13756307348121783L
+				id: "3AC230DE990F9B32"
+				type: "command"
+				title: "Magic Epic Loot Bag"
+				icon: "kubejs:loot_bag_epic"
+				command: "/execute at @p run loot spawn ~ ~1 ~ loot aof:loot_bags/magic_epic"
+				player_command: false
 			}]
 		}
 		{
@@ -798,9 +725,12 @@
 				item: "botania:lens_flare"
 			}]
 			rewards: [{
-				id: "26D34B7D1F820340"
-				type: "random"
-				table_id: 13756307348121783L
+				id: "2462E6AC2ADA718C"
+				type: "command"
+				title: "Magic Epic Loot Bag"
+				icon: "kubejs:loot_bag_epic"
+				command: "/execute at @p run loot spawn ~ ~1 ~ loot aof:loot_bags/magic_epic"
+				player_command: false
 			}]
 		}
 		{
@@ -817,7 +747,6 @@
 			rewards: [{
 				id: "61CA4D84BD25A2AF"
 				type: "random"
-				table_id: 13756307348121783L
 			}]
 		}
 		{
@@ -833,9 +762,12 @@
 				item: "botania:lens_tripwire"
 			}]
 			rewards: [{
-				id: "336C453DFE084D4B"
-				type: "random"
-				table_id: 13756307348121783L
+				id: "00EC6781AD444BDF"
+				type: "command"
+				title: "Magic Epic Loot Bag"
+				icon: "kubejs:loot_bag_epic"
+				command: "/execute at @p run loot spawn ~ ~1 ~ loot aof:loot_bags/magic_epic"
+				player_command: false
 			}]
 		}
 		{
@@ -849,9 +781,12 @@
 				item: "botania:manasteel_ingot"
 			}]
 			rewards: [{
-				id: "2A8BF48B9E1D4A8A"
-				type: "loot"
-				table_id: 13756307348121783L
+				id: "6E2004270200DBC2"
+				type: "command"
+				title: "Magic Rare Loot Bag"
+				icon: "kubejs:loot_bag_rare"
+				command: "/execute at @p run loot spawn ~ ~1 ~ loot aof:loot_bags/magic_rare"
+				player_command: false
 			}]
 		}
 		{
@@ -865,9 +800,12 @@
 				item: "botania:mana_diamond"
 			}]
 			rewards: [{
-				id: "322F454A268032BB"
-				type: "loot"
-				table_id: 13756307348121783L
+				id: "2D1BA4C7AE62BDCB"
+				type: "command"
+				title: "Magic Rare Loot Bag"
+				icon: "kubejs:loot_bag_rare"
+				command: "/execute at @p run loot spawn ~ ~1 ~ loot aof:loot_bags/magic_rare"
+				player_command: false
 			}]
 		}
 		{
@@ -885,9 +823,12 @@
 				item: "botania:terra_plate"
 			}]
 			rewards: [{
-				id: "4D227844DDEF4777"
-				type: "loot"
-				table_id: 13756307348121783L
+				id: "639809FCAC6DBAA3"
+				type: "command"
+				title: "Magic Epic Loot Bag"
+				icon: "kubejs:loot_bag_epic"
+				command: "/execute at @p run loot spawn ~ ~1 ~ loot aof:loot_bags/magic_epic"
+				player_command: false
 			}]
 		}
 		{
@@ -901,9 +842,12 @@
 				item: "botania:terrasteel_ingot"
 			}]
 			rewards: [{
-				id: "5C788FDEB221CF2C"
-				type: "loot"
-				table_id: 13756307348121783L
+				id: "2A208846A3971BAB"
+				type: "command"
+				title: "Magic Rare Loot Bag"
+				icon: "kubejs:loot_bag_rare"
+				command: "/execute at @p run loot spawn ~ ~1 ~ loot aof:loot_bags/magic_rare"
+				player_command: false
 			}]
 		}
 		{
@@ -919,11 +863,6 @@
 				type: "checkmark"
 				title: "Open the Portal to Alfheim"
 			}]
-			rewards: [{
-				id: "356156A3F6908124"
-				type: "loot"
-				table_id: 13756307348121783L
-			}]
 		}
 		{
 			x: 18.5d
@@ -936,9 +875,12 @@
 				item: "botania:rune_water"
 			}]
 			rewards: [{
-				id: "2631BA3B5CADEBAF"
-				type: "loot"
-				table_id: 13756307348121783L
+				id: "7F5EB96EEAB61B27"
+				type: "command"
+				title: "Magic Rare Loot Bag"
+				icon: "kubejs:loot_bag_rare"
+				command: "/execute at @p run loot spawn ~ ~1 ~ loot aof:loot_bags/magic_rare"
+				player_command: false
 			}]
 		}
 		{
@@ -952,9 +894,12 @@
 				item: "botania:rune_fire"
 			}]
 			rewards: [{
-				id: "65B561F85DB541CE"
-				type: "loot"
-				table_id: 13756307348121783L
+				id: "0E34CDE36975567E"
+				type: "command"
+				title: "Magic Rare Loot Bag"
+				icon: "kubejs:loot_bag_rare"
+				command: "/execute at @p run loot spawn ~ ~1 ~ loot aof:loot_bags/magic_rare"
+				player_command: false
 			}]
 		}
 		{
@@ -968,9 +913,12 @@
 				item: "botania:rune_air"
 			}]
 			rewards: [{
-				id: "101750617AF2D572"
-				type: "loot"
-				table_id: 13756307348121783L
+				id: "3E0D04B06F5D1604"
+				type: "command"
+				title: "Magic Rare Loot Bag"
+				icon: "kubejs:loot_bag_rare"
+				command: "/execute at @p run loot spawn ~ ~1 ~ loot aof:loot_bags/magic_rare"
+				player_command: false
 			}]
 		}
 		{
@@ -984,9 +932,12 @@
 				item: "botania:rune_earth"
 			}]
 			rewards: [{
-				id: "72CDCEA1E079D81D"
-				type: "loot"
-				table_id: 13756307348121783L
+				id: "2307CF91ED5725C4"
+				type: "command"
+				title: "Magic Rare Loot Bag"
+				icon: "kubejs:loot_bag_rare"
+				command: "/execute at @p run loot spawn ~ ~1 ~ loot aof:loot_bags/magic_rare"
+				player_command: false
 			}]
 		}
 		{
@@ -1000,9 +951,12 @@
 				item: "botania:rune_spring"
 			}]
 			rewards: [{
-				id: "69A58AE36C0E8377"
-				type: "loot"
-				table_id: 13756307348121783L
+				id: "7DFC30D8ECE5E2F9"
+				type: "command"
+				title: "Magic Rare Loot Bag"
+				icon: "kubejs:loot_bag_rare"
+				command: "/execute at @p run loot spawn ~ ~1 ~ loot aof:loot_bags/magic_rare"
+				player_command: false
 			}]
 		}
 		{
@@ -1016,9 +970,12 @@
 				item: "botania:rune_summer"
 			}]
 			rewards: [{
-				id: "44DB622375DED57F"
-				type: "loot"
-				table_id: 13756307348121783L
+				id: "1723B010D4823277"
+				type: "command"
+				title: "Magic Rare Loot Bag"
+				icon: "kubejs:loot_bag_rare"
+				command: "/execute at @p run loot spawn ~ ~1 ~ loot aof:loot_bags/magic_rare"
+				player_command: false
 			}]
 		}
 		{
@@ -1032,9 +989,12 @@
 				item: "botania:rune_autumn"
 			}]
 			rewards: [{
-				id: "2EB002CAB54D9BA5"
-				type: "loot"
-				table_id: 13756307348121783L
+				id: "7B53279ABC8FC6D6"
+				type: "command"
+				title: "Magic Rare Loot Bag"
+				icon: "kubejs:loot_bag_rare"
+				command: "/execute at @p run loot spawn ~ ~1 ~ loot aof:loot_bags/magic_rare"
+				player_command: false
 			}]
 		}
 		{
@@ -1048,9 +1008,12 @@
 				item: "botania:rune_winter"
 			}]
 			rewards: [{
-				id: "105B6F550219DC07"
-				type: "loot"
-				table_id: 13756307348121783L
+				id: "08D409764503B56D"
+				type: "command"
+				title: "Magic Rare Loot Bag"
+				icon: "kubejs:loot_bag_rare"
+				command: "/execute at @p run loot spawn ~ ~1 ~ loot aof:loot_bags/magic_rare"
+				player_command: false
 			}]
 		}
 		{
@@ -1064,9 +1027,12 @@
 				item: "botania:rune_mana"
 			}]
 			rewards: [{
-				id: "3A817F43C857BBE7"
-				type: "loot"
-				table_id: 13756307348121783L
+				id: "0C57988048EE35A7"
+				type: "command"
+				title: "Magic Rare Loot Bag"
+				icon: "kubejs:loot_bag_rare"
+				command: "/execute at @p run loot spawn ~ ~1 ~ loot aof:loot_bags/magic_rare"
+				player_command: false
 			}]
 		}
 		{
@@ -1080,9 +1046,12 @@
 				item: "botania:rune_lust"
 			}]
 			rewards: [{
-				id: "2BFB471F8A048D45"
-				type: "loot"
-				table_id: 13756307348121783L
+				id: "76D03C8F26EF2CC4"
+				type: "command"
+				title: "Magic Rare Loot Bag"
+				icon: "kubejs:loot_bag_rare"
+				command: "/execute at @p run loot spawn ~ ~1 ~ loot aof:loot_bags/magic_rare"
+				player_command: false
 			}]
 		}
 		{
@@ -1096,9 +1065,12 @@
 				item: "botania:rune_gluttony"
 			}]
 			rewards: [{
-				id: "2FC3B5173E3B0F38"
-				type: "loot"
-				table_id: 13756307348121783L
+				id: "41898A3F710AF865"
+				type: "command"
+				title: "Magic Rare Loot Bag"
+				icon: "kubejs:loot_bag_rare"
+				command: "/execute at @p run loot spawn ~ ~1 ~ loot aof:loot_bags/magic_rare"
+				player_command: false
 			}]
 		}
 		{
@@ -1112,9 +1084,12 @@
 				item: "botania:rune_greed"
 			}]
 			rewards: [{
-				id: "681CD294086CEEA7"
-				type: "loot"
-				table_id: 13756307348121783L
+				id: "617874BFA46DC037"
+				type: "command"
+				title: "Magic Rare Loot Bag"
+				icon: "kubejs:loot_bag_rare"
+				command: "/execute at @p run loot spawn ~ ~1 ~ loot aof:loot_bags/magic_rare"
+				player_command: false
 			}]
 		}
 		{
@@ -1128,9 +1103,12 @@
 				item: "botania:rune_sloth"
 			}]
 			rewards: [{
-				id: "7D3CB6287AEC1486"
-				type: "loot"
-				table_id: 13756307348121783L
+				id: "51FC2A348D7F15B2"
+				type: "command"
+				title: "Magic Rare Loot Bag"
+				icon: "kubejs:loot_bag_rare"
+				command: "/execute at @p run loot spawn ~ ~1 ~ loot aof:loot_bags/magic_rare"
+				player_command: false
 			}]
 		}
 		{
@@ -1144,9 +1122,12 @@
 				item: "botania:rune_wrath"
 			}]
 			rewards: [{
-				id: "5F579F9CAA40B4A8"
-				type: "loot"
-				table_id: 13756307348121783L
+				id: "10A174CAC5A46B39"
+				type: "command"
+				title: "Magic Rare Loot Bag"
+				icon: "kubejs:loot_bag_rare"
+				command: "/execute at @p run loot spawn ~ ~1 ~ loot aof:loot_bags/magic_rare"
+				player_command: false
 			}]
 		}
 		{
@@ -1160,9 +1141,12 @@
 				item: "botania:rune_envy"
 			}]
 			rewards: [{
-				id: "72CA6545F9A3AEDD"
-				type: "loot"
-				table_id: 13756307348121783L
+				id: "62309BBBB1056147"
+				type: "command"
+				title: "Magic Rare Loot Bag"
+				icon: "kubejs:loot_bag_rare"
+				command: "/execute at @p run loot spawn ~ ~1 ~ loot aof:loot_bags/magic_rare"
+				player_command: false
 			}]
 		}
 		{
@@ -1176,9 +1160,12 @@
 				item: "botania:rune_pride"
 			}]
 			rewards: [{
-				id: "681781BF1AA00CCA"
-				type: "loot"
-				table_id: 13756307348121783L
+				id: "4E08C87F4ECF80D5"
+				type: "command"
+				title: "Magic Rare Loot Bag"
+				icon: "kubejs:loot_bag_rare"
+				command: "/execute at @p run loot spawn ~ ~1 ~ loot aof:loot_bags/magic_rare"
+				player_command: false
 			}]
 		}
 		{
@@ -1193,9 +1180,12 @@
 				criterion: ""
 			}]
 			rewards: [{
-				id: "0DAFA3B8A83F5BB4"
-				type: "loot"
-				table_id: 13756307348121783L
+				id: "5DC11BEBAE96FB94"
+				type: "command"
+				title: "Magic Rare Loot Bag"
+				icon: "kubejs:loot_bag_common"
+				command: "/execute at @p run loot spawn ~ ~1 ~ loot aof:loot_bags/magic_common"
+				player_command: false
 			}]
 		}
 		{
@@ -1211,9 +1201,12 @@
 				item: "botania:bauble_box"
 			}]
 			rewards: [{
-				id: "72B66F48C44350D3"
-				type: "loot"
-				table_id: 13756307348121783L
+				id: "4AC973452A9DAA62"
+				type: "command"
+				title: "Magic Rare Loot Bag"
+				icon: "kubejs:loot_bag_rare"
+				command: "/execute at @p run loot spawn ~ ~1 ~ loot aof:loot_bags/magic_rare"
+				player_command: false
 			}]
 		}
 		{
@@ -1227,9 +1220,12 @@
 				item: "botania:dandelifeon"
 			}]
 			rewards: [{
-				id: "66BB973660BB5A4E"
-				type: "loot"
-				table_id: 13756307348121783L
+				id: "158119CBD65A1A8C"
+				type: "command"
+				title: "Magic Rare Loot Bag"
+				icon: "kubejs:loot_bag_rare"
+				command: "/execute at @p run loot spawn ~ ~1 ~ loot aof:loot_bags/magic_rare"
+				player_command: false
 			}]
 		}
 		{
@@ -1243,9 +1239,12 @@
 				item: "botania:endoflame"
 			}]
 			rewards: [{
-				id: "34DD3A3D6D56C512"
-				type: "loot"
-				table_id: 13756307348121783L
+				id: "7610F5507FC355C9"
+				type: "command"
+				title: "Magic Rare Loot Bag"
+				icon: "kubejs:loot_bag_rare"
+				command: "/execute at @p run loot spawn ~ ~1 ~ loot aof:loot_bags/magic_rare"
+				player_command: false
 			}]
 		}
 		{
@@ -1259,9 +1258,12 @@
 				item: "botania:entropinnyum"
 			}]
 			rewards: [{
-				id: "1116A7586F4985E3"
-				type: "loot"
-				table_id: 13756307348121783L
+				id: "429579DCE56BADE2"
+				type: "command"
+				title: "Magic Rare Loot Bag"
+				icon: "kubejs:loot_bag_rare"
+				command: "/execute at @p run loot spawn ~ ~1 ~ loot aof:loot_bags/magic_rare"
+				player_command: false
 			}]
 		}
 		{
@@ -1275,9 +1277,12 @@
 				item: "botania:gourmaryllis"
 			}]
 			rewards: [{
-				id: "62240495A925953E"
-				type: "loot"
-				table_id: 13756307348121783L
+				id: "59B4F52227157418"
+				type: "command"
+				title: "Magic Rare Loot Bag"
+				icon: "kubejs:loot_bag_rare"
+				command: "/execute at @p run loot spawn ~ ~1 ~ loot aof:loot_bags/magic_rare"
+				player_command: false
 			}]
 		}
 		{
@@ -1291,9 +1296,12 @@
 				item: "botania:hydroangeas"
 			}]
 			rewards: [{
-				id: "711085CAB740CA2E"
-				type: "loot"
-				table_id: 13756307348121783L
+				id: "2C766AE17DED3256"
+				type: "command"
+				title: "Magic Rare Loot Bag"
+				icon: "kubejs:loot_bag_rare"
+				command: "/execute at @p run loot spawn ~ ~1 ~ loot aof:loot_bags/magic_rare"
+				player_command: false
 			}]
 		}
 		{
@@ -1307,9 +1315,12 @@
 				item: "botania:kekimurus"
 			}]
 			rewards: [{
-				id: "46ECAD5910582D9F"
-				type: "loot"
-				table_id: 13756307348121783L
+				id: "692A69C50C2B8C89"
+				type: "command"
+				title: "Magic Rare Loot Bag"
+				icon: "kubejs:loot_bag_rare"
+				command: "/execute at @p run loot spawn ~ ~1 ~ loot aof:loot_bags/magic_rare"
+				player_command: false
 			}]
 		}
 		{
@@ -1323,9 +1334,12 @@
 				item: "botania:munchdew"
 			}]
 			rewards: [{
-				id: "7F597427420A7488"
-				type: "loot"
-				table_id: 13756307348121783L
+				id: "5BC3F3A4F18B6738"
+				type: "command"
+				title: "Magic Rare Loot Bag"
+				icon: "kubejs:loot_bag_rare"
+				command: "/execute at @p run loot spawn ~ ~1 ~ loot aof:loot_bags/magic_rare"
+				player_command: false
 			}]
 		}
 		{
@@ -1339,9 +1353,12 @@
 				item: "botania:narslimmus"
 			}]
 			rewards: [{
-				id: "5EB2084564A2EEF9"
-				type: "loot"
-				table_id: 13756307348121783L
+				id: "22D40784FCAA836B"
+				type: "command"
+				title: "Magic Rare Loot Bag"
+				icon: "kubejs:loot_bag_rare"
+				command: "/execute at @p run loot spawn ~ ~1 ~ loot aof:loot_bags/magic_rare"
+				player_command: false
 			}]
 		}
 		{
@@ -1355,9 +1372,12 @@
 				item: "botania:rafflowsia"
 			}]
 			rewards: [{
-				id: "142438EDF6CC45D4"
-				type: "loot"
-				table_id: 13756307348121783L
+				id: "189A9CB2A4D184AD"
+				type: "command"
+				title: "Magic Rare Loot Bag"
+				icon: "kubejs:loot_bag_rare"
+				command: "/execute at @p run loot spawn ~ ~1 ~ loot aof:loot_bags/magic_rare"
+				player_command: false
 			}]
 		}
 		{
@@ -1371,9 +1391,12 @@
 				item: "botania:holy_cloak"
 			}]
 			rewards: [{
-				id: "705BC5C57B2C1E82"
-				type: "loot"
-				table_id: 13756307348121783L
+				id: "0D183D64A17C0666"
+				type: "command"
+				title: "Magic Epic Loot Bag"
+				icon: "kubejs:loot_bag_epic"
+				command: "/execute at @p run loot spawn ~ ~1 ~ loot aof:loot_bags/magic_epic"
+				player_command: false
 			}]
 		}
 		{
@@ -1387,9 +1410,12 @@
 				item: "botania:unholy_cloak"
 			}]
 			rewards: [{
-				id: "6F815CD4DE66CA1E"
-				type: "loot"
-				table_id: 13756307348121783L
+				id: "47E564D2D4F5D4E5"
+				type: "command"
+				title: "Magic Epic Loot Bag"
+				icon: "kubejs:loot_bag_epic"
+				command: "/execute at @p run loot spawn ~ ~1 ~ loot aof:loot_bags/magic_epic"
+				player_command: false
 			}]
 		}
 		{
@@ -1403,9 +1429,12 @@
 				item: "botania:balance_cloak"
 			}]
 			rewards: [{
-				id: "5F405C2A70C5EA23"
-				type: "loot"
-				table_id: 13756307348121783L
+				id: "3E415DF96A0A16EA"
+				type: "command"
+				title: "Magic Epic Loot Bag"
+				icon: "kubejs:loot_bag_epic"
+				command: "/execute at @p run loot spawn ~ ~1 ~ loot aof:loot_bags/magic_epic"
+				player_command: false
 			}]
 		}
 		{
@@ -1419,9 +1448,12 @@
 				item: "botania:rosa_arcana"
 			}]
 			rewards: [{
-				id: "5D93884FBA735CE8"
-				type: "loot"
-				table_id: 13756307348121783L
+				id: "5711CDB39354816B"
+				type: "command"
+				title: "Magic Rare Loot Bag"
+				icon: "kubejs:loot_bag_rare"
+				command: "/execute at @p run loot spawn ~ ~1 ~ loot aof:loot_bags/magic_rare"
+				player_command: false
 			}]
 		}
 		{
@@ -1435,9 +1467,12 @@
 				item: "botania:invisibility_cloak"
 			}]
 			rewards: [{
-				id: "00C353189FC2E6CB"
-				type: "loot"
-				table_id: 13756307348121783L
+				id: "1C19E35222FA663E"
+				type: "command"
+				title: "Magic Rare Loot Bag"
+				icon: "kubejs:loot_bag_rare"
+				command: "/execute at @p run loot spawn ~ ~1 ~ loot aof:loot_bags/magic_rare"
+				player_command: false
 			}]
 		}
 		{
@@ -1451,9 +1486,12 @@
 				item: "botania:shulk_me_not"
 			}]
 			rewards: [{
-				id: "34FAA660F786A798"
-				type: "loot"
-				table_id: 13756307348121783L
+				id: "4BAED12F06392A71"
+				type: "command"
+				title: "Magic Rare Loot Bag"
+				icon: "kubejs:loot_bag_rare"
+				command: "/execute at @p run loot spawn ~ ~1 ~ loot aof:loot_bags/magic_rare"
+				player_command: false
 			}]
 		}
 		{
@@ -1467,9 +1505,12 @@
 				item: "botania:spectrolus"
 			}]
 			rewards: [{
-				id: "0C2550AC95DF128C"
-				type: "loot"
-				table_id: 13756307348121783L
+				id: "5E5C606D5B8FEF4F"
+				type: "command"
+				title: "Magic Rare Loot Bag"
+				icon: "kubejs:loot_bag_rare"
+				command: "/execute at @p run loot spawn ~ ~1 ~ loot aof:loot_bags/magic_rare"
+				player_command: false
 			}]
 		}
 		{
@@ -1483,9 +1524,12 @@
 				item: "botania:thermalily"
 			}]
 			rewards: [{
-				id: "1AD0D4E4E31840C2"
-				type: "loot"
-				table_id: 13756307348121783L
+				id: "04B71FA1266CA1F0"
+				type: "command"
+				title: "Magic Rare Loot Bag"
+				icon: "kubejs:loot_bag_rare"
+				command: "/execute at @p run loot spawn ~ ~1 ~ loot aof:loot_bags/magic_rare"
+				player_command: false
 			}]
 		}
 		{
@@ -1499,9 +1543,12 @@
 				item: "botania:travel_belt"
 			}]
 			rewards: [{
-				id: "3D6D74F4CFB7B432"
-				type: "loot"
-				table_id: 13756307348121783L
+				id: "0A98B43F1B88F12E"
+				type: "command"
+				title: "Magic Rare Loot Bag"
+				icon: "kubejs:loot_bag_rare"
+				command: "/execute at @p run loot spawn ~ ~1 ~ loot aof:loot_bags/magic_rare"
+				player_command: false
 			}]
 		}
 		{
@@ -1526,9 +1573,12 @@
 				}
 			}]
 			rewards: [{
-				id: "5F9E58D692E794F5"
-				type: "loot"
-				table_id: 13756307348121783L
+				id: "0EC43D89D1B65C1A"
+				type: "command"
+				title: "Magic Rare Loot Bag"
+				icon: "kubejs:loot_bag_rare"
+				command: "/execute at @p run loot spawn ~ ~1 ~ loot aof:loot_bags/magic_rare"
+				player_command: false
 			}]
 		}
 		{
@@ -1542,9 +1592,12 @@
 				item: "botania:super_travel_belt"
 			}]
 			rewards: [{
-				id: "4F4E3929A32014EE"
-				type: "loot"
-				table_id: 13756307348121783L
+				id: "5C9BCEC9BED236EB"
+				type: "command"
+				title: "Magic Epic Loot Bag"
+				icon: "kubejs:loot_bag_epic"
+				command: "/execute at @p run loot spawn ~ ~1 ~ loot aof:loot_bags/magic_epic"
+				player_command: false
 			}]
 		}
 		{
@@ -1558,9 +1611,12 @@
 				item: "botania:speed_up_belt"
 			}]
 			rewards: [{
-				id: "64FD1C941209C8A0"
-				type: "loot"
-				table_id: 13756307348121783L
+				id: "18D52AF3DCA5A9B0"
+				type: "command"
+				title: "Magic Rare Loot Bag"
+				icon: "kubejs:loot_bag_rare"
+				command: "/execute at @p run loot spawn ~ ~1 ~ loot aof:loot_bags/magic_rare"
+				player_command: false
 			}]
 		}
 		{
@@ -1574,9 +1630,12 @@
 				item: "botania:magnet_ring"
 			}]
 			rewards: [{
-				id: "528049BEC2423A4F"
-				type: "loot"
-				table_id: 13756307348121783L
+				id: "6CE05E42D71FADD2"
+				type: "command"
+				title: "Magic Rare Loot Bag"
+				icon: "kubejs:loot_bag_rare"
+				command: "/execute at @p run loot spawn ~ ~1 ~ loot aof:loot_bags/magic_rare"
+				player_command: false
 			}]
 		}
 		{
@@ -1590,9 +1649,12 @@
 				item: "botania:magnet_ring_greater"
 			}]
 			rewards: [{
-				id: "4D54D55D221AE44C"
-				type: "loot"
-				table_id: 13756307348121783L
+				id: "44C8348A386316C5"
+				type: "command"
+				title: "Magic Epic Loot Bag"
+				icon: "kubejs:loot_bag_epic"
+				command: "/execute at @p run loot spawn ~ ~1 ~ loot aof:loot_bags/magic_epic"
+				player_command: false
 			}]
 		}
 		{
@@ -1606,9 +1668,12 @@
 				item: "botania:mana_ring"
 			}]
 			rewards: [{
-				id: "3C6D0A1D91C2C266"
-				type: "loot"
-				table_id: 13756307348121783L
+				id: "74AE392B443F8D62"
+				type: "command"
+				title: "Magic Rare Loot Bag"
+				icon: "kubejs:loot_bag_rare"
+				command: "/execute at @p run loot spawn ~ ~1 ~ loot aof:loot_bags/magic_rare"
+				player_command: false
 			}]
 		}
 		{
@@ -1622,9 +1687,12 @@
 				item: "botania:aura_ring"
 			}]
 			rewards: [{
-				id: "36BA283E3529814D"
-				type: "loot"
-				table_id: 13756307348121783L
+				id: "42535A0D28BF7CA6"
+				type: "command"
+				title: "Magic Rare Loot Bag"
+				icon: "kubejs:loot_bag_rare"
+				command: "/execute at @p run loot spawn ~ ~1 ~ loot aof:loot_bags/magic_rare"
+				player_command: false
 			}]
 		}
 		{
@@ -1638,9 +1706,12 @@
 				item: "botania:aura_ring_greater"
 			}]
 			rewards: [{
-				id: "3A02243D25D25244"
-				type: "loot"
-				table_id: 13756307348121783L
+				id: "2950FC5B57CED1C5"
+				type: "command"
+				title: "Magic Epic Loot Bag"
+				icon: "kubejs:loot_bag_epic"
+				command: "/execute at @p run loot spawn ~ ~1 ~ loot aof:loot_bags/magic_epic"
+				player_command: false
 			}]
 		}
 		{
@@ -1654,9 +1725,12 @@
 				item: "botania:water_ring"
 			}]
 			rewards: [{
-				id: "07886DBF577B3AF7"
-				type: "loot"
-				table_id: 13756307348121783L
+				id: "2E50C495775434E5"
+				type: "command"
+				title: "Magic Rare Loot Bag"
+				icon: "kubejs:loot_bag_rare"
+				command: "/execute at @p run loot spawn ~ ~1 ~ loot aof:loot_bags/magic_rare"
+				player_command: false
 			}]
 		}
 		{
@@ -1670,9 +1744,12 @@
 				item: "botania:swap_ring"
 			}]
 			rewards: [{
-				id: "703468F48D3C736C"
-				type: "loot"
-				table_id: 13756307348121783L
+				id: "2EF9B0EA5282C2CF"
+				type: "command"
+				title: "Magic Rare Loot Bag"
+				icon: "kubejs:loot_bag_rare"
+				command: "/execute at @p run loot spawn ~ ~1 ~ loot aof:loot_bags/magic_rare"
+				player_command: false
 			}]
 		}
 		{
@@ -1686,9 +1763,12 @@
 				item: "botania:dodge_ring"
 			}]
 			rewards: [{
-				id: "5598C779EFC522BC"
-				type: "loot"
-				table_id: 13756307348121783L
+				id: "719A11BDB83B678D"
+				type: "command"
+				title: "Magic Rare Loot Bag"
+				icon: "kubejs:loot_bag_rare"
+				command: "/execute at @p run loot spawn ~ ~1 ~ loot aof:loot_bags/magic_rare"
+				player_command: false
 			}]
 		}
 		{
@@ -1702,9 +1782,12 @@
 				item: "botania:mining_ring"
 			}]
 			rewards: [{
-				id: "049FE61639141E6F"
-				type: "loot"
-				table_id: 13756307348121783L
+				id: "1E7A2D749285D91C"
+				type: "command"
+				title: "Magic Rare Loot Bag"
+				icon: "kubejs:loot_bag_rare"
+				command: "/execute at @p run loot spawn ~ ~1 ~ loot aof:loot_bags/magic_rare"
+				player_command: false
 			}]
 		}
 		{
@@ -1729,9 +1812,12 @@
 				}
 			}]
 			rewards: [{
-				id: "6C7C8F1203C65DF4"
-				type: "loot"
-				table_id: 13756307348121783L
+				id: "34AF441E71D3634A"
+				type: "command"
+				title: "Magic Rare Loot Bag"
+				icon: "kubejs:loot_bag_rare"
+				command: "/execute at @p run loot spawn ~ ~1 ~ loot aof:loot_bags/magic_rare"
+				player_command: false
 			}]
 		}
 		{
@@ -1745,9 +1831,12 @@
 				item: "botania:mana_pylon"
 			}]
 			rewards: [{
-				id: "7623D313E5ACDEE5"
-				type: "loot"
-				table_id: 13756307348121783L
+				id: "122C2585EC46AF6F"
+				type: "command"
+				title: "Magic Rare Loot Bag"
+				icon: "kubejs:loot_bag_rare"
+				command: "/execute at @p run loot spawn ~ ~1 ~ loot aof:loot_bags/magic_rare"
+				player_command: false
 			}]
 		}
 		{
@@ -1764,9 +1853,12 @@
 				item: "botania:natura_pylon"
 			}]
 			rewards: [{
-				id: "67A84ACBF5ACC3B8"
-				type: "loot"
-				table_id: 13756307348121783L
+				id: "3EBFDE99F790E7C5"
+				type: "command"
+				title: "Magic Rare Loot Bag"
+				icon: "kubejs:loot_bag_rare"
+				command: "/execute at @p run loot spawn ~ ~1 ~ loot aof:loot_bags/magic_rare"
+				player_command: false
 			}]
 		}
 		{
@@ -1780,9 +1872,12 @@
 				item: "botania:glimmering_livingwood"
 			}]
 			rewards: [{
-				id: "3EE3991CFD94A71E"
-				type: "loot"
-				table_id: 13756307348121783L
+				id: "21C0BFA718E77202"
+				type: "command"
+				title: "Magic Common Loot Bag"
+				icon: "kubejs:loot_bag_common"
+				command: "/execute at @p run loot spawn ~ ~1 ~ loot aof:loot_bags/magic_common"
+				player_command: false
 			}]
 		}
 		{
@@ -1799,9 +1894,12 @@
 				item: "botania:alfheim_portal"
 			}]
 			rewards: [{
-				id: "0D3998CC23596610"
-				type: "loot"
-				table_id: 13756307348121783L
+				id: "756AEBEE467EBCA9"
+				type: "command"
+				title: "Magic Rare Loot Bag"
+				icon: "kubejs:loot_bag_rare"
+				command: "/execute at @p run loot spawn ~ ~1 ~ loot aof:loot_bags/magic_rare"
+				player_command: false
 			}]
 		}
 		{
@@ -1820,13 +1918,17 @@
 				criterion: ""
 			}]
 			rewards: [{
-				id: "2745CB8B5301FFE8"
-				type: "loot"
-				table_id: 13756307348121783L
+				id: "1F362E4D8BDB2F5C"
+				type: "command"
+				title: "Magic Epic Loot Bag"
+				icon: "kubejs:loot_bag_epic"
+				auto: "enabled"
+				command: "/execute at @p run loot spawn ~ ~1 ~ loot aof:loot_bags/magic_epic"
+				player_command: false
 			}]
 		}
 		{
-			x: 1.5d
+			x: 1.0d
 			y: 1.5d
 			dependencies: ["2F21F31455F11527"]
 			id: "447998034CA345DC"
@@ -1836,25 +1938,12 @@
 				item: "botania:agricarnation"
 			}]
 			rewards: [{
-				id: "38714A02A977173B"
-				type: "loot"
-				table_id: 13756307348121783L
-			}]
-		}
-		{
-			x: 0.5d
-			y: 1.5d
-			dependencies: ["2F21F31455F11527"]
-			id: "7DE0C306B9AE3EB7"
-			tasks: [{
-				id: "411E9B6FF51B21DA"
-				type: "item"
-				item: "bewitchment:belladonna"
-			}]
-			rewards: [{
-				id: "1A3B720F0035C789"
-				type: "loot"
-				table_id: 13756307348121783L
+				id: "3DDD10F220C8155E"
+				type: "command"
+				title: "Magic Rare Loot Bag"
+				icon: "kubejs:loot_bag_rare"
+				command: "/execute at @p run loot spawn ~ ~1 ~ loot aof:loot_bags/magic_rare"
+				player_command: false
 			}]
 		}
 		{
@@ -1868,9 +1957,12 @@
 				item: "botania:bubbell"
 			}]
 			rewards: [{
-				id: "3E2D7F6A7056D9B0"
-				type: "loot"
-				table_id: 13756307348121783L
+				id: "518EBBA9F9607931"
+				type: "command"
+				title: "Magic Rare Loot Bag"
+				icon: "kubejs:loot_bag_rare"
+				command: "/execute at @p run loot spawn ~ ~1 ~ loot aof:loot_bags/magic_rare"
+				player_command: false
 			}]
 		}
 		{
@@ -1884,9 +1976,12 @@
 				item: "botania:clayconia"
 			}]
 			rewards: [{
-				id: "38CB0479910DEC5B"
-				type: "loot"
-				table_id: 13756307348121783L
+				id: "6055872AF6DD026A"
+				type: "command"
+				title: "Magic Rare Loot Bag"
+				icon: "kubejs:loot_bag_rare"
+				command: "/execute at @p run loot spawn ~ ~1 ~ loot aof:loot_bags/magic_rare"
+				player_command: false
 			}]
 		}
 		{
@@ -1900,9 +1995,12 @@
 				item: "botania:daffomill"
 			}]
 			rewards: [{
-				id: "3D58FE4CC5B8E609"
-				type: "loot"
-				table_id: 13756307348121783L
+				id: "26506FA84BE2FCDC"
+				type: "command"
+				title: "Magic Rare Loot Bag"
+				icon: "kubejs:loot_bag_rare"
+				command: "/execute at @p run loot spawn ~ ~1 ~ loot aof:loot_bags/magic_rare"
+				player_command: false
 			}]
 		}
 		{
@@ -1916,9 +2014,12 @@
 				item: "botania:dreadthorn"
 			}]
 			rewards: [{
-				id: "23153AA6CF516E45"
-				type: "loot"
-				table_id: 13756307348121783L
+				id: "452F87BFEA0B27C2"
+				type: "command"
+				title: "Magic Rare Loot Bag"
+				icon: "kubejs:loot_bag_rare"
+				command: "/execute at @p run loot spawn ~ ~1 ~ loot aof:loot_bags/magic_rare"
+				player_command: false
 			}]
 		}
 		{
@@ -1932,9 +2033,12 @@
 				item: "botania:exoflame"
 			}]
 			rewards: [{
-				id: "6D3479B72CA48CED"
-				type: "loot"
-				table_id: 13756307348121783L
+				id: "2756F1525D0051D4"
+				type: "command"
+				title: "Magic Rare Loot Bag"
+				icon: "kubejs:loot_bag_rare"
+				command: "/execute at @p run loot spawn ~ ~1 ~ loot aof:loot_bags/magic_rare"
+				player_command: false
 			}]
 		}
 		{
@@ -1948,9 +2052,12 @@
 				item: "botania:fallen_kanade"
 			}]
 			rewards: [{
-				id: "35946FEE03060B27"
-				type: "loot"
-				table_id: 13756307348121783L
+				id: "08D1DF19D808ED14"
+				type: "command"
+				title: "Magic Rare Loot Bag"
+				icon: "kubejs:loot_bag_rare"
+				command: "/execute at @p run loot spawn ~ ~1 ~ loot aof:loot_bags/magic_rare"
+				player_command: false
 			}]
 		}
 		{
@@ -1964,13 +2071,16 @@
 				item: "botania:heisei_dream"
 			}]
 			rewards: [{
-				id: "1AD8357687AEBE38"
-				type: "loot"
-				table_id: 13756307348121783L
+				id: "0EF87D3428AD3287"
+				type: "command"
+				title: "Magic Rare Loot Bag"
+				icon: "kubejs:loot_bag_rare"
+				command: "/execute at @p run loot spawn ~ ~1 ~ loot aof:loot_bags/magic_rare"
+				player_command: false
 			}]
 		}
 		{
-			x: 1.0d
+			x: 0.5d
 			y: 9.5d
 			dependencies: ["2F21F31455F11527"]
 			id: "431FBC3C47792302"
@@ -1980,14 +2090,17 @@
 				item: "botania:hopperhock"
 			}]
 			rewards: [{
-				id: "3D56401C9D459059"
-				type: "loot"
-				table_id: 13756307348121783L
+				id: "5FBE2708CE6FFF10"
+				type: "command"
+				title: "Magic Rare Loot Bag"
+				icon: "kubejs:loot_bag_rare"
+				command: "/execute at @p run loot spawn ~ ~1 ~ loot aof:loot_bags/magic_rare"
+				player_command: false
 			}]
 		}
 		{
-			x: 3.0d
-			y: 10.0d
+			x: 2.5d
+			y: 11.0d
 			dependencies: ["2F21F31455F11527"]
 			id: "1F9B422C0A66A843"
 			tasks: [{
@@ -1996,14 +2109,17 @@
 				item: "botania:hyacidus"
 			}]
 			rewards: [{
-				id: "09BCC0ECC7C1900F"
-				type: "loot"
-				table_id: 13756307348121783L
+				id: "10AEB0D266D96171"
+				type: "command"
+				title: "Magic Rare Loot Bag"
+				icon: "kubejs:loot_bag_rare"
+				command: "/execute at @p run loot spawn ~ ~1 ~ loot aof:loot_bags/magic_rare"
+				player_command: false
 			}]
 		}
 		{
-			x: 4.0d
-			y: 10.0d
+			x: 4.5d
+			y: 11.0d
 			dependencies: ["2F21F31455F11527"]
 			id: "18B56B2A88091276"
 			tasks: [{
@@ -2012,13 +2128,16 @@
 				item: "botania:jaded_amaranthus"
 			}]
 			rewards: [{
-				id: "7E622D98154178E3"
-				type: "loot"
-				table_id: 13756307348121783L
+				id: "6AC89BF9221E86D8"
+				type: "command"
+				title: "Magic Rare Loot Bag"
+				icon: "kubejs:loot_bag_rare"
+				command: "/execute at @p run loot spawn ~ ~1 ~ loot aof:loot_bags/magic_rare"
+				player_command: false
 			}]
 		}
 		{
-			x: 2.5d
+			x: 2.0d
 			y: 1.5d
 			dependencies: ["2F21F31455F11527"]
 			id: "1C199BA634278AAC"
@@ -2028,13 +2147,16 @@
 				item: "botania:jiyuulia"
 			}]
 			rewards: [{
-				id: "5ED94B43E46F4A11"
-				type: "loot"
-				table_id: 13756307348121783L
+				id: "77BA0CFE3B8A1E82"
+				type: "command"
+				title: "Magic Rare Loot Bag"
+				icon: "kubejs:loot_bag_rare"
+				command: "/execute at @p run loot spawn ~ ~1 ~ loot aof:loot_bags/magic_rare"
+				player_command: false
 			}]
 		}
 		{
-			x: 4.5d
+			x: 5.0d
 			y: 1.5d
 			dependencies: ["2F21F31455F11527"]
 			id: "0DE9901B8006BDAD"
@@ -2044,14 +2166,17 @@
 				item: "botania:labellia"
 			}]
 			rewards: [{
-				id: "65B8C495C27C2507"
-				type: "loot"
-				table_id: 13756307348121783L
+				id: "67F60D4FE2493A0D"
+				type: "command"
+				title: "Magic Rare Loot Bag"
+				icon: "kubejs:loot_bag_rare"
+				command: "/execute at @p run loot spawn ~ ~1 ~ loot aof:loot_bags/magic_rare"
+				player_command: false
 			}]
 		}
 		{
-			x: 5.0d
-			y: 10.0d
+			x: 5.5d
+			y: 10.5d
 			dependencies: ["2F21F31455F11527"]
 			id: "5242AF70A593F53F"
 			tasks: [{
@@ -2060,14 +2185,17 @@
 				item: "botania:loonium"
 			}]
 			rewards: [{
-				id: "764986BEABA0E397"
-				type: "loot"
-				table_id: 13756307348121783L
+				id: "5B35B2C15328AED0"
+				type: "command"
+				title: "Magic Rare Loot Bag"
+				icon: "kubejs:loot_bag_rare"
+				command: "/execute at @p run loot spawn ~ ~1 ~ loot aof:loot_bags/magic_rare"
+				player_command: false
 			}]
 		}
 		{
-			x: 2.0d
-			y: 10.0d
+			x: 1.5d
+			y: 10.5d
 			dependencies: ["2F21F31455F11527"]
 			id: "77E2134442089F03"
 			tasks: [{
@@ -2076,13 +2204,16 @@
 				item: "botania:marimorphosis"
 			}]
 			rewards: [{
-				id: "047B014443813218"
-				type: "loot"
-				table_id: 13756307348121783L
+				id: "12772385DEFD2686"
+				type: "command"
+				title: "Magic Rare Loot Bag"
+				icon: "kubejs:loot_bag_rare"
+				command: "/execute at @p run loot spawn ~ ~1 ~ loot aof:loot_bags/magic_rare"
+				player_command: false
 			}]
 		}
 		{
-			x: 6.0d
+			x: 6.5d
 			y: 9.5d
 			dependencies: ["2F21F31455F11527"]
 			id: "2C4DCA236F05B182"
@@ -2092,9 +2223,12 @@
 				item: "botania:medumone"
 			}]
 			rewards: [{
-				id: "120A6DC4A0612015"
-				type: "loot"
-				table_id: 13756307348121783L
+				id: "7E35C048144C7033"
+				type: "command"
+				title: "Magic Rare Loot Bag"
+				icon: "kubejs:loot_bag_rare"
+				command: "/execute at @p run loot spawn ~ ~1 ~ loot aof:loot_bags/magic_rare"
+				player_command: false
 			}]
 		}
 		{
@@ -2108,9 +2242,12 @@
 				item: "botania:orechid"
 			}]
 			rewards: [{
-				id: "4D3DAD8BA76C1F8C"
-				type: "loot"
-				table_id: 13756307348121783L
+				id: "201C1667123BE243"
+				type: "command"
+				title: "Magic Rare Loot Bag"
+				icon: "kubejs:loot_bag_rare"
+				command: "/execute at @p run loot spawn ~ ~1 ~ loot aof:loot_bags/magic_rare"
+				player_command: false
 			}]
 		}
 		{
@@ -2124,9 +2261,12 @@
 				item: "botania:orechid_ignem"
 			}]
 			rewards: [{
-				id: "0BBE2EB5304FD0E3"
-				type: "loot"
-				table_id: 13756307348121783L
+				id: "00F7EA815A1A32F0"
+				type: "command"
+				title: "Magic Rare Loot Bag"
+				icon: "kubejs:loot_bag_rare"
+				command: "/execute at @p run loot spawn ~ ~1 ~ loot aof:loot_bags/magic_rare"
+				player_command: false
 			}]
 		}
 		{
@@ -2140,9 +2280,12 @@
 				item: "botania:pollidisiac"
 			}]
 			rewards: [{
-				id: "00D3D16034377AB4"
-				type: "loot"
-				table_id: 13756307348121783L
+				id: "289964CF17C4BC7F"
+				type: "command"
+				title: "Magic Rare Loot Bag"
+				icon: "kubejs:loot_bag_rare"
+				command: "/execute at @p run loot spawn ~ ~1 ~ loot aof:loot_bags/magic_rare"
+				player_command: false
 			}]
 		}
 		{
@@ -2156,9 +2299,12 @@
 				item: "botania:rannuncarpus"
 			}]
 			rewards: [{
-				id: "1A08150D8DB01E32"
-				type: "loot"
-				table_id: 13756307348121783L
+				id: "3C445D862A42327C"
+				type: "command"
+				title: "Magic Rare Loot Bag"
+				icon: "kubejs:loot_bag_rare"
+				command: "/execute at @p run loot spawn ~ ~1 ~ loot aof:loot_bags/magic_rare"
+				player_command: false
 			}]
 		}
 		{
@@ -2172,9 +2318,12 @@
 				item: "botania:solegnolia"
 			}]
 			rewards: [{
-				id: "32C10E585204D026"
-				type: "loot"
-				table_id: 13756307348121783L
+				id: "6CD366B2753D9623"
+				type: "command"
+				title: "Magic Rare Loot Bag"
+				icon: "kubejs:loot_bag_rare"
+				command: "/execute at @p run loot spawn ~ ~1 ~ loot aof:loot_bags/magic_rare"
+				player_command: false
 			}]
 		}
 		{
@@ -2188,9 +2337,12 @@
 				item: "botania:spectranthemum"
 			}]
 			rewards: [{
-				id: "26F2461046CD775B"
-				type: "loot"
-				table_id: 13756307348121783L
+				id: "2D605BDF2C6F21B4"
+				type: "command"
+				title: "Magic Rare Loot Bag"
+				icon: "kubejs:loot_bag_rare"
+				command: "/execute at @p run loot spawn ~ ~1 ~ loot aof:loot_bags/magic_rare"
+				player_command: false
 			}]
 		}
 		{
@@ -2204,14 +2356,17 @@
 				item: "botania:tangleberrie"
 			}]
 			rewards: [{
-				id: "73A8275BEDBF697C"
-				type: "loot"
-				table_id: 13756307348121783L
+				id: "6FA8EFC01A9DBFB6"
+				type: "command"
+				title: "Magic Rare Loot Bag"
+				icon: "kubejs:loot_bag_rare"
+				command: "/execute at @p run loot spawn ~ ~1 ~ loot aof:loot_bags/magic_rare"
+				player_command: false
 			}]
 		}
 		{
-			x: 6.5d
-			y: 1.5d
+			x: 3.5d
+			y: 11.0d
 			dependencies: ["2F21F31455F11527"]
 			id: "0E68CE727EBFFDED"
 			tasks: [{
@@ -2220,13 +2375,16 @@
 				item: "botania:tigerseye"
 			}]
 			rewards: [{
-				id: "0E766593025C2797"
-				type: "loot"
-				table_id: 13756307348121783L
+				id: "2915E7E5959B2CFC"
+				type: "command"
+				title: "Magic Rare Loot Bag"
+				icon: "kubejs:loot_bag_rare"
+				command: "/execute at @p run loot spawn ~ ~1 ~ loot aof:loot_bags/magic_rare"
+				player_command: false
 			}]
 		}
 		{
-			x: 5.5d
+			x: 6.0d
 			y: 1.5d
 			dependencies: ["2F21F31455F11527"]
 			id: "3DCE379666133771"
@@ -2236,9 +2394,12 @@
 				item: "botania:vinculotus"
 			}]
 			rewards: [{
-				id: "46EFEC5C12C3BC4C"
-				type: "loot"
-				table_id: 13756307348121783L
+				id: "2B212E638B23834D"
+				type: "command"
+				title: "Magic Rare Loot Bag"
+				icon: "kubejs:loot_bag_rare"
+				command: "/execute at @p run loot spawn ~ ~1 ~ loot aof:loot_bags/magic_rare"
+				player_command: false
 			}]
 		}
 		{
@@ -2252,9 +2413,12 @@
 				item: "botania:dreamwood"
 			}]
 			rewards: [{
-				id: "1964350531971998"
-				type: "loot"
-				table_id: 13756307348121783L
+				id: "1DB36D660CE840A6"
+				type: "command"
+				title: "Magic Epic Loot Bag"
+				icon: "kubejs:loot_bag_epic"
+				command: "/execute at @p run loot spawn ~ ~1 ~ loot aof:loot_bags/magic_epic"
+				player_command: false
 			}]
 		}
 		{
@@ -2268,9 +2432,12 @@
 				item: "botania:dragonstone"
 			}]
 			rewards: [{
-				id: "10C801C8F153184B"
-				type: "loot"
-				table_id: 13756307348121783L
+				id: "2242748DBF27C526"
+				type: "command"
+				title: "Magic Epic Loot Bag"
+				icon: "kubejs:loot_bag_epic"
+				command: "/execute at @p run loot spawn ~ ~1 ~ loot aof:loot_bags/magic_epic"
+				player_command: false
 			}]
 		}
 		{
@@ -2284,9 +2451,12 @@
 				item: "botania:pixie_dust"
 			}]
 			rewards: [{
-				id: "10751C0F5884076B"
-				type: "loot"
-				table_id: 13756307348121783L
+				id: "54296A5EA6147D5B"
+				type: "command"
+				title: "Magic Epic Loot Bag"
+				icon: "kubejs:loot_bag_epic"
+				command: "/execute at @p run loot spawn ~ ~1 ~ loot aof:loot_bags/magic_epic"
+				player_command: false
 			}]
 		}
 		{
@@ -2300,9 +2470,12 @@
 				item: "botania:elementium_ingot"
 			}]
 			rewards: [{
-				id: "350C6B8B2E6CAE3E"
-				type: "loot"
-				table_id: 13756307348121783L
+				id: "622DBA777EB4D085"
+				type: "command"
+				title: "Magic Epic Loot Bag"
+				icon: "kubejs:loot_bag_epic"
+				command: "/execute at @p run loot spawn ~ ~1 ~ loot aof:loot_bags/magic_epic"
+				player_command: false
 			}]
 		}
 		{
@@ -2319,9 +2492,12 @@
 				item: "botania:gaia_pylon"
 			}]
 			rewards: [{
-				id: "497A3C912B95BC88"
-				type: "loot"
-				table_id: 13756307348121783L
+				id: "6E859C191B7ADEA4"
+				type: "command"
+				title: "Magic Legendary Loot Bag"
+				icon: "kubejs:loot_bag_legendary"
+				command: "/execute at @p run loot spawn ~ ~1 ~ loot aof:loot_bags/magic_legendary"
+				player_command: false
 			}]
 		}
 		{
@@ -2336,9 +2512,12 @@
 				criterion: ""
 			}]
 			rewards: [{
-				id: "7E1062DF3DC9F318"
-				type: "loot"
-				table_id: 13756307348121783L
+				id: "0A1826AF93B5D18E"
+				type: "command"
+				title: "Magic Legendary Loot Bag"
+				icon: "kubejs:loot_bag_legendary"
+				command: "/execute at @p run loot spawn ~ ~1 ~ loot aof:loot_bags/magic_legendary"
+				player_command: false
 			}]
 		}
 	]

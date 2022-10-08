@@ -1,7 +1,7 @@
 {
 	id: "5811BFDF9E484981"
 	group: "0815C5D80307ECDF"
-	order_index: 0
+	order_index: 1
 	filename: "create"
 	title: "Create"
 	icon: "create:wrench"
@@ -28,15 +28,20 @@
 			}]
 			rewards: [
 				{
-					id: "6D2D32D9BEBE52E3"
-					type: "item"
-					item: "create:hand_crank"
+					id: "41E51F0A34AA8259"
+					type: "command"
+					title: "Create Common Loot Bag"
+					icon: "kubejs:loot_bag_common"
+					command: "/execute at @p run loot spawn ~ ~1 ~ loot aof:loot_bags/create_common"
+					player_command: false
 				}
 				{
-					id: "5FAC54A156A71BE0"
-					type: "item"
-					item: "create:andesite_casing"
-					count: 8
+					id: "3356CE24F6F4E4FD"
+					type: "command"
+					title: "Create Common Loot Bag"
+					icon: "kubejs:loot_bag_common"
+					command: "/execute at @p run loot spawn ~ ~1 ~ loot aof:loot_bags/create_common"
+					player_command: false
 				}
 			]
 		}
@@ -67,6 +72,14 @@
 					type: "item"
 					item: "create:depot"
 				}
+				{
+					id: "179FDF0BD3CBD5FB"
+					type: "command"
+					title: "Create Common Loot Bag"
+					icon: "kubejs:loot_bag_common"
+					command: "/execute at @p run loot spawn ~ ~1 ~ loot aof:loot_bags/create_common"
+					player_command: false
+				}
 			]
 		}
 		{
@@ -91,20 +104,14 @@
 					count: 8L
 				}
 			]
-			rewards: [
-				{
-					id: "025BB4D98E47B932"
-					type: "item"
-					item: "create:cogwheel"
-					count: 8
-				}
-				{
-					id: "75EDED66AE79CD17"
-					type: "item"
-					item: "create:large_cogwheel"
-					count: 8
-				}
-			]
+			rewards: [{
+				id: "3EDDE5E314AE3B7D"
+				type: "command"
+				title: "Create Common Loot Bag"
+				icon: "kubejs:loot_bag_common"
+				command: "/execute at @p run loot spawn ~ ~1 ~ loot aof:loot_bags/create_common"
+				player_command: false
+			}]
 		}
 		{
 			title: "Water Wheels"
@@ -130,10 +137,12 @@
 					item: "minecraft:water_bucket"
 				}
 				{
-					id: "7493CC3023A46539"
-					type: "item"
-					item: "create:water_wheel"
-					count: 2
+					id: "02E5826376F7D45B"
+					type: "command"
+					title: "Create Common Loot Bag"
+					icon: "kubejs:loot_bag_common"
+					command: "/execute at @p run loot spawn ~ ~1 ~ loot aof:loot_bags/create_common"
+					player_command: false
 				}
 			]
 		}
@@ -161,9 +170,12 @@
 				}
 			]
 			rewards: [{
-				id: "284C987E654D00B0"
-				type: "item"
-				item: "minecraft:gold_block"
+				id: "6DD793EEBBED087C"
+				type: "command"
+				title: "Create Common Loot Bag"
+				icon: "kubejs:loot_bag_common"
+				command: "/execute at @p run loot spawn ~ ~1 ~ loot aof:loot_bags/create_common"
+				player_command: false
 			}]
 		}
 		{
@@ -186,12 +198,30 @@
 					item: "create:stressometer"
 				}
 			]
-			rewards: [{
-				id: "3C92A0C3F95854DC"
-				type: "item"
-				item: "create:builders_tea"
-				count: 8
-			}]
+			rewards: [
+				{
+					id: "3C92A0C3F95854DC"
+					type: "item"
+					item: "create:builders_tea"
+					count: 8
+				}
+				{
+					id: "63AD7FD405944249"
+					type: "command"
+					title: "Create Common Loot Bag"
+					icon: "kubejs:loot_bag_common"
+					command: "/execute at @p run loot spawn ~ ~1 ~ loot aof:loot_bags/create_common"
+					player_command: false
+				}
+				{
+					id: "5BA9EED81682E846"
+					type: "command"
+					title: "Create Common Loot Bag"
+					icon: "kubejs:loot_bag_common"
+					command: "/execute at @p run loot spawn ~ ~1 ~ loot aof:loot_bags/create_common"
+					player_command: false
+				}
+			]
 		}
 		{
 			x: -4.0d
@@ -205,11 +235,29 @@
 				type: "item"
 				item: "create:crafting_blueprint"
 			}]
-			rewards: [{
-				id: "23286979E10F6999"
-				type: "xp_levels"
-				xp_levels: 5
-			}]
+			rewards: [
+				{
+					id: "23286979E10F6999"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					id: "1DDC4E3B445257FF"
+					type: "command"
+					title: "Create Common Loot Bag"
+					icon: "kubejs:loot_bag_common"
+					command: "/execute at @p run loot spawn ~ ~1 ~ loot aof:loot_bags/create_common"
+					player_command: false
+				}
+				{
+					id: "0086CB64F6FE0356"
+					type: "command"
+					title: "Create Common Loot Bag"
+					icon: "kubejs:loot_bag_common"
+					command: "/execute at @p run loot spawn ~ ~1 ~ loot aof:loot_bags/create_common"
+					player_command: false
+				}
+			]
 		}
 		{
 			title: "Windmills"
@@ -237,12 +285,22 @@
 					count: 8L
 				}
 			]
-			rewards: [{
-				id: "0C74BCF4A647DC59"
-				type: "item"
-				item: "create:white_sail"
-				count: 8
-			}]
+			rewards: [
+				{
+					id: "0C74BCF4A647DC59"
+					type: "item"
+					item: "create:white_sail"
+					count: 8
+				}
+				{
+					id: "49E1B8D1EC858D0D"
+					type: "command"
+					title: "Create Common Loot Bag"
+					icon: "kubejs:loot_bag_common"
+					command: "/execute at @p run loot spawn ~ ~1 ~ loot aof:loot_bags/create_common"
+					player_command: false
+				}
+			]
 		}
 		{
 			title: "Minecart Contraptions"
@@ -261,12 +319,22 @@
 				type: "item"
 				item: "create:cart_assembler"
 			}]
-			rewards: [{
-				id: "4D7ECC99BD1B65CD"
-				type: "item"
-				item: "minecraft:coal"
-				count: 32
-			}]
+			rewards: [
+				{
+					id: "4D7ECC99BD1B65CD"
+					type: "item"
+					item: "minecraft:coal"
+					count: 32
+				}
+				{
+					id: "453152B872C3CAFC"
+					type: "command"
+					title: "Create Common Loot Bag"
+					icon: "kubejs:loot_bag_common"
+					command: "/execute at @p run loot spawn ~ ~1 ~ loot aof:loot_bags/create_common"
+					player_command: false
+				}
+			]
 		}
 		{
 			title: "Let's Get Mechanical!"
@@ -340,14 +408,12 @@
 					count: 8
 				}
 				{
-					id: "7B48247A01056075"
-					type: "random"
-					table_id: 13756307348121783L
-				}
-				{
-					id: "3999B39E9C2A40C8"
-					type: "random"
-					table_id: 13756307348121783L
+					id: "3AE0BAFF7CEFFDFC"
+					type: "command"
+					title: "Create Rare Loot Bag"
+					icon: "kubejs:loot_bag_rare"
+					command: "/execute at @p run loot spawn ~ ~1 ~ loot aof:loot_bags/create_rare"
+					player_command: false
 				}
 			]
 		}
@@ -383,10 +449,12 @@
 					count: 8
 				}
 				{
-					id: "6A5B286EF67D2419"
-					type: "item"
-					item: "minecraft:copper_ingot"
-					count: 8
+					id: "4DC3A930BA4B079E"
+					type: "command"
+					title: "Create Rare Loot Bag"
+					icon: "kubejs:loot_bag_rare"
+					command: "/execute at @p run loot spawn ~ ~1 ~ loot aof:loot_bags/create_rare"
+					player_command: false
 				}
 			]
 		}
@@ -420,6 +488,14 @@
 					type: "item"
 					item: "create:chute"
 				}
+				{
+					id: "5E00EAF6A7D0B404"
+					type: "command"
+					title: "Create Common Loot Bag"
+					icon: "kubejs:loot_bag_common"
+					command: "/execute at @p run loot spawn ~ ~1 ~ loot aof:loot_bags/create_common"
+					player_command: false
+				}
 			]
 		}
 		{
@@ -437,14 +513,17 @@
 			}]
 			rewards: [
 				{
-					id: "3E1B5CCA1F9F2319"
-					type: "loot"
-					table_id: 13756307348121783L
-				}
-				{
 					id: "75CF00B6F9CB419C"
 					type: "xp_levels"
 					xp_levels: 10
+				}
+				{
+					id: "51471F5CB46993E8"
+					type: "command"
+					title: "Create Rare Loot Bag"
+					icon: "kubejs:loot_bag_rare"
+					command: "/execute at @p run loot spawn ~ ~1 ~ loot aof:loot_bags/create_rare"
+					player_command: false
 				}
 			]
 		}
@@ -460,9 +539,12 @@
 				item: "create:andesite_funnel"
 			}]
 			rewards: [{
-				id: "34C090F0B308EA31"
-				type: "loot"
-				table_id: 13756307348121783L
+				id: "67433A84C3A2C5FC"
+				type: "command"
+				title: "Create Common Loot Bag"
+				icon: "kubejs:loot_bag_common"
+				command: "/execute at @p run loot spawn ~ ~1 ~ loot aof:loot_bags/create_common"
+				player_command: false
 			}]
 		}
 		{
@@ -477,9 +559,12 @@
 				item: "create:brass_funnel"
 			}]
 			rewards: [{
-				id: "76F78EE3684B53B6"
-				type: "loot"
-				table_id: 13756307348121783L
+				id: "0FABCA33426406C6"
+				type: "command"
+				title: "Create Rare Loot Bag"
+				icon: "kubejs:loot_bag_rare"
+				command: "/execute at @p run loot spawn ~ ~1 ~ loot aof:loot_bags/create_rare"
+				player_command: false
 			}]
 		}
 		{
@@ -493,9 +578,12 @@
 				item: "create:polished_rose_quartz"
 			}]
 			rewards: [{
-				id: "4C217C3DD30B0D45"
-				type: "random"
-				table_id: 13756307348121783L
+				id: "4504764E238D8930"
+				type: "command"
+				title: "Create Rare Loot Bag"
+				icon: "kubejs:loot_bag_rare"
+				command: "/execute at @p run loot spawn ~ ~1 ~ loot aof:loot_bags/create_rare"
+				player_command: false
 			}]
 		}
 		{
@@ -511,9 +599,12 @@
 				item: "create:weighted_ejector"
 			}]
 			rewards: [{
-				id: "2D2DFA87AFDA386A"
-				type: "random"
-				table_id: 13756307348121783L
+				id: "0335713E26806CA2"
+				type: "command"
+				title: "Create Common Loot Bag"
+				icon: "kubejs:loot_bag_common"
+				command: "/execute at @p run loot spawn ~ ~1 ~ loot aof:loot_bags/create_common"
+				player_command: false
 			}]
 		}
 		{
@@ -539,6 +630,14 @@
 					type: "xp_levels"
 					xp_levels: 5
 				}
+				{
+					id: "4AC078040C3E1FDF"
+					type: "command"
+					title: "Create Common Loot Bag"
+					icon: "kubejs:loot_bag_common"
+					command: "/execute at @p run loot spawn ~ ~1 ~ loot aof:loot_bags/create_common"
+					player_command: false
+				}
 			]
 		}
 		{
@@ -553,9 +652,12 @@
 				item: "create:smart_chute"
 			}]
 			rewards: [{
-				id: "024E235D03D04122"
-				type: "loot"
-				table_id: 13756307348121783L
+				id: "077DE0792FB90191"
+				type: "command"
+				title: "Create Rare Loot Bag"
+				icon: "kubejs:loot_bag_rare"
+				command: "/execute at @p run loot spawn ~ ~1 ~ loot aof:loot_bags/create_rare"
+				player_command: false
 			}]
 		}
 		{
@@ -573,15 +675,17 @@
 			}]
 			rewards: [
 				{
-					id: "7CCEAC3C1186BE27"
-					type: "item"
-					item: "create:shaft"
-					count: 16
-				}
-				{
 					id: "238CBBC4DC4DD6AE"
 					type: "xp_levels"
 					xp_levels: 5
+				}
+				{
+					id: "63968E53AD8BC6DA"
+					type: "command"
+					title: "Create Common Loot Bag"
+					icon: "kubejs:loot_bag_common"
+					command: "/execute at @p run loot spawn ~ ~1 ~ loot aof:loot_bags/create_common"
+					player_command: false
 				}
 			]
 		}
@@ -615,6 +719,14 @@
 					type: "xp_levels"
 					xp_levels: 5
 				}
+				{
+					id: "18CE6AA6D3C60E07"
+					type: "command"
+					title: "Create Common Loot Bag"
+					icon: "kubejs:loot_bag_common"
+					command: "/execute at @p run loot spawn ~ ~1 ~ loot aof:loot_bags/create_common"
+					player_command: false
+				}
 			]
 		}
 		{
@@ -631,9 +743,12 @@
 				count: 8L
 			}]
 			rewards: [{
-				id: "768A165B3D34F315"
-				type: "loot"
-				table_id: 13756307348121783L
+				id: "3A1DB402D0064C1A"
+				type: "command"
+				title: "Create Common Loot Bag"
+				icon: "kubejs:loot_bag_common"
+				command: "/execute at @p run loot spawn ~ ~1 ~ loot aof:loot_bags/create_common"
+				player_command: false
 			}]
 		}
 		{
@@ -649,12 +764,22 @@
 				item: "create:gearbox"
 				count: 8L
 			}]
-			rewards: [{
-				id: "3FAEC5485A1313E6"
-				type: "item"
-				item: "create:vertical_gearbox"
-				count: 8
-			}]
+			rewards: [
+				{
+					id: "3FAEC5485A1313E6"
+					type: "item"
+					item: "create:vertical_gearbox"
+					count: 8
+				}
+				{
+					id: "6F2FBA4BA2264E6A"
+					type: "command"
+					title: "Create Common Loot Bag"
+					icon: "kubejs:loot_bag_common"
+					command: "/execute at @p run loot spawn ~ ~1 ~ loot aof:loot_bags/create_common"
+					player_command: false
+				}
+			]
 		}
 		{
 			x: 2.0d
@@ -675,10 +800,12 @@
 				}
 			]
 			rewards: [{
-				id: "47F62930D703BE44"
-				type: "item"
-				item: "create:andesite_casing"
-				count: 8
+				id: "065A398D3A8D98B2"
+				type: "command"
+				title: "Create Common Loot Bag"
+				icon: "kubejs:loot_bag_common"
+				command: "/execute at @p run loot spawn ~ ~1 ~ loot aof:loot_bags/create_common"
+				player_command: false
 			}]
 		}
 		{
@@ -693,9 +820,12 @@
 				item: "create:sequenced_gearshift"
 			}]
 			rewards: [{
-				id: "2360F182F0CD64F9"
-				type: "random"
-				table_id: 13756307348121783L
+				id: "2D9024597762EC72"
+				type: "command"
+				title: "Create Rare Loot Bag"
+				icon: "kubejs:loot_bag_rare"
+				command: "/execute at @p run loot spawn ~ ~1 ~ loot aof:loot_bags/create_rare"
+				player_command: false
 			}]
 		}
 		{
@@ -717,9 +847,12 @@
 					count: 4
 				}
 				{
-					id: "63246868291C1528"
-					type: "random"
-					table_id: 13756307348121783L
+					id: "27B6B0447715E83F"
+					type: "command"
+					title: "Create Epic Loot Bag"
+					icon: "kubejs:loot_bag_epic"
+					command: "/execute at @p run loot spawn ~ ~1 ~ loot aof:loot_bags/create_epic"
+					player_command: false
 				}
 			]
 		}
@@ -734,11 +867,21 @@
 				type: "item"
 				item: "create:deployer"
 			}]
-			rewards: [{
-				id: "5BC2720763573A21"
-				type: "item"
-				item: "create:brass_hand"
-			}]
+			rewards: [
+				{
+					id: "5BC2720763573A21"
+					type: "item"
+					item: "create:brass_hand"
+				}
+				{
+					id: "7458CBBA5DDC4FC2"
+					type: "command"
+					title: "Create Epic Loot Bag"
+					icon: "kubejs:loot_bag_epic"
+					command: "/execute at @p run loot spawn ~ ~1 ~ loot aof:loot_bags/create_epic"
+					player_command: false
+				}
+			]
 		}
 		{
 			title: "Mechanical Crafters"
@@ -756,12 +899,22 @@
 				item: "create:mechanical_crafter"
 				count: 21L
 			}]
-			rewards: [{
-				id: "20B8F411391930F5"
-				type: "item"
-				item: "create:crafter_slot_cover"
-				count: 21
-			}]
+			rewards: [
+				{
+					id: "20B8F411391930F5"
+					type: "item"
+					item: "create:crafter_slot_cover"
+					count: 21
+				}
+				{
+					id: "084AE2B5E1BAA08E"
+					type: "command"
+					title: "Create Rare Loot Bag"
+					icon: "kubejs:loot_bag_rare"
+					command: "/execute at @p run loot spawn ~ ~1 ~ loot aof:loot_bags/create_rare"
+					player_command: false
+				}
+			]
 		}
 		{
 			title: "Crushing Wheels"
@@ -789,6 +942,14 @@
 					item: "create:zinc_ore"
 					count: 16
 				}
+				{
+					id: "7470D6BDB2DD769A"
+					type: "command"
+					title: "Create Rare Loot Bag"
+					icon: "kubejs:loot_bag_rare"
+					command: "/execute at @p run loot spawn ~ ~1 ~ loot aof:loot_bags/create_rare"
+					player_command: false
+				}
 			]
 		}
 		{
@@ -803,9 +964,12 @@
 				item: "create:copper_casing"
 			}]
 			rewards: [{
-				id: "3CD5E9168C72D2FE"
-				type: "random"
-				table_id: 13756307348121783L
+				id: "1B6D434BF6BCF5A5"
+				type: "command"
+				title: "Create Common Loot Bag"
+				icon: "kubejs:loot_bag_common"
+				command: "/execute at @p run loot spawn ~ ~1 ~ loot aof:loot_bags/create_common"
+				player_command: false
 			}]
 		}
 		{
@@ -820,9 +984,12 @@
 				item: "create:fluid_tank"
 			}]
 			rewards: [{
-				id: "5FD408ED30FD94B0"
-				type: "random"
-				table_id: 13756307348121783L
+				id: "2F51E2F9BC99552D"
+				type: "command"
+				title: "Create Common Loot Bag"
+				icon: "kubejs:loot_bag_common"
+				command: "/execute at @p run loot spawn ~ ~1 ~ loot aof:loot_bags/create_common"
+				player_command: false
 			}]
 		}
 		{
@@ -860,11 +1027,21 @@
 					item: "create:portable_fluid_interface"
 				}
 			]
-			rewards: [{
-				id: "3E56F3FDAF253B37"
-				type: "xp_levels"
-				xp_levels: 10
-			}]
+			rewards: [
+				{
+					id: "3E56F3FDAF253B37"
+					type: "xp_levels"
+					xp_levels: 10
+				}
+				{
+					id: "031977CB74BE2DBD"
+					type: "command"
+					title: "Create Rare Loot Bag"
+					icon: "kubejs:loot_bag_rare"
+					command: "/execute at @p run loot spawn ~ ~1 ~ loot aof:loot_bags/create_rare"
+					player_command: false
+				}
+			]
 		}
 		{
 			x: 14.0d
@@ -877,9 +1054,12 @@
 				item: "create:precision_mechanism"
 			}]
 			rewards: [{
-				id: "5F6962E9434B6C3A"
-				type: "loot"
-				table_id: 13756307348121783L
+				id: "75B1A224CBD5AA9B"
+				type: "command"
+				title: "Create Epic Loot Bag"
+				icon: "kubejs:loot_bag_epic"
+				command: "/execute at @p run loot spawn ~ ~1 ~ loot aof:loot_bags/create_epic"
+				player_command: false
 			}]
 		}
 		{
@@ -899,12 +1079,22 @@
 					}
 				}
 			}]
-			rewards: [{
-				id: "00A8373D4D35C0B8"
-				type: "item"
-				item: "minecraft:poisonous_potato"
-				count: 32
-			}]
+			rewards: [
+				{
+					id: "00A8373D4D35C0B8"
+					type: "item"
+					item: "minecraft:poisonous_potato"
+					count: 32
+				}
+				{
+					id: "3901D5A420576077"
+					type: "command"
+					title: "Create Epic Loot Bag"
+					icon: "kubejs:loot_bag_epic"
+					command: "/execute at @p run loot spawn ~ ~1 ~ loot aof:loot_bags/create_epic"
+					player_command: false
+				}
+			]
 		}
 		{
 			x: 8.0d
@@ -918,9 +1108,12 @@
 				item: "create:sweet_roll"
 			}]
 			rewards: [{
-				id: "4D1015E884BE56DD"
-				type: "random"
-				table_id: 13756307348121783L
+				id: "575B52C987AC7222"
+				type: "command"
+				title: "Create Rare Loot Bag"
+				icon: "kubejs:loot_bag_rare"
+				command: "/execute at @p run loot spawn ~ ~1 ~ loot aof:loot_bags/create_rare"
+				player_command: false
 			}]
 		}
 		{
@@ -934,9 +1127,12 @@
 				item: "create:chocolate_glazed_berries"
 			}]
 			rewards: [{
-				id: "14FA3FA3CDB2AB3F"
-				type: "random"
-				table_id: 13756307348121783L
+				id: "167AE13096FAE1D7"
+				type: "command"
+				title: "Create Rare Loot Bag"
+				icon: "kubejs:loot_bag_rare"
+				command: "/execute at @p run loot spawn ~ ~1 ~ loot aof:loot_bags/create_rare"
+				player_command: false
 			}]
 		}
 		{
@@ -950,9 +1146,12 @@
 				item: "additionaladditions:honeyed_apple"
 			}]
 			rewards: [{
-				id: "6A6DED4C7BB94181"
-				type: "loot"
-				table_id: 13756307348121783L
+				id: "57E821B12459BBDB"
+				type: "command"
+				title: "Create Common Loot Bag"
+				icon: "kubejs:loot_bag_common"
+				command: "/execute at @p run loot spawn ~ ~1 ~ loot aof:loot_bags/create_common"
+				player_command: false
 			}]
 		}
 		{
@@ -967,9 +1166,12 @@
 				item: "create:builders_tea"
 			}]
 			rewards: [{
-				id: "497A60D4A3820710"
-				type: "loot"
-				table_id: 13756307348121783L
+				id: "0403C09973EF08E3"
+				type: "command"
+				title: "Create Common Loot Bag"
+				icon: "kubejs:loot_bag_common"
+				command: "/execute at @p run loot spawn ~ ~1 ~ loot aof:loot_bags/create_common"
+				player_command: false
 			}]
 		}
 		{
@@ -984,9 +1186,12 @@
 				item: "create:blaze_cake"
 			}]
 			rewards: [{
-				id: "7555B6AE15218D86"
-				type: "random"
-				table_id: 13756307348121783L
+				id: "3929398C102E76C9"
+				type: "command"
+				title: "Create Rare Loot Bag"
+				icon: "kubejs:loot_bag_rare"
+				command: "/execute at @p run loot spawn ~ ~1 ~ loot aof:loot_bags/create_rare"
+				player_command: false
 			}]
 		}
 		{
@@ -1001,9 +1206,12 @@
 				item: "create:bar_of_chocolate"
 			}]
 			rewards: [{
-				id: "7061597EAAA580CD"
-				type: "random"
-				table_id: 13756307348121783L
+				id: "6F580D1F490D2212"
+				type: "command"
+				title: "Create Rare Loot Bag"
+				icon: "kubejs:loot_bag_rare"
+				command: "/execute at @p run loot spawn ~ ~1 ~ loot aof:loot_bags/create_rare"
+				player_command: false
 			}]
 		}
 		{
@@ -1018,9 +1226,12 @@
 				item: "create:wand_of_symmetry"
 			}]
 			rewards: [{
-				id: "3C7C83AE3231976A"
-				type: "random"
-				table_id: 13756307348121783L
+				id: "439BBCD76A257219"
+				type: "command"
+				title: "Create Epic Loot Bag"
+				icon: "kubejs:loot_bag_epic"
+				command: "/execute at @p run loot spawn ~ ~1 ~ loot aof:loot_bags/create_epic"
+				player_command: false
 			}]
 		}
 		{
@@ -1041,9 +1252,12 @@
 				}
 			}]
 			rewards: [{
-				id: "749AF5272797FC89"
-				type: "loot"
-				table_id: 13756307348121783L
+				id: "6F0CA1CB40339EA2"
+				type: "command"
+				title: "Create Epic Loot Bag"
+				icon: "kubejs:loot_bag_epic"
+				command: "/execute at @p run loot spawn ~ ~1 ~ loot aof:loot_bags/create_epic"
+				player_command: false
 			}]
 		}
 		{
@@ -1065,9 +1279,12 @@
 				count: 2L
 			}]
 			rewards: [{
-				id: "1CAC8A271194B114"
-				type: "random"
-				table_id: 13756307348121783L
+				id: "2D452691BE00632F"
+				type: "command"
+				title: "Create Common Loot Bag"
+				icon: "kubejs:loot_bag_common"
+				command: "/execute at @p run loot spawn ~ ~1 ~ loot aof:loot_bags/create_common"
+				player_command: false
 			}]
 		}
 		{
@@ -1088,12 +1305,30 @@
 					item: "create:schematic_table"
 				}
 			]
-			rewards: [{
-				id: "2E9490114C5D2520"
-				type: "item"
-				item: "minecraft:gunpowder"
-				count: 32
-			}]
+			rewards: [
+				{
+					id: "2E9490114C5D2520"
+					type: "item"
+					item: "minecraft:gunpowder"
+					count: 32
+				}
+				{
+					id: "4AFB6ED1640E4D43"
+					type: "command"
+					title: "Create Common Loot Bag"
+					icon: "kubejs:loot_bag_common"
+					command: "/execute at @p run loot spawn ~ ~1 ~ loot aof:loot_bags/create_common"
+					player_command: false
+				}
+				{
+					id: "2468D8DF9C39352C"
+					type: "command"
+					title: "Create Common Loot Bag"
+					icon: "kubejs:loot_bag_common"
+					command: "/execute at @p run loot spawn ~ ~1 ~ loot aof:loot_bags/create_common"
+					player_command: false
+				}
+			]
 		}
 		{
 			x: -6.0d
@@ -1106,11 +1341,24 @@
 				type: "item"
 				item: "create:schematic_and_quill"
 			}]
-			rewards: [{
-				id: "6EE8F275E468EB37"
-				type: "random"
-				table_id: 13756307348121783L
-			}]
+			rewards: [
+				{
+					id: "3AE348CB80C51BFF"
+					type: "command"
+					title: "Create Common Loot Bag"
+					icon: "kubejs:loot_bag_common"
+					command: "/execute at @p run loot spawn ~ ~1 ~ loot aof:loot_bags/create_common"
+					player_command: false
+				}
+				{
+					id: "03B2FA34EA026C15"
+					type: "command"
+					title: "Create Common Loot Bag"
+					icon: "kubejs:loot_bag_common"
+					command: "/execute at @p run loot spawn ~ ~1 ~ loot aof:loot_bags/create_common"
+					player_command: false
+				}
+			]
 		}
 		{
 			x: 12.0d
@@ -1125,11 +1373,21 @@
 				type: "item"
 				item: "create:nixie_tube"
 			}]
-			rewards: [{
-				id: "681CDBE5E160CC80"
-				type: "item"
-				item: "minecraft:name_tag"
-			}]
+			rewards: [
+				{
+					id: "681CDBE5E160CC80"
+					type: "item"
+					item: "minecraft:name_tag"
+				}
+				{
+					id: "1EAD846295A6E758"
+					type: "command"
+					title: "Create Rare Loot Bag"
+					icon: "kubejs:loot_bag_rare"
+					command: "/execute at @p run loot spawn ~ ~1 ~ loot aof:loot_bags/create_rare"
+					player_command: false
+				}
+			]
 		}
 		{
 			x: 1.0d
@@ -1165,9 +1423,12 @@
 				}
 			]
 			rewards: [{
-				id: "365BF4389DEEB1F8"
-				type: "loot"
-				table_id: 13756307348121783L
+				id: "6B196118BBDDB8FA"
+				type: "command"
+				title: "Create Rare Loot Bag"
+				icon: "kubejs:loot_bag_rare"
+				command: "/execute at @p run loot spawn ~ ~1 ~ loot aof:loot_bags/create_rare"
+				player_command: false
 			}]
 		}
 		{
@@ -1187,11 +1448,24 @@
 					item: "create:powered_toggle_latch"
 				}
 			]
-			rewards: [{
-				id: "071DDF1A9129097F"
-				type: "random"
-				table_id: 13756307348121783L
-			}]
+			rewards: [
+				{
+					id: "3CE19B99F7E1F288"
+					type: "command"
+					title: "Create Common Loot Bag"
+					icon: "kubejs:loot_bag_common"
+					command: "/execute at @p run loot spawn ~ ~1 ~ loot aof:loot_bags/create_common"
+					player_command: false
+				}
+				{
+					id: "5E944D78E11C1921"
+					type: "command"
+					title: "Create Common Loot Bag"
+					icon: "kubejs:loot_bag_common"
+					command: "/execute at @p run loot spawn ~ ~1 ~ loot aof:loot_bags/create_common"
+					player_command: false
+				}
+			]
 		}
 		{
 			x: -6.0d
@@ -1204,9 +1478,12 @@
 				item: "create:redstone_link"
 			}]
 			rewards: [{
-				id: "27656CFB7771B2E8"
-				type: "loot"
-				table_id: 13756307348121783L
+				id: "317E449D09B0A531"
+				type: "command"
+				title: "Create Common Loot Bag"
+				icon: "kubejs:loot_bag_common"
+				command: "/execute at @p run loot spawn ~ ~1 ~ loot aof:loot_bags/create_common"
+				player_command: false
 			}]
 		}
 		{
@@ -1227,9 +1504,12 @@
 				}
 			]
 			rewards: [{
-				id: "5AE16B8CD927D1C1"
-				type: "loot"
-				table_id: 13756307348121783L
+				id: "6A0F8621A189759C"
+				type: "command"
+				title: "Create Rare Loot Bag"
+				icon: "kubejs:loot_bag_rare"
+				command: "/execute at @p run loot spawn ~ ~1 ~ loot aof:loot_bags/create_rare"
+				player_command: false
 			}]
 		}
 		{
@@ -1242,11 +1522,24 @@
 				type: "item"
 				item: "create:analog_lever"
 			}]
-			rewards: [{
-				id: "5CA6364BF49B9572"
-				type: "loot"
-				table_id: 13756307348121783L
-			}]
+			rewards: [
+				{
+					id: "58831C4873F7A42E"
+					type: "command"
+					title: "Create Common Loot Bag"
+					icon: "kubejs:loot_bag_common"
+					command: "/execute at @p run loot spawn ~ ~1 ~ loot aof:loot_bags/create_common"
+					player_command: false
+				}
+				{
+					id: "1466C722C31F72CA"
+					type: "command"
+					title: "Create Common Loot Bag"
+					icon: "kubejs:loot_bag_common"
+					command: "/execute at @p run loot spawn ~ ~1 ~ loot aof:loot_bags/create_common"
+					player_command: false
+				}
+			]
 		}
 		{
 			title: "Toolboxes"
@@ -1268,11 +1561,24 @@
 					}
 				}
 			}]
-			rewards: [{
-				id: "43EFD733D75485F2"
-				type: "random"
-				table_id: 13756307348121783L
-			}]
+			rewards: [
+				{
+					id: "2F024B9278C814CF"
+					type: "command"
+					title: "Create Common Loot Bag"
+					icon: "kubejs:loot_bag_common"
+					command: "/execute at @p run loot spawn ~ ~1 ~ loot aof:loot_bags/create_common"
+					player_command: false
+				}
+				{
+					id: "3B92AFEBB8585FF3"
+					type: "command"
+					title: "Create Common Loot Bag"
+					icon: "kubejs:loot_bag_common"
+					command: "/execute at @p run loot spawn ~ ~1 ~ loot aof:loot_bags/create_common"
+					player_command: false
+				}
+			]
 		}
 		{
 			x: 1.0d
@@ -1286,9 +1592,12 @@
 				item: "create:andesite_tunnel"
 			}]
 			rewards: [{
-				id: "4F9AA520C3E53530"
-				type: "random"
-				table_id: 13756307348121783L
+				id: "6EB034A0C261A612"
+				type: "command"
+				title: "Create Common Loot Bag"
+				icon: "kubejs:loot_bag_common"
+				command: "/execute at @p run loot spawn ~ ~1 ~ loot aof:loot_bags/create_common"
+				player_command: false
 			}]
 		}
 		{
@@ -1303,9 +1612,12 @@
 				item: "create:brass_tunnel"
 			}]
 			rewards: [{
-				id: "68E21ED3342A80E3"
-				type: "loot"
-				table_id: 13756307348121783L
+				id: "58D1F763518E5DCA"
+				type: "command"
+				title: "Create Rare Loot Bag"
+				icon: "kubejs:loot_bag_rare"
+				command: "/execute at @p run loot spawn ~ ~1 ~ loot aof:loot_bags/create_rare"
+				player_command: false
 			}]
 		}
 		{
@@ -1318,18 +1630,14 @@
 				type: "item"
 				item: "create:mechanical_arm"
 			}]
-			rewards: [
-				{
-					id: "10D748E86CC9BAE9"
-					type: "item"
-					item: "minecraft:music_disc_otherside"
-				}
-				{
-					id: "61355E5BF2B71C11"
-					type: "item"
-					item: "minecraft:jukebox"
-				}
-			]
+			rewards: [{
+				id: "593885096E3935AA"
+				type: "command"
+				title: "Create Epic Loot Bag"
+				icon: "kubejs:loot_bag_epic"
+				command: "/execute at @p run loot spawn ~ ~1 ~ loot aof:loot_bags/create_epic"
+				player_command: false
+			}]
 		}
 		{
 			x: -2.0d
@@ -1374,14 +1682,20 @@
 			]
 			rewards: [
 				{
-					id: "2BE7196BF4339D71"
-					type: "random"
-					table_id: 13756307348121783L
+					id: "475CB6BBE2254CCC"
+					type: "command"
+					title: "Create Common Loot Bag"
+					icon: "kubejs:loot_bag_common"
+					command: "/execute at @p run loot spawn ~ ~1 ~ loot aof:loot_bags/create_common"
+					player_command: false
 				}
 				{
-					id: "4ED09567B5A550CA"
-					type: "item"
-					item: "coxinhautilities:portable_tank_mk2"
+					id: "0CAB2BDFAAF53900"
+					type: "command"
+					title: "Create Common Loot Bag"
+					icon: "kubejs:loot_bag_common"
+					command: "/execute at @p run loot spawn ~ ~1 ~ loot aof:loot_bags/create_common"
+					player_command: false
 				}
 			]
 		}
@@ -1396,9 +1710,12 @@
 				item: "create:track"
 			}]
 			rewards: [{
-				id: "4DBEB384B3FB56C0"
-				type: "loot"
-				table_id: 13756307348121783L
+				id: "594F6A3AA4E24010"
+				type: "command"
+				title: "Create Epic Loot Bag"
+				icon: "kubejs:loot_bag_epic"
+				command: "/execute at @p run loot spawn ~ ~1 ~ loot aof:loot_bags/create_epic"
+				player_command: false
 			}]
 		}
 		{
@@ -1421,9 +1738,12 @@
 					xp_levels: 10
 				}
 				{
-					id: "16F180CC6315F092"
-					type: "random"
-					table_id: 13756307348121783L
+					id: "4BEE1BCE2FCE24FE"
+					type: "command"
+					title: "Create Epic Loot Bag"
+					icon: "kubejs:loot_bag_epic"
+					command: "/execute at @p run loot spawn ~ ~1 ~ loot aof:loot_bags/create_epic"
+					player_command: false
 				}
 			]
 		}
@@ -1463,6 +1783,14 @@
 					type: "item"
 					item: "minecraft:lead"
 				}
+				{
+					id: "374CE0AA020014CB"
+					type: "command"
+					title: "Create Legendary Loot Bag"
+					icon: "kubejs:loot_bag_legendary"
+					command: "/execute at @p run loot spawn ~ ~1 ~ loot aof:loot_bags/create_legendary"
+					player_command: false
+				}
 			]
 		}
 		{
@@ -1487,6 +1815,14 @@
 					type: "item"
 					item: "minecraft:lever"
 				}
+				{
+					id: "6014202EB5B75F80"
+					type: "command"
+					title: "Create Common Loot Bag"
+					icon: "kubejs:loot_bag_common"
+					command: "/execute at @p run loot spawn ~ ~1 ~ loot aof:loot_bags/create_common"
+					player_command: false
+				}
 			]
 		}
 		{
@@ -1500,9 +1836,12 @@
 				item: "create:display_link"
 			}]
 			rewards: [{
-				id: "5AEC75E90EFB5129"
-				type: "loot"
-				table_id: 13756307348121783L
+				id: "1C786904BBBB6F0E"
+				type: "command"
+				title: "Create Common Loot Bag"
+				icon: "kubejs:loot_bag_common"
+				command: "/execute at @p run loot spawn ~ ~1 ~ loot aof:loot_bags/create_common"
+				player_command: false
 			}]
 		}
 		{
@@ -1518,9 +1857,12 @@
 				item: "create:display_board"
 			}]
 			rewards: [{
-				id: "4B9C49641326CB2D"
-				type: "loot"
-				table_id: 13756307348121783L
+				id: "63A7DD6EFB600BC3"
+				type: "command"
+				title: "Create Rare Loot Bag"
+				icon: "kubejs:loot_bag_rare"
+				command: "/execute at @p run loot spawn ~ ~1 ~ loot aof:loot_bags/create_rare"
+				player_command: false
 			}]
 		}
 		{
@@ -1538,9 +1880,12 @@
 				item: "create:item_vault"
 			}]
 			rewards: [{
-				id: "4B9F60D1E2D62FF2"
-				type: "loot"
-				table_id: 13756307348121783L
+				id: "29B7CA2294F20339"
+				type: "command"
+				title: "Create Common Loot Bag"
+				icon: "kubejs:loot_bag_common"
+				command: "/execute at @p run loot spawn ~ ~1 ~ loot aof:loot_bags/create_common"
+				player_command: false
 			}]
 		}
 		{
@@ -1554,9 +1899,12 @@
 				item: "create:powdered_obsidian"
 			}]
 			rewards: [{
-				id: "77BA00A30591EB9F"
-				type: "loot"
-				table_id: 13756307348121783L
+				id: "43EE5F60822DF0FC"
+				type: "command"
+				title: "Create Epic Loot Bag"
+				icon: "kubejs:loot_bag_epic"
+				command: "/execute at @p run loot spawn ~ ~1 ~ loot aof:loot_bags/create_epic"
+				player_command: false
 			}]
 		}
 		{
@@ -1579,6 +1927,14 @@
 					id: "03246123C8206D34"
 					type: "item"
 					item: "minecraft:water_bucket"
+				}
+				{
+					id: "747C048080E3B2D9"
+					type: "command"
+					title: "Create Common Loot Bag"
+					icon: "kubejs:loot_bag_common"
+					command: "/execute at @p run loot spawn ~ ~1 ~ loot aof:loot_bags/create_common"
+					player_command: false
 				}
 			]
 		}
@@ -1605,9 +1961,12 @@
 				}
 			]
 			rewards: [{
-				id: "57E446B8C098A5AD"
-				type: "random"
-				table_id: 13756307348121783L
+				id: "1051AA4DC2FC6A79"
+				type: "command"
+				title: "Create Rare Loot Bag"
+				icon: "kubejs:loot_bag_rare"
+				command: "/execute at @p run loot spawn ~ ~1 ~ loot aof:loot_bags/create_rare"
+				player_command: false
 			}]
 		}
 		{
@@ -1621,12 +1980,22 @@
 				type: "item"
 				item: "create:haunted_bell"
 			}]
-			rewards: [{
-				id: "02B4529C59249460"
-				type: "item"
-				item: "minecraft:torch"
-				count: 64
-			}]
+			rewards: [
+				{
+					id: "02B4529C59249460"
+					type: "item"
+					item: "minecraft:torch"
+					count: 64
+				}
+				{
+					id: "171ACD486F3F96C0"
+					type: "command"
+					title: "Create Rare Loot Bag"
+					icon: "kubejs:loot_bag_rare"
+					command: "/execute at @p run loot spawn ~ ~1 ~ loot aof:loot_bags/create_rare"
+					player_command: false
+				}
+			]
 		}
 		{
 			x: 18.0d
@@ -1647,14 +2016,17 @@
 			]
 			rewards: [
 				{
-					id: "2D420E1E21C41D8E"
-					type: "loot"
-					table_id: 13756307348121783L
-				}
-				{
 					id: "6288CBE6F49A9C78"
 					type: "xp_levels"
 					xp_levels: 5
+				}
+				{
+					id: "5E20703D2853B086"
+					type: "command"
+					title: "Create Legendary Loot Bag"
+					icon: "kubejs:loot_bag_legendary"
+					command: "/execute at @p run loot spawn ~ ~1 ~ loot aof:loot_bags/create_legendary"
+					player_command: false
 				}
 			]
 		}

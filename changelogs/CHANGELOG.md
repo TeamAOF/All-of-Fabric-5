@@ -1,15 +1,31 @@
-### All of Fabric 5 | v1.5.2
+### All of Fabric 5 | v2.0.0
 
-_Fabric Loader 0.14.9_ | _[Mod Updates](https://github.com/TeamAOF/All-of-Fabric-5/blob/main/changelogs/changelog_mods_1.5.2.md)_ | _[Modlist](https://github.com/TeamAOF/All-of-Fabric-5/blob/main/changelogs/modlist_1.5.2.md)_
+_Fabric Loader 0.14.9_ | _[Mod Updates](https://github.com/TeamAOF/All-of-Fabric-5/blob/main/changelogs/changelog_mods_2.0.0.md)_ | _[Modlist](https://github.com/TeamAOF/All-of-Fabric-5/blob/main/changelogs/modlist_2.0.0.md)_
+
+## DISCLAIMER: 1.x worlds are NOT compatible with this update! Backup your worlds!
 
 ## Changes
 
-* You'll now spawn with a book about Hex Crafting.
+* Fully revamped worldgen thanks to Terralith.
+* Added Challenges questing chapter, become The Completionist!
+* Added Hex Casting questing chapter.
+* Added Ad Astra questing chapter.
+* Added Archeology quest in Adventurer chapter.
+* Added Lootr quest in Adventurer chapter.
+* Reworked the Building chapter.
+* New quest rewards system.
 * Revamped Ender Dragon fight, from me to you... Good luck.
+* Remove Thermoelectric Generator from quest rewards.
+* Added all overworld sapling to farmingforblockheads market.
+* Void totem will now show on chest when worn in charm slot.
+* Removed base botania flowers quests.
+* Moved Agriculture chapter into Tools/Armor.
 
 ## Recipes
 
 * Conflict between Spruce Shelf and Spruce Bannister.
+* Removed Slime Sling & boots from Kibe.
+* Fixed tons & tons of compat recipes, mainly in Create.
 
 ## Fixes
 
@@ -19,22 +35,71 @@ _Fabric Loader 0.14.9_ | _[Mod Updates](https://github.com/TeamAOF/All-of-Fabric
 * Crash when mining a mechanical piston using a piercing paxel.
 * Crawling speeds being faster than normal.
 * Missing texture in Spirit quests.
+* Items turning into mana when using the export bus
 
 ## Added
 
-* Bamboo Combat
-* Dragonfight
-* FuelInfo
-* Hex Casting
-* Niolite Expansion
-* PAUCAL
-* Prism
-* Roughly Enough Loot Tables (RELT)
-* Roughly Enough Trades (RET)
+- Ambiend Sounds (Fabric)
+- Bad Wither No Cookie! Reloaded
+- Bamboo Combat
+- BotanyPots
+- BotanyTrees
+- CapsLock Archeology Mod
+- CC:C Bridge
+- Connectivity Mod
+- CreativeCore (Fabric)
+- Dangerous Stone Cutter
+- Dragonfight Mod
+- EntityCulling-Fabric
+- FuelInfo
+- Hephaestus
+- Hex Casting
+- Industrial Revolution: Nikolite Expansion
+- InmisAddon
+- Iron Chests: Restocked
+- Logicates
+- Macaw's Bridges - BYG
+- Macaw's Roofs - BYG
+- Model Gap Fix
+- Paladin's Furniture
+- PAUCAL
+- Playdate
+- Powah!
+- Prism
+- ProbeJS
+- Productive Villagers
+- Roughly Enough Loot Tables (RELT)
+- Roughly Enough Trades (RET)
+- Slimy Boyos
+- Splash Milk
+- Staff of Travelling
+- Starlight
+- StrongerSnowballs
+- Tempad
+- Seed Fix
+- Sodium Extra
+- Tiny Coal
+- Toast Manager
+- Reese's Sodium Options
+- XP Obelisk Additions
 
 ## Removed
 
+* Adorn (Being replaced by Paladin's Furniture)
+* Chisel (Chipped is a thing)
+* Dwarf Coal (Replaced by Tiny Coal)
+* Entity Banners
+* Expanded Storage
+* Extra Alchemy
+* Extra Generators (Due to balancing reasons & addition of Powah)
+* I Know What I'm Doing
+* Improved Stations
 * Magitek Mechs (Due to crashes)
+* Phosphor (Replaced by Starlight)
+* Plushie (Replaced by Playdate)
+* Timeoutout (Replaced by Connectivity)
+* Twigs (Chipped is a thing)
+* XL Packets (Replaced by Connectivity)
 ---
 
 ### All of Fabric 5 | v1.5.1

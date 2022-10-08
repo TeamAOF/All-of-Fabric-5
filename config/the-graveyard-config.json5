@@ -545,10 +545,10 @@
     }
   },
   "booleanEntries": {
-    "urnHasDoubleInventory": true,
-    "disableWitherSkeletonSpawner": false
+    "disableWitherSkeletonSpawner": false,
+    "urnHasDoubleInventory": true
   },
   "integerEntries": {
-    "maxTerrainHeightDifference": 6
+    "maxTerrainHeightDifference": 5
   }
 }

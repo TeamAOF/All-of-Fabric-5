@@ -15,26 +15,28 @@
 	default_hide_dependency_lines: false
 	quests: [
 		{
-			x: 0.0d
-			y: 1.5d
-			subtitle: "You can dream, create, design, and build the most wonderful place in the world."
-			description: ["INFINITE BUILDING!"]
+			x: 1.5d
+			y: 2.0d
+			subtitle: "If you can dream it"
+			description: ["You've aquired every utility in this chapter for helping you build. Guess there isn't any point in trying to contain your creativity."]
+			hide_dependency_lines: true
 			dependencies: [
-				"57A128EE5135A494"
-				"5422C6DABE9F8D9D"
-				"503DD3CEEFE78FFF"
 				"6CFB83CA3C41D891"
-				"1A7AF56567D80ECB"
-				"1503EBD099C0444B"
-				"0232F82465ACC551"
-				"45472C7319EC2261"
-				"72D473E1810E45D7"
-				"454C6A0D83B852C7"
-				"5D5E53BCC9686BEB"
 				"72D41352FD2B752C"
+				"503DD3CEEFE78FFF"
+				"57A128EE5135A494"
 				"009320766602EAAF"
+				"1A7AF56567D80ECB"
+				"4A3123D7B5D34EEA"
+				"5422C6DABE9F8D9D"
+				"72D473E1810E45D7"
+				"0232F82465ACC551"
+				"454C6A0D83B852C7"
+				"45472C7319EC2261"
+				"1503EBD099C0444B"
 				"08FAEB8EB602EF41"
 			]
+			size: 1.5d
 			id: "341C7D2C93742900"
 			tasks: [{
 				id: "0AE0962EF2F84060"
@@ -55,10 +57,11 @@
 			]
 		}
 		{
-			x: 0.5d
-			y: -1.5d
-			subtitle: "Allows you to build structures using a set of different Building Modes."
-			description: ["Best tech to build it quick."]
+			x: -2.0d
+			y: 0.5d
+			subtitle: "Gadgets and Gizmos aplenty"
+			description: ["The Building Gadget allows you to build simple structures quickly by being able to place many blocks in a pattern quickly."]
+			dependencies: ["76DA9066EAEEF42A"]
 			id: "45472C7319EC2261"
 			tasks: [{
 				id: "33686463964EEAED"
@@ -69,25 +72,30 @@
 					tag: {
 						Damage: 0
 						state: {
-							data: { }
 							state: {
 								Name: "minecraft:air"
 							}
+							data: { }
 							serializer: "buildinggadgets:dummy_serializer"
 						}
 					}
 				}
 			}]
 			rewards: [{
-				id: "5EA1ECBEFF608B9C"
-				type: "loot"
-				table_id: 13756307348121783L
+				id: "7142DFDC2DCA38D0"
+				type: "command"
+				title: "Agriculturist Bag"
+				icon: "kubejs:loot_bag_agriculture"
+				command: "/execute at @p run loot spawn ~ ~1 ~ loot aof:loot_bags/agriculturist_loot"
+				player_command: false
 			}]
 		}
 		{
 			x: -0.5d
-			y: -1.5d
-			subtitle: "Provides basic exchanging abilities using a set of different Exchanging Modes."
+			y: 2.0d
+			subtitle: "Whoozits and Whatsits galore"
+			description: ["The Exchanging gadget provides basic exchanging abilities using a set of different Exchanging Modes."]
+			dependencies: ["76DA9066EAEEF42A"]
 			id: "72D473E1810E45D7"
 			tasks: [{
 				id: "4278655EFD94DBF1"
@@ -98,25 +106,30 @@
 					tag: {
 						Damage: 0
 						state: {
-							data: { }
 							state: {
 								Name: "minecraft:air"
 							}
+							data: { }
 							serializer: "buildinggadgets:dummy_serializer"
 						}
 					}
 				}
 			}]
 			rewards: [{
-				id: "33177193670A70BC"
-				type: "loot"
-				table_id: 13756307348121783L
+				id: "779C5C4D22ED6A15"
+				type: "command"
+				title: "Agriculturist Bag"
+				icon: "kubejs:loot_bag_agriculture"
+				command: "/execute at @p run loot spawn ~ ~1 ~ loot aof:loot_bags/agriculturist_loot"
+				player_command: false
 			}]
 		}
 		{
-			x: 1.5d
-			y: -1.0d
-			subtitle: "Allows you to select a large radius to copy and paste in a different location."
+			x: -2.0d
+			y: 3.5d
+			subtitle: "You want thingamabobs? I got 20"
+			description: ["The Copy and Paste gadget does pretty much exactly what you think it does. It allows you to select a large radius to copy and paste in a different location."]
+			dependencies: ["76DA9066EAEEF42A"]
 			id: "0232F82465ACC551"
 			tasks: [{
 				id: "77BB53C023067B54"
@@ -138,37 +151,25 @@
 				}
 			}]
 			rewards: [{
-				id: "77136482EFE2C8EA"
-				type: "loot"
-				table_id: 13756307348121783L
+				id: "74A2BEE99E2FEDD6"
+				type: "command"
+				title: "Agriculturist Bag"
+				icon: "kubejs:loot_bag_agriculture"
+				command: "/execute at @p run loot spawn ~ ~1 ~ loot aof:loot_bags/agriculturist_loot"
+				player_command: false
 			}]
 		}
 		{
-			x: 1.5d
-			y: 4.0d
-			subtitle: "Right-click and put your block of choice in slot. Choose the variant that suits you."
-			id: "5D5E53BCC9686BEB"
-			tasks: [{
-				id: "2A15AF7129E1D209"
-				type: "item"
-				item: "chisel:chisel"
-			}]
-			rewards: [{
-				id: "274486AF5C53B027"
-				type: "loot"
-				table_id: 13756307348121783L
-			}]
-		}
-		{
-			title: "Bits and Chisels"
-			x: 0.5d
-			y: 4.5d
+			title: "Chisels and Bits"
+			x: 0.0d
+			y: 5.0d
 			subtitle: "Sculpture the world!"
 			description: [
 				"Remove small bits from blocks using chisels."
 				""
 				"You can use these bits to build detailed decorations or whatever else you want."
 			]
+			dependencies: ["30023016124CD227"]
 			id: "1503EBD099C0444B"
 			tasks: [{
 				id: "5C9D9AF921A12ED1"
@@ -181,16 +182,35 @@
 					}
 				}
 			}]
-			rewards: [{
-				id: "567C37D50BB09667"
-				type: "loot"
-				table_id: 13756307348121783L
-			}]
+			rewards: [
+				{
+					id: "5DB1DAF4DEF79413"
+					type: "item"
+					item: {
+						id: "chiselsandbits:bit_bag"
+						Count: 1b
+						tag: {
+							Inventory: { }
+						}
+					}
+				}
+				{
+					id: "42E4DB4973499475"
+					type: "item"
+					item: "chiselsandbits:magnifying_glass"
+				}
+			]
 		}
 		{
-			x: -1.5d
-			y: -1.0d
-			subtitle: "Allows you to void a large area."
+			x: -3.5d
+			y: 2.0d
+			subtitle: "Who cares? No big deal."
+			description: [
+				"The Destruction Gadget works in the opposite way that the building gadget does, voiding blocks in a certain range of where it was right clicked."
+				""
+				"Please note! The blocks are VOIDED not broken, so you will not get these blocks back."
+			]
+			dependencies: ["76DA9066EAEEF42A"]
 			id: "454C6A0D83B852C7"
 			tasks: [{
 				id: "5E7623ACE78AD0E5"
@@ -200,27 +220,31 @@
 					Count: 1b
 					tag: {
 						overlay: 1b
-						fuzzy: 1b
 						Damage: 0
+						fuzzy: 1b
 					}
 				}
 			}]
 			rewards: [{
-				id: "5D4DEF0828F97584"
-				type: "loot"
-				table_id: 13756307348121783L
+				id: "50F21A4FA621DAF4"
+				type: "command"
+				title: "Agriculturist Bag"
+				icon: "kubejs:loot_bag_agriculture"
+				command: "/execute at @p run loot spawn ~ ~1 ~ loot aof:loot_bags/agriculturist_loot"
+				player_command: false
 			}]
 		}
 		{
 			title: "Staffs of Building"
-			x: -0.5d
-			y: 4.5d
-			subtitle: "Used to speed up building and block placement."
-			description: ["- Holding a staff will show a placement range (but a range will only be displayed if you have the required items in your inventory)."]
+			x: 0.5d
+			y: 0.0d
+			subtitle: "Fairly Odd Builders"
+			description: ["Holding a staff will show a placement range (but a range will only be displayed if you have the required items in your inventory). Right clicking will place a block of the same kind in the highlighted area."]
 			id: "5422C6DABE9F8D9D"
 			tasks: [{
 				id: "1F39D5573BB82545"
 				type: "item"
+				title: "Any Building Staff"
 				item: {
 					id: "itemfilters:or"
 					Count: 1b
@@ -255,15 +279,24 @@
 				}
 			}]
 			rewards: [{
-				id: "7629EE7C60C978CF"
-				type: "loot"
-				table_id: 13756307348121783L
+				id: "17FE151DD83E0671"
+				type: "command"
+				title: "Agriculturist Bag"
+				icon: "kubejs:loot_bag_agriculture"
+				command: "/execute at @p run loot spawn ~ ~1 ~ loot aof:loot_bags/agriculturist_loot"
+				player_command: false
 			}]
 		}
 		{
-			x: 2.5d
-			y: 0.0d
+			x: 3.5d
+			y: 1.0d
 			subtitle: "Dirty Stick"
+			description: [
+				"A simple tool that allows you to place dirt blocks using mana."
+				""
+				"This isn't useful in and of itself, but when paired with the wand of the shifting crust, it provides dirt to swap blocks with."
+			]
+			dependencies: ["0ECC48E2B41D4078"]
 			id: "1A7AF56567D80ECB"
 			tasks: [{
 				id: "3AA7A6C9CA235353"
@@ -271,15 +304,20 @@
 				item: "botania:dirt_rod"
 			}]
 			rewards: [{
-				id: "60008B7651F96325"
-				type: "random"
-				table_id: 13756307348121783L
+				id: "6F65728281D4BB55"
+				type: "command"
+				title: "Magic Epic Loot Bag"
+				icon: "kubejs:loot_bag_epic"
+				command: "/execute at @p run loot spawn ~ ~1 ~ loot aof:loot_bags/magic_epic"
+				player_command: false
 			}]
 		}
 		{
-			x: 3.0d
-			y: 1.5d
+			x: 3.5d
+			y: 3.5d
 			subtitle: "Dirty Stick MK II"
+			description: ["This tool performs much the same function as the rod of the lands, but also allows you to place blocks in midair for an additional cost."]
+			dependencies: ["0ECC48E2B41D4078"]
 			id: "6CFB83CA3C41D891"
 			tasks: [{
 				id: "07E070E14442B2D5"
@@ -287,14 +325,20 @@
 				item: "botania:skydirt_rod"
 			}]
 			rewards: [{
-				id: "4E850F618F4B07BC"
-				type: "random"
-				table_id: 13756307348121783L
+				id: "0303D36FDCEDD758"
+				type: "command"
+				title: "Magic Epic Loot Bag"
+				icon: "kubejs:loot_bag_epic"
+				command: "/execute at @p run loot spawn ~ ~1 ~ loot aof:loot_bags/magic_epic"
+				player_command: false
 			}]
 		}
 		{
-			x: 2.5d
-			y: 3.0d
+			x: 6.5d
+			y: 3.5d
+			subtitle: "Smoothing Brush in Survival"
+			description: ["The Rod of the Terra Firm is a useful tool for terraforming that allows you to flatten the ground and bring the elevation of the ground closer to your level"]
+			dependencies: ["0ECC48E2B41D4078"]
 			id: "503DD3CEEFE78FFF"
 			tasks: [{
 				id: "6E7765039271CC78"
@@ -302,15 +346,24 @@
 				item: "botania:terraform_rod"
 			}]
 			rewards: [{
-				id: "1ED31F8DA461B54B"
-				type: "random"
-				table_id: 13756307348121783L
+				id: "032B0A0493D85E81"
+				type: "command"
+				title: "Magic Epic Loot Bag"
+				icon: "kubejs:loot_bag_epic"
+				command: "/execute at @p run loot spawn ~ ~1 ~ loot aof:loot_bags/magic_epic"
+				player_command: false
 			}]
 		}
 		{
-			x: -3.0d
-			y: 1.5d
+			x: 5.0d
+			y: 0.5d
 			subtitle: "It's cobbling time!"
+			description: [
+				"Much like the Rod of the Lands, this rod allows you to place Cobblestone by consuming mana."
+				""
+				"Like its dirty cousin, it also provides the Rod of the Shifting Crust with Cobblestone for swapping."
+			]
+			dependencies: ["0ECC48E2B41D4078"]
 			id: "009320766602EAAF"
 			tasks: [{
 				id: "5B3866A5E0AD8DCF"
@@ -318,15 +371,20 @@
 				item: "botania:cobble_rod"
 			}]
 			rewards: [{
-				id: "1CE5C30DD79A7098"
-				type: "random"
-				table_id: 13756307348121783L
+				id: "4EF5D0A9AE33085F"
+				type: "command"
+				title: "Magic Epic Loot Bag"
+				icon: "kubejs:loot_bag_epic"
+				command: "/execute at @p run loot spawn ~ ~1 ~ loot aof:loot_bags/magic_epic"
+				player_command: false
 			}]
 		}
 		{
-			x: -2.5d
-			y: 0.0d
+			x: 5.0d
+			y: 4.0d
 			subtitle: "Keep the ocean clean!"
+			description: ["Just like the Rod of the Land, the Rod of the Seas will allow you to use mana to place water source blocks."]
+			dependencies: ["0ECC48E2B41D4078"]
 			id: "72D41352FD2B752C"
 			tasks: [{
 				id: "69CE55AF68F39797"
@@ -334,15 +392,24 @@
 				item: "botania:water_rod"
 			}]
 			rewards: [{
-				id: "1A8308C8DEE71022"
-				type: "random"
-				table_id: 13756307348121783L
+				id: "65131C43C2107240"
+				type: "command"
+				title: "Magic Epic Loot Bag"
+				icon: "kubejs:loot_bag_epic"
+				command: "/execute at @p run loot spawn ~ ~1 ~ loot aof:loot_bags/magic_epic"
+				player_command: false
 			}]
 		}
 		{
-			x: -2.5d
-			y: 3.0d
+			x: 6.5d
+			y: 1.5d
 			subtitle: "Shift your block of choice."
+			description: [
+				"The Rod of the Shifting Crust is an incredibly useful tool that allows you to swap blocks on a surface with other blocks from your inventory."
+				""
+				"Other staffs listed in this chapter allow you to use mana to replace blocks with blocks generated with mana."
+			]
+			dependencies: ["0ECC48E2B41D4078"]
 			id: "57A128EE5135A494"
 			tasks: [{
 				id: "5F10EB7947E7C1CB"
@@ -350,17 +417,25 @@
 				item: "botania:exchange_rod"
 			}]
 			rewards: [{
-				id: "4E2062F5C1DBE105"
-				type: "random"
-				table_id: 13756307348121783L
+				id: "4B1F2DFF7A529048"
+				type: "command"
+				title: "Magic Epic Loot Bag"
+				icon: "kubejs:loot_bag_epic"
+				command: "/execute at @p run loot spawn ~ ~1 ~ loot aof:loot_bags/magic_epic"
+				player_command: false
 			}]
 		}
 		{
 			title: "Chipped"
-			x: -1.5d
-			y: 4.0d
-			subtitle: "A builders dream come true!"
-			description: ["Craft all the stations, build your dream house."]
+			x: 3.0d
+			y: 5.0d
+			subtitle: "Every block needs a friend!"
+			description: [
+				"Chipped is a building mod with one of the largest varieties of building blocks available to build and play with."
+				""
+				"Blocks need to be 'chipped' in the workbench appropriate to that type of that material."
+			]
+			dependencies: ["30023016124CD227"]
 			id: "08FAEB8EB602EF41"
 			tasks: [
 				{
@@ -400,9 +475,157 @@
 				}
 			]
 			rewards: [{
-				id: "15AAC3F322683558"
-				type: "random"
-				table_id: 13756307348121783L
+				id: "6A5213A719EDDF6B"
+				type: "command"
+				title: "Agriculturist Bag"
+				icon: "kubejs:loot_bag_agriculture"
+				command: "/execute at @p run loot spawn ~ ~1 ~ loot aof:loot_bags/agriculturist_loot"
+				player_command: false
+			}]
+		}
+		{
+			title: "Compact Machines"
+			x: 2.5d
+			y: 0.0d
+			subtitle: "Ity Bity Living Space"
+			description: [
+				"Sometimes a machine or automation process just doesn't look pretty, or is too lagy to be in your base. Enter the Compact Machine."
+				""
+				"The Compact machine allows you to shrink down into a pocket dimension. You can use tunnels to connect to the faces on the block of the compact machine from within the pocket dimension."
+				""
+				"The machine comes in various sizes, and requires a Personal Shrinking Device to enter the machine."
+			]
+			id: "4A3123D7B5D34EEA"
+			tasks: [
+				{
+					id: "3C353A9029408E3F"
+					type: "item"
+					title: "Any Compact Machine"
+					item: {
+						id: "itemfilters:or"
+						Count: 1b
+						tag: {
+							items: [
+								{
+									id: "compactmachines:machine_tiny"
+									Count: 1b
+								}
+								{
+									id: "compactmachines:machine_small"
+									Count: 1b
+								}
+								{
+									id: "compactmachines:machine_normal"
+									Count: 1b
+								}
+								{
+									id: "compactmachines:machine_large"
+									Count: 1b
+								}
+								{
+									id: "compactmachines:machine_giant"
+									Count: 1b
+								}
+								{
+									id: "compactmachines:machine_maximum"
+									Count: 1b
+								}
+							]
+						}
+					}
+				}
+				{
+					id: "1692D9FED5996F8D"
+					type: "item"
+					item: "compactmachines:personal_shrinking_device"
+				}
+				{
+					id: "0A064CD2DF52C567"
+					type: "item"
+					item: {
+						id: "itemfilters:or"
+						Count: 1b
+						tag: {
+							items: [
+								{
+									id: "compactmachines:tunnel"
+									tag: {
+										definition: {
+											id: "compactmachines:item"
+										}
+									}
+									Count: 1b
+								}
+								{
+									id: "compactmachines:tunnel"
+									tag: {
+										definition: {
+											id: "compactmachines:fluid"
+										}
+									}
+									Count: 1b
+								}
+								{
+									id: "compactmachines:tunnel"
+									tag: {
+										definition: {
+											id: "compactmachines:energy"
+										}
+									}
+									Count: 1b
+								}
+							]
+						}
+					}
+				}
+			]
+			rewards: [
+				{
+					id: "70926D54D5958EAA"
+					type: "item"
+					item: "kibe:entangled_chest"
+					count: 2
+				}
+				{
+					id: "245522521E25CE5F"
+					type: "item"
+					item: "kibe:entangled_tank"
+					count: 2
+				}
+			]
+		}
+		{
+			x: 4.976190476190482d
+			y: 2.2857142857142847d
+			id: "0ECC48E2B41D4078"
+			tasks: [{
+				id: "7A35F0C8B2C0B1D1"
+				type: "checkmark"
+				title: "Botania Utils"
+			}]
+		}
+		{
+			x: -2.0d
+			y: 2.0d
+			subtitle: "Look at this stuff. Isnt it neat?"
+			description: ["Building Gadgets is quite a useful mod that provides utility items to destroy, place, and replace blocks in patterned shapes."]
+			id: "76DA9066EAEEF42A"
+			tasks: [{
+				id: "04FD99A4D79A7CC9"
+				type: "checkmark"
+				title: "Gadgets"
+			}]
+		}
+		{
+			x: 1.5d
+			y: 5.0d
+			subtitle: "Blocks as far as the eye can see!"
+			description: ["There are plenty of options of blocks to build with, with options from not only Chisel, Chipped and Chisels n Bits, but also from Blockus, Architect's Palette, and other cool mods!"]
+			id: "30023016124CD227"
+			tasks: [{
+				id: "2468CAEE0E3DFE45"
+				type: "checkmark"
+				title: "Block Variations"
 			}]
 		}
 	]

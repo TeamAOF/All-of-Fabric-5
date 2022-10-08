@@ -78,19 +78,11 @@ onEvent('recipes', (event) => {
     'additionaladditions:gilded_netherite_chestplate',
     'additionaladditions:gilded_netherite_leggings',
     'additionaladditions:gilded_netherite_boots',
-    'extragenerators:gluttony_generator',
-    'extragenerators:brew_generator',
-    'extragenerators:redstone_generator',
-    'extragenerators:blast_generator',
-    'extragenerators:demise_generator',
-    'extragenerators:icy_generator',
-    'extragenerators:teleport_generator',
-    'extragenerators:heavenly_generator',
-    'extragenerators:infernal_generator',
     'campanion:mre',
     'additionaladditions:fried_egg',
     'twilightforest:uncrafting_table',
-    'extragenerators:thermoelectric_generator',
+    'kibe:slime_sling',
+    'kibe:slime_boots'
     ];
 
     id.forEach((id) => {

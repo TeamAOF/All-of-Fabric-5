@@ -1,6 +1,7 @@
 [graveSettings]
 generateGraves = true
 retrievalType = "ON_USE"
+compactRetrieveItems = true
 dropType = "IN_INVENTORY"
 dropPlayerHead = false
 dropGraveBlock = false
@@ -12,6 +13,7 @@ priority = "GRAVE"
 unlockableGraves = true
 deleteEnchantments = ["minecraft:vanishing_curse", "vanishing_curse"]
 soulboundEnchantments = ["yigd:soulbound"]
+loseSoulboundLevelOnDeath = false
 voidSlots = []
 soulboundSlots = []
 applyBindingCurse = true
@@ -115,6 +117,7 @@ whitelist = true
 whitelistAdd = true
 whitelistRemove = true
 whitelistToggle = true
+coordinateToggle = true
 [debugConfig]
 clearInventoryOnRespawn = false
 createGraveBeforeDeathMessage = false

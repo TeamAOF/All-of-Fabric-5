@@ -1,7 +1,7 @@
 {
 	id: "096178E8745A7B81"
 	group: "1039AC171AB01709"
-	order_index: 5
+	order_index: 6
 	filename: "spirit"
 	title: "Spirit"
 	icon: "spirit:soul_crystal"
@@ -41,9 +41,12 @@
 				}
 			]
 			rewards: [{
-				id: "01AA70CCF57905F4"
-				type: "random"
-				table_id: 13756307348121783L
+				id: "7D9DD1A6B5B8F75E"
+				type: "command"
+				title: "Magic Common Loot Bag"
+				icon: "kubejs:loot_bag_common"
+				command: "/execute at @p run loot spawn ~ ~1 ~ loot aof:loot_bags/magic_common"
+				player_command: false
 			}]
 		}
 		{
@@ -63,9 +66,12 @@
 				item: "spirit:soul_powder"
 			}]
 			rewards: [{
-				id: "2B2C98A9490A44C1"
-				type: "random"
-				table_id: 13756307348121783L
+				id: "665C59989BB845A7"
+				type: "command"
+				title: "Magic Rare Loot Bag"
+				icon: "kubejs:loot_bag_rare"
+				command: "/execute at @p run loot spawn ~ ~1 ~ loot aof:loot_bags/magic_rare"
+				player_command: false
 			}]
 		}
 		{
@@ -85,9 +91,12 @@
 				item: "spirit:soul_steel_ingot"
 			}]
 			rewards: [{
-				id: "78E6134FC06D9533"
-				type: "random"
-				table_id: 13756307348121783L
+				id: "6767A109153563E8"
+				type: "command"
+				title: "Magic Rare Loot Bag"
+				icon: "kubejs:loot_bag_rare"
+				command: "/execute at @p run loot spawn ~ ~1 ~ loot aof:loot_bags/magic_rare"
+				player_command: false
 			}]
 		}
 		{
@@ -111,9 +120,12 @@
 				item: "spirit:soul_crystal"
 			}]
 			rewards: [{
-				id: "5F7B0CB5837FA487"
-				type: "random"
-				table_id: 13756307348121783L
+				id: "2F27B904214BD9A2"
+				type: "command"
+				title: "Magic Rare Loot Bag"
+				icon: "kubejs:loot_bag_rare"
+				command: "/execute at @p run loot spawn ~ ~1 ~ loot aof:loot_bags/magic_rare"
+				player_command: false
 			}]
 		}
 		{
@@ -135,9 +147,12 @@
 				item: "spirit:soul_cage"
 			}]
 			rewards: [{
-				id: "5057C4021AC5A64F"
-				type: "random"
-				table_id: 13756307348121783L
+				id: "07403803C9D7A0A6"
+				type: "command"
+				title: "Magic Rare Loot Bag"
+				icon: "kubejs:loot_bag_rare"
+				command: "/execute at @p run loot spawn ~ ~1 ~ loot aof:loot_bags/magic_rare"
+				player_command: false
 			}]
 		}
 		{
@@ -157,9 +172,12 @@
 				item: "spirit:crystal_pedestal"
 			}]
 			rewards: [{
-				id: "38218A450547853D"
-				type: "random"
-				table_id: 13756307348121783L
+				id: "0D64712A3577D39F"
+				type: "command"
+				title: "Magic Rare Loot Bag"
+				icon: "kubejs:loot_bag_rare"
+				command: "/execute at @p run loot spawn ~ ~1 ~ loot aof:loot_bags/magic_rare"
+				player_command: false
 			}]
 		}
 		{
@@ -195,9 +213,12 @@
 				}
 			]
 			rewards: [{
-				id: "3E5ACDC9EF3EF8A5"
-				type: "random"
-				table_id: 13756307348121783L
+				id: "4517EBA0598DB14F"
+				type: "command"
+				title: "Magic Epic Loot Bag"
+				icon: "kubejs:loot_bag_epic"
+				command: "/execute at @p run loot spawn ~ ~1 ~ loot aof:loot_bags/magic_epic"
+				player_command: false
 			}]
 		}
 		{
@@ -222,9 +243,12 @@
 				}
 			}]
 			rewards: [{
-				id: "44C75AC104D94730"
-				type: "random"
-				table_id: 13756307348121783L
+				id: "63CA730DE61B8A7F"
+				type: "command"
+				title: "Magic Rare Loot Bag"
+				icon: "kubejs:loot_bag_rare"
+				command: "/execute at @p run loot spawn ~ ~1 ~ loot aof:loot_bags/magic_rare"
+				player_command: false
 			}]
 		}
 		{
@@ -249,9 +273,12 @@
 				}
 			}]
 			rewards: [{
-				id: "179B599A7974577C"
-				type: "random"
-				table_id: 13756307348121783L
+				id: "1D9B27B9D9A6D7EE"
+				type: "command"
+				title: "Magic Rare Loot Bag"
+				icon: "kubejs:loot_bag_rare"
+				command: "/execute at @p run loot spawn ~ ~1 ~ loot aof:loot_bags/magic_rare"
+				player_command: false
 			}]
 		}
 		{
@@ -276,9 +303,12 @@
 				}
 			}]
 			rewards: [{
-				id: "323A2A35F99DC6F1"
-				type: "random"
-				table_id: 13756307348121783L
+				id: "1E57F14934AE96D8"
+				type: "command"
+				title: "Magic Rare Loot Bag"
+				icon: "kubejs:loot_bag_rare"
+				command: "/execute at @p run loot spawn ~ ~1 ~ loot aof:loot_bags/magic_rare"
+				player_command: false
 			}]
 		}
 		{
@@ -303,9 +333,12 @@
 				}
 			}]
 			rewards: [{
-				id: "1DF241A9B31485F2"
-				type: "random"
-				table_id: 13756307348121783L
+				id: "2B497441FEB550AC"
+				type: "command"
+				title: "Magic Rare Loot Bag"
+				icon: "kubejs:loot_bag_rare"
+				command: "/execute at @p run loot spawn ~ ~1 ~ loot aof:loot_bags/magic_rare"
+				player_command: false
 			}]
 		}
 		{
@@ -330,9 +363,12 @@
 				}
 			}]
 			rewards: [{
-				id: "7284AC7D03C8F388"
-				type: "random"
-				table_id: 13756307348121783L
+				id: "53F3B6C4A59A4297"
+				type: "command"
+				title: "Magic Rare Loot Bag"
+				icon: "kubejs:loot_bag_rare"
+				command: "/execute at @p run loot spawn ~ ~1 ~ loot aof:loot_bags/magic_rare"
+				player_command: false
 			}]
 		}
 		{
@@ -357,9 +393,12 @@
 				}
 			}]
 			rewards: [{
-				id: "584495E93045DC2F"
-				type: "random"
-				table_id: 13756307348121783L
+				id: "5357E340B0F359AB"
+				type: "command"
+				title: "Magic Rare Loot Bag"
+				icon: "kubejs:loot_bag_rare"
+				command: "/execute at @p run loot spawn ~ ~1 ~ loot aof:loot_bags/magic_rare"
+				player_command: false
 			}]
 		}
 	]

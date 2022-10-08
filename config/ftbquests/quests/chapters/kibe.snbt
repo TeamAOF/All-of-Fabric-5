@@ -21,9 +21,12 @@
 				icon: "kibe:kibe"
 			}]
 			rewards: [{
-				id: "182279AEE38B3466"
-				type: "loot"
-				table_id: 13756307348121783L
+				id: "47C230CAF345A41E"
+				type: "command"
+				title: "Utilities Bag"
+				icon: "kubejs:loot_bag_epic"
+				command: "/execute at @p run loot spawn ~ ~1 ~ loot aof:loot_bags/utilities_loot"
+				player_command: false
 			}]
 		}
 		{
@@ -36,9 +39,12 @@
 				item: "kibe:cobblestone_generator_mk1"
 			}]
 			rewards: [{
-				id: "2CA127A3EEB32A56"
-				type: "loot"
-				table_id: 13756307348121783L
+				id: "14D2A6B9F4AA92A3"
+				type: "command"
+				title: "Utilities Bag"
+				icon: "kubejs:loot_bag_epic"
+				command: "/execute at @p run loot spawn ~ ~1 ~ loot aof:loot_bags/utilities_loot"
+				player_command: false
 			}]
 		}
 		{
@@ -52,9 +58,12 @@
 				item: "kibe:cobblestone_generator_mk2"
 			}]
 			rewards: [{
-				id: "74ACE22199B8984F"
-				type: "loot"
-				table_id: 13756307348121783L
+				id: "5FBC766C0EC4FF14"
+				type: "command"
+				title: "Utilities Bag"
+				icon: "kubejs:loot_bag_epic"
+				command: "/execute at @p run loot spawn ~ ~1 ~ loot aof:loot_bags/utilities_loot"
+				player_command: false
 			}]
 		}
 		{
@@ -68,9 +77,12 @@
 				item: "kibe:cobblestone_generator_mk3"
 			}]
 			rewards: [{
-				id: "4071511857A418CC"
-				type: "loot"
-				table_id: 13756307348121783L
+				id: "54EF9D23B49B5227"
+				type: "command"
+				title: "Utilities Bag"
+				icon: "kubejs:loot_bag_epic"
+				command: "/execute at @p run loot spawn ~ ~1 ~ loot aof:loot_bags/utilities_loot"
+				player_command: false
 			}]
 		}
 		{
@@ -85,9 +97,12 @@
 				item: "kibe:cobblestone_generator_mk4"
 			}]
 			rewards: [{
-				id: "72F31E6CE8DEDB5C"
-				type: "loot"
-				table_id: 13756307348121783L
+				id: "6C8207DAB4B24D75"
+				type: "command"
+				title: "Utilities Bag"
+				icon: "kubejs:loot_bag_epic"
+				command: "/execute at @p run loot spawn ~ ~1 ~ loot aof:loot_bags/utilities_loot"
+				player_command: false
 			}]
 		}
 		{
@@ -101,9 +116,12 @@
 				item: "kibe:cobblestone_generator_mk5"
 			}]
 			rewards: [{
-				id: "59305A24CDA39C88"
-				type: "loot"
-				table_id: 13756307348121783L
+				id: "5DF14920E722A652"
+				type: "command"
+				title: "Utilities Bag"
+				icon: "kubejs:loot_bag_epic"
+				command: "/execute at @p run loot spawn ~ ~1 ~ loot aof:loot_bags/utilities_loot"
+				player_command: false
 			}]
 		}
 		{
@@ -116,9 +134,12 @@
 				item: "kibe:basalt_generator_mk1"
 			}]
 			rewards: [{
-				id: "53420773440BB5D4"
-				type: "loot"
-				table_id: 13756307348121783L
+				id: "7BE1FA7FABE22DAB"
+				type: "command"
+				title: "Utilities Bag"
+				icon: "kubejs:loot_bag_epic"
+				command: "/execute at @p run loot spawn ~ ~1 ~ loot aof:loot_bags/utilities_loot"
+				player_command: false
 			}]
 		}
 		{
@@ -132,9 +153,12 @@
 				item: "kibe:basalt_generator_mk2"
 			}]
 			rewards: [{
-				id: "3A58FDAFDC650747"
-				type: "loot"
-				table_id: 13756307348121783L
+				id: "3F5CF11D864E3E3D"
+				type: "command"
+				title: "Utilities Bag"
+				icon: "kubejs:loot_bag_epic"
+				command: "/execute at @p run loot spawn ~ ~1 ~ loot aof:loot_bags/utilities_loot"
+				player_command: false
 			}]
 		}
 		{
@@ -148,9 +172,12 @@
 				item: "kibe:basalt_generator_mk3"
 			}]
 			rewards: [{
-				id: "05DA790D757FBB2B"
-				type: "loot"
-				table_id: 13756307348121783L
+				id: "4884B1763F615241"
+				type: "command"
+				title: "Utilities Bag"
+				icon: "kubejs:loot_bag_epic"
+				command: "/execute at @p run loot spawn ~ ~1 ~ loot aof:loot_bags/utilities_loot"
+				player_command: false
 			}]
 		}
 		{
@@ -164,9 +191,12 @@
 				item: "kibe:basalt_generator_mk4"
 			}]
 			rewards: [{
-				id: "2690130DBF1A01A2"
-				type: "loot"
-				table_id: 13756307348121783L
+				id: "770BD0FACD99292A"
+				type: "command"
+				title: "Utilities Bag"
+				icon: "kubejs:loot_bag_epic"
+				command: "/execute at @p run loot spawn ~ ~1 ~ loot aof:loot_bags/utilities_loot"
+				player_command: false
 			}]
 		}
 		{
@@ -180,9 +210,12 @@
 				item: "kibe:basalt_generator_mk5"
 			}]
 			rewards: [{
-				id: "30D2A2F5F6E4BFC6"
-				type: "loot"
-				table_id: 13756307348121783L
+				id: "590AAF6664112081"
+				type: "command"
+				title: "Utilities Bag"
+				icon: "kubejs:loot_bag_epic"
+				command: "/execute at @p run loot spawn ~ ~1 ~ loot aof:loot_bags/utilities_loot"
+				player_command: false
 			}]
 		}
 		{
@@ -197,9 +230,12 @@
 				item: "kibe:golden_kibe"
 			}]
 			rewards: [{
-				id: "317BFAD7D9251F2C"
-				type: "loot"
-				table_id: 13756307348121783L
+				id: "62FBBD8B13B5F732"
+				type: "command"
+				title: "Utilities Bag"
+				icon: "kubejs:loot_bag_epic"
+				command: "/execute at @p run loot spawn ~ ~1 ~ loot aof:loot_bags/utilities_loot"
+				player_command: false
 			}]
 		}
 		{
@@ -214,9 +250,12 @@
 				item: "kibe:diamond_kibe"
 			}]
 			rewards: [{
-				id: "46752D8F0EC3910A"
-				type: "loot"
-				table_id: 13756307348121783L
+				id: "13668DFA7331B38A"
+				type: "command"
+				title: "Utilities Bag"
+				icon: "kubejs:loot_bag_epic"
+				command: "/execute at @p run loot spawn ~ ~1 ~ loot aof:loot_bags/utilities_loot"
+				player_command: false
 			}]
 		}
 		{
@@ -231,9 +270,12 @@
 				item: "kibe:cursed_kibe"
 			}]
 			rewards: [{
-				id: "1B8CC735D5AEC99A"
-				type: "loot"
-				table_id: 13756307348121783L
+				id: "7A799157344A52A6"
+				type: "command"
+				title: "Utilities Bag"
+				icon: "kubejs:loot_bag_epic"
+				command: "/execute at @p run loot spawn ~ ~1 ~ loot aof:loot_bags/utilities_loot"
+				player_command: false
 			}]
 		}
 		{
@@ -248,9 +290,12 @@
 				item: "kibe:diamond_ring"
 			}]
 			rewards: [{
-				id: "1D851BB7FB144D34"
-				type: "loot"
-				table_id: 13756307348121783L
+				id: "59777FF9F9B0B1AD"
+				type: "command"
+				title: "Utilities Bag"
+				icon: "kubejs:loot_bag_epic"
+				command: "/execute at @p run loot spawn ~ ~1 ~ loot aof:loot_bags/utilities_loot"
+				player_command: false
 			}]
 		}
 		{
@@ -269,9 +314,12 @@
 				}
 			}]
 			rewards: [{
-				id: "40835DAD975CECBF"
-				type: "loot"
-				table_id: 13756307348121783L
+				id: "12E20381797C207A"
+				type: "command"
+				title: "Utilities Bag"
+				icon: "kubejs:loot_bag_epic"
+				command: "/execute at @p run loot spawn ~ ~1 ~ loot aof:loot_bags/utilities_loot"
+				player_command: false
 			}]
 		}
 		{
@@ -290,9 +338,12 @@
 				}
 			}]
 			rewards: [{
-				id: "55FF10D7ABFD1DBB"
-				type: "loot"
-				table_id: 13756307348121783L
+				id: "4F1B727AEB5CF9A3"
+				type: "command"
+				title: "Utilities Bag"
+				icon: "kubejs:loot_bag_epic"
+				command: "/execute at @p run loot spawn ~ ~1 ~ loot aof:loot_bags/utilities_loot"
+				player_command: false
 			}]
 		}
 		{
@@ -330,6 +381,14 @@
 					type: "item"
 					item: "kibe:gray_rune"
 					count: 2
+				}
+				{
+					id: "58B1DBD4AAA264DA"
+					type: "command"
+					title: "Utilities Bag"
+					icon: "kubejs:loot_bag_epic"
+					command: "/execute at @p run loot spawn ~ ~1 ~ loot aof:loot_bags/utilities_loot"
+					player_command: false
 				}
 			]
 		}
@@ -369,6 +428,14 @@
 					item: "kibe:light_blue_rune"
 					count: 2
 				}
+				{
+					id: "22A0C93ADF6493AA"
+					type: "command"
+					title: "Utilities Bag"
+					icon: "kubejs:loot_bag_epic"
+					command: "/execute at @p run loot spawn ~ ~1 ~ loot aof:loot_bags/utilities_loot"
+					player_command: false
+				}
 			]
 		}
 		{
@@ -407,6 +474,14 @@
 					item: "kibe:green_rune"
 					count: 2
 				}
+				{
+					id: "32EC2CE6ECA18A2C"
+					type: "command"
+					title: "Utilities Bag"
+					icon: "kubejs:loot_bag_epic"
+					command: "/execute at @p run loot spawn ~ ~1 ~ loot aof:loot_bags/utilities_loot"
+					player_command: false
+				}
 			]
 		}
 		{
@@ -438,6 +513,14 @@
 					type: "item"
 					item: "kibe:black_rune"
 					count: 2
+				}
+				{
+					id: "2603886BFBF07B5C"
+					type: "command"
+					title: "Utilities Bag"
+					icon: "kubejs:loot_bag_epic"
+					command: "/execute at @p run loot spawn ~ ~1 ~ loot aof:loot_bags/utilities_loot"
+					player_command: false
 				}
 			]
 		}
@@ -482,9 +565,12 @@
 				item: "kibe:xp_shower"
 			}]
 			rewards: [{
-				id: "6ECD882C62A9B230"
-				type: "loot"
-				table_id: 13756307348121783L
+				id: "7D69670509063C54"
+				type: "command"
+				title: "Utilities Bag"
+				icon: "kubejs:loot_bag_epic"
+				command: "/execute at @p run loot spawn ~ ~1 ~ loot aof:loot_bags/utilities_loot"
+				player_command: false
 			}]
 		}
 		{
@@ -500,9 +586,12 @@
 				item: "kibe:xp_drain"
 			}]
 			rewards: [{
-				id: "4EB1F6BFC1F8AC9B"
-				type: "loot"
-				table_id: 13756307348121783L
+				id: "3B66AAC4B46CA109"
+				type: "command"
+				title: "Utilities Bag"
+				icon: "kubejs:loot_bag_epic"
+				command: "/execute at @p run loot spawn ~ ~1 ~ loot aof:loot_bags/utilities_loot"
+				player_command: false
 			}]
 		}
 		{
@@ -521,9 +610,12 @@
 				}
 			}]
 			rewards: [{
-				id: "0C6650B175B07148"
-				type: "loot"
-				table_id: 13756307348121783L
+				id: "1F2E6F3CEF5F6EEE"
+				type: "command"
+				title: "Utilities Bag"
+				icon: "kubejs:loot_bag_epic"
+				command: "/execute at @p run loot spawn ~ ~1 ~ loot aof:loot_bags/utilities_loot"
+				player_command: false
 			}]
 		}
 		{
@@ -538,9 +630,12 @@
 				item: "kibe:trash_can"
 			}]
 			rewards: [{
-				id: "25F6FB26D790C78A"
-				type: "loot"
-				table_id: 13756307348121783L
+				id: "60FC51C1ED40BB8C"
+				type: "command"
+				title: "Utilities Bag"
+				icon: "kubejs:loot_bag_epic"
+				command: "/execute at @p run loot spawn ~ ~1 ~ loot aof:loot_bags/utilities_loot"
+				player_command: false
 			}]
 		}
 		{
@@ -554,9 +649,12 @@
 				item: "kibe:stone_spikes"
 			}]
 			rewards: [{
-				id: "106E864E88ECD3B1"
-				type: "loot"
-				table_id: 13756307348121783L
+				id: "48061C075A9FEFA6"
+				type: "command"
+				title: "Utilities Bag"
+				icon: "kubejs:loot_bag_epic"
+				command: "/execute at @p run loot spawn ~ ~1 ~ loot aof:loot_bags/utilities_loot"
+				player_command: false
 			}]
 		}
 		{
@@ -570,9 +668,12 @@
 				item: "kibe:iron_spikes"
 			}]
 			rewards: [{
-				id: "672CA6C0946CD1ED"
-				type: "loot"
-				table_id: 13756307348121783L
+				id: "7066C18DC8595C83"
+				type: "command"
+				title: "Utilities Bag"
+				icon: "kubejs:loot_bag_epic"
+				command: "/execute at @p run loot spawn ~ ~1 ~ loot aof:loot_bags/utilities_loot"
+				player_command: false
 			}]
 		}
 		{
@@ -586,9 +687,12 @@
 				item: "kibe:gold_spikes"
 			}]
 			rewards: [{
-				id: "6CE5B559C1C504FD"
-				type: "loot"
-				table_id: 13756307348121783L
+				id: "73F11AAB1098C5B0"
+				type: "command"
+				title: "Utilities Bag"
+				icon: "kubejs:loot_bag_epic"
+				command: "/execute at @p run loot spawn ~ ~1 ~ loot aof:loot_bags/utilities_loot"
+				player_command: false
 			}]
 		}
 		{
@@ -602,9 +706,12 @@
 				item: "kibe:diamond_spikes"
 			}]
 			rewards: [{
-				id: "1035B291D565BA25"
-				type: "loot"
-				table_id: 13756307348121783L
+				id: "2E3DE55F554F7745"
+				type: "command"
+				title: "Utilities Bag"
+				icon: "kubejs:loot_bag_epic"
+				command: "/execute at @p run loot spawn ~ ~1 ~ loot aof:loot_bags/utilities_loot"
+				player_command: false
 			}]
 		}
 		{
@@ -619,9 +726,12 @@
 				item: "kibe:cursed_droplets"
 			}]
 			rewards: [{
-				id: "51A242AEB94A9DFC"
-				type: "loot"
-				table_id: 13756307348121783L
+				id: "37B24EC6E25D0E29"
+				type: "command"
+				title: "Utilities Bag"
+				icon: "kubejs:loot_bag_epic"
+				command: "/execute at @p run loot spawn ~ ~1 ~ loot aof:loot_bags/utilities_loot"
+				player_command: false
 			}]
 		}
 		{
@@ -636,9 +746,12 @@
 				item: "kibe:cursed_seeds"
 			}]
 			rewards: [{
-				id: "5C8D244C580972C3"
-				type: "loot"
-				table_id: 13756307348121783L
+				id: "5D44D0649AB455A8"
+				type: "command"
+				title: "Utilities Bag"
+				icon: "kubejs:loot_bag_epic"
+				command: "/execute at @p run loot spawn ~ ~1 ~ loot aof:loot_bags/utilities_loot"
+				player_command: false
 			}]
 		}
 		{
@@ -657,9 +770,12 @@
 				}
 			}]
 			rewards: [{
-				id: "56FE2C47F438FC82"
-				type: "loot"
-				table_id: 13756307348121783L
+				id: "7EF90E0136A38EF0"
+				type: "command"
+				title: "Utilities Bag"
+				icon: "kubejs:loot_bag_epic"
+				command: "/execute at @p run loot spawn ~ ~1 ~ loot aof:loot_bags/utilities_loot"
+				player_command: false
 			}]
 		}
 		{
@@ -678,9 +794,12 @@
 				}
 			}]
 			rewards: [{
-				id: "3B178DB0DBDBA8F9"
-				type: "loot"
-				table_id: 13756307348121783L
+				id: "7D5F619FCE8E1D24"
+				type: "command"
+				title: "Utilities Bag"
+				icon: "kubejs:loot_bag_epic"
+				command: "/execute at @p run loot spawn ~ ~1 ~ loot aof:loot_bags/utilities_loot"
+				player_command: false
 			}]
 		}
 		{
@@ -699,9 +818,12 @@
 				}
 			}]
 			rewards: [{
-				id: "679AA5AC2A39862E"
-				type: "loot"
-				table_id: 13756307348121783L
+				id: "178628EB8F58C52A"
+				type: "command"
+				title: "Utilities Bag"
+				icon: "kubejs:loot_bag_epic"
+				command: "/execute at @p run loot spawn ~ ~1 ~ loot aof:loot_bags/utilities_loot"
+				player_command: false
 			}]
 		}
 		{
@@ -749,9 +871,12 @@
 				item: "kibe:vacuum_hopper"
 			}]
 			rewards: [{
-				id: "57A1BF74F7A4655C"
-				type: "loot"
-				table_id: 13756307348121783L
+				id: "29B0735344B78E27"
+				type: "command"
+				title: "Utilities Bag"
+				icon: "kubejs:loot_bag_epic"
+				command: "/execute at @p run loot spawn ~ ~1 ~ loot aof:loot_bags/utilities_loot"
+				player_command: false
 			}]
 		}
 		{
@@ -766,9 +891,12 @@
 				item: "kibe:wither_proof_glass"
 			}]
 			rewards: [{
-				id: "6680183C6F65F5F4"
-				type: "loot"
-				table_id: 13756307348121783L
+				id: "5EB8466720A7CD03"
+				type: "command"
+				title: "Utilities Bag"
+				icon: "kubejs:loot_bag_epic"
+				command: "/execute at @p run loot spawn ~ ~1 ~ loot aof:loot_bags/utilities_loot"
+				player_command: false
 			}]
 		}
 		{
@@ -783,9 +911,12 @@
 				item: "kibe:wither_proof_sand"
 			}]
 			rewards: [{
-				id: "58578D45619EE901"
-				type: "loot"
-				table_id: 13756307348121783L
+				id: "257694673C1546FE"
+				type: "command"
+				title: "Utilities Bag"
+				icon: "kubejs:loot_bag_epic"
+				command: "/execute at @p run loot spawn ~ ~1 ~ loot aof:loot_bags/utilities_loot"
+				player_command: false
 			}]
 		}
 		{
@@ -800,9 +931,12 @@
 				item: "kibe:wither_proof_block"
 			}]
 			rewards: [{
-				id: "08DE8010DAB48ACE"
-				type: "loot"
-				table_id: 13756307348121783L
+				id: "2E160A6774015686"
+				type: "command"
+				title: "Utilities Bag"
+				icon: "kubejs:loot_bag_epic"
+				command: "/execute at @p run loot spawn ~ ~1 ~ loot aof:loot_bags/utilities_loot"
+				player_command: false
 			}]
 		}
 		{
@@ -817,9 +951,12 @@
 				item: "kibe:wither_builder"
 			}]
 			rewards: [{
-				id: "72126637843E21DE"
-				type: "loot"
-				table_id: 13756307348121783L
+				id: "75367689D981C553"
+				type: "command"
+				title: "Utilities Bag"
+				icon: "kubejs:loot_bag_epic"
+				command: "/execute at @p run loot spawn ~ ~1 ~ loot aof:loot_bags/utilities_loot"
+				player_command: false
 			}]
 		}
 		{
@@ -834,9 +971,12 @@
 				item: "indrev:wither_proof_obsidian"
 			}]
 			rewards: [{
-				id: "65BDF6E13A3475B2"
-				type: "loot"
-				table_id: 13756307348121783L
+				id: "392829F520730EEF"
+				type: "command"
+				title: "Utilities Bag"
+				icon: "kubejs:loot_bag_epic"
+				command: "/execute at @p run loot spawn ~ ~1 ~ loot aof:loot_bags/utilities_loot"
+				player_command: false
 			}]
 		}
 		{
@@ -869,9 +1009,12 @@
 				item: "kibe:slime_sling"
 			}]
 			rewards: [{
-				id: "4C342EAB6E5B7817"
-				type: "loot"
-				table_id: 13756307348121783L
+				id: "3AF9806AEB7FAD8B"
+				type: "command"
+				title: "Utilities Bag"
+				icon: "kubejs:loot_bag_epic"
+				command: "/execute at @p run loot spawn ~ ~1 ~ loot aof:loot_bags/utilities_loot"
+				player_command: false
 			}]
 		}
 		{
@@ -886,9 +1029,12 @@
 				item: "kibe:torch_sling"
 			}]
 			rewards: [{
-				id: "17A06289AE3B26B0"
-				type: "loot"
-				table_id: 13756307348121783L
+				id: "38BEEE6B31458580"
+				type: "command"
+				title: "Utilities Bag"
+				icon: "kubejs:loot_bag_epic"
+				command: "/execute at @p run loot spawn ~ ~1 ~ loot aof:loot_bags/utilities_loot"
+				player_command: false
 			}]
 		}
 		{
@@ -907,9 +1053,12 @@
 				}
 			}]
 			rewards: [{
-				id: "377CFE97A2EF2714"
-				type: "loot"
-				table_id: 13756307348121783L
+				id: "39F88E5FCE8C56BD"
+				type: "command"
+				title: "Utilities Bag"
+				icon: "kubejs:loot_bag_epic"
+				command: "/execute at @p run loot spawn ~ ~1 ~ loot aof:loot_bags/utilities_loot"
+				player_command: false
 			}]
 		}
 		{
@@ -995,9 +1144,12 @@
 				}
 			}]
 			rewards: [{
-				id: "15C177CAC83BD508"
-				type: "loot"
-				table_id: 13756307348121783L
+				id: "44ECB29905C41C78"
+				type: "command"
+				title: "Utilities Bag"
+				icon: "kubejs:loot_bag_epic"
+				command: "/execute at @p run loot spawn ~ ~1 ~ loot aof:loot_bags/utilities_loot"
+				player_command: false
 			}]
 		}
 		{
@@ -1017,9 +1169,12 @@
 				}
 			}]
 			rewards: [{
-				id: "499817B60CE72976"
-				type: "loot"
-				table_id: 13756307348121783L
+				id: "70A8CA21FD4D6149"
+				type: "command"
+				title: "Utilities Bag"
+				icon: "kubejs:loot_bag_epic"
+				command: "/execute at @p run loot spawn ~ ~1 ~ loot aof:loot_bags/utilities_loot"
+				player_command: false
 			}]
 		}
 		{
@@ -1033,9 +1188,12 @@
 				item: "kibe:wooden_bucket"
 			}]
 			rewards: [{
-				id: "6C9B8CEB41A6B2B1"
-				type: "loot"
-				table_id: 13756307348121783L
+				id: "60DD5DE82A7AEF24"
+				type: "command"
+				title: "Utilities Bag"
+				icon: "kubejs:loot_bag_epic"
+				command: "/execute at @p run loot spawn ~ ~1 ~ loot aof:loot_bags/utilities_loot"
+				player_command: false
 			}]
 		}
 		{
@@ -1056,9 +1214,12 @@
 				}
 			}]
 			rewards: [{
-				id: "4C96DE02671BCB57"
-				type: "loot"
-				table_id: 13756307348121783L
+				id: "66203D8D43E4669E"
+				type: "command"
+				title: "Utilities Bag"
+				icon: "kubejs:loot_bag_epic"
+				command: "/execute at @p run loot spawn ~ ~1 ~ loot aof:loot_bags/utilities_loot"
+				player_command: false
 			}]
 		}
 		{
@@ -1078,92 +1239,95 @@
 						items: [
 							{
 								id: "kibe:white_glider"
-								Count: 1b
 								tag: { }
+								Count: 1b
 							}
 							{
 								id: "kibe:orange_glider"
-								Count: 1b
 								tag: { }
+								Count: 1b
 							}
 							{
 								id: "kibe:magenta_glider"
-								Count: 1b
 								tag: { }
+								Count: 1b
 							}
 							{
 								id: "kibe:light_blue_glider"
-								Count: 1b
 								tag: { }
+								Count: 1b
 							}
 							{
 								id: "kibe:yellow_glider"
-								Count: 1b
 								tag: { }
+								Count: 1b
 							}
 							{
 								id: "kibe:lime_glider"
-								Count: 1b
 								tag: { }
+								Count: 1b
 							}
 							{
 								id: "kibe:pink_glider"
-								Count: 1b
 								tag: { }
+								Count: 1b
 							}
 							{
 								id: "kibe:gray_glider"
-								Count: 1b
 								tag: { }
+								Count: 1b
 							}
 							{
 								id: "kibe:light_gray_glider"
-								Count: 1b
 								tag: { }
+								Count: 1b
 							}
 							{
 								id: "kibe:cyan_glider"
-								Count: 1b
 								tag: { }
+								Count: 1b
 							}
 							{
 								id: "kibe:blue_glider"
-								Count: 1b
 								tag: { }
+								Count: 1b
 							}
 							{
 								id: "kibe:purple_glider"
-								Count: 1b
 								tag: { }
+								Count: 1b
 							}
 							{
 								id: "kibe:green_glider"
-								Count: 1b
 								tag: { }
+								Count: 1b
 							}
 							{
 								id: "kibe:brown_glider"
-								Count: 1b
 								tag: { }
+								Count: 1b
 							}
 							{
 								id: "kibe:red_glider"
-								Count: 1b
 								tag: { }
+								Count: 1b
 							}
 							{
 								id: "kibe:black_glider"
-								Count: 1b
 								tag: { }
+								Count: 1b
 							}
 						]
 					}
 				}
 			}]
 			rewards: [{
-				id: "64EBC1FF2855F827"
-				type: "loot"
-				table_id: 13756307348121783L
+				id: "5ECE836BE659A8A5"
+				type: "command"
+				title: "Utilities Bag"
+				icon: "kubejs:loot_bag_epic"
+				command: "/execute at @p run loot spawn ~ ~1 ~ loot aof:loot_bags/utilities_loot"
+				player_command: false
 			}]
 		}
 		{
@@ -1200,9 +1364,12 @@
 				item: "kibe:placer"
 			}]
 			rewards: [{
-				id: "142FF17693F992B9"
-				type: "loot"
-				table_id: 13756307348121783L
+				id: "116497D7ECBB7A3E"
+				type: "command"
+				title: "Utilities Bag"
+				icon: "kubejs:loot_bag_epic"
+				command: "/execute at @p run loot spawn ~ ~1 ~ loot aof:loot_bags/utilities_loot"
+				player_command: false
 			}]
 		}
 		{
@@ -1216,9 +1383,12 @@
 				item: "kibe:drawbridge"
 			}]
 			rewards: [{
-				id: "3DFBD4EC2B3FC622"
-				type: "loot"
-				table_id: 13756307348121783L
+				id: "5F936F38F111DA63"
+				type: "command"
+				title: "Utilities Bag"
+				icon: "kubejs:loot_bag_epic"
+				command: "/execute at @p run loot spawn ~ ~1 ~ loot aof:loot_bags/utilities_loot"
+				player_command: false
 			}]
 		}
 		{
@@ -1233,9 +1403,12 @@
 				item: "kibe:breaker"
 			}]
 			rewards: [{
-				id: "53E64710C29094C1"
-				type: "loot"
-				table_id: 13756307348121783L
+				id: "7721469BB2DBDCB3"
+				type: "command"
+				title: "Utilities Bag"
+				icon: "kubejs:loot_bag_epic"
+				command: "/execute at @p run loot spawn ~ ~1 ~ loot aof:loot_bags/utilities_loot"
+				player_command: false
 			}]
 		}
 		{
@@ -1249,9 +1422,12 @@
 				item: "kibe:igniter"
 			}]
 			rewards: [{
-				id: "012435C34F9D4744"
-				type: "loot"
-				table_id: 13756307348121783L
+				id: "62AF85EF42D037DA"
+				type: "command"
+				title: "Utilities Bag"
+				icon: "kubejs:loot_bag_epic"
+				command: "/execute at @p run loot spawn ~ ~1 ~ loot aof:loot_bags/utilities_loot"
+				player_command: false
 			}]
 		}
 		{
@@ -1265,9 +1441,12 @@
 				item: "kibe:dehumidifier"
 			}]
 			rewards: [{
-				id: "14D4E70A1C5663F5"
-				type: "loot"
-				table_id: 13756307348121783L
+				id: "2F0832D9BACC4C18"
+				type: "command"
+				title: "Utilities Bag"
+				icon: "kubejs:loot_bag_epic"
+				command: "/execute at @p run loot spawn ~ ~1 ~ loot aof:loot_bags/utilities_loot"
+				player_command: false
 			}]
 		}
 		{
@@ -1281,9 +1460,12 @@
 				item: "kibe:heater"
 			}]
 			rewards: [{
-				id: "34BCCBA2520A0142"
-				type: "loot"
-				table_id: 13756307348121783L
+				id: "7818000C9666CAC6"
+				type: "command"
+				title: "Utilities Bag"
+				icon: "kubejs:loot_bag_epic"
+				command: "/execute at @p run loot spawn ~ ~1 ~ loot aof:loot_bags/utilities_loot"
+				player_command: false
 			}]
 		}
 		{
@@ -1298,9 +1480,12 @@
 				item: "kibe:fluid_hopper"
 			}]
 			rewards: [{
-				id: "1ED5E238DD403F5B"
-				type: "loot"
-				table_id: 13756307348121783L
+				id: "396F9E3E95BF3CD7"
+				type: "command"
+				title: "Utilities Bag"
+				icon: "kubejs:loot_bag_epic"
+				command: "/execute at @p run loot spawn ~ ~1 ~ loot aof:loot_bags/utilities_loot"
+				player_command: false
 			}]
 		}
 		{
@@ -1314,9 +1499,12 @@
 				item: "kibe:redstone_timer"
 			}]
 			rewards: [{
-				id: "435B08ADE0E7D4B7"
-				type: "loot"
-				table_id: 13756307348121783L
+				id: "61BD13F6F2845728"
+				type: "command"
+				title: "Utilities Bag"
+				icon: "kubejs:loot_bag_epic"
+				command: "/execute at @p run loot spawn ~ ~1 ~ loot aof:loot_bags/utilities_loot"
+				player_command: false
 			}]
 		}
 		{
@@ -1343,9 +1531,12 @@
 				item: "kibe:big_torch"
 			}]
 			rewards: [{
-				id: "4CF5D3C09B700FA7"
-				type: "loot"
-				table_id: 13756307348121783L
+				id: "48C158A09802D673"
+				type: "command"
+				title: "Utilities Bag"
+				icon: "kubejs:loot_bag_epic"
+				command: "/execute at @p run loot spawn ~ ~1 ~ loot aof:loot_bags/utilities_loot"
+				player_command: false
 			}]
 		}
 		{
@@ -1360,9 +1551,12 @@
 				item: "kibe:white_elevator"
 			}]
 			rewards: [{
-				id: "4F75B5B694D289A2"
-				type: "loot"
-				table_id: 13756307348121783L
+				id: "30BA2C07463B9420"
+				type: "command"
+				title: "Utilities Bag"
+				icon: "kubejs:loot_bag_epic"
+				command: "/execute at @p run loot spawn ~ ~1 ~ loot aof:loot_bags/utilities_loot"
+				player_command: false
 			}]
 		}
 	]

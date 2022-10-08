@@ -1,7 +1,7 @@
 {
 	id: "4F80AA2EB0DCC10C"
 	group: ""
-	order_index: 1
+	order_index: 2
 	filename: "adventurer"
 	title: "Adventurer"
 	icon: "artifacts:aqua_dashers"
@@ -28,8 +28,8 @@
 					Damage: 0
 				}
 			}
-			x: -3.0d
-			y: 1.0d
+			x: -2.5d
+			y: 1.5d
 			subtitle: "Fishing should be fun."
 			description: [
 				"Go Fish adds in general Fish, which are obtainable globally in any area for each dimension, and biome-specific Fish, which are only obtainable in certain areas (See below)."
@@ -81,11 +81,21 @@
 					}
 				}
 			}]
-			rewards: [{
-				id: "69D9C7A4DDC5D916"
-				type: "loot"
-				table_id: 13756307348121783L
-			}]
+			rewards: [
+				{
+					id: "562D6DA6506847EF"
+					type: "command"
+					title: "Agriculturist Bag"
+					icon: "kubejs:loot_bag_agriculture"
+					command: "/execute at @p run loot spawn ~ ~1 ~ loot aof:loot_bags/agriculturist_loot"
+					player_command: false
+				}
+				{
+					id: "02DAD3BF2785BF33"
+					type: "item"
+					item: "gofish:simple_lure"
+				}
+			]
 		}
 		{
 			title: "Waystones"
@@ -103,17 +113,27 @@
 				observe_type: 0
 				to_observe: "waystones:waystone"
 			}]
-			rewards: [{
-				id: "7E79E623D0CD9F54"
-				type: "loot"
-				table_id: 13756307348121783L
-			}]
+			rewards: [
+				{
+					id: "2BCB027A539B7084"
+					type: "item"
+					item: "waystones:desert_waystone"
+				}
+				{
+					id: "1221149A4B676928"
+					type: "command"
+					title: "Agriculturist Bag"
+					icon: "kubejs:loot_bag_agriculture"
+					command: "/execute at @p run loot spawn ~ ~1 ~ loot aof:loot_bags/agriculturist_loot"
+					player_command: false
+				}
+			]
 		}
 		{
 			title: "Find a Graveyard"
 			icon: "graveyard:skull_with_rib_cage"
-			x: 2.0d
-			y: -2.0d
+			x: 1.5d
+			y: -2.5d
 			subtitle: "Locate a Small Graveyard structure. Be sure to have a look or two below the graves for shiny loot."
 			dependencies: ["6EC4700B21DB617B"]
 			id: "14DE762F4663D1C9"
@@ -122,16 +142,32 @@
 				type: "structure"
 				structure: "graveyard:small_graveyard"
 			}]
-			rewards: [{
-				id: "151790FF4F267945"
-				type: "loot"
-				table_id: 13756307348121783L
-			}]
+			rewards: [
+				{
+					id: "0136B3FCD96E72E3"
+					type: "command"
+					title: "Agriculturist Bag"
+					icon: "kubejs:loot_bag_agriculture"
+					command: "/execute at @p run loot spawn ~ ~1 ~ loot aof:loot_bags/agriculturist_loot"
+					player_command: false
+				}
+				{
+					id: "0D54DD2EDD2B15AD"
+					type: "item"
+					item: {
+						id: "graveyard:bone_dagger"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+			]
 		}
 		{
 			title: "Artifacts"
-			x: 2.0d
-			y: 1.0d
+			x: 1.5d
+			y: 1.5d
 			subtitle: "Magical items with great power."
 			description: [
 				"The items added by this mod can be found in chests."
@@ -153,17 +189,33 @@
 					}
 				}
 			}]
-			rewards: [{
-				id: "7F25E542A51AFADF"
-				type: "random"
-				table_id: 13756307348121783L
-			}]
+			rewards: [
+				{
+					id: "64ADD6ADBA219CE6"
+					type: "item"
+					item: {
+						id: "minecraft:potion"
+						Count: 1b
+						tag: {
+							Potion: "goblintraders:powerful_speed"
+						}
+					}
+				}
+				{
+					id: "1CE3B7C05DD67021"
+					type: "command"
+					title: "Agriculturist Bag"
+					icon: "kubejs:loot_bag_agriculture"
+					command: "/execute at @p run loot spawn ~ ~1 ~ loot aof:loot_bags/agriculturist_loot"
+					player_command: false
+				}
+			]
 		}
 		{
 			title: "The Twilight Forest"
 			icon: "twilightforest:twilight_portal_miniature_structure"
-			x: -3.0d
-			y: -2.0d
+			x: -2.5d
+			y: -2.5d
 			subtitle: "Step into the Twilight Realm!"
 			description: [
 				"To make a portal to the Twilight Forest, make a 2x2 shallow pool (4 squares) of water in a grassy area, and surround it entirely with natural stuff (flowers, mushrooms, saplings, leaves, grass, anything considered a \"plant\" or \"leaves\")."
@@ -178,11 +230,35 @@
 				icon: "twilightforest:twilight_portal_miniature_structure"
 				dimension: "twilightforest:twilight_forest"
 			}]
-			rewards: [{
-				id: "0C0869CB6A2C4E9F"
-				type: "random"
-				table_id: 13756307348121783L
-			}]
+			rewards: [
+				{
+					id: "7CBC57D31F20C068"
+					type: "command"
+					title: "Agriculturist Bag"
+					icon: "kubejs:loot_bag_agriculture"
+					command: "/execute at @p run loot spawn ~ ~1 ~ loot aof:loot_bags/agriculturist_loot"
+					player_command: false
+				}
+				{
+					id: "0C335696ED832D65"
+					type: "item"
+					item: {
+						id: "minecraft:potion"
+						Count: 1b
+						tag: {
+							Potion: "goblintraders:extended_night_vision"
+						}
+					}
+				}
+				{
+					id: "7582B53CE7C6DCE2"
+					type: "command"
+					title: "Artifacts Galore"
+					icon: "kubejs:loot_bag_legendary"
+					command: "/execute at @p run loot spawn ~ ~1 ~ loot aof:loot_bags/artifacts_loot"
+					player_command: false
+				}
+			]
 		}
 		{
 			title: "Space Travels"
@@ -214,15 +290,101 @@
 			}]
 			rewards: [
 				{
-					id: "440B0AFFF9785B72"
-					type: "random"
-					table_id: 13756307348121783L
-				}
-				{
 					id: "583873BD842B01B4"
 					type: "item"
 					item: "ad_astra:cheese"
 					count: 16
+				}
+				{
+					id: "047D7C2A4D6F21F5"
+					type: "command"
+					title: "Ad Astra Rare Loot Bag"
+					icon: "kubejs:loot_bag_rare"
+					command: "/execute at @p run loot spawn ~ ~1 ~ loot aof:loot_bags/ad_astra_rare"
+					player_command: false
+				}
+			]
+		}
+		{
+			title: "Archeology"
+			x: -3.0d
+			y: -0.5d
+			subtitle: "Know your prehistory."
+			description: [
+				"The Archeology System introduces the following:"
+				""
+				"The Copper Brush is a new tool used for excavating special blocks for getting loot."
+				""
+				"Brushing Excavation Blocks: "
+				""
+				"Currently, there are two excavation blocks in the mod: Excavation Dirt and Gravel."
+				""
+				"When fully brushed off, the block drops random loot based on where you found it and how oxidated it is."
+				""
+				"While brushing, you should move your cursor to stop the block from breaking and losing the potential drops. The more oxidized your brush is, the faster the block breaks, so move quickly!"
+			]
+			dependencies: ["6EC4700B21DB617B"]
+			id: "5DDFDC4C2426CF6F"
+			tasks: [{
+				id: "67902E2781D56FFF"
+				type: "item"
+				item: {
+					id: "archeology:copper_brush"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "348F5A468E572E21"
+					type: "command"
+					title: "Agriculturist Bag"
+					icon: "kubejs:loot_bag_agriculture"
+					command: "/execute at @p run loot spawn ~ ~1 ~ loot aof:loot_bags/agriculturist_loot"
+					player_command: false
+				}
+				{
+					id: "621538A179E3AD6C"
+					type: "item"
+					item: "minecraft:bone"
+					count: 16
+				}
+			]
+		}
+		{
+			title: "Lootr"
+			x: 2.0d
+			y: -0.5d
+			subtitle: "Unique instanced loot for every player!"
+			description: [
+				"What does this mean?"
+				""
+				"When you open a loot chest (distinctly textured from Vanilla chests), what items you get are unique to you (as though you had opened an Ender Chest)."
+			]
+			dependencies: ["6EC4700B21DB617B"]
+			id: "34216A1573B90BBB"
+			tasks: [{
+				id: "678FF753E8FC4213"
+				type: "advancement"
+				advancement: "lootr:1chest"
+				criterion: ""
+			}]
+			rewards: [
+				{
+					id: "25EAACDE5F300527"
+					type: "item"
+					item: "minecraft:emerald"
+					count: 3
+				}
+				{
+					id: "42BA5F643295ADAD"
+					type: "command"
+					title: "Agriculturist Bag"
+					icon: "kubejs:loot_bag_agriculture"
+					command: "/execute at @p run loot spawn ~ ~1 ~ loot aof:loot_bags/agriculturist_loot"
+					player_command: false
 				}
 			]
 		}

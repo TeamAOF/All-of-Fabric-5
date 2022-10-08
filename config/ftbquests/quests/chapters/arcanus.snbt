@@ -37,21 +37,18 @@
 				"The spells are found in loot from dungeons."
 			]
 			id: "756D7FADB9841FA5"
-			tasks: [
-				{
-					id: "686A5004ACD6FFD0"
-					type: "checkmark"
-				}
-				{
-					id: "2DDED1322F50D1EC"
-					type: "item"
-					item: "minecraft:amethyst_shard"
-				}
-			]
+			tasks: [{
+				id: "2DDED1322F50D1EC"
+				type: "item"
+				item: "minecraft:amethyst_shard"
+			}]
 			rewards: [{
-				id: "7135AEF7BAE4E236"
-				type: "loot"
-				table_id: 13756307348121783L
+				id: "1CC84B4B256034DA"
+				type: "command"
+				title: "Magic Common Loot bag"
+				icon: "kubejs:loot_bag_common"
+				command: "/execute at @p run loot spawn ~ ~1 ~ loot aof:loot_bags/magic_common"
+				player_command: false
 			}]
 		}
 		{
@@ -72,19 +69,14 @@
 					}
 				}
 			}]
-			rewards: [
-				{
-					id: "478D95294735B6BC"
-					type: "item"
-					item: "minecraft:amethyst_shard"
-					count: 4
-				}
-				{
-					id: "690E41CAE588E4D9"
-					type: "loot"
-					table_id: 13756307348121783L
-				}
-			]
+			rewards: [{
+				id: "751FD73BA35F4AB3"
+				type: "command"
+				title: "Magic Common Loot Bag"
+				icon: "kubejs:loot_bag_common"
+				command: "/execute at @p run loot spawn ~ ~1 ~ loot aof:loot_bags/magic_common"
+				player_command: false
+			}]
 		}
 		{
 			x: 1.0d
@@ -104,9 +96,12 @@
 				}
 			}]
 			rewards: [{
-				id: "3FD04EDE2F0A0B84"
-				type: "loot"
-				table_id: 13756307348121783L
+				id: "446438791CD1A0A2"
+				type: "command"
+				title: "Magic Common Loot Bag"
+				icon: "kubejs:loot_bag_common"
+				command: "/execute at @p run loot spawn ~ ~1 ~ loot aof:loot_bags/magic_common"
+				player_command: false
 			}]
 		}
 		{
@@ -127,9 +122,12 @@
 				}
 			}]
 			rewards: [{
-				id: "03AF315E665983C5"
-				type: "loot"
-				table_id: 13756307348121783L
+				id: "126D9E1E05003A2D"
+				type: "command"
+				title: "Magic Common Loot Bag"
+				icon: "kubejs:loot_bag_common"
+				command: "/execute at @p run loot spawn ~ ~1 ~ loot aof:loot_bags/magic_common"
+				player_command: false
 			}]
 		}
 		{
@@ -156,9 +154,12 @@
 				}
 			}]
 			rewards: [{
-				id: "7BB090CC49CBDFDB"
-				type: "loot"
-				table_id: 13756307348121783L
+				id: "39B515C273D963E1"
+				type: "command"
+				title: "Magic Common Loot Bag"
+				icon: "kubejs:loot_bag_common"
+				command: "/execute at @p run loot spawn ~ ~1 ~ loot aof:loot_bags/magic_common"
+				player_command: false
 			}]
 		}
 		{
@@ -196,18 +197,14 @@
 				type: "item"
 				item: "arcanus:display_case"
 			}]
-			rewards: [
-				{
-					id: "247E7CA7B4803333"
-					type: "item"
-					item: "minecraft:spyglass"
-				}
-				{
-					id: "772040E0057140F1"
-					type: "loot"
-					table_id: 13756307348121783L
-				}
-			]
+			rewards: [{
+				id: "7F52C6CA4AEE849A"
+				type: "command"
+				title: "Magic Common Loot Bag"
+				icon: "kubejs:loot_bag_common"
+				command: "/execute at @p run loot spawn ~ ~1 ~ loot aof:loot_bags/magic_common"
+				player_command: false
+			}]
 		}
 		{
 			x: -2.0d
@@ -223,8 +220,8 @@
 					tag: {
 						pages: ["{\"extra\":[{\"translate\":\"book.arcanus.casting_pattern\"},{\"text\":\"          R-R-R\"}],\"translate\":\"book.arcanus.lunge.description\"}"]
 						spell: "arcanus:lunge"
-						author: "book.arcanus.04.author"
 						title: "book.arcanus.lunge.title"
+						author: "book.arcanus.04.author"
 					}
 				}
 			}]
@@ -249,8 +246,8 @@
 					tag: {
 						pages: ["{\"extra\":[{\"translate\":\"book.arcanus.casting_pattern\"},{\"text\":\"          R-L-R\"}],\"translate\":\"book.arcanus.dream_warp.description\"}"]
 						spell: "arcanus:dream_warp"
-						author: "book.arcanus.07.author"
 						title: "book.arcanus.dream_warp.title"
+						author: "book.arcanus.07.author"
 					}
 				}
 			}]
@@ -274,8 +271,8 @@
 					tag: {
 						pages: ["{\"extra\":[{\"translate\":\"book.arcanus.casting_pattern\"},{\"text\":\"          L-L-L\"}],\"translate\":\"book.arcanus.magic_missile.description\"}"]
 						spell: "arcanus:magic_missile"
-						author: "book.arcanus.03.author"
 						title: "book.arcanus.magic_missile.title"
+						author: "book.arcanus.03.author"
 					}
 				}
 			}]
@@ -300,8 +297,8 @@
 					tag: {
 						pages: ["{\"extra\":[{\"translate\":\"book.arcanus.casting_pattern\"},{\"text\":\"          L-R-L\"}],\"translate\":\"book.arcanus.telekinetic_shock.description\"}"]
 						spell: "arcanus:telekinetic_shock"
-						author: "book.arcanus.07.author"
 						title: "book.arcanus.telekinetic_shock.title"
+						author: "book.arcanus.07.author"
 					}
 				}
 			}]
@@ -320,8 +317,8 @@
 					tag: {
 						pages: ["{\"extra\":[{\"translate\":\"book.arcanus.casting_pattern\"},{\"text\":\"          R-L-L\"}],\"translate\":\"book.arcanus.heal.description\"}"]
 						spell: "arcanus:heal"
-						author: "book.arcanus.18.author"
 						title: "book.arcanus.heal.title"
+						author: "book.arcanus.18.author"
 					}
 				}
 			}]
@@ -345,8 +342,8 @@
 					tag: {
 						pages: ["{\"extra\":[{\"translate\":\"book.arcanus.casting_pattern\"},{\"text\":\"          L-R-R\"}],\"translate\":\"book.arcanus.discombobulate.description\"}"]
 						spell: "arcanus:discombobulate"
-						author: "book.arcanus.17.author"
 						title: "book.arcanus.discombobulate.title"
+						author: "book.arcanus.17.author"
 					}
 				}
 			}]
@@ -354,6 +351,7 @@
 				id: "796C666CFAFB0EDC"
 				type: "item"
 				item: "minecraft:glass"
+				count: 32
 			}]
 		}
 		{
@@ -370,8 +368,8 @@
 					tag: {
 						pages: ["{\"extra\":[{\"translate\":\"book.arcanus.casting_pattern\"},{\"text\":\"          L-L-R\"}],\"translate\":\"book.arcanus.solar_strike.description\"}"]
 						spell: "arcanus:solar_strike"
-						author: "book.arcanus.18.author"
 						title: "book.arcanus.solar_strike.title"
+						author: "book.arcanus.18.author"
 					}
 				}
 			}]
@@ -396,8 +394,8 @@
 					tag: {
 						pages: ["{\"extra\":[{\"translate\":\"book.arcanus.casting_pattern\"},{\"text\":\"          R-R-L\"}],\"translate\":\"book.arcanus.arcane_barrier.description\"}"]
 						spell: "arcanus:arcane_barrier"
-						author: "book.arcanus.14.author"
 						title: "book.arcanus.arcane_barrier.title"
+						author: "book.arcanus.14.author"
 					}
 				}
 			}]
@@ -419,23 +417,11 @@
 				type: "checkmark"
 				title: "Arcanus Champ"
 			}]
-			rewards: [
-				{
-					id: "1CA43055D0AD6121"
-					type: "item"
-					item: "plushies:red_fox_plushie"
-				}
-				{
-					id: "04E73FB23BC62C52"
-					type: "xp"
-					xp: 1000
-				}
-				{
-					id: "726FC0BED6A1772F"
-					type: "loot"
-					table_id: 13756307348121783L
-				}
-			]
+			rewards: [{
+				id: "04E73FB23BC62C52"
+				type: "xp"
+				xp: 1000
+			}]
 		}
 	]
 }

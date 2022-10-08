@@ -6,6 +6,11 @@
 onEvent('tags.items', event => {
 
     const replicator = [
+        'croptosis:creative_watering_can',
+        'create:handheld_worldshaper',
+        'harvest_scythes:creative_machete',
+        'harvest_scythes:creative_scythe',
+        'create:creative_blaze_cake',
         'inmis:baby_backpack',
         'inmis:frayed_backpack',
         'inmis:plated_backpack',
@@ -125,7 +130,6 @@ onEvent('tags.items', event => {
         'gofish:end_crate',
         'gofish:astral_crate',
         'gofish:gilded_blackstone_crate',
-        'chisel:chisel',
         'modern_industrialization:quantum_helmet',
         'modern_industrialization:quantum_chestplate',
         'modern_industrialization:quantum_leggings',

@@ -1,20 +1,19 @@
 {
 	id: "55534E1BE135C3C1"
-	group: "1FCC565F739A4207"
-	order_index: 0
+	group: ""
+	order_index: 1
 	filename: "infinity"
 	title: "Challenges"
 	icon: "croptopia:starfruit"
-	always_invisible: true
 	default_quest_shape: ""
 	default_hide_dependency_lines: false
 	quests: [
 		{
 			title: "Are you worthy?"
-			x: 0.5d
-			y: 0.5d
+			x: 1.0d
+			y: 7.0d
 			subtitle: "Kill the Ender Dragon to unlock challenges."
-			size: 1.8d
+			size: 2.0d
 			id: "512CAEB25CD9B4E2"
 			tasks: [{
 				id: "3A9ABB487CD82821"
@@ -27,8 +26,8 @@
 		{
 			title: "Hell's Kitchen"
 			icon: "farmersdelight:cooking_pot"
-			x: 3.0d
-			y: -1.0d
+			x: 4.0d
+			y: 3.0d
 			subtitle: "So when people ask me, ‘What do you think of Michelin?’ I don’t cook for guides. I cook for customers."
 			description: [
 				"To submit items, left click the food type of choice and hand in."
@@ -137,8 +136,8 @@
 					Damage: 0
 				}
 			}
-			x: -2.0d
-			y: 2.0d
+			x: 2.0d
+			y: 3.0d
 			subtitle: "Slay 'em All"
 			description: [
 				"King Slime:"
@@ -230,12 +229,54 @@
 					entity: "botania:doppleganger"
 					value: 1L
 				}
+				{
+					id: "3AF87A5FED065F14"
+					type: "kill"
+					icon: "twilightforest:naga_trophy"
+					entity: "twilightforest:naga"
+					value: 1L
+				}
+				{
+					id: "09FC7B6D6673F421"
+					type: "kill"
+					icon: "twilightforest:lich_trophy"
+					entity: "twilightforest:lich"
+					value: 1L
+				}
+				{
+					id: "1BACFEB1D7C310D5"
+					type: "kill"
+					icon: "twilightforest:hydra_trophy"
+					entity: "twilightforest:hydra"
+					value: 1L
+				}
+				{
+					id: "05C8266730A44B0E"
+					type: "kill"
+					icon: "twilightforest:ur_ghast_trophy"
+					entity: "twilightforest:ur_ghast"
+					value: 1L
+				}
+				{
+					id: "091B5ABFAF80AD47"
+					type: "kill"
+					icon: "twilightforest:minoshroom_trophy"
+					entity: "twilightforest:minoshroom"
+					value: 1L
+				}
+				{
+					id: "53CF636C5F1438C7"
+					type: "kill"
+					icon: "twilightforest:knight_phantom_trophy"
+					entity: "twilightforest:knight_phantom"
+					value: 1L
+				}
 			]
 		}
 		{
 			icon: "farmingforblockheads:feeding_trough"
-			x: 3.5d
-			y: 0.5d
+			x: 3.0d
+			y: 3.0d
 			subtitle: "Breed all the animals!"
 			description: [
 				"> Bee"
@@ -270,8 +311,8 @@
 		}
 		{
 			title: "Ring of Angels"
-			x: -2.0d
-			y: -1.0d
+			x: 0.0d
+			y: 3.0d
 			subtitle: "Creative flight at your disposal."
 			dependencies: ["512CAEB25CD9B4E2"]
 			id: "4394FBA9FF34416C"
@@ -288,8 +329,8 @@
 		{
 			title: "Quantum Physics"
 			icon: "modern_industrialization:quantum_circuit"
-			x: -2.5d
-			y: 0.5d
+			x: -1.0d
+			y: 3.0d
 			subtitle: "Ethereal powers!"
 			description: [
 				"Craft everything quantum and shape your own future."
@@ -341,52 +382,35 @@
 			]
 		}
 		{
-			x: 0.5d
-			y: -3.0d
-			subtitle: "Complete all the challenges!"
-			hide_dependency_lines: true
-			dependencies: [
-				"4394FBA9FF34416C"
-				"0A87F01B58718A44"
-				"1F0EE1298663FE88"
-				"6F99E812CEAA9DCA"
-				"18035D9544EC01DA"
-			]
-			size: 1.5d
-			id: "28E4C9B8787B595A"
-			tasks: [{
-				id: "1662F63BB2C25243"
-				type: "checkmark"
-				title: "The Completionist"
-				icon: "spectrum:stardust"
-			}]
-		}
-		{
-			x: 0.5d
-			y: -1.5d
-			subtitle: "Are you worthy? Become the completionist!"
+			x: 1.0d
+			y: -1.0d
+			subtitle: "Become the completionist!"
 			description: [
 				"Challenges are unlocked when you've killed the Ender Dragon."
 				""
 				"These challenges will take you on multiple different paths."
 				""
-				"- Animal Hunting"
 				"- Bosses"
-				"- Become a Michelin Chef"
+				"- Becoming a Michelin Chef"
 				"- Become the ultimate rancher"
 				"- Quantum Physics"
-				"- Creative Flight"
-				""
-				"These are the ultimate goals, it's your journey."
+				"- Angel Flight"
+				"- Shattering of Worlds"
 				""
 				"Complete them all to become The Completionist!"
 				""
-				"CURRENTLY NOT IN THE PACK!"
-				"CURRENTLY NOT IN THE PACK!"
-				"CURRENTLY NOT IN THE PACK!"
-				"CURRENTLY NOT IN THE PACK!"
+				"This is the ultimate goal."
 			]
-			dependencies: ["175F5611FB7716A4"]
+			dependencies: [
+				"175F5611FB7716A4"
+				"4394FBA9FF34416C"
+				"18035D9544EC01DA"
+				"0A87F01B58718A44"
+				"6F99E812CEAA9DCA"
+				"1F0EE1298663FE88"
+				"2ED18039A031C275"
+			]
+			size: 2.0d
 			id: "477ECBF67056BF45"
 			tasks: [{
 				id: "7E0EE4376BC378B3"
@@ -394,33 +418,68 @@
 				title: "Challenges"
 				icon: "croptopia:starfruit"
 			}]
-		}
-		{
-			x: 3.0d
-			y: 3.0d
-			subtitle: "Obtain your first bounty, rewards depend on rarity."
-			description: ["Bounty boards will mostly be found in villages around the world."]
-			dependencies: ["6EC4700B21DB617B"]
-			id: "71B0D2F9318DEBC1"
-			tasks: [{
-				id: "7A4D0D148A41E347"
-				type: "observation"
-				title: "Bounties"
-				icon: {
-					id: "bountiful:bounty"
-					Count: 1b
-					tag: {
-						"bountiful:bounty_data": "{}"
+			rewards: [
+				{
+					id: "19C08B9CCD03D034"
+					type: "item"
+					item: "create:handheld_worldshaper"
+				}
+				{
+					id: "563D5DD9E251C2AC"
+					type: "item"
+					item: "croptosis:creative_watering_can"
+				}
+				{
+					id: "47BA9B48671FC557"
+					type: "item"
+					item: "create:creative_blaze_cake"
+				}
+				{
+					id: "5F9C5A1AACDAC695"
+					type: "item"
+					item: "harvest_scythes:creative_machete"
+				}
+				{
+					id: "5462F7521F3402D3"
+					type: "item"
+					item: "harvest_scythes:creative_scythe"
+				}
+				{
+					id: "254BBDDC559B2631"
+					type: "item"
+					item: {
+						id: "automobility:automobile_engine"
+						Count: 1b
+						tag: {
+							engine: "automobility:creative"
+						}
 					}
 				}
-				timer: 0L
-				observe_type: 0
-				to_observe: "bountiful:bountyboard"
-			}]
-			rewards: [{
-				id: "15F460C5E0FFCE17"
-				type: "loot"
-				table_id: 13756307348121783L
+			]
+		}
+		{
+			title: "Shatterer of Worlds"
+			x: -2.0d
+			y: 3.0d
+			subtitle: "Craft the ultimate Terra Shatterer!"
+			description: [
+				"Upgrade a Terra Shatterer to tier (SS)."
+				""
+				"Mana needed: 2,147,483,647"
+			]
+			dependencies: ["512CAEB25CD9B4E2"]
+			id: "2ED18039A031C275"
+			tasks: [{
+				id: "5F39C971ABE74EAF"
+				type: "item"
+				item: {
+					id: "botania:terra_pick"
+					Count: 1b
+					tag: {
+						Damage: 0
+						mana: 2147483646
+					}
+				}
 			}]
 		}
 	]

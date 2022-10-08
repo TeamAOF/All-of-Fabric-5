@@ -1,7 +1,7 @@
 {
 	id: "72B7D7CF2F338EAC"
 	group: "0815C5D80307ECDF"
-	order_index: 3
+	order_index: 4
 	filename: "tech_reborn"
 	title: "Tech Reborn"
 	icon: "techreborn:matter_fabricator"
@@ -97,9 +97,12 @@
 					}
 				}
 				{
-					id: "5DC3500F5D788762"
-					type: "loot"
-					table_id: 13756307348121783L
+					id: "66137520279AFCB1"
+					type: "command"
+					title: "TR Common Loot Bag"
+					icon: "kubejs:loot_bag_common"
+					command: "/execute at @p run loot spawn ~ ~1 ~ loot aof:loot_bags/tech_reborn_common"
+					player_command: false
 				}
 			]
 		}
@@ -128,9 +131,12 @@
 					count: 4
 				}
 				{
-					id: "64E986B4E8A1DAEF"
-					type: "loot"
-					table_id: 13756307348121783L
+					id: "24EDDDDB8115BD8D"
+					type: "command"
+					title: "TR Common Loot Bag"
+					icon: "kubejs:loot_bag_common"
+					command: "/execute at @p run loot spawn ~ ~1 ~ loot aof:loot_bags/tech_reborn_common"
+					player_command: false
 				}
 			]
 		}
@@ -148,18 +154,14 @@
 				type: "item"
 				item: "techreborn:electronic_circuit"
 			}]
-			rewards: [
-				{
-					id: "252AD579C758B41B"
-					type: "item"
-					item: "techreborn:sap"
-				}
-				{
-					id: "0AF7C655A979BBC9"
-					type: "loot"
-					table_id: 13756307348121783L
-				}
-			]
+			rewards: [{
+				id: "2C254166FFEA3949"
+				type: "command"
+				title: "TR Common Loot Bag"
+				icon: "kubejs:loot_bag_common"
+				command: "/execute at @p run loot spawn ~ ~1 ~ loot aof:loot_bags/tech_reborn_common"
+				player_command: false
+			}]
 		}
 		{
 			title: "Generating Power"
@@ -188,9 +190,12 @@
 					item: "minecraft:coal_block"
 				}
 				{
-					id: "5BA84307D253CAE7"
-					type: "loot"
-					table_id: 13756307348121783L
+					id: "337B47D9AD769ECA"
+					type: "command"
+					title: "TR Common Loot Bag"
+					icon: "kubejs:loot_bag_common"
+					command: "/execute at @p run loot spawn ~ ~1 ~ loot aof:loot_bags/tech_reborn_common"
+					player_command: false
 				}
 			]
 		}
@@ -213,9 +218,12 @@
 					item: "minecraft:porkchop"
 				}
 				{
-					id: "556F0763055C7649"
-					type: "loot"
-					table_id: 13756307348121783L
+					id: "2FE4DE3593B741F7"
+					type: "command"
+					title: "TR Common Loot Bag"
+					icon: "kubejs:loot_bag_common"
+					command: "/execute at @p run loot spawn ~ ~1 ~ loot aof:loot_bags/tech_reborn_common"
+					player_command: false
 				}
 			]
 		}
@@ -239,11 +247,15 @@
 					id: "79476464C79EA0E1"
 					type: "item"
 					item: "croptopia:flour"
+					count: 6
 				}
 				{
-					id: "3448D6D5EAC92918"
-					type: "loot"
-					table_id: 13756307348121783L
+					id: "0F2A152628C42BC2"
+					type: "command"
+					title: "TR Common Loot Bag"
+					icon: "kubejs:loot_bag_common"
+					command: "/execute at @p run loot spawn ~ ~1 ~ loot aof:loot_bags/tech_reborn_common"
+					player_command: false
 				}
 			]
 		}
@@ -259,18 +271,14 @@
 				type: "item"
 				item: "techreborn:iron_furnace"
 			}]
-			rewards: [
-				{
-					id: "422891FB72F6F3D2"
-					type: "item"
-					item: "dwarfcoal:dwarf_coal"
-				}
-				{
-					id: "6FAD3193B699FB16"
-					type: "loot"
-					table_id: 13756307348121783L
-				}
-			]
+			rewards: [{
+				id: "3BEFCBADC876AF1C"
+				type: "command"
+				title: "TR Common Loot Bag"
+				icon: "kubejs:loot_bag_common"
+				command: "/execute at @p run loot spawn ~ ~1 ~ loot aof:loot_bags/tech_reborn_common"
+				player_command: false
+			}]
 		}
 		{
 			x: -15.0d
@@ -290,9 +298,12 @@
 					item: "blockus:soul_o_lantern"
 				}
 				{
-					id: "76210AC37B887C56"
-					type: "loot"
-					table_id: 13756307348121783L
+					id: "69DE7D3FE75A1A92"
+					type: "command"
+					title: "TR Common Loot Bag"
+					icon: "kubejs:loot_bag_common"
+					command: "/execute at @p run loot spawn ~ ~1 ~ loot aof:loot_bags/tech_reborn_common"
+					player_command: false
 				}
 			]
 		}
@@ -315,9 +326,12 @@
 					item: "techreborn:compressed_plantball"
 				}
 				{
-					id: "1B4061B86AA337A1"
-					type: "loot"
-					table_id: 13756307348121783L
+					id: "120BD0D100BD0285"
+					type: "command"
+					title: "TR Common Loot Bag"
+					icon: "kubejs:loot_bag_common"
+					command: "/execute at @p run loot spawn ~ ~1 ~ loot aof:loot_bags/tech_reborn_common"
+					player_command: false
 				}
 			]
 		}
@@ -340,9 +354,12 @@
 					item: "minecraft:pumpkin_pie"
 				}
 				{
-					id: "4BC5EC0333B3E4A4"
-					type: "loot"
-					table_id: 13756307348121783L
+					id: "7E328D4BD067919E"
+					type: "command"
+					title: "TR Rare Loot Bag"
+					icon: "kubejs:loot_bag_rare"
+					command: "/execute at @p run loot spawn ~ ~1 ~ loot aof:loot_bags/tech_reborn_rare"
+					player_command: false
 				}
 			]
 		}
@@ -365,9 +382,12 @@
 					count: 2
 				}
 				{
-					id: "661EDC8823188196"
-					type: "loot"
-					table_id: 13756307348121783L
+					id: "7B79D20D567D573F"
+					type: "command"
+					title: "TR Common Loot Bag"
+					icon: "kubejs:loot_bag_common"
+					command: "/execute at @p run loot spawn ~ ~1 ~ loot aof:loot_bags/tech_reborn_common"
+					player_command: false
 				}
 			]
 		}
@@ -392,9 +412,12 @@
 				}
 			]
 			rewards: [{
-				id: "4AFADEBF589162A6"
-				type: "loot"
-				table_id: 13756307348121783L
+				id: "0ABE388E881B1D70"
+				type: "command"
+				title: "TR Rare Loot Bag"
+				icon: "kubejs:loot_bag_rare"
+				command: "/execute at @p run loot spawn ~ ~1 ~ loot aof:loot_bags/tech_reborn_rare"
+				player_command: false
 			}]
 		}
 		{
@@ -424,9 +447,12 @@
 					item: "minecraft:chest"
 				}
 				{
-					id: "082AFE405CB89E38"
-					type: "loot"
-					table_id: 13756307348121783L
+					id: "46EFAB6A4F27DD98"
+					type: "command"
+					title: "TR Common Loot Bag"
+					icon: "kubejs:loot_bag_common"
+					command: "/execute at @p run loot spawn ~ ~1 ~ loot aof:loot_bags/tech_reborn_common"
+					player_command: false
 				}
 			]
 		}
@@ -442,9 +468,12 @@
 				item: "techreborn:advanced_circuit"
 			}]
 			rewards: [{
-				id: "564C433A791B95CB"
-				type: "loot"
-				table_id: 13756307348121783L
+				id: "1EC549D37FBC4764"
+				type: "command"
+				title: "TR Rare Loot Bag"
+				icon: "kubejs:loot_bag_rare"
+				command: "/execute at @p run loot spawn ~ ~1 ~ loot aof:loot_bags/tech_reborn_rare"
+				player_command: false
 			}]
 		}
 		{
@@ -468,9 +497,12 @@
 					item: "minecraft:sunflower"
 				}
 				{
-					id: "7BB9832C6AC03904"
-					type: "loot"
-					table_id: 13756307348121783L
+					id: "2C352AC78F3A3934"
+					type: "command"
+					title: "TR Common Loot Bag"
+					icon: "kubejs:loot_bag_common"
+					command: "/execute at @p run loot spawn ~ ~1 ~ loot aof:loot_bags/tech_reborn_common"
+					player_command: false
 				}
 			]
 		}
@@ -493,9 +525,12 @@
 					count: 2
 				}
 				{
-					id: "46F319453ECC2668"
-					type: "loot"
-					table_id: 13756307348121783L
+					id: "262B3F2D34D38486"
+					type: "command"
+					title: "TR Rare Loot Bag"
+					icon: "kubejs:loot_bag_rare"
+					command: "/execute at @p run loot spawn ~ ~1 ~ loot aof:loot_bags/tech_reborn_rare"
+					player_command: false
 				}
 			]
 		}
@@ -518,9 +553,12 @@
 					count: 3
 				}
 				{
-					id: "3FB6B35E229FEF71"
-					type: "loot"
-					table_id: 13756307348121783L
+					id: "2C557BBF2D88AA20"
+					type: "command"
+					title: "TR Epic Loot Bag"
+					icon: "kubejs:loot_bag_epic"
+					command: "/execute at @p run loot spawn ~ ~1 ~ loot aof:loot_bags/tech_reborn_epic"
+					player_command: false
 				}
 			]
 		}
@@ -543,9 +581,12 @@
 					count: 4
 				}
 				{
-					id: "3D0BEEE320CB0C76"
-					type: "loot"
-					table_id: 13756307348121783L
+					id: "2F432FD0DAD1A773"
+					type: "command"
+					title: "TR Epic Loot Bag"
+					icon: "kubejs:loot_bag_epic"
+					command: "/execute at @p run loot spawn ~ ~1 ~ loot aof:loot_bags/tech_reborn_epic"
+					player_command: false
 				}
 			]
 		}
@@ -571,9 +612,12 @@
 					count: 5
 				}
 				{
-					id: "0E293BB80FEF415C"
-					type: "loot"
-					table_id: 13756307348121783L
+					id: "1A300DFFE902CD75"
+					type: "command"
+					title: "TR Epic Loot Bag"
+					icon: "kubejs:loot_bag_epic"
+					command: "/execute at @p run loot spawn ~ ~1 ~ loot aof:loot_bags/tech_reborn_epic"
+					player_command: false
 				}
 			]
 		}
@@ -589,9 +633,12 @@
 				item: "techreborn:auto_crafting_table"
 			}]
 			rewards: [{
-				id: "67FA4C8E0DEB14B3"
-				type: "loot"
-				table_id: 13756307348121783L
+				id: "300BD8325DEA2432"
+				type: "command"
+				title: "TR Rare Loot Bag"
+				icon: "kubejs:loot_bag_rare"
+				command: "/execute at @p run loot spawn ~ ~1 ~ loot aof:loot_bags/tech_reborn_rare"
+				player_command: false
 			}]
 		}
 		{
@@ -620,15 +667,18 @@
 			}]
 			rewards: [
 				{
-					id: "663E1E9A67FE4D39"
-					type: "loot"
-					table_id: 13756307348121783L
-				}
-				{
 					id: "31DF073742CD6CF4"
 					type: "item"
 					item: "croptopia:water_bottle"
 					count: 16
+				}
+				{
+					id: "71D11D27AE188983"
+					type: "command"
+					title: "TR Common Loot Bag"
+					icon: "kubejs:loot_bag_common"
+					command: "/execute at @p run loot spawn ~ ~1 ~ loot aof:loot_bags/tech_reborn_common"
+					player_command: false
 				}
 			]
 		}
@@ -656,9 +706,12 @@
 					}
 				}
 				{
-					id: "10344AA8C14C13D6"
-					type: "loot"
-					table_id: 13756307348121783L
+					id: "7B014F52554B0474"
+					type: "command"
+					title: "TR Common Loot Bag"
+					icon: "kubejs:loot_bag_common"
+					command: "/execute at @p run loot spawn ~ ~1 ~ loot aof:loot_bags/tech_reborn_common"
+					player_command: false
 				}
 			]
 		}
@@ -686,9 +739,12 @@
 					}
 				}
 				{
-					id: "1BA6AB9399BD5F16"
-					type: "loot"
-					table_id: 13756307348121783L
+					id: "4881E2C5527A9553"
+					type: "command"
+					title: "TR Common Loot Bag"
+					icon: "kubejs:loot_bag_common"
+					command: "/execute at @p run loot spawn ~ ~1 ~ loot aof:loot_bags/tech_reborn_common"
+					player_command: false
 				}
 			]
 		}
@@ -704,9 +760,12 @@
 				item: "techreborn:scrapboxinator"
 			}]
 			rewards: [{
-				id: "742A0840F9C2477C"
-				type: "loot"
-				table_id: 13756307348121783L
+				id: "3E46BEE5C3894672"
+				type: "command"
+				title: "TR Rare Loot Bag"
+				icon: "kubejs:loot_bag_rare"
+				command: "/execute at @p run loot spawn ~ ~1 ~ loot aof:loot_bags/tech_reborn_rare"
+				player_command: false
 			}]
 		}
 		{
@@ -721,9 +780,12 @@
 				item: "techreborn:assembly_machine"
 			}]
 			rewards: [{
-				id: "43A40A18BFC53A34"
-				type: "loot"
-				table_id: 13756307348121783L
+				id: "5BB9285EC26330EE"
+				type: "command"
+				title: "TR Rare Loot Bag"
+				icon: "kubejs:loot_bag_rare"
+				command: "/execute at @p run loot spawn ~ ~1 ~ loot aof:loot_bags/tech_reborn_rare"
+				player_command: false
 			}]
 		}
 		{
@@ -750,9 +812,12 @@
 				item: "techreborn:industrial_blast_furnace"
 			}]
 			rewards: [{
-				id: "6937048F6FA33056"
-				type: "loot"
-				table_id: 13756307348121783L
+				id: "0476FDF2824C1562"
+				type: "command"
+				title: "TR Rare Loot Bag"
+				icon: "kubejs:loot_bag_rare"
+				command: "/execute at @p run loot spawn ~ ~1 ~ loot aof:loot_bags/tech_reborn_rare"
+				player_command: false
 			}]
 		}
 		{
@@ -780,9 +845,12 @@
 				item: "techreborn:industrial_sawmill"
 			}]
 			rewards: [{
-				id: "2CCCC4DD5D2469BA"
-				type: "loot"
-				table_id: 13756307348121783L
+				id: "5940A580AD2C0138"
+				type: "command"
+				title: "TR Rare Loot Bag"
+				icon: "kubejs:loot_bag_rare"
+				command: "/execute at @p run loot spawn ~ ~1 ~ loot aof:loot_bags/tech_reborn_rare"
+				player_command: false
 			}]
 		}
 		{
@@ -805,9 +873,12 @@
 				item: "techreborn:greenhouse_controller"
 			}]
 			rewards: [{
-				id: "5A23E186D4286E75"
-				type: "loot"
-				table_id: 13756307348121783L
+				id: "3240270006E81C1F"
+				type: "command"
+				title: "TR Rare Loot Bag"
+				icon: "kubejs:loot_bag_rare"
+				command: "/execute at @p run loot spawn ~ ~1 ~ loot aof:loot_bags/tech_reborn_rare"
+				player_command: false
 			}]
 		}
 		{
@@ -835,9 +906,12 @@
 				item: "techreborn:industrial_grinder"
 			}]
 			rewards: [{
-				id: "2D79F173F91302A0"
-				type: "loot"
-				table_id: 13756307348121783L
+				id: "6F74BDFC9D676A45"
+				type: "command"
+				title: "TR Rare Loot Bag"
+				icon: "kubejs:loot_bag_rare"
+				command: "/execute at @p run loot spawn ~ ~1 ~ loot aof:loot_bags/tech_reborn_rare"
+				player_command: false
 			}]
 		}
 		{
@@ -857,9 +931,12 @@
 				item: "techreborn:vacuum_freezer"
 			}]
 			rewards: [{
-				id: "011BA7041CFFF339"
-				type: "loot"
-				table_id: 13756307348121783L
+				id: "67C2999977F284C6"
+				type: "command"
+				title: "TR Rare Loot Bag"
+				icon: "kubejs:loot_bag_rare"
+				command: "/execute at @p run loot spawn ~ ~1 ~ loot aof:loot_bags/tech_reborn_rare"
+				player_command: false
 			}]
 		}
 		{
@@ -895,9 +972,12 @@
 				item: "techreborn:implosion_compressor"
 			}]
 			rewards: [{
-				id: "2D1690E1CFBC715C"
-				type: "loot"
-				table_id: 13756307348121783L
+				id: "37C5541E50D1637C"
+				type: "command"
+				title: "TR Epic Loot Bag"
+				icon: "kubejs:loot_bag_epic"
+				command: "/execute at @p run loot spawn ~ ~1 ~ loot aof:loot_bags/tech_reborn_epic"
+				player_command: false
 			}]
 		}
 		{
@@ -928,9 +1008,12 @@
 				item: "techreborn:distillation_tower"
 			}]
 			rewards: [{
-				id: "630E3995EE17403C"
-				type: "loot"
-				table_id: 13756307348121783L
+				id: "4106CF47A72C0463"
+				type: "command"
+				title: "TR Epic Loot Bag"
+				icon: "kubejs:loot_bag_epic"
+				command: "/execute at @p run loot spawn ~ ~1 ~ loot aof:loot_bags/tech_reborn_epic"
+				player_command: false
 			}]
 		}
 		{
@@ -944,9 +1027,12 @@
 				item: "techreborn:industrial_circuit"
 			}]
 			rewards: [{
-				id: "7F6BCAB1DE2F563D"
-				type: "loot"
-				table_id: 13756307348121783L
+				id: "266538E533D52FA4"
+				type: "command"
+				title: "TR Epic Loot Bag"
+				icon: "kubejs:loot_bag_epic"
+				command: "/execute at @p run loot spawn ~ ~1 ~ loot aof:loot_bags/tech_reborn_epic"
+				player_command: false
 			}]
 		}
 		{
@@ -961,9 +1047,12 @@
 				item: "techreborn:chemical_reactor"
 			}]
 			rewards: [{
-				id: "4E0E1EAE592292FC"
-				type: "loot"
-				table_id: 13756307348121783L
+				id: "607303F80727794B"
+				type: "command"
+				title: "TR Rare Loot Bag"
+				icon: "kubejs:loot_bag_rare"
+				command: "/execute at @p run loot spawn ~ ~1 ~ loot aof:loot_bags/tech_reborn_rare"
+				player_command: false
 			}]
 		}
 		{
@@ -989,9 +1078,12 @@
 				item: "techreborn:matter_fabricator"
 			}]
 			rewards: [{
-				id: "00FA48067818E8A9"
-				type: "loot"
-				table_id: 13756307348121783L
+				id: "502D94C89D8EF078"
+				type: "command"
+				title: "TR Epic Loot Bag"
+				icon: "kubejs:loot_bag_epic"
+				command: "/execute at @p run loot spawn ~ ~1 ~ loot aof:loot_bags/tech_reborn_epic"
+				player_command: false
 			}]
 		}
 		{
@@ -1006,9 +1098,12 @@
 				count: 2L
 			}]
 			rewards: [{
-				id: "1C8A175EF6278DEE"
-				type: "loot"
-				table_id: 13756307348121783L
+				id: "3606000DD8046551"
+				type: "command"
+				title: "TR Rare Loot Bag"
+				icon: "kubejs:loot_bag_rare"
+				command: "/execute at @p run loot spawn ~ ~1 ~ loot aof:loot_bags/tech_reborn_rare"
+				player_command: false
 			}]
 		}
 		{
@@ -1023,9 +1118,12 @@
 				item: "techreborn:uu_matter"
 			}]
 			rewards: [{
-				id: "1B6AC5E02C576F7B"
-				type: "loot"
-				table_id: 13756307348121783L
+				id: "46E794C55915CD63"
+				type: "command"
+				title: "TR Epic Loot Bag"
+				icon: "kubejs:loot_bag_epic"
+				command: "/execute at @p run loot spawn ~ ~1 ~ loot aof:loot_bags/tech_reborn_epic"
+				player_command: false
 			}]
 		}
 		{
@@ -1039,9 +1137,12 @@
 				item: "modern_industrialization:silicon_plate"
 			}]
 			rewards: [{
-				id: "36863CD4B97573B8"
-				type: "loot"
-				table_id: 13756307348121783L
+				id: "37D18A2470C370DC"
+				type: "command"
+				title: "TR Rare Loot Bag"
+				icon: "kubejs:loot_bag_rare"
+				command: "/execute at @p run loot spawn ~ ~1 ~ loot aof:loot_bags/tech_reborn_rare"
+				player_command: false
 			}]
 		}
 		{
@@ -1059,9 +1160,12 @@
 				item: "techreborn:energy_crystal"
 			}]
 			rewards: [{
-				id: "323760905F1ECC4E"
-				type: "loot"
-				table_id: 13756307348121783L
+				id: "79BE9DBAA7F36275"
+				type: "command"
+				title: "TR Rare Loot Bag"
+				icon: "kubejs:loot_bag_rare"
+				command: "/execute at @p run loot spawn ~ ~1 ~ loot aof:loot_bags/tech_reborn_rare"
+				player_command: false
 			}]
 		}
 		{
@@ -1079,9 +1183,12 @@
 				item: "techreborn:lapotron_crystal"
 			}]
 			rewards: [{
-				id: "6129C7375E441C15"
-				type: "loot"
-				table_id: 13756307348121783L
+				id: "66F52C7FA3B55643"
+				type: "command"
+				title: "TR Epic Loot Bag"
+				icon: "kubejs:loot_bag_epic"
+				command: "/execute at @p run loot spawn ~ ~1 ~ loot aof:loot_bags/tech_reborn_epic"
+				player_command: false
 			}]
 		}
 		{
@@ -1098,9 +1205,12 @@
 				item: "techreborn:energy_flow_chip"
 			}]
 			rewards: [{
-				id: "08AECFD1F42C6F0B"
-				type: "loot"
-				table_id: 13756307348121783L
+				id: "2E289113F9E35F77"
+				type: "command"
+				title: "TR Epic Loot Bag"
+				icon: "kubejs:loot_bag_epic"
+				command: "/execute at @p run loot spawn ~ ~1 ~ loot aof:loot_bags/tech_reborn_epic"
+				player_command: false
 			}]
 		}
 		{
@@ -1114,9 +1224,12 @@
 				item: "techreborn:iridium_alloy_plate"
 			}]
 			rewards: [{
-				id: "13C5CEB67D346151"
-				type: "loot"
-				table_id: 13756307348121783L
+				id: "49C6940427C28413"
+				type: "command"
+				title: "TR Epic Loot Bag"
+				icon: "kubejs:loot_bag_epic"
+				command: "/execute at @p run loot spawn ~ ~1 ~ loot aof:loot_bags/tech_reborn_epic"
+				player_command: false
 			}]
 		}
 		{
@@ -1130,9 +1243,12 @@
 				item: "techreborn:cupronickel_heating_coil"
 			}]
 			rewards: [{
-				id: "0D36FFB958ED6503"
-				type: "loot"
-				table_id: 13756307348121783L
+				id: "24FFAA7A6FEBCD7E"
+				type: "command"
+				title: "TR Rare Loot Bag"
+				icon: "kubejs:loot_bag_rare"
+				command: "/execute at @p run loot spawn ~ ~1 ~ loot aof:loot_bags/tech_reborn_rare"
+				player_command: false
 			}]
 		}
 		{
@@ -1149,9 +1265,12 @@
 				item: "techreborn:nichrome_heating_coil"
 			}]
 			rewards: [{
-				id: "522D50629BA99B1B"
-				type: "loot"
-				table_id: 13756307348121783L
+				id: "37AD081EBFBF907A"
+				type: "command"
+				title: "TR Rare Loot Bag"
+				icon: "kubejs:loot_bag_rare"
+				command: "/execute at @p run loot spawn ~ ~1 ~ loot aof:loot_bags/tech_reborn_rare"
+				player_command: false
 			}]
 		}
 		{
@@ -1165,9 +1284,12 @@
 				item: "techreborn:magnalium_plate"
 			}]
 			rewards: [{
-				id: "678FA041E90EF6D4"
-				type: "loot"
-				table_id: 13756307348121783L
+				id: "175DEA5D9D53D522"
+				type: "command"
+				title: "TR Rare Loot Bag"
+				icon: "kubejs:loot_bag_rare"
+				command: "/execute at @p run loot spawn ~ ~1 ~ loot aof:loot_bags/tech_reborn_rare"
+				player_command: false
 			}]
 		}
 		{
@@ -1189,9 +1311,12 @@
 				item: "techreborn:wind_mill"
 			}]
 			rewards: [{
-				id: "462077DE52B0F93D"
-				type: "loot"
-				table_id: 13756307348121783L
+				id: "50B5A5062593242E"
+				type: "command"
+				title: "TR Rare Loot Bag"
+				icon: "kubejs:loot_bag_rare"
+				command: "/execute at @p run loot spawn ~ ~1 ~ loot aof:loot_bags/tech_reborn_rare"
+				player_command: false
 			}]
 		}
 		{
@@ -1206,9 +1331,12 @@
 				item: "techreborn:insulated_copper_cable"
 			}]
 			rewards: [{
-				id: "5DF799151660E254"
-				type: "loot"
-				table_id: 13756307348121783L
+				id: "0590E4EE69D058CE"
+				type: "command"
+				title: "TR Common Loot Bag"
+				icon: "kubejs:loot_bag_common"
+				command: "/execute at @p run loot spawn ~ ~1 ~ loot aof:loot_bags/tech_reborn_common"
+				player_command: false
 			}]
 		}
 		{
@@ -1223,9 +1351,12 @@
 				item: "techreborn:red_cell_battery"
 			}]
 			rewards: [{
-				id: "75FE1FA366841C8A"
-				type: "loot"
-				table_id: 13756307348121783L
+				id: "1BC50B0115AABE8B"
+				type: "command"
+				title: "TR Common Loot Bag"
+				icon: "kubejs:loot_bag_common"
+				command: "/execute at @p run loot spawn ~ ~1 ~ loot aof:loot_bags/tech_reborn_common"
+				player_command: false
 			}]
 		}
 		{
@@ -1241,9 +1372,12 @@
 				item: "techreborn:basic_machine_frame"
 			}]
 			rewards: [{
-				id: "7A6160CBA821288E"
-				type: "loot"
-				table_id: 13756307348121783L
+				id: "5FD3F1A871ACA957"
+				type: "command"
+				title: "TR Common Loot Bag"
+				icon: "kubejs:loot_bag_common"
+				command: "/execute at @p run loot spawn ~ ~1 ~ loot aof:loot_bags/tech_reborn_common"
+				player_command: false
 			}]
 		}
 		{
@@ -1259,9 +1393,12 @@
 				item: "techreborn:compressor"
 			}]
 			rewards: [{
-				id: "0C3BD244A25D63A1"
-				type: "loot"
-				table_id: 13756307348121783L
+				id: "5E4303FF78C704F5"
+				type: "command"
+				title: "TR Rare Loot Bag"
+				icon: "kubejs:loot_bag_rare"
+				command: "/execute at @p run loot spawn ~ ~1 ~ loot aof:loot_bags/tech_reborn_rare"
+				player_command: false
 			}]
 		}
 		{
@@ -1278,9 +1415,12 @@
 				item: "modern_industrialization:carbon_plate"
 			}]
 			rewards: [{
-				id: "7AF280E03DF3311F"
-				type: "loot"
-				table_id: 13756307348121783L
+				id: "5456B44DA6A9FFDA"
+				type: "command"
+				title: "TR Common Loot Bag"
+				icon: "kubejs:loot_bag_common"
+				command: "/execute at @p run loot spawn ~ ~1 ~ loot aof:loot_bags/tech_reborn_common"
+				player_command: false
 			}]
 		}
 		{
@@ -1298,9 +1438,12 @@
 				item: "techreborn:advanced_machine_frame"
 			}]
 			rewards: [{
-				id: "5BBF0AD46B115957"
-				type: "loot"
-				table_id: 13756307348121783L
+				id: "1F04CB5CD8D854AE"
+				type: "command"
+				title: "TR Rare Loot Bag"
+				icon: "kubejs:loot_bag_rare"
+				command: "/execute at @p run loot spawn ~ ~1 ~ loot aof:loot_bags/tech_reborn_rare"
+				player_command: false
 			}]
 		}
 		{
@@ -1314,9 +1457,12 @@
 				item: "techreborn:data_storage_core"
 			}]
 			rewards: [{
-				id: "346EDB625AE93F8E"
-				type: "loot"
-				table_id: 13756307348121783L
+				id: "77BA2CDD5E6BC946"
+				type: "command"
+				title: "TR Common Loot Bag"
+				icon: "kubejs:loot_bag_common"
+				command: "/execute at @p run loot spawn ~ ~1 ~ loot aof:loot_bags/tech_reborn_common"
+				player_command: false
 			}]
 		}
 		{
@@ -1332,6 +1478,14 @@
 				type: "item"
 				item: "techreborn:data_storage_chip"
 			}]
+			rewards: [{
+				id: "2614154DE8E21959"
+				type: "command"
+				title: "TR Common Loot Bag"
+				icon: "kubejs:loot_bag_common"
+				command: "/execute at @p run loot spawn ~ ~1 ~ loot aof:loot_bags/tech_reborn_common"
+				player_command: false
+			}]
 		}
 		{
 			x: -12.0d
@@ -1345,9 +1499,12 @@
 				item: "techreborn:basic_machine_casing"
 			}]
 			rewards: [{
-				id: "1DAC184AF763BCF0"
-				type: "loot"
-				table_id: 13756307348121783L
+				id: "7CFAE1940B5CA53C"
+				type: "command"
+				title: "TR Common Loot Bag"
+				icon: "kubejs:loot_bag_common"
+				command: "/execute at @p run loot spawn ~ ~1 ~ loot aof:loot_bags/tech_reborn_common"
+				player_command: false
 			}]
 		}
 		{
@@ -1361,9 +1518,12 @@
 				item: "modern_industrialization:steel_ingot"
 			}]
 			rewards: [{
-				id: "25D636D1741BF5B0"
-				type: "loot"
-				table_id: 13756307348121783L
+				id: "00851C908A4C63E3"
+				type: "command"
+				title: "TR Rare Loot Bag"
+				icon: "kubejs:loot_bag_rare"
+				command: "/execute at @p run loot spawn ~ ~1 ~ loot aof:loot_bags/tech_reborn_rare"
+				player_command: false
 			}]
 		}
 		{
@@ -1377,9 +1537,12 @@
 				item: "modern_industrialization:steel_plate"
 			}]
 			rewards: [{
-				id: "5EFE34155A5BD776"
-				type: "loot"
-				table_id: 13756307348121783L
+				id: "15FE8AFEFAFB4058"
+				type: "command"
+				title: "TR Rare Loot Bag"
+				icon: "kubejs:loot_bag_rare"
+				command: "/execute at @p run loot spawn ~ ~1 ~ loot aof:loot_bags/tech_reborn_rare"
+				player_command: false
 			}]
 		}
 		{
@@ -1397,9 +1560,12 @@
 				item: "techreborn:advanced_machine_casing"
 			}]
 			rewards: [{
-				id: "39E1BAF61EE71E11"
-				type: "loot"
-				table_id: 13756307348121783L
+				id: "12EA9BD640B4DC9A"
+				type: "command"
+				title: "TR Rare Loot Bag"
+				icon: "kubejs:loot_bag_rare"
+				command: "/execute at @p run loot spawn ~ ~1 ~ loot aof:loot_bags/tech_reborn_rare"
+				player_command: false
 			}]
 		}
 		{
@@ -1420,7 +1586,6 @@
 			rewards: [{
 				id: "7ADBDA171F6D4207"
 				type: "loot"
-				table_id: 13756307348121783L
 			}]
 		}
 		{
@@ -1434,9 +1599,12 @@
 				item: "modern_industrialization:chromium_plate"
 			}]
 			rewards: [{
-				id: "1795A61B0F03764A"
-				type: "loot"
-				table_id: 13756307348121783L
+				id: "140B825962A9F18D"
+				type: "command"
+				title: "TR Rare Loot Bag"
+				icon: "kubejs:loot_bag_rare"
+				command: "/execute at @p run loot spawn ~ ~1 ~ loot aof:loot_bags/tech_reborn_rare"
+				player_command: false
 			}]
 		}
 		{
@@ -1451,9 +1619,12 @@
 				item: "modern_industrialization:chromium_ingot"
 			}]
 			rewards: [{
-				id: "4E3D76E70FA19655"
-				type: "loot"
-				table_id: 13756307348121783L
+				id: "150F91A588FA514D"
+				type: "command"
+				title: "TR Rare Loot Bag"
+				icon: "kubejs:loot_bag_rare"
+				command: "/execute at @p run loot spawn ~ ~1 ~ loot aof:loot_bags/tech_reborn_rare"
+				player_command: false
 			}]
 		}
 		{
@@ -1471,9 +1642,12 @@
 				item: "techreborn:industrial_machine_frame"
 			}]
 			rewards: [{
-				id: "027C047925994DB9"
-				type: "loot"
-				table_id: 13756307348121783L
+				id: "0E47CB123A786C24"
+				type: "command"
+				title: "TR Epic Loot Bag"
+				icon: "kubejs:loot_bag_epic"
+				command: "/execute at @p run loot spawn ~ ~1 ~ loot aof:loot_bags/tech_reborn_epic"
+				player_command: false
 			}]
 		}
 		{
@@ -1490,9 +1664,12 @@
 				item: "modern_industrialization:titanium_plate"
 			}]
 			rewards: [{
-				id: "3CBA28123BA9B91D"
-				type: "loot"
-				table_id: 13756307348121783L
+				id: "386E728C09C7BB75"
+				type: "command"
+				title: "TR Epic Loot Bag"
+				icon: "kubejs:loot_bag_epic"
+				command: "/execute at @p run loot spawn ~ ~1 ~ loot aof:loot_bags/tech_reborn_epic"
+				player_command: false
 			}]
 		}
 		{
@@ -1506,9 +1683,12 @@
 				item: "modern_industrialization:titanium_ingot"
 			}]
 			rewards: [{
-				id: "04B7126351814647"
-				type: "loot"
-				table_id: 13756307348121783L
+				id: "38281648B2227461"
+				type: "command"
+				title: "TR Epic Loot Bag"
+				icon: "kubejs:loot_bag_epic"
+				command: "/execute at @p run loot spawn ~ ~1 ~ loot aof:loot_bags/tech_reborn_epic"
+				player_command: false
 			}]
 		}
 		{
@@ -1522,9 +1702,12 @@
 				item: "modern_industrialization:coal_dust"
 			}]
 			rewards: [{
-				id: "45874E91E1D1AED3"
-				type: "loot"
-				table_id: 13756307348121783L
+				id: "4581A0F0A4384603"
+				type: "command"
+				title: "TR Common Loot Bag"
+				icon: "kubejs:loot_bag_common"
+				command: "/execute at @p run loot spawn ~ ~1 ~ loot aof:loot_bags/tech_reborn_common"
+				player_command: false
 			}]
 		}
 		{
@@ -1539,9 +1722,12 @@
 				item: "techreborn:carbon_fiber"
 			}]
 			rewards: [{
-				id: "35128DE4702A8E30"
-				type: "loot"
-				table_id: 13756307348121783L
+				id: "6D6CEAB5D41A2077"
+				type: "command"
+				title: "TR Common Loot Bag"
+				icon: "kubejs:loot_bag_common"
+				command: "/execute at @p run loot spawn ~ ~1 ~ loot aof:loot_bags/tech_reborn_common"
+				player_command: false
 			}]
 		}
 		{
@@ -1555,9 +1741,12 @@
 				item: "techreborn:advanced_alloy_plate"
 			}]
 			rewards: [{
-				id: "3E05428858F0E8E9"
-				type: "loot"
-				table_id: 13756307348121783L
+				id: "7EBF744766EF29EF"
+				type: "command"
+				title: "TR Rare Loot Bag"
+				icon: "kubejs:loot_bag_rare"
+				command: "/execute at @p run loot spawn ~ ~1 ~ loot aof:loot_bags/tech_reborn_rare"
+				player_command: false
 			}]
 		}
 		{
@@ -1572,9 +1761,12 @@
 				item: "techreborn:lightning_rod"
 			}]
 			rewards: [{
-				id: "4F67B22C7632F09C"
-				type: "loot"
-				table_id: 13756307348121783L
+				id: "6B9A47975C83B4D1"
+				type: "command"
+				title: "TR Rare Loot Bag"
+				icon: "kubejs:loot_bag_rare"
+				command: "/execute at @p run loot spawn ~ ~1 ~ loot aof:loot_bags/tech_reborn_rare"
+				player_command: false
 			}]
 		}
 		{
@@ -1589,9 +1781,12 @@
 				item: "techreborn:lithium_ion_battery"
 			}]
 			rewards: [{
-				id: "3B3620580001BCC2"
-				type: "loot"
-				table_id: 13756307348121783L
+				id: "7DCFEBCE98E804BE"
+				type: "command"
+				title: "TR Rare Loot Bag"
+				icon: "kubejs:loot_bag_rare"
+				command: "/execute at @p run loot spawn ~ ~1 ~ loot aof:loot_bags/tech_reborn_rare"
+				player_command: false
 			}]
 		}
 		{
@@ -1616,9 +1811,12 @@
 				item: "techreborn:electric_treetap"
 			}]
 			rewards: [{
-				id: "7504DD0783046CBA"
-				type: "loot"
-				table_id: 13756307348121783L
+				id: "38D10FC3B27394DB"
+				type: "command"
+				title: "TR Common Loot Bag"
+				icon: "kubejs:loot_bag_common"
+				command: "/execute at @p run loot spawn ~ ~1 ~ loot aof:loot_bags/tech_reborn_common"
+				player_command: false
 			}]
 		}
 		{
@@ -1636,9 +1834,12 @@
 				item: "techreborn:lapotronic_orb"
 			}]
 			rewards: [{
-				id: "77B675C35F0B8795"
-				type: "loot"
-				table_id: 13756307348121783L
+				id: "5378182B0F04B24A"
+				type: "command"
+				title: "TR Epic Loot Bag"
+				icon: "kubejs:loot_bag_epic"
+				command: "/execute at @p run loot spawn ~ ~1 ~ loot aof:loot_bags/tech_reborn_epic"
+				player_command: false
 			}]
 		}
 		{
@@ -1653,9 +1854,12 @@
 				item: "techreborn:adjustable_su"
 			}]
 			rewards: [{
-				id: "658937208BE78769"
-				type: "loot"
-				table_id: 13756307348121783L
+				id: "56CDDFDA1A86D305"
+				type: "command"
+				title: "TR Epic Loot Bag"
+				icon: "kubejs:loot_bag_epic"
+				command: "/execute at @p run loot spawn ~ ~1 ~ loot aof:loot_bags/tech_reborn_epic"
+				player_command: false
 			}]
 		}
 		{
@@ -1675,9 +1879,12 @@
 				item: "techreborn:interdimensional_su"
 			}]
 			rewards: [{
-				id: "2AF085D78D60831D"
-				type: "loot"
-				table_id: 13756307348121783L
+				id: "5045F87A017716EE"
+				type: "command"
+				title: "TR Epic Loot Bag"
+				icon: "kubejs:loot_bag_epic"
+				command: "/execute at @p run loot spawn ~ ~1 ~ loot aof:loot_bags/tech_reborn_epic"
+				player_command: false
 			}]
 		}
 		{
@@ -1694,9 +1901,12 @@
 				item: "techreborn:superconductor"
 			}]
 			rewards: [{
-				id: "4163FC722DD708AF"
-				type: "loot"
-				table_id: 13756307348121783L
+				id: "099A0AEFE9B15A80"
+				type: "command"
+				title: "TR Epic Loot Bag"
+				icon: "kubejs:loot_bag_epic"
+				command: "/execute at @p run loot spawn ~ ~1 ~ loot aof:loot_bags/tech_reborn_epic"
+				player_command: false
 			}]
 		}
 		{
@@ -1710,9 +1920,12 @@
 				item: "techreborn:cloaking_device"
 			}]
 			rewards: [{
-				id: "06D91D7190CD5C8A"
-				type: "loot"
-				table_id: 13756307348121783L
+				id: "7EF3E127A9C40586"
+				type: "command"
+				title: "TR Epic Loot Bag"
+				icon: "kubejs:loot_bag_epic"
+				command: "/execute at @p run loot spawn ~ ~1 ~ loot aof:loot_bags/tech_reborn_epic"
+				player_command: false
 			}]
 		}
 		{
@@ -1732,9 +1945,12 @@
 				item: "techreborn:industrial_electrolyzer"
 			}]
 			rewards: [{
-				id: "6E1491F4091DB429"
-				type: "loot"
-				table_id: 13756307348121783L
+				id: "13B92E8E61D1F85D"
+				type: "command"
+				title: "TR Epic Loot Bag"
+				icon: "kubejs:loot_bag_epic"
+				command: "/execute at @p run loot spawn ~ ~1 ~ loot aof:loot_bags/tech_reborn_epic"
+				player_command: false
 			}]
 		}
 		{
@@ -1754,9 +1970,12 @@
 				}
 			}]
 			rewards: [{
-				id: "654D5786F934AB19"
-				type: "loot"
-				table_id: 13756307348121783L
+				id: "0965D2B85324DA75"
+				type: "command"
+				title: "TR Epic Loot Bag"
+				icon: "kubejs:loot_bag_epic"
+				command: "/execute at @p run loot spawn ~ ~1 ~ loot aof:loot_bags/tech_reborn_epic"
+				player_command: false
 			}]
 		}
 		{
@@ -1775,9 +1994,12 @@
 				item: "techreborn:neutron_reflector"
 			}]
 			rewards: [{
-				id: "62EC37408BF992AB"
-				type: "loot"
-				table_id: 13756307348121783L
+				id: "6AEC3535DC8AC2AF"
+				type: "command"
+				title: "TR Epic Loot Bag"
+				icon: "kubejs:loot_bag_epic"
+				command: "/execute at @p run loot spawn ~ ~1 ~ loot aof:loot_bags/tech_reborn_epic"
+				player_command: false
 			}]
 		}
 		{
@@ -1794,9 +2016,12 @@
 				item: "techreborn:thick_neutron_reflector"
 			}]
 			rewards: [{
-				id: "708A2D7C0A3EC10B"
-				type: "loot"
-				table_id: 13756307348121783L
+				id: "6FEF0B0465AEE3CD"
+				type: "command"
+				title: "TR Epic Loot Bag"
+				icon: "kubejs:loot_bag_epic"
+				command: "/execute at @p run loot spawn ~ ~1 ~ loot aof:loot_bags/tech_reborn_epic"
+				player_command: false
 			}]
 		}
 		{
@@ -1810,9 +2035,12 @@
 				item: "techreborn:iridium_neutron_reflector"
 			}]
 			rewards: [{
-				id: "429ED260F224D6C2"
-				type: "loot"
-				table_id: 13756307348121783L
+				id: "4751598D164EC3C6"
+				type: "command"
+				title: "TR Epic Loot Bag"
+				icon: "kubejs:loot_bag_epic"
+				command: "/execute at @p run loot spawn ~ ~1 ~ loot aof:loot_bags/tech_reborn_epic"
+				player_command: false
 			}]
 		}
 		{
@@ -1831,9 +2059,12 @@
 				count: 16L
 			}]
 			rewards: [{
-				id: "7F08BF5C96BE6C41"
-				type: "loot"
-				table_id: 13756307348121783L
+				id: "49A315B27D1038EC"
+				type: "command"
+				title: "TR Epic Loot Bag"
+				icon: "kubejs:loot_bag_epic"
+				command: "/execute at @p run loot spawn ~ ~1 ~ loot aof:loot_bags/tech_reborn_epic"
+				player_command: false
 			}]
 		}
 		{
@@ -1863,9 +2094,12 @@
 				item: "techreborn:fusion_control_computer"
 			}]
 			rewards: [{
-				id: "6EBB15DD5A3D9BC5"
-				type: "loot"
-				table_id: 13756307348121783L
+				id: "6FA0E44CBB58E3A0"
+				type: "command"
+				title: "TR Epic Loot Bag"
+				icon: "kubejs:loot_bag_epic"
+				command: "/execute at @p run loot spawn ~ ~1 ~ loot aof:loot_bags/tech_reborn_epic"
+				player_command: false
 			}]
 		}
 		{
@@ -1893,9 +2127,12 @@
 				item: "techreborn:fluid_replicator"
 			}]
 			rewards: [{
-				id: "37DB0A4529332ACE"
-				type: "loot"
-				table_id: 13756307348121783L
+				id: "23ECAF79C3F8CE94"
+				type: "command"
+				title: "TR Epic Loot Bag"
+				icon: "kubejs:loot_bag_epic"
+				command: "/execute at @p run loot spawn ~ ~1 ~ loot aof:loot_bags/tech_reborn_epic"
+				player_command: false
 			}]
 		}
 		{
@@ -1915,9 +2152,12 @@
 				item: "techreborn:scrap"
 			}]
 			rewards: [{
-				id: "5E3F5648D97BA05E"
-				type: "loot"
-				table_id: 13756307348121783L
+				id: "6178B470126C805B"
+				type: "command"
+				title: "TR Rare Loot Bag"
+				icon: "kubejs:loot_bag_rare"
+				command: "/execute at @p run loot spawn ~ ~1 ~ loot aof:loot_bags/tech_reborn_rare"
+				player_command: false
 			}]
 		}
 		{
@@ -1939,9 +2179,12 @@
 				consume_items: true
 			}]
 			rewards: [{
-				id: "0AA2DC13CC74FE36"
-				type: "loot"
-				table_id: 13756307348121783L
+				id: "63C4457C5AF8F7A9"
+				type: "command"
+				title: "TR Rare Loot Bag"
+				icon: "kubejs:loot_bag_rare"
+				command: "/execute at @p run loot spawn ~ ~1 ~ loot aof:loot_bags/tech_reborn_rare"
+				player_command: false
 			}]
 		}
 		{
@@ -1955,9 +2198,12 @@
 				item: "techreborn:lamp_incandescent"
 			}]
 			rewards: [{
-				id: "7632F88A18EE65EB"
-				type: "loot"
-				table_id: 13756307348121783L
+				id: "289B05BBBD6EC4AE"
+				type: "command"
+				title: "TR Common Loot Bag"
+				icon: "kubejs:loot_bag_common"
+				command: "/execute at @p run loot spawn ~ ~1 ~ loot aof:loot_bags/tech_reborn_common"
+				player_command: false
 			}]
 		}
 		{
@@ -1971,9 +2217,12 @@
 				item: "techreborn:tungstensteel_ingot"
 			}]
 			rewards: [{
-				id: "01F18304A9E3118B"
-				type: "loot"
-				table_id: 13756307348121783L
+				id: "1E36B59DE83D5476"
+				type: "command"
+				title: "TR Rare Loot Bag"
+				icon: "kubejs:loot_bag_rare"
+				command: "/execute at @p run loot spawn ~ ~1 ~ loot aof:loot_bags/tech_reborn_rare"
+				player_command: false
 			}]
 		}
 		{
@@ -1988,9 +2237,12 @@
 				item: "techreborn:lv_transformer"
 			}]
 			rewards: [{
-				id: "4EE79D62694F7F92"
-				type: "loot"
-				table_id: 13756307348121783L
+				id: "16D5570CCFE6D1A9"
+				type: "command"
+				title: "TR Common Loot Bag"
+				icon: "kubejs:loot_bag_common"
+				command: "/execute at @p run loot spawn ~ ~1 ~ loot aof:loot_bags/tech_reborn_common"
+				player_command: false
 			}]
 		}
 		{
@@ -2005,9 +2257,12 @@
 				item: "techreborn:mv_transformer"
 			}]
 			rewards: [{
-				id: "00E64315A8FC9151"
-				type: "loot"
-				table_id: 13756307348121783L
+				id: "057D3CDC2B6FF07C"
+				type: "command"
+				title: "TR Rare Loot Bag"
+				icon: "kubejs:loot_bag_rare"
+				command: "/execute at @p run loot spawn ~ ~1 ~ loot aof:loot_bags/tech_reborn_rare"
+				player_command: false
 			}]
 		}
 		{
@@ -2022,9 +2277,12 @@
 				item: "techreborn:hv_transformer"
 			}]
 			rewards: [{
-				id: "0A854DADA5D90B16"
-				type: "loot"
-				table_id: 13756307348121783L
+				id: "5D56CC330D53CE6F"
+				type: "command"
+				title: "TR Epic Loot Bag"
+				icon: "kubejs:loot_bag_epic"
+				command: "/execute at @p run loot spawn ~ ~1 ~ loot aof:loot_bags/tech_reborn_epic"
+				player_command: false
 			}]
 		}
 		{
@@ -2047,9 +2305,12 @@
 				item: "techreborn:plasma_generator"
 			}]
 			rewards: [{
-				id: "2E03ED7718BB8ECC"
-				type: "loot"
-				table_id: 13756307348121783L
+				id: "17E5828C89E519FE"
+				type: "command"
+				title: "TR Epic Loot Bag"
+				icon: "kubejs:loot_bag_epic"
+				command: "/execute at @p run loot spawn ~ ~1 ~ loot aof:loot_bags/tech_reborn_epic"
+				player_command: false
 			}]
 		}
 		{
@@ -2079,9 +2340,12 @@
 				}
 			]
 			rewards: [{
-				id: "61AD2A1A469C2025"
-				type: "loot"
-				table_id: 13756307348121783L
+				id: "726CE2020788DEA7"
+				type: "command"
+				title: "TR Epic Loot Bag"
+				icon: "kubejs:loot_bag_epic"
+				command: "/execute at @p run loot spawn ~ ~1 ~ loot aof:loot_bags/tech_reborn_epic"
+				player_command: false
 			}]
 		}
 		{
@@ -2095,9 +2359,12 @@
 				item: "techreborn:superconductor_cable"
 			}]
 			rewards: [{
-				id: "6DB72197BBD38605"
-				type: "loot"
-				table_id: 13756307348121783L
+				id: "4D57CDFB90CDFCB8"
+				type: "command"
+				title: "TR Epic Loot Bag"
+				icon: "kubejs:loot_bag_epic"
+				command: "/execute at @p run loot spawn ~ ~1 ~ loot aof:loot_bags/tech_reborn_epic"
+				player_command: false
 			}]
 		}
 		{
@@ -2113,9 +2380,12 @@
 				item: "techreborn:alloy_smelter"
 			}]
 			rewards: [{
-				id: "5A6DBD8F1DC09DAC"
-				type: "loot"
-				table_id: 13756307348121783L
+				id: "228B3542D4683300"
+				type: "command"
+				title: "TR Common Loot Bag"
+				icon: "kubejs:loot_bag_common"
+				command: "/execute at @p run loot spawn ~ ~1 ~ loot aof:loot_bags/tech_reborn_common"
+				player_command: false
 			}]
 		}
 		{
@@ -2135,9 +2405,12 @@
 				item: "techreborn:industrial_centrifuge"
 			}]
 			rewards: [{
-				id: "19CC1AFDFA101719"
-				type: "loot"
-				table_id: 13756307348121783L
+				id: "662F2CA6280271A7"
+				type: "command"
+				title: "TR Epic Loot Bag"
+				icon: "kubejs:loot_bag_epic"
+				command: "/execute at @p run loot spawn ~ ~1 ~ loot aof:loot_bags/tech_reborn_epic"
+				player_command: false
 			}]
 		}
 		{
@@ -2161,9 +2434,12 @@
 				item: "techreborn:diesel_generator"
 			}]
 			rewards: [{
-				id: "39236FB7C57AE57F"
-				type: "loot"
-				table_id: 13756307348121783L
+				id: "7A8068A350404177"
+				type: "command"
+				title: "TR Epic Loot Bag"
+				icon: "kubejs:loot_bag_epic"
+				command: "/execute at @p run loot spawn ~ ~1 ~ loot aof:loot_bags/tech_reborn_epic"
+				player_command: false
 			}]
 		}
 		{
@@ -2180,7 +2456,6 @@
 			rewards: [{
 				id: "553E15E0CD2D8BF2"
 				type: "loot"
-				table_id: 13756307348121783L
 			}]
 		}
 		{
@@ -2195,9 +2470,12 @@
 				item: "techreborn:dragon_egg_syphon"
 			}]
 			rewards: [{
-				id: "5AF88C6CFBCE16E4"
-				type: "loot"
-				table_id: 13756307348121783L
+				id: "2C76DB345C5D48BD"
+				type: "command"
+				title: "TR Epic Loot Bag"
+				icon: "kubejs:loot_bag_epic"
+				command: "/execute at @p run loot spawn ~ ~1 ~ loot aof:loot_bags/tech_reborn_epic"
+				player_command: false
 			}]
 		}
 		{
@@ -2212,9 +2490,12 @@
 				item: "techreborn:high_voltage_su"
 			}]
 			rewards: [{
-				id: "0216B61BB88462D9"
-				type: "loot"
-				table_id: 13756307348121783L
+				id: "19E0AD0D5DB764AC"
+				type: "command"
+				title: "TR Epic Loot Bag"
+				icon: "kubejs:loot_bag_epic"
+				command: "/execute at @p run loot spawn ~ ~1 ~ loot aof:loot_bags/tech_reborn_epic"
+				player_command: false
 			}]
 		}
 		{
@@ -2249,9 +2530,12 @@
 				}
 			]
 			rewards: [{
-				id: "37D09F789FC27B2E"
-				type: "loot"
-				table_id: 13756307348121783L
+				id: "0BB43D8E5DB6AD6F"
+				type: "command"
+				title: "TR Common Loot Bag"
+				icon: "kubejs:loot_bag_common"
+				command: "/execute at @p run loot spawn ~ ~1 ~ loot aof:loot_bags/tech_reborn_common"
+				player_command: false
 			}]
 		}
 		{
@@ -2280,7 +2564,6 @@
 			rewards: [{
 				id: "4CD5331D906B3CAA"
 				type: "loot"
-				table_id: 13756307348121783L
 			}]
 		}
 		{
@@ -2313,9 +2596,12 @@
 				}
 			]
 			rewards: [{
-				id: "4F33DB5B1C46E310"
-				type: "loot"
-				table_id: 13756307348121783L
+				id: "6D82ED0B4253939D"
+				type: "command"
+				title: "TR Common Loot Bag"
+				icon: "kubejs:loot_bag_common"
+				command: "/execute at @p run loot spawn ~ ~1 ~ loot aof:loot_bags/tech_reborn_common"
+				player_command: false
 			}]
 		}
 		{
@@ -2330,9 +2616,12 @@
 				item: "modern_industrialization:bronze_ingot"
 			}]
 			rewards: [{
-				id: "60C1C42374F55035"
-				type: "loot"
-				table_id: 13756307348121783L
+				id: "499D931029364AC9"
+				type: "command"
+				title: "TR Common Loot Bag"
+				icon: "kubejs:loot_bag_common"
+				command: "/execute at @p run loot spawn ~ ~1 ~ loot aof:loot_bags/tech_reborn_common"
+				player_command: false
 			}]
 		}
 		{
@@ -2352,9 +2641,12 @@
 				}
 			}]
 			rewards: [{
-				id: "5F2B34678464F8A8"
-				type: "loot"
-				table_id: 13756307348121783L
+				id: "3543DA35D40E9A5D"
+				type: "command"
+				title: "TR Epic Loot Bag"
+				icon: "kubejs:loot_bag_epic"
+				command: "/execute at @p run loot spawn ~ ~1 ~ loot aof:loot_bags/tech_reborn_epic"
+				player_command: false
 			}]
 		}
 	]
