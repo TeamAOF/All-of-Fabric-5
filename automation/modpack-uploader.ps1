@@ -27,15 +27,21 @@ function Get-GitHubRelease {
         $file
     )
 	
-    $releases = "https://api.github.com/repos/$repo/releases"
+    $response = Invoke-RestMethod -Uri "https://api.github.com/repos/$repo/releases"
 
-    Write-Host "Determining latest release of $repo"
-    $tag = (Invoke-WebRequest -Uri $releases -UseBasicParsing | ConvertFrom-Json)[0].tag_name
+    $matchingRelease = $response.assets -match $file
+    if ($matchingRelease) {
+        $downloadUrl = $matchingRelease.browser_download_url
+    
+        Remove-Item $file -ErrorAction SilentlyContinue
 
-    $download = "https://github.com/$repo/releases/download/$tag/$file"
+        Write-Host "Dowloading $file..."
 
-    Write-Host "Dowloading..."
-    Invoke-WebRequest $download -Out $file
+        Invoke-RestMethod $downloadUrl -Out $file
+    }
+    else {
+        Write-Error "Found no files matching '$file' in the repository '$repo'"
+    }
 }
 
 function Test-ForDependencies {
@@ -94,6 +100,10 @@ function New-ClientFiles {
             Write-Host "Adding " -ForegroundColor Cyan -NoNewline
             Write-Host $_ -ForegroundColor Blue -NoNewline
             Write-Host " to client files." -ForegroundColor Cyan
+            $destinationFolder = "$overridesFolder/$_" | Split-Path
+            if (!(Test-Path -Path $destinationFolder)) {
+                New-Item $destinationFolder -Type Directory
+            }
             Copy-Item -Path $_ -Destination "$overridesFolder/$_" -Recurse
         }
 
@@ -379,6 +389,10 @@ function Update-Modlist {
             Get-GitHubRelease -repo "ModdingX/ModListCreator" -file $MODLIST_CREATOR_JAR
         }
 
+        Write-Host
+        Write-Host "Generating Modlist..."
+        Write-Host
+	
         Remove-Item $MODLIST_PATH -ErrorAction SilentlyContinue
         java -jar $MODLIST_CREATOR_JAR modlist --output $MODLIST_PATH --detailed "$CLIENT_ZIP_NAME.zip"
         Copy-Item -Path $MODLIST_PATH -Destination "$INSTANCE_ROOT/MODLIST.md"
