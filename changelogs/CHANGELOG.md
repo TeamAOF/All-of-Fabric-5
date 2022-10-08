@@ -2,6 +2,8 @@
 
 _Fabric Loader 0.14.9_ | _[Mod Updates](https://github.com/TeamAOF/All-of-Fabric-5/blob/main/changelogs/changelog_mods_2.0.0.md)_ | _[Modlist](https://github.com/TeamAOF/All-of-Fabric-5/blob/main/changelogs/modlist_2.0.0.md)_
 
+## DISCLAIMER: 1.x worlds are NOT compatible with this update! Backup your worlds!
+
 ## Changes
 
 * Fully revamped worldgen thanks to Terralith.
