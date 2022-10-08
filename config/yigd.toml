@@ -1,6 +1,7 @@
 [graveSettings]
 generateGraves = true
 retrievalType = "ON_USE"
+compactRetrieveItems = true
 dropType = "IN_INVENTORY"
 dropPlayerHead = false
 dropGraveBlock = false

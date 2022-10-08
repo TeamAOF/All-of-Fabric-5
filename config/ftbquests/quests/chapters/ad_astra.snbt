@@ -67,9 +67,12 @@
 				}
 			}]
 			rewards: [{
-				id: "2E71E773D376AC06"
-				type: "random"
-				table_id: 13756307348121783L
+				id: "5F51983FD52D5CD1"
+				type: "command"
+				title: "Ad Astra Rare Loot Bag"
+				icon: "kubejs:loot_bag_rare"
+				command: "/execute at @p run loot spawn ~ ~1 ~ loot aof:loot_bags/ad_astra_rare"
+				player_command: false
 			}]
 		}
 		{
@@ -78,9 +81,9 @@
 			y: -1.5d
 			subtitle: "Getting Ready for Launch!"
 			description: [
-				"In order to propell your rocket into the air, it needs a base to launch from. By placing 9 launch pads in a 3 by 3 pattern on the ground, you're able to place your rocket in the center and shift right click it to fill it with fuel"
+				"In order to propell your rocket into the air, it needs a base to launch from. You're able to place your rocket in the center and shift right click it to fill it with fuel"
 				""
-				"Please note! Your launch pad does not come with you, so bring extra launch pads! 18 should be enough to setup a launch pad on Earth and the Moon."
+				"Please note! Your launch pad does not come with you, so bring extra launch pads!"
 			]
 			hide_dependency_lines: true
 			dependencies: [
@@ -91,13 +94,15 @@
 			tasks: [{
 				id: "10456FA8FB4B2BB3"
 				type: "item"
-				item: "ad_astra:rocket_launch_pad"
-				count: 18L
+				item: "ad_astra:launch_pad"
 			}]
 			rewards: [{
-				id: "35E97E6B8F68C11F"
-				type: "random"
-				table_id: 13756307348121783L
+				id: "61898BBBAE610976"
+				type: "command"
+				title: "Ad Astra Common Loot Bag"
+				icon: "kubejs:loot_bag_common"
+				command: "/execute at @p run loot spawn ~ ~1 ~ loot aof:loot_bags/ad_astra_common"
+				player_command: false
 			}]
 		}
 		{
@@ -130,9 +135,12 @@
 				}
 			]
 			rewards: [{
-				id: "5634926A7667E61F"
-				type: "random"
-				table_id: 13756307348121783L
+				id: "53CD3E37DE96D3AB"
+				type: "command"
+				title: "Ad Astra Common Loot Bag"
+				icon: "kubejs:loot_bag_common"
+				command: "/execute at @p run loot spawn ~ ~1 ~ loot aof:loot_bags/ad_astra_common"
+				player_command: false
 			}]
 		}
 		{
@@ -205,9 +213,12 @@
 				}
 			]
 			rewards: [{
-				id: "049E422256BE2EE4"
-				type: "random"
-				table_id: 13756307348121783L
+				id: "7DD7D1CF91C45510"
+				type: "command"
+				title: "Ad Astra Common Loot Bag"
+				icon: "kubejs:loot_bag_common"
+				command: "/execute at @p run loot spawn ~ ~1 ~ loot aof:loot_bags/ad_astra_common"
+				player_command: false
 			}]
 		}
 		{
@@ -242,9 +253,12 @@
 				}
 			]
 			rewards: [{
-				id: "7E6D418C7ED07881"
-				type: "random"
-				table_id: 13756307348121783L
+				id: "21DF2F0E10EC5C5D"
+				type: "command"
+				title: "Ad Astra Common Loot Bag"
+				icon: "kubejs:loot_bag_common"
+				command: "/execute at @p run loot spawn ~ ~1 ~ loot aof:loot_bags/ad_astra_common"
+				player_command: false
 			}]
 		}
 		{
@@ -264,9 +278,12 @@
 				item: "ad_astra:nasa_workbench"
 			}]
 			rewards: [{
-				id: "6209EF51D4BBEC1C"
-				type: "random"
-				table_id: 13756307348121783L
+				id: "3C2235DB23F613FF"
+				type: "command"
+				title: "Ad Astra Common Loot Bag"
+				icon: "kubejs:loot_bag_common"
+				command: "/execute at @p run loot spawn ~ ~1 ~ loot aof:loot_bags/ad_astra_common"
+				player_command: false
 			}]
 		}
 		{
@@ -301,9 +318,12 @@
 				}
 			}]
 			rewards: [{
-				id: "3E18D9403545A665"
-				type: "random"
-				table_id: 13756307348121783L
+				id: "28EEA58283CE387C"
+				type: "command"
+				title: "Ad Astra Epic Loot Bag"
+				icon: "kubejs:loot_bag_epic"
+				command: "/execute at @p run loot spawn ~ ~1 ~ loot aof:loot_bags/ad_astra_epic"
+				player_command: false
 			}]
 		}
 		{
@@ -327,9 +347,12 @@
 				count: 20L
 			}]
 			rewards: [{
-				id: "2E7CAFFA5C013C4B"
-				type: "random"
-				table_id: 13756307348121783L
+				id: "7503613DDE343606"
+				type: "command"
+				title: "Ad Astra Rare Loot Bag"
+				icon: "kubejs:loot_bag_rare"
+				command: "/execute at @p run loot spawn ~ ~1 ~ loot aof:loot_bags/ad_astra_rare"
+				player_command: false
 			}]
 		}
 		{
@@ -351,9 +374,12 @@
 				item: "ad_astra:oxygen_distributor"
 			}]
 			rewards: [{
-				id: "42EABCAC8D9EC36C"
-				type: "random"
-				table_id: 13756307348121783L
+				id: "786AC3A2FFDCB2E1"
+				type: "command"
+				title: "Ad Astra Rare Loot Bag"
+				icon: "kubejs:loot_bag_rare"
+				command: "/execute at @p run loot spawn ~ ~1 ~ loot aof:loot_bags/ad_astra_rare"
+				player_command: false
 			}]
 		}
 		{
@@ -379,9 +405,12 @@
 				count: 16L
 			}]
 			rewards: [{
-				id: "23D5AF855082A6DE"
-				type: "random"
-				table_id: 13756307348121783L
+				id: "4413D8BD521CCDF5"
+				type: "command"
+				title: "Ad Astra Rare Loot Bag"
+				icon: "kubejs:loot_bag_rare"
+				command: "/execute at @p run loot spawn ~ ~1 ~ loot aof:loot_bags/ad_astra_rare"
+				player_command: false
 			}]
 		}
 		{
@@ -403,9 +432,12 @@
 				item: "ad_astra:solar_panel"
 			}]
 			rewards: [{
-				id: "29AD7D39E6765733"
-				type: "random"
-				table_id: 13756307348121783L
+				id: "6943A8940DA31143"
+				type: "command"
+				title: "Ad Astra Rare Loot Bag"
+				icon: "kubejs:loot_bag_rare"
+				command: "/execute at @p run loot spawn ~ ~1 ~ loot aof:loot_bags/ad_astra_rare"
+				player_command: false
 			}]
 		}
 		{
@@ -425,9 +457,12 @@
 				count: 12L
 			}]
 			rewards: [{
-				id: "281AE8C806FEBCAB"
-				type: "random"
-				table_id: 13756307348121783L
+				id: "4F26806B6E54E88C"
+				type: "command"
+				title: "Ad Astra Rare Loot Bag"
+				icon: "kubejs:loot_bag_rare"
+				command: "/execute at @p run loot spawn ~ ~1 ~ loot aof:loot_bags/ad_astra_rare"
+				player_command: false
 			}]
 		}
 		{
@@ -454,9 +489,12 @@
 				}
 			}]
 			rewards: [{
-				id: "5EC3BD5FEE58657A"
-				type: "random"
-				table_id: 13756307348121783L
+				id: "474E1E71F4211B8D"
+				type: "command"
+				title: "Ad Astra Rare Loot Bag"
+				icon: "kubejs:loot_bag_rare"
+				command: "/execute at @p run loot spawn ~ ~1 ~ loot aof:loot_bags/ad_astra_rare"
+				player_command: false
 			}]
 		}
 		{
@@ -484,9 +522,12 @@
 				}
 			]
 			rewards: [{
-				id: "344D686936E75550"
-				type: "random"
-				table_id: 13756307348121783L
+				id: "1D30FFA1A2AA8589"
+				type: "command"
+				title: "Ad Astra Rare Loot Bag"
+				icon: "kubejs:loot_bag_rare"
+				command: "/execute at @p run loot spawn ~ ~1 ~ loot aof:loot_bags/ad_astra_rare"
+				player_command: false
 			}]
 		}
 		{
@@ -503,9 +544,12 @@
 				item: "ad_astra:ostrum_ingot"
 			}]
 			rewards: [{
-				id: "3E24F758EBDF2EE7"
-				type: "random"
-				table_id: 13756307348121783L
+				id: "3FC542534D126BC3"
+				type: "command"
+				title: "Ad Astra Epic Loot Bag"
+				icon: "kubejs:loot_bag_epic"
+				command: "/execute at @p run loot spawn ~ ~1 ~ loot aof:loot_bags/ad_astra_epic"
+				player_command: false
 			}]
 		}
 		{
@@ -540,9 +584,12 @@
 				}
 			}]
 			rewards: [{
-				id: "659841F7C5C66E49"
-				type: "random"
-				table_id: 13756307348121783L
+				id: "0D2BB26A4BE6BA80"
+				type: "command"
+				title: "Ad Astra Legendary Loot Bag"
+				icon: "kubejs:loot_bag_legendary"
+				command: "/execute at @p run loot spawn ~ ~1 ~ loot aof:loot_bags/ad_astra_legendary"
+				player_command: false
 			}]
 		}
 		{
@@ -560,9 +607,12 @@
 				item: "ad_astra:oxygen_sensor"
 			}]
 			rewards: [{
-				id: "0103516868F29FB9"
-				type: "random"
-				table_id: 13756307348121783L
+				id: "6250D9F706C5B3A1"
+				type: "command"
+				title: "Ad Astra Epic Loot Bag"
+				icon: "kubejs:loot_bag_epic"
+				command: "/execute at @p run loot spawn ~ ~1 ~ loot aof:loot_bags/ad_astra_epic"
+				player_command: false
 			}]
 		}
 		{
@@ -632,9 +682,12 @@
 				}
 			]
 			rewards: [{
-				id: "6598009B9F69CA88"
-				type: "random"
-				table_id: 13756307348121783L
+				id: "0D4079BD6BEA0601"
+				type: "command"
+				title: "Ad Astra Epic Loot Bag"
+				icon: "kubejs:loot_bag_epic"
+				command: "/execute at @p run loot spawn ~ ~1 ~ loot aof:loot_bags/ad_astra_epic"
+				player_command: false
 			}]
 		}
 		{
@@ -655,9 +708,12 @@
 				item: "ad_astra:cryo_freezer"
 			}]
 			rewards: [{
-				id: "51196A9043AACB68"
-				type: "random"
-				table_id: 13756307348121783L
+				id: "7F88AD3DBD4133D9"
+				type: "command"
+				title: "Ad Astra Epic Loot Bag"
+				icon: "kubejs:loot_bag_epic"
+				command: "/execute at @p run loot spawn ~ ~1 ~ loot aof:loot_bags/ad_astra_epic"
+				player_command: false
 			}]
 		}
 		{
@@ -675,9 +731,12 @@
 				item: "ad_astra:ostrum_fluid_pipe"
 			}]
 			rewards: [{
-				id: "06CD97FC13797351"
-				type: "random"
-				table_id: 13756307348121783L
+				id: "2E41F88351F470F3"
+				type: "command"
+				title: "Ad Astra Epic Loot Bag"
+				icon: "kubejs:loot_bag_epic"
+				command: "/execute at @p run loot spawn ~ ~1 ~ loot aof:loot_bags/ad_astra_epic"
+				player_command: false
 			}]
 		}
 		{
@@ -698,9 +757,12 @@
 				item: "ad_astra:energizer"
 			}]
 			rewards: [{
-				id: "6F8ECE1A3EBB7CEE"
-				type: "random"
-				table_id: 13756307348121783L
+				id: "4FEF99939D2702C7"
+				type: "command"
+				title: "Ad Astra Epic Loot Bag"
+				icon: "kubejs:loot_bag_epic"
+				command: "/execute at @p run loot spawn ~ ~1 ~ loot aof:loot_bags/ad_astra_epic"
+				player_command: false
 			}]
 		}
 		{
@@ -723,9 +785,12 @@
 				count: 2L
 			}]
 			rewards: [{
-				id: "33F7EAC85F9CB85B"
-				type: "random"
-				table_id: 13756307348121783L
+				id: "4964B153BFE3B8DE"
+				type: "command"
+				title: "Ad Astra Epic Loot Bag"
+				icon: "kubejs:loot_bag_epic"
+				command: "/execute at @p run loot spawn ~ ~1 ~ loot aof:loot_bags/ad_astra_epic"
+				player_command: false
 			}]
 		}
 		{
@@ -751,9 +816,12 @@
 				}
 			}]
 			rewards: [{
-				id: "6850EC23612C92E0"
-				type: "random"
-				table_id: 13756307348121783L
+				id: "22CE6DAFB6BFADBF"
+				type: "command"
+				title: "Ad Astra Legendary Loot Bag"
+				icon: "kubejs:loot_bag_legendary"
+				command: "/execute at @p run loot spawn ~ ~1 ~ loot aof:loot_bags/ad_astra_legendary"
+				player_command: false
 			}]
 		}
 		{
@@ -771,9 +839,12 @@
 				count: 20L
 			}]
 			rewards: [{
-				id: "6D85E971F6003BE1"
-				type: "random"
-				table_id: 13756307348121783L
+				id: "3526E651D2DE0F95"
+				type: "command"
+				title: "Ad Astra Legendary Loot Bag"
+				icon: "kubejs:loot_bag_legendary"
+				command: "/execute at @p run loot spawn ~ ~1 ~ loot aof:loot_bags/ad_astra_legendary"
+				player_command: false
 			}]
 		}
 		{
@@ -791,9 +862,12 @@
 				count: 20L
 			}]
 			rewards: [{
-				id: "6EA5EAED0F105068"
-				type: "random"
-				table_id: 13756307348121783L
+				id: "5876C28E0C452C9B"
+				type: "command"
+				title: "Ad Astra Common Loot Bag"
+				icon: "kubejs:loot_bag_common"
+				command: "/execute at @p run loot spawn ~ ~1 ~ loot aof:loot_bags/ad_astra_common"
+				player_command: false
 			}]
 		}
 		{
@@ -819,9 +893,12 @@
 				count: 12L
 			}]
 			rewards: [{
-				id: "2656B3676A02ED4F"
-				type: "random"
-				table_id: 13756307348121783L
+				id: "2BD43B3F82586D0C"
+				type: "command"
+				title: "Ad Astra Common Loot Bag"
+				icon: "kubejs:loot_bag_common"
+				command: "/execute at @p run loot spawn ~ ~1 ~ loot aof:loot_bags/ad_astra_common"
+				player_command: false
 			}]
 		}
 		{
@@ -884,9 +961,12 @@
 				}
 			]
 			rewards: [{
-				id: "6B052A56E9CFC953"
-				type: "random"
-				table_id: 13756307348121783L
+				id: "7B2865691DD13761"
+				type: "command"
+				title: "Ad Astra Legendary Loot Bag"
+				icon: "kubejs:loot_bag_legendary"
+				command: "/execute at @p run loot spawn ~ ~1 ~ loot aof:loot_bags/ad_astra_legendary"
+				player_command: false
 			}]
 		}
 	]

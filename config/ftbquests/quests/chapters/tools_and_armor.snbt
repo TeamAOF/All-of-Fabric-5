@@ -40,9 +40,9 @@
 					}
 				}
 				{
-					id: "711B73B80D690816"
-					type: "loot"
-					table_id: 13756307348121783L
+					id: "29EFF203F1FC3355"
+					type: "item"
+					item: "autoworkstations:iron_auto_experience_orb_emitter"
 				}
 			]
 		}
@@ -75,9 +75,9 @@
 					random_bonus: 8
 				}
 				{
-					id: "43C8934A031D887A"
-					type: "loot"
-					table_id: 13756307348121783L
+					id: "56C7539B310D5F1C"
+					type: "item"
+					item: "autoworkstations:iron_auto_experience_orb_vacuum"
 				}
 			]
 		}
@@ -93,9 +93,9 @@
 				item: "dark-enchanting:dark_enchanter"
 			}]
 			rewards: [{
-				id: "6C4C5B29661563A7"
-				type: "loot"
-				table_id: 13756307348121783L
+				id: "1FF021C3D958F451"
+				type: "xp_levels"
+				xp_levels: 10
 			}]
 		}
 		{
@@ -110,11 +110,21 @@
 				type: "item"
 				item: "dragonloot:dragon_anvil"
 			}]
-			rewards: [{
-				id: "035CB53BF5171058"
-				type: "random"
-				table_id: 13756307348121783L
-			}]
+			rewards: [
+				{
+					id: "790DDF0E2E764859"
+					type: "item"
+					item: "minecraft:name_tag"
+				}
+				{
+					id: "0AFCD908248A01EF"
+					type: "command"
+					title: "Agriculturist Bag"
+					icon: "kubejs:loot_bag_agriculture"
+					command: "/execute at @p run loot spawn ~ ~1 ~ loot aof:loot_bags/agriculturist_loot"
+					player_command: false
+				}
+			]
 		}
 		{
 			x: 0.0d
@@ -191,9 +201,12 @@
 				}
 			]
 			rewards: [{
-				id: "69CDBCABE68FDF40"
-				type: "random"
-				table_id: 13756307348121783L
+				id: "62E15A636DA6877C"
+				type: "command"
+				title: "Artifacts Galore"
+				icon: "kubejs:loot_bag_legendary"
+				command: "/execute at @p run loot spawn ~ ~1 ~ loot aof:loot_bags/artifacts_loot"
+				player_command: false
 			}]
 		}
 		{
@@ -250,9 +263,12 @@
 				}
 			]
 			rewards: [{
-				id: "51556E56CCF7AA44"
-				type: "random"
-				table_id: 13756307348121783L
+				id: "6C641B7654DA867A"
+				type: "command"
+				title: "Magic Rare Loot Bag"
+				icon: "kubejs:loot_bag_rare"
+				command: "/execute at @p run loot spawn ~ ~1 ~ loot aof:loot_bags/magic_rare"
+				player_command: false
 			}]
 		}
 		{
@@ -316,9 +332,12 @@
 				}
 			]
 			rewards: [{
-				id: "01632EDA2F2B9CCD"
-				type: "random"
-				table_id: 13756307348121783L
+				id: "1214E1523DAFD9EA"
+				type: "command"
+				title: "Magic Epic Loot Bag"
+				icon: "kubejs:loot_bag_epic"
+				command: "/execute at @p run loot spawn ~ ~1 ~ loot aof:loot_bags/magic_epic"
+				player_command: false
 			}]
 		}
 		{
@@ -386,9 +405,12 @@
 				}
 			]
 			rewards: [{
-				id: "37CB5420A6EEBFFB"
-				type: "random"
-				table_id: 13756307348121783L
+				id: "08DE6B08A48AD9D2"
+				type: "command"
+				title: "Magic Legendary Loot Bag"
+				icon: "kubejs:loot_bag_legendary"
+				command: "/execute at @p run loot spawn ~ ~1 ~ loot aof:loot_bags/magic_legendary"
+				player_command: false
 			}]
 		}
 		{
@@ -452,9 +474,12 @@
 				}
 			]
 			rewards: [{
-				id: "630E5AD5921851B6"
-				type: "random"
-				table_id: 13756307348121783L
+				id: "1868EFC7061D8DBD"
+				type: "command"
+				title: "Artifacts Galore"
+				icon: "kubejs:loot_bag_legendary"
+				command: "/execute at @p run loot spawn ~ ~1 ~ loot aof:loot_bags/artifacts_loot"
+				player_command: false
 			}]
 		}
 		{
@@ -512,14 +537,20 @@
 			]
 			rewards: [
 				{
-					id: "3AC2C2A97116746C"
-					type: "random"
-					table_id: 13756307348121783L
+					id: "353CB097A78202FF"
+					type: "command"
+					title: "Artifacts Galore"
+					icon: "kubejs:loot_bag_legendary"
+					command: "/execute at @p run loot spawn ~ ~1 ~ loot aof:loot_bags/artifacts_loot"
+					player_command: false
 				}
 				{
-					id: "241DCB9D53DFBE66"
-					type: "random"
-					table_id: 13756307348121783L
+					id: "05EA9ACDCC90CCFC"
+					type: "command"
+					title: "Agriculturist Bag"
+					icon: "kubejs:loot_bag_agriculture"
+					command: "/execute at @p run loot spawn ~ ~1 ~ loot aof:loot_bags/agriculturist_loot"
+					player_command: false
 				}
 			]
 		}
@@ -552,9 +583,12 @@
 				}
 			]
 			rewards: [{
-				id: "7EC607B1862772A0"
-				type: "random"
-				table_id: 13756307348121783L
+				id: "169001AC129D5FB4"
+				type: "command"
+				title: "TR Epic Loot Bag"
+				icon: "kubejs:loot_bag_epic"
+				command: "/execute at @p run loot spawn ~ ~1 ~ loot aof:loot_bags/tech_reborn_epic"
+				player_command: false
 			}]
 		}
 		{
@@ -592,9 +626,12 @@
 				}
 			]
 			rewards: [{
-				id: "37391EE292E7F2CE"
-				type: "random"
-				table_id: 13756307348121783L
+				id: "66BF23BC5BB049B2"
+				type: "command"
+				title: "IR Rare Loot Bag"
+				icon: "kubejs:loot_bag_rare"
+				command: "/execute at @p run loot spawn ~ ~1 ~ loot aof:loot_bags/industrial_revolution_rare"
+				player_command: false
 			}]
 		}
 		{
@@ -638,9 +675,12 @@
 				}
 			]
 			rewards: [{
-				id: "72B780EB3014047A"
-				type: "random"
-				table_id: 13756307348121783L
+				id: "40B357ED2495288E"
+				type: "command"
+				title: "TR Common Loot Bag"
+				icon: "kubejs:loot_bag_common"
+				command: "/execute at @p run loot spawn ~ ~1 ~ loot aof:loot_bags/tech_reborn_common"
+				player_command: false
 			}]
 		}
 		{
@@ -674,9 +714,12 @@
 				}
 			]
 			rewards: [{
-				id: "33DC906472FAE529"
-				type: "random"
-				table_id: 13756307348121783L
+				id: "7B7C5B3366790FD4"
+				type: "command"
+				title: "TR Rare Loot Bag"
+				icon: "kubejs:loot_bag_rare"
+				command: "/execute at @p run loot spawn ~ ~1 ~ loot aof:loot_bags/tech_reborn_rare"
+				player_command: false
 			}]
 		}
 		{
@@ -710,9 +753,12 @@
 				}
 			]
 			rewards: [{
-				id: "532DEA11B98EE9F0"
-				type: "random"
-				table_id: 13756307348121783L
+				id: "5FAADF30B7A37483"
+				type: "command"
+				title: "TR Epic Loot Bag"
+				icon: "kubejs:loot_bag_epic"
+				command: "/execute at @p run loot spawn ~ ~1 ~ loot aof:loot_bags/tech_reborn_epic"
+				player_command: false
 			}]
 		}
 		{
@@ -743,11 +789,35 @@
 					item: "indrev:mining_drill_mk4"
 				}
 			]
-			rewards: [{
-				id: "12F11855EC173355"
-				type: "random"
-				table_id: 13756307348121783L
-			}]
+			rewards: [
+				{
+					id: "6DC0F8DA7E371854"
+					type: "item"
+					item: {
+						id: "minecraft:potion"
+						Count: 1b
+						tag: {
+							Potion: "additionaladditions:strong_haste_potion"
+						}
+					}
+				}
+				{
+					id: "0B985F4C33E5490D"
+					type: "command"
+					title: "Agriculturist Bag"
+					icon: "kubejs:loot_bag_agriculture"
+					command: "/execute at @p run loot spawn ~ ~1 ~ loot aof:loot_bags/agriculturist_loot"
+					player_command: false
+				}
+				{
+					id: "34DED22D88DA72FA"
+					type: "command"
+					title: "IR Rare Loot Bag"
+					icon: "kubejs:loot_bag_rare"
+					command: "/execute at @p run loot spawn ~ ~1 ~ loot aof:loot_bags/industrial_revolution_rare"
+					player_command: false
+				}
+			]
 		}
 		{
 			title: "Jetpacks"
@@ -773,11 +843,24 @@
 					item: "iron-jetpacks:steel_jetpack"
 				}
 			]
-			rewards: [{
-				id: "4C673681B9E22C79"
-				type: "random"
-				table_id: 13756307348121783L
-			}]
+			rewards: [
+				{
+					id: "55CDA77208F47343"
+					type: "command"
+					title: "Artifacts Galore"
+					icon: "kubejs:loot_bag_legendary"
+					command: "/execute at @p run loot spawn ~ ~1 ~ loot aof:loot_bags/artifacts_loot"
+					player_command: false
+				}
+				{
+					id: "190D6D5B242128ED"
+					type: "command"
+					title: "Agriculturist Bag"
+					icon: "kubejs:loot_bag_agriculture"
+					command: "/execute at @p run loot spawn ~ ~1 ~ loot aof:loot_bags/agriculturist_loot"
+					player_command: false
+				}
+			]
 		}
 		{
 			x: 3.0d
@@ -792,9 +875,12 @@
 				item: "techreborn:omni_tool"
 			}]
 			rewards: [{
-				id: "402352C937118C23"
-				type: "random"
-				table_id: 13756307348121783L
+				id: "3D7A3F889238E3D8"
+				type: "command"
+				title: "TR Rare Loot Bag"
+				icon: "kubejs:loot_bag_rare"
+				command: "/execute at @p run loot spawn ~ ~1 ~ loot aof:loot_bags/tech_reborn_rare"
+				player_command: false
 			}]
 		}
 		{
@@ -852,9 +938,12 @@
 				}
 			]
 			rewards: [{
-				id: "2DE7BD26E36F3A1F"
-				type: "random"
-				table_id: 13756307348121783L
+				id: "0B4B5FE72A624F75"
+				type: "command"
+				title: "Artifacts Galore"
+				icon: "kubejs:loot_bag_legendary"
+				command: "/execute at @p run loot spawn ~ ~1 ~ loot aof:loot_bags/artifacts_loot"
+				player_command: false
 			}]
 		}
 		{
@@ -911,9 +1000,12 @@
 				}
 			]
 			rewards: [{
-				id: "220407AB0C3F1D36"
-				type: "random"
-				table_id: 13756307348121783L
+				id: "1B00AE15F87C49A2"
+				type: "command"
+				title: "Artifacts Galore"
+				icon: "kubejs:loot_bag_legendary"
+				command: "/execute at @p run loot spawn ~ ~1 ~ loot aof:loot_bags/artifacts_loot"
+				player_command: false
 			}]
 		}
 		{
@@ -969,9 +1061,12 @@
 				}
 			]
 			rewards: [{
-				id: "23BED71423A959F9"
-				type: "random"
-				table_id: 13756307348121783L
+				id: "2E7C87847FB0B0FB"
+				type: "command"
+				title: "Artifacts Galore"
+				icon: "kubejs:loot_bag_legendary"
+				command: "/execute at @p run loot spawn ~ ~1 ~ loot aof:loot_bags/artifacts_loot"
+				player_command: false
 			}]
 		}
 		{
@@ -1027,9 +1122,12 @@
 				}
 			]
 			rewards: [{
-				id: "1431C8A6BA1B44BB"
-				type: "random"
-				table_id: 13756307348121783L
+				id: "6655DD033E0C8DCA"
+				type: "command"
+				title: "Artifacts Galore"
+				icon: "kubejs:loot_bag_legendary"
+				command: "/execute at @p run loot spawn ~ ~1 ~ loot aof:loot_bags/artifacts_loot"
+				player_command: false
 			}]
 		}
 		{
@@ -1052,9 +1150,12 @@
 				}
 			}]
 			rewards: [{
-				id: "7A385CDD87C1F1EE"
-				type: "random"
-				table_id: 13756307348121783L
+				id: "5F28999626DE1233"
+				type: "command"
+				title: "Agriculturist Bag"
+				icon: "kubejs:loot_bag_agriculture"
+				command: "/execute at @p run loot spawn ~ ~1 ~ loot aof:loot_bags/agriculturist_loot"
+				player_command: false
 			}]
 		}
 		{
@@ -1076,9 +1177,12 @@
 				}
 			}]
 			rewards: [{
-				id: "025ED36E159B5109"
-				type: "random"
-				table_id: 13756307348121783L
+				id: "050C9F12DF8AD5FA"
+				type: "command"
+				title: "Agriculturist Bag"
+				icon: "kubejs:loot_bag_agriculture"
+				command: "/execute at @p run loot spawn ~ ~1 ~ loot aof:loot_bags/agriculturist_loot"
+				player_command: false
 			}]
 		}
 		{
@@ -1100,9 +1204,12 @@
 				}
 			}]
 			rewards: [{
-				id: "2C997B1D5170116D"
-				type: "random"
-				table_id: 13756307348121783L
+				id: "4E791350DBADC6DB"
+				type: "command"
+				title: "Agriculturist Bag"
+				icon: "kubejs:loot_bag_agriculture"
+				command: "/execute at @p run loot spawn ~ ~1 ~ loot aof:loot_bags/agriculturist_loot"
+				player_command: false
 			}]
 		}
 		{
@@ -1133,9 +1240,12 @@
 				}
 			}]
 			rewards: [{
-				id: "4CD735583D918380"
-				type: "random"
-				table_id: 13756307348121783L
+				id: "2EEFBB67E55D592B"
+				type: "command"
+				title: "Agriculturist Bag"
+				icon: "kubejs:loot_bag_agriculture"
+				command: "/execute at @p run loot spawn ~ ~1 ~ loot aof:loot_bags/agriculturist_loot"
+				player_command: false
 			}]
 		}
 		{
@@ -1165,9 +1275,12 @@
 				}
 			}]
 			rewards: [{
-				id: "2C524BDB6795F924"
-				type: "random"
-				table_id: 13756307348121783L
+				id: "7AB11997C3EC584E"
+				type: "command"
+				title: "Artifacts Galore"
+				icon: "kubejs:loot_bag_legendary"
+				command: "/execute at @p run loot spawn ~ ~1 ~ loot aof:loot_bags/artifacts_loot"
+				player_command: false
 			}]
 		}
 		{
@@ -1189,7 +1302,6 @@
 			rewards: [{
 				id: "31A6A3A976141EBE"
 				type: "random"
-				table_id: 13756307348121783L
 			}]
 		}
 		{
@@ -1209,9 +1321,12 @@
 				}
 			}]
 			rewards: [{
-				id: "7838C8AA9508DE92"
-				type: "random"
-				table_id: 13756307348121783L
+				id: "1F68825462C5FF80"
+				type: "command"
+				title: "Magic Rare Loot Bag"
+				icon: "kubejs:loot_bag_rare"
+				command: "/execute at @p run loot spawn ~ ~1 ~ loot aof:loot_bags/magic_rare"
+				player_command: false
 			}]
 		}
 		{
@@ -1231,9 +1346,12 @@
 				}
 			}]
 			rewards: [{
-				id: "383B0C2426E21B3D"
-				type: "random"
-				table_id: 13756307348121783L
+				id: "4F5628270311D2E2"
+				type: "command"
+				title: "Magic Epic Loot Bag"
+				icon: "kubejs:loot_bag_epic"
+				command: "/execute at @p run loot spawn ~ ~1 ~ loot aof:loot_bags/magic_epic"
+				player_command: false
 			}]
 		}
 		{
@@ -1268,9 +1386,12 @@
 				}
 			]
 			rewards: [{
-				id: "505E41D74DE077F8"
-				type: "random"
-				table_id: 13756307348121783L
+				id: "471C98E86E1F4819"
+				type: "command"
+				title: "Artifacts Galore"
+				icon: "kubejs:loot_bag_legendary"
+				command: "/execute at @p run loot spawn ~ ~1 ~ loot aof:loot_bags/artifacts_loot"
+				player_command: false
 			}]
 		}
 		{
@@ -1290,9 +1411,12 @@
 				}
 			}]
 			rewards: [{
-				id: "0A3FCD23A10F17C6"
-				type: "random"
-				table_id: 13756307348121783L
+				id: "4A964284D661FED8"
+				type: "command"
+				title: "Magic Legendary Loot Bag"
+				icon: "kubejs:loot_bag_legendary"
+				command: "/execute at @p run loot spawn ~ ~1 ~ loot aof:loot_bags/magic_legendary"
+				player_command: false
 			}]
 		}
 		{
@@ -1322,9 +1446,12 @@
 				}
 			}]
 			rewards: [{
-				id: "4698E1ACD041553F"
-				type: "random"
-				table_id: 13756307348121783L
+				id: "44354FBC417CF659"
+				type: "command"
+				title: "TR Rare Loot Bag"
+				icon: "kubejs:loot_bag_rare"
+				command: "/execute at @p run loot spawn ~ ~1 ~ loot aof:loot_bags/tech_reborn_rare"
+				player_command: false
 			}]
 		}
 		{
@@ -1375,11 +1502,27 @@
 					}
 				}
 			}]
-			rewards: [{
-				id: "2D1C7F184314E137"
-				type: "random"
-				table_id: 13756307348121783L
-			}]
+			rewards: [
+				{
+					id: "0A22CC7735CBF02E"
+					type: "command"
+					title: "Agriculturist Bag"
+					icon: "kubejs:loot_bag_agriculture"
+					command: "/execute at @p run loot spawn ~ ~1 ~ loot aof:loot_bags/agriculturist_loot"
+					player_command: false
+				}
+				{
+					id: "4C054909DFD6F14F"
+					type: "item"
+					item: {
+						id: "minecraft:potion"
+						Count: 1b
+						tag: {
+							Potion: "goblintraders:extended_night_vision"
+						}
+					}
+				}
+			]
 		}
 		{
 			title: "Charms"
@@ -1411,9 +1554,12 @@
 				}
 			}]
 			rewards: [{
-				id: "62330D49A92DEA59"
-				type: "random"
-				table_id: 13756307348121783L
+				id: "7B179EF6174DB338"
+				type: "command"
+				title: "Artifacts Galore"
+				icon: "kubejs:loot_bag_legendary"
+				command: "/execute at @p run loot spawn ~ ~1 ~ loot aof:loot_bags/artifacts_loot"
+				player_command: false
 			}]
 		}
 		{
@@ -1435,9 +1581,12 @@
 				}
 			}]
 			rewards: [{
-				id: "5FA8338565973071"
-				type: "random"
-				table_id: 13756307348121783L
+				id: "18C8564DA2081CE6"
+				type: "command"
+				title: "Magic Legendary Loot Bag"
+				icon: "kubejs:loot_bag_legendary"
+				command: "/execute at @p run loot spawn ~ ~1 ~ loot aof:loot_bags/magic_legendary"
+				player_command: false
 			}]
 		}
 		{
@@ -1463,9 +1612,12 @@
 				}
 			}]
 			rewards: [{
-				id: "16175E9E9A906CCA"
-				type: "random"
-				table_id: 13756307348121783L
+				id: "62B46FBC1318EE17"
+				type: "command"
+				title: "Magic Legendary Loot Bag"
+				icon: "kubejs:loot_bag_legendary"
+				command: "/execute at @p run loot spawn ~ ~1 ~ loot aof:loot_bags/magic_legendary"
+				player_command: false
 			}]
 		}
 		{
@@ -1521,9 +1673,12 @@
 				}
 			}]
 			rewards: [{
-				id: "256C020D69DB5CF4"
-				type: "random"
-				table_id: 13756307348121783L
+				id: "02727C6432FB552A"
+				type: "command"
+				title: "Artifacts Galore"
+				icon: "kubejs:loot_bag_legendary"
+				command: "/execute at @p run loot spawn ~ ~1 ~ loot aof:loot_bags/artifacts_loot"
+				player_command: false
 			}]
 		}
 		{
@@ -1545,9 +1700,12 @@
 				}
 			}]
 			rewards: [{
-				id: "036E6B1FD2BBE842"
-				type: "random"
-				table_id: 13756307348121783L
+				id: "700300DF0C89A82B"
+				type: "command"
+				title: "Artifacts Galore"
+				icon: "kubejs:loot_bag_legendary"
+				command: "/execute at @p run loot spawn ~ ~1 ~ loot aof:loot_bags/artifacts_loot"
+				player_command: false
 			}]
 		}
 		{
@@ -1569,9 +1727,402 @@
 				}
 			}]
 			rewards: [{
-				id: "70A0FF7C62A8601A"
-				type: "random"
-				table_id: 13756307348121783L
+				id: "6E35ACEF405CB39B"
+				type: "command"
+				title: "Artifacts Galore"
+				icon: "kubejs:loot_bag_legendary"
+				command: "/execute at @p run loot spawn ~ ~1 ~ loot aof:loot_bags/artifacts_loot"
+				player_command: false
+			}]
+		}
+		{
+			x: -7.0d
+			y: -4.5d
+			subtitle: "Prevents trampling."
+			dependencies: ["251028DFC955D65F"]
+			id: "6AA43062AC98B59B"
+			tasks: [{
+				id: "0C1F44E719A323DC"
+				type: "item"
+				item: "farmingforblockheads:yellow_fertilizer"
+			}]
+			rewards: [{
+				id: "098A20911271BD14"
+				type: "command"
+				title: "Agriculturist Bag"
+				icon: "kubejs:loot_bag_agriculture"
+				command: "/execute at @p run loot spawn ~ ~1 ~ loot aof:loot_bags/agriculturist_loot"
+				player_command: false
+			}]
+		}
+		{
+			x: -8.5d
+			y: -5.0d
+			subtitle: "Speeds up growth."
+			dependencies: ["251028DFC955D65F"]
+			id: "4AE1EA3349567401"
+			tasks: [{
+				id: "443CD4678AE9D27A"
+				type: "item"
+				item: "farmingforblockheads:red_fertilizer"
+			}]
+			rewards: [{
+				id: "2F93F26921C85FFA"
+				type: "command"
+				title: "Agriculturist Bag"
+				icon: "kubejs:loot_bag_agriculture"
+				command: "/execute at @p run loot spawn ~ ~1 ~ loot aof:loot_bags/agriculturist_loot"
+				player_command: false
+			}]
+		}
+		{
+			x: -7.0d
+			y: -6.0d
+			description: ["Well.. does this make you a blockhead?"]
+			id: "251028DFC955D65F"
+			tasks: [{
+				id: "76E7E15CC252A02B"
+				type: "checkmark"
+				title: "Blockhead"
+			}]
+		}
+		{
+			x: -5.5d
+			y: -5.0d
+			subtitle: "Increases crop output."
+			dependencies: ["251028DFC955D65F"]
+			id: "14D42EDBFFCED86E"
+			tasks: [{
+				id: "1604ECD381B21CFB"
+				type: "item"
+				item: "farmingforblockheads:green_fertilizer"
+			}]
+			rewards: [{
+				id: "3ACEB306780E269B"
+				type: "command"
+				title: "Agriculturist Bag"
+				icon: "kubejs:loot_bag_agriculture"
+				command: "/execute at @p run loot spawn ~ ~1 ~ loot aof:loot_bags/agriculturist_loot"
+				player_command: false
+			}]
+		}
+		{
+			x: -5.5d
+			y: -7.0d
+			subtitle: "Auto-feeds nearby animals."
+			dependencies: ["251028DFC955D65F"]
+			id: "2607DEA382FF044E"
+			tasks: [{
+				id: "755F341295669BDC"
+				type: "item"
+				item: "farmingforblockheads:feeding_trough"
+			}]
+			rewards: [
+				{
+					id: "1187BD58130EA918"
+					type: "command"
+					title: "Agriculturist Bag"
+					icon: "kubejs:loot_bag_agriculture"
+					command: "/execute at @p run loot spawn ~ ~1 ~ loot aof:loot_bags/agriculturist_loot"
+					player_command: false
+				}
+				{
+					id: "6C69C27320454D7A"
+					type: "item"
+					item: "farmingforblockheads:feeding_trough"
+				}
+			]
+		}
+		{
+			x: -7.0d
+			y: -7.5d
+			subtitle: "Collects eggs laid by chickens."
+			dependencies: ["251028DFC955D65F"]
+			id: "16FED75C44853ECA"
+			tasks: [{
+				id: "5F2ADAA3F72E4D09"
+				type: "item"
+				item: "farmingforblockheads:chicken_nest"
+			}]
+			rewards: [
+				{
+					id: "74158BE5108C380B"
+					type: "command"
+					title: "Agriculturist Bag"
+					icon: "kubejs:loot_bag_agriculture"
+					command: "/execute at @p run loot spawn ~ ~1 ~ loot aof:loot_bags/agriculturist_loot"
+					player_command: false
+				}
+				{
+					id: "4237D2FD3C16A1B0"
+					type: "item"
+					item: "farmingforblockheads:chicken_nest"
+					count: 2
+				}
+			]
+		}
+		{
+			x: -8.5d
+			y: -7.0d
+			subtitle: "Your market of choice for seeds and crops."
+			dependencies: ["251028DFC955D65F"]
+			id: "529FA5C3502DBF4D"
+			tasks: [{
+				id: "62B614931DDB6161"
+				type: "item"
+				item: "farmingforblockheads:market"
+			}]
+			rewards: [{
+				id: "31A6A27BD0E603AA"
+				type: "command"
+				title: "Agriculturist Bag"
+				icon: "kubejs:loot_bag_agriculture"
+				command: "/execute at @p run loot spawn ~ ~1 ~ loot aof:loot_bags/agriculturist_loot"
+				player_command: false
+			}]
+		}
+		{
+			x: 3.5d
+			y: -5.0d
+			dependencies: ["68213B32C7BFE139"]
+			id: "02708D9F4C8C07D6"
+			tasks: [{
+				id: "22F1EEBE89B61279"
+				type: "item"
+				item: "croptopia:olive_oil"
+			}]
+			rewards: [{
+				id: "7BE599BB3484BDC3"
+				type: "command"
+				title: "Agriculturist Bag"
+				icon: "kubejs:loot_bag_agriculture"
+				command: "/execute at @p run loot spawn ~ ~1 ~ loot aof:loot_bags/agriculturist_loot"
+				player_command: false
+			}]
+		}
+		{
+			x: 4.5d
+			y: -4.5d
+			dependencies: ["68213B32C7BFE139"]
+			id: "7D220360845B3061"
+			tasks: [{
+				id: "0BEEEB3684C7E8AB"
+				type: "item"
+				item: "croptopia:salt"
+			}]
+			rewards: [{
+				id: "74B1DE3061680F05"
+				type: "command"
+				title: "Agriculturist Bag"
+				icon: "kubejs:loot_bag_agriculture"
+				command: "/execute at @p run loot spawn ~ ~1 ~ loot aof:loot_bags/agriculturist_loot"
+				player_command: false
+			}]
+		}
+		{
+			x: 5.5d
+			y: -4.0d
+			dependencies: ["68213B32C7BFE139"]
+			id: "4D2AA8AA89158B15"
+			tasks: [{
+				id: "3B71D4720FA8282D"
+				type: "item"
+				item: "croptopia:cooking_pot"
+			}]
+			rewards: [{
+				id: "61AD96EB5A8618E5"
+				type: "command"
+				title: "Agriculturist Bag"
+				icon: "kubejs:loot_bag_agriculture"
+				command: "/execute at @p run loot spawn ~ ~1 ~ loot aof:loot_bags/agriculturist_loot"
+				player_command: false
+			}]
+		}
+		{
+			x: 7.5d
+			y: -4.0d
+			dependencies: ["68213B32C7BFE139"]
+			id: "1C89868B15E15FB9"
+			tasks: [{
+				id: "7698D7F854E0BD43"
+				type: "item"
+				item: "croptopia:coffee"
+			}]
+			rewards: [{
+				id: "29AA83C8D842D1C5"
+				type: "command"
+				title: "Agriculturist Bag"
+				icon: "kubejs:loot_bag_agriculture"
+				command: "/execute at @p run loot spawn ~ ~1 ~ loot aof:loot_bags/agriculturist_loot"
+				player_command: false
+			}]
+		}
+		{
+			x: 8.5d
+			y: -4.5d
+			dependencies: ["68213B32C7BFE139"]
+			id: "6C1DE22E0E2EBE84"
+			tasks: [{
+				id: "59E9757E49E8926D"
+				type: "item"
+				item: "croptopia:food_press"
+			}]
+			rewards: [{
+				id: "175C69239635DB3A"
+				type: "command"
+				title: "Agriculturist Bag"
+				icon: "kubejs:loot_bag_agriculture"
+				command: "/execute at @p run loot spawn ~ ~1 ~ loot aof:loot_bags/agriculturist_loot"
+				player_command: false
+			}]
+		}
+		{
+			x: 9.5d
+			y: -5.0d
+			dependencies: ["68213B32C7BFE139"]
+			id: "643E23B7AD7A6863"
+			tasks: [{
+				id: "70F481780658F71B"
+				type: "item"
+				item: "croptopia:pepper"
+			}]
+			rewards: [{
+				id: "790CAB3A9A0CEF30"
+				type: "loot"
+			}]
+		}
+		{
+			x: 9.5d
+			y: -7.0d
+			dependencies: ["68213B32C7BFE139"]
+			id: "2423CAC6548B8DE0"
+			tasks: [{
+				id: "7E35A6AE21505CA7"
+				type: "item"
+				item: "croptopia:butter"
+			}]
+			rewards: [{
+				id: "558F6D78C18AD6BE"
+				type: "command"
+				title: "Agriculturist Bag"
+				icon: "kubejs:loot_bag_agriculture"
+				command: "/execute at @p run loot spawn ~ ~1 ~ loot aof:loot_bags/agriculturist_loot"
+				player_command: false
+			}]
+		}
+		{
+			x: 8.5d
+			y: -7.5d
+			dependencies: ["68213B32C7BFE139"]
+			id: "532B579050FCF665"
+			tasks: [{
+				id: "5EF171AFB4049ADE"
+				type: "item"
+				item: "croptopia:greenonion"
+			}]
+			rewards: [{
+				id: "7D160DBB7176B24B"
+				type: "command"
+				title: "Agriculturist Bag"
+				icon: "kubejs:loot_bag_agriculture"
+				command: "/execute at @p run loot spawn ~ ~1 ~ loot aof:loot_bags/agriculturist_loot"
+				player_command: false
+			}]
+		}
+		{
+			x: 7.5d
+			y: -8.0d
+			dependencies: ["68213B32C7BFE139"]
+			id: "29DADC10D2308B2E"
+			tasks: [{
+				id: "362E2C0F21ACAE54"
+				type: "item"
+				item: "croptopia:flour"
+			}]
+			rewards: [
+				{
+					id: "590D456AA06B20AE"
+					type: "item"
+					item: "croptopia:lemon_sapling"
+				}
+				{
+					id: "16FFB45AE610F7EE"
+					type: "command"
+					title: "Agriculturist Bag"
+					icon: "kubejs:loot_bag_agriculture"
+					command: "/execute at @p run loot spawn ~ ~1 ~ loot aof:loot_bags/agriculturist_loot"
+					player_command: false
+				}
+			]
+		}
+		{
+			x: 5.5d
+			y: -8.0d
+			dependencies: ["68213B32C7BFE139"]
+			id: "3277A89378B6D52B"
+			tasks: [{
+				id: "5ABFDDA4A799AA50"
+				type: "item"
+				item: "croptopia:mortar_and_pestle"
+			}]
+			rewards: [{
+				id: "545BDAE30E74645E"
+				type: "command"
+				title: "Agriculturist Bag"
+				icon: "kubejs:loot_bag_agriculture"
+				command: "/execute at @p run loot spawn ~ ~1 ~ loot aof:loot_bags/agriculturist_loot"
+				player_command: false
+			}]
+		}
+		{
+			x: 4.5d
+			y: -7.5d
+			dependencies: ["68213B32C7BFE139"]
+			id: "633893597215AA91"
+			tasks: [{
+				id: "5D150B567A95C5EE"
+				type: "item"
+				item: "croptopia:noodle"
+			}]
+			rewards: [{
+				id: "43B1CC3ED14CCC8D"
+				type: "command"
+				title: "Agriculturist Bag"
+				icon: "kubejs:loot_bag_agriculture"
+				command: "/execute at @p run loot spawn ~ ~1 ~ loot aof:loot_bags/agriculturist_loot"
+				player_command: false
+			}]
+		}
+		{
+			x: 3.5d
+			y: -7.0d
+			dependencies: ["68213B32C7BFE139"]
+			id: "73740190C26EDE96"
+			tasks: [{
+				id: "29E1787D0069B2CF"
+				type: "item"
+				item: "croptopia:frying_pan"
+			}]
+			rewards: [{
+				id: "042FF69B769507DA"
+				type: "command"
+				title: "Agriculturist Bag"
+				icon: "kubejs:loot_bag_agriculture"
+				command: "/execute at @p run loot spawn ~ ~1 ~ loot aof:loot_bags/agriculturist_loot"
+				player_command: false
+			}]
+		}
+		{
+			title: "Kitchen Basics"
+			x: 6.5d
+			y: -6.0d
+			subtitle: "Complete your kitchen. Feed the world."
+			description: ["Complete your kitchen to expand your culinary skills."]
+			id: "68213B32C7BFE139"
+			tasks: [{
+				id: "29764768B3A9EEF6"
+				type: "checkmark"
+				title: "Kitchen basics"
 			}]
 		}
 	]

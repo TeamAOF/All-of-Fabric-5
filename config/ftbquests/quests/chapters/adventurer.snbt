@@ -81,11 +81,21 @@
 					}
 				}
 			}]
-			rewards: [{
-				id: "69D9C7A4DDC5D916"
-				type: "loot"
-				table_id: 13756307348121783L
-			}]
+			rewards: [
+				{
+					id: "562D6DA6506847EF"
+					type: "command"
+					title: "Agriculturist Bag"
+					icon: "kubejs:loot_bag_agriculture"
+					command: "/execute at @p run loot spawn ~ ~1 ~ loot aof:loot_bags/agriculturist_loot"
+					player_command: false
+				}
+				{
+					id: "02DAD3BF2785BF33"
+					type: "item"
+					item: "gofish:simple_lure"
+				}
+			]
 		}
 		{
 			title: "Waystones"
@@ -103,11 +113,21 @@
 				observe_type: 0
 				to_observe: "waystones:waystone"
 			}]
-			rewards: [{
-				id: "7E79E623D0CD9F54"
-				type: "loot"
-				table_id: 13756307348121783L
-			}]
+			rewards: [
+				{
+					id: "2BCB027A539B7084"
+					type: "item"
+					item: "waystones:desert_waystone"
+				}
+				{
+					id: "1221149A4B676928"
+					type: "command"
+					title: "Agriculturist Bag"
+					icon: "kubejs:loot_bag_agriculture"
+					command: "/execute at @p run loot spawn ~ ~1 ~ loot aof:loot_bags/agriculturist_loot"
+					player_command: false
+				}
+			]
 		}
 		{
 			title: "Find a Graveyard"
@@ -122,11 +142,27 @@
 				type: "structure"
 				structure: "graveyard:small_graveyard"
 			}]
-			rewards: [{
-				id: "151790FF4F267945"
-				type: "loot"
-				table_id: 13756307348121783L
-			}]
+			rewards: [
+				{
+					id: "0136B3FCD96E72E3"
+					type: "command"
+					title: "Agriculturist Bag"
+					icon: "kubejs:loot_bag_agriculture"
+					command: "/execute at @p run loot spawn ~ ~1 ~ loot aof:loot_bags/agriculturist_loot"
+					player_command: false
+				}
+				{
+					id: "0D54DD2EDD2B15AD"
+					type: "item"
+					item: {
+						id: "graveyard:bone_dagger"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+			]
 		}
 		{
 			title: "Artifacts"
@@ -153,11 +189,27 @@
 					}
 				}
 			}]
-			rewards: [{
-				id: "7F25E542A51AFADF"
-				type: "random"
-				table_id: 13756307348121783L
-			}]
+			rewards: [
+				{
+					id: "64ADD6ADBA219CE6"
+					type: "item"
+					item: {
+						id: "minecraft:potion"
+						Count: 1b
+						tag: {
+							Potion: "goblintraders:powerful_speed"
+						}
+					}
+				}
+				{
+					id: "1CE3B7C05DD67021"
+					type: "command"
+					title: "Agriculturist Bag"
+					icon: "kubejs:loot_bag_agriculture"
+					command: "/execute at @p run loot spawn ~ ~1 ~ loot aof:loot_bags/agriculturist_loot"
+					player_command: false
+				}
+			]
 		}
 		{
 			title: "The Twilight Forest"
@@ -178,11 +230,35 @@
 				icon: "twilightforest:twilight_portal_miniature_structure"
 				dimension: "twilightforest:twilight_forest"
 			}]
-			rewards: [{
-				id: "0C0869CB6A2C4E9F"
-				type: "random"
-				table_id: 13756307348121783L
-			}]
+			rewards: [
+				{
+					id: "7CBC57D31F20C068"
+					type: "command"
+					title: "Agriculturist Bag"
+					icon: "kubejs:loot_bag_agriculture"
+					command: "/execute at @p run loot spawn ~ ~1 ~ loot aof:loot_bags/agriculturist_loot"
+					player_command: false
+				}
+				{
+					id: "0C335696ED832D65"
+					type: "item"
+					item: {
+						id: "minecraft:potion"
+						Count: 1b
+						tag: {
+							Potion: "goblintraders:extended_night_vision"
+						}
+					}
+				}
+				{
+					id: "7582B53CE7C6DCE2"
+					type: "command"
+					title: "Artifacts Galore"
+					icon: "kubejs:loot_bag_legendary"
+					command: "/execute at @p run loot spawn ~ ~1 ~ loot aof:loot_bags/artifacts_loot"
+					player_command: false
+				}
+			]
 		}
 		{
 			title: "Space Travels"
@@ -214,15 +290,18 @@
 			}]
 			rewards: [
 				{
-					id: "440B0AFFF9785B72"
-					type: "random"
-					table_id: 13756307348121783L
-				}
-				{
 					id: "583873BD842B01B4"
 					type: "item"
 					item: "ad_astra:cheese"
 					count: 16
+				}
+				{
+					id: "047D7C2A4D6F21F5"
+					type: "command"
+					title: "Ad Astra Rare Loot Bag"
+					icon: "kubejs:loot_bag_rare"
+					command: "/execute at @p run loot spawn ~ ~1 ~ loot aof:loot_bags/ad_astra_rare"
+					player_command: false
 				}
 			]
 		}
@@ -257,11 +336,22 @@
 					}
 				}
 			}]
-			rewards: [{
-				id: "4267E0E24A7BF901"
-				type: "item"
-				item: "kubejs:loot_bag_rare"
-			}]
+			rewards: [
+				{
+					id: "348F5A468E572E21"
+					type: "command"
+					title: "Agriculturist Bag"
+					icon: "kubejs:loot_bag_agriculture"
+					command: "/execute at @p run loot spawn ~ ~1 ~ loot aof:loot_bags/agriculturist_loot"
+					player_command: false
+				}
+				{
+					id: "621538A179E3AD6C"
+					type: "item"
+					item: "minecraft:bone"
+					count: 16
+				}
+			]
 		}
 		{
 			title: "Lootr"
@@ -281,11 +371,22 @@
 				advancement: "lootr:1chest"
 				criterion: ""
 			}]
-			rewards: [{
-				id: "6A4734CB76079052"
-				type: "random"
-				table_id: 13756307348121783L
-			}]
+			rewards: [
+				{
+					id: "25EAACDE5F300527"
+					type: "item"
+					item: "minecraft:emerald"
+					count: 3
+				}
+				{
+					id: "42BA5F643295ADAD"
+					type: "command"
+					title: "Agriculturist Bag"
+					icon: "kubejs:loot_bag_agriculture"
+					command: "/execute at @p run loot spawn ~ ~1 ~ loot aof:loot_bags/agriculturist_loot"
+					player_command: false
+				}
+			]
 		}
 	]
 }

@@ -16,10 +16,14 @@ _Fabric Loader 0.14.9_ | _[Mod Updates](https://github.com/TeamAOF/All-of-Fabric
 * Remove Thermoelectric Generator from quest rewards.
 * Added all overworld sapling to farmingforblockheads market.
 * Void totem will now show on chest when worn in charm slot.
+* Removed base botania flowers quests.
+* Moved Agriculture chapter into Tools/Armor.
 
 ## Recipes
 
 * Conflict between Spruce Shelf and Spruce Bannister.
+* Removed Slime Sling & boots from Kibe.
+* Fixed tons & tons of compat recipes, mainly in Create.
 
 ## Fixes
 
@@ -33,49 +37,66 @@ _Fabric Loader 0.14.9_ | _[Mod Updates](https://github.com/TeamAOF/All-of-Fabric
 
 ## Added
 
-* Ambient Sounds 5
-* Archeology
-* Bamboo Combat
-* Botany Pots
-* CC:C Bridge
-* Connectivity
-* Dangerous Stone Cutter
-* Dragonfight
-* Entity Culling
-* FuelInfo
-* Hex Casting
-* Inmis Addon (3D Models)
-* Iron Chests: Restocked
-* Logicates
-* Macaw's Bridges - Oh The Biomes You'll Go
-* Macaw's Roofs - Oh The Biomes You'll Go
-* Nikolite Expansion
-* PAUCAL
-* Playdate
-* Powah
-* Prism
-* Productive Villagers
-* Roughly Enough Loot Tables (RELT)
-* Roughly Enough Trades (RET)
-* SlimyBoyos
-* Staff of Traveling
-* Starlight
-* Stronger Snowballs
-* Terralith
-* Tempad
-* The Splash Milk
-* Toast Manager
-* XP Obelisk Additions
+- Ambiend Sounds (Fabric)
+- Bad Wither No Cookie! Reloaded
+- Bamboo Combat
+- BotanyPots
+- BotanyTrees
+- CapsLock Archeology Mod
+- CC:C Bridge
+- Connectivity Mod
+- CreativeCore (Fabric)
+- Dangerous Stone Cutter
+- Dragonfight Mod
+- EntityCulling-Fabric
+- FuelInfo
+- Hephaestus
+- Hex Casting
+- Industrial Revolution: Nikolite Expansion
+- InmisAddon
+- Iron Chests: Restocked
+- Logicates
+- Macaw's Bridges - BYG
+- Macaw's Roofs - BYG
+- Model Gap Fix
+- Paladin's Furniture
+- PAUCAL
+- Playdate
+- Powah!
+- Prism
+- ProbeJS
+- Productive Villagers
+- Roughly Enough Loot Tables (RELT)
+- Roughly Enough Trades (RET)
+- Slimy Boyos
+- Splash Milk
+- Staff of Travelling
+- Starlight
+- StrongerSnowballs
+- Tempad
+- Seed Fix
+- Sodium Extra
+- Tiny Coal
+- Toast Manager
+- Reese's Sodium Options
+- XP Obelisk Additions
 
 ## Removed
 
+* Adorn (Being replaced by Paladin's Furniture)
+* Chisel (Chipped is a thing)
 * Dwarf Coal (Replaced by Tiny Coal)
+* Entity Banners
 * Expanded Storage
+* Extra Alchemy
 * Extra Generators (Due to balancing reasons & addition of Powah)
+* I Know What I'm Doing
+* Improved Stations
 * Magitek Mechs (Due to crashes)
 * Phosphor (Replaced by Starlight)
 * Plushie (Replaced by Playdate)
 * Timeoutout (Replaced by Connectivity)
+* Twigs (Chipped is a thing)
 * XL Packets (Replaced by Connectivity)
 ---
 

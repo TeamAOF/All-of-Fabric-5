@@ -4,7 +4,7 @@
 	order_index: 0
 	filename: "storage"
 	title: "Storage"
-	icon: "ironchests:copper_chest"
+	icon: "ironchests:copper_chest_upgrade"
 	default_quest_shape: "square"
 	default_hide_dependency_lines: false
 	quests: [
@@ -25,9 +25,12 @@
 				}
 			}]
 			rewards: [{
-				id: "57DD8F8CF6FAFAF1"
-				type: "loot"
-				table_id: 13756307348121783L
+				id: "33B187DD57CDA4BD"
+				type: "command"
+				title: "Logistics Loot Bag"
+				icon: "kubejs:loot_bag_rare"
+				command: "/execute at @p run loot spawn ~ ~1 ~ loot aof:loot_bags/logistics_loot"
+				player_command: false
 			}]
 		}
 		{
@@ -47,9 +50,12 @@
 				}
 			}]
 			rewards: [{
-				id: "7936B91387F2CCB8"
-				type: "loot"
-				table_id: 13756307348121783L
+				id: "0B9EC3EC8F60F70D"
+				type: "command"
+				title: "Logistics Loot Bag"
+				icon: "kubejs:loot_bag_rare"
+				command: "/execute at @p run loot spawn ~ ~1 ~ loot aof:loot_bags/logistics_loot"
+				player_command: false
 			}]
 		}
 		{
@@ -69,9 +75,12 @@
 				}
 			}]
 			rewards: [{
-				id: "093438DB7724CE5A"
-				type: "loot"
-				table_id: 13756307348121783L
+				id: "54AC0AB44CD82A7C"
+				type: "command"
+				title: "Logistics Loot Bag"
+				icon: "kubejs:loot_bag_rare"
+				command: "/execute at @p run loot spawn ~ ~1 ~ loot aof:loot_bags/logistics_loot"
+				player_command: false
 			}]
 		}
 		{
@@ -90,9 +99,12 @@
 				}
 			}]
 			rewards: [{
-				id: "1A139DA541EE830D"
-				type: "loot"
-				table_id: 13756307348121783L
+				id: "56DAD964DE7EBA28"
+				type: "command"
+				title: "Logistics Loot Bag"
+				icon: "kubejs:loot_bag_rare"
+				command: "/execute at @p run loot spawn ~ ~1 ~ loot aof:loot_bags/logistics_loot"
+				player_command: false
 			}]
 		}
 		{
@@ -112,9 +124,12 @@
 				}
 			}]
 			rewards: [{
-				id: "3611255090A8177B"
-				type: "loot"
-				table_id: 13756307348121783L
+				id: "2058F75F81883032"
+				type: "command"
+				title: "Logistics Loot Bag"
+				icon: "kubejs:loot_bag_rare"
+				command: "/execute at @p run loot spawn ~ ~1 ~ loot aof:loot_bags/logistics_loot"
+				player_command: false
 			}]
 		}
 		{
@@ -134,9 +149,12 @@
 				}
 			}]
 			rewards: [{
-				id: "060047D996FD4061"
-				type: "loot"
-				table_id: 13756307348121783L
+				id: "4100FD2F90742094"
+				type: "command"
+				title: "Logistics Loot Bag"
+				icon: "kubejs:loot_bag_rare"
+				command: "/execute at @p run loot spawn ~ ~1 ~ loot aof:loot_bags/logistics_loot"
+				player_command: false
 			}]
 		}
 		{
@@ -152,9 +170,12 @@
 				item: "ironchests:iron_chest"
 			}]
 			rewards: [{
-				id: "08455867B00D4D26"
-				type: "loot"
-				table_id: 13756307348121783L
+				id: "6F793D931D97B4DF"
+				type: "command"
+				title: "Logistics Loot Bag"
+				icon: "kubejs:loot_bag_rare"
+				command: "/execute at @p run loot spawn ~ ~1 ~ loot aof:loot_bags/logistics_loot"
+				player_command: false
 			}]
 		}
 		{
@@ -170,9 +191,12 @@
 				item: "ironchests:gold_chest"
 			}]
 			rewards: [{
-				id: "26ECA55A20005337"
-				type: "loot"
-				table_id: 13756307348121783L
+				id: "6E21DE1A3F13E27E"
+				type: "command"
+				title: "Logistics Loot Bag"
+				icon: "kubejs:loot_bag_rare"
+				command: "/execute at @p run loot spawn ~ ~1 ~ loot aof:loot_bags/logistics_loot"
+				player_command: false
 			}]
 		}
 		{
@@ -186,9 +210,12 @@
 				item: "ironchests:diamond_chest"
 			}]
 			rewards: [{
-				id: "3D53EC7914EF5751"
-				type: "loot"
-				table_id: 13756307348121783L
+				id: "75386F6CCCA055ED"
+				type: "command"
+				title: "Logistics Loot Bag"
+				icon: "kubejs:loot_bag_rare"
+				command: "/execute at @p run loot spawn ~ ~1 ~ loot aof:loot_bags/logistics_loot"
+				player_command: false
 			}]
 		}
 		{
@@ -202,9 +229,12 @@
 				item: "ironchests:obsidian_chest"
 			}]
 			rewards: [{
-				id: "1501D60DB65390F8"
-				type: "loot"
-				table_id: 13756307348121783L
+				id: "115FE46100266D22"
+				type: "command"
+				title: "Logistics Loot Bag"
+				icon: "kubejs:loot_bag_rare"
+				command: "/execute at @p run loot spawn ~ ~1 ~ loot aof:loot_bags/logistics_loot"
+				player_command: false
 			}]
 		}
 		{
@@ -218,9 +248,12 @@
 				item: "ironchests:netherite_chest"
 			}]
 			rewards: [{
-				id: "72052FCFB50514BA"
-				type: "loot"
-				table_id: 13756307348121783L
+				id: "7A19458CFF01C8C0"
+				type: "command"
+				title: "Logistics Loot Bag"
+				icon: "kubejs:loot_bag_rare"
+				command: "/execute at @p run loot spawn ~ ~1 ~ loot aof:loot_bags/logistics_loot"
+				player_command: false
 			}]
 		}
 		{
@@ -240,9 +273,12 @@
 				item: "modern_industrialization:bronze_barrel"
 			}]
 			rewards: [{
-				id: "7E841FEBD3FFD55E"
-				type: "loot"
-				table_id: 13756307348121783L
+				id: "5CB6E52CF2D6B4EB"
+				type: "command"
+				title: "Logistics Loot Bag"
+				icon: "kubejs:loot_bag_rare"
+				command: "/execute at @p run loot spawn ~ ~1 ~ loot aof:loot_bags/logistics_loot"
+				player_command: false
 			}]
 		}
 		{
@@ -256,9 +292,12 @@
 				item: "modern_industrialization:steel_barrel"
 			}]
 			rewards: [{
-				id: "032A78A85DC1C75C"
-				type: "loot"
-				table_id: 13756307348121783L
+				id: "6F93DE5236CD4C8E"
+				type: "command"
+				title: "Logistics Loot Bag"
+				icon: "kubejs:loot_bag_rare"
+				command: "/execute at @p run loot spawn ~ ~1 ~ loot aof:loot_bags/logistics_loot"
+				player_command: false
 			}]
 		}
 		{
@@ -272,9 +311,12 @@
 				item: "modern_industrialization:aluminum_barrel"
 			}]
 			rewards: [{
-				id: "43FE11BD6BE7201F"
-				type: "loot"
-				table_id: 13756307348121783L
+				id: "69B1572E019EEE2C"
+				type: "command"
+				title: "Logistics Loot Bag"
+				icon: "kubejs:loot_bag_rare"
+				command: "/execute at @p run loot spawn ~ ~1 ~ loot aof:loot_bags/logistics_loot"
+				player_command: false
 			}]
 		}
 		{
@@ -288,9 +330,12 @@
 				item: "modern_industrialization:stainless_steel_barrel"
 			}]
 			rewards: [{
-				id: "046C52D067C51B60"
-				type: "loot"
-				table_id: 13756307348121783L
+				id: "3DC871E646882CC4"
+				type: "command"
+				title: "Logistics Loot Bag"
+				icon: "kubejs:loot_bag_rare"
+				command: "/execute at @p run loot spawn ~ ~1 ~ loot aof:loot_bags/logistics_loot"
+				player_command: false
 			}]
 		}
 		{
@@ -304,9 +349,12 @@
 				item: "modern_industrialization:titanium_barrel"
 			}]
 			rewards: [{
-				id: "3B0FB3ABB1A43297"
-				type: "loot"
-				table_id: 13756307348121783L
+				id: "0011E80BDF14A2ED"
+				type: "command"
+				title: "Logistics Loot Bag"
+				icon: "kubejs:loot_bag_rare"
+				command: "/execute at @p run loot spawn ~ ~1 ~ loot aof:loot_bags/logistics_loot"
+				player_command: false
 			}]
 		}
 		{
@@ -320,9 +368,12 @@
 				item: "modern_industrialization:quantum_barrel"
 			}]
 			rewards: [{
-				id: "32C13CE6DE692EEB"
-				type: "loot"
-				table_id: 13756307348121783L
+				id: "17C65AEE39CFC115"
+				type: "command"
+				title: "Logistics Loot Bag"
+				icon: "kubejs:loot_bag_rare"
+				command: "/execute at @p run loot spawn ~ ~1 ~ loot aof:loot_bags/logistics_loot"
+				player_command: false
 			}]
 		}
 		{
@@ -343,9 +394,12 @@
 				item: "modern_industrialization:bronze_tank"
 			}]
 			rewards: [{
-				id: "055CC327890FDAE1"
-				type: "loot"
-				table_id: 13756307348121783L
+				id: "371F9E2FCCEA66F2"
+				type: "command"
+				title: "Logistics Loot Bag"
+				icon: "kubejs:loot_bag_rare"
+				command: "/execute at @p run loot spawn ~ ~1 ~ loot aof:loot_bags/logistics_loot"
+				player_command: false
 			}]
 		}
 		{
@@ -359,9 +413,12 @@
 				item: "modern_industrialization:steel_tank"
 			}]
 			rewards: [{
-				id: "07C3C1EFAD4AFC19"
-				type: "loot"
-				table_id: 13756307348121783L
+				id: "7FC9A58C3BB9D77C"
+				type: "command"
+				title: "Logistics Loot Bag"
+				icon: "kubejs:loot_bag_rare"
+				command: "/execute at @p run loot spawn ~ ~1 ~ loot aof:loot_bags/logistics_loot"
+				player_command: false
 			}]
 		}
 		{
@@ -375,9 +432,12 @@
 				item: "modern_industrialization:aluminum_tank"
 			}]
 			rewards: [{
-				id: "2E3857945F941551"
-				type: "loot"
-				table_id: 13756307348121783L
+				id: "19AB520C19CE7416"
+				type: "command"
+				title: "Logistics Loot Bag"
+				icon: "kubejs:loot_bag_rare"
+				command: "/execute at @p run loot spawn ~ ~1 ~ loot aof:loot_bags/logistics_loot"
+				player_command: false
 			}]
 		}
 		{
@@ -391,9 +451,12 @@
 				item: "modern_industrialization:stainless_steel_tank"
 			}]
 			rewards: [{
-				id: "1EB932E5F0E116B7"
-				type: "loot"
-				table_id: 13756307348121783L
+				id: "6A8874EB318FA208"
+				type: "command"
+				title: "Logistics Loot Bag"
+				icon: "kubejs:loot_bag_rare"
+				command: "/execute at @p run loot spawn ~ ~1 ~ loot aof:loot_bags/logistics_loot"
+				player_command: false
 			}]
 		}
 		{
@@ -407,9 +470,12 @@
 				item: "modern_industrialization:titanium_tank"
 			}]
 			rewards: [{
-				id: "6AE90D4823037DB2"
-				type: "loot"
-				table_id: 13756307348121783L
+				id: "7DA9EC04CD3EA172"
+				type: "command"
+				title: "Logistics Loot Bag"
+				icon: "kubejs:loot_bag_rare"
+				command: "/execute at @p run loot spawn ~ ~1 ~ loot aof:loot_bags/logistics_loot"
+				player_command: false
 			}]
 		}
 		{
@@ -423,9 +489,12 @@
 				item: "modern_industrialization:quantum_tank"
 			}]
 			rewards: [{
-				id: "11896AC8256BAEB5"
-				type: "loot"
-				table_id: 13756307348121783L
+				id: "75E1B9CCA6907B15"
+				type: "command"
+				title: "Logistics Loot Bag"
+				icon: "kubejs:loot_bag_rare"
+				command: "/execute at @p run loot spawn ~ ~1 ~ loot aof:loot_bags/logistics_loot"
+				player_command: false
 			}]
 		}
 		{
@@ -456,9 +525,12 @@
 				item: "dankstorage:dank_1"
 			}]
 			rewards: [{
-				id: "5D8704A73ABE14F2"
-				type: "loot"
-				table_id: 13756307348121783L
+				id: "27BAD8E63F7D748C"
+				type: "command"
+				title: "Logistics Loot Bag"
+				icon: "kubejs:loot_bag_rare"
+				command: "/execute at @p run loot spawn ~ ~1 ~ loot aof:loot_bags/logistics_loot"
+				player_command: false
 			}]
 		}
 		{
@@ -473,9 +545,12 @@
 				item: "dankstorage:dank_2"
 			}]
 			rewards: [{
-				id: "464263C21580BB33"
-				type: "loot"
-				table_id: 13756307348121783L
+				id: "690194178B95C237"
+				type: "command"
+				title: "Logistics Loot Bag"
+				icon: "kubejs:loot_bag_rare"
+				command: "/execute at @p run loot spawn ~ ~1 ~ loot aof:loot_bags/logistics_loot"
+				player_command: false
 			}]
 		}
 		{
@@ -490,9 +565,12 @@
 				item: "dankstorage:dank_3"
 			}]
 			rewards: [{
-				id: "7E9570715342841C"
-				type: "loot"
-				table_id: 13756307348121783L
+				id: "2945AD3824363C73"
+				type: "command"
+				title: "Logistics Loot Bag"
+				icon: "kubejs:loot_bag_rare"
+				command: "/execute at @p run loot spawn ~ ~1 ~ loot aof:loot_bags/logistics_loot"
+				player_command: false
 			}]
 		}
 		{
@@ -507,9 +585,12 @@
 				item: "dankstorage:dank_4"
 			}]
 			rewards: [{
-				id: "1485612FCE2A0F0D"
-				type: "loot"
-				table_id: 13756307348121783L
+				id: "471DAF2DE1948EF4"
+				type: "command"
+				title: "Logistics Loot Bag"
+				icon: "kubejs:loot_bag_rare"
+				command: "/execute at @p run loot spawn ~ ~1 ~ loot aof:loot_bags/logistics_loot"
+				player_command: false
 			}]
 		}
 		{
@@ -524,9 +605,12 @@
 				item: "dankstorage:dank_5"
 			}]
 			rewards: [{
-				id: "29F64723C2496039"
-				type: "loot"
-				table_id: 13756307348121783L
+				id: "57371ACACE200C78"
+				type: "command"
+				title: "Logistics Loot Bag"
+				icon: "kubejs:loot_bag_rare"
+				command: "/execute at @p run loot spawn ~ ~1 ~ loot aof:loot_bags/logistics_loot"
+				player_command: false
 			}]
 		}
 		{
@@ -541,9 +625,12 @@
 				item: "dankstorage:dank_6"
 			}]
 			rewards: [{
-				id: "1213FEBA6656C50F"
-				type: "loot"
-				table_id: 13756307348121783L
+				id: "576FFEB06C001F6B"
+				type: "command"
+				title: "Logistics Loot Bag"
+				icon: "kubejs:loot_bag_rare"
+				command: "/execute at @p run loot spawn ~ ~1 ~ loot aof:loot_bags/logistics_loot"
+				player_command: false
 			}]
 		}
 		{
@@ -557,18 +644,14 @@
 				type: "item"
 				item: "dankstorage:dank_7"
 			}]
-			rewards: [
-				{
-					id: "5FC122DAB93C03D4"
-					type: "loot"
-					table_id: 13756307348121783L
-				}
-				{
-					id: "1DB031CFBD3F21A5"
-					type: "loot"
-					table_id: 13756307348121783L
-				}
-			]
+			rewards: [{
+				id: "465C7F88ED8012C1"
+				type: "command"
+				title: "Logistics Loot Bag"
+				icon: "kubejs:loot_bag_rare"
+				command: "/execute at @p run loot spawn ~ ~1 ~ loot aof:loot_bags/logistics_loot"
+				player_command: false
+			}]
 		}
 		{
 			x: 9.0d
@@ -582,9 +665,12 @@
 				item: "techreborn:basic_tank_unit"
 			}]
 			rewards: [{
-				id: "4D664FB0AC8364E4"
-				type: "loot"
-				table_id: 13756307348121783L
+				id: "5A667E239B45E24A"
+				type: "command"
+				title: "Logistics Loot Bag"
+				icon: "kubejs:loot_bag_rare"
+				command: "/execute at @p run loot spawn ~ ~1 ~ loot aof:loot_bags/logistics_loot"
+				player_command: false
 			}]
 		}
 		{
@@ -600,9 +686,12 @@
 				item: "techreborn:crude_storage_unit"
 			}]
 			rewards: [{
-				id: "24DD47F4717CE294"
-				type: "loot"
-				table_id: 13756307348121783L
+				id: "442B75068498EE29"
+				type: "command"
+				title: "Logistics Loot Bag"
+				icon: "kubejs:loot_bag_rare"
+				command: "/execute at @p run loot spawn ~ ~1 ~ loot aof:loot_bags/logistics_loot"
+				player_command: false
 			}]
 		}
 		{
@@ -616,9 +705,12 @@
 				item: "techreborn:basic_storage_unit"
 			}]
 			rewards: [{
-				id: "099D38D9F10DC19B"
-				type: "loot"
-				table_id: 13756307348121783L
+				id: "1ABF78B9CA7C7F73"
+				type: "command"
+				title: "Logistics Loot Bag"
+				icon: "kubejs:loot_bag_rare"
+				command: "/execute at @p run loot spawn ~ ~1 ~ loot aof:loot_bags/logistics_loot"
+				player_command: false
 			}]
 		}
 		{
@@ -632,9 +724,12 @@
 				item: "techreborn:advanced_tank_unit"
 			}]
 			rewards: [{
-				id: "5E9A29D6D7228FD8"
-				type: "loot"
-				table_id: 13756307348121783L
+				id: "3EAC8317E3B52855"
+				type: "command"
+				title: "Logistics Loot Bag"
+				icon: "kubejs:loot_bag_rare"
+				command: "/execute at @p run loot spawn ~ ~1 ~ loot aof:loot_bags/logistics_loot"
+				player_command: false
 			}]
 		}
 		{
@@ -648,9 +743,12 @@
 				item: "techreborn:advanced_storage_unit"
 			}]
 			rewards: [{
-				id: "758FC50B506E696A"
-				type: "loot"
-				table_id: 13756307348121783L
+				id: "6A4588D7D38F7BFA"
+				type: "command"
+				title: "Logistics Loot Bag"
+				icon: "kubejs:loot_bag_rare"
+				command: "/execute at @p run loot spawn ~ ~1 ~ loot aof:loot_bags/logistics_loot"
+				player_command: false
 			}]
 		}
 		{
@@ -664,9 +762,12 @@
 				item: "techreborn:industrial_storage_unit"
 			}]
 			rewards: [{
-				id: "57719B1C0562B58F"
-				type: "loot"
-				table_id: 13756307348121783L
+				id: "3AEFEDEA53E01FA4"
+				type: "command"
+				title: "Logistics Loot Bag"
+				icon: "kubejs:loot_bag_rare"
+				command: "/execute at @p run loot spawn ~ ~1 ~ loot aof:loot_bags/logistics_loot"
+				player_command: false
 			}]
 		}
 		{
@@ -680,9 +781,12 @@
 				item: "techreborn:quantum_storage_unit"
 			}]
 			rewards: [{
-				id: "6E639141403D1AE1"
-				type: "loot"
-				table_id: 13756307348121783L
+				id: "4C673FD721001AAE"
+				type: "command"
+				title: "Logistics Loot Bag"
+				icon: "kubejs:loot_bag_rare"
+				command: "/execute at @p run loot spawn ~ ~1 ~ loot aof:loot_bags/logistics_loot"
+				player_command: false
 			}]
 		}
 		{
@@ -696,9 +800,12 @@
 				item: "techreborn:industrial_tank_unit"
 			}]
 			rewards: [{
-				id: "172DADCD25EAF4F1"
-				type: "loot"
-				table_id: 13756307348121783L
+				id: "03E436220B73DC2C"
+				type: "command"
+				title: "Logistics Loot Bag"
+				icon: "kubejs:loot_bag_rare"
+				command: "/execute at @p run loot spawn ~ ~1 ~ loot aof:loot_bags/logistics_loot"
+				player_command: false
 			}]
 		}
 		{
@@ -712,9 +819,12 @@
 				item: "techreborn:quantum_tank_unit"
 			}]
 			rewards: [{
-				id: "33FB6AFE217087BA"
-				type: "loot"
-				table_id: 13756307348121783L
+				id: "0F9919A21E5A9115"
+				type: "command"
+				title: "Logistics Loot Bag"
+				icon: "kubejs:loot_bag_rare"
+				command: "/execute at @p run loot spawn ~ ~1 ~ loot aof:loot_bags/logistics_loot"
+				player_command: false
 			}]
 		}
 		{
@@ -734,6 +844,14 @@
 				type: "checkmark"
 				title: "Modern Industrialization"
 			}]
+			rewards: [{
+				id: "0289F129F9CE3174"
+				type: "command"
+				title: "Logistics Loot Bag"
+				icon: "kubejs:loot_bag_rare"
+				command: "/execute at @p run loot spawn ~ ~1 ~ loot aof:loot_bags/logistics_loot"
+				player_command: false
+			}]
 		}
 		{
 			x: 9.0d
@@ -751,6 +869,14 @@
 				id: "77F4F6BBF4F8AF10"
 				type: "checkmark"
 				title: "Tech Reborn"
+			}]
+			rewards: [{
+				id: "6684F6DC9CAE4099"
+				type: "command"
+				title: "Logistics Loot Bag"
+				icon: "kubejs:loot_bag_rare"
+				command: "/execute at @p run loot spawn ~ ~1 ~ loot aof:loot_bags/logistics_loot"
+				player_command: false
 			}]
 		}
 		{
@@ -772,6 +898,14 @@
 				type: "checkmark"
 				title: "Basic Storage"
 			}]
+			rewards: [{
+				id: "55BA37316372780E"
+				type: "command"
+				title: "Logistics Loot Bag"
+				icon: "kubejs:loot_bag_rare"
+				command: "/execute at @p run loot spawn ~ ~1 ~ loot aof:loot_bags/logistics_loot"
+				player_command: false
+			}]
 		}
 		{
 			x: 10.0d
@@ -785,9 +919,12 @@
 				item: "techreborn:low_voltage_su"
 			}]
 			rewards: [{
-				id: "6BCFFC63E293FF33"
-				type: "loot"
-				table_id: 13756307348121783L
+				id: "51E8CC97F0FFCE3F"
+				type: "command"
+				title: "Logistics Loot Bag"
+				icon: "kubejs:loot_bag_rare"
+				command: "/execute at @p run loot spawn ~ ~1 ~ loot aof:loot_bags/logistics_loot"
+				player_command: false
 			}]
 		}
 		{
@@ -801,9 +938,12 @@
 				item: "techreborn:medium_voltage_su"
 			}]
 			rewards: [{
-				id: "60800D3A82F21651"
-				type: "loot"
-				table_id: 13756307348121783L
+				id: "6646F59D46B39710"
+				type: "command"
+				title: "Logistics Loot Bag"
+				icon: "kubejs:loot_bag_rare"
+				command: "/execute at @p run loot spawn ~ ~1 ~ loot aof:loot_bags/logistics_loot"
+				player_command: false
 			}]
 		}
 		{
@@ -817,9 +957,12 @@
 				item: "techreborn:high_voltage_su"
 			}]
 			rewards: [{
-				id: "4D088EC493C6DA6F"
-				type: "loot"
-				table_id: 13756307348121783L
+				id: "76BA9A232020F5E7"
+				type: "command"
+				title: "Logistics Loot Bag"
+				icon: "kubejs:loot_bag_rare"
+				command: "/execute at @p run loot spawn ~ ~1 ~ loot aof:loot_bags/logistics_loot"
+				player_command: false
 			}]
 		}
 		{
@@ -833,9 +976,12 @@
 				item: "techreborn:interdimensional_su"
 			}]
 			rewards: [{
-				id: "49D278C607B09127"
-				type: "loot"
-				table_id: 13756307348121783L
+				id: "144FCF41DF913D7E"
+				type: "command"
+				title: "Logistics Loot Bag"
+				icon: "kubejs:loot_bag_rare"
+				command: "/execute at @p run loot spawn ~ ~1 ~ loot aof:loot_bags/logistics_loot"
+				player_command: false
 			}]
 		}
 		{
@@ -848,6 +994,14 @@
 				id: "0FB2E00F0013C475"
 				type: "checkmark"
 				title: "Industrial Revolution"
+			}]
+			rewards: [{
+				id: "71BE1B2B7093AB3F"
+				type: "command"
+				title: "Logistics Loot Bag"
+				icon: "kubejs:loot_bag_rare"
+				command: "/execute at @p run loot spawn ~ ~1 ~ loot aof:loot_bags/logistics_loot"
+				player_command: false
 			}]
 		}
 		{
@@ -862,9 +1016,12 @@
 				item: "indrev:lazuli_flux_container_mk1"
 			}]
 			rewards: [{
-				id: "4CCDE717AD8C1D5D"
-				type: "loot"
-				table_id: 13756307348121783L
+				id: "7CB044B242619859"
+				type: "command"
+				title: "Logistics Loot Bag"
+				icon: "kubejs:loot_bag_rare"
+				command: "/execute at @p run loot spawn ~ ~1 ~ loot aof:loot_bags/logistics_loot"
+				player_command: false
 			}]
 		}
 		{
@@ -878,9 +1035,12 @@
 				item: "indrev:lazuli_flux_container_mk2"
 			}]
 			rewards: [{
-				id: "00457C7CE2CE5D1C"
-				type: "loot"
-				table_id: 13756307348121783L
+				id: "519953F6D6B11901"
+				type: "command"
+				title: "Logistics Loot Bag"
+				icon: "kubejs:loot_bag_rare"
+				command: "/execute at @p run loot spawn ~ ~1 ~ loot aof:loot_bags/logistics_loot"
+				player_command: false
 			}]
 		}
 		{
@@ -894,9 +1054,12 @@
 				item: "indrev:lazuli_flux_container_mk3"
 			}]
 			rewards: [{
-				id: "1B8728447568CD51"
-				type: "loot"
-				table_id: 13756307348121783L
+				id: "166A8960B2FC4432"
+				type: "command"
+				title: "Logistics Loot Bag"
+				icon: "kubejs:loot_bag_rare"
+				command: "/execute at @p run loot spawn ~ ~1 ~ loot aof:loot_bags/logistics_loot"
+				player_command: false
 			}]
 		}
 		{
@@ -910,9 +1073,12 @@
 				item: "indrev:lazuli_flux_container_mk4"
 			}]
 			rewards: [{
-				id: "51DF4433C363C8A8"
-				type: "loot"
-				table_id: 13756307348121783L
+				id: "302D196916FF2CCC"
+				type: "command"
+				title: "Logistics Loot Bag"
+				icon: "kubejs:loot_bag_rare"
+				command: "/execute at @p run loot spawn ~ ~1 ~ loot aof:loot_bags/logistics_loot"
+				player_command: false
 			}]
 		}
 		{
@@ -927,9 +1093,12 @@
 				item: "cyti:trashcan_item"
 			}]
 			rewards: [{
-				id: "15D4BF65951E6D1B"
-				type: "loot"
-				table_id: 13756307348121783L
+				id: "749FCE0B18300CE1"
+				type: "command"
+				title: "Logistics Loot Bag"
+				icon: "kubejs:loot_bag_rare"
+				command: "/execute at @p run loot spawn ~ ~1 ~ loot aof:loot_bags/logistics_loot"
+				player_command: false
 			}]
 		}
 		{
@@ -945,9 +1114,12 @@
 				item: "cyti:trashcan_fluid"
 			}]
 			rewards: [{
-				id: "0EB7671F315434B5"
-				type: "loot"
-				table_id: 13756307348121783L
+				id: "33FA8E922DB2D584"
+				type: "command"
+				title: "Logistics Loot Bag"
+				icon: "kubejs:loot_bag_rare"
+				command: "/execute at @p run loot spawn ~ ~1 ~ loot aof:loot_bags/logistics_loot"
+				player_command: false
 			}]
 		}
 		{
@@ -960,6 +1132,14 @@
 				id: "529C11C5A9056EB1"
 				type: "checkmark"
 				title: "Various trash cans."
+			}]
+			rewards: [{
+				id: "4509DE4D0C3A5CAE"
+				type: "command"
+				title: "Logistics Loot Bag"
+				icon: "kubejs:loot_bag_rare"
+				command: "/execute at @p run loot spawn ~ ~1 ~ loot aof:loot_bags/logistics_loot"
+				player_command: false
 			}]
 		}
 		{
@@ -975,9 +1155,12 @@
 				item: "cyti:trashcan_energy"
 			}]
 			rewards: [{
-				id: "59767BB9896E3756"
-				type: "loot"
-				table_id: 13756307348121783L
+				id: "27F3F7DA468A47FC"
+				type: "command"
+				title: "Logistics Loot Bag"
+				icon: "kubejs:loot_bag_rare"
+				command: "/execute at @p run loot spawn ~ ~1 ~ loot aof:loot_bags/logistics_loot"
+				player_command: false
 			}]
 		}
 	]

@@ -113,15 +113,12 @@
 					item: "modern_industrialization:bucket_steam"
 				}
 				{
-					id: "0F3A0CFB0F279107"
-					type: "item"
-					item: {
-						id: "modern_industrialization:iron_hammer"
-						Count: 1b
-						tag: {
-							Damage: 0
-						}
-					}
+					id: "6F560B31D5CF1579"
+					type: "command"
+					title: "MI Common Loot Bag"
+					icon: "kubejs:loot_bag_common"
+					command: "/execute at @p run loot spawn ~ ~1 ~ loot aof:loot_bags/modern_industrialization_common"
+					player_command: false
 				}
 			]
 		}
@@ -142,9 +139,12 @@
 				item: "modern_industrialization:bronze_compressor"
 			}]
 			rewards: [{
-				id: "5C3930FAAC5AFBB7"
-				type: "loot"
-				table_id: 13756307348121783L
+				id: "7001E0BE6F705515"
+				type: "command"
+				title: "MI Common Loot Bag"
+				icon: "kubejs:loot_bag_common"
+				command: "/execute at @p run loot spawn ~ ~1 ~ loot aof:loot_bags/modern_industrialization_common"
+				player_command: false
 			}]
 		}
 		{
@@ -170,9 +170,12 @@
 				item: "modern_industrialization:bronze_boiler"
 			}]
 			rewards: [{
-				id: "6D8ABEBC370E900C"
-				type: "loot"
-				table_id: 13756307348121783L
+				id: "48FE673386EA9DF8"
+				type: "command"
+				title: "MI Common Loot Bag"
+				icon: "kubejs:loot_bag_common"
+				command: "/execute at @p run loot spawn ~ ~1 ~ loot aof:loot_bags/modern_industrialization_common"
+				player_command: false
 			}]
 		}
 		{
@@ -223,9 +226,12 @@
 				}
 			]
 			rewards: [{
-				id: "28716AEA84F1837D"
-				type: "loot"
-				table_id: 13756307348121783L
+				id: "396455A4423FE42F"
+				type: "command"
+				title: "MI Common Loot Bag"
+				icon: "kubejs:loot_bag_common"
+				command: "/execute at @p run loot spawn ~ ~1 ~ loot aof:loot_bags/modern_industrialization_common"
+				player_command: false
 			}]
 		}
 		{
@@ -246,9 +252,12 @@
 				item: "modern_industrialization:bronze_macerator"
 			}]
 			rewards: [{
-				id: "3F303241ADEBDFBC"
-				type: "loot"
-				table_id: 13756307348121783L
+				id: "552FF114A2E605FB"
+				type: "command"
+				title: "MI Common Loot Bag"
+				icon: "kubejs:loot_bag_common"
+				command: "/execute at @p run loot spawn ~ ~1 ~ loot aof:loot_bags/modern_industrialization_common"
+				player_command: false
 			}]
 		}
 		{
@@ -299,11 +308,21 @@
 				type: "item"
 				item: "modern_industrialization:bronze_mixer"
 			}]
-			rewards: [{
-				id: "3BF5F814E7572F46"
-				type: "item"
-				item: "farmersdelight:mixed_salad"
-			}]
+			rewards: [
+				{
+					id: "3BF5F814E7572F46"
+					type: "item"
+					item: "farmersdelight:mixed_salad"
+				}
+				{
+					id: "14D7470722DF021C"
+					type: "command"
+					title: "MI Common Loot Bag"
+					icon: "kubejs:loot_bag_common"
+					command: "/execute at @p run loot spawn ~ ~1 ~ loot aof:loot_bags/modern_industrialization_common"
+					player_command: false
+				}
+			]
 		}
 		{
 			icon: "modern_industrialization:bronze_cutting_machine"
@@ -330,11 +349,21 @@
 					item: "modern_industrialization:bucket_lubricant"
 				}
 			]
-			rewards: [{
-				id: "5F81597D83BEA432"
-				type: "item"
-				item: "modern_industrialization:bucket_lubricant"
-			}]
+			rewards: [
+				{
+					id: "5F81597D83BEA432"
+					type: "item"
+					item: "modern_industrialization:bucket_lubricant"
+				}
+				{
+					id: "4357A53DDE035679"
+					type: "command"
+					title: "MI Common Loot Bag"
+					icon: "kubejs:loot_bag_common"
+					command: "/execute at @p run loot spawn ~ ~1 ~ loot aof:loot_bags/modern_industrialization_common"
+					player_command: false
+				}
+			]
 		}
 		{
 			title: "Fire Clay"
@@ -356,12 +385,22 @@
 				item: "modern_industrialization:fire_clay_brick"
 				count: 12L
 			}]
-			rewards: [{
-				id: "12FF8CCB7F2657F8"
-				type: "item"
-				item: "minecraft:clay_ball"
-				count: 16
-			}]
+			rewards: [
+				{
+					id: "12FF8CCB7F2657F8"
+					type: "item"
+					item: "minecraft:clay_ball"
+					count: 16
+				}
+				{
+					id: "7925D86DB1ADBA0A"
+					type: "command"
+					title: "MI Common Loot Bag"
+					icon: "kubejs:loot_bag_common"
+					command: "/execute at @p run loot spawn ~ ~1 ~ loot aof:loot_bags/modern_industrialization_common"
+					player_command: false
+				}
+			]
 		}
 		{
 			x: -8.0d
@@ -376,9 +415,12 @@
 				item: "modern_industrialization:bronze_furnace"
 			}]
 			rewards: [{
-				id: "17AC3EF54F4E9B84"
-				type: "loot"
-				table_id: 13756307348121783L
+				id: "42EAC7AF48F058B5"
+				type: "command"
+				title: "MI Common Loot Bag"
+				icon: "kubejs:loot_bag_common"
+				command: "/execute at @p run loot spawn ~ ~1 ~ loot aof:loot_bags/modern_industrialization_common"
+				player_command: false
 			}]
 		}
 		{
@@ -439,10 +481,12 @@
 				}
 			]
 			rewards: [{
-				id: "7B545F9C9DFD9A38"
-				type: "item"
-				item: "minecraft:coal"
-				count: 32
+				id: "28752E436B412354"
+				type: "command"
+				title: "MI Common Loot Bag"
+				icon: "kubejs:loot_bag_common"
+				command: "/execute at @p run loot spawn ~ ~1 ~ loot aof:loot_bags/modern_industrialization_common"
+				player_command: false
 			}]
 		}
 		{
@@ -470,11 +514,21 @@
 					item: "modern_industrialization:coke_dust"
 				}
 			]
-			rewards: [{
-				id: "5D4B74FC7E1B82E1"
-				type: "item"
-				item: "modern_industrialization:coke_block"
-			}]
+			rewards: [
+				{
+					id: "5D4B74FC7E1B82E1"
+					type: "item"
+					item: "modern_industrialization:coke_block"
+				}
+				{
+					id: "13869B898AB62912"
+					type: "command"
+					title: "MI Common Loot Bag"
+					icon: "kubejs:loot_bag_common"
+					command: "/execute at @p run loot spawn ~ ~1 ~ loot aof:loot_bags/modern_industrialization_common"
+					player_command: false
+				}
+			]
 		}
 		{
 			x: -8.0d
@@ -499,9 +553,12 @@
 				item: "modern_industrialization:bronze_water_pump"
 			}]
 			rewards: [{
-				id: "2AEDBF6DC1F8F0AA"
-				type: "loot"
-				table_id: 13756307348121783L
+				id: "5C2F3FDE9BA07D12"
+				type: "command"
+				title: "MI Common Loot Bag"
+				icon: "kubejs:loot_bag_common"
+				command: "/execute at @p run loot spawn ~ ~1 ~ loot aof:loot_bags/modern_industrialization_common"
+				player_command: false
 			}]
 		}
 		{
@@ -529,12 +586,22 @@
 				item: "modern_industrialization:fluid_pipe"
 				count: 16L
 			}]
-			rewards: [{
-				id: "1E311CE091051941"
-				type: "item"
-				item: "minecraft:red_dye"
-				count: 8
-			}]
+			rewards: [
+				{
+					id: "1E311CE091051941"
+					type: "item"
+					item: "minecraft:red_dye"
+					count: 8
+				}
+				{
+					id: "0172EDB1C9271EBA"
+					type: "command"
+					title: "MI Common Loot Bag"
+					icon: "kubejs:loot_bag_common"
+					command: "/execute at @p run loot spawn ~ ~1 ~ loot aof:loot_bags/modern_industrialization_common"
+					player_command: false
+				}
+			]
 		}
 		{
 			title: "Your First Steel"
@@ -558,9 +625,12 @@
 				item: "modern_industrialization:steel_ingot"
 			}]
 			rewards: [{
-				id: "36A1D42CD94293F6"
-				type: "loot"
-				table_id: 13756307348121783L
+				id: "3DC9B5592507D38E"
+				type: "command"
+				title: "MI Common Loot Bag"
+				icon: "kubejs:loot_bag_common"
+				command: "/execute at @p run loot spawn ~ ~1 ~ loot aof:loot_bags/modern_industrialization_common"
+				player_command: false
 			}]
 		}
 		{
@@ -597,9 +667,12 @@
 				count: 2L
 			}]
 			rewards: [{
-				id: "1055A70750FD98ED"
-				type: "loot"
-				table_id: 13756307348121783L
+				id: "3626C67460F937DB"
+				type: "command"
+				title: "MI Common Loot Bag"
+				icon: "kubejs:loot_bag_common"
+				command: "/execute at @p run loot spawn ~ ~1 ~ loot aof:loot_bags/modern_industrialization_common"
+				player_command: false
 			}]
 		}
 		{
@@ -642,9 +715,12 @@
 				}
 			]
 			rewards: [{
-				id: "388CF8B7A5818995"
-				type: "loot"
-				table_id: 13756307348121783L
+				id: "21D56C8F919971F6"
+				type: "command"
+				title: "MI Common Loot Bag"
+				icon: "kubejs:loot_bag_common"
+				command: "/execute at @p run loot spawn ~ ~1 ~ loot aof:loot_bags/modern_industrialization_common"
+				player_command: false
 			}]
 		}
 		{
@@ -661,9 +737,12 @@
 				count: 4L
 			}]
 			rewards: [{
-				id: "15C461D9898E5B96"
-				type: "loot"
-				table_id: 13756307348121783L
+				id: "45565E85A3748F82"
+				type: "command"
+				title: "MI Common Loot Bag"
+				icon: "kubejs:loot_bag_common"
+				command: "/execute at @p run loot spawn ~ ~1 ~ loot aof:loot_bags/modern_industrialization_common"
+				player_command: false
 			}]
 		}
 		{
@@ -705,9 +784,12 @@
 				item: "modern_industrialization:copper_drill"
 			}]
 			rewards: [{
-				id: "78C277549C6DE7D9"
-				type: "loot"
-				table_id: 13756307348121783L
+				id: "27105D71D0783646"
+				type: "command"
+				title: "MI Common Loot Bag"
+				icon: "kubejs:loot_bag_common"
+				command: "/execute at @p run loot spawn ~ ~1 ~ loot aof:loot_bags/modern_industrialization_common"
+				player_command: false
 			}]
 		}
 		{
@@ -747,9 +829,12 @@
 					}
 				}
 				{
-					id: "179716A30A8E8159"
-					type: "loot"
-					table_id: 13756307348121783L
+					id: "6F412718BD1E7E4B"
+					type: "command"
+					title: "MI Common Loot Bag"
+					icon: "kubejs:loot_bag_common"
+					command: "/execute at @p run loot spawn ~ ~1 ~ loot aof:loot_bags/modern_industrialization_common"
+					player_command: false
 				}
 			]
 		}
@@ -776,12 +861,22 @@
 				item: "modern_industrialization:item_pipe"
 				count: 16L
 			}]
-			rewards: [{
-				id: "0B0E01C14DDDB67F"
-				type: "item"
-				item: "minecraft:blue_dye"
-				count: 8
-			}]
+			rewards: [
+				{
+					id: "0B0E01C14DDDB67F"
+					type: "item"
+					item: "minecraft:blue_dye"
+					count: 8
+				}
+				{
+					id: "586EC7D8B901B2EA"
+					type: "command"
+					title: "MI Common Loot Bag"
+					icon: "kubejs:loot_bag_common"
+					command: "/execute at @p run loot spawn ~ ~1 ~ loot aof:loot_bags/modern_industrialization_common"
+					player_command: false
+				}
+			]
 		}
 		{
 			x: 0.5d
@@ -803,9 +898,12 @@
 					count: 2
 				}
 				{
-					id: "595100DEF7A3E778"
-					type: "loot"
-					table_id: 13756307348121783L
+					id: "1E8E41E1C77A88E0"
+					type: "command"
+					title: "MI Common Loot Bag"
+					icon: "kubejs:loot_bag_common"
+					command: "/execute at @p run loot spawn ~ ~1 ~ loot aof:loot_bags/modern_industrialization_common"
+					player_command: false
 				}
 			]
 		}
@@ -854,12 +952,22 @@
 					count: 9L
 				}
 			]
-			rewards: [{
-				id: "66C0E34F6FD976C3"
-				type: "item"
-				item: "modern_industrialization:white_fluid_pipe"
-				count: 16
-			}]
+			rewards: [
+				{
+					id: "66C0E34F6FD976C3"
+					type: "item"
+					item: "modern_industrialization:white_fluid_pipe"
+					count: 16
+				}
+				{
+					id: "62F27AE431AB6A53"
+					type: "command"
+					title: "MI Common Loot Bag"
+					icon: "kubejs:loot_bag_common"
+					command: "/execute at @p run loot spawn ~ ~1 ~ loot aof:loot_bags/modern_industrialization_common"
+					player_command: false
+				}
+			]
 		}
 		{
 			x: 0.5d
@@ -890,9 +998,12 @@
 					item: "modern_industrialization:bucket_steam"
 				}
 				{
-					id: "42827AC3574FC656"
-					type: "loot"
-					table_id: 13756307348121783L
+					id: "3235F60BAD5EF9C1"
+					type: "command"
+					title: "MI Common Loot Bag"
+					icon: "kubejs:loot_bag_common"
+					command: "/execute at @p run loot spawn ~ ~1 ~ loot aof:loot_bags/modern_industrialization_common"
+					player_command: false
 				}
 			]
 		}
@@ -916,9 +1027,12 @@
 					count: 4
 				}
 				{
-					id: "237C2BDF22DA6FD7"
-					type: "loot"
-					table_id: 13756307348121783L
+					id: "5AE03CB2DA0F4299"
+					type: "command"
+					title: "MI Common Loot Bag"
+					icon: "kubejs:loot_bag_common"
+					command: "/execute at @p run loot spawn ~ ~1 ~ loot aof:loot_bags/modern_industrialization_common"
+					player_command: false
 				}
 			]
 		}
@@ -969,9 +1083,12 @@
 					item: "modern_industrialization:steel_item_output_hatch"
 				}
 				{
-					id: "2F5FD71943FA8274"
-					type: "loot"
-					table_id: 13756307348121783L
+					id: "5F3136BD99FE1C05"
+					type: "command"
+					title: "MI Common Loot Bag"
+					icon: "kubejs:loot_bag_common"
+					command: "/execute at @p run loot spawn ~ ~1 ~ loot aof:loot_bags/modern_industrialization_common"
+					player_command: false
 				}
 			]
 		}
@@ -989,10 +1106,12 @@
 				item: "modern_industrialization:electronic_circuit"
 			}]
 			rewards: [{
-				id: "1377B51059BA71D4"
-				type: "item"
-				title: "MI Epic Loot Bag"
-				item: "kubejs:loot_bag_epic"
+				id: "6D38796977BD8F84"
+				type: "command"
+				title: "MI Rare Loot Bag"
+				icon: "kubejs:loot_bag_rare"
+				command: "/execute at @p run loot spawn ~ ~1 ~ loot aof:loot_bags/modern_industrialization_rare"
+				player_command: false
 			}]
 		}
 		{
@@ -1008,9 +1127,12 @@
 				item: "modern_industrialization:distillery"
 			}]
 			rewards: [{
-				id: "715875CA3ED0A56D"
-				type: "loot"
-				table_id: 13756307348121783L
+				id: "21FEB18A28B279DF"
+				type: "command"
+				title: "MI Rare Loot Bag"
+				icon: "kubejs:loot_bag_rare"
+				command: "/execute at @p run loot spawn ~ ~1 ~ loot aof:loot_bags/modern_industrialization_rare"
+				player_command: false
 			}]
 		}
 		{
@@ -1053,9 +1175,12 @@
 					item: "modern_industrialization:bucket_light_fuel"
 				}
 				{
-					id: "6CE155BD6F85710B"
-					type: "loot"
-					table_id: 13756307348121783L
+					id: "005355ACD6B0E16C"
+					type: "command"
+					title: "MI Rare Loot Bag"
+					icon: "kubejs:loot_bag_rare"
+					command: "/execute at @p run loot spawn ~ ~1 ~ loot aof:loot_bags/modern_industrialization_rare"
+					player_command: false
 				}
 			]
 		}
@@ -1076,9 +1201,12 @@
 				item: "modern_industrialization:digital_circuit"
 			}]
 			rewards: [{
-				id: "0D155806A704AA5E"
-				type: "loot"
-				table_id: 13756307348121783L
+				id: "6F8DD6AED5444B14"
+				type: "command"
+				title: "MI Epic Loot Bag"
+				icon: "kubejs:loot_bag_epic"
+				command: "/execute at @p run loot spawn ~ ~1 ~ loot aof:loot_bags/modern_industrialization_epic"
+				player_command: false
 			}]
 		}
 		{
@@ -1123,9 +1251,12 @@
 				}
 			]
 			rewards: [{
-				id: "49EB8376326F1A94"
-				type: "loot"
-				table_id: 13756307348121783L
+				id: "183D66E2F7AEB0A6"
+				type: "command"
+				title: "MI Rare Loot Bag"
+				icon: "kubejs:loot_bag_rare"
+				command: "/execute at @p run loot spawn ~ ~1 ~ loot aof:loot_bags/modern_industrialization_rare"
+				player_command: false
 			}]
 		}
 		{
@@ -1140,9 +1271,12 @@
 				item: "modern_industrialization:chemical_reactor"
 			}]
 			rewards: [{
-				id: "27A2D5918105F8D3"
-				type: "loot"
-				table_id: 13756307348121783L
+				id: "641199FDB7D87CF7"
+				type: "command"
+				title: "MI Rare Loot Bag"
+				icon: "kubejs:loot_bag_rare"
+				command: "/execute at @p run loot spawn ~ ~1 ~ loot aof:loot_bags/modern_industrialization_rare"
+				player_command: false
 			}]
 		}
 		{
@@ -1166,9 +1300,12 @@
 				item: "modern_industrialization:diesel_generator"
 			}]
 			rewards: [{
-				id: "6BF5CD2CA2398E59"
-				type: "loot"
-				table_id: 13756307348121783L
+				id: "5C70B8E95A5100BB"
+				type: "command"
+				title: "MI Rare Loot Bag"
+				icon: "kubejs:loot_bag_rare"
+				command: "/execute at @p run loot spawn ~ ~1 ~ loot aof:loot_bags/modern_industrialization_rare"
+				player_command: false
 			}]
 		}
 		{
@@ -1188,9 +1325,12 @@
 				item: "modern_industrialization:distillation_tower"
 			}]
 			rewards: [{
-				id: "37DD170F6A20628A"
-				type: "loot"
-				table_id: 13756307348121783L
+				id: "6BB49CCD899CE1BF"
+				type: "command"
+				title: "MI Rare Loot Bag"
+				icon: "kubejs:loot_bag_rare"
+				command: "/execute at @p run loot spawn ~ ~1 ~ loot aof:loot_bags/modern_industrialization_rare"
+				player_command: false
 			}]
 		}
 		{
@@ -1206,9 +1346,12 @@
 				item: "modern_industrialization:heat_exchanger"
 			}]
 			rewards: [{
-				id: "2D61A6BEF9497B4E"
-				type: "loot"
-				table_id: 13756307348121783L
+				id: "6B1AAE08EAA7828F"
+				type: "command"
+				title: "MI Rare Loot Bag"
+				icon: "kubejs:loot_bag_rare"
+				command: "/execute at @p run loot spawn ~ ~1 ~ loot aof:loot_bags/modern_industrialization_rare"
+				player_command: false
 			}]
 		}
 		{
@@ -1254,9 +1397,12 @@
 				}
 			]
 			rewards: [{
-				id: "5773C6D5F5E9118A"
-				type: "loot"
-				table_id: 13756307348121783L
+				id: "0469FE91B8600125"
+				type: "command"
+				title: "MI Rare Loot Bag"
+				icon: "kubejs:loot_bag_rare"
+				command: "/execute at @p run loot spawn ~ ~1 ~ loot aof:loot_bags/modern_industrialization_rare"
+				player_command: false
 			}]
 		}
 		{
@@ -1272,9 +1418,12 @@
 				item: "modern_industrialization:centrifuge"
 			}]
 			rewards: [{
-				id: "030957C1C31F31A1"
-				type: "loot"
-				table_id: 13756307348121783L
+				id: "1C5B1860219126FC"
+				type: "command"
+				title: "MI Rare Loot Bag"
+				icon: "kubejs:loot_bag_rare"
+				command: "/execute at @p run loot spawn ~ ~1 ~ loot aof:loot_bags/modern_industrialization_rare"
+				player_command: false
 			}]
 		}
 		{
@@ -1315,9 +1464,12 @@
 				}
 			]
 			rewards: [{
-				id: "35A961D0CC2B8B06"
-				type: "loot"
-				table_id: 13756307348121783L
+				id: "396BFBF0CD560873"
+				type: "command"
+				title: "MI Rare Loot Bag"
+				icon: "kubejs:loot_bag_rare"
+				command: "/execute at @p run loot spawn ~ ~1 ~ loot aof:loot_bags/modern_industrialization_rare"
+				player_command: false
 			}]
 		}
 		{
@@ -1332,9 +1484,12 @@
 				item: "modern_industrialization:gold_drill"
 			}]
 			rewards: [{
-				id: "6F9BE34823759C39"
-				type: "loot"
-				table_id: 13756307348121783L
+				id: "03EB4768E657D802"
+				type: "command"
+				title: "MI Rare Loot Bag"
+				icon: "kubejs:loot_bag_rare"
+				command: "/execute at @p run loot spawn ~ ~1 ~ loot aof:loot_bags/modern_industrialization_rare"
+				player_command: false
 			}]
 		}
 		{
@@ -1349,9 +1504,12 @@
 				item: "modern_industrialization:stainless_steel_drill"
 			}]
 			rewards: [{
-				id: "2DC1DBF9976DB237"
-				type: "loot"
-				table_id: 13756307348121783L
+				id: "36396713C83CF36D"
+				type: "command"
+				title: "MI Rare Loot Bag"
+				icon: "kubejs:loot_bag_rare"
+				command: "/execute at @p run loot spawn ~ ~1 ~ loot aof:loot_bags/modern_industrialization_rare"
+				player_command: false
 			}]
 		}
 		{
@@ -1366,9 +1524,12 @@
 				item: "modern_industrialization:steel_drill"
 			}]
 			rewards: [{
-				id: "7C21A5542D8CAE35"
-				type: "loot"
-				table_id: 13756307348121783L
+				id: "1B77941A10C729BB"
+				type: "command"
+				title: "MI Rare Loot Bag"
+				icon: "kubejs:loot_bag_rare"
+				command: "/execute at @p run loot spawn ~ ~1 ~ loot aof:loot_bags/modern_industrialization_rare"
+				player_command: false
 			}]
 		}
 		{
@@ -1388,9 +1549,12 @@
 				item: "modern_industrialization:advanced_upgrade"
 			}]
 			rewards: [{
-				id: "5F5B4F44466C5F14"
-				type: "loot"
-				table_id: 13756307348121783L
+				id: "01B96DE83B175CEF"
+				type: "command"
+				title: "MI Rare Loot Bag"
+				icon: "kubejs:loot_bag_rare"
+				command: "/execute at @p run loot spawn ~ ~1 ~ loot aof:loot_bags/modern_industrialization_rare"
+				player_command: false
 			}]
 		}
 		{
@@ -1404,9 +1568,12 @@
 				item: "modern_industrialization:mv_steam_turbine"
 			}]
 			rewards: [{
-				id: "0C55BAA10ED787D7"
-				type: "loot"
-				table_id: 13756307348121783L
+				id: "0779AB058E70BD8E"
+				type: "command"
+				title: "MI Rare Loot Bag"
+				icon: "kubejs:loot_bag_rare"
+				command: "/execute at @p run loot spawn ~ ~1 ~ loot aof:loot_bags/modern_industrialization_rare"
+				player_command: false
 			}]
 		}
 		{
@@ -1422,9 +1589,12 @@
 				item: "modern_industrialization:hv_steam_turbine"
 			}]
 			rewards: [{
-				id: "25B3E34D19921D92"
-				type: "loot"
-				table_id: 13756307348121783L
+				id: "53171C5BA7BBC1F0"
+				type: "command"
+				title: "MI Rare Loot Bag"
+				icon: "kubejs:loot_bag_rare"
+				command: "/execute at @p run loot spawn ~ ~1 ~ loot aof:loot_bags/modern_industrialization_rare"
+				player_command: false
 			}]
 		}
 		{
@@ -1446,9 +1616,12 @@
 				item: "modern_industrialization:turbo_diesel_generator"
 			}]
 			rewards: [{
-				id: "139DE6C871EC83D7"
-				type: "loot"
-				table_id: 13756307348121783L
+				id: "0B0768FA3561B409"
+				type: "command"
+				title: "MI Rare Loot Bag"
+				icon: "kubejs:loot_bag_rare"
+				command: "/execute at @p run loot spawn ~ ~1 ~ loot aof:loot_bags/modern_industrialization_rare"
+				player_command: false
 			}]
 		}
 		{
@@ -1472,9 +1645,12 @@
 				}
 			]
 			rewards: [{
-				id: "59BC7A734B41939A"
-				type: "loot"
-				table_id: 13756307348121783L
+				id: "3830FD26F201D3E3"
+				type: "command"
+				title: "MI Rare Loot Bag"
+				icon: "kubejs:loot_bag_rare"
+				command: "/execute at @p run loot spawn ~ ~1 ~ loot aof:loot_bags/modern_industrialization_rare"
+				player_command: false
 			}]
 		}
 		{
@@ -1489,9 +1665,12 @@
 				item: "modern_industrialization:electrolyzer"
 			}]
 			rewards: [{
-				id: "27BEE8715C458319"
-				type: "loot"
-				table_id: 13756307348121783L
+				id: "04DD0ADC4866C2BE"
+				type: "command"
+				title: "MI Rare Loot Bag"
+				icon: "kubejs:loot_bag_rare"
+				command: "/execute at @p run loot spawn ~ ~1 ~ loot aof:loot_bags/modern_industrialization_rare"
+				player_command: false
 			}]
 		}
 		{
@@ -1507,9 +1686,12 @@
 				item: "modern_industrialization:stainless_steel_ingot"
 			}]
 			rewards: [{
-				id: "32987C89A8901696"
-				type: "loot"
-				table_id: 13756307348121783L
+				id: "59E14D9DD9778615"
+				type: "command"
+				title: "MI Rare Loot Bag"
+				icon: "kubejs:loot_bag_rare"
+				command: "/execute at @p run loot spawn ~ ~1 ~ loot aof:loot_bags/modern_industrialization_rare"
+				player_command: false
 			}]
 		}
 		{
@@ -1525,9 +1707,12 @@
 				item: "modern_industrialization:screwdriver"
 			}]
 			rewards: [{
-				id: "1C4C438B1ECE028B"
-				type: "loot"
-				table_id: 13756307348121783L
+				id: "26A515C1321AA880"
+				type: "command"
+				title: "MI Rare Loot Bag"
+				icon: "kubejs:loot_bag_rare"
+				command: "/execute at @p run loot spawn ~ ~1 ~ loot aof:loot_bags/modern_industrialization_rare"
+				player_command: false
 			}]
 		}
 		{
@@ -1542,9 +1727,12 @@
 				count: 16L
 			}]
 			rewards: [{
-				id: "6DFD4B7A898CF0B1"
-				type: "loot"
-				table_id: 13756307348121783L
+				id: "0CCBEBFC08B82D75"
+				type: "command"
+				title: "MI Rare Loot Bag"
+				icon: "kubejs:loot_bag_rare"
+				command: "/execute at @p run loot spawn ~ ~1 ~ loot aof:loot_bags/modern_industrialization_rare"
+				player_command: false
 			}]
 		}
 		{
@@ -1558,9 +1746,12 @@
 				item: "modern_industrialization:titanium_ingot"
 			}]
 			rewards: [{
-				id: "6295E4B97FA674C8"
-				type: "loot"
-				table_id: 13756307348121783L
+				id: "30B765E9FE89A521"
+				type: "command"
+				title: "MI Epic Loot Bag"
+				icon: "kubejs:loot_bag_epic"
+				command: "/execute at @p run loot spawn ~ ~1 ~ loot aof:loot_bags/modern_industrialization_epic"
+				player_command: false
 			}]
 		}
 		{
@@ -1577,9 +1768,12 @@
 				item: "modern_industrialization:processing_unit"
 			}]
 			rewards: [{
-				id: "10D62CE7BBB003E8"
-				type: "loot"
-				table_id: 13756307348121783L
+				id: "34A778642E411FB6"
+				type: "command"
+				title: "MI Epic Loot Bag"
+				icon: "kubejs:loot_bag_epic"
+				command: "/execute at @p run loot spawn ~ ~1 ~ loot aof:loot_bags/modern_industrialization_epic"
+				player_command: false
 			}]
 		}
 		{
@@ -1593,9 +1787,12 @@
 				item: "modern_industrialization:raw_iridium"
 			}]
 			rewards: [{
-				id: "60C654118A8A98E8"
-				type: "loot"
-				table_id: 13756307348121783L
+				id: "0BA9AA260BE18BAE"
+				type: "command"
+				title: "MI Epic Loot Bag"
+				icon: "kubejs:loot_bag_epic"
+				command: "/execute at @p run loot spawn ~ ~1 ~ loot aof:loot_bags/modern_industrialization_epic"
+				player_command: false
 			}]
 		}
 		{
@@ -1609,9 +1806,12 @@
 				item: "modern_industrialization:blastproof_alloy_plate"
 			}]
 			rewards: [{
-				id: "58579E7BEFA7FA83"
-				type: "loot"
-				table_id: 13756307348121783L
+				id: "4B5AD252C810AE64"
+				type: "command"
+				title: "MI Epic Loot Bag"
+				icon: "kubejs:loot_bag_epic"
+				command: "/execute at @p run loot spawn ~ ~1 ~ loot aof:loot_bags/modern_industrialization_epic"
+				player_command: false
 			}]
 		}
 		{
@@ -1644,9 +1844,12 @@
 				}
 			]
 			rewards: [{
-				id: "704D05C0FD5AE2DE"
-				type: "loot"
-				table_id: 13756307348121783L
+				id: "044666AE408A2535"
+				type: "command"
+				title: "MI Epic Loot Bag"
+				icon: "kubejs:loot_bag_epic"
+				command: "/execute at @p run loot spawn ~ ~1 ~ loot aof:loot_bags/modern_industrialization_epic"
+				player_command: false
 			}]
 		}
 		{
@@ -1660,9 +1863,12 @@
 				item: "modern_industrialization:superconductor_cable"
 			}]
 			rewards: [{
-				id: "4AED232043169928"
-				type: "loot"
-				table_id: 13756307348121783L
+				id: "3F5E66DB336CE458"
+				type: "command"
+				title: "MI Epic Loot Bag"
+				icon: "kubejs:loot_bag_epic"
+				command: "/execute at @p run loot spawn ~ ~1 ~ loot aof:loot_bags/modern_industrialization_epic"
+				player_command: false
 			}]
 		}
 		{
@@ -1682,9 +1888,12 @@
 				item: "modern_industrialization:gravichestplate"
 			}]
 			rewards: [{
-				id: "2A2212FD1CFE5243"
-				type: "loot"
-				table_id: 13756307348121783L
+				id: "0F3F2F64ADF73F89"
+				type: "command"
+				title: "MI Epic Loot Bag"
+				icon: "kubejs:loot_bag_epic"
+				command: "/execute at @p run loot spawn ~ ~1 ~ loot aof:loot_bags/modern_industrialization_epic"
+				player_command: false
 			}]
 		}
 		{
@@ -1719,9 +1928,12 @@
 				}
 			]
 			rewards: [{
-				id: "72B642876E498FE0"
-				type: "loot"
-				table_id: 13756307348121783L
+				id: "7CE4055A59833461"
+				type: "command"
+				title: "MI Epic Loot Bag"
+				icon: "kubejs:loot_bag_epic"
+				command: "/execute at @p run loot spawn ~ ~1 ~ loot aof:loot_bags/modern_industrialization_epic"
+				player_command: false
 			}]
 		}
 		{
@@ -1735,9 +1947,12 @@
 				item: "modern_industrialization:mixed_ingot_iridium"
 			}]
 			rewards: [{
-				id: "4B78044EDEFCD8D7"
-				type: "loot"
-				table_id: 13756307348121783L
+				id: "362A38DC8EE3237B"
+				type: "command"
+				title: "MI Epic Loot Bag"
+				icon: "kubejs:loot_bag_epic"
+				command: "/execute at @p run loot spawn ~ ~1 ~ loot aof:loot_bags/modern_industrialization_epic"
+				player_command: false
 			}]
 		}
 		{
@@ -1751,9 +1966,12 @@
 				item: "modern_industrialization:quantum_circuit"
 			}]
 			rewards: [{
-				id: "0BEC20C9D3E3FA0D"
-				type: "loot"
-				table_id: 13756307348121783L
+				id: "761EE1FFEA889D2C"
+				type: "command"
+				title: "MI Legendary Loot Bag"
+				icon: "kubejs:loot_bag_legendary"
+				command: "/execute at @p run loot spawn ~ ~1 ~ loot aof:loot_bags/modern_industrialization_legendary"
+				player_command: false
 			}]
 		}
 		{
@@ -1768,9 +1986,12 @@
 				item: "modern_industrialization:quantum_upgrade"
 			}]
 			rewards: [{
-				id: "284AB7D05FCF1B41"
-				type: "loot"
-				table_id: 13756307348121783L
+				id: "6B88385840BCFBA5"
+				type: "command"
+				title: "MI Legendary Loot Bag"
+				icon: "kubejs:loot_bag_legendary"
+				command: "/execute at @p run loot spawn ~ ~1 ~ loot aof:loot_bags/modern_industrialization_legendary"
+				player_command: false
 			}]
 		}
 		{
@@ -1805,9 +2026,12 @@
 				}
 			]
 			rewards: [{
-				id: "5BA1266B129C0A12"
-				type: "loot"
-				table_id: 13756307348121783L
+				id: "3250ACF1DEC619C2"
+				type: "command"
+				title: "MI Legendary Loot Bag"
+				icon: "kubejs:loot_bag_legendary"
+				command: "/execute at @p run loot spawn ~ ~1 ~ loot aof:loot_bags/modern_industrialization_legendary"
+				player_command: false
 			}]
 		}
 		{
@@ -1837,9 +2061,12 @@
 				}
 			]
 			rewards: [{
-				id: "62C30F884D4BFEED"
-				type: "loot"
-				table_id: 13756307348121783L
+				id: "07414D157B23750C"
+				type: "command"
+				title: "MI Legendary Loot Bag"
+				icon: "kubejs:loot_bag_legendary"
+				command: "/execute at @p run loot spawn ~ ~1 ~ loot aof:loot_bags/modern_industrialization_legendary"
+				player_command: false
 			}]
 		}
 		{
@@ -1855,9 +2082,12 @@
 				item: "modern_industrialization:replicator"
 			}]
 			rewards: [{
-				id: "248F0A4526643230"
-				type: "loot"
-				table_id: 13756307348121783L
+				id: "4C56240331B631CE"
+				type: "command"
+				title: "MI Legendary Loot Bag"
+				icon: "kubejs:loot_bag_legendary"
+				command: "/execute at @p run loot spawn ~ ~1 ~ loot aof:loot_bags/modern_industrialization_legendary"
+				player_command: false
 			}]
 		}
 		{
@@ -1904,9 +2134,12 @@
 				}
 			]
 			rewards: [{
-				id: "6FE1BA3464183B72"
-				type: "loot"
-				table_id: 13756307348121783L
+				id: "67C99C7740908624"
+				type: "command"
+				title: "MI Legendary Loot Bag"
+				icon: "kubejs:loot_bag_legendary"
+				command: "/execute at @p run loot spawn ~ ~1 ~ loot aof:loot_bags/modern_industrialization_legendary"
+				player_command: false
 			}]
 		}
 		{
@@ -1964,9 +2197,12 @@
 				}
 			]
 			rewards: [{
-				id: "129DB4B4FFE26E14"
-				type: "loot"
-				table_id: 13756307348121783L
+				id: "1FF91A9F296F1EA6"
+				type: "command"
+				title: "MI Epic Loot Bag"
+				icon: "kubejs:loot_bag_epic"
+				command: "/execute at @p run loot spawn ~ ~1 ~ loot aof:loot_bags/modern_industrialization_epic"
+				player_command: false
 			}]
 		}
 		{
@@ -1981,9 +2217,12 @@
 				item: "modern_industrialization:nuke"
 			}]
 			rewards: [{
-				id: "251F9B88A53BD193"
-				type: "loot"
-				table_id: 13756307348121783L
+				id: "07E7F15A42476A42"
+				type: "command"
+				title: "MI Legendary Loot Bag"
+				icon: "kubejs:loot_bag_legendary"
+				command: "/execute at @p run loot spawn ~ ~1 ~ loot aof:loot_bags/modern_industrialization_legendary"
+				player_command: false
 			}]
 		}
 		{
@@ -1999,9 +2238,12 @@
 				item: "modern_industrialization:singularity"
 			}]
 			rewards: [{
-				id: "6220D6964E84DF80"
-				type: "loot"
-				table_id: 13756307348121783L
+				id: "63D55445EF5C055D"
+				type: "command"
+				title: "MI Legendary Loot Bag"
+				icon: "kubejs:loot_bag_legendary"
+				command: "/execute at @p run loot spawn ~ ~1 ~ loot aof:loot_bags/modern_industrialization_legendary"
+				player_command: false
 			}]
 		}
 		{
@@ -2016,18 +2258,14 @@
 				type: "item"
 				item: "modern_industrialization:bucket_uu_matter"
 			}]
-			rewards: [
-				{
-					id: "5B72A41410DB60FF"
-					type: "item"
-					item: "minecraft:flint"
-				}
-				{
-					id: "527FADF1DB02BCCC"
-					type: "loot"
-					table_id: 13756307348121783L
-				}
-			]
+			rewards: [{
+				id: "727FD343F9AFD1D1"
+				type: "command"
+				title: "MI Legendary Loot Bag"
+				icon: "kubejs:loot_bag_legendary"
+				command: "/execute at @p run loot spawn ~ ~1 ~ loot aof:loot_bags/modern_industrialization_legendary"
+				player_command: false
+			}]
 		}
 		{
 			x: 16.0d
@@ -2040,9 +2278,12 @@
 				item: "modern_industrialization:highly_advanced_upgrade"
 			}]
 			rewards: [{
-				id: "2FFAE69D34EB05DB"
-				type: "loot"
-				table_id: 13756307348121783L
+				id: "13680572A9242A9C"
+				type: "command"
+				title: "MI Epic Loot Bag"
+				icon: "kubejs:loot_bag_epic"
+				command: "/execute at @p run loot spawn ~ ~1 ~ loot aof:loot_bags/modern_industrialization_epic"
+				player_command: false
 			}]
 		}
 		{
@@ -2057,9 +2298,12 @@
 				item: "modern_industrialization:aluminum_drill"
 			}]
 			rewards: [{
-				id: "29DCA64EF4A010A8"
-				type: "loot"
-				table_id: 13756307348121783L
+				id: "051635AF3BFC0C18"
+				type: "command"
+				title: "MI Rare Loot Bag"
+				icon: "kubejs:loot_bag_rare"
+				command: "/execute at @p run loot spawn ~ ~1 ~ loot aof:loot_bags/modern_industrialization_rare"
+				player_command: false
 			}]
 		}
 		{
@@ -2074,9 +2318,12 @@
 				item: "modern_industrialization:titanium_drill"
 			}]
 			rewards: [{
-				id: "296D56D21B0D054D"
-				type: "loot"
-				table_id: 13756307348121783L
+				id: "586C185E7626220E"
+				type: "command"
+				title: "MI Epic Loot Bag"
+				icon: "kubejs:loot_bag_epic"
+				command: "/execute at @p run loot spawn ~ ~1 ~ loot aof:loot_bags/modern_industrialization_epic"
+				player_command: false
 			}]
 		}
 		{
@@ -2098,9 +2345,12 @@
 				item: "modern_industrialization:wrench"
 			}]
 			rewards: [{
-				id: "5D84F5B463C03DB4"
-				type: "loot"
-				table_id: 13756307348121783L
+				id: "73FC4F1F9C48A7A4"
+				type: "command"
+				title: "MI Common Loot Bag"
+				icon: "kubejs:loot_bag_common"
+				command: "/execute at @p run loot spawn ~ ~1 ~ loot aof:loot_bags/modern_industrialization_common"
+				player_command: false
 			}]
 		}
 		{
@@ -2122,9 +2372,12 @@
 					item: "modern_industrialization:basic_machine_hull"
 				}
 				{
-					id: "5439E2873F9B26C5"
-					type: "loot"
-					table_id: 13756307348121783L
+					id: "7C030FCC64179FA0"
+					type: "command"
+					title: "MI Common Loot Bag"
+					icon: "kubejs:loot_bag_common"
+					command: "/execute at @p run loot spawn ~ ~1 ~ loot aof:loot_bags/modern_industrialization_common"
+					player_command: false
 				}
 			]
 		}
@@ -2165,9 +2418,12 @@
 					item: "modern_industrialization:steel_item_output_hatch"
 				}
 				{
-					id: "3EF55DE0CF3FE333"
-					type: "loot"
-					table_id: 13756307348121783L
+					id: "4CF31744EC697161"
+					type: "command"
+					title: "MI Common Loot Bag"
+					icon: "kubejs:loot_bag_common"
+					command: "/execute at @p run loot spawn ~ ~1 ~ loot aof:loot_bags/modern_industrialization_common"
+					player_command: false
 				}
 			]
 		}
@@ -2184,9 +2440,12 @@
 				item: "modern_industrialization:steel_packer"
 			}]
 			rewards: [{
-				id: "64ABA029EB796AD1"
-				type: "loot"
-				table_id: 13756307348121783L
+				id: "2F02995FFC62B094"
+				type: "command"
+				title: "MI Common Loot Bag"
+				icon: "kubejs:loot_bag_common"
+				command: "/execute at @p run loot spawn ~ ~1 ~ loot aof:loot_bags/modern_industrialization_common"
+				player_command: false
 			}]
 		}
 		{
@@ -2201,9 +2460,12 @@
 				item: "modern_industrialization:steel_unpacker"
 			}]
 			rewards: [{
-				id: "2ABA2304997809DD"
-				type: "loot"
-				table_id: 13756307348121783L
+				id: "2073E7B9271D4734"
+				type: "command"
+				title: "MI Common Loot Bag"
+				icon: "kubejs:loot_bag_common"
+				command: "/execute at @p run loot spawn ~ ~1 ~ loot aof:loot_bags/modern_industrialization_common"
+				player_command: false
 			}]
 		}
 		{
@@ -2230,9 +2492,12 @@
 				item: "modern_industrialization:tin_cable"
 			}]
 			rewards: [{
-				id: "7ABBD7E8207C36A2"
-				type: "loot"
-				table_id: 13756307348121783L
+				id: "1CB0BB6DD7CFCB9A"
+				type: "command"
+				title: "MI Common Loot Bag"
+				icon: "kubejs:loot_bag_common"
+				command: "/execute at @p run loot spawn ~ ~1 ~ loot aof:loot_bags/modern_industrialization_common"
+				player_command: false
 			}]
 		}
 		{
@@ -2248,9 +2513,12 @@
 				item: "modern_industrialization:advanced_large_steam_boiler"
 			}]
 			rewards: [{
-				id: "3018FE391FB1338D"
-				type: "loot"
-				table_id: 13756307348121783L
+				id: "47A6DDF0F4E11A37"
+				type: "command"
+				title: "MI Rare Loot Bag"
+				icon: "kubejs:loot_bag_rare"
+				command: "/execute at @p run loot spawn ~ ~1 ~ loot aof:loot_bags/modern_industrialization_rare"
+				player_command: false
 			}]
 		}
 	]

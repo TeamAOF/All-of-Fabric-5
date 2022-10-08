@@ -61,7 +61,7 @@ const UNIFICATION_ORDER = [
     "bewitchment",
     "techreborn",
     "croptopia",
-    "dwarfcoal",
+    "tinycoal",
     "ae2"
 ];
 // List of tags NOT to unify

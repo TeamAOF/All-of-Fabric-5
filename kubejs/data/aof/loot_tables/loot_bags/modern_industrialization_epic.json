@@ -29,7 +29,7 @@
           {
             "type": "minecraft:item",
             "weight": 1,
-            "name": "minecraft:titanium_ingot",
+            "name": "modern_industrialization:titanium_ingot",
             "functions": [
               {
                 "function": "set_count",

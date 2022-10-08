@@ -454,21 +454,6 @@
               "function": "set_count"
             }
           ]
-        },
-        {
-          "type": "minecraft:item",
-          "weight": 1,
-          "name": "hexcasting:battery",
-          "functions": [
-            {
-              "count": 1,
-              "function": "set_count"
-            },
-            {
-              "nbt": "\"hexcasting:start_mana\": 64000000, \"hexcasting:mana\": 64000000",
-              "function": "set_nbt"
-            }
-          ]
         }
       ]
     }

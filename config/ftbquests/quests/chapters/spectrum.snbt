@@ -868,8 +868,8 @@
 			}]
 		}
 		{
-			x: 1.5d
-			y: -1.0d
+			x: 0.0d
+			y: 0.0d
 			description: ["Spectrum Mid Game"]
 			id: "5D1A91608FE45D0A"
 			tasks: [{
@@ -880,8 +880,8 @@
 			}]
 		}
 		{
-			x: 0.5d
-			y: 0.0d
+			x: -1.0d
+			y: 0.5d
 			description: ["Spectrum Early Game"]
 			id: "790E66B088B92037"
 			tasks: [{

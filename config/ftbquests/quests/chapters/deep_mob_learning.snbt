@@ -58,9 +58,12 @@
 				}
 			}]
 			rewards: [{
-				id: "2A43BE265ABEC909"
-				type: "loot"
-				table_id: 13756307348121783L
+				id: "6D39804BC9E3AA29"
+				type: "command"
+				title: "Logistics Loot Bag"
+				icon: "kubejs:loot_bag_rare"
+				command: "/execute at @p run loot spawn ~ ~1 ~ loot aof:loot_bags/logistics_loot"
+				player_command: false
 			}]
 		}
 		{
@@ -88,9 +91,12 @@
 				item: "dml-refabricated:deep_learner"
 			}]
 			rewards: [{
-				id: "2BE95BADFA9C8930"
-				type: "loot"
-				table_id: 13756307348121783L
+				id: "24E54C592B54840E"
+				type: "command"
+				title: "Logistics Loot Bag"
+				icon: "kubejs:loot_bag_rare"
+				command: "/execute at @p run loot spawn ~ ~1 ~ loot aof:loot_bags/logistics_loot"
+				player_command: false
 			}]
 		}
 		{
@@ -116,9 +122,12 @@
 				item: "dml-refabricated:trial_keystone"
 			}]
 			rewards: [{
-				id: "0395867049AA29C8"
-				type: "loot"
-				table_id: 13756307348121783L
+				id: "2922D79803BEB8A9"
+				type: "command"
+				title: "Logistics Loot Bag"
+				icon: "kubejs:loot_bag_rare"
+				command: "/execute at @p run loot spawn ~ ~1 ~ loot aof:loot_bags/logistics_loot"
+				player_command: false
 			}]
 		}
 		{
@@ -150,9 +159,12 @@
 				}
 			}]
 			rewards: [{
-				id: "51F8CDFE8B1CCB36"
-				type: "loot"
-				table_id: 13756307348121783L
+				id: "2F11FB1FBE8F2077"
+				type: "command"
+				title: "Logistics Loot Bag"
+				icon: "kubejs:loot_bag_rare"
+				command: "/execute at @p run loot spawn ~ ~1 ~ loot aof:loot_bags/logistics_loot"
+				player_command: false
 			}]
 		}
 		{
@@ -178,9 +190,12 @@
 				item: "dml-refabricated:loot_fabricator"
 			}]
 			rewards: [{
-				id: "601B95CDEEBD475B"
-				type: "loot"
-				table_id: 13756307348121783L
+				id: "186B737840C8B647"
+				type: "command"
+				title: "Logistics Loot Bag"
+				icon: "kubejs:loot_bag_rare"
+				command: "/execute at @p run loot spawn ~ ~1 ~ loot aof:loot_bags/logistics_loot"
+				player_command: false
 			}]
 		}
 		{
@@ -206,9 +221,12 @@
 				item: "dml-refabricated:glitch_ingot"
 			}]
 			rewards: [{
-				id: "01DD1F65D5A323BD"
-				type: "loot"
-				table_id: 13756307348121783L
+				id: "061DACF0DAC50134"
+				type: "command"
+				title: "Logistics Loot Bag"
+				icon: "kubejs:loot_bag_rare"
+				command: "/execute at @p run loot spawn ~ ~1 ~ loot aof:loot_bags/logistics_loot"
+				player_command: false
 			}]
 		}
 		{
@@ -278,9 +296,12 @@
 				}
 			}]
 			rewards: [{
-				id: "1B4D0D7590B856A4"
-				type: "loot"
-				table_id: 13756307348121783L
+				id: "0935C73FBB5428BE"
+				type: "command"
+				title: "Logistics Loot Bag"
+				icon: "kubejs:loot_bag_rare"
+				command: "/execute at @p run loot spawn ~ ~1 ~ loot aof:loot_bags/logistics_loot"
+				player_command: false
 			}]
 		}
 		{
@@ -310,9 +331,12 @@
 				item: "dmlsimulacrum:simulation_chamber"
 			}]
 			rewards: [{
-				id: "107F3399260A39C4"
-				type: "loot"
-				table_id: 13756307348121783L
+				id: "5C4A5C14C469184E"
+				type: "command"
+				title: "Logistics Loot Bag"
+				icon: "kubejs:loot_bag_rare"
+				command: "/execute at @p run loot spawn ~ ~1 ~ loot aof:loot_bags/logistics_loot"
+				player_command: false
 			}]
 		}
 		{
@@ -334,9 +358,12 @@
 				item: "dml-refabricated:matter_condenser"
 			}]
 			rewards: [{
-				id: "1744FE1986CFACE1"
-				type: "loot"
-				table_id: 13756307348121783L
+				id: "74773B13C07B3687"
+				type: "command"
+				title: "Logistics Loot Bag"
+				icon: "kubejs:loot_bag_rare"
+				command: "/execute at @p run loot spawn ~ ~1 ~ loot aof:loot_bags/logistics_loot"
+				player_command: false
 			}]
 		}
 		{
@@ -351,9 +378,12 @@
 				item: "dml-refabricated:machine_casing"
 			}]
 			rewards: [{
-				id: "2C2031F8B50172C0"
-				type: "loot"
-				table_id: 13756307348121783L
+				id: "2CE3B1984CA4AE5F"
+				type: "command"
+				title: "Logistics Loot Bag"
+				icon: "kubejs:loot_bag_rare"
+				command: "/execute at @p run loot spawn ~ ~1 ~ loot aof:loot_bags/logistics_loot"
+				player_command: false
 			}]
 		}
 		{
@@ -370,11 +400,6 @@
 				id: "5EEB04255651FBAE"
 				type: "item"
 				item: "dml-refabricated:soot_redstone"
-			}]
-			rewards: [{
-				id: "2BFFE5842B51C9B2"
-				type: "loot"
-				table_id: 13756307348121783L
 			}]
 		}
 	]

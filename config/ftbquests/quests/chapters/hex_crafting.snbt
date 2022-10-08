@@ -1,7 +1,7 @@
 {
-	id: "348271A54BB37833"
+	id: "4816F22B229A6BFA"
 	group: "1039AC171AB01709"
-	order_index: 6
+	order_index: 5
 	filename: "hex_crafting"
 	title: "Hex Casting"
 	icon: {
@@ -25,9 +25,9 @@
 				"Everything starts with the book, it contains in depth explanations of each of the fascinating aspects of this mod, and it should serve as your primary guide."
 			]
 			size: 1.5d
-			id: "4252A38586D03A53"
+			id: "283C1A5435769DC3"
 			tasks: [{
-				id: "0D900F1602208DA0"
+				id: "106DBE8A609241D3"
 				type: "item"
 				item: {
 					id: "patchouli:guide_book"
@@ -45,18 +45,21 @@
 			shape: "hexagon"
 			subtitle: "Doing Crystal Math."
 			description: ["\"Media\" is the main form of energy in this mod, and it can be harvested in large amounts by the amethyst crystals found in amethyst geodes."]
-			dependencies: ["6F8C2950CDBADBAB"]
-			id: "5BC046EE9DA34F8B"
+			dependencies: ["283C1A5435769DC3"]
+			id: "69395421DAE17328"
 			tasks: [{
-				id: "137483525196C48F"
+				id: "224024A2F685E7F1"
 				type: "item"
 				item: "minecraft:amethyst_shard"
 				count: 16L
 			}]
 			rewards: [{
-				id: "739E77FD3C8599F1"
-				type: "random"
-				table_id: 13756307348121783L
+				id: "400D92E358195047"
+				type: "command"
+				title: "Magic Common Loot Bag"
+				icon: "kubejs:loot_bag_common"
+				command: "/execute at @p run loot spawn ~ ~1 ~ loot aof:loot_bags/magic_common"
+				player_command: false
 			}]
 		}
 		{
@@ -66,10 +69,10 @@
 			shape: "hexagon"
 			subtitle: "It's \"Leviosaaahhh\" not \"Leviosaawwhh\""
 			description: ["The staff will be the tool you use to cast all your spells in Hex Casting. You can make a staff out of all wood types"]
-			dependencies: ["0F0E609FC69C98FC"]
-			id: "340AADE478705219"
+			dependencies: ["69395421DAE17328"]
+			id: "5B94C77A29A3BF35"
 			tasks: [{
-				id: "601A5641D7B38747"
+				id: "60DA89048ED4422C"
 				type: "item"
 				title: "Any #hexcasting:wands"
 				item: {
@@ -81,9 +84,8 @@
 				}
 			}]
 			rewards: [{
-				id: "0F5DE639DFCA1064"
+				id: "0FD96026D5753F4A"
 				type: "random"
-				table_id: 13756307348121783L
 			}]
 		}
 		{
@@ -97,29 +99,32 @@
 				""
 				"For more information, refer to the Hex Casting guidebook's entry on the Scrolls"
 			]
-			dependencies: ["36CC85728721D4D2"]
-			id: "20EBC5BD68761401"
+			dependencies: ["69395421DAE17328"]
+			id: "4AB770D7E88D2367"
 			tasks: [
 				{
-					id: "4272962A6F2D2680"
+					id: "1CEAE5B5FF63D6F6"
 					type: "item"
 					item: "hexcasting:scroll_small"
 				}
 				{
-					id: "078CC65FC7CE44F5"
+					id: "028137F86D23B35D"
 					type: "item"
 					item: "hexcasting:scroll_medium"
 				}
 				{
-					id: "2B4D8FE09AF3E57C"
+					id: "0A5D0BD1B6CD619C"
 					type: "item"
 					item: "hexcasting:scroll"
 				}
 			]
 			rewards: [{
-				id: "3E43D3EC4E4C394D"
-				type: "random"
-				table_id: 13756307348121783L
+				id: "4DC6FEECB5D0660F"
+				type: "command"
+				title: "Magic Rare Loot Bag"
+				icon: "kubejs:loot_bag_rare"
+				command: "/execute at @p run loot spawn ~ ~1 ~ loot aof:loot_bags/magic_rare"
+				player_command: false
 			}]
 		}
 		{
@@ -135,10 +140,10 @@
 				""
 				"For more information, refer to the Hex Casting guidebook's entry on the Spell book."
 			]
-			dependencies: ["36CC85728721D4D2"]
-			id: "082ABBC02405D6D1"
+			dependencies: ["68FF81FF5F625057"]
+			id: "6C1EC07A6CB811D7"
 			tasks: [{
-				id: "37859C9446E6A84B"
+				id: "7B1111F9109F7B79"
 				type: "item"
 				item: {
 					id: "hexcasting:spellbook"
@@ -150,9 +155,12 @@
 				}
 			}]
 			rewards: [{
-				id: "453371AA4AD2AF6F"
-				type: "random"
-				table_id: 13756307348121783L
+				id: "16589DA1527D54AD"
+				type: "command"
+				title: "Magic Epic Loot Bag"
+				icon: "kubejs:loot_bag_epic"
+				command: "/execute at @p run loot spawn ~ ~1 ~ loot aof:loot_bags/magic_epic"
+				player_command: false
 			}]
 		}
 		{
@@ -168,17 +176,20 @@
 				""
 				"For more information, refer to the Hex Casting guidebook's entry on the Casting Items"
 			]
-			dependencies: ["4445C93E728D1CC0"]
-			id: "5EE9FF0FABBD08BE"
+			dependencies: ["69395421DAE17328"]
+			id: "4A5B2026DD41B03B"
 			tasks: [{
-				id: "5AC49257D72E9706"
+				id: "00ADE7C16BC23A65"
 				type: "item"
 				item: "hexcasting:cypher"
 			}]
 			rewards: [{
-				id: "7E49C982E9B6AF27"
-				type: "random"
-				table_id: 13756307348121783L
+				id: "68B8256373505442"
+				type: "command"
+				title: "Magic Common Loot Bag"
+				icon: "kubejs:loot_bag_common"
+				command: "/execute at @p run loot spawn ~ ~1 ~ loot aof:loot_bags/magic_common"
+				player_command: false
 			}]
 		}
 		{
@@ -188,17 +199,20 @@
 			shape: "hexagon"
 			subtitle: "A Curios little thing."
 			description: ["Like the Cypher, the Trinket is capable is storing the patterns in a Hex. Unlike the Cypher, the Trinket does not break once depleted of its internal battery, but can't be used when empty. The internal battery is rechargable though."]
-			dependencies: ["74903327FAD0D4F5"]
-			id: "56C3EF9E95B1C994"
+			dependencies: ["4A5B2026DD41B03B"]
+			id: "103EE7B28300222E"
 			tasks: [{
-				id: "17F947D54B5279A9"
+				id: "10EE322291807F66"
 				type: "item"
 				item: "hexcasting:trinket"
 			}]
 			rewards: [{
-				id: "27B7A6E897EB1DE3"
-				type: "random"
-				table_id: 13756307348121783L
+				id: "5BE3B1B58E9381EB"
+				type: "command"
+				title: "Magic Common Loot Bag"
+				icon: "kubejs:loot_bag_common"
+				command: "/execute at @p run loot spawn ~ ~1 ~ loot aof:loot_bags/magic_common"
+				player_command: false
 			}]
 		}
 		{
@@ -212,17 +226,20 @@
 				""
 				"Unlike the Trinket, however, the Artifact is not useless when depleted, instead it's capable of using the caster's Media. Be careful! Just like casting spells with the staff, if you don't have enough Media bad things can happen..."
 			]
-			dependencies: ["37BF94B195E4E97F"]
-			id: "2DB3474F920BB0E9"
+			dependencies: ["103EE7B28300222E"]
+			id: "18AE8D45D703112B"
 			tasks: [{
-				id: "305A41076DB3C95F"
+				id: "6FEF127BDA178AFB"
 				type: "item"
 				item: "hexcasting:artifact"
 			}]
 			rewards: [{
-				id: "671423DDBB97009A"
-				type: "random"
-				table_id: 13756307348121783L
+				id: "2230FDDEE32B0BAE"
+				type: "command"
+				title: "Magic Rare Loot Bag"
+				icon: "kubejs:loot_bag_rare"
+				command: "/execute at @p run loot spawn ~ ~1 ~ loot aof:loot_bags/magic_rare"
+				player_command: false
 			}]
 		}
 		{
@@ -237,17 +254,20 @@
 				""
 				"For more information, refer to the Hex Casting guidebook's entry on the Focus."
 			]
-			dependencies: ["4445C93E728D1CC0"]
-			id: "0F3CAC66250185EE"
+			dependencies: ["4AB770D7E88D2367"]
+			id: "68FF81FF5F625057"
 			tasks: [{
-				id: "23E5B009077FC12D"
+				id: "3077C39AB753498D"
 				type: "item"
 				item: "hexcasting:focus"
 			}]
 			rewards: [{
-				id: "1D371308CF502ECA"
-				type: "random"
-				table_id: 13756307348121783L
+				id: "7CE76C673424F96E"
+				type: "command"
+				title: "Magic Rare Loot Bag"
+				icon: "kubejs:loot_bag_rare"
+				command: "/execute at @p run loot spawn ~ ~1 ~ loot aof:loot_bags/magic_rare"
+				player_command: false
 			}]
 		}
 	]

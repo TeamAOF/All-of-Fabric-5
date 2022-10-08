@@ -201,11 +201,6 @@
 			}]
 			rewards: [
 				{
-					id: "22B2ADA03AFDEA66"
-					type: "random"
-					table_id: 13756307348121783L
-				}
-				{
 					id: "58C5F7DE3E58FC9A"
 					type: "item"
 					item: {
@@ -216,6 +211,14 @@
 						}
 					}
 					count: 3
+				}
+				{
+					id: "782848F30A7E0FBD"
+					type: "command"
+					title: "Agriculturist Bag"
+					icon: "kubejs:loot_bag_agriculture"
+					command: "/execute at @p run loot spawn ~ ~1 ~ loot aof:loot_bags/agriculturist_loot"
+					player_command: false
 				}
 			]
 		}
