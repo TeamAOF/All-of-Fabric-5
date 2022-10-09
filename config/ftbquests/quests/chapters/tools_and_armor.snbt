@@ -2125,5 +2125,51 @@
 				title: "Kitchen basics"
 			}]
 		}
+		{
+			title: "Advanced Netherite"
+			x: -1.0d
+			y: 2.5d
+			subtitle: "Every Netherite tier has its own unique properties."
+			dependencies: ["300FAC6161C1BCDB"]
+			id: "38832A16DF4E54C3"
+			tasks: [{
+				id: "3615732C6A2C7334"
+				type: "item"
+				item: {
+					id: "itemfilters:tag"
+					Count: 1b
+					tag: {
+						value: "advancednetherite:tiers/tools"
+					}
+				}
+			}]
+			rewards: [{
+				id: "036E6B1FD2BBE842"
+				type: "random"
+			}]
+		}
+		{
+			title: "Advanced Netherite"
+			x: -7.5d
+			y: -2.5d
+			subtitle: "Every Netherite tier has its own unique properties."
+			dependencies: ["35F0E2CEEE9D9AD0"]
+			id: "76184D2FC1EAB9C9"
+			tasks: [{
+				id: "795D749CAC452D48"
+				type: "item"
+				item: {
+					id: "itemfilters:tag"
+					Count: 1b
+					tag: {
+						value: "advancednetherite:tiers/armor"
+					}
+				}
+			}]
+			rewards: [{
+				id: "70A0FF7C62A8601A"
+				type: "random"
+			}]
+		}
 	]
 }

@@ -84,8 +84,12 @@
 				}
 			}]
 			rewards: [{
-				id: "0FD96026D5753F4A"
-				type: "random"
+				id: "024EF75238327A45"
+				type: "command"
+				title: "Magic Rare Loot Bag"
+				icon: "kubejs:loot_bag_rare"
+				command: "/execute at @p run loot spawn ~ ~1 ~ loot aof:loot_bags/magic_rare"
+				player_command: false
 			}]
 		}
 		{

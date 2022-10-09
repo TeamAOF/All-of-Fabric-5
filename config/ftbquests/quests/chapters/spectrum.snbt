@@ -1175,6 +1175,30 @@
 				advancement: "spectrum:midgame/manifest_memory"
 				criterion: ""
 			}]
+		}
+		{
+			x: 0.5d
+			y: -1.5d
+			description: ["Spectrum Early Game"]
+			id: "4633BD56EB73878E"
+			tasks: [{
+				id: "40C0CB2A7FAF0059"
+				type: "advancement"
+				advancement: "spectrum:spectrum"
+				criterion: ""
+			}]
+		}
+		{
+			x: 14.0d
+			y: 0.0d
+			dependencies: ["1810EB195B0CC509"]
+			id: "6420EDFA9F18BE57"
+			tasks: [{
+				id: "0CC337E14063328D"
+				type: "advancement"
+				advancement: "spectrum:midgame/collect_lightning_stone"
+				criterion: ""
+			}]
 			rewards: [{
 				id: "67D07D2FAF2BC836"
 				type: "command"
@@ -1238,13 +1262,44 @@
 				advancement: "spectrum:midgame/harvest_moonstruck_nectar"
 				criterion: ""
 			}]
-			rewards: [{
-				id: "3BC2CC0916F563FD"
-				type: "command"
-				title: "Magic Epic Loot Bag"
-				icon: "kubejs:loot_bag_epic"
-				command: "/execute at @p run loot spawn ~ ~1 ~ loot aof:loot_bags/magic_epic"
-				player_command: false
+		}
+		{
+			x: 21.5d
+			y: 3.0d
+			dependencies: ["27A271B2A51373A6"]
+			hide: true
+			id: "667B4354FA2AF6F7"
+			tasks: [{
+				id: "4B874C7E0BEE0877"
+				type: "advancement"
+				advancement: "spectrum:midgame/craft_blacklisted_memory_success"
+				criterion: ""
+			}]
+		}
+		{
+			x: 20.0d
+			y: 3.0d
+			dependencies: ["3E84D82AC7429CF4"]
+			hide: false
+			id: "66A2F12DEAD0ED43"
+			tasks: [{
+				id: "196A04617F4890D9"
+				type: "advancement"
+				advancement: "spectrum:midgame/craft_blacklisted_memory_fail"
+				criterion: ""
+			}]
+		}
+		{
+			x: 18.5d
+			y: 1.5d
+			dependencies: ["3DE03D1D2B4BC9D0"]
+			hide: true
+			id: "5D3B0B85D44E5199"
+			tasks: [{
+				id: "2DB96965C6F8165C"
+				type: "advancement"
+				advancement: "spectrum:midgame/harvest_moonstruck_nectar"
+				criterion: ""
 			}]
 		}
 		{
@@ -1259,14 +1314,6 @@
 				advancement: "spectrum:midgame/create_budding_onyx"
 				criterion: ""
 			}]
-			rewards: [{
-				id: "5D1DF895ECE5DEC1"
-				type: "command"
-				title: "Magic Legendary Loot Bag"
-				icon: "kubejs:loot_bag_legendary"
-				command: "/execute at @p run loot spawn ~ ~1 ~ loot aof:loot_bags/magic_legendary"
-				player_command: false
-			}]
 		}
 		{
 			x: 17.0d
@@ -1279,14 +1326,6 @@
 				type: "advancement"
 				advancement: "spectrum:midgame/drink_restoration_tea_with_milk"
 				criterion: ""
-			}]
-			rewards: [{
-				id: "7FAD3FB5088A5D60"
-				type: "command"
-				title: "Magic Epic Loot Bag"
-				icon: "kubejs:loot_bag_epic"
-				command: "/execute at @p run loot spawn ~ ~1 ~ loot aof:loot_bags/magic_epic"
-				player_command: false
 			}]
 		}
 		{
@@ -1342,6 +1381,114 @@
 			id: "3EF90588748BCDE8"
 			tasks: [{
 				id: "7F62A84995E6AC3A"
+				type: "advancement"
+				advancement: "spectrum:midgame/get_azure_dike_charge"
+				criterion: ""
+			}]
+			rewards: [{
+				id: "3BC2CC0916F563FD"
+				type: "command"
+				title: "Magic Epic Loot Bag"
+				icon: "kubejs:loot_bag_epic"
+				command: "/execute at @p run loot spawn ~ ~1 ~ loot aof:loot_bags/magic_epic"
+				player_command: false
+			}]
+		}
+		{
+			x: 20.0d
+			y: 1.5d
+			dependencies: ["117B54FCAF3A40B9"]
+			hide: true
+			id: "415041F587AD2F54"
+			tasks: [{
+				id: "00CE3E9281756425"
+				type: "advancement"
+				advancement: "spectrum:midgame/create_budding_onyx"
+				criterion: ""
+			}]
+			rewards: [{
+				id: "5D1DF895ECE5DEC1"
+				type: "command"
+				title: "Magic Legendary Loot Bag"
+				icon: "kubejs:loot_bag_legendary"
+				command: "/execute at @p run loot spawn ~ ~1 ~ loot aof:loot_bags/magic_legendary"
+				player_command: false
+			}]
+		}
+		{
+			x: 17.0d
+			y: 0.0d
+			dependencies: ["3DE03D1D2B4BC9D0"]
+			hide: true
+			id: "23F900A90BD1B3F0"
+			tasks: [{
+				id: "77E45818AD1736A7"
+				type: "advancement"
+				advancement: "spectrum:midgame/drink_restoration_tea_with_milk"
+				criterion: ""
+			}]
+			rewards: [{
+				id: "7FAD3FB5088A5D60"
+				type: "command"
+				title: "Magic Epic Loot Bag"
+				icon: "kubejs:loot_bag_epic"
+				command: "/execute at @p run loot spawn ~ ~1 ~ loot aof:loot_bags/magic_epic"
+				player_command: false
+			}]
+		}
+		{
+			title: "Not Yet Available in Survival"
+			x: 17.0d
+			y: 6.0d
+			description: ["Not Yet Available in Survival"]
+			dependencies: ["16AFA6ABBF50A54C"]
+			hide: true
+			id: "758FBBEBBE548F84"
+			tasks: [{
+				id: "0C469844199D51E9"
+				type: "advancement"
+				advancement: "spectrum:midgame/enter_dimension"
+				criterion: ""
+			}]
+		}
+		{
+			title: "Not Yet Available in Survival"
+			x: 18.5d
+			y: 6.0d
+			description: ["Not Yet Available in Survival"]
+			dependencies: ["5F98F94ABEC9673E"]
+			hide: true
+			id: "00C734F0D9738F03"
+			tasks: [{
+				id: "3116D019C567A203"
+				type: "advancement"
+				advancement: "spectrum:midgame/collect_moonstone_shard"
+				criterion: ""
+			}]
+		}
+		{
+			title: "Not Yet Available in Survival"
+			x: 20.0d
+			y: 6.0d
+			description: ["Not Yet Available in Survival"]
+			dependencies: ["6210877F3EE8EE4C"]
+			hide: true
+			id: "170C0EA9B803F989"
+			tasks: [{
+				id: "56DA68437383F6E4"
+				type: "advancement"
+				advancement: "spectrum:midgame/craft_moonstone_pedestal"
+				criterion: ""
+			}]
+		}
+		{
+			x: 12.5d
+			y: 4.5d
+			dependencies: ["28CB44142633D257"]
+			hide: true
+			id: "63324AB90E6CACA5"
+			tasks: [{
+				id: "561A16B9AECAA063"
 				type: "advancement"
 				advancement: "spectrum:midgame/get_azure_dike_charge"
 				criterion: ""

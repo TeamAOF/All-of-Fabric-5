@@ -535,9 +535,9 @@
 				title: "Kibe and Rings"
 			}]
 			rewards: [{
-				id: "5EC9036E96573500"
-				type: "xp_levels"
-				xp_levels: 60
+				id: "5FEA7261502B2EA7"
+				type: "xp"
+				xp: 100
 			}]
 		}
 		{
