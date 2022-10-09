@@ -32,6 +32,7 @@ onEvent('recipes', (event) => {
     'create:blasting/platinum_ingot_compat_modern_industrialization',
     'indrev:smelting/tungsten_ingot_from_raw_ores',
     'createplus:createplus/ore_processing/nickel/modern_industrialization/smelting',
+    'travelersbackpack:travelers_backpack',
 
     ];
 
