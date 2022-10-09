@@ -26,9 +26,9 @@ _Fabric Loader 0.14.9_ | _[Mod Updates](https://github.com/TeamAOF/All-of-Fabric
 
 ### Removed
 
-  * [Better Compatibility Checker](https://www.curseforge.com/minecraft/mc-mods/better-compatibility-checker)
-  * [Continuity](https://www.curseforge.com/minecraft/mc-mods/continuity)
-  * [Ellemes' Container Library](https://www.curseforge.com/minecraft/mc-mods/ellemes-container-library)
+  * [Better Compatibility Checker](https://www.curseforge.com/minecraft/mc-mods/better-compatibility-checker) (Overlapping text with Built In Servers)
+  * [Continuity](https://www.curseforge.com/minecraft/mc-mods/continuity) (Replaced by CTM)
+  * [Ellemes' Container Library](https://www.curseforge.com/minecraft/mc-mods/ellemes-container-library) (Not used anymore)
   * [Macaw's Bridges - Oh The Biomes You'll Go](https://www.curseforge.com/minecraft/mc-mods/macaws-bridges-oh-the-biomes-youll-go) (Insane loading times)
   * [Paladin's Furniture](https://www.curseforge.com/minecraft/mc-mods/paladins-furniture) (Insane loading times)
 ---
