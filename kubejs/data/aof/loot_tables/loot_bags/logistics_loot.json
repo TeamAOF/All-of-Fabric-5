@@ -94,7 +94,7 @@
             },
             {
               "type": "minecraft:item",
-              "weight": 1,
+              "weight": 2,
               "name": "ae2:silicon",
               "functions": [
                 {
@@ -138,7 +138,7 @@
             },
             {
               "type": "minecraft:item",
-              "weight": 1,
+              "weight": 2,
               "name": "ae2:fluix_glass_cable",
               "functions": [
                 {
@@ -149,7 +149,7 @@
             },
             {
               "type": "minecraft:item",
-              "weight": 1,
+              "weight": 2,
               "name": "ae2:fluix_smart_cable",
               "functions": [
                 {
@@ -160,7 +160,7 @@
             },
             {
               "type": "minecraft:item",
-              "weight": 1,
+              "weight": 2,
               "name": "ae2:formation_core",
               "functions": [
                 {
@@ -170,7 +170,7 @@
               ]
             },            {
               "type": "minecraft:item",
-              "weight": 1,
+              "weight": 2,
               "name": "ae2:annihilation_core",
               "functions": [
                 {
@@ -181,7 +181,7 @@
             },
             {
               "type": "minecraft:item",
-              "weight": 1,
+              "weight": 2,
               "name": "ironchests:iron_chest",
               "functions": [
                 {
@@ -192,7 +192,7 @@
             },
             {
               "type": "minecraft:item",
-              "weight": 1,
+              "weight": 2,
               "name": "ironchests:gold_chest",
               "functions": [
                 {
@@ -335,7 +335,7 @@
             },
             {
               "type": "minecraft:item",
-              "weight": 1,
+              "weight": 2,
               "name": "kibe:white_sleeping_bag",
               "functions": [
                 {
@@ -346,7 +346,7 @@
             },
             {
               "type": "minecraft:item",
-              "weight": 1,
+              "weight": 2,
               "name": "dml-refabricated:soot_redstone",
               "functions": [
                 {
