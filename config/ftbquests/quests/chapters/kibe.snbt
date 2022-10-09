@@ -998,28 +998,8 @@
 			}]
 		}
 		{
-			x: 7.5d
-			y: -7.0d
-			subtitle: "Throws the player in the sky when charged while aiming at a block."
-			dependencies: ["168F737F6246967F"]
-			id: "020189CFCFC6C06B"
-			tasks: [{
-				id: "17F6FAC5607F17D5"
-				type: "item"
-				item: "kibe:slime_sling"
-			}]
-			rewards: [{
-				id: "3AF9806AEB7FAD8B"
-				type: "command"
-				title: "Utilities Bag"
-				icon: "kubejs:loot_bag_epic"
-				command: "/execute at @p run loot spawn ~ ~1 ~ loot aof:loot_bags/utilities_loot"
-				player_command: false
-			}]
-		}
-		{
 			x: 5.5d
-			y: -7.0d
+			y: -7.5d
 			subtitle: "It slings torches, pretty obvious."
 			dependencies: ["168F737F6246967F"]
 			id: "1BD0C018E49A7DD9"
@@ -1039,7 +1019,7 @@
 		}
 		{
 			x: 7.5d
-			y: -4.0d
+			y: -3.5d
 			subtitle: "It does what a magnet does, magnetize items towards you."
 			dependencies: ["168F737F6246967F"]
 			id: "1043B10D063173A3"
@@ -1153,7 +1133,7 @@
 			}]
 		}
 		{
-			x: 6.5d
+			x: 5.5d
 			y: -3.5d
 			dependencies: ["168F737F6246967F"]
 			id: "070E67FCDB179F5C"
@@ -1178,7 +1158,7 @@
 			}]
 		}
 		{
-			x: 6.5d
+			x: 7.5d
 			y: -7.5d
 			dependencies: ["168F737F6246967F"]
 			id: "52D48B65A5F04D87"
@@ -1197,35 +1177,9 @@
 			}]
 		}
 		{
+			title: "Gliders"
 			x: 4.5d
 			y: -5.0d
-			subtitle: "Negates fall damage and makes the player bounce when hitting the floor with considerable speed."
-			dependencies: ["168F737F6246967F"]
-			id: "4E0CC10FCA19F0FF"
-			tasks: [{
-				id: "4DAE46A25DF5971F"
-				type: "item"
-				item: {
-					id: "kibe:slime_boots"
-					Count: 1b
-					tag: {
-						Damage: 0
-					}
-				}
-			}]
-			rewards: [{
-				id: "66203D8D43E4669E"
-				type: "command"
-				title: "Utilities Bag"
-				icon: "kubejs:loot_bag_epic"
-				command: "/execute at @p run loot spawn ~ ~1 ~ loot aof:loot_bags/utilities_loot"
-				player_command: false
-			}]
-		}
-		{
-			title: "Gliders"
-			x: 5.5d
-			y: -4.0d
 			subtitle: "Held by a player, will allow them to glide through the skies instead of falling normally."
 			dependencies: ["168F737F6246967F"]
 			id: "5348E2881E7A3F7D"
@@ -1239,83 +1193,83 @@
 						items: [
 							{
 								id: "kibe:white_glider"
-								tag: { }
 								Count: 1b
+								tag: { }
 							}
 							{
 								id: "kibe:orange_glider"
-								tag: { }
 								Count: 1b
+								tag: { }
 							}
 							{
 								id: "kibe:magenta_glider"
-								tag: { }
 								Count: 1b
+								tag: { }
 							}
 							{
 								id: "kibe:light_blue_glider"
-								tag: { }
 								Count: 1b
+								tag: { }
 							}
 							{
 								id: "kibe:yellow_glider"
-								tag: { }
 								Count: 1b
+								tag: { }
 							}
 							{
 								id: "kibe:lime_glider"
-								tag: { }
 								Count: 1b
+								tag: { }
 							}
 							{
 								id: "kibe:pink_glider"
-								tag: { }
 								Count: 1b
+								tag: { }
 							}
 							{
 								id: "kibe:gray_glider"
-								tag: { }
 								Count: 1b
+								tag: { }
 							}
 							{
 								id: "kibe:light_gray_glider"
-								tag: { }
 								Count: 1b
+								tag: { }
 							}
 							{
 								id: "kibe:cyan_glider"
-								tag: { }
 								Count: 1b
+								tag: { }
 							}
 							{
 								id: "kibe:blue_glider"
-								tag: { }
 								Count: 1b
+								tag: { }
 							}
 							{
 								id: "kibe:purple_glider"
-								tag: { }
 								Count: 1b
+								tag: { }
 							}
 							{
 								id: "kibe:green_glider"
-								tag: { }
 								Count: 1b
+								tag: { }
 							}
 							{
 								id: "kibe:brown_glider"
-								tag: { }
 								Count: 1b
+								tag: { }
 							}
 							{
 								id: "kibe:red_glider"
-								tag: { }
 								Count: 1b
+								tag: { }
 							}
 							{
 								id: "kibe:black_glider"
-								tag: { }
 								Count: 1b
+								tag: { }
 							}
 						]
 					}
@@ -1521,7 +1475,7 @@
 		}
 		{
 			x: 8.5d
-			y: -6.0d
+			y: -6.5d
 			subtitle: "Cancels any mob spawning that requires no light in a configurable area. Useful to protect your base and to clean caves and dungeons."
 			dependencies: ["168F737F6246967F"]
 			id: "15D2E510EC4863F0"
@@ -1541,7 +1495,7 @@
 		}
 		{
 			x: 4.5d
-			y: -6.0d
+			y: -6.5d
 			subtitle: "When stepped upon, can teleport the player upwards and downwards, as long as it finds another elevator directly above or below it."
 			dependencies: ["168F737F6246967F"]
 			id: "1F7A66B361535659"

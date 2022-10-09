@@ -65,10 +65,10 @@
 					tag: {
 						Damage: 0
 						state: {
+							data: { }
 							state: {
 								Name: "minecraft:air"
 							}
-							data: { }
 							serializer: "buildinggadgets:dummy_serializer"
 						}
 					}
@@ -99,10 +99,10 @@
 					tag: {
 						Damage: 0
 						state: {
+							data: { }
 							state: {
 								Name: "minecraft:air"
 							}
-							data: { }
 							serializer: "buildinggadgets:dummy_serializer"
 						}
 					}
@@ -213,8 +213,8 @@
 					Count: 1b
 					tag: {
 						overlay: 1b
-						Damage: 0
 						fuzzy: 1b
+						Damage: 0
 					}
 				}
 			}]
@@ -542,30 +542,30 @@
 							items: [
 								{
 									id: "compactmachines:tunnel"
+									Count: 1b
 									tag: {
 										definition: {
 											id: "compactmachines:item"
 										}
 									}
-									Count: 1b
 								}
 								{
 									id: "compactmachines:tunnel"
+									Count: 1b
 									tag: {
 										definition: {
 											id: "compactmachines:fluid"
 										}
 									}
-									Count: 1b
 								}
 								{
 									id: "compactmachines:tunnel"
+									Count: 1b
 									tag: {
 										definition: {
 											id: "compactmachines:energy"
 										}
 									}
-									Count: 1b
 								}
 							]
 						}
