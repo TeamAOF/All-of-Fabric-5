@@ -2131,9 +2131,9 @@
 			y: 2.5d
 			subtitle: "Every Netherite tier has its own unique properties."
 			dependencies: ["300FAC6161C1BCDB"]
-			id: "6A5ED6653D734805"
+			id: "38832A16DF4E54C3"
 			tasks: [{
-				id: "0809C64ADB415234"
+				id: "3615732C6A2C7334"
 				type: "item"
 				item: {
 					id: "itemfilters:tag"
@@ -2146,7 +2146,6 @@
 			rewards: [{
 				id: "036E6B1FD2BBE842"
 				type: "random"
-				table_id: 13756307348121783L
 			}]
 		}
 		{
@@ -2155,9 +2154,9 @@
 			y: -2.5d
 			subtitle: "Every Netherite tier has its own unique properties."
 			dependencies: ["35F0E2CEEE9D9AD0"]
-			id: "1AB242681EF30210"
+			id: "76184D2FC1EAB9C9"
 			tasks: [{
-				id: "4E2C968C442F487C"
+				id: "795D749CAC452D48"
 				type: "item"
 				item: {
 					id: "itemfilters:tag"
@@ -2170,7 +2169,6 @@
 			rewards: [{
 				id: "70A0FF7C62A8601A"
 				type: "random"
-				table_id: 13756307348121783L
 			}]
 		}
 	]

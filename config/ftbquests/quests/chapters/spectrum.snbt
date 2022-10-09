@@ -1180,9 +1180,9 @@
 			x: 0.5d
 			y: -1.5d
 			description: ["Spectrum Early Game"]
-			id: "790E66B088B92037"
+			id: "4633BD56EB73878E"
 			tasks: [{
-				id: "5EA6ED20EC868381"
+				id: "40C0CB2A7FAF0059"
 				type: "advancement"
 				advancement: "spectrum:spectrum"
 				criterion: ""
@@ -1192,9 +1192,9 @@
 			x: 14.0d
 			y: 0.0d
 			dependencies: ["1810EB195B0CC509"]
-			id: "38BEF83AFD8EA081"
+			id: "6420EDFA9F18BE57"
 			tasks: [{
-				id: "37714CE4A2C0677A"
+				id: "0CC337E14063328D"
 				type: "advancement"
 				advancement: "spectrum:midgame/collect_lightning_stone"
 				criterion: ""
@@ -1268,9 +1268,9 @@
 			y: 3.0d
 			dependencies: ["27A271B2A51373A6"]
 			hide: true
-			id: "0858F0938EC383B5"
+			id: "667B4354FA2AF6F7"
 			tasks: [{
-				id: "4553B6B160CCB2A8"
+				id: "4B874C7E0BEE0877"
 				type: "advancement"
 				advancement: "spectrum:midgame/craft_blacklisted_memory_success"
 				criterion: ""
@@ -1281,9 +1281,9 @@
 			y: 3.0d
 			dependencies: ["3E84D82AC7429CF4"]
 			hide: false
-			id: "27A271B2A51373A6"
+			id: "66A2F12DEAD0ED43"
 			tasks: [{
-				id: "6A5DE0060CB4295D"
+				id: "196A04617F4890D9"
 				type: "advancement"
 				advancement: "spectrum:midgame/craft_blacklisted_memory_fail"
 				criterion: ""
@@ -1294,9 +1294,9 @@
 			y: 1.5d
 			dependencies: ["3DE03D1D2B4BC9D0"]
 			hide: true
-			id: "117B54FCAF3A40B9"
+			id: "5D3B0B85D44E5199"
 			tasks: [{
-				id: "6AD46CD52B099DC4"
+				id: "2DB96965C6F8165C"
 				type: "advancement"
 				advancement: "spectrum:midgame/harvest_moonstruck_nectar"
 				criterion: ""
@@ -1399,9 +1399,9 @@
 			y: 1.5d
 			dependencies: ["117B54FCAF3A40B9"]
 			hide: true
-			id: "1699D14B24CE2883"
+			id: "415041F587AD2F54"
 			tasks: [{
-				id: "5C67C82C30066C6D"
+				id: "00CE3E9281756425"
 				type: "advancement"
 				advancement: "spectrum:midgame/create_budding_onyx"
 				criterion: ""
@@ -1420,9 +1420,9 @@
 			y: 0.0d
 			dependencies: ["3DE03D1D2B4BC9D0"]
 			hide: true
-			id: "45A0C4DCB8627325"
+			id: "23F900A90BD1B3F0"
 			tasks: [{
-				id: "46F1C8320E9FDDCF"
+				id: "77E45818AD1736A7"
 				type: "advancement"
 				advancement: "spectrum:midgame/drink_restoration_tea_with_milk"
 				criterion: ""
@@ -1443,9 +1443,9 @@
 			description: ["Not Yet Available in Survival"]
 			dependencies: ["16AFA6ABBF50A54C"]
 			hide: true
-			id: "5F98F94ABEC9673E"
+			id: "758FBBEBBE548F84"
 			tasks: [{
-				id: "45F1F7513D75C6CD"
+				id: "0C469844199D51E9"
 				type: "advancement"
 				advancement: "spectrum:midgame/enter_dimension"
 				criterion: ""
@@ -1458,9 +1458,9 @@
 			description: ["Not Yet Available in Survival"]
 			dependencies: ["5F98F94ABEC9673E"]
 			hide: true
-			id: "6210877F3EE8EE4C"
+			id: "00C734F0D9738F03"
 			tasks: [{
-				id: "4E87AAAACAB88424"
+				id: "3116D019C567A203"
 				type: "advancement"
 				advancement: "spectrum:midgame/collect_moonstone_shard"
 				criterion: ""
@@ -1473,9 +1473,9 @@
 			description: ["Not Yet Available in Survival"]
 			dependencies: ["6210877F3EE8EE4C"]
 			hide: true
-			id: "0023E8716BF866A2"
+			id: "170C0EA9B803F989"
 			tasks: [{
-				id: "267D7B7EE7A7C67A"
+				id: "56DA68437383F6E4"
 				type: "advancement"
 				advancement: "spectrum:midgame/craft_moonstone_pedestal"
 				criterion: ""
@@ -1486,9 +1486,9 @@
 			y: 4.5d
 			dependencies: ["28CB44142633D257"]
 			hide: true
-			id: "3EF90588748BCDE8"
+			id: "63324AB90E6CACA5"
 			tasks: [{
-				id: "7F62A84995E6AC3A"
+				id: "561A16B9AECAA063"
 				type: "advancement"
 				advancement: "spectrum:midgame/get_azure_dike_charge"
 				criterion: ""

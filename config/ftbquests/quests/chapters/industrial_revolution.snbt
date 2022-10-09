@@ -64,20 +64,14 @@
 				type: "item"
 				item: "indrev:circuit_mk1"
 			}]
-			rewards: [
-				{
-					id: "60234C95A7D3BCFD"
-					type: "loot"
-				}
-				{
-					id: "238F5DC73A868F07"
-					type: "command"
-					title: "IR Common Loot Bag"
-					icon: "kubejs:loot_bag_common"
-					command: "/execute at @p run loot spawn ~ ~1 ~ loot aof:loot_bags/industrial_revolution_loot_common"
-					player_command: false
-				}
-			]
+			rewards: [{
+				id: "238F5DC73A868F07"
+				type: "command"
+				title: "IR Common Loot Bag"
+				icon: "kubejs:loot_bag_common"
+				command: "/execute at @p run loot spawn ~ ~1 ~ loot aof:loot_bags/industrial_revolution_loot_common"
+				player_command: false
+			}]
 		}
 		{
 			x: -3.0d

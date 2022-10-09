@@ -52,7 +52,6 @@
 				{
 					id: "5ADADA59D90F7273"
 					type: "random"
-					table_id: 13756307348121783L
 				}
 			]
 		}
@@ -182,24 +181,11 @@
 					}
 				}
 			}]
-			rewards: [
-				{
-					id: "5DB1DAF4DEF79413"
-					type: "item"
-					item: {
-						id: "chiselsandbits:bit_bag"
-						Count: 1b
-						tag: {
-							Inventory: { }
-						}
-					}
-				}
-				{
-					id: "42E4DB4973499475"
-					type: "item"
-					item: "chiselsandbits:magnifying_glass"
-				}
-			]
+			rewards: [{
+				id: "4C0079478B316F06"
+				type: "item"
+				item: "chiselsandbits:chiseled_printer"
+			}]
 		}
 		{
 			x: -3.5d
