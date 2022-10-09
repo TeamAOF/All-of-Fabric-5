@@ -161,7 +161,7 @@
 			title: "Bigger Chests"
 			x: 5.0d
 			y: -3.5d
-			subtitle: "Can be placed both horizontally and vertically."
+			subtitle: "A looters choice of storage."
 			dependencies: ["6F2E92752228528C"]
 			id: "775BEA78AEB9EE77"
 			tasks: [{

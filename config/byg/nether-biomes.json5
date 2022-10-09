@@ -53,11 +53,7 @@ If your settings in this file seem to have to no effect on the generation of the
 				"weight": 2
 			},
 			{
-<<<<<<< HEAD
 				"data": "byg:embur_bog",
-=======
-				"data": "byg:brimstone_caverns",
->>>>>>> dev
 				"weight": 2
 			},
 			{
@@ -66,13 +62,6 @@ If your settings in this file seem to have to no effect on the generation of the
 			},
 			{
 				"data": "byg:warped_desert",
-<<<<<<< HEAD
-=======
-				"weight": 0
-			},
-			{
-				"data": "byg:magma_wastes",
->>>>>>> dev
 				"weight": 2
 			},
 			{
@@ -87,8 +76,6 @@ If your settings in this file seem to have to no effect on the generation of the
 			{
 				"data": "byg:magma_wastes",
 				"weight": 2
-=======
->>>>>>> dev
 			},
 			{
 				"data": "byg:glowstone_gardens",
@@ -332,21 +319,12 @@ If your settings in this file seem to have to no effect on the generation of the
 				"weight": 2
 			},
 			{
-<<<<<<< HEAD
 				"data": "byg:brimstone_caverns",
 				"weight": 2
 			},
 			{
 				"data": "byg:subzero_hypogeal",
 				"weight": 0
-=======
-				"data": "byg:embur_bog",
-				"weight": 2
-			},
-			{
-				"data": "byg:weeping_mire",
-				"weight": 2
->>>>>>> dev
 			},
 			{
 				"data": "byg:warped_desert",

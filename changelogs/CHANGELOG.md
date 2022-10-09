@@ -1,3 +1,21 @@
+### All of Fabric 5 | v2.0.1
+
+_Fabric Loader 0.14.9_ | _[Mod Updates](https://github.com/TeamAOF/All-of-Fabric-5/blob/main/changelogs/changelog_mods_2.0.1.md)_ | _[Modlist](https://github.com/TeamAOF/All-of-Fabric-5/blob/main/changelogs/modlist_2.0.1.md)_
+
+## Changes
+
+* Lowered weight chance of the Magical Forest biome generating.
+* Removed Slime Sling & Slime Boots from Kibe Utilities chapter.
+* Updated misleading description of chests in Storage chapter.
+* Altered weights of rewards in Logistics Bag.
+
+## Fixes
+
+* Chests brightness showing incorrectly.
+* Agriculturist loot bags not loading.
+* Incorrect ID for rocket pad in blacksmith loottable.
+---
+
 ### All of Fabric 5 | v2.0.0
 
 _Fabric Loader 0.14.9_ | _[Mod Updates](https://github.com/TeamAOF/All-of-Fabric-5/blob/main/changelogs/changelog_mods_2.0.0.md)_ | _[Modlist](https://github.com/TeamAOF/All-of-Fabric-5/blob/main/changelogs/modlist_2.0.0.md)_

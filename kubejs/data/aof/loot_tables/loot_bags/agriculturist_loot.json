@@ -578,7 +578,7 @@
             {
               "type": "minecraft:item",
               "weight": 1,
-              "name": "farmingforblockheads:flint_knife",
+              "name": "farmersdelight:flint_knife",
               "functions": [
                 {
                   "function": "set_count",
@@ -589,7 +589,7 @@
             {
               "type": "minecraft:item",
               "weight": 1,
-              "name": "farmingforblockheads:iron_knife",
+              "name": "farmersdelight:iron_knife",
               "functions": [
                 {
                   "function": "set_count",
@@ -600,7 +600,7 @@
             {
               "type": "minecraft:item",
               "weight": 1,
-              "name": "farmingforblockheads:golden_knife",
+              "name": "farmersdelight:golden_knife",
               "functions": [
                 {
                   "function": "set_count",
@@ -611,7 +611,7 @@
             {
               "type": "minecraft:item",
               "weight": 1,
-              "name": "farmingforblockheads:diamond_knife",
+              "name": "farmersdelight:diamond_knife",
               "functions": [
                 {
                   "function": "set_count",
