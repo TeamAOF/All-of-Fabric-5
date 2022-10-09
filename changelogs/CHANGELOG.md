@@ -1,3 +1,38 @@
+### All of Fabric 5 | v2.0.2
+
+_Fabric Loader 0.14.9_ | _[Mod Updates](https://github.com/TeamAOF/All-of-Fabric-5/blob/main/changelogs/changelog_mods_2.0.2.md)_ | _[Modlist](https://github.com/TeamAOF/All-of-Fabric-5/blob/main/changelogs/modlist_2.0.2.md)_
+
+## Changes
+
+* This update will heavily decrease loading times as well as RAM usage.
+* Changed certain quests having XP levels as reward and not experience.
+* REI auto injecting recipes into Tinkers crafting stations is now possible.
+* Lowered wind sounds volume by 20%
+
+## Recipes
+
+* Unified Amethyst Dust between Tech Reborn & Hex Casting.
+* Unified Copper Nugget between TConstruct & Modern Industrialization.
+
+## Fixes
+
+* Multiple quests still using random rewards.
+* Dupe bug with traveler's backpacks.
+* Hopefully fixed a bug with right clicking & failing modifier keys.
+
+### Added
+
+  * [Adorn](https://www.curseforge.com/minecraft/mc-mods/adorn)
+
+### Removed
+
+  * [Better Compatibility Checker](https://www.curseforge.com/minecraft/mc-mods/better-compatibility-checker)
+  * [Continuity](https://www.curseforge.com/minecraft/mc-mods/continuity)
+  * [Ellemes' Container Library](https://www.curseforge.com/minecraft/mc-mods/ellemes-container-library)
+  * [Macaw's Bridges - Oh The Biomes You'll Go](https://www.curseforge.com/minecraft/mc-mods/macaws-bridges-oh-the-biomes-youll-go) (Insane loading times)
+  * [Paladin's Furniture](https://www.curseforge.com/minecraft/mc-mods/paladins-furniture) (Insane loading times)
+---
+
 ### All of Fabric 5 | v2.0.1
 
 _Fabric Loader 0.14.9_ | _[Mod Updates](https://github.com/TeamAOF/All-of-Fabric-5/blob/main/changelogs/changelog_mods_2.0.1.md)_ | _[Modlist](https://github.com/TeamAOF/All-of-Fabric-5/blob/main/changelogs/modlist_2.0.1.md)_

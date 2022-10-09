@@ -49,16 +49,19 @@ const MATERIALS = [
     "salt",
     "carbon",
     "brass",
-    "zinc"
+    "zinc",
+    "amethyst"
 ];
 // Order of mods to unify
 const UNIFICATION_ORDER = [
     "modern_industrialization",
+    "tconstruct",
     "ad_astra",
     "create",
     "createplus",
     "indrev",
     "bewitchment",
+    "hexcasting",
     "techreborn",
     "croptopia",
     "tinycoal",
