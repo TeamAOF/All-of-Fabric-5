@@ -170,6 +170,108 @@
       "activated": false,
       "personalFactor": 0.0,
       "personalReceiveFactor": 0.0
+    },
+    {
+      "enchantmentId": "minecraft:binding_curse",
+      "activated": false,
+      "personalFactor": 0.0,
+      "personalReceiveFactor": 0.0
+    },
+    {
+      "enchantmentId": "minecraft:vanishing_curse",
+      "activated": false,
+      "personalFactor": 0.0,
+      "personalReceiveFactor": 0.0
+    },
+    {
+      "enchantmentId": "biomemakeover:decay_curse",
+      "activated": false,
+      "personalFactor": 0.0,
+      "personalReceiveFactor": 0.0
+    },
+    {
+      "enchantmentId": "biomemakeover:insomnia_curse",
+      "activated": false,
+      "personalFactor": 0.0,
+      "personalReceiveFactor": 0.0
+    },
+    {
+      "enchantmentId": "biomemakeover:conductivity_curse",
+      "activated": false,
+      "personalFactor": 0.0,
+      "personalReceiveFactor": 0.0
+    },
+    {
+      "enchantmentId": "biomemakeover:enfeeblement_curse",
+      "activated": false,
+      "personalFactor": 0.0,
+      "personalReceiveFactor": 0.0
+    },
+    {
+      "enchantmentId": "biomemakeover:depth_curse",
+      "activated": false,
+      "personalFactor": 0.0,
+      "personalReceiveFactor": 0.0
+    },
+    {
+      "enchantmentId": "biomemakeover:flammability_curse",
+      "activated": false,
+      "personalFactor": 0.0,
+      "personalReceiveFactor": 0.0
+    },
+    {
+      "enchantmentId": "biomemakeover:suffocation_curse",
+      "activated": false,
+      "personalFactor": 0.0,
+      "personalReceiveFactor": 0.0
+    },
+    {
+      "enchantmentId": "biomemakeover:unwieldiness_curse",
+      "activated": false,
+      "personalFactor": 0.0,
+      "personalReceiveFactor": 0.0
+    },
+    {
+      "enchantmentId": "biomemakeover:inaccuracy_curse",
+      "activated": false,
+      "personalFactor": 0.0,
+      "personalReceiveFactor": 0.0
+    },
+    {
+      "enchantmentId": "biomemakeover:buckling_curse",
+      "activated": false,
+      "personalFactor": 0.0,
+      "personalReceiveFactor": 0.0
+    },
+    {
+      "enchantmentId": "incantationem:recklessness",
+      "activated": false,
+      "personalFactor": 0.0,
+      "personalReceiveFactor": 0.0
+    },
+    {
+      "enchantmentId": "incantationem:thunder",
+      "activated": false,
+      "personalFactor": 0.0,
+      "personalReceiveFactor": 0.0
+    },
+    {
+      "enchantmentId": "incantationem:tough_luck",
+      "activated": false,
+      "personalFactor": 0.0,
+      "personalReceiveFactor": 0.0
+    },
+    {
+      "enchantmentId": "magna:gigantism_curse",
+      "activated": false,
+      "personalFactor": 0.0,
+      "personalReceiveFactor": 0.0
+    },
+    {
+      "enchantmentId": "harvest_scythes:blind_harvest_curse",
+      "activated": false,
+      "personalFactor": 0.0,
+      "personalReceiveFactor": 0.0
     }
   ]
 }
