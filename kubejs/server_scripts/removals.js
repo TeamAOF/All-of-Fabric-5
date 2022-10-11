@@ -113,12 +113,6 @@ onEvent('block.place', event => {
   }
 });
 
-onEvent('block.break', event => {
-  if (event.block.id == "twilightforest:uncrafting_table") {
-    event.cancel()
-  }
-});
-
 onEvent('block.right_click', event => {
   if (event.block.id == "twilightforest:uncrafting_table") {
     event.cancel()
