@@ -1,3 +1,13 @@
+### All of Fabric 5 | v2.0.4
+
+_Fabric Loader 0.14.9_ | _[Mod Updates](https://github.com/TeamAOF/All-of-Fabric-5/blob/main/changelogs/changelog_mods_2.0.4.md)_ | _[Modlist](https://github.com/TeamAOF/All-of-Fabric-5/blob/main/changelogs/modlist_2.0.4.md)_
+
+### Fixes
+
+* Block atlas visual texture issues.
+* Crashes with playdate balloons.
+---
+
 ### All of Fabric 5 | v2.0.3
 
 _Fabric Loader 0.14.9_ | _[Mod Updates](https://github.com/TeamAOF/All-of-Fabric-5/blob/main/changelogs/changelog_mods_2.0.3.md)_ | _[Modlist](https://github.com/TeamAOF/All-of-Fabric-5/blob/main/changelogs/modlist_2.0.3.md)_
