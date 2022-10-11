@@ -6,6 +6,7 @@
 onEvent('recipes', (event) => {
 
 
+// Quartz
  event.recipes.indrev.pulverize({
         
   type: "indrev:pulverize",
@@ -36,6 +37,7 @@ onEvent('recipes', (event) => {
 
  });
 
+ // Coke
  event.recipes.indrev.pulverize({
         
     type: "indrev:pulverize",
@@ -51,6 +53,23 @@ onEvent('recipes', (event) => {
     processTime: 300
 
      });
+
+     // Zinc
+     event.recipes.indrev.pulverize({
+        
+        type: "indrev:pulverize",
+        ingredients: {
+            
+            item: 'create:raw_zinc',
+            count: 1
+        },
+        output: {
+            item: 'createplus:zinc_dust',
+            count: 1
+        },
+        processTime: 300
+    
+         });
 
 const mi_raw = [
     "tungsten",
