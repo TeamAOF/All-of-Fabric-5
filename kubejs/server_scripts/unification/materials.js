@@ -14,6 +14,7 @@ const PARTS = [
     "c:{}_ingots",
     "c:{}_nuggets",
     "c:{}_plates",
+    "c:{}_rods",
     "c:raw_{}_ores",
     "c:raw_{}_blocks"
 ];
@@ -65,7 +66,8 @@ const UNIFICATION_ORDER = [
     "techreborn",
     "croptopia",
     "tinycoal",
-    "ae2"
+    "ae2",
+    "catwalksinc"
 ];
 // List of tags NOT to unify
 const UNIFICATION_BLACKLIST = [
