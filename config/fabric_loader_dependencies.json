@@ -6,6 +6,11 @@
                 "minecraft": ""
             }
         },
+        "sdrp": {
+            "-depends": {
+                "cloth_config": ""
+            }
+        },
         "couplings": {
             "-depends": {
                 "minecraft": ""

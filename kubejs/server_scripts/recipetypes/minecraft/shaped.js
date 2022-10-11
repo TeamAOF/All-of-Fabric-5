@@ -18,14 +18,14 @@ onEvent('recipes', (event) => {
   id: 'aof:lectern'
 },
 
-    {
+{
   output: 'minecraft:flint',
   pattern: ['AA ', 'A  ', '   '],
   key: {
     A: 'minecraft:gravel',
 },
   id: 'aof:flint'
-},
+}
 ];
 
 recipes.forEach((recipe) => {

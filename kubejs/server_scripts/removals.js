@@ -33,6 +33,7 @@ onEvent('recipes', (event) => {
     'indrev:smelting/tungsten_ingot_from_raw_ores',
     'createplus:createplus/ore_processing/nickel/modern_industrialization/smelting',
     'travelersbackpack:travelers_backpack',
+    'catwalksinc:iron_rod',
 
     ];
 
@@ -108,12 +109,6 @@ onEvent('recipes', (event) => {
 });
 
 onEvent('block.place', event => {
-  if (event.block.id == "twilightforest:uncrafting_table") {
-    event.cancel()
-  }
-});
-
-onEvent('block.break', event => {
   if (event.block.id == "twilightforest:uncrafting_table") {
     event.cancel()
   }

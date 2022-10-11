@@ -1,0 +1,5 @@
+{
+  "quad_expansion": 0.002,
+  "quad_indent": 1.0E-4,
+  "comment": "Tweak these two values to slightly move ot expand the item model quads to better hide all the tiny gaps for your system. Keep as close to 0 as possible"
+}

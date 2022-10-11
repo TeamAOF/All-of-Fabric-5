@@ -8,13 +8,13 @@ onEvent('recipes', (event) => {
 
   const recipes = [
     {
-      output: 'twigs:paper_lantern',
-      pattern: [' A ', 'ABA', ' A '],
+      output: 'hexcasting:scroll_small',
+      pattern: ['AB ', 'A  '],
       key: {
         A: 'minecraft:paper',
-        B: 'minecraft:torch',
+        B: 'minecraft:amethyst_shard',
       },
-      id: 'twigs:paper_lantern'
+      id: 'hexcasting:scroll_small'
     },
   ];
 
