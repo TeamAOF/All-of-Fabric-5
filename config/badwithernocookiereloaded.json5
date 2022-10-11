@@ -310,6 +310,10 @@
 		"entity.wither.spawn",
 		"entity.wither.death",
 		"entity.enderdragon.death",
+		"entity.lightning.thunder",
+		"entity.wither.spawn",
+		"entity.wither.death",
+		"entity.enderdragon.death",
 		"entity.lightning.thunder"
 	]
 }

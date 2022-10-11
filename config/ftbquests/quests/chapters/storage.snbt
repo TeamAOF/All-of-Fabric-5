@@ -844,14 +844,6 @@
 				type: "checkmark"
 				title: "Modern Industrialization"
 			}]
-			rewards: [{
-				id: "0289F129F9CE3174"
-				type: "command"
-				title: "Logistics Loot Bag"
-				icon: "kubejs:loot_bag_rare"
-				command: "/execute at @p run loot spawn ~ ~1 ~ loot aof:loot_bags/logistics_loot"
-				player_command: false
-			}]
 		}
 		{
 			x: 9.0d
@@ -869,14 +861,6 @@
 				id: "77F4F6BBF4F8AF10"
 				type: "checkmark"
 				title: "Tech Reborn"
-			}]
-			rewards: [{
-				id: "6684F6DC9CAE4099"
-				type: "command"
-				title: "Logistics Loot Bag"
-				icon: "kubejs:loot_bag_rare"
-				command: "/execute at @p run loot spawn ~ ~1 ~ loot aof:loot_bags/logistics_loot"
-				player_command: false
 			}]
 		}
 		{
@@ -897,14 +881,6 @@
 				id: "4A26CDEE07DCD4B8"
 				type: "checkmark"
 				title: "Basic Storage"
-			}]
-			rewards: [{
-				id: "55BA37316372780E"
-				type: "command"
-				title: "Logistics Loot Bag"
-				icon: "kubejs:loot_bag_rare"
-				command: "/execute at @p run loot spawn ~ ~1 ~ loot aof:loot_bags/logistics_loot"
-				player_command: false
 			}]
 		}
 		{
@@ -994,14 +970,6 @@
 				id: "0FB2E00F0013C475"
 				type: "checkmark"
 				title: "Industrial Revolution"
-			}]
-			rewards: [{
-				id: "71BE1B2B7093AB3F"
-				type: "command"
-				title: "Logistics Loot Bag"
-				icon: "kubejs:loot_bag_rare"
-				command: "/execute at @p run loot spawn ~ ~1 ~ loot aof:loot_bags/logistics_loot"
-				player_command: false
 			}]
 		}
 		{
@@ -1132,14 +1100,6 @@
 				id: "529C11C5A9056EB1"
 				type: "checkmark"
 				title: "Various trash cans."
-			}]
-			rewards: [{
-				id: "4509DE4D0C3A5CAE"
-				type: "command"
-				title: "Logistics Loot Bag"
-				icon: "kubejs:loot_bag_rare"
-				command: "/execute at @p run loot spawn ~ ~1 ~ loot aof:loot_bags/logistics_loot"
-				player_command: false
 			}]
 		}
 		{

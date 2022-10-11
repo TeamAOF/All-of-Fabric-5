@@ -2,6 +2,10 @@
 
 _Fabric Loader 0.14.9_ | _[Mod Updates](https://github.com/TeamAOF/All-of-Fabric-5/blob/main/changelogs/changelog_mods_2.0.4.md)_ | _[Modlist](https://github.com/TeamAOF/All-of-Fabric-5/blob/main/changelogs/modlist_2.0.4.md)_
 
+### Changes
+
+* Remove rewards from checkmark quests in Storage chapter.
+
 ### Fixes
 
 * Block atlas visual texture issues.

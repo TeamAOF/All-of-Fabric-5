@@ -207,7 +207,6 @@
   * [mocolors-1.4.0.jar](https://www.curseforge.com/minecraft/mc-mods/mo-colors/files/3671252) (by [GabrielHOlv](https://www.curseforge.com/members/GabrielHOlv/projects))
   * [mostructures-1.4.2+1.18.2.jar](https://www.curseforge.com/minecraft/mc-mods/mo-structures/files/3779101) (by [ffrannny](https://www.curseforge.com/members/ffrannny/projects))
   * [mobscarecrow-2.1.1.jar](https://www.curseforge.com/minecraft/mc-mods/mob-scarecrows/files/3860894) (by [TheArcanePigeon](https://www.curseforge.com/members/TheArcanePigeon/projects))
-  * [modelfix-1.8-fabric.jar](https://www.curseforge.com/minecraft/mc-mods/model-gap-fix/files/4024854) (by [MehVahdJukaar](https://www.curseforge.com/members/MehVahdJukaar/projects))
   * [Modern-Dynamics-0.2.6-beta.jar](https://www.curseforge.com/minecraft/mc-mods/modern-dynamics/files/3995920) (by [thetechnici4n](https://www.curseforge.com/members/thetechnici4n/projects))
   * [Modern-Industrialization-1.2.2.jar](https://www.curseforge.com/minecraft/mc-mods/modern-industrialization/files/3866891) (by [thetechnici4n](https://www.curseforge.com/members/thetechnici4n/projects))
   * [modmenu-3.2.3.jar](https://www.curseforge.com/minecraft/mc-mods/modmenu/files/3850113) (by [ProspectorDev](https://www.curseforge.com/members/ProspectorDev/projects))
