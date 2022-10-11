@@ -20,6 +20,16 @@ onEvent('tags.items', event => {
 
   event.add('c:steel_plates', 'ad_astra:compressed_steel')
 
+  // Indrev
+
+  event.add('c:raw_lead_blocks', 'indrev:raw_lead_block')
+  event.add('c:raw_silver_blocks', 'indrev:raw_silver_block')
+  event.add('c:raw_tungsten_blocks', 'indrev:raw_tungsten_block')
+  event.add('c:raw_tin_blocks', 'indrev:raw_tin_block')
+
+
+  
+
 
 
 });
