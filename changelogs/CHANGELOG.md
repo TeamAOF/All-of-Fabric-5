@@ -1,3 +1,38 @@
+### All of Fabric 5 | v2.0.3
+
+_Fabric Loader 0.14.9_ | _[Mod Updates](https://github.com/TeamAOF/All-of-Fabric-5/blob/main/changelogs/changelog_mods_2.0.3.md)_ | _[Modlist](https://github.com/TeamAOF/All-of-Fabric-5/blob/main/changelogs/modlist_2.0.3.md)_
+
+### Changes
+
+* Removed Uncrafting Table from loot tables.
+* Allow Iron Chests to be carried.
+* Cool Discord Presence, see which plays AOF5.
+* Removed curses from Dark Enchanting to fix exploits.
+
+### Recipes
+
+* Added Uraninite Ore to MI Steel Drill (Quarry).
+* Conflict between Small Scroll and Banner Pattern.
+* Chain to Iron Nugget in Anvil Crushing has been lowered from 8 > 1 to fix dupe.
+* Added Raw Zinc > Zinc Dust to Pulverizer (Indrev).
+* Unified all metal rods.
+* Removed 2 iron ingot > 4 iron rods.
+* Added shaped Iron Plate recipe (3 ingots & hammer > 1 plate).
+
+### Fixes
+
+* Kibe torch not blocking some custom mobs spawns.
+* Blacklist mythic mounts in rannuncarpus to fix server crashes.
+* BOMD bosses crashing when looking at them.
+* AE2Things being broken, GUIs werent working.
+
+### New Mods
+
+* [Almost Unified](https://www.curseforge.com/minecraft/mc-mods/almost-unified) (by [TeamAlmostReliable](https://www.curseforge.com/members/TeamAlmostReliable/projects))
+* [Extra Alchemy](https://www.curseforge.com/minecraft/mc-mods/extra-alchemy) (by [zabi94](https://www.curseforge.com/members/zabi94/projects))
+* [Simple Discord Rich Presence (Forge /  Fabric)](https://www.curseforge.com/minecraft/mc-mods/simple-discord-rich-presence) (by [Sunekaer](https://www.curseforge.com/members/Sunekaer/projects))
+---
+
 ### All of Fabric 5 | v2.0.2
 
 _Fabric Loader 0.14.9_ | _[Mod Updates](https://github.com/TeamAOF/All-of-Fabric-5/blob/main/changelogs/changelog_mods_2.0.2.md)_ | _[Modlist](https://github.com/TeamAOF/All-of-Fabric-5/blob/main/changelogs/modlist_2.0.2.md)_

@@ -1,7 +1,7 @@
 {
   "learningIncreasesExpOrbValue": true,
   "enableVials": true,
-  "enableRings": true,
+  "enableRings": false,
   "enableBrewingStandFire": true,
   "useAnchorChargesWithReturnPotion": true,
   "allowRingsInInventoryWithThirdPartyMods": false,
