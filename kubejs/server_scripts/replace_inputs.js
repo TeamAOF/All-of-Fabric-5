@@ -26,8 +26,5 @@ onEvent('recipes', (event) => {
     // TConstruct
 
     event.replaceInput({}, 'tconstruct:copper_nugget', 'modern_industrialization:copper_nugget');
-
-    // Ad Astra Hammer
-    event.replaceInput({id: "ad_astra:recipes/hammer"}, 'minecraft:iron_ingot', 'modern_industrialization:iron_plate');
     
 });
