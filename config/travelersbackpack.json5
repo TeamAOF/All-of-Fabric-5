@@ -7,6 +7,7 @@
 	// Backpack immune to any damage source (lava, fire), can't be destroyed, never disappears as floating item
 	"invulnerableBackpack": true,
 	"enableBackpackAbilities": true,
+	"forceAbilityEnabled": false,
 	"tanksCapacity": 324000,
 	/* If true, backpack can only be worn by placing it in curios 'Back' slot
 	   WARNING - Remember to TAKE OFF BACKPACK BEFORE enabling or disabling this integration!! - if not you'll lose your backpack

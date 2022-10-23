@@ -98,11 +98,17 @@
 				}
 				{
 					id: "66137520279AFCB1"
-					type: "command"
-					title: "TR Common Loot Bag"
-					icon: "kubejs:loot_bag_common"
-					command: "/execute at @p run loot spawn ~ ~1 ~ loot aof:loot_bags/tech_reborn_common"
-					player_command: false
+					type: "item"
+					item: {
+						id: "lootbags:loot_bag"
+						Count: 1b
+						tag: {
+							Type: "COMMON"
+							Color: 3706623
+							Loot: "aof:loot_bags/tech_reborn/common"
+							Name: "Tech Reborn Common Lootbag"
+						}
+					}
 				}
 			]
 		}
@@ -131,12 +137,18 @@
 					count: 4
 				}
 				{
-					id: "24EDDDDB8115BD8D"
-					type: "command"
-					title: "TR Common Loot Bag"
-					icon: "kubejs:loot_bag_common"
-					command: "/execute at @p run loot spawn ~ ~1 ~ loot aof:loot_bags/tech_reborn_common"
-					player_command: false
+					id: "681BB3BC239CF80A"
+					type: "item"
+					item: {
+						id: "lootbags:loot_bag"
+						Count: 1b
+						tag: {
+							Type: "COMMON"
+							Color: 3706623
+							Loot: "aof:loot_bags/tech_reborn/common"
+							Name: "Tech Reborn Common Lootbag"
+						}
+					}
 				}
 			]
 		}
@@ -156,11 +168,17 @@
 			}]
 			rewards: [{
 				id: "2C254166FFEA3949"
-				type: "command"
-				title: "TR Common Loot Bag"
-				icon: "kubejs:loot_bag_common"
-				command: "/execute at @p run loot spawn ~ ~1 ~ loot aof:loot_bags/tech_reborn_common"
-				player_command: false
+				type: "item"
+				item: {
+					id: "lootbags:loot_bag"
+					Count: 1b
+					tag: {
+						Type: "COMMON"
+						Color: 3706623
+						Loot: "aof:loot_bags/tech_reborn/common"
+						Name: "Tech Reborn Common Lootbag"
+					}
+				}
 			}]
 		}
 		{
@@ -191,11 +209,17 @@
 				}
 				{
 					id: "337B47D9AD769ECA"
-					type: "command"
-					title: "TR Common Loot Bag"
-					icon: "kubejs:loot_bag_common"
-					command: "/execute at @p run loot spawn ~ ~1 ~ loot aof:loot_bags/tech_reborn_common"
-					player_command: false
+					type: "item"
+					item: {
+						id: "lootbags:loot_bag"
+						Count: 1b
+						tag: {
+							Type: "COMMON"
+							Color: 3706623
+							Loot: "aof:loot_bags/tech_reborn/common"
+							Name: "Tech Reborn Common Lootbag"
+						}
+					}
 				}
 			]
 		}
@@ -219,11 +243,17 @@
 				}
 				{
 					id: "2FE4DE3593B741F7"
-					type: "command"
-					title: "TR Common Loot Bag"
-					icon: "kubejs:loot_bag_common"
-					command: "/execute at @p run loot spawn ~ ~1 ~ loot aof:loot_bags/tech_reborn_common"
-					player_command: false
+					type: "item"
+					item: {
+						id: "lootbags:loot_bag"
+						Count: 1b
+						tag: {
+							Type: "COMMON"
+							Color: 3706623
+							Loot: "aof:loot_bags/tech_reborn/common"
+							Name: "Tech Reborn Common Lootbag"
+						}
+					}
 				}
 			]
 		}
@@ -251,11 +281,17 @@
 				}
 				{
 					id: "0F2A152628C42BC2"
-					type: "command"
-					title: "TR Common Loot Bag"
-					icon: "kubejs:loot_bag_common"
-					command: "/execute at @p run loot spawn ~ ~1 ~ loot aof:loot_bags/tech_reborn_common"
-					player_command: false
+					type: "item"
+					item: {
+						id: "lootbags:loot_bag"
+						Count: 1b
+						tag: {
+							Type: "COMMON"
+							Color: 3706623
+							Loot: "aof:loot_bags/tech_reborn/common"
+							Name: "Tech Reborn Common Lootbag"
+						}
+					}
 				}
 			]
 		}
@@ -273,11 +309,17 @@
 			}]
 			rewards: [{
 				id: "3BEFCBADC876AF1C"
-				type: "command"
-				title: "TR Common Loot Bag"
-				icon: "kubejs:loot_bag_common"
-				command: "/execute at @p run loot spawn ~ ~1 ~ loot aof:loot_bags/tech_reborn_common"
-				player_command: false
+				type: "item"
+				item: {
+					id: "lootbags:loot_bag"
+					Count: 1b
+					tag: {
+						Type: "COMMON"
+						Color: 3706623
+						Loot: "aof:loot_bags/tech_reborn/common"
+						Name: "Tech Reborn Common Lootbag"
+					}
+				}
 			}]
 		}
 		{
@@ -299,11 +341,17 @@
 				}
 				{
 					id: "69DE7D3FE75A1A92"
-					type: "command"
-					title: "TR Common Loot Bag"
-					icon: "kubejs:loot_bag_common"
-					command: "/execute at @p run loot spawn ~ ~1 ~ loot aof:loot_bags/tech_reborn_common"
-					player_command: false
+					type: "item"
+					item: {
+						id: "lootbags:loot_bag"
+						Count: 1b
+						tag: {
+							Type: "COMMON"
+							Color: 3706623
+							Loot: "aof:loot_bags/tech_reborn/common"
+							Name: "Tech Reborn Common Lootbag"
+						}
+					}
 				}
 			]
 		}
@@ -327,11 +375,17 @@
 				}
 				{
 					id: "120BD0D100BD0285"
-					type: "command"
-					title: "TR Common Loot Bag"
-					icon: "kubejs:loot_bag_common"
-					command: "/execute at @p run loot spawn ~ ~1 ~ loot aof:loot_bags/tech_reborn_common"
-					player_command: false
+					type: "item"
+					item: {
+						id: "lootbags:loot_bag"
+						Count: 1b
+						tag: {
+							Type: "COMMON"
+							Color: 3706623
+							Loot: "aof:loot_bags/tech_reborn/common"
+							Name: "Tech Reborn Common Lootbag"
+						}
+					}
 				}
 			]
 		}
@@ -355,11 +409,17 @@
 				}
 				{
 					id: "7E328D4BD067919E"
-					type: "command"
-					title: "TR Rare Loot Bag"
-					icon: "kubejs:loot_bag_rare"
-					command: "/execute at @p run loot spawn ~ ~1 ~ loot aof:loot_bags/tech_reborn_rare"
-					player_command: false
+					type: "item"
+					item: {
+						id: "lootbags:loot_bag"
+						Count: 1b
+						tag: {
+							Type: "RARE"
+							Color: 3706623
+							Name: "Tech Reborn Rare Lootbag"
+							Loot: "aof:loot_bags/tech_reborn/rare"
+						}
+					}
 				}
 			]
 		}
@@ -383,11 +443,17 @@
 				}
 				{
 					id: "7B79D20D567D573F"
-					type: "command"
-					title: "TR Common Loot Bag"
-					icon: "kubejs:loot_bag_common"
-					command: "/execute at @p run loot spawn ~ ~1 ~ loot aof:loot_bags/tech_reborn_common"
-					player_command: false
+					type: "item"
+					item: {
+						id: "lootbags:loot_bag"
+						Count: 1b
+						tag: {
+							Type: "COMMON"
+							Color: 3706623
+							Loot: "aof:loot_bags/tech_reborn/common"
+							Name: "Tech Reborn Common Lootbag"
+						}
+					}
 				}
 			]
 		}
@@ -413,11 +479,17 @@
 			]
 			rewards: [{
 				id: "0ABE388E881B1D70"
-				type: "command"
-				title: "TR Rare Loot Bag"
-				icon: "kubejs:loot_bag_rare"
-				command: "/execute at @p run loot spawn ~ ~1 ~ loot aof:loot_bags/tech_reborn_rare"
-				player_command: false
+				type: "item"
+				item: {
+					id: "lootbags:loot_bag"
+					Count: 1b
+					tag: {
+						Type: "RARE"
+						Color: 3706623
+						Name: "Tech Reborn Rare Lootbag"
+						Loot: "aof:loot_bags/tech_reborn/rare"
+					}
+				}
 			}]
 		}
 		{
@@ -448,11 +520,17 @@
 				}
 				{
 					id: "46EFAB6A4F27DD98"
-					type: "command"
-					title: "TR Common Loot Bag"
-					icon: "kubejs:loot_bag_common"
-					command: "/execute at @p run loot spawn ~ ~1 ~ loot aof:loot_bags/tech_reborn_common"
-					player_command: false
+					type: "item"
+					item: {
+						id: "lootbags:loot_bag"
+						Count: 1b
+						tag: {
+							Type: "COMMON"
+							Color: 3706623
+							Loot: "aof:loot_bags/tech_reborn/common"
+							Name: "Tech Reborn Common Lootbag"
+						}
+					}
 				}
 			]
 		}
@@ -469,11 +547,17 @@
 			}]
 			rewards: [{
 				id: "1EC549D37FBC4764"
-				type: "command"
-				title: "TR Rare Loot Bag"
-				icon: "kubejs:loot_bag_rare"
-				command: "/execute at @p run loot spawn ~ ~1 ~ loot aof:loot_bags/tech_reborn_rare"
-				player_command: false
+				type: "item"
+				item: {
+					id: "lootbags:loot_bag"
+					Count: 1b
+					tag: {
+						Type: "RARE"
+						Color: 3706623
+						Name: "Tech Reborn Rare Lootbag"
+						Loot: "aof:loot_bags/tech_reborn/rare"
+					}
+				}
 			}]
 		}
 		{
@@ -498,11 +582,17 @@
 				}
 				{
 					id: "2C352AC78F3A3934"
-					type: "command"
-					title: "TR Common Loot Bag"
-					icon: "kubejs:loot_bag_common"
-					command: "/execute at @p run loot spawn ~ ~1 ~ loot aof:loot_bags/tech_reborn_common"
-					player_command: false
+					type: "item"
+					item: {
+						id: "lootbags:loot_bag"
+						Count: 1b
+						tag: {
+							Type: "COMMON"
+							Color: 3706623
+							Loot: "aof:loot_bags/tech_reborn/common"
+							Name: "Tech Reborn Common Lootbag"
+						}
+					}
 				}
 			]
 		}
@@ -526,11 +616,17 @@
 				}
 				{
 					id: "262B3F2D34D38486"
-					type: "command"
-					title: "TR Rare Loot Bag"
-					icon: "kubejs:loot_bag_rare"
-					command: "/execute at @p run loot spawn ~ ~1 ~ loot aof:loot_bags/tech_reborn_rare"
-					player_command: false
+					type: "item"
+					item: {
+						id: "lootbags:loot_bag"
+						Count: 1b
+						tag: {
+							Type: "RARE"
+							Color: 3706623
+							Name: "Tech Reborn Rare Lootbag"
+							Loot: "aof:loot_bags/tech_reborn/rare"
+						}
+					}
 				}
 			]
 		}
@@ -554,11 +650,17 @@
 				}
 				{
 					id: "2C557BBF2D88AA20"
-					type: "command"
-					title: "TR Epic Loot Bag"
-					icon: "kubejs:loot_bag_epic"
-					command: "/execute at @p run loot spawn ~ ~1 ~ loot aof:loot_bags/tech_reborn_epic"
-					player_command: false
+					type: "item"
+					item: {
+						id: "lootbags:loot_bag"
+						Count: 1b
+						tag: {
+							Type: "EPIC"
+							Color: 3706623
+							Name: "Tech Reborn Epic Lootbag"
+							Loot: "aof:loot_bags/tech_reborn/epic"
+						}
+					}
 				}
 			]
 		}
@@ -582,11 +684,17 @@
 				}
 				{
 					id: "2F432FD0DAD1A773"
-					type: "command"
-					title: "TR Epic Loot Bag"
-					icon: "kubejs:loot_bag_epic"
-					command: "/execute at @p run loot spawn ~ ~1 ~ loot aof:loot_bags/tech_reborn_epic"
-					player_command: false
+					type: "item"
+					item: {
+						id: "lootbags:loot_bag"
+						Count: 1b
+						tag: {
+							Type: "EPIC"
+							Color: 3706623
+							Name: "Tech Reborn Epic Lootbag"
+							Loot: "aof:loot_bags/tech_reborn/epic"
+						}
+					}
 				}
 			]
 		}
@@ -613,11 +721,17 @@
 				}
 				{
 					id: "1A300DFFE902CD75"
-					type: "command"
-					title: "TR Epic Loot Bag"
-					icon: "kubejs:loot_bag_epic"
-					command: "/execute at @p run loot spawn ~ ~1 ~ loot aof:loot_bags/tech_reborn_epic"
-					player_command: false
+					type: "item"
+					item: {
+						id: "lootbags:loot_bag"
+						Count: 1b
+						tag: {
+							Type: "EPIC"
+							Color: 3706623
+							Name: "Tech Reborn Epic Lootbag"
+							Loot: "aof:loot_bags/tech_reborn/epic"
+						}
+					}
 				}
 			]
 		}
@@ -634,11 +748,17 @@
 			}]
 			rewards: [{
 				id: "300BD8325DEA2432"
-				type: "command"
-				title: "TR Rare Loot Bag"
-				icon: "kubejs:loot_bag_rare"
-				command: "/execute at @p run loot spawn ~ ~1 ~ loot aof:loot_bags/tech_reborn_rare"
-				player_command: false
+				type: "item"
+				item: {
+					id: "lootbags:loot_bag"
+					Count: 1b
+					tag: {
+						Type: "RARE"
+						Color: 3706623
+						Name: "Tech Reborn Rare Lootbag"
+						Loot: "aof:loot_bags/tech_reborn/rare"
+					}
+				}
 			}]
 		}
 		{
@@ -674,11 +794,17 @@
 				}
 				{
 					id: "71D11D27AE188983"
-					type: "command"
-					title: "TR Common Loot Bag"
-					icon: "kubejs:loot_bag_common"
-					command: "/execute at @p run loot spawn ~ ~1 ~ loot aof:loot_bags/tech_reborn_common"
-					player_command: false
+					type: "item"
+					item: {
+						id: "lootbags:loot_bag"
+						Count: 1b
+						tag: {
+							Type: "COMMON"
+							Color: 3706623
+							Loot: "aof:loot_bags/tech_reborn/common"
+							Name: "Tech Reborn Common Lootbag"
+						}
+					}
 				}
 			]
 		}
@@ -707,11 +833,17 @@
 				}
 				{
 					id: "7B014F52554B0474"
-					type: "command"
-					title: "TR Common Loot Bag"
-					icon: "kubejs:loot_bag_common"
-					command: "/execute at @p run loot spawn ~ ~1 ~ loot aof:loot_bags/tech_reborn_common"
-					player_command: false
+					type: "item"
+					item: {
+						id: "lootbags:loot_bag"
+						Count: 1b
+						tag: {
+							Type: "COMMON"
+							Color: 3706623
+							Loot: "aof:loot_bags/tech_reborn/common"
+							Name: "Tech Reborn Common Lootbag"
+						}
+					}
 				}
 			]
 		}
@@ -740,11 +872,17 @@
 				}
 				{
 					id: "4881E2C5527A9553"
-					type: "command"
-					title: "TR Common Loot Bag"
-					icon: "kubejs:loot_bag_common"
-					command: "/execute at @p run loot spawn ~ ~1 ~ loot aof:loot_bags/tech_reborn_common"
-					player_command: false
+					type: "item"
+					item: {
+						id: "lootbags:loot_bag"
+						Count: 1b
+						tag: {
+							Type: "COMMON"
+							Color: 3706623
+							Loot: "aof:loot_bags/tech_reborn/common"
+							Name: "Tech Reborn Common Lootbag"
+						}
+					}
 				}
 			]
 		}
@@ -761,11 +899,17 @@
 			}]
 			rewards: [{
 				id: "3E46BEE5C3894672"
-				type: "command"
-				title: "TR Rare Loot Bag"
-				icon: "kubejs:loot_bag_rare"
-				command: "/execute at @p run loot spawn ~ ~1 ~ loot aof:loot_bags/tech_reborn_rare"
-				player_command: false
+				type: "item"
+				item: {
+					id: "lootbags:loot_bag"
+					Count: 1b
+					tag: {
+						Type: "RARE"
+						Color: 3706623
+						Name: "Tech Reborn Rare Lootbag"
+						Loot: "aof:loot_bags/tech_reborn/rare"
+					}
+				}
 			}]
 		}
 		{
@@ -781,11 +925,17 @@
 			}]
 			rewards: [{
 				id: "5BB9285EC26330EE"
-				type: "command"
-				title: "TR Rare Loot Bag"
-				icon: "kubejs:loot_bag_rare"
-				command: "/execute at @p run loot spawn ~ ~1 ~ loot aof:loot_bags/tech_reborn_rare"
-				player_command: false
+				type: "item"
+				item: {
+					id: "lootbags:loot_bag"
+					Count: 1b
+					tag: {
+						Type: "RARE"
+						Color: 3706623
+						Name: "Tech Reborn Rare Lootbag"
+						Loot: "aof:loot_bags/tech_reborn/rare"
+					}
+				}
 			}]
 		}
 		{
@@ -813,11 +963,17 @@
 			}]
 			rewards: [{
 				id: "0476FDF2824C1562"
-				type: "command"
-				title: "TR Rare Loot Bag"
-				icon: "kubejs:loot_bag_rare"
-				command: "/execute at @p run loot spawn ~ ~1 ~ loot aof:loot_bags/tech_reborn_rare"
-				player_command: false
+				type: "item"
+				item: {
+					id: "lootbags:loot_bag"
+					Count: 1b
+					tag: {
+						Type: "RARE"
+						Color: 3706623
+						Name: "Tech Reborn Rare Lootbag"
+						Loot: "aof:loot_bags/tech_reborn/rare"
+					}
+				}
 			}]
 		}
 		{
@@ -846,11 +1002,17 @@
 			}]
 			rewards: [{
 				id: "5940A580AD2C0138"
-				type: "command"
-				title: "TR Rare Loot Bag"
-				icon: "kubejs:loot_bag_rare"
-				command: "/execute at @p run loot spawn ~ ~1 ~ loot aof:loot_bags/tech_reborn_rare"
-				player_command: false
+				type: "item"
+				item: {
+					id: "lootbags:loot_bag"
+					Count: 1b
+					tag: {
+						Type: "RARE"
+						Color: 3706623
+						Name: "Tech Reborn Rare Lootbag"
+						Loot: "aof:loot_bags/tech_reborn/rare"
+					}
+				}
 			}]
 		}
 		{
@@ -874,11 +1036,17 @@
 			}]
 			rewards: [{
 				id: "3240270006E81C1F"
-				type: "command"
-				title: "TR Rare Loot Bag"
-				icon: "kubejs:loot_bag_rare"
-				command: "/execute at @p run loot spawn ~ ~1 ~ loot aof:loot_bags/tech_reborn_rare"
-				player_command: false
+				type: "item"
+				item: {
+					id: "lootbags:loot_bag"
+					Count: 1b
+					tag: {
+						Type: "RARE"
+						Color: 3706623
+						Name: "Tech Reborn Rare Lootbag"
+						Loot: "aof:loot_bags/tech_reborn/rare"
+					}
+				}
 			}]
 		}
 		{
@@ -907,11 +1075,17 @@
 			}]
 			rewards: [{
 				id: "6F74BDFC9D676A45"
-				type: "command"
-				title: "TR Rare Loot Bag"
-				icon: "kubejs:loot_bag_rare"
-				command: "/execute at @p run loot spawn ~ ~1 ~ loot aof:loot_bags/tech_reborn_rare"
-				player_command: false
+				type: "item"
+				item: {
+					id: "lootbags:loot_bag"
+					Count: 1b
+					tag: {
+						Type: "RARE"
+						Color: 3706623
+						Name: "Tech Reborn Rare Lootbag"
+						Loot: "aof:loot_bags/tech_reborn/rare"
+					}
+				}
 			}]
 		}
 		{
@@ -932,11 +1106,17 @@
 			}]
 			rewards: [{
 				id: "67C2999977F284C6"
-				type: "command"
-				title: "TR Rare Loot Bag"
-				icon: "kubejs:loot_bag_rare"
-				command: "/execute at @p run loot spawn ~ ~1 ~ loot aof:loot_bags/tech_reborn_rare"
-				player_command: false
+				type: "item"
+				item: {
+					id: "lootbags:loot_bag"
+					Count: 1b
+					tag: {
+						Type: "RARE"
+						Color: 3706623
+						Name: "Tech Reborn Rare Lootbag"
+						Loot: "aof:loot_bags/tech_reborn/rare"
+					}
+				}
 			}]
 		}
 		{
@@ -973,11 +1153,17 @@
 			}]
 			rewards: [{
 				id: "37C5541E50D1637C"
-				type: "command"
-				title: "TR Epic Loot Bag"
-				icon: "kubejs:loot_bag_epic"
-				command: "/execute at @p run loot spawn ~ ~1 ~ loot aof:loot_bags/tech_reborn_epic"
-				player_command: false
+				type: "item"
+				item: {
+					id: "lootbags:loot_bag"
+					Count: 1b
+					tag: {
+						Type: "EPIC"
+						Color: 3706623
+						Name: "Tech Reborn Epic Lootbag"
+						Loot: "aof:loot_bags/tech_reborn/epic"
+					}
+				}
 			}]
 		}
 		{
@@ -1009,11 +1195,17 @@
 			}]
 			rewards: [{
 				id: "4106CF47A72C0463"
-				type: "command"
-				title: "TR Epic Loot Bag"
-				icon: "kubejs:loot_bag_epic"
-				command: "/execute at @p run loot spawn ~ ~1 ~ loot aof:loot_bags/tech_reborn_epic"
-				player_command: false
+				type: "item"
+				item: {
+					id: "lootbags:loot_bag"
+					Count: 1b
+					tag: {
+						Type: "EPIC"
+						Color: 3706623
+						Name: "Tech Reborn Epic Lootbag"
+						Loot: "aof:loot_bags/tech_reborn/epic"
+					}
+				}
 			}]
 		}
 		{
@@ -1028,11 +1220,17 @@
 			}]
 			rewards: [{
 				id: "266538E533D52FA4"
-				type: "command"
-				title: "TR Epic Loot Bag"
-				icon: "kubejs:loot_bag_epic"
-				command: "/execute at @p run loot spawn ~ ~1 ~ loot aof:loot_bags/tech_reborn_epic"
-				player_command: false
+				type: "item"
+				item: {
+					id: "lootbags:loot_bag"
+					Count: 1b
+					tag: {
+						Type: "EPIC"
+						Color: 3706623
+						Name: "Tech Reborn Epic Lootbag"
+						Loot: "aof:loot_bags/tech_reborn/epic"
+					}
+				}
 			}]
 		}
 		{
@@ -1048,11 +1246,17 @@
 			}]
 			rewards: [{
 				id: "607303F80727794B"
-				type: "command"
-				title: "TR Rare Loot Bag"
-				icon: "kubejs:loot_bag_rare"
-				command: "/execute at @p run loot spawn ~ ~1 ~ loot aof:loot_bags/tech_reborn_rare"
-				player_command: false
+				type: "item"
+				item: {
+					id: "lootbags:loot_bag"
+					Count: 1b
+					tag: {
+						Type: "RARE"
+						Color: 3706623
+						Name: "Tech Reborn Rare Lootbag"
+						Loot: "aof:loot_bags/tech_reborn/rare"
+					}
+				}
 			}]
 		}
 		{
@@ -1079,11 +1283,17 @@
 			}]
 			rewards: [{
 				id: "502D94C89D8EF078"
-				type: "command"
-				title: "TR Epic Loot Bag"
-				icon: "kubejs:loot_bag_epic"
-				command: "/execute at @p run loot spawn ~ ~1 ~ loot aof:loot_bags/tech_reborn_epic"
-				player_command: false
+				type: "item"
+				item: {
+					id: "lootbags:loot_bag"
+					Count: 1b
+					tag: {
+						Type: "EPIC"
+						Color: 3706623
+						Name: "Tech Reborn Epic Lootbag"
+						Loot: "aof:loot_bags/tech_reborn/epic"
+					}
+				}
 			}]
 		}
 		{
@@ -1099,11 +1309,17 @@
 			}]
 			rewards: [{
 				id: "3606000DD8046551"
-				type: "command"
-				title: "TR Rare Loot Bag"
-				icon: "kubejs:loot_bag_rare"
-				command: "/execute at @p run loot spawn ~ ~1 ~ loot aof:loot_bags/tech_reborn_rare"
-				player_command: false
+				type: "item"
+				item: {
+					id: "lootbags:loot_bag"
+					Count: 1b
+					tag: {
+						Type: "RARE"
+						Color: 3706623
+						Name: "Tech Reborn Rare Lootbag"
+						Loot: "aof:loot_bags/tech_reborn/rare"
+					}
+				}
 			}]
 		}
 		{
@@ -1119,11 +1335,17 @@
 			}]
 			rewards: [{
 				id: "46E794C55915CD63"
-				type: "command"
-				title: "TR Epic Loot Bag"
-				icon: "kubejs:loot_bag_epic"
-				command: "/execute at @p run loot spawn ~ ~1 ~ loot aof:loot_bags/tech_reborn_epic"
-				player_command: false
+				type: "item"
+				item: {
+					id: "lootbags:loot_bag"
+					Count: 1b
+					tag: {
+						Type: "EPIC"
+						Color: 3706623
+						Name: "Tech Reborn Epic Lootbag"
+						Loot: "aof:loot_bags/tech_reborn/epic"
+					}
+				}
 			}]
 		}
 		{
@@ -1138,11 +1360,17 @@
 			}]
 			rewards: [{
 				id: "37D18A2470C370DC"
-				type: "command"
-				title: "TR Rare Loot Bag"
-				icon: "kubejs:loot_bag_rare"
-				command: "/execute at @p run loot spawn ~ ~1 ~ loot aof:loot_bags/tech_reborn_rare"
-				player_command: false
+				type: "item"
+				item: {
+					id: "lootbags:loot_bag"
+					Count: 1b
+					tag: {
+						Type: "RARE"
+						Color: 3706623
+						Name: "Tech Reborn Rare Lootbag"
+						Loot: "aof:loot_bags/tech_reborn/rare"
+					}
+				}
 			}]
 		}
 		{
@@ -1161,11 +1389,17 @@
 			}]
 			rewards: [{
 				id: "79BE9DBAA7F36275"
-				type: "command"
-				title: "TR Rare Loot Bag"
-				icon: "kubejs:loot_bag_rare"
-				command: "/execute at @p run loot spawn ~ ~1 ~ loot aof:loot_bags/tech_reborn_rare"
-				player_command: false
+				type: "item"
+				item: {
+					id: "lootbags:loot_bag"
+					Count: 1b
+					tag: {
+						Type: "RARE"
+						Color: 3706623
+						Name: "Tech Reborn Rare Lootbag"
+						Loot: "aof:loot_bags/tech_reborn/rare"
+					}
+				}
 			}]
 		}
 		{
@@ -1184,11 +1418,17 @@
 			}]
 			rewards: [{
 				id: "66F52C7FA3B55643"
-				type: "command"
-				title: "TR Epic Loot Bag"
-				icon: "kubejs:loot_bag_epic"
-				command: "/execute at @p run loot spawn ~ ~1 ~ loot aof:loot_bags/tech_reborn_epic"
-				player_command: false
+				type: "item"
+				item: {
+					id: "lootbags:loot_bag"
+					Count: 1b
+					tag: {
+						Type: "EPIC"
+						Color: 3706623
+						Name: "Tech Reborn Epic Lootbag"
+						Loot: "aof:loot_bags/tech_reborn/epic"
+					}
+				}
 			}]
 		}
 		{
@@ -1206,11 +1446,17 @@
 			}]
 			rewards: [{
 				id: "2E289113F9E35F77"
-				type: "command"
-				title: "TR Epic Loot Bag"
-				icon: "kubejs:loot_bag_epic"
-				command: "/execute at @p run loot spawn ~ ~1 ~ loot aof:loot_bags/tech_reborn_epic"
-				player_command: false
+				type: "item"
+				item: {
+					id: "lootbags:loot_bag"
+					Count: 1b
+					tag: {
+						Type: "EPIC"
+						Color: 3706623
+						Name: "Tech Reborn Epic Lootbag"
+						Loot: "aof:loot_bags/tech_reborn/epic"
+					}
+				}
 			}]
 		}
 		{
@@ -1225,11 +1471,17 @@
 			}]
 			rewards: [{
 				id: "49C6940427C28413"
-				type: "command"
-				title: "TR Epic Loot Bag"
-				icon: "kubejs:loot_bag_epic"
-				command: "/execute at @p run loot spawn ~ ~1 ~ loot aof:loot_bags/tech_reborn_epic"
-				player_command: false
+				type: "item"
+				item: {
+					id: "lootbags:loot_bag"
+					Count: 1b
+					tag: {
+						Type: "EPIC"
+						Color: 3706623
+						Name: "Tech Reborn Epic Lootbag"
+						Loot: "aof:loot_bags/tech_reborn/epic"
+					}
+				}
 			}]
 		}
 		{
@@ -1244,11 +1496,17 @@
 			}]
 			rewards: [{
 				id: "24FFAA7A6FEBCD7E"
-				type: "command"
-				title: "TR Rare Loot Bag"
-				icon: "kubejs:loot_bag_rare"
-				command: "/execute at @p run loot spawn ~ ~1 ~ loot aof:loot_bags/tech_reborn_rare"
-				player_command: false
+				type: "item"
+				item: {
+					id: "lootbags:loot_bag"
+					Count: 1b
+					tag: {
+						Type: "RARE"
+						Color: 3706623
+						Name: "Tech Reborn Rare Lootbag"
+						Loot: "aof:loot_bags/tech_reborn/rare"
+					}
+				}
 			}]
 		}
 		{
@@ -1266,11 +1524,17 @@
 			}]
 			rewards: [{
 				id: "37AD081EBFBF907A"
-				type: "command"
-				title: "TR Rare Loot Bag"
-				icon: "kubejs:loot_bag_rare"
-				command: "/execute at @p run loot spawn ~ ~1 ~ loot aof:loot_bags/tech_reborn_rare"
-				player_command: false
+				type: "item"
+				item: {
+					id: "lootbags:loot_bag"
+					Count: 1b
+					tag: {
+						Type: "RARE"
+						Color: 3706623
+						Name: "Tech Reborn Rare Lootbag"
+						Loot: "aof:loot_bags/tech_reborn/rare"
+					}
+				}
 			}]
 		}
 		{
@@ -1285,11 +1549,17 @@
 			}]
 			rewards: [{
 				id: "175DEA5D9D53D522"
-				type: "command"
-				title: "TR Rare Loot Bag"
-				icon: "kubejs:loot_bag_rare"
-				command: "/execute at @p run loot spawn ~ ~1 ~ loot aof:loot_bags/tech_reborn_rare"
-				player_command: false
+				type: "item"
+				item: {
+					id: "lootbags:loot_bag"
+					Count: 1b
+					tag: {
+						Type: "RARE"
+						Color: 3706623
+						Name: "Tech Reborn Rare Lootbag"
+						Loot: "aof:loot_bags/tech_reborn/rare"
+					}
+				}
 			}]
 		}
 		{
@@ -1312,11 +1582,17 @@
 			}]
 			rewards: [{
 				id: "50B5A5062593242E"
-				type: "command"
-				title: "TR Rare Loot Bag"
-				icon: "kubejs:loot_bag_rare"
-				command: "/execute at @p run loot spawn ~ ~1 ~ loot aof:loot_bags/tech_reborn_rare"
-				player_command: false
+				type: "item"
+				item: {
+					id: "lootbags:loot_bag"
+					Count: 1b
+					tag: {
+						Type: "RARE"
+						Color: 3706623
+						Name: "Tech Reborn Rare Lootbag"
+						Loot: "aof:loot_bags/tech_reborn/rare"
+					}
+				}
 			}]
 		}
 		{
@@ -1332,11 +1608,17 @@
 			}]
 			rewards: [{
 				id: "0590E4EE69D058CE"
-				type: "command"
-				title: "TR Common Loot Bag"
-				icon: "kubejs:loot_bag_common"
-				command: "/execute at @p run loot spawn ~ ~1 ~ loot aof:loot_bags/tech_reborn_common"
-				player_command: false
+				type: "item"
+				item: {
+					id: "lootbags:loot_bag"
+					Count: 1b
+					tag: {
+						Type: "COMMON"
+						Color: 3706623
+						Loot: "aof:loot_bags/tech_reborn/common"
+						Name: "Tech Reborn Common Lootbag"
+					}
+				}
 			}]
 		}
 		{
@@ -1352,11 +1634,17 @@
 			}]
 			rewards: [{
 				id: "1BC50B0115AABE8B"
-				type: "command"
-				title: "TR Common Loot Bag"
-				icon: "kubejs:loot_bag_common"
-				command: "/execute at @p run loot spawn ~ ~1 ~ loot aof:loot_bags/tech_reborn_common"
-				player_command: false
+				type: "item"
+				item: {
+					id: "lootbags:loot_bag"
+					Count: 1b
+					tag: {
+						Type: "COMMON"
+						Color: 3706623
+						Loot: "aof:loot_bags/tech_reborn/common"
+						Name: "Tech Reborn Common Lootbag"
+					}
+				}
 			}]
 		}
 		{
@@ -1373,11 +1661,17 @@
 			}]
 			rewards: [{
 				id: "5FD3F1A871ACA957"
-				type: "command"
-				title: "TR Common Loot Bag"
-				icon: "kubejs:loot_bag_common"
-				command: "/execute at @p run loot spawn ~ ~1 ~ loot aof:loot_bags/tech_reborn_common"
-				player_command: false
+				type: "item"
+				item: {
+					id: "lootbags:loot_bag"
+					Count: 1b
+					tag: {
+						Type: "COMMON"
+						Color: 3706623
+						Loot: "aof:loot_bags/tech_reborn/common"
+						Name: "Tech Reborn Common Lootbag"
+					}
+				}
 			}]
 		}
 		{
@@ -1394,11 +1688,17 @@
 			}]
 			rewards: [{
 				id: "5E4303FF78C704F5"
-				type: "command"
-				title: "TR Rare Loot Bag"
-				icon: "kubejs:loot_bag_rare"
-				command: "/execute at @p run loot spawn ~ ~1 ~ loot aof:loot_bags/tech_reborn_rare"
-				player_command: false
+				type: "item"
+				item: {
+					id: "lootbags:loot_bag"
+					Count: 1b
+					tag: {
+						Type: "RARE"
+						Color: 3706623
+						Name: "Tech Reborn Rare Lootbag"
+						Loot: "aof:loot_bags/tech_reborn/rare"
+					}
+				}
 			}]
 		}
 		{
@@ -1416,11 +1716,17 @@
 			}]
 			rewards: [{
 				id: "5456B44DA6A9FFDA"
-				type: "command"
-				title: "TR Common Loot Bag"
-				icon: "kubejs:loot_bag_common"
-				command: "/execute at @p run loot spawn ~ ~1 ~ loot aof:loot_bags/tech_reborn_common"
-				player_command: false
+				type: "item"
+				item: {
+					id: "lootbags:loot_bag"
+					Count: 1b
+					tag: {
+						Type: "COMMON"
+						Color: 3706623
+						Loot: "aof:loot_bags/tech_reborn/common"
+						Name: "Tech Reborn Common Lootbag"
+					}
+				}
 			}]
 		}
 		{
@@ -1439,11 +1745,17 @@
 			}]
 			rewards: [{
 				id: "1F04CB5CD8D854AE"
-				type: "command"
-				title: "TR Rare Loot Bag"
-				icon: "kubejs:loot_bag_rare"
-				command: "/execute at @p run loot spawn ~ ~1 ~ loot aof:loot_bags/tech_reborn_rare"
-				player_command: false
+				type: "item"
+				item: {
+					id: "lootbags:loot_bag"
+					Count: 1b
+					tag: {
+						Type: "RARE"
+						Color: 3706623
+						Name: "Tech Reborn Rare Lootbag"
+						Loot: "aof:loot_bags/tech_reborn/rare"
+					}
+				}
 			}]
 		}
 		{
@@ -1458,11 +1770,17 @@
 			}]
 			rewards: [{
 				id: "77BA2CDD5E6BC946"
-				type: "command"
-				title: "TR Common Loot Bag"
-				icon: "kubejs:loot_bag_common"
-				command: "/execute at @p run loot spawn ~ ~1 ~ loot aof:loot_bags/tech_reborn_common"
-				player_command: false
+				type: "item"
+				item: {
+					id: "lootbags:loot_bag"
+					Count: 1b
+					tag: {
+						Type: "COMMON"
+						Color: 3706623
+						Loot: "aof:loot_bags/tech_reborn/common"
+						Name: "Tech Reborn Common Lootbag"
+					}
+				}
 			}]
 		}
 		{
@@ -1480,11 +1798,17 @@
 			}]
 			rewards: [{
 				id: "2614154DE8E21959"
-				type: "command"
-				title: "TR Common Loot Bag"
-				icon: "kubejs:loot_bag_common"
-				command: "/execute at @p run loot spawn ~ ~1 ~ loot aof:loot_bags/tech_reborn_common"
-				player_command: false
+				type: "item"
+				item: {
+					id: "lootbags:loot_bag"
+					Count: 1b
+					tag: {
+						Type: "COMMON"
+						Color: 3706623
+						Loot: "aof:loot_bags/tech_reborn/common"
+						Name: "Tech Reborn Common Lootbag"
+					}
+				}
 			}]
 		}
 		{
@@ -1500,11 +1824,17 @@
 			}]
 			rewards: [{
 				id: "7CFAE1940B5CA53C"
-				type: "command"
-				title: "TR Common Loot Bag"
-				icon: "kubejs:loot_bag_common"
-				command: "/execute at @p run loot spawn ~ ~1 ~ loot aof:loot_bags/tech_reborn_common"
-				player_command: false
+				type: "item"
+				item: {
+					id: "lootbags:loot_bag"
+					Count: 1b
+					tag: {
+						Type: "COMMON"
+						Color: 3706623
+						Loot: "aof:loot_bags/tech_reborn/common"
+						Name: "Tech Reborn Common Lootbag"
+					}
+				}
 			}]
 		}
 		{
@@ -1519,11 +1849,17 @@
 			}]
 			rewards: [{
 				id: "00851C908A4C63E3"
-				type: "command"
-				title: "TR Rare Loot Bag"
-				icon: "kubejs:loot_bag_rare"
-				command: "/execute at @p run loot spawn ~ ~1 ~ loot aof:loot_bags/tech_reborn_rare"
-				player_command: false
+				type: "item"
+				item: {
+					id: "lootbags:loot_bag"
+					Count: 1b
+					tag: {
+						Type: "RARE"
+						Color: 3706623
+						Name: "Tech Reborn Rare Lootbag"
+						Loot: "aof:loot_bags/tech_reborn/rare"
+					}
+				}
 			}]
 		}
 		{
@@ -1538,11 +1874,17 @@
 			}]
 			rewards: [{
 				id: "15FE8AFEFAFB4058"
-				type: "command"
-				title: "TR Rare Loot Bag"
-				icon: "kubejs:loot_bag_rare"
-				command: "/execute at @p run loot spawn ~ ~1 ~ loot aof:loot_bags/tech_reborn_rare"
-				player_command: false
+				type: "item"
+				item: {
+					id: "lootbags:loot_bag"
+					Count: 1b
+					tag: {
+						Type: "RARE"
+						Color: 3706623
+						Name: "Tech Reborn Rare Lootbag"
+						Loot: "aof:loot_bags/tech_reborn/rare"
+					}
+				}
 			}]
 		}
 		{
@@ -1561,11 +1903,17 @@
 			}]
 			rewards: [{
 				id: "12EA9BD640B4DC9A"
-				type: "command"
-				title: "TR Rare Loot Bag"
-				icon: "kubejs:loot_bag_rare"
-				command: "/execute at @p run loot spawn ~ ~1 ~ loot aof:loot_bags/tech_reborn_rare"
-				player_command: false
+				type: "item"
+				item: {
+					id: "lootbags:loot_bag"
+					Count: 1b
+					tag: {
+						Type: "RARE"
+						Color: 3706623
+						Name: "Tech Reborn Rare Lootbag"
+						Loot: "aof:loot_bags/tech_reborn/rare"
+					}
+				}
 			}]
 		}
 		{
@@ -1600,11 +1948,17 @@
 			}]
 			rewards: [{
 				id: "140B825962A9F18D"
-				type: "command"
-				title: "TR Rare Loot Bag"
-				icon: "kubejs:loot_bag_rare"
-				command: "/execute at @p run loot spawn ~ ~1 ~ loot aof:loot_bags/tech_reborn_rare"
-				player_command: false
+				type: "item"
+				item: {
+					id: "lootbags:loot_bag"
+					Count: 1b
+					tag: {
+						Type: "RARE"
+						Color: 3706623
+						Name: "Tech Reborn Rare Lootbag"
+						Loot: "aof:loot_bags/tech_reborn/rare"
+					}
+				}
 			}]
 		}
 		{
@@ -1620,11 +1974,17 @@
 			}]
 			rewards: [{
 				id: "150F91A588FA514D"
-				type: "command"
-				title: "TR Rare Loot Bag"
-				icon: "kubejs:loot_bag_rare"
-				command: "/execute at @p run loot spawn ~ ~1 ~ loot aof:loot_bags/tech_reborn_rare"
-				player_command: false
+				type: "item"
+				item: {
+					id: "lootbags:loot_bag"
+					Count: 1b
+					tag: {
+						Type: "RARE"
+						Color: 3706623
+						Name: "Tech Reborn Rare Lootbag"
+						Loot: "aof:loot_bags/tech_reborn/rare"
+					}
+				}
 			}]
 		}
 		{
@@ -1643,11 +2003,17 @@
 			}]
 			rewards: [{
 				id: "0E47CB123A786C24"
-				type: "command"
-				title: "TR Epic Loot Bag"
-				icon: "kubejs:loot_bag_epic"
-				command: "/execute at @p run loot spawn ~ ~1 ~ loot aof:loot_bags/tech_reborn_epic"
-				player_command: false
+				type: "item"
+				item: {
+					id: "lootbags:loot_bag"
+					Count: 1b
+					tag: {
+						Type: "EPIC"
+						Color: 3706623
+						Name: "Tech Reborn Epic Lootbag"
+						Loot: "aof:loot_bags/tech_reborn/epic"
+					}
+				}
 			}]
 		}
 		{
@@ -1665,11 +2031,17 @@
 			}]
 			rewards: [{
 				id: "386E728C09C7BB75"
-				type: "command"
-				title: "TR Epic Loot Bag"
-				icon: "kubejs:loot_bag_epic"
-				command: "/execute at @p run loot spawn ~ ~1 ~ loot aof:loot_bags/tech_reborn_epic"
-				player_command: false
+				type: "item"
+				item: {
+					id: "lootbags:loot_bag"
+					Count: 1b
+					tag: {
+						Type: "EPIC"
+						Color: 3706623
+						Name: "Tech Reborn Epic Lootbag"
+						Loot: "aof:loot_bags/tech_reborn/epic"
+					}
+				}
 			}]
 		}
 		{
@@ -1684,11 +2056,17 @@
 			}]
 			rewards: [{
 				id: "38281648B2227461"
-				type: "command"
-				title: "TR Epic Loot Bag"
-				icon: "kubejs:loot_bag_epic"
-				command: "/execute at @p run loot spawn ~ ~1 ~ loot aof:loot_bags/tech_reborn_epic"
-				player_command: false
+				type: "item"
+				item: {
+					id: "lootbags:loot_bag"
+					Count: 1b
+					tag: {
+						Type: "EPIC"
+						Color: 3706623
+						Name: "Tech Reborn Epic Lootbag"
+						Loot: "aof:loot_bags/tech_reborn/epic"
+					}
+				}
 			}]
 		}
 		{
@@ -1703,11 +2081,17 @@
 			}]
 			rewards: [{
 				id: "4581A0F0A4384603"
-				type: "command"
-				title: "TR Common Loot Bag"
-				icon: "kubejs:loot_bag_common"
-				command: "/execute at @p run loot spawn ~ ~1 ~ loot aof:loot_bags/tech_reborn_common"
-				player_command: false
+				type: "item"
+				item: {
+					id: "lootbags:loot_bag"
+					Count: 1b
+					tag: {
+						Type: "COMMON"
+						Color: 3706623
+						Loot: "aof:loot_bags/tech_reborn/common"
+						Name: "Tech Reborn Common Lootbag"
+					}
+				}
 			}]
 		}
 		{
@@ -1723,11 +2107,17 @@
 			}]
 			rewards: [{
 				id: "6D6CEAB5D41A2077"
-				type: "command"
-				title: "TR Common Loot Bag"
-				icon: "kubejs:loot_bag_common"
-				command: "/execute at @p run loot spawn ~ ~1 ~ loot aof:loot_bags/tech_reborn_common"
-				player_command: false
+				type: "item"
+				item: {
+					id: "lootbags:loot_bag"
+					Count: 1b
+					tag: {
+						Type: "COMMON"
+						Color: 3706623
+						Loot: "aof:loot_bags/tech_reborn/common"
+						Name: "Tech Reborn Common Lootbag"
+					}
+				}
 			}]
 		}
 		{
@@ -1742,11 +2132,17 @@
 			}]
 			rewards: [{
 				id: "7EBF744766EF29EF"
-				type: "command"
-				title: "TR Rare Loot Bag"
-				icon: "kubejs:loot_bag_rare"
-				command: "/execute at @p run loot spawn ~ ~1 ~ loot aof:loot_bags/tech_reborn_rare"
-				player_command: false
+				type: "item"
+				item: {
+					id: "lootbags:loot_bag"
+					Count: 1b
+					tag: {
+						Type: "RARE"
+						Color: 3706623
+						Name: "Tech Reborn Rare Lootbag"
+						Loot: "aof:loot_bags/tech_reborn/rare"
+					}
+				}
 			}]
 		}
 		{
@@ -1762,11 +2158,17 @@
 			}]
 			rewards: [{
 				id: "6B9A47975C83B4D1"
-				type: "command"
-				title: "TR Rare Loot Bag"
-				icon: "kubejs:loot_bag_rare"
-				command: "/execute at @p run loot spawn ~ ~1 ~ loot aof:loot_bags/tech_reborn_rare"
-				player_command: false
+				type: "item"
+				item: {
+					id: "lootbags:loot_bag"
+					Count: 1b
+					tag: {
+						Type: "RARE"
+						Color: 3706623
+						Name: "Tech Reborn Rare Lootbag"
+						Loot: "aof:loot_bags/tech_reborn/rare"
+					}
+				}
 			}]
 		}
 		{
@@ -1781,12 +2183,18 @@
 				item: "techreborn:lithium_ion_battery"
 			}]
 			rewards: [{
-				id: "7DCFEBCE98E804BE"
-				type: "command"
-				title: "TR Rare Loot Bag"
-				icon: "kubejs:loot_bag_rare"
-				command: "/execute at @p run loot spawn ~ ~1 ~ loot aof:loot_bags/tech_reborn_rare"
-				player_command: false
+				id: "3798EFE6EB301D28"
+				type: "item"
+				item: {
+					id: "lootbags:loot_bag"
+					Count: 1b
+					tag: {
+						Type: "RARE"
+						Color: 3706623
+						Name: "Tech Reborn Rare Lootbag"
+						Loot: "aof:loot_bags/tech_reborn/rare"
+					}
+				}
 			}]
 		}
 		{
@@ -1812,11 +2220,17 @@
 			}]
 			rewards: [{
 				id: "38D10FC3B27394DB"
-				type: "command"
-				title: "TR Common Loot Bag"
-				icon: "kubejs:loot_bag_common"
-				command: "/execute at @p run loot spawn ~ ~1 ~ loot aof:loot_bags/tech_reborn_common"
-				player_command: false
+				type: "item"
+				item: {
+					id: "lootbags:loot_bag"
+					Count: 1b
+					tag: {
+						Type: "COMMON"
+						Color: 3706623
+						Loot: "aof:loot_bags/tech_reborn/common"
+						Name: "Tech Reborn Common Lootbag"
+					}
+				}
 			}]
 		}
 		{
@@ -1835,11 +2249,17 @@
 			}]
 			rewards: [{
 				id: "5378182B0F04B24A"
-				type: "command"
-				title: "TR Epic Loot Bag"
-				icon: "kubejs:loot_bag_epic"
-				command: "/execute at @p run loot spawn ~ ~1 ~ loot aof:loot_bags/tech_reborn_epic"
-				player_command: false
+				type: "item"
+				item: {
+					id: "lootbags:loot_bag"
+					Count: 1b
+					tag: {
+						Type: "EPIC"
+						Color: 3706623
+						Name: "Tech Reborn Epic Lootbag"
+						Loot: "aof:loot_bags/tech_reborn/epic"
+					}
+				}
 			}]
 		}
 		{
@@ -1855,11 +2275,17 @@
 			}]
 			rewards: [{
 				id: "56CDDFDA1A86D305"
-				type: "command"
-				title: "TR Epic Loot Bag"
-				icon: "kubejs:loot_bag_epic"
-				command: "/execute at @p run loot spawn ~ ~1 ~ loot aof:loot_bags/tech_reborn_epic"
-				player_command: false
+				type: "item"
+				item: {
+					id: "lootbags:loot_bag"
+					Count: 1b
+					tag: {
+						Type: "EPIC"
+						Color: 3706623
+						Name: "Tech Reborn Epic Lootbag"
+						Loot: "aof:loot_bags/tech_reborn/epic"
+					}
+				}
 			}]
 		}
 		{
@@ -1880,11 +2306,17 @@
 			}]
 			rewards: [{
 				id: "5045F87A017716EE"
-				type: "command"
-				title: "TR Epic Loot Bag"
-				icon: "kubejs:loot_bag_epic"
-				command: "/execute at @p run loot spawn ~ ~1 ~ loot aof:loot_bags/tech_reborn_epic"
-				player_command: false
+				type: "item"
+				item: {
+					id: "lootbags:loot_bag"
+					Count: 1b
+					tag: {
+						Type: "EPIC"
+						Color: 3706623
+						Name: "Tech Reborn Epic Lootbag"
+						Loot: "aof:loot_bags/tech_reborn/epic"
+					}
+				}
 			}]
 		}
 		{
@@ -1902,11 +2334,17 @@
 			}]
 			rewards: [{
 				id: "099A0AEFE9B15A80"
-				type: "command"
-				title: "TR Epic Loot Bag"
-				icon: "kubejs:loot_bag_epic"
-				command: "/execute at @p run loot spawn ~ ~1 ~ loot aof:loot_bags/tech_reborn_epic"
-				player_command: false
+				type: "item"
+				item: {
+					id: "lootbags:loot_bag"
+					Count: 1b
+					tag: {
+						Type: "EPIC"
+						Color: 3706623
+						Name: "Tech Reborn Epic Lootbag"
+						Loot: "aof:loot_bags/tech_reborn/epic"
+					}
+				}
 			}]
 		}
 		{
@@ -1921,11 +2359,17 @@
 			}]
 			rewards: [{
 				id: "7EF3E127A9C40586"
-				type: "command"
-				title: "TR Epic Loot Bag"
-				icon: "kubejs:loot_bag_epic"
-				command: "/execute at @p run loot spawn ~ ~1 ~ loot aof:loot_bags/tech_reborn_epic"
-				player_command: false
+				type: "item"
+				item: {
+					id: "lootbags:loot_bag"
+					Count: 1b
+					tag: {
+						Type: "EPIC"
+						Color: 3706623
+						Name: "Tech Reborn Epic Lootbag"
+						Loot: "aof:loot_bags/tech_reborn/epic"
+					}
+				}
 			}]
 		}
 		{
@@ -1946,11 +2390,17 @@
 			}]
 			rewards: [{
 				id: "13B92E8E61D1F85D"
-				type: "command"
-				title: "TR Epic Loot Bag"
-				icon: "kubejs:loot_bag_epic"
-				command: "/execute at @p run loot spawn ~ ~1 ~ loot aof:loot_bags/tech_reborn_epic"
-				player_command: false
+				type: "item"
+				item: {
+					id: "lootbags:loot_bag"
+					Count: 1b
+					tag: {
+						Type: "EPIC"
+						Color: 3706623
+						Name: "Tech Reborn Epic Lootbag"
+						Loot: "aof:loot_bags/tech_reborn/epic"
+					}
+				}
 			}]
 		}
 		{
@@ -1971,11 +2421,17 @@
 			}]
 			rewards: [{
 				id: "0965D2B85324DA75"
-				type: "command"
-				title: "TR Epic Loot Bag"
-				icon: "kubejs:loot_bag_epic"
-				command: "/execute at @p run loot spawn ~ ~1 ~ loot aof:loot_bags/tech_reborn_epic"
-				player_command: false
+				type: "item"
+				item: {
+					id: "lootbags:loot_bag"
+					Count: 1b
+					tag: {
+						Type: "EPIC"
+						Color: 3706623
+						Name: "Tech Reborn Epic Lootbag"
+						Loot: "aof:loot_bags/tech_reborn/epic"
+					}
+				}
 			}]
 		}
 		{
@@ -1995,11 +2451,17 @@
 			}]
 			rewards: [{
 				id: "6AEC3535DC8AC2AF"
-				type: "command"
-				title: "TR Epic Loot Bag"
-				icon: "kubejs:loot_bag_epic"
-				command: "/execute at @p run loot spawn ~ ~1 ~ loot aof:loot_bags/tech_reborn_epic"
-				player_command: false
+				type: "item"
+				item: {
+					id: "lootbags:loot_bag"
+					Count: 1b
+					tag: {
+						Type: "EPIC"
+						Color: 3706623
+						Name: "Tech Reborn Epic Lootbag"
+						Loot: "aof:loot_bags/tech_reborn/epic"
+					}
+				}
 			}]
 		}
 		{
@@ -2017,11 +2479,17 @@
 			}]
 			rewards: [{
 				id: "6FEF0B0465AEE3CD"
-				type: "command"
-				title: "TR Epic Loot Bag"
-				icon: "kubejs:loot_bag_epic"
-				command: "/execute at @p run loot spawn ~ ~1 ~ loot aof:loot_bags/tech_reborn_epic"
-				player_command: false
+				type: "item"
+				item: {
+					id: "lootbags:loot_bag"
+					Count: 1b
+					tag: {
+						Type: "EPIC"
+						Color: 3706623
+						Name: "Tech Reborn Epic Lootbag"
+						Loot: "aof:loot_bags/tech_reborn/epic"
+					}
+				}
 			}]
 		}
 		{
@@ -2036,11 +2504,17 @@
 			}]
 			rewards: [{
 				id: "4751598D164EC3C6"
-				type: "command"
-				title: "TR Epic Loot Bag"
-				icon: "kubejs:loot_bag_epic"
-				command: "/execute at @p run loot spawn ~ ~1 ~ loot aof:loot_bags/tech_reborn_epic"
-				player_command: false
+				type: "item"
+				item: {
+					id: "lootbags:loot_bag"
+					Count: 1b
+					tag: {
+						Type: "EPIC"
+						Color: 3706623
+						Name: "Tech Reborn Epic Lootbag"
+						Loot: "aof:loot_bags/tech_reborn/epic"
+					}
+				}
 			}]
 		}
 		{
@@ -2060,11 +2534,17 @@
 			}]
 			rewards: [{
 				id: "49A315B27D1038EC"
-				type: "command"
-				title: "TR Epic Loot Bag"
-				icon: "kubejs:loot_bag_epic"
-				command: "/execute at @p run loot spawn ~ ~1 ~ loot aof:loot_bags/tech_reborn_epic"
-				player_command: false
+				type: "item"
+				item: {
+					id: "lootbags:loot_bag"
+					Count: 1b
+					tag: {
+						Type: "EPIC"
+						Color: 3706623
+						Name: "Tech Reborn Epic Lootbag"
+						Loot: "aof:loot_bags/tech_reborn/epic"
+					}
+				}
 			}]
 		}
 		{
@@ -2095,11 +2575,17 @@
 			}]
 			rewards: [{
 				id: "6FA0E44CBB58E3A0"
-				type: "command"
-				title: "TR Epic Loot Bag"
-				icon: "kubejs:loot_bag_epic"
-				command: "/execute at @p run loot spawn ~ ~1 ~ loot aof:loot_bags/tech_reborn_epic"
-				player_command: false
+				type: "item"
+				item: {
+					id: "lootbags:loot_bag"
+					Count: 1b
+					tag: {
+						Type: "EPIC"
+						Color: 3706623
+						Name: "Tech Reborn Epic Lootbag"
+						Loot: "aof:loot_bags/tech_reborn/epic"
+					}
+				}
 			}]
 		}
 		{
@@ -2128,11 +2614,17 @@
 			}]
 			rewards: [{
 				id: "23ECAF79C3F8CE94"
-				type: "command"
-				title: "TR Epic Loot Bag"
-				icon: "kubejs:loot_bag_epic"
-				command: "/execute at @p run loot spawn ~ ~1 ~ loot aof:loot_bags/tech_reborn_epic"
-				player_command: false
+				type: "item"
+				item: {
+					id: "lootbags:loot_bag"
+					Count: 1b
+					tag: {
+						Type: "EPIC"
+						Color: 3706623
+						Name: "Tech Reborn Epic Lootbag"
+						Loot: "aof:loot_bags/tech_reborn/epic"
+					}
+				}
 			}]
 		}
 		{
@@ -2153,11 +2645,17 @@
 			}]
 			rewards: [{
 				id: "6178B470126C805B"
-				type: "command"
-				title: "TR Rare Loot Bag"
-				icon: "kubejs:loot_bag_rare"
-				command: "/execute at @p run loot spawn ~ ~1 ~ loot aof:loot_bags/tech_reborn_rare"
-				player_command: false
+				type: "item"
+				item: {
+					id: "lootbags:loot_bag"
+					Count: 1b
+					tag: {
+						Type: "RARE"
+						Color: 3706623
+						Name: "Tech Reborn Rare Lootbag"
+						Loot: "aof:loot_bags/tech_reborn/rare"
+					}
+				}
 			}]
 		}
 		{
@@ -2180,11 +2678,17 @@
 			}]
 			rewards: [{
 				id: "63C4457C5AF8F7A9"
-				type: "command"
-				title: "TR Rare Loot Bag"
-				icon: "kubejs:loot_bag_rare"
-				command: "/execute at @p run loot spawn ~ ~1 ~ loot aof:loot_bags/tech_reborn_rare"
-				player_command: false
+				type: "item"
+				item: {
+					id: "lootbags:loot_bag"
+					Count: 1b
+					tag: {
+						Type: "RARE"
+						Color: 3706623
+						Name: "Tech Reborn Rare Lootbag"
+						Loot: "aof:loot_bags/tech_reborn/rare"
+					}
+				}
 			}]
 		}
 		{
@@ -2199,11 +2703,17 @@
 			}]
 			rewards: [{
 				id: "289B05BBBD6EC4AE"
-				type: "command"
-				title: "TR Common Loot Bag"
-				icon: "kubejs:loot_bag_common"
-				command: "/execute at @p run loot spawn ~ ~1 ~ loot aof:loot_bags/tech_reborn_common"
-				player_command: false
+				type: "item"
+				item: {
+					id: "lootbags:loot_bag"
+					Count: 1b
+					tag: {
+						Type: "COMMON"
+						Color: 3706623
+						Loot: "aof:loot_bags/tech_reborn/common"
+						Name: "Tech Reborn Common Lootbag"
+					}
+				}
 			}]
 		}
 		{
@@ -2218,11 +2728,17 @@
 			}]
 			rewards: [{
 				id: "1E36B59DE83D5476"
-				type: "command"
-				title: "TR Rare Loot Bag"
-				icon: "kubejs:loot_bag_rare"
-				command: "/execute at @p run loot spawn ~ ~1 ~ loot aof:loot_bags/tech_reborn_rare"
-				player_command: false
+				type: "item"
+				item: {
+					id: "lootbags:loot_bag"
+					Count: 1b
+					tag: {
+						Type: "RARE"
+						Color: 3706623
+						Name: "Tech Reborn Rare Lootbag"
+						Loot: "aof:loot_bags/tech_reborn/rare"
+					}
+				}
 			}]
 		}
 		{
@@ -2238,11 +2754,17 @@
 			}]
 			rewards: [{
 				id: "16D5570CCFE6D1A9"
-				type: "command"
-				title: "TR Common Loot Bag"
-				icon: "kubejs:loot_bag_common"
-				command: "/execute at @p run loot spawn ~ ~1 ~ loot aof:loot_bags/tech_reborn_common"
-				player_command: false
+				type: "item"
+				item: {
+					id: "lootbags:loot_bag"
+					Count: 1b
+					tag: {
+						Type: "COMMON"
+						Color: 3706623
+						Loot: "aof:loot_bags/tech_reborn/common"
+						Name: "Tech Reborn Common Lootbag"
+					}
+				}
 			}]
 		}
 		{
@@ -2258,11 +2780,17 @@
 			}]
 			rewards: [{
 				id: "057D3CDC2B6FF07C"
-				type: "command"
-				title: "TR Rare Loot Bag"
-				icon: "kubejs:loot_bag_rare"
-				command: "/execute at @p run loot spawn ~ ~1 ~ loot aof:loot_bags/tech_reborn_rare"
-				player_command: false
+				type: "item"
+				item: {
+					id: "lootbags:loot_bag"
+					Count: 1b
+					tag: {
+						Type: "RARE"
+						Color: 3706623
+						Name: "Tech Reborn Rare Lootbag"
+						Loot: "aof:loot_bags/tech_reborn/rare"
+					}
+				}
 			}]
 		}
 		{
@@ -2278,11 +2806,17 @@
 			}]
 			rewards: [{
 				id: "5D56CC330D53CE6F"
-				type: "command"
-				title: "TR Epic Loot Bag"
-				icon: "kubejs:loot_bag_epic"
-				command: "/execute at @p run loot spawn ~ ~1 ~ loot aof:loot_bags/tech_reborn_epic"
-				player_command: false
+				type: "item"
+				item: {
+					id: "lootbags:loot_bag"
+					Count: 1b
+					tag: {
+						Type: "EPIC"
+						Color: 3706623
+						Name: "Tech Reborn Epic Lootbag"
+						Loot: "aof:loot_bags/tech_reborn/epic"
+					}
+				}
 			}]
 		}
 		{
@@ -2306,11 +2840,17 @@
 			}]
 			rewards: [{
 				id: "17E5828C89E519FE"
-				type: "command"
-				title: "TR Epic Loot Bag"
-				icon: "kubejs:loot_bag_epic"
-				command: "/execute at @p run loot spawn ~ ~1 ~ loot aof:loot_bags/tech_reborn_epic"
-				player_command: false
+				type: "item"
+				item: {
+					id: "lootbags:loot_bag"
+					Count: 1b
+					tag: {
+						Type: "EPIC"
+						Color: 3706623
+						Name: "Tech Reborn Epic Lootbag"
+						Loot: "aof:loot_bags/tech_reborn/epic"
+					}
+				}
 			}]
 		}
 		{
@@ -2341,11 +2881,17 @@
 			]
 			rewards: [{
 				id: "726CE2020788DEA7"
-				type: "command"
-				title: "TR Epic Loot Bag"
-				icon: "kubejs:loot_bag_epic"
-				command: "/execute at @p run loot spawn ~ ~1 ~ loot aof:loot_bags/tech_reborn_epic"
-				player_command: false
+				type: "item"
+				item: {
+					id: "lootbags:loot_bag"
+					Count: 1b
+					tag: {
+						Type: "EPIC"
+						Color: 3706623
+						Name: "Tech Reborn Epic Lootbag"
+						Loot: "aof:loot_bags/tech_reborn/epic"
+					}
+				}
 			}]
 		}
 		{
@@ -2360,11 +2906,17 @@
 			}]
 			rewards: [{
 				id: "4D57CDFB90CDFCB8"
-				type: "command"
-				title: "TR Epic Loot Bag"
-				icon: "kubejs:loot_bag_epic"
-				command: "/execute at @p run loot spawn ~ ~1 ~ loot aof:loot_bags/tech_reborn_epic"
-				player_command: false
+				type: "item"
+				item: {
+					id: "lootbags:loot_bag"
+					Count: 1b
+					tag: {
+						Type: "EPIC"
+						Color: 3706623
+						Name: "Tech Reborn Epic Lootbag"
+						Loot: "aof:loot_bags/tech_reborn/epic"
+					}
+				}
 			}]
 		}
 		{
@@ -2381,11 +2933,17 @@
 			}]
 			rewards: [{
 				id: "228B3542D4683300"
-				type: "command"
-				title: "TR Common Loot Bag"
-				icon: "kubejs:loot_bag_common"
-				command: "/execute at @p run loot spawn ~ ~1 ~ loot aof:loot_bags/tech_reborn_common"
-				player_command: false
+				type: "item"
+				item: {
+					id: "lootbags:loot_bag"
+					Count: 1b
+					tag: {
+						Type: "COMMON"
+						Color: 3706623
+						Loot: "aof:loot_bags/tech_reborn/common"
+						Name: "Tech Reborn Common Lootbag"
+					}
+				}
 			}]
 		}
 		{
@@ -2405,12 +2963,18 @@
 				item: "techreborn:industrial_centrifuge"
 			}]
 			rewards: [{
-				id: "662F2CA6280271A7"
-				type: "command"
-				title: "TR Epic Loot Bag"
-				icon: "kubejs:loot_bag_epic"
-				command: "/execute at @p run loot spawn ~ ~1 ~ loot aof:loot_bags/tech_reborn_epic"
-				player_command: false
+				id: "399DA4FB8F4A9D2E"
+				type: "item"
+				item: {
+					id: "lootbags:loot_bag"
+					Count: 1b
+					tag: {
+						Type: "EPIC"
+						Color: 3706623
+						Name: "Tech Reborn Epic Lootbag"
+						Loot: "aof:loot_bags/tech_reborn/epic"
+					}
+				}
 			}]
 		}
 		{
@@ -2435,11 +2999,17 @@
 			}]
 			rewards: [{
 				id: "7A8068A350404177"
-				type: "command"
-				title: "TR Epic Loot Bag"
-				icon: "kubejs:loot_bag_epic"
-				command: "/execute at @p run loot spawn ~ ~1 ~ loot aof:loot_bags/tech_reborn_epic"
-				player_command: false
+				type: "item"
+				item: {
+					id: "lootbags:loot_bag"
+					Count: 1b
+					tag: {
+						Type: "EPIC"
+						Color: 3706623
+						Name: "Tech Reborn Epic Lootbag"
+						Loot: "aof:loot_bags/tech_reborn/epic"
+					}
+				}
 			}]
 		}
 		{
@@ -2471,11 +3041,17 @@
 			}]
 			rewards: [{
 				id: "2C76DB345C5D48BD"
-				type: "command"
-				title: "TR Epic Loot Bag"
-				icon: "kubejs:loot_bag_epic"
-				command: "/execute at @p run loot spawn ~ ~1 ~ loot aof:loot_bags/tech_reborn_epic"
-				player_command: false
+				type: "item"
+				item: {
+					id: "lootbags:loot_bag"
+					Count: 1b
+					tag: {
+						Type: "EPIC"
+						Color: 3706623
+						Name: "Tech Reborn Epic Lootbag"
+						Loot: "aof:loot_bags/tech_reborn/epic"
+					}
+				}
 			}]
 		}
 		{
@@ -2491,11 +3067,17 @@
 			}]
 			rewards: [{
 				id: "19E0AD0D5DB764AC"
-				type: "command"
-				title: "TR Epic Loot Bag"
-				icon: "kubejs:loot_bag_epic"
-				command: "/execute at @p run loot spawn ~ ~1 ~ loot aof:loot_bags/tech_reborn_epic"
-				player_command: false
+				type: "item"
+				item: {
+					id: "lootbags:loot_bag"
+					Count: 1b
+					tag: {
+						Type: "EPIC"
+						Color: 3706623
+						Name: "Tech Reborn Epic Lootbag"
+						Loot: "aof:loot_bags/tech_reborn/epic"
+					}
+				}
 			}]
 		}
 		{
@@ -2531,11 +3113,17 @@
 			]
 			rewards: [{
 				id: "0BB43D8E5DB6AD6F"
-				type: "command"
-				title: "TR Common Loot Bag"
-				icon: "kubejs:loot_bag_common"
-				command: "/execute at @p run loot spawn ~ ~1 ~ loot aof:loot_bags/tech_reborn_common"
-				player_command: false
+				type: "item"
+				item: {
+					id: "lootbags:loot_bag"
+					Count: 1b
+					tag: {
+						Type: "COMMON"
+						Color: 3706623
+						Loot: "aof:loot_bags/tech_reborn/common"
+						Name: "Tech Reborn Common Lootbag"
+					}
+				}
 			}]
 		}
 		{
@@ -2597,11 +3185,17 @@
 			]
 			rewards: [{
 				id: "6D82ED0B4253939D"
-				type: "command"
-				title: "TR Common Loot Bag"
-				icon: "kubejs:loot_bag_common"
-				command: "/execute at @p run loot spawn ~ ~1 ~ loot aof:loot_bags/tech_reborn_common"
-				player_command: false
+				type: "item"
+				item: {
+					id: "lootbags:loot_bag"
+					Count: 1b
+					tag: {
+						Type: "COMMON"
+						Color: 3706623
+						Loot: "aof:loot_bags/tech_reborn/common"
+						Name: "Tech Reborn Common Lootbag"
+					}
+				}
 			}]
 		}
 		{
@@ -2617,11 +3211,17 @@
 			}]
 			rewards: [{
 				id: "499D931029364AC9"
-				type: "command"
-				title: "TR Common Loot Bag"
-				icon: "kubejs:loot_bag_common"
-				command: "/execute at @p run loot spawn ~ ~1 ~ loot aof:loot_bags/tech_reborn_common"
-				player_command: false
+				type: "item"
+				item: {
+					id: "lootbags:loot_bag"
+					Count: 1b
+					tag: {
+						Type: "COMMON"
+						Color: 3706623
+						Loot: "aof:loot_bags/tech_reborn/common"
+						Name: "Tech Reborn Common Lootbag"
+					}
+				}
 			}]
 		}
 		{
@@ -2642,11 +3242,17 @@
 			}]
 			rewards: [{
 				id: "3543DA35D40E9A5D"
-				type: "command"
-				title: "TR Epic Loot Bag"
-				icon: "kubejs:loot_bag_epic"
-				command: "/execute at @p run loot spawn ~ ~1 ~ loot aof:loot_bags/tech_reborn_epic"
-				player_command: false
+				type: "item"
+				item: {
+					id: "lootbags:loot_bag"
+					Count: 1b
+					tag: {
+						Type: "EPIC"
+						Color: 3706623
+						Name: "Tech Reborn Epic Lootbag"
+						Loot: "aof:loot_bags/tech_reborn/epic"
+					}
+				}
 			}]
 		}
 	]

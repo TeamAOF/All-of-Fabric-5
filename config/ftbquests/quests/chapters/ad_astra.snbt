@@ -67,12 +67,18 @@
 				}
 			}]
 			rewards: [{
-				id: "5F51983FD52D5CD1"
-				type: "command"
-				title: "Ad Astra Rare Loot Bag"
-				icon: "kubejs:loot_bag_rare"
-				command: "/execute at @p run loot spawn ~ ~1 ~ loot aof:loot_bags/ad_astra_rare"
-				player_command: false
+				id: "44F35E5939C02079"
+				type: "item"
+				item: {
+					id: "lootbags:loot_bag"
+					Count: 1b
+					tag: {
+						Type: "RARE"
+						Color: 11763949
+						Name: "Ad Astra! Rare Lootbag"
+						Loot: "aof:loot_bags/ad_astra/rare"
+					}
+				}
 			}]
 		}
 		{
@@ -97,12 +103,18 @@
 				item: "ad_astra:launch_pad"
 			}]
 			rewards: [{
-				id: "61898BBBAE610976"
-				type: "command"
-				title: "Ad Astra Common Loot Bag"
-				icon: "kubejs:loot_bag_common"
-				command: "/execute at @p run loot spawn ~ ~1 ~ loot aof:loot_bags/ad_astra_common"
-				player_command: false
+				id: "675B6DF562FF19C9"
+				type: "item"
+				item: {
+					id: "lootbags:loot_bag"
+					Count: 1b
+					tag: {
+						Type: "COMMON"
+						Color: 11763949
+						Name: "Ad Astra! Common Lootbag"
+						Loot: "aof:loot_bags/ad_astra/common"
+					}
+				}
 			}]
 		}
 		{
@@ -135,12 +147,18 @@
 				}
 			]
 			rewards: [{
-				id: "53CD3E37DE96D3AB"
-				type: "command"
-				title: "Ad Astra Common Loot Bag"
-				icon: "kubejs:loot_bag_common"
-				command: "/execute at @p run loot spawn ~ ~1 ~ loot aof:loot_bags/ad_astra_common"
-				player_command: false
+				id: "3D5D5A3845291029"
+				type: "item"
+				item: {
+					id: "lootbags:loot_bag"
+					Count: 1b
+					tag: {
+						Type: "COMMON"
+						Color: 11763949
+						Name: "Ad Astra! Common Lootbag"
+						Loot: "aof:loot_bags/ad_astra/common"
+					}
+				}
 			}]
 		}
 		{
@@ -212,14 +230,30 @@
 					}
 				}
 			]
-			rewards: [{
-				id: "7DD7D1CF91C45510"
-				type: "command"
-				title: "Ad Astra Common Loot Bag"
-				icon: "kubejs:loot_bag_common"
-				command: "/execute at @p run loot spawn ~ ~1 ~ loot aof:loot_bags/ad_astra_common"
-				player_command: false
-			}]
+			rewards: [
+				{
+					id: "7DD7D1CF91C45510"
+					type: "command"
+					title: "Ad Astra Common Loot Bag"
+					icon: "kubejs:loot_bag_common"
+					command: "/execute at @p run loot spawn ~ ~1 ~ loot aof:loot_bags/ad_astra_common"
+					player_command: false
+				}
+				{
+					id: "18F8A2AC6AD01EA2"
+					type: "item"
+					item: {
+						id: "lootbags:loot_bag"
+						Count: 1b
+						tag: {
+							Type: "COMMON"
+							Color: 11763949
+							Name: "Ad Astra! Common Lootbag"
+							Loot: "aof:loot_bags/ad_astra/common"
+						}
+					}
+				}
+			]
 		}
 		{
 			title: "Oxygen Generation"
@@ -253,12 +287,18 @@
 				}
 			]
 			rewards: [{
-				id: "21DF2F0E10EC5C5D"
-				type: "command"
-				title: "Ad Astra Common Loot Bag"
-				icon: "kubejs:loot_bag_common"
-				command: "/execute at @p run loot spawn ~ ~1 ~ loot aof:loot_bags/ad_astra_common"
-				player_command: false
+				id: "2D327DD48A310FE7"
+				type: "item"
+				item: {
+					id: "lootbags:loot_bag"
+					Count: 1b
+					tag: {
+						Type: "COMMON"
+						Color: 11763949
+						Name: "Ad Astra! Common Lootbag"
+						Loot: "aof:loot_bags/ad_astra/common"
+					}
+				}
 			}]
 		}
 		{
@@ -278,12 +318,18 @@
 				item: "ad_astra:nasa_workbench"
 			}]
 			rewards: [{
-				id: "3C2235DB23F613FF"
-				type: "command"
-				title: "Ad Astra Common Loot Bag"
-				icon: "kubejs:loot_bag_common"
-				command: "/execute at @p run loot spawn ~ ~1 ~ loot aof:loot_bags/ad_astra_common"
-				player_command: false
+				id: "3384F7FAFB2B78ED"
+				type: "item"
+				item: {
+					id: "lootbags:loot_bag"
+					Count: 1b
+					tag: {
+						Type: "COMMON"
+						Color: 11763949
+						Name: "Ad Astra! Common Lootbag"
+						Loot: "aof:loot_bags/ad_astra/common"
+					}
+				}
 			}]
 		}
 		{
@@ -317,14 +363,30 @@
 					tag: { }
 				}
 			}]
-			rewards: [{
-				id: "28EEA58283CE387C"
-				type: "command"
-				title: "Ad Astra Epic Loot Bag"
-				icon: "kubejs:loot_bag_epic"
-				command: "/execute at @p run loot spawn ~ ~1 ~ loot aof:loot_bags/ad_astra_epic"
-				player_command: false
-			}]
+			rewards: [
+				{
+					id: "28EEA58283CE387C"
+					type: "command"
+					title: "Ad Astra Epic Loot Bag"
+					icon: "kubejs:loot_bag_epic"
+					command: "/execute at @p run loot spawn ~ ~1 ~ loot aof:loot_bags/ad_astra_epic"
+					player_command: false
+				}
+				{
+					id: "4DBE4F2A8B29DCF5"
+					type: "item"
+					item: {
+						id: "lootbags:loot_bag"
+						Count: 1b
+						tag: {
+							Type: "EPIC"
+							Color: 11763949
+							Name: "Ad Astra! Epic Lootbag"
+							Loot: "aof:loot_bags/ad_astra/epic"
+						}
+					}
+				}
+			]
 		}
 		{
 			title: "Moon Metal"
@@ -347,12 +409,18 @@
 				count: 20L
 			}]
 			rewards: [{
-				id: "7503613DDE343606"
-				type: "command"
-				title: "Ad Astra Rare Loot Bag"
-				icon: "kubejs:loot_bag_rare"
-				command: "/execute at @p run loot spawn ~ ~1 ~ loot aof:loot_bags/ad_astra_rare"
-				player_command: false
+				id: "69C472FB62AF4303"
+				type: "item"
+				item: {
+					id: "lootbags:loot_bag"
+					Count: 1b
+					tag: {
+						Type: "RARE"
+						Color: 11763949
+						Name: "Ad Astra! Rare Lootbag"
+						Loot: "aof:loot_bags/ad_astra/rare"
+					}
+				}
 			}]
 		}
 		{
@@ -374,12 +442,18 @@
 				item: "ad_astra:oxygen_distributor"
 			}]
 			rewards: [{
-				id: "786AC3A2FFDCB2E1"
-				type: "command"
-				title: "Ad Astra Rare Loot Bag"
-				icon: "kubejs:loot_bag_rare"
-				command: "/execute at @p run loot spawn ~ ~1 ~ loot aof:loot_bags/ad_astra_rare"
-				player_command: false
+				id: "1C2A03C3DD8D7EBB"
+				type: "item"
+				item: {
+					id: "lootbags:loot_bag"
+					Count: 1b
+					tag: {
+						Type: "RARE"
+						Color: 11763949
+						Name: "Ad Astra! Rare Lootbag"
+						Loot: "aof:loot_bags/ad_astra/rare"
+					}
+				}
 			}]
 		}
 		{
@@ -405,12 +479,18 @@
 				count: 16L
 			}]
 			rewards: [{
-				id: "4413D8BD521CCDF5"
-				type: "command"
-				title: "Ad Astra Rare Loot Bag"
-				icon: "kubejs:loot_bag_rare"
-				command: "/execute at @p run loot spawn ~ ~1 ~ loot aof:loot_bags/ad_astra_rare"
-				player_command: false
+				id: "6345CC3EB9BD98CB"
+				type: "item"
+				item: {
+					id: "lootbags:loot_bag"
+					Count: 1b
+					tag: {
+						Type: "RARE"
+						Color: 11763949
+						Name: "Ad Astra! Rare Lootbag"
+						Loot: "aof:loot_bags/ad_astra/rare"
+					}
+				}
 			}]
 		}
 		{
@@ -432,12 +512,18 @@
 				item: "ad_astra:solar_panel"
 			}]
 			rewards: [{
-				id: "6943A8940DA31143"
-				type: "command"
-				title: "Ad Astra Rare Loot Bag"
-				icon: "kubejs:loot_bag_rare"
-				command: "/execute at @p run loot spawn ~ ~1 ~ loot aof:loot_bags/ad_astra_rare"
-				player_command: false
+				id: "7D61139A6347647C"
+				type: "item"
+				item: {
+					id: "lootbags:loot_bag"
+					Count: 1b
+					tag: {
+						Type: "RARE"
+						Color: 11763949
+						Name: "Ad Astra! Rare Lootbag"
+						Loot: "aof:loot_bags/ad_astra/rare"
+					}
+				}
 			}]
 		}
 		{
@@ -457,12 +543,18 @@
 				count: 12L
 			}]
 			rewards: [{
-				id: "4F26806B6E54E88C"
-				type: "command"
-				title: "Ad Astra Rare Loot Bag"
-				icon: "kubejs:loot_bag_rare"
-				command: "/execute at @p run loot spawn ~ ~1 ~ loot aof:loot_bags/ad_astra_rare"
-				player_command: false
+				id: "55237609F37EBAE8"
+				type: "item"
+				item: {
+					id: "lootbags:loot_bag"
+					Count: 1b
+					tag: {
+						Type: "RARE"
+						Color: 11763949
+						Name: "Ad Astra! Rare Lootbag"
+						Loot: "aof:loot_bags/ad_astra/rare"
+					}
+				}
 			}]
 		}
 		{
@@ -489,12 +581,18 @@
 				}
 			}]
 			rewards: [{
-				id: "474E1E71F4211B8D"
-				type: "command"
-				title: "Ad Astra Rare Loot Bag"
-				icon: "kubejs:loot_bag_rare"
-				command: "/execute at @p run loot spawn ~ ~1 ~ loot aof:loot_bags/ad_astra_rare"
-				player_command: false
+				id: "3BE3FBA567414CC5"
+				type: "item"
+				item: {
+					id: "lootbags:loot_bag"
+					Count: 1b
+					tag: {
+						Type: "RARE"
+						Color: 11763949
+						Name: "Ad Astra! Rare Lootbag"
+						Loot: "aof:loot_bags/ad_astra/rare"
+					}
+				}
 			}]
 		}
 		{
@@ -522,12 +620,18 @@
 				}
 			]
 			rewards: [{
-				id: "1D30FFA1A2AA8589"
-				type: "command"
-				title: "Ad Astra Rare Loot Bag"
-				icon: "kubejs:loot_bag_rare"
-				command: "/execute at @p run loot spawn ~ ~1 ~ loot aof:loot_bags/ad_astra_rare"
-				player_command: false
+				id: "0FC1A2BA80448382"
+				type: "item"
+				item: {
+					id: "lootbags:loot_bag"
+					Count: 1b
+					tag: {
+						Type: "RARE"
+						Color: 11763949
+						Name: "Ad Astra! Rare Lootbag"
+						Loot: "aof:loot_bags/ad_astra/rare"
+					}
+				}
 			}]
 		}
 		{
@@ -544,12 +648,18 @@
 				item: "ad_astra:ostrum_ingot"
 			}]
 			rewards: [{
-				id: "3FC542534D126BC3"
-				type: "command"
-				title: "Ad Astra Epic Loot Bag"
-				icon: "kubejs:loot_bag_epic"
-				command: "/execute at @p run loot spawn ~ ~1 ~ loot aof:loot_bags/ad_astra_epic"
-				player_command: false
+				id: "250B49FA04316495"
+				type: "item"
+				item: {
+					id: "lootbags:loot_bag"
+					Count: 1b
+					tag: {
+						Type: "EPIC"
+						Color: 11763949
+						Name: "Ad Astra! Epic Lootbag"
+						Loot: "aof:loot_bags/ad_astra/epic"
+					}
+				}
 			}]
 		}
 		{
@@ -584,12 +694,18 @@
 				}
 			}]
 			rewards: [{
-				id: "0D2BB26A4BE6BA80"
-				type: "command"
-				title: "Ad Astra Legendary Loot Bag"
-				icon: "kubejs:loot_bag_legendary"
-				command: "/execute at @p run loot spawn ~ ~1 ~ loot aof:loot_bags/ad_astra_legendary"
-				player_command: false
+				id: "7F3BA25DD56FE746"
+				type: "item"
+				item: {
+					id: "lootbags:loot_bag"
+					Count: 1b
+					tag: {
+						Type: "LEGENDARY"
+						Color: 11763949
+						Loot: "aof:loot_bags/ad_astra/legendary"
+						Name: "Ad Astra! Legendary Lootbag"
+					}
+				}
 			}]
 		}
 		{
@@ -607,12 +723,18 @@
 				item: "ad_astra:oxygen_sensor"
 			}]
 			rewards: [{
-				id: "6250D9F706C5B3A1"
-				type: "command"
-				title: "Ad Astra Epic Loot Bag"
-				icon: "kubejs:loot_bag_epic"
-				command: "/execute at @p run loot spawn ~ ~1 ~ loot aof:loot_bags/ad_astra_epic"
-				player_command: false
+				id: "0C75732A3206C570"
+				type: "item"
+				item: {
+					id: "lootbags:loot_bag"
+					Count: 1b
+					tag: {
+						Type: "EPIC"
+						Color: 11763949
+						Name: "Ad Astra! Epic Lootbag"
+						Loot: "aof:loot_bags/ad_astra/epic"
+					}
+				}
 			}]
 		}
 		{
@@ -682,12 +804,18 @@
 				}
 			]
 			rewards: [{
-				id: "0D4079BD6BEA0601"
-				type: "command"
-				title: "Ad Astra Epic Loot Bag"
-				icon: "kubejs:loot_bag_epic"
-				command: "/execute at @p run loot spawn ~ ~1 ~ loot aof:loot_bags/ad_astra_epic"
-				player_command: false
+				id: "0966F906BFBE1059"
+				type: "item"
+				item: {
+					id: "lootbags:loot_bag"
+					Count: 1b
+					tag: {
+						Type: "EPIC"
+						Color: 11763949
+						Name: "Ad Astra! Epic Lootbag"
+						Loot: "aof:loot_bags/ad_astra/epic"
+					}
+				}
 			}]
 		}
 		{
@@ -708,12 +836,18 @@
 				item: "ad_astra:cryo_freezer"
 			}]
 			rewards: [{
-				id: "7F88AD3DBD4133D9"
-				type: "command"
-				title: "Ad Astra Epic Loot Bag"
-				icon: "kubejs:loot_bag_epic"
-				command: "/execute at @p run loot spawn ~ ~1 ~ loot aof:loot_bags/ad_astra_epic"
-				player_command: false
+				id: "12EC47150EA32980"
+				type: "item"
+				item: {
+					id: "lootbags:loot_bag"
+					Count: 1b
+					tag: {
+						Type: "EPIC"
+						Color: 11763949
+						Name: "Ad Astra! Epic Lootbag"
+						Loot: "aof:loot_bags/ad_astra/epic"
+					}
+				}
 			}]
 		}
 		{
@@ -731,12 +865,18 @@
 				item: "ad_astra:ostrum_fluid_pipe"
 			}]
 			rewards: [{
-				id: "2E41F88351F470F3"
-				type: "command"
-				title: "Ad Astra Epic Loot Bag"
-				icon: "kubejs:loot_bag_epic"
-				command: "/execute at @p run loot spawn ~ ~1 ~ loot aof:loot_bags/ad_astra_epic"
-				player_command: false
+				id: "10794B239A676B9B"
+				type: "item"
+				item: {
+					id: "lootbags:loot_bag"
+					Count: 1b
+					tag: {
+						Type: "EPIC"
+						Color: 11763949
+						Name: "Ad Astra! Epic Lootbag"
+						Loot: "aof:loot_bags/ad_astra/epic"
+					}
+				}
 			}]
 		}
 		{
@@ -757,12 +897,18 @@
 				item: "ad_astra:energizer"
 			}]
 			rewards: [{
-				id: "4FEF99939D2702C7"
-				type: "command"
-				title: "Ad Astra Epic Loot Bag"
-				icon: "kubejs:loot_bag_epic"
-				command: "/execute at @p run loot spawn ~ ~1 ~ loot aof:loot_bags/ad_astra_epic"
-				player_command: false
+				id: "0BF2CD27A0F486BA"
+				type: "item"
+				item: {
+					id: "lootbags:loot_bag"
+					Count: 1b
+					tag: {
+						Type: "EPIC"
+						Color: 11763949
+						Name: "Ad Astra! Epic Lootbag"
+						Loot: "aof:loot_bags/ad_astra/epic"
+					}
+				}
 			}]
 		}
 		{
@@ -785,12 +931,18 @@
 				count: 2L
 			}]
 			rewards: [{
-				id: "4964B153BFE3B8DE"
-				type: "command"
-				title: "Ad Astra Epic Loot Bag"
-				icon: "kubejs:loot_bag_epic"
-				command: "/execute at @p run loot spawn ~ ~1 ~ loot aof:loot_bags/ad_astra_epic"
-				player_command: false
+				id: "2E70087ECC461D73"
+				type: "item"
+				item: {
+					id: "lootbags:loot_bag"
+					Count: 1b
+					tag: {
+						Type: "EPIC"
+						Color: 11763949
+						Name: "Ad Astra! Epic Lootbag"
+						Loot: "aof:loot_bags/ad_astra/epic"
+					}
+				}
 			}]
 		}
 		{
@@ -816,12 +968,18 @@
 				}
 			}]
 			rewards: [{
-				id: "22CE6DAFB6BFADBF"
-				type: "command"
-				title: "Ad Astra Legendary Loot Bag"
-				icon: "kubejs:loot_bag_legendary"
-				command: "/execute at @p run loot spawn ~ ~1 ~ loot aof:loot_bags/ad_astra_legendary"
-				player_command: false
+				id: "4E618268B0A93696"
+				type: "item"
+				item: {
+					id: "lootbags:loot_bag"
+					Count: 1b
+					tag: {
+						Type: "LEGENDARY"
+						Color: 11763949
+						Loot: "aof:loot_bags/ad_astra/legendary"
+						Name: "Ad Astra! Legendary Lootbag"
+					}
+				}
 			}]
 		}
 		{
@@ -839,12 +997,18 @@
 				count: 20L
 			}]
 			rewards: [{
-				id: "3526E651D2DE0F95"
-				type: "command"
-				title: "Ad Astra Legendary Loot Bag"
-				icon: "kubejs:loot_bag_legendary"
-				command: "/execute at @p run loot spawn ~ ~1 ~ loot aof:loot_bags/ad_astra_legendary"
-				player_command: false
+				id: "7EFC219087F08ABE"
+				type: "item"
+				item: {
+					id: "lootbags:loot_bag"
+					Count: 1b
+					tag: {
+						Type: "LEGENDARY"
+						Color: 11763949
+						Loot: "aof:loot_bags/ad_astra/legendary"
+						Name: "Ad Astra! Legendary Lootbag"
+					}
+				}
 			}]
 		}
 		{
@@ -862,12 +1026,18 @@
 				count: 20L
 			}]
 			rewards: [{
-				id: "5876C28E0C452C9B"
-				type: "command"
-				title: "Ad Astra Common Loot Bag"
-				icon: "kubejs:loot_bag_common"
-				command: "/execute at @p run loot spawn ~ ~1 ~ loot aof:loot_bags/ad_astra_common"
-				player_command: false
+				id: "68AC4A8CFA4392A5"
+				type: "item"
+				item: {
+					id: "lootbags:loot_bag"
+					Count: 1b
+					tag: {
+						Type: "COMMON"
+						Color: 11763949
+						Name: "Ad Astra! Common Lootbag"
+						Loot: "aof:loot_bags/ad_astra/common"
+					}
+				}
 			}]
 		}
 		{
@@ -893,12 +1063,18 @@
 				count: 12L
 			}]
 			rewards: [{
-				id: "2BD43B3F82586D0C"
-				type: "command"
-				title: "Ad Astra Common Loot Bag"
-				icon: "kubejs:loot_bag_common"
-				command: "/execute at @p run loot spawn ~ ~1 ~ loot aof:loot_bags/ad_astra_common"
-				player_command: false
+				id: "4A41B355CCAF85B7"
+				type: "item"
+				item: {
+					id: "lootbags:loot_bag"
+					Count: 1b
+					tag: {
+						Type: "COMMON"
+						Color: 11763949
+						Name: "Ad Astra! Common Lootbag"
+						Loot: "aof:loot_bags/ad_astra/common"
+					}
+				}
 			}]
 		}
 		{
@@ -961,12 +1137,18 @@
 				}
 			]
 			rewards: [{
-				id: "7B2865691DD13761"
-				type: "command"
-				title: "Ad Astra Legendary Loot Bag"
-				icon: "kubejs:loot_bag_legendary"
-				command: "/execute at @p run loot spawn ~ ~1 ~ loot aof:loot_bags/ad_astra_legendary"
-				player_command: false
+				id: "0A41D5F69105722E"
+				type: "item"
+				item: {
+					id: "lootbags:loot_bag"
+					Count: 1b
+					tag: {
+						Type: "LEGENDARY"
+						Color: 11763949
+						Loot: "aof:loot_bags/ad_astra/legendary"
+						Name: "Ad Astra! Legendary Lootbag"
+					}
+				}
 			}]
 		}
 	]

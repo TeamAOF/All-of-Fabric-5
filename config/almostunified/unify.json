@@ -12,7 +12,8 @@
     "techreborn",
     "croptopia",
     "tinycoal",
-    "ae2"
+    "ae2",
+    "catwalksinc"
   ],
   "stoneStrata": [
     "stone",
@@ -28,17 +29,13 @@
     "c:{material}_gears",
     "c:{material}_gems",
     "c:{material}_ingots",
-    "c:{material}_blocks",
     "c:{material}_raw_materials",
     "c:{material}_ores",
     "c:{material}_plates",
     "c:{material}_rods",
     "c:{material}_wires",
     "c:{material}_storage_blocks",
-    "c:raw_{material}_storage_blocks",
-    "c:raw_{material}_ores",
-    "c:raw_{material}_blocks",
-    "c:raw_{material}"
+    "c:raw_{material}_storage_blocks"
   ],
   "materials": [
     "aluminum",
@@ -72,9 +69,9 @@
     "carbon",
     "brass",
     "zinc",
-    "amethyst",
-    "cobalt"
+    "amethyst"
   ],
+  "priorityOverrides": {},
   "ignoredTags": [],
   "ignoredRecipeTypes": [],
   "ignoredRecipes": [],

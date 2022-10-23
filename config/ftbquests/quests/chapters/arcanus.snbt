@@ -43,12 +43,18 @@
 				item: "minecraft:amethyst_shard"
 			}]
 			rewards: [{
-				id: "1CC84B4B256034DA"
-				type: "command"
-				title: "Magic Common Loot bag"
-				icon: "kubejs:loot_bag_common"
-				command: "/execute at @p run loot spawn ~ ~1 ~ loot aof:loot_bags/magic_common"
-				player_command: false
+				id: "27AA66A27C29EE1A"
+				type: "item"
+				item: {
+					id: "lootbags:loot_bag"
+					Count: 1b
+					tag: {
+						Type: "COMMON"
+						Color: 16747259
+						Loot: "aof:loot_bags/magic/common"
+						Name: "Magic Common Lootbag"
+					}
+				}
 			}]
 		}
 		{
@@ -70,12 +76,18 @@
 				}
 			}]
 			rewards: [{
-				id: "751FD73BA35F4AB3"
-				type: "command"
-				title: "Magic Common Loot Bag"
-				icon: "kubejs:loot_bag_common"
-				command: "/execute at @p run loot spawn ~ ~1 ~ loot aof:loot_bags/magic_common"
-				player_command: false
+				id: "03BE42F34E1ACB18"
+				type: "item"
+				item: {
+					id: "lootbags:loot_bag"
+					Count: 1b
+					tag: {
+						Type: "COMMON"
+						Color: 16747259
+						Loot: "aof:loot_bags/magic/common"
+						Name: "Magic Common Lootbag"
+					}
+				}
 			}]
 		}
 		{
@@ -96,12 +108,18 @@
 				}
 			}]
 			rewards: [{
-				id: "446438791CD1A0A2"
-				type: "command"
-				title: "Magic Common Loot Bag"
-				icon: "kubejs:loot_bag_common"
-				command: "/execute at @p run loot spawn ~ ~1 ~ loot aof:loot_bags/magic_common"
-				player_command: false
+				id: "2BB63E2191D83B09"
+				type: "item"
+				item: {
+					id: "lootbags:loot_bag"
+					Count: 1b
+					tag: {
+						Type: "COMMON"
+						Color: 16747259
+						Loot: "aof:loot_bags/magic/common"
+						Name: "Magic Common Lootbag"
+					}
+				}
 			}]
 		}
 		{
@@ -122,12 +140,18 @@
 				}
 			}]
 			rewards: [{
-				id: "126D9E1E05003A2D"
-				type: "command"
-				title: "Magic Common Loot Bag"
-				icon: "kubejs:loot_bag_common"
-				command: "/execute at @p run loot spawn ~ ~1 ~ loot aof:loot_bags/magic_common"
-				player_command: false
+				id: "6B457BAA2FB35A34"
+				type: "item"
+				item: {
+					id: "lootbags:loot_bag"
+					Count: 1b
+					tag: {
+						Type: "COMMON"
+						Color: 16747259
+						Loot: "aof:loot_bags/magic/common"
+						Name: "Magic Common Lootbag"
+					}
+				}
 			}]
 		}
 		{
@@ -154,12 +178,18 @@
 				}
 			}]
 			rewards: [{
-				id: "39B515C273D963E1"
-				type: "command"
-				title: "Magic Common Loot Bag"
-				icon: "kubejs:loot_bag_common"
-				command: "/execute at @p run loot spawn ~ ~1 ~ loot aof:loot_bags/magic_common"
-				player_command: false
+				id: "54AE89B7A4FCB271"
+				type: "item"
+				item: {
+					id: "lootbags:loot_bag"
+					Count: 1b
+					tag: {
+						Type: "COMMON"
+						Color: 16747259
+						Loot: "aof:loot_bags/magic/common"
+						Name: "Magic Common Lootbag"
+					}
+				}
 			}]
 		}
 		{
@@ -198,12 +228,18 @@
 				item: "arcanus:display_case"
 			}]
 			rewards: [{
-				id: "7F52C6CA4AEE849A"
-				type: "command"
-				title: "Magic Common Loot Bag"
-				icon: "kubejs:loot_bag_common"
-				command: "/execute at @p run loot spawn ~ ~1 ~ loot aof:loot_bags/magic_common"
-				player_command: false
+				id: "64CEEC71D5D221C4"
+				type: "item"
+				item: {
+					id: "lootbags:loot_bag"
+					Count: 1b
+					tag: {
+						Type: "COMMON"
+						Color: 16747259
+						Loot: "aof:loot_bags/magic/common"
+						Name: "Magic Common Lootbag"
+					}
+				}
 			}]
 		}
 		{

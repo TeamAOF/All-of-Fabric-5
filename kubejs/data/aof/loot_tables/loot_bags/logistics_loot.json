@@ -51,44 +51,11 @@
             {
               "type": "minecraft:item",
               "weight": 1,
-              "name": "ae2:cell_component_1k",
-              "functions": [
-                {
-                  "function": "set_count",
-                  "count": 1
-                }
-              ]
-            },
-            {
-              "type": "minecraft:item",
-              "weight": 1,
-              "name": "ae2:cell_component_4k",
-              "functions": [
-                {
-                  "function": "set_count",
-                  "count": 1
-                }
-              ]
-            },
-            {
-              "type": "minecraft:item",
-              "weight": 1,
               "name": "ae2:ender_dust",
               "functions": [
                 {
                   "function": "set_count",
                   "count": 4
-                }
-              ]
-            },
-            {
-              "type": "minecraft:item",
-              "weight": 1,
-              "name": "ae2:quartz_growth_accelerator",
-              "functions": [
-                {
-                  "function": "set_count",
-                  "count": 1
                 }
               ]
             },
@@ -100,39 +67,6 @@
                 {
                   "function": "set_count",
                   "count": 8
-                }
-              ]
-            },
-            {
-              "type": "minecraft:item",
-              "weight": 1,
-              "name": "ae2:charger",
-              "functions": [
-                {
-                  "function": "set_count",
-                  "count": 1
-                }
-              ]
-            },
-            {
-              "type": "minecraft:item",
-              "weight": 1,
-              "name": "ae2:inscriber",
-              "functions": [
-                {
-                  "function": "set_count",
-                  "count": 1
-                }
-              ]
-            },
-            {
-              "type": "minecraft:item",
-              "weight": 1,
-              "name": "ae2:pattern_provider",
-              "functions": [
-                {
-                  "function": "set_count",
-                  "count": 1
                 }
               ]
             },
@@ -194,17 +128,6 @@
               "type": "minecraft:item",
               "weight": 2,
               "name": "ironchests:gold_chest",
-              "functions": [
-                {
-                  "function": "set_count",
-                  "count": 1
-                }
-              ]
-            },
-            {
-              "type": "minecraft:item",
-              "weight": 1,
-              "name": "ironchests:diamond_chest",
               "functions": [
                 {
                   "function": "set_count",
@@ -303,28 +226,6 @@
             {
               "type": "minecraft:item",
               "weight": 1,
-              "name": "dankstorage:dank_3",
-              "functions": [
-                {
-                  "function": "set_count",
-                  "count": 1
-                }
-              ]
-            },
-            {
-              "type": "minecraft:item",
-              "weight": 1,
-              "name": "dankstorage:dank_2",
-              "functions": [
-                {
-                  "function": "set_count",
-                  "count": 1
-                }
-              ]
-            },
-            {
-              "type": "minecraft:item",
-              "weight": 1,
               "name": "dankstorage:dank_1",
               "functions": [
                 {
@@ -352,28 +253,6 @@
                 {
                   "function": "set_count",
                   "count": 8
-                }
-              ]
-            },
-            {
-              "type": "minecraft:item",
-              "weight": 1,
-              "name": "coxinhautilities:portable_tank_mk4",
-              "functions": [
-                {
-                  "function": "set_count",
-                  "count": 1
-                }
-              ]
-            },
-            {
-              "type": "minecraft:item",
-              "weight": 1,
-              "name": "coxinhautilities:portable_tank_mk3",
-              "functions": [
-                {
-                  "function": "set_count",
-                  "count": 1
                 }
               ]
             }

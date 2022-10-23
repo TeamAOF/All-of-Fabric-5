@@ -1,0 +1,4 @@
+[general]
+startMinY = 11
+startMaxY = 21
+disableVanillaMonuments = true

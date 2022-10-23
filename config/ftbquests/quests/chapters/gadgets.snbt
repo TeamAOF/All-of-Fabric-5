@@ -81,12 +81,18 @@
 				}
 			}]
 			rewards: [{
-				id: "7142DFDC2DCA38D0"
-				type: "command"
-				title: "Agriculturist Bag"
-				icon: "kubejs:loot_bag_agriculture"
-				command: "/execute at @p run loot spawn ~ ~1 ~ loot aof:loot_bags/agriculturist_loot"
-				player_command: false
+				id: "2F14A7CA0F373F3D"
+				type: "item"
+				item: {
+					id: "lootbags:loot_bag"
+					Count: 1b
+					tag: {
+						Type: "UNCOMMON"
+						Color: 5889627
+						Name: "Agriculturist Lootbag"
+						Loot: "aof:loot_bags/misc/agriculturist"
+					}
+				}
 			}]
 		}
 		{
@@ -115,12 +121,18 @@
 				}
 			}]
 			rewards: [{
-				id: "779C5C4D22ED6A15"
-				type: "command"
-				title: "Agriculturist Bag"
-				icon: "kubejs:loot_bag_agriculture"
-				command: "/execute at @p run loot spawn ~ ~1 ~ loot aof:loot_bags/agriculturist_loot"
-				player_command: false
+				id: "3299BDB3038A4A5E"
+				type: "item"
+				item: {
+					id: "lootbags:loot_bag"
+					Count: 1b
+					tag: {
+						Type: "UNCOMMON"
+						Color: 5889627
+						Name: "Agriculturist Lootbag"
+						Loot: "aof:loot_bags/misc/agriculturist"
+					}
+				}
 			}]
 		}
 		{
@@ -150,12 +162,18 @@
 				}
 			}]
 			rewards: [{
-				id: "74A2BEE99E2FEDD6"
-				type: "command"
-				title: "Agriculturist Bag"
-				icon: "kubejs:loot_bag_agriculture"
-				command: "/execute at @p run loot spawn ~ ~1 ~ loot aof:loot_bags/agriculturist_loot"
-				player_command: false
+				id: "66CC07B8BD054CED"
+				type: "item"
+				item: {
+					id: "lootbags:loot_bag"
+					Count: 1b
+					tag: {
+						Type: "UNCOMMON"
+						Color: 5889627
+						Name: "Agriculturist Lootbag"
+						Loot: "aof:loot_bags/misc/agriculturist"
+					}
+				}
 			}]
 		}
 		{
@@ -212,12 +230,18 @@
 				}
 			}]
 			rewards: [{
-				id: "50F21A4FA621DAF4"
-				type: "command"
-				title: "Agriculturist Bag"
-				icon: "kubejs:loot_bag_agriculture"
-				command: "/execute at @p run loot spawn ~ ~1 ~ loot aof:loot_bags/agriculturist_loot"
-				player_command: false
+				id: "7343236CE2D4254E"
+				type: "item"
+				item: {
+					id: "lootbags:loot_bag"
+					Count: 1b
+					tag: {
+						Type: "UNCOMMON"
+						Color: 5889627
+						Name: "Agriculturist Lootbag"
+						Loot: "aof:loot_bags/misc/agriculturist"
+					}
+				}
 			}]
 		}
 		{
@@ -265,12 +289,18 @@
 				}
 			}]
 			rewards: [{
-				id: "17FE151DD83E0671"
-				type: "command"
-				title: "Agriculturist Bag"
-				icon: "kubejs:loot_bag_agriculture"
-				command: "/execute at @p run loot spawn ~ ~1 ~ loot aof:loot_bags/agriculturist_loot"
-				player_command: false
+				id: "37BBB753E5B81A0B"
+				type: "item"
+				item: {
+					id: "lootbags:loot_bag"
+					Count: 1b
+					tag: {
+						Type: "UNCOMMON"
+						Color: 5889627
+						Name: "Agriculturist Lootbag"
+						Loot: "aof:loot_bags/misc/agriculturist"
+					}
+				}
 			}]
 		}
 		{
@@ -290,12 +320,18 @@
 				item: "botania:dirt_rod"
 			}]
 			rewards: [{
-				id: "6F65728281D4BB55"
-				type: "command"
-				title: "Magic Epic Loot Bag"
-				icon: "kubejs:loot_bag_epic"
-				command: "/execute at @p run loot spawn ~ ~1 ~ loot aof:loot_bags/magic_epic"
-				player_command: false
+				id: "458366310AF3B9AE"
+				type: "item"
+				item: {
+					id: "lootbags:loot_bag"
+					Count: 1b
+					tag: {
+						Type: "EPIC"
+						Color: 16747259
+						Name: "Magic Epic Lootbag"
+						Loot: "aof:loot_bags/magic/epic"
+					}
+				}
 			}]
 		}
 		{
@@ -311,12 +347,18 @@
 				item: "botania:skydirt_rod"
 			}]
 			rewards: [{
-				id: "0303D36FDCEDD758"
-				type: "command"
-				title: "Magic Epic Loot Bag"
-				icon: "kubejs:loot_bag_epic"
-				command: "/execute at @p run loot spawn ~ ~1 ~ loot aof:loot_bags/magic_epic"
-				player_command: false
+				id: "0AA26F8BD37878A9"
+				type: "item"
+				item: {
+					id: "lootbags:loot_bag"
+					Count: 1b
+					tag: {
+						Type: "EPIC"
+						Color: 16747259
+						Name: "Magic Epic Lootbag"
+						Loot: "aof:loot_bags/magic/epic"
+					}
+				}
 			}]
 		}
 		{
@@ -332,12 +374,18 @@
 				item: "botania:terraform_rod"
 			}]
 			rewards: [{
-				id: "032B0A0493D85E81"
-				type: "command"
-				title: "Magic Epic Loot Bag"
-				icon: "kubejs:loot_bag_epic"
-				command: "/execute at @p run loot spawn ~ ~1 ~ loot aof:loot_bags/magic_epic"
-				player_command: false
+				id: "1ADBB875BD98C512"
+				type: "item"
+				item: {
+					id: "lootbags:loot_bag"
+					Count: 1b
+					tag: {
+						Type: "EPIC"
+						Color: 16747259
+						Name: "Magic Epic Lootbag"
+						Loot: "aof:loot_bags/magic/epic"
+					}
+				}
 			}]
 		}
 		{
@@ -357,12 +405,18 @@
 				item: "botania:cobble_rod"
 			}]
 			rewards: [{
-				id: "4EF5D0A9AE33085F"
-				type: "command"
-				title: "Magic Epic Loot Bag"
-				icon: "kubejs:loot_bag_epic"
-				command: "/execute at @p run loot spawn ~ ~1 ~ loot aof:loot_bags/magic_epic"
-				player_command: false
+				id: "2BEE4BFA695BF6E9"
+				type: "item"
+				item: {
+					id: "lootbags:loot_bag"
+					Count: 1b
+					tag: {
+						Type: "EPIC"
+						Color: 16747259
+						Name: "Magic Epic Lootbag"
+						Loot: "aof:loot_bags/magic/epic"
+					}
+				}
 			}]
 		}
 		{
@@ -378,12 +432,18 @@
 				item: "botania:water_rod"
 			}]
 			rewards: [{
-				id: "65131C43C2107240"
-				type: "command"
-				title: "Magic Epic Loot Bag"
-				icon: "kubejs:loot_bag_epic"
-				command: "/execute at @p run loot spawn ~ ~1 ~ loot aof:loot_bags/magic_epic"
-				player_command: false
+				id: "3F12A313ED7D6735"
+				type: "item"
+				item: {
+					id: "lootbags:loot_bag"
+					Count: 1b
+					tag: {
+						Type: "EPIC"
+						Color: 16747259
+						Name: "Magic Epic Lootbag"
+						Loot: "aof:loot_bags/magic/epic"
+					}
+				}
 			}]
 		}
 		{
@@ -403,12 +463,18 @@
 				item: "botania:exchange_rod"
 			}]
 			rewards: [{
-				id: "4B1F2DFF7A529048"
-				type: "command"
-				title: "Magic Epic Loot Bag"
-				icon: "kubejs:loot_bag_epic"
-				command: "/execute at @p run loot spawn ~ ~1 ~ loot aof:loot_bags/magic_epic"
-				player_command: false
+				id: "2184A7B7B6E41891"
+				type: "item"
+				item: {
+					id: "lootbags:loot_bag"
+					Count: 1b
+					tag: {
+						Type: "EPIC"
+						Color: 16747259
+						Name: "Magic Epic Lootbag"
+						Loot: "aof:loot_bags/magic/epic"
+					}
+				}
 			}]
 		}
 		{
@@ -461,12 +527,18 @@
 				}
 			]
 			rewards: [{
-				id: "6A5213A719EDDF6B"
-				type: "command"
-				title: "Agriculturist Bag"
-				icon: "kubejs:loot_bag_agriculture"
-				command: "/execute at @p run loot spawn ~ ~1 ~ loot aof:loot_bags/agriculturist_loot"
-				player_command: false
+				id: "0A639EC2D2A9B228"
+				type: "item"
+				item: {
+					id: "lootbags:loot_bag"
+					Count: 1b
+					tag: {
+						Type: "UNCOMMON"
+						Color: 5889627
+						Name: "Agriculturist Lootbag"
+						Loot: "aof:loot_bags/misc/agriculturist"
+					}
+				}
 			}]
 		}
 		{

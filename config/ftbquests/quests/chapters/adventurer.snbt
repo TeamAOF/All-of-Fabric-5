@@ -83,17 +83,23 @@
 			}]
 			rewards: [
 				{
-					id: "562D6DA6506847EF"
-					type: "command"
-					title: "Agriculturist Bag"
-					icon: "kubejs:loot_bag_agriculture"
-					command: "/execute at @p run loot spawn ~ ~1 ~ loot aof:loot_bags/agriculturist_loot"
-					player_command: false
-				}
-				{
 					id: "02DAD3BF2785BF33"
 					type: "item"
 					item: "gofish:simple_lure"
+				}
+				{
+					id: "401B0FCEDA6E06C3"
+					type: "item"
+					item: {
+						id: "lootbags:loot_bag"
+						Count: 1b
+						tag: {
+							Type: "UNCOMMON"
+							Color: 5889627
+							Loot: "aof:loot_bags/misc/agriculturist"
+							Name: "Agriculturist Lootbag"
+						}
+					}
 				}
 			]
 		}
@@ -120,12 +126,18 @@
 					item: "waystones:desert_waystone"
 				}
 				{
-					id: "1221149A4B676928"
-					type: "command"
-					title: "Agriculturist Bag"
-					icon: "kubejs:loot_bag_agriculture"
-					command: "/execute at @p run loot spawn ~ ~1 ~ loot aof:loot_bags/agriculturist_loot"
-					player_command: false
+					id: "6137857F9A944F31"
+					type: "item"
+					item: {
+						id: "lootbags:loot_bag"
+						Count: 1b
+						tag: {
+							Type: "UNCOMMON"
+							Color: 5889627
+							Loot: "aof:loot_bags/misc/agriculturist"
+							Name: "Agriculturist Lootbag"
+						}
+					}
 				}
 			]
 		}
@@ -144,14 +156,6 @@
 			}]
 			rewards: [
 				{
-					id: "0136B3FCD96E72E3"
-					type: "command"
-					title: "Agriculturist Bag"
-					icon: "kubejs:loot_bag_agriculture"
-					command: "/execute at @p run loot spawn ~ ~1 ~ loot aof:loot_bags/agriculturist_loot"
-					player_command: false
-				}
-				{
 					id: "0D54DD2EDD2B15AD"
 					type: "item"
 					item: {
@@ -159,6 +163,20 @@
 						Count: 1b
 						tag: {
 							Damage: 0
+						}
+					}
+				}
+				{
+					id: "36352D142DEEC48C"
+					type: "item"
+					item: {
+						id: "lootbags:loot_bag"
+						Count: 1b
+						tag: {
+							Type: "UNCOMMON"
+							Color: 5889627
+							Loot: "aof:loot_bags/misc/agriculturist"
+							Name: "Agriculturist Lootbag"
 						}
 					}
 				}
@@ -232,14 +250,6 @@
 			}]
 			rewards: [
 				{
-					id: "7CBC57D31F20C068"
-					type: "command"
-					title: "Agriculturist Bag"
-					icon: "kubejs:loot_bag_agriculture"
-					command: "/execute at @p run loot spawn ~ ~1 ~ loot aof:loot_bags/agriculturist_loot"
-					player_command: false
-				}
-				{
 					id: "0C335696ED832D65"
 					type: "item"
 					item: {
@@ -251,12 +261,32 @@
 					}
 				}
 				{
-					id: "7582B53CE7C6DCE2"
-					type: "command"
-					title: "Artifacts Galore"
-					icon: "kubejs:loot_bag_legendary"
-					command: "/execute at @p run loot spawn ~ ~1 ~ loot aof:loot_bags/artifacts_loot"
-					player_command: false
+					id: "42D3A36BA50C2E3F"
+					type: "item"
+					item: {
+						id: "lootbags:loot_bag"
+						Count: 1b
+						tag: {
+							Type: "LEGENDARY"
+							Color: 16103753
+							Loot: "aof:loot_bags/misc/artifacts"
+							Name: "Artifact Lootbag"
+						}
+					}
+				}
+				{
+					id: "1E08275CC8BC3F6E"
+					type: "item"
+					item: {
+						id: "lootbags:loot_bag"
+						Count: 1b
+						tag: {
+							Type: "UNCOMMON"
+							Color: 5889627
+							Loot: "aof:loot_bags/misc/agriculturist"
+							Name: "Agriculturist Lootbag"
+						}
+					}
 				}
 			]
 		}
@@ -296,12 +326,18 @@
 					count: 16
 				}
 				{
-					id: "047D7C2A4D6F21F5"
-					type: "command"
-					title: "Ad Astra Rare Loot Bag"
-					icon: "kubejs:loot_bag_rare"
-					command: "/execute at @p run loot spawn ~ ~1 ~ loot aof:loot_bags/ad_astra_rare"
-					player_command: false
+					id: "465969990392BD70"
+					type: "item"
+					item: {
+						id: "lootbags:loot_bag"
+						Count: 1b
+						tag: {
+							Type: "RARE"
+							Color: 11763949
+							Loot: "aof:loot_bags/ad_astra/rare"
+							Name: "Ad Astra! Rare Lootbag"
+						}
+					}
 				}
 			]
 		}
@@ -338,18 +374,24 @@
 			}]
 			rewards: [
 				{
-					id: "348F5A468E572E21"
-					type: "command"
-					title: "Agriculturist Bag"
-					icon: "kubejs:loot_bag_agriculture"
-					command: "/execute at @p run loot spawn ~ ~1 ~ loot aof:loot_bags/agriculturist_loot"
-					player_command: false
-				}
-				{
 					id: "621538A179E3AD6C"
 					type: "item"
 					item: "minecraft:bone"
 					count: 16
+				}
+				{
+					id: "38BBC521851C88B3"
+					type: "item"
+					item: {
+						id: "lootbags:loot_bag"
+						Count: 1b
+						tag: {
+							Type: "UNCOMMON"
+							Color: 5889627
+							Loot: "aof:loot_bags/misc/agriculturist"
+							Name: "Agriculturist Lootbag"
+						}
+					}
 				}
 			]
 		}
@@ -379,12 +421,18 @@
 					count: 3
 				}
 				{
-					id: "42BA5F643295ADAD"
-					type: "command"
-					title: "Agriculturist Bag"
-					icon: "kubejs:loot_bag_agriculture"
-					command: "/execute at @p run loot spawn ~ ~1 ~ loot aof:loot_bags/agriculturist_loot"
-					player_command: false
+					id: "100D3CA6E3B2212C"
+					type: "item"
+					item: {
+						id: "lootbags:loot_bag"
+						Count: 1b
+						tag: {
+							Type: "UNCOMMON"
+							Color: 5889627
+							Loot: "aof:loot_bags/misc/agriculturist"
+							Name: "Agriculturist Lootbag"
+						}
+					}
 				}
 			]
 		}

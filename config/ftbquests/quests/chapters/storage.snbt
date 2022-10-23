@@ -25,12 +25,18 @@
 				}
 			}]
 			rewards: [{
-				id: "33B187DD57CDA4BD"
-				type: "command"
-				title: "Logistics Loot Bag"
-				icon: "kubejs:loot_bag_rare"
-				command: "/execute at @p run loot spawn ~ ~1 ~ loot aof:loot_bags/logistics_loot"
-				player_command: false
+				id: "07E86EBC0B1C7C90"
+				type: "item"
+				item: {
+					id: "lootbags:loot_bag"
+					Count: 1b
+					tag: {
+						Type: "UNCOMMON"
+						Color: 16747259
+						Name: "Logistics & Storage Lootbag"
+						Loot: "aof:loot_bags/misc/logistics"
+					}
+				}
 			}]
 		}
 		{
@@ -50,12 +56,18 @@
 				}
 			}]
 			rewards: [{
-				id: "0B9EC3EC8F60F70D"
-				type: "command"
-				title: "Logistics Loot Bag"
-				icon: "kubejs:loot_bag_rare"
-				command: "/execute at @p run loot spawn ~ ~1 ~ loot aof:loot_bags/logistics_loot"
-				player_command: false
+				id: "0FD6D442FEBDF2D2"
+				type: "item"
+				item: {
+					id: "lootbags:loot_bag"
+					Count: 1b
+					tag: {
+						Type: "UNCOMMON"
+						Color: 16747259
+						Name: "Logistics & Storage Lootbag"
+						Loot: "aof:loot_bags/misc/logistics"
+					}
+				}
 			}]
 		}
 		{
@@ -75,12 +87,18 @@
 				}
 			}]
 			rewards: [{
-				id: "54AC0AB44CD82A7C"
-				type: "command"
-				title: "Logistics Loot Bag"
-				icon: "kubejs:loot_bag_rare"
-				command: "/execute at @p run loot spawn ~ ~1 ~ loot aof:loot_bags/logistics_loot"
-				player_command: false
+				id: "3F8EE38EF87BD500"
+				type: "item"
+				item: {
+					id: "lootbags:loot_bag"
+					Count: 1b
+					tag: {
+						Type: "UNCOMMON"
+						Color: 16747259
+						Name: "Logistics & Storage Lootbag"
+						Loot: "aof:loot_bags/misc/logistics"
+					}
+				}
 			}]
 		}
 		{
@@ -99,12 +117,18 @@
 				}
 			}]
 			rewards: [{
-				id: "56DAD964DE7EBA28"
-				type: "command"
-				title: "Logistics Loot Bag"
-				icon: "kubejs:loot_bag_rare"
-				command: "/execute at @p run loot spawn ~ ~1 ~ loot aof:loot_bags/logistics_loot"
-				player_command: false
+				id: "1EF1C612DDEACFBC"
+				type: "item"
+				item: {
+					id: "lootbags:loot_bag"
+					Count: 1b
+					tag: {
+						Type: "UNCOMMON"
+						Color: 16747259
+						Name: "Logistics & Storage Lootbag"
+						Loot: "aof:loot_bags/misc/logistics"
+					}
+				}
 			}]
 		}
 		{
@@ -124,12 +148,18 @@
 				}
 			}]
 			rewards: [{
-				id: "2058F75F81883032"
-				type: "command"
-				title: "Logistics Loot Bag"
-				icon: "kubejs:loot_bag_rare"
-				command: "/execute at @p run loot spawn ~ ~1 ~ loot aof:loot_bags/logistics_loot"
-				player_command: false
+				id: "72FF89CCCB4D774F"
+				type: "item"
+				item: {
+					id: "lootbags:loot_bag"
+					Count: 1b
+					tag: {
+						Type: "UNCOMMON"
+						Color: 16747259
+						Name: "Logistics & Storage Lootbag"
+						Loot: "aof:loot_bags/misc/logistics"
+					}
+				}
 			}]
 		}
 		{
@@ -149,20 +179,26 @@
 				}
 			}]
 			rewards: [{
-				id: "4100FD2F90742094"
-				type: "command"
-				title: "Logistics Loot Bag"
-				icon: "kubejs:loot_bag_rare"
-				command: "/execute at @p run loot spawn ~ ~1 ~ loot aof:loot_bags/logistics_loot"
-				player_command: false
+				id: "3E1B942BEE265ABF"
+				type: "item"
+				item: {
+					id: "lootbags:loot_bag"
+					Count: 1b
+					tag: {
+						Type: "UNCOMMON"
+						Color: 16747259
+						Name: "Logistics & Storage Lootbag"
+						Loot: "aof:loot_bags/misc/logistics"
+					}
+				}
 			}]
 		}
 		{
 			title: "Bigger Chests"
 			x: 5.0d
-			y: -3.5d
+			y: -2.5d
 			subtitle: "A looters choice of storage."
-			dependencies: ["6F2E92752228528C"]
+			dependencies: ["14B66E70E819E971"]
 			id: "775BEA78AEB9EE77"
 			tasks: [{
 				id: "4E720A38A6D9CFE6"
@@ -170,18 +206,24 @@
 				item: "ironchests:iron_chest"
 			}]
 			rewards: [{
-				id: "6F793D931D97B4DF"
-				type: "command"
-				title: "Logistics Loot Bag"
-				icon: "kubejs:loot_bag_rare"
-				command: "/execute at @p run loot spawn ~ ~1 ~ loot aof:loot_bags/logistics_loot"
-				player_command: false
+				id: "72E6657DCBC091DD"
+				type: "item"
+				item: {
+					id: "lootbags:loot_bag"
+					Count: 1b
+					tag: {
+						Type: "UNCOMMON"
+						Color: 16747259
+						Name: "Logistics & Storage Lootbag"
+						Loot: "aof:loot_bags/misc/logistics"
+					}
+				}
 			}]
 		}
 		{
 			title: "Even bigger chests"
 			x: 5.0d
-			y: -2.5d
+			y: -1.5d
 			subtitle: "May the chests be shining."
 			dependencies: ["775BEA78AEB9EE77"]
 			id: "04E1293B787FF906"
@@ -191,17 +233,23 @@
 				item: "ironchests:gold_chest"
 			}]
 			rewards: [{
-				id: "6E21DE1A3F13E27E"
-				type: "command"
-				title: "Logistics Loot Bag"
-				icon: "kubejs:loot_bag_rare"
-				command: "/execute at @p run loot spawn ~ ~1 ~ loot aof:loot_bags/logistics_loot"
-				player_command: false
+				id: "0C6B40A1D5259F9B"
+				type: "item"
+				item: {
+					id: "lootbags:loot_bag"
+					Count: 1b
+					tag: {
+						Type: "UNCOMMON"
+						Color: 16747259
+						Name: "Logistics & Storage Lootbag"
+						Loot: "aof:loot_bags/misc/logistics"
+					}
+				}
 			}]
 		}
 		{
 			x: 5.0d
-			y: -1.5d
+			y: -0.5d
 			dependencies: ["04E1293B787FF906"]
 			id: "7F69917A95491A52"
 			tasks: [{
@@ -210,17 +258,23 @@
 				item: "ironchests:diamond_chest"
 			}]
 			rewards: [{
-				id: "75386F6CCCA055ED"
-				type: "command"
-				title: "Logistics Loot Bag"
-				icon: "kubejs:loot_bag_rare"
-				command: "/execute at @p run loot spawn ~ ~1 ~ loot aof:loot_bags/logistics_loot"
-				player_command: false
+				id: "0FDD16C621DE343E"
+				type: "item"
+				item: {
+					id: "lootbags:loot_bag"
+					Count: 1b
+					tag: {
+						Type: "UNCOMMON"
+						Color: 16747259
+						Name: "Logistics & Storage Lootbag"
+						Loot: "aof:loot_bags/misc/logistics"
+					}
+				}
 			}]
 		}
 		{
 			x: 5.0d
-			y: -0.5d
+			y: 0.5d
 			dependencies: ["7F69917A95491A52"]
 			id: "723E09B161CC9E33"
 			tasks: [{
@@ -229,17 +283,23 @@
 				item: "ironchests:obsidian_chest"
 			}]
 			rewards: [{
-				id: "115FE46100266D22"
-				type: "command"
-				title: "Logistics Loot Bag"
-				icon: "kubejs:loot_bag_rare"
-				command: "/execute at @p run loot spawn ~ ~1 ~ loot aof:loot_bags/logistics_loot"
-				player_command: false
+				id: "63EF1C387A4302C1"
+				type: "item"
+				item: {
+					id: "lootbags:loot_bag"
+					Count: 1b
+					tag: {
+						Type: "UNCOMMON"
+						Color: 16747259
+						Name: "Logistics & Storage Lootbag"
+						Loot: "aof:loot_bags/misc/logistics"
+					}
+				}
 			}]
 		}
 		{
 			x: 5.0d
-			y: 0.5d
+			y: 1.5d
 			dependencies: ["723E09B161CC9E33"]
 			id: "072E1CD9A57ABD85"
 			tasks: [{
@@ -248,12 +308,18 @@
 				item: "ironchests:netherite_chest"
 			}]
 			rewards: [{
-				id: "7A19458CFF01C8C0"
-				type: "command"
-				title: "Logistics Loot Bag"
-				icon: "kubejs:loot_bag_rare"
-				command: "/execute at @p run loot spawn ~ ~1 ~ loot aof:loot_bags/logistics_loot"
-				player_command: false
+				id: "55B3A2B649CEF34A"
+				type: "item"
+				item: {
+					id: "lootbags:loot_bag"
+					Count: 1b
+					tag: {
+						Type: "UNCOMMON"
+						Color: 16747259
+						Name: "Logistics & Storage Lootbag"
+						Loot: "aof:loot_bags/misc/logistics"
+					}
+				}
 			}]
 		}
 		{
@@ -273,12 +339,18 @@
 				item: "modern_industrialization:bronze_barrel"
 			}]
 			rewards: [{
-				id: "5CB6E52CF2D6B4EB"
-				type: "command"
-				title: "Logistics Loot Bag"
-				icon: "kubejs:loot_bag_rare"
-				command: "/execute at @p run loot spawn ~ ~1 ~ loot aof:loot_bags/logistics_loot"
-				player_command: false
+				id: "44DDE4E812AD843B"
+				type: "item"
+				item: {
+					id: "lootbags:loot_bag"
+					Count: 1b
+					tag: {
+						Type: "UNCOMMON"
+						Color: 16747259
+						Name: "Logistics & Storage Lootbag"
+						Loot: "aof:loot_bags/misc/logistics"
+					}
+				}
 			}]
 		}
 		{
@@ -292,12 +364,18 @@
 				item: "modern_industrialization:steel_barrel"
 			}]
 			rewards: [{
-				id: "6F93DE5236CD4C8E"
-				type: "command"
-				title: "Logistics Loot Bag"
-				icon: "kubejs:loot_bag_rare"
-				command: "/execute at @p run loot spawn ~ ~1 ~ loot aof:loot_bags/logistics_loot"
-				player_command: false
+				id: "039EF16C6D85EDF1"
+				type: "item"
+				item: {
+					id: "lootbags:loot_bag"
+					Count: 1b
+					tag: {
+						Type: "UNCOMMON"
+						Color: 16747259
+						Name: "Logistics & Storage Lootbag"
+						Loot: "aof:loot_bags/misc/logistics"
+					}
+				}
 			}]
 		}
 		{
@@ -311,12 +389,18 @@
 				item: "modern_industrialization:aluminum_barrel"
 			}]
 			rewards: [{
-				id: "69B1572E019EEE2C"
-				type: "command"
-				title: "Logistics Loot Bag"
-				icon: "kubejs:loot_bag_rare"
-				command: "/execute at @p run loot spawn ~ ~1 ~ loot aof:loot_bags/logistics_loot"
-				player_command: false
+				id: "2F49B370CC6AAFB5"
+				type: "item"
+				item: {
+					id: "lootbags:loot_bag"
+					Count: 1b
+					tag: {
+						Type: "UNCOMMON"
+						Color: 16747259
+						Name: "Logistics & Storage Lootbag"
+						Loot: "aof:loot_bags/misc/logistics"
+					}
+				}
 			}]
 		}
 		{
@@ -330,12 +414,18 @@
 				item: "modern_industrialization:stainless_steel_barrel"
 			}]
 			rewards: [{
-				id: "3DC871E646882CC4"
-				type: "command"
-				title: "Logistics Loot Bag"
-				icon: "kubejs:loot_bag_rare"
-				command: "/execute at @p run loot spawn ~ ~1 ~ loot aof:loot_bags/logistics_loot"
-				player_command: false
+				id: "015360CE95B7EA54"
+				type: "item"
+				item: {
+					id: "lootbags:loot_bag"
+					Count: 1b
+					tag: {
+						Type: "UNCOMMON"
+						Color: 16747259
+						Name: "Logistics & Storage Lootbag"
+						Loot: "aof:loot_bags/misc/logistics"
+					}
+				}
 			}]
 		}
 		{
@@ -349,12 +439,18 @@
 				item: "modern_industrialization:titanium_barrel"
 			}]
 			rewards: [{
-				id: "0011E80BDF14A2ED"
-				type: "command"
-				title: "Logistics Loot Bag"
-				icon: "kubejs:loot_bag_rare"
-				command: "/execute at @p run loot spawn ~ ~1 ~ loot aof:loot_bags/logistics_loot"
-				player_command: false
+				id: "17B951959802C1F7"
+				type: "item"
+				item: {
+					id: "lootbags:loot_bag"
+					Count: 1b
+					tag: {
+						Type: "UNCOMMON"
+						Color: 16747259
+						Name: "Logistics & Storage Lootbag"
+						Loot: "aof:loot_bags/misc/logistics"
+					}
+				}
 			}]
 		}
 		{
@@ -368,12 +464,18 @@
 				item: "modern_industrialization:quantum_barrel"
 			}]
 			rewards: [{
-				id: "17C65AEE39CFC115"
-				type: "command"
-				title: "Logistics Loot Bag"
-				icon: "kubejs:loot_bag_rare"
-				command: "/execute at @p run loot spawn ~ ~1 ~ loot aof:loot_bags/logistics_loot"
-				player_command: false
+				id: "6856885AE5974BD5"
+				type: "item"
+				item: {
+					id: "lootbags:loot_bag"
+					Count: 1b
+					tag: {
+						Type: "UNCOMMON"
+						Color: 16747259
+						Name: "Logistics & Storage Lootbag"
+						Loot: "aof:loot_bags/misc/logistics"
+					}
+				}
 			}]
 		}
 		{
@@ -394,12 +496,18 @@
 				item: "modern_industrialization:bronze_tank"
 			}]
 			rewards: [{
-				id: "371F9E2FCCEA66F2"
-				type: "command"
-				title: "Logistics Loot Bag"
-				icon: "kubejs:loot_bag_rare"
-				command: "/execute at @p run loot spawn ~ ~1 ~ loot aof:loot_bags/logistics_loot"
-				player_command: false
+				id: "5B399AB56686D38F"
+				type: "item"
+				item: {
+					id: "lootbags:loot_bag"
+					Count: 1b
+					tag: {
+						Type: "UNCOMMON"
+						Color: 16747259
+						Name: "Logistics & Storage Lootbag"
+						Loot: "aof:loot_bags/misc/logistics"
+					}
+				}
 			}]
 		}
 		{
@@ -413,12 +521,18 @@
 				item: "modern_industrialization:steel_tank"
 			}]
 			rewards: [{
-				id: "7FC9A58C3BB9D77C"
-				type: "command"
-				title: "Logistics Loot Bag"
-				icon: "kubejs:loot_bag_rare"
-				command: "/execute at @p run loot spawn ~ ~1 ~ loot aof:loot_bags/logistics_loot"
-				player_command: false
+				id: "198C06FE0F96B338"
+				type: "item"
+				item: {
+					id: "lootbags:loot_bag"
+					Count: 1b
+					tag: {
+						Type: "UNCOMMON"
+						Color: 16747259
+						Name: "Logistics & Storage Lootbag"
+						Loot: "aof:loot_bags/misc/logistics"
+					}
+				}
 			}]
 		}
 		{
@@ -432,12 +546,18 @@
 				item: "modern_industrialization:aluminum_tank"
 			}]
 			rewards: [{
-				id: "19AB520C19CE7416"
-				type: "command"
-				title: "Logistics Loot Bag"
-				icon: "kubejs:loot_bag_rare"
-				command: "/execute at @p run loot spawn ~ ~1 ~ loot aof:loot_bags/logistics_loot"
-				player_command: false
+				id: "2562D23B5521DBDC"
+				type: "item"
+				item: {
+					id: "lootbags:loot_bag"
+					Count: 1b
+					tag: {
+						Type: "UNCOMMON"
+						Color: 16747259
+						Name: "Logistics & Storage Lootbag"
+						Loot: "aof:loot_bags/misc/logistics"
+					}
+				}
 			}]
 		}
 		{
@@ -451,12 +571,18 @@
 				item: "modern_industrialization:stainless_steel_tank"
 			}]
 			rewards: [{
-				id: "6A8874EB318FA208"
-				type: "command"
-				title: "Logistics Loot Bag"
-				icon: "kubejs:loot_bag_rare"
-				command: "/execute at @p run loot spawn ~ ~1 ~ loot aof:loot_bags/logistics_loot"
-				player_command: false
+				id: "4BCF3FAC9810A238"
+				type: "item"
+				item: {
+					id: "lootbags:loot_bag"
+					Count: 1b
+					tag: {
+						Type: "UNCOMMON"
+						Color: 16747259
+						Name: "Logistics & Storage Lootbag"
+						Loot: "aof:loot_bags/misc/logistics"
+					}
+				}
 			}]
 		}
 		{
@@ -470,12 +596,18 @@
 				item: "modern_industrialization:titanium_tank"
 			}]
 			rewards: [{
-				id: "7DA9EC04CD3EA172"
-				type: "command"
-				title: "Logistics Loot Bag"
-				icon: "kubejs:loot_bag_rare"
-				command: "/execute at @p run loot spawn ~ ~1 ~ loot aof:loot_bags/logistics_loot"
-				player_command: false
+				id: "754C49A9229F07B1"
+				type: "item"
+				item: {
+					id: "lootbags:loot_bag"
+					Count: 1b
+					tag: {
+						Type: "UNCOMMON"
+						Color: 16747259
+						Name: "Logistics & Storage Lootbag"
+						Loot: "aof:loot_bags/misc/logistics"
+					}
+				}
 			}]
 		}
 		{
@@ -489,12 +621,18 @@
 				item: "modern_industrialization:quantum_tank"
 			}]
 			rewards: [{
-				id: "75E1B9CCA6907B15"
-				type: "command"
-				title: "Logistics Loot Bag"
-				icon: "kubejs:loot_bag_rare"
-				command: "/execute at @p run loot spawn ~ ~1 ~ loot aof:loot_bags/logistics_loot"
-				player_command: false
+				id: "32E6F0A5F23DDEC7"
+				type: "item"
+				item: {
+					id: "lootbags:loot_bag"
+					Count: 1b
+					tag: {
+						Type: "UNCOMMON"
+						Color: 16747259
+						Name: "Logistics & Storage Lootbag"
+						Loot: "aof:loot_bags/misc/logistics"
+					}
+				}
 			}]
 		}
 		{
@@ -525,12 +663,18 @@
 				item: "dankstorage:dank_1"
 			}]
 			rewards: [{
-				id: "27BAD8E63F7D748C"
-				type: "command"
-				title: "Logistics Loot Bag"
-				icon: "kubejs:loot_bag_rare"
-				command: "/execute at @p run loot spawn ~ ~1 ~ loot aof:loot_bags/logistics_loot"
-				player_command: false
+				id: "1A3BD1E2A0F65CE7"
+				type: "item"
+				item: {
+					id: "lootbags:loot_bag"
+					Count: 1b
+					tag: {
+						Type: "UNCOMMON"
+						Color: 16747259
+						Name: "Logistics & Storage Lootbag"
+						Loot: "aof:loot_bags/misc/logistics"
+					}
+				}
 			}]
 		}
 		{
@@ -545,12 +689,18 @@
 				item: "dankstorage:dank_2"
 			}]
 			rewards: [{
-				id: "690194178B95C237"
-				type: "command"
-				title: "Logistics Loot Bag"
-				icon: "kubejs:loot_bag_rare"
-				command: "/execute at @p run loot spawn ~ ~1 ~ loot aof:loot_bags/logistics_loot"
-				player_command: false
+				id: "1B10D91F6BD5D966"
+				type: "item"
+				item: {
+					id: "lootbags:loot_bag"
+					Count: 1b
+					tag: {
+						Type: "UNCOMMON"
+						Color: 16747259
+						Name: "Logistics & Storage Lootbag"
+						Loot: "aof:loot_bags/misc/logistics"
+					}
+				}
 			}]
 		}
 		{
@@ -565,12 +715,18 @@
 				item: "dankstorage:dank_3"
 			}]
 			rewards: [{
-				id: "2945AD3824363C73"
-				type: "command"
-				title: "Logistics Loot Bag"
-				icon: "kubejs:loot_bag_rare"
-				command: "/execute at @p run loot spawn ~ ~1 ~ loot aof:loot_bags/logistics_loot"
-				player_command: false
+				id: "77BFF9E98FDCEF93"
+				type: "item"
+				item: {
+					id: "lootbags:loot_bag"
+					Count: 1b
+					tag: {
+						Type: "UNCOMMON"
+						Color: 16747259
+						Name: "Logistics & Storage Lootbag"
+						Loot: "aof:loot_bags/misc/logistics"
+					}
+				}
 			}]
 		}
 		{
@@ -585,12 +741,18 @@
 				item: "dankstorage:dank_4"
 			}]
 			rewards: [{
-				id: "471DAF2DE1948EF4"
-				type: "command"
-				title: "Logistics Loot Bag"
-				icon: "kubejs:loot_bag_rare"
-				command: "/execute at @p run loot spawn ~ ~1 ~ loot aof:loot_bags/logistics_loot"
-				player_command: false
+				id: "3C963338958D7F56"
+				type: "item"
+				item: {
+					id: "lootbags:loot_bag"
+					Count: 1b
+					tag: {
+						Type: "UNCOMMON"
+						Color: 16747259
+						Name: "Logistics & Storage Lootbag"
+						Loot: "aof:loot_bags/misc/logistics"
+					}
+				}
 			}]
 		}
 		{
@@ -605,12 +767,18 @@
 				item: "dankstorage:dank_5"
 			}]
 			rewards: [{
-				id: "57371ACACE200C78"
-				type: "command"
-				title: "Logistics Loot Bag"
-				icon: "kubejs:loot_bag_rare"
-				command: "/execute at @p run loot spawn ~ ~1 ~ loot aof:loot_bags/logistics_loot"
-				player_command: false
+				id: "6E910A9942E4853F"
+				type: "item"
+				item: {
+					id: "lootbags:loot_bag"
+					Count: 1b
+					tag: {
+						Type: "UNCOMMON"
+						Color: 16747259
+						Name: "Logistics & Storage Lootbag"
+						Loot: "aof:loot_bags/misc/logistics"
+					}
+				}
 			}]
 		}
 		{
@@ -625,12 +793,18 @@
 				item: "dankstorage:dank_6"
 			}]
 			rewards: [{
-				id: "576FFEB06C001F6B"
-				type: "command"
-				title: "Logistics Loot Bag"
-				icon: "kubejs:loot_bag_rare"
-				command: "/execute at @p run loot spawn ~ ~1 ~ loot aof:loot_bags/logistics_loot"
-				player_command: false
+				id: "004F8F160C4AC433"
+				type: "item"
+				item: {
+					id: "lootbags:loot_bag"
+					Count: 1b
+					tag: {
+						Type: "UNCOMMON"
+						Color: 16747259
+						Name: "Logistics & Storage Lootbag"
+						Loot: "aof:loot_bags/misc/logistics"
+					}
+				}
 			}]
 		}
 		{
@@ -645,12 +819,18 @@
 				item: "dankstorage:dank_7"
 			}]
 			rewards: [{
-				id: "465C7F88ED8012C1"
-				type: "command"
-				title: "Logistics Loot Bag"
-				icon: "kubejs:loot_bag_rare"
-				command: "/execute at @p run loot spawn ~ ~1 ~ loot aof:loot_bags/logistics_loot"
-				player_command: false
+				id: "5B023D3FF530D24F"
+				type: "item"
+				item: {
+					id: "lootbags:loot_bag"
+					Count: 1b
+					tag: {
+						Type: "UNCOMMON"
+						Color: 16747259
+						Name: "Logistics & Storage Lootbag"
+						Loot: "aof:loot_bags/misc/logistics"
+					}
+				}
 			}]
 		}
 		{
@@ -665,12 +845,18 @@
 				item: "techreborn:basic_tank_unit"
 			}]
 			rewards: [{
-				id: "5A667E239B45E24A"
-				type: "command"
-				title: "Logistics Loot Bag"
-				icon: "kubejs:loot_bag_rare"
-				command: "/execute at @p run loot spawn ~ ~1 ~ loot aof:loot_bags/logistics_loot"
-				player_command: false
+				id: "7F39C502358FD965"
+				type: "item"
+				item: {
+					id: "lootbags:loot_bag"
+					Count: 1b
+					tag: {
+						Type: "UNCOMMON"
+						Color: 16747259
+						Name: "Logistics & Storage Lootbag"
+						Loot: "aof:loot_bags/misc/logistics"
+					}
+				}
 			}]
 		}
 		{
@@ -686,12 +872,18 @@
 				item: "techreborn:crude_storage_unit"
 			}]
 			rewards: [{
-				id: "442B75068498EE29"
-				type: "command"
-				title: "Logistics Loot Bag"
-				icon: "kubejs:loot_bag_rare"
-				command: "/execute at @p run loot spawn ~ ~1 ~ loot aof:loot_bags/logistics_loot"
-				player_command: false
+				id: "2D4672D6BE065F13"
+				type: "item"
+				item: {
+					id: "lootbags:loot_bag"
+					Count: 1b
+					tag: {
+						Type: "UNCOMMON"
+						Color: 16747259
+						Name: "Logistics & Storage Lootbag"
+						Loot: "aof:loot_bags/misc/logistics"
+					}
+				}
 			}]
 		}
 		{
@@ -705,12 +897,18 @@
 				item: "techreborn:basic_storage_unit"
 			}]
 			rewards: [{
-				id: "1ABF78B9CA7C7F73"
-				type: "command"
-				title: "Logistics Loot Bag"
-				icon: "kubejs:loot_bag_rare"
-				command: "/execute at @p run loot spawn ~ ~1 ~ loot aof:loot_bags/logistics_loot"
-				player_command: false
+				id: "700802785069C43C"
+				type: "item"
+				item: {
+					id: "lootbags:loot_bag"
+					Count: 1b
+					tag: {
+						Type: "UNCOMMON"
+						Color: 16747259
+						Name: "Logistics & Storage Lootbag"
+						Loot: "aof:loot_bags/misc/logistics"
+					}
+				}
 			}]
 		}
 		{
@@ -724,12 +922,18 @@
 				item: "techreborn:advanced_tank_unit"
 			}]
 			rewards: [{
-				id: "3EAC8317E3B52855"
-				type: "command"
-				title: "Logistics Loot Bag"
-				icon: "kubejs:loot_bag_rare"
-				command: "/execute at @p run loot spawn ~ ~1 ~ loot aof:loot_bags/logistics_loot"
-				player_command: false
+				id: "7BD2C81CF7A59B8D"
+				type: "item"
+				item: {
+					id: "lootbags:loot_bag"
+					Count: 1b
+					tag: {
+						Type: "UNCOMMON"
+						Color: 16747259
+						Name: "Logistics & Storage Lootbag"
+						Loot: "aof:loot_bags/misc/logistics"
+					}
+				}
 			}]
 		}
 		{
@@ -743,12 +947,18 @@
 				item: "techreborn:advanced_storage_unit"
 			}]
 			rewards: [{
-				id: "6A4588D7D38F7BFA"
-				type: "command"
-				title: "Logistics Loot Bag"
-				icon: "kubejs:loot_bag_rare"
-				command: "/execute at @p run loot spawn ~ ~1 ~ loot aof:loot_bags/logistics_loot"
-				player_command: false
+				id: "1F9D5E66AD68A1CD"
+				type: "item"
+				item: {
+					id: "lootbags:loot_bag"
+					Count: 1b
+					tag: {
+						Type: "UNCOMMON"
+						Color: 16747259
+						Name: "Logistics & Storage Lootbag"
+						Loot: "aof:loot_bags/misc/logistics"
+					}
+				}
 			}]
 		}
 		{
@@ -762,12 +972,18 @@
 				item: "techreborn:industrial_storage_unit"
 			}]
 			rewards: [{
-				id: "3AEFEDEA53E01FA4"
-				type: "command"
-				title: "Logistics Loot Bag"
-				icon: "kubejs:loot_bag_rare"
-				command: "/execute at @p run loot spawn ~ ~1 ~ loot aof:loot_bags/logistics_loot"
-				player_command: false
+				id: "3116B64A5A85BD93"
+				type: "item"
+				item: {
+					id: "lootbags:loot_bag"
+					Count: 1b
+					tag: {
+						Type: "UNCOMMON"
+						Color: 16747259
+						Name: "Logistics & Storage Lootbag"
+						Loot: "aof:loot_bags/misc/logistics"
+					}
+				}
 			}]
 		}
 		{
@@ -781,12 +997,18 @@
 				item: "techreborn:quantum_storage_unit"
 			}]
 			rewards: [{
-				id: "4C673FD721001AAE"
-				type: "command"
-				title: "Logistics Loot Bag"
-				icon: "kubejs:loot_bag_rare"
-				command: "/execute at @p run loot spawn ~ ~1 ~ loot aof:loot_bags/logistics_loot"
-				player_command: false
+				id: "4A15D46C23B25C09"
+				type: "item"
+				item: {
+					id: "lootbags:loot_bag"
+					Count: 1b
+					tag: {
+						Type: "UNCOMMON"
+						Color: 16747259
+						Name: "Logistics & Storage Lootbag"
+						Loot: "aof:loot_bags/misc/logistics"
+					}
+				}
 			}]
 		}
 		{
@@ -800,12 +1022,18 @@
 				item: "techreborn:industrial_tank_unit"
 			}]
 			rewards: [{
-				id: "03E436220B73DC2C"
-				type: "command"
-				title: "Logistics Loot Bag"
-				icon: "kubejs:loot_bag_rare"
-				command: "/execute at @p run loot spawn ~ ~1 ~ loot aof:loot_bags/logistics_loot"
-				player_command: false
+				id: "7AFB9E67691BDBC8"
+				type: "item"
+				item: {
+					id: "lootbags:loot_bag"
+					Count: 1b
+					tag: {
+						Type: "UNCOMMON"
+						Color: 16747259
+						Name: "Logistics & Storage Lootbag"
+						Loot: "aof:loot_bags/misc/logistics"
+					}
+				}
 			}]
 		}
 		{
@@ -819,12 +1047,18 @@
 				item: "techreborn:quantum_tank_unit"
 			}]
 			rewards: [{
-				id: "0F9919A21E5A9115"
-				type: "command"
-				title: "Logistics Loot Bag"
-				icon: "kubejs:loot_bag_rare"
-				command: "/execute at @p run loot spawn ~ ~1 ~ loot aof:loot_bags/logistics_loot"
-				player_command: false
+				id: "1A21AC074B8E024E"
+				type: "item"
+				item: {
+					id: "lootbags:loot_bag"
+					Count: 1b
+					tag: {
+						Type: "UNCOMMON"
+						Color: 16747259
+						Name: "Logistics & Storage Lootbag"
+						Loot: "aof:loot_bags/misc/logistics"
+					}
+				}
 			}]
 		}
 		{
@@ -895,12 +1129,18 @@
 				item: "techreborn:low_voltage_su"
 			}]
 			rewards: [{
-				id: "51E8CC97F0FFCE3F"
-				type: "command"
-				title: "Logistics Loot Bag"
-				icon: "kubejs:loot_bag_rare"
-				command: "/execute at @p run loot spawn ~ ~1 ~ loot aof:loot_bags/logistics_loot"
-				player_command: false
+				id: "3C0BA78DE2245A7A"
+				type: "item"
+				item: {
+					id: "lootbags:loot_bag"
+					Count: 1b
+					tag: {
+						Type: "UNCOMMON"
+						Color: 16747259
+						Name: "Logistics & Storage Lootbag"
+						Loot: "aof:loot_bags/misc/logistics"
+					}
+				}
 			}]
 		}
 		{
@@ -914,12 +1154,18 @@
 				item: "techreborn:medium_voltage_su"
 			}]
 			rewards: [{
-				id: "6646F59D46B39710"
-				type: "command"
-				title: "Logistics Loot Bag"
-				icon: "kubejs:loot_bag_rare"
-				command: "/execute at @p run loot spawn ~ ~1 ~ loot aof:loot_bags/logistics_loot"
-				player_command: false
+				id: "6788BF9184B6D5FE"
+				type: "item"
+				item: {
+					id: "lootbags:loot_bag"
+					Count: 1b
+					tag: {
+						Type: "UNCOMMON"
+						Color: 16747259
+						Name: "Logistics & Storage Lootbag"
+						Loot: "aof:loot_bags/misc/logistics"
+					}
+				}
 			}]
 		}
 		{
@@ -933,12 +1179,18 @@
 				item: "techreborn:high_voltage_su"
 			}]
 			rewards: [{
-				id: "76BA9A232020F5E7"
-				type: "command"
-				title: "Logistics Loot Bag"
-				icon: "kubejs:loot_bag_rare"
-				command: "/execute at @p run loot spawn ~ ~1 ~ loot aof:loot_bags/logistics_loot"
-				player_command: false
+				id: "5A504F6C577A5282"
+				type: "item"
+				item: {
+					id: "lootbags:loot_bag"
+					Count: 1b
+					tag: {
+						Type: "UNCOMMON"
+						Color: 16747259
+						Name: "Logistics & Storage Lootbag"
+						Loot: "aof:loot_bags/misc/logistics"
+					}
+				}
 			}]
 		}
 		{
@@ -952,12 +1204,18 @@
 				item: "techreborn:interdimensional_su"
 			}]
 			rewards: [{
-				id: "144FCF41DF913D7E"
-				type: "command"
-				title: "Logistics Loot Bag"
-				icon: "kubejs:loot_bag_rare"
-				command: "/execute at @p run loot spawn ~ ~1 ~ loot aof:loot_bags/logistics_loot"
-				player_command: false
+				id: "2E86B7FAE02703F6"
+				type: "item"
+				item: {
+					id: "lootbags:loot_bag"
+					Count: 1b
+					tag: {
+						Type: "UNCOMMON"
+						Color: 16747259
+						Name: "Logistics & Storage Lootbag"
+						Loot: "aof:loot_bags/misc/logistics"
+					}
+				}
 			}]
 		}
 		{
@@ -984,12 +1242,18 @@
 				item: "indrev:lazuli_flux_container_mk1"
 			}]
 			rewards: [{
-				id: "7CB044B242619859"
-				type: "command"
-				title: "Logistics Loot Bag"
-				icon: "kubejs:loot_bag_rare"
-				command: "/execute at @p run loot spawn ~ ~1 ~ loot aof:loot_bags/logistics_loot"
-				player_command: false
+				id: "276DCC3715091A7E"
+				type: "item"
+				item: {
+					id: "lootbags:loot_bag"
+					Count: 1b
+					tag: {
+						Type: "UNCOMMON"
+						Color: 16747259
+						Name: "Logistics & Storage Lootbag"
+						Loot: "aof:loot_bags/misc/logistics"
+					}
+				}
 			}]
 		}
 		{
@@ -1003,12 +1267,18 @@
 				item: "indrev:lazuli_flux_container_mk2"
 			}]
 			rewards: [{
-				id: "519953F6D6B11901"
-				type: "command"
-				title: "Logistics Loot Bag"
-				icon: "kubejs:loot_bag_rare"
-				command: "/execute at @p run loot spawn ~ ~1 ~ loot aof:loot_bags/logistics_loot"
-				player_command: false
+				id: "6F48461E12F09FD4"
+				type: "item"
+				item: {
+					id: "lootbags:loot_bag"
+					Count: 1b
+					tag: {
+						Type: "UNCOMMON"
+						Color: 16747259
+						Name: "Logistics & Storage Lootbag"
+						Loot: "aof:loot_bags/misc/logistics"
+					}
+				}
 			}]
 		}
 		{
@@ -1022,12 +1292,18 @@
 				item: "indrev:lazuli_flux_container_mk3"
 			}]
 			rewards: [{
-				id: "166A8960B2FC4432"
-				type: "command"
-				title: "Logistics Loot Bag"
-				icon: "kubejs:loot_bag_rare"
-				command: "/execute at @p run loot spawn ~ ~1 ~ loot aof:loot_bags/logistics_loot"
-				player_command: false
+				id: "1D6EDBAE03267B45"
+				type: "item"
+				item: {
+					id: "lootbags:loot_bag"
+					Count: 1b
+					tag: {
+						Type: "UNCOMMON"
+						Color: 16747259
+						Name: "Logistics & Storage Lootbag"
+						Loot: "aof:loot_bags/misc/logistics"
+					}
+				}
 			}]
 		}
 		{
@@ -1041,12 +1317,18 @@
 				item: "indrev:lazuli_flux_container_mk4"
 			}]
 			rewards: [{
-				id: "302D196916FF2CCC"
-				type: "command"
-				title: "Logistics Loot Bag"
-				icon: "kubejs:loot_bag_rare"
-				command: "/execute at @p run loot spawn ~ ~1 ~ loot aof:loot_bags/logistics_loot"
-				player_command: false
+				id: "0F1B6F6BF9A961B9"
+				type: "item"
+				item: {
+					id: "lootbags:loot_bag"
+					Count: 1b
+					tag: {
+						Type: "UNCOMMON"
+						Color: 16747259
+						Name: "Logistics & Storage Lootbag"
+						Loot: "aof:loot_bags/misc/logistics"
+					}
+				}
 			}]
 		}
 		{
@@ -1061,12 +1343,18 @@
 				item: "cyti:trashcan_item"
 			}]
 			rewards: [{
-				id: "749FCE0B18300CE1"
-				type: "command"
-				title: "Logistics Loot Bag"
-				icon: "kubejs:loot_bag_rare"
-				command: "/execute at @p run loot spawn ~ ~1 ~ loot aof:loot_bags/logistics_loot"
-				player_command: false
+				id: "12E5A99D47E3D323"
+				type: "item"
+				item: {
+					id: "lootbags:loot_bag"
+					Count: 1b
+					tag: {
+						Type: "UNCOMMON"
+						Color: 16747259
+						Name: "Logistics & Storage Lootbag"
+						Loot: "aof:loot_bags/misc/logistics"
+					}
+				}
 			}]
 		}
 		{
@@ -1082,12 +1370,18 @@
 				item: "cyti:trashcan_fluid"
 			}]
 			rewards: [{
-				id: "33FA8E922DB2D584"
-				type: "command"
-				title: "Logistics Loot Bag"
-				icon: "kubejs:loot_bag_rare"
-				command: "/execute at @p run loot spawn ~ ~1 ~ loot aof:loot_bags/logistics_loot"
-				player_command: false
+				id: "11EB3FAD556C59AB"
+				type: "item"
+				item: {
+					id: "lootbags:loot_bag"
+					Count: 1b
+					tag: {
+						Type: "UNCOMMON"
+						Color: 16747259
+						Name: "Logistics & Storage Lootbag"
+						Loot: "aof:loot_bags/misc/logistics"
+					}
+				}
 			}]
 		}
 		{
@@ -1115,12 +1409,43 @@
 				item: "cyti:trashcan_energy"
 			}]
 			rewards: [{
-				id: "27F3F7DA468A47FC"
-				type: "command"
-				title: "Logistics Loot Bag"
-				icon: "kubejs:loot_bag_rare"
-				command: "/execute at @p run loot spawn ~ ~1 ~ loot aof:loot_bags/logistics_loot"
-				player_command: false
+				id: "64AB9516F15E698E"
+				type: "item"
+				item: {
+					id: "lootbags:loot_bag"
+					Count: 1b
+					tag: {
+						Type: "UNCOMMON"
+						Color: 16747259
+						Name: "Logistics & Storage Lootbag"
+						Loot: "aof:loot_bags/misc/logistics"
+					}
+				}
+			}]
+		}
+		{
+			x: 5.0d
+			y: -3.5d
+			dependencies: ["6F2E92752228528C"]
+			id: "14B66E70E819E971"
+			tasks: [{
+				id: "374969D1C1F94B2C"
+				type: "item"
+				item: "ironchests:copper_chest"
+			}]
+			rewards: [{
+				id: "545C569BD9E1A752"
+				type: "item"
+				item: {
+					id: "lootbags:loot_bag"
+					Count: 1b
+					tag: {
+						Type: "UNCOMMON"
+						Color: 16747259
+						Loot: "aof:loot_bags/misc/logistics"
+						Name: "Logistics & Storage Lootbag"
+					}
+				}
 			}]
 		}
 	]

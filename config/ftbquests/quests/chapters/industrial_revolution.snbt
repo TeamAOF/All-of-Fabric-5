@@ -46,11 +46,17 @@
 			]
 			rewards: [{
 				id: "7B3AA028EB162EEF"
-				type: "command"
-				title: "IR Common Loot Bag"
-				icon: "kubejs:loot_bag_common"
-				command: "/execute at @p run loot spawn ~ ~1 ~ loot aof:loot_bags/industrial_revolution_loot_common"
-				player_command: false
+				type: "item"
+				item: {
+					id: "lootbags:loot_bag"
+					Count: 1b
+					tag: {
+						Type: "COMMON"
+						Color: 8090608
+						Name: "Industrial Revolution Common Lootbag"
+						Loot: "aof:loot_bags/ind_rev/common"
+					}
+				}
 			}]
 		}
 		{
@@ -66,11 +72,17 @@
 			}]
 			rewards: [{
 				id: "238F5DC73A868F07"
-				type: "command"
-				title: "IR Common Loot Bag"
-				icon: "kubejs:loot_bag_common"
-				command: "/execute at @p run loot spawn ~ ~1 ~ loot aof:loot_bags/industrial_revolution_loot_common"
-				player_command: false
+				type: "item"
+				item: {
+					id: "lootbags:loot_bag"
+					Count: 1b
+					tag: {
+						Type: "COMMON"
+						Color: 8090608
+						Name: "Industrial Revolution Common Lootbag"
+						Loot: "aof:loot_bags/ind_rev/common"
+					}
+				}
 			}]
 		}
 		{
@@ -89,11 +101,17 @@
 			}]
 			rewards: [{
 				id: "25DAAEA3159EC8A7"
-				type: "command"
-				title: "IR Rare Loot Bag"
-				icon: "kubejs:loot_bag_rare"
-				command: "/execute at @p run loot spawn ~ ~1 ~ loot aof:loot_bags/industrial_revolution_loot_rare"
-				player_command: false
+				type: "item"
+				item: {
+					id: "lootbags:loot_bag"
+					Count: 1b
+					tag: {
+						Type: "RARE"
+						Color: 8090608
+						Loot: "aof:loot_bags/ind_rev/rare"
+						Name: "Industrial Revolution Rare Lootbag"
+					}
+				}
 			}]
 		}
 		{
@@ -112,11 +130,17 @@
 			}]
 			rewards: [{
 				id: "77E243FC4207E72E"
-				type: "command"
-				title: "IR Rare Loot Bag"
-				icon: "kubejs:loot_bag_rare"
-				command: "/execute at @p run loot spawn ~ ~1 ~ loot aof:loot_bags/industrial_revolution_loot_rare"
-				player_command: false
+				type: "item"
+				item: {
+					id: "lootbags:loot_bag"
+					Count: 1b
+					tag: {
+						Type: "RARE"
+						Color: 8090608
+						Loot: "aof:loot_bags/ind_rev/rare"
+						Name: "Industrial Revolution Rare Lootbag"
+					}
+				}
 			}]
 		}
 		{
@@ -135,11 +159,17 @@
 			}]
 			rewards: [{
 				id: "52BF8DAAFC8EC7A0"
-				type: "command"
-				title: "IR Rare Loot Bag"
-				icon: "kubejs:loot_bag_rare"
-				command: "/execute at @p run loot spawn ~ ~1 ~ loot aof:loot_bags/industrial_revolution_loot_rare"
-				player_command: false
+				type: "item"
+				item: {
+					id: "lootbags:loot_bag"
+					Count: 1b
+					tag: {
+						Type: "RARE"
+						Color: 8090608
+						Loot: "aof:loot_bags/ind_rev/rare"
+						Name: "Industrial Revolution Rare Lootbag"
+					}
+				}
 			}]
 		}
 		{
@@ -161,11 +191,17 @@
 				}
 				{
 					id: "781808B2B4034E00"
-					type: "command"
-					title: "IR Common Loot Bag"
-					icon: "kubejs:loot_bag_common"
-					command: "/execute at @p run loot spawn ~ ~1 ~ loot aof:loot_bags/industrial_revolution_loot_common"
-					player_command: false
+					type: "item"
+					item: {
+						id: "lootbags:loot_bag"
+						Count: 1b
+						tag: {
+							Type: "COMMON"
+							Color: 8090608
+							Name: "Industrial Revolution Common Lootbag"
+							Loot: "aof:loot_bags/ind_rev/common"
+						}
+					}
 				}
 			]
 		}
@@ -181,11 +217,17 @@
 			}]
 			rewards: [{
 				id: "1ECC3DF4AADC805D"
-				type: "command"
-				title: "IR Common Loot Bag"
-				icon: "kubejs:loot_bag_common"
-				command: "/execute at @p run loot spawn ~ ~1 ~ loot aof:loot_bags/industrial_revolution_loot_common"
-				player_command: false
+				type: "item"
+				item: {
+					id: "lootbags:loot_bag"
+					Count: 1b
+					tag: {
+						Type: "COMMON"
+						Color: 8090608
+						Name: "Industrial Revolution Common Lootbag"
+						Loot: "aof:loot_bags/ind_rev/common"
+					}
+				}
 			}]
 		}
 		{
@@ -201,11 +243,17 @@
 			}]
 			rewards: [{
 				id: "3517F63A89FE34FE"
-				type: "command"
-				title: "IR Common Loot Bag"
-				icon: "kubejs:loot_bag_common"
-				command: "/execute at @p run loot spawn ~ ~1 ~ loot aof:loot_bags/industrial_revolution_loot_common"
-				player_command: false
+				type: "item"
+				item: {
+					id: "lootbags:loot_bag"
+					Count: 1b
+					tag: {
+						Type: "COMMON"
+						Color: 8090608
+						Name: "Industrial Revolution Common Lootbag"
+						Loot: "aof:loot_bags/ind_rev/common"
+					}
+				}
 			}]
 		}
 		{
@@ -221,11 +269,17 @@
 			}]
 			rewards: [{
 				id: "7E3DC1FFEEA94B68"
-				type: "command"
-				title: "IR Common Loot Bag"
-				icon: "kubejs:loot_bag_common"
-				command: "/execute at @p run loot spawn ~ ~1 ~ loot aof:loot_bags/industrial_revolution_loot_common"
-				player_command: false
+				type: "item"
+				item: {
+					id: "lootbags:loot_bag"
+					Count: 1b
+					tag: {
+						Type: "COMMON"
+						Color: 8090608
+						Name: "Industrial Revolution Common Lootbag"
+						Loot: "aof:loot_bags/ind_rev/common"
+					}
+				}
 			}]
 		}
 		{
@@ -240,12 +294,18 @@
 				count: 4L
 			}]
 			rewards: [{
-				id: "7908578BD6CE6C15"
-				type: "command"
-				title: "IR Rare Loot Bag"
-				icon: "kubejs:loot_bag_rare"
-				command: "/execute at @p run loot spawn ~ ~1 ~ loot aof:loot_bags/industrial_revolution_loot_rare"
-				player_command: false
+				id: "16F4C873564D448B"
+				type: "item"
+				item: {
+					id: "lootbags:loot_bag"
+					Count: 1b
+					tag: {
+						Type: "RARE"
+						Color: 8090608
+						Name: "Industrial Revolution Rare Lootbag"
+						Loot: "aof:loot_bags/ind_rev/rare"
+					}
+				}
 			}]
 		}
 		{
@@ -268,11 +328,17 @@
 			]
 			rewards: [{
 				id: "57C269CE0DF67034"
-				type: "command"
-				title: "IR Common Loot Bag"
-				icon: "kubejs:loot_bag_common"
-				command: "/execute at @p run loot spawn ~ ~1 ~ loot aof:loot_bags/industrial_revolution_loot_common"
-				player_command: false
+				type: "item"
+				item: {
+					id: "lootbags:loot_bag"
+					Count: 1b
+					tag: {
+						Type: "COMMON"
+						Color: 8090608
+						Name: "Industrial Revolution Common Lootbag"
+						Loot: "aof:loot_bags/ind_rev/common"
+					}
+				}
 			}]
 		}
 		{
@@ -293,11 +359,17 @@
 			}]
 			rewards: [{
 				id: "46131EB89CEFFECD"
-				type: "command"
-				title: "IR Common Loot Bag"
-				icon: "kubejs:loot_bag_common"
-				command: "/execute at @p run loot spawn ~ ~1 ~ loot aof:loot_bags/industrial_revolution_loot_common"
-				player_command: false
+				type: "item"
+				item: {
+					id: "lootbags:loot_bag"
+					Count: 1b
+					tag: {
+						Type: "COMMON"
+						Color: 8090608
+						Name: "Industrial Revolution Common Lootbag"
+						Loot: "aof:loot_bags/ind_rev/common"
+					}
+				}
 			}]
 		}
 		{
@@ -313,11 +385,17 @@
 			}]
 			rewards: [{
 				id: "410ED412233723AF"
-				type: "command"
-				title: "IR Common Loot Bag"
-				icon: "kubejs:loot_bag_common"
-				command: "/execute at @p run loot spawn ~ ~1 ~ loot aof:loot_bags/industrial_revolution_loot_common"
-				player_command: false
+				type: "item"
+				item: {
+					id: "lootbags:loot_bag"
+					Count: 1b
+					tag: {
+						Type: "COMMON"
+						Color: 8090608
+						Name: "Industrial Revolution Common Lootbag"
+						Loot: "aof:loot_bags/ind_rev/common"
+					}
+				}
 			}]
 		}
 		{
@@ -340,12 +418,18 @@
 					count: 4
 				}
 				{
-					id: "17A6F9360BAC4EB8"
-					type: "command"
-					title: "IR Common Loot Bag"
-					icon: "kubejs:loot_bag_common"
-					command: "/execute at @p run loot spawn ~ ~1 ~ loot aof:loot_bags/industrial_revolution_loot_common"
-					player_command: false
+					id: "527570C9F4CBA8BB"
+					type: "item"
+					item: {
+						id: "lootbags:loot_bag"
+						Count: 1b
+						tag: {
+							Type: "COMMON"
+							Color: 8090608
+							Name: "Industrial Revolution Common Lootbag"
+							Loot: "aof:loot_bags/ind_rev/common"
+						}
+					}
 				}
 			]
 		}
@@ -403,11 +487,17 @@
 			]
 			rewards: [{
 				id: "3E53C278EB695099"
-				type: "command"
-				title: "IR Common Loot Bag"
-				icon: "kubejs:loot_bag_common"
-				command: "/execute at @p run loot spawn ~ ~1 ~ loot aof:loot_bags/industrial_revolution_loot_common"
-				player_command: false
+				type: "item"
+				item: {
+					id: "lootbags:loot_bag"
+					Count: 1b
+					tag: {
+						Type: "COMMON"
+						Color: 8090608
+						Name: "Industrial Revolution Common Lootbag"
+						Loot: "aof:loot_bags/ind_rev/common"
+					}
+				}
 			}]
 		}
 		{
@@ -423,11 +513,17 @@
 			}]
 			rewards: [{
 				id: "7A8B758D007E31B4"
-				type: "command"
-				title: "IR Common Loot Bag"
-				icon: "kubejs:loot_bag_common"
-				command: "/execute at @p run loot spawn ~ ~1 ~ loot aof:loot_bags/industrial_revolution_loot_common"
-				player_command: false
+				type: "item"
+				item: {
+					id: "lootbags:loot_bag"
+					Count: 1b
+					tag: {
+						Type: "COMMON"
+						Color: 8090608
+						Name: "Industrial Revolution Common Lootbag"
+						Loot: "aof:loot_bags/ind_rev/common"
+					}
+				}
 			}]
 		}
 		{
@@ -444,11 +540,17 @@
 			}]
 			rewards: [{
 				id: "35D35206DCBD8187"
-				type: "command"
-				title: "IR Common Loot Bag"
-				icon: "kubejs:loot_bag_common"
-				command: "/execute at @p run loot spawn ~ ~1 ~ loot aof:loot_bags/industrial_revolution_loot_common"
-				player_command: false
+				type: "item"
+				item: {
+					id: "lootbags:loot_bag"
+					Count: 1b
+					tag: {
+						Type: "COMMON"
+						Color: 8090608
+						Name: "Industrial Revolution Common Lootbag"
+						Loot: "aof:loot_bags/ind_rev/common"
+					}
+				}
 			}]
 		}
 		{
@@ -465,11 +567,17 @@
 			}]
 			rewards: [{
 				id: "74FA63591DEBE176"
-				type: "command"
-				title: "IR Rare Loot Bag"
-				icon: "kubejs:loot_bag_rare"
-				command: "/execute at @p run loot spawn ~ ~1 ~ loot aof:loot_bags/industrial_revolution_loot_rare"
-				player_command: false
+				type: "item"
+				item: {
+					id: "lootbags:loot_bag"
+					Count: 1b
+					tag: {
+						Type: "RARE"
+						Color: 8090608
+						Loot: "aof:loot_bags/ind_rev/rare"
+						Name: "Industrial Revolution Rare Lootbag"
+					}
+				}
 			}]
 		}
 		{
@@ -488,11 +596,17 @@
 			}]
 			rewards: [{
 				id: "70FE93467EB59E75"
-				type: "command"
-				title: "IR Rare Loot Bag"
-				icon: "kubejs:loot_bag_rare"
-				command: "/execute at @p run loot spawn ~ ~1 ~ loot aof:loot_bags/industrial_revolution_loot_rare"
-				player_command: false
+				type: "item"
+				item: {
+					id: "lootbags:loot_bag"
+					Count: 1b
+					tag: {
+						Type: "RARE"
+						Color: 8090608
+						Loot: "aof:loot_bags/ind_rev/rare"
+						Name: "Industrial Revolution Rare Lootbag"
+					}
+				}
 			}]
 		}
 		{
@@ -508,11 +622,17 @@
 			}]
 			rewards: [{
 				id: "2F78EABB9CDE6439"
-				type: "command"
-				title: "IR Rare Loot Bag"
-				icon: "kubejs:loot_bag_rare"
-				command: "/execute at @p run loot spawn ~ ~1 ~ loot aof:loot_bags/industrial_revolution_loot_rare"
-				player_command: false
+				type: "item"
+				item: {
+					id: "lootbags:loot_bag"
+					Count: 1b
+					tag: {
+						Type: "RARE"
+						Color: 8090608
+						Loot: "aof:loot_bags/ind_rev/rare"
+						Name: "Industrial Revolution Rare Lootbag"
+					}
+				}
 			}]
 		}
 		{
@@ -533,11 +653,17 @@
 				}
 				{
 					id: "06C0F4DB51EB6ABC"
-					type: "command"
-					title: "IR Common Loot Bag"
-					icon: "kubejs:loot_bag_common"
-					command: "/execute at @p run loot spawn ~ ~1 ~ loot aof:loot_bags/industrial_revolution_loot_common"
-					player_command: false
+					type: "item"
+					item: {
+						id: "lootbags:loot_bag"
+						Count: 1b
+						tag: {
+							Type: "COMMON"
+							Color: 8090608
+							Name: "Industrial Revolution Common Lootbag"
+							Loot: "aof:loot_bags/ind_rev/common"
+						}
+					}
 				}
 			]
 		}
@@ -555,11 +681,17 @@
 			}]
 			rewards: [{
 				id: "6CD7DDCAC7634A6D"
-				type: "command"
-				title: "IR Common Loot Bag"
-				icon: "kubejs:loot_bag_common"
-				command: "/execute at @p run loot spawn ~ ~1 ~ loot aof:loot_bags/industrial_revolution_loot_common"
-				player_command: false
+				type: "item"
+				item: {
+					id: "lootbags:loot_bag"
+					Count: 1b
+					tag: {
+						Type: "COMMON"
+						Color: 8090608
+						Name: "Industrial Revolution Common Lootbag"
+						Loot: "aof:loot_bags/ind_rev/common"
+					}
+				}
 			}]
 		}
 		{
@@ -576,11 +708,17 @@
 			}]
 			rewards: [{
 				id: "14A566B17F4B8DE1"
-				type: "command"
-				title: "IR Rare Loot Bag"
-				icon: "kubejs:loot_bag_rare"
-				command: "/execute at @p run loot spawn ~ ~1 ~ loot aof:loot_bags/industrial_revolution_loot_rare"
-				player_command: false
+				type: "item"
+				item: {
+					id: "lootbags:loot_bag"
+					Count: 1b
+					tag: {
+						Type: "RARE"
+						Color: 8090608
+						Loot: "aof:loot_bags/ind_rev/rare"
+						Name: "Industrial Revolution Rare Lootbag"
+					}
+				}
 			}]
 		}
 		{
@@ -595,11 +733,17 @@
 			}]
 			rewards: [{
 				id: "0E05A463DC5AB13D"
-				type: "command"
-				title: "IR Rare Loot Bag"
-				icon: "kubejs:loot_bag_rare"
-				command: "/execute at @p run loot spawn ~ ~1 ~ loot aof:loot_bags/industrial_revolution_loot_rare"
-				player_command: false
+				type: "item"
+				item: {
+					id: "lootbags:loot_bag"
+					Count: 1b
+					tag: {
+						Type: "RARE"
+						Color: 8090608
+						Loot: "aof:loot_bags/ind_rev/rare"
+						Name: "Industrial Revolution Rare Lootbag"
+					}
+				}
 			}]
 		}
 		{
@@ -614,11 +758,17 @@
 			}]
 			rewards: [{
 				id: "7B4F590CBD04DD6D"
-				type: "command"
-				title: "IR Rare Loot Bag"
-				icon: "kubejs:loot_bag_rare"
-				command: "/execute at @p run loot spawn ~ ~1 ~ loot aof:loot_bags/industrial_revolution_loot_rare"
-				player_command: false
+				type: "item"
+				item: {
+					id: "lootbags:loot_bag"
+					Count: 1b
+					tag: {
+						Type: "RARE"
+						Color: 8090608
+						Loot: "aof:loot_bags/ind_rev/rare"
+						Name: "Industrial Revolution Rare Lootbag"
+					}
+				}
 			}]
 		}
 		{
@@ -634,11 +784,17 @@
 			}]
 			rewards: [{
 				id: "11BF0AB4A36E9625"
-				type: "command"
-				title: "IR Common Loot Bag"
-				icon: "kubejs:loot_bag_common"
-				command: "/execute at @p run loot spawn ~ ~1 ~ loot aof:loot_bags/industrial_revolution_loot_common"
-				player_command: false
+				type: "item"
+				item: {
+					id: "lootbags:loot_bag"
+					Count: 1b
+					tag: {
+						Type: "COMMON"
+						Color: 8090608
+						Name: "Industrial Revolution Common Lootbag"
+						Loot: "aof:loot_bags/ind_rev/common"
+					}
+				}
 			}]
 		}
 		{
@@ -686,11 +842,17 @@
 			]
 			rewards: [{
 				id: "6B858052DF67DC3E"
-				type: "command"
-				title: "IR Common Loot Bag"
-				icon: "kubejs:loot_bag_common"
-				command: "/execute at @p run loot spawn ~ ~1 ~ loot aof:loot_bags/industrial_revolution_loot_common"
-				player_command: false
+				type: "item"
+				item: {
+					id: "lootbags:loot_bag"
+					Count: 1b
+					tag: {
+						Type: "COMMON"
+						Color: 8090608
+						Name: "Industrial Revolution Common Lootbag"
+						Loot: "aof:loot_bags/ind_rev/common"
+					}
+				}
 			}]
 		}
 		{
@@ -727,11 +889,17 @@
 			]
 			rewards: [{
 				id: "278A2E90AFCDB9A0"
-				type: "command"
-				title: "IR Common Loot Bag"
-				icon: "kubejs:loot_bag_common"
-				command: "/execute at @p run loot spawn ~ ~1 ~ loot aof:loot_bags/industrial_revolution_loot_common"
-				player_command: false
+				type: "item"
+				item: {
+					id: "lootbags:loot_bag"
+					Count: 1b
+					tag: {
+						Type: "COMMON"
+						Color: 8090608
+						Name: "Industrial Revolution Common Lootbag"
+						Loot: "aof:loot_bags/ind_rev/common"
+					}
+				}
 			}]
 		}
 		{
@@ -803,11 +971,17 @@
 				}
 				{
 					id: "0D6E550E5B126A3D"
-					type: "command"
-					title: "IR Rare Loot Bag"
-					icon: "kubejs:loot_bag_rare"
-					command: "/execute at @p run loot spawn ~ ~1 ~ loot aof:loot_bags/industrial_revolution_loot_rare"
-					player_command: false
+					type: "item"
+					item: {
+						id: "lootbags:loot_bag"
+						Count: 1b
+						tag: {
+							Type: "RARE"
+							Color: 8090608
+							Loot: "aof:loot_bags/ind_rev/rare"
+							Name: "Industrial Revolution Rare Lootbag"
+						}
+					}
 				}
 			]
 		}
@@ -824,11 +998,17 @@
 			}]
 			rewards: [{
 				id: "440E72651B7C90D6"
-				type: "command"
-				title: "IR Common Loot Bag"
-				icon: "kubejs:loot_bag_common"
-				command: "/execute at @p run loot spawn ~ ~1 ~ loot aof:loot_bags/industrial_revolution_loot_common"
-				player_command: false
+				type: "item"
+				item: {
+					id: "lootbags:loot_bag"
+					Count: 1b
+					tag: {
+						Type: "COMMON"
+						Color: 8090608
+						Name: "Industrial Revolution Common Lootbag"
+						Loot: "aof:loot_bags/ind_rev/common"
+					}
+				}
 			}]
 		}
 		{
@@ -844,11 +1024,17 @@
 			}]
 			rewards: [{
 				id: "0AA6FE219A0D25AA"
-				type: "command"
-				title: "IR Common Loot Bag"
-				icon: "kubejs:loot_bag_common"
-				command: "/execute at @p run loot spawn ~ ~1 ~ loot aof:loot_bags/industrial_revolution_loot_common"
-				player_command: false
+				type: "item"
+				item: {
+					id: "lootbags:loot_bag"
+					Count: 1b
+					tag: {
+						Type: "COMMON"
+						Color: 8090608
+						Name: "Industrial Revolution Common Lootbag"
+						Loot: "aof:loot_bags/ind_rev/common"
+					}
+				}
 			}]
 		}
 		{
@@ -863,11 +1049,17 @@
 			}]
 			rewards: [{
 				id: "07707A91F2F393DF"
-				type: "command"
-				title: "IR Common Loot Bag"
-				icon: "kubejs:loot_bag_common"
-				command: "/execute at @p run loot spawn ~ ~1 ~ loot aof:loot_bags/industrial_revolution_loot_common"
-				player_command: false
+				type: "item"
+				item: {
+					id: "lootbags:loot_bag"
+					Count: 1b
+					tag: {
+						Type: "COMMON"
+						Color: 8090608
+						Name: "Industrial Revolution Common Lootbag"
+						Loot: "aof:loot_bags/ind_rev/common"
+					}
+				}
 			}]
 		}
 		{
@@ -883,11 +1075,17 @@
 			}]
 			rewards: [{
 				id: "03D83DCD6EDF3D49"
-				type: "command"
-				title: "IR Common Loot Bag"
-				icon: "kubejs:loot_bag_common"
-				command: "/execute at @p run loot spawn ~ ~1 ~ loot aof:loot_bags/industrial_revolution_loot_common"
-				player_command: false
+				type: "item"
+				item: {
+					id: "lootbags:loot_bag"
+					Count: 1b
+					tag: {
+						Type: "COMMON"
+						Color: 8090608
+						Name: "Industrial Revolution Common Lootbag"
+						Loot: "aof:loot_bags/ind_rev/common"
+					}
+				}
 			}]
 		}
 		{
@@ -908,11 +1106,17 @@
 			}]
 			rewards: [{
 				id: "0FAF067F082BE5F4"
-				type: "command"
-				title: "IR Common Loot Bag"
-				icon: "kubejs:loot_bag_common"
-				command: "/execute at @p run loot spawn ~ ~1 ~ loot aof:loot_bags/industrial_revolution_loot_common"
-				player_command: false
+				type: "item"
+				item: {
+					id: "lootbags:loot_bag"
+					Count: 1b
+					tag: {
+						Type: "COMMON"
+						Color: 8090608
+						Name: "Industrial Revolution Common Lootbag"
+						Loot: "aof:loot_bags/ind_rev/common"
+					}
+				}
 			}]
 		}
 		{
@@ -935,11 +1139,17 @@
 			}]
 			rewards: [{
 				id: "09F245D7B37C6427"
-				type: "command"
-				title: "IR Common Loot Bag"
-				icon: "kubejs:loot_bag_common"
-				command: "/execute at @p run loot spawn ~ ~1 ~ loot aof:loot_bags/industrial_revolution_loot_common"
-				player_command: false
+				type: "item"
+				item: {
+					id: "lootbags:loot_bag"
+					Count: 1b
+					tag: {
+						Type: "COMMON"
+						Color: 8090608
+						Name: "Industrial Revolution Common Lootbag"
+						Loot: "aof:loot_bags/ind_rev/common"
+					}
+				}
 			}]
 		}
 		{
@@ -991,11 +1201,17 @@
 			]
 			rewards: [{
 				id: "2782415DD5C958FC"
-				type: "command"
-				title: "IR Common Loot Bag"
-				icon: "kubejs:loot_bag_common"
-				command: "/execute at @p run loot spawn ~ ~1 ~ loot aof:loot_bags/industrial_revolution_loot_common"
-				player_command: false
+				type: "item"
+				item: {
+					id: "lootbags:loot_bag"
+					Count: 1b
+					tag: {
+						Type: "COMMON"
+						Color: 8090608
+						Name: "Industrial Revolution Common Lootbag"
+						Loot: "aof:loot_bags/ind_rev/common"
+					}
+				}
 			}]
 		}
 		{
@@ -1010,11 +1226,17 @@
 			}]
 			rewards: [{
 				id: "1A9B7A30AAECAE28"
-				type: "command"
-				title: "IR Rare Loot Bag"
-				icon: "kubejs:loot_bag_rare"
-				command: "/execute at @p run loot spawn ~ ~1 ~ loot aof:loot_bags/industrial_revolution_loot_rare"
-				player_command: false
+				type: "item"
+				item: {
+					id: "lootbags:loot_bag"
+					Count: 1b
+					tag: {
+						Type: "RARE"
+						Color: 8090608
+						Loot: "aof:loot_bags/ind_rev/rare"
+						Name: "Industrial Revolution Rare Lootbag"
+					}
+				}
 			}]
 		}
 		{
@@ -1029,11 +1251,17 @@
 			}]
 			rewards: [{
 				id: "5CE1354CD0DC0A38"
-				type: "command"
-				title: "IR Rare Loot Bag"
-				icon: "kubejs:loot_bag_rare"
-				command: "/execute at @p run loot spawn ~ ~1 ~ loot aof:loot_bags/industrial_revolution_loot_rare"
-				player_command: false
+				type: "item"
+				item: {
+					id: "lootbags:loot_bag"
+					Count: 1b
+					tag: {
+						Type: "RARE"
+						Color: 8090608
+						Loot: "aof:loot_bags/ind_rev/rare"
+						Name: "Industrial Revolution Rare Lootbag"
+					}
+				}
 			}]
 		}
 		{
@@ -1048,11 +1276,17 @@
 			}]
 			rewards: [{
 				id: "791B97E8B46C3AB4"
-				type: "command"
-				title: "IR Rare Loot Bag"
-				icon: "kubejs:loot_bag_rare"
-				command: "/execute at @p run loot spawn ~ ~1 ~ loot aof:loot_bags/industrial_revolution_loot_rare"
-				player_command: false
+				type: "item"
+				item: {
+					id: "lootbags:loot_bag"
+					Count: 1b
+					tag: {
+						Type: "RARE"
+						Color: 8090608
+						Loot: "aof:loot_bags/ind_rev/rare"
+						Name: "Industrial Revolution Rare Lootbag"
+					}
+				}
 			}]
 		}
 		{
@@ -1070,11 +1304,17 @@
 			}]
 			rewards: [{
 				id: "0BC28E58B7DEEE0E"
-				type: "command"
-				title: "IR Rare Loot Bag"
-				icon: "kubejs:loot_bag_rare"
-				command: "/execute at @p run loot spawn ~ ~1 ~ loot aof:loot_bags/industrial_revolution_loot_rare"
-				player_command: false
+				type: "item"
+				item: {
+					id: "lootbags:loot_bag"
+					Count: 1b
+					tag: {
+						Type: "RARE"
+						Color: 8090608
+						Loot: "aof:loot_bags/ind_rev/rare"
+						Name: "Industrial Revolution Rare Lootbag"
+					}
+				}
 			}]
 		}
 		{
@@ -1089,11 +1329,17 @@
 			}]
 			rewards: [{
 				id: "673C2FEFA35058A6"
-				type: "command"
-				title: "IR Rare Loot Bag"
-				icon: "kubejs:loot_bag_rare"
-				command: "/execute at @p run loot spawn ~ ~1 ~ loot aof:loot_bags/industrial_revolution_loot_rare"
-				player_command: false
+				type: "item"
+				item: {
+					id: "lootbags:loot_bag"
+					Count: 1b
+					tag: {
+						Type: "RARE"
+						Color: 8090608
+						Loot: "aof:loot_bags/ind_rev/rare"
+						Name: "Industrial Revolution Rare Lootbag"
+					}
+				}
 			}]
 		}
 		{
@@ -1108,11 +1354,17 @@
 			}]
 			rewards: [{
 				id: "5468A1F377DE8E16"
-				type: "command"
-				title: "IR Rare Loot Bag"
-				icon: "kubejs:loot_bag_rare"
-				command: "/execute at @p run loot spawn ~ ~1 ~ loot aof:loot_bags/industrial_revolution_loot_rare"
-				player_command: false
+				type: "item"
+				item: {
+					id: "lootbags:loot_bag"
+					Count: 1b
+					tag: {
+						Type: "RARE"
+						Color: 8090608
+						Loot: "aof:loot_bags/ind_rev/rare"
+						Name: "Industrial Revolution Rare Lootbag"
+					}
+				}
 			}]
 		}
 		{
@@ -1165,11 +1417,17 @@
 				}
 				{
 					id: "7788E71BD7C7E08F"
-					type: "command"
-					title: "IR Rare Loot Bag"
-					icon: "kubejs:loot_bag_rare"
-					command: "/execute at @p run loot spawn ~ ~1 ~ loot aof:loot_bags/industrial_revolution_loot_rare"
-					player_command: false
+					type: "item"
+					item: {
+						id: "lootbags:loot_bag"
+						Count: 1b
+						tag: {
+							Type: "RARE"
+							Color: 8090608
+							Loot: "aof:loot_bags/ind_rev/rare"
+							Name: "Industrial Revolution Rare Lootbag"
+						}
+					}
 				}
 			]
 		}
@@ -1199,11 +1457,17 @@
 				}
 				{
 					id: "12D9C4DC72A3768D"
-					type: "command"
-					title: "IR Rare Loot Bag"
-					icon: "kubejs:loot_bag_rare"
-					command: "/execute at @p run loot spawn ~ ~1 ~ loot aof:loot_bags/industrial_revolution_loot_rare"
-					player_command: false
+					type: "item"
+					item: {
+						id: "lootbags:loot_bag"
+						Count: 1b
+						tag: {
+							Type: "RARE"
+							Color: 8090608
+							Loot: "aof:loot_bags/ind_rev/rare"
+							Name: "Industrial Revolution Rare Lootbag"
+						}
+					}
 				}
 			]
 		}
@@ -1233,11 +1497,17 @@
 				}
 				{
 					id: "6DD320A876D4E29A"
-					type: "command"
-					title: "IR Rare Loot Bag"
-					icon: "kubejs:loot_bag_rare"
-					command: "/execute at @p run loot spawn ~ ~1 ~ loot aof:loot_bags/industrial_revolution_loot_rare"
-					player_command: false
+					type: "item"
+					item: {
+						id: "lootbags:loot_bag"
+						Count: 1b
+						tag: {
+							Type: "RARE"
+							Color: 8090608
+							Loot: "aof:loot_bags/ind_rev/rare"
+							Name: "Industrial Revolution Rare Lootbag"
+						}
+					}
 				}
 			]
 		}
@@ -1267,11 +1537,17 @@
 				}
 				{
 					id: "746764C1CC14D22B"
-					type: "command"
-					title: "IR Rare Loot Bag"
-					icon: "kubejs:loot_bag_rare"
-					command: "/execute at @p run loot spawn ~ ~1 ~ loot aof:loot_bags/industrial_revolution_loot_rare"
-					player_command: false
+					type: "item"
+					item: {
+						id: "lootbags:loot_bag"
+						Count: 1b
+						tag: {
+							Type: "RARE"
+							Color: 8090608
+							Loot: "aof:loot_bags/ind_rev/rare"
+							Name: "Industrial Revolution Rare Lootbag"
+						}
+					}
 				}
 			]
 		}
@@ -1312,11 +1588,17 @@
 				}
 				{
 					id: "19808F09D6FE3E09"
-					type: "command"
-					title: "IR Common Loot Bag"
-					icon: "kubejs:loot_bag_common"
-					command: "/execute at @p run loot spawn ~ ~1 ~ loot aof:loot_bags/industrial_revolution_loot_common"
-					player_command: false
+					type: "item"
+					item: {
+						id: "lootbags:loot_bag"
+						Count: 1b
+						tag: {
+							Type: "COMMON"
+							Color: 8090608
+							Name: "Industrial Revolution Common Lootbag"
+							Loot: "aof:loot_bags/ind_rev/common"
+						}
+					}
 				}
 			]
 		}
@@ -1365,11 +1647,17 @@
 			]
 			rewards: [{
 				id: "789B8EBA44137D09"
-				type: "command"
-				title: "IR Rare Loot Bag"
-				icon: "kubejs:loot_bag_rare"
-				command: "/execute at @p run loot spawn ~ ~1 ~ loot aof:loot_bags/industrial_revolution_loot_rare"
-				player_command: false
+				type: "item"
+				item: {
+					id: "lootbags:loot_bag"
+					Count: 1b
+					tag: {
+						Type: "RARE"
+						Color: 8090608
+						Loot: "aof:loot_bags/ind_rev/rare"
+						Name: "Industrial Revolution Rare Lootbag"
+					}
+				}
 			}]
 		}
 		{
@@ -1385,11 +1673,17 @@
 			}]
 			rewards: [{
 				id: "5A5099B092E1219D"
-				type: "command"
-				title: "IR Rare Loot Bag"
-				icon: "kubejs:loot_bag_rare"
-				command: "/execute at @p run loot spawn ~ ~1 ~ loot aof:loot_bags/industrial_revolution_loot_rare"
-				player_command: false
+				type: "item"
+				item: {
+					id: "lootbags:loot_bag"
+					Count: 1b
+					tag: {
+						Type: "RARE"
+						Color: 8090608
+						Loot: "aof:loot_bags/ind_rev/rare"
+						Name: "Industrial Revolution Rare Lootbag"
+					}
+				}
 			}]
 		}
 		{
@@ -1411,11 +1705,17 @@
 			}]
 			rewards: [{
 				id: "1C33ED6AFA03FA1F"
-				type: "command"
-				title: "IR Rare Loot Bag"
-				icon: "kubejs:loot_bag_rare"
-				command: "/execute at @p run loot spawn ~ ~1 ~ loot aof:loot_bags/industrial_revolution_loot_rare"
-				player_command: false
+				type: "item"
+				item: {
+					id: "lootbags:loot_bag"
+					Count: 1b
+					tag: {
+						Type: "RARE"
+						Color: 8090608
+						Loot: "aof:loot_bags/ind_rev/rare"
+						Name: "Industrial Revolution Rare Lootbag"
+					}
+				}
 			}]
 		}
 		{
@@ -1431,11 +1731,17 @@
 			}]
 			rewards: [{
 				id: "37847037A012D05C"
-				type: "command"
-				title: "IR Rare Loot Bag"
-				icon: "kubejs:loot_bag_rare"
-				command: "/execute at @p run loot spawn ~ ~1 ~ loot aof:loot_bags/industrial_revolution_loot_rare"
-				player_command: false
+				type: "item"
+				item: {
+					id: "lootbags:loot_bag"
+					Count: 1b
+					tag: {
+						Type: "RARE"
+						Color: 8090608
+						Loot: "aof:loot_bags/ind_rev/rare"
+						Name: "Industrial Revolution Rare Lootbag"
+					}
+				}
 			}]
 		}
 		{
@@ -1452,11 +1758,17 @@
 			}]
 			rewards: [{
 				id: "587EA64BEAEB47E2"
-				type: "command"
-				title: "IR Rare Loot Bag"
-				icon: "kubejs:loot_bag_rare"
-				command: "/execute at @p run loot spawn ~ ~1 ~ loot aof:loot_bags/industrial_revolution_loot_rare"
-				player_command: false
+				type: "item"
+				item: {
+					id: "lootbags:loot_bag"
+					Count: 1b
+					tag: {
+						Type: "RARE"
+						Color: 8090608
+						Loot: "aof:loot_bags/ind_rev/rare"
+						Name: "Industrial Revolution Rare Lootbag"
+					}
+				}
 			}]
 		}
 		{
@@ -1473,11 +1785,17 @@
 			}]
 			rewards: [{
 				id: "3272E3642C6BAEB3"
-				type: "command"
-				title: "IR Rare Loot Bag"
-				icon: "kubejs:loot_bag_rare"
-				command: "/execute at @p run loot spawn ~ ~1 ~ loot aof:loot_bags/industrial_revolution_loot_rare"
-				player_command: false
+				type: "item"
+				item: {
+					id: "lootbags:loot_bag"
+					Count: 1b
+					tag: {
+						Type: "RARE"
+						Color: 8090608
+						Loot: "aof:loot_bags/ind_rev/rare"
+						Name: "Industrial Revolution Rare Lootbag"
+					}
+				}
 			}]
 		}
 		{
@@ -1494,11 +1812,17 @@
 			}]
 			rewards: [{
 				id: "07F13B3B745111E0"
-				type: "command"
-				title: "IR Rare Loot Bag"
-				icon: "kubejs:loot_bag_rare"
-				command: "/execute at @p run loot spawn ~ ~1 ~ loot aof:loot_bags/industrial_revolution_loot_rare"
-				player_command: false
+				type: "item"
+				item: {
+					id: "lootbags:loot_bag"
+					Count: 1b
+					tag: {
+						Type: "RARE"
+						Color: 8090608
+						Loot: "aof:loot_bags/ind_rev/rare"
+						Name: "Industrial Revolution Rare Lootbag"
+					}
+				}
 			}]
 		}
 		{
@@ -1533,11 +1857,17 @@
 			]
 			rewards: [{
 				id: "7E48E5130E230EB3"
-				type: "command"
-				title: "IR Rare Loot Bag"
-				icon: "kubejs:loot_bag_rare"
-				command: "/execute at @p run loot spawn ~ ~1 ~ loot aof:loot_bags/industrial_revolution_loot_rare"
-				player_command: false
+				type: "item"
+				item: {
+					id: "lootbags:loot_bag"
+					Count: 1b
+					tag: {
+						Type: "RARE"
+						Color: 8090608
+						Loot: "aof:loot_bags/ind_rev/rare"
+						Name: "Industrial Revolution Rare Lootbag"
+					}
+				}
 			}]
 		}
 		{
@@ -1553,11 +1883,17 @@
 			}]
 			rewards: [{
 				id: "1E7965DA8EB42F5A"
-				type: "command"
-				title: "IR Rare Loot Bag"
-				icon: "kubejs:loot_bag_rare"
-				command: "/execute at @p run loot spawn ~ ~1 ~ loot aof:loot_bags/industrial_revolution_loot_rare"
-				player_command: false
+				type: "item"
+				item: {
+					id: "lootbags:loot_bag"
+					Count: 1b
+					tag: {
+						Type: "RARE"
+						Color: 8090608
+						Loot: "aof:loot_bags/ind_rev/rare"
+						Name: "Industrial Revolution Rare Lootbag"
+					}
+				}
 			}]
 		}
 		{
@@ -1594,11 +1930,17 @@
 			]
 			rewards: [{
 				id: "2FCDBB4BBCA0CABD"
-				type: "command"
-				title: "IR Rare Loot Bag"
-				icon: "kubejs:loot_bag_rare"
-				command: "/execute at @p run loot spawn ~ ~1 ~ loot aof:loot_bags/industrial_revolution_loot_rare"
-				player_command: false
+				type: "item"
+				item: {
+					id: "lootbags:loot_bag"
+					Count: 1b
+					tag: {
+						Type: "RARE"
+						Color: 8090608
+						Loot: "aof:loot_bags/ind_rev/rare"
+						Name: "Industrial Revolution Rare Lootbag"
+					}
+				}
 			}]
 		}
 		{
@@ -1614,11 +1956,17 @@
 			}]
 			rewards: [{
 				id: "2B02F5E3B81155C5"
-				type: "command"
-				title: "IR Common Loot Bag"
-				icon: "kubejs:loot_bag_common"
-				command: "/execute at @p run loot spawn ~ ~1 ~ loot aof:loot_bags/industrial_revolution_loot_common"
-				player_command: false
+				type: "item"
+				item: {
+					id: "lootbags:loot_bag"
+					Count: 1b
+					tag: {
+						Type: "COMMON"
+						Color: 8090608
+						Name: "Industrial Revolution Common Lootbag"
+						Loot: "aof:loot_bags/ind_rev/common"
+					}
+				}
 			}]
 		}
 		{
@@ -1635,11 +1983,17 @@
 			}]
 			rewards: [{
 				id: "3FEA619A9B299655"
-				type: "command"
-				title: "IR Rare Loot Bag"
-				icon: "kubejs:loot_bag_rare"
-				command: "/execute at @p run loot spawn ~ ~1 ~ loot aof:loot_bags/industrial_revolution_loot_rare"
-				player_command: false
+				type: "item"
+				item: {
+					id: "lootbags:loot_bag"
+					Count: 1b
+					tag: {
+						Type: "RARE"
+						Color: 8090608
+						Loot: "aof:loot_bags/ind_rev/rare"
+						Name: "Industrial Revolution Rare Lootbag"
+					}
+				}
 			}]
 		}
 		{
@@ -1655,11 +2009,17 @@
 			}]
 			rewards: [{
 				id: "44EBF25DDD272F6A"
-				type: "command"
-				title: "IR Rare Loot Bag"
-				icon: "kubejs:loot_bag_rare"
-				command: "/execute at @p run loot spawn ~ ~1 ~ loot aof:loot_bags/industrial_revolution_loot_rare"
-				player_command: false
+				type: "item"
+				item: {
+					id: "lootbags:loot_bag"
+					Count: 1b
+					tag: {
+						Type: "RARE"
+						Color: 8090608
+						Loot: "aof:loot_bags/ind_rev/rare"
+						Name: "Industrial Revolution Rare Lootbag"
+					}
+				}
 			}]
 		}
 	]

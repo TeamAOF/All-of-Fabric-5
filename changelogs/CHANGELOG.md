@@ -1,3 +1,31 @@
+### All of Fabric 5 | v2.0.5
+
+_Fabric Loader 0.14.9_ | _[Mod Updates](https://github.com/TeamAOF/All-of-Fabric-5/blob/main/changelogs/changelog_mods_2.0.5.md)_ | _[Modlist](https://github.com/TeamAOF/All-of-Fabric-5/blob/main/changelogs/modlist_2.0.5.md)_
+
+### Changes
+
+* Quest rewards system 2.5 (You'll now have lootbags given to inventory, open by right-click).
+* Ultimine (Excavate) will now work with Tinkers tools.
+* Quitoxic Reeds will now spawn in all swamp-like biomes.
+* Huge dungeons galore, go explore!
+* Removed most progression skipping rewards in logistics table.
+* Croptopia fruit trees will now spawn in Terralith biomes.
+* Added creative items to replicator blacklist.
+
+### Fixes
+
+* NBT stack limitations due to nesting.
+
+### Added
+
+  * [Loot Integrations[Forge/Fabric]](https://www.curseforge.com/minecraft/mc-mods/loot-integrations) (by [someaddon](https://www.curseforge.com/members/someaddon/projects))
+  * [Resourceful Lootbags](https://www.curseforge.com/minecraft/mc-mods/resourceful-lootbags) (by [ThatGravyBoat](https://www.curseforge.com/members/ThatGravyBoat/projects))
+  * [Tamago](https://www.curseforge.com/minecraft/mc-mods/tamago) (by [thatguynamedalpha](https://www.curseforge.com/members/thatguynamedalpha/projects))
+  * [When Dungeons Arise - Fabric!](https://www.curseforge.com/minecraft/mc-mods/when-dungeons-arise-fabric) (by [Aureljz](https://www.curseforge.com/members/Aureljz/projects))
+  * [XL Packets Fabric](https://www.curseforge.com/minecraft/mc-mods/xl-packets-fabric) (by [tfarecnim](https://www.curseforge.com/members/tfarecnim/projects))
+  * [YUNG's Better Ocean Monuments (Fabric)](https://www.curseforge.com/minecraft/mc-mods/yungs-better-ocean-monuments-fabric) (by [YUNGNICKYOUNG](https://www.curseforge.com/members/YUNGNICKYOUNG/projects))
+---
+
 ### All of Fabric 5 | v2.0.4
 
 _Fabric Loader 0.14.9_ | _[Mod Updates](https://github.com/TeamAOF/All-of-Fabric-5/blob/main/changelogs/changelog_mods_2.0.4.md)_ | _[Modlist](https://github.com/TeamAOF/All-of-Fabric-5/blob/main/changelogs/modlist_2.0.4.md)_
