@@ -71,10 +71,10 @@
 					tag: {
 						Damage: 0
 						state: {
+							data: { }
 							state: {
 								Name: "minecraft:air"
 							}
-							data: { }
 							serializer: "buildinggadgets:dummy_serializer"
 						}
 					}
@@ -89,8 +89,8 @@
 					tag: {
 						Type: "UNCOMMON"
 						Color: 5889627
-						Name: "Agriculturist Lootbag"
 						Loot: "aof:loot_bags/misc/agriculturist"
+						Name: "Agriculturist Lootbag"
 					}
 				}
 			}]
@@ -111,10 +111,10 @@
 					tag: {
 						Damage: 0
 						state: {
+							data: { }
 							state: {
 								Name: "minecraft:air"
 							}
-							data: { }
 							serializer: "buildinggadgets:dummy_serializer"
 						}
 					}
@@ -129,8 +129,8 @@
 					tag: {
 						Type: "UNCOMMON"
 						Color: 5889627
-						Name: "Agriculturist Lootbag"
 						Loot: "aof:loot_bags/misc/agriculturist"
+						Name: "Agriculturist Lootbag"
 					}
 				}
 			}]
@@ -170,8 +170,8 @@
 					tag: {
 						Type: "UNCOMMON"
 						Color: 5889627
-						Name: "Agriculturist Lootbag"
 						Loot: "aof:loot_bags/misc/agriculturist"
+						Name: "Agriculturist Lootbag"
 					}
 				}
 			}]
@@ -224,8 +224,8 @@
 					Count: 1b
 					tag: {
 						overlay: 1b
-						Damage: 0
 						fuzzy: 1b
+						Damage: 0
 					}
 				}
 			}]
@@ -238,8 +238,8 @@
 					tag: {
 						Type: "UNCOMMON"
 						Color: 5889627
-						Name: "Agriculturist Lootbag"
 						Loot: "aof:loot_bags/misc/agriculturist"
+						Name: "Agriculturist Lootbag"
 					}
 				}
 			}]
@@ -297,8 +297,8 @@
 					tag: {
 						Type: "UNCOMMON"
 						Color: 5889627
-						Name: "Agriculturist Lootbag"
 						Loot: "aof:loot_bags/misc/agriculturist"
+						Name: "Agriculturist Lootbag"
 					}
 				}
 			}]
@@ -328,8 +328,8 @@
 					tag: {
 						Type: "EPIC"
 						Color: 16747259
-						Name: "Magic Epic Lootbag"
 						Loot: "aof:loot_bags/magic/epic"
+						Name: "Magic Epic Lootbag"
 					}
 				}
 			}]
@@ -355,8 +355,8 @@
 					tag: {
 						Type: "EPIC"
 						Color: 16747259
-						Name: "Magic Epic Lootbag"
 						Loot: "aof:loot_bags/magic/epic"
+						Name: "Magic Epic Lootbag"
 					}
 				}
 			}]
@@ -382,8 +382,8 @@
 					tag: {
 						Type: "EPIC"
 						Color: 16747259
-						Name: "Magic Epic Lootbag"
 						Loot: "aof:loot_bags/magic/epic"
+						Name: "Magic Epic Lootbag"
 					}
 				}
 			}]
@@ -413,8 +413,8 @@
 					tag: {
 						Type: "EPIC"
 						Color: 16747259
-						Name: "Magic Epic Lootbag"
 						Loot: "aof:loot_bags/magic/epic"
+						Name: "Magic Epic Lootbag"
 					}
 				}
 			}]
@@ -440,8 +440,8 @@
 					tag: {
 						Type: "EPIC"
 						Color: 16747259
-						Name: "Magic Epic Lootbag"
 						Loot: "aof:loot_bags/magic/epic"
+						Name: "Magic Epic Lootbag"
 					}
 				}
 			}]
@@ -471,8 +471,8 @@
 					tag: {
 						Type: "EPIC"
 						Color: 16747259
-						Name: "Magic Epic Lootbag"
 						Loot: "aof:loot_bags/magic/epic"
+						Name: "Magic Epic Lootbag"
 					}
 				}
 			}]
@@ -521,9 +521,9 @@
 					item: "chipped:alchemy_bench"
 				}
 				{
-					id: "779880FC571ECD33"
+					id: "75E28FE6C8A76768"
 					type: "item"
-					item: "chipped:mechanist_workbench"
+					item: "chipped:botanist_workbench"
 				}
 			]
 			rewards: [{
@@ -535,8 +535,8 @@
 					tag: {
 						Type: "UNCOMMON"
 						Color: 5889627
-						Name: "Agriculturist Lootbag"
 						Loot: "aof:loot_bags/misc/agriculturist"
+						Name: "Agriculturist Lootbag"
 					}
 				}
 			}]
@@ -607,30 +607,30 @@
 							items: [
 								{
 									id: "compactmachines:tunnel"
+									Count: 1b
 									tag: {
 										definition: {
 											id: "compactmachines:item"
 										}
 									}
-									Count: 1b
 								}
 								{
 									id: "compactmachines:tunnel"
+									Count: 1b
 									tag: {
 										definition: {
 											id: "compactmachines:fluid"
 										}
 									}
-									Count: 1b
 								}
 								{
 									id: "compactmachines:tunnel"
+									Count: 1b
 									tag: {
 										definition: {
 											id: "compactmachines:energy"
 										}
 									}
-									Count: 1b
 								}
 							]
 						}

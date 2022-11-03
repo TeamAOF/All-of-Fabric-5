@@ -123,6 +123,8 @@
 		ichor = true
 		#If true, enderslime geodes generate as additional islands in the end
 		ender = true
+		#If true, recipes using slime crystals will ignore the other geode configs, useful if you add other ways to get the slime crystals. When false (default), recipes using slime crystals will be substituted for an alternative if the geode is disabled.
+		forceRecipes = false
 
 #Features to use in debugging gameplay and mechanics, generally should not be enabled in packs
 [debug]

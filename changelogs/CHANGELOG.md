@@ -1,3 +1,28 @@
+### All of Fabric 5 | v2.0.6
+
+_Fabric Loader 0.14.10_ | _[Mod Updates](https://github.com/TeamAOF/All-of-Fabric-5/blob/main/changelogs/changelog_mods_2.0.6.md)_ | _[Modlist](https://github.com/TeamAOF/All-of-Fabric-5/blob/main/changelogs/modlist_2.0.6.md)_
+
+### Changes
+
+* Removed random traveler map from loot table, fixing server halts.
+
+### Fixes
+
+* Certain ores not spawning in any BYG biomes.
+* Missing quest rewards for MFE and Industrial Machine Cassings quests.
+* Botanist table missing from Chipped quest.
+
+### Added
+
+  * [Food Effect Tooltips](https://www.curseforge.com/minecraft/mc-mods/food-effect-tooltips) (by [DaFuqsy](https://www.curseforge.com/members/DaFuqsy/projects))
+  * [Gadgets Against Grind](https://www.curseforge.com/minecraft/mc-mods/gag) (by [MaxNeedsSnacks](https://www.curseforge.com/members/MaxNeedsSnacks/projects))
+  * [Rotten Creatures](https://www.curseforge.com/minecraft/mc-mods/rotten-creatures) (by [fusionstudiomc](https://www.curseforge.com/members/fusionstudiomc/projects))
+
+### Removed
+
+  * [Almost Unified](https://www.curseforge.com/minecraft/mc-mods/almost-unified) (by [TeamAlmostReliable](https://www.curseforge.com/members/TeamAlmostReliable/projects))
+---
+
 ### All of Fabric 5 | v2.0.5
 
 _Fabric Loader 0.14.9_ | _[Mod Updates](https://github.com/TeamAOF/All-of-Fabric-5/blob/main/changelogs/changelog_mods_2.0.5.md)_ | _[Modlist](https://github.com/TeamAOF/All-of-Fabric-5/blob/main/changelogs/modlist_2.0.5.md)_

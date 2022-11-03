@@ -1,7 +1,10 @@
 {
   "client": {
     "disableColoredCableRecipesInJEI": true,
+    "enableFacadesInJEI_comment": "Show facades in JEI ingredient list",
     "enableFacadesInJEI": false,
+    "enableFacadeRecipesInJEI_comment": "Show facade recipes in JEI for supported blocks",
+    "enableFacadeRecipesInJEI": true,
     "enableEffects": true,
     "useTerminalUseLargeFont": false,
     "useColoredCraftingStatus": true,
@@ -12,7 +15,9 @@
     "showPlacementPreview_comment": "Show a preview of part and facade placement",
     "showPlacementPreview": true,
     "notifyForFinishedCraftingJobs_comment": "Show toast when long-running crafting jobs finish.",
-    "notifyForFinishedCraftingJobs": true
+    "notifyForFinishedCraftingJobs": true,
+    "clearGridOnClose_comment": "Automatically clear the crafting/encoding grid when closing the terminal",
+    "clearGridOnClose": false
   },
   "terminals": {
     "terminalStyle": "small",

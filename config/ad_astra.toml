@@ -18,6 +18,7 @@ oxygenBarXOffset = 0
 oxygenBarYOffset = 0
 energyBarXOffset = 0
 energyBarYOffset = 0
+allowFlagImages = true
 [spaceSuit]
 spaceSuitTankSize = 81000
 netheriteSpaceSuitTankSize = 162000

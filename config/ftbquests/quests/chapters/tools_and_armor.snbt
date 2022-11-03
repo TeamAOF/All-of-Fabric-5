@@ -125,8 +125,8 @@
 						tag: {
 							Type: "UNCOMMON"
 							Color: 5889627
-							Loot: "aof:loot_bags/misc/agriculturist"
 							Name: "Agriculturist Lootbag"
+							Loot: "aof:loot_bags/misc/agriculturist"
 						}
 					}
 				}
@@ -215,8 +215,8 @@
 					tag: {
 						Type: "LEGENDARY"
 						Color: 16103753
-						Loot: "aof:loot_bags/misc/artifacts"
 						Name: "Artifact Lootbag"
+						Loot: "aof:loot_bags/misc/artifacts"
 					}
 				}
 			}]
@@ -283,8 +283,8 @@
 					tag: {
 						Type: "RARE"
 						Color: 16747259
-						Loot: "aof:loot_bags/magic/rare"
 						Name: "Magic Rare Lootbag"
+						Loot: "aof:loot_bags/magic/rare"
 					}
 				}
 			}]
@@ -358,8 +358,8 @@
 					tag: {
 						Type: "EPIC"
 						Color: 16747259
-						Loot: "aof:loot_bags/magic/epic"
 						Name: "Magic Epic Lootbag"
+						Loot: "aof:loot_bags/magic/epic"
 					}
 				}
 			}]
@@ -437,8 +437,8 @@
 					tag: {
 						Type: "LEGENDARY"
 						Color: 16747259
-						Loot: "aof:loot_bags/magic/legendary"
 						Name: "Magic Legendary Lootbag"
+						Loot: "aof:loot_bags/magic/legendary"
 					}
 				}
 			}]
@@ -512,8 +512,8 @@
 					tag: {
 						Type: "LEGENDARY"
 						Color: 16103753
-						Loot: "aof:loot_bags/misc/artifacts"
 						Name: "Artifact Lootbag"
+						Loot: "aof:loot_bags/misc/artifacts"
 					}
 				}
 			}]
@@ -581,8 +581,8 @@
 						tag: {
 							Type: "UNCOMMON"
 							Color: 5889627
-							Name: "Agriculturist Lootbag"
 							Loot: "aof:loot_bags/misc/agriculturist"
+							Name: "Agriculturist Lootbag"
 						}
 					}
 				}
@@ -595,8 +595,8 @@
 						tag: {
 							Type: "LEGENDARY"
 							Color: 16103753
-							Loot: "aof:loot_bags/misc/artifacts"
 							Name: "Artifact Lootbag"
+							Loot: "aof:loot_bags/misc/artifacts"
 						}
 					}
 				}
@@ -639,8 +639,8 @@
 					tag: {
 						Type: "LEGENDARY"
 						Color: 3706623
-						Loot: "aof:loot_bags/tech_reborn/legendary"
 						Name: "Tech Reborn Legendary Lootbag"
+						Loot: "aof:loot_bags/tech_reborn/legendary"
 					}
 				}
 			}]
@@ -688,8 +688,8 @@
 					tag: {
 						Type: "RARE"
 						Color: 8090608
-						Loot: "aof:loot_bags/ind_rev/rare"
 						Name: "Industrial Revolution Rare Lootbag"
+						Loot: "aof:loot_bags/ind_rev/rare"
 					}
 				}
 			}]
@@ -743,8 +743,8 @@
 					tag: {
 						Type: "COMMON"
 						Color: 3706623
-						Loot: "aof:loot_bags/tech_reborn/common"
 						Name: "Tech Reborn Common Lootbag"
+						Loot: "aof:loot_bags/tech_reborn/common"
 					}
 				}
 			}]
@@ -788,8 +788,8 @@
 					tag: {
 						Type: "RARE"
 						Color: 3706623
-						Loot: "aof:loot_bags/tech_reborn/rare"
 						Name: "Tech Reborn Rare Lootbag"
+						Loot: "aof:loot_bags/tech_reborn/rare"
 					}
 				}
 			}]
@@ -833,8 +833,8 @@
 					tag: {
 						Type: "EPIC"
 						Color: 3706623
-						Loot: "aof:loot_bags/tech_reborn/epic"
 						Name: "Tech Reborn Epic Lootbag"
+						Loot: "aof:loot_bags/tech_reborn/epic"
 					}
 				}
 			}]
@@ -888,8 +888,8 @@
 						tag: {
 							Type: "UNCOMMON"
 							Color: 5889627
-							Loot: "aof:loot_bags/misc/agriculturist"
 							Name: "Agriculturist Lootbag"
+							Loot: "aof:loot_bags/misc/agriculturist"
 						}
 					}
 				}
@@ -902,8 +902,8 @@
 						tag: {
 							Type: "RARE"
 							Color: 8090608
-							Loot: "aof:loot_bags/ind_rev/rare"
 							Name: "Industrial Revolution Rare Lootbag"
+							Loot: "aof:loot_bags/ind_rev/rare"
 						}
 					}
 				}
@@ -943,8 +943,8 @@
 						tag: {
 							Type: "LEGENDARY"
 							Color: 16103753
-							Loot: "aof:loot_bags/misc/artifacts"
 							Name: "Artifact Lootbag"
+							Loot: "aof:loot_bags/misc/artifacts"
 						}
 					}
 				}
@@ -957,8 +957,8 @@
 						tag: {
 							Type: "UNCOMMON"
 							Color: 6750133
-							Loot: "aof:loot_bags/misc/utilities"
 							Name: "Utilities Lootbag"
+							Loot: "aof:loot_bags/misc/utilities"
 						}
 					}
 				}
@@ -985,8 +985,8 @@
 					tag: {
 						Type: "RARE"
 						Color: 3706623
-						Loot: "aof:loot_bags/tech_reborn/rare"
 						Name: "Tech Reborn Rare Lootbag"
+						Loot: "aof:loot_bags/tech_reborn/rare"
 					}
 				}
 			}]
@@ -1054,8 +1054,8 @@
 					tag: {
 						Type: "LEGENDARY"
 						Color: 16103753
-						Loot: "aof:loot_bags/misc/artifacts"
 						Name: "Artifact Lootbag"
+						Loot: "aof:loot_bags/misc/artifacts"
 					}
 				}
 			}]
@@ -1122,8 +1122,8 @@
 					tag: {
 						Type: "LEGENDARY"
 						Color: 16103753
-						Loot: "aof:loot_bags/misc/artifacts"
 						Name: "Artifact Lootbag"
+						Loot: "aof:loot_bags/misc/artifacts"
 					}
 				}
 			}]
@@ -1189,8 +1189,8 @@
 					tag: {
 						Type: "LEGENDARY"
 						Color: 16103753
-						Loot: "aof:loot_bags/misc/artifacts"
 						Name: "Artifact Lootbag"
+						Loot: "aof:loot_bags/misc/artifacts"
 					}
 				}
 			}]
@@ -1256,8 +1256,8 @@
 					tag: {
 						Type: "LEGENDARY"
 						Color: 16103753
-						Loot: "aof:loot_bags/misc/artifacts"
 						Name: "Artifact Lootbag"
+						Loot: "aof:loot_bags/misc/artifacts"
 					}
 				}
 			}]
@@ -1290,8 +1290,8 @@
 					tag: {
 						Type: "UNCOMMON"
 						Color: 5889627
-						Loot: "aof:loot_bags/misc/agriculturist"
 						Name: "Agriculturist Lootbag"
+						Loot: "aof:loot_bags/misc/agriculturist"
 					}
 				}
 			}]
@@ -1323,8 +1323,8 @@
 					tag: {
 						Type: "UNCOMMON"
 						Color: 5889627
-						Loot: "aof:loot_bags/misc/agriculturist"
 						Name: "Agriculturist Lootbag"
+						Loot: "aof:loot_bags/misc/agriculturist"
 					}
 				}
 			}]
@@ -1356,8 +1356,8 @@
 					tag: {
 						Type: "UNCOMMON"
 						Color: 5889627
-						Loot: "aof:loot_bags/misc/agriculturist"
 						Name: "Agriculturist Lootbag"
+						Loot: "aof:loot_bags/misc/agriculturist"
 					}
 				}
 			}]
@@ -1398,8 +1398,8 @@
 					tag: {
 						Type: "UNCOMMON"
 						Color: 5889627
-						Loot: "aof:loot_bags/misc/agriculturist"
 						Name: "Agriculturist Lootbag"
+						Loot: "aof:loot_bags/misc/agriculturist"
 					}
 				}
 			}]
@@ -1439,8 +1439,8 @@
 					tag: {
 						Type: "LEGENDARY"
 						Color: 16103753
-						Loot: "aof:loot_bags/misc/artifacts"
 						Name: "Artifact Lootbag"
+						Loot: "aof:loot_bags/misc/artifacts"
 					}
 				}
 			}]
@@ -1491,8 +1491,8 @@
 					tag: {
 						Type: "RARE"
 						Color: 16747259
-						Loot: "aof:loot_bags/magic/rare"
 						Name: "Magic Rare Lootbag"
+						Loot: "aof:loot_bags/magic/rare"
 					}
 				}
 			}]
@@ -1522,8 +1522,8 @@
 					tag: {
 						Type: "EPIC"
 						Color: 16747259
-						Loot: "aof:loot_bags/magic/epic"
 						Name: "Magic Epic Lootbag"
+						Loot: "aof:loot_bags/magic/epic"
 					}
 				}
 			}]
@@ -1568,8 +1568,8 @@
 					tag: {
 						Type: "LEGENDARY"
 						Color: 16103753
-						Loot: "aof:loot_bags/misc/artifacts"
 						Name: "Artifact Lootbag"
+						Loot: "aof:loot_bags/misc/artifacts"
 					}
 				}
 			}]
@@ -1599,8 +1599,8 @@
 					tag: {
 						Type: "LEGENDARY"
 						Color: 16747259
-						Loot: "aof:loot_bags/magic/legendary"
 						Name: "Magic Legendary Lootbag"
+						Loot: "aof:loot_bags/magic/legendary"
 					}
 				}
 			}]
@@ -1640,8 +1640,8 @@
 					tag: {
 						Type: "RARE"
 						Color: 3706623
-						Loot: "aof:loot_bags/tech_reborn/rare"
 						Name: "Tech Reborn Rare Lootbag"
+						Loot: "aof:loot_bags/tech_reborn/rare"
 					}
 				}
 			}]
@@ -1715,8 +1715,8 @@
 						tag: {
 							Type: "UNCOMMON"
 							Color: 5889627
-							Loot: "aof:loot_bags/misc/agriculturist"
 							Name: "Agriculturist Lootbag"
+							Loot: "aof:loot_bags/misc/agriculturist"
 						}
 					}
 				}
@@ -1760,8 +1760,8 @@
 					tag: {
 						Type: "LEGENDARY"
 						Color: 16103753
-						Loot: "aof:loot_bags/misc/artifacts"
 						Name: "Artifact Lootbag"
+						Loot: "aof:loot_bags/misc/artifacts"
 					}
 				}
 			}]
@@ -1793,8 +1793,8 @@
 					tag: {
 						Type: "LEGENDARY"
 						Color: 16747259
-						Loot: "aof:loot_bags/magic/legendary"
 						Name: "Magic Legendary Lootbag"
+						Loot: "aof:loot_bags/magic/legendary"
 					}
 				}
 			}]
@@ -1830,8 +1830,8 @@
 					tag: {
 						Type: "LEGENDARY"
 						Color: 16747259
-						Loot: "aof:loot_bags/magic/legendary"
 						Name: "Magic Legendary Lootbag"
+						Loot: "aof:loot_bags/magic/legendary"
 					}
 				}
 			}]
@@ -1897,8 +1897,8 @@
 					tag: {
 						Type: "LEGENDARY"
 						Color: 16103753
-						Loot: "aof:loot_bags/misc/artifacts"
 						Name: "Artifact Lootbag"
+						Loot: "aof:loot_bags/misc/artifacts"
 					}
 				}
 			}]
@@ -1930,8 +1930,8 @@
 					tag: {
 						Type: "LEGENDARY"
 						Color: 16103753
-						Loot: "aof:loot_bags/misc/artifacts"
 						Name: "Artifact Lootbag"
+						Loot: "aof:loot_bags/misc/artifacts"
 					}
 				}
 			}]
@@ -1963,8 +1963,8 @@
 					tag: {
 						Type: "LEGENDARY"
 						Color: 16103753
-						Loot: "aof:loot_bags/misc/artifacts"
 						Name: "Artifact Lootbag"
+						Loot: "aof:loot_bags/misc/artifacts"
 					}
 				}
 			}]
@@ -1989,8 +1989,8 @@
 					tag: {
 						Type: "UNCOMMON"
 						Color: 5889627
-						Loot: "aof:loot_bags/misc/agriculturist"
 						Name: "Agriculturist Lootbag"
+						Loot: "aof:loot_bags/misc/agriculturist"
 					}
 				}
 			}]
@@ -2015,8 +2015,8 @@
 					tag: {
 						Type: "UNCOMMON"
 						Color: 5889627
-						Loot: "aof:loot_bags/misc/agriculturist"
 						Name: "Agriculturist Lootbag"
+						Loot: "aof:loot_bags/misc/agriculturist"
 					}
 				}
 			}]
@@ -2052,8 +2052,8 @@
 					tag: {
 						Type: "UNCOMMON"
 						Color: 5889627
-						Loot: "aof:loot_bags/misc/agriculturist"
 						Name: "Agriculturist Lootbag"
+						Loot: "aof:loot_bags/misc/agriculturist"
 					}
 				}
 			}]
@@ -2084,8 +2084,8 @@
 						tag: {
 							Type: "UNCOMMON"
 							Color: 5889627
-							Loot: "aof:loot_bags/misc/agriculturist"
 							Name: "Agriculturist Lootbag"
+							Loot: "aof:loot_bags/misc/agriculturist"
 						}
 					}
 				}
@@ -2118,8 +2118,8 @@
 						tag: {
 							Type: "UNCOMMON"
 							Color: 5889627
-							Loot: "aof:loot_bags/misc/agriculturist"
 							Name: "Agriculturist Lootbag"
+							Loot: "aof:loot_bags/misc/agriculturist"
 						}
 					}
 				}
@@ -2145,8 +2145,8 @@
 					tag: {
 						Type: "UNCOMMON"
 						Color: 5889627
-						Loot: "aof:loot_bags/misc/agriculturist"
 						Name: "Agriculturist Lootbag"
+						Loot: "aof:loot_bags/misc/agriculturist"
 					}
 				}
 			}]
@@ -2170,8 +2170,8 @@
 					tag: {
 						Type: "UNCOMMON"
 						Color: 5889627
-						Loot: "aof:loot_bags/misc/agriculturist"
 						Name: "Agriculturist Lootbag"
+						Loot: "aof:loot_bags/misc/agriculturist"
 					}
 				}
 			}]
@@ -2195,8 +2195,8 @@
 					tag: {
 						Type: "UNCOMMON"
 						Color: 5889627
-						Loot: "aof:loot_bags/misc/agriculturist"
 						Name: "Agriculturist Lootbag"
+						Loot: "aof:loot_bags/misc/agriculturist"
 					}
 				}
 			}]
@@ -2220,8 +2220,8 @@
 					tag: {
 						Type: "UNCOMMON"
 						Color: 5889627
-						Loot: "aof:loot_bags/misc/agriculturist"
 						Name: "Agriculturist Lootbag"
+						Loot: "aof:loot_bags/misc/agriculturist"
 					}
 				}
 			}]
@@ -2245,8 +2245,8 @@
 					tag: {
 						Type: "UNCOMMON"
 						Color: 5889627
-						Loot: "aof:loot_bags/misc/agriculturist"
 						Name: "Agriculturist Lootbag"
+						Loot: "aof:loot_bags/misc/agriculturist"
 					}
 				}
 			}]
@@ -2270,8 +2270,8 @@
 					tag: {
 						Type: "UNCOMMON"
 						Color: 5889627
-						Loot: "aof:loot_bags/misc/agriculturist"
 						Name: "Agriculturist Lootbag"
+						Loot: "aof:loot_bags/misc/agriculturist"
 					}
 				}
 			}]
@@ -2310,8 +2310,8 @@
 					tag: {
 						Type: "UNCOMMON"
 						Color: 5889627
-						Loot: "aof:loot_bags/misc/agriculturist"
 						Name: "Agriculturist Lootbag"
+						Loot: "aof:loot_bags/misc/agriculturist"
 					}
 				}
 			}]
@@ -2335,8 +2335,8 @@
 					tag: {
 						Type: "UNCOMMON"
 						Color: 5889627
-						Loot: "aof:loot_bags/misc/agriculturist"
 						Name: "Agriculturist Lootbag"
+						Loot: "aof:loot_bags/misc/agriculturist"
 					}
 				}
 			}]
@@ -2366,8 +2366,8 @@
 						tag: {
 							Type: "UNCOMMON"
 							Color: 5889627
-							Loot: "aof:loot_bags/misc/agriculturist"
 							Name: "Agriculturist Lootbag"
+							Loot: "aof:loot_bags/misc/agriculturist"
 						}
 					}
 				}
@@ -2392,8 +2392,8 @@
 					tag: {
 						Type: "UNCOMMON"
 						Color: 5889627
-						Loot: "aof:loot_bags/misc/agriculturist"
 						Name: "Agriculturist Lootbag"
+						Loot: "aof:loot_bags/misc/agriculturist"
 					}
 				}
 			}]
@@ -2417,8 +2417,8 @@
 					tag: {
 						Type: "UNCOMMON"
 						Color: 5889627
-						Loot: "aof:loot_bags/misc/agriculturist"
 						Name: "Agriculturist Lootbag"
+						Loot: "aof:loot_bags/misc/agriculturist"
 					}
 				}
 			}]
@@ -2442,8 +2442,8 @@
 					tag: {
 						Type: "UNCOMMON"
 						Color: 5889627
-						Loot: "aof:loot_bags/misc/agriculturist"
 						Name: "Agriculturist Lootbag"
+						Loot: "aof:loot_bags/misc/agriculturist"
 					}
 				}
 			}]

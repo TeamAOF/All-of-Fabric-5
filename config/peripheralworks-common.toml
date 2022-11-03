@@ -29,6 +29,10 @@
 
 [integrations]
 
+	[integrations.lift]
+		#Enables lift integration
+		enableLift = true
+
 	[integrations.team_reborn_energy]
 		#Enables energy storage integration
 		enableEnergyStorage = true
@@ -37,4 +41,8 @@
 		energyToFuelRate = 50
 		#Enables turtle refueling with items with energy
 		enableTurtleRefuelWithEnergy = true
+
+	[integrations.ae2]
+		#Enables me interface integration
+		enableMEInterface = true
 

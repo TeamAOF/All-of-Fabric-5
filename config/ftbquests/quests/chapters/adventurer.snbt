@@ -96,8 +96,8 @@
 						tag: {
 							Type: "UNCOMMON"
 							Color: 5889627
-							Loot: "aof:loot_bags/misc/agriculturist"
 							Name: "Agriculturist Lootbag"
+							Loot: "aof:loot_bags/misc/agriculturist"
 						}
 					}
 				}
@@ -134,8 +134,8 @@
 						tag: {
 							Type: "UNCOMMON"
 							Color: 5889627
-							Loot: "aof:loot_bags/misc/agriculturist"
 							Name: "Agriculturist Lootbag"
+							Loot: "aof:loot_bags/misc/agriculturist"
 						}
 					}
 				}
@@ -175,8 +175,8 @@
 						tag: {
 							Type: "UNCOMMON"
 							Color: 5889627
-							Loot: "aof:loot_bags/misc/agriculturist"
 							Name: "Agriculturist Lootbag"
+							Loot: "aof:loot_bags/misc/agriculturist"
 						}
 					}
 				}
@@ -269,8 +269,8 @@
 						tag: {
 							Type: "LEGENDARY"
 							Color: 16103753
-							Loot: "aof:loot_bags/misc/artifacts"
 							Name: "Artifact Lootbag"
+							Loot: "aof:loot_bags/misc/artifacts"
 						}
 					}
 				}
@@ -283,8 +283,8 @@
 						tag: {
 							Type: "UNCOMMON"
 							Color: 5889627
-							Loot: "aof:loot_bags/misc/agriculturist"
 							Name: "Agriculturist Lootbag"
+							Loot: "aof:loot_bags/misc/agriculturist"
 						}
 					}
 				}
@@ -334,8 +334,8 @@
 						tag: {
 							Type: "RARE"
 							Color: 11763949
-							Loot: "aof:loot_bags/ad_astra/rare"
 							Name: "Ad Astra! Rare Lootbag"
+							Loot: "aof:loot_bags/ad_astra/rare"
 						}
 					}
 				}
@@ -388,8 +388,8 @@
 						tag: {
 							Type: "UNCOMMON"
 							Color: 5889627
-							Loot: "aof:loot_bags/misc/agriculturist"
 							Name: "Agriculturist Lootbag"
+							Loot: "aof:loot_bags/misc/agriculturist"
 						}
 					}
 				}
@@ -429,8 +429,8 @@
 						tag: {
 							Type: "UNCOMMON"
 							Color: 5889627
-							Loot: "aof:loot_bags/misc/agriculturist"
 							Name: "Agriculturist Lootbag"
+							Loot: "aof:loot_bags/misc/agriculturist"
 						}
 					}
 				}

@@ -41,6 +41,8 @@
 
 	#Settings related to compatibility
 	[client.compatibility]
+		#Disables the REI deprecation warning when joining a world.
+		disableREIMessage = true
 		#If true and Inventory Tabs is loaded, TConstruct table tabs will be hidden so Inventory Tabs tabs can be used.
 		inventoryTabs = true
 
